@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T06:50:25.652Z",
+  "updatedAt": "2026-07-25T13:05:55.737Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -22,131 +22,121 @@
       "region": "National",
       "feed": "https://www.theguardian.com/australia-news/rss",
       "tone": "分析视角"
-    },
-    {
-      "id": "afr",
-      "name": "Financial Review",
-      "region": "Business",
-      "feed": "https://www.afr.com/rss",
-      "tone": "商业财经"
     }
   ],
-  "errors": [
-    {
-      "source": "Financial Review",
-      "message": "Status code 404"
-    }
-  ],
+  "errors": [],
   "clusters": [
     {
-      "id": "cluster-3",
-      "headline": "Two new bird flu cases suspected in SA, including first on a metro beach",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-25T04:07:35.000Z",
-      "voiceScript": "Two new bird flu cases suspected in SA, including first on a metro beach。 Two additional suspected cases of H5 bird flu have been detected in South Australia. If confirmed, it will bring Australia's total H5 bird flu case tally to 18.",
-      "differences": [
-        "ABC News：偏公共媒体，重点是Two additional suspected cases of H5 bird flu have been detected in South Australia。",
-        "SBS News：偏多元社区，重点是If confirmed, it will bring Australia's total H5 bird flu case tally to 18。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/two-additional-h5-bird-flu-suspected-in-sa/106957832",
-          "title": "Two new bird flu cases suspected in SA, including first on a metro beach"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo",
-          "title": "'We can't stop this virus': Another state records first suspected bird flu case"
-        }
-      ]
-    },
-    {
-      "id": "cluster-28",
-      "headline": "Barnaby bends the media cycle – Back to Back Barries podcast",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-24T15:00:20.000Z",
-      "voiceScript": "Back to Back Barries: Barnaby bends the media cycle - podcast。 Tony Barry and George Megalogenis (filling in for Barrie Cassidy) give their view on One Nation MP Barnaby Joyce’s viral moment this week and why they think it played well to his party’s base. Tony Barry and George Megalogenis (filling in for Barrie Cassidy) give their view on One Nation MP Barnaby Joyce’s viral moment this week and why they think it played well to his party’s base.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/audio/2026/jul/25/back-to-back-barries-podcast-barnaby-bends-the-media-cycle",
-          "title": "Back to Back Barries: Barnaby bends the media cycle - podcast"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/video/2026/jul/25/barnaby-bends-the-media-cycle-back-to-back-barries-podcast",
-          "title": "Barnaby bends the media cycle – Back to Back Barries podcast"
-        }
-      ]
-    },
-    {
       "id": "cluster-1",
-      "headline": "Federal government says fuel supply 'solid and secure' as prices climb again",
+      "headline": "Two people shot by police during altercation in Cairns",
       "sourceCount": 1,
-      "publishedAt": "2026-07-25T04:19:32.000Z",
-      "voiceScript": "Federal government says fuel supply 'solid and secure' as prices climb again。 The government is reassuring motorists about Australia's fuel supply as petrol prices rise amid renewed clashes in the five-month old war in the Middle East.",
+      "publishedAt": "2026-07-25T09:47:50.000Z",
+      "voiceScript": "昆士兰凯恩斯今天发生警方开枪事件，一男一女在与持武器嫌疑人冲突时被击中。ABC 目前只确认了地点、受伤人数和大致经过，嫌疑人和伤者的具体情况还没有完全公开。接下来要看警方是否说明当时为什么升级到开枪，以及三名相关人员的伤势是否稳定。",
       "differences": [],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876",
-          "title": "Federal government says fuel supply 'solid and secure' as prices climb again"
+          "url": "https://www.abc.net.au/news/2026-07-25/queensland-police-shoot-man-woman-cairns-altercation/106958468",
+          "title": "Two people shot by police during altercation in Cairns"
         }
       ]
     },
     {
       "id": "cluster-2",
-      "headline": "Trump mixes jokes with barbs at press freedom dinner",
+      "headline": "Fuel prices climb as Middle East tensions hit Australian households",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-25T09:00:38.000Z",
+      "voiceScript": "国际油价继续走高，澳洲加油站的压力也在上来。ABC、SBS 和《卫报》都在追这条线，但切口不同：政府说供应仍然稳，市场却担心中东局势把零售价继续往上推，家庭预算和通胀都可能被拖累。现在最要紧的是看每升油价会不会逼近或突破 2 澳元，以及这轮涨价会不会传导到更多商品和下一次利率决定。",
+      "differences": [
+        "ABC News：强调联邦政府对燃油供应的安抚口径，标题直接写出 supply 'solid and secure'。",
+        "SBS News：更强调中东局势升级会把澳洲油价继续推高。",
+        "The Guardian Australia：把重点放在家庭开销、通胀和利率风险上，提到汽油可能逼近每升 2 澳元。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876",
+          "title": "Federal government says fuel supply 'solid and secure' as prices climb again"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/more-fuel-price-pain-ahead-for-australians-as-war-ramps-up-and-de-escalation-dims/liu71xlm1",
+          "title": "More fuel price pain ahead as Houthis widen war's front line, Trump considers fresh strikes"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising",
+          "title": "Australian households face prospect of interest rate hike and petrol prices rising above $2 a litre"
+        }
+      ]
+    },
+    {
+      "id": "cluster-3",
+      "headline": "Drivers urged to play their part as five people die on WA roads in 24 hours",
       "sourceCount": 1,
-      "publishedAt": "2026-07-25T04:09:32.000Z",
-      "voiceScript": "Trump mixes jokes with barbs at press freedom dinner。 US President Donald Trump has poked fun at the press during a redo of the White House Correspondents' Association dinner after a shooting forced the suspension of the original event in April.",
+      "publishedAt": "2026-07-25T06:21:30.000Z",
+      "voiceScript": "西澳在不到 24 小时里有 5 人死于不同车祸，路死亡人数继续上升。ABC 报道里点名的是分散在多个地点的事故，不是单一连环撞。对西澳来说，这会把道路安全、超速、疲劳驾驶和农村公路执法再次推到前台。下一步要看州政府会不会加大执法和安全提示，还是继续把重点放在驾驶员行为上。",
       "differences": [],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/trump-white-house-correspondents-dinner-speech/106957820",
-          "title": "Trump mixes jokes with barbs at press freedom dinner"
+          "url": "https://www.abc.net.au/news/2026-07-25/five-people-die-in-24-hours-on-wa-roads/106958246",
+          "title": "Drivers urged to play their part as five people die on WA roads in 24 hours"
         }
       ]
     },
     {
       "id": "cluster-4",
-      "headline": "Here's what you need to know about Woodside's Federal Court case",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-25T03:41:27.000Z",
-      "voiceScript": "Here's what you need to know about Woodside's Federal Court case。 Four days in, the Federal Court has scrutinised the decision to extend Australia's biggest gas project another 40 years, amid fears for Indigenous heritage and climate impacts.",
-      "differences": [],
+      "headline": "Labor blocks Gaza debate as Husic attacks rigid party culture",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-25T06:01:39.000Z",
+      "voiceScript": "工党全国会议上，Ed Husic 推动的加沙议题辩论被挡下后，党内分歧直接浮上台面。ABC 说，Husic 公开批评工党文化太僵硬；《卫报》则把焦点放在这场争议没有在会场演成公开冲突。对阿尔巴尼斯政府来说，这不仅是外交立场问题，也关系到党内团结、穆斯林选民观感和未来对中东表态的空间。接下来要看 Husic 是否继续施压，以及领导层会不会给更明确的解释。",
+      "differences": [
+        "ABC News：更强调 Husic 对工党文化和党纪的直接批评。",
+        "The Guardian Australia：更强调争议在全国会议收尾阶段被按住，没有演成公开 stoush。"
+      ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/what-to-know-about-the-landmark-case-against-north-west-shelf/106953170",
-          "title": "Here's what you need to know about Woodside's Federal Court case"
+          "url": "https://www.abc.net.au/news/2026-07-25/ed-husic-pushes-for-gaza-debate-at-labor-conference/106957962",
+          "title": "Husic lashes Labor culture after push for Gaza debate fails"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/ed-husic-labor-gaza-genocide-claims-ntwnfb",
+          "title": "Ed Husic-led push for Labor to recognise Gaza genocide fails, preventing public stoush"
         }
       ]
     },
     {
       "id": "cluster-5",
-      "headline": "Every Australian Medal from the Glasgow Commonwealth Games so far",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-25T03:40:47.000Z",
-      "voiceScript": "Every Australian Medal from the Glasgow Commonwealth Games so far。 It's expected to be a gold rush for Australia at the Commonwealth Games in Glasgow.",
-      "differences": [],
+      "headline": "Syngenta stops Australian paraquat sales after tighter regulations",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-25T04:59:49.000Z",
+      "voiceScript": "化工公司 Syngenta 表示，会停止在澳洲销售除草剂 paraquat。ABC 和《卫报》都指向同一件事：监管更严后，企业认为继续卖下去已经不划算；但《卫报》更强调它在多国被禁、并长期伴随帕金森病争议。对澳洲农业来说，真正的问题是农户还有没有足够替代品，以及 APVMA 后面会不会继续收紧。",
+      "differences": [
+        "ABC News：侧重企业决定停售的监管与商业原因。",
+        "The Guardian Australia：侧重 paraquat 在多国被禁以及帕金森病风险争议。"
+      ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/commonwealth-games-2026-every-australian-medal/106958160",
-          "title": "Every Australian Medal from the Glasgow Commonwealth Games so far"
+          "url": "https://www.abc.net.au/news/rural/2026-07-25/syngenta-stops-sales-of-paraquat-after-apvma-review/106956466",
+          "title": "Chemical manufacturer ends sales of controversial herbicide"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/environment/2026/jul/25/herbicide-parkinsons-disease-paraquat-pulled-from-sale-australia-syngenta",
+          "title": "Herbicide banned in 70 countries to be pulled from sale in Australia by chemical maker"
         }
       ]
     },
     {
       "id": "cluster-6",
-      "headline": "H5 bird flu confirmed in wild seabird found at Moreton Island",
+      "headline": "H5 bird flu confirmed in a wild seabird at Moreton Island",
       "sourceCount": 1,
       "publishedAt": "2026-07-25T03:39:01.000Z",
-      "voiceScript": "H5 bird flu confirmed in wild seabird found at Moreton Island。 The CSIRO has officially confirmed a dead petrel found at Moreton Island was positive for H5 bird flu.",
+      "voiceScript": "莫顿岛发现的死海鸟样本已经由 CSIRO 确认为 H5 禽流感阳性。地点离布里斯班不远，这说明野鸟监测仍在持续发现病例。现在还没有迹象指向家禽供应链，但澳洲野鸟中的 H5 扩散范围需要继续盯紧，尤其是昆士兰和其他州之间是否会出现更多报告。",
       "differences": [],
       "links": [
         {
@@ -158,280 +148,40 @@
     },
     {
       "id": "cluster-7",
-      "headline": "Death of Black teen who partied with white friends ignites civil rights group",
+      "headline": "RFDS brings Australian-first care to remote Gulf community",
       "sourceCount": 1,
-      "publishedAt": "2026-07-25T03:34:54.000Z",
-      "voiceScript": "Death of Black teen who partied with white friends ignites civil rights group。 Black teen Nolan Wells went to a party with white friends and didn't come home alive.",
+      "publishedAt": "2026-07-25T01:27:11.000Z",
+      "voiceScript": "在昆士兰偏远的莫宁顿岛，皇家飞行医生服务开始提供澳洲首个类似的长期基层医疗合作。对当地原住民社区来说，这意味着基本医疗、慢病管理和及时转诊不再完全依赖偶尔飞行支援。它的重要性在于把偏远岛屿的医疗缺口变成一套更稳定的服务模式，接下来要看能否持续供给人员和资金。",
       "differences": [],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/nolan-wells-death-has-sparked-division-in-mississippi-us/106945676",
-          "title": "Death of Black teen who partied with white friends ignites civil rights group"
+          "url": "https://www.abc.net.au/news/2026-07-25/mornington-island-gulf-rfds-queensland-health-care/106948234",
+          "title": "RFDS brings Australian-first care to remote Gulf community"
         }
       ]
     },
     {
       "id": "cluster-8",
-      "headline": "Clay wants you to know why he was in a maximum security prison",
+      "headline": "The $11,710 partner visa bill is keeping some couples apart",
       "sourceCount": 1,
-      "publishedAt": "2026-07-25T03:27:00.000Z",
-      "voiceScript": "Clay wants you to know why he was in a maximum security prison。 Clay first tried drugs during lunchtime at school.",
+      "publishedAt": "2026-07-24T20:42:03.000Z",
+      "voiceScript": "伴侣签证的高额费用和漫长等待，把一些跨国夫妻卡在一起。SBS 报道强调，申请费已经到 11,710 澳元，这还只是开始，后面还有审理时间和生活成本。对澳洲家庭来说，这不仅是移民手续，更是能不能一起生活的问题。接下来要看政府是否会重新审视收费和处理速度。",
       "differences": [],
       "links": [
         {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/clay-scott-drug-addiction-rehab-sobriety/106948772",
-          "title": "Clay wants you to know why he was in a maximum security prison"
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/australian-partner-visa-high-fee-long-waiting-times/ndnwrh7q8",
+          "title": "'Life delayed': The $11,710 bill keeping some couples apart"
         }
       ]
     },
     {
       "id": "cluster-9",
-      "headline": "Live: Anderson fakes out Blues duo for Goal of the Year contender in thriller",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-25T03:01:44.000Z",
-      "voiceScript": "Live: Anderson fakes out Blues duo for Goal of the Year contender in thriller。 Carlton hosts Gold Coast at Docklands Stadium with both teams needing a win to keep their wildcard hopes alive.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/afl-r20-blues-suns-hawks-dons-giants-swans-wb-tigers-live-blog/106957878",
-          "title": "Live: Anderson fakes out Blues duo for Goal of the Year contender in thriller"
-        }
-      ]
-    },
-    {
-      "id": "cluster-10",
-      "headline": "'Blight on the sport': Fight cancelled on Tszyu card after weigh-in",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-25T02:25:35.000Z",
-      "voiceScript": "'Blight on the sport': Fight cancelled on Tszyu card after weigh-in。 Australian boxer Liam Wilson sees his fight on the Tim Tszyu card cancelled after his American opponent comes in well over the agreed weight.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/tim-tszyu-fight-liam-wilson-bout-cancelled-after-weigh-in-drama/106957992",
-          "title": "'Blight on the sport': Fight cancelled on Tszyu card after weigh-in"
-        }
-      ]
-    },
-    {
-      "id": "cluster-11",
-      "headline": "'We can all feel it': Bronze medal lifts Aussie gymnasts' outlook",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-25T01:55:45.000Z",
-      "voiceScript": "'We can all feel it': Bronze medal lifts Aussie gymnasts' outlook。 Australia's male gymnasts finally put their close call of 2022 behind them to claim bronze at the Commonwealth Games in Glasgow.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/commonwealth-games-2026-australian-gymnasts-claim-bronze/106957948",
-          "title": "'We can all feel it': Bronze medal lifts Aussie gymnasts' outlook"
-        }
-      ]
-    },
-    {
-      "id": "cluster-12",
-      "headline": "Thousands flock to Victorian canola farm chasing social media snaps",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-25T01:49:25.000Z",
-      "voiceScript": "Thousands flock to Victorian canola farm chasing social media snaps。 Tourists looking to get a picture of canola fields are often told to steer clear, but one central Victorian farm is welcoming them with open arms and has turned the attraction into a popular agritourism event.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/rural/2026-07-25/canola-field-heathcote-thousands-of-visitors-yellow-photo/106937720",
-          "title": "Thousands flock to Victorian canola farm chasing social media snaps"
-        }
-      ]
-    },
-    {
-      "id": "cluster-13",
-      "headline": "Flaming teacakes, bedazzled unicorns: The Commonwealth Games' surprises unpacked",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-24T07:35:51.000Z",
-      "voiceScript": "Flaming teacakes, bedazzled unicorns: The Commonwealth Games' surprises unpacked。 Three years after Victoria abandoned hosting the Commonwealth Games, the sporting extravaganza has opened in Glasgow.",
-      "differences": [],
-      "links": [
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/flaming-teacakes-bedazzled-unicorns-the-commonwealth-games-surprises-unpacked/87c2pejnb",
-          "title": "Flaming teacakes, bedazzled unicorns: The Commonwealth Games' surprises unpacked"
-        }
-      ]
-    },
-    {
-      "id": "cluster-15",
-      "headline": "Trump's new Australian tariffs reveal complex truths, experts say as government urges repeal",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-23T23:32:27.000Z",
-      "voiceScript": "Trump's new Australian tariffs reveal complex truths, experts say as government urges repeal。 Australia's trade minister has called for the removal of the \"unjustified\" tariffs imposed by the Trump administration.",
-      "differences": [],
-      "links": [
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/donald-trump-hit-australia-with-nonsense-12-5-per-cent-tarriffs/x4qy0tc68",
-          "title": "Trump's new Australian tariffs reveal complex truths, experts say as government urges repeal"
-        }
-      ]
-    },
-    {
-      "id": "cluster-16",
-      "headline": "Australia’s winter wonderland is becoming increasingly reliant on a backup plan",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-23T19:47:18.000Z",
-      "voiceScript": "Australia’s winter wonderland is becoming increasingly reliant on a backup plan。 An unpredictable season is testing the measures resorts rely on when the snow does not arrive as hoped.",
-      "differences": [],
-      "links": [
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/as-temperatures-flip-australias-ski-resorts-rely-on-overnight-saviour/n5n3nn2tb",
-          "title": "Australia’s winter wonderland is becoming increasingly reliant on a backup plan"
-        }
-      ]
-    },
-    {
-      "id": "cluster-17",
-      "headline": "Not just phishing: The scams to watch for if you're an Origin Energy customer",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-24T01:09:01.000Z",
-      "voiceScript": "Not just phishing: The scams to watch for if you're an Origin Energy customer。 The energy giant has warned customers of potential scam risks after almost five million accounts were affected by a cyber attack.",
-      "differences": [],
-      "links": [
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/not-just-phishing-the-scams-to-watch-for-if-youre-an-origin-energy-customer/3jauqz344",
-          "title": "Not just phishing: The scams to watch for if you're an Origin Energy customer"
-        }
-      ]
-    },
-    {
-      "id": "cluster-18",
-      "headline": "Police allege Socceroos star tested positive for cocaine after speeding twice",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-24T05:41:32.000Z",
-      "voiceScript": "Police allege Socceroos star tested positive for cocaine after speeding twice。 Police said Volpato was travelling nearly 50km/h over the speed limit when he was pulled over.",
-      "differences": [],
-      "links": [
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/cristian-volpato-allegedly-tests-positive-for-cocaine/tmj4q3geo",
-          "title": "Police allege Socceroos star tested positive for cocaine after speeding twice"
-        }
-      ]
-    },
-    {
-      "id": "cluster-19",
-      "headline": "Zelenskyy has faced years of war. Now comes a test from within",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-23T07:01:53.000Z",
-      "voiceScript": "Zelenskyy has faced years of war. Now comes a test from within。 A military shake-up has eased the unrest for now, but revealed the political strains building as the war against Russia drags on.",
-      "differences": [],
-      "links": [
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/ukraine-war-russia-protest-domestic-politics-2026/qowsljxpz",
-          "title": "Zelenskyy has faced years of war. Now comes a test from within"
-        }
-      ]
-    },
-    {
-      "id": "cluster-20",
-      "headline": "Police confirm abusive phone call to synagogue not logged, at antisemitism royal commission",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-24T08:50:28.000Z",
-      "voiceScript": "Police confirm abusive phone call to synagogue not logged, at antisemitism royal commission。 Police, security and funding concerns dominated the Royal Commission on Antisemitism and Social Cohesion this weke.",
-      "differences": [],
-      "links": [
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/antisemitism-royal-commission-wraps-fifth-hearing-block-in-melbourne/nv8dgn7xd",
-          "title": "Police confirm abusive phone call to synagogue not logged, at antisemitism royal commission"
-        }
-      ]
-    },
-    {
-      "id": "cluster-21",
-      "headline": "Trump's Israel condition throws Saudi Arabia nuclear deal into doubt",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-23T21:05:34.000Z",
-      "voiceScript": "Trump's Israel condition throws Saudi Arabia nuclear deal into doubt。 The White House said Saudi Arabia must recognise Israel or the deal is off.",
-      "differences": [],
-      "links": [
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/donald-trump-saudi-arabia-must-recognise-israel-nuclear-deal/54ze7yz8t",
-          "title": "Trump's Israel condition throws Saudi Arabia nuclear deal into doubt"
-        }
-      ]
-    },
-    {
-      "id": "cluster-22",
-      "headline": "Not a 'one off spike': Why higher petrol prices are set to return",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-23T20:37:38.000Z",
-      "voiceScript": "Not a 'one off spike': Why higher petrol prices are set to return。 Multiple factors are expected to push up prices at the bowser, as markets also ramp up expectations for another rate hike.",
-      "differences": [],
-      "links": [
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte",
-          "title": "Not a 'one off spike': Why higher petrol prices are set to return"
-        }
-      ]
-    },
-    {
-      "id": "cluster-23",
-      "headline": "Hanson says domestic violence comments taken 'out of context' as criticism mounts",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-23T05:51:29.000Z",
-      "voiceScript": "Hanson says domestic violence comments taken 'out of context' as criticism mounts。 The One Nation leader has pinned the blame on media outlets covering comments she made that domestic violence is a \"two-way street\".",
-      "differences": [],
-      "links": [
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/pauline-hanson-domestic-violence-comments-expert-criticism/aagqek8ky",
-          "title": "Hanson says domestic violence comments taken 'out of context' as criticism mounts"
-        }
-      ]
-    },
-    {
-      "id": "cluster-24",
-      "headline": "Top guns buzz the Top End: the 2026 Pitch Black flying display dazzles Darwin – in pictures",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-25T02:09:44.000Z",
-      "voiceScript": "Top guns buzz the Top End: the 2026 Pitch Black flying display dazzles Darwin – in pictures。 Royal Australian Air Force and foreign pilots return to Mindil beach in the Northern Territory’s capital at sunset for the city’s biennial aerial show.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/gallery/2026/jul/25/top-guns-buzz-the-top-end-the-2026-pitch-black-flying-display-dazzles-darwin-in-pictures",
-          "title": "Top guns buzz the Top End: the 2026 Pitch Black flying display dazzles Darwin – in pictures"
-        }
-      ]
-    },
-    {
-      "id": "cluster-25",
-      "headline": "Lofty ambitions: can puffer jackets be made more sustainable?",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-25T00:00:27.000Z",
-      "voiceScript": "Lofty ambitions: can puffer jackets be made more sustainable?。 As temperatures dip, the puffer’s appeal inflates.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/lofty-ambitions-can-puffer-jackets-be-made-more-sustainable",
-          "title": "Lofty ambitions: can puffer jackets be made more sustainable?"
-        }
-      ]
-    },
-    {
-      "id": "cluster-26",
-      "headline": "Rebel Wilson had a legal win but didn’t come out of The Deb defamation trial unscathed",
+      "headline": "Rebel Wilson legal win leaves The Deb defamation trial unresolved",
       "sourceCount": 1,
       "publishedAt": "2026-07-24T20:30:22.000Z",
-      "voiceScript": "Rebel Wilson had a legal win but didn’t come out of The Deb defamation trial unscathed。 Judgment dismissing Charlotte MacInnes’s case expressed doubts about credibility of three key witnesses, and is likely to be appealed Rebel Wilson’s self-styled brand as a truth teller was put to the test during a fiery defamation feud where rivals called her a bully.",
+      "voiceScript": "Rebel Wilson 在《The Deb》诽谤案里赢下法律上的一局，但判决并没有让她全身而退。Guardian 的报道重点是法官对几名关键证人的可信度提出怀疑，这让后续上诉空间仍然存在。对澳洲娱乐圈来说，这不仅是一起个人官司，也会影响电影制作、名誉争议和现场证词的公信力。接下来要看对方是否上诉。",
       "differences": [],
       "links": [
         {
@@ -442,107 +192,17 @@
       ]
     },
     {
-      "id": "cluster-27",
-      "headline": "It took months for an LGBTQ+ arts pop-up to resurrect an old church – but just three days to shut it down",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-24T15:00:20.000Z",
-      "voiceScript": "It took months for an LGBTQ+ arts pop-up to resurrect an old church – but just three days to shut it down。 Group behind Divine Playhouse considering legal challenge and discrimination complaint after religious protests turned venue into culture war Get our breaking news email, free app or daily news podcast It takes months of love and care to make an empty building come alive, but only three days to tear it all down.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/it-took-months-for-an-lgbtq-arts-pop-up-to-resurrect-an-old-church-but-just-three-days-to-shut-it-down-ntwnfb",
-          "title": "It took months for an LGBTQ+ arts pop-up to resurrect an old church – but just three days to shut it down"
-        }
-      ]
-    },
-    {
-      "id": "cluster-29",
-      "headline": "Australian households face prospect of interest rate hike and petrol prices rising above $2 a litre",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-24T15:00:19.000Z",
-      "voiceScript": "Australian households face prospect of interest rate hike and petrol prices rising above $2 a litre。 Economists’ warning comes as escalating Middle East crisis pushes global crude oil back above $US100 a barrel Get our breaking news email, free app or daily news podcast Australian households face the prospect of a Reserve Bank interest rate hike and petrol prices above $2 a litre over the coming weeks, economists warn, as the escalating Middle East crisis pushes global crude back above $US100 a barrel.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising",
-          "title": "Australian households face prospect of interest rate hike and petrol prices rising above $2 a litre"
-        }
-      ]
-    },
-    {
-      "id": "cluster-30",
-      "headline": "Ed Husic-led push for Labor to recognise Gaza genocide fails, preventing public stoush",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-25T03:10:42.000Z",
-      "voiceScript": "Ed Husic-led push for Labor to recognise Gaza genocide fails, preventing public stoush。 MP says he’ll continue to break ranks as party’s national conference ends without major fight over Israel and Palestine Get our breaking news email, free app or daily news podcast Ed Husic’s push for Labor to recognise claims of a genocide against Israel has failed amid resistance from factional powerbrokers, prompting the backbencher to criticise the party’s culture under Anthony Albanese.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/ed-husic-labor-gaza-genocide-claims-ntwnfb",
-          "title": "Ed Husic-led push for Labor to recognise Gaza genocide fails, preventing public stoush"
-        }
-      ]
-    },
-    {
-      "id": "cluster-31",
-      "headline": "SA premier Peter Malinauskas at the ALP national conference - podcast",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-25T02:06:05.000Z",
-      "voiceScript": "SA premier Peter Malinauskas at the ALP national conference - podcast。 Speaking with political editor Tom McIlroy and chief political correspondent Dan Jervis-Bardy at the 50th Labor conference in Adelaide, Peter Malinauskas talks about his own state contest with One Nation and why progressives should avoid speaking down to Pauline Hanson’s supporters.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/audio/2026/jul/25/sa-premier-peter-malinauskas-at-the-alp-national-conference-australian-politics-podcast",
-          "title": "SA premier Peter Malinauskas at the ALP national conference - podcast"
-        }
-      ]
-    },
-    {
-      "id": "cluster-32",
-      "headline": "Albanese is fond of saying people underestimate him. He should be careful not to do the same with Pauline Hanson",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-24T15:00:18.000Z",
-      "voiceScript": "Albanese is fond of saying people underestimate him. He should be careful not to do the same with Pauline Hanson。 No politician is as good at evading scrutiny as the One Nation leader, whose actions this week would be disqualifying if she represented any other party Get our breaking news email, free app or daily news podcast Pauline Hanson might as well have been a delegate at Labor’s national conference in Adelaide this week.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/24/albanese-should-not-underestimate-pauline-hanson-one-nation-ntwnfb",
-          "title": "Albanese is fond of saying people underestimate him. He should be careful not to do the same with Pauline Hanson"
-        }
-      ]
-    },
-    {
-      "id": "cluster-33",
-      "headline": "Abuse survivors have won their latest fight against the Christian Brothers. But why did it take so much pain and suffering to get here? | Christopher Knaus",
+      "id": "cluster-10",
+      "headline": "Christian Brothers abuse survivors win another legal fight",
       "sourceCount": 1,
       "publishedAt": "2026-07-24T15:00:17.000Z",
-      "voiceScript": "Abuse survivors have won their latest fight against the Christian Brothers. But why did it take so much pain and suffering to get here? | Christopher Knaus。 Last month’s announcement that the Catholic order was about to go broke wreaked carnage everywhere I looked.",
+      "voiceScript": "Christian Brothers 的虐待幸存者刚赢下最新一轮法律战，但过程依然漫长而痛苦。Guardian 报道强调，破产与赔付安排让很多受害者多年等待，最新结果只是把责任问题往前推了一步。对澳洲教会和机构赔偿体系来说，这类案件持续提醒人们，历史性虐待不只是道德问题，也是财务和法律清算问题。下一步要看赔付和责任追索如何落地。",
       "differences": [],
       "links": [
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/25/abuse-survivors-have-won-their-latest-fight-against-the-christian-brothers-but-why-did-it-take-so-much-pain-and-suffering-to-get-here-ntwnfb",
           "title": "Abuse survivors have won their latest fight against the Christian Brothers. But why did it take so much pain and suffering to get here? | Christopher Knaus"
-        }
-      ]
-    },
-    {
-      "id": "cluster-34",
-      "headline": "Sky is falling, but no need to be alarmed – News will not be silenced | The Weekly Beast",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-24T03:03:52.000Z",
-      "voiceScript": "Sky is falling, but no need to be alarmed – News will not be silenced | The Weekly Beast。 Sky News Australia is counting down to its momentous change of name to News24.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/media/commentisfree/2026/jul/24/sky-australia-news-24-rename-weekly-beast",
-          "title": "Sky is falling, but no need to be alarmed – News will not be silenced | The Weekly Beast"
         }
       ]
     }
