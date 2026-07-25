@@ -224,10 +224,33 @@ p {
   border-radius: 50%;
   display: inline-grid;
   place-items: center;
-  background: #27606a;
+  background: #fffdf8;
   color: #fffaf2;
   font-size: 11px;
   font-weight: 800;
+  overflow: hidden;
+  border: 1px solid #d8ded8;
+}
+
+.source-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 4px;
+}
+
+.source-initials {
+  display: none;
+  color: #fffaf2;
+  background: #27606a;
+  width: 100%;
+  height: 100%;
+  line-height: 30px;
+  text-align: center;
+}
+
+.source-logo.no-icon .source-initials {
+  display: block;
 }
 
 .list-pane {
@@ -508,5 +531,31 @@ p {
 
   .mobile-card-detail .link-list a {
     min-height: 46px;
+  }
+
+  .mobile-card-detail .link-list {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 2px;
+    scrollbar-width: none;
+  }
+
+  .mobile-card-detail .link-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mobile-card-detail .link-list a {
+    flex: 0 0 auto;
+    grid-template-columns: 28px max-content 15px;
+    max-width: 220px;
+    min-height: 42px;
+    padding: 8px 10px;
+  }
+
+  .mobile-card-detail .link-list .source-logo {
+    width: 28px;
+    height: 28px;
+    flex-basis: 28px;
   }
 }

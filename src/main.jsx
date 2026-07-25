@@ -65,14 +65,44 @@ function uniqueDifferences(cluster) {
   return differences;
 }
 
-function SourceLogo({ name }) {
+function sourceIconUrl(name, url) {
+  const lowerName = String(name || "").toLowerCase();
+  if (lowerName.includes("abc")) return "https://www.abc.net.au/favicon.ico";
+  if (lowerName.includes("sbs")) return "https://www.sbs.com.au/favicon.ico";
+  if (lowerName.includes("guardian")) return "https://www.theguardian.com/favicon.ico";
+
+  try {
+    const domain = new URL(url).origin;
+    return `${domain}/favicon.ico`;
+  } catch {
+    return "";
+  }
+}
+
+function SourceLogo({ name, url }) {
   const letters = name
     .split(" ")
     .map((part) => part[0])
     .join("")
     .slice(0, 2)
     .toUpperCase();
-  return <span className="source-logo">{letters}</span>;
+  const iconUrl = sourceIconUrl(name, url);
+
+  return (
+    <span className={`source-logo ${iconUrl ? "" : "no-icon"}`} aria-label={name}>
+      {iconUrl && (
+        <img
+          alt=""
+          src={iconUrl}
+          onError={(event) => {
+            event.currentTarget.style.display = "none";
+            event.currentTarget.nextElementSibling.style.display = "block";
+          }}
+        />
+      )}
+      <span className="source-initials">{letters}</span>
+    </span>
+  );
 }
 
 function App() {
@@ -181,7 +211,7 @@ function App() {
           </button>
           {(data?.sources || []).map((source) => (
             <div className="source-row" key={source.id}>
-              <SourceLogo name={source.name} />
+              <SourceLogo name={source.name} url={source.feed} />
               <div>
                 <strong>{source.name}</strong>
                 <span>{source.region}</span>
@@ -249,7 +279,7 @@ function App() {
                     <div className="link-list">
                       {cluster.links.map((link) => (
                         <a href={link.url} target="_blank" rel="noreferrer" key={`${link.source}-${link.url}`}>
-                          <SourceLogo name={link.source} />
+                          <SourceLogo name={link.source} url={link.url} />
                           <span>{link.source}</span>
                           <ExternalLink size={15} />
                         </a>
@@ -301,7 +331,7 @@ function App() {
                 <div className="link-list">
                   {active.links.map((link) => (
                     <a href={link.url} target="_blank" rel="noreferrer" key={`${link.source}-${link.url}`}>
-                      <SourceLogo name={link.source} />
+                      <SourceLogo name={link.source} url={link.url} />
                       <span>{link.source}</span>
                       <ExternalLink size={15} />
                     </a>
