@@ -202,18 +202,55 @@ function App() {
 
         <div className="cluster-list">
           {clusters.map((cluster) => (
-            <button
+            <article
               className={`cluster-card ${cluster.id === active?.id ? "selected" : ""}`}
               key={cluster.id}
-              onClick={() => setActiveId(cluster.id)}
             >
-              <div className="cluster-meta">
-                <span>{displaySourceCount(cluster)} 个来源</span>
-                <span>{readMinutes(cluster.voiceScript)} 分钟</span>
-              </div>
-              <h3>{cluster.headline}</h3>
-              <p>{cluster.voiceScript}</p>
-            </button>
+              <button className="cluster-card-button" onClick={() => setActiveId(cluster.id)}>
+                <div className="cluster-meta">
+                  <span>{displaySourceCount(cluster)} 个来源</span>
+                  <span>{readMinutes(cluster.voiceScript)} 分钟</span>
+                </div>
+                <h3>{cluster.headline}</h3>
+                <p>{cluster.voiceScript}</p>
+              </button>
+
+              {cluster.id === active?.id && (
+                <div className="mobile-card-detail">
+                  <div className="mobile-section">
+                    <div className="script-meta">
+                      <FileAudio size={18} />
+                      <span>约 {readMinutes(cluster.voiceScript)} 分钟</span>
+                    </div>
+                    <p>{cluster.voiceScript}</p>
+                  </div>
+
+                  {uniqueDifferences(cluster).length > 0 && (
+                    <div className="mobile-section">
+                      <h4>来源差异</h4>
+                      <div className="difference-list">
+                        {uniqueDifferences(cluster).map((difference) => (
+                          <p key={difference}>{difference}</p>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  <div className="mobile-section">
+                    <h4>原始链接</h4>
+                    <div className="link-list">
+                      {cluster.links.map((link) => (
+                        <a href={link.url} target="_blank" rel="noreferrer" key={`${link.source}-${link.url}`}>
+                          <SourceLogo name={link.source} />
+                          <span>{link.source}</span>
+                          <ExternalLink size={15} />
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              )}
+            </article>
           ))}
         </div>
       </section>

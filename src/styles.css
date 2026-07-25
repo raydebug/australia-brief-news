@@ -252,15 +252,24 @@ p {
   border: 1px solid #ded6c9;
   background: #fffdf8;
   border-radius: 8px;
-  padding: 16px;
-  cursor: pointer;
-  display: grid;
-  gap: 9px;
+  overflow: hidden;
 }
 
 .cluster-card.selected {
   border-color: #12333a;
   box-shadow: inset 4px 0 0 #12333a;
+}
+
+.cluster-card-button {
+  width: 100%;
+  text-align: left;
+  border: 0;
+  background: transparent;
+  padding: 16px;
+  cursor: pointer;
+  display: grid;
+  gap: 9px;
+  color: inherit;
 }
 
 .cluster-meta {
@@ -280,6 +289,20 @@ p {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.mobile-card-detail {
+  display: none;
+}
+
+.mobile-section {
+  display: grid;
+  gap: 10px;
+}
+
+.mobile-section h4 {
+  margin: 0;
+  font-size: 16px;
 }
 
 .detail-pane {
@@ -433,29 +456,41 @@ p {
   }
 
   .sidebar,
-  .list-pane,
-  .detail-pane {
+  .list-pane {
     border-right: 0;
     padding: 18px;
   }
 
-  .detail-top h2 {
-    font-size: 26px;
-  }
-
   .detail-pane {
-    order: 2;
+    display: none;
   }
 
   .list-pane {
-    order: 3;
+    order: 2;
   }
 
-  .script-panel p {
+  .cluster-card.selected .cluster-card-button p {
+    display: none;
+  }
+
+  .mobile-card-detail {
+    border-top: 1px solid #ded6c9;
+    display: grid;
+    gap: 16px;
+    padding: 0 16px 16px 20px;
+  }
+
+  .mobile-card-detail > .mobile-section:first-child {
+    padding-top: 14px;
+  }
+
+  .mobile-card-detail p {
     font-size: 17px;
+    line-height: 1.65;
+    color: #394346;
   }
 
-  .detail-grid {
-    grid-template-columns: 1fr;
+  .mobile-card-detail .link-list a {
+    min-height: 46px;
   }
 }
