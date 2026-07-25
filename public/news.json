@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T15:03:07.000Z",
+  "updatedAt": "2026-07-25T16:09:22Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -28,181 +28,224 @@
   "clusters": [
     {
       "id": "cluster-1",
-      "headline": "Federal government says fuel supply 'solid and secure' as prices climb again",
+      "headline": "Labor conference blocks Ed Husic's Gaza push",
       "sourceCount": 3,
-      "publishedAt": "2026-07-25T09:00:38.000Z",
-      "voiceScript": "中东新一轮冲突继续推高国际油价，澳洲汽油价格也跟着上行。联邦政府仍在安抚市场，强调供应没有问题，但对通勤者和物流企业来说，价格上涨已经开始反映到日常成本。若油价继续走高，下一步要观察的是零售端是否出现更广泛的 2 澳元关口，以及它会不会重新抬升通胀压力。",
+      "publishedAt": "2026-07-25T16:01:00+10:00",
+      "voiceScript": "Labor 在阿德莱德全国大会上没有展开正式公开争论，Ed Husic 想把加沙问题提交大会辩论，但没拿到足够支持，动议直接被挡下。随后大会通过了党纲，未来三年会继续影响工党对以色列和巴勒斯坦的表述。这个结果说明，党内在中东议题上的分歧还在，但高层更倾向于把它压在会场外。接下来要看 Husic 会不会继续施压，以及党内开放辩论的空间会不会进一步收紧。",
       "differences": [
-        "ABC News：重点放在联邦政府对燃油供应的安抚口径，以及中东战事对价格的传导。",
-        "SBS News：更强调战事升级会继续压高澳洲油价，侧重驾驶者眼前的成本压力。",
-        "The Guardian Australia：把焦点放在家庭开支和油价可能突破每升 2 澳元的风险上。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876",
-          "title": "Federal government says fuel supply 'solid and secure' as prices climb again"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/more-fuel-price-pain-ahead-for-australians-as-war-ramps-up-and-de-escalation-dims/liu71xlm1",
-          "title": "More fuel price pain ahead as Houthis widen war's front line, Trump considers fresh strikes"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising",
-          "title": "Australian households face prospect of interest rate hike and petrol prices rising above $2 a litre"
-        }
-      ]
-    },
-    {
-      "id": "cluster-2",
-      "headline": "Husic lashes Labor culture after push for Gaza debate fails",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-25T06:01:39.000Z",
-      "voiceScript": "工党全国会议上，Ed Husic 推动就加沙问题展开讨论的动议没有获得足够支持，党内对以色列和巴勒斯坦议题的分歧因此被摆上台面。Husic 随后批评工党文化过于僵硬，也说明这不是单纯的外交表态，而是牵动党内纪律、穆斯林选民观感和政府对外表述空间。接下来要看领导层是否继续压住争议，还是会被迫给出更明确的立场。",
-      "differences": [
-        "ABC News：更强调 Husic 对工党文化和党内纪律的直接批评。",
-        "The Guardian Australia：更强调全国会议收尾时避免演成公开冲突。"
+        "ABC News：聚焦 Husic 没能找到支持者、以及他对党内“别把我冻起来”的直白表态。",
+        "The Guardian Australia：更强调工党会议的高度控场，以及党内对公开分歧的压制。",
+        "SBS News：把重点放在 Albanese 对党纪与议程控制的持续加强。"
       ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-25/ed-husic-pushes-for-gaza-debate-at-labor-conference/106957962",
-          "title": "Husic lashes Labor culture after push for Gaza debate fails"
+          "title": "Labor conference sidesteps Gaza stoush after Ed Husic fails to force debate"
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/ed-husic-labor-gaza-genocide-claims-ntwnfb",
-          "title": "Ed Husic-led push for Labor to recognise Gaza genocide fails, preventing public stoush"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/23/ed-husic-dissent-labor-party-national-conference-anthony-albanese-ntwnfb",
+          "title": "Husic says Labor 'allergic to dissent' as he breaks ranks on key government positions at party conference"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/the-momentary-slip-that-only-shows-albaneses-escalating-control-of-the-labor-party/nwbpwo5ax",
+          "title": "The momentary slip that only shows Albanese's escalating control of the Labor Party"
+        }
+      ]
+    },
+    {
+      "id": "cluster-2",
+      "headline": "US tariffs hit Australian exports at 12.5%",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-24T07:39:00+10:00",
+      "voiceScript": "美国把对澳洲出口的关税提高到 12.5%，旧的 10% 临时税率同时到期。ABC 说新税率已经在周五下午 2:01 生效，Guardian 指出牛肉、黄金等主要品类暂时豁免，但大部分出口仍会承压。澳洲政府把这一步称为毫无道理，贸易部长 Don Farrell 和副总理 Richard Marles 都在施压华府撤回。接下来要盯的是农产品、制造业和汇率市场会不会把成本更快传导到本地价格。",
+      "differences": [
+        "ABC News：强调税率当天生效，以及联邦政府立刻向华府施压。",
+        "The Guardian Australia：更细讲 54 国名单、豁免品类和美国国内的批评声音。",
+        "SBS News：偏解释路线，说明这次关税是基于强迫劳动调查和 Section 301 框架。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/us-trump-administration-new-tariff-announcement/106938462",
+          "title": "Trump administration confirms new 12.5 per cent tariff for Australia"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/24/donald-trump-hits-australian-exports-to-us-with-new-higher-trade-tariff-over-claims-of-forced-labour",
+          "title": "Donald Trump hits Australian exports to US with new higher trade tariff over claims of 'forced labour'"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/donald-trump-hit-australia-with-nonsense-12-5-per-cent-tarriffs/x4qy0tc68",
+          "title": "Trump's new Australian tariffs reveal complex truths, experts say as government urges repeal"
         }
       ]
     },
     {
       "id": "cluster-3",
-      "headline": "Herbicide banned in 70 countries to be pulled from sale in Australia by chemical maker",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-25T04:59:49.000Z",
-      "voiceScript": "化工公司 Syngenta 计划停止在澳洲销售 paraquat，这种除草剂在这里的命运基本定了。推动变化的是监管收紧和越来越大的商业压力；争议则在于它长期被质疑与帕金森病风险有关，而多国早已限制甚至禁用。接下来要看农户能不能及时找到替代方案，以及监管机构会不会把类似高风险农药继续往下压。",
+      "headline": "Origin breach exposes customer data",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-23T15:49:00+10:00",
+      "voiceScript": "Origin Energy 确认有客户资料被未授权访问和泄露，涉及姓名、地址、生日、电话、账户信息，部分案例还可能包括银行卡或银行账号后四位。公司说还不知道究竟有多少人受影响，澳洲网安中心、联邦警察和隐私专员都已介入。Guardian 还提到有人自称拿到了约 200 万条记录。下一步要看 Origin 何时完成点名通知，以及这起事件会不会再推高澳洲对大型能源公司数据安全的监管压力。",
       "differences": [
-        "ABC News：侧重监管审查和企业退出销售背后的商业压力。",
-        "The Guardian Australia：侧重 paraquat 在多国被禁，以及和帕金森病风险相关的长期争议。"
+        "ABC News：聚焦公司正式确认、受影响数据种类，以及已通知哪些监管机构。",
+        "The Guardian Australia：更强调诈骗、身份盗用和实体风险，并补充公司服务覆盖 480 万个账户。",
+        "The Australian：把它放进澳洲大型数据泄露潮，突出外界对约 200 万客户记录规模的警惕。"
       ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/rural/2026-07-25/syngenta-stops-sales-of-paraquat-after-apvma-review/106956466",
-          "title": "Chemical manufacturer ends sales of controversial herbicide"
+          "url": "https://www.abc.net.au/news/2026-07-23/origin-energy-confirms-unauthorised-access-customer-data/106948052",
+          "title": "Origin Energy confirms unauthorised access and disclosure of customer data"
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/environment/2026/jul/25/herbicide-parkinsons-disease-paraquat-pulled-from-sale-australia-syngenta",
-          "title": "Herbicide banned in 70 countries to be pulled from sale in Australia by chemical maker"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/23/personal-and-banking-details-among-customer-data-stolen-in-origin-energy-hack",
+          "title": "Personal and banking details among customer data stolen in Origin Energy hack"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/business/renewable-energy-economy/origin-energy-investigates-potential-data-breach-of-two-million-customers/news-story/24d06260ca3ba203018974379053d34c",
+          "title": "Origin Energy hack: Investigation over claim 2 million customer records accessed"
         }
       ]
     },
     {
       "id": "cluster-4",
-      "headline": "'Life delayed': The $11,710 bill keeping some couples apart",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-24T20:42:03.000Z",
-      "voiceScript": "澳洲配偶签证申请费已经涨到 11,710 澳元，很多跨国伴侣还要面对漫长审理。问题不只是贵，而是高费用和等待时间一起把家庭重聚推迟了，尤其对已经在澳洲工作生活的人影响最直接。下一步要看内政部门是否回应收费过高和积压审理的批评。",
-      "differences": [],
+      "headline": "Pauline Hanson's DV remarks trigger backlash",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-22T16:30:00+10:00",
+      "voiceScript": "Pauline Hanson 把家庭暴力说成 “two-way street”，还劝受害者别忍着，立刻引发新一轮反弹。ABC 报道她是周三下午直接在电台上回应，SBS 和 Guardian 则把焦点放在她长期与男性权利团体的联系，以及她反复把家暴说成女性也有责任。这个争议已经不只是言论失当，而是会影响受害者是否愿意求助。接下来要看她是否继续收回说法，还是把这条线继续往前推。",
+      "differences": [
+        "ABC News：报道她当下的表态与联邦政界立刻出现的反击。",
+        "The Guardian Australia：追溯她多年与男性权利团体的联系，强调这不是偶发失言。",
+        "SBS News：更直接从受害者和倡议者角度，聚焦 victim-blaming 的伤害。"
+      ],
       "links": [
         {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-22/pauline-hanson-domestic-violence-two-way-street/106945146",
+          "title": "Pauline Hanson labels domestic violence 'two-way street', urging women 'not to put up with it'"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/24/pauline-hanson-domestic-violence-comments-mra-mens-rights-activists-ntwnfb",
+          "title": "Pauline Hanson's domestic violence comments were no stumble"
+        },
+        {
           "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/australian-partner-visa-high-fee-long-waiting-times/ndnwrh7q8",
-          "title": "'Life delayed': The $11,710 bill keeping some couples apart"
+          "url": "https://www.sbs.com.au/news/article/pauline-hanson-one-nation-domestic-violence-backlash/wsmxophwa",
+          "title": "'Terrible advice': Advocates call out Hanson's domestic violence 'two-way street' comments"
         }
       ]
     },
     {
       "id": "cluster-5",
-      "headline": "Liberty Bell Bay may have been insolvent for more than a year before closing",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-25T04:54:08.000Z",
-      "voiceScript": "塔州 Liberty Bell Bay 锰冶炼厂的接管报告显示，这家工厂在关闭前可能已经资不抵债一年多，而且还拿过州政府 2000 万澳元贷款。这个结果把州府补贴、企业决策和地方就业一起推上台面。接下来要看管理人和政府是否追查当初的审批过程，以及厂区还能保住多少岗位和资产。",
-      "differences": [],
+      "headline": "AusAlert will blast phones on Monday",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-22T09:21:00+10:00",
+      "voiceScript": "澳洲新的国家紧急警报系统 AusAlert 计划在周一下午 2 点做全国测试，几乎所有手机都会响起十秒左右的警报声，静音和勿扰模式也挡不住。这个系统是黑夏山火后的整改结果，主要用于火灾、洪水、恐袭和重大健康事件。Guardian 特别提醒，家暴受害者的“安全手机”需要提前处理。接下来最重要的是测试是否顺利，以及十月正式上线后，各州现有短信预警会怎么衔接。",
+      "differences": [
+        "ABC News：更关注州和领地是否保留自己的预警系统，以及 landline 语音警报如何并行。",
+        "The Guardian Australia：更强调测试当天的手机提醒细节，以及对家暴受害者安全手机的操作建议。"
+      ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/liberty-bell-bay-administrators-report-insolvent/106957968",
-          "title": "Liberty Bell Bay may have been insolvent for more than a year before closing"
+          "url": "https://www.abc.net.au/news/2026-07-22/emergency-warning-system-in-doubt-as-states-raise-concerns/106942870",
+          "title": "States can choose to run own emergency warning systems when AusAlert goes live"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/22/ausalert-test-sound-national-alert-emergency-warning-system-date",
+          "title": "AusAlert test will blast emergency warning siren over most phones in Australia on Monday. Here's what to know"
         }
       ]
     },
     {
       "id": "cluster-6",
-      "headline": "H5 bird flu confirmed in wild seabird found at Moreton Island",
+      "headline": "Victoria moves to unmask online trolls",
       "sourceCount": 1,
-      "publishedAt": "2026-07-25T03:39:01.000Z",
-      "voiceScript": "布里斯班附近的莫顿岛发现的死海鸟样本，已经被 CSIRO 确认为 H5 禽流感阳性。虽然目前还没有直接指向家禽养殖链，但这说明野鸟监测已经把病例推到昆州东南部，防疫重点会继续放在检测和扩散范围上。下一步要看周边更多样本结果，以及是否出现跨州传播迹象。",
+      "publishedAt": "2026-07-19T15:43:00+10:00",
+      "voiceScript": "维州工党政府提出新法，想让社媒平台交出匿名网暴者身份，还要降低父母起诉平台、追究孩子心理伤害责任的门槛。ABC 报道说，这项提案被网络安全专家批评为脱离现实，但州政府认为它能给家长更多法律工具。它的重点不只是“管网暴”，而是把平台责任往前推一步。接下来要看议会会不会按计划在 11 月州选前推进，以及大平台会不会公开反对。",
       "differences": [],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114",
-          "title": "H5 bird flu confirmed in wild seabird found at Moreton Island"
+          "url": "https://www.abc.net.au/news/2026-07-19/victoria-social-media-big-tech-laws/106932668",
+          "title": "Allan government proposes new laws to target big tech and online trolls"
         }
       ]
     },
     {
       "id": "cluster-7",
-      "headline": "Drivers urged to play their part as five people die on WA roads in 24 hours",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-25T06:21:30.000Z",
-      "voiceScript": "西澳不到 24 小时内有 5 人在不同车祸中死亡，州里的道路死亡问题再次被拉响警报。事故分散在多个地点，说明超速、疲劳驾驶和乡村道路风险都在叠加，而不是单一黑点。接下来要看州政府会不会加码执法和宣传，还是继续把重点放在驾驶员自律。",
-      "differences": [],
+      "headline": "Victorian teachers strike again over pay and workload",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-23T16:30:00+10:00",
+      "voiceScript": "维州公校教师再次罢工，工会成员拒绝了州政府提出的 28% 加薪方案，理由是工作量和会议负担仍然太重。ABC 说这次行动涉及教师和支援人员，政府则坚持这已经能让维州教师成为全国薪资最高。Guardian 现场报道显示，今天有三万五千多人上街，后续不排除再有行动。接下来要看双方是否愿意把谈判从“薪酬数字”转到“工作条件”上。",
+      "differences": [
+        "ABC News：把重点放在 28% 加薪方案、工作量诉求和政府的薪资叙事。",
+        "The Guardian Australia：更强调现场动员规模和可能出现的进一步工业行动。"
+      ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/five-people-die-in-24-hours-on-wa-roads/106958246",
-          "title": "Drivers urged to play their part as five people die on WA roads in 24 hours"
+          "url": "https://www.abc.net.au/news/2026-07-23/victorian-teachers-on-strike-today-as-offer-is-rejected/106946678",
+          "title": "Victorian teachers 'need relief' as tens of thousands strike for a second time"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/23/australia-news-live-china-penny-wong-asean-labor-conference-anthony-albanese-one-nation-pauline-hanson-ntwnfb",
+          "title": "Guardian Australia live coverage noting Victorian teachers' strike"
         }
       ]
     },
     {
       "id": "cluster-8",
-      "headline": "Two people shot by police during altercation in Cairns",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-25T09:47:50.000Z",
-      "voiceScript": "凯恩斯一场与持枪嫌疑人的冲突最后升级成警方开枪，一男一女中枪。现在公开信息还很有限，最关键的是嫌疑人身份、现场经过怎么升级，以及两名伤者的伤势是否稳定。接下来要看警方能不能把时间线和执法判断说清楚，否则外界对这次行动必要性的疑问还会继续。",
-      "differences": [],
+      "headline": "Domino's underpayment ruling backs workers",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-22T17:27:00+10:00",
+      "voiceScript": "联邦法院判 Domino's 在低薪诉讼中败诉，核心指向的是加盟体系长期沿用过时协议，导致数千名司机和店员少拿工资和应有补贴。ABC 市场直播和 Guardian 的法庭报道都把它视为澳洲低薪行业的重要判例。虽然赔偿金额还要再听证，但这会给连锁加盟、餐饮和零工用工带来更大合规压力。接下来要看具体赔偿怎么算，以及是否会引发更多类似集体诉讼。",
+      "differences": [
+        "ABC News：从股价和市场反应切入，强调连锁餐饮公司的商业影响。",
+        "The Guardian Australia：更聚焦法庭认定、受影响员工和后续赔偿安排。"
+      ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/queensland-police-shoot-man-woman-cairns-altercation/106958468",
-          "title": "Two people shot by police during altercation in Cairns"
+          "url": "https://www.abc.net.au/news/2026-07-22/asx-markets-business-live-news-july-22/106942906",
+          "title": "Domino's Pizza shares fall after Federal Court underpayment case loss"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/22/australia-news-live-penny-wong-asean-pacific-missile-pauline-hanson-one-nation-labor-conference-tax-anthony-albanese-antisemitism-royal-commission-ntwnfb",
+          "title": "Court win for low-paid Domino's workers in underpayment class action"
         }
       ]
     },
     {
       "id": "cluster-9",
-      "headline": "Police confirm abusive phone call to synagogue not logged, at antisemitism royal commission",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-24T08:50:28.000Z",
-      "voiceScript": "墨尔本的反犹主义与社会凝聚力皇家委员会第五轮听证收尾时，警方漏记一通发给犹太教堂的辱骂电话被公开点出。这个细节把讨论从抽象的仇恨问题，拉回到执法记录、社区安全和机构失误本身。接下来要看委员会最终建议会不会要求警方和学校系统补上更严格的通报和跟进机制。",
-      "differences": [],
+      "headline": "Macquarie names Greg Ward as next CEO",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-22T18:03:00+10:00",
+      "voiceScript": "Macquarie 宣布由银行业务负责人 Greg Ward 接替将于 11 月退休的 Shemara Wikramanayake。Reuters 说这是内部接班，市场把它视为对现有策略的信心投票，FT 也强调公司更看重连续性而不是路线大改。她任内 Macquarie 继续扩大全球资产和交易业务，但也一直面对高管薪酬和审计争议。接下来要看新 CEO 会不会延续现有策略，以及投资者对薪酬、审计和治理问题是否继续盯得更紧。",
+      "differences": [
+        "Reuters：更强调市场对内部接班的正面解读，以及薪酬争议后的信心修复。",
+        "Financial Times：更着重连续性、全球收入结构和治理背景。"
+      ],
       "links": [
         {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/antisemitism-royal-commission-wraps-fifth-hearing-block-in-melbourne/nv8dgn7xd",
-          "title": "Police confirm abusive phone call to synagogue not logged, at antisemitism royal commission"
-        }
-      ]
-    },
-    {
-      "id": "cluster-10",
-      "headline": "Abuse survivors have won their latest fight against the Christian Brothers",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-24T15:00:17.000Z",
-      "voiceScript": "Christian Brothers 相关虐待幸存者在最新一轮法律战中又赢了一步，但真正的赔付和责任追索还远没结束。背后更大的问题，是教会机构的财务崩塌、赔偿安排和受害者多年等待之间的脱节。接下来要看后续赔付能不能更快推进，以及责任到底落到谁身上。",
-      "differences": [],
-      "links": [
+          "source": "Reuters",
+          "url": "https://wmbdradio.com/2026/07/22/macquarie-ceo-wikramanayake-to-retire-profit-from-cgm-unit-rises/",
+          "title": "Macquarie taps veteran Greg Ward to succeed high-profile CEO Wikramanayake"
+        },
         {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/abuse-survivors-have-won-their-latest-fight-against-the-christian-brothers-but-why-did-it-take-so-much-pain-and-suffering-to-get-here-ntwnfb",
-          "title": "Abuse survivors have won their latest fight against the Christian Brothers. But why did it take so much pain and suffering to get here? | Christopher Knaus"
+          "source": "Financial Times",
+          "url": "https://www.ft.com/content/6df8a0ef-447f-43de-81a0-48db79498d93",
+          "title": "Macquarie names banking head to succeed Shemara Wikramanayake as CEO"
         }
       ]
     }
