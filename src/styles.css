@@ -187,6 +187,14 @@ p {
   letter-spacing: 0;
 }
 
+.source-toggle {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+}
+
 .source-row {
   display: flex;
   align-items: center;
@@ -463,6 +471,14 @@ p {
 
   .detail-pane {
     display: none;
+  }
+
+  .source-list:not(.open) .source-row {
+    display: none;
+  }
+
+  .source-toggle {
+    min-height: 36px;
   }
 
   .list-pane {

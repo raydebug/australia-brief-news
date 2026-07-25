@@ -82,6 +82,8 @@ function App() {
   const [mode, setMode] = useState("all");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [expandedId, setExpandedId] = useState(null);
+  const [sourcesOpen, setSourcesOpen] = useState(false);
 
   async function loadNews() {
     setLoading(true);
@@ -172,11 +174,11 @@ function App() {
           重新读取
         </button>
 
-        <div className="source-list">
-          <div className="section-label">
+        <div className={`source-list ${sourcesOpen ? "open" : ""}`}>
+          <button className="section-label source-toggle" onClick={() => setSourcesOpen((open) => !open)}>
             <Filter size={14} />
             来源
-          </div>
+          </button>
           {(data?.sources || []).map((source) => (
             <div className="source-row" key={source.id}>
               <SourceLogo name={source.name} />
@@ -206,7 +208,13 @@ function App() {
               className={`cluster-card ${cluster.id === active?.id ? "selected" : ""}`}
               key={cluster.id}
             >
-              <button className="cluster-card-button" onClick={() => setActiveId(cluster.id)}>
+              <button
+                className="cluster-card-button"
+                onClick={() => {
+                  setActiveId(cluster.id);
+                  setExpandedId((current) => (current === cluster.id ? null : cluster.id));
+                }}
+              >
                 <div className="cluster-meta">
                   <span>{displaySourceCount(cluster)} 个来源</span>
                   <span>{readMinutes(cluster.voiceScript)} 分钟</span>
@@ -215,7 +223,7 @@ function App() {
                 <p>{cluster.voiceScript}</p>
               </button>
 
-              {cluster.id === active?.id && (
+              {cluster.id === expandedId && (
                 <div className="mobile-card-detail">
                   <div className="mobile-section">
                     <div className="script-meta">
