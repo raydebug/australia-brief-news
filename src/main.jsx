@@ -29,6 +29,14 @@ function readMinutes(text) {
   return Math.max(1, Math.round(chars / 280));
 }
 
+function isRecentCluster(cluster) {
+  if (!cluster?.publishedAt) return true;
+  const published = new Date(cluster.publishedAt).getTime();
+  if (Number.isNaN(published)) return true;
+  const sevenDays = 7 * 24 * 60 * 60 * 1000;
+  return Date.now() - published <= sevenDays;
+}
+
 function SourceLogo({ name }) {
   const letters = name
     .split(" ")
@@ -72,7 +80,7 @@ function App() {
       const text = `${cluster.headline} ${cluster.voiceScript}`.toLowerCase();
       const matchesSearch = text.includes(query.toLowerCase());
       const matchesMode = mode === "all" || (mode === "multi" ? cluster.sourceCount > 1 : cluster.sourceCount === 1);
-      return matchesSearch && matchesMode;
+      return isRecentCluster(cluster) && matchesSearch && matchesMode;
     });
   }, [data, mode, query]);
 
