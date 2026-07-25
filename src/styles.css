@@ -547,15 +547,22 @@ p {
 
   .mobile-card-detail .link-list a {
     flex: 0 0 auto;
-    grid-template-columns: 28px max-content 15px;
-    max-width: 220px;
-    min-height: 42px;
-    padding: 8px 10px;
+    grid-template-columns: 32px;
+    width: 44px;
+    height: 44px;
+    min-height: 44px;
+    padding: 5px;
+    place-content: center;
   }
 
   .mobile-card-detail .link-list .source-logo {
-    width: 28px;
-    height: 28px;
-    flex-basis: 28px;
+    width: 32px;
+    height: 32px;
+    flex-basis: 32px;
+  }
+
+  .mobile-card-detail .link-list a > span:not(.source-logo),
+  .mobile-card-detail .link-list a > svg {
+    display: none;
   }
 }

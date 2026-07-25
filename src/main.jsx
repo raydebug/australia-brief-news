@@ -278,7 +278,14 @@ function App() {
                     <h4>原始链接</h4>
                     <div className="link-list">
                       {cluster.links.map((link) => (
-                        <a href={link.url} target="_blank" rel="noreferrer" key={`${link.source}-${link.url}`}>
+                        <a
+                          href={link.url}
+                          target="_blank"
+                          rel="noreferrer"
+                          title={link.source}
+                          aria-label={link.source}
+                          key={`${link.source}-${link.url}`}
+                        >
                           <SourceLogo name={link.source} url={link.url} />
                           <span>{link.source}</span>
                           <ExternalLink size={15} />
