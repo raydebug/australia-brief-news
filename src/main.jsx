@@ -37,6 +37,36 @@ function isRecentCluster(cluster) {
   return Date.now() - published <= sevenDays;
 }
 
+function uniqueSources(cluster) {
+  return new Set((cluster?.links || []).map((link) => link.source).filter(Boolean));
+}
+
+function displaySourceCount(cluster) {
+  const count = uniqueSources(cluster).size;
+  return count || cluster?.sourceCount || 0;
+}
+
+function uniqueDifferences(cluster) {
+  const seen = new Set();
+  const differences = [];
+
+  for (const difference of cluster?.differences || []) {
+    const normalized = String(difference || "")
+      .replace(/\s+/g, " ")
+      .replace(/[。.!?！？]+$/g, "")
+      .trim();
+    if (!normalized || seen.has(normalized)) continue;
+    seen.add(normalized);
+    differences.push(difference);
+  }
+
+  if (displaySourceCount(cluster) <= 1) {
+    return ["只有一个新闻来源，暂无可比较的表述差异。"];
+  }
+
+  return differences.length ? differences : ["暂无可比较的表述差异。"];
+}
+
 function SourceLogo({ name }) {
   const letters = name
     .split(" ")
@@ -59,7 +89,7 @@ function App() {
     setLoading(true);
     setError("");
     try {
-      const response = await fetch("./news.json", { cache: "no-store" });
+      const response = await fetch(`./news.json?t=${Date.now()}`, { cache: "no-store" });
       if (!response.ok) throw new Error("news.json not found");
       const payload = await response.json();
       setData(payload);
@@ -79,12 +109,19 @@ function App() {
     return list.filter((cluster) => {
       const text = `${cluster.headline} ${cluster.voiceScript}`.toLowerCase();
       const matchesSearch = text.includes(query.toLowerCase());
-      const matchesMode = mode === "all" || (mode === "multi" ? cluster.sourceCount > 1 : cluster.sourceCount === 1);
+      const sourceCount = displaySourceCount(cluster);
+      const matchesMode = mode === "all" || (mode === "multi" ? sourceCount > 1 : sourceCount === 1);
       return isRecentCluster(cluster) && matchesSearch && matchesMode;
     });
   }, [data, mode, query]);
 
   const active = clusters.find((cluster) => cluster.id === activeId) || clusters[0];
+
+  useEffect(() => {
+    if (activeId && clusters.length && !clusters.some((cluster) => cluster.id === activeId)) {
+      setActiveId(clusters[0].id);
+    }
+  }, [activeId, clusters]);
 
   return (
     <main className="app-shell">
@@ -172,7 +209,7 @@ function App() {
               onClick={() => setActiveId(cluster.id)}
             >
               <div className="cluster-meta">
-                <span>{cluster.sourceCount} 个来源</span>
+                <span>{displaySourceCount(cluster)} 个来源</span>
                 <span>{readMinutes(cluster.voiceScript)} 分钟</span>
               </div>
               <h3>{cluster.headline}</h3>
@@ -207,7 +244,7 @@ function App() {
               <section>
                 <h3>来源差异</h3>
                 <div className="difference-list">
-                  {active.differences.map((difference) => (
+                  {uniqueDifferences(active).map((difference) => (
                     <p key={difference}>{difference}</p>
                   ))}
                 </div>
