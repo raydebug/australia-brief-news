@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T22:03:44Z",
+  "updatedAt": "2026-07-25T23:03:49Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -27,41 +27,15 @@
   "errors": [],
   "clusters": [
     {
-      "id": "fuel-prices-rate-risk",
-      "headline": "Petrol prices climb as oil spike feeds rate-hike fears",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-25T00:00:00+10:00",
-      "voiceScript": "国际油价这一轮重新冲上每桶 100 美元，澳洲加油站已经开始传导。ABC 报道全国 91 号汽油均价已经到每升 1.88 澳元，柴油到 2.30 澳元；联邦政府则出来安抚，说供应仍然充足。问题不只是今天的油价，若中东冲突继续升级，后面几周零售价可能继续抬升，也会把 RBA 8 月会议前后的通胀和利率预期一起顶上去。",
-      "differences": [
-        "ABC News：更强调全国现货油价已经开始抬升，以及政府对供应的安抚。",
-        "SBS News：更直接把涨价放到中东局势升级和更广泛的战争风险里。",
-        "The Guardian Australia：更突出每升 2 澳元的可能性和 8 月 11 日的 RBA 会议。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876",
-          "title": "Federal government says fuel supply 'solid and secure' as prices climb again"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/more-fuel-price-pain-ahead-for-australians-as-war-ramps-up-and-de-escalation-dims/liu71xlm1",
-          "title": "More fuel price pain ahead as Houthis widen war's front line, Trump considers fresh strikes"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising",
-          "title": "Australian households face prospect of interest rate hike and petrol prices rising above $2 a litre"
-        }
-      ]
-    },
-    {
-      "id": "bird-flu-qld",
+      "id": "qld-h5-bird-flu",
       "headline": "Queensland confirms first H5 bird flu case",
       "sourceCount": 2,
       "publishedAt": "2026-07-25T00:00:00+10:00",
-      "voiceScript": "昆士兰确认首个 H5 鸟流感病例，样本来自 7 月 18 日在 Moreton Island 发现的一只死亡海鸟，随后送交 CSIRO 复核。州政府目前认为家禽产品仍然安全，但这次确认意味着东海岸野鸟监测要继续加密。接下来要看是否会在更多海鸟样本里再检出阳性，以及农场和野保区域会不会进一步收紧防控。",
-      "differences": [],
+      "voiceScript": "昆士兰今天确认首例 H5 鸟流感病例，样本来自 Moreton Island 上一只 7 月 18 日发现的死亡海鸟，送交 CSIRO 后被证实阳性。州政府说目前没有在家禽或养殖系统里看到扩散迹象，鸡蛋和鸡肉仍可安全食用。接下来要看是否会在更多野鸟样本里再检出病例，以及州内野生动物和农场监测会不会继续加严。",
+      "differences": [
+        "ABC News：更强调这是 CSIRO 复核后的正式确认，并点出 7 月 18 日的发现时间。",
+        "SBS News：仍用“suspected case”的表述，重点放在家禽安全和野鸟监测风险上。"
+      ],
       "links": [
         {
           "source": "ABC News",
@@ -76,15 +50,44 @@
       ]
     },
     {
+      "id": "fuel-prices-rate-risk",
+      "headline": "Australian households face higher petrol prices and rate risk",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-25T00:00:00+10:00",
+      "voiceScript": "国际油价重新冲上每桶 100 美元后，澳洲油站价格又在抬头。ABC 报道联邦政府正在强调燃料供应仍然充足，但 8 月 2 日的燃油消费税折扣即将结束，驾驶者很快会感受到更高的泵价。Guardian 和 SBS 都把重点放在通胀回升和 RBA 8 月 11 日会议前的利率压力上。下一步要看油价能否在中东局势缓和前稳住，以及联储是否会被迫重新考虑加息。",
+      "differences": [
+        "ABC News：更强调燃料供应稳定，以及 8 月 2 日燃油消费税折扣到期。",
+        "SBS News：更把问题放在通胀回升和年内再次加息的概率。",
+        "The Guardian Australia：更直接写出汽油可能升破每升 2 澳元，以及 8 月 11 日的 RBA 会议压力。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876",
+          "title": "Federal government says fuel supply 'solid and secure' as prices climb again"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte",
+          "title": "Not a 'one off spike': Why higher petrol prices are set to return"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising",
+          "title": "Australian households face prospect of interest rate hike and petrol prices rising above $2 a litre"
+        }
+      ]
+    },
+    {
       "id": "us-trade-tariff",
-      "headline": "US lifts tariffs on Australian exports to 12.5 per cent",
+      "headline": "US imposes 12.5 per cent tariff on Australian exports",
       "sourceCount": 3,
       "publishedAt": "2026-07-24T00:00:00+10:00",
-      "voiceScript": "美国对澳洲出口加征的新关税已经生效，税率升到 12.5%。ABC 报道新税率在周五下午 2 点 01 分正式启动，原本的 10% 临时税率同时失效；澳洲方面认为这项措施没有道理。对出口商来说，眼下最现实的问题是合同怎么改、价格能不能转嫁，以及哪些品类会不会继续被波及。接下来要盯白宫是否松口和贸易部门的下一轮交涉。",
+      "voiceScript": "美国对澳洲出口的新一轮关税已经生效，税率升到 12.5%。ABC 说新税率在周五下午 2 点 01 分启动，旧的 10% 临时税率同时失效；澳洲政府则直接把它定性为不合理。对出口商来说，眼下最麻烦的是合同、定价和客户是否会把成本往下游转嫁。下一步要看贸易部后续交涉、美国是否继续扩大豁免，以及哪些品类会先感受到订单压力。",
       "differences": [
-        "ABC News：更强调新税率的生效时间，以及联邦政府的即时反击。",
-        "SBS News：更突出澳洲贸易团队推动撤销关税，强调对出口商的现实不确定性。",
-        "The Guardian Australia：更聚焦美方以 forced labour 为由加税，以及对定价和合同的冲击。"
+        "ABC News：更强调生效时间和澳洲政府的即时反应。",
+        "SBS News：更聚焦澳洲拒绝美方理由，以及贸易上的回应。",
+        "The Guardian Australia：更突出美国以 forced labour 为由加税，以及 beef 和 gold 等豁免细节。"
       ],
       "links": [
         {
@@ -94,8 +97,8 @@
         },
         {
           "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/donald-trump-hit-australia-with-nonsense-12-5-per-cent-tarriffs/x4qy0tc68",
-          "title": "Trump's new Australian tariffs reveal complex truths, experts say as government urges repeal"
+          "url": "https://www.sbs.com.au/news/podcast-episode/australia-rejects-us-case-for-higher-tariffs-midday-news-bulletin-24-july-2026/88vr566y3",
+          "title": "Australia rejects US case for higher tariffs"
         },
         {
           "source": "The Guardian Australia",
@@ -105,26 +108,21 @@
       ]
     },
     {
-      "id": "origin-breach",
+      "id": "origin-data-breach",
       "headline": "Origin Energy breach exposes customer data",
       "sourceCount": 3,
       "publishedAt": "2026-07-24T00:00:00+10:00",
-      "voiceScript": "Origin Energy 已确认部分客户资料遭到未经授权访问和披露。已知可能外泄的内容包括姓名、地址、生日、电话、Origin 账户信息，以及部分银行卡或银行账户号码。更值得警惕的是，这类资料很容易被拼成定向诈骗和身份冒用，尤其是钓鱼短信、假客服和 AI 语音骗局。接下来要看公司多久完成通知，以及监管机构会不会介入追查安全责任。",
+      "voiceScript": "Origin Energy 确认有客户资料在数据泄露中被访问或披露，涉及姓名、地址、生日、电话和部分银行卡或账户信息。公司说还在核实受影响人数，但已经通知相关监管和网络安全机构。真正的风险不只是泄露本身，而是这些资料会被拿去做定向钓鱼、冒充客服和身份冒用。接下来要看 Origin 何时完成逐户通知，以及监管机构会不会进一步追责。",
       "differences": [
-        "ABC News：更强调数据会被用于高仿诈骗和 AI 语音、身份冒用。",
-        "SBS News：更突出客户应立即留意钓鱼短信和账户保护措施。",
-        "The Guardian Australia：更明确列出暴露字段，并点出监管追查压力。"
+        "ABC News：更强调 AI 语音诈骗和身份冒用的后续风险。",
+        "SBS News：更聚焦客户应警惕的诈骗场景和防范提示。",
+        "The Guardian Australia：更完整列出外泄字段，并突出公司与监管机构的回应。"
       ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-23/origin-energy-confirms-unauthorised-access-customer-data/106948052",
           "title": "Origin Energy confirms breach of customer data"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/origin-breach-could-fuel-wave-of-ai-powered-scams/106951588",
-          "title": "Origin data breach could fuel wave of AI-powered scams"
         },
         {
           "source": "SBS News",
@@ -143,11 +141,11 @@
       "headline": "AusAlert national test will ring on most phones on Monday",
       "sourceCount": 3,
       "publishedAt": "2026-07-24T00:00:00+10:00",
-      "voiceScript": "澳洲新的 AusAlert 全国测试定在 7 月 27 日下午 2 点，手机会先响 10 秒警报，再弹出测试信息。系统的目标是把火灾、洪水、恐袭等紧急通知更快送到大多数设备上，但它也让家暴避险用的隐藏手机面临风险。ABC 重点在辟谣，SBS 解释了设备触发方式，Guardian 则提醒相关人群提前关机或切飞行模式。测试过后，真正要看的还是系统在全国正式上线前能不能把误报、覆盖和州级衔接问题磨顺。",
+      "voiceScript": "澳洲新的 AusAlert 全国测试定在 7 月 27 日下午 2 点，几乎所有手机都会先响起 10 秒警报，再弹出测试信息。系统目的是把火灾、洪水、恐袭这类紧急通知更快推送到手机，但它也让家暴避险中使用的隐藏手机暴露出风险。官方把这次测试当成正式上线前的压力测试，接下来要看全国覆盖、误报和州级系统衔接能不能顺利过关。",
       "differences": [
-        "ABC News：更聚焦澄清阴谋论和各州对系统衔接的顾虑。",
-        "SBS News：更详细解释警报如何在不同设备上触发，以及对隐藏手机的风险。",
-        "The Guardian Australia：更强调 safe phones 的操作建议和 10 月正式 rollout。"
+        "ABC News：更集中在辟谣和技术工作方式。",
+        "SBS News：更强调对家暴受害者“safe phone”的风险。",
+        "The Guardian Australia：更提醒可以关机或切飞行模式，以及 10 月正式 rollout。"
       ],
       "links": [
         {
@@ -173,15 +171,78 @@
       ]
     },
     {
+      "id": "labor-conference-2026",
+      "headline": "Labor's Adelaide conference turns policy fights into commitments",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-24T00:00:00+10:00",
+      "voiceScript": "Labor 在阿德莱德全国会议上把几项原本留在文件里的政策推到台前，包括给 18 岁以下员工缴 super、设立新的 Fair Work 法庭，以及扩大医疗相关实习和 paid prac。会议同时还在处理燃气、博彩、巴勒斯坦和 AI 等争议议题，说明党内在努力把分歧收进可执行的平台。接下来要看这些表态能不能在未来几个月转成法案，还是只停留在党内会议现场。",
+      "differences": [
+        "ABC News：更关注通过了哪些动议和具体政策。",
+        "SBS News：更强调党内如何管理 dissent。",
+        "The Guardian Australia：更突出会议的舞台化和政治压力。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-23/federal-politics-live-blog-paid-prac/106947462",
+          "title": "Federal politics: Floor fight over gas tax evaporates as Labor spruiks ..."
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-23/labor-national-conference-debate-gas-gambling-gaza/106945156",
+          "title": "Labor conference kicks off with gas, gambling and Gaza"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/the-labor-national-conference-is-held-every-three-years-how-is-dissent-being-managed/ilxjn7e70",
+          "title": "The Labor national conference is held every three years. How is dissent being managed?"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/24/brawling-debates-and-activist-demands-on-the-floor-not-at-a-national-conference-of-albaneses-labor",
+          "title": "Brawling debates and activist demands on the floor? Not at a national conference of Albanese's Labor"
+        }
+      ]
+    },
+    {
+      "id": "china-asean-warning",
+      "headline": "Australia warns China over missile test at ASEAN",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-23T00:00:00+10:00",
+      "voiceScript": "在菲律宾马尼拉的东盟会议上，Penny Wong 公开点名中国近期的导弹试射和海上动作，称澳洲和地区国家不会被吓住。她把重点放在透明度、预先通报和地区稳定上，也借机强调中东局势推高能源价格会影响亚洲供应链。下一步要看北京怎么回击，以及澳洲会不会推动更密的地区海上合作。",
+      "differences": [
+        "ABC News：更强调中国反批澳洲“夸大紧张局势”，以及双方的外交交锋。",
+        "SBS News：更详细说明中方试射和缺少通知的问题。",
+        "The Guardian Australia：更把这件事放在地区安全和油价背景下。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-22/china-australia-south-china-sea-philippines-tension/106946822",
+          "title": "China demands Australia stop 'exaggerating tensions' over South China Sea"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/aussie-concerns-over-chinese-missile-test-raised-at-asean-eveninig-news-bulletin-23-july-2026/s0yu09cyq",
+          "title": "Australia raises concerns over Chinese missile test at ASEAN"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/22/australia-to-warn-china-it-wont-be-bulled-by-provocative-actions-as-it-builds-military-and-nuclear-arsenal",
+          "title": "Australia to warn China it won't be bullied by 'provocative' actions as it builds military and nuclear arsenal"
+        }
+      ]
+    },
+    {
       "id": "hanson-dv-backlash",
       "headline": "Hanson's domestic-violence comments trigger backlash",
       "sourceCount": 3,
-      "publishedAt": "2026-07-24T00:00:00+10:00",
-      "voiceScript": "Pauline Hanson 因在电台里把家暴说成 'two-way street' 再次遭到猛烈批评。ABC 记录的是政界和反家暴团体的快速反弹，SBS 更强调她试图把争议解释成被断章取义，Guardian 则直接把这类说法定义成伤害幸存者的 victim-blaming。这个争议的关键不是一时口误，而是她到底是在辩解，还是在把家暴问题继续往受害者身上推。下一步要看 One Nation 是否会收回说法，还是继续放大对抗媒体的叙事。",
+      "publishedAt": "2026-07-23T00:00:00+10:00",
+      "voiceScript": "Pauline Hanson 因把家暴说成 'two-way street' 再次引发强烈反弹。她在采访里试图把争议解释成被断章取义，但反家暴团体、工会和多位政界人士都指这类说法会伤害幸存者，也会模糊施暴责任。这个争议的关键已经不是一句话本身，而是她是否会继续把家暴问题包装成文化战。下一步要看 One Nation 是降温，还是继续把对抗媒体当作政治策略。",
       "differences": [
-        "ABC News：更突出政界与反家暴团体的即时反弹。",
-        "SBS News：更着重 Hanson 试图把争议说成媒体断章取义。",
-        "The Guardian Australia：更直接把这类说法定性为 victim-blaming，并连到她过往发言。"
+        "ABC News：更强调她的原话和政界、反家暴团体的即时反应。",
+        "SBS News：更着重 Hanson 否认失言、强调被误解。",
+        "The Guardian Australia：更直接指出这是长期重复的模式，而非偶发失言。"
       ],
       "links": [
         {
@@ -202,44 +263,15 @@
       ]
     },
     {
-      "id": "labor-conference",
-      "headline": "Labor's Adelaide conference turns policy fights into commitments",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-24T00:00:00+10:00",
-      "voiceScript": "Labor 在阿德莱德的全国会议把一批政策问题推到台前，包括给 18 岁以下员工强制缴纳 super、设立新的 Fair Work 法庭、扩大医疗相关实习岗位。会议还在协调燃气、博彩、巴勒斯坦和 AI 等争议议题，显示党内想把口号变成能落地的政策。现在最重要的是，这些平台承诺有多少会在未来几个月变成法案，而哪些只是让内部派系先过关。",
-      "differences": [
-        "ABC News：更关注现场通过的具体动议和政策推进。",
-        "SBS News：更强调党内如何管理 dissent，以及哪些承诺还只是 platform 位置。",
-        "The Guardian Australia：更突出会议的 stage-managed 气质和政治压力。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-23/federal-politics-live-blog-paid-prac/106947462",
-          "title": "Federal politics: Floor fight over gas tax evaporates as Labor spruiks ..."
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/video/one-nation-looms-large-over-labors-national-conference/wtw05lgy4",
-          "title": "One Nation looms large over Labor's national conference"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/24/brawling-debates-and-activist-demands-on-the-floor-not-at-a-national-conference-of-albaneses-labor",
-          "title": "Brawling debates and activist demands on the floor? Not at a national conference of Albanese's Labor"
-        }
-      ]
-    },
-    {
-      "id": "ai-regulation",
-      "headline": "Australia tightens AI rules around government decisions and data centres",
+      "id": "ai-rules-government-datacentres",
+      "headline": "Australia tightens AI rules for government decisions and data centres",
       "sourceCount": 3,
       "publishedAt": "2026-07-19T00:00:00+10:00",
-      "voiceScript": "澳洲正在收紧对 AI 的监管，重点先落在政府部门的自动化决策上。联邦政府想把隐私、安全和透明度先补起来，同时也在考虑为大型数据中心设定更明确的能源和用水边界。这个方向对公共服务和科技投资都会有直接影响，因为它决定了哪些 AI 可以进政府流程，哪些大型项目必须先过社区和环境门槛。下一步要看政府能不能把原则变成可执行规则，尤其是数据中心扩张和公共服务用 AI 的边界。",
+      "voiceScript": "澳洲联邦政府在 AI 监管上开始收紧，先从政府部门的自动化决策入手，再往隐私、安全和透明度补规则。ABC 说这会直接影响公共服务里哪些 AI 能被采用；SBS 进一步提到大型数据中心未来可能要自己配套电力和用水；Guardian 则把这次修法和 robodebt 的教训连在一起。接下来要看监管细则怎么落地，尤其是政府用 AI 的边界会画到哪里。",
       "differences": [
-        "ABC News：更聚焦联邦机构的自动化决策、隐私和安全审查。",
-        "SBS News：更强调新 AI office、全国标准，以及数据中心的能源和用水要求。",
-        "The Guardian Australia：更直接把改革和 robodebt 的教训联系起来，并强调监管边界。"
+        "ABC News：更聚焦公共部门的自动化决策和隐私审查。",
+        "SBS News：更强调 AI office、标准和数据中心的能源与用水义务。",
+        "The Guardian Australia：更直接把改革与 robodebt 的经验连起来。"
       ],
       "links": [
         {
