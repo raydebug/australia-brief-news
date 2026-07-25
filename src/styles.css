@@ -347,6 +347,10 @@ p {
   max-width: 1100px;
 }
 
+.detail-grid.single-column {
+  grid-template-columns: minmax(0, 520px);
+}
+
 .detail-grid section {
   background: rgba(255, 253, 248, 0.92);
   border: 1px solid #ded6c9;

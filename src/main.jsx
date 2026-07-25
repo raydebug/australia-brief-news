@@ -60,11 +60,9 @@ function uniqueDifferences(cluster) {
     differences.push(difference);
   }
 
-  if (displaySourceCount(cluster) <= 1) {
-    return ["只有一个新闻来源，暂无可比较的表述差异。"];
-  }
+  if (displaySourceCount(cluster) <= 1) return [];
 
-  return differences.length ? differences : ["暂无可比较的表述差异。"];
+  return differences;
 }
 
 function SourceLogo({ name }) {
@@ -116,6 +114,7 @@ function App() {
   }, [data, mode, query]);
 
   const active = clusters.find((cluster) => cluster.id === activeId) || clusters[0];
+  const activeDifferences = uniqueDifferences(active);
 
   useEffect(() => {
     if (activeId && clusters.length && !clusters.some((cluster) => cluster.id === activeId)) {
@@ -240,15 +239,17 @@ function App() {
               <p>{active.voiceScript}</p>
             </article>
 
-            <div className="detail-grid">
-              <section>
-                <h3>来源差异</h3>
-                <div className="difference-list">
-                  {uniqueDifferences(active).map((difference) => (
-                    <p key={difference}>{difference}</p>
-                  ))}
-                </div>
-              </section>
+            <div className={`detail-grid ${activeDifferences.length === 0 ? "single-column" : ""}`}>
+              {activeDifferences.length > 0 && (
+                <section>
+                  <h3>来源差异</h3>
+                  <div className="difference-list">
+                    {activeDifferences.map((difference) => (
+                      <p key={difference}>{difference}</p>
+                    ))}
+                  </div>
+                </section>
+              )}
 
               <section>
                 <h3>原始链接</h3>
