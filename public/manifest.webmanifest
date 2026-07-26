@@ -1,0 +1,19 @@
+{
+  "name": "澳洲简约新闻",
+  "short_name": "澳洲新闻",
+  "description": "用澳洲新闻网站数据生成的简洁中文新闻 App。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fbf8f0",
+  "theme_color": "#12333a",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

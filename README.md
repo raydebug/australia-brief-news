@@ -1,16 +1,34 @@
 # 澳洲简约新闻
 
-一个适合 GitHub Pages 的静态新闻网站 MVP：
+一个适合 GitHub Pages、手机桌面安装和后续 iOS/Android 打包的跨平台新闻 App：
 
 - 本地拉取多个澳洲新闻来源
 - 自动把相近标题合并成同一新闻簇
 - 为每个新闻簇生成约 1 分钟语音稿
 - 保留每个原始来源链接
 - 总结不同媒体的报道角度差异
+- 支持 PWA 安装、离线缓存和 Capacitor 移动端外壳
 
 ## 内容更新
 
-内容由 Codex 定时任务每小时更新一次。任务会直接维护 `public/news.json`，再构建 `docs/` 供 GitHub Pages 发布。
+内容由 Codex 定时任务每小时更新一次。任务会维护按语言拆分的数据文件，再构建 `docs/` 供 GitHub Pages 发布。
+
+当前语言文件：
+
+- `public/news.zh-Hans.json`
+- `public/news.zh-Hant.json`
+- `public/news.en.json`
+- `public/news.json`：兼容旧入口，保持为简体中文内容
+
+## 数据源网站
+
+App 默认按当前语言读取当前站点里的 `news.{lang}.json`。如果要把一个线上网站作为数据源，复制 `.env.example` 为 `.env`，设置：
+
+```bash
+VITE_NEWS_SOURCE_URL=https://your-site.example/news.{lang}.json
+```
+
+`{lang}` 会被替换成 `zh-Hans`、`zh-Hant` 或 `en`。这个地址需要返回与 `public/news.zh-Hans.json` 相同结构的数据。
 
 ## 本地预览
 
@@ -21,9 +39,30 @@ npm run dev
 
 页面：<http://localhost:5173/>
 
+## 跨平台 App
+
+当前版本是 React + Vite PWA，可直接在支持的浏览器里安装到桌面或手机主屏幕。构建：
+
+```bash
+npm run build
+```
+
+如果要继续生成原生 iOS/Android 项目，可使用 Capacitor：
+
+```bash
+npm run cap:sync
+```
+
+之后按需添加平台：
+
+```bash
+npx cap add ios
+npx cap add android
+```
+
 ## 发布到 GitHub Pages
 
-Codex 定时任务会更新 `public/news.json` 并构建 `docs/`。把仓库推送到 GitHub 后，在 GitHub Pages 设置里选择：
+Codex 定时任务会更新 `public/news.*.json` 并构建 `docs/`。把仓库推送到 GitHub 后，在 GitHub Pages 设置里选择：
 
 - Source: Deploy from a branch
 - Branch: `main`
