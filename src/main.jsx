@@ -540,6 +540,16 @@ function App() {
               key={cluster.id}
             >
               <button
+                className={`icon-button compact card-speak-button ${speakingId === cluster.id ? "active" : ""}`}
+                onClick={() => readCluster(cluster)}
+                disabled={!canSpeak}
+                title={speakingId === cluster.id ? labels.stopReading : labels.readAloud}
+                aria-label={speakingId === cluster.id ? labels.stopReading : labels.readAloud}
+                aria-pressed={speakingId === cluster.id}
+              >
+                <Volume2 size={17} />
+              </button>
+              <button
                 className="cluster-card-button"
                 onClick={() => {
                   setActiveId(cluster.id);

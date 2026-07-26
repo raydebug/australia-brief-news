@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T23:59:00+10:00",
+  "updatedAt": "2026-07-26T22:10:29Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -118,6 +118,89 @@
   "errors": [],
   "clusters": [
     {
+      "id": "allan-leadership-crisis",
+      "headline": "雅辛塔·艾伦面临新的领导危机",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T21:45:55Z",
+      "voiceScript": "维州工党内部的压力正在公开化，雅辛塔·艾伦被推到风口浪尖。州内几位关键人物已经开了危机会议，眼下争论的不只是她能不能撑住，而是这场内斗会不会拖到下次选举前继续发酵。接下来要看党内数字是否继续变化，还是这场危机会先被按住。",
+      "differences": [
+        "The Age：更聚焦危机会议本身，以及州工党内部对艾伦的直接压力。",
+        "The Guardian Australia：把它放进更大的实时政治背景，强调派系变化和连锁反应。"
+      ],
+      "links": [
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/politics/victoria/jacinta-allan-leadership-challenge-live-updates-victorian-premier-under-threat-as-state-labor-chiefs-hold-crisis-meeting-20260726-p60ip3.html",
+          "title": "Jacinta Allan leadership threat LIVE updates: Victorian Premier under pressure as state Labor chiefs hold crisis meeting"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/27/ausalert-emergency-warning-test-antisemitism-royal-commission-nsw-icac-inquiry-politics-anthony-albanese-labor-angus-taylor-coalition-victoria-jacinta-allan-ntwnfb",
+          "title": "Australia news live: Jacinta Allan loses majority caucus support after meeting of state Labor factions; national AusAlert test to blare siren"
+        }
+      ]
+    },
+    {
+      "id": "family-flees-arson",
+      "headline": "墨尔本一户人家逃离纵火袭击",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T20:13:46Z",
+      "voiceScript": "墨尔本一户家庭在纵火袭击后被迫离开，警方仍在追查动机和损失范围。现在最重要的是调查人员能不能判断这是不是一次有针对性的纠纷，还是更广泛的犯罪模式的一部分。在答案出来前，这起案件首先是安全问题，其次才是原因问题。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/family-flees-arson-attack-in-melbourne-20260727-p60iq4.html",
+          "title": "Family flees arson attack in Melbourne"
+        }
+      ]
+    },
+    {
+      "id": "census-explained",
+      "headline": "2026 年人口普查重点一次看懂",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T12:39:35Z",
+      "voiceScript": "澳洲 2026 年人口普查越来越近，关键填写日是 8 月 11 日，不回应的人也可能面临罚款。人口普查之所以重要，是因为它会影响学校、道路、医疗等公共服务和资金分配，所以问题不只是怎么填表，更是为什么这份数据会影响每个人。接下来要看公众参与度如何，大家是把它当普通表格，还是当成一项公民义务。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171",
+          "title": "2026 Census explained: Key date, how to fill it out, who needs to take part and potential fines"
+        }
+      ]
+    },
+    {
+      "id": "bike-hoon-crackdown",
+      "headline": "维州警方加码打击电动自行车飙车党",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T11:00:00Z",
+      "voiceScript": "维州警方正在升级对违规电动自行车和改装自行车的整治，一些骑手把人行道和道路变成了危险区。警方说，部分车辆速度已经高到足以让骑手、行人和驾驶者都面临严重风险，所以这次行动不再只是口头警告，而是直接执法。接下来要看这种压力能不能真正改变骑行习惯，还是只会把问题转到别处。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/recipe-for-serious-injury-or-death-police-hunt-bike-hoons-from-the-sky-20260726-p60im6.html",
+          "title": "Drastic measures to tackle e-bike hoons"
+        }
+      ]
+    },
+    {
+      "id": "sydney-fisherman-capsize",
+      "headline": "悉尼渔船倾覆，一名男子死亡",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T10:30:00Z",
+      "voiceScript": "悉尼外海的一次出海捕鱼最终酿成悲剧，一艘小船翻覆后，一名男子死亡。警方说当时有人没有穿救生衣，调查还在厘清事故是如何一步步升级的。接下来最重要的是安全复盘和验尸调查，看看这起事故到底是意外失控，还是本可避免的悲剧。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/la-perouse-sydney-fisherman-killed-after-boat-capsized-20260726-p60inu.html",
+          "title": "Fisherman dies after boat capsizes off Sydney"
+        }
+      ]
+    },
+    {
       "id": "vad-telehealth",
       "headline": "工党支持临终协助远程医疗咨询",
       "sourceCount": 4,
@@ -153,15 +236,32 @@
       ]
     },
     {
+      "id": "daniel-grollo-bankruptcy",
+      "headline": "格罗隆破产，纽约公寓被接管",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T10:00:00+10:00",
+      "voiceScript": "前 Grocon 老板丹尼尔·格罗隆已被宣告破产，连带还有他在纽约的一套公寓被没收，调查也已经被提上台面。这个消息之所以重要，是因为它把墨尔本最知名的建筑名字之一，和整座商业帝国的信任崩塌直接连在了一起。接下来要看调查会往多深处走，以及还会不会牵出更多资产和负债。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/victoria/former-chief-of-collapsed-grocon-building-empire-declares-bankruptcy-20260726-p60ily.html",
+          "title": "Daniel Grollo declared bankrupt, New York apartment forfeited as investigation flagged"
+        }
+      ]
+    },
+    {
       "id": "ausalert-national-test",
       "headline": "全国 AusAlert 测试将触发手机警报",
-      "sourceCount": 3,
+      "sourceCount": 5,
       "publishedAt": "2026-07-26T09:00:00+10:00",
       "voiceScript": "联邦政府今天把全国 AusAlert 警报系统拿来做第一次全国测试，手机、平板和部分手表都会在设定时间响起 10 秒警报。官方想验证这种基于蜂窝广播的新系统，能不能比旧短信更快、更稳定地把山火、洪水和其他紧急信息送到指定区域。争议点在于，它会覆盖静音模式，也可能让藏机的家暴受害者暴露位置。接下来要看这次测试的覆盖率、误报率和公众对安全提醒的接受度。",
       "differences": [
         "ABC News：强调全国同步测试、今天就会响起，以及系统正式上线前的现实演练。",
         "SBS News：更强调如何准备测试、技术原理和对家暴受害者的安全提醒。",
-        "news.com.au：更集中讲兼容设备、10 秒警报和静音模式也会被覆盖。"
+        "news.com.au：更集中讲兼容设备、10 秒警报和静音模式也会被覆盖。",
+        "9News：突出警报会在全国手机上响起，以及静音模式也无法避开。",
+        "The Sydney Morning Herald：把重点放在今天的实际测试和居民应如何应对。"
       ],
       "links": [
         {
@@ -178,13 +278,23 @@
           "source": "news.com.au",
           "url": "https://www.news.com.au/technology/everything-you-need-to-know-about-ausalert-warning-alarm-test/news-story/dac4abc3a73dc2b0ca2c872cf5361f16",
           "title": "Everything you need to know about the AusAlert warning alarm test"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/emergency-alert-test-australia-what-to-expect-july-27-everything-to-know-20260709-p60dyd.html",
+          "title": "Siren alarm test to blare on phones across Australia today"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/ausalert-test-coming-today-20260727-p60iq6.html",
+          "title": "AusAlert test coming today"
         }
       ]
     },
     {
       "id": "cluster-1",
       "headline": "凯恩斯警方冲突中两人中枪",
-      "sourceCount": 1,
+      "sourceCount": 4,
       "publishedAt": "2026-07-25T09:47:50.000Z",
       "voiceScript": "昆士兰凯恩斯一场与持枪嫌疑人的冲突，最后演变成警方开枪，一男一女中枪。现在公开的信息还不完整，关键还在于嫌疑人是谁、现场经过如何升级，以及两名伤者的伤势是否稳定。接下来要看警方能否把时间线和执法判断交代清楚，否则外界对这次行动是否必要的疑问还会继续。",
       "differences": [],
@@ -193,13 +303,28 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-25/queensland-police-shoot-man-woman-cairns-altercation/106958468",
           "title": "Two people shot by police during altercation in Cairns"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/qld/two-people-including-innocent-bystander-shot-by-police-in-cairns-queensland-20260726-p60ikh.html",
+          "title": "Two people, including innocent bystander, shot by police"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/man-shot-by-police-in-queensland-to-face-court-20260727-p60iq7.html",
+          "title": "Man shot by police in Queensland to face court"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/woman-caught-in-crossfire-as-police-shoot-armed-man-during-stand-off-20260726-p60il7.html",
+          "title": "Woman caught in crossfire as police shoot man in stand-off"
         }
       ]
     },
     {
       "id": "cluster-3",
       "headline": "西澳 24 小时内 5 人死于道路事故",
-      "sourceCount": 1,
+      "sourceCount": 3,
       "publishedAt": "2026-07-25T06:21:30.000Z",
       "voiceScript": "西澳不到 24 小时里有 5 人在不同车祸中死亡，道路死亡人数再次拉响警报。事故分布在多个地点，说明问题不是单一路段，而是超速、疲劳驾驶和乡村道路风险同时存在。接下来要看州政府会不会加码执法和安全宣传，还是继续把重点放在驾驶员自律上。",
       "differences": [],
@@ -208,6 +333,16 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-25/five-people-die-in-24-hours-on-wa-roads/106958246",
           "title": "Drivers urged to play their part as five people die on WA roads in 24 hours"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/qld/three-killed-in-horror-night-on-south-east-queensland-roads-20260726-p60ima.html",
+          "title": "Three killed in horror night on south-east Queensland roads"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/three-dead-in-two-crashes-across-south-east-overnight-20260726-p60ils.html",
+          "title": "Three dead in two crashes across south-east overnight"
         }
       ]
     },
@@ -275,14 +410,15 @@
     {
       "id": "fuel-price-rise",
       "headline": "燃油价格上涨，消费税减免即将结束",
-      "sourceCount": 4,
+      "sourceCount": 5,
       "publishedAt": "2026-07-25T14:19:00+10:00",
       "voiceScript": "燃油价格这轮上涨没有停下来的迹象，联邦政府也明确表示，不打算把 8 月 2 日到期的燃油消费税减免继续往后延。随着国际原油价格抬升、地缘冲突扰动供应，悉尼、墨尔本等地的泵价已经明显上行，家庭和通勤族会最先感受到压力。接下来要观察的是油价会不会继续推高通胀，以及这会不会影响澳洲央行 8 月的利率判断。",
       "differences": [
         "ABC News：强调供应仍然充足，政府先稳定市场情绪。",
         "The Guardian Australia：更强调家庭负担、泵价上冲到每升 2 澳元，以及 RBA 加息风险。",
         "SBS News：突出燃油税减免即将结束，以及市场已在押注进一步加息。",
-        "news.com.au：把焦点放在油价 40 天高位和 16 仙优惠结束后的冲击。"
+        "news.com.au：把焦点放在油价 40 天高位和 16 仙优惠结束后的冲击。",
+        "The Sydney Morning Herald：直接点出消费税减免结束后，油价会继续抬升。"
       ],
       "links": [
         {
@@ -304,6 +440,11 @@
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293",
           "title": "Fuel warning for Aussies as oil price hits 40-day high"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html",
+          "title": "Fuel prices to go up as excise cut ends"
         }
       ]
     },
@@ -389,14 +530,15 @@
     {
       "id": "us-tariff-australian-exports",
       "headline": "美国新关税冲击澳洲出口",
-      "sourceCount": 4,
+      "sourceCount": 5,
       "publishedAt": "2026-07-24T13:31:00+10:00",
       "voiceScript": "美国对澳洲出口加征 12.5% 关税，原本的 10% 临时税率也一起到期，澳洲政府马上把它定义为不公平的贸易打击。现在受影响最直接的是出口企业和谈判气氛，牛肉、黄金等关键产品暂时没有吃到最重冲击，但整个供应链的成本和不确定性都在上升。接下来要看堪培拉是否继续游说华府，以及这套以“强迫劳动”为名的关税逻辑会不会继续扩大。",
       "differences": [
         "ABC News：说明临时 10% 关税到期后税率再上调 2.5 个百分点，并提到企业已考虑法律和游说手段。",
         "The Guardian Australia：更强调 12.5% 适用于大量澳洲出口，同时点出牛肉和黄金等关键出口暂时豁免。",
         "SBS News：把它写成澳洲明确拒绝美国说法的快速国际新闻，强调即时生效。",
-        "news.com.au：更集中在 Albanese 与 Don Farrell 的强硬回应，以及对消费者和出口商的连带影响。"
+        "news.com.au：更集中在 Albanese 与 Don Farrell 的强硬回应，以及对消费者和出口商的连带影响。",
+        "9News：强调总理会在与特朗普会面时直接提出这项关税。"
       ],
       "links": [
         {
@@ -418,6 +560,26 @@
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/economy/australian-economy/anthony-albaneses-rejects-trumps-unjustified-slavery-tariff/news-story/979af50892a0cb89c9cc9f3ca3218314",
           "title": "Anthony Albanese dodges question on Trump threat"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/donald-trump-anthony-albanese-tariffs-20260726-p60in6.html",
+          "title": "PM set to raise ‘unjustified’ tariffs with US President Donald Trump"
+        }
+      ]
+    },
+    {
+      "id": "brisbane-gpo-tower",
+      "headline": "布里斯班 GPO 旁将建 40 层办公楼",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T10:00:00+10:00",
+      "voiceScript": "布里斯班市中心又迎来一项重大开发计划，GPO 旁边将建设一座 40 层办公楼。方案还包含底层的公共城市空间，并会取代现有的 Edison Exchange，所以这不仅是楼高问题，也是 CBD 如何继续吸收商业扩张的问题。接下来要看规划和设计能否顺利过关，以及它如何嵌入奥运时代的城市叙事。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/40-storey-office-tower-to-be-built-next-to-brisbane-s-gpo-20260724-p60idr.html",
+          "title": "40-storey office tower to be built next to Brisbane’s GPO"
         }
       ]
     },
@@ -447,6 +609,66 @@
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/work/leaders/anthony-albanese-to-speak-at-alp-conference-as-beer-tax-debate-rages/live-coverage/43ba1e0bb2ec2e5eb33be9f30f299134",
           "title": "Labor promises superannuation boost for young Australian workers"
+        }
+      ]
+    },
+    {
+      "id": "perth-ai-child-sex-videos",
+      "headline": "珀斯癌症医生承认制作 AI 儿童性虐待视频",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T10:00:00+10:00",
+      "voiceScript": "珀斯一名癌症医生承认制作 AI 生成的儿童性虐待视频，这件事让医疗界和法律界都非常震惊。眼下最关键的是这些内容的规模、会带来什么法律后果，以及法院会把这种技术当成新鲜工具，还是更严重虐待模式的一部分。更多细节会在法庭程序中逐步披露，而不是靠猜测。",
+      "differences": [],
+      "links": [
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/western-australia/perth-cancer-doctor-admits-he-made-ai-child-sex-videos-20260724-p60ias.html",
+          "title": "Perth cancer doctor admits he made AI child sex videos"
+        }
+      ]
+    },
+    {
+      "id": "sydney-housing-tower",
+      "headline": "悉尼郊区反对高密度社会住房塔楼",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-23T02:00:00Z",
+      "voiceScript": "坎登的居民正在反对新州政府的一项住房计划，他们担心高密度社会住房塔楼会让社区承受不住。争论背后其实是更大的住房短缺问题，所以真正的焦点不是要不要建房，而是密度应该落在哪里、怎么落。接下来要看规划和地方领导能不能改设计，还是这场对立会继续拖下去。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/camden-sydney-residents-fight-against-high-density-social-housing-tower-20260723-p60hzb.html",
+          "title": "‘The town cannot cope’: Sydney suburb fights NSW government over housing tower"
+        }
+      ]
+    },
+    {
+      "id": "lancelin-erosion",
+      "headline": "兰斯林居民进城抗议海岸侵蚀",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-22T10:00:00+10:00",
+      "voiceScript": "兰斯林的居民已经把海岸侵蚀问题带到珀斯，警告说小镇最后一道沙丘防线正在变薄。这个问题很现实：如果海岸线继续后退，房屋、道路和当地生意都会在每个季节承受更大压力。接下来要看州政府是把它当成紧急工程来处理，还是继续当作缓慢推进的海岸管理问题。",
+      "differences": [],
+      "links": [
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/western-australia/with-a-dune-as-its-last-defence-a-wa-town-buses-into-the-city-to-demand-action-20260722-p60hp7.html",
+          "title": "‘Save our town’: Lancelin residents take coastal erosion fight to city centre"
+        }
+      ]
+    },
+    {
+      "id": "toxic-waste-landswap",
+      "headline": "珀斯开发商有毒废料换地安排被录音曝光",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-22T10:00:00+10:00",
+      "voiceScript": "一段秘密录音让珀斯开发商和有毒废料相关的换地安排再度受到审视。真正值得注意的不是录音本身，而是它暗示污染、地价和信息披露可能是怎样被处理的。接下来要看监管机构和调查人员会把这看成一笔糟糕交易、一次合规违规，还是更严重的事情。",
+      "differences": [],
+      "links": [
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/western-australia/getting-rid-of-a-headache-secret-tape-exposes-land-swap-deal-for-toxic-waste-20260722-p60hmm.html",
+          "title": "‘Getting rid of a headache’: Secret tape exposes Perth developer’s land-swap deal for ‘toxic’ waste"
         }
       ]
     }

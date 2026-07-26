@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T21:03:38.704Z",
+  "updatedAt": "2026-07-26T22:10:29Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -118,6 +118,89 @@
   "errors": [],
   "clusters": [
     {
+      "id": "allan-leadership-crisis",
+      "headline": "Jacinta Allan faces a fresh leadership crisis",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T21:45:55Z",
+      "voiceScript": "Victoria’s Labor government is in damage-control mode after factional pressure on Jacinta Allan spilled into the open. The state party’s top figures have held crisis talks, and the noise now is about whether the premier can steady the room before the next election cycle tightens. If the internal numbers keep moving, this stops being a headline and becomes a real leadership contest.",
+      "differences": [
+        "The Age: focuses on the crisis meeting and the direct pressure on Allan.",
+        "The Guardian Australia: frames it as factional fallout inside a broader live political update."
+      ],
+      "links": [
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/politics/victoria/jacinta-allan-leadership-challenge-live-updates-victorian-premier-under-threat-as-state-labor-chiefs-hold-crisis-meeting-20260726-p60ip3.html",
+          "title": "Jacinta Allan leadership threat LIVE updates: Victorian Premier under pressure as state Labor chiefs hold crisis meeting"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/27/ausalert-emergency-warning-test-antisemitism-royal-commission-nsw-icac-inquiry-politics-anthony-albanese-labor-angus-taylor-coalition-victoria-jacinta-allan-ntwnfb",
+          "title": "Australia news live: Jacinta Allan loses majority caucus support after meeting of state Labor factions; national AusAlert test to blare siren"
+        }
+      ]
+    },
+    {
+      "id": "family-flees-arson",
+      "headline": "A family flees an arson attack in Melbourne",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T20:13:46Z",
+      "voiceScript": "A Melbourne family has been forced out after an arson attack, and police are still working through the motive and the extent of the damage. What matters most right now is whether investigators can link this to a targeted dispute or a broader crime pattern. Until then, the case remains about safety first and answers later.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/family-flees-arson-attack-in-melbourne-20260727-p60iq4.html",
+          "title": "Family flees arson attack in Melbourne"
+        }
+      ]
+    },
+    {
+      "id": "census-explained",
+      "headline": "2026 Census explained: key date, who must respond and penalties",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T12:39:35Z",
+      "voiceScript": "Australia’s 2026 Census is getting closer, with the key collection date on 11 August and penalties possible for people who simply ignore it. The Census matters because it shapes funding, services and planning for everything from schools to roads, so the question isn’t just how to fill it out but why the data matters. The remaining unknown is public participation, especially whether households treat it as a routine form or a civic obligation.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171",
+          "title": "2026 Census explained: Key date, how to fill it out, who needs to take part and potential fines"
+        }
+      ]
+    },
+    {
+      "id": "bike-hoon-crackdown",
+      "headline": "Victoria Police steps up crackdown on e-bike hoons",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T11:00:00Z",
+      "voiceScript": "Victoria Police is taking a harder line against illegal e-bike and modified-bike riders who are turning footpaths and roads into danger zones. Officers say some of the bikes are reaching speeds that put riders, pedestrians and drivers at serious risk, so the response is moving beyond warnings and into direct enforcement. The question now is whether that pressure actually changes behaviour or just pushes the problem elsewhere.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/recipe-for-serious-injury-or-death-police-hunt-bike-hoons-from-the-sky-20260726-p60im6.html",
+          "title": "Drastic measures to tackle e-bike hoons"
+        }
+      ]
+    },
+    {
+      "id": "sydney-fisherman-capsize",
+      "headline": "Sydney fisherman dies after boat capsizes",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T10:30:00Z",
+      "voiceScript": "A fishing trip off Sydney ended in tragedy when a boat capsized and one man died. Police say life jackets were not being worn, and investigators still need to pin down exactly how the accident escalated. The next step is the safety and coronial review, which will test whether this was a bad break or a preventable loss.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/la-perouse-sydney-fisherman-killed-after-boat-capsized-20260726-p60inu.html",
+          "title": "Fisherman dies after boat capsizes off Sydney"
+        }
+      ]
+    },
+    {
       "id": "vad-telehealth",
       "headline": "Labor backs telehealth access for assisted dying consultations",
       "sourceCount": 4,
@@ -153,15 +236,32 @@
       ]
     },
     {
+      "id": "daniel-grollo-bankruptcy",
+      "headline": "Daniel Grollo declared bankrupt as investigation looms",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T10:00:00+10:00",
+      "voiceScript": "Former Grocon boss Daniel Grollo has been declared bankrupt, and the fallout includes a New York apartment being forfeited while an investigation is flagged. The story matters because it links one of Melbourne’s best-known construction names with a much larger collapse in confidence around the empire he once led. What remains unclear is how far the inquiries will go and what other assets or liabilities could surface.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/victoria/former-chief-of-collapsed-grocon-building-empire-declares-bankruptcy-20260726-p60ily.html",
+          "title": "Daniel Grollo declared bankrupt, New York apartment forfeited as investigation flagged"
+        }
+      ]
+    },
+    {
       "id": "ausalert-national-test",
       "headline": "National AusAlert test will trigger phone alerts",
-      "sourceCount": 3,
+      "sourceCount": 5,
       "publishedAt": "2026-07-26T09:00:00+10:00",
       "voiceScript": "The federal government is running the first national test of AusAlert today, with phones, tablets and some watches set to sound a 10-second emergency alert. Officials want to check whether the cell-broadcast system can send bushfire, flood and other warnings faster and more reliably than older text-message systems. The sensitive point is that the alert can override silent mode, which may create risk for people hiding a phone because of family violence. The next test is whether coverage is broad, false alarms stay low and the public accepts the new warning channel.",
       "differences": [
-        "ABC News focuses on the national timing and the system rehearsal before full rollout.",
-        "SBS News puts more weight on preparation, the technology and safety advice for family-violence victims.",
-        "news.com.au concentrates on compatible devices, the 10-second alert and silent-mode override."
+        "ABC News：强调全国同步测试、今天就会响起，以及系统正式上线前的现实演练。",
+        "SBS News：更強調如何准备测试、技术原理和对家暴受害者的安全提醒。",
+        "news.com.au：更集中讲兼容设备、10 秒警报和静音模式也会被覆盖。",
+        "9News：突出警报会在全国手机上响起，以及静音模式也无法避开。",
+        "The Sydney Morning Herald：把重点放在今天的实际测试和居民应如何应对。"
       ],
       "links": [
         {
@@ -178,13 +278,23 @@
           "source": "news.com.au",
           "url": "https://www.news.com.au/technology/everything-you-need-to-know-about-ausalert-warning-alarm-test/news-story/dac4abc3a73dc2b0ca2c872cf5361f16",
           "title": "Everything you need to know about the AusAlert warning alarm test"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/emergency-alert-test-australia-what-to-expect-july-27-everything-to-know-20260709-p60dyd.html",
+          "title": "Siren alarm test to blare on phones across Australia today"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/ausalert-test-coming-today-20260727-p60iq6.html",
+          "title": "AusAlert test coming today"
         }
       ]
     },
     {
       "id": "cluster-1",
       "headline": "Two people shot by police during Cairns altercation",
-      "sourceCount": 1,
+      "sourceCount": 4,
       "publishedAt": "2026-07-25T09:47:50.000Z",
       "voiceScript": "A confrontation involving an allegedly armed suspect in Cairns has ended with police opening fire and a man and a woman being shot. Public details remain limited, including who the suspect was, how the situation escalated and whether the two injured people are stable. The next issue is whether police can provide a clear timeline and explain the operational judgment behind the shooting; otherwise questions about whether the action was necessary will continue.",
       "differences": [],
@@ -193,13 +303,28 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-25/queensland-police-shoot-man-woman-cairns-altercation/106958468",
           "title": "Two people shot by police during altercation in Cairns"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/qld/two-people-including-innocent-bystander-shot-by-police-in-cairns-queensland-20260726-p60ikh.html",
+          "title": "Two people, including innocent bystander, shot by police"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/man-shot-by-police-in-queensland-to-face-court-20260727-p60iq7.html",
+          "title": "Man shot by police in Queensland to face court"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/woman-caught-in-crossfire-as-police-shoot-armed-man-during-stand-off-20260726-p60il7.html",
+          "title": "Woman caught in crossfire as police shoot man in stand-off"
         }
       ]
     },
     {
       "id": "cluster-3",
       "headline": "Five people die on WA roads in 24 hours",
-      "sourceCount": 1,
+      "sourceCount": 3,
       "publishedAt": "2026-07-25T06:21:30.000Z",
       "voiceScript": "Western Australia has recorded five road deaths in less than 24 hours, putting the state’s road toll back under serious scrutiny. The crashes occurred in different locations, suggesting the issue is not one dangerous stretch of road but a mix of speed, fatigue and country-road risk. The next question is whether the state government steps up enforcement and safety campaigns, or continues to put most of the emphasis on driver responsibility.",
       "differences": [],
@@ -208,6 +333,16 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-25/five-people-die-in-24-hours-on-wa-roads/106958246",
           "title": "Drivers urged to play their part as five people die on WA roads in 24 hours"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/qld/three-killed-in-horror-night-on-south-east-queensland-roads-20260726-p60ima.html",
+          "title": "Three killed in horror night on south-east Queensland roads"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/three-dead-in-two-crashes-across-south-east-overnight-20260726-p60ils.html",
+          "title": "Three dead in two crashes across south-east overnight"
         }
       ]
     },
@@ -275,14 +410,15 @@
     {
       "id": "fuel-price-rise",
       "headline": "Fuel prices rise as excise relief nears expiry",
-      "sourceCount": 4,
+      "sourceCount": 5,
       "publishedAt": "2026-07-25T14:19:00+10:00",
       "voiceScript": "Petrol prices in Australia are still rising. The federal government says supply remains secure, but the fuel excise relief is due to expire on August 2. SBS and The Guardian both stress that crude prices, conflict in the Middle East and the end of the tax cut could combine to push pump prices higher, with some areas potentially approaching $2 a litre. The key question now is whether the government extends the relief again, and whether higher fuel costs feed into inflation and the Reserve Bank’s interest-rate outlook.",
       "differences": [
-        "ABC News stresses that supply remains solid, with the government trying to calm market concerns.",
-        "The Guardian Australia emphasises household pressure, prices near $2 a litre and the risk of further RBA rate rises.",
-        "SBS News highlights the pending end of the fuel excise cut and market expectations for another rate hike.",
-        "news.com.au focuses on oil hitting a 40-day high and the impact when the 16-cent discount ends."
+        "ABC News：强调供应仍然充足，政府先稳定市场情绪。",
+        "The Guardian Australia：更強調家庭负担、泵价上冲到每升 2 澳元，以及 RBA 加息风险。",
+        "SBS News：突出燃油税减免即将结束，以及市场已在押注进一步加息。",
+        "news.com.au：把焦点放在油价 40 天高位和 16 仙优惠结束后的冲击。",
+        "The Sydney Morning Herald：直接点出消费税减免结束后，油价会继续抬升。"
       ],
       "links": [
         {
@@ -304,6 +440,11 @@
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293",
           "title": "Fuel warning for Aussies as oil price hits 40-day high"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html",
+          "title": "Fuel prices to go up as excise cut ends"
         }
       ]
     },
@@ -389,25 +530,21 @@
     {
       "id": "us-tariff-australian-exports",
       "headline": "New US tariff hits Australian exports",
-      "sourceCount": 4,
+      "sourceCount": 5,
       "publishedAt": "2026-07-24T13:31:00+10:00",
       "voiceScript": "The United States has imposed a new 12.5 per cent tariff on Australian exports, citing forced-labour concerns, as Australia’s previous 10 per cent temporary tariff expires. For the Australian government, this is not just diplomatic theatre: it affects exporters, trade talks and market confidence. Key products such as beef and gold appear to have avoided the worst of the immediate impact, but businesses are already worried about costs and competitiveness. The next point to watch is how Canberra responds, and whether this tariff logic spreads to more trading partners.",
       "differences": [
-        "ABC News explains that the rate rises by 2.5 percentage points after the temporary 10 per cent tariff expires, and notes legal and lobbying options for businesses.",
-        "The Guardian Australia stresses that the 12.5 per cent tariff applies to many Australian exports while beef and gold are temporarily exempt.",
-        "SBS News frames it as a fast-moving international story, highlighting Australia’s rejection of the US claim and the immediate start date.",
-        "news.com.au focuses on the firm response from Albanese and Don Farrell and the flow-on effects for consumers and exporters."
+        "ABC News：说明临时 10% 关税到期后税率再上调 2.5 个百分点，并提到企业已考虑法律和游说手段。",
+        "The Guardian Australia：更強調 12.5% 适用于大量澳洲出口，同时点出牛肉和黄金等关键出口暂时豁免。",
+        "SBS News：把它写成澳洲明确拒绝美国说法的快速国际新闻，强调即时生效。",
+        "news.com.au：更集中在 Albanese 与 Don Farrell 的强硬回应，以及对消费者和出口商的连带影响。",
+        "9News：强调总理会在与特朗普会面时直接提出这项关税。"
       ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-24/us-trump-administration-new-tariff-announcement/106938462",
           "title": "Trump administration confirms new 12.5 per cent tariff for Australia"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/businesses-sue-donald-trump-over-new-forced-labour-tariffs/106957762",
-          "title": "Small businesses sue Donald Trump over new forced labour tariffs"
         },
         {
           "source": "The Guardian Australia",
@@ -421,8 +558,28 @@
         },
         {
           "source": "news.com.au",
-          "url": "https://www.news.com.au/world/donald-trump-imposes-new-tariff-on-australian-and-other-global-imports-to-us/news-story/c9a9a55546a89fd4092519e8791f2ee6",
-          "title": "Australian imports to be hit with new Trump tariff"
+          "url": "https://www.news.com.au/finance/economy/australian-economy/anthony-albaneses-rejects-trumps-unjustified-slavery-tariff/news-story/979af50892a0cb89c9cc9f3ca3218314",
+          "title": "Anthony Albanese dodges question on Trump threat"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/donald-trump-anthony-albanese-tariffs-20260726-p60in6.html",
+          "title": "PM set to raise ‘unjustified’ tariffs with US President Donald Trump"
+        }
+      ]
+    },
+    {
+      "id": "brisbane-gpo-tower",
+      "headline": "A 40-storey office tower is set for Brisbane’s GPO",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T10:00:00+10:00",
+      "voiceScript": "Brisbane’s skyline is getting another major push, with a 40-storey office tower planned beside the GPO. The proposal includes a public city room at ground level and would replace the existing Edison Exchange, so the project is about more than height: it’s about how the CBD keeps absorbing new commercial space. The planning and design questions now are whether the tower wins support and how it fits into the Olympics-era city story.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/40-storey-office-tower-to-be-built-next-to-brisbane-s-gpo-20260724-p60idr.html",
+          "title": "40-storey office tower to be built next to Brisbane’s GPO"
         }
       ]
     },
@@ -452,6 +609,66 @@
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/see-the-full-list-who-will-get-338-weekly-payments-under-prac-payment-expansion/j8vf90nhj",
           "title": "Full list: Here's who will get $338 weekly payments under prac payment expansion"
+        }
+      ]
+    },
+    {
+      "id": "perth-ai-child-sex-videos",
+      "headline": "Perth cancer doctor admits he made AI child sex videos",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T10:00:00+10:00",
+      "voiceScript": "A Perth cancer doctor has admitted making AI-generated child sex videos, a case that has shocked both the medical and legal communities. The focus now is on the scale of the material, the legal consequences and whether the court treats the technology as a novelty or as part of a much more serious abuse pattern. More details will come through the court process, not speculation.",
+      "differences": [],
+      "links": [
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/western-australia/perth-cancer-doctor-admits-he-made-ai-child-sex-videos-20260724-p60ias.html",
+          "title": "Perth cancer doctor admits he made AI child sex videos"
+        }
+      ]
+    },
+    {
+      "id": "sydney-housing-tower",
+      "headline": "Sydney suburb fights a high-density social housing tower",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-23T02:00:00Z",
+      "voiceScript": "Residents in Camden are pushing back against a NSW government housing plan they say would overwhelm the suburb. The debate is happening against a wider shortage of affordable homes, so the policy question is not whether demand exists, but where and how the extra density should land. The next step is whether planners and local leaders can adjust the design or whether the confrontation becomes a longer standoff.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/camden-sydney-residents-fight-against-high-density-social-housing-tower-20260723-p60hzb.html",
+          "title": "‘The town cannot cope’: Sydney suburb fights NSW government over housing tower"
+        }
+      ]
+    },
+    {
+      "id": "lancelin-erosion",
+      "headline": "Lancelin residents take coastal erosion fight to the city",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-22T10:00:00+10:00",
+      "voiceScript": "Residents from Lancelin have taken their coastal erosion fight into Perth, warning that the town’s last dune defence is shrinking. The problem is practical, not abstract: if the shoreline keeps moving, homes, roads and local businesses face more exposure every season. What happens next depends on whether the state treats this as an emergency works issue or just another slow-moving coastal management problem.",
+      "differences": [],
+      "links": [
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/western-australia/with-a-dune-as-its-last-defence-a-wa-town-buses-into-the-city-to-demand-action-20260722-p60hp7.html",
+          "title": "‘Save our town’: Lancelin residents take coastal erosion fight to city centre"
+        }
+      ]
+    },
+    {
+      "id": "toxic-waste-landswap",
+      "headline": "Secret tape exposes Perth developer’s toxic-waste land swap",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-22T10:00:00+10:00",
+      "voiceScript": "A secret recording has sharpened scrutiny on a Perth developer’s land-swap deal tied to toxic waste. The key issue is not just the tape itself but what it suggests about how contamination, land value and public disclosure were handled. The next step is whether regulators and investigators treat the exchange as a bad deal, a compliance breach or something more serious.",
+      "differences": [],
+      "links": [
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/western-australia/getting-rid-of-a-headache-secret-tape-exposes-land-swap-deal-for-toxic-waste-20260722-p60hmm.html",
+          "title": "‘Getting rid of a headache’: Secret tape exposes Perth developer’s land-swap deal for ‘toxic’ waste"
         }
       ]
     }

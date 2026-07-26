@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T21:03:38.704Z",
+  "updatedAt": "2026-07-26T22:10:29Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -118,6 +118,89 @@
   "errors": [],
   "clusters": [
     {
+      "id": "allan-leadership-crisis",
+      "headline": "ジャシンタ・アラン首相、指導力をめぐる新たな危機",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T21:45:55Z",
+      "voiceScript": "ビクトリア州の労働党政権は、ジャシンタ・アラン氏への派閥圧力が表面化し、火消しに追われています。党の有力者たちは危機会議を開いており、焦点は次の選挙が本格化する前に首相が局面を立て直せるかどうかです。党内の数字がさらに動けば、これは単なる見出しではなく、本格的な指導者争いになります。",
+      "differences": [
+        "The Age：危機会議とアラン氏への直接的な圧力に焦点を当てています。",
+        "The Guardian Australia：派閥の動きと政治全体の流れの中で伝えています。"
+      ],
+      "links": [
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/politics/victoria/jacinta-allan-leadership-challenge-live-updates-victorian-premier-under-threat-as-state-labor-chiefs-hold-crisis-meeting-20260726-p60ip3.html",
+          "title": "Jacinta Allan leadership threat LIVE updates: Victorian Premier under pressure as state Labor chiefs hold crisis meeting"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/27/ausalert-emergency-warning-test-antisemitism-royal-commission-nsw-icac-inquiry-politics-anthony-albanese-labor-angus-taylor-coalition-victoria-jacinta-allan-ntwnfb",
+          "title": "Australia news live: Jacinta Allan loses majority caucus support after meeting of state Labor factions; national AusAlert test to blare siren"
+        }
+      ]
+    },
+    {
+      "id": "family-flees-arson",
+      "headline": "メルボルンで放火攻撃、家族が避難",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T20:13:46Z",
+      "voiceScript": "メルボルンの家族が放火攻撃の後に避難を余儀なくされ、警察は動機と被害の範囲を調べています。今もっとも重要なのは、標的を絞った争いなのか、それともより広い犯罪の流れなのかを捜査で見極められるかです。現時点では、安全確保が先で、答えはその後です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/family-flees-arson-attack-in-melbourne-20260727-p60iq4.html",
+          "title": "Family flees arson attack in Melbourne"
+        }
+      ]
+    },
+    {
+      "id": "census-explained",
+      "headline": "2026年国勢調査の要点を整理",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T12:39:35Z",
+      "voiceScript": "オーストラリアの2026年国勢調査が近づいており、記入の重要日は8月11日です。未回答の場合は罰金の可能性もあります。国勢調査は学校や道路、医療などの予算や計画に影響するため、重要なのは記入方法だけでなく、なぜこのデータが大切なのかです。今後の焦点は、国民がこれをただの書類ではなく、市民の義務として受け止めるかどうかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171",
+          "title": "2026 Census explained: Key date, how to fill it out, who needs to take part and potential fines"
+        }
+      ]
+    },
+    {
+      "id": "bike-hoon-crackdown",
+      "headline": "ビクトリア州警察、電動自転車の危険走行を取り締まり強化",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T11:00:00Z",
+      "voiceScript": "ビクトリア州警察は、違法改造の電動自転車やバイクによる危険走行への対応を強化しています。歩道や道路を危険地帯に変えているとされ、当局は、乗り手だけでなく歩行者や運転者にも深刻なリスクがあると説明しています。今後は警告だけで済むのか、それとも行動が本当に変わるのかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/recipe-for-serious-injury-or-death-police-hunt-bike-hoons-from-the-sky-20260726-p60im6.html",
+          "title": "Drastic measures to tackle e-bike hoons"
+        }
+      ]
+    },
+    {
+      "id": "sydney-fisherman-capsize",
+      "headline": "シドニー沖で船転覆、釣り人1人死亡",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T10:30:00Z",
+      "voiceScript": "シドニー沖での釣りは、ボートが転覆して1人が死亡する悲劇で終わりました。警察によるとライフジャケットは着用されておらず、事故がどのように悪化したのかはまだ調査中です。今後は安全面の検証と検死の手続きが進み、避けられた事故だったのかが問われます。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/la-perouse-sydney-fisherman-killed-after-boat-capsized-20260726-p60inu.html",
+          "title": "Fisherman dies after boat capsizes off Sydney"
+        }
+      ]
+    },
+    {
       "id": "vad-telehealth",
       "headline": "労働党、安楽死相談の遠隔医療利用を支持",
       "sourceCount": 4,
@@ -153,15 +236,32 @@
       ]
     },
     {
+      "id": "daniel-grollo-bankruptcy",
+      "headline": "ダニエル・グロロが破産、NYのアパートも失う",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T10:00:00+10:00",
+      "voiceScript": "元Grocon会長のダニエル・グロロ氏が破産を宣告され、ニューヨークのアパートも失うことになりました。調査も示唆されており、メルボルンを代表する建設企業の名前と、かつて率いた事業への信頼低下が結びついています。今後は調査がどこまで広がり、ほかにどんな資産や負債が出てくるのかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/victoria/former-chief-of-collapsed-grocon-building-empire-declares-bankruptcy-20260726-p60ily.html",
+          "title": "Daniel Grollo declared bankrupt, New York apartment forfeited as investigation flagged"
+        }
+      ]
+    },
+    {
       "id": "ausalert-national-test",
       "headline": "全国的なAusAlert試験で携帯電話に警報",
-      "sourceCount": 3,
+      "sourceCount": 5,
       "publishedAt": "2026-07-26T09:00:00+10:00",
       "voiceScript": "連邦政府はきょう、AusAlertの初の全国試験を実施し、携帯電話、タブレット、一部の腕時計で10秒間の緊急警報が鳴る予定です。当局は、山火事や洪水などの警報を、従来のSMSより速く確実に届けられるかを検証したい考えです。注意点は、この警報がマナーモードを上書きするため、家庭内暴力から逃れる人が隠している端末の存在を明らかにする恐れがあることです。今後は、到達範囲、誤作動の少なさ、そして市民が新しい警報手段を受け入れるかが問われます。",
       "differences": [
-        "ABC Newsは、全国での実施時刻と本格運用前のリハーサルに焦点を当てています。",
-        "SBS Newsは、準備方法、技術の仕組み、家庭内暴力被害者への安全助言を重視しています。",
-        "news.com.auは、対応端末、10秒間の警報、マナーモード上書きに注目しています。"
+        "ABC News：强调全国同步测试、今天就会响起，以及系统正式上线前的现实演练。",
+        "SBS News：より強調如何准备测试、技术原理和对家暴受害者的安全提醒。",
+        "news.com.au：更集中讲兼容设备、10 秒警报和静音模式也会被覆盖。",
+        "9News：突出警报会在全国手机上响起，以及静音模式也无法避开。",
+        "The Sydney Morning Herald：把重点放在今天的实际测试和居民应如何应对。"
       ],
       "links": [
         {
@@ -178,13 +278,23 @@
           "source": "news.com.au",
           "url": "https://www.news.com.au/technology/everything-you-need-to-know-about-ausalert-warning-alarm-test/news-story/dac4abc3a73dc2b0ca2c872cf5361f16",
           "title": "Everything you need to know about the AusAlert warning alarm test"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/emergency-alert-test-australia-what-to-expect-july-27-everything-to-know-20260709-p60dyd.html",
+          "title": "Siren alarm test to blare on phones across Australia today"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/ausalert-test-coming-today-20260727-p60iq6.html",
+          "title": "AusAlert test coming today"
         }
       ]
     },
     {
       "id": "cluster-1",
       "headline": "ケアンズの衝突で警察が発砲、2人負傷",
-      "sourceCount": 1,
+      "sourceCount": 4,
       "publishedAt": "2026-07-25T09:47:50.000Z",
       "voiceScript": "ケアンズで、武装していたとされる容疑者をめぐる対立が警察の発砲に発展し、男女2人が撃たれました。容疑者が誰だったのか、現場がどのように悪化したのか、負傷した2人の容体が安定しているのかなど、公表情報はまだ限られています。今後の焦点は、警察が明確な時系列と発砲判断の根拠を示せるかです。それが不十分なら、対応が必要だったのかという疑問は残り続けます。",
       "differences": [],
@@ -193,13 +303,28 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-25/queensland-police-shoot-man-woman-cairns-altercation/106958468",
           "title": "Two people shot by police during altercation in Cairns"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/qld/two-people-including-innocent-bystander-shot-by-police-in-cairns-queensland-20260726-p60ikh.html",
+          "title": "Two people, including innocent bystander, shot by police"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/man-shot-by-police-in-queensland-to-face-court-20260727-p60iq7.html",
+          "title": "Man shot by police in Queensland to face court"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/woman-caught-in-crossfire-as-police-shoot-armed-man-during-stand-off-20260726-p60il7.html",
+          "title": "Woman caught in crossfire as police shoot man in stand-off"
         }
       ]
     },
     {
       "id": "cluster-3",
       "headline": "西オーストラリア州で24時間に5人が道路事故死",
-      "sourceCount": 1,
+      "sourceCount": 3,
       "publishedAt": "2026-07-25T06:21:30.000Z",
       "voiceScript": "西オーストラリア州では24時間足らずで5人が道路事故で死亡し、州の交通死亡者数が再び厳しく問われています。事故は別々の場所で起きており、危険な1本の道路だけの問題ではなく、速度超過、疲労運転、地方道路のリスクが重なっていることを示しています。次に問われるのは、州政府が取締りや安全キャンペーンを強化するのか、それとも運転者の自己責任に引き続き重点を置くのかです。",
       "differences": [],
@@ -208,6 +333,16 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-25/five-people-die-in-24-hours-on-wa-roads/106958246",
           "title": "Drivers urged to play their part as five people die on WA roads in 24 hours"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/qld/three-killed-in-horror-night-on-south-east-queensland-roads-20260726-p60ima.html",
+          "title": "Three killed in horror night on south-east Queensland roads"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/three-dead-in-two-crashes-across-south-east-overnight-20260726-p60ils.html",
+          "title": "Three dead in two crashes across south-east overnight"
         }
       ]
     },
@@ -275,14 +410,15 @@
     {
       "id": "fuel-price-rise",
       "headline": "燃料価格が上昇、燃料税軽減は期限切れ目前",
-      "sourceCount": 4,
+      "sourceCount": 5,
       "publishedAt": "2026-07-25T14:19:00+10:00",
       "voiceScript": "オーストラリアのガソリン価格はなお上昇しています。連邦政府は供給は安定しているとしていますが、燃料税の軽減措置は8月2日に期限を迎えます。SBSとThe Guardianはいずれも、原油価格、中東情勢、減税終了が重なれば、給油価格がさらに上がり、一部地域では1リットル2豪ドルに近づく可能性があると強調しています。今後の焦点は、政府が軽減措置を再延長するか、燃料高がインフレや準備銀行の金利見通しに影響するかです。",
       "differences": [
-        "ABC Newsは、供給が堅調で政府が市場不安を落ち着かせようとしている点を強調しています。",
-        "The Guardian Australiaは、家計負担、1リットル2豪ドルに近い価格、追加利上げリスクを重視しています。",
-        "SBS Newsは、燃料税軽減の終了時期と追加利上げ観測を取り上げています。",
-        "news.com.auは、原油が40日ぶり高値を付けたことと16セント割引終了の影響に焦点を当てています。"
+        "ABC News：强调供应仍然充足，政府先稳定市场情绪。",
+        "The Guardian Australia：より強調家庭负担、泵价上冲到每升 2 澳元，以及 RBA 加息风险。",
+        "SBS News：突出燃油税减免即将结束，以及市场已在押注进一步加息。",
+        "news.com.au：把焦点放在油价 40 天高位和 16 仙优惠结束后的冲击。",
+        "The Sydney Morning Herald：直接点出消费税减免结束后，油价会继续抬升。"
       ],
       "links": [
         {
@@ -304,6 +440,11 @@
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293",
           "title": "Fuel warning for Aussies as oil price hits 40-day high"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html",
+          "title": "Fuel prices to go up as excise cut ends"
         }
       ]
     },
@@ -389,25 +530,21 @@
     {
       "id": "us-tariff-australian-exports",
       "headline": "米国の新関税、豪州輸出に影響",
-      "sourceCount": 4,
+      "sourceCount": 5,
       "publishedAt": "2026-07-24T13:31:00+10:00",
       "voiceScript": "米国は、強制労働への懸念を理由に、オーストラリアからの輸出品に12.5％の新たな関税を課しました。これにより、従来の10％暫定関税は期限切れとともに置き換えられます。オーストラリア政府にとって、これは単なる外交上の演出ではなく、輸出業者、通商交渉、市場の信頼に影響します。牛肉や金など主要品目は当面の最悪の影響を避けたようですが、企業はすでにコストと競争力を懸念しています。今後は、キャンベラがどう対応するか、この関税論理が他の貿易相手にも広がるかが注目点です。",
       "differences": [
-        "ABC Newsは、暫定10％関税の終了後に税率が2.5ポイント上がることと、企業の法的・ロビー活動上の選択肢を説明しています。",
-        "The Guardian Australiaは、12.5％関税が多くの豪州輸出品に適用される一方、牛肉と金は一時的に除外されている点を強調しています。",
-        "SBS Newsは、動きの速い国際ニュースとして扱い、オーストラリアが米国の主張を拒否したことと即時発効を伝えています。",
-        "news.com.auは、アルバニージー首相とドン・ファレル氏の強い反応、消費者と輸出業者への波及に焦点を当てています。"
+        "ABC News：说明临时 10% 关税到期后税率再上调 2.5 个百分点，并提到企业已考虑法律和游说手段。",
+        "The Guardian Australia：より強調 12.5% 适用于大量澳洲出口，同时点出牛肉和黄金等关键出口暂时豁免。",
+        "SBS News：把它写成澳洲明确拒绝美国说法的快速国际新闻，强调即时生效。",
+        "news.com.au：更集中在 Albanese 与 Don Farrell 的强硬回应，以及对消费者和出口商的连带影响。",
+        "9News：强调总理会在与特朗普会面时直接提出这项关税。"
       ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-24/us-trump-administration-new-tariff-announcement/106938462",
           "title": "Trump administration confirms new 12.5 per cent tariff for Australia"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/businesses-sue-donald-trump-over-new-forced-labour-tariffs/106957762",
-          "title": "Small businesses sue Donald Trump over new forced labour tariffs"
         },
         {
           "source": "The Guardian Australia",
@@ -421,8 +558,28 @@
         },
         {
           "source": "news.com.au",
-          "url": "https://www.news.com.au/world/donald-trump-imposes-new-tariff-on-australian-and-other-global-imports-to-us/news-story/c9a9a55546a89fd4092519e8791f2ee6",
-          "title": "Australian imports to be hit with new Trump tariff"
+          "url": "https://www.news.com.au/finance/economy/australian-economy/anthony-albaneses-rejects-trumps-unjustified-slavery-tariff/news-story/979af50892a0cb89c9cc9f3ca3218314",
+          "title": "Anthony Albanese dodges question on Trump threat"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/donald-trump-anthony-albanese-tariffs-20260726-p60in6.html",
+          "title": "PM set to raise ‘unjustified’ tariffs with US President Donald Trump"
+        }
+      ]
+    },
+    {
+      "id": "brisbane-gpo-tower",
+      "headline": "ブリスベンのGPO隣に40階建てオフィス塔計画",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T10:00:00+10:00",
+      "voiceScript": "ブリスベン中心部で、GPOの隣に40階建てのオフィス塔を建てる計画が進んでいます。1階には公共の「シティルーム」を設け、既存のEdison Exchangeを置き換える構想で、単なる高層化ではなく、CBDが商業空間をどう受け止めるかが問われています。今後は計画とデザインが承認されるか、そして五輪時代の都市像にどうはまるかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/40-storey-office-tower-to-be-built-next-to-brisbane-s-gpo-20260724-p60idr.html",
+          "title": "40-storey office tower to be built next to Brisbane’s GPO"
         }
       ]
     },
@@ -452,6 +609,66 @@
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/see-the-full-list-who-will-get-338-weekly-payments-under-prac-payment-expansion/j8vf90nhj",
           "title": "Full list: Here's who will get $338 weekly payments under prac payment expansion"
+        }
+      ]
+    },
+    {
+      "id": "perth-ai-child-sex-videos",
+      "headline": "パースのがん専門医、AI児童性的動画の作成を認める",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T10:00:00+10:00",
+      "voiceScript": "パースのがん専門医が、AIで生成した児童性的動画を作成したことを認め、医療界と法曹界に衝撃が走っています。今の焦点は、素材の規模、法的責任、そしてこの技術を単なる新手の道具として見るのか、それともより深刻な虐待の一部として扱うのかです。詳細は憶測ではなく、裁判手続きの中で明らかになります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/western-australia/perth-cancer-doctor-admits-he-made-ai-child-sex-videos-20260724-p60ias.html",
+          "title": "Perth cancer doctor admits he made AI child sex videos"
+        }
+      ]
+    },
+    {
+      "id": "sydney-housing-tower",
+      "headline": "シドニー郊外が高密度社会住宅タワーに反発",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-23T02:00:00Z",
+      "voiceScript": "カムデンの住民は、地域を圧迫するとしてニューサウスウェールズ州政府の住宅計画に反対しています。背景には住宅不足の深刻化があるため、論点は需要の有無ではなく、密度をどこにどう受け止めるかです。今後は設計変更で収束するのか、それとも対立が長引くのかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/camden-sydney-residents-fight-against-high-density-social-housing-tower-20260723-p60hzb.html",
+          "title": "‘The town cannot cope’: Sydney suburb fights NSW government over housing tower"
+        }
+      ]
+    },
+    {
+      "id": "lancelin-erosion",
+      "headline": "ランセリン住民、海岸侵食への対応を市街地で訴え",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-22T10:00:00+10:00",
+      "voiceScript": "ランセリンの住民は、海岸侵食への対応を求めてパースまで出てきました。町を守る最後の砂丘が細っていると警告しています。海岸線が後退し続ければ、住宅や道路、地元商店は毎年さらに大きな影響を受けます。今後は州政府が緊急工事として扱うのか、それとも長期的な海岸管理問題として先送りするのかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/western-australia/with-a-dune-as-its-last-defence-a-wa-town-buses-into-the-city-to-demand-action-20260722-p60hp7.html",
+          "title": "‘Save our town’: Lancelin residents take coastal erosion fight to city centre"
+        }
+      ]
+    },
+    {
+      "id": "toxic-waste-landswap",
+      "headline": "パースの開発業者、毒性廃棄物の土地交換疑惑が録音で露呈",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-22T10:00:00+10:00",
+      "voiceScript": "秘密録音によって、パースの開発業者が関わる有毒廃棄物の土地交換取引への監視が強まっています。問題は録音そのものだけでなく、汚染、地価、情報開示がどう扱われたのかを示唆している点です。今後は規制当局と捜査が、単なる不利な取引なのか、コンプライアンス違反なのか、それとももっと深刻な問題なのかを見極めます。",
+      "differences": [],
+      "links": [
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/western-australia/getting-rid-of-a-headache-secret-tape-exposes-land-swap-deal-for-toxic-waste-20260722-p60hmm.html",
+          "title": "‘Getting rid of a headache’: Secret tape exposes Perth developer’s land-swap deal for ‘toxic’ waste"
         }
       ]
     }
