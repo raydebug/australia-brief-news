@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T20:04:33+10:00",
+  "updatedAt": "2026-07-26T21:09:36+10:00",
   "generatedBy": "codex",
   "sources": [
     {
@@ -62,15 +62,58 @@
   "errors": [],
   "clusters": [
     {
+      "id": "wa-gas-plant-coal-phaseout",
+      "headline": "WA government considers new gas-fired power plant as coal phases out",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T18:02:00+10:00",
+      "voiceScript": "西澳政府正在评估在珀斯南部 Naval Base 新建一座 300 兆瓦的州营燃气发电站，预算可能超过 5 亿澳元。政府的说法很明确，这不是要提高对天然气的依赖，而是为了在 2030 年关掉州属燃煤电厂后，保住电网的调峰和备用能力。这个项目的重要性在于，它说明西澳的能源转型还没到可以完全靠风光和电池兜底的阶段。接下来要看社区咨询和年底前的决策，项目会不会真的推进，以及它到底会把多少 firming 需求锁定在 gas 上。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-26/wa-government-considering-new-gas-fired-power-plant/106959916",
+          "title": "WA government considering new gas-fired power plant as coal phases out"
+        }
+      ]
+    },
+    {
+      "id": "sa-bird-flu-metro-beach",
+      "headline": "South Australia confirms H5 bird flu on a metro beach",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T16:24:00+10:00",
+      "voiceScript": "南澳今天在两只分别在不同海滩发现的死去 greater crested terns 身上确认 H5 鸟流感，这是该州第一次在都市海滩确认病例。州政府同时还在等另外两例疑似样本送 CSIRO 复核，说明这次不是单点事件，而是沿海监测正在往外扩。现在最关键的是复核结果和后续样本是否还会继续阳性，公众不能接触病死鸟。下一步要看州里的监测会不会再扩大，以及这条海岸线还会不会冒出新个案。",
+      "differences": [
+        "ABC News：强调这是南澳首个 metropolitan beach 确认病例，并给出两只 terns 的检测结果与地点。",
+        "The Guardian：把它放在连续更新里，突出还有两例疑似样本在等 CSIRO 复核。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-26/first-sa-metro-beach-bird-flu-case-confirmed/106959832",
+          "title": "First H5 bird flu case confirmed on SA metro beach"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/two-additional-h5-bird-flu-suspected-in-sa/106957832",
+          "title": "Two additional suspected cases of H5 bird flu detected in South Australia"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/politics/blog/live/2026/jul/26/australia-news-live-politics-pauline-hanson-ed-husic-anthony-albanese-labor-party-conference-bird-flu-ntwnfb",
+          "title": "‘Socialist’ teachers target eight Victorian Labor MPs including education minister – as it happened"
+        }
+      ]
+    },
+    {
       "id": "labor-vad-telehealth",
       "headline": "Labor backs telehealth access for voluntary assisted dying",
       "sourceCount": 3,
-      "publishedAt": "2026-07-26T09:32:31+10:00",
-      "voiceScript": "工党全国会议在阿德莱德通过党纲修正，支持移除联邦法律里阻挡 VAD 通过 telehealth 咨询的条款。阿尔巴尼斯还是明确反对，担心线上咨询会削弱医生面对面评估和安全把关。现在的矛盾点很具体：州和领地已经允许临终协助，但联邦刑法仍可能让医生在电话或视频里提供相关咨询时触法。对偏远地区和行动不便的病人来说，这会直接影响申请速度和可及性。接下来要看 Greens 和 Kate Chaney 的立法提案能不能推进，以及工党政府会不会把党内表态变成真正的法律修改。",
+      "publishedAt": "2026-07-26T12:22:00+10:00",
+      "voiceScript": "工党全国会议把党纲改成支持移除联邦法律里阻挡 VAD 通过 telehealth 咨询的条款，等于把这场争论推到了联邦立法层面。阿尔巴尼斯说他支持临终协助，但担心电话或视频会削弱医生面对面评估和安全把关；Greens 和独立议员 Kate Chaney 则准备继续推进法案。对偏远地区、行动不便，或病情恶化很快的病人，这项改动直接关系到能不能更快完成评估和申请。接下来要看政府会不会把党纲变成法案，以及新规则能否同时保住临床把关和可及性。",
       "differences": [
-        "ABC News：直接点出 Albanese 个人反对 telehealth，并强调临床安全把关。",
-        "The Guardian Australia：把它写成党纲变化对政府形成的立法压力。",
-        "news.com.au：更突出偏远地区可及性，以及 Attorney-General 对误用、AI 和 elder abuse 的担忧。"
+        "ABC News：直接点出 Albanese 个人反对 telehealth，并强调面对面评估和临床安全。",
+        "The Guardian：把党纲修改写成立法压力，重点是 Greens 和 Kate Chaney 将继续提案。",
+        "news.com.au：更强调乡郊患者的可及性，以及 Attorney-General 对 AI 误用和 elder abuse 的顾虑。"
       ],
       "links": [
         {
@@ -91,15 +134,55 @@
       ]
     },
     {
+      "id": "qld-bird-flu",
+      "headline": "Queensland confirms its first H5 bird flu case",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-25T15:45:00+10:00",
+      "voiceScript": "昆州在 Moreton Island 一只死去的 petrel 上确认了首例 H5 鸟流感，这让澳洲的病例扩散到了第三个州。州政府说还没有发现家禽或人类感染，但样本已经送 CSIRO 复核，最需要盯的是更多海鸟是不是会继续阳性。对公众来说，最直接的提醒还是别碰病死鸟，鸡蛋和禽肉目前仍被认为安全。接下来要看复核结果和野生动物监测是否需要再升级。",
+      "differences": [
+        "ABC News：先写出 Moreton Island 发现和送 CSIRO 复核的流程，随后再确认结果。",
+        "The Guardian：把它放进全国 H5 扩散的连续更新中，强调这是昆州首例疑似病例。",
+        "news.com.au：更强调州政府的健康安抚和野生动物传播风险。",
+        "SBS News：突出对澳洲 native animals 的风险，并直接说明 poultry products 仍安全。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/bird-flu-queensland-suspected-case/106952884",
+          "title": "First suspected positive case of H5 bird flu detected in Queensland"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114",
+          "title": "First positive case of H5 bird flu in Queensland confirmed by CSIRO"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/24/australia-news-live-jim-chalmers-anthony-albanese-labor-conference-gas-tax-gambling-reform-one-nation-pauline-hanson-ntwnfb",
+          "title": "More detail on first suspected H5 bird flu case reported in Queensland"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae",
+          "title": "Queensland records 'suspected positive' H5 bird flu case"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo",
+          "title": "Queensland records first bird flu case | SBS News"
+        }
+      ]
+    },
+    {
       "id": "us-trade-tariff",
       "headline": "US raises tariff on Australian exports to 12.5 per cent",
       "sourceCount": 3,
-      "publishedAt": "2026-07-24T07:39:08+10:00",
-      "voiceScript": "美国对澳洲出口的新关税已经生效，税率升到 12.5%，比原先临时的 10% 再高 2.5 个百分点。华府给出的理由是澳洲对强迫劳动禁令执行不够，但澳洲政府和贸易部长 Don Farrell 都认为这不公平，因为澳洲本来就有严格的现代奴役法规。beef 和 gold 目前仍在豁免名单里，受冲击最大的会是其他出口行业和已经签好的合同。接下来要看澳美谈判会不会继续，还是这轮关税会把成本真正传导到澳洲企业和美国买家身上。",
+      "publishedAt": "2026-07-24T14:01:00+10:00",
+      "voiceScript": "美国把对澳洲出口的关税升到 12.5%，在 7 月 24 日下午 2 点 01 分生效，取代了到期的 10% 临时税率。华府给出的理由是澳洲没有充分阻止强迫劳动相关产品进入供应链，但澳洲政府坚持说本国现代奴役法律已经很严。beef 和 gold 仍在豁免名单里，真正受压的是其他出口商、已经签约的货物和后续谈判空间。接下来要看豁免会不会扩大，还是这轮关税会直接转成澳洲企业和美国买家的成本。",
       "differences": [
-        "ABC News：强调新税率在 2:01pm AEST 生效，并取代了到期的 10% 临时税率。",
-        "The Guardian Australia：重点放在 forced labour 的理由和 beef、gold 豁免。",
-        "news.com.au：更侧重澳洲政府的政治回应，以及美国消费者和进口商可能承担的成本。"
+        "ABC News：直接说明生效时间和 10% 临时税率到期，强调关税已经落地。",
+        "The Guardian：更强调强迫劳动指控，以及 beef 和 gold 仍获豁免。",
+        "news.com.au：更偏政治回应，并点出美国消费者和进口商可能承担成本。"
       ],
       "links": [
         {
@@ -123,12 +206,12 @@
       "id": "origin-energy-breach",
       "headline": "Origin Energy breach exposes customer and banking data",
       "sourceCount": 3,
-      "publishedAt": "2026-07-23T12:08:00+10:00",
-      "voiceScript": "Origin Energy 已确认发生未经授权的数据访问，涉及部分客户的姓名、地址、生日、电话，以及账户信息，部分银行卡或银行账户尾号也可能外泄。公司还没公布最终受影响人数，但已经通知网络安全机构、警方和隐私监管部门，并承诺会逐步联系受影响客户。现在最现实的风险不是立即盗刷，而是这些资料被拼接成更逼真的钓鱼短信、冒充客服电话，甚至 AI 诈骗脚本。下一步要盯的是官方补通知范围、补救措施，以及外界会不会追查到这次入侵到底从哪里发生。",
+      "publishedAt": "2026-07-23T19:55:00+10:00",
+      "voiceScript": "Origin Energy 确认发生未经授权的数据访问，涉及部分客户的姓名、地址、生日、电话和账户信息，部分信用卡或银行账户尾号也可能外泄。公司现在还没公布最终受影响人数，但已经通知网络安全机构和监管部门，并会在核实后逐步联系客户。眼下最大的风险不是立刻被刷卡，而是这些资料被拼成更逼真的钓鱼短信、冒充客服和身份冒用。接下来要盯的是受影响范围、补救方案，以及调查会不会查出入侵是怎么进来的。",
       "differences": [
-        "ABC News：强调受影响人数尚未确定，并细列可能外泄的数据字段。",
-        "The Guardian Australia：更突出 4.8 million accounts 的规模，以及已通知的监管和执法机构。",
-        "news.com.au：更强调可能有 up to two million customers 受影响，以及后续诈骗风险。"
+        "ABC News：先确认未授权访问，细列可能外泄字段，但仍在核实受影响人数。",
+        "The Guardian：更强调 4.8 million accounts 规模，以及已经通知的监管和执法机构。",
+        "news.com.au：更突出 up to two million customers 的估算，以及后续诈骗风险。"
       ],
       "links": [
         {
@@ -143,42 +226,8 @@
         },
         {
           "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/online/hacking/major-thing-48-million-aussies-must-do-after-origin-energy-hack/news-story/6cf12417db4081e846d26c0b6b88f9f3",
-          "title": "Origin Energy hack warning: banking data of millions stolen"
-        }
-      ]
-    },
-    {
-      "id": "qld-bird-flu",
-      "headline": "Queensland confirms first H5 bird flu case in a wild seabird",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-25T15:45:00+10:00",
-      "voiceScript": "昆州在 Moreton Island 一只死去的海鸟身上确认了 H5 鸟流感，这是该州首次在野生海鸟里发现这一结果。CSIRO 已经完成确认，州政府目前还没有发现家禽或人类感染扩散，但继续加密监测和提醒公众不要接触病死鸟。鸡蛋和禽肉仍被认为可以安全食用，真正需要关注的是病毒会不会继续沿海岸线扩散到更多野鸟群落。接下来要看后续样本是否还会再阳性，以及这是不是更大范围传播的早期信号。",
-      "differences": [
-        "ABC News：强调 Moreton Island 样本从怀疑到 CSIRO 确认的过程。",
-        "The Guardian Australia：把它放进当天澳洲新闻直播里，重点是公共卫生监测。",
-        "news.com.au：更强调第三个受影响州的叙述，以及对家禽和鸡蛋安全的安抚。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/bird-flu-queensland-suspected-case/106952884",
-          "title": "First suspected positive case of H5 bird flu detected in Queensland"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114",
-          "title": "H5 bird flu confirmed in wild seabird found at Moreton Island"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/24/australia-news-live-jim-chalmers-anthony-albanese-labor-conference-gas-tax-gambling-reform-one-nation-pauline-hanson-ntwnfb?page=with%3Ablock-6a62a1cd8f088134984ca7c7",
-          "title": "More detail on first suspected H5 bird flu case reported in Queensland"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae",
-          "title": "Queensland records 'suspected positive' H5 bird flu case"
+          "url": "https://www.news.com.au/technology/online/origin-energy-investigating-reported-security-incident/news-story/a56f465b425a5c1d4381f0d898f4926f",
+          "title": "Origin Energy apologises after confirming data breach"
         }
       ]
     },
@@ -186,23 +235,18 @@
       "id": "ausalert-national-test",
       "headline": "AusAlert test will ring out across most phones",
       "sourceCount": 3,
-      "publishedAt": "2026-07-22T08:05:26+10:00",
-      "voiceScript": "AusAlert 的全国测试定在 7 月 27 日下午 2 点，兼容设备会收到持续约 10 秒的强制警报声和测试提示。政府说这套系统是为了火灾、洪水和其他紧急情况，和定位追踪无关，但对家暴避险者、藏有备用机的人来说，响铃本身就可能暴露位置。测试重点不只是有没有漏发或误发，还包括各州现有警报系统能不能和新系统顺利并行。正式上线前，最值得盯的是公众反馈会不会逼政府调整豁免和默认设置。",
+      "publishedAt": "2026-07-22T15:54:00+10:00",
+      "voiceScript": "7 月 27 日下午 2 点，澳洲会第一次全国测试 AusAlert。兼容的手机、平板和手表会收到一条带 10 秒警报声的测试通知，即使静音也会响。政府说这不是追踪工具，但对家暴避险者、藏有备用机的人来说，测试本身就可能暴露设备存在。接下来要看全国测试是否顺利、哪些机型没收到，以及 10 月正式上线前会不会再调整豁免和默认设置。",
       "differences": [
-        "ABC News：更偏辟谣，强调不会追踪用户，也说明各州可保留自己的系统。",
-        "The Guardian Australia：把重点放在家暴避险者和隐藏手机的风险。",
-        "news.com.au：更偏实用说明，讲测试时间、10 秒警报和设备兼容性。"
+        "ABC News：主要在辟谣，强调系统不追踪用户，也说明各州可以保留自己的警报系统。",
+        "The Guardian：更强调家暴避险者和隐藏手机的风险。",
+        "news.com.au：更偏实用说明，列出时间、10 秒警报和兼容设备。"
       ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-24/no-ausalert-isnt-tracking-you-and-other-conspiracy-theories/106948592",
           "title": "Conspiracy theories about AusAlert test spreading online"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-22/emergency-warning-system-in-doubt-as-states-raise-concerns/106942870",
-          "title": "States can use their own emergency warnings when AusAlert goes live"
         },
         {
           "source": "The Guardian Australia",
