@@ -46,6 +46,8 @@ const I18N = {
     voiceScript: "语音稿",
     readAloud: "朗读",
     stopReading: "停止朗读",
+    sourceUnit: "个来源",
+    oneMinute: "1 分钟",
     noMatches: "暂无匹配新闻",
     dataError: "暂时读不到新闻数据。联网后会自动从数据源重新读取。"
   },
@@ -70,6 +72,8 @@ const I18N = {
     voiceScript: "語音稿",
     readAloud: "朗讀",
     stopReading: "停止朗讀",
+    sourceUnit: "個來源",
+    oneMinute: "1 分鐘",
     noMatches: "暫無匹配新聞",
     dataError: "暫時讀不到新聞資料。連線後會自動從資料來源重新讀取。"
   },
@@ -94,6 +98,8 @@ const I18N = {
     voiceScript: "Briefing script",
     readAloud: "Read aloud",
     stopReading: "Stop reading",
+    sourceUnit: "sources",
+    oneMinute: "1 min",
     noMatches: "No matching news",
     dataError: "News data is temporarily unavailable. It will reload from the data source when online."
   },
@@ -118,6 +124,8 @@ const I18N = {
     voiceScript: "音声原稿",
     readAloud: "読み上げ",
     stopReading: "読み上げを停止",
+    sourceUnit: "件のソース",
+    oneMinute: "1分",
     noMatches: "一致するニュースはありません",
     dataError: "ニュースデータを一時的に読み込めません。オンラインになるとデータソースから再読み込みします。"
   },
@@ -142,6 +150,8 @@ const I18N = {
     voiceScript: "음성 원고",
     readAloud: "읽어주기",
     stopReading: "읽기 중지",
+    sourceUnit: "개 출처",
+    oneMinute: "1분",
     noMatches: "일치하는 뉴스가 없습니다",
     dataError: "뉴스 데이터를 일시적으로 읽을 수 없습니다. 온라인 상태가 되면 데이터 소스에서 다시 불러옵니다."
   }
@@ -597,26 +607,35 @@ function App() {
               }`}
               key={cluster.id}
             >
-              <button
-                className={`icon-button compact card-speak-button ${speakingId === cluster.id ? "active" : ""}`}
-                onClick={() => readCluster(cluster)}
-                disabled={!canSpeak}
-                title={speakingId === cluster.id ? labels.stopReading : labels.readAloud}
-                aria-label={speakingId === cluster.id ? labels.stopReading : labels.readAloud}
-                aria-pressed={speakingId === cluster.id}
-              >
-                <Volume2 size={17} />
-              </button>
-              <button
-                className="cluster-card-button"
-                onClick={() => {
-                  setActiveId(cluster.id);
-                  setExpandedId((current) => (current === cluster.id ? null : cluster.id));
-                }}
-              >
-                <h3>{cluster.headline}</h3>
-                <p>{cluster.voiceScript}</p>
-              </button>
+              <div className="cluster-card-content">
+                <div className="cluster-card-meta">
+                  <span>
+                    {displaySourceCount(cluster)} {labels.sourceUnit}
+                  </span>
+                  <span>{labels.oneMinute}</span>
+                  <button
+                    className={`icon-button compact card-speak-button ${speakingId === cluster.id ? "active" : ""}`}
+                    onClick={() => readCluster(cluster)}
+                    disabled={!canSpeak}
+                    title={speakingId === cluster.id ? labels.stopReading : labels.readAloud}
+                    aria-label={speakingId === cluster.id ? labels.stopReading : labels.readAloud}
+                    aria-pressed={speakingId === cluster.id}
+                  >
+                    <Volume2 size={17} />
+                  </button>
+                </div>
+
+                <button
+                  className="cluster-card-button"
+                  onClick={() => {
+                    setActiveId(cluster.id);
+                    setExpandedId((current) => (current === cluster.id ? null : cluster.id));
+                  }}
+                >
+                  <h3>{cluster.headline}</h3>
+                  <p>{cluster.voiceScript}</p>
+                </button>
+              </div>
 
               {cluster.id === expandedId && (
                 <div className="mobile-card-detail">
