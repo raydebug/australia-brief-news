@@ -155,6 +155,28 @@ const SPEECH_LANGUAGES = {
   ja: "ja-JP",
   ko: "ko-KR"
 };
+const SPEECH_VOICE_MATCHERS = {
+  "zh-Hans": {
+    langs: ["zh-cn", "zh_cn", "cmn-hans-cn", "cmn-cn", "zh-hans"],
+    names: ["mandarin", "chinese", "普通话", "國語", "中文", "xiaoxiao", "huihui", "kangkang", "tingting"]
+  },
+  "zh-Hant": {
+    langs: ["zh-tw", "zh_tw", "zh-hk", "zh_hk", "cmn-hant-tw", "cmn-tw", "yue-hk", "zh-hant"],
+    names: ["mandarin", "chinese", "cantonese", "國語", "普通話", "粵語", "中文", "hanhan", "tracy", "sinji"]
+  },
+  en: {
+    langs: ["en-au", "en_us", "en-us", "en-gb", "en"],
+    names: ["english", "australia", "australian", "samantha", "daniel", "zira", "aria"]
+  },
+  ja: {
+    langs: ["ja-jp", "ja_jp", "ja"],
+    names: ["japanese", "日本語", "kyoko", "nanami", "haruka", "ichiro"]
+  },
+  ko: {
+    langs: ["ko-kr", "ko_kr", "ko"],
+    names: ["korean", "한국어", "heami", "sunhi", "inho"]
+  }
+};
 
 function normalizeLanguage(value) {
   const lower = String(value || "").toLowerCase();
@@ -209,12 +231,28 @@ function speechLocale(language) {
   return SPEECH_LANGUAGES[language] || language;
 }
 
-function pickSpeechVoice(locale, voices) {
-  const language = locale.split("-")[0];
+function pickSpeechVoice(language, locale, voices) {
+  const matcher = SPEECH_VOICE_MATCHERS[language];
+  const primaryLanguage = locale.split("-")[0].toLowerCase();
   const normalizedLocale = locale.toLowerCase();
+  const normalizedVoices = voices.map((voice) => ({
+    voice,
+    lang: String(voice.lang || "").toLowerCase(),
+    name: String(voice.name || "").toLowerCase()
+  }));
+
+  if (matcher) {
+    return (
+      normalizedVoices.find(({ lang }) => matcher.langs.includes(lang))?.voice ||
+      normalizedVoices.find(({ lang }) => matcher.langs.some((candidate) => lang.startsWith(candidate)))?.voice ||
+      normalizedVoices.find(({ name }) => matcher.names.some((candidate) => name.includes(candidate)))?.voice ||
+      null
+    );
+  }
+
   return (
-    voices.find((voice) => voice.lang?.toLowerCase() === normalizedLocale) ||
-    voices.find((voice) => voice.lang?.toLowerCase().startsWith(`${language}-`)) ||
+    normalizedVoices.find(({ lang }) => lang === normalizedLocale)?.voice ||
+    normalizedVoices.find(({ lang }) => lang.startsWith(`${primaryLanguage}-`))?.voice ||
     null
   );
 }
@@ -412,7 +450,7 @@ function App() {
     const utterance = new SpeechSynthesisUtterance(`${cluster.headline}. ${cluster.voiceScript}`);
     utterance.lang = locale;
     utterance.rate = language === "en" ? 1 : 0.95;
-    utterance.voice = pickSpeechVoice(locale, speechVoices);
+    utterance.voice = pickSpeechVoice(language, locale, speechVoices);
     utterance.onend = () => setSpeakingId(null);
     utterance.onerror = () => setSpeakingId(null);
 
