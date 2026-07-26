@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T21:09:36+10:00",
+  "updatedAt": "2026-07-26T22:06:26+10:00",
   "generatedBy": "codex",
   "sources": [
     {
@@ -62,45 +62,42 @@
   "errors": [],
   "clusters": [
     {
-      "id": "wa-gas-plant-coal-phaseout",
-      "headline": "WA government considers new gas-fired power plant as coal phases out",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-26T18:02:00+10:00",
-      "voiceScript": "西澳政府正在评估在珀斯南部 Naval Base 新建一座 300 兆瓦的州营燃气发电站，预算可能超过 5 亿澳元。政府的说法很明确，这不是要提高对天然气的依赖，而是为了在 2030 年关掉州属燃煤电厂后，保住电网的调峰和备用能力。这个项目的重要性在于，它说明西澳的能源转型还没到可以完全靠风光和电池兜底的阶段。接下来要看社区咨询和年底前的决策，项目会不会真的推进，以及它到底会把多少 firming 需求锁定在 gas 上。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-26/wa-government-considering-new-gas-fired-power-plant/106959916",
-          "title": "WA government considering new gas-fired power plant as coal phases out"
-        }
-      ]
-    },
-    {
-      "id": "sa-bird-flu-metro-beach",
-      "headline": "South Australia confirms H5 bird flu on a metro beach",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T16:24:00+10:00",
-      "voiceScript": "南澳今天在两只分别在不同海滩发现的死去 greater crested terns 身上确认 H5 鸟流感，这是该州第一次在都市海滩确认病例。州政府同时还在等另外两例疑似样本送 CSIRO 复核，说明这次不是单点事件，而是沿海监测正在往外扩。现在最关键的是复核结果和后续样本是否还会继续阳性，公众不能接触病死鸟。下一步要看州里的监测会不会再扩大，以及这条海岸线还会不会冒出新个案。",
+      "id": "us-tariffs-australian-exports",
+      "headline": "US raises tariffs on Australian exports to 12.5%",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-24T17:04:07+10:00",
+      "voiceScript": "美国把对澳大利亚出口的关税提高到 12.5%，旧的 10% 临时税率到期后，新的税率立刻接上。澳方说这项措施没有道理，也和澳美自由贸易框架不一致；目前牛肉和黄金等主要出口暂时未被点名。现在最关键的是，这个税率会不会继续留着，以及成本最后会不会传导到澳洲出口商和美国买家身上。",
       "differences": [
-        "ABC News：强调这是南澳首个 metropolitan beach 确认病例，并给出两只 terns 的检测结果与地点。",
-        "The Guardian：把它放在连续更新里，突出还有两例疑似样本在等 CSIRO 复核。"
+        "ABC News：强调新税率刚生效，以及出口成本上升的即时影响。",
+        "The Guardian Australia：把它放进更大的 54 国新关税框架里，并特别提到牛肉、黄金等主要出口暂时豁免。",
+        "SBS News：更聚焦政府反击和贸易法理上的争议。",
+        "news.com.au：把重点放在阿尔巴尼斯的公开回应，以及最终由谁承担成本。"
       ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-26/first-sa-metro-beach-bird-flu-case-confirmed/106959832",
-          "title": "First H5 bird flu case confirmed on SA metro beach"
+          "url": "https://www.abc.net.au/news/2026-07-24/us-trump-administration-new-tariff-announcement/106938462",
+          "title": "Australian government arguing 'very forcefully' against Trump's new 12.5pc tariffs"
         },
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/two-additional-h5-bird-flu-suspected-in-sa/106957832",
-          "title": "Two additional suspected cases of H5 bird flu detected in South Australia"
+          "url": "https://www.abc.net.au/news/2026-07-24/trump-tariffs-bring-more-uncertainty-to-australian-shores/106954074",
+          "title": "New Trump tariffs 'make it harder for Australian businesses to compete'"
+        },
+      {
+        "source": "The Guardian Australia",
+        "url": "https://www.theguardian.com/australia-news/2026/jul/24/donald-trump-hits-australian-exports-to-us-with-new-higher-trade-tariff-over-claims-of-forced-labour",
+        "title": "Donald Trump hits Australian exports to US with new higher trade tariff over claims of ‘forced labour’"
+      },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/donald-trump-hit-australia-with-nonsense-12-5-per-cent-tarriffs/x4qy0tc68",
+          "title": "Trump's new Australian tariffs reveal complex truths, experts say as government urges repeal"
         },
         {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/politics/blog/live/2026/jul/26/australia-news-live-politics-pauline-hanson-ed-husic-anthony-albanese-labor-party-conference-bird-flu-ntwnfb",
-          "title": "‘Socialist’ teachers target eight Victorian Labor MPs including education minister – as it happened"
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/australian-economy/donald-trump-confirms-new-125-per-cent-tariff-on-australian-exports/news-story/98ef76ee2a40e503e3c64d71387ed3bf",
+          "title": "Donald Trump confirms new 12.5 per cent tariff on Australian exports"
         }
       ]
     },
@@ -108,18 +105,23 @@
       "id": "labor-vad-telehealth",
       "headline": "Labor backs telehealth access for voluntary assisted dying",
       "sourceCount": 3,
-      "publishedAt": "2026-07-26T12:22:00+10:00",
-      "voiceScript": "工党全国会议把党纲改成支持移除联邦法律里阻挡 VAD 通过 telehealth 咨询的条款，等于把这场争论推到了联邦立法层面。阿尔巴尼斯说他支持临终协助，但担心电话或视频会削弱医生面对面评估和安全把关；Greens 和独立议员 Kate Chaney 则准备继续推进法案。对偏远地区、行动不便，或病情恶化很快的病人，这项改动直接关系到能不能更快完成评估和申请。接下来要看政府会不会把党纲变成法案，以及新规则能否同时保住临床把关和可及性。",
+      "publishedAt": "2026-07-26T12:22:08+10:00",
+      "voiceScript": "工党全国会议在阿德莱德通过党纲修正，支持移除联邦法律里阻挡 VAD 通过 telehealth 咨询的条款。阿尔巴尼斯公开表示自己并不认同，担心电话或视频会削弱面对面评估和安全把关。现在的焦点是，州和领地已经允许临终协助，但联邦刑法仍可能让医生在远程咨询时触法。接下来要看政府会不会把党内表态推进成真正的立法修改，尤其是偏远地区病人的可及性。",
       "differences": [
-        "ABC News：直接点出 Albanese 个人反对 telehealth，并强调面对面评估和临床安全。",
-        "The Guardian：把党纲修改写成立法压力，重点是 Greens 和 Kate Chaney 将继续提案。",
-        "news.com.au：更强调乡郊患者的可及性，以及 Attorney-General 对 AI 误用和 elder abuse 的顾虑。"
+        "ABC News：同时写了 Labor 党纲变化和 Albanese 个人反对，强调临床安全。",
+        "The Guardian Australia：更突出这次表态对政府立法压力的意义，以及偏远地区可及性。",
+        "news.com.au：更强调 Attorney-General 的担忧，包括 misuse、AI 和 elder abuse 风险。"
       ],
       "links": [
         {
           "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/voluntary-assisted-dying-via-telehealth-endorsed-by-alp/106956766",
+          "title": "Rowland voices caution as Labor backs VAD telehealth"
+        },
+        {
+          "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-26/albanese-opposed-telehealth-voluntary-assisted-dying/106959388",
-          "title": "Anthony Albanese personally opposed to Labor's push on telehealth"
+          "title": "PM personally opposes voluntary assisted dying changes"
         },
         {
           "source": "The Guardian Australia",
@@ -129,21 +131,48 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5",
-          "title": "Labor supports telehealth for voluntary assisted dying at ALP conference, PM Anthony Albanese doesn't"
+          "title": "Albo won’t support move backed by ALP"
         }
       ]
     },
     {
-      "id": "qld-bird-flu",
-      "headline": "Queensland confirms its first H5 bird flu case",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-25T15:45:00+10:00",
-      "voiceScript": "昆州在 Moreton Island 一只死去的 petrel 上确认了首例 H5 鸟流感，这让澳洲的病例扩散到了第三个州。州政府说还没有发现家禽或人类感染，但样本已经送 CSIRO 复核，最需要盯的是更多海鸟是不是会继续阳性。对公众来说，最直接的提醒还是别碰病死鸟，鸡蛋和禽肉目前仍被认为安全。接下来要看复核结果和野生动物监测是否需要再升级。",
+      "id": "labor-gaza-motion-fails",
+      "headline": "Labor conference stalls over Ed Husic’s Gaza motion",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-26T15:11:00+10:00",
+      "voiceScript": "Ed Husic 在工党全国会议上推动更强烈表述以色列在加沙的行为，但这项动议没能过关，最后也没有在会场展开公开争论。之后他直接批评党内文化，阿尔巴尼斯则淡化风波，强调没有人被封口。这个分歧说明工党在中东议题上的裂缝还在，而且还不只是外交措辞问题。接下来要看争议会不会继续外溢到国会和党内纪律。",
       "differences": [
-        "ABC News：先写出 Moreton Island 发现和送 CSIRO 复核的流程，随后再确认结果。",
-        "The Guardian：把它放进全国 H5 扩散的连续更新中，强调这是昆州首例疑似病例。",
-        "news.com.au：更强调州政府的健康安抚和野生动物传播风险。",
-        "SBS News：突出对澳洲 native animals 的风险，并直接说明 poultry products 仍安全。"
+        "ABC News：把它写成会议程序失败，焦点是党纲没有进入会场辩论。",
+        "The Guardian Australia：更强调 factional powerbrokers 压下争议，避免公开撕裂。",
+        "news.com.au：更聚焦 Husic 的挑衅式表态和 Albanese 的否认。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/ed-husic-pushes-for-gaza-debate-at-labor-conference/106957962",
+          "title": "Husic lashes Labor culture after push for Gaza debate fails"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/ed-husic-labor-gaza-genocide-claims-ntwnfb",
+          "title": "Ed Husic-led push for Labor to recognise Gaza genocide fails, preventing public stoush"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/albanese-has-no-problem-with-mps-palestine-push-despite-blow-up/news-story/16ab6a89e3d776bc51f1cba373678b00",
+          "title": "Albo grilled on rogue MP’s Palestine push"
+        }
+      ]
+    },
+    {
+      "id": "qld-h5-bird-flu",
+      "headline": "Queensland confirms first H5 bird flu case",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-25T13:39:01+10:00",
+      "voiceScript": "昆州确认首个 H5 鸟流感病例，样本来自 Moreton Island 一只死去的海鸟，CSIRO 已经给出确认。州政府说目前没有在家禽或其他动物中发现感染，人类风险也仍然偏低，但公众仍被要求不要接触死鸟或病鸟。关键不确定性是，野生海鸟链条会不会继续把病毒带进更多州，以及后续监测会不会出现新点位。",
+      "differences": [
+        "ABC News：先报疑似样本，再补上 CSIRO 确认，细节更集中在检测流程和发现地点。",
+        "news.com.au：更强调“第三个受影响州”以及对公众的日常防护提醒。"
       ],
       "links": [
         {
@@ -154,109 +183,42 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114",
-          "title": "First positive case of H5 bird flu in Queensland confirmed by CSIRO"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/24/australia-news-live-jim-chalmers-anthony-albanese-labor-conference-gas-tax-gambling-reform-one-nation-pauline-hanson-ntwnfb",
-          "title": "More detail on first suspected H5 bird flu case reported in Queensland"
+          "title": "H5 bird flu confirmed in wild seabird found at Moreton Island"
         },
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae",
-          "title": "Queensland records 'suspected positive' H5 bird flu case"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo",
-          "title": "Queensland records first bird flu case | SBS News"
+          "title": "Fears bird flu has spread to third Aussie state"
         }
       ]
     },
     {
-      "id": "us-trade-tariff",
-      "headline": "US raises tariff on Australian exports to 12.5 per cent",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-24T14:01:00+10:00",
-      "voiceScript": "美国把对澳洲出口的关税升到 12.5%，在 7 月 24 日下午 2 点 01 分生效，取代了到期的 10% 临时税率。华府给出的理由是澳洲没有充分阻止强迫劳动相关产品进入供应链，但澳洲政府坚持说本国现代奴役法律已经很严。beef 和 gold 仍在豁免名单里，真正受压的是其他出口商、已经签约的货物和后续谈判空间。接下来要看豁免会不会扩大，还是这轮关税会直接转成澳洲企业和美国买家的成本。",
-      "differences": [
-        "ABC News：直接说明生效时间和 10% 临时税率到期，强调关税已经落地。",
-        "The Guardian：更强调强迫劳动指控，以及 beef 和 gold 仍获豁免。",
-        "news.com.au：更偏政治回应，并点出美国消费者和进口商可能承担成本。"
-      ],
+      "id": "wa-gas-fired-plant",
+      "headline": "WA considers new gas-fired power plant as coal phases out",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T18:02:25+10:00",
+      "voiceScript": "西澳政府正在评估在珀斯南部 Naval Base 新建一座州营燃气发电站，容量约 300 兆瓦，预算可能超过 5 亿澳元。州政府的说法是，这不是增加对天然气的长期依赖，而是为 2030 年关闭州属燃煤电厂后保留调峰和备用电力。下一步要看社区咨询和年底前的决定，项目是否会正式推进，以及到底会锁定多少 gas 作为电网兜底。",
+      "differences": [],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/us-trump-administration-new-tariff-announcement/106938462",
-          "title": "Trump administration confirms new 12.5 per cent tariff for Australia"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/24/donald-trump-hits-australian-exports-to-us-with-new-higher-trade-tariff-over-claims-of-forced-labour",
-          "title": "Donald Trump hits Australian exports to US with new higher trade tariff over claims of 'forced labour'"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/economy/australian-economy/donald-trump-confirms-new-125-per-cent-tariff-on-australian-exports/news-story/98ef76ee2a40e503e3c64d71387ed3bf",
-          "title": "Donald Trump confirms new 12.5 per cent tariff on Australian exports"
+          "url": "https://www.abc.net.au/news/2026-07-26/wa-government-considering-new-gas-fired-power-plant/106959916",
+          "title": "WA government considering new gas-fired power plant as coal phases out"
         }
       ]
     },
     {
-      "id": "origin-energy-breach",
-      "headline": "Origin Energy breach exposes customer and banking data",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-23T19:55:00+10:00",
-      "voiceScript": "Origin Energy 确认发生未经授权的数据访问，涉及部分客户的姓名、地址、生日、电话和账户信息，部分信用卡或银行账户尾号也可能外泄。公司现在还没公布最终受影响人数，但已经通知网络安全机构和监管部门，并会在核实后逐步联系客户。眼下最大的风险不是立刻被刷卡，而是这些资料被拼成更逼真的钓鱼短信、冒充客服和身份冒用。接下来要盯的是受影响范围、补救方案，以及调查会不会查出入侵是怎么进来的。",
-      "differences": [
-        "ABC News：先确认未授权访问，细列可能外泄字段，但仍在核实受影响人数。",
-        "The Guardian：更强调 4.8 million accounts 规模，以及已经通知的监管和执法机构。",
-        "news.com.au：更突出 up to two million customers 的估算，以及后续诈骗风险。"
-      ],
+      "id": "kiama-house-fire-body-found",
+      "headline": "Body found after Kiama house fire",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T16:01:15+10:00",
+      "voiceScript": "新州南海岸 Kiama 一处住宅火灾后发现一具遗体，死者身份还没有正式确认，起火原因也在调查中。ABC 报道称警方目前不把这起火灾当成可疑事件，但现场已经进入进一步取证。现在最重要的是验明身份、确定死因，并看火源是否来自电气故障还是其他意外。",
+      "differences": [],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-23/origin-energy-confirms-unauthorised-access-customer-data/106948052",
-          "title": "Origin Energy confirms breach of customer data"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/23/personal-and-banking-details-among-customer-data-stolen-in-origin-energy-hack",
-          "title": "Personal and banking details among customer data stolen in Origin Energy hack"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/online/origin-energy-investigating-reported-security-incident/news-story/a56f465b425a5c1d4381f0d898f4926f",
-          "title": "Origin Energy apologises after confirming data breach"
-        }
-      ]
-    },
-    {
-      "id": "ausalert-national-test",
-      "headline": "AusAlert test will ring out across most phones",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-22T15:54:00+10:00",
-      "voiceScript": "7 月 27 日下午 2 点，澳洲会第一次全国测试 AusAlert。兼容的手机、平板和手表会收到一条带 10 秒警报声的测试通知，即使静音也会响。政府说这不是追踪工具，但对家暴避险者、藏有备用机的人来说，测试本身就可能暴露设备存在。接下来要看全国测试是否顺利、哪些机型没收到，以及 10 月正式上线前会不会再调整豁免和默认设置。",
-      "differences": [
-        "ABC News：主要在辟谣，强调系统不追踪用户，也说明各州可以保留自己的警报系统。",
-        "The Guardian：更强调家暴避险者和隐藏手机的风险。",
-        "news.com.au：更偏实用说明，列出时间、10 秒警报和兼容设备。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/no-ausalert-isnt-tracking-you-and-other-conspiracy-theories/106948592",
-          "title": "Conspiracy theories about AusAlert test spreading online"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/22/ausalert-test-sound-national-alert-emergency-warning-system-date",
-          "title": "AusAlert test will blast emergency warning siren over most phones in Australia on Monday. Here's what to know"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/everything-you-need-to-know-about-ausalert-warning-alarm-test/news-story/dac4abc3a73dc2b0ca2c872cf5361f16",
-          "title": "Everything you need to know about the AusAlert warning alarm test"
+          "url": "https://www.abc.net.au/news/2026-07-26/body-found-after-kiama-house-fire/106959500",
+          "title": "Body found after house fire in NSW coastal town"
         }
       ]
     }
