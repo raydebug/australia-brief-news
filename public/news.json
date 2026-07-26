@@ -59,40 +59,22 @@
       "tone": "commercial broadcast news"
     }
   ],
-  "errors": [],
+  "errors": [
+    "news.com.au and AFR feed endpoints were not usable as direct XML feeds in this run; current article pages were collected via search results instead."
+  ],
   "clusters": [
     {
-      "id": "ausalert-test",
-      "headline": "AusAlert test will blast phones on Monday",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-26T14:00:00+10:00",
-      "voiceScript": "澳洲新的全国紧急警报系统 AusAlert 将在周一下午 2 点进行全国测试，手机、部分手表和平板都会收到一条带 10 秒警笛的测试消息，静音或勿扰模式也会响。这个系统改成了蜂窝广播，不再依赖单一电信网络，官方希望它在山火、洪水和生物安全事件里比旧短信更可靠。对需要隐藏手机的家暴幸存者，最现实的准备是提前关机或切飞行模式。接下来要看测试是否顺利，以及 10 月正式上线时各州和偏远地区覆盖能不能跟上。",
-      "differences": [
-        "ABC News：先澄清网上流传的阴谋论，强调系统不会追踪用户。",
-        "The Guardian Australia：更突出测试会强制响铃，也提到少数州政府对测试有保留。",
-        "SBS News：把重点放在家暴幸存者的隐藏手机安全准备，以及蜂窝广播比短信更可靠。",
-        "news.com.au：偏操作指南，列出测试时间、设备兼容性和静音也会响。"
-      ],
+      "id": "vic-leadership-challenge",
+      "headline": "Victorian premier facing leadership challenge this week",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T21:24:00+10:00",
+      "voiceScript": "维多利亚州工党内部的领导压力正在升高。ABC 报道说，周日晚上来自党内左右两派的协调人碰头后，已经认为雅辛塔·阿兰没有多数党团支持。现在真正要观察的是，这种私下判断会不会很快变成正式挑战，以及一旦州长更替，财政修复、治安和生活成本这些议题会不会被重新排序。对维州来说，这不只是一次人事风波，而是一次会直接影响执政节奏和选举准备的权力测试。",
+      "differences": [],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/no-ausalert-isnt-tracking-you-and-other-conspiracy-theories/106948592",
-          "title": "Conspiracy theories about AusAlert test spreading online"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/22/people-with-secret-safe-phones-advised-to-turn-off-devices-during-national-test-of-ausalert-emergency-warning",
-          "title": "People with secret 'safe phones' advised to turn off devices during national test of AusAlert emergency warning"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/ausalert-emergency-warning-test-what-you-need-to-know-and-how-to-prepare/zghu8pk7o",
-          "title": "AusAlert emergency warning test: What you need to know and how to prepare"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/everything-you-need-to-know-about-ausalert-warning-alarm-test/news-story/dac4abc3a73dc2b0ca2c872cf5361f16",
-          "title": "Everything you need to know about the AusAlert warning alarm test"
+          "url": "https://www.abc.net.au/news/2026-07-26/victoria-premier-jacinta-allan-leadership-challenge/106960114",
+          "title": "Victorian Premier Jacinta Allan facing leadership challenge this week"
         }
       ]
     },
@@ -100,13 +82,13 @@
       "id": "vad-telehealth",
       "headline": "Labor backs telehealth access for voluntary assisted dying",
       "sourceCount": 4,
-      "publishedAt": "2026-07-26T15:00:00+10:00",
+      "publishedAt": "2026-07-26T12:22:00+10:00",
       "voiceScript": "工党全国会议通过动议，支持修改联邦法律，放开临终协助通过电话和视频进行咨询。阿尔巴尼斯明确反对把这一步走得太快，担心会削弱面对面评估和防误用的保障；支持者则说，偏远地区和行动不便的病人现在被法律卡住，医生也可能因为用通信方式解释程序而面临风险。下一步要看联邦政府会不会推动修法，以及联邦刑法和州法之间的冲突能否真正处理掉。",
       "differences": [
-        "ABC News：强调现行联邦法律和偏远地区患者的可及性问题。",
-        "The Guardian Australia：更强调党内政策变化和联邦刑法的冲突。",
-        "SBS News：把焦点放在 Albanese 明确反对 telehealth 方案，以及会议上的分歧。",
-        "news.com.au：更突出最高 30 万澳元罚款和医生的合规风险。"
+        "ABC News：强调总理本人反对和医疗安全、面对面评估。",
+        "The Guardian Australia：更强调偏远和行动不便患者的可及性，以及联邦刑法的障碍。",
+        "SBS News：把焦点放在总理明确反对 telehealth 方案，同时承认会议已通过党内立场。",
+        "news.com.au：点出法律可能带来最高 30 万澳元罚款，强调医生的合规风险。"
       ],
       "links": [
         {
@@ -132,37 +114,37 @@
       ]
     },
     {
-      "id": "us-tariffs-australia",
-      "headline": "Trump's 12.5% tariff hits Australian exports",
+      "id": "fuel-price-rise",
+      "headline": "Fuel prices keep climbing as excise cut nears end",
       "sourceCount": 4,
-      "publishedAt": "2026-07-26T10:00:00+10:00",
-      "voiceScript": "美国把对澳洲出口的关税提高到 12.5%，新税率已经生效，澳洲的牛肉和黄金暂时被排除在外，但很多制造和农产品出口会先感到压力。堪培拉说这和澳洲的反奴役法律无关，贸易部长和副总理都把它称为不公平、没有依据。下一步要看澳美谈判会不会争取豁免，以及企业是否会把成本转嫁给美国买家或先压在澳洲供应链上。",
+      "publishedAt": "2026-07-25T14:19:00+10:00",
+      "voiceScript": "联邦政府继续安抚驾驶者，说澳洲燃油供应还是“solid and secure”，但泵价已经在往上走。8 月 2 日燃油消费税减免到期后，很多地区还会再上调，北美和中东局势让原油市场继续紧张。对家庭来说，最直接的冲击是通勤和运输成本抬升；如果油价再往上冲，通胀和 RBA 利率路径都会重新承压。",
       "differences": [
-        "ABC News：把重点放在 12.5% 税率何时生效，以及临时 10% 税率已经失效。",
-        "The Guardian Australia：更强调美国把澳洲和其他多国一起纳入，并把这件事写成对澳洲贸易的打击。",
-        "SBS News：更关注贸易部长的回应，强调这不是澳洲反奴役法律导致的。",
-        "news.com.au：更偏政治攻防，把总理被追问和油价压力放在一起。"
+        "ABC News：强调供应仍然充足，政府先稳住市场情绪。",
+        "The Guardian Australia：更强调家庭负担、泵价冲上每升 2 澳元，以及 RBA 加息风险。",
+        "SBS News：突出 unleaded 和 diesel 已经开始跳涨，强调成本压力正在传导。",
+        "news.com.au：把焦点放在油价 40 天高位和 16 仙燃油税优惠结束后的冲击。"
       ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/us-trump-administration-new-tariff-announcement/106938462",
-          "title": "Trump administration confirms new 12.5 per cent tariff for Australia"
+          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876",
+          "title": "Federal government says Australia's fuel supply is 'solid and secure' as prices climb again"
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/24/donald-trump-hits-australian-exports-to-us-with-new-higher-trade-tariff-over-claims-of-forced-labour",
-          "title": "Donald Trump hits Australian exports to US with new higher trade tariff over claims of 'forced labour'"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising",
+          "title": "Australian households face prospect of interest rate hike and petrol prices rising above $2 a litre"
         },
         {
           "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/podcast-episode/australia-rejects-us-case-for-higher-tariffs-midday-news-bulletin-24-july-2026/88vr566y3",
-          "title": "Australia rejects the US case for higher tariffs | Midday News Bulletin 24 July 2026"
+          "url": "https://www.sbs.com.au/news/article/more-fuel-price-pain-ahead-for-australians-as-war-ramps-up-and-de-escalation-dims/liu71xlm1",
+          "title": "More fuel price pain ahead as Houthis widen war's front line, Trump considers fresh strikes"
         },
         {
           "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/economy/australian-economy/anthony-albaneses-rejects-trumps-unjustified-slavery-tariff/news-story/979af50892a0cb89c9cc9f3ca3218314",
-          "title": "Anthony Albanese dodges question on Trump threat"
+          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293",
+          "title": "Fuel warning for Aussies as oil price hits 40-day high"
         }
       ]
     },
@@ -170,13 +152,13 @@
       "id": "qld-bird-flu",
       "headline": "Queensland confirms first H5 bird flu case",
       "sourceCount": 4,
-      "publishedAt": "2026-07-25T10:19:00+10:00",
-      "voiceScript": "昆州在 Moreton Island 的一只海鸟先被检出疑似 H5，随后又由 CSIRO 确认为阳性，这意味着鸟流感已经进入昆州。州政府说目前还没有在家禽或其他动物身上看到扩散，鸡肉和鸡蛋仍然可以安全食用，但公众需要继续避开死鸟和病鸟。接下来要盯的是野生鸟类监测能不能把范围压住，以及病毒会不会继续往更多州扩散。",
+      "publishedAt": "2026-07-24T13:28:00+10:00",
+      "voiceScript": "昆州在 Moreton Island 的一只海鸟样本先被验出疑似 H5，随后又由 CSIRO 确认为阳性，意味着鸟流感已经进入昆州。州政府说目前还没有在家禽或其他动物身上看到扩散，鸡肉和鸡蛋仍然可以安全食用，但公众需要继续避开死鸟和病鸟。接下来要盯的是野生鸟类监测能不能把范围压住，以及病毒会不会继续往更多州扩散。",
       "differences": [
-        "ABC News：按 Moreton Island 发现、州实验室初筛、CSIRO 确认的顺序写得最完整。",
-        "The Guardian Australia：把它并入当天澳洲新闻直播，强调公共安全和监测背景。",
-        "SBS News：直接提醒鸡肉和鸡蛋仍安全，重点是不要接触死鸟和病鸟。",
-        "news.com.au：更强调这是昆州首例，也意味着受影响州数继续增加。"
+        "ABC News：把发现过程写得最完整，从 Moreton Island 样本到 CSIRO 确认。",
+        "The Guardian Australia：在澳洲新闻直播里把它放进更大的政策和公共安全背景。",
+        "SBS News：更强调 poultry products safe to eat 和对野生动物的警示。",
+        "news.com.au：更突出这是第三个受影响州，以及加强监测和别接触死鸟的提醒。"
       ],
       "links": [
         {
@@ -191,7 +173,7 @@
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/24/australia-news-live-jim-chalmers-anthony-albanese-labor-conference-gas-tax-gambling-reform-one-nation-pauline-hanson-ntwnfb?CMP=share_btn_url&page=with%3Ablock-6a629cb58f088134984cb1d6",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/24/australia-news-live-jim-chalmers-anthony-albanese-labor-conference-gas-tax-gambling-reform-one-nation-pauline-hanson-ntwnfb",
           "title": "Australia news live, Friday 24 July 2026"
         },
         {
@@ -207,71 +189,65 @@
       ]
     },
     {
-      "id": "origin-data-breach",
-      "headline": "Origin Energy confirms customer data breach",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-24T09:00:00+10:00",
-      "voiceScript": "Origin Energy 已确认有客户资料在网络攻击中被未经授权访问，涉及姓名、地址、生日、电话和部分账号信息，部分银行或信用卡数字也可能外泄，但公司说完整卡号和账户密码不在其中。现在最关键的是确认受影响人数、尽快通知客户，并防止这些数据被拿去做定向诈骗。对 480 万账户规模的能源公司来说，这起事件会把客服、信任和监管成本一起抬高，接下来要看警方和网络安全机构的调查结果。",
+      "id": "labor-gas-tax",
+      "headline": "Labor conference leaves gas export tax unresolved",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-23T23:32:27+10:00",
+      "voiceScript": "工党全国会议把天然气出口税推到了台前，但最后还是没有在会场上拍板。支持者想用更高税率把资源收益留在澳洲，反对者担心投资和供应受影响；政府则一边强调改革讨论，一边避免把它变成正式承诺。下一步要看平台文字会不会继续往“公平税收”方向挪，以及财政和能源部门会不会真的把方案端上桌。",
       "differences": [
-        "ABC News：先报潜在入侵调查，后确认部分客户数据确实被访问。",
-        "The Guardian Australia：更强调个人资料和银行信息外泄的风险，以及监管和警方介入。",
-        "SBS News：更聚焦哪些数据可能被用来做诈骗，以及客户该警惕什么。",
-        "news.com.au：更强调可能波及约 200 万客户，并直接给出改密和开双重验证的建议。"
+        "ABC News：强调原本预期的 floor fight 没有出现，会议主线没有被税案劫持。",
+        "The Guardian Australia：直接支持 25% gas tax，并估算可带来约 170 亿澳元年收入。",
+        "news.com.au：更强调会场外“tax gas, not beer”抗议，以及这一议题只是会议中的一部分。"
       ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-22/origin-energy-investigating-potential-data-breach/106944660",
-          "title": "Origin Energy investigating 'potential' customer data breach"
+          "url": "https://www.abc.net.au/news/2026-07-23/labor-national-conference-debate-gas-gambling-gaza/106945156",
+          "title": "Labor conference kicks off with gas, gambling and Gaza"
         },
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-23/origin-energy-confirms-unauthorised-access-customer-data/106948052",
-          "title": "Origin Energy confirms breach of customer data"
+          "url": "https://www.abc.net.au/news/2026-07-23/federal-politics-live-blog-paid-prac/106947462",
+          "title": "Federal politics live blog: floor fight over gas tax evaporates"
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/23/personal-and-banking-details-among-customer-data-stolen-in-origin-energy-hack",
-          "title": "Personal and banking details among customer data stolen in Origin Energy hack"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/origin-energy-customer-bank-credit-details-stolen-major-data-breach/t5m64pwrs",
-          "title": "Origin Energy reports customer bank, credit card details caught up in breach"
+          "url": "https://www.theguardian.com/business/grogonomics/2026/jul/23/gas-exports-tax-pressure-growing-inside-labor-alp-conference",
+          "title": "Pressure is growing inside Labor to properly tax gas exports. Here's what a 25% tax could pay for"
         },
         {
           "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/online/hacking/major-thing-48-million-aussies-must-do-after-origin-energy-hack/news-story/6cf12417db4081e846d26c0b6b88f9f3",
-          "title": "Origin Energy hack warning: banking data of millions stolen"
+          "url": "https://www.news.com.au/finance/work/leaders/anthony-albanese-to-speak-at-alp-conference-as-beer-tax-debate-rages/live-coverage/43ba1e0bb2ec2e5eb33be9f30f299134",
+          "title": "Labor promises superannuation boost for young Australian workers"
         }
       ]
     },
     {
-      "id": "dominos-underpayment",
-      "headline": "Domino's workers win underpayment class action",
+      "id": "point-piper-dinner",
+      "headline": "Albanese is questioned over Point Piper dinner",
       "sourceCount": 3,
-      "publishedAt": "2026-07-22T18:31:00+10:00",
-      "voiceScript": "联邦法院裁定 Domino's 在澳洲特许经营体系里误导加盟商，导致 2013 到 2018 年间大量配送员和店内员工被少付。判决现在还不是赔偿终点，但它已经把后续补偿和罚则问题推到前台，也让外界重新审视快餐加盟体系的工资合规。接下来要盯的是赔偿规模，以及这起案子会不会逼迫连锁品牌把支付结构彻底重写。",
+      "publishedAt": "2026-07-26T13:34:00+10:00",
+      "voiceScript": "阿尔巴尼斯被追问是否出席了悉尼 Point Piper 一场人均 1 万澳元的私人晚宴，主办方是正被税务问题盯上的李家成员。总理在镜头前没有正面确认，只说自己参加“很多晚餐”和“很多活动”；反对者把这件事解读成捐款透明度和政治接触边界的问题。接下来要看媒体会不会继续追问出席名单、费用来源和是否存在利益交叉。",
       "differences": [
-        "ABC News：更完整交代法院认定公司误导加盟商，以及对市场的即时影响。",
-        "The Guardian Australia：把它写成低薪工人的集体胜诉和劳工权益事件。",
-        "news.com.au：更强调具体少付项目和后续赔偿可能性。"
+        "ABC News：重点放在总理的回避回答和透明度问题。",
+        "The Guardian Australia：把它放进更大的 donor scrutiny 和政治问责背景。",
+        "news.com.au：更强调 40 million mansion、每位 10,000 澳元的价格和出席名流名单。"
       ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-22/asx-markets-business-live-news-july-22/106942906",
-          "title": "Domino's Pizza loses Federal Court case, ASX rises as oil prices hit ..."
+          "url": "https://www.abc.net.au/news/2026-07-26/albanese-questioned-over-point-piper-dinner/106959648",
+          "title": "I attend a lot of dinners: Anthony Albanese evasive over Point Piper dinner"
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/22/australia-news-live-penny-wong-asean-pacific-missile-pauline-hanson-one-nation-labor-conference-tax-anthony-albanese-antisemitism-royal-commission-ntwnfb",
-          "title": "Court win for low-paid Domino's workers in underpayment class action - as it happened"
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/26/australia-news-live-politics-pauline-hanson-ed-husic-anthony-albanese-labor-party-conference-bird-flu-ntwnfb",
+          "title": "Australia news live, Sunday 26 July 2026"
         },
         {
           "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/food/thousands-of-underpaid-dominos-workers-could-be-entitled-to-compensation-following-landmark-class-action/news-story/02f67724a7080877f209b56c175c2a45",
-          "title": "Underpaid Domino's workers could get compensation following landmark class action"
+          "url": "https://www.news.com.au/national/politics/i-attend-lots-of-dinners-prime-minister-anthony-albanese-quiz-over-point-piper-dinner/news-story/8e3b17291d8ae6becbae6377c2c0c41d",
+          "title": "I attend lots of dinners: Prime Minister Anthony Albanese quizzed over Point Piper dinner"
         }
       ]
     }
