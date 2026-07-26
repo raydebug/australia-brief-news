@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T12:08:57+10:00",
+  "updatedAt": "2026-07-26T12:40:00+10:00",
   "generatedBy": "codex",
   "sources": [
     {
@@ -28,13 +28,14 @@
   "clusters": [
     {
       "id": "labor-vad-telehealth",
-      "headline": "Labor conference backs telehealth access for voluntary assisted dying",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T09:32:31+10:00",
-      "voiceScript": "工党全国会议通过了放宽临终关怀远程问诊限制的动议，允许在州法框架下把 telehealth 纳入 VAD 访问。Albanese 本人仍对这类安排持保留态度，担心被误用。这个决定把联邦法律、州立法和远程医疗安全一起推到了前台。接下来要看党内表态能否转成具体法案，以及反对者会不会继续围绕临终决定的监管边界发力。",
+      "headline": "Labor backs telehealth access for voluntary assisted dying",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-26T12:22:08+10:00",
+      "voiceScript": "Labor 在全国会议上通过修改党纲，支持放宽 voluntary assisted dying 的 telehealth 限制。总理 Albanese 仍说这类咨询最好面对面，担心远程沟通会削弱医疗安全。对偏远地区患者来说，这个变化最现实的意义，是未来可能少一次长途奔波；但真要变成法律，还得看内阁、议会和州法怎么衔接。接下来要盯的是政府会不会把党纲变成具体立法，以及反对者是否抓住监管边界继续施压。",
       "differences": [
-        "ABC News：直接报道会议通过的 VAD 党纲修改，把焦点放在 telehealth 合法性和 Albanese 的个人保留。",
-        "The Guardian Australia：把它放进直播政治报道里，强调这是会议当天的争议议题，而不是孤立的医疗技术细节。"
+        "ABC News：聚焦 Labor 党纲正式转向和 Albanese 明确反对通过 telehealth 讨论 VAD，强调这已不是边缘议题。",
+        "SBS News：把它写成 Labor 会议少数仍有分歧的条款，突出党内罕见争论。",
+        "The Guardian Australia：更强调偏远地区患者的可及性，并把它放进 Greens 和独立议员推动立法的压力里。"
       ],
       "links": [
         {
@@ -43,51 +44,27 @@
           "title": "Albanese personally opposed to Labor push on voluntary assisted dying"
         },
         {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/politics/blog/live/2026/jul/26/australia-news-live-politics-pauline-hanson-ed-husic-anthony-albanese-labor-party-conference-bird-flu-ntwnfb",
-          "title": "Australia news live: 'Socialist' teachers target eight Victorian Labor MPs including education minister; PM opposes using telehealth for euthanasia"
-        }
-      ]
-    },
-    {
-      "id": "us-trade-tariff",
-      "headline": "US raises tariff on Australian exports to 12.5 per cent",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-24T14:01:00+10:00",
-      "voiceScript": "美国把对澳洲出口的关税抬到 12.5%，新税率在 7 月 24 日下午 2 点 01 分生效，直接替代了临时的 10% 关税。澳洲政府要求撤销这项措施，理由是它既不公平，也会增加出口商成本。现在最需要盯的是合同怎么重定价、哪些行业先被压利润，以及 beef 和 gold 之外的出口会不会开始感受到客户转单。",
-      "differences": [
-        "ABC News：强调新税率的生效时间，以及它如何直接替换了之前的 10% 临时关税。",
-        "SBS News：更突出澳洲政府要求撤销关税，以及对出口商和贸易关系的影响。",
-        "The Guardian Australia：重点放在 forced labour 的理由和 beef、gold 的豁免细节。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/us-trump-administration-new-tariff-announcement/106938462",
-          "title": "Trump administration confirms new 12.5 per cent tariff for Australia"
-        },
-        {
           "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/donald-trump-hit-australia-with-nonsense-12-5-per-cent-tarriffs/x4qy0tc68",
-          "title": "Trump's new Australian tariffs reveal complex truths, experts say as government urges repeal"
+          "url": "https://www.sbs.com.au/news/article/the-momentary-slip-that-only-shows-albaneses-escalating-control-of-the-labor-party/nwbpwo5ax",
+          "title": "The momentary slip that only showed Albanese's escalating control of the Labor Party"
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/24/donald-trump-hits-australian-exports-to-us-with-new-higher-trade-tariff-over-claims-of-forced-labour",
-          "title": "Donald Trump hits Australian exports to US with new higher trade tariff over claims of 'forced labour'"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/26/labor-pressure-telehealth-access-euthanasia-assisted-dying-anthony-albanese",
+          "title": "Labor under pressure to allow telehealth access for euthanasia but PM says 'it should be face-to-face'"
         }
       ]
     },
     {
       "id": "origin-energy-breach",
-      "headline": "Origin Energy breach exposes customer and banking data",
+      "headline": "Origin Energy breach exposes customer banking details",
       "sourceCount": 3,
       "publishedAt": "2026-07-24T11:09:01+10:00",
-      "voiceScript": "Origin Energy 确认客户数据在黑客攻击中被未经授权访问，涉及姓名、地址、生日、电话和部分银行卡或账户信息。公司说受影响账户可能接近 480 万，真正的后续风险不只是泄露本身，而是这些资料会被拼成更逼真的钓鱼短信、冒充客服，甚至 AI 语音诈骗。接下来要看逐户通知、补救措施和监管追责会不会同步升级。",
+      "voiceScript": "Origin Energy 确认客户数据遭到未授权访问，涉及姓名、地址、生日、电话，部分记录还碰到银行卡或账户信息。公司说受影响账户可能高达 480 万，风险不只在泄露本身，而是这些资料会被拿去做更逼真的钓鱼短信、假客服和身份冒用。接下来要看它什么时候逐户通知、是否给出信用监测或补救安排，以及监管机构会不会要求更严格的说明和赔付。",
       "differences": [
-        "ABC News：更强调这些数据会被拼成更逼真的钓鱼信息、冒充客服和 AI 语音诈骗。",
-        "SBS News：更聚焦客户应如何识别诈骗，以及接近 480 万账户可能受影响。",
-        "The Guardian Australia：更完整列出泄露字段，并点出公司已通报的监管和网络安全机构。"
+        "ABC News：更强调 AI 诈骗和假身份会如何利用泄露数据。",
+        "SBS News：更聚焦对客户的防骗提醒，并突出可能影响的 480 万账户。",
+        "The Guardian Australia：更完整列出被泄露字段，并点出公司已通报多家监管和网络安全机构。"
       ],
       "links": [
         {
@@ -108,15 +85,44 @@
       ]
     },
     {
-      "id": "ausalert-national-test",
-      "headline": "AusAlert national test will ring out across most phones",
+      "id": "us-trade-tariff",
+      "headline": "US raises tariff on Australian exports to 12.5 per cent",
       "sourceCount": 3,
-      "publishedAt": "2026-07-24T14:33:00+10:00",
-      "voiceScript": "AusAlert 全国测试定在 7 月 27 日下午 2 点，兼容设备会响起 10 秒警报并显示 TEST MESSAGE - NO ACTION REQUIRED。它本来是给火灾、洪水和其他紧急情况用的，但这次测试也让隐藏手机的家暴避险者特别紧张。接下来要看各州系统联动是否顺畅、公众会不会误判成真警报，以及 10 月正式上线前能不能把覆盖和可达性问题再压低。",
+      "publishedAt": "2026-07-24T19:55:00+10:00",
+      "voiceScript": "美国把对澳洲出口的关税提高到 12.5%，并用 forced labour 作为理由，生效后直接替代了原本的临时 10% 税率。澳洲政府已经要求撤销，担心出口商利润被压缩，谈判空间也会变小。短期最要紧的是哪些行业先被迫重签合同，以及 beef、gold 之外的商品会不会开始遇到客户转单。下一步要盯华府是否再解释依据，以及堪培拉会不会把这件事升级为更强硬的贸易反制。",
       "differences": [
-        "ABC News：重点在辟谣，说明 AusAlert 不会追踪用户，并提到各州可保留自己的系统。",
-        "SBS News：更强调对家暴避险者的风险，以及测试前应提前关机或切飞行模式。",
-        "The Guardian Australia：更直接提醒警报会以 10 秒警笛形式响起，并提到 10 月正式 rollout。"
+        "ABC News：直接点出现行税率如何替换临时 10% 关税，并强调生效时间。",
+        "SBS News：更突出澳洲政府要求撤销，以及贸易界对冲击和豁免范围的担忧。",
+        "The Guardian Australia：把重点放在 forced labour 指控和 beef、gold 豁免上，语气更偏国际贸易争议。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/us-trump-administration-new-tariff-announcement/106938462",
+          "title": "Trump administration confirms new 12.5 per cent tariff for Australia"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/donald-trump-hit-australia-with-nonsense-12-5-per-cent-tarriffs/x4qy0tc68",
+          "title": "Trump's new Australian tariffs reveal complex truths, experts say as government urges repeal"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/24/donald-trump-hits-australian-exports-to-us-with-new-higher-trade-tariff-over-claims-of-forced-labour",
+          "title": "Donald Trump hits Australian exports to US with new higher trade tariff over claims of 'forced labour'"
+        }
+      ]
+    },
+    {
+      "id": "ausalert-national-test",
+      "headline": "AusAlert national test will blast phones across Australia",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-24T12:00:00+10:00",
+      "voiceScript": "澳洲新的 AusAlert 全国测试定在 7 月 27 日下午 2 点，大多数兼容手机都会响起持续约 10 秒的警报声，并显示测试信息。这个系统原本是给火灾、洪水、极端天气和 biosecurity 事件用的，但测试也让“安全手机”使用者格外紧张，因为警报可能暴露藏机位置。接下来要看 27 日当天网络推送是否稳定、民众会不会误以为是真警报，以及 10 月正式上线前还能不能把覆盖和豁免问题再处理清楚。",
+      "differences": [
+        "ABC News：更集中在辟谣和纠错，强调系统不会追踪用户。",
+        "SBS News：更强调家暴避险者和 safe phones 的实际风险。",
+        "The Guardian Australia：直接给出 10 秒警笛和测试信息，并提到 10 月正式 rollout。"
       ],
       "links": [
         {
@@ -126,8 +132,8 @@
         },
         {
           "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/aus-alert-warning-impact-domestic-violence-victims/8b97tjlpg",
-          "title": "The phone alert that could reveal a hidden lifeline"
+          "url": "https://www.sbs.com.au/news/article/ausalert-emergency-warning-test-what-you-need-to-know-and-how-to-prepare/zghu8pk7o",
+          "title": "AusAlert emergency warning test: What you need to know and how to prepare"
         },
         {
           "source": "The Guardian Australia",
@@ -139,12 +145,13 @@
     {
       "id": "bird-flu-qld",
       "headline": "Queensland records first suspected H5 bird flu case",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-25T14:07:00+10:00",
-      "voiceScript": "Queensland 已发现首例 H5 鸟流感的疑似阳性样本，取自 Moreton Island 7 月 18 日发现的一只死海鸟。按目前通报，如果后续确认，全国 H5 统计会推高到 18 例。现在关键不只是这一个样本，而是州里的野鸟监测、家禽防疫和沿海接触点会不会因此收紧。接下来要看 CSIRO 复核结果，以及当局会不会扩大警戒范围。",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-24T14:07:00+10:00",
+      "voiceScript": "昆士兰在 Moreton Island 发现的海鸟样本出现首个 H5 鸟流感疑似阳性，样本已送交 CSIRO 复核。按目前通报，如果结果最终确认，全国 H5 统计会继续上升到 18 例。真正需要盯的不是这只鸟本身，而是这是否意味着野鸟监测、家禽防疫和海岛接触点要再收紧。下一步看 CSIRO 的最终结果，以及州政府会不会扩大警戒和公众提醒。",
       "differences": [
-        "ABC News：更强调 Moreton Island 样本和 CSIRO 的确认过程。",
-        "SBS News：更强调如果样本确认，全国 H5 统计会继续上升，以及对防疫的提醒。"
+        "ABC News：更强调 Moreton Island、采样和 CSIRO 确认流程。",
+        "SBS News：更突出国家累计病例和对野生动物的风险提醒。",
+        "The Guardian Australia：把它放进全国鸟流感态势里，强调这是更大扩散背景中的最新一环。"
       ],
       "links": [
         {
@@ -156,39 +163,65 @@
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo",
           "title": "'We can't stop this virus': Another state records first suspected bird flu case"
-        }
-      ]
-    },
-    {
-      "id": "census-2026-australia",
-      "headline": "2026 Census Australia: Key dates, what's included and why it matters",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-25T11:01:14+10:00",
-      "voiceScript": "2026 Census 定在 8 月 11 日，全国所有人都要在那天完成填报，表格最多 66 题，涵盖人口、文化和经济信息。它不是例行打卡，而是直接影响学校、医疗和交通资源怎么分配。接下来要看最后两周的提醒力度、大家完成率，以及有没有更多人因为拖延而漏填或填错。",
-      "differences": [],
-      "links": [
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-whats-included/nvhfhqmdj",
-          "title": "2026 Census Australia: Key dates, what's included and why it matters"
-        }
-      ]
-    },
-    {
-      "id": "melbourne-datacentre-plumpton",
-      "headline": "Mega datacentre planned for outer Melbourne will be six times bigger than Chadstone",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-26T06:00:53+10:00",
-      "voiceScript": "墨尔本西北郊 Plumpton 计划建设一个 350 公顷的大型数据中心园区，四栋机房合计约 140 公顷，规模接近 Chadstone 的六倍。争议焦点不是 AI 概念本身，而是它会消耗多少电、用多少水，以及会不会压到绿带和机场航线周边。接下来要看审查和社区咨询能否真的改动方案，还是项目会以主权 AI 基础设施的名义快速推进。",
-      "differences": [],
-      "links": [
+        },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/26/mega-datacentre-planned-for-outer-melbourne-will-be-almost-six-times-the-size-of-chadstone-shopping-centre",
-          "title": "Mega datacentre planned for outer Melbourne will be six times bigger than a large shopping centre"
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/24/australia-news-live-jim-chalmers-anthony-albanese-labor-conference-gas-tax-gambling-reform-one-nation-pauline-hanson-ntwnfb?page=with%3Ablock-6a629cb58f088134984cb1d6",
+          "title": "Guardian Australia live update on Queensland's first suspected H5 bird flu case"
+        }
+      ]
+    },
+    {
+      "id": "bird-flu-sa",
+      "headline": "South Australia flags two more suspected H5 bird flu cases",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T12:30:00+10:00",
+      "voiceScript": "南澳又通报两起 H5 鸟流感疑似病例，其中一例出现在都会海滩附近的海鸟身上。样本已送往 CSIRO 检测，州政府现在更关心的是能不能尽快确认传播范围，以及会不会影响当地野生鸟类保护和公众接触提示。接下来要看复检结果、是否还会有新样本被拉去筛查，以及这个州的警戒线会不会继续上调。",
+      "differences": [
+        "ABC News：直接写明两起疑似病例和送检地点，信息更具体。",
+        "The Guardian Australia：把它作为全国 live 更新的一部分，强调这是南澳 bird flu 态势继续扩大的信号。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/two-additional-h5-bird-flu-suspected-in-sa/106957832",
+          "title": "Two additional H5 bird flu cases suspected in SA, including first on a metropolitan beach"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/politics/blog/live/2026/jul/26/australia-news-live-politics-pauline-hanson-ed-husic-anthony-albanese-labor-party-conference-bird-flu-ntwnfb",
+          "title": "Australia news live: 'Socialist' teachers target eight Victorian Labor MPs including education minister; PM opposes using telehealth for euthanasia"
+        }
+      ]
+    },
+    {
+      "id": "pauline-hanson-dv-comments",
+      "headline": "Pauline Hanson’s domestic violence comments draw backlash",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-25T01:00:16+10:00",
+      "voiceScript": "Pauline Hanson 说家暴是 two-way street 之后，批评迅速扩大，妇女团体、工会和多位议员都把这类说法视为在淡化受害者处境。争议的核心不是一段口误，而是她把家庭暴力和 real crime 对立起来，给政策讨论设了很危险的框架。接下来要看 One Nation 会不会继续把这场风波当成媒体误读来处理，以及她的说法是否会影响家庭暴力相关立法和公共资助讨论。",
+      "differences": [
+        "ABC News：聚焦 4BC 采访中的原话和家暴中心的即时回应。",
+        "SBS News：更强调 Hanson 事后称被断章取义，并继续把矛头指向媒体。",
+        "The Guardian Australia：更直接把她的说法和受害者保护、工会与公共争议连在一起，批评语气最强。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-22/federal-politics-live-blog-isis-doctor-july-22/106942730",
+          "title": "ABC live coverage of Pauline Hanson's domestic violence remarks"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/pauline-hanson-domestic-violence-comments-expert-criticism/aagqek8ky",
+          "title": "Hanson says domestic violence comments taken 'out of context' as criticism mounts"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/24/pauline-hanson-domestic-violence-comments-mra-mens-rights-activists-ntwnfb",
+          "title": "Pauline Hanson’s domestic violence comments were no stumble"
         }
       ]
     }
-  ],
-  "language": "zh-Hans"
+  ]
 }
