@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T22:10:29Z",
+  "updatedAt": "2026-07-26T23:10:57Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -115,17 +115,81 @@
       "tone": "wire service"
     }
   ],
-  "errors": [],
+  "errors": [
+    "The Australian, Sky News Australia, Canberra Times는 이번 실행에서 안정적으로 파싱 가능한 공개 목록을 제공하지 않았습니다. AAP 기사 페이지는 404를 반환해 새 AAP 항목은 사용하지 않았습니다."
+  ],
   "clusters": [
+    {
+      "id": "ausalert-test",
+      "headline": "AusAlert 사이렌 시험 앞두고 대비 요령 안내",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T23:09:42Z",
+      "voiceScript": "호주의 새 AusAlert 경보 시스템이 첫 전국 시험 단계에 들어가면서 휴대전화에는 10초 사이렌이 울릴 예정입니다. The Guardian Australia는 경보가 언제 울리고 무엇을 알아야 하는지 설명하고, 7NEWS는 새 시스템이 실제로 어떻게 작동하는지에 초점을 맞춥니다. 핵심은 산불과 홍수 같은 비상 상황에서 이 경보가 사람들에게 얼마나 안정적으로 도달하느냐입니다. 다음 단계는 월요일 시험과 그 뒤에 나올 시민 및 당국의 반응입니다.",
+      "differences": [
+        "The Guardian Australia: 언제 울리는지와 무엇을 예상해야 하는지를 설명하는 실용형 해설입니다.",
+        "7NEWS: 시험의 작동 방식과 실제로 들리게 될 내용을 중심으로 다룹니다."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/22/ausalert-test-sound-national-alert-emergency-warning-system-date",
+          "title": "AusAlert test: what time will national emergency warning siren sound on phones in Australia today? Here’s what to know"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/new-ausalert-system-to-blast-out-emergency-warning-siren-c-22631794",
+          "title": "New AusAlert system to blast out emergency warning siren"
+        }
+      ]
+    },
+    {
+      "id": "tariffs-pushback",
+      "headline": "호주, 트럼프의 관세 조치에 반발",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T23:04:55Z",
+      "voiceScript": "호주는 다시 관세 갈등 한복판에 놓였고, 워싱턴의 최근 통상 조치에는 비판이 쏟아지며 캔버라는 철회를 요구하고 있습니다. SBS는 전문가 분석과 더 넓은 경제적 파장을 중심으로 이 사안을 다루고, The Guardian Australia의 속보는 James Paterson 등 정치권의 즉각 반응을 전합니다. 관세는 물가와 수출, 그리고 정부 대응 압박으로 바로 이어질 수 있다는 점에서 실질적인 문제입니다. 이제 미국이 입장을 누그러뜨릴지, 아니면 호주가 철회를 계속 밀어붙일지가 관건입니다.",
+      "differences": [
+        "SBS: 경제적 복잡성과 철회 필요성을 강조하는 분석형 보도입니다.",
+        "The Guardian Australia: 즉각적인 정치 반응과 속보성을 강조하는 라이브 보도입니다."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/27/ausalert-emergency-warning-test-antisemitism-royal-commission-nsw-icac-inquiry-politics-anthony-albanese-labor-angus-taylor-coalition-victoria-jacinta-allan-ntwnfb",
+          "title": "News live: national AusAlert test to blare siren; latest US tariffs on Australia ‘unjustified’, James Paterson says"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/donald-trump-hit-australia-with-nonsense-12-5-per-cent-tarriffs/x4qy0tc68",
+          "title": "Trump's new Australian tariffs reveal complex truths, experts say as government urges repeal"
+        }
+      ]
+    },
+    {
+      "id": "woorabinda-rehab-closure",
+      "headline": "퀸즐랜드 외딴 지역 재활센터 폐쇄로 지역 내 치료 공백",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T22:15:15Z",
+      "voiceScript": "퀸즐랜드의 한 외딴 원주민 공동체에서 유일한 알코올·약물 재활센터가 문을 닫았습니다. ABC는 이번 폐쇄로 Woorabinda 주민들이 지역 내 치료 선택지를 잃게 되었고, 이동·비용·치료 연속성 문제가 커진다고 전했습니다. 단순히 건물 하나가 사라진 문제가 아니라 지역 의료 접근성이 얼마나 취약한지 보여줍니다. 이제 공백이 고착되기 전에 예산이나 대체 서비스가 마련될지가 관건입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/woorabinda-rehab-service-closes/106954156",
+          "title": "Remote Qld Indigenous community's only drug and alcohol rehab centre closes"
+        }
+      ]
+    },
     {
       "id": "allan-leadership-crisis",
       "headline": "자신타 앨런, 새 리더십 위기 직면",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-07-26T21:45:55Z",
       "voiceScript": "빅토리아 노동당 정부는 자신타 앨런을 둘러싼 파벌 압박이 공개되면서 수습 국면에 들어갔습니다. 주당 핵심 인사들은 위기 회의를 열었고, 이제 관심은 총리가 다음 선거 국면이 본격화되기 전에 상황을 안정시킬 수 있느냐에 쏠립니다. 내부 숫자가 더 흔들리면, 이것은 단순한 헤드라인이 아니라 실제 리더십 경쟁이 됩니다.",
       "differences": [
         "The Age: 위기 회의와 앨런에 대한 직접적 압박을 더 강조합니다.",
-        "The Guardian Australia: 파벌 갈등과 더 넓은 정치 흐름 속에서 다룹니다."
+        "The Guardian Australia: 파벌 갈등과 더 넓은 정치 흐름 속에서 다룹니다.",
+        "9News: 이미 끝난 논쟁이 아니라 “며칠 안에 현실화될 수 있는 도전”으로 다룹니다."
       ],
       "links": [
         {
@@ -137,6 +201,34 @@
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/live/2026/jul/27/ausalert-emergency-warning-test-antisemitism-royal-commission-nsw-icac-inquiry-politics-anthony-albanese-labor-angus-taylor-coalition-victoria-jacinta-allan-ntwnfb",
           "title": "Australia news live: Jacinta Allan loses majority caucus support after meeting of state Labor factions; national AusAlert test to blare siren"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/victorian-premier-jacinta-allan-leadership-challenge-expected-within-days-20260727-p60ir8.html",
+          "title": "Victorian premier expected to face leadership challenge within days"
+        }
+      ]
+    },
+    {
+      "id": "albanese-dinner-scrutiny",
+      "headline": "알바니지 총리, 재벌 주최 만찬으로 다시 도마에",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T21:10:28Z",
+      "voiceScript": "앤서니 알바니지 총리는 Point Piper에서 열린 재벌 주최 만찬을 둘러싼 질문으로 다시 주목받고 있습니다. ABC의 라이브 보도는 정부의 방어 논리를 실시간으로 따라가고, news.com.au는 “나는 저녁 자리에 많이 간다”는 총리의 답변에 초점을 맞춥니다. 핵심은 식사 자체가 아니라 권력 접근성, 투명성, 정치적 이미지에 대한 시험대가 됐다는 점입니다. 이제 이 이슈가 금방 사그라들지, 아니면 정부를 계속 압박할지가 관건입니다.",
+      "differences": [
+        "ABC News: 라이브 업데이트 형식으로 정부의 해명과 정치권 반응을 따라갑니다.",
+        "news.com.au: 보다 회의적이며 알바니지의 답변이 어색하다는 점을 부각합니다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/federal-politics-live-blog-pm-dinner-july-27/106960978",
+          "title": "Live: Plibersek defends PM's attendance at dinner hosted by billionaire family"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/i-attend-lots-of-dinners-prime-minister-anthony-albanese-quiz-over-point-piper-dinner/news-story/8e3b17291d8ae6becbae6377c2c0c41d",
+          "title": "‘I attend lots of dinners’: Albo squirms"
         }
       ]
     },
@@ -167,6 +259,29 @@
           "source": "7NEWS",
           "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171",
           "title": "2026 Census explained: Key date, how to fill it out, who needs to take part and potential fines"
+        }
+      ]
+    },
+    {
+      "id": "census-key-dates",
+      "headline": "2026 인구조사, 주요 날짜와 벌금 안내",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T12:39:35Z",
+      "voiceScript": "호주 2026 인구조사가 다시 주목받고 있으며, SBS와 7NEWS는 가정이 무엇을 언제 해야 하는지 안내하고 있습니다. 핵심 날짜는 8월 11일이며, 참여 방법과 어떤 정보가 수집되는지, 마감일을 놓쳤을 때의 벌금이 주요 내용입니다. 인구조사 데이터는 주거·교통·보건 분야의 예산과 계획에 반영되기 때문에 중요합니다. 이제 남은 것은 안내 캠페인이 얼마나 빨리 가정의 응답으로 이어지느냐입니다.",
+      "differences": [
+        "SBS: 인구조사의 의미와 중요성을 설명하는 해설형 보도입니다.",
+        "7NEWS: 핵심 날짜와 절차, 벌금 가능성에 초점을 맞춘 실무형 안내입니다."
+      ],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171",
+          "title": "2026 Census explained: Key date, how to fill it out, who needs to take part and potential fines"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj",
+          "title": "2026 Census Australia: Key dates, what's included and why it matters"
         }
       ]
     },

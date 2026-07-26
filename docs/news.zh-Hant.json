@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T22:10:29Z",
+  "updatedAt": "2026-07-26T23:10:57Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -115,17 +115,81 @@
       "tone": "wire service"
     }
   ],
-  "errors": [],
+  "errors": [
+    "The Australian、Sky News Australia 和 Canberra Times 在本輪沒有暴露穩定可解析的公開列表；AAP 文章頁返回 404，因此新簇未使用 AAP 新稿。"
+  ],
   "clusters": [
+    {
+      "id": "ausalert-test",
+      "headline": "AusAlert試鳴引發手機設定提醒",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T23:09:42Z",
+      "voiceScript": "澳洲新的 AusAlert 緊急警報系統正在進行首次全國試鳴，手機會響起 10 秒警報。The Guardian Australia 說這次試鳴的重點是讓人知道會在什麼時間響起、為什麼會響起，7NEWS 則把焦點放在新系統實際會怎樣運作。真正重要的是，這套系統能否在山火、洪水和其他緊急情況中可靠觸達更多人。下一步就是週一的試鳴，以及民眾和官方隨後給出的回饋。",
+      "differences": [
+        "The Guardian Australia：更像實用說明，解釋何時響、為什麼響、讀者該注意什麼。",
+        "7NEWS：更關注試鳴本身的運作方式和民眾會聽到什麼。"
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/22/ausalert-test-sound-national-alert-emergency-warning-system-date",
+          "title": "AusAlert test: what time will national emergency warning siren sound on phones in Australia today? Here’s what to know"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/new-ausalert-system-to-blast-out-emergency-warning-siren-c-22631794",
+          "title": "New AusAlert system to blast out emergency warning siren"
+        }
+      ]
+    },
+    {
+      "id": "tariffs-pushback",
+      "headline": "澳洲就特朗普關稅動作強硬回應",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T23:04:55Z",
+      "voiceScript": "澳洲又回到關稅爭議中，華府最新貿易動作引發批評，坎培拉也在推動撤回相關措施。SBS 從專家分析和經濟影響切入，The Guardian Australia 的即時報導則記錄了 James Paterson 等人的政治反應。真正重要的是，關稅會傳導到價格、出口和政府回應的壓力上。接下來就看美國是否會軟化立場，還是澳洲會繼續推動撤銷。",
+      "differences": [
+        "SBS：更偏分析，強調經濟複雜性和撤銷關稅的理由。",
+        "The Guardian Australia：更偏即時政治報導，突出即時反應和突發新聞背景。"
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/27/ausalert-emergency-warning-test-antisemitism-royal-commission-nsw-icac-inquiry-politics-anthony-albanese-labor-angus-taylor-coalition-victoria-jacinta-allan-ntwnfb",
+          "title": "News live: national AusAlert test to blare siren; latest US tariffs on Australia ‘unjustified’, James Paterson says"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/donald-trump-hit-australia-with-nonsense-12-5-per-cent-tarriffs/x4qy0tc68",
+          "title": "Trump's new Australian tariffs reveal complex truths, experts say as government urges repeal"
+        }
+      ]
+    },
+    {
+      "id": "woorabinda-rehab-closure",
+      "headline": "昆州偏遠社區失去唯一康復服務",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T22:15:15Z",
+      "voiceScript": "昆州一個偏遠的原住民社區失去了唯一的酒精和藥物康復中心。ABC 報導說，這次關閉讓 Woorabinda 居民再也沒有本地治療選擇，也把出行、費用和照護連續性的問題推到台前。它的重要性不只是少了一棟樓，而是暴露了地區醫療服務有多脆弱。接下來要看是否會在缺口變成長期問題之前，補上資金或替代服務。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/woorabinda-rehab-service-closes/106954156",
+          "title": "Remote Qld Indigenous community's only drug and alcohol rehab centre closes"
+        }
+      ]
+    },
     {
       "id": "allan-leadership-crisis",
       "headline": "雅辛塔·艾倫面臨新的領導危機",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-07-26T21:45:55Z",
       "voiceScript": "維州工黨內部的壓力正在公開化，雅辛塔·艾倫被推到風口浪尖。州內幾位關鍵人物已經開了危機會議，眼下爭論的不只是她能不能撐住，而是這場內鬥會不會拖到下次選舉前繼續發酵。接下來要看黨內數字是否繼續變化，還是這場危機會先被按住。",
       "differences": [
         "The Age：更聚焦危機會議本身，以及州工黨內部對艾倫的直接壓力。",
-        "The Guardian Australia：把它放進更大的即時政治背景，強調派系變化和連鎖反應。"
+        "The Guardian Australia：把它放進更大的即時政治背景，強調派系變化和連鎖反應。",
+        "9News：把這場風波寫成「未來幾天內可能見分曉」的時間表，而不是已經結束的挑戰。"
       ],
       "links": [
         {
@@ -137,6 +201,34 @@
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/live/2026/jul/27/ausalert-emergency-warning-test-antisemitism-royal-commission-nsw-icac-inquiry-politics-anthony-albanese-labor-angus-taylor-coalition-victoria-jacinta-allan-ntwnfb",
           "title": "Australia news live: Jacinta Allan loses majority caucus support after meeting of state Labor factions; national AusAlert test to blare siren"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/victorian-premier-jacinta-allan-leadership-challenge-expected-within-days-20260727-p60ir8.html",
+          "title": "Victorian premier expected to face leadership challenge within days"
+        }
+      ]
+    },
+    {
+      "id": "albanese-dinner-scrutiny",
+      "headline": "阿爾巴尼斯因富豪晚宴再受審視",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T21:10:28Z",
+      "voiceScript": "安東尼·阿爾巴尼斯又因為 Point Piper 的一場富豪晚宴受到追問。ABC 的即時報導在跟進政府的當場回應，news.com.au 則把焦點放在總理那句「我參加很多晚宴」的解釋上。關鍵不是一頓飯本身，而是它怎樣變成了接觸權力、透明度和政治形象的測試。接下來要看這條新聞是很快淡去，還是繼續給政府帶來壓力。",
+      "differences": [
+        "ABC News：採用即時更新格式，重點跟進政府辯護和現場反應。",
+        "news.com.au：語氣更懷疑，強調阿爾巴尼斯回答時的尷尬。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/federal-politics-live-blog-pm-dinner-july-27/106960978",
+          "title": "Live: Plibersek defends PM's attendance at dinner hosted by billionaire family"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/i-attend-lots-of-dinners-prime-minister-anthony-albanese-quiz-over-point-piper-dinner/news-story/8e3b17291d8ae6becbae6377c2c0c41d",
+          "title": "‘I attend lots of dinners’: Albo squirms"
         }
       ]
     },
@@ -167,6 +259,29 @@
           "source": "7NEWS",
           "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171",
           "title": "2026 Census explained: Key date, how to fill it out, who needs to take part and potential fines"
+        }
+      ]
+    },
+    {
+      "id": "census-key-dates",
+      "headline": "2026年人口普查提醒關鍵日期和罰則",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T12:39:35Z",
+      "voiceScript": "澳洲 2026 年人口普查再次成為焦點，SBS 和 7NEWS 都在提醒家庭該做什麼、什麼時候做。關鍵日期是 8 月 11 日，重點包括參與方式、收集哪些資訊，以及錯過期限可能面臨的罰款。它的重要性在於，普查數據會影響住房、交通和醫療等領域的撥款與規劃。接下來就看提醒活動能否把家庭的動作提早。",
+      "differences": [
+        "SBS：更偏解釋性和政策面，強調普查為什麼重要。",
+        "7NEWS：更偏操作指南，強調關鍵日期、填寫步驟和罰款風險。"
+      ],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171",
+          "title": "2026 Census explained: Key date, how to fill it out, who needs to take part and potential fines"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj",
+          "title": "2026 Census Australia: Key dates, what's included and why it matters"
         }
       ]
     },

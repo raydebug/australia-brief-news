@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T22:10:29Z",
+  "updatedAt": "2026-07-26T23:10:57Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -115,17 +115,81 @@
       "tone": "wire service"
     }
   ],
-  "errors": [],
+  "errors": [
+    "The Australian, Sky News Australia and Canberra Times did not expose stable public article lists in this run. AAP article pages returned 404, so new AAP items were skipped."
+  ],
   "clusters": [
+    {
+      "id": "ausalert-test",
+      "headline": "AusAlert siren test prompts advice on how to prepare",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T23:09:42Z",
+      "voiceScript": "Australia’s new AusAlert warning system is moving into its first nationwide test, with phones due to sound a 10-second siren. The Guardian Australia explains when the alarm will go off and what readers should know, while 7NEWS focuses on how the new system will work in practice. The big issue is whether the alert can reliably reach people during bushfires, floods and other emergencies. The next step is Monday’s test and the feedback that follows from the public and officials.",
+      "differences": [
+        "The Guardian Australia: more of a practical explainer about when it will sound and what to expect.",
+        "7NEWS: focuses on the mechanics of the test and what people will hear."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/22/ausalert-test-sound-national-alert-emergency-warning-system-date",
+          "title": "AusAlert test: what time will national emergency warning siren sound on phones in Australia today? Here’s what to know"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/new-ausalert-system-to-blast-out-emergency-warning-siren-c-22631794",
+          "title": "New AusAlert system to blast out emergency warning siren"
+        }
+      ]
+    },
+    {
+      "id": "tariffs-pushback",
+      "headline": "Australia pushes back on Trump’s tariff moves",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T23:04:55Z",
+      "voiceScript": "Australia is back in a tariff fight as Washington’s latest trade moves draw criticism and Canberra pushes for them to be reversed. SBS frames the issue through expert analysis and the wider economic stakes, while Guardian live updates capture the immediate political reaction from James Paterson and others. The importance is practical: tariffs can feed into prices, exports and pressure on the government to respond. What happens next depends on whether the US softens its position or Australia keeps pressing for a repeal.",
+      "differences": [
+        "SBS: more analytical, stressing the economic complexity and the case for repeal.",
+        "The Guardian Australia: more live and political, highlighting the immediate reaction and the breaking-news context."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/27/ausalert-emergency-warning-test-antisemitism-royal-commission-nsw-icac-inquiry-politics-anthony-albanese-labor-angus-taylor-coalition-victoria-jacinta-allan-ntwnfb",
+          "title": "News live: national AusAlert test to blare siren; latest US tariffs on Australia ‘unjustified’, James Paterson says"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/donald-trump-hit-australia-with-nonsense-12-5-per-cent-tarriffs/x4qy0tc68",
+          "title": "Trump's new Australian tariffs reveal complex truths, experts say as government urges repeal"
+        }
+      ]
+    },
+    {
+      "id": "woorabinda-rehab-closure",
+      "headline": "Remote Queensland rehab closure leaves community without local care",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T22:15:15Z",
+      "voiceScript": "A remote Queensland Indigenous community has lost its only drug and alcohol rehabilitation centre. ABC says the closure leaves Woorabinda residents without a local treatment option, which raises travel, cost and continuity problems for people already facing disadvantage. The importance is bigger than one building: it shows how fragile regional health access can be. The next step is whether funding or a replacement service is found before the gap becomes permanent.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/woorabinda-rehab-service-closes/106954156",
+          "title": "Remote Qld Indigenous community's only drug and alcohol rehab centre closes"
+        }
+      ]
+    },
     {
       "id": "allan-leadership-crisis",
       "headline": "Jacinta Allan faces a fresh leadership crisis",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-07-26T21:45:55Z",
       "voiceScript": "Victoria’s Labor government is in damage-control mode after factional pressure on Jacinta Allan spilled into the open. The state party’s top figures have held crisis talks, and the noise now is about whether the premier can steady the room before the next election cycle tightens. If the internal numbers keep moving, this stops being a headline and becomes a real leadership contest.",
       "differences": [
         "The Age: focuses on the crisis meeting and the direct pressure on Allan.",
-        "The Guardian Australia: frames it as factional fallout inside a broader live political update."
+        "The Guardian Australia: frames it as factional fallout inside a broader live political update.",
+        "9News: frames it as a challenge likely to land within days rather than a settled contest."
       ],
       "links": [
         {
@@ -137,6 +201,34 @@
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/live/2026/jul/27/ausalert-emergency-warning-test-antisemitism-royal-commission-nsw-icac-inquiry-politics-anthony-albanese-labor-angus-taylor-coalition-victoria-jacinta-allan-ntwnfb",
           "title": "Australia news live: Jacinta Allan loses majority caucus support after meeting of state Labor factions; national AusAlert test to blare siren"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/victorian-premier-jacinta-allan-leadership-challenge-expected-within-days-20260727-p60ir8.html",
+          "title": "Victorian premier expected to face leadership challenge within days"
+        }
+      ]
+    },
+    {
+      "id": "albanese-dinner-scrutiny",
+      "headline": "Albanese faces scrutiny over billionaire-hosted dinner",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T21:10:28Z",
+      "voiceScript": "Anthony Albanese is facing fresh scrutiny after questions over a Point Piper dinner hosted by a billionaire family. ABC’s live coverage tracks the political defence in real time, while news.com.au frames the exchange around the PM’s line that he attends a lot of dinners. The issue matters because it turns a social invitation into a test of access, transparency and political optics. The next question is whether the story fades or keeps feeding pressure on the government.",
+      "differences": [
+        "ABC News: live-update format, focused on the defence and the political reaction as it unfolds.",
+        "news.com.au: more skeptical and more focused on the awkwardness of Albanese’s answer."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/federal-politics-live-blog-pm-dinner-july-27/106960978",
+          "title": "Live: Plibersek defends PM's attendance at dinner hosted by billionaire family"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/i-attend-lots-of-dinners-prime-minister-anthony-albanese-quiz-over-point-piper-dinner/news-story/8e3b17291d8ae6becbae6377c2c0c41d",
+          "title": "‘I attend lots of dinners’: Albo squirms"
         }
       ]
     },
@@ -167,6 +259,29 @@
           "source": "7NEWS",
           "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171",
           "title": "2026 Census explained: Key date, how to fill it out, who needs to take part and potential fines"
+        }
+      ]
+    },
+    {
+      "id": "census-key-dates",
+      "headline": "2026 census guidance highlights key date and penalties",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T12:39:35Z",
+      "voiceScript": "Australia’s 2026 Census is back in focus, with SBS and 7NEWS spelling out what households need to do and when. The key date is 11 August, and the guidance is about participation, what information is collected and the penalties for missing the deadline. It matters because census data feeds funding, planning and services in housing, transport and health. The next step is the reminder campaign and how quickly households respond.",
+      "differences": [
+        "SBS: more explanatory and policy-led, stressing why the census matters.",
+        "7NEWS: more practical, focusing on the key date, the step-by-step process and the penalty risk."
+      ],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171",
+          "title": "2026 Census explained: Key date, how to fill it out, who needs to take part and potential fines"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj",
+          "title": "2026 Census Australia: Key dates, what's included and why it matters"
         }
       ]
     },
