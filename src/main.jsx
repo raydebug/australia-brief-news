@@ -45,6 +45,7 @@ const I18N = {
     originalLinks: "原始链接",
     voiceScript: "语音稿",
     readAloud: "朗读",
+    stopReading: "停止朗读",
     noMatches: "暂无匹配新闻",
     dataError: "暂时读不到新闻数据。联网后会自动从数据源重新读取。"
   },
@@ -68,6 +69,7 @@ const I18N = {
     originalLinks: "原始連結",
     voiceScript: "語音稿",
     readAloud: "朗讀",
+    stopReading: "停止朗讀",
     noMatches: "暫無匹配新聞",
     dataError: "暫時讀不到新聞資料。連線後會自動從資料來源重新讀取。"
   },
@@ -91,6 +93,7 @@ const I18N = {
     originalLinks: "Original links",
     voiceScript: "Briefing script",
     readAloud: "Read aloud",
+    stopReading: "Stop reading",
     noMatches: "No matching news",
     dataError: "News data is temporarily unavailable. It will reload from the data source when online."
   },
@@ -114,6 +117,7 @@ const I18N = {
     originalLinks: "元リンク",
     voiceScript: "音声原稿",
     readAloud: "読み上げ",
+    stopReading: "読み上げを停止",
     noMatches: "一致するニュースはありません",
     dataError: "ニュースデータを一時的に読み込めません。オンラインになるとデータソースから再読み込みします。"
   },
@@ -137,12 +141,20 @@ const I18N = {
     originalLinks: "원문 링크",
     voiceScript: "음성 원고",
     readAloud: "읽어주기",
+    stopReading: "읽기 중지",
     noMatches: "일치하는 뉴스가 없습니다",
     dataError: "뉴스 데이터를 일시적으로 읽을 수 없습니다. 온라인 상태가 되면 데이터 소스에서 다시 불러옵니다."
   }
 };
 
 const NEWS_SOURCE_TEMPLATE = import.meta.env.VITE_NEWS_SOURCE_URL || "./news.{lang}.json";
+const SPEECH_LANGUAGES = {
+  "zh-Hans": "zh-CN",
+  "zh-Hant": "zh-TW",
+  en: "en-AU",
+  ja: "ja-JP",
+  ko: "ko-KR"
+};
 
 function normalizeLanguage(value) {
   const lower = String(value || "").toLowerCase();
@@ -191,6 +203,20 @@ function formatTime(value, language, labels) {
     day: "2-digit",
     month: "2-digit"
   }).format(new Date(value));
+}
+
+function speechLocale(language) {
+  return SPEECH_LANGUAGES[language] || language;
+}
+
+function pickSpeechVoice(locale) {
+  const voices = window.speechSynthesis?.getVoices?.() || [];
+  const language = locale.split("-")[0];
+  return (
+    voices.find((voice) => voice.lang === locale) ||
+    voices.find((voice) => voice.lang?.toLowerCase().startsWith(`${language}-`)) ||
+    null
+  );
 }
 
 function isRecentCluster(cluster) {
@@ -282,9 +308,11 @@ function App() {
   const [online, setOnline] = useState(navigator.onLine);
   const [toolsOpen, setToolsOpen] = useState(false);
   const [language, setLanguage] = useState(initialLanguage);
+  const [speakingId, setSpeakingId] = useState(null);
 
   const labels = I18N[language];
   const activeNewsSourceUrl = newsSourceUrl(language);
+  const canSpeak = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
 
   async function loadNews() {
     setLoading(true);
@@ -311,7 +339,17 @@ function App() {
   useEffect(() => {
     window.localStorage.setItem("brief-language", language);
     document.documentElement.lang = language;
+    if (canSpeak) {
+      window.speechSynthesis.cancel();
+      setSpeakingId(null);
+    }
   }, [language]);
+
+  useEffect(() => {
+    return () => {
+      if (canSpeak) window.speechSynthesis.cancel();
+    };
+  }, []);
 
   useEffect(() => {
     const onBeforeInstallPrompt = (event) => {
@@ -337,6 +375,29 @@ function App() {
     installPrompt.prompt();
     await installPrompt.userChoice;
     setInstallPrompt(null);
+  }
+
+  function readCluster(cluster) {
+    if (!canSpeak || !cluster?.voiceScript) return;
+
+    if (speakingId === cluster.id) {
+      window.speechSynthesis.cancel();
+      setSpeakingId(null);
+      return;
+    }
+
+    window.speechSynthesis.cancel();
+
+    const locale = speechLocale(language);
+    const utterance = new SpeechSynthesisUtterance(`${cluster.headline}. ${cluster.voiceScript}`);
+    utterance.lang = locale;
+    utterance.rate = language === "en" ? 1 : 0.95;
+    utterance.voice = pickSpeechVoice(locale);
+    utterance.onend = () => setSpeakingId(null);
+    utterance.onerror = () => setSpeakingId(null);
+
+    setSpeakingId(cluster.id);
+    window.speechSynthesis.speak(utterance);
   }
 
   const clusters = useMemo(() => {
@@ -492,6 +553,19 @@ function App() {
               {cluster.id === expandedId && (
                 <div className="mobile-card-detail">
                   <div className="mobile-section">
+                    <div className="mobile-script-header">
+                      <span>{labels.voiceScript}</span>
+                      <button
+                        className={`icon-button compact ${speakingId === cluster.id ? "active" : ""}`}
+                        onClick={() => readCluster(cluster)}
+                        disabled={!canSpeak}
+                        title={speakingId === cluster.id ? labels.stopReading : labels.readAloud}
+                        aria-label={speakingId === cluster.id ? labels.stopReading : labels.readAloud}
+                        aria-pressed={speakingId === cluster.id}
+                      >
+                        <Volume2 size={17} />
+                      </button>
+                    </div>
                     <p>{cluster.voiceScript}</p>
                   </div>
 
@@ -540,7 +614,14 @@ function App() {
                 <span className="eyebrow">{labels.voiceScript}</span>
                 <h2>{active.headline}</h2>
               </div>
-              <button className="icon-button" title={labels.readAloud}>
+              <button
+                className={`icon-button ${speakingId === active.id ? "active" : ""}`}
+                onClick={() => readCluster(active)}
+                disabled={!canSpeak}
+                title={speakingId === active.id ? labels.stopReading : labels.readAloud}
+                aria-label={speakingId === active.id ? labels.stopReading : labels.readAloud}
+                aria-pressed={speakingId === active.id}
+              >
                 <Volume2 size={19} />
               </button>
             </div>

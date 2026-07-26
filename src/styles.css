@@ -429,6 +429,35 @@ p {
   background: #f4efe6;
 }
 
+.icon-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.icon-button.active {
+  background: #12333a;
+  border-color: #12333a;
+  color: #fffaf2;
+}
+
+.icon-button.compact {
+  width: 36px;
+  height: 36px;
+  flex-basis: 36px;
+}
+
+.mobile-script-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.mobile-script-header span {
+  color: #657072;
+  font-size: 13px;
+}
+
 .script-panel {
   background: rgba(255, 253, 248, 0.92);
   border: 1px solid #ded6c9;
