@@ -209,11 +209,11 @@ function speechLocale(language) {
   return SPEECH_LANGUAGES[language] || language;
 }
 
-function pickSpeechVoice(locale) {
-  const voices = window.speechSynthesis?.getVoices?.() || [];
+function pickSpeechVoice(locale, voices) {
   const language = locale.split("-")[0];
+  const normalizedLocale = locale.toLowerCase();
   return (
-    voices.find((voice) => voice.lang === locale) ||
+    voices.find((voice) => voice.lang?.toLowerCase() === normalizedLocale) ||
     voices.find((voice) => voice.lang?.toLowerCase().startsWith(`${language}-`)) ||
     null
   );
@@ -309,6 +309,7 @@ function App() {
   const [toolsOpen, setToolsOpen] = useState(false);
   const [language, setLanguage] = useState(initialLanguage);
   const [speakingId, setSpeakingId] = useState(null);
+  const [speechVoices, setSpeechVoices] = useState([]);
 
   const labels = I18N[language];
   const activeNewsSourceUrl = newsSourceUrl(language);
@@ -348,6 +349,25 @@ function App() {
   useEffect(() => {
     return () => {
       if (canSpeak) window.speechSynthesis.cancel();
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!canSpeak) return undefined;
+
+    const loadVoices = () => {
+      setSpeechVoices(window.speechSynthesis.getVoices());
+    };
+
+    loadVoices();
+    window.speechSynthesis.addEventListener?.("voiceschanged", loadVoices);
+    window.speechSynthesis.onvoiceschanged = loadVoices;
+
+    return () => {
+      window.speechSynthesis.removeEventListener?.("voiceschanged", loadVoices);
+      if (window.speechSynthesis.onvoiceschanged === loadVoices) {
+        window.speechSynthesis.onvoiceschanged = null;
+      }
     };
   }, []);
 
@@ -392,7 +412,7 @@ function App() {
     const utterance = new SpeechSynthesisUtterance(`${cluster.headline}. ${cluster.voiceScript}`);
     utterance.lang = locale;
     utterance.rate = language === "en" ? 1 : 0.95;
-    utterance.voice = pickSpeechVoice(locale);
+    utterance.voice = pickSpeechVoice(locale, speechVoices);
     utterance.onend = () => setSpeakingId(null);
     utterance.onerror = () => setSpeakingId(null);
 
