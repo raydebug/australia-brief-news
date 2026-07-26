@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T16:07:14+10:00",
+  "updatedAt": "2026-07-26T18:05:47+10:00",
   "generatedBy": "codex",
   "sources": [
     {
@@ -63,14 +63,14 @@
   "clusters": [
     {
       "id": "labor-vad-telehealth",
-      "headline": "Labor backs telehealth for voluntary assisted dying, Albanese resists",
+      "headline": "Labor backs telehealth access for voluntary assisted dying",
       "sourceCount": 3,
       "publishedAt": "2026-07-26T09:32:31+10:00",
-      "voiceScript": "Labor 在阿德莱德全国会议上通过修改党纲，支持移除联邦法律里阻挡 voluntary assisted dying 通过 telehealth 咨询的条款。阿尔巴尼斯本人还是保留态度，担心把临终咨询放到线上会削弱医生面对面评估和安全把关。这个变化的重点不只是党内表态，而是它会直接增加联邦层面修法的压力，因为目前州法已经允许 VAD，但联邦刑法仍可能让医生在电话或视频里提供相关咨询时踩线。对偏远地区、行动困难的患者来说，这会影响他们能不能更快完成申请流程。接下来要看 Greens 和 Kate Chaney 推动的法案能不能进入议程，以及工党政府会不会真的跟着党纲去改法。",
+      "voiceScript": "工党全国会议在阿德莱德通过党纲修正，支持移除联邦法律里阻挡 VAD 通过 telehealth 咨询的条款。阿尔巴尼斯还是明确反对，担心线上咨询会削弱医生面对面评估和安全把关。现在的矛盾点很具体：州和领地已经允许临终协助，但联邦刑法仍可能让医生在电话或视频里提供相关咨询时触法。对偏远地区和行动不便的病人来说，这会直接影响申请速度和可及性。接下来要看 Greens 和 Kate Chaney 的立法提案能不能推进，以及工党政府会不会把党内表态变成真正的法律修改。",
       "differences": [
-        "ABC News：突出 Albanese 个人反对 telehealth，并强调他担心安全把关被削弱。",
-        "The Guardian Australia：把它写成党纲变化带来的政府压力，重点是联邦法修正。",
-        "news.com.au：更强调偏远地区患者可及性，以及 Attorney-General 对误用和 elder abuse 的担忧。"
+        "ABC News：直接点出 Albanese 个人反对 telehealth，并强调临床安全把关。",
+        "The Guardian Australia：把它写成党纲变化对政府形成的立法压力。",
+        "news.com.au：更突出偏远地区可及性，以及 Attorney-General 对误用、AI 和 elder abuse 的担忧。"
       ],
       "links": [
         {
@@ -95,11 +95,11 @@
       "headline": "US raises tariff on Australian exports to 12.5 per cent",
       "sourceCount": 3,
       "publishedAt": "2026-07-24T07:39:08+10:00",
-      "voiceScript": "美国对澳洲出口实施 12.5% 新关税，替代此前即将到期的 10% 临时税率，生效时间就在 7 月 24 日。华府给出的理由是澳洲对强迫劳动禁令执行不足，但澳洲政府和贸易部长 Don Farrell 都说这不公平，因为澳洲在现代奴役监管上本来就很严。beef 和 gold 目前仍在豁免名单里，但其他出口商可能马上面对更高报价和更薄利润。真正要观察的是，这轮关税会不会只是谈判施压，还是会把美澳贸易摩擦拖长，进而影响农业、制造和物流合同。",
+      "voiceScript": "美国对澳洲出口的新关税已经生效，税率升到 12.5%，比原先临时的 10% 再高 2.5 个百分点。华府给出的理由是澳洲对强迫劳动禁令执行不够，但澳洲政府和贸易部长 Don Farrell 都认为这不公平，因为澳洲本来就有严格的现代奴役法规。beef 和 gold 目前仍在豁免名单里，受冲击最大的会是其他出口行业和已经签好的合同。接下来要看澳美谈判会不会继续，还是这轮关税会把成本真正传导到澳洲企业和美国买家身上。",
       "differences": [
-        "ABC News：重点写新税率直接接替临时 10% 关税，以及生效时间。",
-        "The Guardian Australia：更强调 forced labour 的理由，以及 beef、gold 的豁免。",
-        "news.com.au：更突出澳洲政府的政治回应，以及关税对美国买家的传导。"
+        "ABC News：强调新税率在 2:01pm AEST 生效，并取代了到期的 10% 临时税率。",
+        "The Guardian Australia：重点放在 forced labour 的理由和 beef、gold 豁免。",
+        "news.com.au：更侧重澳洲政府的政治回应，以及美国消费者和进口商可能承担的成本。"
       ],
       "links": [
         {
@@ -110,7 +110,7 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/24/donald-trump-hits-australian-exports-to-us-with-new-higher-trade-tariff-over-claims-of-forced-labour",
-          "title": "Donald Trump hits Australian exports to US with new higher trade tariff over claims of “forced labour”"
+          "title": "Donald Trump hits Australian exports to US with new higher trade tariff over claims of 'forced labour'"
         },
         {
           "source": "news.com.au",
@@ -120,73 +120,77 @@
       ]
     },
     {
-      "id": "qld-bird-flu",
-      "headline": "Queensland confirms first H5 bird flu case in a wild seabird",
+      "id": "origin-energy-breach",
+      "headline": "Origin Energy breach exposes customer and banking data",
       "sourceCount": 3,
-      "publishedAt": "2026-07-25T15:45:00+10:00",
-      "voiceScript": "昆州确认了首例 H5 鸟流感，样本来自 Moreton Island 一只死去的海鸟，CSIRO 已经完成确认。州政府说目前还没有在家禽、其他野生鸟类或人身上发现扩散迹象，鸡蛋和禽肉仍被认为可以安全食用。这个消息之所以重要，是因为它说明病毒已经不再只是西澳、南澳和新南威尔士的点状警报，而是继续沿着海鸟迁徙和海岸线扩散。现在最关键的是监测更多死鸟样本，以及看会不会出现第二个、第三个本地感染点。公众层面要做的还是别碰病死鸟，及时上报。",
+      "publishedAt": "2026-07-23T12:08:00+10:00",
+      "voiceScript": "Origin Energy 已确认发生未经授权的数据访问，涉及部分客户的姓名、地址、生日、电话，以及账户信息，部分银行卡或银行账户尾号也可能外泄。公司还没公布最终受影响人数，但已经通知网络安全机构、警方和隐私监管部门，并承诺会逐步联系受影响客户。现在最现实的风险不是立即盗刷，而是这些资料被拼接成更逼真的钓鱼短信、冒充客服电话，甚至 AI 诈骗脚本。下一步要盯的是官方补通知范围、补救措施，以及外界会不会追查到这次入侵到底从哪里发生。",
       "differences": [
-        "ABC News：聚焦 Moreton Island 死 petrel 经 CSIRO 确认的过程。",
-        "SBS News：强调这是 Queensland 的首例，并提醒禽肉和鸡蛋仍可安全食用。",
-        "news.com.au：更强调公共警戒和对死鸟、病鸟不要接触的提示。"
+        "ABC News：强调受影响人数尚未确定，并细列可能外泄的数据字段。",
+        "The Guardian Australia：更突出 4.8 million accounts 的规模，以及已通知的监管和执法机构。",
+        "news.com.au：更强调可能有 up to two million customers 受影响，以及后续诈骗风险。"
       ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114",
-          "title": "First positive case of H5 bird flu in Queensland confirmed by CSIRO"
+          "url": "https://www.abc.net.au/news/2026-07-23/origin-energy-confirms-unauthorised-access-customer-data/106948052",
+          "title": "Origin Energy confirms breach of customer data"
         },
         {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo",
-          "title": "Queensland records first bird flu case"
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/23/personal-and-banking-details-among-customer-data-stolen-in-origin-energy-hack",
+          "title": "Personal and banking details among customer data stolen in Origin Energy hack"
         },
         {
           "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae",
-          "title": "Queensland records “suspected positive” H5 bird flu case"
+          "url": "https://www.news.com.au/technology/online/hacking/major-thing-48-million-aussies-must-do-after-origin-energy-hack/news-story/6cf12417db4081e846d26c0b6b88f9f3",
+          "title": "Origin Energy hack warning: banking data of millions stolen"
         }
       ]
     },
     {
-      "id": "ai-governance-rules",
-      "headline": "Australia tightens rules for AI decision-making",
+      "id": "qld-bird-flu",
+      "headline": "Queensland confirms first H5 bird flu case in a wild seabird",
       "sourceCount": 3,
-      "publishedAt": "2026-07-19T08:00:00+10:00",
-      "voiceScript": "联邦政府 7 月 19 日宣布，要收紧政府部门在自动化 AI 决策里的使用规则，同时加强隐私和消费者保护。核心不是禁止 AI，而是把它放进更严格的边界里，避免重复 robodebt 那种把系统错误放大成行政灾难的情况。新方案还包括设立 AI office、推动 digital duty of care，并对大型数据中心的选址和资源消耗加上约束。对普通人来说，这会影响福利、移民、税务和其他政府服务的自动化流程；对企业来说，接下来要看法案文本会不会比口头表态更硬。",
+      "publishedAt": "2026-07-25T15:45:00+10:00",
+      "voiceScript": "昆州在 Moreton Island 一只死去的海鸟身上确认了 H5 鸟流感，这是该州首次在野生海鸟里发现这一结果。CSIRO 已经完成确认，州政府目前还没有发现家禽或人类感染扩散，但继续加密监测和提醒公众不要接触病死鸟。鸡蛋和禽肉仍被认为可以安全食用，真正需要关注的是病毒会不会继续沿海岸线扩散到更多野鸟群落。接下来要看后续样本是否还会再阳性，以及这是不是更大范围传播的早期信号。",
       "differences": [
-        "ABC News：聚焦政府自动化决策和隐私保护，写法最直接。",
-        "The Guardian Australia：把 robodebt 作为背景，并延伸到数据中心选址约束。",
-        "news.com.au：更突出新 Office for AI、Digital Duty of Care 和更广泛的安全框架。"
+        "ABC News：强调 Moreton Island 样本从怀疑到 CSIRO 确认的过程。",
+        "The Guardian Australia：把它放进当天澳洲新闻直播里，重点是公共卫生监测。",
+        "news.com.au：更强调第三个受影响州的叙述，以及对家禽和鸡蛋安全的安抚。"
       ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-19/government-tighten-rules-ai-artificial-intelligence/106933212",
-          "title": "Federal government to tighten rules around use of AI in decision-making"
+          "url": "https://www.abc.net.au/news/2026-07-24/bird-flu-queensland-suspected-case/106952884",
+          "title": "First suspected positive case of H5 bird flu detected in Queensland"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114",
+          "title": "H5 bird flu confirmed in wild seabird found at Moreton Island"
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/19/national-ai-plan-labor-anthony-albanese-andrew-charlton",
-          "title": "Government use of automated AI decision-making to be curbed under new Australian rules"
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/24/australia-news-live-jim-chalmers-anthony-albanese-labor-conference-gas-tax-gambling-reform-one-nation-pauline-hanson-ntwnfb?page=with%3Ablock-6a62a1cd8f088134984ca7c7",
+          "title": "More detail on first suspected H5 bird flu case reported in Queensland"
         },
         {
           "source": "news.com.au",
-          "url": "https://www.news.com.au/national/labor-makes-demand-to-big-tech-over-ai-safety/news-story/71b50ec9785dd53d3c3872fc3d413d38",
-          "title": "Labor makes demand to big tech over AI safety"
+          "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae",
+          "title": "Queensland records 'suspected positive' H5 bird flu case"
         }
       ]
     },
     {
       "id": "ausalert-national-test",
-      "headline": "AusAlert test will blast emergency warnings across most phones",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-24T10:00:00+10:00",
-      "voiceScript": "AusAlert 全国测试定在 7 月 27 日下午 2 点，兼容手机会收到大约 10 秒钟的强制警报声和测试提示。联邦政府强调这不是追踪定位，而是为了验证新系统在火灾、洪水和其他紧急情况里的覆盖率和可靠性。不过对家暴避险者、藏着备用手机的人来说，这类响铃本身就可能暴露位置，所以各家媒体都特别提醒要提前处理。测试当天要重点观察两件事：有没有漏发或误发，以及公众反馈会不会逼政府在正式上线前调整规则和豁免设置。",
+      "headline": "AusAlert test will ring out across most phones",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-22T08:05:26+10:00",
+      "voiceScript": "AusAlert 的全国测试定在 7 月 27 日下午 2 点，兼容设备会收到持续约 10 秒的强制警报声和测试提示。政府说这套系统是为了火灾、洪水和其他紧急情况，和定位追踪无关，但对家暴避险者、藏有备用机的人来说，响铃本身就可能暴露位置。测试重点不只是有没有漏发或误发，还包括各州现有警报系统能不能和新系统顺利并行。正式上线前，最值得盯的是公众反馈会不会逼政府调整豁免和默认设置。",
       "differences": [
-        "ABC News：更偏辟谣，强调系统不会追踪用户，并说明各州可保留自有警报。",
+        "ABC News：更偏辟谣，强调不会追踪用户，也说明各州可保留自己的系统。",
         "The Guardian Australia：把重点放在家暴避险者和隐藏手机的风险。",
-        "SBS News：强调警报可能暴露藏匿设备位置，侧重脆弱群体。",
         "news.com.au：更偏实用说明，讲测试时间、10 秒警报和设备兼容性。"
       ],
       "links": [
@@ -196,19 +200,19 @@
           "title": "Conspiracy theories about AusAlert test spreading online"
         },
         {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-22/emergency-warning-system-in-doubt-as-states-raise-concerns/106942870",
+          "title": "States can use their own emergency warnings when AusAlert goes live"
+        },
+        {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/22/ausalert-test-sound-national-alert-emergency-warning-system-date",
           "title": "AusAlert test will blast emergency warning siren over most phones in Australia on Monday. Here's what to know"
         },
         {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/aus-alert-warning-impact-domestic-violence-victims/8b97tjlpg",
-          "title": "The phone alert that could reveal a hidden lifeline"
-        },
-        {
           "source": "news.com.au",
           "url": "https://www.news.com.au/technology/everything-you-need-to-know-about-ausalert-warning-alarm-test/news-story/dac4abc3a73dc2b0ca2c872cf5361f16",
-          "title": "10-second alarm to blast from Aussies’ phones"
+          "title": "Everything you need to know about the AusAlert warning alarm test"
         }
       ]
     }
