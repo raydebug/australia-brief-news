@@ -627,6 +627,10 @@ p {
     padding-bottom: max(22px, env(safe-area-inset-bottom));
   }
 
+  .cluster-card.expanded .cluster-card-button p {
+    display: none;
+  }
+
   .mobile-card-detail {
     border-top: 1px solid #ded6c9;
     display: grid;

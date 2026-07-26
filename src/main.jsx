@@ -423,7 +423,9 @@ function App() {
         <div className="cluster-list">
           {clusters.map((cluster) => (
             <article
-              className={`cluster-card ${cluster.id === active?.id ? "selected" : ""}`}
+              className={`cluster-card ${cluster.id === active?.id ? "selected" : ""} ${
+                cluster.id === expandedId ? "expanded" : ""
+              }`}
               key={cluster.id}
             >
               <button
