@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T23:59:00+10:00",
+  "updatedAt": "2026-07-26T21:03:38.700Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -64,35 +64,6 @@
   ],
   "clusters": [
     {
-      "id": "labor-conference-pay-package",
-      "headline": "工党大会推进青少年 super 和带薪实习政策",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-24T10:00:00+10:00",
-      "voiceScript": "工党全国会议在阿德莱德把两项面向年轻人的工作政策推到台前：取消 18 岁以下员工获得超级年金的门槛，并把 Paid Prac 扩大到更多前线健康专业。联邦政府说，这会影响大量兼职学生和年轻打工者，也能缓解实习期间的生活成本压力。支持者认为这是补上退休储蓄和培训补贴的缺口；反对者则会关注小企业要承担多少额外成本。接下来要看这些承诺会不会写进正式立法，以及预算里是否有配套资金。",
-      "differences": [
-        "ABC News：重点放在 18 岁以下 super 门槛和大会上的正式表决。",
-        "SBS News：更强调 Paid Prac 扩展到哪些健康专业，以及每周 338 澳元的补贴。",
-        "news.com.au：把它包装成针对年轻工人的重大调整，突出涉及 50 多万青少年和雇主成本。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-23/federal-politics-live-blog-paid-prac/106947462",
-          "title": "Federal politics: Floor fight over gas tax evaporates as Labor spruiks new workers' court at ALP conference"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/politics/aussie-teenagers-could-benefit-from-super-change/news-story/fb4cca7708c93a5f1fa3631541ae966f",
-          "title": "Labor's major policy shift for teen workers"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/see-the-full-list-who-will-get-338-weekly-payments-under-prac-payment-expansion/j8vf90nhj",
-          "title": "Full list: Here's who will get $338 weekly payments under prac payment expansion"
-        }
-      ]
-    },
-    {
       "id": "vad-telehealth",
       "headline": "工党支持临终协助远程医疗咨询",
       "sourceCount": 4,
@@ -124,6 +95,97 @@
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5",
           "title": "Labor supports telehealth for voluntary assisted dying at ALP conference, PM Anthony Albanese doesn't"
+        }
+      ]
+    },
+    {
+      "id": "cluster-1",
+      "headline": "凯恩斯警方冲突中两人中枪",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-25T09:47:50.000Z",
+      "voiceScript": "昆士兰凯恩斯一场与持枪嫌疑人的冲突，最后演变成警方开枪，一男一女中枪。现在公开的信息还不完整，关键还在于嫌疑人是谁、现场经过如何升级，以及两名伤者的伤势是否稳定。接下来要看警方能否把时间线和执法判断交代清楚，否则外界对这次行动是否必要的疑问还会继续。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/queensland-police-shoot-man-woman-cairns-altercation/106958468",
+          "title": "Two people shot by police during altercation in Cairns"
+        }
+      ]
+    },
+    {
+      "id": "cluster-3",
+      "headline": "西澳 24 小时内 5 人死于道路事故",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-25T06:21:30.000Z",
+      "voiceScript": "西澳不到 24 小时里有 5 人在不同车祸中死亡，道路死亡人数再次拉响警报。事故分布在多个地点，说明问题不是单一路段，而是超速、疲劳驾驶和乡村道路风险同时存在。接下来要看州政府会不会加码执法和安全宣传，还是继续把重点放在驾驶员自律上。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/five-people-die-in-24-hours-on-wa-roads/106958246",
+          "title": "Drivers urged to play their part as five people die on WA roads in 24 hours"
+        }
+      ]
+    },
+    {
+      "id": "cluster-4",
+      "headline": "Husic 推动加沙辩论失败后批评工党文化",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-25T06:01:39.000Z",
+      "voiceScript": "工党全国会议上，Ed Husic 推动把加沙相关议题带到大会讨论的提议没有通过，党内分歧直接摆到台面上。Husic 随后批评工党文化太僵硬，说明这不只是外交表态问题，也牵动党纪、穆斯林选民观感和政府未来在中东问题上的回旋空间。接下来要看领导层会不会给出更清楚的解释，以及 Husic 是否继续在党内施压。",
+      "differences": [
+        "ABC News：更强调 Husic 对工党文化和党纪的直接批评。",
+        "The Guardian Australia：更强调这场争议在全国会议收尾时被按住，没有演成公开冲突。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/ed-husic-pushes-for-gaza-debate-at-labor-conference/106957962",
+          "title": "Husic lashes Labor culture after push for Gaza debate fails"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/ed-husic-labor-gaza-genocide-claims-ntwnfb",
+          "title": "Ed Husic-led push for Labor to recognise Gaza genocide fails, preventing public stoush"
+        }
+      ]
+    },
+    {
+      "id": "cluster-5",
+      "headline": "争议除草剂 paraquat 将停止在澳洲销售",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-25T04:59:49.000Z",
+      "voiceScript": "Syngenta 宣布停止在澳洲销售 paraquat 之后，这种争议除草剂的去向基本确定。企业给出的理由是监管收紧，再加上商业、制造和物流上的压力；更大的背景是，多国早已禁用这类产品，而它和健康风险的争议也一直没停。接下来要看农户有没有足够替代品，以及监管机构会不会继续收紧更多高风险农药。",
+      "differences": [
+        "ABC News：侧重企业退出销售的监管与商业原因。",
+        "The Guardian Australia：侧重 paraquat 在多国被禁，以及与帕金森病风险相关的长期争议。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/rural/2026-07-25/syngenta-stops-sales-of-paraquat-after-apvma-review/106956466",
+          "title": "Chemical manufacturer ends sales of controversial herbicide"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/environment/2026/jul/25/herbicide-parkinsons-disease-paraquat-pulled-from-sale-australia-syngenta",
+          "title": "Herbicide banned in 70 countries to be pulled from sale in Australia by chemical maker"
+        }
+      ]
+    },
+    {
+      "id": "cluster-6",
+      "headline": "Liberty Bell Bay 关闭前可能已资不抵债一年多",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-25T04:54:08.000Z",
+      "voiceScript": "塔州 Liberty Bell Bay 锰冶炼厂的接管报告显示，这家工厂在关闭前可能已经资不抵债一年多，还拿过州政府 2000 万澳元贷款。这个消息把地方补贴、企业财务和就业影响一起推到前台。接下来要看管理人和政府会不会追查当初的决策，厂区资产和岗位还能保住多少也会成为焦点。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/liberty-bell-bay-administrators-report-insolvent/106957968",
+          "title": "Liberty Bell Bay may have been insolvent for more than a year before closing"
         }
       ]
     },
@@ -197,6 +259,51 @@
       ]
     },
     {
+      "id": "cluster-9",
+      "headline": "高额配偶签证费让部分伴侣被迫分隔",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T20:42:03.000Z",
+      "voiceScript": "澳洲配偶签证申请费已经涨到 11,710 澳元，再加上漫长审理时间，把很多跨国伴侣卡在一起。问题不只是签证贵，而是费用和等待一起把家庭生活推迟了，尤其对已经在澳洲生活、工作的人来说影响更直接。接下来要看内政部门会不会回应收费过高和积压审理的问题。",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/australian-partner-visa-high-fee-long-waiting-times/ndnwrh7q8",
+          "title": "'Life delayed': The $11,710 bill keeping some couples apart"
+        }
+      ]
+    },
+    {
+      "id": "cluster-10",
+      "headline": "虐待幸存者在 Christian Brothers 相关诉讼中取得新进展",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T15:00:17.000Z",
+      "voiceScript": "Christian Brothers 相关虐待幸存者刚在最新一轮法律战中取胜，但真正的赔付和责任追索还远没有结束。核心问题不是单一判决，而是教会机构破产、赔偿安排和受害者多年等待之间的脱节。接下来要看后续赔付会不会更快推进，以及责任归属能不能真正落地。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/abuse-survivors-have-won-their-latest-fight-against-the-christian-brothers-but-why-did-it-take-so-much-pain-and-suffering-to-get-here-ntwnfb",
+          "title": "Abuse survivors have won their latest fight against the Christian Brothers. But why did it take so much pain and suffering to get here? | Christopher Knaus"
+        }
+      ]
+    },
+    {
+      "id": "cluster-8",
+      "headline": "反犹主义皇家委员会听证中，警方承认辱骂电话未记录",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T08:50:28.000Z",
+      "voiceScript": "墨尔本举行的反犹主义与社会凝聚力皇家委员会第五轮听证结束时，警方漏记一通针对犹太会堂的辱骂电话被公开点出。这个细节把讨论从抽象的仇恨问题，拉回到执法记录、社区安全和机构失误本身。接下来要看委员会最终建议是否会要求警方和学校系统补上更严格的报告和跟进机制。",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/antisemitism-royal-commission-wraps-fifth-hearing-block-in-melbourne/nv8dgn7xd",
+          "title": "Police confirm abusive phone call to synagogue not logged, at antisemitism royal commission"
+        }
+      ]
+    },
+    {
       "id": "us-tariff-australian-exports",
       "headline": "美国新关税冲击澳洲出口",
       "sourceCount": 4,
@@ -233,6 +340,35 @@
           "source": "news.com.au",
           "url": "https://www.news.com.au/world/donald-trump-imposes-new-tariff-on-australian-and-other-global-imports-to-us/news-story/c9a9a55546a89fd4092519e8791f2ee6",
           "title": "Australian imports to be hit with new Trump tariff"
+        }
+      ]
+    },
+    {
+      "id": "labor-conference-pay-package",
+      "headline": "工党大会推进青少年 super 和带薪实习政策",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-24T10:00:00+10:00",
+      "voiceScript": "工党全国会议在阿德莱德把两项面向年轻人的工作政策推到台前：取消 18 岁以下员工获得超级年金的门槛，并把 Paid Prac 扩大到更多前线健康专业。联邦政府说，这会影响大量兼职学生和年轻打工者，也能缓解实习期间的生活成本压力。支持者认为这是补上退休储蓄和培训补贴的缺口；反对者则会关注小企业要承担多少额外成本。接下来要看这些承诺会不会写进正式立法，以及预算里是否有配套资金。",
+      "differences": [
+        "ABC News：重点放在 18 岁以下 super 门槛和大会上的正式表决。",
+        "SBS News：更强调 Paid Prac 扩展到哪些健康专业，以及每周 338 澳元的补贴。",
+        "news.com.au：把它包装成针对年轻工人的重大调整，突出涉及 50 多万青少年和雇主成本。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-23/federal-politics-live-blog-paid-prac/106947462",
+          "title": "Federal politics: Floor fight over gas tax evaporates as Labor spruiks new workers' court at ALP conference"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/aussie-teenagers-could-benefit-from-super-change/news-story/fb4cca7708c93a5f1fa3631541ae966f",
+          "title": "Labor's major policy shift for teen workers"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/see-the-full-list-who-will-get-338-weekly-payments-under-prac-payment-expansion/j8vf90nhj",
+          "title": "Full list: Here's who will get $338 weekly payments under prac payment expansion"
         }
       ]
     }

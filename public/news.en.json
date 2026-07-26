@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T23:59:00+10:00",
+  "updatedAt": "2026-07-26T21:03:38.704Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -64,35 +64,6 @@
   ],
   "clusters": [
     {
-      "id": "labor-conference-pay-package",
-      "headline": "Labor conference backs teen super and paid placements",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-24T10:00:00+10:00",
-      "voiceScript": "Labor’s national conference in Adelaide has pushed forward two workplace policies aimed at younger Australians: removing the superannuation threshold for workers under 18, and expanding Paid Prac to more frontline health courses. The federal government says the changes would affect many students and young casual workers while easing cost-of-living pressure during mandatory placements. Supporters see it as closing gaps in retirement savings and training support; critics will focus on the extra costs for small employers. The next test is whether these commitments become legislation and whether the budget funds them properly.",
-      "differences": [
-        "ABC News focuses on the under-18 super threshold and the formal conference vote.",
-        "SBS News emphasises which health fields would be covered by Paid Prac and the $338 weekly payment.",
-        "news.com.au frames it as a major change for young workers, highlighting the number of teenagers affected and employer costs."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-23/federal-politics-live-blog-paid-prac/106947462",
-          "title": "Federal politics: Floor fight over gas tax evaporates as Labor spruiks new workers' court at ALP conference"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/politics/aussie-teenagers-could-benefit-from-super-change/news-story/fb4cca7708c93a5f1fa3631541ae966f",
-          "title": "Labor's major policy shift for teen workers"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/see-the-full-list-who-will-get-338-weekly-payments-under-prac-payment-expansion/j8vf90nhj",
-          "title": "Full list: Here's who will get $338 weekly payments under prac payment expansion"
-        }
-      ]
-    },
-    {
       "id": "vad-telehealth",
       "headline": "Labor backs telehealth access for assisted dying consultations",
       "sourceCount": 4,
@@ -124,6 +95,97 @@
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5",
           "title": "Labor supports telehealth for voluntary assisted dying at ALP conference, PM Anthony Albanese doesn't"
+        }
+      ]
+    },
+    {
+      "id": "cluster-1",
+      "headline": "Two people shot by police during Cairns altercation",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-25T09:47:50.000Z",
+      "voiceScript": "A confrontation involving an allegedly armed suspect in Cairns has ended with police opening fire and a man and a woman being shot. Public details remain limited, including who the suspect was, how the situation escalated and whether the two injured people are stable. The next issue is whether police can provide a clear timeline and explain the operational judgment behind the shooting; otherwise questions about whether the action was necessary will continue.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/queensland-police-shoot-man-woman-cairns-altercation/106958468",
+          "title": "Two people shot by police during altercation in Cairns"
+        }
+      ]
+    },
+    {
+      "id": "cluster-3",
+      "headline": "Five people die on WA roads in 24 hours",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-25T06:21:30.000Z",
+      "voiceScript": "Western Australia has recorded five road deaths in less than 24 hours, putting the state’s road toll back under serious scrutiny. The crashes occurred in different locations, suggesting the issue is not one dangerous stretch of road but a mix of speed, fatigue and country-road risk. The next question is whether the state government steps up enforcement and safety campaigns, or continues to put most of the emphasis on driver responsibility.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/five-people-die-in-24-hours-on-wa-roads/106958246",
+          "title": "Drivers urged to play their part as five people die on WA roads in 24 hours"
+        }
+      ]
+    },
+    {
+      "id": "cluster-4",
+      "headline": "Husic criticises Labor culture after Gaza debate push fails",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-25T06:01:39.000Z",
+      "voiceScript": "At Labor’s national conference, Ed Husic’s push to bring Gaza-related issues to the floor failed, exposing internal divisions inside the party. Husic then criticised Labor’s culture as too rigid, showing this is not only about foreign-policy wording but also party discipline, Muslim voter sentiment and the government’s room to move on the Middle East. The next point to watch is whether the leadership gives a clearer explanation, and whether Husic keeps applying pressure internally.",
+      "differences": [
+        "ABC News focuses more on Husic’s direct criticism of Labor culture and party discipline.",
+        "The Guardian Australia emphasises that the dispute was contained at the end of conference and did not become a public stoush."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/ed-husic-pushes-for-gaza-debate-at-labor-conference/106957962",
+          "title": "Husic lashes Labor culture after push for Gaza debate fails"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/ed-husic-labor-gaza-genocide-claims-ntwnfb",
+          "title": "Ed Husic-led push for Labor to recognise Gaza genocide fails, preventing public stoush"
+        }
+      ]
+    },
+    {
+      "id": "cluster-5",
+      "headline": "Controversial herbicide paraquat to be pulled from sale in Australia",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-25T04:59:49.000Z",
+      "voiceScript": "Syngenta’s decision to stop selling paraquat in Australia effectively settles the immediate future of the controversial herbicide. The company points to tighter regulation as well as commercial, manufacturing and logistics pressures. The broader context is that many countries have already banned the product, while health-risk concerns have persisted for years. The next issue is whether farmers have enough practical alternatives, and whether regulators tighten controls on other high-risk chemicals.",
+      "differences": [
+        "ABC News focuses on the regulatory and commercial reasons behind the company’s withdrawal.",
+        "The Guardian Australia focuses on paraquat being banned in many countries and the long-running debate about Parkinson’s disease risk."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/rural/2026-07-25/syngenta-stops-sales-of-paraquat-after-apvma-review/106956466",
+          "title": "Chemical manufacturer ends sales of controversial herbicide"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/environment/2026/jul/25/herbicide-parkinsons-disease-paraquat-pulled-from-sale-australia-syngenta",
+          "title": "Herbicide banned in 70 countries to be pulled from sale in Australia by chemical maker"
+        }
+      ]
+    },
+    {
+      "id": "cluster-6",
+      "headline": "Liberty Bell Bay may have been insolvent for more than a year before closure",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-25T04:54:08.000Z",
+      "voiceScript": "A receivers’ report says Tasmania’s Liberty Bell Bay manganese smelter may have been insolvent for more than a year before it closed, despite receiving a $20 million state government loan. The finding puts local subsidies, corporate finances and job losses into the same frame. The next issue is whether administrators and government investigate the decisions that were made, and how much of the site’s assets and employment base can still be preserved.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/liberty-bell-bay-administrators-report-insolvent/106957968",
+          "title": "Liberty Bell Bay may have been insolvent for more than a year before closing"
         }
       ]
     },
@@ -197,6 +259,51 @@
       ]
     },
     {
+      "id": "cluster-9",
+      "headline": "High partner visa fee keeps some couples apart",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T20:42:03.000Z",
+      "voiceScript": "Australia’s partner visa application fee has risen to $11,710, and long processing times are keeping some cross-border couples apart. The issue is not only the price of the visa; the combination of cost and delay is postponing family life, especially for people already living and working in Australia. The next question is whether Home Affairs responds to concerns about high fees and backlogs.",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/australian-partner-visa-high-fee-long-waiting-times/ndnwrh7q8",
+          "title": "'Life delayed': The $11,710 bill keeping some couples apart"
+        }
+      ]
+    },
+    {
+      "id": "cluster-10",
+      "headline": "Abuse survivors win latest fight involving the Christian Brothers",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T15:00:17.000Z",
+      "voiceScript": "Abuse survivors connected to the Christian Brothers have won their latest legal fight, but compensation and accountability are still far from resolved. The core issue is not a single ruling; it is the gap between church-entity insolvency, compensation arrangements and survivors who have already waited for years. The next issue is whether payments move faster and whether responsibility can be made concrete.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/abuse-survivors-have-won-their-latest-fight-against-the-christian-brothers-but-why-did-it-take-so-much-pain-and-suffering-to-get-here-ntwnfb",
+          "title": "Abuse survivors have won their latest fight against the Christian Brothers. But why did it take so much pain and suffering to get here? | Christopher Knaus"
+        }
+      ]
+    },
+    {
+      "id": "cluster-8",
+      "headline": "Police admit abusive synagogue call was not logged at antisemitism royal commission",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T08:50:28.000Z",
+      "voiceScript": "At the end of the fifth Melbourne hearing block of the antisemitism and social cohesion royal commission, police confirmed that an abusive phone call to a synagogue had not been logged. The detail brings the debate back from broad concerns about hate to practical questions of police records, community safety and institutional failure. The next issue is whether the commission’s final recommendations call for stricter reporting and follow-up systems across police and schools.",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/antisemitism-royal-commission-wraps-fifth-hearing-block-in-melbourne/nv8dgn7xd",
+          "title": "Police confirm abusive phone call to synagogue not logged, at antisemitism royal commission"
+        }
+      ]
+    },
+    {
       "id": "us-tariff-australian-exports",
       "headline": "New US tariff hits Australian exports",
       "sourceCount": 4,
@@ -233,6 +340,35 @@
           "source": "news.com.au",
           "url": "https://www.news.com.au/world/donald-trump-imposes-new-tariff-on-australian-and-other-global-imports-to-us/news-story/c9a9a55546a89fd4092519e8791f2ee6",
           "title": "Australian imports to be hit with new Trump tariff"
+        }
+      ]
+    },
+    {
+      "id": "labor-conference-pay-package",
+      "headline": "Labor conference backs teen super and paid placements",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-24T10:00:00+10:00",
+      "voiceScript": "Labor’s national conference in Adelaide has pushed forward two workplace policies aimed at younger Australians: removing the superannuation threshold for workers under 18, and expanding Paid Prac to more frontline health courses. The federal government says the changes would affect many students and young casual workers while easing cost-of-living pressure during mandatory placements. Supporters see it as closing gaps in retirement savings and training support; critics will focus on the extra costs for small employers. The next test is whether these commitments become legislation and whether the budget funds them properly.",
+      "differences": [
+        "ABC News focuses on the under-18 super threshold and the formal conference vote.",
+        "SBS News emphasises which health fields would be covered by Paid Prac and the $338 weekly payment.",
+        "news.com.au frames it as a major change for young workers, highlighting the number of teenagers affected and employer costs."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-23/federal-politics-live-blog-paid-prac/106947462",
+          "title": "Federal politics: Floor fight over gas tax evaporates as Labor spruiks new workers' court at ALP conference"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/aussie-teenagers-could-benefit-from-super-change/news-story/fb4cca7708c93a5f1fa3631541ae966f",
+          "title": "Labor's major policy shift for teen workers"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/see-the-full-list-who-will-get-338-weekly-payments-under-prac-payment-expansion/j8vf90nhj",
+          "title": "Full list: Here's who will get $338 weekly payments under prac payment expansion"
         }
       ]
     }
