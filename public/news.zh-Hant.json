@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T23:05:00+10:00",
+  "updatedAt": "2026-07-26T23:59:00+10:00",
   "generatedBy": "codex",
   "sources": [
     {
@@ -59,68 +59,25 @@
       "tone": "commercial broadcast news"
     }
   ],
-  "errors": [
-    "Sky News Australia feed returned 404 during collection",
-    "Australian Financial Review latest page did not expose a parseable article feed"
-  ],
+  "errors": [],
   "clusters": [
     {
-      "id": "labor-gaza-motion-fails",
-      "headline": "Labor conference stalls over Ed Husic's Gaza motion",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-26T17:28:00+10:00",
-      "voiceScript": "工党全国会议上，Ed Husic 想把更强硬的措辞写进平台，点名加沙局势，但这项动议没能进入公开辩论。Husic 随后直接批评党内文化，阿尔巴尼斯则说没人被封口，还强调会议整体很团结。这个故事的核心不是一条口号，而是工党在以色列、巴勒斯坦和党内发言空间上的裂缝还在。接下来要看这场内部争议会不会继续外溢到国会和社区关系。",
-      "differences": [
-        "ABC News：把它写成议程程序没过关，重点是动议没有进入会场辩论。",
-        "The Guardian Australia：更强调 factional powerbrokers 压住公开冲突，避免党内撕裂。",
-        "news.com.au：更突出 Husic 的强硬表态和 Albanese 的回击。",
-        "SBS News：聚焦 Husic 认为党内压制分歧、但党内团结表象下仍有裂缝。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/ed-husic-pushes-for-gaza-debate-at-labor-conference/106957962",
-          "title": "Husic lashes Labor culture after push for Gaza debate fails"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/ed-husic-labor-gaza-genocide-claims-ntwnfb",
-          "title": "Ed Husic-led push for Labor to recognise Gaza genocide fails, preventing public stoush"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/politics/albanese-has-no-problem-with-mps-palestine-push-despite-blow-up/news-story/16ab6a89e3d776bc51f1cba373678b00",
-          "title": "Albo grilled on rogue MP’s Palestine push"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/podcast-episode/albanese-dismisses-cliams-of-israel-debate-being-quashed-at-labor-conference/6uchojf84",
-          "title": "Albanese dismisses claims of Israel debate being quashed at Labor conference"
-        }
-      ]
-    },
-    {
       "id": "labor-vad-telehealth",
-      "headline": "Labor backs telehealth access for voluntary assisted dying",
+      "headline": "Labor conference backs telehealth access for voluntary assisted dying",
       "sourceCount": 4,
       "publishedAt": "2026-07-26T15:00:00+10:00",
-      "voiceScript": "工党全国会议通过修正，支持移除联邦法律里阻挡 VAD 通过电话和视频咨询的条款。阿尔巴尼斯公开说自己不支持，认为面对面评估更能守住医疗安全；Michelle Rowland 也提醒要防止法律和伦理风险。现在的问题是，州和领地已经允许临终协助，但联邦刑法仍可能让医生在远程咨询时踩线。接下来要看政府是否真的提交修法，以及偏远地区病人能不能因此少跑几趟城市。",
+      "voiceScript": "工党全国会议通过了修改平台的提案，支持移除联邦法律里阻挡临终协助通过电话和视频咨询的限制。阿尔巴尼斯本人并不赞成，他担心面对面评估更能守住医疗安全；Michelle Rowland 也提醒，法律和伦理风险不能被忽略。现在的关键不是党内口号，而是这项立场会不会真的推动联邦立法，尤其是偏远地区和行动不便的病人能不能因此少跑一趟城市。",
       "differences": [
-        "ABC News：同时写了 Albanese 个人反对和医疗安全顾虑。",
-        "The Guardian Australia：更强调偏远地区可及性，以及联邦法律需要修正。",
-        "news.com.au：更突出现行刑法罚则、AI 和 elder abuse 风险。",
-        "SBS News：标题和播报更直接，聚焦总理明确拒绝 telehealth 方案。"
+        "ABC News：同时写到总理个人反对和面对面评估的医疗安全顾虑。",
+        "The Guardian Australia：更强调偏远地区可及性，以及联邦法律需要被改掉。",
+        "news.com.au：更直接点出刑法罚则和 Michelle Rowland 对网络诱导自杀、老年人受害风险的担忧。",
+        "SBS News：把它写成大会少数真正有分歧的议题之一。"
       ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-25/voluntary-assisted-dying-via-telehealth-endorsed-by-alp/106956766",
-          "title": "Rowland voices caution as Labor backs VAD telehealth"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-26/albanese-opposed-telehealth-voluntary-assisted-dying/106959388",
-          "title": "PM personally opposes voluntary assisted dying changes"
+          "title": "Labor endorses voluntary assisted dying telehealth access in conference"
         },
         {
           "source": "The Guardian Australia",
@@ -129,8 +86,8 @@
         },
         {
           "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5",
-          "title": "Labor supports telehealth for voluntary assisted dying at ALP conference, PM Anthony Albanese doesn’t"
+          "url": "https://www.news.com.au/national/politics/alp-conference-labor-supports-telehealth-for-voluntary-assisted-dying/news-story/2ba2d97ffc6e91c7d3448aa39c809b28",
+          "title": "ALP conference: Labor supports telehealth for voluntary assisted dying"
         },
         {
           "source": "SBS News",
@@ -140,17 +97,37 @@
       ]
     },
     {
-      "id": "victorian-premier-leadership-challenge",
-      "headline": "Victorian premier facing leadership challenge this week",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-26T03:46:00+10:00",
-      "voiceScript": "ABC 报道说，Jacinta Allan 正面临本周的领导权压力，党内派系召集人已经开会讨论她是否还掌握多数支持。这个消息一旦坐实，说明维州工党内对她的耐心正在下降，也会把州政府的注意力从执政转到自保。现在还不清楚挑战会不会正式公开化，但只要党团支持继续松动，维州政治就会进入新的不稳定阶段。",
-      "differences": [],
+      "id": "labor-gaza-motion-fails",
+      "headline": "Labor conference drops Ed Husic's Gaza motion",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-25T19:03:00+10:00",
+      "voiceScript": "阿德莱德的工党全国会议最后还是没有让 Ed Husic 的加沙动议上台辩论，平台在没有公开楼板争执的情况下被通过。Husic 事后公开抱怨党内不愿意容纳不同意见，阿尔巴尼斯则继续强调会议总体上保持团结。这个议题的重要性不在程序本身，而在于工党内部对以色列和巴勒斯坦问题的分歧并没有消失，只是被暂时压到了台面以下。接下来要看这股矛盾会不会在国会或党内继续冒出来。",
+      "differences": [
+        "ABC News：强调动议没拿到支持，平台是没有楼板争执地通过的。",
+        "The Guardian Australia：更突出 Husic 推动更强硬立场时遇到的内部阻力。",
+        "news.com.au：更偏向直接呈现 Husic 的强硬语言和总理不愿把争议放大。",
+        "SBS News：把它放进一个高度控制、几乎没有公开冲突的会议氛围里。"
+      ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-26/victoria-premier-jacinta-allan-leadership-challenge/106960114",
-          "title": "Victorian premier facing leadership challenge this week"
+          "url": "https://www.abc.net.au/news/2026-07-25/ed-husic-pushes-for-gaza-debate-at-labor-conference/106957962",
+          "title": "Labor conference sidelines Ed Husic's Gaza motion"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/24/australia-news-live-jim-chalmers-anthony-albanese-labor-conference-gas-tax-gambling-reform-one-nation-pauline-hanson-ntwnfb?page=with%3Ablock-6a630d458f0890a39cdc584c",
+          "title": "Conference fight looms on Husic's Israel resolution"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/chief-whinger-ed-husic-declares-the-pm-can-put-me-in-the-freezer-i-dont-give-a-sht/news-story/df61fd43115258062f5a7ccbdf2a9981",
+          "title": "Chief whinger Ed Husic declares the PM 'can put me in the freezer...'"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/the-momentary-slip-that-only-shows-albaneses-escalating-control-of-the-labor-party/nwbpwo5ax",
+          "title": "Husic's Gaza resolution dropped"
         }
       ]
     },
@@ -159,12 +136,12 @@
       "headline": "US raises tariffs on Australian exports to 12.5%",
       "sourceCount": 4,
       "publishedAt": "2026-07-24T14:01:00+10:00",
-      "voiceScript": "美国对澳大利亚出口征收 12.5% 新关税，临时 10% 税率到期后立刻被替换。澳方认为这和澳美自由贸易框架冲突，且牛肉、黄金等关键出口目前仍在豁免名单里。真正的风险不只是税率本身，而是出口商在议价时要先吞掉多少成本、美国买家会不会把压力转回到消费者身上。接下来要看堪培拉继续游说华盛顿的力度，以及这项措施会不会从贸易摩擦演变成更广泛的双边争端。",
+      "voiceScript": "美国把对澳大利亚出口的关税提高到 12.5%，10% 的临时税率到期后立刻被替换。牛肉和黄金等关键出口目前还在豁免名单里，但这并不意味着澳洲出口商可以松口气，因为更高税率会直接改变美国买家的成本计算。接下来要看堪培拉能否继续争取豁免，或者这轮关税会不会变成更广泛的贸易摩擦，拖累澳美之间已经很紧绷的经贸关系。",
       "differences": [
-        "ABC News：强调新税率在 2:01pm AEST 立即生效，以及 10% 临时税率到期。",
-        "The Guardian Australia：把它放进更大的 54 国关税行动里，并点出 beef 和 gold 豁免。",
-        "SBS News：重点放在贸易部长 Don Farrell 反驳“forced labour”理由并要求撤销。",
-        "news.com.au：更直接写澳方认为该措施“unjustified”，并强调成本会落到美国消费者和进口商身上。"
+        "ABC News：强调新税率在 2:01pm AEST 立即生效，且临时 10% 税率同时失效。",
+        "The Guardian Australia：把它放进更大的全球关税行动里，并点出 beef 和 gold 仍被豁免。",
+        "SBS News：重点放在 Don Farrell 反驳美国给出的理由，并要求撤销关税。",
+        "news.com.au：更直接写澳方认为这项关税站不住脚，且成本最终会传给美国买家。"
       ],
       "links": [
         {
@@ -198,12 +175,12 @@
       "id": "qld-h5-bird-flu",
       "headline": "Queensland confirms first H5 bird flu case",
       "sourceCount": 3,
-      "publishedAt": "2026-07-25T13:39:01+10:00",
-      "voiceScript": "昆州确认首个 H5 鸟流感病例，样本来自 Moreton Island 一只死去的海鸟，先是初筛阳性，后来又由 CSIRO 证实。州政府说目前没有在家禽或其他动物里发现感染，人类风险也没有上调，但还得盯着野生海鸟迁移路径。眼下最现实的风险是，病毒会不会继续沿海岸线扩散到更多点位，还是只停在零散野生鸟类里。接下来要看监测是否再出新样本，以及公众是否继续遵守不要接触死鸟的提醒。",
+      "publishedAt": "2026-07-24T13:28:00+10:00",
+      "voiceScript": "昆州在 Moreton Island 发现的野生海鸟样本，先是初筛阳性，后来又被确认是 H5 鸟流感。州政府说目前没有在家禽或其他动物里发现大范围感染，鸡肉和鸡蛋也仍然安全，但这条消息意味着病毒已经踏上昆州海岸线。眼下最该盯紧的是野生鸟类监测能不能继续把扩散压在早期，以及公众会不会继续遵守不要接触死鸟的提醒。",
       "differences": [
-        "ABC News：先报疑似样本，再补 CSIRO 确认，写清 Moreton Island 的发现过程。",
-        "SBS News：更强调这是对昆州沿海和野生动物保护的警讯，同时提醒鸡蛋和鸡肉仍可安全食用。",
-        "news.com.au：更重视“第三个受影响州”的说法，以及日常防护提醒。"
+        "ABC News：把发现过程写得最完整，从初筛到 Moreton Island 样本再到 CSIRO 确认。",
+        "SBS News：更强调对野生动物的风险，以及鸡肉和鸡蛋仍可安全食用。",
+        "news.com.au：更突出这是第三个受影响州，并把重点放在日常防护和公共警示。"
       ],
       "links": [
         {
@@ -225,6 +202,75 @@
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae",
           "title": "Queensland records 'suspected positive' H5 bird flu case"
+        }
+      ]
+    },
+    {
+      "id": "origin-energy-data-breach",
+      "headline": "Origin Energy confirms customer data breach",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-23T17:15:00+10:00",
+      "voiceScript": "Origin Energy 已确认客户资料遭到未经授权访问和泄露，涉及姓名、地址、出生日期、手机号、账户信息，以及信用卡或银行账号的部分号码。公司说现在还在核实到底有多少客户受影响，但它拥有 480 万个澳洲账户，所以这次事件的覆盖面可能很大。真正的风险不只是这些资料本身，而是它们足够被拿去做精准诈骗、身份冒用，甚至针对性的钓鱼攻击。接下来要看监管机构会不会介入得更深，以及用户最终会收到什么级别的通知和补救措施。",
+      "differences": [
+        "ABC News：先报潜在入侵，再跟进确认，强调还有多少人受影响尚不清楚。",
+        "The Guardian Australia：更突出已泄露的姓名、地址和部分银行信息，以及 4.8m 账户的规模。",
+        "news.com.au：更强调 hacker 说法、样本外泄和可能引发的诈骗风险。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-22/origin-energy-investigating-potential-data-breach/106944660",
+          "title": "Origin Energy investigating 'potential' customer data breach"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-23/origin-energy-confirms-unauthorised-access-customer-data/106948052",
+          "title": "Origin Energy confirms unauthorised access and disclosure of customer data"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/23/personal-and-banking-details-among-customer-data-stolen-in-origin-energy-hack",
+          "title": "Personal and banking details among customer data stolen in Origin Energy hack"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/online/origin-energy-investigating-reported-security-incident/news-story/a56f465b425a5c1d4381f0d898f4926f",
+          "title": "Origin Energy apologises after confirming data breach"
+        }
+      ]
+    },
+    {
+      "id": "pauline-hanson-domestic-violence",
+      "headline": "Pauline Hanson backlash over domestic violence comments",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-23T15:51:00+10:00",
+      "voiceScript": "Pauline Hanson 因把家庭暴力称作“two-way street”而遭到猛烈反弹，她还说受害者如果不安全就应该“别忍”。这场争议之所以迅速扩大，是因为她把问题又拉回到“现实压力”和“警察忙着处理真正的犯罪”这种说法，而反对者则直接指出，这会把责任推回给受害者。Anglicare 还同步公布，离开家暴关系的成本十年间已经涨到 7017 澳元，和她的说法形成了很刺眼的对照。接下来要看这场争议会不会继续压过政策讨论，或者促使政府把焦点转回家暴服务和财政支持。",
+      "differences": [
+        "ABC News：把焦点放在现场采访后的即时反弹，以及政府和反对派的回应。",
+        "The Guardian Australia：更强调她在旧播客里把家暴留职和家庭暴力说成“ridiculous”、还说警察被“real crime”拖走。",
+        "SBS News：更突出受害者与倡导者的个人反应，以及 38 名澳洲女性已死于 femicide 的背景。",
+        "news.com.au：更偏向社交媒体和名人回应，重点是 Hanson 试图解释原话、但继续挨批。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-22/pauline-hanson-domestic-violence-two-way-street/106945146",
+          "title": "Pauline Hanson labels domestic violence 'two-way street', urging women 'not to put up with it'"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/23/pauline-hanson-said-domestic-violence-prevented-police-from-dealing-with-real-in-2025-podcast-ntwnfb",
+          "title": "Pauline Hanson says domestic violence prevents police from dealing with ‘real crime’ in unearthed interview"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/pauline-hanson-one-nation-domestic-violence-backlash/wsmxophwa",
+          "title": "'Terrible advice': Advocates call out Hanson's domestic violence 'two-way street' comments"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/online/social/pauline-hanson-defends-dv-twoway-street-comments-on-x/news-story/cc7f3d91dae6464728e57b858123d79e",
+          "title": "Pauline Hanson defends DV comments amid backlash"
         }
       ]
     }
