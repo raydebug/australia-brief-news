@@ -60,35 +60,49 @@
     }
   ],
   "errors": [
-    "news.com.au and AFR feed endpoints were not usable as direct XML feeds in this run; current article pages were collected via search results instead."
+    "Fresh, stable item pages were not available for The Australian, Yahoo News Australia, AFR and Sky News Australia in this run, so the briefing was assembled from ABC News, SBS News, The Guardian Australia and news.com.au article pages."
   ],
   "clusters": [
     {
-      "id": "vic-leadership-challenge",
-      "headline": "Victorian premier facing leadership challenge this week",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-26T21:24:00+10:00",
-      "voiceScript": "维多利亚州工党内部的领导压力正在升高。ABC 报道说，周日晚上来自党内左右两派的协调人碰头后，已经认为雅辛塔·阿兰没有多数党团支持。现在真正要观察的是，这种私下判断会不会很快变成正式挑战，以及一旦州长更替，财政修复、治安和生活成本这些议题会不会被重新排序。对维州来说，这不只是一次人事风波，而是一次会直接影响执政节奏和选举准备的权力测试。",
-      "differences": [],
+      "id": "labor-conference-pay-package",
+      "headline": "Labor conference lifts teen super and paid prac",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-24T10:00:00+10:00",
+      "voiceScript": "工党全国会议在阿德莱德把两项对年轻人的工作政策推了出来，一项是把 18 岁以下员工的超级年金门槛取消，另一项是把 Paid Prac 扩大到更多前线健康专业。联邦政府说，这会影响大量兼职学生和年轻打工者，也能缓解实习期间的生活成本压力。支持者把它看成是把退休储蓄和培训补贴一起补上；反对者会关注这会给小企业带来多大的额外支出。接下来要看这些承诺会不会写进正式立法，以及预算里会不会配套资金。",
+      "differences": [
+        "ABC News：把重点放在 18 岁以下 super 门槛和大会上的正式表决。",
+        "SBS News：更强调 Paid Prac 扩展到哪些 health fields，以及每周 338 澳元的补贴。",
+        "news.com.au：把它包装成对年轻工人的大改动，突出涉及大约 50 多万青少年和雇主成本。"
+      ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-26/victoria-premier-jacinta-allan-leadership-challenge/106960114",
-          "title": "Victorian Premier Jacinta Allan facing leadership challenge this week"
+          "url": "https://www.abc.net.au/news/2026-07-23/federal-politics-live-blog-paid-prac/106947462",
+          "title": "Federal politics: Floor fight over gas tax evaporates as Labor spruiks new workers' court at ALP conference"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/aussie-teenagers-could-benefit-from-super-change/news-story/fb4cca7708c93a5f1fa3631541ae966f",
+          "title": "Labor's major policy shift for teen workers"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/see-the-full-list-who-will-get-338-weekly-payments-under-prac-payment-expansion/j8vf90nhj",
+          "title": "Full list: Here's who will get $338 weekly payments under prac payment expansion"
         }
       ]
     },
     {
       "id": "vad-telehealth",
-      "headline": "Labor backs telehealth access for voluntary assisted dying",
+      "headline": "Labor backs telehealth access for VAD",
       "sourceCount": 4,
-      "publishedAt": "2026-07-26T12:22:00+10:00",
-      "voiceScript": "工党全国会议通过动议，支持修改联邦法律，放开临终协助通过电话和视频进行咨询。阿尔巴尼斯明确反对把这一步走得太快，担心会削弱面对面评估和防误用的保障；支持者则说，偏远地区和行动不便的病人现在被法律卡住，医生也可能因为用通信方式解释程序而面临风险。下一步要看联邦政府会不会推动修法，以及联邦刑法和州法之间的冲突能否真正处理掉。",
+      "publishedAt": "2026-07-26T15:00:00+10:00",
+      "voiceScript": "工党全国会议已经通过修改平台，支持把临终协助的咨询放到电话和视频里进行。阿尔巴尼斯本人还是明确保留反对意见，担心这会削弱面对面评估和现有防误用措施；支持者则强调，偏远地区和行动不便的病人常常很难赶到医院或诊所，现行联邦刑法也让医生在沟通上顾虑重重。下一步要看联邦内阁会不会把党内立场变成正式法案，以及修法时如何同时守住可及性和安全边界。",
       "differences": [
-        "ABC News：强调总理本人反对和医疗安全、面对面评估。",
+        "ABC News：强调总理个人反对和医疗安全、面对面评估。",
         "The Guardian Australia：更强调偏远和行动不便患者的可及性，以及联邦刑法的障碍。",
-        "SBS News：把焦点放在总理明确反对 telehealth 方案，同时承认会议已通过党内立场。",
-        "news.com.au：点出法律可能带来最高 30 万澳元罚款，强调医生的合规风险。"
+        "SBS News：把焦点放在党内表决已经通过，以及这一争议仍属于 conscience vote 范围。",
+        "news.com.au：点出法律风险和医生可能面对的合规压力。"
       ],
       "links": [
         {
@@ -108,22 +122,22 @@
         },
         {
           "source": "news.com.au",
-          "url": "https://www.news.com.au/national/politics/alp-conference-labor-supports-telehealth-for-voluntary-assisted-dying/news-story/2ba2d97ffc6e91c7d3448aa39c809b28",
-          "title": "ALP conference: Labor supports telehealth for voluntary assisted dying"
+          "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5",
+          "title": "Labor supports telehealth for voluntary assisted dying at ALP conference, PM Anthony Albanese doesn't"
         }
       ]
     },
     {
       "id": "fuel-price-rise",
-      "headline": "Fuel prices keep climbing as excise cut nears end",
+      "headline": "Fuel prices climb as excise relief nears end",
       "sourceCount": 4,
       "publishedAt": "2026-07-25T14:19:00+10:00",
-      "voiceScript": "联邦政府继续安抚驾驶者，说澳洲燃油供应还是“solid and secure”，但泵价已经在往上走。8 月 2 日燃油消费税减免到期后，很多地区还会再上调，北美和中东局势让原油市场继续紧张。对家庭来说，最直接的冲击是通勤和运输成本抬升；如果油价再往上冲，通胀和 RBA 利率路径都会重新承压。",
+      "voiceScript": "澳洲汽油价格还在往上走，联邦政府一边说供应还是稳的，一边提醒 8 月 2 日燃油消费税减免就要到期。SBS 和 Guardian 都在强调，原油价格、Middle East 冲突和减税结束叠加后，泵价可能继续抬升，部分地区甚至会逼近每升 2 澳元。现在真正要观察的是政府会不会再延长减免，以及这波上涨会不会继续推高通胀和改变澳洲央行的利率判断。",
       "differences": [
         "ABC News：强调供应仍然充足，政府先稳住市场情绪。",
-        "The Guardian Australia：更强调家庭负担、泵价冲上每升 2 澳元，以及 RBA 加息风险。",
-        "SBS News：突出 unleaded 和 diesel 已经开始跳涨，强调成本压力正在传导。",
-        "news.com.au：把焦点放在油价 40 天高位和 16 仙燃油税优惠结束后的冲击。"
+        "The Guardian Australia：更强调家庭负担、泵价上冲到每升 2 澳元，以及 RBA 加息风险。",
+        "SBS News：突出燃油税减免即将结束，以及市场已在押注进一步加息。",
+        "news.com.au：把焦点放在油价 40 天高位和 16 仙优惠结束后的冲击。"
       ],
       "links": [
         {
@@ -138,8 +152,8 @@
         },
         {
           "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/more-fuel-price-pain-ahead-for-australians-as-war-ramps-up-and-de-escalation-dims/liu71xlm1",
-          "title": "More fuel price pain ahead as Houthis widen war's front line, Trump considers fresh strikes"
+          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte",
+          "title": "Not a 'one off spike': Why higher petrol prices are set to return"
         },
         {
           "source": "news.com.au",
@@ -151,12 +165,11 @@
     {
       "id": "qld-bird-flu",
       "headline": "Queensland confirms first H5 bird flu case",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-24T13:28:00+10:00",
-      "voiceScript": "昆州在 Moreton Island 的一只海鸟样本先被验出疑似 H5，随后又由 CSIRO 确认为阳性，意味着鸟流感已经进入昆州。州政府说目前还没有在家禽或其他动物身上看到扩散，鸡肉和鸡蛋仍然可以安全食用，但公众需要继续避开死鸟和病鸟。接下来要盯的是野生鸟类监测能不能把范围压住，以及病毒会不会继续往更多州扩散。",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-25T13:28:00+10:00",
+      "voiceScript": "昆州在 Moreton Island 发现的死海鸟样本，先是出现疑似 H5 阳性，后来又被 CSIRO 确认，意味着高致病性鸟流感已经进入昆州。州政府现在的重点是把范围锁在野生鸟类和沿海监测上，同时反复提醒公众不要接触死鸟或病鸟，鸡肉和鸡蛋仍然可以安全食用。接下来要盯的是野生动物监测能不能及时把传播链压住，以及病毒会不会继续往更多州扩散。",
       "differences": [
         "ABC News：把发现过程写得最完整，从 Moreton Island 样本到 CSIRO 确认。",
-        "The Guardian Australia：在澳洲新闻直播里把它放进更大的政策和公共安全背景。",
         "SBS News：更强调 poultry products safe to eat 和对野生动物的警示。",
         "news.com.au：更突出这是第三个受影响州，以及加强监测和别接触死鸟的提醒。"
       ],
@@ -172,11 +185,6 @@
           "title": "First positive case of H5 bird flu in Queensland confirmed by CSIRO"
         },
         {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/24/australia-news-live-jim-chalmers-anthony-albanese-labor-conference-gas-tax-gambling-reform-one-nation-pauline-hanson-ntwnfb",
-          "title": "Australia news live, Friday 24 July 2026"
-        },
-        {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo",
           "title": "Queensland records first bird flu case"
@@ -189,65 +197,42 @@
       ]
     },
     {
-      "id": "labor-gas-tax",
-      "headline": "Labor conference leaves gas export tax unresolved",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-23T23:32:27+10:00",
-      "voiceScript": "工党全国会议把天然气出口税推到了台前，但最后还是没有在会场上拍板。支持者想用更高税率把资源收益留在澳洲，反对者担心投资和供应受影响；政府则一边强调改革讨论，一边避免把它变成正式承诺。下一步要看平台文字会不会继续往“公平税收”方向挪，以及财政和能源部门会不会真的把方案端上桌。",
+      "id": "us-tariff-australian-exports",
+      "headline": "Trump tariff hits Australian exports",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-24T13:31:00+10:00",
+      "voiceScript": "美国对澳洲出口加征新的 12.5% 关税，名义理由是打击强迫劳动相关进口，澳洲原来那层 10% 临时关税也同步到期。对澳洲政府来说，这不是单纯的外交姿态问题，而是会直接影响出口企业、贸易谈判和市场情绪；目前牛肉、黄金等关键产品还没有被打到最重，但企业已经开始担心成本和竞争力。接下来要盯的是堪培拉怎么继续反制，以及这套关税逻辑会不会扩散到更多贸易伙伴。",
       "differences": [
-        "ABC News：强调原本预期的 floor fight 没有出现，会议主线没有被税案劫持。",
-        "The Guardian Australia：直接支持 25% gas tax，并估算可带来约 170 亿澳元年收入。",
-        "news.com.au：更强调会场外“tax gas, not beer”抗议，以及这一议题只是会议中的一部分。"
+        "ABC News：说明临时 10% 关税到期后税率再上调 2.5 个百分点，并提到企业已考虑法律和游说手段。",
+        "The Guardian Australia：更强调 12.5% 适用于大量澳洲出口，同时点出牛肉和黄金等关键出口暂时豁免。",
+        "SBS News：把它写成澳洲明确拒绝美国说法的快速国际新闻，强调即时生效。",
+        "news.com.au：更集中在 Albanese 与 Don Farrell 的强硬回应，以及对消费者和出口商的连带影响。"
       ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-23/labor-national-conference-debate-gas-gambling-gaza/106945156",
-          "title": "Labor conference kicks off with gas, gambling and Gaza"
+          "url": "https://www.abc.net.au/news/2026-07-24/us-trump-administration-new-tariff-announcement/106938462",
+          "title": "Trump administration confirms new 12.5 per cent tariff for Australia"
         },
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-23/federal-politics-live-blog-paid-prac/106947462",
-          "title": "Federal politics live blog: floor fight over gas tax evaporates"
+          "url": "https://www.abc.net.au/news/2026-07-25/businesses-sue-donald-trump-over-new-forced-labour-tariffs/106957762",
+          "title": "Small businesses sue Donald Trump over new forced labour tariffs"
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/business/grogonomics/2026/jul/23/gas-exports-tax-pressure-growing-inside-labor-alp-conference",
-          "title": "Pressure is growing inside Labor to properly tax gas exports. Here's what a 25% tax could pay for"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/24/donald-trump-hits-australian-exports-to-us-with-new-higher-trade-tariff-over-claims-of-forced-labour",
+          "title": "Donald Trump hits Australian exports to US with new higher trade tariff over claims of 'forced labour'"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/australia-rejects-higher-us-tariffs/drpzxtsup",
+          "title": "Australia rejects higher US tariffs | SBS News"
         },
         {
           "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/work/leaders/anthony-albanese-to-speak-at-alp-conference-as-beer-tax-debate-rages/live-coverage/43ba1e0bb2ec2e5eb33be9f30f299134",
-          "title": "Labor promises superannuation boost for young Australian workers"
-        }
-      ]
-    },
-    {
-      "id": "point-piper-dinner",
-      "headline": "Albanese is questioned over Point Piper dinner",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-26T13:34:00+10:00",
-      "voiceScript": "阿尔巴尼斯被追问是否出席了悉尼 Point Piper 一场人均 1 万澳元的私人晚宴，主办方是正被税务问题盯上的李家成员。总理在镜头前没有正面确认，只说自己参加“很多晚餐”和“很多活动”；反对者把这件事解读成捐款透明度和政治接触边界的问题。接下来要看媒体会不会继续追问出席名单、费用来源和是否存在利益交叉。",
-      "differences": [
-        "ABC News：重点放在总理的回避回答和透明度问题。",
-        "The Guardian Australia：把它放进更大的 donor scrutiny 和政治问责背景。",
-        "news.com.au：更强调 40 million mansion、每位 10,000 澳元的价格和出席名流名单。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-26/albanese-questioned-over-point-piper-dinner/106959648",
-          "title": "I attend a lot of dinners: Anthony Albanese evasive over Point Piper dinner"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/26/australia-news-live-politics-pauline-hanson-ed-husic-anthony-albanese-labor-party-conference-bird-flu-ntwnfb",
-          "title": "Australia news live, Sunday 26 July 2026"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/politics/i-attend-lots-of-dinners-prime-minister-anthony-albanese-quiz-over-point-piper-dinner/news-story/8e3b17291d8ae6becbae6377c2c0c41d",
-          "title": "I attend lots of dinners: Prime Minister Anthony Albanese quizzed over Point Piper dinner"
+          "url": "https://www.news.com.au/world/donald-trump-imposes-new-tariff-on-australian-and-other-global-imports-to-us/news-story/c9a9a55546a89fd4092519e8791f2ee6",
+          "title": "Australian imports to be hit with new Trump tariff"
         }
       ]
     }
