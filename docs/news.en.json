@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T22:06:26+10:00",
+  "updatedAt": "2026-07-26T23:05:00+10:00",
   "generatedBy": "codex",
   "sources": [
     {
@@ -59,58 +59,57 @@
       "tone": "commercial broadcast news"
     }
   ],
-  "errors": [],
+  "errors": [
+    "Sky News Australia feed returned 404 during collection",
+    "Australian Financial Review latest page did not expose a parseable article feed"
+  ],
   "clusters": [
     {
-      "id": "us-tariffs-australian-exports",
-      "headline": "US raises tariffs on Australian exports to 12.5%",
+      "id": "labor-gaza-motion-fails",
+      "headline": "Labor conference stalls over Ed Husic's Gaza motion",
       "sourceCount": 4,
-      "publishedAt": "2026-07-24T17:04:07+10:00",
-      "voiceScript": "美国把对澳大利亚出口的关税提高到 12.5%，旧的 10% 临时税率到期后，新的税率立刻接上。澳方说这项措施没有道理，也和澳美自由贸易框架不一致；目前牛肉和黄金等主要出口暂时未被点名。现在最关键的是，这个税率会不会继续留着，以及成本最后会不会传导到澳洲出口商和美国买家身上。",
+      "publishedAt": "2026-07-26T17:28:00+10:00",
+      "voiceScript": "工党全国会议上，Ed Husic 想把更强硬的措辞写进平台，点名加沙局势，但这项动议没能进入公开辩论。Husic 随后直接批评党内文化，阿尔巴尼斯则说没人被封口，还强调会议整体很团结。这个故事的核心不是一条口号，而是工党在以色列、巴勒斯坦和党内发言空间上的裂缝还在。接下来要看这场内部争议会不会继续外溢到国会和社区关系。",
       "differences": [
-        "ABC News：强调新税率刚生效，以及出口成本上升的即时影响。",
-        "The Guardian Australia：把它放进更大的 54 国新关税框架里，并特别提到牛肉、黄金等主要出口暂时豁免。",
-        "SBS News：更聚焦政府反击和贸易法理上的争议。",
-        "news.com.au：把重点放在阿尔巴尼斯的公开回应，以及最终由谁承担成本。"
+        "ABC News：把它写成议程程序没过关，重点是动议没有进入会场辩论。",
+        "The Guardian Australia：更强调 factional powerbrokers 压住公开冲突，避免党内撕裂。",
+        "news.com.au：更突出 Husic 的强硬表态和 Albanese 的回击。",
+        "SBS News：聚焦 Husic 认为党内压制分歧、但党内团结表象下仍有裂缝。"
       ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/us-trump-administration-new-tariff-announcement/106938462",
-          "title": "Australian government arguing 'very forcefully' against Trump's new 12.5pc tariffs"
+          "url": "https://www.abc.net.au/news/2026-07-25/ed-husic-pushes-for-gaza-debate-at-labor-conference/106957962",
+          "title": "Husic lashes Labor culture after push for Gaza debate fails"
         },
         {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/trump-tariffs-bring-more-uncertainty-to-australian-shores/106954074",
-          "title": "New Trump tariffs 'make it harder for Australian businesses to compete'"
-        },
-      {
-        "source": "The Guardian Australia",
-        "url": "https://www.theguardian.com/australia-news/2026/jul/24/donald-trump-hits-australian-exports-to-us-with-new-higher-trade-tariff-over-claims-of-forced-labour",
-        "title": "Donald Trump hits Australian exports to US with new higher trade tariff over claims of ‘forced labour’"
-      },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/donald-trump-hit-australia-with-nonsense-12-5-per-cent-tarriffs/x4qy0tc68",
-          "title": "Trump's new Australian tariffs reveal complex truths, experts say as government urges repeal"
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/ed-husic-labor-gaza-genocide-claims-ntwnfb",
+          "title": "Ed Husic-led push for Labor to recognise Gaza genocide fails, preventing public stoush"
         },
         {
           "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/economy/australian-economy/donald-trump-confirms-new-125-per-cent-tariff-on-australian-exports/news-story/98ef76ee2a40e503e3c64d71387ed3bf",
-          "title": "Donald Trump confirms new 12.5 per cent tariff on Australian exports"
+          "url": "https://www.news.com.au/national/politics/albanese-has-no-problem-with-mps-palestine-push-despite-blow-up/news-story/16ab6a89e3d776bc51f1cba373678b00",
+          "title": "Albo grilled on rogue MP’s Palestine push"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/albanese-dismisses-cliams-of-israel-debate-being-quashed-at-labor-conference/6uchojf84",
+          "title": "Albanese dismisses claims of Israel debate being quashed at Labor conference"
         }
       ]
     },
     {
       "id": "labor-vad-telehealth",
       "headline": "Labor backs telehealth access for voluntary assisted dying",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-26T12:22:08+10:00",
-      "voiceScript": "工党全国会议在阿德莱德通过党纲修正，支持移除联邦法律里阻挡 VAD 通过 telehealth 咨询的条款。阿尔巴尼斯公开表示自己并不认同，担心电话或视频会削弱面对面评估和安全把关。现在的焦点是，州和领地已经允许临终协助，但联邦刑法仍可能让医生在远程咨询时触法。接下来要看政府会不会把党内表态推进成真正的立法修改，尤其是偏远地区病人的可及性。",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-26T15:00:00+10:00",
+      "voiceScript": "工党全国会议通过修正，支持移除联邦法律里阻挡 VAD 通过电话和视频咨询的条款。阿尔巴尼斯公开说自己不支持，认为面对面评估更能守住医疗安全；Michelle Rowland 也提醒要防止法律和伦理风险。现在的问题是，州和领地已经允许临终协助，但联邦刑法仍可能让医生在远程咨询时踩线。接下来要看政府是否真的提交修法，以及偏远地区病人能不能因此少跑几趟城市。",
       "differences": [
-        "ABC News：同时写了 Labor 党纲变化和 Albanese 个人反对，强调临床安全。",
-        "The Guardian Australia：更突出这次表态对政府立法压力的意义，以及偏远地区可及性。",
-        "news.com.au：更强调 Attorney-General 的担忧，包括 misuse、AI 和 elder abuse 风险。"
+        "ABC News：同时写了 Albanese 个人反对和医疗安全顾虑。",
+        "The Guardian Australia：更强调偏远地区可及性，以及联邦法律需要修正。",
+        "news.com.au：更突出现行刑法罚则、AI 和 elder abuse 风险。",
+        "SBS News：标题和播报更直接，聚焦总理明确拒绝 telehealth 方案。"
       ],
       "links": [
         {
@@ -131,48 +130,80 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5",
-          "title": "Albo won’t support move backed by ALP"
+          "title": "Labor supports telehealth for voluntary assisted dying at ALP conference, PM Anthony Albanese doesn’t"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/prime-minister-rejects-proposal-of-voluntary-assisted-dying-via-telehealth/di63vkdwy",
+          "title": "Prime Minister rejects proposal of voluntary assisted dying via Telehealth"
         }
       ]
     },
     {
-      "id": "labor-gaza-motion-fails",
-      "headline": "Labor conference stalls over Ed Husic’s Gaza motion",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-26T15:11:00+10:00",
-      "voiceScript": "Ed Husic 在工党全国会议上推动更强烈表述以色列在加沙的行为，但这项动议没能过关，最后也没有在会场展开公开争论。之后他直接批评党内文化，阿尔巴尼斯则淡化风波，强调没有人被封口。这个分歧说明工党在中东议题上的裂缝还在，而且还不只是外交措辞问题。接下来要看争议会不会继续外溢到国会和党内纪律。",
+      "id": "victorian-premier-leadership-challenge",
+      "headline": "Victorian premier facing leadership challenge this week",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T03:46:00+10:00",
+      "voiceScript": "ABC 报道说，Jacinta Allan 正面临本周的领导权压力，党内派系召集人已经开会讨论她是否还掌握多数支持。这个消息一旦坐实，说明维州工党内对她的耐心正在下降，也会把州政府的注意力从执政转到自保。现在还不清楚挑战会不会正式公开化，但只要党团支持继续松动，维州政治就会进入新的不稳定阶段。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-26/victoria-premier-jacinta-allan-leadership-challenge/106960114",
+          "title": "Victorian premier facing leadership challenge this week"
+        }
+      ]
+    },
+    {
+      "id": "us-tariffs-australian-exports",
+      "headline": "US raises tariffs on Australian exports to 12.5%",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-24T14:01:00+10:00",
+      "voiceScript": "美国对澳大利亚出口征收 12.5% 新关税，临时 10% 税率到期后立刻被替换。澳方认为这和澳美自由贸易框架冲突，且牛肉、黄金等关键出口目前仍在豁免名单里。真正的风险不只是税率本身，而是出口商在议价时要先吞掉多少成本、美国买家会不会把压力转回到消费者身上。接下来要看堪培拉继续游说华盛顿的力度，以及这项措施会不会从贸易摩擦演变成更广泛的双边争端。",
       "differences": [
-        "ABC News：把它写成会议程序失败，焦点是党纲没有进入会场辩论。",
-        "The Guardian Australia：更强调 factional powerbrokers 压下争议，避免公开撕裂。",
-        "news.com.au：更聚焦 Husic 的挑衅式表态和 Albanese 的否认。"
+        "ABC News：强调新税率在 2:01pm AEST 立即生效，以及 10% 临时税率到期。",
+        "The Guardian Australia：把它放进更大的 54 国关税行动里，并点出 beef 和 gold 豁免。",
+        "SBS News：重点放在贸易部长 Don Farrell 反驳“forced labour”理由并要求撤销。",
+        "news.com.au：更直接写澳方认为该措施“unjustified”，并强调成本会落到美国消费者和进口商身上。"
       ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/ed-husic-pushes-for-gaza-debate-at-labor-conference/106957962",
-          "title": "Husic lashes Labor culture after push for Gaza debate fails"
+          "url": "https://www.abc.net.au/news/2026-07-24/us-trump-administration-new-tariff-announcement/106938462",
+          "title": "Trump administration confirms new 12.5 per cent tariff for Australia"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/trump-tariffs-bring-more-uncertainty-to-australian-shores/106954074",
+          "title": "New Trump tariffs 'make it harder for Australian businesses to compete'"
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/ed-husic-labor-gaza-genocide-claims-ntwnfb",
-          "title": "Ed Husic-led push for Labor to recognise Gaza genocide fails, preventing public stoush"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/24/donald-trump-hits-australian-exports-to-us-with-new-higher-trade-tariff-over-claims-of-forced-labour",
+          "title": "Donald Trump hits Australian exports to US with new higher trade tariff over claims of ‘forced labour’"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/donald-trump-hit-australia-with-nonsense-12-5-per-cent-tarriffs/x4qy0tc68",
+          "title": "Trump's new Australian tariffs reveal complex truths, experts say as government urges repeal"
         },
         {
           "source": "news.com.au",
-          "url": "https://www.news.com.au/national/politics/albanese-has-no-problem-with-mps-palestine-push-despite-blow-up/news-story/16ab6a89e3d776bc51f1cba373678b00",
-          "title": "Albo grilled on rogue MP’s Palestine push"
+          "url": "https://www.news.com.au/finance/economy/australian-economy/donald-trump-confirms-new-125-per-cent-tariff-on-australian-exports/news-story/98ef76ee2a40e503e3c64d71387ed3bf",
+          "title": "Donald Trump confirms new 12.5 per cent tariff on Australian exports"
         }
       ]
     },
     {
       "id": "qld-h5-bird-flu",
       "headline": "Queensland confirms first H5 bird flu case",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-07-25T13:39:01+10:00",
-      "voiceScript": "昆州确认首个 H5 鸟流感病例，样本来自 Moreton Island 一只死去的海鸟，CSIRO 已经给出确认。州政府说目前没有在家禽或其他动物中发现感染，人类风险也仍然偏低，但公众仍被要求不要接触死鸟或病鸟。关键不确定性是，野生海鸟链条会不会继续把病毒带进更多州，以及后续监测会不会出现新点位。",
+      "voiceScript": "昆州确认首个 H5 鸟流感病例，样本来自 Moreton Island 一只死去的海鸟，先是初筛阳性，后来又由 CSIRO 证实。州政府说目前没有在家禽或其他动物里发现感染，人类风险也没有上调，但还得盯着野生海鸟迁移路径。眼下最现实的风险是，病毒会不会继续沿海岸线扩散到更多点位，还是只停在零散野生鸟类里。接下来要看监测是否再出新样本，以及公众是否继续遵守不要接触死鸟的提醒。",
       "differences": [
-        "ABC News：先报疑似样本，再补上 CSIRO 确认，细节更集中在检测流程和发现地点。",
-        "news.com.au：更强调“第三个受影响州”以及对公众的日常防护提醒。"
+        "ABC News：先报疑似样本，再补 CSIRO 确认，写清 Moreton Island 的发现过程。",
+        "SBS News：更强调这是对昆州沿海和野生动物保护的警讯，同时提醒鸡蛋和鸡肉仍可安全食用。",
+        "news.com.au：更重视“第三个受影响州”的说法，以及日常防护提醒。"
       ],
       "links": [
         {
@@ -186,39 +217,14 @@
           "title": "H5 bird flu confirmed in wild seabird found at Moreton Island"
         },
         {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo",
+          "title": "'We can't stop this virus': Another state records first suspected bird flu case"
+        },
+        {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae",
-          "title": "Fears bird flu has spread to third Aussie state"
-        }
-      ]
-    },
-    {
-      "id": "wa-gas-fired-plant",
-      "headline": "WA considers new gas-fired power plant as coal phases out",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-26T18:02:25+10:00",
-      "voiceScript": "西澳政府正在评估在珀斯南部 Naval Base 新建一座州营燃气发电站，容量约 300 兆瓦，预算可能超过 5 亿澳元。州政府的说法是，这不是增加对天然气的长期依赖，而是为 2030 年关闭州属燃煤电厂后保留调峰和备用电力。下一步要看社区咨询和年底前的决定，项目是否会正式推进，以及到底会锁定多少 gas 作为电网兜底。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-26/wa-government-considering-new-gas-fired-power-plant/106959916",
-          "title": "WA government considering new gas-fired power plant as coal phases out"
-        }
-      ]
-    },
-    {
-      "id": "kiama-house-fire-body-found",
-      "headline": "Body found after Kiama house fire",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-26T16:01:15+10:00",
-      "voiceScript": "新州南海岸 Kiama 一处住宅火灾后发现一具遗体，死者身份还没有正式确认，起火原因也在调查中。ABC 报道称警方目前不把这起火灾当成可疑事件，但现场已经进入进一步取证。现在最重要的是验明身份、确定死因，并看火源是否来自电气故障还是其他意外。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-26/body-found-after-kiama-house-fire/106959500",
-          "title": "Body found after house fire in NSW coastal town"
+          "title": "Queensland records 'suspected positive' H5 bird flu case"
         }
       ]
     }
