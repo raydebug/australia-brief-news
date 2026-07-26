@@ -1,4 +1,4 @@
-const CACHE_NAME = "australia-brief-v2";
+const CACHE_NAME = "australia-brief-v3";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -7,7 +7,9 @@ const APP_SHELL = [
   "./news.json",
   "./news.zh-Hans.json",
   "./news.zh-Hant.json",
-  "./news.en.json"
+  "./news.en.json",
+  "./news.ja.json",
+  "./news.ko.json"
 ];
 
 self.addEventListener("install", (event) => {

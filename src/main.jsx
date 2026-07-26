@@ -19,7 +19,9 @@ import "./register-sw.js";
 const LANGUAGES = [
   { code: "zh-Hans", label: "简体" },
   { code: "zh-Hant", label: "繁體" },
-  { code: "en", label: "EN" }
+  { code: "en", label: "EN" },
+  { code: "ja", label: "日本語" },
+  { code: "ko", label: "한국어" }
 ];
 
 const I18N = {
@@ -91,6 +93,52 @@ const I18N = {
     readAloud: "Read aloud",
     noMatches: "No matching news",
     dataError: "News data is temporarily unavailable. It will reload from the data source when online."
+  },
+  ja: {
+    appName: "オーストラリア簡潔ニュース",
+    appSubtitle: "Australia Brief",
+    toolsTitle: "フィルターとデータ状態",
+    localData: "ローカルデータ",
+    pending: "更新待ち",
+    online: "オンライン",
+    offline: "オフライン",
+    searchPlaceholder: "見出しまたは要約を検索",
+    filterLabel: "ニュースを絞り込む",
+    all: "すべて",
+    multi: "複数ソース",
+    single: "単一ソース",
+    reload: "再読み込み",
+    install: "インストール",
+    sources: "ソース",
+    sourceDifferences: "報道の違い",
+    originalLinks: "元リンク",
+    voiceScript: "音声原稿",
+    readAloud: "読み上げ",
+    noMatches: "一致するニュースはありません",
+    dataError: "ニュースデータを一時的に読み込めません。オンラインになるとデータソースから再読み込みします。"
+  },
+  ko: {
+    appName: "호주 간략 뉴스",
+    appSubtitle: "Australia Brief",
+    toolsTitle: "필터 및 데이터 상태",
+    localData: "로컬 데이터",
+    pending: "업데이트 대기",
+    online: "온라인",
+    offline: "오프라인",
+    searchPlaceholder: "제목 또는 요약 검색",
+    filterLabel: "뉴스 필터",
+    all: "전체",
+    multi: "복수 출처",
+    single: "단일 출처",
+    reload: "다시 읽기",
+    install: "설치",
+    sources: "출처",
+    sourceDifferences: "보도 차이",
+    originalLinks: "원문 링크",
+    voiceScript: "음성 원고",
+    readAloud: "읽어주기",
+    noMatches: "일치하는 뉴스가 없습니다",
+    dataError: "뉴스 데이터를 일시적으로 읽을 수 없습니다. 온라인 상태가 되면 데이터 소스에서 다시 불러옵니다."
   }
 };
 
@@ -99,6 +147,8 @@ const NEWS_SOURCE_TEMPLATE = import.meta.env.VITE_NEWS_SOURCE_URL || "./news.{la
 function normalizeLanguage(value) {
   const lower = String(value || "").toLowerCase();
   if (lower.startsWith("zh-hant") || lower.includes("tw") || lower.includes("hk")) return "zh-Hant";
+  if (lower.startsWith("ja")) return "ja";
+  if (lower.startsWith("ko")) return "ko";
   if (lower.startsWith("en")) return "en";
   return "zh-Hans";
 }

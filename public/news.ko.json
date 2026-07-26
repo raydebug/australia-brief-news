@@ -1,0 +1,460 @@
+{
+  "updatedAt": "2026-07-26T21:03:38.704Z",
+  "generatedBy": "codex",
+  "sources": [
+    {
+      "id": "abc",
+      "name": "ABC News",
+      "region": "National",
+      "feed": "https://www.abc.net.au/news/feed/51120/rss.xml",
+      "tone": "公共媒体"
+    },
+    {
+      "id": "sbs",
+      "name": "SBS News",
+      "region": "National",
+      "feed": "https://www.sbs.com.au/news/feed",
+      "tone": "多元社区"
+    },
+    {
+      "id": "guardian-au",
+      "name": "The Guardian Australia",
+      "region": "National",
+      "feed": "https://www.theguardian.com/australia-news/rss",
+      "tone": "分析视角"
+    },
+    {
+      "id": "news-com-au",
+      "name": "news.com.au",
+      "region": "National",
+      "feed": "https://www.news.com.au/content-feeds/latest-news-rss/",
+      "tone": "commercial mainstream"
+    },
+    {
+      "id": "the-australian",
+      "name": "The Australian",
+      "region": "National",
+      "feed": "https://www.theaustralian.com.au/",
+      "tone": "national broadsheet"
+    },
+    {
+      "id": "yahoo-au",
+      "name": "Yahoo News Australia",
+      "region": "National",
+      "feed": "https://au.news.yahoo.com/",
+      "tone": "aggregated mainstream"
+    },
+    {
+      "id": "afr",
+      "name": "Australian Financial Review",
+      "region": "Business",
+      "feed": "https://www.afr.com/latest",
+      "tone": "business and markets"
+    },
+    {
+      "id": "sky-news-au",
+      "name": "Sky News Australia",
+      "region": "National",
+      "feed": "https://www.skynews.com.au/australia-news",
+      "tone": "commercial broadcast news"
+    },
+    {
+      "id": "nine-news-au",
+      "name": "9News",
+      "region": "National",
+      "feed": "https://www.9news.com.au/national",
+      "tone": "commercial broadcast news"
+    },
+    {
+      "id": "seven-news-au",
+      "name": "7NEWS",
+      "region": "National",
+      "feed": "https://7news.com.au/news/australia",
+      "tone": "commercial broadcast news"
+    },
+    {
+      "id": "smh",
+      "name": "The Sydney Morning Herald",
+      "region": "NSW",
+      "feed": "https://www.smh.com.au/national",
+      "tone": "metro masthead"
+    },
+    {
+      "id": "the-age",
+      "name": "The Age",
+      "region": "Victoria",
+      "feed": "https://www.theage.com.au/national/victoria",
+      "tone": "metro masthead"
+    },
+    {
+      "id": "brisbane-times",
+      "name": "Brisbane Times",
+      "region": "Queensland",
+      "feed": "https://www.brisbanetimes.com.au/national/queensland",
+      "tone": "metro masthead"
+    },
+    {
+      "id": "watoday",
+      "name": "WAtoday",
+      "region": "Western Australia",
+      "feed": "https://www.watoday.com.au/national/western-australia",
+      "tone": "metro masthead"
+    },
+    {
+      "id": "canberra-times",
+      "name": "The Canberra Times",
+      "region": "ACT",
+      "feed": "https://www.canberratimes.com.au/news/latest-news/",
+      "tone": "regional masthead"
+    },
+    {
+      "id": "aap",
+      "name": "AAP",
+      "region": "National",
+      "feed": "https://www.aap.com.au/news/",
+      "tone": "wire service"
+    }
+  ],
+  "errors": [],
+  "clusters": [
+    {
+      "id": "vad-telehealth",
+      "headline": "노동당, 조력사망 상담의 원격진료 허용 지지",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-26T15:00:00+10:00",
+      "voiceScript": "노동당 전국회의는 자발적 조력사망 상담을 전화와 영상으로도 할 수 있도록 당 강령을 수정했습니다. 앤서니 앨버니지 총리는 개인적으로 여전히 반대하며, 원격진료가 대면 평가와 오남용 방지 장치를 약화시킬 수 있다고 경고했습니다. 지지자들은 외딴 지역 환자나 이동이 어려운 환자가 병원과 클리닉에 가기 어렵고, 현행 연방 형법 때문에 의사들이 관련 소통에 신중해진다고 주장합니다. 다음 쟁점은 내각이 이 당론을 법안으로 만들지, 접근성과 안전장치를 어떻게 균형 있게 설계할지입니다.",
+      "differences": [
+        "ABC News는 총리 개인의 반대와 의료 안전장치 우려를 강조합니다.",
+        "The Guardian Australia는 외딴 지역 및 이동이 어려운 환자의 접근성과 연방법 장벽에 더 무게를 둡니다.",
+        "SBS News는 전국회의 표결과 이 사안이 양심투표 문제로 남는다는 점에 초점을 맞춥니다.",
+        "news.com.au는 의사들의 법적 위험과 준수 부담을 짚습니다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-26/albanese-opposed-telehealth-voluntary-assisted-dying/106959388",
+          "title": "Anthony Albanese personally opposed to Labor's push on telehealth for VAD"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/26/labor-pressure-telehealth-access-euthanasia-assisted-dying-anthony-albanese",
+          "title": "Albanese at odds with Labor policy which now says telehealth should be allowed for euthanasia consultations"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/prime-minister-rejects-proposal-of-voluntary-assisted-dying-via-telehealth/di63vkdwy",
+          "title": "Prime Minister rejects proposal of voluntary assisted dying via Telehealth"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5",
+          "title": "Labor supports telehealth for voluntary assisted dying at ALP conference, PM Anthony Albanese doesn't"
+        }
+      ]
+    },
+    {
+      "id": "ausalert-national-test",
+      "headline": "전국 AusAlert 시험으로 휴대전화 경보 울린다",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-26T09:00:00+10:00",
+      "voiceScript": "연방정부가 오늘 AusAlert의 첫 전국 시험을 실시하면서 휴대전화, 태블릿, 일부 스마트워치에서 10초간 긴급 경보가 울릴 예정입니다. 당국은 이 셀 브로드캐스트 시스템이 산불, 홍수 등 경보를 기존 문자보다 더 빠르고 안정적으로 특정 지역에 보낼 수 있는지 확인하려 합니다. 민감한 지점은 이 경보가 무음 모드를 우회할 수 있어, 가정폭력 피해자가 숨겨 둔 전화의 존재를 드러낼 위험이 있다는 점입니다. 앞으로는 도달 범위가 충분한지, 오경보가 낮게 유지되는지, 시민들이 새 경보 채널을 받아들이는지가 관건입니다.",
+      "differences": [
+        "ABC News는 전국 시행 시점과 정식 도입 전 리허설에 초점을 맞춥니다.",
+        "SBS News는 준비 방법, 기술 방식, 가정폭력 피해자를 위한 안전 조언에 더 무게를 둡니다.",
+        "news.com.au는 호환 기기, 10초 경보, 무음 모드 우회에 집중합니다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/what-to-know-about-ausalert-emergency-warning-test/106919574",
+          "title": "Get ready for the AusAlert emergency warning test"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/ausalert-emergency-warning-test-what-you-need-to-know-and-how-to-prepare/zghu8pk7o",
+          "title": "AusAlert emergency warning test: What you need to know and how to prepare"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/everything-you-need-to-know-about-ausalert-warning-alarm-test/news-story/dac4abc3a73dc2b0ca2c872cf5361f16",
+          "title": "Everything you need to know about the AusAlert warning alarm test"
+        }
+      ]
+    },
+    {
+      "id": "cluster-1",
+      "headline": "케언스 충돌 상황에서 경찰 총격, 2명 부상",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-25T09:47:50.000Z",
+      "voiceScript": "케언스에서 무장한 것으로 알려진 용의자와 관련된 대치가 경찰 발포로 이어져 남성과 여성 2명이 총상을 입었습니다. 용의자가 누구였는지, 상황이 어떻게 악화됐는지, 부상자 2명의 상태가 안정적인지 등 공개된 정보는 아직 제한적입니다. 다음 쟁점은 경찰이 명확한 시간표와 발포 판단의 근거를 제시할 수 있는지입니다. 그렇지 않으면 이 조치가 필요했는지에 대한 의문은 계속될 것입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/queensland-police-shoot-man-woman-cairns-altercation/106958468",
+          "title": "Two people shot by police during altercation in Cairns"
+        }
+      ]
+    },
+    {
+      "id": "cluster-3",
+      "headline": "서호주 도로에서 24시간 동안 5명 사망",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-25T06:21:30.000Z",
+      "voiceScript": "서호주에서 24시간도 안 돼 도로 사망자가 5명 발생하면서 주의 교통 사망 문제가 다시 심각한 검토 대상이 됐습니다. 사고는 서로 다른 장소에서 일어났고, 이는 특정 위험 구간 하나의 문제가 아니라 과속, 피로 운전, 지방 도로 위험이 겹친 문제임을 보여줍니다. 다음 질문은 주정부가 단속과 안전 캠페인을 강화할지, 아니면 운전자 책임에 계속 대부분의 무게를 둘지입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/five-people-die-in-24-hours-on-wa-roads/106958246",
+          "title": "Drivers urged to play their part as five people die on WA roads in 24 hours"
+        }
+      ]
+    },
+    {
+      "id": "cluster-4",
+      "headline": "가자 논의 추진 실패 후 휴식, 노동당 문화 비판",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-25T06:01:39.000Z",
+      "voiceScript": "노동당 전국회의에서 에드 휴식이 가자 관련 사안을 본회의에 올리려던 시도는 실패했고, 당내 분열이 드러났습니다. 이후 휴식은 노동당 문화가 지나치게 경직돼 있다고 비판했습니다. 이는 외교 문구만의 문제가 아니라 당 기율, 무슬림 유권자 정서, 정부가 중동 문제에서 움직일 수 있는 공간과도 연결됩니다. 앞으로 지도부가 더 분명한 설명을 내놓을지, 휴식이 당내 압박을 계속할지가 관전 포인트입니다.",
+      "differences": [
+        "ABC News는 휴식의 노동당 문화와 당 기율에 대한 직접 비판에 더 초점을 맞춥니다.",
+        "The Guardian Australia는 회의 막판에 갈등이 통제돼 공개 충돌로 번지지 않았다는 점을 강조합니다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/ed-husic-pushes-for-gaza-debate-at-labor-conference/106957962",
+          "title": "Husic lashes Labor culture after push for Gaza debate fails"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/ed-husic-labor-gaza-genocide-claims-ntwnfb",
+          "title": "Ed Husic-led push for Labor to recognise Gaza genocide fails, preventing public stoush"
+        }
+      ]
+    },
+    {
+      "id": "cluster-5",
+      "headline": "논란의 제초제 파라콰트, 호주 판매 중단",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-25T04:59:49.000Z",
+      "voiceScript": "신젠타가 호주에서 파라콰트 판매를 중단하기로 하면서 논란의 제초제의 당장 미래는 사실상 정리됐습니다. 회사는 강화된 규제와 함께 상업, 제조, 물류 압박을 이유로 들었습니다. 더 넓은 배경에는 이미 많은 나라가 이 제품을 금지했고, 건강 위험 우려가 수년간 이어졌다는 점이 있습니다. 다음 쟁점은 농가에 충분한 현실적 대체재가 있는지, 규제기관이 다른 고위험 화학물질에 대한 통제도 강화할지입니다.",
+      "differences": [
+        "ABC News는 회사 철수 배경의 규제 및 상업적 이유에 초점을 맞춥니다.",
+        "The Guardian Australia는 파라콰트가 여러 나라에서 금지됐고 파킨슨병 위험 논란이 오래 이어졌다는 점을 중심으로 다룹니다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/rural/2026-07-25/syngenta-stops-sales-of-paraquat-after-apvma-review/106956466",
+          "title": "Chemical manufacturer ends sales of controversial herbicide"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/environment/2026/jul/25/herbicide-parkinsons-disease-paraquat-pulled-from-sale-australia-syngenta",
+          "title": "Herbicide banned in 70 countries to be pulled from sale in Australia by chemical maker"
+        }
+      ]
+    },
+    {
+      "id": "cluster-6",
+      "headline": "Liberty Bell Bay, 폐쇄 전 1년 넘게 지급불능 가능성",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-25T04:54:08.000Z",
+      "voiceScript": "관리인 보고서에 따르면 태즈메이니아의 Liberty Bell Bay 망간 제련소는 주정부로부터 2천만 호주달러 대출을 받았음에도 폐쇄 전 1년 넘게 지급불능 상태였을 가능성이 있습니다. 이 내용은 지역 보조금, 기업 재무, 일자리 손실을 하나의 문제로 묶어 보여줍니다. 다음 쟁점은 관리인과 정부가 당시의 의사결정을 조사할지, 현장의 자산과 고용 기반을 얼마나 보존할 수 있을지입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/liberty-bell-bay-administrators-report-insolvent/106957968",
+          "title": "Liberty Bell Bay may have been insolvent for more than a year before closing"
+        }
+      ]
+    },
+    {
+      "id": "fuel-price-rise",
+      "headline": "유류 가격 상승, 유류세 감면 만료 임박",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-25T14:19:00+10:00",
+      "voiceScript": "호주의 휘발유 가격은 계속 오르고 있습니다. 연방정부는 공급이 안정적이라고 말하지만, 유류세 감면은 8월 2일 만료될 예정입니다. SBS와 The Guardian은 원유 가격, 중동 분쟁, 세금 감면 종료가 겹치면 주유소 가격이 더 오를 수 있고 일부 지역은 리터당 2호주달러에 가까워질 수 있다고 강조합니다. 핵심 질문은 정부가 감면을 다시 연장할지, 높은 연료비가 물가와 호주중앙은행의 금리 전망에 영향을 줄지입니다.",
+      "differences": [
+        "ABC News는 공급이 견조하며 정부가 시장 우려를 진정시키려 한다는 점을 강조합니다.",
+        "The Guardian Australia는 가계 부담, 리터당 2호주달러에 가까운 가격, 추가 금리 인상 위험을 강조합니다.",
+        "SBS News는 유류세 감면 종료 시점과 추가 금리 인상 기대를 짚습니다.",
+        "news.com.au는 원유가 40일 최고치를 기록한 점과 16센트 할인 종료의 영향을 다룹니다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876",
+          "title": "Federal government says Australia's fuel supply is 'solid and secure' as prices climb again"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising",
+          "title": "Australian households face prospect of interest rate hike and petrol prices rising above $2 a litre"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte",
+          "title": "Not a 'one off spike': Why higher petrol prices are set to return"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293",
+          "title": "Fuel warning for Aussies as oil price hits 40-day high"
+        }
+      ]
+    },
+    {
+      "id": "qld-bird-flu",
+      "headline": "퀸즐랜드, 첫 H5 조류독감 사례 확인",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-25T13:28:00+10:00",
+      "voiceScript": "퀸즐랜드는 모튼섬에서 발견된 죽은 바닷새 검체가 의심 양성으로 나온 뒤 CSIRO 확인을 거쳐 주 첫 H5 조류독감 사례를 확인했습니다. 주정부는 야생 조류와 해안 감시에 초점을 맞추고 있으며, 시민들에게 죽거나 병든 새를 만지지 말라고 경고하고 있습니다. 당국은 닭고기와 달걀은 계속 안전하게 먹을 수 있다고도 밝혔습니다. 다음 쟁점은 야생동물 감시가 확산을 빠르게 억제할 수 있는지, 바이러스가 더 많은 주로 이동할지입니다.",
+      "differences": [
+        "ABC News는 모튼섬 검체부터 CSIRO 확인까지 가장 자세한 시간표를 제시합니다.",
+        "SBS News는 가금류 제품의 안전성과 야생동물 관련 경고에 더 무게를 둡니다.",
+        "news.com.au는 퀸즐랜드가 세 번째 영향 주가 됐다는 점과 감시 강화, 시민 경고를 강조합니다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/bird-flu-queensland-suspected-case/106952884",
+          "title": "First suspected positive case of H5 bird flu detected in Queensland"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114",
+          "title": "First positive case of H5 bird flu in Queensland confirmed by CSIRO"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo",
+          "title": "Queensland records first bird flu case"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae",
+          "title": "Queensland records 'suspected positive' H5 bird flu case"
+        }
+      ]
+    },
+    {
+      "id": "cluster-9",
+      "headline": "높은 파트너 비자 수수료로 떨어져 지내는 커플들",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T20:42:03.000Z",
+      "voiceScript": "호주의 파트너 비자 신청 수수료가 1만1710호주달러로 올랐고, 긴 처리 기간까지 겹치면서 일부 국경 간 커플들이 떨어져 지내고 있습니다. 문제는 비자 가격만이 아닙니다. 비용과 지연이 함께 가족 생활을 미루고 있으며, 특히 이미 호주에서 살고 일하는 사람들에게 직접적인 영향을 줍니다. 다음 질문은 내무부가 높은 수수료와 적체 우려에 어떻게 답할지입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/australian-partner-visa-high-fee-long-waiting-times/ndnwrh7q8",
+          "title": "'Life delayed': The $11,710 bill keeping some couples apart"
+        }
+      ]
+    },
+    {
+      "id": "cluster-10",
+      "headline": "Christian Brothers 관련 학대 생존자들, 최근 법정 싸움에서 승리",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T15:00:17.000Z",
+      "voiceScript": "Christian Brothers와 관련된 학대 생존자들이 최근 법정 싸움에서 이겼지만, 보상과 책임 문제는 아직 해결과 거리가 멉니다. 핵심은 단일 판결이 아니라 교회 관련 법인의 지급불능, 보상 구조, 이미 수년을 기다린 생존자들 사이의 간극입니다. 다음 쟁점은 지급이 더 빨라질지, 책임을 구체적으로 확정할 수 있을지입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/abuse-survivors-have-won-their-latest-fight-against-the-christian-brothers-but-why-did-it-take-so-much-pain-and-suffering-to-get-here-ntwnfb",
+          "title": "Abuse survivors have won their latest fight against the Christian Brothers. But why did it take so much pain and suffering to get here? | Christopher Knaus"
+        }
+      ]
+    },
+    {
+      "id": "cluster-8",
+      "headline": "반유대주의 왕립위원회서 경찰, 회당 모욕 전화 미기록 인정",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T08:50:28.000Z",
+      "voiceScript": "반유대주의와 사회 통합에 관한 왕립위원회의 멜버른 다섯 번째 청문 블록 말미에, 경찰은 회당에 걸려온 모욕적 전화가 기록되지 않았다고 확인했습니다. 이 세부 내용은 혐오에 관한 큰 논의를 경찰 기록, 지역사회 안전, 제도적 실패라는 실무적 문제로 되돌립니다. 다음 쟁점은 위원회의 최종 권고가 경찰과 학교 전반에 더 엄격한 보고와 후속 시스템을 요구할지입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/antisemitism-royal-commission-wraps-fifth-hearing-block-in-melbourne/nv8dgn7xd",
+          "title": "Police confirm abusive phone call to synagogue not logged, at antisemitism royal commission"
+        }
+      ]
+    },
+    {
+      "id": "us-tariff-australian-exports",
+      "headline": "미국 새 관세, 호주 수출 타격",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-24T13:31:00+10:00",
+      "voiceScript": "미국은 강제노동 우려를 이유로 호주 수출품에 12.5%의 새 관세를 부과했습니다. 이는 기존 10% 임시 관세가 만료되면서 대체되는 조치입니다. 호주 정부에 이것은 단순한 외교적 장면이 아니라 수출업체, 무역 협상, 시장 신뢰에 영향을 미치는 사안입니다. 쇠고기와 금 같은 주요 품목은 즉각적인 최악의 영향은 피한 것으로 보이지만, 기업들은 이미 비용과 경쟁력을 우려하고 있습니다. 앞으로는 캔버라가 어떻게 대응할지, 이런 관세 논리가 더 많은 교역 상대에게 확산될지가 관전 포인트입니다.",
+      "differences": [
+        "ABC News는 임시 10% 관세 만료 뒤 세율이 2.5%포인트 오른다는 점과 기업의 법적·로비 선택지를 설명합니다.",
+        "The Guardian Australia는 12.5% 관세가 많은 호주 수출품에 적용되는 반면 쇠고기와 금은 일시적으로 제외됐다는 점을 강조합니다.",
+        "SBS News는 빠르게 움직이는 국제 뉴스로 다루며, 호주가 미국의 주장을 거부했고 즉시 발효됐다는 점을 부각합니다.",
+        "news.com.au는 앨버니지와 돈 패럴의 강한 반응, 소비자와 수출업체에 미칠 파급 효과에 초점을 맞춥니다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/us-trump-administration-new-tariff-announcement/106938462",
+          "title": "Trump administration confirms new 12.5 per cent tariff for Australia"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/businesses-sue-donald-trump-over-new-forced-labour-tariffs/106957762",
+          "title": "Small businesses sue Donald Trump over new forced labour tariffs"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/24/donald-trump-hits-australian-exports-to-us-with-new-higher-trade-tariff-over-claims-of-forced-labour",
+          "title": "Donald Trump hits Australian exports to US with new higher trade tariff over claims of 'forced labour'"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/australia-rejects-higher-us-tariffs/drpzxtsup",
+          "title": "Australia rejects higher US tariffs | SBS News"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/world/donald-trump-imposes-new-tariff-on-australian-and-other-global-imports-to-us/news-story/c9a9a55546a89fd4092519e8791f2ee6",
+          "title": "Australian imports to be hit with new Trump tariff"
+        }
+      ]
+    },
+    {
+      "id": "labor-conference-pay-package",
+      "headline": "노동당 회의, 10대 슈퍼와 유급 실습 확대 지지",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-24T10:00:00+10:00",
+      "voiceScript": "애들레이드에서 열린 노동당 전국회의는 젊은 호주인을 겨냥한 두 가지 직장 정책을 전진시켰습니다. 18세 미만 노동자의 슈퍼애뉴에이션 기준을 없애고, Paid Prac을 더 많은 일선 보건 과정으로 확대하는 내용입니다. 연방정부는 이 변화가 많은 학생과 젊은 캐주얼 노동자에게 영향을 주고, 의무 실습 기간의 생활비 부담을 덜 것이라고 말합니다. 지지자들은 은퇴 저축과 훈련 지원의 빈틈을 메우는 조치로 보지만, 비판자들은 소규모 고용주의 추가 비용을 문제 삼을 것입니다. 다음 시험대는 이 약속이 법제화되고 예산으로 제대로 뒷받침되는지입니다.",
+      "differences": [
+        "ABC News는 18세 미만 슈퍼 기준과 공식 회의 표결에 초점을 맞춥니다.",
+        "SBS News는 Paid Prac 대상 보건 분야와 주 338호주달러 지급을 강조합니다.",
+        "news.com.au는 젊은 노동자를 위한 큰 변화로 보며, 영향을 받는 10대 수와 고용주 비용을 부각합니다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-23/federal-politics-live-blog-paid-prac/106947462",
+          "title": "Federal politics: Floor fight over gas tax evaporates as Labor spruiks new workers' court at ALP conference"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/aussie-teenagers-could-benefit-from-super-change/news-story/fb4cca7708c93a5f1fa3631541ae966f",
+          "title": "Labor's major policy shift for teen workers"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/see-the-full-list-who-will-get-338-weekly-payments-under-prac-payment-expansion/j8vf90nhj",
+          "title": "Full list: Here's who will get $338 weekly payments under prac payment expansion"
+        }
+      ]
+    }
+  ],
+  "language": "ko"
+}
