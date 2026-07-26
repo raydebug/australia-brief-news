@@ -57,11 +57,65 @@
       "region": "National",
       "feed": "https://www.skynews.com.au/australia-news",
       "tone": "commercial broadcast news"
+    },
+    {
+      "id": "nine-news-au",
+      "name": "9News",
+      "region": "National",
+      "feed": "https://www.9news.com.au/national",
+      "tone": "commercial broadcast news"
+    },
+    {
+      "id": "seven-news-au",
+      "name": "7NEWS",
+      "region": "National",
+      "feed": "https://7news.com.au/news/australia",
+      "tone": "commercial broadcast news"
+    },
+    {
+      "id": "smh",
+      "name": "The Sydney Morning Herald",
+      "region": "NSW",
+      "feed": "https://www.smh.com.au/national",
+      "tone": "metro masthead"
+    },
+    {
+      "id": "the-age",
+      "name": "The Age",
+      "region": "Victoria",
+      "feed": "https://www.theage.com.au/national/victoria",
+      "tone": "metro masthead"
+    },
+    {
+      "id": "brisbane-times",
+      "name": "Brisbane Times",
+      "region": "Queensland",
+      "feed": "https://www.brisbanetimes.com.au/national/queensland",
+      "tone": "metro masthead"
+    },
+    {
+      "id": "watoday",
+      "name": "WAtoday",
+      "region": "Western Australia",
+      "feed": "https://www.watoday.com.au/national/western-australia",
+      "tone": "metro masthead"
+    },
+    {
+      "id": "canberra-times",
+      "name": "The Canberra Times",
+      "region": "ACT",
+      "feed": "https://www.canberratimes.com.au/news/latest-news/",
+      "tone": "regional masthead"
+    },
+    {
+      "id": "aap",
+      "name": "AAP",
+      "region": "National",
+      "feed": "https://www.aap.com.au/news/",
+      "tone": "wire service"
     }
   ],
-  "errors": [
-    "Fresh, stable item pages were not available for The Australian, Yahoo News Australia, AFR and Sky News Australia in this run, so the briefing was assembled from ABC News, SBS News, The Guardian Australia and news.com.au article pages."
-  ],
+  "errors": [],
   "clusters": [
     {
       "id": "vad-telehealth",
@@ -95,6 +149,35 @@
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5",
           "title": "Labor supports telehealth for voluntary assisted dying at ALP conference, PM Anthony Albanese doesn't"
+        }
+      ]
+    },
+    {
+      "id": "ausalert-national-test",
+      "headline": "National AusAlert test will trigger phone alerts",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-26T09:00:00+10:00",
+      "voiceScript": "The federal government is running the first national test of AusAlert today, with phones, tablets and some watches set to sound a 10-second emergency alert. Officials want to check whether the cell-broadcast system can send bushfire, flood and other warnings faster and more reliably than older text-message systems. The sensitive point is that the alert can override silent mode, which may create risk for people hiding a phone because of family violence. The next test is whether coverage is broad, false alarms stay low and the public accepts the new warning channel.",
+      "differences": [
+        "ABC News focuses on the national timing and the system rehearsal before full rollout.",
+        "SBS News puts more weight on preparation, the technology and safety advice for family-violence victims.",
+        "news.com.au concentrates on compatible devices, the 10-second alert and silent-mode override."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/what-to-know-about-ausalert-emergency-warning-test/106919574",
+          "title": "Get ready for the AusAlert emergency warning test"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/ausalert-emergency-warning-test-what-you-need-to-know-and-how-to-prepare/zghu8pk7o",
+          "title": "AusAlert emergency warning test: What you need to know and how to prepare"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/everything-you-need-to-know-about-ausalert-warning-alarm-test/news-story/dac4abc3a73dc2b0ca2c872cf5361f16",
+          "title": "Everything you need to know about the AusAlert warning alarm test"
         }
       ]
     },

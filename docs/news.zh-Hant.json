@@ -57,11 +57,65 @@
       "region": "National",
       "feed": "https://www.skynews.com.au/australia-news",
       "tone": "commercial broadcast news"
+    },
+    {
+      "id": "nine-news-au",
+      "name": "9News",
+      "region": "National",
+      "feed": "https://www.9news.com.au/national",
+      "tone": "commercial broadcast news"
+    },
+    {
+      "id": "seven-news-au",
+      "name": "7NEWS",
+      "region": "National",
+      "feed": "https://7news.com.au/news/australia",
+      "tone": "commercial broadcast news"
+    },
+    {
+      "id": "smh",
+      "name": "The Sydney Morning Herald",
+      "region": "NSW",
+      "feed": "https://www.smh.com.au/national",
+      "tone": "metro masthead"
+    },
+    {
+      "id": "the-age",
+      "name": "The Age",
+      "region": "Victoria",
+      "feed": "https://www.theage.com.au/national/victoria",
+      "tone": "metro masthead"
+    },
+    {
+      "id": "brisbane-times",
+      "name": "Brisbane Times",
+      "region": "Queensland",
+      "feed": "https://www.brisbanetimes.com.au/national/queensland",
+      "tone": "metro masthead"
+    },
+    {
+      "id": "watoday",
+      "name": "WAtoday",
+      "region": "Western Australia",
+      "feed": "https://www.watoday.com.au/national/western-australia",
+      "tone": "metro masthead"
+    },
+    {
+      "id": "canberra-times",
+      "name": "The Canberra Times",
+      "region": "ACT",
+      "feed": "https://www.canberratimes.com.au/news/latest-news/",
+      "tone": "regional masthead"
+    },
+    {
+      "id": "aap",
+      "name": "AAP",
+      "region": "National",
+      "feed": "https://www.aap.com.au/news/",
+      "tone": "wire service"
     }
   ],
-  "errors": [
-    "Fresh, stable item pages were not available for The Australian, Yahoo News Australia, AFR and Sky News Australia in this run, so the briefing was assembled from ABC News, SBS News, The Guardian Australia and news.com.au article pages."
-  ],
+  "errors": [],
   "clusters": [
     {
       "id": "vad-telehealth",
@@ -95,6 +149,35 @@
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5",
           "title": "Labor supports telehealth for voluntary assisted dying at ALP conference, PM Anthony Albanese doesn't"
+        }
+      ]
+    },
+    {
+      "id": "ausalert-national-test",
+      "headline": "全國 AusAlert 測試將觸發手機警報",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-26T09:00:00+10:00",
+      "voiceScript": "聯邦政府今天把全國 AusAlert 警報系統拿來做第一次全國測試，手機、平板和部分手錶都會在設定時間響起 10 秒警報。官方想驗證這套基於蜂窩廣播的新系統，能不能比舊短信更快、更穩定地把山火、洪水和其他緊急資訊送到指定區域。爭議點在於，它會覆蓋靜音模式，也可能讓藏機的家暴受害者暴露位置。接下來要看這次測試的覆蓋率、誤報率和公眾對安全提醒的接受度。",
+      "differences": [
+        "ABC News：強調全國同步測試、今天就會響起，以及系統正式上線前的現實演練。",
+        "SBS News：更強調如何準備測試、技術原理和對家暴受害者的安全提醒。",
+        "news.com.au：更集中講兼容設備、10 秒警報和靜音模式也會被覆蓋。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/what-to-know-about-ausalert-emergency-warning-test/106919574",
+          "title": "Get ready for the AusAlert emergency warning test"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/ausalert-emergency-warning-test-what-you-need-to-know-and-how-to-prepare/zghu8pk7o",
+          "title": "AusAlert emergency warning test: What you need to know and how to prepare"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/everything-you-need-to-know-about-ausalert-warning-alarm-test/news-story/dac4abc3a73dc2b0ca2c872cf5361f16",
+          "title": "Everything you need to know about the AusAlert warning alarm test"
         }
       ]
     },
