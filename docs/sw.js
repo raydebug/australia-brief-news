@@ -1,4 +1,4 @@
-const CACHE_NAME = "australia-brief-v3";
+const CACHE_NAME = "australia-brief-v4";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -33,6 +33,22 @@ self.addEventListener("fetch", (event) => {
 
   const url = new URL(request.url);
   const isNewsData = /\/news(\.[A-Za-z-]+)?\.json$/.test(url.pathname);
+
+  if (request.mode === "navigate") {
+    event.respondWith(
+      fetch(request)
+        .then((response) => {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(request, copy.clone());
+            cache.put("./index.html", copy);
+          });
+          return response;
+        })
+        .catch(() => caches.match(request).then((cached) => cached || caches.match("./index.html")))
+    );
+    return;
+  }
 
   if (isNewsData) {
     event.respondWith(
