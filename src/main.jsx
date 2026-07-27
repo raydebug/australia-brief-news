@@ -607,7 +607,16 @@ function App() {
                 key={cluster.id}
               >
               <div className="cluster-card-content">
-                <div className="cluster-card-meta">
+                <div className="cluster-title-row">
+                  <button
+                    className="cluster-title-button"
+                    onClick={() => {
+                      setActiveId(cluster.id);
+                      setExpandedId((current) => (current === cluster.id ? null : cluster.id));
+                    }}
+                  >
+                    <h3>{displayCluster.headline}</h3>
+                  </button>
                   <button
                     className={`icon-button compact card-speak-button ${speakingId === cluster.id ? "active" : ""}`}
                     onClick={() => readCluster(displayCluster)}
@@ -624,10 +633,9 @@ function App() {
                   className="cluster-card-button"
                   onClick={() => {
                     setActiveId(cluster.id);
-                  setExpandedId((current) => (current === cluster.id ? null : cluster.id));
-                }}
-              >
-                  <h3>{displayCluster.headline}</h3>
+                    setExpandedId((current) => (current === cluster.id ? null : cluster.id));
+                  }}
+                >
                   <p>{displayCluster.voiceScript}</p>
                 </button>
               </div>
