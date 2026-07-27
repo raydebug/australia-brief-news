@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T16:08:24.953Z",
+  "updatedAt": "2026-07-27T17:12:04.958Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -198,6 +198,21 @@
       ]
     },
     {
+      "id": "wa-reptile-smuggling",
+      "headline": "偷运 65 只野生爬行动物失败，新州男子被罚 3.1 万澳元",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T08:43:13+00:00",
+      "voiceScript": "新州一名男子因为试图把 65 只野生爬行动物从西澳运到新州，被判罚款 3.1 万澳元，案件中有 55 只死亡。这个案子说明，野生动物跨州走私并不是轻罪，法院会把动物福利、生物安全和经济利益一并考虑。接下来要看是否还有后续调查，或者这笔罚款会不会成为今后类似案件的参照。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/man-fined-for-botched-lizard-smuggling-wa-to-nsw/106962820",
+          "title": "Man fined $31k after botched smuggling attempt kills 55 reptiles"
+        }
+      ]
+    },
+    {
       "id": "jewish-security-guns-inquiry",
       "headline": "犹太社区安保持枪争议进入皇家委员会听证",
       "sourceCount": 3,
@@ -334,14 +349,15 @@
     {
       "id": "nsw-icac-perrottet-brothers",
       "headline": "新州 ICAC 听证追查自由党可疑付款",
-      "sourceCount": 4,
+      "sourceCount": 5,
       "publishedAt": "2026-07-27T07:42:17Z",
-      "voiceScript": "新州反腐机构 ICAC 的最新听证继续围绕自由党内部的可疑捐款、电话记录和政治关系展开。现在的焦点不只是某一笔钱，而是资金、党内组织和开发审批之间有没有形成可追踪的交换链条。这个案子重要，因为它会直接影响外界对州政治、规划决策和捐款透明度的判断。接下来要看证人证词、文件和通话记录能不能把这些环节串起来。",
+      "voiceScript": "新州 ICAC 正在审理一宗围绕自由党可疑捐款、秘密录音和党内人脉的听证。最新披露显示，调查对象被指通过伪装成咨询费的付款和被禁捐款来影响党内提名与政策走向。这个案子的关键在于，它直接关系到州政治透明度、捐款规则和开发利益能否介入党务。接下来要看证词、文件和通话记录是否能把资金流与人事安排串起来，并判断是否会有人被转交起诉。",
       "differences": [
-        "ABC News：把它当作 ICAC 调查的开场，重点是程序和调查范围。",
-        "AAP News：更突出可疑捐款对自由党的打击。",
-        "The Guardian Australia：关注权力掮客、英国行踪和证人是否到庭。",
-        "Australian Financial Review：直接抓住电话窃听和“虚假付款”细节。"
+        "ABC News：按调查时间线解释 ICAC 的听证范围和证人安排。",
+        "AAP News：强调被污染的捐款会怎样打击自由党。",
+        "The Guardian Australia：把它写成自由党右倾派系和秘密录音交织的党内权力斗争。",
+        "Australian Financial Review：突出电话窃听和“虚假付款”的细节。",
+        "news.com.au：聚焦 WhatsApp 截听、Nassif 的自夸，以及保守派招募网络。"
       ],
       "links": [
         {
@@ -361,13 +377,18 @@
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/former-nsw-liberal-powerbroker-at-heart-of-icac-allegations-now-living-in-uk-and-not-expected-to-appear-ntwnfb",
-          "title": "Former NSW Liberal powerbroker at heart of Icac allegations now living in UK and not expected to appear"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/icac-operation-rosny-nsw-liberals-corruption-investigation-ntwnfb",
+          "title": "Secret tape recordings and 'sham' payments: the Liberals' internal ideological war laid bare"
         },
         {
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/politics/phone-taps-and-sham-payments-to-liberals-in-icac-bombshell-hearing-20260726-p60iny",
           "title": "Phone taps and 'sham' payments to Liberals in ICAC bombshell hearing"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/courts-law/whatsapp-intercept-and-christian-recruitment-in-nsw-liberal-icac-probe/news-story/7fdf009da078e46f2f594550f31837f4",
+          "title": "‘Godfather’: Fugitive’s boast over ex-MP"
         }
       ]
     },
@@ -419,17 +440,25 @@
     {
       "id": "qld-river-to-the-sea-challenge",
       "headline": "昆州“从河到海”禁令遭高院挑战",
-      "voiceScript": "昆州围绕 “from the river to the sea” 的禁令再次进入法院程序，七名抗议者提起高院挑战，主张这项法律直接限制言论。争议焦点在于，州政府把它视为反仇恨措施，而批评者认为它已经触及内容审查和抗议自由。这个问题重要，因为它会影响昆州未来如何处理街头示威、仇恨言论和政治表达。接下来要看高院是否受理，以及案件是否会推翻或收窄现行规定。",
-      "differences": [],
+      "voiceScript": "昆州围绕 “from the river to the sea” 的禁令继续在高院受挑战。抗议者主张，这项把某些口号列为可罚表达的法律已经越过了反仇恨的界线，直接限制了言论自由。争议核心是州政府怎样在反仇恨、公共安全和政治表达之间划线。接下来要看高院是否受理，以及这项挑战会不会影响现行规定的适用范围。",
+      "differences": [
+        "ABC News：更直接呈现抗议者的法律挑战和争点。",
+        "The Guardian Australia：强调禁令把两个口号都纳入可罚表达，焦点是言论自由边界。"
+      ],
       "publishedAt": "2026-07-27T06:57:05Z",
       "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/qld-palestine-israel-hate-speech-laws-high-court-challenge/106964098",
+          "title": "Protesters mount High Court challenge over Queensland hate speech laws"
+        },
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/27/protesters-launch-high-court-challenge-to-queensland-ban-on-from-the-river-to-the-sea-ntwnfb",
           "title": "Protesters launch high court challenge to Queensland ban on ‘from the river to the sea’"
         }
       ],
-      "sourceCount": 1
+      "sourceCount": 2
     },
     {
       "id": "qld-wife-baby-court-hearing",

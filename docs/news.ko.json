@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T16:08:24.953Z",
+  "updatedAt": "2026-07-27T17:12:04.958Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -198,6 +198,21 @@
       ]
     },
     {
+      "id": "wa-reptile-smuggling",
+      "headline": "밀수 실패로 파충류 65마리 죽어, NSW 남성에 A$31,000 벌금",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T08:43:13+00:00",
+      "voiceScript": "뉴사우스웨일스주 남성이 서호주에서 65마리의 야생 파충류를 빼내려다 실패해 55마리가 죽은 뒤 A$31,000의 벌금을 받았다. 이 사건은 야생동물 밀반출, 동물복지, 주 경계를 넘는 집행을 모두 보여준다. 앞으로 추가 조사 여부와 유사 사건의 기준이 될지에 관심이 쏠린다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/man-fined-for-botched-lizard-smuggling-wa-to-nsw/106962820",
+          "title": "Man fined $31k after botched smuggling attempt kills 55 reptiles"
+        }
+      ]
+    },
+    {
       "id": "jewish-security-guns-inquiry",
       "headline": "유대인 커뮤니티 보안요원 무장 여부, 왕립위원회서 논쟁",
       "sourceCount": 3,
@@ -331,14 +346,15 @@
     {
       "id": "nsw-icac-perrottet-brothers",
       "headline": "뉴사우스웨일스 ICAC 청문, 가짜 지급과 자유당 실세 추적",
-      "sourceCount": 4,
+      "sourceCount": 5,
       "publishedAt": "2026-07-27T07:42:17Z",
-      "voiceScript": "뉴사우스웨일스 반부패 기구 ICAC는 자유당 기부금, 통화 기록, 정치적 영향력 의혹을 계속 들여다보고 있습니다. 이제 쟁점은 한 번의 지급이 아니라 돈과 당 조직, 개발 승인 사이에 추적 가능한 거래가 있었는지입니다. 주 정치와 개발 결정, 기부금 투명성에 대한 판단에 영향을 줄 수 있어 중요합니다. 앞으로는 증언과 문서, 통화 기록이 서로 맞아떨어지는지가 관건입니다.",
+      "voiceScript": "뉴사우스웨일스 ICAC는 자유당 인사들이 금지된 기부금, 가짜 자문료, 당내 인맥을 이용해 공천과 정책에 영향을 미쳤다는 의혹을 심리하고 있다. 최근 공개된 내용에는 비밀 녹음과 통화 도청 정황도 포함돼 있어, 자금이 당 관련 조직을 통해 어떻게 이동했는지 조사하고 있다. 이 사건은 주 정치의 투명성과 기부 규정, 그리고 정당 운영의 경계를 직접 묻는다는 점에서 중요하다. 앞으로는 추가 증언과 문서 검토가 이어지고, 기소로 넘겨질 사안이 나올지가 쟁점이다.",
       "differences": [
-        "ABC News: ICAC 조사 시작점으로 두고 절차를 설명.",
-        "AAP News: 문제성 기부금과 자유당에 미치는 타격을 강조.",
-        "The Guardian Australia: 실세 인물의 거취와 출석 여부에 초점.",
-        "Australian Financial Review: 통화 도청과 가짜 지급을 앞세움."
+        "ABC News：청문회 일정과 조사 범위를 차분히 설명한다.",
+        "AAP News：더러운 기부금이 자유당에 주는 타격을 강조한다.",
+        "The Guardian Australia：당내 우파 세력의 내부 권력다툼과 비밀 녹음을 함께 다룬다.",
+        "Australian Financial Review：전화 도청과 “가짜 지급”을 전면에 내세운다.",
+        "news.com.au：WhatsApp 통화 녹취와 Nassif의 자랑을 집중 보도한다."
       ],
       "links": [
         {
@@ -358,13 +374,18 @@
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/former-nsw-liberal-powerbroker-at-heart-of-icac-allegations-now-living-in-uk-and-not-expected-to-appear-ntwnfb",
-          "title": "Former NSW Liberal powerbroker at heart of Icac allegations now living in UK and not expected to appear"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/icac-operation-rosny-nsw-liberals-corruption-investigation-ntwnfb",
+          "title": "Secret tape recordings and 'sham' payments: the Liberals' internal ideological war laid bare"
         },
         {
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/politics/phone-taps-and-sham-payments-to-liberals-in-icac-bombshell-hearing-20260726-p60iny",
           "title": "Phone taps and 'sham' payments to Liberals in ICAC bombshell hearing"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/courts-law/whatsapp-intercept-and-christian-recruitment-in-nsw-liberal-icac-probe/news-story/7fdf009da078e46f2f594550f31837f4",
+          "title": "‘Godfather’: Fugitive’s boast over ex-MP"
         }
       ]
     },
@@ -416,17 +437,25 @@
     {
       "id": "qld-river-to-the-sea-challenge",
       "headline": "퀸즐랜드 금지 조항에 고법 도전",
-      "voiceScript": "퀸즐랜드에서 \"from the river to the sea\" 금지 조항이 다시 법정으로 갔고, 7명의 시위대는 이 법이 표현을 직접 제한한다며 고법에 도전했습니다. 주 정부는 혐오 방지 조치라고 주장하지만 비판 측은 내용 기반 검열과 시위 제한이라고 봅니다. 앞으로 퀸즐랜드가 집회, 혐오 발언, 정치 표현을 어떻게 다룰지에 영향을 줄 수 있어 중요합니다. 이제 고법이 사건을 받아들일지, 그리고 법이 좁혀지거나 무효화될지가 관건입니다.",
-      "differences": [],
+      "voiceScript": "퀸즐랜드의 “from the river to the sea” 금지 조치는 이제 시위대의 고등법원 도전 대상이 됐다. 이 법이 혐오표현 방지를 넘어 발언 통제로 가는 것 아니냐는 주장이 핵심이다. 쟁점은 주 정부가 공동체 보호, 공공질서, 정치적 표현의 자유를 어떻게 가를지다. 앞으로는 고등법원이 이 사건을 받아들일지, 그리고 현행 규정이 얼마나 좁아질지가 관건이다.",
+      "differences": [
+        "ABC News：법 조항과 쟁점을 직접 짚어낸다.",
+        "The Guardian Australia：시위 구호 규제의 경계와 표현의 자유 논쟁에 초점을 맞춘다."
+      ],
       "publishedAt": "2026-07-27T06:57:05Z",
       "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/qld-palestine-israel-hate-speech-laws-high-court-challenge/106964098",
+          "title": "Protesters mount High Court challenge over Queensland hate speech laws"
+        },
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/27/protesters-launch-high-court-challenge-to-queensland-ban-on-from-the-river-to-the-sea-ntwnfb",
           "title": "Protesters launch high court challenge to Queensland ban on ‘from the river to the sea’"
         }
       ],
-      "sourceCount": 1
+      "sourceCount": 2
     },
     {
       "id": "qld-wife-baby-court-hearing",
