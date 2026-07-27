@@ -527,27 +527,27 @@ p {
 }
 
 .link-list {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
 .link-list a {
+  width: 44px;
+  height: 44px;
   display: grid;
-  grid-template-columns: 32px minmax(0, 1fr) 16px;
-  align-items: center;
-  gap: 10px;
+  place-items: center;
   color: #12333a;
   text-decoration: none;
   border: 1px solid #ded6c9;
   border-radius: 8px;
-  padding: 10px;
+  padding: 5px;
   background: #fffdf8;
 }
 
-.link-list span:not(.source-logo) {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.link-list a > span:not(.source-logo),
+.link-list a > svg {
+  display: none;
 }
 
 .empty-state {
