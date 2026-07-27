@@ -366,14 +366,10 @@ function App() {
   const [online, setOnline] = useState(navigator.onLine);
   const [toolsOpen, setToolsOpen] = useState(false);
   const [language, setLanguage] = useState(initialLanguage);
-  const [articleLanguage, setArticleLanguage] = useState(null);
-  const [languagePayloads, setLanguagePayloads] = useState({});
   const [speakingId, setSpeakingId] = useState(null);
   const [speechVoices, setSpeechVoices] = useState([]);
 
   const labels = I18N[language];
-  const selectedLanguage = articleLanguage || language;
-  const languageControlValue = activeId ? selectedLanguage : language;
   const activeNewsSourceUrl = newsSourceUrl(language);
   const canSpeak = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
 
@@ -383,7 +379,6 @@ function App() {
     try {
       const payload = await fetchNewsPayload(language);
       setData(payload);
-      setLanguagePayloads((current) => ({ ...current, [language]: payload }));
       setActiveId((current) => current || payload.clusters?.[0]?.id);
     } catch {
       setError(labels.dataError);
@@ -394,23 +389,6 @@ function App() {
   useEffect(() => {
     loadNews();
   }, [language]);
-
-  useEffect(() => {
-    if (!articleLanguage || articleLanguage === language || languagePayloads[articleLanguage]) return;
-
-    let cancelled = false;
-    fetchNewsPayload(articleLanguage)
-      .then((payload) => {
-        if (!cancelled) {
-          setLanguagePayloads((current) => ({ ...current, [articleLanguage]: payload }));
-        }
-      })
-      .catch(() => {});
-
-    return () => {
-      cancelled = true;
-    };
-  }, [articleLanguage, language, languagePayloads]);
 
   useEffect(() => {
     window.localStorage.setItem("brief-language", language);
@@ -507,23 +485,8 @@ function App() {
   }, [data, mode, query]);
 
   const active = clusters.find((cluster) => cluster.id === activeId) || clusters[0];
-
-  function localizedCluster(cluster, targetLanguage = selectedLanguage) {
-    const translated = languagePayloads[targetLanguage]?.clusters?.find((item) => item.id === cluster?.id);
-    return translated ? { ...translated, language: targetLanguage } : { ...cluster, language };
-  }
-
-  const localizedActive = active ? localizedCluster(active) : null;
-  const localizedActiveDifferences = uniqueDifferences(localizedActive);
-
-  function handleLanguageChange(nextLanguage) {
-    if (activeId) {
-      setArticleLanguage(nextLanguage === language ? null : nextLanguage);
-      return;
-    }
-    setLanguage(nextLanguage);
-    setArticleLanguage(null);
-  }
+  const displayActive = active ? { ...active, language } : null;
+  const activeDifferences = uniqueDifferences(displayActive);
 
   useEffect(() => {
     if (activeId && clusters.length && !clusters.some((cluster) => cluster.id === activeId)) {
@@ -546,8 +509,8 @@ function App() {
           </div>
           <select
             className="language-select"
-            value={languageControlValue}
-            onChange={(event) => handleLanguageChange(event.target.value)}
+            value={language}
+            onChange={(event) => setLanguage(event.target.value)}
             aria-label="Language"
           >
             {LANGUAGES.map((item) => (
@@ -644,8 +607,7 @@ function App() {
 
         <div className="cluster-list">
           {clusters.map((cluster) => {
-            const isCurrent = cluster.id === active?.id || cluster.id === expandedId;
-            const displayCluster = isCurrent ? localizedCluster(cluster) : { ...cluster, language };
+            const displayCluster = { ...cluster, language };
 
             return (
               <article
@@ -742,35 +704,35 @@ function App() {
       </section>
 
       <section className="detail-pane">
-        {localizedActive ? (
+        {displayActive ? (
           <>
             <div className="detail-top">
               <div>
                 <span className="eyebrow">{labels.voiceScript}</span>
-                <h2>{localizedActive.headline}</h2>
+                <h2>{displayActive.headline}</h2>
               </div>
               <button
-                className={`icon-button ${speakingId === localizedActive.id ? "active" : ""}`}
-                onClick={() => readCluster(localizedActive)}
+                className={`icon-button ${speakingId === displayActive.id ? "active" : ""}`}
+                onClick={() => readCluster(displayActive)}
                 disabled={!canSpeak}
-                title={speakingId === localizedActive.id ? labels.stopReading : labels.readAloud}
-                aria-label={speakingId === localizedActive.id ? labels.stopReading : labels.readAloud}
-                aria-pressed={speakingId === localizedActive.id}
+                title={speakingId === displayActive.id ? labels.stopReading : labels.readAloud}
+                aria-label={speakingId === displayActive.id ? labels.stopReading : labels.readAloud}
+                aria-pressed={speakingId === displayActive.id}
               >
                 <Volume2 size={19} />
               </button>
             </div>
 
             <article className="script-panel">
-              <p>{localizedActive.voiceScript}</p>
+              <p>{displayActive.voiceScript}</p>
             </article>
 
-            <div className={`detail-grid ${localizedActiveDifferences.length === 0 ? "single-column" : ""}`}>
-              {localizedActiveDifferences.length > 0 && (
+            <div className={`detail-grid ${activeDifferences.length === 0 ? "single-column" : ""}`}>
+              {activeDifferences.length > 0 && (
                 <section>
                   <h3>{labels.sourceDifferences}</h3>
                   <div className="difference-list">
-                    {localizedActiveDifferences.map((difference) => (
+                    {activeDifferences.map((difference) => (
                       <p key={difference}>{difference}</p>
                     ))}
                   </div>
@@ -780,7 +742,7 @@ function App() {
               <section>
                 <h3>{labels.originalLinks}</h3>
                 <div className="link-list">
-                  {localizedActive.links.map((link) => (
+                  {displayActive.links.map((link) => (
                     <a href={link.url} target="_blank" rel="noreferrer" key={`${link.source}-${link.url}`}>
                       <SourceLogo name={link.source} url={link.url} />
                       <span>{link.source}</span>
