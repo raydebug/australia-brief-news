@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T23:10:57Z",
+  "updatedAt": "2026-07-27T00:07:19Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,7 +116,7 @@
     }
   ],
   "errors": [
-    "The Australian、Sky News Australia 和 Canberra Times 在本輪沒有暴露穩定可解析的公開列表；AAP 文章頁返回 404，因此新簇未使用 AAP 新稿。"
+    "The Australian、Sky News Australia、Canberra Times 和 AAP 這次仍沒有穩定可解析的公開列表；ABC、SBS 和 The Guardian 的 RSS 可直接用於本輪增量，9News、7NEWS 和 AFR 頁面只暴露了部分結構化標題。"
   ],
   "clusters": [
     {
@@ -166,6 +166,21 @@
       ]
     },
     {
+      "id": "afl-state-of-origin-future",
+      "headline": "AFL確認2027州際對抗賽安排，維州被排除在外",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T22:19:38Z",
+      "voiceScript": "澳洲橄欖球聯盟確認，2027年的州際對抗賽將繼續推進，但維多利亞州不會出現在這場比賽名單裡。AFL希望透過這樣的安排維持代表賽的吸引力，也讓球迷重新討論州隊身分和賽程價值。對維州球迷來說，這代表傳統對抗賽的回歸仍然不完整。接下來要看聯盟和各州如何解釋這項決定，以及它會不會影響未來的代表賽安排。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/afl-confirms-state-of-origin-future/106961174",
+          "title": "AFL confirms State of Origin future with Victoria left out of 2027 game"
+        }
+      ]
+    },
+    {
       "id": "woorabinda-rehab-closure",
       "headline": "昆州偏遠社區失去唯一康復服務",
       "sourceCount": 1,
@@ -210,6 +225,21 @@
       ]
     },
     {
+      "id": "female-tradies-sexism",
+      "headline": "女技工呼籲更強保護，行業「惡意性別歧視」再受關注",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T21:16:46Z",
+      "voiceScript": "建築和手工行業裡的女技工仍然經常遇到帶敵意的性別歧視，專家說這已經影響招募、留任和安全感。報導關注的是具體工作場景中的語言、排斥和不公平待遇，而不是抽象的文化爭論。對行業來說，這關係到勞動力缺口能不能補上。下一步要看培訓、工會和雇主會不會推出更明確的保護措施。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/more-action-needed-to-protect-female-tradies-from-nasty-sexism/106939880",
+          "title": "More action needed to protect female tradies from 'nasty sexism', experts say"
+        }
+      ]
+    },
+    {
       "id": "albanese-dinner-scrutiny",
       "headline": "阿爾巴尼斯因富豪晚宴再受審視",
       "sourceCount": 2,
@@ -233,6 +263,21 @@
       ]
     },
     {
+      "id": "western-sydney-airport-hotel-crisis",
+      "headline": "西雪梨新機場周邊住宿短缺，旅客落地後或遇酒店危機",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T21:03:22Z",
+      "voiceScript": "西雪梨新機場周邊的飯店和床位供應被指跟不上，數以千計的旅客落地後可能就面對住宿缺口。問題不只是機場本身，而是周邊交通、夜間轉乘和商業配套還沒準備好。對首批使用者來說，這會直接變成成本和混亂。接下來要看地方政府、飯店業和機場營運方能不能加快補位。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/lack-of-hotels-and-beds-near-western-sydney-airport-a-crisis/106956246",
+          "title": "Hotel crisis looms for thousands of travellers landing at new airport"
+        }
+      ]
+    },
+    {
       "id": "family-flees-arson",
       "headline": "墨爾本一戶人家逃離縱火襲擊",
       "sourceCount": 1,
@@ -244,6 +289,36 @@
           "source": "The Sydney Morning Herald",
           "url": "https://www.smh.com.au/national/family-flees-arson-attack-in-melbourne-20260727-p60iq4.html",
           "title": "Family flees arson attack in Melbourne"
+        }
+      ]
+    },
+    {
+      "id": "nsw-icac-powerbroker-uk",
+      "headline": "新州自由黨前權力掮客身在英國，Icac指控聽證受關注",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T15:00:17Z",
+      "voiceScript": "新南威爾士自由黨一名前權力掮客因 Icac 指控成為焦點，但他目前身在英國，預計不會親自出庭。報導的關鍵在於，調查的時間表和執行方式可能因此受到影響。對反腐調查來說，缺席不一定代表結案，反而可能拖長程序。下一步要看 Icac 是否還能繼續推進證詞和聽證安排。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/former-nsw-liberal-powerbroker-at-heart-of-icac-allegations-now-living-in-uk-and-not-expected-to-appear-ntwnfb",
+          "title": "Former NSW Liberal powerbroker at heart of Icac allegations now living in UK and not expected to appear"
+        }
+      ]
+    },
+    {
+      "id": "one-nation-remigrate-interview",
+      "headline": "一國黨議員「遣返」說法重浮水面，移民爭議再起",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T15:00:17Z",
+      "voiceScript": "一段舊訪談重新浮出水面後，一國黨參議員關於把非法簽證持有人「remigrate」的說法再次引發爭議。爭議核心是這類措辭到底是在炒作移民焦慮，還是反映更強硬的移民政策路線。對聯邦政治來說，這會繼續考驗各黨在移民和邊境議題上的表態。接下來要看當事人和黨內是否會進一步澄清。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/get-rid-of-them-one-nation-senator-claims-party-will-remigrate-visa-holders-in-resurfaced-interview-ntwnfb",
+          "title": "‘Get rid of them’: One Nation senator claims party will ‘remigrate’ illegal visa holders in resurfaced interview"
         }
       ]
     },
@@ -347,6 +422,21 @@
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5",
           "title": "Labor supports telehealth for voluntary assisted dying at ALP conference, PM Anthony Albanese doesn't"
+        }
+      ]
+    },
+    {
+      "id": "albanese-fuel-prices",
+      "headline": "阿爾巴尼斯釋放燃油新動作，汽油價格或繼續上漲",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T02:52:29Z",
+      "voiceScript": "阿爾巴尼斯釋放出新的燃油措施信號，但多家媒體都在警告，汽油價格短期內可能繼續上升。關鍵不只是表態，而是油價和通膨傳導會不會再次擠壓家庭預算。這個問題之所以重要，是因為它直接碰到生活成本和聯邦政府的經濟壓力。接下來要看官方會不會公布更具體的補貼、稅費或供應鏈措施。",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/anthony-albanese-flags-new-fuel-announcements-as-petrol-prices-tipped-to-spike-further/vlszrc9rb",
+          "title": "Albanese flags new fuel announcements as petrol prices tipped to spike further"
         }
       ]
     },

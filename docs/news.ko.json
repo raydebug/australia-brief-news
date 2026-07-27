@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T23:10:57Z",
+  "updatedAt": "2026-07-27T00:07:19Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,7 +116,7 @@
     }
   ],
   "errors": [
-    "The Australian, Sky News Australia, Canberra Times는 이번 실행에서 안정적으로 파싱 가능한 공개 목록을 제공하지 않았습니다. AAP 기사 페이지는 404를 반환해 새 AAP 항목은 사용하지 않았습니다."
+    "The Australian, Sky News Australia, Canberra Times, AAP는 이번 실행에서도 안정적으로 파싱 가능한 공개 목록을 제공하지 않았습니다. ABC, SBS, The Guardian RSS는 새 호주 기사에 활용할 수 있었지만, 9News, 7NEWS, AFR 페이지는 일부 구조화된 제목만 노출했습니다."
   ],
   "clusters": [
     {
@@ -166,6 +166,21 @@
       ]
     },
     {
+      "id": "afl-state-of-origin-future",
+      "headline": "AFL, 2027년 스테이트 오브 오리진 계획 확인…빅토리아 제외",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T22:19:38Z",
+      "voiceScript": "호주 풋볼 리그는 2027년 스테이트 오브 오리진 구상을 확인했지만, 빅토리아주는 경기 편성에서 빠졌습니다. 리그는 대표 경기의 흡인력을 유지하고 주 정체성과 일정 가치에 대한 논의를 다시 끌어내려는 모습입니다. 빅토리아 팬들에게는 복원이 아직 완성되지 않은 셈입니다. 이제 리그와 각 주가 이 결정을 어떻게 설명할지, 그리고 향후 대표 경기 일정에 어떤 영향을 줄지가 관건입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/afl-confirms-state-of-origin-future/106961174",
+          "title": "AFL confirms State of Origin future with Victoria left out of 2027 game"
+        }
+      ]
+    },
+    {
       "id": "woorabinda-rehab-closure",
       "headline": "퀸즐랜드 외딴 지역 재활센터 폐쇄로 지역 내 치료 공백",
       "sourceCount": 1,
@@ -210,6 +225,21 @@
       ]
     },
     {
+      "id": "female-tradies-sexism",
+      "headline": "여성 기술직 종사자들, 직장 내 성차별 보호 강화 요구",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T21:16:46Z",
+      "voiceScript": "건설과 현장 기술직에서 여성 종사자들이 여전히 적대적인 성차별을 겪고 있고, 전문가들은 이것이 채용·유지·안전감에 영향을 준다고 말합니다. 핵심은 추상적인 문화 논쟁이 아니라 작업 현장에서의 언행과 배제, 불공정 대우입니다. 업계 입장에서는 여성들이 계속 밀려난다면 인력난을 해소할 수 없다는 점이 중요합니다. 이제 교육기관과 노조, 고용주가 더 분명한 보호 조치를 내놓을지가 관건입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/more-action-needed-to-protect-female-tradies-from-nasty-sexism/106939880",
+          "title": "More action needed to protect female tradies from 'nasty sexism', experts say"
+        }
+      ]
+    },
+    {
       "id": "albanese-dinner-scrutiny",
       "headline": "알바니지 총리, 재벌 주최 만찬으로 다시 도마에",
       "sourceCount": 2,
@@ -233,6 +263,21 @@
       ]
     },
     {
+      "id": "western-sydney-airport-hotel-crisis",
+      "headline": "웨스턴시드니 공항 주변 숙소 부족, 도착객 불편 우려",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T21:03:22Z",
+      "voiceScript": "웨스턴시드니 공항 주변의 호텔과 침대 공급이 예상 수요를 따라가지 못할 수 있다는 지적이 나왔습니다. 문제는 공항 자체보다 더 넓습니다. 교통 연결, 심야 환승, 인근 상업 서비스가 아직 충분히 준비되지 않았기 때문입니다. 첫 이용객들은 비용 상승과 도착 혼선을 먼저 겪을 수 있습니다. 이제 지방정부와 호텔업계, 공항 운영사가 얼마나 빨리 공백을 메울지가 관건입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/lack-of-hotels-and-beds-near-western-sydney-airport-a-crisis/106956246",
+          "title": "Hotel crisis looms for thousands of travellers landing at new airport"
+        }
+      ]
+    },
+    {
       "id": "family-flees-arson",
       "headline": "멜버른에서 방화 공격, 가족 피신",
       "sourceCount": 1,
@@ -244,6 +289,36 @@
           "source": "The Sydney Morning Herald",
           "url": "https://www.smh.com.au/national/family-flees-arson-attack-in-melbourne-20260727-p60iq4.html",
           "title": "Family flees arson attack in Melbourne"
+        }
+      ]
+    },
+    {
+      "id": "nsw-icac-powerbroker-uk",
+      "headline": "NSW 자유당 전 권력 실세는 영국 체류 중, Icac 의혹은 미해결",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T15:00:17Z",
+      "voiceScript": "NSW 자유당의 전 권력 실세가 Icac 의혹의 중심에 있지만, 현재는 영국에 있어 직접 출석할 가능성은 낮습니다. 핵심은 조사의 일정과 집행 방식이 더 어려워질 수 있다는 점입니다. 부패 조사에서 불출석은 사건 종결을 뜻하지 않고, 절차만 길어질 수 있습니다. 이제 Icac가 증언과 청문 일정을 어떻게 이어갈지가 관건입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/former-nsw-liberal-powerbroker-at-heart-of-icac-allegations-now-living-in-uk-and-not-expected-to-appear-ntwnfb",
+          "title": "Former NSW Liberal powerbroker at heart of Icac allegations now living in UK and not expected to appear"
+        }
+      ]
+    },
+    {
+      "id": "one-nation-remigrate-interview",
+      "headline": "원네이션 “재이주” 발언에 이민 논쟁 재점화",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T15:00:17Z",
+      "voiceScript": "예전 인터뷰가 다시 떠오르면서 원네이션 상원의원의 불법 비자 소지자 “remigrate” 발언이 또다시 논란이 되고 있습니다. 쟁점은 이런 표현이 이민 불안을 자극하려는 것인지, 아니면 더 강경한 정책 노선을 보여주는 것인지입니다. 연방 정치에서는 이로 인해 이민과 국경 통제가 계속 전면에 남게 됩니다. 이제 당사자나 당이 추가 설명을 내놓을지가 관건입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/get-rid-of-them-one-nation-senator-claims-party-will-remigrate-visa-holders-in-resurfaced-interview-ntwnfb",
+          "title": "‘Get rid of them’: One Nation senator claims party will ‘remigrate’ illegal visa holders in resurfaced interview"
         }
       ]
     },
@@ -347,6 +422,21 @@
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5",
           "title": "Labor supports telehealth for voluntary assisted dying at ALP conference, PM Anthony Albanese doesn't"
+        }
+      ]
+    },
+    {
+      "id": "albanese-fuel-prices",
+      "headline": "알바니지, 새 연료 대책 시사…휘발유값 추가 상승 전망",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T02:52:29Z",
+      "voiceScript": "앤서니 알바니지는 새 연료 대책을 시사했지만, 단기적으로 휘발유 가격은 더 오를 가능성이 큽니다. 핵심은 유가와 물가 전가가 가계 예산을 얼마나 더 압박하느냐입니다. 이는 생활비 부담과 연방정부의 경제 대응 신뢰도에 직결됩니다. 이제 캔버라가 보조금·세금·공급망에 대한 구체적 패키지를 내놓을지가 관건입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/anthony-albanese-flags-new-fuel-announcements-as-petrol-prices-tipped-to-spike-further/vlszrc9rb",
+          "title": "Albanese flags new fuel announcements as petrol prices tipped to spike further"
         }
       ]
     },

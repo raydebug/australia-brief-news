@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T23:10:57Z",
+  "updatedAt": "2026-07-27T00:07:19Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,7 +116,7 @@
     }
   ],
   "errors": [
-    "The Australian、Sky News Australia、Canberra Times は今回の実行で安定して解析できる公開一覧を返しませんでした。AAP の記事ページは 404 だったため、新しい AAP 記事は使っていません。"
+    "The Australian、Sky News Australia、Canberra Times、AAP は今回も安定して解析できる公開一覧を返しませんでした。ABC、SBS、The Guardian の RSS は本輪の増分に使えましたが、9News、7NEWS、AFR のページは一部の構造化見出ししか取れませんでした。"
   ],
   "clusters": [
     {
@@ -166,6 +166,21 @@
       ]
     },
     {
+      "id": "afl-state-of-origin-future",
+      "headline": "AFLが2027年州対抗戦の方針を確認、ビクトリア州は外れる",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T22:19:38Z",
+      "voiceScript": "オーストラリアン・フットボール・リーグは2027年の州対抗戦の方針を確認しましたが、ビクトリア州は対戦に含まれません。代表試合の魅力を保ち、州のアイデンティティや日程の価値を改めて議論させたい狙いです。ビクトリア州のファンにとっては、復活したとはいえまだ完全な形ではありません。今後はリーグと各州がこの判断をどう説明し、代表戦の今後にどう影響するかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/afl-confirms-state-of-origin-future/106961174",
+          "title": "AFL confirms State of Origin future with Victoria left out of 2027 game"
+        }
+      ]
+    },
+    {
       "id": "woorabinda-rehab-closure",
       "headline": "クイーンズランド州の遠隔地で更生施設が閉鎖、地域に代替なし",
       "sourceCount": 1,
@@ -210,6 +225,21 @@
       ]
     },
     {
+      "id": "female-tradies-sexism",
+      "headline": "女性の職人への職場差別対策強化を求める声",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T21:16:46Z",
+      "voiceScript": "建設や職人系の現場では、女性従業員が敵対的な性差別に直面し続けており、採用や定着、安全面にも影響していると専門家は指摘しています。焦点は抽象的な文化論ではなく、職場での言動や排除、不公平な扱いです。業界にとっては、女性が離れ続ければ人手不足が埋まらないという問題でもあります。今後は研修機関、組合、雇用主がより明確な保護策を出せるかが注目です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/more-action-needed-to-protect-female-tradies-from-nasty-sexism/106939880",
+          "title": "More action needed to protect female tradies from 'nasty sexism', experts say"
+        }
+      ]
+    },
+    {
       "id": "albanese-dinner-scrutiny",
       "headline": "アルバニージー首相、富豪主催の夕食会で再び注目",
       "sourceCount": 2,
@@ -233,6 +263,21 @@
       ]
     },
     {
+      "id": "western-sydney-airport-hotel-crisis",
+      "headline": "西シドニー空港周辺で宿不足、到着客に影響の懸念",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T21:03:22Z",
+      "voiceScript": "西シドニー空港周辺ではホテルとベッド数の不足が指摘されており、到着客の需要に追いつかない可能性があります。問題は空港だけでなく、交通接続、深夜の移動、周辺サービスの整備がまだ十分でないことです。最初に利用する人たちにとっては、費用増と混乱に直結します。今後は自治体、ホテル業界、空港運営側がどれだけ早く穴埋めできるかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/lack-of-hotels-and-beds-near-western-sydney-airport-a-crisis/106956246",
+          "title": "Hotel crisis looms for thousands of travellers landing at new airport"
+        }
+      ]
+    },
+    {
       "id": "family-flees-arson",
       "headline": "メルボルンで放火攻撃、家族が避難",
       "sourceCount": 1,
@@ -244,6 +289,36 @@
           "source": "The Sydney Morning Herald",
           "url": "https://www.smh.com.au/national/family-flees-arson-attack-in-melbourne-20260727-p60iq4.html",
           "title": "Family flees arson attack in Melbourne"
+        }
+      ]
+    },
+    {
+      "id": "nsw-icac-powerbroker-uk",
+      "headline": "NSW自由党の元実力者、英在住のままIcac疑惑が続く",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T15:00:17Z",
+      "voiceScript": "ニューサウスウェールズ州自由党の元実力者がIcacの疑惑の中心にありますが、現在は英国に滞在しており、本人が出席する見込みは低いです。調査の日程や実施方法に影響が出る可能性があるのが焦点です。腐敗調査では、不在がただちに終結を意味するわけではなく、手続きが長引くだけの場合もあります。今後はIcacが証言や審理をどう進めるかが注目されます。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/former-nsw-liberal-powerbroker-at-heart-of-icac-allegations-now-living-in-uk-and-not-expected-to-appear-ntwnfb",
+          "title": "Former NSW Liberal powerbroker at heart of Icac allegations now living in UK and not expected to appear"
+        }
+      ]
+    },
+    {
+      "id": "one-nation-remigrate-interview",
+      "headline": "ワン・ネーション党議員の「再移住」発言が移民論争を再燃",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T15:00:17Z",
+      "voiceScript": "古いインタビューが再び注目され、ワン・ネーション党の議員による不法ビザ保持者を「remigrate」させるという発言が論争を呼んでいます。焦点は、その表現が移民不安をあおるものなのか、それともより強硬な政策姿勢を示すものなのかです。連邦政治では、移民と国境管理が引き続き争点になります。今後は本人や党が説明を出すかが注目点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/get-rid-of-them-one-nation-senator-claims-party-will-remigrate-visa-holders-in-resurfaced-interview-ntwnfb",
+          "title": "‘Get rid of them’: One Nation senator claims party will ‘remigrate’ illegal visa holders in resurfaced interview"
         }
       ]
     },
@@ -347,6 +422,21 @@
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5",
           "title": "Labor supports telehealth for voluntary assisted dying at ALP conference, PM Anthony Albanese doesn't"
+        }
+      ]
+    },
+    {
+      "id": "albanese-fuel-prices",
+      "headline": "アルバニージー首相が燃料対策を示唆、ガソリン高が続く見通し",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T02:52:29Z",
+      "voiceScript": "アルバニージー首相は新たな燃料対策を示唆しましたが、ガソリン価格は短期的にさらに上がる見通しです。焦点は、原油高とインフレの波及が家計をどれだけ圧迫し続けるかです。これは生活費の負担と、連邦政府の経済対応力に直結します。今後は補助金や税制、供給網に関する具体策が出るかが注目されます。",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/anthony-albanese-flags-new-fuel-announcements-as-petrol-prices-tipped-to-spike-further/vlszrc9rb",
+          "title": "Albanese flags new fuel announcements as petrol prices tipped to spike further"
         }
       ]
     },

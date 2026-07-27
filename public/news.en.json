@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T23:10:57Z",
+  "updatedAt": "2026-07-27T00:07:19Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,7 +116,7 @@
     }
   ],
   "errors": [
-    "The Australian, Sky News Australia and Canberra Times did not expose stable public article lists in this run. AAP article pages returned 404, so new AAP items were skipped."
+    "The Australian, Sky News Australia, Canberra Times and AAP still did not expose stable public article lists this run; ABC, SBS and The Guardian RSS feeds were usable for new Australian items, while 9News, 7NEWS and AFR pages only exposed partial structured headlines."
   ],
   "clusters": [
     {
@@ -166,6 +166,21 @@
       ]
     },
     {
+      "id": "afl-state-of-origin-future",
+      "headline": "AFL confirms 2027 State of Origin plan with Victoria left out",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T22:19:38Z",
+      "voiceScript": "The Australian Football League has confirmed the 2027 State of Origin plan, but Victoria will not be part of the match-up. The league wants the representative fixture to keep its pull and reignite the debate over state identity and scheduling value. For Victorian fans, that means the revival still looks incomplete. The next step is seeing how the league and the states explain the decision and whether it shapes later representative fixtures.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/afl-confirms-state-of-origin-future/106961174",
+          "title": "AFL confirms State of Origin future with Victoria left out of 2027 game"
+        }
+      ]
+    },
+    {
       "id": "woorabinda-rehab-closure",
       "headline": "Remote Queensland rehab closure leaves community without local care",
       "sourceCount": 1,
@@ -210,6 +225,21 @@
       ]
     },
     {
+      "id": "female-tradies-sexism",
+      "headline": "Female tradies call for stronger protections against workplace sexism",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T21:16:46Z",
+      "voiceScript": "Female tradies in construction and other hands-on industries are still facing hostile sexism, and experts say it is affecting recruitment, retention and safety. The story is about day-to-day behaviour on worksites, not abstract culture-war talk. For the industry, the issue matters because labour shortages will not close if women keep being pushed out. The next step is whether training providers, unions and employers introduce clearer protections.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/more-action-needed-to-protect-female-tradies-from-nasty-sexism/106939880",
+          "title": "More action needed to protect female tradies from 'nasty sexism', experts say"
+        }
+      ]
+    },
+    {
       "id": "albanese-dinner-scrutiny",
       "headline": "Albanese faces scrutiny over billionaire-hosted dinner",
       "sourceCount": 2,
@@ -233,6 +263,21 @@
       ]
     },
     {
+      "id": "western-sydney-airport-hotel-crisis",
+      "headline": "Hotel shortages loom for travellers landing at Western Sydney Airport",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T21:03:22Z",
+      "voiceScript": "Hotel and bed supply around Western Sydney Airport is being flagged as too thin for the number of travellers expected to arrive. The issue is bigger than the airport itself: transport links, late-night transfers and nearby commercial services are not fully ready. For the first wave of passengers, that translates into higher costs and more friction on arrival. The next question is whether local government, hotel operators and the airport company move quickly to fill the gap.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/lack-of-hotels-and-beds-near-western-sydney-airport-a-crisis/106956246",
+          "title": "Hotel crisis looms for thousands of travellers landing at new airport"
+        }
+      ]
+    },
+    {
       "id": "family-flees-arson",
       "headline": "A family flees an arson attack in Melbourne",
       "sourceCount": 1,
@@ -244,6 +289,36 @@
           "source": "The Sydney Morning Herald",
           "url": "https://www.smh.com.au/national/family-flees-arson-attack-in-melbourne-20260727-p60iq4.html",
           "title": "Family flees arson attack in Melbourne"
+        }
+      ]
+    },
+    {
+      "id": "nsw-icac-powerbroker-uk",
+      "headline": "Former NSW Liberal powerbroker in UK as Icac allegations remain unresolved",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T15:00:17Z",
+      "voiceScript": "A former NSW Liberal powerbroker at the centre of Icac allegations is now in the UK and is not expected to appear in person. The real issue is that the inquiry’s timetable and enforcement could become harder to manage. In corruption probes, an absence does not automatically mean the matter is finished; it can simply stretch the process out. The next step is whether Icac can still move ahead with evidence and hearing plans.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/former-nsw-liberal-powerbroker-at-heart-of-icac-allegations-now-living-in-uk-and-not-expected-to-appear-ntwnfb",
+          "title": "Former NSW Liberal powerbroker at heart of Icac allegations now living in UK and not expected to appear"
+        }
+      ]
+    },
+    {
+      "id": "one-nation-remigrate-interview",
+      "headline": "One Nation “remigrate” remarks reignite Australia’s migration debate",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T15:00:17Z",
+      "voiceScript": "A resurfaced interview has put a One Nation senator’s talk of “remigrating” illegal visa holders back under the spotlight. The dispute is whether the wording is aimed at stoking migration anxiety or signaling a harder policy line. For federal politics, it keeps migration and border control on the front foot. The next step is whether the senator or the party offers any clarification.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/get-rid-of-them-one-nation-senator-claims-party-will-remigrate-visa-holders-in-resurfaced-interview-ntwnfb",
+          "title": "‘Get rid of them’: One Nation senator claims party will ‘remigrate’ illegal visa holders in resurfaced interview"
         }
       ]
     },
@@ -347,6 +422,21 @@
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5",
           "title": "Labor supports telehealth for voluntary assisted dying at ALP conference, PM Anthony Albanese doesn't"
+        }
+      ]
+    },
+    {
+      "id": "albanese-fuel-prices",
+      "headline": "Albanese flags new fuel moves as petrol prices are tipped to rise",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T02:52:29Z",
+      "voiceScript": "Anthony Albanese has floated new fuel measures, but the price outlook still points higher in the short term. The real question is whether oil prices and inflation pass-through will keep squeezing household budgets. It matters because this goes straight to cost-of-living pressure and the federal government’s economic credibility. The next step is whether Canberra releases a more detailed package on subsidies, taxes or supply chains.",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/anthony-albanese-flags-new-fuel-announcements-as-petrol-prices-tipped-to-spike-further/vlszrc9rb",
+          "title": "Albanese flags new fuel announcements as petrol prices tipped to spike further"
         }
       ]
     },
