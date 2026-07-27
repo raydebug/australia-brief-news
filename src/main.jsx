@@ -21,7 +21,9 @@ const LANGUAGES = [
   { code: "zh-Hant", label: "繁體" },
   { code: "en", label: "EN" },
   { code: "ja", label: "日本語" },
-  { code: "ko", label: "한국어" }
+  { code: "ko", label: "한국어" },
+  { code: "vi", label: "Tiếng Việt" },
+  { code: "th", label: "ไทย" }
 ];
 
 const I18N = {
@@ -144,6 +146,54 @@ const I18N = {
     stopReading: "읽기 중지",
     noMatches: "일치하는 뉴스가 없습니다",
     dataError: "뉴스 데이터를 일시적으로 읽을 수 없습니다. 온라인 상태가 되면 데이터 소스에서 다시 불러옵니다."
+  },
+  vi: {
+    appName: "Tin Úc tóm lược",
+    appSubtitle: "Australia Brief",
+    toolsTitle: "Bộ lọc và trạng thái dữ liệu",
+    localData: "Dữ liệu cục bộ",
+    pending: "Chờ cập nhật",
+    online: "Trực tuyến",
+    offline: "Ngoại tuyến",
+    searchPlaceholder: "Tìm tiêu đề hoặc tóm tắt",
+    filterLabel: "Lọc tin tức",
+    all: "Tất cả",
+    multi: "Nhiều nguồn",
+    single: "Một nguồn",
+    reload: "Tải lại",
+    install: "Cài đặt",
+    sources: "Nguồn",
+    sourceDifferences: "Khác biệt giữa nguồn",
+    originalLinks: "Liên kết gốc",
+    voiceScript: "Bản đọc",
+    readAloud: "Đọc thành tiếng",
+    stopReading: "Dừng đọc",
+    noMatches: "Không có tin phù hợp",
+    dataError: "Tạm thời không đọc được dữ liệu tin tức. Khi có mạng, dữ liệu sẽ được tải lại từ nguồn."
+  },
+  th: {
+    appName: "ข่าวออสเตรเลียแบบย่อ",
+    appSubtitle: "Australia Brief",
+    toolsTitle: "ตัวกรองและสถานะข้อมูล",
+    localData: "ข้อมูลในเครื่อง",
+    pending: "รออัปเดต",
+    online: "ออนไลน์",
+    offline: "ออฟไลน์",
+    searchPlaceholder: "ค้นหาหัวข้อหรือสรุป",
+    filterLabel: "กรองข่าว",
+    all: "ทั้งหมด",
+    multi: "หลายแหล่ง",
+    single: "แหล่งเดียว",
+    reload: "โหลดใหม่",
+    install: "ติดตั้ง",
+    sources: "แหล่งข่าว",
+    sourceDifferences: "ความต่างของแหล่งข่าว",
+    originalLinks: "ลิงก์ต้นฉบับ",
+    voiceScript: "บทอ่าน",
+    readAloud: "อ่านออกเสียง",
+    stopReading: "หยุดอ่าน",
+    noMatches: "ไม่พบข่าวที่ตรงกัน",
+    dataError: "ไม่สามารถอ่านข้อมูลข่าวได้ชั่วคราว เมื่อออนไลน์แล้วจะโหลดข้อมูลใหม่จากแหล่งข่าว"
   }
 };
 
@@ -153,7 +203,9 @@ const SPEECH_LANGUAGES = {
   "zh-Hant": "zh-TW",
   en: "en-AU",
   ja: "ja-JP",
-  ko: "ko-KR"
+  ko: "ko-KR",
+  vi: "vi-VN",
+  th: "th-TH"
 };
 const SPEECH_VOICE_MATCHERS = {
   "zh-Hans": {
@@ -175,6 +227,14 @@ const SPEECH_VOICE_MATCHERS = {
   ko: {
     langs: ["ko-kr", "ko_kr", "ko"],
     names: ["korean", "한국어", "heami", "sunhi", "inho"]
+  },
+  vi: {
+    langs: ["vi-vn", "vi_vn", "vi"],
+    names: ["vietnamese", "tiếng việt", "vietnam", "an", "linh"]
+  },
+  th: {
+    langs: ["th-th", "th_th", "th"],
+    names: ["thai", "ไทย", "kanya", "pattara", "narisa"]
   }
 };
 
@@ -183,6 +243,8 @@ function normalizeLanguage(value) {
   if (lower.startsWith("zh-hant") || lower.includes("tw") || lower.includes("hk")) return "zh-Hant";
   if (lower.startsWith("ja")) return "ja";
   if (lower.startsWith("ko")) return "ko";
+  if (lower.startsWith("vi")) return "vi";
+  if (lower.startsWith("th")) return "th";
   if (lower.startsWith("en")) return "en";
   return "zh-Hans";
 }

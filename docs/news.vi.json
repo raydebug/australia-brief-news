@@ -1,0 +1,1625 @@
+{
+  "updatedAt": "2026-07-27T22:09:51.022Z",
+  "generatedBy": "codex",
+  "sources": [
+    {
+      "id": "abc",
+      "name": "ABC News",
+      "region": "National",
+      "feed": "https://www.abc.net.au/news/feed/51120/rss.xml",
+      "tone": "public broadcaster"
+    },
+    {
+      "id": "sbs",
+      "name": "SBS News",
+      "region": "National",
+      "feed": "https://www.sbs.com.au/news/feed",
+      "tone": "multicultural service"
+    },
+    {
+      "id": "guardian-au",
+      "name": "The Guardian Australia",
+      "region": "National",
+      "feed": "https://www.theguardian.com/australia-news/rss",
+      "tone": "analytical angle"
+    },
+    {
+      "id": "news-com-au",
+      "name": "news.com.au",
+      "region": "National",
+      "feed": "https://www.news.com.au/content-feeds/latest-news-rss/",
+      "tone": "commercial mainstream"
+    },
+    {
+      "id": "the-australian",
+      "name": "The Australian",
+      "region": "National",
+      "feed": "https://www.theaustralian.com.au/",
+      "tone": "national broadsheet"
+    },
+    {
+      "id": "yahoo-au",
+      "name": "Yahoo News Australia",
+      "region": "National",
+      "feed": "https://au.news.yahoo.com/",
+      "tone": "aggregated mainstream"
+    },
+    {
+      "id": "afr",
+      "name": "Australian Financial Review",
+      "region": "Business",
+      "feed": "https://www.afr.com/latest",
+      "tone": "business and markets"
+    },
+    {
+      "id": "sky-news-au",
+      "name": "Sky News Australia",
+      "region": "National",
+      "feed": "https://www.skynews.com.au/australia-news",
+      "tone": "commercial broadcast news"
+    },
+    {
+      "id": "nine-news-au",
+      "name": "9News",
+      "region": "National",
+      "feed": "https://www.9news.com.au/national",
+      "tone": "commercial broadcast news"
+    },
+    {
+      "id": "seven-news-au",
+      "name": "7NEWS",
+      "region": "National",
+      "feed": "https://7news.com.au/news/australia",
+      "tone": "commercial broadcast news"
+    },
+    {
+      "id": "smh",
+      "name": "The Sydney Morning Herald",
+      "region": "NSW",
+      "feed": "https://www.smh.com.au/national",
+      "tone": "metro masthead"
+    },
+    {
+      "id": "the-age",
+      "name": "The Age",
+      "region": "Victoria",
+      "feed": "https://www.theage.com.au/national/victoria",
+      "tone": "metro masthead"
+    },
+    {
+      "id": "brisbane-times",
+      "name": "Brisbane Times",
+      "region": "Queensland",
+      "feed": "https://www.brisbanetimes.com.au/national/queensland",
+      "tone": "metro masthead"
+    },
+    {
+      "id": "watoday",
+      "name": "WAtoday",
+      "region": "Western Australia",
+      "feed": "https://www.watoday.com.au/national/western-australia",
+      "tone": "metro masthead"
+    },
+    {
+      "id": "canberra-times",
+      "name": "The Canberra Times",
+      "region": "ACT",
+      "feed": "https://www.canberratimes.com.au/news/latest-news/",
+      "tone": "regional masthead"
+    },
+    {
+      "id": "aap",
+      "name": "AAP",
+      "region": "National",
+      "feed": "https://www.aap.com.au/news/",
+      "tone": "wire service"
+    }
+  ],
+  "errors": [
+    "news.com.au latest RSS returned no items in this run; AFR, Sky News Australia, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday, and The Canberra Times were reachable via HTML front pages, and only clearly Australian stories within 7 days were kept."
+  ],
+  "clusters": [
+    {
+      "id": "builder-warning-nsw",
+      "headline": "Unregistered builder Steve Preston keeps operating in NSW",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T21:38:06Z",
+      "voiceScript": "ABC reports that Steve Preston has kept operating in New South Wales after earlier run-ins with regulators in Western Australia and Queensland. The story matters because it raises licensing, consumer-protection and cross-border enforcement issues in the building industry. The next question is whether NSW authorities move in and whether customers are left exposed.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/steve-preston-building-in-nsw-after-warnings-in-wa-and-qld/106832478",
+          "title": "Twice named and shamed builder accused of leaving customers out of pocket"
+        }
+      ]
+    },
+    {
+      "id": "antisemitism",
+      "headline": "Antisemitism inquiry shifts to education and training",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T19:44:47Z",
+      "voiceScript": "The antisemitism and social cohesion royal commission has moved on to what education and training should do to reduce hate. ABC's reporting focuses on Holocaust education in schools, while AAP highlights proposals for extra social cohesion training for public servants. The story matters because the commission is shifting from describing the problem to testing whether institutions can prevent it. The next step is whether those ideas become formal recommendations.",
+      "differences": [
+        "ABC News focuses on school Holocaust education and anti-hate tools in classrooms.",
+        "AAP News emphasizes extra social cohesion training for public servants."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/bondi-antisemitism-social-cohesion-royal-commission-education/106946500",
+          "title": "Education as a tool to fight hate in focus at antisemitism royal commission"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/push-for-public-sector-training-on-social-cohesion",
+          "title": "Push for public sector training on social cohesion"
+        }
+      ]
+    },
+    {
+      "id": "leadership",
+      "headline": "Victorian Labor leadership fight escalates",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-27T19:16:51Z",
+      "voiceScript": "The Victorian Labor Party's internal fight has escalated into a leadership challenge, with Ben Carroll moving against Premier Jacinta Allan. The contest matters because it comes only months before the state election and could unsettle the government's campaign, policy agenda and public image. The key question now is whether Allan can hold the caucus together or whether the spill proceeds and triggers a longer party ballot.",
+      "differences": [
+        "ABC News: focuses on caucus numbers, spill mechanics and the chance of a formal vote.",
+        "The Guardian Australia: highlights Allan’s refusal to step aside and the factional split.",
+        "SBS News: frames it as a four-month test before the November election.",
+        "AAP News: stresses the challenge could drag on and keep unsettling government before the poll."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/victorian-labor-caucus-weighs-up-allan-leadership/106962972",
+          "title": "Leadership spill as Carroll vies to replace Allan as Victorian Labor leader"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/jacinta-allan-leadership-challenge-labor-faction-meeting-victoria-politics",
+          "title": "Victoria premier Jacinta Allan vows to stand in any ballot as Ben Carroll confirms he’ll contest leadership"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/jacinta-allan-election-victoria-leadership-contest-labor-2026/nepmedqud",
+          "title": "Who could replace Victorian premier Jacinta Allan — and the four-month test they'll face"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/premier-faces-leadership-challenge-as-election-looms",
+          "title": "Labor showdown looms as premier refuses to quit"
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "headline": "War pressure pushes Australia toward new fuel-security moves",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T19:01:50Z",
+      "voiceScript": "Treasury is warning that the economic fallout from the Middle East war could worsen, with higher fuel prices feeding into inflation and growth. That warning is now paired with a push to shore up fuel security, including the possibility of a new refinery in Western Australia. The story matters because it links overseas conflict to Australian household costs, business input prices and government energy policy. The next step is whether Canberra and WA turn the feasibility work into a funded project or a longer-term plan.",
+      "differences": [
+        "ABC News focuses on Treasury's broader warning about worsening economic impacts.",
+        "The Guardian Australia focuses on the refinery feasibility work and the government's fuel-security response.",
+        "AAP News emphasizes the oil shock risk and how elevated markets could hit Australia harder."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/middle-east-war-economic-impact-to-worsen-treasury-warns/106963778",
+          "title": "Australia should brace for war impact to get worse, Treasury warns"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war",
+          "title": "Potential for first Australian oil refinery in 60 years as treasurer braces for inflation from Middle East war"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/oil-shock-could-be-worse-than-the-first-treasury-warns",
+          "title": "Oil shock could be worse than the first, Treasury warns"
+        }
+      ]
+    },
+    {
+      "id": "sa-port-macdonnell-search",
+      "headline": "South Australia search turns to missing baby after mother and toddler found dead",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T14:03:51Z",
+      "voiceScript": "Police and rescue crews in South Australia's Port MacDonnell area are now searching for a missing baby after a mother and toddler were recovered from the ocean. The case has shifted from a coastal search to a major missing-child response, with officers saying they hold grave concerns for the child's safety. It matters because it combines a family tragedy, a difficult coastal search and a live police investigation. The next step is whether the baby is found and what more investigators release about the circumstances.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/emergency-search-underway-in-port-macdonnell-in-sa-south-east/106963058",
+          "title": "Baby still missing after bodies of woman and toddler recovered off SA coast"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/baby-missing-after-mother-and-toddler-found-dead-off-coast-of-south-australia-ntwnfb",
+          "title": "Baby missing after mother and toddler found dead off coast of South Australia"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/search-for-baby-after-bodies-of-mother-toddler-found",
+          "title": "Search for baby after bodies of mother, toddler found"
+        }
+      ]
+    },
+    {
+      "id": "actu-leadership-change",
+      "headline": "ACTU's top two leaders are stepping down",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T21:47:00+10:00",
+      "voiceScript": "Australian Council of Trade Unions secretary Sally McManus and president Michele O'Neil have announced they are stepping down, opening a leadership transition at the top of the union movement. The timing matters because it comes just after Labor’s national conference, when union influence over wages, hours and workplace protections is being debated most intensely. The next step is choosing successors and seeing whether the ACTU’s relationship with Labor shifts at all.",
+      "differences": [
+        "ABC News: focuses on the leadership handover and succession process inside the union movement.",
+        "Australian Financial Review: frames it as a handover to a new generation facing fresh challenges.",
+        "The Australian: emphasises their long tenure and the scale of their influence on organised labour."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/actu-leaders-sally-mcmanus-michele-o-neil-resign/106964206",
+          "title": "ACTU leaders Sally McManus and Michele O'Neil announce resignations"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/work-and-careers/workplace/actu-leadership-to-step-down-make-way-for-new-generation-20260727-p60iv4",
+          "title": "ACTU leadership to step down, make way for new generation"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/top-union-leaders-sally-mcmanus-and-michele-oneil-announce-shock-resignations/news-story/b2cb98c940d7277ef363284b48d0e31c",
+          "title": "Sally McManus, Michele O'Neil resign as ACTU leaders"
+        }
+      ]
+    },
+    {
+      "id": "sa-industrial-manslaughter",
+      "headline": "South Australian manufacturer charged in first industrial manslaughter case",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T10:14:16Z",
+      "voiceScript": "An Adelaide manufacturing business and its directors have been charged over South Australia's first industrial manslaughter case, linked to the death of 28-year-old worker Lachlan Carslake in 2024. Investigators allege the machine's safety interlock may have been bypassed, and that safety concerns had already been raised before the fatal incident. The case matters because it is one of the first major tests of South Australia's industrial manslaughter laws and the level of responsibility companies can face. The court process will now determine how the charges are contested and whether the prosecution prompts wider safety scrutiny across local industry.",
+      "differences": [
+        "ABC News focuses on SafeWork SA's charging decision and the tougher penalties under the new law.",
+        "7NEWS gives more detail on the alleged machine fault and the sequence of events before the death."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/industrial-manslaughter-charges-laid-against-adelaide-company/106963526",
+          "title": "SA's first industrial manslaughter charges laid against Adelaide company"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/industrial-manslaughter-charges-laid-over-fatal-2024-adelaide-workplace-accident-c-22634952.amp",
+          "title": "Industrial manslaughter charges laid over fatal 2024 Adelaide workplace accident"
+        }
+      ]
+    },
+    {
+      "id": "sa-doctors-nurses-conduct",
+      "headline": "SA doctors raise alarm over nurses' conduct at Gawler service",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T09:08:06Z",
+      "voiceScript": "South Australia's doctors' union says alleged behavioural problems among nurses at Gawler Health Service are putting patient care at risk. The nurses' union rejects any suggestion of systemic bullying, so the dispute is as much about workplace culture as it is about service delivery. The issue matters because it could affect staffing confidence and how safely the hospital can function. What happens next will depend on whether the health department or hospital launches a formal investigation.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/sa-doctors-union-gawler-health-service-nurse-conduct-concerns/106962368",
+          "title": "Doctors' union concerned by nurses' behaviour at SA health service"
+        }
+      ]
+    },
+    {
+      "id": "wa-reptile-smuggling",
+      "headline": "Man fined A$31k after botched reptile smuggling attempt",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T08:43:13+00:00",
+      "voiceScript": "A New South Wales man has been fined A$31,000 after a failed attempt to move 65 wild reptiles out of Western Australia left 55 dead. The case matters because it shows how seriously courts can treat wildlife trafficking, animal welfare and cross-border enforcement. Next comes any follow-up investigation or whether the penalty becomes a reference point for similar cases.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/man-fined-for-botched-lizard-smuggling-wa-to-nsw/106962820",
+          "title": "Man fined $31k after botched smuggling attempt kills 55 reptiles"
+        }
+      ]
+    },
+    {
+      "id": "pauline",
+      "headline": "Pauline Hanson loses appeal over Faruqi discrimination finding",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T08:41:00Z",
+      "voiceScript": "Pauline Hanson has lost her appeal against a federal court finding that she racially discriminated against Mehreen Faruqi. The case centres on Hanson's 2022 tweet telling Faruqi to 'piss off back to Pakistan', and the ruling keeps alive a major test of the line between political speech and racial abuse. It matters because the appeal court has now backed the earlier finding, and Hanson may still seek a High Court challenge. The next step is whether she files that further appeal and how costs are handled.",
+      "differences": [
+        "ABC News focuses on the appeal process, the original tweet and Hanson's signal that she may take the case further.",
+        "The Guardian Australia emphasizes the unanimous dismissal and the broader precedent on hate speech versus free speech."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/nsw-pauline-hanson-appeal-mehreen-faruqi-judgement/106962048",
+          "title": "Pauline Hanson fails in appeal bid against racial discrimination of Mehreen Faruqi"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb",
+          "title": "Pauline Hanson loses bid to overturn Mehreen Faruqi racial discrimination finding"
+        }
+      ]
+    },
+    {
+      "id": "jewish-security-guns-inquiry",
+      "headline": "Royal commission hears debate over arming Jewish security",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T07:59:50.000Z",
+      "voiceScript": "The royal commission on antisemitism and social cohesion is weighing whether Jewish community security groups should be allowed to carry guns at open-air events. New South Wales police say that could look like favoritism and worsen tensions, while supporters argue the issue is response time and risk at large outdoor gatherings. It matters because the debate goes to antisemitism, security resourcing and where police responsibility ends. The next step is whether the hearings push the government toward clearer rules.",
+      "differences": [
+        "ABC News: focuses on the commission questioning a risk and security consultant over why private security should be armed.",
+        "AAP News: highlights police concerns about the appearance of favoritism and wider community division.",
+        "The Guardian Australia: emphasizes the deputy commissioner's objection and the open-air CSG gun debate."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/bondi-antisemitism-royal-commission-arming-security-guards/106960940",
+          "title": "Royal commission hears support for arming of security guards at Jewish events"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/government-egged-on-anti-semitism-says-jewish-leader",
+          "title": "Police reject proposal to arm private security groups"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/nsw-police-deputy-commissioner-says-letting-jewish-security-group-carry-guns-could-be-seen-as-favouritism-ntwnfb",
+          "title": "NSW police deputy commissioner says letting Jewish security group carry guns could be seen as ‘favouritism’"
+        }
+      ]
+    },
+    {
+      "id": "ausalert-national-test",
+      "headline": "AusAlert test leaves some phones without the alert",
+      "sourceCount": 8,
+      "publishedAt": "2026-07-27T07:50:27Z",
+      "voiceScript": "Australia's nationwide AusAlert test finished with the federal government calling it a success overall, but many residents reported that they did not get the alert or received it too late. The system is meant to push emergency warnings faster to targeted areas during bushfires, floods and other fast-moving events; the tension is that it overrides silent mode and can also raise safety concerns for people fleeing domestic violence. The next step is to see how officials explain the missed alerts and whether they adjust coverage before full rollout.",
+      "differences": [
+        "ABC News: says the government still called the test a success even though many people said they missed the alert.",
+        "SBS News: focuses on the preparation guidance and the safety risks for domestic violence survivors.",
+        "7NEWS: highlights the live public reaction and reports that some devices never received the warning.",
+        "AAP News: frames it as a very successful national drill."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/ausalert-test-a-success-declares-minister/106963350",
+          "title": "Government calls AusAlert test a 'success' despite reports many missed alert"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/ausalert-emergency-warning-test-what-you-need-to-know-and-how-to-prepare/zghu8pk7o",
+          "title": "AusAlert emergency warning test: What you need to know and how to prepare"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/everything-you-need-to-know-about-ausalert-warning-alarm-test/news-story/dac4abc3a73dc2b0ca2c872cf5361f16",
+          "title": "Everything you need to know about the AusAlert warning alarm test"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://www.aap.com.au/news/new-ausalert-warning-system-to-blast-out-national-siren",
+          "title": "‘Very successful’: emergency alert exceeds expectations"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/emergency-alert-test-australia-what-to-expect-july-27-everything-to-know-20260709-p60dyd.html",
+          "title": "Siren alarm test to blare on phones across Australia today"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/ausalert-test-coming-today-20260727-p60iq6.html",
+          "title": "AusAlert test coming today"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/ausalert-national-alert-test-sound-emergency-warning-system-time-date",
+          "title": "AusAlert test: what time will national emergency warning siren sound on phones in Australia today? Here’s what to know"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/mixed-reaction-to-ausalert-emergency-message-system-as-test-fails-to-reach-people-c-22634152",
+          "title": "‘Nothing happened’: Aussies reveal mixed reaction to nationwide emergency alarm"
+        }
+      ]
+    },
+    {
+      "id": "allan-leadership-crisis",
+      "headline": "Jacinta Allan faces a new leadership crisis",
+      "sourceCount": 7,
+      "publishedAt": "2026-07-27T07:49:14Z",
+      "voiceScript": "Pressure inside Victoria's Labor Party is spilling into the open, with Jacinta Allan now under direct strain. Key figures in the state have already held a crisis meeting, and the debate is no longer just whether she can hold on. The bigger question is whether the internal conflict keeps building toward the next election. What happens next depends on whether party numbers keep shifting or the crisis is contained.",
+      "differences": [
+        "SBS News: frames the story as a straight leadership contest and stresses Allan's vow to keep fighting."
+      ],
+      "links": [
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/politics/victoria/jacinta-allan-leadership-challenge-live-updates-victorian-premier-under-threat-as-state-labor-chiefs-hold-crisis-meeting-20260726-p60ip3.html",
+          "title": "Jacinta Allan leadership threat LIVE updates: Victorian Premier under pressure as state Labor chiefs hold crisis meeting"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/27/ausalert-emergency-warning-test-antisemitism-royal-commission-nsw-icac-inquiry-politics-anthony-albanese-labor-angus-taylor-coalition-victoria-jacinta-allan-ntwnfb",
+          "title": "Australia news live: Jacinta Allan loses majority caucus support after meeting of state Labor factions; national AusAlert test to blare siren"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/victorian-premier-jacinta-allan-leadership-challenge-expected-within-days-20260727-p60ir8.html",
+          "title": "Victorian premier expected to face leadership challenge within days"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/premier-faces-leadership-challenge-as-election-looms",
+          "title": "Defiant premier to fight for leadership if challenged"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/another-delegation-of-labor-mps-to-tell-allan-to-resign-20260727-p60iq2",
+          "title": "Victoria’s Premier Jacinta Allan faces resignation demand from Labor MPs ahead of November election"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/victorian-premier-jacinta-allan-future-labor-mps-meet/106960880",
+          "title": "Deputy premier confirms he will run for Victorian Labor leadership"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/jacinta-allan-refuses-to-quit-as-victorian-labor-leadership-fight-erupts/wfqrr0v4v",
+          "title": "Jacinta Allan refuses to quit as Victorian Labor leadership fight erupts"
+        }
+      ]
+    },
+    {
+      "id": "nsw-icac-perrottet-brothers",
+      "headline": "NSW ICAC hearing probes sham payments and Liberal powerbrokers",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-27T07:42:17Z",
+      "voiceScript": "NSW ICAC is hearing allegations that Liberal Party figures used banned donations, sham consultancy payments and factional networks to influence preselections and policy. The latest disclosures point to secret recordings and intercepted messages as investigators test how money may have moved through party-linked entities. The case matters because it goes to how political influence is bought, hidden and potentially enforced inside a major state party. Next comes more witness evidence, document testing and the question of whether any matters are referred for prosecution.",
+      "differences": [
+        "ABC News: lays out the hearing timetable and the scope of the inquiry.",
+        "AAP News: emphasises the damage tainted donations could do to the Liberals.",
+        "The Guardian Australia: frames it as a factional power struggle on the party’s right, with secret recordings in the mix.",
+        "Australian Financial Review: highlights phone taps and sham payments.",
+        "news.com.au: focuses on intercepted WhatsApp calls, Nassif’s boast and the recruitment network."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/what-to-expect-from-icac-probe-into-nsw-liberal-party/106955220",
+          "title": "NSW Liberals corruption investigation kicks-off. Here's what to expect"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/watchdog-probes-tainted-donations-in-blow-to-liberals",
+          "title": "Watchdog probes tainted donations in blow to Liberals"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/senior-politicians-supported-young-nsw-liberal-power-brokers-trying-to-shift-party-to-right-corruption-watchdog-hears-ntwnfb",
+          "title": "Senior politicians supported young NSW Liberal power brokers trying to shift party to right, corruption watchdog hears"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/icac-operation-rosny-nsw-liberals-corruption-investigation-ntwnfb",
+          "title": "Secret tape recordings and 'sham' payments: the Liberals' internal ideological war laid bare"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/phone-taps-and-sham-payments-to-liberals-in-icac-bombshell-hearing-20260726-p60iny",
+          "title": "Phone taps and 'sham' payments to Liberals in ICAC bombshell hearing"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/courts-law/whatsapp-intercept-and-christian-recruitment-in-nsw-liberal-icac-probe/news-story/7fdf009da078e46f2f594550f31837f4",
+          "title": "‘Godfather’: Fugitive’s boast over ex-MP"
+        }
+      ]
+    },
+    {
+      "id": "melbourne-partner-murder",
+      "headline": "Melbourne man faces court over alleged partner killing",
+      "voiceScript": "ABC reports that a man has faced court after being charged over the alleged killing of his partner in Clyde North. The case puts domestic violence, partner deaths and the criminal process back in focus, while also raising questions about how police reconstruct what happened. It matters because cases like this are not only about one trial; they are also about earlier risk recognition and victim protection. The next step is what evidence prosecutors put forward and how much more detail the court releases.",
+      "differences": [],
+      "publishedAt": "2026-07-27T07:41:29Z",
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/jorden-turney-charged-with-murdering-partner-clyde-north/106962892",
+          "title": "Man in court charged with murdering partner in Melbourne's south-east"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "food-fraud-supermarket-labels",
+      "headline": "Supermarket label claims come under scrutiny",
+      "voiceScript": "ABC's investigation says some everyday supermarket staples may not match what the label claims. The bigger issue is trust: shoppers rely on packaging for origin, ingredients and quality, while regulators have to decide whether the problem is isolated or broader. The story matters because it goes to consumer protection and food standards in Australia. The next step is to see how retailers and suppliers respond and whether more testing follows.",
+      "differences": [],
+      "publishedAt": "2026-07-27T07:18:51Z",
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/food-fraud-investigation-reveals-truth-behind-labels/106960116",
+          "title": "Food fraud investigation finds supermarket staples may not be what they claim"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "snowy-2-worker-drill",
+      "headline": "Snowy 2.0 worker says he was told to use broken drill",
+      "voiceScript": "ABC reports that a worker on the Snowy 2.0 tunnelling project says he was told to use a broken drill and was struck by the same equipment. The case pushes the multibillion-dollar project back into questions about site safety, contractor management and regulatory oversight. It matters because when a major infrastructure job runs into safety allegations, the impact reaches costs, timelines and public trust. The next step is how the court handles the claim and whether the project side responds in more detail.",
+      "differences": [],
+      "publishedAt": "2026-07-27T07:09:53Z",
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/snowy-hydro-webuild-tunnelling-incident-indiustrial-court-nsw/106893760",
+          "title": "Snowy 2.0 worker ordered to use broken drill that hit him, court hears"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "qld-river-to-the-sea-challenge",
+      "headline": "Queensland ban on “from the river to the sea” faces High Court challenge",
+      "voiceScript": "Queensland's ban on 'from the river to the sea' is now being challenged in the High Court by protesters who say the law crosses the line from hate-speech prevention into speech control. The dispute is about where the state draws the line between protecting communities, keeping public order and limiting political expression. Next comes the court process itself, including whether the challenge is heard and whether the law is narrowed.",
+      "differences": [
+        "ABC News: presents the challenge as a direct legal test and spells out the wording at issue.",
+        "The Guardian Australia: stresses the free-speech fight over how the ban applies to protest language."
+      ],
+      "publishedAt": "2026-07-27T06:57:05Z",
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/qld-palestine-israel-hate-speech-laws-high-court-challenge/106964098",
+          "title": "Protesters mount High Court challenge over Queensland hate speech laws"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/protesters-launch-high-court-challenge-to-queensland-ban-on-from-the-river-to-the-sea-ntwnfb",
+          "title": "Protesters launch high court challenge to Queensland ban on ‘from the river to the sea’"
+        }
+      ],
+      "sourceCount": 2
+    },
+    {
+      "id": "qld-wife-baby-court-hearing",
+      "headline": "Queensland man faces court over alleged wife and baby murder",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T06:34:09Z",
+      "voiceScript": "Matthew James Cox is back before court in Queensland over allegations that he murdered his wife Tayla Black and their 11-week-old daughter Murphy. The case dates back to August 2023 and centres on the alleged deaths in central Queensland, with the court process continuing to work through the next steps. It matters because it keeps a domestic violence killing and the death of a baby in focus while the legal case moves on. The next point to watch is what evidence the court hears and how prosecutors advance the matter.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/matthew-james-cox-court-hearing-alleged-murder-wife-and-baby/104190884",
+          "title": "Father faces court hearing for alleged murder of wife and baby"
+        }
+      ]
+    },
+    {
+      "id": "pauline-hanson-verdict",
+      "headline": "Pauline Hanson loses racial discrimination appeal",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T05:59:34.000Z",
+      "voiceScript": "The Federal Court has dismissed Pauline Hanson's appeal against the racial discrimination finding over her post aimed at Mehreen Faruqi, leaving the original ruling in place. The result matters because it affects Hanson's legal exposure, her next move on appeal and the wider political pressure on One Nation over race and migration language. The case also sharpens the line between political speech and racial vilification. The next question is whether Hanson seeks to take it to the High Court and how the parties respond.",
+      "differences": [
+        "The Guardian Australia: treats the decision as a clear win for Faruqi and underlines the legal finding against the 2022 post."
+      ],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/pauline-hanson-racial-discrimination-court-case-appeal-verdict-mehreen-faruqi-20260727-p60isj.html",
+          "title": "Pauline Hanson hours away from finding out if social media post was indeed racist"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/racism-verdict-latest-danger-to-pauline-hansons-surge",
+          "title": "Racism verdict latest danger to Pauline Hanson's surge"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb",
+          "title": "Pauline Hanson loses bid to overturn Mehreen Faruqi racial discrimination finding"
+        }
+      ]
+    },
+    {
+      "id": "qld-medicinal-cannabis-driving-law",
+      "headline": "Queensland weighs drug-driving rule changes affecting medicinal cannabis users",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T05:47:15Z",
+      "voiceScript": "Queensland is moving to review drug-driving laws, with the focus on how medicinal cannabis users are handled in roadside testing. Advocates say the risk is that lawful patients get swept into enforcement meant for dangerous driving if the rules are not clear enough. The issue matters because it sits at the intersection of road safety, medical treatment and police evidence standards. The next step is the state government's detailed explanation and whether doctors, patients and legal groups keep pushing for changes.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/queensland-drink-drug-driving-law-changes-medicinal-cannabis/106963180",
+          "title": "Advocates say changes to drug driving laws will impact medicinal cannabis users"
+        }
+      ]
+    },
+    {
+      "id": "indigenous-custody-legal-action",
+      "headline": "Family of Indigenous man seeks court action over custody death",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T05:10:00.000Z",
+      "voiceScript": "Kumanjayi White's family has launched legal action in the Northern Territory Supreme Court after police officers involved in his death were not charged. White died after being restrained by plain-clothes officers in an Alice Springs supermarket, and the case has become another flashpoint over deaths in custody, police accountability and transparency for Aboriginal families. The next step is whether the court will force more detail into the decision not to prosecute.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/family-of-indigenous-man-who-died-in-custody-launch-legal-action-over-decision-not-to-charge-police-ntwnfb",
+          "title": "Family of Indigenous man who died in custody launch legal action over decision not to charge police"
+        }
+      ]
+    },
+    {
+      "id": "hunter-valley-runaway-train",
+      "headline": "Runaway train in Hunter Valley flagged as rail safety worst case",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T04:47:28Z",
+      "voiceScript": "A runaway train incident in the NSW Hunter Valley has been described by rail safety investigators as a worst-case scenario. The investigation is centred on why the train moved, whether the response was fast enough and whether the system left avoidable gaps. It matters because the consequences would be much worse if an event like this happened on a busier line. The next step is to see whether the findings lead to changes in braking, parking and monitoring rules.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/runaway-train-in-nsw-hunter-valley-was-worst-case-scenario/106961418",
+          "title": "Runaway train in Hunter Valley 'worst-case scenario' for rail safety"
+        }
+      ]
+    },
+    {
+      "id": "hobart-stadium-works-begin",
+      "headline": "Work starts on Hobart's $1.13b stadium site",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T04:27:13Z",
+      "voiceScript": "Construction has started on Hobart's Mac Point AFL stadium site, with machinery and earthworks now moving on the ground. The project is estimated at $1.13 billion and remains one of Tasmania's most closely watched infrastructure plans. It matters because the stadium schedule affects AFL expansion, tourism expectations and state budget debate. The next thing to watch is whether the timeline holds and whether critics keep pushing on cost and city-impact concerns.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/works-begins-hobart-mac-point-afl-stadium/106961410",
+          "title": "'The diggers have arrived': Works begin at Hobart's $1.13b stadium site"
+        }
+      ]
+    },
+    {
+      "id": "sa-bird-flu-spike",
+      "headline": "South Australia records seven new suspected H5 bird flu cases",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-27T02:30:00Z",
+      "voiceScript": "South Australia has reported seven additional suspected H5 bird flu cases, including five linked to the same location. There is still no evidence that the virus has entered commercial poultry, but samples have been sent for further confirmation. The practical issue is not panic; it is that monitoring of wild birds and coastal areas is widening and biosecurity warnings may become more frequent. The next step is the final CSIRO result and whether more coastal or wildlife areas need restrictions or clean-up measures.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/seven-suspected-h5-bird-flu-cases-in-sa/106961794",
+          "title": "Seven new suspected H5 bird flu cases detected in SA"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/science/animals/south-australia-records-spike-in-bird-flu-cases/news-story/6c0bd4e13b26f13737ea1390abef39b6",
+          "title": "South Australia records spike in bird flu cases, 7 new reports"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://www.aap.com.au/news/seven-suspected-bird-flu-cases-found-in-native-species",
+          "title": "Seven suspected bird flu cases found in native species"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/27/ausalert-emergency-warning-test-antisemitism-royal-commission-nsw-icac-inquiry-politics-anthony-albanese-labor-angus-taylor-coalition-victoria-jacinta-allan-ntwnfb",
+          "title": "Australia news live: seven new suspected bird flu cases in SA as conservation charity warns ‘this is evidence of spread’"
+        }
+      ]
+    },
+    {
+      "id": "act-gambling-harm",
+      "headline": "ACT gambling harm reports doubled in two years",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T01:43:57.656358+00:00",
+      "voiceScript": "ACT regulators say reports of gambling harm have more than doubled over two years, with the latest year reaching 72,647 incidents. The key question is whether that means more harm is being seen, or whether the underlying problem is actually getting worse. For policymakers, it affects advertising rules, venue oversight, and intervention programs. Next comes the response from regulators and the government.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9317948/act-gambling-harm-incident-reports-double-over-two-years/",
+          "title": "Number of gambling harm incidents reported to regulator doubles in two years"
+        }
+      ]
+    },
+    {
+      "id": "adelaide-sikh-temple-fire",
+      "headline": "Adelaide Sikh temple destroyed in major fire",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T01:01:00Z",
+      "voiceScript": "The Gurudwara Dashmesh Darbar temple in Adelaide’s northern suburbs has been badly damaged by a late-night fire, with the roof collapsing after crews spent hours controlling the blaze. The loss affects more than a building: it disrupts worship, the safeguarding of sacred texts and community food services. The immediate priorities are to confirm the cause, assess the damage and arrange temporary support for the local Sikh community. The next update will depend on police and fire investigations, rebuilding plans and community assistance.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/sikh-temple-destrpyed-in-fire-north-adelaide/106961130",
+          "title": "Fire destroys Sikh temple, Gurudwara Dashmesh Darbar, north of Adelaide"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/sikh-temple-destroyed-by-massive-blaze-in-adelaide-c-22631800",
+          "title": "Sikh temple destroyed by massive blaze in Adelaide"
+        }
+      ]
+    },
+    {
+      "id": "car-strikes-train-bridge",
+      "headline": "Car strikes train bridge, suspending line for over an hour",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T00:31:56Z",
+      "voiceScript": "A car struck a train bridge in Queensland, forcing the line to stop for more than an hour during the morning rush until safety checks were complete. The issue is not just the delay, but the immediate hit to commuters, freight, and road management. The next questions are whether the driver was injured, what caused the crash, and whether repairs will be needed on site.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/car-strikes-train-bridge-suspending-line-for-over-an-hour-20260727-p60ith.html",
+          "title": "Car strikes train bridge, suspending line for over an hour"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/queensland/car-strikes-train-bridge-suspending-line-for-over-an-hour-20260727-p60ith.html",
+          "title": "Car strikes train bridge, suspending line for over an hour"
+        }
+      ]
+    },
+    {
+      "id": "housing-rules-rethink",
+      "headline": "Australia's housing rules are slowing new builds",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "The Productivity Commission wants a rethink of planning and approval rules it says are slowing housing construction. Delays, inconsistent standards and compliance costs are making it harder for supply to keep up with demand. It matters because it feeds directly into rents, home prices and how efficiently the building sector can work. The next question is whether federal and state governments turn the recommendation into concrete reform.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506",
+          "title": "Not satire: The Utopia-style regulations holding Australia back from building homes"
+        }
+      ]
+    },
+    {
+      "id": "wa-oil-refinery",
+      "headline": "WA could host Australia's first new refinery in decades",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "The federal and Western Australian governments are funding a feasibility study for a Perdaman-backed refinery proposal in WA. If it goes ahead, it would be Australia’s first large new refinery since the 1960s, coming as Middle East tensions push up oil prices and expose how heavily the country still relies on imported fuel. The next steps are site selection, funding terms and environmental approvals, all of which will shape whether the project can improve fuel security and supply resilience.",
+      "differences": [
+        "ABC News: focuses on the WA proposal and the feasibility study backed by governments.",
+        "The Guardian Australia: stresses the inflation and energy-security angle, noting Australia imports about 90% of its liquid fuels.",
+        "Australian Financial Review: frames it as the PM’s response to a fuel crisis, with the WA location still undecided."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530",
+          "title": "Australia's first new oil refinery in decades touted for WA"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war",
+          "title": "Potential for first Australian oil refinery in 60 years as treasurer braces for inflation from Middle East war"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2",
+          "title": "PM launches plan for new oil refinery as fuel crisis bites"
+        }
+      ]
+    },
+    {
+      "id": "one-nation-poll-surge-2026",
+      "headline": "Poll shows One Nation rising in federal politics",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T00:25:00.000Z",
+      "voiceScript": "A DemosAU poll shows One Nation continuing to rise in Australian federal politics, with primary vote support up to 30 per cent. The survey of more than 9,000 voters from May through July puts Labor on about 26 per cent, the Coalition on 21, and the Greens on 13, while One Nation is especially strong in Queensland and Western Australia. It matters because it points to a more fragmented parliament and keeps pressure on the Coalition over whether it would work with One Nation after the next election. The next step is whether the numbers hold in future polling or fade again.",
+      "differences": [],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/work/leaders/one-nation-would-be-within-arms-reach-of-forming-government-with-coalition-new-poll-shows/news-story/84d1a28fb8484e38a69dfc58b8b58d67",
+          "title": "One Nation would be 'within arm's reach' of forming government with Coalition: DemosAU poll"
+        }
+      ]
+    },
+    {
+      "id": "tax-return-mistake",
+      "headline": "Millions warned to avoid a $1,000 tax return mistake",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T00:23:21.301Z",
+      "voiceScript": "The ATO is warning millions of taxpayers not to slip up on a common deduction this filing season, because one mistake can quickly turn into a $1,000 difference. The point is less about the number itself and more about keeping receipts, checking eligibility, and not treating personal spending as deductible. For household budgets, this kind of error can change the refund or the bill. Next comes more guidance from the tax office, and whether it steps up compliance checks.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/tax-return-dos-and-donts-mistakes-ato-warning-1000-deduction-blunder-20260727-p60iso.html",
+          "title": "Millions of Aussies warned to avoid making $1000 mistake on their tax return"
+        }
+      ]
+    },
+    {
+      "id": "myer-flat-sales",
+      "headline": "Myer expects flat revenue as consumers stay squeezed",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T00:15:00Z",
+      "voiceScript": "Myer says revenue should stay broadly flat as cost-of-living pressure keeps shoppers cautious, and it is leaning on more discounting than expected. The point is bigger than one retailer: household budgets are still tight, and stores are using deeper promotions to defend sales. For markets, that makes the company a useful gauge of consumer weakness. Next comes the holiday trading period and whether margins keep coming under pressure.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/retail/myer-warns-of-volatile-and-challenging-conditions-flat-sales-20260727-p60irx",
+          "title": "Myer (MYR ASX) expects flat revenue as cost of living pressures weigh on consumer spending"
+        }
+      ]
+    },
+    {
+      "id": "tariffs-pushback",
+      "headline": "Australia pushes back against Trump tariff moves",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T23:04:55Z",
+      "voiceScript": "Australia is again caught in a US tariff dispute after new trade moves from Washington drew a response from Canberra. Tariffs are not only a diplomatic issue; they can flow through to exporter costs, consumer prices, business orders and the government’s negotiating room. For Australia, the key test is whether the dispute stays a short-term political move or turns into a longer trade friction. The next issue is whether the United States softens its position and how hard Australia pushes back.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/27/ausalert-emergency-warning-test-antisemitism-royal-commission-nsw-icac-inquiry-politics-anthony-albanese-labor-angus-taylor-coalition-victoria-jacinta-allan-ntwnfb",
+          "title": "News live: national AusAlert test to blare siren; latest US tariffs on Australia ‘unjustified’, James Paterson says"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/donald-trump-hit-australia-with-nonsense-12-5-per-cent-tarriffs/x4qy0tc68",
+          "title": "Trump's new Australian tariffs reveal complex truths, experts say as government urges repeal"
+        }
+      ]
+    },
+    {
+      "id": "afl-state-of-origin-future",
+      "headline": "AFL confirms 2027 State of Origin plans, with Victoria left out",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T22:19:38Z",
+      "voiceScript": "The AFL has confirmed that the 2027 State of Origin concept will go ahead, but Victoria will not be included. The league wants the matchup to stay attractive as a representative contest and to keep the conversation going about state identity and fixture value. For Victorian fans, it means the long-awaited return is still incomplete. The next question is how the AFL and the states explain the decision, and whether it changes future representative football plans.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/afl-confirms-state-of-origin-future/106961174",
+          "title": "AFL confirms State of Origin future with Victoria left out of 2027 game"
+        }
+      ]
+    },
+    {
+      "id": "woorabinda-rehab-closure",
+      "headline": "Remote Queensland community loses only rehabilitation service",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T22:15:15Z",
+      "voiceScript": "The remote Indigenous community of Woorabinda in Queensland has lost its only local alcohol and drug rehabilitation centre. Without the service, residents may need to leave the community for treatment, adding travel, cost and continuity-of-care risks. The issue matters because remote areas already have thin health services, and once a local program disappears, problems are often delayed rather than solved. The next question is whether transition support, replacement services or new funding are provided.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/woorabinda-rehab-service-closes/106954156",
+          "title": "Remote Qld Indigenous community's only drug and alcohol rehab centre closes"
+        }
+      ]
+    },
+    {
+      "id": "female-tradies-sexism",
+      "headline": "Female tradies call for stronger protections as workplace sexism is again under scrutiny",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T21:16:46Z",
+      "voiceScript": "Women working in construction and the trades still face hostile sexism, and experts say it is affecting recruitment, retention and safety. The reporting is about what actually happens on the job: language, exclusion and unequal treatment, not abstract culture-war debate. For the sector, it is a workforce problem as much as a fairness problem. The next step is whether training, unions and employers move to clearer protections.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/more-action-needed-to-protect-female-tradies-from-nasty-sexism/106939880",
+          "title": "More action needed to protect female tradies from 'nasty sexism', experts say"
+        }
+      ]
+    },
+    {
+      "id": "albanese-dinner-scrutiny",
+      "headline": "Albanese faces renewed scrutiny over wealthy dinner",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-26T21:10:28Z",
+      "voiceScript": "Anthony Albanese is again facing questions after attending a wealthy dinner in Point Piper. The issue is not the meal itself, but whether the public can see enough transparency and boundaries when the prime minister meets business and donor circles. For the government, stories like this affect political image and can widen the perceived distance between national leaders and households under cost-of-living pressure. The next point is whether the opposition keeps pursuing it and whether the government releases more detail.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/federal-politics-live-blog-pm-dinner-july-27/106960978",
+          "title": "Live: Plibersek defends PM's attendance at dinner hosted by billionaire family"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/i-attend-lots-of-dinners-prime-minister-anthony-albanese-quiz-over-point-piper-dinner/news-story/8e3b17291d8ae6becbae6377c2c0c41d",
+          "title": "‘I attend lots of dinners’: Albo squirms"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/pm-has-questions-to-answer-about-point-piper-dinner-say-coalition-20260727-p60isi",
+          "title": "Anthony Albanese dinner controversy continues as opposition demands answers"
+        }
+      ]
+    },
+    {
+      "id": "western-sydney-airport-hotel-crisis",
+      "headline": "Accommodation shortage near Western Sydney Airport raises fears of a hotel crunch",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T21:03:22Z",
+      "voiceScript": "Hotel and bed supply around Western Sydney Airport is being warned to lag behind demand, leaving thousands of travellers facing a shortage when they land. The issue is not just the airport itself. It is the surrounding transport, late-night transfers and commercial support that are not ready yet. For the first wave of users, that means higher costs and more confusion. The next test is whether local government, the hotel industry and the airport operator can fill the gap faster.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/lack-of-hotels-and-beds-near-western-sydney-airport-a-crisis/106956246",
+          "title": "Hotel crisis looms for thousands of travellers landing at new airport"
+        }
+      ]
+    },
+    {
+      "id": "family-flees-arson",
+      "headline": "Melbourne family forced out after arson attack",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T20:13:46Z",
+      "voiceScript": "A Melbourne family has been forced to leave after an arson attack, while police continue to investigate the motive and the extent of the damage. The key question now is whether investigators can determine if this was a targeted dispute or part of a broader crime pattern. Until that is clear, the case is first a safety issue and only then a question of motive.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/family-flees-arson-attack-in-melbourne-20260727-p60iq4.html",
+          "title": "Family flees arson attack in Melbourne"
+        }
+      ]
+    },
+    {
+      "id": "silica-dust-tunnel-exposure",
+      "headline": "Tunnel workers exposed to excessive silica dust on major projects",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T20:02:00Z",
+      "voiceScript": "Workers on some major Australian tunnel projects are alleged to have been repeatedly exposed to silica dust above safety standards. The key issue is not one breach, but ongoing exposure that can turn a preventable work hazard into a long-term lung disease risk. Tunnels, metros and infrastructure projects depend on this labour, and weak monitoring, ventilation or protection can create health consequences that appear years later. The next question is whether contractors and regulators strengthen monitoring, stop-work action and medical follow-up.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/tunnel-workers-silica-dust-exposure/106953680",
+          "title": "Tunnel workers on major projects repeatedly exposed to excessive silica dust levels"
+        }
+      ]
+    },
+    {
+      "id": "bali-waste-tourism",
+      "headline": "Bali's waste crisis is squeezing a top Australian holiday spot",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T19:33:41.713Z",
+      "voiceScript": "Bali's waste crisis is colliding with a tourism rebound, with rubbish building up on streets, beaches and canals. It matters because Bali remains one of the most popular overseas holiday spots for Australians, so the environmental mess can hit travel plans and the local economy. The next focus is whether Indonesian officials can rein in the problem as visitor numbers keep rising.",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bali-waste-crisis-special-economic-zone/wp8w2dyy9",
+          "title": "Australia's favourite holiday destination is undergoing a hidden transformation"
+        }
+      ]
+    },
+    {
+      "id": "ato-call-centre",
+      "headline": "ATO call centre jobs to return to headquarters",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T19:30:00+00:00",
+      "voiceScript": "Labor is backing a move to bring some ATO call centre work back in-house, arguing that these roles should sit inside the public service. The bigger issue is not just staffing, but service quality, job stability, and whether government wants more work kept within departments. For taxpayers, it affects who answers the phone, how consistent the training is, and how quickly people get replies. Next comes the rollout schedule.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9317720/labor-national-conference-alp-commits-to-aps-call-centre-change/",
+          "title": "'Should be done by ATO employees': call centre jobs come back to headquarters"
+        }
+      ]
+    },
+    {
+      "id": "kumanjayi-white-court-action",
+      "headline": "Kumanjayi White family seeks court answers over no-charge decision",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T19:13:00Z",
+      "voiceScript": "Kumanjayi White’s family has gone to the Northern Territory Supreme Court to find out who decided not to prosecute the officers involved. The central issue is not a new criminal finding, but whether the process was transparent enough for the family to understand the reasons. It matters because deaths in custody depend on public trust, and this case adds to long-running concern in First Nations communities about police investigating police. The next step is a court fight over documents, followed by a possible judicial review.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/kumanjayi-white-family-launches-supreme-court-action/106953648",
+          "title": "Court action by Kumanjayi White's family demands answers over decision not to prosecute police"
+        }
+      ]
+    },
+    {
+      "id": "nsw-icac-powerbroker-uk",
+      "headline": "Former NSW Liberal powerbroker is in the UK as ICAC allegations draw scrutiny",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T15:00:17Z",
+      "voiceScript": "A former NSW Liberal powerbroker has become the focus of ICAC allegations, but he is currently in the UK and is not expected to appear in person. The critical issue is whether the timetable and method of the inquiry will be affected. In corruption probes, a missing witness does not necessarily mean the case is over; it can also lengthen the process. The next step is to see whether ICAC can keep pushing ahead with evidence and hearing arrangements.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/former-nsw-liberal-powerbroker-at-heart-of-icac-allegations-now-living-in-uk-and-not-expected-to-appear-ntwnfb",
+          "title": "Former NSW Liberal powerbroker at heart of Icac allegations now living in UK and not expected to appear"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/watchdog-probes-tainted-donations-in-blow-to-liberals",
+          "title": "Watchdog probes tainted donations in blow to Liberals"
+        }
+      ]
+    },
+    {
+      "id": "one-nation-remigrate-interview",
+      "headline": "One Nation senator's remigrate remarks resurface, reigniting migration debate",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T15:00:17Z",
+      "voiceScript": "An old interview has resurfaced, bringing fresh attention to a One Nation senator's use of the word remigrate for people on unlawful visas. The dispute is over whether that language is political fearmongering or a sign of a harder migration agenda. For federal politics, it keeps pressure on all parties to explain where they stand on migration and border policy. The next question is whether the senator or the party offers any further clarification.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/get-rid-of-them-one-nation-senator-claims-party-will-remigrate-visa-holders-in-resurfaced-interview-ntwnfb",
+          "title": "‘Get rid of them’: One Nation senator claims party will ‘remigrate’ illegal visa holders in resurfaced interview"
+        }
+      ]
+    },
+    {
+      "id": "census-explained",
+      "headline": "2026 Census: who must take part and what is at stake",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T12:39:35Z",
+      "voiceScript": "The 2026 Census is due on 11 August, and officials say most people living in Australia must complete it, including some temporary visa holders. The key questions are the deadline, possible fines and how the data will be used to allocate schools, health services and other resources. The next thing to watch is whether reminders lift the response rate, especially among migrant households and people in remote areas.",
+      "differences": [
+        "7NEWS: spells out the key date, how to complete it and the potential fines.",
+        "SBS News: highlights which temporary visa holders must participate and why the count matters."
+      ],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171",
+          "title": "2026 Census explained: Key date, how to fill it out, who needs to take part and potential fines"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj",
+          "title": "2026 Census Australia: Key dates, what's included and why it matters"
+        }
+      ]
+    },
+    {
+      "id": "bike-hoon-crackdown",
+      "headline": "Victoria Police step up crackdown on e-bike hoons",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T11:00:00Z",
+      "voiceScript": "Victoria Police are stepping up enforcement against illegal e-bikes and modified bikes, after riders turned footpaths and roads into dangerous zones. Police say some of the machines are fast enough to put riders, pedestrians and drivers at serious risk, so this is moving beyond warnings to active enforcement. The next question is whether that pressure changes behaviour or simply pushes the problem elsewhere.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/recipe-for-serious-injury-or-death-police-hunt-bike-hoons-from-the-sky-20260726-p60im6.html",
+          "title": "Drastic measures to tackle e-bike hoons"
+        }
+      ]
+    },
+    {
+      "id": "sydney-fisherman-capsize",
+      "headline": "One man dies after fishing boat capsizes off Sydney",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T10:30:00Z",
+      "voiceScript": "A day of fishing off Sydney ended in tragedy when a small boat capsized and one man died. Police say someone on board was not wearing a life jacket, and investigators are still piecing together how the incident escalated. The most important follow-up now is the safety review and the coroner's investigation, to see whether this was a freak accident or a preventable death.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/la-perouse-sydney-fisherman-killed-after-boat-capsized-20260726-p60inu.html",
+          "title": "Fisherman dies after boat capsizes off Sydney"
+        }
+      ]
+    },
+    {
+      "id": "vad-telehealth",
+      "headline": "Labor backs telehealth consultations for assisted dying",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-26T15:00:00+10:00",
+      "voiceScript": "Labor's national conference has backed changing the party platform to allow assisted dying consultations by phone and video. Anthony Albanese still personally opposes the change, warning it could weaken face-to-face assessment and existing safeguards against misuse. Supporters say people in regional areas and those with limited mobility often struggle to get to a clinic, and current federal criminal law leaves doctors wary about even communicating. The next step is whether cabinet turns the party position into legislation, and how any reform balances access and safety.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-26/albanese-opposed-telehealth-voluntary-assisted-dying/106959388",
+          "title": "Anthony Albanese personally opposed to Labor's push on telehealth for VAD"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/26/labor-pressure-telehealth-access-euthanasia-assisted-dying-anthony-albanese",
+          "title": "Albanese at odds with Labor policy which now says telehealth should be allowed for euthanasia consultations"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/prime-minister-rejects-proposal-of-voluntary-assisted-dying-via-telehealth/di63vkdwy",
+          "title": "Prime Minister rejects proposal of voluntary assisted dying via Telehealth"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5",
+          "title": "Labor supports telehealth for voluntary assisted dying at ALP conference, PM Anthony Albanese doesn't"
+        }
+      ]
+    },
+    {
+      "id": "nsw-counselling-records-review",
+      "headline": "New South Wales opens review into subpoenaed sexual assault counselling records",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T02:21:48.000Z",
+      "voiceScript": "New South Wales has launched a year-long review into how counselling records from sexual assault survivors can be subpoenaed and exposed in court. The inquiry, led by Professor Rita Shackel at the University of Sydney, will examine how often this happens and whether stronger legal protections or absolute privilege are needed. It matters because survivors should be able to seek help without worrying that private therapy notes will be turned against them in legal proceedings. The next step is whether the review leads to tighter rules and broader reform.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/push-to-guard-victims-from-trauma-of-therapy-disclosure",
+          "title": "Push to guard victims from trauma of therapy disclosure"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/real-life/news-life/nsw-government-announces-inquiry-into-counselling-records-of-sexual-assault-victimsurvivors/news-story/5d36d7880647898f1176ee589fd3d69f",
+          "title": "NSW Government announces inquiry into counselling records of sexual assault victim-survivors"
+        }
+      ]
+    },
+    {
+      "id": "qld-road-deaths",
+      "headline": "Three killed in two south-east Queensland crashes",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T02:01:53.793Z",
+      "voiceScript": "Two crashes in south-east Queensland on the same night left three people dead and two others badly injured. The immediate questions are what caused the collisions, whether speed or fatigue played a part, and how quickly police can confirm the sequence of events. For the region, it is another reminder that road safety remains an acute local issue. Next comes the investigation, and whether any warnings or charges follow.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/three-killed-in-horror-night-on-south-east-queensland-roads-20260726-p60ima.html",
+          "title": "Three killed in horror night on south-east Queensland roads"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/three-dead-in-two-crashes-across-south-east-overnight-20260726-p60ils.html",
+          "title": "Three dead in two crashes across south-east overnight"
+        }
+      ]
+    },
+    {
+      "id": "cluster-1",
+      "headline": "Two people shot during Cairns police confrontation",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-25T09:47:50.000Z",
+      "voiceScript": "A confrontation with an armed suspect in Cairns, Queensland, ended with police opening fire and a man and a woman being shot. The public details are still incomplete, and the key questions are who the suspect was, how the scene escalated and whether the two injured people are stable. The next step is for police to clearly explain the timeline and the use-of-force decision, otherwise doubts about whether the shooting was necessary will continue.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/queensland-police-shoot-man-woman-cairns-altercation/106958468",
+          "title": "Two people shot by police during altercation in Cairns"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/qld/two-people-including-innocent-bystander-shot-by-police-in-cairns-queensland-20260726-p60ikh.html",
+          "title": "Two people, including innocent bystander, shot by police"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/man-shot-by-police-in-queensland-to-face-court-20260727-p60iq7.html",
+          "title": "Man shot by police in Queensland to face court"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/woman-caught-in-crossfire-as-police-shoot-armed-man-during-stand-off-20260726-p60il7.html",
+          "title": "Woman caught in crossfire as police shoot man in stand-off"
+        }
+      ]
+    },
+    {
+      "id": "cluster-3",
+      "headline": "Five people die in road crashes in WA within 24 hours",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-25T06:21:30.000Z",
+      "voiceScript": "Five people died in separate crashes in Western Australia in less than 24 hours, putting road fatalities back in the spotlight. The crashes happened in different places, which suggests the problem is not one bad stretch of road but a mix of speeding, fatigue and rural-road risk. The next question is whether the state government responds with stronger enforcement and safety campaigns, or keeps relying mainly on driver responsibility.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/five-people-die-in-24-hours-on-wa-roads/106958246",
+          "title": "Drivers urged to play their part as five people die on WA roads in 24 hours"
+        }
+      ]
+    },
+    {
+      "id": "cluster-4",
+      "headline": "Husic criticises Labor culture after Gaza debate fails",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-25T06:01:39.000Z",
+      "voiceScript": "At Labor's national conference, Ed Husic's push to bring the Gaza issue to the floor did not get through, bringing internal divisions into the open. Husic then criticised Labor's culture as too rigid, which shows this is not just about foreign-policy language. It also affects party discipline, Muslim voter sentiment and the government's room to manoeuvre on Middle East issues. The next question is whether the leadership gives a clearer explanation and whether Husic keeps pressing from inside the party.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/ed-husic-pushes-for-gaza-debate-at-labor-conference/106957962",
+          "title": "Husic lashes Labor culture after push for Gaza debate fails"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/ed-husic-labor-gaza-genocide-claims-ntwnfb",
+          "title": "Ed Husic-led push for Labor to recognise Gaza genocide fails, preventing public stoush"
+        }
+      ]
+    },
+    {
+      "id": "cluster-5",
+      "headline": "Controversial herbicide paraquat will stop being sold in Australia",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-25T04:59:49.000Z",
+      "voiceScript": "Syngenta's decision to stop selling paraquat in Australia has effectively settled the future of the controversial herbicide here. The company points to tighter regulation, along with commercial, manufacturing and logistics pressures. The wider backdrop is that many countries already ban products like this, and safety concerns have never gone away. The next question is whether farmers have enough alternatives and whether regulators tighten rules on more high-risk chemicals.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/rural/2026-07-25/syngenta-stops-sales-of-paraquat-after-apvma-review/106956466",
+          "title": "Chemical manufacturer ends sales of controversial herbicide"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/environment/2026/jul/25/herbicide-parkinsons-disease-paraquat-pulled-from-sale-australia-syngenta",
+          "title": "Herbicide banned in 70 countries to be pulled from sale in Australia by chemical maker"
+        }
+      ]
+    },
+    {
+      "id": "cluster-6",
+      "headline": "Liberty Bell Bay may have been insolvent for more than a year before closure",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-25T04:54:08.000Z",
+      "voiceScript": "A receiver's report on Tasmania's Liberty Bell Bay manganese smelter says the plant may have been insolvent for more than a year before it closed, despite a $20 million state loan. The story brings together public subsidies, company finances and job losses. The next question is whether the administrators and the government will examine the original decisions, and how much of the plant and its jobs can still be preserved.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/liberty-bell-bay-administrators-report-insolvent/106957968",
+          "title": "Liberty Bell Bay may have been insolvent for more than a year before closing"
+        }
+      ]
+    },
+    {
+      "id": "fuel-price-rise",
+      "headline": "Fuel prices are rising as the excise cut nears its end",
+      "sourceCount": 6,
+      "publishedAt": "2026-07-25T14:19:00+10:00",
+      "voiceScript": "Fuel prices are still climbing, and the federal government has made clear it will not extend the fuel excise cut beyond its August 2 expiry. With global oil prices rising and geopolitical disruption hitting supply, pump prices in Sydney, Melbourne and elsewhere are already moving higher. Households and commuters will feel that first. The next question is whether higher fuel costs feed through into inflation and affect the Reserve Bank's August interest-rate decision.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876",
+          "title": "Federal government says Australia's fuel supply is 'solid and secure' as prices climb again"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising",
+          "title": "Australian households face prospect of interest rate hike and petrol prices rising above $2 a litre"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte",
+          "title": "Not a 'one off spike': Why higher petrol prices are set to return"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293",
+          "title": "Fuel warning for Aussies as oil price hits 40-day high"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html",
+          "title": "Fuel prices to go up as excise cut ends"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut",
+          "title": "Drivers warned not to expect extended fuel excise cut"
+        }
+      ]
+    },
+    {
+      "id": "qld-bird-flu",
+      "headline": "Queensland confirms its first H5 bird flu case",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-25T13:28:00+10:00",
+      "voiceScript": "Queensland has confirmed that dead seabird samples from Moreton Island, first suspected of testing positive for H5, have now been verified by CSIRO, meaning highly pathogenic avian influenza has reached the state. The immediate focus is wild-bird monitoring, coastal patrols and telling the public to avoid dead or sick birds. Authorities say chicken and eggs remain safe to eat. The next issue is whether the virus spreads further among wild birds and whether the confirmation leads to a wider biosecurity alert.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/bird-flu-queensland-suspected-case/106952884",
+          "title": "First suspected positive case of H5 bird flu detected in Queensland"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114",
+          "title": "First positive case of H5 bird flu in Queensland confirmed by CSIRO"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo",
+          "title": "Queensland records first bird flu case"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae",
+          "title": "Queensland records 'suspected positive' H5 bird flu case"
+        }
+      ]
+    },
+    {
+      "id": "cluster-9",
+      "headline": "High partner visa fees leave some couples separated",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T20:42:03.000Z",
+      "voiceScript": "Australia's partner visa application fee has risen to $11,710, and the long processing time is trapping many cross-border couples apart. The problem is not just the cost of the visa itself. Fees and waiting times are pushing family life back, especially for people already living and working in Australia. The next question is whether the Home Affairs Department responds to concerns about the price and the backlog.",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/australian-partner-visa-high-fee-long-waiting-times/ndnwrh7q8",
+          "title": "'Life delayed': The $11,710 bill keeping some couples apart"
+        }
+      ]
+    },
+    {
+      "id": "cluster-10",
+      "headline": "Abuse survivors win a new round in Christian Brothers litigation",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T15:00:17.000Z",
+      "voiceScript": "Abuse survivors linked to the Christian Brothers have won the latest round of legal battles, but the real issue of compensation and accountability is far from over. The problem is not a single judgment. It is the gap between collapsing church institutions, compensation arrangements and the years survivors have spent waiting. The next question is whether payouts move faster and whether responsibility is finally pinned down.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/abuse-survivors-have-won-their-latest-fight-against-the-christian-brothers-but-why-did-it-take-so-much-pain-and-suffering-to-get-here-ntwnfb",
+          "title": "Abuse survivors have won their latest fight against the Christian Brothers. But why did it take so much pain and suffering to get here? | Christopher Knaus"
+        }
+      ]
+    },
+    {
+      "id": "cluster-8",
+      "headline": "Police admit an abusive call was not logged at antisemitism royal commission hearing",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T08:50:28.000Z",
+      "voiceScript": "At the fifth hearing of Melbourne's royal commission into antisemitism and social cohesion, police were publicly called out for failing to record an abusive call aimed at a synagogue. The detail pulled the debate back from abstract hatred to policing records, community safety and institutional failure. The next question is whether the commission's final recommendations will require tighter reporting and follow-up systems in police and schools.",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/antisemitism-royal-commission-wraps-fifth-hearing-block-in-melbourne/nv8dgn7xd",
+          "title": "Police confirm abusive phone call to synagogue not logged, at antisemitism royal commission"
+        }
+      ]
+    },
+    {
+      "id": "us-tariff-australian-exports",
+      "headline": "New US tariffs hit Australian exports",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-24T13:31:00+10:00",
+      "voiceScript": "The United States has imposed a 12.5% tariff on Australian exports, with the temporary 10% rate also expiring, and Canberra has immediately called it an unfair trade hit. Exporters and the negotiating climate are the first to feel the impact. Beef, gold and other key products may not be the hardest hit right away, but costs and uncertainty are rising across the supply chain. The next question is whether Canberra keeps lobbying Washington, and whether the tariff logic built around forced labour keeps expanding.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/us-trump-administration-new-tariff-announcement/106938462",
+          "title": "Trump administration confirms new 12.5 per cent tariff for Australia"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/24/donald-trump-hits-australian-exports-to-us-with-new-higher-trade-tariff-over-claims-of-forced-labour",
+          "title": "Donald Trump hits Australian exports to US with new higher trade tariff over claims of 'forced labour'"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/australia-rejects-higher-us-tariffs/drpzxtsup",
+          "title": "Australia rejects higher US tariffs | SBS News"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/australian-economy/anthony-albaneses-rejects-trumps-unjustified-slavery-tariff/news-story/979af50892a0cb89c9cc9f3ca3218314",
+          "title": "Anthony Albanese dodges question on Trump threat"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/donald-trump-anthony-albanese-tariffs-20260726-p60in6.html",
+          "title": "PM set to raise ‘unjustified’ tariffs with US President Donald Trump"
+        }
+      ]
+    },
+    {
+      "id": "brisbane-gpo-tower",
+      "headline": "Forty-storey office tower planned beside Brisbane GPO",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T10:00:00+10:00",
+      "voiceScript": "Brisbane's CBD is getting another major development proposal, with a 40-storey office tower planned next to the GPO. The project also includes public space at street level and would replace the current Edison Exchange, so this is not only about height. It is also about how the CBD keeps absorbing commercial growth. The next question is whether planning and design approval go smoothly, and how the tower fits into the city's Olympic-era story.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/40-storey-office-tower-to-be-built-next-to-brisbane-s-gpo-20260724-p60idr.html",
+          "title": "40-storey office tower to be built next to Brisbane’s GPO"
+        }
+      ]
+    },
+    {
+      "id": "labor-conference-pay-package",
+      "headline": "Labor conference pushes youth worker benefits and a Fair Work Court",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-24T10:00:00+10:00",
+      "voiceScript": "Labor's national conference in Adelaide is still rolling out workplace policy, centred on a new Fair Work Court, the expansion of Paid Prac for more frontline health professions, and discussion of superannuation thresholds for young workers. The government wants to shift contentious and costly workplace disputes into a faster, cheaper process, while easing cash pressure on students doing placements. Critics will watch employer costs and the budget hit. The next question is whether these commitments become actual legislation and funding.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-23/federal-politics-live-blog-paid-prac/106947462",
+          "title": "Federal politics: Floor fight over gas tax evaporates as Labor spruiks new workers' court at ALP conference"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/see-the-full-list-who-will-get-338-weekly-payments-under-prac-payment-expansion/j8vf90nhj",
+          "title": "Full list: Here's who will get $338 weekly payments under prac payment expansion"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/work/leaders/anthony-albanese-to-speak-at-alp-conference-as-beer-tax-debate-rages/live-coverage/43ba1e0bb2ec2e5eb33be9f30f299134",
+          "title": "Labor promises superannuation boost for young Australian workers"
+        }
+      ]
+    },
+    {
+      "id": "perth-ai-child-sex-videos",
+      "headline": "Perth cancer doctor admits making AI child sexual abuse videos",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T10:00:00+10:00",
+      "voiceScript": "A Perth cancer doctor has admitted to making AI-generated child sexual abuse videos, shocking the medical and legal communities. The key issues now are the scale of the material, the legal consequences and whether the court treats this as a novel use of technology or part of a much more serious pattern of abuse. The full details will emerge through the court process, not speculation.",
+      "differences": [],
+      "links": [
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/western-australia/perth-cancer-doctor-admits-he-made-ai-child-sex-videos-20260724-p60ias.html",
+          "title": "Perth cancer doctor admits he made AI child sex videos"
+        }
+      ]
+    },
+    {
+      "id": "origin-data-breach-ai-scams",
+      "headline": "Origin data breach raises fears of AI-driven scams",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-23T19:04:00Z",
+      "voiceScript": "Origin Energy’s breach has raised concerns that criminals will combine stolen names, addresses, birth dates and partial account details with public information to make phishing emails, calls and texts more convincing. The key number is Origin’s 4.8 million customer accounts, while the full impact is still being confirmed. It matters because even incomplete data can become highly effective when AI helps scammers scale up impersonation. The next step is customer notifications, the official investigation and how banks and regulators respond to follow-on fraud.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/origin-breach-could-fuel-wave-of-ai-powered-scams/106951588",
+          "title": "Origin data breach could fuel wave of AI-powered scams, cyber experts warn"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/23/personal-and-banking-details-among-customer-data-stolen-in-origin-energy-hack",
+          "title": "Personal and banking details among customer data stolen in Origin Energy hack"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/not-just-phishing-the-scams-to-watch-for-if-youre-an-origin-energy-customer/3jauqz344",
+          "title": "Not just phishing: The scams to watch for if you're an Origin Energy customer"
+        }
+      ]
+    },
+    {
+      "id": "vic-teachers-strike-2026",
+      "headline": "Victorian teachers strike again over pay and workload",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-23T08:22:12.000Z",
+      "voiceScript": "Victorian public school teachers are back on strike over pay and workload pressures that they say still have not been fixed. The union says the government offer of about a 28 per cent pay rise over four years does not solve class loads, meeting requirements, or staffing shortages, so members rejected the deal and continued industrial action. The government argues the proposal would make Victorian teachers among the best paid in the country. It matters because the dispute affects students, parents and day-to-day school operations, and it shows how tight staffing has become across the education system. The next step is whether the two sides can find a compromise before talks break down again.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-23/victorian-teachers-on-strike-today-as-offer-is-rejected/106946678",
+          "title": "Victorian teachers 'need relief' as tens of thousands strike for a second time"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/vote-deadline-on-teacher-pay-offer-as-strike-looms",
+          "title": "Fed-up teachers reject offer as mass strike confirmed"
+        }
+      ]
+    },
+    {
+      "id": "sydney-housing-tower",
+      "headline": "Sydney suburb pushes back against a high-density social housing tower",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-23T02:00:00Z",
+      "voiceScript": "Residents in Camden are fighting a New South Wales government housing plan, saying the proposed high-density social housing tower would be too much for the community to absorb. The real issue, though, is the broader housing shortage, so the question is not whether more homes are needed, but where the density should go and how it should be designed. The next step is whether planners and local leaders change the design, or whether the clash drags on.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/camden-sydney-residents-fight-against-high-density-social-housing-tower-20260723-p60hzb.html",
+          "title": "‘The town cannot cope’: Sydney suburb fights NSW government over housing tower"
+        }
+      ]
+    },
+    {
+      "id": "lancelin-erosion",
+      "headline": "Lancelin residents take their fight against coastal erosion to Perth",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-22T10:00:00+10:00",
+      "voiceScript": "Residents from Lancelin have taken their coastal erosion fight to Perth, warning that the town's last line of sand dunes is thinning fast. The problem is very concrete: if the shoreline keeps retreating, homes, roads and local businesses will face more pressure each season. The next question is whether the state government treats this as an urgent engineering issue or keeps handling it as slow-moving coastal management.",
+      "differences": [],
+      "links": [
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/western-australia/with-a-dune-as-its-last-defence-a-wa-town-buses-into-the-city-to-demand-action-20260722-p60hp7.html",
+          "title": "‘Save our town’: Lancelin residents take coastal erosion fight to city centre"
+        }
+      ]
+    },
+    {
+      "id": "toxic-waste-landswap",
+      "headline": "Secret recording exposes Perth developer's toxic waste land swap",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-22T10:00:00+10:00",
+      "voiceScript": "A secret recording has brought a Perth developer's land swap involving toxic waste back under scrutiny. The recording itself is not the real point. It suggests that pollution, land value and disclosure may have been handled in a questionable way. The next question is whether regulators and investigators see this as a bad deal, a compliance breach or something more serious.",
+      "differences": [],
+      "links": [
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/western-australia/getting-rid-of-a-headache-secret-tape-exposes-land-swap-deal-for-toxic-waste-20260722-p60hmm.html",
+          "title": "‘Getting rid of a headache’: Secret tape exposes Perth developer’s land-swap deal for ‘toxic’ waste"
+        }
+      ]
+    },
+    {
+      "id": "qld-dv-survivor-report",
+      "headline": "Queensland accused of burying domestic violence survivors' report",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-21T15:00:50.000Z",
+      "voiceScript": "Queensland has been accused of burying a report written by a domestic violence survivor panel. The report criticised police responses, described delays and inconsistency, and recommended a civilian review mechanism for complaints against police, but the summary has not been released. The issue matters because it goes to whether victim-survivors can trust the justice system to put their safety first and whether the government is willing to confront problems in policing and support services. The next step is whether the government publishes the report and responds to the reform demands.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/21/the-queensland-government-promised-to-put-victims-first-instead-it-buried-a-report-from-domestic-violence-survivors",
+          "title": "The Queensland government promised to put victims first. But it has buried a report from domestic violence survivors"
+        }
+      ]
+    }
+  ],
+  "language": "vi"
+}
