@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T20:06:57.702Z",
+  "updatedAt": "2026-07-27T22:09:51.022Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,24 @@
     }
   ],
   "errors": [
-    "The Australian과 Sky News Australia는 아직 안정적으로 파싱 가능한 공개 기사 목록이 없습니다. 이번 업데이트는 직접 기사 페이지와 검색 결과로 현재 화제를 보완했습니다."
+    "news.com.au 최신 RSS는 이번 실행에서 비어 있었습니다. AFR, Sky News Australia, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday, The Canberra Times는 HTML 메인 페이지 추출로 보완했고, 7일 이내의 호주 관련 기사만 남겼습니다."
   ],
   "clusters": [
+    {
+      "id": "builder-warning-nsw",
+      "headline": "무등록 건설업자 Steve Preston, NSW에서 계속 영업",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T21:38:06Z",
+      "voiceScript": "ABC는 Steve Preston이 서호주와 퀸즐랜드에서 규제 문제를 겪은 뒤에도 뉴사우스웨일스에서 계속 활동하고 있다고 전했다. 이 이야기는 건설업 면허, 선불금 보호, 주를 넘는 단속의 한계를 다시 드러낸다는 점에서 중요하다. 앞으로 NSW 당국이 움직일지, 고객들이 손실을 회수할 수 있을지가 관건이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/steve-preston-building-in-nsw-after-warnings-in-wa-and-qld/106832478",
+          "title": "Twice named and shamed builder accused of leaving customers out of pocket"
+        }
+      ]
+    },
     {
       "id": "antisemitism",
       "headline": "반유대주의 위원회, 교육과 훈련을 핵심 의제로",
@@ -145,13 +160,14 @@
     {
       "id": "leadership",
       "headline": "빅토리아 노동당 지도부 싸움이 격화",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-07-27T19:16:51Z",
       "voiceScript": "빅토리아 노동당 내부의 갈등이 Ben Carroll의 도전으로 이어지며 Jacinta Allan 총리의 지도력 문제로 번졌다. 주 선거를 몇 달 앞둔 시점의 충돌이어서 선거 전략, 정책 우선순위, 정부 이미지에 영향을 줄 수 있다. 지금 핵심은 Allan이 당내 다수를 지킬 수 있는지, 아니면 공식 표결로 넘어가 내분이 길어질지다.",
       "differences": [
-        "ABC News는 당내 숫자와 spill 절차에 초점을 맞춘다.",
-        "The Guardian Australia는 Allan이 물러나지 않겠다는 태도와 계파 분열을 전면에 내세운다.",
-        "AAP News는 싸움이 길어질 가능성과 선거 시점의 부담을 강조한다."
+        "ABC News는 당내 표 계산과 공식 표결 가능성을 더 강조한다.",
+        "The Guardian Australia는 Allan의 사퇴 거부와 당내 계파 균열을 부각한다.",
+        "SBS News는 11월 주선거까지 4개월밖에 남지 않은 시험대로 이 경쟁을 묘사한다.",
+        "AAP News는 이 갈등이 길어지며 선거 전 정부를 계속 흔들 수 있다고 강조한다."
       ],
       "links": [
         {
@@ -163,6 +179,11 @@
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/27/jacinta-allan-leadership-challenge-labor-faction-meeting-victoria-politics",
           "title": "Victoria premier Jacinta Allan vows to stand in any ballot as Ben Carroll confirms he’ll contest leadership"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/jacinta-allan-election-victoria-leadership-contest-labor-2026/nepmedqud",
+          "title": "Who could replace Victorian premier Jacinta Allan — and the four-month test they'll face"
         },
         {
           "source": "AAP News",
@@ -201,29 +222,6 @@
       ]
     },
     {
-      "id": "pauline",
-      "headline": "폴린 핸슨, 파루키 차별 판결 항소에서 패소",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-27T08:41:00Z",
-      "voiceScript": "폴린 핸슨은 메흐린 파루키에 대한 인종차별 판단에 항소했지만 패소했다. 쟁점은 2022년의 '파키스탄으로 돌아가라'는 게시물로, 정치적 발언과 인종적 모욕의 경계를 가르는 중요한 사건이다. 항소심이 앞선 판단을 유지하면서, 이제는 고등법원 상고 여부와 소송 비용 처리가 쟁점이 됐다.",
-      "differences": [
-        "ABC News는 항소 절차와 원문 게시물, 그리고 추가 상고 가능성을 강조한다.",
-        "The Guardian Australia는 만장일치 기각과 혐오 발언과 표현의 자유를 둘러싼 선례성을 부각한다."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/nsw-pauline-hanson-appeal-mehreen-faruqi-judgement/106962048",
-          "title": "Pauline Hanson fails in appeal bid against racial discrimination of Mehreen Faruqi"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb",
-          "title": "Pauline Hanson loses bid to overturn Mehreen Faruqi racial discrimination finding"
-        }
-      ]
-    },
-    {
       "id": "sa-port-macdonnell-search",
       "headline": "남호주 해안 수색, 엄마와 어린아이 발견 뒤 실종 아기로 전환",
       "sourceCount": 3,
@@ -251,15 +249,29 @@
     {
       "id": "actu-leadership-change",
       "headline": "ACTU 최고 지도자 두 명이 물러난다",
-      "sourceCount": 1,
+      "sourceCount": 3,
       "publishedAt": "2026-07-27T21:47:00+10:00",
       "voiceScript": "호주노총의 사무총장 샐리 맥매너스와 회장 미셸 오닐이 사임을 발표하면서 노동운동 지도부 교체가 시작됐다. 노동당 전국대회 직후라는 시점은 임금, 노동시간, 노동자 보호를 둘러싼 노조의 영향력이 가장 크게 주목되는 구간이다. 앞으로는 후임 인선과 노동당과의 관계 변화가 핵심이다.",
-      "differences": [],
+      "differences": [
+        "ABC News는 노조 내부의 교체와 후계 절차에 초점을 맞춘다.",
+        "Australian Financial Review는 새 과제에 맞선 세대교체로 해석한다.",
+        "The Australian은 두 사람의 긴 재임 기간과 노동운동에 미친 영향의 규모를 강조한다."
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/actu-leaders-sally-mcmanus-michele-o-neil-resign/106964206",
           "title": "ACTU leaders Sally McManus and Michele O'Neil announce resignations"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/work-and-careers/workplace/actu-leadership-to-step-down-make-way-for-new-generation-20260727-p60iv4",
+          "title": "ACTU leadership to step down, make way for new generation"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/top-union-leaders-sally-mcmanus-and-michele-oneil-announce-shock-resignations/news-story/b2cb98c940d7277ef363284b48d0e31c",
+          "title": "Sally McManus, Michele O'Neil resign as ACTU leaders"
         }
       ]
     },
@@ -313,6 +325,29 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/man-fined-for-botched-lizard-smuggling-wa-to-nsw/106962820",
           "title": "Man fined $31k after botched smuggling attempt kills 55 reptiles"
+        }
+      ]
+    },
+    {
+      "id": "pauline",
+      "headline": "폴린 핸슨, 파루키 차별 판결 항소에서 패소",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T08:41:00Z",
+      "voiceScript": "폴린 핸슨은 메흐린 파루키에 대한 인종차별 판단에 항소했지만 패소했다. 쟁점은 2022년의 '파키스탄으로 돌아가라'는 게시물로, 정치적 발언과 인종적 모욕의 경계를 가르는 중요한 사건이다. 항소심이 앞선 판단을 유지하면서, 이제는 고등법원 상고 여부와 소송 비용 처리가 쟁점이 됐다.",
+      "differences": [
+        "ABC News는 항소 절차와 원문 게시물, 그리고 추가 상고 가능성을 강조한다.",
+        "The Guardian Australia는 만장일치 기각과 혐오 발언과 표현의 자유를 둘러싼 선례성을 부각한다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/nsw-pauline-hanson-appeal-mehreen-faruqi-judgement/106962048",
+          "title": "Pauline Hanson fails in appeal bid against racial discrimination of Mehreen Faruqi"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb",
+          "title": "Pauline Hanson loses bid to overturn Mehreen Faruqi racial discrimination finding"
         }
       ]
     },
@@ -969,6 +1004,21 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/tunnel-workers-silica-dust-exposure/106953680",
           "title": "Tunnel workers on major projects repeatedly exposed to excessive silica dust levels"
+        }
+      ]
+    },
+    {
+      "id": "bali-waste-tourism",
+      "headline": "발리의 쓰레기 위기, 호주 인기 휴양지를 압박",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T19:33:41.713Z",
+      "voiceScript": "SBS는 발리에서 쓰레기 위기가 관광 회복과 겹치면서 도로와 해변, 운하에 폐기물이 쌓이고 있다고 보도했다. 발리는 지금도 많은 호주인들에게 대표적인 해외 휴양지이기 때문에, 환경 악화는 여행 일정과 현지 경제에 직접 영향을 줄 수 있다. 앞으로는 인도네시아 당국이 이 문제를 얼마나 억제할 수 있는지, 그리고 관광객 증가가 상황을 더 악화시키지 않는지가 관건이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bali-waste-crisis-special-economic-zone/wp8w2dyy9",
+          "title": "Australia's favourite holiday destination is undergoing a hidden transformation"
         }
       ]
     },

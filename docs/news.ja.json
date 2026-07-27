@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T20:06:57.702Z",
+  "updatedAt": "2026-07-27T22:09:51.022Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,24 @@
     }
   ],
   "errors": [
-    "The Australian と Sky News Australia は、安定して解析できる公開一覧がまだありません。今回の更新では、直接の記事ページと検索結果で最新の話題を補いました。"
+    "news.com.au の最新 RSS は今回空でした。AFR、Sky News Australia、9News、7NEWS、SMH、The Age、Brisbane Times、WAtoday、The Canberra Times は HTML のトップページ取得で補完し、7 日以内でオーストラリアとの関連が明確な記事だけを残しました。"
   ],
   "clusters": [
+    {
+      "id": "builder-warning-nsw",
+      "headline": "無登録の建設業者 Steve Preston が NSW で営業継続",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T21:38:06Z",
+      "voiceScript": "ABC は、Steve Preston が西オーストラリア州とクイーンズランド州で監督当局と問題を起こした後も、ニューサウスウェールズ州で事業を続けていると伝えています。建設業の免許、前払い金の保護、州をまたぐ取り締まりの難しさが改めて問われるため、この話は重要です。今後は NSW 当局が動くのか、顧客が損失を回収できるのかが焦点になります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/steve-preston-building-in-nsw-after-warnings-in-wa-and-qld/106832478",
+          "title": "Twice named and shamed builder accused of leaving customers out of pocket"
+        }
+      ]
+    },
     {
       "id": "antisemitism",
       "headline": "反ユダヤ主義の王立委、教育と研修を重点議題に",
@@ -145,13 +160,14 @@
     {
       "id": "leadership",
       "headline": "ビクトリア州労働党の主導権争いが激化",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-07-27T19:16:51Z",
       "voiceScript": "ビクトリア州労働党の内部対立は、Ben Carroll が Jacinta Allan 首相に挑む形で党首争いへと発展した。州選挙まで数か月しかない時期での争いだけに、選挙運動、政策の優先順位、政権の印象に影響する。今の焦点は、Allan が党内の多数派を保てるのか、それとも正式な投票に進んで対立が長期化するのかだ。",
       "differences": [
-        "ABC News は党内票数やスピルの手続きに焦点を当てています。",
-        "The Guardian Australia は Allan が退かない姿勢と派閥の分裂を前面に出しています。",
-        "AAP News は争いが長引く可能性と選挙時期への影響を強調しています。"
+        "ABC News は、党内票の行方や正式な投票に発展する可能性を強調している。",
+        "The Guardian Australia は、Allan が退陣を拒んでいることと、派閥対立の表面化を前面に出している。",
+        "SBS News は、11 月の州選挙まで 4 か月しかない中での試練として描いている。",
+        "AAP News は、争いが長引いて投票前の政府を揺さぶり続ける点を強調している。"
       ],
       "links": [
         {
@@ -163,6 +179,11 @@
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/27/jacinta-allan-leadership-challenge-labor-faction-meeting-victoria-politics",
           "title": "Victoria premier Jacinta Allan vows to stand in any ballot as Ben Carroll confirms he’ll contest leadership"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/jacinta-allan-election-victoria-leadership-contest-labor-2026/nepmedqud",
+          "title": "Who could replace Victorian premier Jacinta Allan — and the four-month test they'll face"
         },
         {
           "source": "AAP News",
@@ -201,29 +222,6 @@
       ]
     },
     {
-      "id": "pauline",
-      "headline": "ポーリン・ハンソン、ファルキ差別認定の控訴で敗訴",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-27T08:41:00Z",
-      "voiceScript": "ポーリン・ハンソンは、メフリン・ファルキ上院議員への人種差別を認定した連邦裁判所判断への控訴に敗れた。争点は、2022年の「パキスタンへ帰れ」という投稿で、政治的発言と人種的侮辱の境界をめぐる大きな試金石になっている。控訴裁判所が前の判断を支持したことで、今後は高等法院への上訴があるのか、また費用負担をどうするのかが焦点だ。",
-      "differences": [
-        "ABC News は控訴手続き、元の投稿内容、そして高等法院への再上訴の可能性に注目しています。",
-        "The Guardian Australia は三人の判事による全会一致の棄却と、ヘイトスピーチと表現の自由をめぐる先例性を強調しています。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/nsw-pauline-hanson-appeal-mehreen-faruqi-judgement/106962048",
-          "title": "Pauline Hanson fails in appeal bid against racial discrimination of Mehreen Faruqi"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb",
-          "title": "Pauline Hanson loses bid to overturn Mehreen Faruqi racial discrimination finding"
-        }
-      ]
-    },
-    {
       "id": "sa-port-macdonnell-search",
       "headline": "南オーストラリア州の捜索は行方不明の乳児へ、母親と幼児の遺体発見後",
       "sourceCount": 3,
@@ -251,15 +249,29 @@
     {
       "id": "actu-leadership-change",
       "headline": "ACTUのトップ2人が退任へ",
-      "sourceCount": 1,
+      "sourceCount": 3,
       "publishedAt": "2026-07-27T21:47:00+10:00",
       "voiceScript": "オーストラリア労働組合評議会の書記サリー・マクマナス氏と会長ミシェル・オニール氏が退任を発表し、労働運動のトップで世代交代が始まります。労働党の全国大会の直後という時期は、賃金、労働時間、職場保護をめぐる労組の影響力が最も意識される局面です。今後は後継人事と、労働党との関係がどう変わるかが注目点になります。",
-      "differences": [],
+      "differences": [
+        "ABC News は、労働運動内部での交代と後継手続きに焦点を当てている。",
+        "Australian Financial Review は、新しい課題に向けた世代交代として描いている。",
+        "The Australian は、長い在任期間と労働運動への影響の大きさを強調している。"
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/actu-leaders-sally-mcmanus-michele-o-neil-resign/106964206",
           "title": "ACTU leaders Sally McManus and Michele O'Neil announce resignations"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/work-and-careers/workplace/actu-leadership-to-step-down-make-way-for-new-generation-20260727-p60iv4",
+          "title": "ACTU leadership to step down, make way for new generation"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/top-union-leaders-sally-mcmanus-and-michele-oneil-announce-shock-resignations/news-story/b2cb98c940d7277ef363284b48d0e31c",
+          "title": "Sally McManus, Michele O'Neil resign as ACTU leaders"
         }
       ]
     },
@@ -313,6 +325,29 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/man-fined-for-botched-lizard-smuggling-wa-to-nsw/106962820",
           "title": "Man fined $31k after botched smuggling attempt kills 55 reptiles"
+        }
+      ]
+    },
+    {
+      "id": "pauline",
+      "headline": "ポーリン・ハンソン、ファルキ差別認定の控訴で敗訴",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T08:41:00Z",
+      "voiceScript": "ポーリン・ハンソンは、メフリン・ファルキ上院議員への人種差別を認定した連邦裁判所判断への控訴に敗れた。争点は、2022年の「パキスタンへ帰れ」という投稿で、政治的発言と人種的侮辱の境界をめぐる大きな試金石になっている。控訴裁判所が前の判断を支持したことで、今後は高等法院への上訴があるのか、また費用負担をどうするのかが焦点だ。",
+      "differences": [
+        "ABC News は控訴手続き、元の投稿内容、そして高等法院への再上訴の可能性に注目しています。",
+        "The Guardian Australia は三人の判事による全会一致の棄却と、ヘイトスピーチと表現の自由をめぐる先例性を強調しています。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/nsw-pauline-hanson-appeal-mehreen-faruqi-judgement/106962048",
+          "title": "Pauline Hanson fails in appeal bid against racial discrimination of Mehreen Faruqi"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb",
+          "title": "Pauline Hanson loses bid to overturn Mehreen Faruqi racial discrimination finding"
         }
       ]
     },
@@ -969,6 +1004,21 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/tunnel-workers-silica-dust-exposure/106953680",
           "title": "Tunnel workers on major projects repeatedly exposed to excessive silica dust levels"
+        }
+      ]
+    },
+    {
+      "id": "bali-waste-tourism",
+      "headline": "バリ島のごみ危機、豪州人気の旅行先を圧迫",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T19:33:41.713Z",
+      "voiceScript": "SBS は、バリ島でごみ危機が観光回復と重なり、道路や海岸、運河に廃棄物がたまっていると報じています。バリ島は今も多くのオーストラリア人にとって定番の海外旅行先なので、環境悪化は旅行計画と現地経済の両方に影響します。今後の焦点は、インドネシア当局がこの問題を抑え込めるか、そして旅行者増加で状況がさらに悪化しないかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bali-waste-crisis-special-economic-zone/wp8w2dyy9",
+          "title": "Australia's favourite holiday destination is undergoing a hidden transformation"
         }
       ]
     },

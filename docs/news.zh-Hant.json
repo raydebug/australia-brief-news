@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T20:06:57.702Z",
+  "updatedAt": "2026-07-27T22:09:51.022Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,24 @@
     }
   ],
   "errors": [
-    "The Australian 和 Sky News Australia 仍缺少穩定可解析的公開列表；本次更新通過直接文章頁和搜尋結果補足了當前熱點。"
+    "news.com.au 最新 RSS 本輪返回空列表；AFR、Sky News Australia、9News、7NEWS、SMH、The Age、Brisbane Times、WAtoday、Canberra Times 主頁可訪問，但需要 HTML 抽取，已只保留能確認澳洲關聯且在 7 天內的條目。"
   ],
   "clusters": [
+    {
+      "id": "builder-warning-nsw",
+      "headline": "新州未註冊建商 Steve Preston 仍在接案引發關注",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T21:38:06Z",
+      "voiceScript": "ABC 報道說，Steve Preston 在西澳和昆州先前惹上監管問題後，如今仍在新州活動。這條新聞重要在於，它再次把建商執照、客戶預付款風險和跨州執法銜接推到前台。接下來要看新州監管部門是否會出手，以及受影響客戶能否追討損失。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/steve-preston-building-in-nsw-after-warnings-in-wa-and-qld/106832478",
+          "title": "Twice named and shamed builder accused of leaving customers out of pocket"
+        }
+      ]
+    },
     {
       "id": "antisemitism",
       "headline": "反猶太主義皇家委員會把教育和培訓列為重點",
@@ -145,12 +160,13 @@
     {
       "id": "leadership",
       "headline": "維州工黨領導權之爭升級為黨團逼宮",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-07-27T19:16:51Z",
       "voiceScript": "維州工黨內部圍繞 Jacinta Allan 的領導權爭執已經升級，Ben Carroll 公開挑戰黨魁位置。這個爭議之所以重要，是因為它發生在州選前幾個月，可能影響工黨的競選節奏、政策重點和公眾觀感。接下來關鍵要看 Allan 能不能守住黨團多數，還是說逼宮會真的進入正式投票並拖長內鬥。",
       "differences": [
         "ABC News：更強調黨團票數、逼宮流程和可能觸發的正式 leadership spill。",
         "The Guardian Australia：突出 Allan 拒絕下台，以及黨內派系裂痕已經公開化。",
+        "SBS News：把這場爭奪寫成對任何接班人來說都只有四個月的考驗，並強調 11 月州選的壓力。",
         "AAP News：強調這場爭鬥可能拖很久，並在大選前持續擾動政府。"
       ],
       "links": [
@@ -163,6 +179,11 @@
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/27/jacinta-allan-leadership-challenge-labor-faction-meeting-victoria-politics",
           "title": "Victoria premier Jacinta Allan vows to stand in any ballot as Ben Carroll confirms he’ll contest leadership"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/jacinta-allan-election-victoria-leadership-contest-labor-2026/nepmedqud",
+          "title": "Who could replace Victorian premier Jacinta Allan — and the four-month test they'll face"
         },
         {
           "source": "AAP News",
@@ -201,29 +222,6 @@
       ]
     },
     {
-      "id": "pauline",
-      "headline": "保琳·漢森上訴敗訴，法庭維持對法魯奇的種族歧視認定",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-27T08:41:00Z",
-      "voiceScript": "Pauline Hanson 對聯邦法院種族歧視認定的上訴已經失敗，法院維持她針對 Mehreen Faruqi 的那條推文構成歧視。這個案子重要，因為它繼續劃定澳洲政治言論和種族侮辱之間的界線，也可能影響今後類似案件的判例走向。接下來要看 Hanson 是否繼續上訴到高等法院，以及這場訴訟的費用如何處理。",
-      "differences": [
-        "ABC News：更強調上訴程序、原始推文內容，以及 Hanson 可能尋求高院上訴。",
-        "The Guardian Australia：突出三位法官一致駁回上訴，以及這項判決的法律先例意義。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/nsw-pauline-hanson-appeal-mehreen-faruqi-judgement/106962048",
-          "title": "Pauline Hanson fails in appeal bid against racial discrimination of Mehreen Faruqi"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb",
-          "title": "Pauline Hanson loses bid to overturn Mehreen Faruqi racial discrimination finding"
-        }
-      ]
-    },
-    {
       "id": "sa-port-macdonnell-search",
       "headline": "南澳海岸搜救升級，母女遺體已尋獲、嬰兒仍失蹤",
       "sourceCount": 3,
@@ -251,15 +249,29 @@
     {
       "id": "actu-leadership-change",
       "headline": "ACTU兩位最高領導人宣布卸任",
-      "sourceCount": 1,
+      "sourceCount": 3,
       "publishedAt": "2026-07-27T21:47:00+10:00",
       "voiceScript": "澳洲工會理事會秘書 Sally McManus 和主席 Michele O'Neil 宣布卸任，工運最高層進入換班期。這一變化發生在工會和工黨政策互動最密集的時候，後續接班人選會影響工資、工時和工作場所保護的推動力度。接下來要看新領導層如何成形，以及工會與工黨關係是否出現調整。",
-      "differences": [],
+      "differences": [
+        "ABC News：突出工會最高層換班與接班程序。",
+        "Australian Financial Review：把這次離任寫成面對新挑戰的新一代交棒。",
+        "The Australian：強調兩人的長期任期，以及她們對工運影響力的重塑。"
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/actu-leaders-sally-mcmanus-michele-o-neil-resign/106964206",
           "title": "ACTU leaders Sally McManus and Michele O'Neil announce resignations"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/work-and-careers/workplace/actu-leadership-to-step-down-make-way-for-new-generation-20260727-p60iv4",
+          "title": "ACTU leadership to step down, make way for new generation"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/top-union-leaders-sally-mcmanus-and-michele-oneil-announce-shock-resignations/news-story/b2cb98c940d7277ef363284b48d0e31c",
+          "title": "Sally McManus, Michele O'Neil resign as ACTU leaders"
         }
       ]
     },
@@ -313,6 +325,29 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/man-fined-for-botched-lizard-smuggling-wa-to-nsw/106962820",
           "title": "Man fined $31k after botched smuggling attempt kills 55 reptiles"
+        }
+      ]
+    },
+    {
+      "id": "pauline",
+      "headline": "保琳·漢森上訴敗訴，法庭維持對法魯奇的種族歧視認定",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T08:41:00Z",
+      "voiceScript": "Pauline Hanson 對聯邦法院種族歧視認定的上訴已經失敗，法院維持她針對 Mehreen Faruqi 的那條推文構成歧視。這個案子重要，因為它繼續劃定澳洲政治言論和種族侮辱之間的界線，也可能影響今後類似案件的判例走向。接下來要看 Hanson 是否繼續上訴到高等法院，以及這場訴訟的費用如何處理。",
+      "differences": [
+        "ABC News：更強調上訴程序、原始推文內容，以及 Hanson 可能尋求高院上訴。",
+        "The Guardian Australia：突出三位法官一致駁回上訴，以及這項判決的法律先例意義。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/nsw-pauline-hanson-appeal-mehreen-faruqi-judgement/106962048",
+          "title": "Pauline Hanson fails in appeal bid against racial discrimination of Mehreen Faruqi"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb",
+          "title": "Pauline Hanson loses bid to overturn Mehreen Faruqi racial discrimination finding"
         }
       ]
     },
@@ -978,6 +1013,21 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/tunnel-workers-silica-dust-exposure/106953680",
           "title": "Tunnel workers on major projects repeatedly exposed to excessive silica dust levels"
+        }
+      ]
+    },
+    {
+      "id": "bali-waste-tourism",
+      "headline": "峇里島垃圾危機撞上遊客回流，澳洲熱門度假地承壓",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T19:33:41.713Z",
+      "voiceScript": "SBS 報道說，峇里島的垃圾危機正在和遊客回流同時發生，街道、海灘和運河都出現了積存的廢棄物。這則消息重要在於，峇里島仍是許多澳洲人最常去的海外度假地之一，環境惡化會直接影響旅行體驗和當地經濟。接下來要看印尼政府的整治措施能不能減輕壓力，以及旺季遊客是否會讓問題繼續擴大。",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bali-waste-crisis-special-economic-zone/wp8w2dyy9",
+          "title": "Australia's favourite holiday destination is undergoing a hidden transformation"
         }
       ]
     },

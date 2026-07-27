@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T20:06:57.702Z",
+  "updatedAt": "2026-07-27T22:09:51.022Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,24 @@
     }
   ],
   "errors": [
-    "The Australian and Sky News Australia still lack stable public article lists; this run refreshed current stories through direct article pages and search results."
+    "news.com.au latest RSS returned no items in this run; AFR, Sky News Australia, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday, and The Canberra Times were reachable via HTML front pages, and only clearly Australian stories within 7 days were kept."
   ],
   "clusters": [
+    {
+      "id": "builder-warning-nsw",
+      "headline": "Unregistered builder Steve Preston keeps operating in NSW",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T21:38:06Z",
+      "voiceScript": "ABC reports that Steve Preston has kept operating in New South Wales after earlier run-ins with regulators in Western Australia and Queensland. The story matters because it raises licensing, consumer-protection and cross-border enforcement issues in the building industry. The next question is whether NSW authorities move in and whether customers are left exposed.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/steve-preston-building-in-nsw-after-warnings-in-wa-and-qld/106832478",
+          "title": "Twice named and shamed builder accused of leaving customers out of pocket"
+        }
+      ]
+    },
     {
       "id": "antisemitism",
       "headline": "Antisemitism inquiry shifts to education and training",
@@ -145,13 +160,14 @@
     {
       "id": "leadership",
       "headline": "Victorian Labor leadership fight escalates",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-07-27T19:16:51Z",
       "voiceScript": "The Victorian Labor Party's internal fight has escalated into a leadership challenge, with Ben Carroll moving against Premier Jacinta Allan. The contest matters because it comes only months before the state election and could unsettle the government's campaign, policy agenda and public image. The key question now is whether Allan can hold the caucus together or whether the spill proceeds and triggers a longer party ballot.",
       "differences": [
-        "ABC News focuses on the caucus numbers and the mechanics of a possible spill.",
-        "The Guardian Australia emphasizes Allan refusing to stand aside and the factional split around her.",
-        "AAP News stresses how long the fight could run and the election timing."
+        "ABC News: focuses on caucus numbers, spill mechanics and the chance of a formal vote.",
+        "The Guardian Australia: highlights Allan’s refusal to step aside and the factional split.",
+        "SBS News: frames it as a four-month test before the November election.",
+        "AAP News: stresses the challenge could drag on and keep unsettling government before the poll."
       ],
       "links": [
         {
@@ -163,6 +179,11 @@
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/27/jacinta-allan-leadership-challenge-labor-faction-meeting-victoria-politics",
           "title": "Victoria premier Jacinta Allan vows to stand in any ballot as Ben Carroll confirms he’ll contest leadership"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/jacinta-allan-election-victoria-leadership-contest-labor-2026/nepmedqud",
+          "title": "Who could replace Victorian premier Jacinta Allan — and the four-month test they'll face"
         },
         {
           "source": "AAP News",
@@ -201,29 +222,6 @@
       ]
     },
     {
-      "id": "pauline",
-      "headline": "Pauline Hanson loses appeal over Faruqi discrimination finding",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-27T08:41:00Z",
-      "voiceScript": "Pauline Hanson has lost her appeal against a federal court finding that she racially discriminated against Mehreen Faruqi. The case centres on Hanson's 2022 tweet telling Faruqi to 'piss off back to Pakistan', and the ruling keeps alive a major test of the line between political speech and racial abuse. It matters because the appeal court has now backed the earlier finding, and Hanson may still seek a High Court challenge. The next step is whether she files that further appeal and how costs are handled.",
-      "differences": [
-        "ABC News focuses on the appeal process, the original tweet and Hanson's signal that she may take the case further.",
-        "The Guardian Australia emphasizes the unanimous dismissal and the broader precedent on hate speech versus free speech."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/nsw-pauline-hanson-appeal-mehreen-faruqi-judgement/106962048",
-          "title": "Pauline Hanson fails in appeal bid against racial discrimination of Mehreen Faruqi"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb",
-          "title": "Pauline Hanson loses bid to overturn Mehreen Faruqi racial discrimination finding"
-        }
-      ]
-    },
-    {
       "id": "sa-port-macdonnell-search",
       "headline": "South Australia search turns to missing baby after mother and toddler found dead",
       "sourceCount": 3,
@@ -251,15 +249,29 @@
     {
       "id": "actu-leadership-change",
       "headline": "ACTU's top two leaders are stepping down",
-      "sourceCount": 1,
+      "sourceCount": 3,
       "publishedAt": "2026-07-27T21:47:00+10:00",
       "voiceScript": "Australian Council of Trade Unions secretary Sally McManus and president Michele O'Neil have announced they are stepping down, opening a leadership transition at the top of the union movement. The timing matters because it comes just after Labor’s national conference, when union influence over wages, hours and workplace protections is being debated most intensely. The next step is choosing successors and seeing whether the ACTU’s relationship with Labor shifts at all.",
-      "differences": [],
+      "differences": [
+        "ABC News: focuses on the leadership handover and succession process inside the union movement.",
+        "Australian Financial Review: frames it as a handover to a new generation facing fresh challenges.",
+        "The Australian: emphasises their long tenure and the scale of their influence on organised labour."
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/actu-leaders-sally-mcmanus-michele-o-neil-resign/106964206",
           "title": "ACTU leaders Sally McManus and Michele O'Neil announce resignations"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/work-and-careers/workplace/actu-leadership-to-step-down-make-way-for-new-generation-20260727-p60iv4",
+          "title": "ACTU leadership to step down, make way for new generation"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/top-union-leaders-sally-mcmanus-and-michele-oneil-announce-shock-resignations/news-story/b2cb98c940d7277ef363284b48d0e31c",
+          "title": "Sally McManus, Michele O'Neil resign as ACTU leaders"
         }
       ]
     },
@@ -313,6 +325,29 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/man-fined-for-botched-lizard-smuggling-wa-to-nsw/106962820",
           "title": "Man fined $31k after botched smuggling attempt kills 55 reptiles"
+        }
+      ]
+    },
+    {
+      "id": "pauline",
+      "headline": "Pauline Hanson loses appeal over Faruqi discrimination finding",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T08:41:00Z",
+      "voiceScript": "Pauline Hanson has lost her appeal against a federal court finding that she racially discriminated against Mehreen Faruqi. The case centres on Hanson's 2022 tweet telling Faruqi to 'piss off back to Pakistan', and the ruling keeps alive a major test of the line between political speech and racial abuse. It matters because the appeal court has now backed the earlier finding, and Hanson may still seek a High Court challenge. The next step is whether she files that further appeal and how costs are handled.",
+      "differences": [
+        "ABC News focuses on the appeal process, the original tweet and Hanson's signal that she may take the case further.",
+        "The Guardian Australia emphasizes the unanimous dismissal and the broader precedent on hate speech versus free speech."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/nsw-pauline-hanson-appeal-mehreen-faruqi-judgement/106962048",
+          "title": "Pauline Hanson fails in appeal bid against racial discrimination of Mehreen Faruqi"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb",
+          "title": "Pauline Hanson loses bid to overturn Mehreen Faruqi racial discrimination finding"
         }
       ]
     },
@@ -969,6 +1004,21 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/tunnel-workers-silica-dust-exposure/106953680",
           "title": "Tunnel workers on major projects repeatedly exposed to excessive silica dust levels"
+        }
+      ]
+    },
+    {
+      "id": "bali-waste-tourism",
+      "headline": "Bali's waste crisis is squeezing a top Australian holiday spot",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T19:33:41.713Z",
+      "voiceScript": "Bali's waste crisis is colliding with a tourism rebound, with rubbish building up on streets, beaches and canals. It matters because Bali remains one of the most popular overseas holiday spots for Australians, so the environmental mess can hit travel plans and the local economy. The next focus is whether Indonesian officials can rein in the problem as visitor numbers keep rising.",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bali-waste-crisis-special-economic-zone/wp8w2dyy9",
+          "title": "Australia's favourite holiday destination is undergoing a hidden transformation"
         }
       ]
     },
