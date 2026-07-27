@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T05:03:05Z",
+  "updatedAt": "2026-07-27T06:06:55Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -7,21 +7,21 @@
       "name": "ABC News",
       "region": "National",
       "feed": "https://www.abc.net.au/news/feed/51120/rss.xml",
-      "tone": "公共媒体"
+      "tone": "public media"
     },
     {
       "id": "sbs",
       "name": "SBS News",
       "region": "National",
       "feed": "https://www.sbs.com.au/news/feed",
-      "tone": "多元社区"
+      "tone": "diverse community"
     },
     {
       "id": "guardian-au",
       "name": "The Guardian Australia",
       "region": "National",
       "feed": "https://www.theguardian.com/australia-news/rss",
-      "tone": "分析视角"
+      "tone": "Analytical perspective"
     },
     {
       "id": "news-com-au",
@@ -119,6 +119,66 @@
     "The Australian and Sky News Australia still do not expose stable public lists; the rest were filled from RSS, structured data, or official article pages."
   ],
   "clusters": [
+    {
+      "id": "qld-medicinal-cannabis-driving-law",
+      "headline": "Queensland weighs drug-driving rule changes affecting medicinal cannabis users",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T05:47:15Z",
+      "voiceScript": "Queensland is moving to review drug-driving laws, with the focus on how medicinal cannabis users are handled in roadside testing. Advocates say the risk is that lawful patients get swept into enforcement meant for dangerous driving if the rules are not clear enough. The issue matters because it sits at the intersection of road safety, medical treatment and police evidence standards. The next step is the state government's detailed explanation and whether doctors, patients and legal groups keep pushing for changes.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/queensland-drink-drug-driving-law-changes-medicinal-cannabis/106963180",
+          "title": "Advocates say changes to drug driving laws will impact medicinal cannabis users"
+        }
+      ]
+    },
+    {
+      "id": "sa-port-macdonnell-search",
+      "headline": "Search continues on SA coast after police and SES alert",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T05:46:45Z",
+      "voiceScript": "An emergency search has begun near Port MacDonnell on the South Australian coast, with police and SES teams searching along the shoreline and nearby waters. The immediate question is whether anyone is trapped or missing, and whether rough conditions or terrain will slow the response. The story matters because coastal searches often require multiple agencies to work together and can quickly become life-or-death situations. The next update will depend on whether crews find a target and what officials decide to release.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/emergency-search-underway-in-port-macdonnell-in-sa-south-east/106963058",
+          "title": "Police, SES search underway in SA coastal town"
+        }
+      ]
+    },
+    {
+      "id": "hunter-valley-runaway-train",
+      "headline": "Runaway train in Hunter Valley flagged as rail safety worst case",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T04:47:28Z",
+      "voiceScript": "A runaway train incident in the NSW Hunter Valley has been described by rail safety investigators as a worst-case scenario. The investigation is centred on why the train moved, whether the response was fast enough and whether the system left avoidable gaps. It matters because the consequences would be much worse if an event like this happened on a busier line. The next step is to see whether the findings lead to changes in braking, parking and monitoring rules.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/runaway-train-in-nsw-hunter-valley-was-worst-case-scenario/106961418",
+          "title": "Runaway train in Hunter Valley 'worst-case scenario' for rail safety"
+        }
+      ]
+    },
+    {
+      "id": "hobart-stadium-works-begin",
+      "headline": "Work starts on Hobart's $1.13b stadium site",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T04:27:13Z",
+      "voiceScript": "Construction has started on Hobart's Mac Point AFL stadium site, with machinery and earthworks now moving on the ground. The project is estimated at $1.13 billion and remains one of Tasmania's most closely watched infrastructure plans. It matters because the stadium schedule affects AFL expansion, tourism expectations and state budget debate. The next thing to watch is whether the timeline holds and whether critics keep pushing on cost and city-impact concerns.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/works-begins-hobart-mac-point-afl-stadium/106961410",
+          "title": "'The diggers have arrived': Works begin at Hobart's $1.13b stadium site"
+        }
+      ]
+    },
     {
       "id": "nsw-icac-perrottet-brothers",
       "headline": "NSW ICAC probes Perrottet brothers and fugitive developer",

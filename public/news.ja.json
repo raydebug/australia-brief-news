@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T05:03:05Z",
+  "updatedAt": "2026-07-27T06:06:55Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -7,118 +7,178 @@
       "name": "ABC News",
       "region": "National",
       "feed": "https://www.abc.net.au/news/feed/51120/rss.xml",
-      "tone": "公共媒体"
+      "tone": "公共メディア"
     },
     {
       "id": "sbs",
       "name": "SBS News",
       "region": "National",
       "feed": "https://www.sbs.com.au/news/feed",
-      "tone": "多元社区"
+      "tone": "多様なコミュニティ"
     },
     {
       "id": "guardian-au",
       "name": "The Guardian Australia",
       "region": "National",
       "feed": "https://www.theguardian.com/australia-news/rss",
-      "tone": "分析视角"
+      "tone": "分析的な視点"
     },
     {
       "id": "news-com-au",
       "name": "news.com.au",
       "region": "National",
       "feed": "https://www.news.com.au/content-feeds/latest-news-rss/",
-      "tone": "commercial mainstream"
+      "tone": "商業主流"
     },
     {
       "id": "the-australian",
       "name": "The Australian",
       "region": "National",
       "feed": "https://www.theaustralian.com.au/",
-      "tone": "national broadsheet"
+      "tone": "全国規模のブロードシート"
     },
     {
       "id": "yahoo-au",
       "name": "Yahoo News Australia",
       "region": "National",
       "feed": "https://au.news.yahoo.com/",
-      "tone": "aggregated mainstream"
+      "tone": "集約された主流"
     },
     {
       "id": "afr",
       "name": "Australian Financial Review",
       "region": "Business",
       "feed": "https://www.afr.com/latest",
-      "tone": "business and markets"
+      "tone": "ビジネスと市場"
     },
     {
       "id": "sky-news-au",
       "name": "Sky News Australia",
       "region": "National",
       "feed": "https://www.skynews.com.au/australia-news",
-      "tone": "commercial broadcast news"
+      "tone": "民放ニュース"
     },
     {
       "id": "nine-news-au",
       "name": "9News",
       "region": "National",
       "feed": "https://www.9news.com.au/national",
-      "tone": "commercial broadcast news"
+      "tone": "民放ニュース"
     },
     {
       "id": "seven-news-au",
       "name": "7NEWS",
       "region": "National",
       "feed": "https://7news.com.au/news/australia",
-      "tone": "commercial broadcast news"
+      "tone": "民放ニュース"
     },
     {
       "id": "smh",
       "name": "The Sydney Morning Herald",
       "region": "NSW",
       "feed": "https://www.smh.com.au/national",
-      "tone": "metro masthead"
+      "tone": "地下鉄のマストヘッド"
     },
     {
       "id": "the-age",
       "name": "The Age",
       "region": "Victoria",
       "feed": "https://www.theage.com.au/national/victoria",
-      "tone": "metro masthead"
+      "tone": "地下鉄のマストヘッド"
     },
     {
       "id": "brisbane-times",
       "name": "Brisbane Times",
       "region": "Queensland",
       "feed": "https://www.brisbanetimes.com.au/national/queensland",
-      "tone": "metro masthead"
+      "tone": "地下鉄のマストヘッド"
     },
     {
       "id": "watoday",
       "name": "WAtoday",
       "region": "Western Australia",
       "feed": "https://www.watoday.com.au/national/western-australia",
-      "tone": "metro masthead"
+      "tone": "地下鉄のマストヘッド"
     },
     {
       "id": "canberra-times",
       "name": "The Canberra Times",
       "region": "ACT",
       "feed": "https://www.canberratimes.com.au/news/latest-news/",
-      "tone": "regional masthead"
+      "tone": "地域のマストヘッド"
     },
     {
       "id": "aap",
       "name": "AAP",
       "region": "National",
       "feed": "https://www.aap.com.au/news/",
-      "tone": "wire service"
+      "tone": "ワイヤーサービス"
     }
   ],
   "errors": [
     "The Australian と Sky News Australia は安定して解析できる公開一覧を出していないため、残りは RSS、構造化データ、公式記事ページで補完した。"
   ],
   "clusters": [
+    {
+      "id": "qld-medicinal-cannabis-driving-law",
+      "headline": "クイーンズランド州、医療用大麻利用者に影響する薬物運転規則見直しを検討",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T05:47:15Z",
+      "voiceScript": "クイーンズランド州では薬物運転法の見直しが進められており、焦点は医療用大麻の利用者を路上検査でどう扱うかにあります。支援団体は、合法的な服薬と危険運転を十分に切り分けられないと、患者が本来想定されていない執行の負担を受けると警告しています。道路安全、医療、警察の証拠基準が交差するため、この問題は重要です。次は州政府の詳細説明と、医師・患者・法律関係者の反応です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/queensland-drink-drug-driving-law-changes-medicinal-cannabis/106963180",
+          "title": "Advocates say changes to drug driving laws will impact medicinal cannabis users"
+        }
+      ]
+    },
+    {
+      "id": "sa-port-macdonnell-search",
+      "headline": "南オーストラリア州沿岸で警察とSESの捜索が続く",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T05:46:45Z",
+      "voiceScript": "南オーストラリア州の Port MacDonnell 近くで緊急捜索が始まり、警察と SES が海岸線と周辺の水域を探しています。今の焦点は、誰かが取り残されていないか、そして悪天候や地形で対応が遅れないかです。沿岸部の捜索は複数機関の連携が必要で、状況次第では命に関わるため重要です。次の更新は、捜索隊が対象を見つけるかどうかと、当局がどこまで情報を出すかにかかっています。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/emergency-search-underway-in-port-macdonnell-in-sa-south-east/106963058",
+          "title": "Police, SES search underway in SA coastal town"
+        }
+      ]
+    },
+    {
+      "id": "hunter-valley-runaway-train",
+      "headline": "ハンター・バレーの暴走列車、鉄道安全上の最悪事態と評価",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T04:47:28Z",
+      "voiceScript": "NSW州ハンター・バレーで起きた暴走列車の事案は、鉄道安全当局から最悪事態の例として扱われています。調査の焦点は、なぜ列車が動いたのか、対応は十分に速かったのか、そして防げたはずの抜け穴がなかったのかです。より混雑した路線で起きれば被害ははるかに大きくなるため、この問題は重要です。今後は、制動、留置、監視のルールが見直されるかが焦点になります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/runaway-train-in-nsw-hunter-valley-was-worst-case-scenario/106961418",
+          "title": "Runaway train in Hunter Valley 'worst-case scenario' for rail safety"
+        }
+      ]
+    },
+    {
+      "id": "hobart-stadium-works-begin",
+      "headline": "ホバートの11.3億豪ドル規模スタジアム建設が始動",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T04:27:13Z",
+      "voiceScript": "ホバートの Mac Point AFL スタジアム計画は建設段階に入り、現場では重機と土工事が動き始めました。総額は約11.3億豪ドルで、タスマニアのスポーツ政策と都市再開発の中でも注目度の高い案件です。AFL拡大、観光期待、州財政論争が絡むため重要で、工期が守られるかが次の焦点です。今後は、予定通り進むか、費用や都市影響への批判が続くかが見どころになります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/works-begins-hobart-mac-point-afl-stadium/106961410",
+          "title": "'The diggers have arrived': Works begin at Hobart's $1.13b stadium site"
+        }
+      ]
+    },
     {
       "id": "nsw-icac-perrottet-brothers",
       "headline": "NSWのICACがペロテット兄弟と逃亡開発業者を調査",
