@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T19:05:38.738Z",
+  "updatedAt": "2026-07-27T20:06:57.702Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -119,6 +119,110 @@
     "The Australian、Sky News Australia 仍缺少稳定可解析的公开列表；本次更新通过直接文章页和搜索结果补足了当前热点。"
   ],
   "clusters": [
+    {
+      "id": "antisemitism",
+      "headline": "反犹太主义皇家委员会把教育和培训列为重点",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T19:44:47Z",
+      "voiceScript": "联邦反犹太主义与社会凝聚力皇家委员会本周回到悉尼，开始讨论如何通过学校教育和公共部门培训来减少仇恨。ABC 的报道把重点放在学校里的大屠杀教育和反仇恨工具，AAP 则强调公职人员是否需要额外的社融培训。这个议题之所以重要，是因为委员会已经从描述问题转向测试制度能否真正预防仇恨。接下来要看这些想法会不会写进正式建议。",
+      "differences": [
+        "ABC News：重点放在学校里的大屠杀教育，以及教育体系如何成为反仇恨工具。",
+        "AAP News：强调面向公职人员的社融培训建议，以及更广泛的制度回应。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/bondi-antisemitism-social-cohesion-royal-commission-education/106946500",
+          "title": "Education as a tool to fight hate in focus at antisemitism royal commission"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/push-for-public-sector-training-on-social-cohesion",
+          "title": "Push for public sector training on social cohesion"
+        }
+      ]
+    },
+    {
+      "id": "leadership",
+      "headline": "维州工党领导权之争升级为党团逼宫",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T19:16:51Z",
+      "voiceScript": "维州工党内部围绕 Jacinta Allan 的领导权争执已经升级，Ben Carroll 公开挑战党魁位置。这个争议之所以重要，是因为它发生在州选前几个月，可能影响工党的竞选节奏、政策重点和公众观感。接下来关键要看 Allan 能不能守住党团多数，还是说逼宫会真的进入正式投票并拖长内斗。",
+      "differences": [
+        "ABC News：更强调党团票数、逼宫流程和可能触发的正式 leadership spill。",
+        "The Guardian Australia：突出 Allan 拒绝下台，以及党内派系裂痕已经公开化。",
+        "AAP News：强调这场争斗可能拖很久，并在大选前持续扰动政府。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/victorian-labor-caucus-weighs-up-allan-leadership/106962972",
+          "title": "Leadership spill as Carroll vies to replace Allan as Victorian Labor leader"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/jacinta-allan-leadership-challenge-labor-faction-meeting-victoria-politics",
+          "title": "Victoria premier Jacinta Allan vows to stand in any ballot as Ben Carroll confirms he’ll contest leadership"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/premier-faces-leadership-challenge-as-election-looms",
+          "title": "Labor showdown looms as premier refuses to quit"
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "headline": "中东战争推高能源风险，澳洲或建新炼油厂",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T19:01:50Z",
+      "voiceScript": "Treasury 警告说，中东战争带来的经济冲击可能继续加重，油价和通胀压力都还没过去。与此同时，联邦和西澳政府开始推动新的燃料安全方案，包括研究在西澳建设新的炼油设施。这个故事重要在于，它把海外冲突直接连到澳洲家庭油费、企业成本和能源安全上。接下来要看可行性研究是否会变成真正的资金承诺。",
+      "differences": [
+        "ABC News：重点放在 Treasury 对战争冲击和经济恶化的整体警告。",
+        "The Guardian Australia：突出西澳可能出现新炼油厂，以及财政部长面对通胀压力的能源回应。",
+        "AAP News：强调油价冲击和市场脆弱性，说明能源风险已经进入政策核心。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/middle-east-war-economic-impact-to-worsen-treasury-warns/106963778",
+          "title": "Australia should brace for war impact to get worse, Treasury warns"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war",
+          "title": "Potential for first Australian oil refinery in 60 years as treasurer braces for inflation from Middle East war"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/oil-shock-could-be-worse-than-the-first-treasury-warns",
+          "title": "Oil shock could be worse than the first, Treasury warns"
+        }
+      ]
+    },
+    {
+      "id": "pauline",
+      "headline": "保琳·汉森上诉败诉，法庭维持对法鲁奇的种族歧视认定",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T08:41:00Z",
+      "voiceScript": "Pauline Hanson 对联邦法院种族歧视认定的上诉已经失败，法院维持她针对 Mehreen Faruqi 的那条推文构成歧视。这个案子重要，因为它继续划定澳洲政治言论和种族侮辱之间的界线，也可能影响今后类似案件的判例走向。接下来要看 Hanson 是否继续上诉到高等法院，以及这场诉讼的费用如何处理。",
+      "differences": [
+        "ABC News：更强调上诉程序、原始推文内容，以及 Hanson 可能寻求高院上诉。",
+        "The Guardian Australia：突出三位法官一致驳回上诉，以及这项判决的法律先例意义。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/nsw-pauline-hanson-appeal-mehreen-faruqi-judgement/106962048",
+          "title": "Pauline Hanson fails in appeal bid against racial discrimination of Mehreen Faruqi"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb",
+          "title": "Pauline Hanson loses bid to overturn Mehreen Faruqi racial discrimination finding"
+        }
+      ]
+    },
     {
       "id": "sa-port-macdonnell-search",
       "headline": "南澳海岸搜救升级，母女遗体已找到、婴儿仍失踪",

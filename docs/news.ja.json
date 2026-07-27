@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T19:05:38.738Z",
+  "updatedAt": "2026-07-27T20:06:57.702Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -119,6 +119,110 @@
     "The Australian と Sky News Australia は、安定して解析できる公開一覧がまだありません。今回の更新では、直接の記事ページと検索結果で最新の話題を補いました。"
   ],
   "clusters": [
+    {
+      "id": "antisemitism",
+      "headline": "反ユダヤ主義の王立委、教育と研修を重点議題に",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T19:44:47Z",
+      "voiceScript": "反ユダヤ主義と社会的結束をめぐる王立委員会は、ヘイトを減らすために教育と研修が何を担うべきかの検討に入った。ABC は学校でのホロコースト教育を中心に伝え、AAP は公務員向けの追加研修案を強調している。問題を説明する段階から、制度が実際に抑止できるかを試す段階に入ったことが重要だ。今後はこれらの考え方が正式な勧告に入るかが焦点となる。",
+      "differences": [
+        "ABC News は学校でのホロコースト教育と授業での反ヘイト対応を重視しています。",
+        "AAP News は公務員向けの追加の社会的結束研修を強調しています。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/bondi-antisemitism-social-cohesion-royal-commission-education/106946500",
+          "title": "Education as a tool to fight hate in focus at antisemitism royal commission"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/push-for-public-sector-training-on-social-cohesion",
+          "title": "Push for public sector training on social cohesion"
+        }
+      ]
+    },
+    {
+      "id": "leadership",
+      "headline": "ビクトリア州労働党の主導権争いが激化",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T19:16:51Z",
+      "voiceScript": "ビクトリア州労働党の内部対立は、Ben Carroll が Jacinta Allan 首相に挑む形で党首争いへと発展した。州選挙まで数か月しかない時期での争いだけに、選挙運動、政策の優先順位、政権の印象に影響する。今の焦点は、Allan が党内の多数派を保てるのか、それとも正式な投票に進んで対立が長期化するのかだ。",
+      "differences": [
+        "ABC News は党内票数やスピルの手続きに焦点を当てています。",
+        "The Guardian Australia は Allan が退かない姿勢と派閥の分裂を前面に出しています。",
+        "AAP News は争いが長引く可能性と選挙時期への影響を強調しています。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/victorian-labor-caucus-weighs-up-allan-leadership/106962972",
+          "title": "Leadership spill as Carroll vies to replace Allan as Victorian Labor leader"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/jacinta-allan-leadership-challenge-labor-faction-meeting-victoria-politics",
+          "title": "Victoria premier Jacinta Allan vows to stand in any ballot as Ben Carroll confirms he’ll contest leadership"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/premier-faces-leadership-challenge-as-election-looms",
+          "title": "Labor showdown looms as premier refuses to quit"
+        }
+      ]
+    },
+    {
+      "id": "energy",
+      "headline": "中東戦争の影響で豪州は燃料安全保障を急ぐ",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T19:01:50Z",
+      "voiceScript": "Treasury は、中東戦争による経済への打撃がさらに悪化し、燃料価格の上昇がインフレと成長に響くおそれがあると警告した。これを受けて、連邦政府と西オーストラリア州政府は新たな燃料安全保障策を進めており、西オーストラリアで新しい精製施設を検討している。海外の紛争が、家計の燃料代、企業コスト、政府のエネルギー政策に直結している点が重要だ。次は、調査が本当に予算化されるかどうかだ。",
+      "differences": [
+        "ABC News は Treasury の広範な景気悪化警告に重点を置いています。",
+        "The Guardian Australia は精製所の実現可能性調査と政府の燃料安全対策を前面に出しています。",
+        "AAP News は石油ショックのリスクと市場の脆弱さを強調しています。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/middle-east-war-economic-impact-to-worsen-treasury-warns/106963778",
+          "title": "Australia should brace for war impact to get worse, Treasury warns"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war",
+          "title": "Potential for first Australian oil refinery in 60 years as treasurer braces for inflation from Middle East war"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/oil-shock-could-be-worse-than-the-first-treasury-warns",
+          "title": "Oil shock could be worse than the first, Treasury warns"
+        }
+      ]
+    },
+    {
+      "id": "pauline",
+      "headline": "ポーリン・ハンソン、ファルキ差別認定の控訴で敗訴",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T08:41:00Z",
+      "voiceScript": "ポーリン・ハンソンは、メフリン・ファルキ上院議員への人種差別を認定した連邦裁判所判断への控訴に敗れた。争点は、2022年の「パキスタンへ帰れ」という投稿で、政治的発言と人種的侮辱の境界をめぐる大きな試金石になっている。控訴裁判所が前の判断を支持したことで、今後は高等法院への上訴があるのか、また費用負担をどうするのかが焦点だ。",
+      "differences": [
+        "ABC News は控訴手続き、元の投稿内容、そして高等法院への再上訴の可能性に注目しています。",
+        "The Guardian Australia は三人の判事による全会一致の棄却と、ヘイトスピーチと表現の自由をめぐる先例性を強調しています。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/nsw-pauline-hanson-appeal-mehreen-faruqi-judgement/106962048",
+          "title": "Pauline Hanson fails in appeal bid against racial discrimination of Mehreen Faruqi"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb",
+          "title": "Pauline Hanson loses bid to overturn Mehreen Faruqi racial discrimination finding"
+        }
+      ]
+    },
     {
       "id": "sa-port-macdonnell-search",
       "headline": "南オーストラリア州の捜索は行方不明の乳児へ、母親と幼児の遺体発見後",
