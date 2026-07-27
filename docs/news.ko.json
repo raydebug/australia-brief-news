@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T12:07:19.872Z",
+  "updatedAt": "2026-07-27T14:11:05.748Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -119,6 +119,21 @@
     "The Australian과 Sky News Australia는 아직 안정적으로 파싱 가능한 공개 기사 목록이 없습니다. 이번 업데이트는 직접 기사 페이지와 검색 결과로 현재 화제를 보완했습니다."
   ],
   "clusters": [
+    {
+      "id": "actu-leadership-change",
+      "headline": "ACTU 최고 지도자 두 명이 물러난다",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T21:47:00+10:00",
+      "voiceScript": "호주노총의 사무총장 샐리 맥매너스와 회장 미셸 오닐이 사임을 발표하면서 노동운동 지도부 교체가 시작됐다. 노동당 전국대회 직후라는 시점은 임금, 노동시간, 노동자 보호를 둘러싼 노조의 영향력이 가장 크게 주목되는 구간이다. 앞으로는 후임 인선과 노동당과의 관계 변화가 핵심이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/actu-leaders-sally-mcmanus-michele-o-neil-resign/106964206",
+          "title": "ACTU leaders Sally McManus and Michele O'Neil announce resignations"
+        }
+      ]
+    },
     {
       "id": "jewish-security-guns-inquiry",
       "headline": "유대인 커뮤니티 보안요원 무장 여부, 왕립위원회서 논쟁",
@@ -568,6 +583,50 @@
       ]
     },
     {
+      "id": "wa-oil-refinery",
+      "headline": "서호주에 수십 년 만의 새 정유소 추진",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "연방과 서호주 정부가 페르다만이 참여한 정유소 계획의 타당성 조사를 지원하고 있다. 이 계획이 현실화되면 1960년대 이후 호주에서 처음으로 추진되는 대형 새 정유소가 된다. 중동 긴장으로 유가가 오르는 가운데, 호주의 수입 연료 의존도가 다시 드러나고 있다. 앞으로는 부지 선정, 자금 조달, 환경 심사가 실제로 진전되는지가 관건이다.",
+      "differences": [
+        "ABC News: 서호주와 페르다만의 새 계획, 그리고 연방·주 정부가 지원하는 타당성 조사를 강조한다.",
+        "The Guardian Australia: 중동 긴장이 인플레이션과 연료 위험을 키우는 점을 부각하며, 호주의 액체연료 약 90%가 수입이라고 짚는다.",
+        "Australian Financial Review: 연료 위기에 대한 총리의 대응으로 다루며, 서호주 후보지가 아직 정해지지 않았다고 전한다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530",
+          "title": "Australia's first new oil refinery in decades touted for WA"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war",
+          "title": "Potential for first Australian oil refinery in 60 years as treasurer braces for inflation from Middle East war"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2",
+          "title": "PM launches plan for new oil refinery as fuel crisis bites"
+        }
+      ]
+    },
+    {
+      "id": "housing-rules-rethink",
+      "headline": "주택 심사 규정이 새 집 건설을 늦춘다는 지적",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "생산성위원회는 주택 건설을 늦춘다고 지적되는 계획과 심사 규정의 재검토를 요구하고 있다. 심사 지연, 기준의 불일치, 준수 비용이 겹치면서 공급이 수요를 따라가기 더 어려워지고 있다. 이는 집값과 임대료, 건설업 효율에 바로 연결되는 문제다. 다음 단계는 연방과 주 정부가 이를 구체적인 개혁으로 옮기느냐이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506",
+          "title": "Not satire: The Utopia-style regulations holding Australia back from building homes"
+        }
+      ]
+    },
+    {
       "id": "tax-return-mistake",
       "headline": "수백만 명에게 세금 신고 때 1,000호주달러 실수 주의 경고",
       "sourceCount": 1,
@@ -916,21 +975,6 @@
       ]
     },
     {
-      "id": "daniel-grollo-bankruptcy",
-      "headline": "그롤론 파산, 뉴욕 아파트 인수",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-26T10:00:00+10:00",
-      "voiceScript": "전 그로콘(Grocon) 사장 다니엘 그롤론(Daniel Grolon)은 파산 선고를 받았고 그의 뉴욕 아파트는 압수되었으며 조사가 시작되었습니다. 이 소식은 멜버른에서 가장 잘 알려진 건축 이름 중 하나를 전체 비즈니스 제국의 신뢰 붕괴와 직접 연결하기 때문에 중요합니다. 앞으로 수사가 얼마나 심도있게 진행될지, 더 많은 자산과 부채가 드러날지 지켜볼 일이다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Age",
-          "url": "https://www.theage.com.au/national/victoria/former-chief-of-collapsed-grocon-building-empire-declares-bankruptcy-20260726-p60ily.html",
-          "title": "Daniel Grollo declared bankrupt, New York apartment forfeited as investigation flagged"
-        }
-      ]
-    },
-    {
       "id": "cluster-1",
       "headline": "케언즈 경찰 충돌로 2명 총격",
       "sourceCount": 4,
@@ -1257,21 +1301,6 @@
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/not-just-phishing-the-scams-to-watch-for-if-youre-an-origin-energy-customer/3jauqz344",
           "title": "Not just phishing: The scams to watch for if you're an Origin Energy customer"
-        }
-      ]
-    },
-    {
-      "id": "powerball-jackpot",
-      "headline": "퀸즐랜드 복권 한 장이 4천만 호주달러 파워볼에 당첨",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-23T10:46:16.000Z",
-      "voiceScript": "퀸즐랜드의 파워볼 복권 한 장이 4천만 호주달러 1등에 당첨됐습니다. 관심사는 누가 티켓을 갖고 있는지, 당첨자가 모습을 드러낼지, 그리고 이런 거액이 평범한 가정의 삶을 어떻게 바꾸는지입니다. 다음은 당첨금 청구 절차와 보안·프라이버시 처리입니다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/powerball-ticket-sold-in-queensland-scores-player-entire-40-million-division-one-prize-c-22620485",
-          "title": "Winner of blockbuster $40m Powerball jackpot to ‘enjoy it to the full’"
         }
       ]
     },

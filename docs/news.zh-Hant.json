@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T12:07:19.872Z",
+  "updatedAt": "2026-07-27T14:11:05.748Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -119,6 +119,21 @@
     "The Australian 和 Sky News Australia 仍缺少穩定可解析的公開列表；本次更新通過直接文章頁和搜尋結果補足了當前熱點。"
   ],
   "clusters": [
+    {
+      "id": "actu-leadership-change",
+      "headline": "ACTU兩位最高領導人宣布卸任",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T21:47:00+10:00",
+      "voiceScript": "澳洲工會理事會秘書 Sally McManus 和主席 Michele O'Neil 宣布卸任，工運最高層進入換班期。這一變化發生在工會和工黨政策互動最密集的時候，後續接班人選會影響工資、工時和工作場所保護的推動力度。接下來要看新領導層如何成形，以及工會與工黨關係是否出現調整。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/actu-leaders-sally-mcmanus-michele-o-neil-resign/106964206",
+          "title": "ACTU leaders Sally McManus and Michele O'Neil announce resignations"
+        }
+      ]
+    },
     {
       "id": "jewish-security-guns-inquiry",
       "headline": "猶太社區安保持槍爭議進入皇家委員會聽證",
@@ -571,6 +586,50 @@
       ]
     },
     {
+      "id": "wa-oil-refinery",
+      "headline": "西澳擬建澳洲數十年來首座新煉油廠",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "聯邦和西澳政府正在為佩爾達曼公司支持的一項可行性研究提供資金，評估在西澳新建煉油廠的可行性。若專案推進，這將是澳洲自上世紀60年代以來首座大型新煉油廠。中東局勢緊張推高油價，也再次凸顯澳洲對進口燃料的依賴。接下來要看選址、融資和審批能否落實，這些決定會影響燃料安全與供應鏈韌性。",
+      "differences": [
+        "ABC News：把重點放在西澳和佩爾達曼公司的新專案，以及聯邦和州政府支持的可行性研究。",
+        "The Guardian Australia：強調中東衝突推高通膨和燃料風險，並指出澳洲約九成液體燃料依賴進口。",
+        "Australian Financial Review：把它寫成總理對燃料危機的回應，並提到西澳選址尚未確定。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530",
+          "title": "Australia's first new oil refinery in decades touted for WA"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war",
+          "title": "Potential for first Australian oil refinery in 60 years as treasurer braces for inflation from Middle East war"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2",
+          "title": "PM launches plan for new oil refinery as fuel crisis bites"
+        }
+      ]
+    },
+    {
+      "id": "housing-rules-rethink",
+      "headline": "澳洲住房審批規則被指拖慢新屋建設",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "生產力委員會建議重新檢視一系列規劃和審批規則，因為這些制度被認為拖慢住房建設。審批延遲、標準不一和合規成本疊加，讓新增供應更難追上需求。這個問題會直接影響房價、租金和建築業效率。下一步要看聯邦和州政府是否把建議轉成具體改革。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506",
+          "title": "Not satire: The Utopia-style regulations holding Australia back from building homes"
+        }
+      ]
+    },
+    {
       "id": "tax-return-mistake",
       "headline": "數百萬澳人被警告別在報稅時犯 1000 澳元錯誤",
       "sourceCount": 1,
@@ -930,21 +989,6 @@
       ]
     },
     {
-      "id": "daniel-grollo-bankruptcy",
-      "headline": "格罗隆破产，纽约公寓被接管",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-26T10:00:00+10:00",
-      "voiceScript": "前 Grocon 老板丹尼尔·格罗隆已被宣告破产，连带还有他在纽约的一套公寓被没收，调查也已经被提上台面。这个消息之所以重要，是因为它把墨尔本最知名的建筑名字之一，和整座商业帝国的信任崩塌直接连在了一起。接下来要看调查会往多深处走，以及还会不会牵出更多资产和负债。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Age",
-          "url": "https://www.theage.com.au/national/victoria/former-chief-of-collapsed-grocon-building-empire-declares-bankruptcy-20260726-p60ily.html",
-          "title": "Daniel Grollo declared bankrupt, New York apartment forfeited as investigation flagged"
-        }
-      ]
-    },
-    {
       "id": "cluster-1",
       "headline": "凯恩斯警方冲突中两人中枪",
       "sourceCount": 4,
@@ -1300,21 +1344,6 @@
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/not-just-phishing-the-scams-to-watch-for-if-youre-an-origin-energy-customer/3jauqz344",
           "title": "Not just phishing: The scams to watch for if you're an Origin Energy customer"
-        }
-      ]
-    },
-    {
-      "id": "powerball-jackpot",
-      "headline": "昆州彩民中得 4000 萬澳元 Powerball",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-23T10:46:16.000Z",
-      "voiceScript": "昆州一張 Powerball 彩票中了一等獎，獎金高達 4000 萬澳元。真正值得關注的是獎金歸屬、得主是否現身，以及這筆錢如何改變一個普通家庭的財務軌跡。接下來通常會是兌獎手續和保密安排。",
-      "differences": [],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/powerball-ticket-sold-in-queensland-scores-player-entire-40-million-division-one-prize-c-22620485",
-          "title": "Winner of blockbuster $40m Powerball jackpot to ‘enjoy it to the full’"
         }
       ]
     },

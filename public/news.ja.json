@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T12:07:19.872Z",
+  "updatedAt": "2026-07-27T14:11:05.748Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -119,6 +119,21 @@
     "The Australian と Sky News Australia は、安定して解析できる公開一覧がまだありません。今回の更新では、直接の記事ページと検索結果で最新の話題を補いました。"
   ],
   "clusters": [
+    {
+      "id": "actu-leadership-change",
+      "headline": "ACTUのトップ2人が退任へ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T21:47:00+10:00",
+      "voiceScript": "オーストラリア労働組合評議会の書記サリー・マクマナス氏と会長ミシェル・オニール氏が退任を発表し、労働運動のトップで世代交代が始まります。労働党の全国大会の直後という時期は、賃金、労働時間、職場保護をめぐる労組の影響力が最も意識される局面です。今後は後継人事と、労働党との関係がどう変わるかが注目点になります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/actu-leaders-sally-mcmanus-michele-o-neil-resign/106964206",
+          "title": "ACTU leaders Sally McManus and Michele O'Neil announce resignations"
+        }
+      ]
+    },
     {
       "id": "jewish-security-guns-inquiry",
       "headline": "ユダヤ人コミュニティ警備の武装可否、王立委員会で議論",
@@ -568,6 +583,50 @@
       ]
     },
     {
+      "id": "wa-oil-refinery",
+      "headline": "西オーストラリア州で数十年ぶりの新製油所計画",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "連邦政府と西オーストラリア州政府は、ペルダマン社が関わる製油所計画の実現可能性調査に資金を出している。実現すれば、オーストラリアで1960年代以来となる大型の新製油所になる。中東情勢の緊張で原油価格が上がる中、輸入燃料への依存が改めて浮き彫りになっている。今後は用地、資金調達、環境審査が進むかどうかが焦点になる。",
+      "differences": [
+        "ABC News：西オーストラリア州とペルダマン社の計画、そして連邦・州政府による実現可能性調査を前面に出している。",
+        "The Guardian Australia：中東の緊張がインフレと燃料リスクを押し上げている点を強調し、オーストラリアの液体燃料の約9割が輸入だと伝える。",
+        "Australian Financial Review：首相の燃料危機対応として描き、西オーストラリア州の建設予定地がまだ未定だと伝える。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530",
+          "title": "Australia's first new oil refinery in decades touted for WA"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war",
+          "title": "Potential for first Australian oil refinery in 60 years as treasurer braces for inflation from Middle East war"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2",
+          "title": "PM launches plan for new oil refinery as fuel crisis bites"
+        }
+      ]
+    },
+    {
+      "id": "housing-rules-rethink",
+      "headline": "住宅審査ルールが新築を遅らせていると指摘",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "生産性委員会は、住宅建設を遅らせているとされる計画・審査ルールの見直しを求めている。審査の遅れ、基準のばらつき、順守コストが重なり、供給が需要に追いつきにくくなっている。これは家賃や住宅価格、建設業の効率に直結する問題だ。次は、連邦と州政府がこの提案を具体的な改革に移すかどうかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506",
+          "title": "Not satire: The Utopia-style regulations holding Australia back from building homes"
+        }
+      ]
+    },
+    {
       "id": "tax-return-mistake",
       "headline": "数百万人に申告時の1,000豪ドルのミス回避を警告",
       "sourceCount": 1,
@@ -916,21 +975,6 @@
       ]
     },
     {
-      "id": "daniel-grollo-bankruptcy",
-      "headline": "グロロ氏が破産、ニューヨークのアパートも差し押さえ",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-26T10:00:00+10:00",
-      "voiceScript": "元Grocon社のダニエル・グロロ氏が破産宣告を受け、ニューヨークのアパートも差し押さえられました。今回の出来事は、メルボルンを代表する建設業界の名前の一つと、その事業帝国の信頼失墜を直接結びつけています。今後は、調査がどこまで掘り下げられるのか、さらに資産や負債が出てくるのかが焦点です。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Age",
-          "url": "https://www.theage.com.au/national/victoria/former-chief-of-collapsed-grocon-building-empire-declares-bankruptcy-20260726-p60ily.html",
-          "title": "Daniel Grollo declared bankrupt, New York apartment forfeited as investigation flagged"
-        }
-      ]
-    },
-    {
       "id": "cluster-1",
       "headline": "ケアンズで警察との対峙中に2人が銃撃される",
       "sourceCount": 4,
@@ -1257,21 +1301,6 @@
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/not-just-phishing-the-scams-to-watch-for-if-youre-an-origin-energy-customer/3jauqz344",
           "title": "Not just phishing: The scams to watch for if you're an Origin Energy customer"
-        }
-      ]
-    },
-    {
-      "id": "powerball-jackpot",
-      "headline": "クイーンズランド州の宝くじが4,000万豪ドルのPowerballに当選",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-23T10:46:16.000Z",
-      "voiceScript": "クイーンズランド州のPowerballチケットが 4,000 万豪ドルの大当たりを出しました。注目点は、誰が持っているか、当選者が名乗り出るか、そしてこの額が普通の家庭をどう変えるかです。次は受け取り手続きとプライバシーの扱いです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/powerball-ticket-sold-in-queensland-scores-player-entire-40-million-division-one-prize-c-22620485",
-          "title": "Winner of blockbuster $40m Powerball jackpot to ‘enjoy it to the full’"
         }
       ]
     },

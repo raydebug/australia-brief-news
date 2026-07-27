@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T12:07:19.872Z",
+  "updatedAt": "2026-07-27T14:11:05.748Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -119,6 +119,21 @@
     "The Australian and Sky News Australia still lack stable public article lists; this run refreshed current stories through direct article pages and search results."
   ],
   "clusters": [
+    {
+      "id": "actu-leadership-change",
+      "headline": "ACTU's top two leaders are stepping down",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T21:47:00+10:00",
+      "voiceScript": "Australian Council of Trade Unions secretary Sally McManus and president Michele O'Neil have announced they are stepping down, opening a leadership transition at the top of the union movement. The timing matters because it comes just after Labor’s national conference, when union influence over wages, hours and workplace protections is being debated most intensely. The next step is choosing successors and seeing whether the ACTU’s relationship with Labor shifts at all.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/actu-leaders-sally-mcmanus-michele-o-neil-resign/106964206",
+          "title": "ACTU leaders Sally McManus and Michele O'Neil announce resignations"
+        }
+      ]
+    },
     {
       "id": "jewish-security-guns-inquiry",
       "headline": "Royal commission hears debate over arming Jewish security",
@@ -568,6 +583,50 @@
       ]
     },
     {
+      "id": "wa-oil-refinery",
+      "headline": "WA could host Australia's first new refinery in decades",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "The federal and Western Australian governments are funding a feasibility study for a Perdaman-backed refinery proposal in WA. If it goes ahead, it would be Australia’s first large new refinery since the 1960s, coming as Middle East tensions push up oil prices and expose how heavily the country still relies on imported fuel. The next steps are site selection, funding terms and environmental approvals, all of which will shape whether the project can improve fuel security and supply resilience.",
+      "differences": [
+        "ABC News: focuses on the WA proposal and the feasibility study backed by governments.",
+        "The Guardian Australia: stresses the inflation and energy-security angle, noting Australia imports about 90% of its liquid fuels.",
+        "Australian Financial Review: frames it as the PM’s response to a fuel crisis, with the WA location still undecided."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530",
+          "title": "Australia's first new oil refinery in decades touted for WA"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war",
+          "title": "Potential for first Australian oil refinery in 60 years as treasurer braces for inflation from Middle East war"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2",
+          "title": "PM launches plan for new oil refinery as fuel crisis bites"
+        }
+      ]
+    },
+    {
+      "id": "housing-rules-rethink",
+      "headline": "Australia's housing rules are slowing new builds",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "The Productivity Commission wants a rethink of planning and approval rules it says are slowing housing construction. Delays, inconsistent standards and compliance costs are making it harder for supply to keep up with demand. It matters because it feeds directly into rents, home prices and how efficiently the building sector can work. The next question is whether federal and state governments turn the recommendation into concrete reform.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506",
+          "title": "Not satire: The Utopia-style regulations holding Australia back from building homes"
+        }
+      ]
+    },
+    {
       "id": "tax-return-mistake",
       "headline": "Millions warned to avoid a $1,000 tax return mistake",
       "sourceCount": 1,
@@ -916,21 +975,6 @@
       ]
     },
     {
-      "id": "daniel-grollo-bankruptcy",
-      "headline": "Grollo bankrupt, with New York apartment seized",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-26T10:00:00+10:00",
-      "voiceScript": "Former Grocon boss Daniel Grollo has been declared bankrupt, his New York apartment has been seized, and an investigation is under way. It matters because it ties one of Melbourne's best-known construction names to the collapse of a major commercial empire's credibility. The next question is how deep the investigation goes, and whether more assets and liabilities are exposed.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Age",
-          "url": "https://www.theage.com.au/national/victoria/former-chief-of-collapsed-grocon-building-empire-declares-bankruptcy-20260726-p60ily.html",
-          "title": "Daniel Grollo declared bankrupt, New York apartment forfeited as investigation flagged"
-        }
-      ]
-    },
-    {
       "id": "cluster-1",
       "headline": "Two people shot during Cairns police confrontation",
       "sourceCount": 4,
@@ -1257,21 +1301,6 @@
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/not-just-phishing-the-scams-to-watch-for-if-youre-an-origin-energy-customer/3jauqz344",
           "title": "Not just phishing: The scams to watch for if you're an Origin Energy customer"
-        }
-      ]
-    },
-    {
-      "id": "powerball-jackpot",
-      "headline": "Queensland ticket wins $40 million Powerball jackpot",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-23T10:46:16.000Z",
-      "voiceScript": "A Queensland Powerball ticket has won the $40 million top prize. The immediate questions are who holds the ticket, whether the winner comes forward, and how life changes when a windfall that large lands in an ordinary household. Next comes the claim process and the usual privacy arrangements.",
-      "differences": [],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/powerball-ticket-sold-in-queensland-scores-player-entire-40-million-division-one-prize-c-22620485",
-          "title": "Winner of blockbuster $40m Powerball jackpot to ‘enjoy it to the full’"
         }
       ]
     },
