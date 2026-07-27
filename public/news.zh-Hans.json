@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T00:07:19Z",
+  "updatedAt": "2026-07-27T01:10:28Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -119,6 +119,21 @@
     "The Australian、Sky News Australia、Canberra Times 和 AAP 这次仍没有稳定可解析的公开列表；ABC、SBS 和 The Guardian 的 RSS 可直接用于本轮增量，9News、7NEWS 和 AFR 页面只暴露了部分结构化标题。"
   ],
   "clusters": [
+    {
+      "id": "flat-pack-tiny-home-misleading",
+      "headline": "“周末 DIY”平板小屋宣传被指误导消费者",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T00:04:00Z",
+      "voiceScript": "ABC 讲的是西澳班伯里的一个买家，以为自己买到的是能在周末装好的平板小屋，结果却卡在审批和澳洲建筑标准上，成本和时间都被拉长。真正重要的是，这类产品在房屋短缺背景下很有吸引力，但“免许可”“周末完成”这些说法如果站不住脚，就可能直接碰到消费法问题。下一步要看监管部门会不会对营销用语和合规流程进一步追查。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/wa-prefab-housing-diy-costly/106943676",
+          "title": "Steve bought a flat-packed tiny home to save money and time. It has done the opposite"
+        }
+      ]
+    },
     {
       "id": "ausalert-test",
       "headline": "AusAlert试鸣引发手机设置提醒",
@@ -289,6 +304,36 @@
           "source": "The Sydney Morning Herald",
           "url": "https://www.smh.com.au/national/family-flees-arson-attack-in-melbourne-20260727-p60iq4.html",
           "title": "Family flees arson attack in Melbourne"
+        }
+      ]
+    },
+    {
+      "id": "silica-dust-tunnel-exposure",
+      "headline": "大型隧道工程工人持续暴露于超标硅尘",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T20:02:00Z",
+      "voiceScript": "ABC 报道说，澳洲一些大型隧道工程的工人被反复暴露在远超标准的硅尘环境里。重点不是单次超标，而是这种暴露如果持续下去，会把原本可防的工作风险变成长期肺病风险。它重要，是因为隧道、地铁和基础设施建设都离不开这些工种，安全标准一旦失守，后果会延续很多年。接下来要看工程方和监管机构是否会加强监测、停工整改和医疗追踪。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/tunnel-workers-silica-dust-exposure/106953680",
+          "title": "Tunnel workers on major projects repeatedly exposed to excessive silica dust levels"
+        }
+      ]
+    },
+    {
+      "id": "kumanjayi-white-court-action",
+      "headline": "库曼贾伊·怀特家属提起诉讼，要求查明不起诉决定",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T19:13:00Z",
+      "voiceScript": "库曼贾伊·怀特家属已向北领地最高法院提起法律行动，想查明是谁决定不对涉事警员提出指控。关键点不在于新的刑事结果，而在于程序是否透明、家属能否拿到理由。此事之所以重要，是因为它直接关系到死亡看管案件里警方自查的公信力，也牵动原住民社区长期积累的不信任。下一步是法院先处理文件披露，家属再决定是否申请司法复核。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/kumanjayi-white-family-launches-supreme-court-action/106953648",
+          "title": "Court action by Kumanjayi White's family demands answers over decision not to prosecute police"
         }
       ]
     },
@@ -829,6 +874,29 @@
           "source": "WAtoday",
           "url": "https://www.watoday.com.au/national/western-australia/perth-cancer-doctor-admits-he-made-ai-child-sex-videos-20260724-p60ias.html",
           "title": "Perth cancer doctor admits he made AI child sex videos"
+        }
+      ]
+    },
+    {
+      "id": "origin-data-breach-ai-scams",
+      "headline": "Origin 数据泄露引发 AI 骗局扩散担忧",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-23T19:04:00Z",
+      "voiceScript": "Origin Energy 的数据泄露让澳洲网络安全专家开始担心，骗子会把泄露的姓名、住址、生日和部分账户资料，和公开信息拼起来，做出更逼真的钓鱼邮件、电话和短信。关键数字是 Origin 说自己有 480 万个客户账户，受影响范围还在确认中。这个事件重要，因为它说明泄露的不一定是完整银行卡信息，只要数据够细，就足以被 AI 放大成更精准的诈骗。下一步要看受影响客户的通知、官方调查，以及银行和监管机构怎么应对后续冒名诈骗。",
+      "differences": [
+        "ABC 更强调 AI 如何把泄露资料变成钓鱼和冒名攻击。",
+        "The Guardian 更强调泄露范围、公司回应和监管调查。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/origin-breach-could-fuel-wave-of-ai-powered-scams/106951588",
+          "title": "Origin data breach could fuel wave of AI-powered scams, cyber experts warn"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/23/personal-and-banking-details-among-customer-data-stolen-in-origin-energy-hack",
+          "title": "Personal and banking details among customer data stolen in Origin Energy hack"
         }
       ]
     },

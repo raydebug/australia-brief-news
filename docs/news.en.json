@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T00:07:19Z",
+  "updatedAt": "2026-07-27T01:10:28Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,18 +116,33 @@
     }
   ],
   "errors": [
-    "The Australian, Sky News Australia, Canberra Times and AAP still did not expose stable public article lists this run; ABC, SBS and The Guardian RSS feeds were usable for new Australian items, while 9News, 7NEWS and AFR pages only exposed partial structured headlines."
+    "The Australian、Sky News Australia、Canberra Times 和 AAP 这次仍没有稳定可解析的公开列表；ABC、SBS 和 The Guardian 的 RSS 可直接用于本轮增量，9News、7NEWS 和 AFR 页面只暴露了部分结构化标题。"
   ],
   "clusters": [
     {
+      "id": "flat-pack-tiny-home-misleading",
+      "headline": "Flat-pack tiny home claims accused of misleading buyers",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T00:04:00Z",
+      "voiceScript": "ABC reports that a Bunbury buyer thought he had purchased a flat-pack tiny home that could be assembled in a weekend, but the project has instead been slowed by council approval and building-standard issues. The important part is that these products are attractive in a housing shortage, but claims like “permit-free” or “weekend build” can cross into consumer-law problems if they are not accurate. The next step is whether regulators push harder on marketing claims and compliance processes.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/wa-prefab-housing-diy-costly/106943676",
+          "title": "Steve bought a flat-packed tiny home to save money and time. It has done the opposite"
+        }
+      ]
+    },
+    {
       "id": "ausalert-test",
-      "headline": "AusAlert siren test prompts advice on how to prepare",
+      "headline": "AusAlert试鸣引发手机设置提醒",
       "sourceCount": 2,
       "publishedAt": "2026-07-26T23:09:42Z",
-      "voiceScript": "Australia’s new AusAlert warning system is moving into its first nationwide test, with phones due to sound a 10-second siren. The Guardian Australia explains when the alarm will go off and what readers should know, while 7NEWS focuses on how the new system will work in practice. The big issue is whether the alert can reliably reach people during bushfires, floods and other emergencies. The next step is Monday’s test and the feedback that follows from the public and officials.",
+      "voiceScript": "澳大利亚新的 AusAlert 紧急警报系统正在进行首次全国试鸣，手机会响起 10 秒警报。The Guardian Australia 说这次试鸣的重点是让人知道会在什么时间响起、为什么会响起，7NEWS 则把焦点放在新系统实际会怎样运作。真正重要的是，这套系统能否在山火、洪水和其他紧急情况中可靠触达更多人。下一步就是周一的试鸣，以及公众和官方随后给出的反馈。",
       "differences": [
-        "The Guardian Australia: more of a practical explainer about when it will sound and what to expect.",
-        "7NEWS: focuses on the mechanics of the test and what people will hear."
+        "The Guardian Australia：更像实用说明，解释何时响、为什么响、读者该注意什么。",
+        "7NEWS：更关注试鸣本身的运行方式和公众会听到什么。"
       ],
       "links": [
         {
@@ -144,13 +159,13 @@
     },
     {
       "id": "tariffs-pushback",
-      "headline": "Australia pushes back on Trump’s tariff moves",
+      "headline": "澳洲就特朗普关税动作强硬回应",
       "sourceCount": 2,
       "publishedAt": "2026-07-26T23:04:55Z",
-      "voiceScript": "Australia is back in a tariff fight as Washington’s latest trade moves draw criticism and Canberra pushes for them to be reversed. SBS frames the issue through expert analysis and the wider economic stakes, while Guardian live updates capture the immediate political reaction from James Paterson and others. The importance is practical: tariffs can feed into prices, exports and pressure on the government to respond. What happens next depends on whether the US softens its position or Australia keeps pressing for a repeal.",
+      "voiceScript": "澳大利亚又回到关税争议中，华盛顿最新贸易动作引发批评，堪培拉也在推动撤回相关措施。SBS 从专家分析和经济影响切入，The Guardian Australia 的实时报道则记录了 James Paterson 等人的即时政治反应。真正重要的是，关税会传导到价格、出口和政府回应的压力上。接下来就看美国是否会软化立场，还是澳洲会继续推动撤销。",
       "differences": [
-        "SBS: more analytical, stressing the economic complexity and the case for repeal.",
-        "The Guardian Australia: more live and political, highlighting the immediate reaction and the breaking-news context."
+        "SBS：更偏分析，强调经济复杂性和撤销关税的理由。",
+        "The Guardian Australia：更偏实时政治报道，突出即时反应和突发新闻背景。"
       ],
       "links": [
         {
@@ -167,10 +182,10 @@
     },
     {
       "id": "afl-state-of-origin-future",
-      "headline": "AFL confirms 2027 State of Origin plan with Victoria left out",
+      "headline": "AFL确认2027州际对抗赛安排，维州被排除在外",
       "sourceCount": 1,
       "publishedAt": "2026-07-26T22:19:38Z",
-      "voiceScript": "The Australian Football League has confirmed the 2027 State of Origin plan, but Victoria will not be part of the match-up. The league wants the representative fixture to keep its pull and reignite the debate over state identity and scheduling value. For Victorian fans, that means the revival still looks incomplete. The next step is seeing how the league and the states explain the decision and whether it shapes later representative fixtures.",
+      "voiceScript": "澳大利亚橄榄球联赛确认，2027年的州际对抗赛将继续推进，但维多利亚州不会出现在这场比赛名单里。AFL希望借这种安排维持代表赛的吸引力，也让球迷重新讨论州队身份和赛程价值。对维州球迷来说，这意味着传统对抗赛的回归仍然不完整。接下来要看联赛和各州如何解释这一决定，以及它会不会影响未来的代表赛安排。",
       "differences": [],
       "links": [
         {
@@ -182,10 +197,10 @@
     },
     {
       "id": "woorabinda-rehab-closure",
-      "headline": "Remote Queensland rehab closure leaves community without local care",
+      "headline": "昆州偏远社区失去唯一康复服务",
       "sourceCount": 1,
       "publishedAt": "2026-07-26T22:15:15Z",
-      "voiceScript": "A remote Queensland Indigenous community has lost its only drug and alcohol rehabilitation centre. ABC says the closure leaves Woorabinda residents without a local treatment option, which raises travel, cost and continuity problems for people already facing disadvantage. The importance is bigger than one building: it shows how fragile regional health access can be. The next step is whether funding or a replacement service is found before the gap becomes permanent.",
+      "voiceScript": "昆州一个偏远的原住民社区失去了唯一的酒精和药物康复中心。ABC 报道说，这次关闭让 Woorabinda 居民再也没有本地治疗选择，也把出行、费用和照护连续性的问题推到台前。它的重要性不只是少了一栋楼，而是暴露了地区医疗服务有多脆弱。接下来要看是否会在缺口变成长期问题之前，补上资金或替代服务。",
       "differences": [],
       "links": [
         {
@@ -197,14 +212,14 @@
     },
     {
       "id": "allan-leadership-crisis",
-      "headline": "Jacinta Allan faces a fresh leadership crisis",
+      "headline": "雅辛塔·艾伦面临新的领导危机",
       "sourceCount": 3,
       "publishedAt": "2026-07-26T21:45:55Z",
-      "voiceScript": "Victoria’s Labor government is in damage-control mode after factional pressure on Jacinta Allan spilled into the open. The state party’s top figures have held crisis talks, and the noise now is about whether the premier can steady the room before the next election cycle tightens. If the internal numbers keep moving, this stops being a headline and becomes a real leadership contest.",
+      "voiceScript": "维州工党内部的压力正在公开化，雅辛塔·艾伦被推到风口浪尖。州内几位关键人物已经开了危机会议，眼下争论的不只是她能不能撑住，而是这场内斗会不会拖到下次选举前继续发酵。接下来要看党内数字是否继续变化，还是这场危机会先被按住。",
       "differences": [
-        "The Age: focuses on the crisis meeting and the direct pressure on Allan.",
-        "The Guardian Australia: frames it as factional fallout inside a broader live political update.",
-        "9News: frames it as a challenge likely to land within days rather than a settled contest."
+        "The Age：更聚焦危机会议本身，以及州工党内部对艾伦的直接压力。",
+        "The Guardian Australia：把它放进更大的实时政治背景，强调派系变化和连锁反应。",
+        "9News：把这场风波写成“未来几天内可能见分晓”的时间表，而不是已经结束的挑战。"
       ],
       "links": [
         {
@@ -226,10 +241,10 @@
     },
     {
       "id": "female-tradies-sexism",
-      "headline": "Female tradies call for stronger protections against workplace sexism",
+      "headline": "女技工呼吁更强保护，行业“恶意性别歧视”再受关注",
       "sourceCount": 1,
       "publishedAt": "2026-07-26T21:16:46Z",
-      "voiceScript": "Female tradies in construction and other hands-on industries are still facing hostile sexism, and experts say it is affecting recruitment, retention and safety. The story is about day-to-day behaviour on worksites, not abstract culture-war talk. For the industry, the issue matters because labour shortages will not close if women keep being pushed out. The next step is whether training providers, unions and employers introduce clearer protections.",
+      "voiceScript": "建筑和手工行业里的女技工仍然经常遇到带敌意的性别歧视，专家说这已经影响招聘、留任和安全感。报道关注的是具体工作场景中的语言、排斥和不公平待遇，而不是抽象的文化争论。对行业来说，这关系到劳动力缺口能不能补上。下一步要看培训、工会和雇主会不会推出更明确的保护措施。",
       "differences": [],
       "links": [
         {
@@ -241,13 +256,13 @@
     },
     {
       "id": "albanese-dinner-scrutiny",
-      "headline": "Albanese faces scrutiny over billionaire-hosted dinner",
+      "headline": "阿尔巴尼斯因富豪晚宴再受审视",
       "sourceCount": 2,
       "publishedAt": "2026-07-26T21:10:28Z",
-      "voiceScript": "Anthony Albanese is facing fresh scrutiny after questions over a Point Piper dinner hosted by a billionaire family. ABC’s live coverage tracks the political defence in real time, while news.com.au frames the exchange around the PM’s line that he attends a lot of dinners. The issue matters because it turns a social invitation into a test of access, transparency and political optics. The next question is whether the story fades or keeps feeding pressure on the government.",
+      "voiceScript": "安东尼·阿尔巴尼斯又因为 Point Piper 的一场富豪晚宴受到追问。ABC 的实时报道在跟进政府的当场回应，news.com.au 则把焦点放在总理那句“我参加很多晚宴”的解释上。关键不是一顿饭本身，而是它怎样变成了接触权力、透明度和政治形象的测试。接下来要看这条新闻是很快淡去，还是继续给政府带来压力。",
       "differences": [
-        "ABC News: live-update format, focused on the defence and the political reaction as it unfolds.",
-        "news.com.au: more skeptical and more focused on the awkwardness of Albanese’s answer."
+        "ABC News：采用实时更新格式，重点跟进政府辩护和现场反应。",
+        "news.com.au：语气更怀疑，强调阿尔巴尼斯回答时的尴尬。"
       ],
       "links": [
         {
@@ -264,10 +279,10 @@
     },
     {
       "id": "western-sydney-airport-hotel-crisis",
-      "headline": "Hotel shortages loom for travellers landing at Western Sydney Airport",
+      "headline": "西悉尼新机场周边住宿短缺，旅客落地后或遇酒店危机",
       "sourceCount": 1,
       "publishedAt": "2026-07-26T21:03:22Z",
-      "voiceScript": "Hotel and bed supply around Western Sydney Airport is being flagged as too thin for the number of travellers expected to arrive. The issue is bigger than the airport itself: transport links, late-night transfers and nearby commercial services are not fully ready. For the first wave of passengers, that translates into higher costs and more friction on arrival. The next question is whether local government, hotel operators and the airport company move quickly to fill the gap.",
+      "voiceScript": "西悉尼新机场周边的酒店和床位供应被指跟不上，数以千计的旅客可能在落地后面对住宿缺口。问题不只是机场本身，而是周边交通、夜间转乘和商业配套还没准备好。对首批使用者来说，这会直接变成成本和混乱。接下来要看地方政府、酒店业和机场运营方能不能加快补位。",
       "differences": [],
       "links": [
         {
@@ -279,10 +294,10 @@
     },
     {
       "id": "family-flees-arson",
-      "headline": "A family flees an arson attack in Melbourne",
+      "headline": "墨尔本一户人家逃离纵火袭击",
       "sourceCount": 1,
       "publishedAt": "2026-07-26T20:13:46Z",
-      "voiceScript": "A Melbourne family has been forced out after an arson attack, and police are still working through the motive and the extent of the damage. What matters most right now is whether investigators can link this to a targeted dispute or a broader crime pattern. Until then, the case remains about safety first and answers later.",
+      "voiceScript": "墨尔本一户家庭在纵火袭击后被迫离开，警方仍在追查动机和损失范围。现在最重要的是调查人员能不能判断这是不是一次有针对性的纠纷，还是更广泛的犯罪模式的一部分。在答案出来前，这起案件首先是安全问题，其次才是原因问题。",
       "differences": [],
       "links": [
         {
@@ -293,11 +308,41 @@
       ]
     },
     {
+      "id": "silica-dust-tunnel-exposure",
+      "headline": "Tunnel workers exposed to excessive silica dust on major projects",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T20:02:00Z",
+      "voiceScript": "ABC says workers on some major Australian tunnel projects have repeatedly been exposed to silica dust above the workplace standard. The key point is not a single breach, but repeated exposure that turns a preventable job hazard into a long-term lung disease risk. It matters because tunnels, metro lines and other infrastructure depend on this kind of labour, and weak controls can leave a legacy of illness for years. The next step is whether contractors and regulators tighten monitoring, force fixes and follow up on worker health.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/tunnel-workers-silica-dust-exposure/106953680",
+          "title": "Tunnel workers on major projects repeatedly exposed to excessive silica dust levels"
+        }
+      ]
+    },
+    {
+      "id": "kumanjayi-white-court-action",
+      "headline": "Kumanjayi White family seeks court answers over no-charge decision",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T19:13:00Z",
+      "voiceScript": "Kumanjayi White’s family has gone to the Northern Territory Supreme Court to find out who decided not to prosecute the officers involved. The central issue is not a new criminal finding, but whether the process was transparent enough for the family to understand the reasons. It matters because deaths in custody depend on public trust, and this case adds to long-running concern in First Nations communities about police investigating police. The next step is a court fight over documents, followed by a possible judicial review.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/kumanjayi-white-family-launches-supreme-court-action/106953648",
+          "title": "Court action by Kumanjayi White's family demands answers over decision not to prosecute police"
+        }
+      ]
+    },
+    {
       "id": "nsw-icac-powerbroker-uk",
-      "headline": "Former NSW Liberal powerbroker in UK as Icac allegations remain unresolved",
+      "headline": "新州自由党前权力掮客身在英国，Icac指控听证受关注",
       "sourceCount": 1,
       "publishedAt": "2026-07-26T15:00:17Z",
-      "voiceScript": "A former NSW Liberal powerbroker at the centre of Icac allegations is now in the UK and is not expected to appear in person. The real issue is that the inquiry’s timetable and enforcement could become harder to manage. In corruption probes, an absence does not automatically mean the matter is finished; it can simply stretch the process out. The next step is whether Icac can still move ahead with evidence and hearing plans.",
+      "voiceScript": "新南威尔士自由党一名前权力掮客因 Icac 指控成为焦点，但他目前身在英国，预计不会亲自出庭。报道的关键在于，调查的时间表和执行方式可能因此受到影响。对反腐调查来说，缺席不一定意味着结案，反而可能拖长程序。下一步要看 Icac 是否还能继续推进证词和听证安排。",
       "differences": [],
       "links": [
         {
@@ -309,10 +354,10 @@
     },
     {
       "id": "one-nation-remigrate-interview",
-      "headline": "One Nation “remigrate” remarks reignite Australia’s migration debate",
+      "headline": "一国党议员“遣返”说法重浮水面，移民争议再起",
       "sourceCount": 1,
       "publishedAt": "2026-07-26T15:00:17Z",
-      "voiceScript": "A resurfaced interview has put a One Nation senator’s talk of “remigrating” illegal visa holders back under the spotlight. The dispute is whether the wording is aimed at stoking migration anxiety or signaling a harder policy line. For federal politics, it keeps migration and border control on the front foot. The next step is whether the senator or the party offers any clarification.",
+      "voiceScript": "一段旧访谈重新浮出水面后，一国党参议员关于把非法签证持有人“remigrate”的说法再次引发争议。争议核心是这类措辞到底是在炒作移民焦虑，还是反映更强硬的移民政策路线。对联邦政治来说，这会继续考验各党在移民和边境议题上的表态。接下来要看当事人和党内是否会进一步澄清。",
       "differences": [],
       "links": [
         {
@@ -324,10 +369,10 @@
     },
     {
       "id": "census-explained",
-      "headline": "2026 Census explained: key date, who must respond and penalties",
+      "headline": "2026 年人口普查重点一次看懂",
       "sourceCount": 1,
       "publishedAt": "2026-07-26T12:39:35Z",
-      "voiceScript": "Australia’s 2026 Census is getting closer, with the key collection date on 11 August and penalties possible for people who simply ignore it. The Census matters because it shapes funding, services and planning for everything from schools to roads, so the question isn’t just how to fill it out but why the data matters. The remaining unknown is public participation, especially whether households treat it as a routine form or a civic obligation.",
+      "voiceScript": "澳洲 2026 年人口普查越来越近，关键填写日是 8 月 11 日，不回应的人也可能面临罚款。人口普查之所以重要，是因为它会影响学校、道路、医疗等公共服务和资金分配，所以问题不只是怎么填表，更是为什么这份数据会影响每个人。接下来要看公众参与度如何，大家是把它当普通表格，还是当成一项公民义务。",
       "differences": [],
       "links": [
         {
@@ -339,13 +384,13 @@
     },
     {
       "id": "census-key-dates",
-      "headline": "2026 census guidance highlights key date and penalties",
+      "headline": "2026年人口普查提醒关键日期和罚则",
       "sourceCount": 2,
       "publishedAt": "2026-07-26T12:39:35Z",
-      "voiceScript": "Australia’s 2026 Census is back in focus, with SBS and 7NEWS spelling out what households need to do and when. The key date is 11 August, and the guidance is about participation, what information is collected and the penalties for missing the deadline. It matters because census data feeds funding, planning and services in housing, transport and health. The next step is the reminder campaign and how quickly households respond.",
+      "voiceScript": "澳大利亚 2026 年人口普查再次成为焦点，SBS 和 7NEWS 都在提醒家庭该做什么、什么时候做。关键日期是 8 月 11 日，重点包括参与方式、收集哪些信息，以及错过期限可能面临的罚款。它的重要性在于，普查数据会影响住房、交通和医疗等领域的拨款与规划。接下来就看提醒活动能否把家庭的动作提早。",
       "differences": [
-        "SBS: more explanatory and policy-led, stressing why the census matters.",
-        "7NEWS: more practical, focusing on the key date, the step-by-step process and the penalty risk."
+        "SBS：更偏解释性和政策面，强调普查为什么重要。",
+        "7NEWS：更偏操作指南，强调关键日期、填写步骤和罚款风险。"
       ],
       "links": [
         {
@@ -362,10 +407,10 @@
     },
     {
       "id": "bike-hoon-crackdown",
-      "headline": "Victoria Police steps up crackdown on e-bike hoons",
+      "headline": "维州警方加码打击电动自行车飙车党",
       "sourceCount": 1,
       "publishedAt": "2026-07-26T11:00:00Z",
-      "voiceScript": "Victoria Police is taking a harder line against illegal e-bike and modified-bike riders who are turning footpaths and roads into danger zones. Officers say some of the bikes are reaching speeds that put riders, pedestrians and drivers at serious risk, so the response is moving beyond warnings and into direct enforcement. The question now is whether that pressure actually changes behaviour or just pushes the problem elsewhere.",
+      "voiceScript": "维州警方正在升级对违规电动自行车和改装自行车的整治，一些骑手把人行道和道路变成了危险区。警方说，部分车辆速度已经高到足以让骑手、行人和驾驶者都面临严重风险，所以这次行动不再只是口头警告，而是直接执法。接下来要看这种压力能不能真正改变骑行习惯，还是只会把问题转到别处。",
       "differences": [],
       "links": [
         {
@@ -377,10 +422,10 @@
     },
     {
       "id": "sydney-fisherman-capsize",
-      "headline": "Sydney fisherman dies after boat capsizes",
+      "headline": "悉尼渔船倾覆，一名男子死亡",
       "sourceCount": 1,
       "publishedAt": "2026-07-26T10:30:00Z",
-      "voiceScript": "A fishing trip off Sydney ended in tragedy when a boat capsized and one man died. Police say life jackets were not being worn, and investigators still need to pin down exactly how the accident escalated. The next step is the safety and coronial review, which will test whether this was a bad break or a preventable loss.",
+      "voiceScript": "悉尼外海的一次出海捕鱼最终酿成悲剧，一艘小船翻覆后，一名男子死亡。警方说当时有人没有穿救生衣，调查还在厘清事故是如何一步步升级的。接下来最重要的是安全复盘和验尸调查，看看这起事故到底是意外失控，还是本可避免的悲剧。",
       "differences": [],
       "links": [
         {
@@ -392,15 +437,15 @@
     },
     {
       "id": "vad-telehealth",
-      "headline": "Labor backs telehealth access for assisted dying consultations",
+      "headline": "工党支持临终协助远程医疗咨询",
       "sourceCount": 4,
       "publishedAt": "2026-07-26T15:00:00+10:00",
-      "voiceScript": "Labor’s national conference has amended the party platform to support phone and video consultations for voluntary assisted dying. Anthony Albanese personally remains opposed, warning that telehealth could weaken face-to-face assessment and safeguards against misuse. Supporters argue that patients in remote areas, or those with limited mobility, often struggle to reach hospitals or clinics, and that existing federal criminal law makes doctors cautious about communication. The next issue is whether cabinet turns the party position into a bill, and how any reform balances access with safety.",
+      "voiceScript": "工党全国会议已经通过修改平台，支持把临终协助的咨询放到电话和视频里进行。阿尔巴尼斯本人仍明确保留反对意见，担心这会削弱面对面评估和现有防误用措施；支持者则强调，偏远地区和行动不便的病人常常很难赶到医院或诊所，现行联邦刑法也让医生在沟通上顾虑重重。下一步要看联邦内阁会不会把党内立场变成正式法案，以及修法时如何同时守住可及性和安全边界。",
       "differences": [
-        "ABC News highlights the prime minister’s personal opposition and concerns about medical safeguards.",
-        "The Guardian Australia puts more weight on access for remote and immobile patients and the federal legal barrier.",
-        "SBS News focuses on the conference vote and the fact the issue remains a conscience-vote matter.",
-        "news.com.au points to legal risk and compliance pressure for doctors."
+        "ABC News：强调总理个人反对，以及医疗安全和面对面评估。",
+        "The Guardian Australia：更强调偏远和行动不便患者的可及性，以及联邦刑法造成的障碍。",
+        "SBS News：把焦点放在党内表决已经通过，以及这一争议仍属于良心投票范围。",
+        "news.com.au：点出法律风险和医生可能面对的合规压力。"
       ],
       "links": [
         {
@@ -427,10 +472,10 @@
     },
     {
       "id": "albanese-fuel-prices",
-      "headline": "Albanese flags new fuel moves as petrol prices are tipped to rise",
+      "headline": "阿尔巴尼斯释放燃油新动作，汽油价格或继续上涨",
       "sourceCount": 1,
       "publishedAt": "2026-07-26T02:52:29Z",
-      "voiceScript": "Anthony Albanese has floated new fuel measures, but the price outlook still points higher in the short term. The real question is whether oil prices and inflation pass-through will keep squeezing household budgets. It matters because this goes straight to cost-of-living pressure and the federal government’s economic credibility. The next step is whether Canberra releases a more detailed package on subsidies, taxes or supply chains.",
+      "voiceScript": "阿尔巴尼斯释放出新的燃油措施信号，但多家媒体都在警告，汽油价格短期内可能继续上升。关键不只是表态，而是油价和通胀传导会不会再次挤压家庭预算。这个问题之所以重要，是因为它直接碰到生活成本和联邦政府的经济压力。接下来要看官方会不会公布更具体的补贴、税费或供应链措施。",
       "differences": [],
       "links": [
         {
@@ -442,10 +487,10 @@
     },
     {
       "id": "daniel-grollo-bankruptcy",
-      "headline": "Daniel Grollo declared bankrupt as investigation looms",
+      "headline": "格罗隆破产，纽约公寓被接管",
       "sourceCount": 1,
       "publishedAt": "2026-07-26T10:00:00+10:00",
-      "voiceScript": "Former Grocon boss Daniel Grollo has been declared bankrupt, and the fallout includes a New York apartment being forfeited while an investigation is flagged. The story matters because it links one of Melbourne’s best-known construction names with a much larger collapse in confidence around the empire he once led. What remains unclear is how far the inquiries will go and what other assets or liabilities could surface.",
+      "voiceScript": "前 Grocon 老板丹尼尔·格罗隆已被宣告破产，连带还有他在纽约的一套公寓被没收，调查也已经被提上台面。这个消息之所以重要，是因为它把墨尔本最知名的建筑名字之一，和整座商业帝国的信任崩塌直接连在了一起。接下来要看调查会往多深处走，以及还会不会牵出更多资产和负债。",
       "differences": [],
       "links": [
         {
@@ -457,16 +502,16 @@
     },
     {
       "id": "ausalert-national-test",
-      "headline": "National AusAlert test will trigger phone alerts",
+      "headline": "全国 AusAlert 测试将触发手机警报",
       "sourceCount": 5,
       "publishedAt": "2026-07-26T09:00:00+10:00",
-      "voiceScript": "The federal government is running the first national test of AusAlert today, with phones, tablets and some watches set to sound a 10-second emergency alert. Officials want to check whether the cell-broadcast system can send bushfire, flood and other warnings faster and more reliably than older text-message systems. The sensitive point is that the alert can override silent mode, which may create risk for people hiding a phone because of family violence. The next test is whether coverage is broad, false alarms stay low and the public accepts the new warning channel.",
+      "voiceScript": "联邦政府今天把全国 AusAlert 警报系统拿来做第一次全国测试，手机、平板和部分手表都会在设定时间响起 10 秒警报。官方想验证这种基于蜂窝广播的新系统，能不能比旧短信更快、更稳定地把山火、洪水和其他紧急信息送到指定区域。争议点在于，它会覆盖静音模式，也可能让藏机的家暴受害者暴露位置。接下来要看这次测试的覆盖率、误报率和公众对安全提醒的接受度。",
       "differences": [
-        "ABC News: emphasizes the nationwide synchronous test and today's live drill before rollout.",
-        "SBS News: focuses on how to prepare, the technical setup and safety warnings for domestic-violence survivors.",
-        "news.com.au: highlights compatible devices, the 10-second alarm and the fact silent mode will still be overridden.",
-        "9News: stresses that the alert will sound on phones nationwide and cannot be dodged in silent mode.",
-        "The Sydney Morning Herald: puts the emphasis on today's live test and how residents should respond."
+        "ABC News：强调全国同步测试、今天就会响起，以及系统正式上线前的现实演练。",
+        "SBS News：更强调如何准备测试、技术原理和对家暴受害者的安全提醒。",
+        "news.com.au：更集中讲兼容设备、10 秒警报和静音模式也会被覆盖。",
+        "9News：突出警报会在全国手机上响起，以及静音模式也无法避开。",
+        "The Sydney Morning Herald：把重点放在今天的实际测试和居民应如何应对。"
       ],
       "links": [
         {
@@ -498,10 +543,10 @@
     },
     {
       "id": "cluster-1",
-      "headline": "Two people shot by police during Cairns altercation",
+      "headline": "凯恩斯警方冲突中两人中枪",
       "sourceCount": 4,
       "publishedAt": "2026-07-25T09:47:50.000Z",
-      "voiceScript": "A confrontation involving an allegedly armed suspect in Cairns has ended with police opening fire and a man and a woman being shot. Public details remain limited, including who the suspect was, how the situation escalated and whether the two injured people are stable. The next issue is whether police can provide a clear timeline and explain the operational judgment behind the shooting; otherwise questions about whether the action was necessary will continue.",
+      "voiceScript": "昆士兰凯恩斯一场与持枪嫌疑人的冲突，最后演变成警方开枪，一男一女中枪。现在公开的信息还不完整，关键还在于嫌疑人是谁、现场经过如何升级，以及两名伤者的伤势是否稳定。接下来要看警方能否把时间线和执法判断交代清楚，否则外界对这次行动是否必要的疑问还会继续。",
       "differences": [],
       "links": [
         {
@@ -528,10 +573,10 @@
     },
     {
       "id": "cluster-3",
-      "headline": "Five people die on WA roads in 24 hours",
+      "headline": "西澳 24 小时内 5 人死于道路事故",
       "sourceCount": 3,
       "publishedAt": "2026-07-25T06:21:30.000Z",
-      "voiceScript": "Western Australia has recorded five road deaths in less than 24 hours, putting the state’s road toll back under serious scrutiny. The crashes occurred in different locations, suggesting the issue is not one dangerous stretch of road but a mix of speed, fatigue and country-road risk. The next question is whether the state government steps up enforcement and safety campaigns, or continues to put most of the emphasis on driver responsibility.",
+      "voiceScript": "西澳不到 24 小时里有 5 人在不同车祸中死亡，道路死亡人数再次拉响警报。事故分布在多个地点，说明问题不是单一路段，而是超速、疲劳驾驶和乡村道路风险同时存在。接下来要看州政府会不会加码执法和安全宣传，还是继续把重点放在驾驶员自律上。",
       "differences": [],
       "links": [
         {
@@ -553,13 +598,13 @@
     },
     {
       "id": "cluster-4",
-      "headline": "Husic criticises Labor culture after Gaza debate push fails",
+      "headline": "Husic 推动加沙辩论失败后批评工党文化",
       "sourceCount": 2,
       "publishedAt": "2026-07-25T06:01:39.000Z",
-      "voiceScript": "At Labor’s national conference, Ed Husic’s push to bring Gaza-related issues to the floor failed, exposing internal divisions inside the party. Husic then criticised Labor’s culture as too rigid, showing this is not only about foreign-policy wording but also party discipline, Muslim voter sentiment and the government’s room to move on the Middle East. The next point to watch is whether the leadership gives a clearer explanation, and whether Husic keeps applying pressure internally.",
+      "voiceScript": "工党全国会议上，Ed Husic 推动把加沙相关议题带到大会讨论的提议没有通过，党内分歧直接摆到台面上。Husic 随后批评工党文化太僵硬，说明这不只是外交表态问题，也牵动党纪、穆斯林选民观感和政府未来在中东问题上的回旋空间。接下来要看领导层会不会给出更清楚的解释，以及 Husic 是否继续在党内施压。",
       "differences": [
-        "ABC News focuses more on Husic’s direct criticism of Labor culture and party discipline.",
-        "The Guardian Australia emphasises that the dispute was contained at the end of conference and did not become a public stoush."
+        "ABC News：更强调 Husic 对工党文化和党纪的直接批评。",
+        "The Guardian Australia：更强调这场争议在全国会议收尾时被按住，没有演成公开冲突。"
       ],
       "links": [
         {
@@ -576,13 +621,13 @@
     },
     {
       "id": "cluster-5",
-      "headline": "Controversial herbicide paraquat to be pulled from sale in Australia",
+      "headline": "争议除草剂 paraquat 将停止在澳洲销售",
       "sourceCount": 2,
       "publishedAt": "2026-07-25T04:59:49.000Z",
-      "voiceScript": "Syngenta’s decision to stop selling paraquat in Australia effectively settles the immediate future of the controversial herbicide. The company points to tighter regulation as well as commercial, manufacturing and logistics pressures. The broader context is that many countries have already banned the product, while health-risk concerns have persisted for years. The next issue is whether farmers have enough practical alternatives, and whether regulators tighten controls on other high-risk chemicals.",
+      "voiceScript": "Syngenta 宣布停止在澳洲销售 paraquat 之后，这种争议除草剂的去向基本确定。企业给出的理由是监管收紧，再加上商业、制造和物流上的压力；更大的背景是，多国早已禁用这类产品，而它和健康风险的争议也一直没停。接下来要看农户有没有足够替代品，以及监管机构会不会继续收紧更多高风险农药。",
       "differences": [
-        "ABC News focuses on the regulatory and commercial reasons behind the company’s withdrawal.",
-        "The Guardian Australia focuses on paraquat being banned in many countries and the long-running debate about Parkinson’s disease risk."
+        "ABC News：侧重企业退出销售的监管与商业原因。",
+        "The Guardian Australia：侧重 paraquat 在多国被禁，以及与帕金森病风险相关的长期争议。"
       ],
       "links": [
         {
@@ -599,10 +644,10 @@
     },
     {
       "id": "cluster-6",
-      "headline": "Liberty Bell Bay may have been insolvent for more than a year before closure",
+      "headline": "Liberty Bell Bay 关闭前可能已资不抵债一年多",
       "sourceCount": 1,
       "publishedAt": "2026-07-25T04:54:08.000Z",
-      "voiceScript": "A receivers’ report says Tasmania’s Liberty Bell Bay manganese smelter may have been insolvent for more than a year before it closed, despite receiving a $20 million state government loan. The finding puts local subsidies, corporate finances and job losses into the same frame. The next issue is whether administrators and government investigate the decisions that were made, and how much of the site’s assets and employment base can still be preserved.",
+      "voiceScript": "塔州 Liberty Bell Bay 锰冶炼厂的接管报告显示，这家工厂在关闭前可能已经资不抵债一年多，还拿过州政府 2000 万澳元贷款。这个消息把地方补贴、企业财务和就业影响一起推到前台。接下来要看管理人和政府会不会追查当初的决策，厂区资产和岗位还能保住多少也会成为焦点。",
       "differences": [],
       "links": [
         {
@@ -614,16 +659,16 @@
     },
     {
       "id": "fuel-price-rise",
-      "headline": "Fuel prices rise as excise relief nears expiry",
+      "headline": "燃油价格上涨，消费税减免即将结束",
       "sourceCount": 5,
       "publishedAt": "2026-07-25T14:19:00+10:00",
-      "voiceScript": "Petrol prices in Australia are still rising. The federal government says supply remains secure, but the fuel excise relief is due to expire on August 2. SBS and The Guardian both stress that crude prices, conflict in the Middle East and the end of the tax cut could combine to push pump prices higher, with some areas potentially approaching $2 a litre. The key question now is whether the government extends the relief again, and whether higher fuel costs feed into inflation and the Reserve Bank’s interest-rate outlook.",
+      "voiceScript": "燃油价格这轮上涨没有停下来的迹象，联邦政府也明确表示，不打算把 8 月 2 日到期的燃油消费税减免继续往后延。随着国际原油价格抬升、地缘冲突扰动供应，悉尼、墨尔本等地的泵价已经明显上行，家庭和通勤族会最先感受到压力。接下来要观察的是油价会不会继续推高通胀，以及这会不会影响澳洲央行 8 月的利率判断。",
       "differences": [
-        "ABC News: says supply remains solid and the government is trying to steady the market.",
-        "The Guardian Australia: emphasizes household pain, petrol above $2 a litre and the risk of another RBA move.",
-        "SBS News: stresses that the fuel excise cut is ending and markets are betting on more rate hikes.",
-        "news.com.au: focuses on 40-day oil highs and the end of the 16-cent relief.",
-        "The Sydney Morning Herald: says prices will keep rising once the excise cut expires."
+        "ABC News：强调供应仍然充足，政府先稳定市场情绪。",
+        "The Guardian Australia：更强调家庭负担、泵价上冲到每升 2 澳元，以及 RBA 加息风险。",
+        "SBS News：突出燃油税减免即将结束，以及市场已在押注进一步加息。",
+        "news.com.au：把焦点放在油价 40 天高位和 16 仙优惠结束后的冲击。",
+        "The Sydney Morning Herald：直接点出消费税减免结束后，油价会继续抬升。"
       ],
       "links": [
         {
@@ -655,14 +700,14 @@
     },
     {
       "id": "qld-bird-flu",
-      "headline": "Queensland confirms first H5 bird flu case",
+      "headline": "昆州确认首例 H5 禽流感病例",
       "sourceCount": 3,
       "publishedAt": "2026-07-25T13:28:00+10:00",
-      "voiceScript": "Queensland has confirmed its first H5 bird flu case after dead seabird samples from Moreton Island first returned a suspected positive result and were later confirmed by CSIRO. The state government is focusing on wild-bird and coastal monitoring while warning the public not to touch dead or sick birds. Officials also say chicken meat and eggs remain safe to eat. The next issue is whether wildlife surveillance can contain the spread quickly, and whether the virus moves into more states.",
+      "voiceScript": "昆州在 Moreton Island 发现的死海鸟样本，先是出现疑似 H5 阳性，随后被 CSIRO 确认，意味着高致病性禽流感已经进入昆州。州政府现在把重点放在野鸟监测、沿海巡查和公众避开死鸟或病鸟上，同时强调鸡肉和鸡蛋仍然可以安全食用。接下来要盯的是野生鸟类之间是否出现更多传播点，以及这次确认会不会带来更大范围的生物安全警戒。",
       "differences": [
-        "ABC News gives the most detailed timeline, from the Moreton Island samples to CSIRO confirmation.",
-        "SBS News places more emphasis on poultry products remaining safe and warnings about wildlife.",
-        "news.com.au highlights that Queensland is the third affected state and stresses increased monitoring and public warnings."
+        "ABC News：把发现过程写得最完整，从 Moreton Island 样本到 CSIRO 确认。",
+        "SBS News：更强调禽类产品仍可安全食用，以及对公众避开死鸟的提醒。",
+        "news.com.au：更突出这是第三个受影响州，以及加强监测和不要接触死鸟的提醒。"
       ],
       "links": [
         {
@@ -689,10 +734,10 @@
     },
     {
       "id": "cluster-9",
-      "headline": "High partner visa fee keeps some couples apart",
+      "headline": "高额配偶签证费让部分伴侣被迫分隔",
       "sourceCount": 1,
       "publishedAt": "2026-07-24T20:42:03.000Z",
-      "voiceScript": "Australia’s partner visa application fee has risen to $11,710, and long processing times are keeping some cross-border couples apart. The issue is not only the price of the visa; the combination of cost and delay is postponing family life, especially for people already living and working in Australia. The next question is whether Home Affairs responds to concerns about high fees and backlogs.",
+      "voiceScript": "澳洲配偶签证申请费已经涨到 11,710 澳元，再加上漫长审理时间，把很多跨国伴侣卡在一起。问题不只是签证贵，而是费用和等待一起把家庭生活推迟了，尤其对已经在澳洲生活、工作的人来说影响更直接。接下来要看内政部门会不会回应收费过高和积压审理的问题。",
       "differences": [],
       "links": [
         {
@@ -704,10 +749,10 @@
     },
     {
       "id": "cluster-10",
-      "headline": "Abuse survivors win latest fight involving the Christian Brothers",
+      "headline": "虐待幸存者在 Christian Brothers 相关诉讼中取得新进展",
       "sourceCount": 1,
       "publishedAt": "2026-07-24T15:00:17.000Z",
-      "voiceScript": "Abuse survivors connected to the Christian Brothers have won their latest legal fight, but compensation and accountability are still far from resolved. The core issue is not a single ruling; it is the gap between church-entity insolvency, compensation arrangements and survivors who have already waited for years. The next issue is whether payments move faster and whether responsibility can be made concrete.",
+      "voiceScript": "Christian Brothers 相关虐待幸存者刚在最新一轮法律战中取胜，但真正的赔付和责任追索还远没有结束。核心问题不是单一判决，而是教会机构破产、赔偿安排和受害者多年等待之间的脱节。接下来要看后续赔付会不会更快推进，以及责任归属能不能真正落地。",
       "differences": [],
       "links": [
         {
@@ -719,10 +764,10 @@
     },
     {
       "id": "cluster-8",
-      "headline": "Police admit abusive synagogue call was not logged at antisemitism royal commission",
+      "headline": "反犹主义皇家委员会听证中，警方承认辱骂电话未记录",
       "sourceCount": 1,
       "publishedAt": "2026-07-24T08:50:28.000Z",
-      "voiceScript": "At the end of the fifth Melbourne hearing block of the antisemitism and social cohesion royal commission, police confirmed that an abusive phone call to a synagogue had not been logged. The detail brings the debate back from broad concerns about hate to practical questions of police records, community safety and institutional failure. The next issue is whether the commission’s final recommendations call for stricter reporting and follow-up systems across police and schools.",
+      "voiceScript": "墨尔本举行的反犹主义与社会凝聚力皇家委员会第五轮听证结束时，警方漏记一通针对犹太会堂的辱骂电话被公开点出。这个细节把讨论从抽象的仇恨问题，拉回到执法记录、社区安全和机构失误本身。接下来要看委员会最终建议是否会要求警方和学校系统补上更严格的报告和跟进机制。",
       "differences": [],
       "links": [
         {
@@ -734,16 +779,16 @@
     },
     {
       "id": "us-tariff-australian-exports",
-      "headline": "New US tariff hits Australian exports",
+      "headline": "美国新关税冲击澳洲出口",
       "sourceCount": 5,
       "publishedAt": "2026-07-24T13:31:00+10:00",
-      "voiceScript": "The United States has imposed a new 12.5 per cent tariff on Australian exports, citing forced-labour concerns, as Australia’s previous 10 per cent temporary tariff expires. For the Australian government, this is not just diplomatic theatre: it affects exporters, trade talks and market confidence. Key products such as beef and gold appear to have avoided the worst of the immediate impact, but businesses are already worried about costs and competitiveness. The next point to watch is how Canberra responds, and whether this tariff logic spreads to more trading partners.",
+      "voiceScript": "美国对澳洲出口加征 12.5% 关税，原本的 10% 临时税率也一起到期，澳洲政府马上把它定义为不公平的贸易打击。现在受影响最直接的是出口企业和谈判气氛，牛肉、黄金等关键产品暂时没有吃到最重冲击，但整个供应链的成本和不确定性都在上升。接下来要看堪培拉是否继续游说华府，以及这套以“强迫劳动”为名的关税逻辑会不会继续扩大。",
       "differences": [
-        "ABC News: explains that the temporary 10% tariff expired and the rate rose another 2.5 points, with companies already weighing legal and lobbying options.",
-        "The Guardian Australia: emphasizes the 12.5% tariff across wide parts of Australian exports while key goods such as beef and gold are temporarily spared.",
-        "SBS News: frames it as Australia's immediate rejection of the US argument and the tariff's instant effect.",
-        "news.com.au: centers Anthony Albanese and Don Farrell's hard-edged response and the knock-on impact for consumers and exporters.",
-        "9News: says the prime minister plans to raise the tariff directly with Donald Trump."
+        "ABC News：说明临时 10% 关税到期后税率再上调 2.5 个百分点，并提到企业已考虑法律和游说手段。",
+        "The Guardian Australia：更强调 12.5% 适用于大量澳洲出口，同时点出牛肉和黄金等关键出口暂时豁免。",
+        "SBS News：把它写成澳洲明确拒绝美国说法的快速国际新闻，强调即时生效。",
+        "news.com.au：更集中在 Albanese 与 Don Farrell 的强硬回应，以及对消费者和出口商的连带影响。",
+        "9News：强调总理会在与特朗普会面时直接提出这项关税。"
       ],
       "links": [
         {
@@ -775,10 +820,10 @@
     },
     {
       "id": "brisbane-gpo-tower",
-      "headline": "A 40-storey office tower is set for Brisbane’s GPO",
+      "headline": "布里斯班 GPO 旁将建 40 层办公楼",
       "sourceCount": 1,
       "publishedAt": "2026-07-24T10:00:00+10:00",
-      "voiceScript": "Brisbane’s skyline is getting another major push, with a 40-storey office tower planned beside the GPO. The proposal includes a public city room at ground level and would replace the existing Edison Exchange, so the project is about more than height: it’s about how the CBD keeps absorbing new commercial space. The planning and design questions now are whether the tower wins support and how it fits into the Olympics-era city story.",
+      "voiceScript": "布里斯班市中心又迎来一项重大开发计划，GPO 旁边将建设一座 40 层办公楼。方案还包含底层的公共城市空间，并会取代现有的 Edison Exchange，所以这不仅是楼高问题，也是 CBD 如何继续吸收商业扩张的问题。接下来要看规划和设计能否顺利过关，以及它如何嵌入奥运时代的城市叙事。",
       "differences": [],
       "links": [
         {
@@ -790,14 +835,14 @@
     },
     {
       "id": "labor-conference-pay-package",
-      "headline": "Labor conference backs teen super and paid placements",
+      "headline": "工党大会推进年轻工人福利和 Fair Work Court",
       "sourceCount": 3,
       "publishedAt": "2026-07-24T10:00:00+10:00",
-      "voiceScript": "Labor’s national conference in Adelaide has pushed forward two workplace policies aimed at younger Australians: removing the superannuation threshold for workers under 18, and expanding Paid Prac to more frontline health courses. The federal government says the changes would affect many students and young casual workers while easing cost-of-living pressure during mandatory placements. Supporters see it as closing gaps in retirement savings and training support; critics will focus on the extra costs for small employers. The next test is whether these commitments become legislation and whether the budget funds them properly.",
+      "voiceScript": "工党在阿德莱德的全国会议继续抛出劳动政策，核心是建立新的 Fair Work Court，并把 Paid Prac 扩大到更多前线健康专业，同时讨论年轻工人的 super 门槛。政府想把争议较高、成本较高的劳动纠纷尽量转进更便宜、更快的流程，也想减轻学生实习期的现金压力。反对者会盯着雇主成本和财政代价，接下来要看这些承诺会不会真的落到法案和预算里。",
       "differences": [
-        "ABC News focuses on the under-18 super threshold and the formal conference vote.",
-        "SBS News emphasises which health fields would be covered by Paid Prac and the $338 weekly payment.",
-        "news.com.au frames it as a major change for young workers, highlighting the number of teenagers affected and employer costs."
+        "ABC News：更聚焦工党会议表决与党内工业政策。",
+        "SBS News：更详细列出扩围到哪些健康专业，以及每周补贴金额。",
+        "news.com.au：更突出 Albanese 的主旨演说、Fair Work Court 和年轻工人 super 改革。"
       ],
       "links": [
         {
@@ -806,23 +851,23 @@
           "title": "Federal politics: Floor fight over gas tax evaporates as Labor spruiks new workers' court at ALP conference"
         },
         {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/politics/aussie-teenagers-could-benefit-from-super-change/news-story/fb4cca7708c93a5f1fa3631541ae966f",
-          "title": "Labor's major policy shift for teen workers"
-        },
-        {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/see-the-full-list-who-will-get-338-weekly-payments-under-prac-payment-expansion/j8vf90nhj",
           "title": "Full list: Here's who will get $338 weekly payments under prac payment expansion"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/work/leaders/anthony-albanese-to-speak-at-alp-conference-as-beer-tax-debate-rages/live-coverage/43ba1e0bb2ec2e5eb33be9f30f299134",
+          "title": "Labor promises superannuation boost for young Australian workers"
         }
       ]
     },
     {
       "id": "perth-ai-child-sex-videos",
-      "headline": "Perth cancer doctor admits he made AI child sex videos",
+      "headline": "珀斯癌症医生承认制作 AI 儿童性虐待视频",
       "sourceCount": 1,
       "publishedAt": "2026-07-24T10:00:00+10:00",
-      "voiceScript": "A Perth cancer doctor has admitted making AI-generated child sex videos, a case that has shocked both the medical and legal communities. The focus now is on the scale of the material, the legal consequences and whether the court treats the technology as a novelty or as part of a much more serious abuse pattern. More details will come through the court process, not speculation.",
+      "voiceScript": "珀斯一名癌症医生承认制作 AI 生成的儿童性虐待视频，这件事让医疗界和法律界都非常震惊。眼下最关键的是这些内容的规模、会带来什么法律后果，以及法院会把这种技术当成新鲜工具，还是更严重虐待模式的一部分。更多细节会在法庭程序中逐步披露，而不是靠猜测。",
       "differences": [],
       "links": [
         {
@@ -833,11 +878,34 @@
       ]
     },
     {
+      "id": "origin-data-breach-ai-scams",
+      "headline": "Origin data breach raises fears of AI-driven scams",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-23T19:04:00Z",
+      "voiceScript": "Origin Energy’s breach has raised concerns that criminals will combine stolen names, addresses, birth dates and partial account details with public information to make phishing emails, calls and texts more convincing. The key number is Origin’s 4.8 million customer accounts, while the full impact is still being confirmed. It matters because even incomplete data can become highly effective when AI helps scammers scale up impersonation. The next step is customer notifications, the official investigation and how banks and regulators respond to follow-on fraud.",
+      "differences": [
+        "ABC focuses more on how AI can turn the leaked data into phishing and impersonation attacks.",
+        "The Guardian focuses more on the breach scope, company response and regulatory investigation."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/origin-breach-could-fuel-wave-of-ai-powered-scams/106951588",
+          "title": "Origin data breach could fuel wave of AI-powered scams, cyber experts warn"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/23/personal-and-banking-details-among-customer-data-stolen-in-origin-energy-hack",
+          "title": "Personal and banking details among customer data stolen in Origin Energy hack"
+        }
+      ]
+    },
+    {
       "id": "sydney-housing-tower",
-      "headline": "Sydney suburb fights a high-density social housing tower",
+      "headline": "悉尼郊区反对高密度社会住房塔楼",
       "sourceCount": 1,
       "publishedAt": "2026-07-23T02:00:00Z",
-      "voiceScript": "Residents in Camden are pushing back against a NSW government housing plan they say would overwhelm the suburb. The debate is happening against a wider shortage of affordable homes, so the policy question is not whether demand exists, but where and how the extra density should land. The next step is whether planners and local leaders can adjust the design or whether the confrontation becomes a longer standoff.",
+      "voiceScript": "坎登的居民正在反对新州政府的一项住房计划，他们担心高密度社会住房塔楼会让社区承受不住。争论背后其实是更大的住房短缺问题，所以真正的焦点不是要不要建房，而是密度应该落在哪里、怎么落。接下来要看规划和地方领导能不能改设计，还是这场对立会继续拖下去。",
       "differences": [],
       "links": [
         {
@@ -849,10 +917,10 @@
     },
     {
       "id": "lancelin-erosion",
-      "headline": "Lancelin residents take coastal erosion fight to the city",
+      "headline": "兰斯林居民进城抗议海岸侵蚀",
       "sourceCount": 1,
       "publishedAt": "2026-07-22T10:00:00+10:00",
-      "voiceScript": "Residents from Lancelin have taken their coastal erosion fight into Perth, warning that the town’s last dune defence is shrinking. The problem is practical, not abstract: if the shoreline keeps moving, homes, roads and local businesses face more exposure every season. What happens next depends on whether the state treats this as an emergency works issue or just another slow-moving coastal management problem.",
+      "voiceScript": "兰斯林的居民已经把海岸侵蚀问题带到珀斯，警告说小镇最后一道沙丘防线正在变薄。这个问题很现实：如果海岸线继续后退，房屋、道路和当地生意都会在每个季节承受更大压力。接下来要看州政府是把它当成紧急工程来处理，还是继续当作缓慢推进的海岸管理问题。",
       "differences": [],
       "links": [
         {
@@ -864,10 +932,10 @@
     },
     {
       "id": "toxic-waste-landswap",
-      "headline": "Secret tape exposes Perth developer’s toxic-waste land swap",
+      "headline": "珀斯开发商有毒废料换地安排被录音曝光",
       "sourceCount": 1,
       "publishedAt": "2026-07-22T10:00:00+10:00",
-      "voiceScript": "A secret recording has sharpened scrutiny on a Perth developer’s land-swap deal tied to toxic waste. The key issue is not just the tape itself but what it suggests about how contamination, land value and public disclosure were handled. The next step is whether regulators and investigators treat the exchange as a bad deal, a compliance breach or something more serious.",
+      "voiceScript": "一段秘密录音让珀斯开发商和有毒废料相关的换地安排再度受到审视。真正值得注意的不是录音本身，而是它暗示污染、地价和信息披露可能是怎样被处理的。接下来要看监管机构和调查人员会把这看成一笔糟糕交易、一次合规违规，还是更严重的事情。",
       "differences": [],
       "links": [
         {
