@@ -477,13 +477,8 @@ p {
 .mobile-script-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 12px;
-}
-
-.mobile-script-header span {
-  color: #657072;
-  font-size: 13px;
 }
 
 .script-panel {

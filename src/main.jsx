@@ -44,8 +44,6 @@ const I18N = {
     install: "安装到设备",
     sources: "来源",
     sourceDifferences: "来源差异",
-    originalLinks: "原始链接",
-    voiceScript: "语音稿",
     readAloud: "朗读",
     stopReading: "停止朗读",
     noMatches: "暂无匹配新闻",
@@ -68,8 +66,6 @@ const I18N = {
     install: "安裝到裝置",
     sources: "來源",
     sourceDifferences: "來源差異",
-    originalLinks: "原始連結",
-    voiceScript: "語音稿",
     readAloud: "朗讀",
     stopReading: "停止朗讀",
     noMatches: "暫無匹配新聞",
@@ -92,8 +88,6 @@ const I18N = {
     install: "Install",
     sources: "Sources",
     sourceDifferences: "Source differences",
-    originalLinks: "Original links",
-    voiceScript: "Briefing script",
     readAloud: "Read aloud",
     stopReading: "Stop reading",
     noMatches: "No matching news",
@@ -116,8 +110,6 @@ const I18N = {
     install: "インストール",
     sources: "ソース",
     sourceDifferences: "報道の違い",
-    originalLinks: "元リンク",
-    voiceScript: "音声原稿",
     readAloud: "読み上げ",
     stopReading: "読み上げを停止",
     noMatches: "一致するニュースはありません",
@@ -140,8 +132,6 @@ const I18N = {
     install: "설치",
     sources: "출처",
     sourceDifferences: "보도 차이",
-    originalLinks: "원문 링크",
-    voiceScript: "음성 원고",
     readAloud: "읽어주기",
     stopReading: "읽기 중지",
     noMatches: "일치하는 뉴스가 없습니다",
@@ -164,8 +154,6 @@ const I18N = {
     install: "Cài đặt",
     sources: "Nguồn",
     sourceDifferences: "Khác biệt giữa nguồn",
-    originalLinks: "Liên kết gốc",
-    voiceScript: "Bản đọc",
     readAloud: "Đọc thành tiếng",
     stopReading: "Dừng đọc",
     noMatches: "Không có tin phù hợp",
@@ -188,8 +176,6 @@ const I18N = {
     install: "ติดตั้ง",
     sources: "แหล่งข่าว",
     sourceDifferences: "ความต่างของแหล่งข่าว",
-    originalLinks: "ลิงก์ต้นฉบับ",
-    voiceScript: "บทอ่าน",
     readAloud: "อ่านออกเสียง",
     stopReading: "หยุดอ่าน",
     noMatches: "ไม่พบข่าวที่ตรงกัน",
@@ -706,7 +692,6 @@ function App() {
                 <div className="mobile-card-detail">
                   <div className="mobile-section">
                     <div className="mobile-script-header">
-                      <span>{labels.voiceScript}</span>
                       <button
                         className={`icon-button compact ${speakingId === cluster.id ? "active" : ""}`}
                         onClick={() => readCluster(displayCluster)}
@@ -733,7 +718,6 @@ function App() {
                   )}
 
                   <div className="mobile-section">
-                    <h4>{labels.originalLinks}</h4>
                     <div className="link-list">
                       {displayCluster.links.map((link) => (
                         <a
@@ -764,7 +748,6 @@ function App() {
           <>
             <div className="detail-top">
               <div>
-                <span className="eyebrow">{labels.voiceScript}</span>
                 <h2>{displayActive.headline}</h2>
               </div>
               <button
@@ -796,7 +779,6 @@ function App() {
               )}
 
               <section>
-                <h3>{labels.originalLinks}</h3>
                 <div className="link-list">
                   {displayActive.links.map((link) => (
                     <a href={link.url} target="_blank" rel="noreferrer" key={`${link.source}-${link.url}`}>
