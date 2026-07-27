@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T01:10:28Z",
+  "updatedAt": "2026-07-27T02:19:48Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,74 @@
     }
   ],
   "errors": [
-    "The Australian、Sky News Australia、Canberra Times 和 AAP 这次仍没有稳定可解析的公开列表；ABC、SBS 和 The Guardian 的 RSS 可直接用于本轮增量，9News、7NEWS 和 AFR 页面只暴露了部分结构化标题。"
+    "The Australian と Sky News Australia は安定して解析できる公開一覧を出していないため、残りは RSS、構造化データ、公式記事ページで補完した。"
   ],
   "clusters": [
+    {
+      "id": "act-gambling-harm",
+      "headline": "ACTのギャンブル被害報告が2年で倍増",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T01:43:57.656358+00:00",
+      "voiceScript": "ACT の規制当局によると、ギャンブル被害の報告は 2 年で 2 倍以上に増え、最新年度は 72,647 件に達しました。重要なのは、報告が増えたことで問題が見えやすくなったのか、それとも実際の被害が悪化しているのかです。政策面では、広告規制や施設監督、介入プログラムに直結します。次は当局と政府の対応です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9317948/act-gambling-harm-incident-reports-double-over-two-years/",
+          "title": "Number of gambling harm incidents reported to regulator doubles in two years"
+        }
+      ]
+    },
+    {
+      "id": "car-strikes-train-bridge",
+      "headline": "車が鉄橋に衝突し、クイーンズランド州の路線が1時間超停止",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T00:31:56Z",
+      "voiceScript": "クイーンズランド州で車が鉄橋に衝突し、朝の通勤時間帯に路線が1時間以上止まりました。問題は遅れだけでなく、通勤、貨物、道路管理にすぐ影響が出ることです。次は運転手のけが、事故原因、現場の修理が必要かどうかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/car-strikes-train-bridge-suspending-line-for-over-an-hour-20260727-p60ith.html",
+          "title": "Car strikes train bridge, suspending line for over an hour"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/queensland/car-strikes-train-bridge-suspending-line-for-over-an-hour-20260727-p60ith.html",
+          "title": "Car strikes train bridge, suspending line for over an hour"
+        }
+      ]
+    },
+    {
+      "id": "tax-return-mistake",
+      "headline": "数百万人に申告時の1,000豪ドルのミス回避を警告",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T00:23:21.301Z",
+      "voiceScript": "ATO は今の申告シーズン、よくある控除の記入ミスで 1,000 豪ドル前後の差が出るとして、数百万人に注意を呼びかけています。重要なのは金額そのものより、領収書を残し、対象条件を確認し、私的支出を控除にしないことです。家計にとっては、還付額や追加納税額がそのまま変わり得ます。次は税務当局の追加説明と、確認作業がどれだけ厳しくなるかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/tax-return-dos-and-donts-mistakes-ato-warning-1000-deduction-blunder-20260727-p60iso.html",
+          "title": "Millions of Aussies warned to avoid making $1000 mistake on their tax return"
+        }
+      ]
+    },
+    {
+      "id": "myer-flat-sales",
+      "headline": "Myerは消費圧迫で売上横ばいを見込む",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T00:15:00Z",
+      "voiceScript": "Myer は生活費の圧迫が続く中で売上はおおむね横ばいになる見通しだとし、想定以上の値引きや販促を進めています。重要なのは百貨店 1 社の話ではなく、家計の余裕がまだ薄く、小売がより深い割引で販売を守っている点です。市場にとっては、消費の弱さを測る指標になります。次は年末商戦と利益率への圧力です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/retail/myer-warns-of-volatile-and-challenging-conditions-flat-sales-20260727-p60irx",
+          "title": "Myer (MYR ASX) expects flat revenue as cost of living pressures weigh on consumer spending"
+        }
+      ]
+    },
     {
       "id": "flat-pack-tiny-home-misleading",
       "headline": "「週末DIY」の平屋キット表示が消費者を誤解させると指摘",
@@ -135,25 +200,25 @@
       ]
     },
     {
-      "id": "ausalert-test",
-      "headline": "AusAlert试鸣引发手机设置提醒",
+      "id": "pauline-hanson-verdict",
+      "headline": "ポーリン・ハンソン氏の人種差別控訴判決が間もなく",
       "sourceCount": 2,
-      "publishedAt": "2026-07-26T23:09:42Z",
-      "voiceScript": "澳大利亚新的 AusAlert 紧急警报系统正在进行首次全国试鸣，手机会响起 10 秒警报。The Guardian Australia 说这次试鸣的重点是让人知道会在什么时间响起、为什么会响起，7NEWS 则把焦点放在新系统实际会怎样运作。真正重要的是，这套系统能否在山火、洪水和其他紧急情况中可靠触达更多人。下一步就是周一的试鸣，以及公众和官方随后给出的反馈。",
+      "publishedAt": "2026-07-26T23:50:07.156Z",
+      "voiceScript": "ポーリン・ハンソン氏は、人種差別訴訟の控訴が認められるかどうか、まもなく判決を知ることになります。焦点は一つの投稿だけでなく、その結果がワン・ネーション党と政治家の発言の線引きにどう響くかです。9News は判決の時期と投稿そのものを重視し、AAP はハンソン氏の最近の追い風への新たなリスクとして描いています。次は判決、その後の政治的な波紋です。",
       "differences": [
-        "The Guardian Australia：更像实用说明，解释何时响、为什么响、读者该注意什么。",
-        "7NEWS：更关注试鸣本身的运行方式和公众会听到什么。"
+        "9News：判決の時期と投稿そのものを重視。",
+        "AAP News：ハンソン氏の最近の勢いに対する政治的リスクとして描く。"
       ],
       "links": [
         {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/22/ausalert-test-sound-national-alert-emergency-warning-system-date",
-          "title": "AusAlert test: what time will national emergency warning siren sound on phones in Australia today? Here’s what to know"
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/pauline-hanson-racial-discrimination-court-case-appeal-verdict-mehreen-faruqi-20260727-p60isj.html",
+          "title": "Pauline Hanson hours away from finding out if social media post was indeed racist"
         },
         {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/new-ausalert-system-to-blast-out-emergency-warning-siren-c-22631794",
-          "title": "New AusAlert system to blast out emergency warning siren"
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/racism-verdict-latest-danger-to-pauline-hansons-surge",
+          "title": "Racism verdict latest danger to Pauline Hanson's surge"
         }
       ]
     },
@@ -213,7 +278,7 @@
     {
       "id": "allan-leadership-crisis",
       "headline": "雅辛塔·艾伦面临新的领导危机",
-      "sourceCount": 3,
+      "sourceCount": 5,
       "publishedAt": "2026-07-26T21:45:55Z",
       "voiceScript": "维州工党内部的压力正在公开化，雅辛塔·艾伦被推到风口浪尖。州内几位关键人物已经开了危机会议，眼下争论的不只是她能不能撑住，而是这场内斗会不会拖到下次选举前继续发酵。接下来要看党内数字是否继续变化，还是这场危机会先被按住。",
       "differences": [
@@ -236,6 +301,16 @@
           "source": "9News",
           "url": "https://www.9news.com.au/australia-news/vic/victorian-premier-jacinta-allan-leadership-challenge-expected-within-days-20260727-p60ir8.html",
           "title": "Victorian premier expected to face leadership challenge within days"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/premier-faces-leadership-challenge-as-election-looms",
+          "title": "Defiant premier to fight for leadership if challenged"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/another-delegation-of-labor-mps-to-tell-allan-to-resign-20260727-p60iq2",
+          "title": "Victoria’s Premier Jacinta Allan faces resignation demand from Labor MPs ahead of November election"
         }
       ]
     },
@@ -257,7 +332,7 @@
     {
       "id": "albanese-dinner-scrutiny",
       "headline": "阿尔巴尼斯因富豪晚宴再受审视",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-07-26T21:10:28Z",
       "voiceScript": "安东尼·阿尔巴尼斯又因为 Point Piper 的一场富豪晚宴受到追问。ABC 的实时报道在跟进政府的当场回应，news.com.au 则把焦点放在总理那句“我参加很多晚宴”的解释上。关键不是一顿饭本身，而是它怎样变成了接触权力、透明度和政治形象的测试。接下来要看这条新闻是很快淡去，还是继续给政府带来压力。",
       "differences": [
@@ -274,6 +349,11 @@
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/politics/i-attend-lots-of-dinners-prime-minister-anthony-albanese-quiz-over-point-piper-dinner/news-story/8e3b17291d8ae6becbae6377c2c0c41d",
           "title": "‘I attend lots of dinners’: Albo squirms"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/pm-has-questions-to-answer-about-point-piper-dinner-say-coalition-20260727-p60isi",
+          "title": "Anthony Albanese dinner controversy continues as opposition demands answers"
         }
       ]
     },
@@ -323,6 +403,21 @@
       ]
     },
     {
+      "id": "ato-call-centre",
+      "headline": "ATOのコールセンター業務が本部に戻る",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-26T19:30:00+00:00",
+      "voiceScript": "連邦労働党は、ATO のコールセンター業務の一部を本部に戻す方針を支持しています。論点は人員配置だけではなく、サービス品質、雇用の安定、そして政府がどこまで業務を省内に戻すのかです。納税者にとっては、誰が電話に出るのか、教育が統一されているのか、そして回答がどれだけ早いのかに関わります。次は実施時期です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9317720/labor-national-conference-alp-commits-to-aps-call-centre-change/",
+          "title": "'Should be done by ATO employees': call centre jobs come back to headquarters"
+        }
+      ]
+    },
+    {
       "id": "kumanjayi-white-court-action",
       "headline": "クマンジャイ・ホワイトさんの家族が不起訴判断の説明を求めて提訴",
       "sourceCount": 1,
@@ -340,7 +435,7 @@
     {
       "id": "nsw-icac-powerbroker-uk",
       "headline": "新州自由党前权力掮客身在英国，Icac指控听证受关注",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-07-26T15:00:17Z",
       "voiceScript": "新南威尔士自由党一名前权力掮客因 Icac 指控成为焦点，但他目前身在英国，预计不会亲自出庭。报道的关键在于，调查的时间表和执行方式可能因此受到影响。对反腐调查来说，缺席不一定意味着结案，反而可能拖长程序。下一步要看 Icac 是否还能继续推进证词和听证安排。",
       "differences": [],
@@ -349,6 +444,11 @@
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/27/former-nsw-liberal-powerbroker-at-heart-of-icac-allegations-now-living-in-uk-and-not-expected-to-appear-ntwnfb",
           "title": "Former NSW Liberal powerbroker at heart of Icac allegations now living in UK and not expected to appear"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/watchdog-probes-tainted-donations-in-blow-to-liberals",
+          "title": "Watchdog probes tainted donations in blow to Liberals"
         }
       ]
     },
@@ -370,28 +470,10 @@
     {
       "id": "census-explained",
       "headline": "2026 年人口普查重点一次看懂",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-07-26T12:39:35Z",
       "voiceScript": "澳洲 2026 年人口普查越来越近，关键填写日是 8 月 11 日，不回应的人也可能面临罚款。人口普查之所以重要，是因为它会影响学校、道路、医疗等公共服务和资金分配，所以问题不只是怎么填表，更是为什么这份数据会影响每个人。接下来要看公众参与度如何，大家是把它当普通表格，还是当成一项公民义务。",
       "differences": [],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171",
-          "title": "2026 Census explained: Key date, how to fill it out, who needs to take part and potential fines"
-        }
-      ]
-    },
-    {
-      "id": "census-key-dates",
-      "headline": "2026年人口普查提醒关键日期和罚则",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T12:39:35Z",
-      "voiceScript": "澳大利亚 2026 年人口普查再次成为焦点，SBS 和 7NEWS 都在提醒家庭该做什么、什么时候做。关键日期是 8 月 11 日，重点包括参与方式、收集哪些信息，以及错过期限可能面临的罚款。它的重要性在于，普查数据会影响住房、交通和医疗等领域的拨款与规划。接下来就看提醒活动能否把家庭的动作提早。",
-      "differences": [
-        "SBS：更偏解释性和政策面，强调普查为什么重要。",
-        "7NEWS：更偏操作指南，强调关键日期、填写步骤和罚款风险。"
-      ],
       "links": [
         {
           "source": "7NEWS",
@@ -471,17 +553,22 @@
       ]
     },
     {
-      "id": "albanese-fuel-prices",
-      "headline": "阿尔巴尼斯释放燃油新动作，汽油价格或继续上涨",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-26T02:52:29Z",
-      "voiceScript": "阿尔巴尼斯释放出新的燃油措施信号，但多家媒体都在警告，汽油价格短期内可能继续上升。关键不只是表态，而是油价和通胀传导会不会再次挤压家庭预算。这个问题之所以重要，是因为它直接碰到生活成本和联邦政府的经济压力。接下来要看官方会不会公布更具体的补贴、税费或供应链措施。",
+      "id": "qld-road-deaths",
+      "headline": "クイーンズランド州南東部の2件の事故で3人死亡",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T02:01:53.793Z",
+      "voiceScript": "クイーンズランド州南東部では同じ夜に2件の事故が起き、3人が死亡し、さらに2人が重傷を負いました。焦点は、速度や疲労、道路状況が関係していたのか、そして警察がどれだけ早く事故の経緯を固められるかです。地域にとっては道路安全の問題がまだ重いことを示す出来事です。次は捜査の進展と、必要なら安全対策の追加です。",
       "differences": [],
       "links": [
         {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/anthony-albanese-flags-new-fuel-announcements-as-petrol-prices-tipped-to-spike-further/vlszrc9rb",
-          "title": "Albanese flags new fuel announcements as petrol prices tipped to spike further"
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/three-killed-in-horror-night-on-south-east-queensland-roads-20260726-p60ima.html",
+          "title": "Three killed in horror night on south-east Queensland roads"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/three-dead-in-two-crashes-across-south-east-overnight-20260726-p60ils.html",
+          "title": "Three dead in two crashes across south-east overnight"
         }
       ]
     },
@@ -503,7 +590,7 @@
     {
       "id": "ausalert-national-test",
       "headline": "全国 AusAlert 测试将触发手机警报",
-      "sourceCount": 5,
+      "sourceCount": 7,
       "publishedAt": "2026-07-26T09:00:00+10:00",
       "voiceScript": "联邦政府今天把全国 AusAlert 警报系统拿来做第一次全国测试，手机、平板和部分手表都会在设定时间响起 10 秒警报。官方想验证这种基于蜂窝广播的新系统，能不能比旧短信更快、更稳定地把山火、洪水和其他紧急信息送到指定区域。争议点在于，它会覆盖静音模式，也可能让藏机的家暴受害者暴露位置。接下来要看这次测试的覆盖率、误报率和公众对安全提醒的接受度。",
       "differences": [
@@ -538,6 +625,16 @@
           "source": "The Sydney Morning Herald",
           "url": "https://www.smh.com.au/national/ausalert-test-coming-today-20260727-p60iq6.html",
           "title": "AusAlert test coming today"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/ausalert-national-alert-test-sound-emergency-warning-system-time-date",
+          "title": "AusAlert test: what time will national emergency warning siren sound on phones in Australia today? Here’s what to know"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/new-ausalert-system-to-blast-out-emergency-warning-siren-c-22631794",
+          "title": "New emergency warning system to blast out national siren"
         }
       ]
     },
@@ -574,7 +671,7 @@
     {
       "id": "cluster-3",
       "headline": "西澳 24 小时内 5 人死于道路事故",
-      "sourceCount": 3,
+      "sourceCount": 1,
       "publishedAt": "2026-07-25T06:21:30.000Z",
       "voiceScript": "西澳不到 24 小时里有 5 人在不同车祸中死亡，道路死亡人数再次拉响警报。事故分布在多个地点，说明问题不是单一路段，而是超速、疲劳驾驶和乡村道路风险同时存在。接下来要看州政府会不会加码执法和安全宣传，还是继续把重点放在驾驶员自律上。",
       "differences": [],
@@ -583,16 +680,6 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-25/five-people-die-in-24-hours-on-wa-roads/106958246",
           "title": "Drivers urged to play their part as five people die on WA roads in 24 hours"
-        },
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/qld/three-killed-in-horror-night-on-south-east-queensland-roads-20260726-p60ima.html",
-          "title": "Three killed in horror night on south-east Queensland roads"
-        },
-        {
-          "source": "Brisbane Times",
-          "url": "https://www.brisbanetimes.com.au/national/queensland/three-dead-in-two-crashes-across-south-east-overnight-20260726-p60ils.html",
-          "title": "Three dead in two crashes across south-east overnight"
         }
       ]
     },
@@ -897,6 +984,21 @@
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/23/personal-and-banking-details-among-customer-data-stolen-in-origin-energy-hack",
           "title": "Personal and banking details among customer data stolen in Origin Energy hack"
+        }
+      ]
+    },
+    {
+      "id": "powerball-jackpot",
+      "headline": "クイーンズランド州の宝くじが4,000万豪ドルのPowerballに当選",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-23T10:46:16.000Z",
+      "voiceScript": "クイーンズランド州のPowerballチケットが 4,000 万豪ドルの大当たりを出しました。注目点は、誰が持っているか、当選者が名乗り出るか、そしてこの額が普通の家庭をどう変えるかです。次は受け取り手続きとプライバシーの扱いです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/powerball-ticket-sold-in-queensland-scores-player-entire-40-million-division-one-prize-c-22620485",
+          "title": "Winner of blockbuster $40m Powerball jackpot to ‘enjoy it to the full’"
         }
       ]
     },
