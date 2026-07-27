@@ -213,6 +213,16 @@ function newsSourceUrl(language) {
   return NEWS_SOURCE_TEMPLATE;
 }
 
+async function fetchNewsPayload(language) {
+  const url = newsSourceUrl(language);
+  let response = await fetch(cacheBustedUrl(url), { cache: "no-store" });
+  if (!response.ok && url !== "./news.json") {
+    response = await fetch(cacheBustedUrl("./news.json"), { cache: "no-store" });
+  }
+  if (!response.ok) throw new Error("news.json not found");
+  return response.json();
+}
+
 function cacheBustedUrl(url) {
   const separator = url.includes("?") ? "&" : "?";
   return `${url}${separator}t=${Date.now()}`;
@@ -356,10 +366,14 @@ function App() {
   const [online, setOnline] = useState(navigator.onLine);
   const [toolsOpen, setToolsOpen] = useState(false);
   const [language, setLanguage] = useState(initialLanguage);
+  const [articleLanguage, setArticleLanguage] = useState(null);
+  const [languagePayloads, setLanguagePayloads] = useState({});
   const [speakingId, setSpeakingId] = useState(null);
   const [speechVoices, setSpeechVoices] = useState([]);
 
   const labels = I18N[language];
+  const selectedLanguage = articleLanguage || language;
+  const languageControlValue = activeId ? selectedLanguage : language;
   const activeNewsSourceUrl = newsSourceUrl(language);
   const canSpeak = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
 
@@ -367,13 +381,9 @@ function App() {
     setLoading(true);
     setError("");
     try {
-      let response = await fetch(cacheBustedUrl(activeNewsSourceUrl), { cache: "no-store" });
-      if (!response.ok && activeNewsSourceUrl !== "./news.json") {
-        response = await fetch(cacheBustedUrl("./news.json"), { cache: "no-store" });
-      }
-      if (!response.ok) throw new Error("news.json not found");
-      const payload = await response.json();
+      const payload = await fetchNewsPayload(language);
       setData(payload);
+      setLanguagePayloads((current) => ({ ...current, [language]: payload }));
       setActiveId((current) => current || payload.clusters?.[0]?.id);
     } catch {
       setError(labels.dataError);
@@ -384,6 +394,23 @@ function App() {
   useEffect(() => {
     loadNews();
   }, [language]);
+
+  useEffect(() => {
+    if (!articleLanguage || articleLanguage === language || languagePayloads[articleLanguage]) return;
+
+    let cancelled = false;
+    fetchNewsPayload(articleLanguage)
+      .then((payload) => {
+        if (!cancelled) {
+          setLanguagePayloads((current) => ({ ...current, [articleLanguage]: payload }));
+        }
+      })
+      .catch(() => {});
+
+    return () => {
+      cancelled = true;
+    };
+  }, [articleLanguage, language, languagePayloads]);
 
   useEffect(() => {
     window.localStorage.setItem("brief-language", language);
@@ -456,11 +483,11 @@ function App() {
 
     window.speechSynthesis.cancel();
 
-    const locale = speechLocale(language);
+    const locale = speechLocale(cluster.language || language);
     const utterance = new SpeechSynthesisUtterance(`${cluster.headline}. ${cluster.voiceScript}`);
     utterance.lang = locale;
-    utterance.rate = language === "en" ? 1 : 0.95;
-    utterance.voice = pickSpeechVoice(language, locale, speechVoices);
+    utterance.rate = (cluster.language || language) === "en" ? 1 : 0.95;
+    utterance.voice = pickSpeechVoice(cluster.language || language, locale, speechVoices);
     utterance.onend = () => setSpeakingId(null);
     utterance.onerror = () => setSpeakingId(null);
 
@@ -480,7 +507,23 @@ function App() {
   }, [data, mode, query]);
 
   const active = clusters.find((cluster) => cluster.id === activeId) || clusters[0];
-  const activeDifferences = uniqueDifferences(active);
+
+  function localizedCluster(cluster, targetLanguage = selectedLanguage) {
+    const translated = languagePayloads[targetLanguage]?.clusters?.find((item) => item.id === cluster?.id);
+    return translated ? { ...translated, language: targetLanguage } : { ...cluster, language };
+  }
+
+  const localizedActive = active ? localizedCluster(active) : null;
+  const localizedActiveDifferences = uniqueDifferences(localizedActive);
+
+  function handleLanguageChange(nextLanguage) {
+    if (activeId) {
+      setArticleLanguage(nextLanguage === language ? null : nextLanguage);
+      return;
+    }
+    setLanguage(nextLanguage);
+    setArticleLanguage(null);
+  }
 
   useEffect(() => {
     if (activeId && clusters.length && !clusters.some((cluster) => cluster.id === activeId)) {
@@ -503,8 +546,8 @@ function App() {
           </div>
           <select
             className="language-select"
-            value={language}
-            onChange={(event) => setLanguage(event.target.value)}
+            value={languageControlValue}
+            onChange={(event) => handleLanguageChange(event.target.value)}
             aria-label="Language"
           >
             {LANGUAGES.map((item) => (
@@ -600,13 +643,17 @@ function App() {
         {error && <div className="data-error">{error}</div>}
 
         <div className="cluster-list">
-          {clusters.map((cluster) => (
-            <article
-              className={`cluster-card ${cluster.id === active?.id ? "selected" : ""} ${
-                cluster.id === expandedId ? "expanded" : ""
-              }`}
-              key={cluster.id}
-            >
+          {clusters.map((cluster) => {
+            const isCurrent = cluster.id === active?.id || cluster.id === expandedId;
+            const displayCluster = isCurrent ? localizedCluster(cluster) : { ...cluster, language };
+
+            return (
+              <article
+                className={`cluster-card ${cluster.id === active?.id ? "selected" : ""} ${
+                  cluster.id === expandedId ? "expanded" : ""
+                }`}
+                key={cluster.id}
+              >
               <div className="cluster-card-content">
                 <div className="cluster-card-meta">
                   <span>
@@ -615,7 +662,7 @@ function App() {
                   <span>{labels.oneMinute}</span>
                   <button
                     className={`icon-button compact card-speak-button ${speakingId === cluster.id ? "active" : ""}`}
-                    onClick={() => readCluster(cluster)}
+                    onClick={() => readCluster(displayCluster)}
                     disabled={!canSpeak}
                     title={speakingId === cluster.id ? labels.stopReading : labels.readAloud}
                     aria-label={speakingId === cluster.id ? labels.stopReading : labels.readAloud}
@@ -629,11 +676,11 @@ function App() {
                   className="cluster-card-button"
                   onClick={() => {
                     setActiveId(cluster.id);
-                    setExpandedId((current) => (current === cluster.id ? null : cluster.id));
-                  }}
-                >
-                  <h3>{cluster.headline}</h3>
-                  <p>{cluster.voiceScript}</p>
+                  setExpandedId((current) => (current === cluster.id ? null : cluster.id));
+                }}
+              >
+                  <h3>{displayCluster.headline}</h3>
+                  <p>{displayCluster.voiceScript}</p>
                 </button>
               </div>
 
@@ -644,7 +691,7 @@ function App() {
                       <span>{labels.voiceScript}</span>
                       <button
                         className={`icon-button compact ${speakingId === cluster.id ? "active" : ""}`}
-                        onClick={() => readCluster(cluster)}
+                        onClick={() => readCluster(displayCluster)}
                         disabled={!canSpeak}
                         title={speakingId === cluster.id ? labels.stopReading : labels.readAloud}
                         aria-label={speakingId === cluster.id ? labels.stopReading : labels.readAloud}
@@ -653,14 +700,14 @@ function App() {
                         <Volume2 size={17} />
                       </button>
                     </div>
-                    <p>{cluster.voiceScript}</p>
+                    <p>{displayCluster.voiceScript}</p>
                   </div>
 
-                  {uniqueDifferences(cluster).length > 0 && (
+                  {uniqueDifferences(displayCluster).length > 0 && (
                     <div className="mobile-section">
                       <h4>{labels.sourceDifferences}</h4>
                       <div className="difference-list">
-                        {uniqueDifferences(cluster).map((difference) => (
+                        {uniqueDifferences(displayCluster).map((difference) => (
                           <p key={difference}>{difference}</p>
                         ))}
                       </div>
@@ -670,7 +717,7 @@ function App() {
                   <div className="mobile-section">
                     <h4>{labels.originalLinks}</h4>
                     <div className="link-list">
-                      {cluster.links.map((link) => (
+                      {displayCluster.links.map((link) => (
                         <a
                           href={link.url}
                           target="_blank"
@@ -689,40 +736,41 @@ function App() {
                 </div>
               )}
             </article>
-          ))}
+            );
+          })}
         </div>
       </section>
 
       <section className="detail-pane">
-        {active ? (
+        {localizedActive ? (
           <>
             <div className="detail-top">
               <div>
                 <span className="eyebrow">{labels.voiceScript}</span>
-                <h2>{active.headline}</h2>
+                <h2>{localizedActive.headline}</h2>
               </div>
               <button
-                className={`icon-button ${speakingId === active.id ? "active" : ""}`}
-                onClick={() => readCluster(active)}
+                className={`icon-button ${speakingId === localizedActive.id ? "active" : ""}`}
+                onClick={() => readCluster(localizedActive)}
                 disabled={!canSpeak}
-                title={speakingId === active.id ? labels.stopReading : labels.readAloud}
-                aria-label={speakingId === active.id ? labels.stopReading : labels.readAloud}
-                aria-pressed={speakingId === active.id}
+                title={speakingId === localizedActive.id ? labels.stopReading : labels.readAloud}
+                aria-label={speakingId === localizedActive.id ? labels.stopReading : labels.readAloud}
+                aria-pressed={speakingId === localizedActive.id}
               >
                 <Volume2 size={19} />
               </button>
             </div>
 
             <article className="script-panel">
-              <p>{active.voiceScript}</p>
+              <p>{localizedActive.voiceScript}</p>
             </article>
 
-            <div className={`detail-grid ${activeDifferences.length === 0 ? "single-column" : ""}`}>
-              {activeDifferences.length > 0 && (
+            <div className={`detail-grid ${localizedActiveDifferences.length === 0 ? "single-column" : ""}`}>
+              {localizedActiveDifferences.length > 0 && (
                 <section>
                   <h3>{labels.sourceDifferences}</h3>
                   <div className="difference-list">
-                    {activeDifferences.map((difference) => (
+                    {localizedActiveDifferences.map((difference) => (
                       <p key={difference}>{difference}</p>
                     ))}
                   </div>
@@ -732,7 +780,7 @@ function App() {
               <section>
                 <h3>{labels.originalLinks}</h3>
                 <div className="link-list">
-                  {active.links.map((link) => (
+                  {localizedActive.links.map((link) => (
                     <a href={link.url} target="_blank" rel="noreferrer" key={`${link.source}-${link.url}`}>
                       <SourceLogo name={link.source} url={link.url} />
                       <span>{link.source}</span>
