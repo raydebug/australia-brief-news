@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T07:05:40Z",
+  "updatedAt": "2026-07-27T08:20:02Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -7,21 +7,21 @@
       "name": "ABC News",
       "region": "National",
       "feed": "https://www.abc.net.au/news/feed/51120/rss.xml",
-      "tone": "public media"
+      "tone": "public broadcaster"
     },
     {
       "id": "sbs",
       "name": "SBS News",
       "region": "National",
       "feed": "https://www.sbs.com.au/news/feed",
-      "tone": "diverse community"
+      "tone": "multicultural service"
     },
     {
       "id": "guardian-au",
       "name": "The Guardian Australia",
       "region": "National",
       "feed": "https://www.theguardian.com/australia-news/rss",
-      "tone": "Analytical perspective"
+      "tone": "analytical angle"
     },
     {
       "id": "news-com-au",
@@ -116,9 +116,164 @@
     }
   ],
   "errors": [
-    "The Australian and Sky News Australia still do not expose stable public lists; the rest were filled from RSS, structured data, or official article pages."
+    "The Australian and Sky News Australia still do not expose stable public lists; the remaining priority sources were refreshed through RSS, structured data or official article pages."
   ],
   "clusters": [
+    {
+      "id": "ausalert-national-test",
+      "headline": "AusAlert test leaves some phones without the alert",
+      "sourceCount": 8,
+      "publishedAt": "2026-07-27T07:50:27Z",
+      "voiceScript": "Australia's nationwide AusAlert test finished with the federal government calling it a success overall, but many residents reported that they did not get the alert or received it too late. The system is meant to push emergency warnings faster to targeted areas during bushfires, floods and other fast-moving events; the tension is that it overrides silent mode and can also raise safety concerns for people fleeing domestic violence. The next step is to see how officials explain the missed alerts and whether they adjust coverage before full rollout.",
+      "differences": [
+        "ABC News: says the government still called the test a success even though many people said they missed the alert.",
+        "SBS News: focuses on the preparation guidance and the safety risks for domestic violence survivors.",
+        "7NEWS: highlights the live public reaction and reports that some devices never received the warning.",
+        "AAP News: frames it as a very successful national drill."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/ausalert-test-a-success-declares-minister/106963350",
+          "title": "Government calls AusAlert test a 'success' despite reports many missed alert"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/ausalert-emergency-warning-test-what-you-need-to-know-and-how-to-prepare/zghu8pk7o",
+          "title": "AusAlert emergency warning test: What you need to know and how to prepare"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/everything-you-need-to-know-about-ausalert-warning-alarm-test/news-story/dac4abc3a73dc2b0ca2c872cf5361f16",
+          "title": "Everything you need to know about the AusAlert warning alarm test"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://www.aap.com.au/news/new-ausalert-warning-system-to-blast-out-national-siren",
+          "title": "‘Very successful’: emergency alert exceeds expectations"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/emergency-alert-test-australia-what-to-expect-july-27-everything-to-know-20260709-p60dyd.html",
+          "title": "Siren alarm test to blare on phones across Australia today"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/ausalert-test-coming-today-20260727-p60iq6.html",
+          "title": "AusAlert test coming today"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/ausalert-national-alert-test-sound-emergency-warning-system-time-date",
+          "title": "AusAlert test: what time will national emergency warning siren sound on phones in Australia today? Here’s what to know"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/mixed-reaction-to-ausalert-emergency-message-system-as-test-fails-to-reach-people-c-22634152",
+          "title": "‘Nothing happened’: Aussies reveal mixed reaction to nationwide emergency alarm"
+        }
+      ]
+    },
+    {
+      "id": "nsw-icac-perrottet-brothers",
+      "headline": "NSW ICAC hearing probes sham payments and Liberal powerbrokers",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-27T07:42:17Z",
+      "voiceScript": "NSW's anti-corruption watchdog is still working through allegations around Liberal donations, phone records and political influence. The issue is no longer just one payment, but whether money, party organisation and planning approvals can be shown to form a traceable exchange. It matters because the findings could affect how people judge state politics, planning decisions and donation transparency. The next step is whether witness evidence, documents and call records can connect the dots.",
+      "differences": [
+        "ABC News: frames it as the opening of the ICAC probe and explains the process.",
+        "AAP News: stresses the tainted donations angle and the damage to the Liberals.",
+        "The Guardian Australia: focuses on the powerbroker, his UK whereabouts and whether he will appear.",
+        "Australian Financial Review: leads with the phone taps and alleged sham payments."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/what-to-expect-from-icac-probe-into-nsw-liberal-party/106955220",
+          "title": "NSW Liberals corruption investigation kicks-off. Here's what to expect"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/watchdog-probes-tainted-donations-in-blow-to-liberals",
+          "title": "Watchdog probes tainted donations in blow to Liberals"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/senior-politicians-supported-young-nsw-liberal-power-brokers-trying-to-shift-party-to-right-corruption-watchdog-hears-ntwnfb",
+          "title": "Senior politicians supported young NSW Liberal power brokers trying to shift party to right, corruption watchdog hears"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/former-nsw-liberal-powerbroker-at-heart-of-icac-allegations-now-living-in-uk-and-not-expected-to-appear-ntwnfb",
+          "title": "Former NSW Liberal powerbroker at heart of Icac allegations now living in UK and not expected to appear"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/phone-taps-and-sham-payments-to-liberals-in-icac-bombshell-hearing-20260726-p60iny",
+          "title": "Phone taps and 'sham' payments to Liberals in ICAC bombshell hearing"
+        }
+      ]
+    },
+    {
+      "id": "melbourne-partner-murder",
+      "headline": "Melbourne man faces court over alleged partner killing",
+      "voiceScript": "ABC reports that a man has faced court after being charged over the alleged killing of his partner in Clyde North. The case puts domestic violence, partner deaths and the criminal process back in focus, while also raising questions about how police reconstruct what happened. It matters because cases like this are not only about one trial; they are also about earlier risk recognition and victim protection. The next step is what evidence prosecutors put forward and how much more detail the court releases.",
+      "differences": [],
+      "publishedAt": "2026-07-27T07:41:29Z",
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/jorden-turney-charged-with-murdering-partner-clyde-north/106962892",
+          "title": "Man in court charged with murdering partner in Melbourne's south-east"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "food-fraud-supermarket-labels",
+      "headline": "Supermarket label claims come under scrutiny",
+      "voiceScript": "ABC's investigation says some everyday supermarket staples may not match what the label claims. The bigger issue is trust: shoppers rely on packaging for origin, ingredients and quality, while regulators have to decide whether the problem is isolated or broader. The story matters because it goes to consumer protection and food standards in Australia. The next step is to see how retailers and suppliers respond and whether more testing follows.",
+      "differences": [],
+      "publishedAt": "2026-07-27T07:18:51Z",
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/food-fraud-investigation-reveals-truth-behind-labels/106960116",
+          "title": "Food fraud investigation finds supermarket staples may not be what they claim"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "snowy-2-worker-drill",
+      "headline": "Snowy 2.0 worker says he was told to use broken drill",
+      "voiceScript": "ABC reports that a worker on the Snowy 2.0 tunnelling project says he was told to use a broken drill and was struck by the same equipment. The case pushes the multibillion-dollar project back into questions about site safety, contractor management and regulatory oversight. It matters because when a major infrastructure job runs into safety allegations, the impact reaches costs, timelines and public trust. The next step is how the court handles the claim and whether the project side responds in more detail.",
+      "differences": [],
+      "publishedAt": "2026-07-27T07:09:53Z",
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/snowy-hydro-webuild-tunnelling-incident-indiustrial-court-nsw/106893760",
+          "title": "Snowy 2.0 worker ordered to use broken drill that hit him, court hears"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "qld-river-to-the-sea-challenge",
+      "headline": "Queensland ban on “from the river to the sea” faces High Court challenge",
+      "voiceScript": "Queensland's ban on the phrase “from the river to the sea” is back in court, with seven protesters launching a High Court challenge that says the law directly limits speech. The fight is over whether the state is using anti-hate measures or crossing into content-based censorship and protest restrictions. It matters because the outcome could shape how Queensland handles demonstrations, hate speech and political expression in future. The next step is whether the High Court accepts the case and whether the law is narrowed or struck down.",
+      "differences": [],
+      "publishedAt": "2026-07-27T06:57:05Z",
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/protesters-launch-high-court-challenge-to-queensland-ban-on-from-the-river-to-the-sea-ntwnfb",
+          "title": "Protesters launch high court challenge to Queensland ban on ‘from the river to the sea’"
+        }
+      ],
+      "sourceCount": 1
+    },
     {
       "id": "qld-wife-baby-court-hearing",
       "headline": "Queensland man faces court over alleged wife and baby murder",
@@ -191,31 +346,6 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/works-begins-hobart-mac-point-afl-stadium/106961410",
           "title": "'The diggers have arrived': Works begin at Hobart's $1.13b stadium site"
-        }
-      ]
-    },
-    {
-      "id": "nsw-icac-perrottet-brothers",
-      "headline": "NSW ICAC probes Perrottet brothers and fugitive developer",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T02:44:00Z",
-      "voiceScript": "NSW anti-corruption investigators are examining allegations involving fugitive developer Jean Nassif, the brothers of former premier Dominic Perrottet, political donations and possible influence over party machinery and planning outcomes. The core question is whether money, relationships and decisions can be connected by evidence rather than suspicion. This matters because it goes to public confidence in state politics and development approvals. The next point to watch is whether witness evidence and documents establish a clear chain between contact, funding and results.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/what-to-expect-from-icac-probe-into-nsw-liberal-party/106955220",
-          "title": "NSW Liberals corruption investigation kicks-off. Here's what to expect"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/watchdog-probes-tainted-donations-in-blow-to-liberals",
-          "title": "Watchdog probes tainted donations in blow to Liberals"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/former-nsw-liberal-powerbroker-at-heart-of-icac-allegations-now-living-in-uk-and-not-expected-to-appear-ntwnfb",
-          "title": "Former NSW Liberal powerbroker at heart of Icac allegations now living in UK and not expected to appear"
         }
       ]
     },
@@ -611,11 +741,14 @@
     },
     {
       "id": "census-explained",
-      "headline": "2026 Census explained",
+      "headline": "2026 Census: who must take part and what is at stake",
       "sourceCount": 2,
       "publishedAt": "2026-07-26T12:39:35Z",
-      "voiceScript": "Australia's 2026 Census is getting closer, with August 11 the key form date and penalties possible for people who do not respond. It matters because the results shape schools, roads, health services and funding allocations. So the issue is not just how to fill out a form, but why the data affects almost every household. The next measure is public participation: do people treat it like another form, or as a civic responsibility?",
-      "differences": [],
+      "voiceScript": "The 2026 Census is due on 11 August, and officials say most people living in Australia must complete it, including some temporary visa holders. The key questions are the deadline, possible fines and how the data will be used to allocate schools, health services and other resources. The next thing to watch is whether reminders lift the response rate, especially among migrant households and people in remote areas.",
+      "differences": [
+        "7NEWS: spells out the key date, how to complete it and the potential fines.",
+        "SBS News: highlights which temporary visa holders must participate and why the count matters."
+      ],
       "links": [
         {
           "source": "7NEWS",
@@ -721,56 +854,6 @@
           "source": "The Age",
           "url": "https://www.theage.com.au/national/victoria/former-chief-of-collapsed-grocon-building-empire-declares-bankruptcy-20260726-p60ily.html",
           "title": "Daniel Grollo declared bankrupt, New York apartment forfeited as investigation flagged"
-        }
-      ]
-    },
-    {
-      "id": "ausalert-national-test",
-      "headline": "National AusAlert test set to trigger phone warnings",
-      "sourceCount": 8,
-      "publishedAt": "2026-07-26T09:00:00+10:00",
-      "voiceScript": "The federal government is using today's national AusAlert exercise as the first full test of the system, with phones, tablets and some watches set to sound a 10-second warning. Officials want to check whether the new cell-broadcast system can deliver bushfire, flood and other emergency messages faster and more reliably than older SMS alerts. The controversy is that it will sound even in silent mode and could expose the location of domestic violence survivors who are hiding phones. The next step is to see the coverage, any false alarms and how the public responds to the safety advice.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/what-to-know-about-ausalert-emergency-warning-test/106919574",
-          "title": "Get ready for the AusAlert emergency warning test"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/ausalert-emergency-warning-test-what-you-need-to-know-and-how-to-prepare/zghu8pk7o",
-          "title": "AusAlert emergency warning test: What you need to know and how to prepare"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/everything-you-need-to-know-about-ausalert-warning-alarm-test/news-story/dac4abc3a73dc2b0ca2c872cf5361f16",
-          "title": "Everything you need to know about the AusAlert warning alarm test"
-        },
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/emergency-alert-test-australia-what-to-expect-july-27-everything-to-know-20260709-p60dyd.html",
-          "title": "Siren alarm test to blare on phones across Australia today"
-        },
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/ausalert-test-coming-today-20260727-p60iq6.html",
-          "title": "AusAlert test coming today"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/ausalert-national-alert-test-sound-emergency-warning-system-time-date",
-          "title": "AusAlert test: what time will national emergency warning siren sound on phones in Australia today? Here’s what to know"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/new-ausalert-system-to-blast-out-emergency-warning-siren-c-22631794",
-          "title": "New emergency warning system to blast out national siren"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://www.aap.com.au/news/new-ausalert-warning-system-to-blast-out-national-siren",
-          "title": "Fresh family violence warning before phone siren alert"
         }
       ]
     },

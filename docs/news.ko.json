@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T07:05:40Z",
+  "updatedAt": "2026-07-27T08:20:02Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -7,42 +7,42 @@
       "name": "ABC News",
       "region": "National",
       "feed": "https://www.abc.net.au/news/feed/51120/rss.xml",
-      "tone": "대중 매체"
+      "tone": "공영 미디어"
     },
     {
       "id": "sbs",
       "name": "SBS News",
       "region": "National",
       "feed": "https://www.sbs.com.au/news/feed",
-      "tone": "다양한 커뮤니티"
+      "tone": "다문화 서비스"
     },
     {
       "id": "guardian-au",
       "name": "The Guardian Australia",
       "region": "National",
       "feed": "https://www.theguardian.com/australia-news/rss",
-      "tone": "분석적 관점"
+      "tone": "분석 관점"
     },
     {
       "id": "news-com-au",
       "name": "news.com.au",
       "region": "National",
       "feed": "https://www.news.com.au/content-feeds/latest-news-rss/",
-      "tone": "상업 주류"
+      "tone": "상업계 주류"
     },
     {
       "id": "the-australian",
       "name": "The Australian",
       "region": "National",
       "feed": "https://www.theaustralian.com.au/",
-      "tone": "전국 브로드시트"
+      "tone": "전국 종합지"
     },
     {
       "id": "yahoo-au",
       "name": "Yahoo News Australia",
       "region": "National",
       "feed": "https://au.news.yahoo.com/",
-      "tone": "종합적인 주류"
+      "tone": "주류 매체 집계형"
     },
     {
       "id": "afr",
@@ -77,48 +77,203 @@
       "name": "The Sydney Morning Herald",
       "region": "NSW",
       "feed": "https://www.smh.com.au/national",
-      "tone": "지하철 마스트헤드"
+      "tone": "대도시 일간지"
     },
     {
       "id": "the-age",
       "name": "The Age",
       "region": "Victoria",
       "feed": "https://www.theage.com.au/national/victoria",
-      "tone": "지하철 마스트헤드"
+      "tone": "대도시 일간지"
     },
     {
       "id": "brisbane-times",
       "name": "Brisbane Times",
       "region": "Queensland",
       "feed": "https://www.brisbanetimes.com.au/national/queensland",
-      "tone": "지하철 마스트헤드"
+      "tone": "대도시 일간지"
     },
     {
       "id": "watoday",
       "name": "WAtoday",
       "region": "Western Australia",
       "feed": "https://www.watoday.com.au/national/western-australia",
-      "tone": "지하철 마스트헤드"
+      "tone": "대도시 일간지"
     },
     {
       "id": "canberra-times",
       "name": "The Canberra Times",
       "region": "ACT",
       "feed": "https://www.canberratimes.com.au/news/latest-news/",
-      "tone": "지역 마스트헤드"
+      "tone": "지역 일간지"
     },
     {
       "id": "aap",
       "name": "AAP",
       "region": "National",
       "feed": "https://www.aap.com.au/news/",
-      "tone": "유선 서비스"
+      "tone": "통신사"
     }
   ],
   "errors": [
-    "The Australian과 Sky News Australia는 아직 안정적으로 파싱 가능한 공개 목록이 없어, 나머지는 RSS·구조화 데이터·공식 기사 페이지로 보완했다."
+    "The Australian과 Sky News Australia는 아직 안정적으로 파싱 가능한 공개 목록을 제공하지 않습니다. 나머지 주요 출처는 RSS, 구조화 데이터, 공식 기사 페이지로 보완했습니다."
   ],
   "clusters": [
+    {
+      "id": "ausalert-national-test",
+      "headline": "AusAlert 시험 뒤 일부 휴대전화에 경보가 안 갔다",
+      "sourceCount": 8,
+      "publishedAt": "2026-07-27T07:50:27Z",
+      "voiceScript": "전국에서 열린 AusAlert 시험 뒤 연방정부는 전체적으로는 성공했다고 설명했지만, 경보를 받지 못했거나 너무 늦게 받았다는 반응도 적지 않았습니다. 이 시스템은 산불이나 홍수 같은 긴급 정보를 정해진 지역에 빨리 보내기 위한 것입니다. 다만 무음 모드에서도 울릴 수 있고, 가정폭력 피해자의 안전과도 연결돼 있어 논란이 있습니다. 앞으로는 왜 일부에 전달되지 않았는지 설명과, 본격 운영 전 보완이 쟁점입니다.",
+      "differences": [
+        "ABC News: 정부가 성공이라고 평가했지만 경보를 놓친 사람이 많았다는 점을 강조.",
+        "SBS News: 준비 방법과 가정폭력 피해자 안전 문제를 더 부각.",
+        "7NEWS: 현장 반응과 실제로 경보를 못 받은 사례에 주목.",
+        "AAP News: 매우 성공적인 전국 훈련으로 묘사."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/ausalert-test-a-success-declares-minister/106963350",
+          "title": "Government calls AusAlert test a 'success' despite reports many missed alert"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/ausalert-emergency-warning-test-what-you-need-to-know-and-how-to-prepare/zghu8pk7o",
+          "title": "AusAlert emergency warning test: What you need to know and how to prepare"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/everything-you-need-to-know-about-ausalert-warning-alarm-test/news-story/dac4abc3a73dc2b0ca2c872cf5361f16",
+          "title": "Everything you need to know about the AusAlert warning alarm test"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://www.aap.com.au/news/new-ausalert-warning-system-to-blast-out-national-siren",
+          "title": "‘Very successful’: emergency alert exceeds expectations"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/emergency-alert-test-australia-what-to-expect-july-27-everything-to-know-20260709-p60dyd.html",
+          "title": "Siren alarm test to blare on phones across Australia today"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/ausalert-test-coming-today-20260727-p60iq6.html",
+          "title": "AusAlert test coming today"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/ausalert-national-alert-test-sound-emergency-warning-system-time-date",
+          "title": "AusAlert test: what time will national emergency warning siren sound on phones in Australia today? Here’s what to know"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/mixed-reaction-to-ausalert-emergency-message-system-as-test-fails-to-reach-people-c-22634152",
+          "title": "‘Nothing happened’: Aussies reveal mixed reaction to nationwide emergency alarm"
+        }
+      ]
+    },
+    {
+      "id": "nsw-icac-perrottet-brothers",
+      "headline": "뉴사우스웨일스 ICAC 청문, 가짜 지급과 자유당 실세 추적",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-27T07:42:17Z",
+      "voiceScript": "뉴사우스웨일스 반부패 기구 ICAC는 자유당 기부금, 통화 기록, 정치적 영향력 의혹을 계속 들여다보고 있습니다. 이제 쟁점은 한 번의 지급이 아니라 돈과 당 조직, 개발 승인 사이에 추적 가능한 거래가 있었는지입니다. 주 정치와 개발 결정, 기부금 투명성에 대한 판단에 영향을 줄 수 있어 중요합니다. 앞으로는 증언과 문서, 통화 기록이 서로 맞아떨어지는지가 관건입니다.",
+      "differences": [
+        "ABC News: ICAC 조사 시작점으로 두고 절차를 설명.",
+        "AAP News: 문제성 기부금과 자유당에 미치는 타격을 강조.",
+        "The Guardian Australia: 실세 인물의 거취와 출석 여부에 초점.",
+        "Australian Financial Review: 통화 도청과 가짜 지급을 앞세움."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/what-to-expect-from-icac-probe-into-nsw-liberal-party/106955220",
+          "title": "NSW Liberals corruption investigation kicks-off. Here's what to expect"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/watchdog-probes-tainted-donations-in-blow-to-liberals",
+          "title": "Watchdog probes tainted donations in blow to Liberals"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/senior-politicians-supported-young-nsw-liberal-power-brokers-trying-to-shift-party-to-right-corruption-watchdog-hears-ntwnfb",
+          "title": "Senior politicians supported young NSW Liberal power brokers trying to shift party to right, corruption watchdog hears"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/former-nsw-liberal-powerbroker-at-heart-of-icac-allegations-now-living-in-uk-and-not-expected-to-appear-ntwnfb",
+          "title": "Former NSW Liberal powerbroker at heart of Icac allegations now living in UK and not expected to appear"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/phone-taps-and-sham-payments-to-liberals-in-icac-bombshell-hearing-20260726-p60iny",
+          "title": "Phone taps and 'sham' payments to Liberals in ICAC bombshell hearing"
+        }
+      ]
+    },
+    {
+      "id": "melbourne-partner-murder",
+      "headline": "멜버른 남동부서 연인 살해 혐의 남성 법정 출석",
+      "voiceScript": "abc 보도에 따르면, 클라이드 노스에서 연인을 살해한 혐의를 받는 남성이 법정에 출석했습니다. 이 사건은 가정폭력과 연인 사망, 형사 절차를 다시 앞에 세웠고, 경찰이 사건 경위를 어떻게 재구성하는지도 쟁점입니다. 이런 사건은 한 번의 재판만의 문제가 아니라 더 이른 위험 인지와 피해자 보호와도 연결되기 때문에 중요합니다. 앞으로는 검찰이 어떤 증거를 내놓는지, 법원이 얼마나 더 자세히 공개할지가 관건입니다.",
+      "differences": [],
+      "publishedAt": "2026-07-27T07:41:29Z",
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/jorden-turney-charged-with-murdering-partner-clyde-north/106962892",
+          "title": "Man in court charged with murdering partner in Melbourne's south-east"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "food-fraud-supermarket-labels",
+      "headline": "대형마트 식품 표시가 도마에 올랐다",
+      "voiceScript": "abc 조사에 따르면, 우리가 자주 사는 일부 식품은 포장에 적힌 내용과 실제 검사 결과가 맞지 않을 수 있습니다. 소비자는 원산지와 재료, 품질을 표시를 보고 판단하기 때문에, 이 문제는 개별 상품을 넘어 식품 신뢰와 관리 기준의 문제로 이어집니다. 앞으로는 유통업체와 공급업체의 설명, 그리고 추가 조사가 이뤄질지가 관건입니다.",
+      "differences": [],
+      "publishedAt": "2026-07-27T07:18:51Z",
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/food-fraud-investigation-reveals-truth-behind-labels/106960116",
+          "title": "Food fraud investigation finds supermarket staples may not be what they claim"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "snowy-2-worker-drill",
+      "headline": "스노위 2.0 작업자 부실 드릴 사용 지시 주장",
+      "voiceScript": "abc 보도에 따르면, 스노위 2.0 터널 공사에 참여한 작업자는 고장 난 드릴을 쓰라고 지시받았고 그 장비에 맞아 다쳤다고 말했습니다. 이 일로 수십억 달러 규모 사업은 현장 안전과 하청 관리, 감독 책임 문제로 다시 넘어갔습니다. 대형 기반 시설에서 안전 의혹이 나오면 비용과 일정뿐 아니라 대중의 신뢰에도 영향이 가기 때문에 중요합니다. 앞으로는 법원이 이 주장을 어떻게 다룰지, 그리고 사업 측이 더 자세히 설명할지가 관건입니다.",
+      "differences": [],
+      "publishedAt": "2026-07-27T07:09:53Z",
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/snowy-hydro-webuild-tunnelling-incident-indiustrial-court-nsw/106893760",
+          "title": "Snowy 2.0 worker ordered to use broken drill that hit him, court hears"
+        }
+      ],
+      "sourceCount": 1
+    },
+    {
+      "id": "qld-river-to-the-sea-challenge",
+      "headline": "퀸즐랜드 금지 조항에 고법 도전",
+      "voiceScript": "퀸즐랜드에서 \"from the river to the sea\" 금지 조항이 다시 법정으로 갔고, 7명의 시위대는 이 법이 표현을 직접 제한한다며 고법에 도전했습니다. 주 정부는 혐오 방지 조치라고 주장하지만 비판 측은 내용 기반 검열과 시위 제한이라고 봅니다. 앞으로 퀸즐랜드가 집회, 혐오 발언, 정치 표현을 어떻게 다룰지에 영향을 줄 수 있어 중요합니다. 이제 고법이 사건을 받아들일지, 그리고 법이 좁혀지거나 무효화될지가 관건입니다.",
+      "differences": [],
+      "publishedAt": "2026-07-27T06:57:05Z",
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/protesters-launch-high-court-challenge-to-queensland-ban-on-from-the-river-to-the-sea-ntwnfb",
+          "title": "Protesters launch high court challenge to Queensland ban on ‘from the river to the sea’"
+        }
+      ],
+      "sourceCount": 1
+    },
     {
       "id": "qld-wife-baby-court-hearing",
       "headline": "퀸즐랜드 남성, 아내와 영아 살해 혐의로 법정 출석",
@@ -191,31 +346,6 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/works-begins-hobart-mac-point-afl-stadium/106961410",
           "title": "'The diggers have arrived': Works begin at Hobart's $1.13b stadium site"
-        }
-      ]
-    },
-    {
-      "id": "nsw-icac-perrottet-brothers",
-      "headline": "NSW ICAC, 페로테트 형제와 도주 개발업자 조사",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T02:44:00Z",
-      "voiceScript": "NSW 반부패 기구 ICAC가 도주 중인 개발업자 Jean Nassif, 전 주총리 Dominic Perrottet의 형제들, 정치 기부금, 당내 조직과 개발 결정에 대한 영향 의혹을 조사하고 있습니다. 핵심은 돈, 관계, 결정 사이의 연결이 의혹이 아니라 증거로 입증될 수 있는지입니다. 이는 주 정치와 개발 승인에 대한 공공 신뢰와 직결됩니다. 다음은 증언과 문서가 접촉, 자금, 결과를 명확히 이어 주는지입니다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/what-to-expect-from-icac-probe-into-nsw-liberal-party/106955220",
-          "title": "NSW Liberals corruption investigation kicks-off. Here's what to expect"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/watchdog-probes-tainted-donations-in-blow-to-liberals",
-          "title": "Watchdog probes tainted donations in blow to Liberals"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/former-nsw-liberal-powerbroker-at-heart-of-icac-allegations-now-living-in-uk-and-not-expected-to-appear-ntwnfb",
-          "title": "Former NSW Liberal powerbroker at heart of Icac allegations now living in UK and not expected to appear"
         }
       ]
     },
@@ -611,11 +741,14 @@
     },
     {
       "id": "census-explained",
-      "headline": "2026년 인구조사의 핵심 내용을 한번에 이해해보세요",
+      "headline": "2026 인구조사, 누가 참여해야 하고 왜 중요한가",
       "sourceCount": 2,
       "publishedAt": "2026-07-26T12:39:35Z",
-      "voiceScript": "호주의 2026년 인구 조사가 점점 가까워지고 있으며 주요 작성 날짜는 8월 11일이며 응답하지 않는 사람들도 벌금을 물게 될 수 있습니다. 인구조사는 학교, 도로, 의료 등 공공 서비스와 자금 할당에 영향을 미치기 때문에 중요합니다. 따라서 문제는 단지 양식을 작성하는 방법이 아니라 이 데이터가 모든 사람에게 영향을 미치는 이유입니다. 다음으로 국민참여 정도에 따른다. 모든 사람이 그것을 평범한 형태로 여기든, 아니면 시민의 의무로 여기든 말이죠.",
-      "differences": [],
+      "voiceScript": "2026 인구조사는 8월 11일에 진행되며, 호주에 사는 대부분의 사람은 작성해야 하고 일부 임시 비자 소지자도 대상입니다. 핵심은 마감일과 벌금 가능성, 그리고 이 자료가 학교와 의료 같은 자원 배분에 어떻게 쓰이느냐입니다. 앞으로는 안내가 응답률을 끌어올릴 수 있는지, 특히 이민 가구와 외딴 지역 가구에서 얼마나 잘 회수되는지가 관건입니다.",
+      "differences": [
+        "7NEWS: 마감일, 작성 방법, 벌금 가능성을 직접적으로 정리.",
+        "SBS News: 어떤 임시 비자 소지자가 대상인지와 왜 중요한지를 강조."
+      ],
       "links": [
         {
           "source": "7NEWS",
@@ -721,56 +854,6 @@
           "source": "The Age",
           "url": "https://www.theage.com.au/national/victoria/former-chief-of-collapsed-grocon-building-empire-declares-bankruptcy-20260726-p60ily.html",
           "title": "Daniel Grollo declared bankrupt, New York apartment forfeited as investigation flagged"
-        }
-      ]
-    },
-    {
-      "id": "ausalert-national-test",
-      "headline": "휴대폰 경고를 트리거하는 National AusAlert 테스트",
-      "sourceCount": 8,
-      "publishedAt": "2026-07-26T09:00:00+10:00",
-      "voiceScript": "연방 정부는 오늘부터 국가 AusAlert 경고 시스템에 대한 최초의 전국 테스트를 시작합니다. 이 시스템은 설정된 시간에 휴대폰, 태블릿 및 일부 시계에서 10초 알람 소리를 볼 수 있습니다. 관계자들은 셀룰러 방송을 기반으로 하는 이 새로운 시스템이 산불, 홍수 및 기타 비상 정보를 기존 문자 메시지보다 더 빠르고 안정적으로 지정된 지역에 전달할 수 있는지 확인하려고 합니다. 논란의 여지가 있는 점은 무음 모드를 무시하고 휴대폰을 숨기고 있는 가정폭력 피해자의 위치도 노출할 수 있다는 점이다. 다음으로, 이 테스트의 적용률, 위양성률, 안전 알림에 대한 대중의 수용률을 살펴봐야 합니다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/what-to-know-about-ausalert-emergency-warning-test/106919574",
-          "title": "Get ready for the AusAlert emergency warning test"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/ausalert-emergency-warning-test-what-you-need-to-know-and-how-to-prepare/zghu8pk7o",
-          "title": "AusAlert emergency warning test: What you need to know and how to prepare"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/everything-you-need-to-know-about-ausalert-warning-alarm-test/news-story/dac4abc3a73dc2b0ca2c872cf5361f16",
-          "title": "Everything you need to know about the AusAlert warning alarm test"
-        },
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/emergency-alert-test-australia-what-to-expect-july-27-everything-to-know-20260709-p60dyd.html",
-          "title": "Siren alarm test to blare on phones across Australia today"
-        },
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/ausalert-test-coming-today-20260727-p60iq6.html",
-          "title": "AusAlert test coming today"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/ausalert-national-alert-test-sound-emergency-warning-system-time-date",
-          "title": "AusAlert test: what time will national emergency warning siren sound on phones in Australia today? Here’s what to know"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/new-ausalert-system-to-blast-out-emergency-warning-siren-c-22631794",
-          "title": "New emergency warning system to blast out national siren"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://www.aap.com.au/news/new-ausalert-warning-system-to-blast-out-national-siren",
-          "title": "Fresh family violence warning before phone siren alert"
         }
       ]
     },
