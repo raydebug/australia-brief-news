@@ -350,17 +350,15 @@ p {
 
 .cluster-card-content {
   display: grid;
-  gap: 8px;
-  padding: 14px 16px 16px;
+  gap: 6px;
+  padding: 12px 16px 16px;
 }
 
 .cluster-card-meta {
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: flex-end;
   min-height: 36px;
-  color: #657072;
-  font-size: 13px;
 }
 
 .card-speak-button {
