@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T15:06:06.300Z",
+  "updatedAt": "2026-07-27T16:08:24.953Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -120,6 +120,31 @@
   ],
   "clusters": [
     {
+      "id": "sa-port-macdonnell-search",
+      "headline": "남호주 해안 수색, 엄마와 어린아이 발견 뒤 실종 아기로 전환",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T14:03:51Z",
+      "voiceScript": "남호주 포트맥도넬 인근에서는 바다에서 엄마와 어린아이가 발견된 뒤 실종된 아기를 찾는 수색이 계속되고 있다. 해안 수색은 이제 아기의 안전이 절박한 실종 아동 대응으로 바뀌었다. 가족 비극인 동시에 해안 구조와 경찰 수사가 함께 진행되는 사건이라는 점이 중요하다. 앞으로는 아기 발견 여부와 당국이 경위를 얼마나 더 공개할지가 핵심이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/emergency-search-underway-in-port-macdonnell-in-sa-south-east/106963058",
+          "title": "Baby still missing after bodies of woman and toddler recovered off SA coast"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/baby-missing-after-mother-and-toddler-found-dead-off-coast-of-south-australia-ntwnfb",
+          "title": "Baby missing after mother and toddler found dead off coast of South Australia"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/search-for-baby-after-bodies-of-mother-toddler-found",
+          "title": "Search for baby after bodies of mother, toddler found"
+        }
+      ]
+    },
+    {
       "id": "actu-leadership-change",
       "headline": "ACTU 최고 지도자 두 명이 물러난다",
       "sourceCount": 1,
@@ -131,6 +156,44 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/actu-leaders-sally-mcmanus-michele-o-neil-resign/106964206",
           "title": "ACTU leaders Sally McManus and Michele O'Neil announce resignations"
+        }
+      ]
+    },
+    {
+      "id": "sa-industrial-manslaughter",
+      "headline": "남호주 제조업체, 주 최초 산업과실치사 혐의로 기소",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T10:14:16Z",
+      "voiceScript": "애들레이드의 한 제조업체와 회사 이사진이 남호주 최초의 산업과실치사 사건으로 기소됐습니다. 이 사건은 2024년 28세 근로자 라클런 카슬리의 사망과 연결돼 있고, 수사당국은 기계 안전장치가 우회됐을 가능성을 제기하고 있습니다. 이 사건은 새로 도입된 산업과실치사 법이 실제로 어떻게 적용되는지 가늠하는 시험대라는 점에서 중요합니다. 앞으로는 법정 공방과 함께 지역 산업 현장에 대한 추가 안전 점검이 이어질지 주목됩니다.",
+      "differences": [
+        "ABC News는 SafeWork SA의 기소 발표와 법정 최고 형량을 중심으로 전합니다.",
+        "7NEWS는 기계 안전장치와 사고 직전의 경위를 더 자세히 설명합니다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/industrial-manslaughter-charges-laid-against-adelaide-company/106963526",
+          "title": "SA's first industrial manslaughter charges laid against Adelaide company"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/industrial-manslaughter-charges-laid-over-fatal-2024-adelaide-workplace-accident-c-22634952.amp",
+          "title": "Industrial manslaughter charges laid over fatal 2024 Adelaide workplace accident"
+        }
+      ]
+    },
+    {
+      "id": "sa-doctors-nurses-conduct",
+      "headline": "남호주 의사 노조, 간호사 행태가 진료를 위협한다고 경고",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T09:08:06Z",
+      "voiceScript": "남호주 의사 노조는 Gawler Health Service의 간호사 관련 행동 문제가 환자 진료를 위협하고 있다고 말했습니다. 간호사 노조는 조직적인 괴롭힘은 없다고 반박해, 이번 논란은 근무 문화와 의료 서비스 운영 문제로 이어지고 있습니다. 이 사안은 인력 운영에 대한 신뢰와 병원의 안전한 기능에 영향을 줄 수 있습니다. 앞으로는 보건 당국이나 병원이 공식 조사를 시작하는지가 관건입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/sa-doctors-union-gawler-health-service-nurse-conduct-concerns/106962368",
+          "title": "Doctors' union concerned by nurses' behaviour at SA health service"
         }
       ]
     },
@@ -423,31 +486,6 @@
       ]
     },
     {
-      "id": "sa-port-macdonnell-search",
-      "headline": "남호주 해안 수색, 엄마와 어린아이 발견 뒤 실종 아기로 전환",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T14:03:51Z",
-      "voiceScript": "남호주 포트맥도넬 인근에서는 바다에서 엄마와 어린아이가 발견된 뒤 실종된 아기를 찾는 수색이 계속되고 있다. 해안 수색은 이제 아기의 안전이 절박한 실종 아동 대응으로 바뀌었다. 가족 비극인 동시에 해안 구조와 경찰 수사가 함께 진행되는 사건이라는 점이 중요하다. 앞으로는 아기 발견 여부와 당국이 경위를 얼마나 더 공개할지가 핵심이다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/emergency-search-underway-in-port-macdonnell-in-sa-south-east/106963058",
-          "title": "Baby still missing after bodies of woman and toddler recovered off SA coast"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/baby-missing-after-mother-and-toddler-found-dead-off-coast-of-south-australia-ntwnfb",
-          "title": "Baby missing after mother and toddler found dead off coast of South Australia"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/search-for-baby-after-bodies-of-mother-toddler-found",
-          "title": "Search for baby after bodies of mother, toddler found"
-        }
-      ]
-    },
-    {
       "id": "indigenous-custody-legal-action",
       "headline": "원주민 남성 사망 사건, 가족이 불기소 결정에 법적 대응",
       "sourceCount": 1,
@@ -489,21 +527,6 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/works-begins-hobart-mac-point-afl-stadium/106961410",
           "title": "'The diggers have arrived': Works begin at Hobart's $1.13b stadium site"
-        }
-      ]
-    },
-    {
-      "id": "ev-sales-fuel-crisis",
-      "headline": "연료비 상승에 호주 전기차 판매 급증",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-27T03:37:00.000Z",
-      "voiceScript": "호주의 전기차 시장은 2026년 상반기 크게 늘어 6월 신차 판매에서 배터리 전기차가 23.4%를 차지했고, 상반기 누적 판매량도 이미 2025년 전체를 넘어섰다. 배경에는 연료비 상승, 차종 확대, 차량 효율 기준 같은 정책 변화가 있다. 이 소식이 중요한 이유는 가계가 운영비 부담에 따라 자동차 선택을 빠르게 바꾸고 있기 때문이다. 앞으로는 가격, 공급, 충전 인프라가 이런 흐름을 얼마나 이어갈지가 관건이다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/environment/2026/jul/27/australia-ev-car-sales-electric-vehicles-fuel-crisis-plug-in-hybrids",
-          "title": "'A new trajectory': EVs now almost quarter of Australia's new car sales as fuel crisis bites"
         }
       ]
     },
@@ -593,6 +616,21 @@
       ]
     },
     {
+      "id": "housing-rules-rethink",
+      "headline": "주택 심사 규정이 새 집 건설을 늦춘다는 지적",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "생산성위원회는 주택 건설을 늦춘다고 지적되는 계획과 심사 규정의 재검토를 요구하고 있다. 심사 지연, 기준의 불일치, 준수 비용이 겹치면서 공급이 수요를 따라가기 더 어려워지고 있다. 이는 집값과 임대료, 건설업 효율에 바로 연결되는 문제다. 다음 단계는 연방과 주 정부가 이를 구체적인 개혁으로 옮기느냐이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506",
+          "title": "Not satire: The Utopia-style regulations holding Australia back from building homes"
+        }
+      ]
+    },
+    {
       "id": "wa-oil-refinery",
       "headline": "서호주에 수십 년 만의 새 정유소 추진",
       "sourceCount": 3,
@@ -618,21 +656,6 @@
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2",
           "title": "PM launches plan for new oil refinery as fuel crisis bites"
-        }
-      ]
-    },
-    {
-      "id": "housing-rules-rethink",
-      "headline": "주택 심사 규정이 새 집 건설을 늦춘다는 지적",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "생산성위원회는 주택 건설을 늦춘다고 지적되는 계획과 심사 규정의 재검토를 요구하고 있다. 심사 지연, 기준의 불일치, 준수 비용이 겹치면서 공급이 수요를 따라가기 더 어려워지고 있다. 이는 집값과 임대료, 건설업 효율에 바로 연결되는 문제다. 다음 단계는 연방과 주 정부가 이를 구체적인 개혁으로 옮기느냐이다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506",
-          "title": "Not satire: The Utopia-style regulations holding Australia back from building homes"
         }
       ]
     },
@@ -663,21 +686,6 @@
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/companies/retail/myer-warns-of-volatile-and-challenging-conditions-flat-sales-20260727-p60irx",
           "title": "Myer (MYR ASX) expects flat revenue as cost of living pressures weigh on consumer spending"
-        }
-      ]
-    },
-    {
-      "id": "flat-pack-tiny-home-misleading",
-      "headline": "“주말 DIY” 평판형 소형주택 홍보가 소비자를 오도한다는 지적",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-27T00:04:00Z",
-      "voiceScript": "서호주 번버리의 한 구매자는 주말에 조립 가능한 평판형 소형주택을 샀다고 생각했지만, 실제로는 인허가, 건축 기준, 추가 비용 문제에 부딪혔습니다. 주택 부족 상황에서 소형 주택 상품은 매력적일 수 있지만, “허가 불필요”나 “빠른 입주” 같은 표현은 규정 준수 검증을 견뎌야 합니다. 다음은 규제당국이 광고 문구, 승인 안내, 소비자 구제 문제를 얼마나 들여다보는지입니다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/wa-prefab-housing-diy-costly/106943676",
-          "title": "Steve bought a flat-packed tiny home to save money and time. It has done the opposite"
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T15:06:06.300Z",
+  "updatedAt": "2026-07-27T16:08:24.953Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -120,6 +120,31 @@
   ],
   "clusters": [
     {
+      "id": "sa-port-macdonnell-search",
+      "headline": "南澳海岸搜救升级，母女遗体已找到、婴儿仍失踪",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T14:03:51Z",
+      "voiceScript": "南澳州 Port MacDonnell 附近的搜救已经从海岸搜索升级为更大的失踪儿童行动。警方和救援人员先前在海中找到一名母亲和她年幼的孩子，如今仍在寻找另一名婴儿，官方也对其生存状况表达了严重担忧。这起事件之所以重要，是因为它牵涉到家庭突发失联、沿海搜救能力和后续调查。接下来要看搜寻是否能找到失踪婴儿，以及警方是否会公布更多身份和经过。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/emergency-search-underway-in-port-macdonnell-in-sa-south-east/106963058",
+          "title": "Baby still missing after bodies of woman and toddler recovered off SA coast"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/baby-missing-after-mother-and-toddler-found-dead-off-coast-of-south-australia-ntwnfb",
+          "title": "Baby missing after mother and toddler found dead off coast of South Australia"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/search-for-baby-after-bodies-of-mother-toddler-found",
+          "title": "Search for baby after bodies of mother, toddler found"
+        }
+      ]
+    },
+    {
       "id": "actu-leadership-change",
       "headline": "ACTU两位最高领导人宣布卸任",
       "sourceCount": 1,
@@ -131,6 +156,44 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/actu-leaders-sally-mcmanus-michele-o-neil-resign/106964206",
           "title": "ACTU leaders Sally McManus and Michele O'Neil announce resignations"
+        }
+      ]
+    },
+    {
+      "id": "sa-industrial-manslaughter",
+      "headline": "南澳制造企业被控首例工业过失杀人",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T10:14:16Z",
+      "voiceScript": "阿德莱德一家制造企业及其董事被控南澳首例工业过失杀人，案件与 2024 年一名 28 岁工人死亡的事故有关。调查方指称，涉事机器的安全联锁可能被绕过，事故前也曾出现安全隐患提醒。这起案件的重要性在于，它是南澳新工业过失杀人法律的实际考验，也会影响企业对机器防护和工地责任的理解。接下来要看法庭如何处理这些指控，以及这宗案件会不会推动更多工厂安全检查。",
+      "differences": [
+        "ABC News：强调 SafeWork SA 的起诉决定，以及新法下更重的刑责背景。",
+        "7NEWS：更具体描写机器安全联锁被指遭绕过的经过，以及公司和董事同时被起诉的细节。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/industrial-manslaughter-charges-laid-against-adelaide-company/106963526",
+          "title": "SA's first industrial manslaughter charges laid against Adelaide company"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/industrial-manslaughter-charges-laid-over-fatal-2024-adelaide-workplace-accident-c-22634952.amp",
+          "title": "Industrial manslaughter charges laid over fatal 2024 Adelaide workplace accident"
+        }
+      ]
+    },
+    {
+      "id": "sa-doctors-nurses-conduct",
+      "headline": "南澳医生工会称护士行为影响患者照护",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T09:08:06Z",
+      "voiceScript": "南澳医生工会说，Gawler Health Service 的护士行为问题已经让患者照护受到威胁。护士工会则否认存在系统性霸凌，双方对问题性质的说法明显不同。这类争议之所以重要，是因为它直接关系到医院人手、协作和病人安全。接下来要看州卫生部门或医院是否启动正式调查，以及现场管理会不会因此调整。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/sa-doctors-union-gawler-health-service-nurse-conduct-concerns/106962368",
+          "title": "Doctors' union concerned by nurses' behaviour at SA health service"
         }
       ]
     },
@@ -426,31 +489,6 @@
       ]
     },
     {
-      "id": "sa-port-macdonnell-search",
-      "headline": "南澳海岸搜救升级，母女遗体已找到、婴儿仍失踪",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T14:03:51Z",
-      "voiceScript": "南澳州 Port MacDonnell 附近的搜救已经从海岸搜索升级为更大的失踪儿童行动。警方和救援人员先前在海中找到一名母亲和她年幼的孩子，如今仍在寻找另一名婴儿，官方也对其生存状况表达了严重担忧。这起事件之所以重要，是因为它牵涉到家庭突发失联、沿海搜救能力和后续调查。接下来要看搜寻是否能找到失踪婴儿，以及警方是否会公布更多身份和经过。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/emergency-search-underway-in-port-macdonnell-in-sa-south-east/106963058",
-          "title": "Baby still missing after bodies of woman and toddler recovered off SA coast"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/baby-missing-after-mother-and-toddler-found-dead-off-coast-of-south-australia-ntwnfb",
-          "title": "Baby missing after mother and toddler found dead off coast of South Australia"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/search-for-baby-after-bodies-of-mother-toddler-found",
-          "title": "Search for baby after bodies of mother, toddler found"
-        }
-      ]
-    },
-    {
       "id": "indigenous-custody-legal-action",
       "headline": "原住民男子在押死亡案，家属就拒绝起诉警方提起法律行动",
       "sourceCount": 1,
@@ -492,21 +530,6 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/works-begins-hobart-mac-point-afl-stadium/106961410",
           "title": "'The diggers have arrived': Works begin at Hobart's $1.13b stadium site"
-        }
-      ]
-    },
-    {
-      "id": "ev-sales-fuel-crisis",
-      "headline": "油价高企推动澳洲电动车销量飙升",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-27T03:37:00.000Z",
-      "voiceScript": "2026 年上半年，澳洲电动车销量明显上升，6 月纯电动车已占新车销量的 23.4%，上半年销量也已经超过 2025 年全年。推动这波增长的，是燃油价格上升、车型选择增多，以及车辆效率标准等政策因素。这个变化重要，因为它显示澳洲乘用车市场正在加速转向，也说明家庭在用车成本上正在重新做选择。接下来要看价格、车型供给和充电便利性，能否让这股势头继续下去。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/environment/2026/jul/27/australia-ev-car-sales-electric-vehicles-fuel-crisis-plug-in-hybrids",
-          "title": "'A new trajectory': EVs now almost quarter of Australia's new car sales as fuel crisis bites"
         }
       ]
     },
@@ -596,6 +619,21 @@
       ]
     },
     {
+      "id": "housing-rules-rethink",
+      "headline": "澳洲住房审批规则被指拖慢新屋建设",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "生产力委员会建议重新检视一系列规划和审批规则，因为这些制度被认为拖慢住房建设。审批延迟、标准不一和合规成本叠加，让新增供应更难追上需求。这个问题会直接影响房价、租金和建筑业效率。下一步要看联邦和州政府是否把建议转成具体改革。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506",
+          "title": "Not satire: The Utopia-style regulations holding Australia back from building homes"
+        }
+      ]
+    },
+    {
       "id": "wa-oil-refinery",
       "headline": "西澳拟建澳洲数十年来首座新炼油厂",
       "sourceCount": 3,
@@ -621,21 +659,6 @@
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2",
           "title": "PM launches plan for new oil refinery as fuel crisis bites"
-        }
-      ]
-    },
-    {
-      "id": "housing-rules-rethink",
-      "headline": "澳洲住房审批规则被指拖慢新屋建设",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "生产力委员会建议重新检视一系列规划和审批规则，因为这些制度被认为拖慢住房建设。审批延迟、标准不一和合规成本叠加，让新增供应更难追上需求。这个问题会直接影响房价、租金和建筑业效率。下一步要看联邦和州政府是否把建议转成具体改革。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506",
-          "title": "Not satire: The Utopia-style regulations holding Australia back from building homes"
         }
       ]
     },
@@ -666,21 +689,6 @@
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/companies/retail/myer-warns-of-volatile-and-challenging-conditions-flat-sales-20260727-p60irx",
           "title": "Myer (MYR ASX) expects flat revenue as cost of living pressures weigh on consumer spending"
-        }
-      ]
-    },
-    {
-      "id": "flat-pack-tiny-home-misleading",
-      "headline": "“周末 DIY”平板小屋宣传被指误导消费者",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-27T00:04:00Z",
-      "voiceScript": "西澳班伯里一名买家原以为自己买到的是周末就能组装好的平板小屋，但项目后来卡在审批、建筑标准和额外成本上。这个案例的重点是，在住房短缺背景下，小型住宅产品很容易吸引消费者，但“免许可”“快速入住”这类说法必须经得起合规检验。接下来要看监管部门是否进一步追查营销用语、审批说明和消费者赔偿问题。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/wa-prefab-housing-diy-costly/106943676",
-          "title": "Steve bought a flat-packed tiny home to save money and time. It has done the opposite"
         }
       ]
     },

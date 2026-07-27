@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T15:06:06.300Z",
+  "updatedAt": "2026-07-27T16:08:24.953Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -120,6 +120,31 @@
   ],
   "clusters": [
     {
+      "id": "sa-port-macdonnell-search",
+      "headline": "South Australia search turns to missing baby after mother and toddler found dead",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T14:03:51Z",
+      "voiceScript": "Police and rescue crews in South Australia's Port MacDonnell area are now searching for a missing baby after a mother and toddler were recovered from the ocean. The case has shifted from a coastal search to a major missing-child response, with officers saying they hold grave concerns for the child's safety. It matters because it combines a family tragedy, a difficult coastal search and a live police investigation. The next step is whether the baby is found and what more investigators release about the circumstances.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/emergency-search-underway-in-port-macdonnell-in-sa-south-east/106963058",
+          "title": "Baby still missing after bodies of woman and toddler recovered off SA coast"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/baby-missing-after-mother-and-toddler-found-dead-off-coast-of-south-australia-ntwnfb",
+          "title": "Baby missing after mother and toddler found dead off coast of South Australia"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/search-for-baby-after-bodies-of-mother-toddler-found",
+          "title": "Search for baby after bodies of mother, toddler found"
+        }
+      ]
+    },
+    {
       "id": "actu-leadership-change",
       "headline": "ACTU's top two leaders are stepping down",
       "sourceCount": 1,
@@ -131,6 +156,44 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/actu-leaders-sally-mcmanus-michele-o-neil-resign/106964206",
           "title": "ACTU leaders Sally McManus and Michele O'Neil announce resignations"
+        }
+      ]
+    },
+    {
+      "id": "sa-industrial-manslaughter",
+      "headline": "South Australian manufacturer charged in first industrial manslaughter case",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T10:14:16Z",
+      "voiceScript": "An Adelaide manufacturing business and its directors have been charged over South Australia's first industrial manslaughter case, linked to the death of 28-year-old worker Lachlan Carslake in 2024. Investigators allege the machine's safety interlock may have been bypassed, and that safety concerns had already been raised before the fatal incident. The case matters because it is one of the first major tests of South Australia's industrial manslaughter laws and the level of responsibility companies can face. The court process will now determine how the charges are contested and whether the prosecution prompts wider safety scrutiny across local industry.",
+      "differences": [
+        "ABC News focuses on SafeWork SA's charging decision and the tougher penalties under the new law.",
+        "7NEWS gives more detail on the alleged machine fault and the sequence of events before the death."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/industrial-manslaughter-charges-laid-against-adelaide-company/106963526",
+          "title": "SA's first industrial manslaughter charges laid against Adelaide company"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/industrial-manslaughter-charges-laid-over-fatal-2024-adelaide-workplace-accident-c-22634952.amp",
+          "title": "Industrial manslaughter charges laid over fatal 2024 Adelaide workplace accident"
+        }
+      ]
+    },
+    {
+      "id": "sa-doctors-nurses-conduct",
+      "headline": "SA doctors raise alarm over nurses' conduct at Gawler service",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T09:08:06Z",
+      "voiceScript": "South Australia's doctors' union says alleged behavioural problems among nurses at Gawler Health Service are putting patient care at risk. The nurses' union rejects any suggestion of systemic bullying, so the dispute is as much about workplace culture as it is about service delivery. The issue matters because it could affect staffing confidence and how safely the hospital can function. What happens next will depend on whether the health department or hospital launches a formal investigation.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/sa-doctors-union-gawler-health-service-nurse-conduct-concerns/106962368",
+          "title": "Doctors' union concerned by nurses' behaviour at SA health service"
         }
       ]
     },
@@ -423,31 +486,6 @@
       ]
     },
     {
-      "id": "sa-port-macdonnell-search",
-      "headline": "South Australia search turns to missing baby after mother and toddler found dead",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T14:03:51Z",
-      "voiceScript": "Police and rescue crews in South Australia's Port MacDonnell area are now searching for a missing baby after a mother and toddler were recovered from the ocean. The case has shifted from a coastal search to a major missing-child response, with officers saying they hold grave concerns for the child's safety. It matters because it combines a family tragedy, a difficult coastal search and a live police investigation. The next step is whether the baby is found and what more investigators release about the circumstances.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/emergency-search-underway-in-port-macdonnell-in-sa-south-east/106963058",
-          "title": "Baby still missing after bodies of woman and toddler recovered off SA coast"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/baby-missing-after-mother-and-toddler-found-dead-off-coast-of-south-australia-ntwnfb",
-          "title": "Baby missing after mother and toddler found dead off coast of South Australia"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/search-for-baby-after-bodies-of-mother-toddler-found",
-          "title": "Search for baby after bodies of mother, toddler found"
-        }
-      ]
-    },
-    {
       "id": "indigenous-custody-legal-action",
       "headline": "Family of Indigenous man seeks court action over custody death",
       "sourceCount": 1,
@@ -489,21 +527,6 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/works-begins-hobart-mac-point-afl-stadium/106961410",
           "title": "'The diggers have arrived': Works begin at Hobart's $1.13b stadium site"
-        }
-      ]
-    },
-    {
-      "id": "ev-sales-fuel-crisis",
-      "headline": "EV sales surge as fuel prices bite",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-27T03:37:00.000Z",
-      "voiceScript": "Australia's electric-vehicle market has surged in the first half of 2026, with battery EVs making up 23.4 per cent of new car sales in June and total battery EV sales for the half-year already overtaking all of 2025. The shift is being driven by higher fuel prices, more model choice and policy settings such as the vehicle efficiency standard. It matters because it points to a faster transition in the car market and a change in how households are responding to running costs. The next question is whether prices, supply and charging access can keep the momentum going.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/environment/2026/jul/27/australia-ev-car-sales-electric-vehicles-fuel-crisis-plug-in-hybrids",
-          "title": "'A new trajectory': EVs now almost quarter of Australia's new car sales as fuel crisis bites"
         }
       ]
     },
@@ -593,6 +616,21 @@
       ]
     },
     {
+      "id": "housing-rules-rethink",
+      "headline": "Australia's housing rules are slowing new builds",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "The Productivity Commission wants a rethink of planning and approval rules it says are slowing housing construction. Delays, inconsistent standards and compliance costs are making it harder for supply to keep up with demand. It matters because it feeds directly into rents, home prices and how efficiently the building sector can work. The next question is whether federal and state governments turn the recommendation into concrete reform.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506",
+          "title": "Not satire: The Utopia-style regulations holding Australia back from building homes"
+        }
+      ]
+    },
+    {
       "id": "wa-oil-refinery",
       "headline": "WA could host Australia's first new refinery in decades",
       "sourceCount": 3,
@@ -618,21 +656,6 @@
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2",
           "title": "PM launches plan for new oil refinery as fuel crisis bites"
-        }
-      ]
-    },
-    {
-      "id": "housing-rules-rethink",
-      "headline": "Australia's housing rules are slowing new builds",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "The Productivity Commission wants a rethink of planning and approval rules it says are slowing housing construction. Delays, inconsistent standards and compliance costs are making it harder for supply to keep up with demand. It matters because it feeds directly into rents, home prices and how efficiently the building sector can work. The next question is whether federal and state governments turn the recommendation into concrete reform.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506",
-          "title": "Not satire: The Utopia-style regulations holding Australia back from building homes"
         }
       ]
     },
@@ -663,21 +686,6 @@
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/companies/retail/myer-warns-of-volatile-and-challenging-conditions-flat-sales-20260727-p60irx",
           "title": "Myer (MYR ASX) expects flat revenue as cost of living pressures weigh on consumer spending"
-        }
-      ]
-    },
-    {
-      "id": "flat-pack-tiny-home-misleading",
-      "headline": "Flat-pack tiny home claims accused of misleading buyers",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-27T00:04:00Z",
-      "voiceScript": "A Bunbury buyer in Western Australia believed he had purchased a flat-pack tiny home that could be assembled over a weekend, but the project became caught up in approvals, building standards and extra costs. The wider issue is that small housing products are attractive during a housing shortage, but claims such as no permit needed or fast move-in must stand up to compliance checks. The next question is whether regulators examine the marketing, approval guidance and possible consumer remedies.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/wa-prefab-housing-diy-costly/106943676",
-          "title": "Steve bought a flat-packed tiny home to save money and time. It has done the opposite"
         }
       ]
     },
