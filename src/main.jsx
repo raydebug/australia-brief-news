@@ -43,7 +43,6 @@ const I18N = {
     reload: "重新读取",
     install: "安装到设备",
     sources: "来源",
-    sourceDifferences: "来源差异",
     readAloud: "朗读",
     stopReading: "停止朗读",
     noMatches: "暂无匹配新闻",
@@ -65,7 +64,6 @@ const I18N = {
     reload: "重新讀取",
     install: "安裝到裝置",
     sources: "來源",
-    sourceDifferences: "來源差異",
     readAloud: "朗讀",
     stopReading: "停止朗讀",
     noMatches: "暫無匹配新聞",
@@ -87,7 +85,6 @@ const I18N = {
     reload: "Reload",
     install: "Install",
     sources: "Sources",
-    sourceDifferences: "Source differences",
     readAloud: "Read aloud",
     stopReading: "Stop reading",
     noMatches: "No matching news",
@@ -109,7 +106,6 @@ const I18N = {
     reload: "再読み込み",
     install: "インストール",
     sources: "ソース",
-    sourceDifferences: "報道の違い",
     readAloud: "読み上げ",
     stopReading: "読み上げを停止",
     noMatches: "一致するニュースはありません",
@@ -131,7 +127,6 @@ const I18N = {
     reload: "다시 읽기",
     install: "설치",
     sources: "출처",
-    sourceDifferences: "보도 차이",
     readAloud: "읽어주기",
     stopReading: "읽기 중지",
     noMatches: "일치하는 뉴스가 없습니다",
@@ -153,7 +148,6 @@ const I18N = {
     reload: "Tải lại",
     install: "Cài đặt",
     sources: "Nguồn",
-    sourceDifferences: "Khác biệt giữa nguồn",
     readAloud: "Đọc thành tiếng",
     stopReading: "Dừng đọc",
     noMatches: "Không có tin phù hợp",
@@ -175,7 +169,6 @@ const I18N = {
     reload: "โหลดใหม่",
     install: "ติดตั้ง",
     sources: "แหล่งข่าว",
-    sourceDifferences: "ความต่างของแหล่งข่าว",
     readAloud: "อ่านออกเสียง",
     stopReading: "หยุดอ่าน",
     noMatches: "ไม่พบข่าวที่ตรงกัน",
@@ -708,7 +701,6 @@ function App() {
 
                   {uniqueDifferences(displayCluster).length > 0 && (
                     <div className="mobile-section">
-                      <h4>{labels.sourceDifferences}</h4>
                       <div className="difference-list">
                         {uniqueDifferences(displayCluster).map((difference) => (
                           <p key={difference}>{difference}</p>
@@ -769,7 +761,6 @@ function App() {
             <div className={`detail-grid ${activeDifferences.length === 0 ? "single-column" : ""}`}>
               {activeDifferences.length > 0 && (
                 <section>
-                  <h3>{labels.sourceDifferences}</h3>
                   <div className="difference-list">
                     {activeDifferences.map((difference) => (
                       <p key={difference}>{difference}</p>
