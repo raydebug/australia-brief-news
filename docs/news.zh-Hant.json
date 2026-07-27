@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T08:20:02Z",
+  "updatedAt": "2026-07-27T09:09:52.513Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,38 @@
     }
   ],
   "errors": [
-    "The Australian、Sky News Australia 仍未提供穩定可解析的公開列表；其餘重點來源已通過 RSS、結構化資料或官方文章頁補齊。"
+    "The Australian 和 Sky News Australia 仍缺少穩定可解析的公開列表；本次更新通過直接文章頁和搜尋結果補足了當前熱點。"
   ],
   "clusters": [
+    {
+      "id": "jewish-security-guns-inquiry",
+      "headline": "猶太社區安保持槍爭議進入皇家委員會聽證",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T07:59:50.000Z",
+      "voiceScript": "新州關於反猶太主義和社會凝聚力的皇家委員會聽證，正在討論是否允許猶太社區安保組織在露天活動中持槍。新州警方副專員認為，這樣做可能被看成對某個群體的偏袒，也會讓社區關係更緊張；支持者則強調大型戶外活動的應對速度和現場風險。這個議題重要，因為它直接牽涉到澳洲反猶太主義、安全資源分配和警方職責邊界。接下來要看聽證會是否會推動更明確的安保規則。",
+      "differences": [
+        "ABC News：把聽證重點放在風險與安保顧問的觀點上，追問為什麼私人安保要被武裝。",
+        "AAP News：強調警方擔心「偏袒」觀感，以及這會加劇社區分裂。",
+        "The Guardian Australia：突出新州警方副專員的反對意見和 CSG 在戶外活動中的持槍爭議。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/bondi-antisemitism-royal-commission-arming-security-guards/106960940",
+          "title": "Royal commission hears support for arming of security guards at Jewish events"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/government-egged-on-anti-semitism-says-jewish-leader",
+          "title": "Police reject proposal to arm private security groups"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/nsw-police-deputy-commissioner-says-letting-jewish-security-group-carry-guns-could-be-seen-as-favouritism-ntwnfb",
+          "title": "NSW police deputy commissioner says letting Jewish security group carry guns could be seen as ‘favouritism’"
+        }
+      ]
+    },
     {
       "id": "ausalert-national-test",
       "headline": "AusAlert 測試後，部分手機仍未收到警報",
@@ -171,6 +200,56 @@
           "source": "7NEWS",
           "url": "https://7news.com.au/news/mixed-reaction-to-ausalert-emergency-message-system-as-test-fails-to-reach-people-c-22634152",
           "title": "‘Nothing happened’: Aussies reveal mixed reaction to nationwide emergency alarm"
+        }
+      ]
+    },
+    {
+      "id": "allan-leadership-crisis",
+      "headline": "雅辛塔·艾伦面临新的领导危机",
+      "sourceCount": 7,
+      "publishedAt": "2026-07-27T07:49:14Z",
+      "voiceScript": "维州工党内部的压力正在公开化，雅辛塔·艾伦被推到风口浪尖。州内几位关键人物已经开了危机会议，眼下争论的不只是她能不能撑住，而是这场内斗会不会拖到下次选举前继续发酵。接下来要看党内数字是否继续变化，还是这场危机会先被按住。",
+      "differences": [
+        "The Age：更聚焦危机会议本身，以及州工党内部对艾伦的直接压力。",
+        "The Guardian Australia：把它放进更大的实时政治背景，强调派系变化和连锁反应。",
+        "9News：把这场风波写成“未来几天内可能见分晓”的时间表，而不是已经结束的挑战。",
+        "SBS News：把這場風波寫成明確的領導權爭奪，強調 Allan 說自己不會退讓。"
+      ],
+      "links": [
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/politics/victoria/jacinta-allan-leadership-challenge-live-updates-victorian-premier-under-threat-as-state-labor-chiefs-hold-crisis-meeting-20260726-p60ip3.html",
+          "title": "Jacinta Allan leadership threat LIVE updates: Victorian Premier under pressure as state Labor chiefs hold crisis meeting"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/27/ausalert-emergency-warning-test-antisemitism-royal-commission-nsw-icac-inquiry-politics-anthony-albanese-labor-angus-taylor-coalition-victoria-jacinta-allan-ntwnfb",
+          "title": "Australia news live: Jacinta Allan loses majority caucus support after meeting of state Labor factions; national AusAlert test to blare siren"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/victorian-premier-jacinta-allan-leadership-challenge-expected-within-days-20260727-p60ir8.html",
+          "title": "Victorian premier expected to face leadership challenge within days"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/premier-faces-leadership-challenge-as-election-looms",
+          "title": "Defiant premier to fight for leadership if challenged"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/another-delegation-of-labor-mps-to-tell-allan-to-resign-20260727-p60iq2",
+          "title": "Victoria’s Premier Jacinta Allan faces resignation demand from Labor MPs ahead of November election"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/victorian-premier-jacinta-allan-future-labor-mps-meet/106960880",
+          "title": "Deputy premier confirms he will run for Victorian Labor leadership"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/jacinta-allan-refuses-to-quit-as-victorian-labor-leadership-fight-erupts/wfqrr0v4v",
+          "title": "Jacinta Allan refuses to quit as Victorian Labor leadership fight erupts"
         }
       ]
     },
@@ -286,6 +365,33 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/matthew-james-cox-court-hearing-alleged-murder-wife-and-baby/104190884",
           "title": "Father faces court hearing for alleged murder of wife and baby"
+        }
+      ]
+    },
+    {
+      "id": "pauline-hanson-verdict",
+      "headline": "保琳·漢森種族歧視上訴被駁回",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T05:59:34.000Z",
+      "voiceScript": "聯邦法院已經駁回了保琳·漢森針對種族歧視裁決的上訴，維持她在一則針對 Mehreen Faruqi 的推文中違反相關法律的認定。這個結果不僅關係她個人的法律責任和未來可能繼續上訴的選擇，也會影響一國黨圍繞移民、種族和言論邊界的政治壓力。案件的重要性在於，它再次劃清了政治表達和種族歧視之間的界線。接下來要看她是否申請向高等法院繼續上訴，以及各方如何回應這項裁決。",
+      "differences": [
+        "The Guardian Australia：把裁決寫成對 Faruqi 的勝訴，並強調法官對 2022 年推文的法律定性。"
+      ],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/pauline-hanson-racial-discrimination-court-case-appeal-verdict-mehreen-faruqi-20260727-p60isj.html",
+          "title": "Pauline Hanson hours away from finding out if social media post was indeed racist"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/racism-verdict-latest-danger-to-pauline-hansons-surge",
+          "title": "Racism verdict latest danger to Pauline Hanson's surge"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb",
+          "title": "Pauline Hanson loses bid to overturn Mehreen Faruqi racial discrimination finding"
         }
       ]
     },
@@ -480,29 +586,6 @@
       ]
     },
     {
-      "id": "pauline-hanson-verdict",
-      "headline": "寶琳·漢森種族歧視上訴結果即將公布",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T23:50:07.156Z",
-      "voiceScript": "寶琳·漢森很快會知道，她針對種族歧視案的上訴是否成功。這件事不只關係一則社交媒體貼文，也會影響一國黨的政治壓力和公眾對政客言論界線的判斷。如果上訴失敗，相關爭議會繼續跟隨她的競選和黨內聲勢；如果成功，圍繞政治表達和傷害性言論的討論也不會結束。接下來要看法院裁決，以及各黨如何回應。",
-      "differences": [
-        "9News：更強調判決即將出爐，以及爭議貼文本身的來龍去脈。",
-        "AAP News：把它放在漢森近期聲勢變化和政治風險裡看。"
-      ],
-      "links": [
-        {
-          "source": "9News",
-          "url": "https://www.nine.com.au/australia-news/pauline-hanson-racial-discrimination-court-case-appeal-verdict-mehreen-faruqi-20260727-p60isj.html",
-          "title": "Pauline Hanson hours away from finding out if social media post was indeed racist"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/racism-verdict-latest-danger-to-pauline-hansons-surge",
-          "title": "Racism verdict latest danger to Pauline Hanson's surge"
-        }
-      ]
-    },
-    {
       "id": "tariffs-pushback",
       "headline": "澳洲就特朗普關稅動作強硬回應",
       "sourceCount": 2,
@@ -552,50 +635,6 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-27/woorabinda-rehab-service-closes/106954156",
           "title": "Remote Qld Indigenous community's only drug and alcohol rehab centre closes"
-        }
-      ]
-    },
-    {
-      "id": "allan-leadership-crisis",
-      "headline": "雅辛塔·艾伦面临新的领导危机",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-26T21:45:55Z",
-      "voiceScript": "维州工党内部的压力正在公开化，雅辛塔·艾伦被推到风口浪尖。州内几位关键人物已经开了危机会议，眼下争论的不只是她能不能撑住，而是这场内斗会不会拖到下次选举前继续发酵。接下来要看党内数字是否继续变化，还是这场危机会先被按住。",
-      "differences": [
-        "The Age：更聚焦危机会议本身，以及州工党内部对艾伦的直接压力。",
-        "The Guardian Australia：把它放进更大的实时政治背景，强调派系变化和连锁反应。",
-        "9News：把这场风波写成“未来几天内可能见分晓”的时间表，而不是已经结束的挑战。"
-      ],
-      "links": [
-        {
-          "source": "The Age",
-          "url": "https://www.theage.com.au/politics/victoria/jacinta-allan-leadership-challenge-live-updates-victorian-premier-under-threat-as-state-labor-chiefs-hold-crisis-meeting-20260726-p60ip3.html",
-          "title": "Jacinta Allan leadership threat LIVE updates: Victorian Premier under pressure as state Labor chiefs hold crisis meeting"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/27/ausalert-emergency-warning-test-antisemitism-royal-commission-nsw-icac-inquiry-politics-anthony-albanese-labor-angus-taylor-coalition-victoria-jacinta-allan-ntwnfb",
-          "title": "Australia news live: Jacinta Allan loses majority caucus support after meeting of state Labor factions; national AusAlert test to blare siren"
-        },
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/vic/victorian-premier-jacinta-allan-leadership-challenge-expected-within-days-20260727-p60ir8.html",
-          "title": "Victorian premier expected to face leadership challenge within days"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/premier-faces-leadership-challenge-as-election-looms",
-          "title": "Defiant premier to fight for leadership if challenged"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/another-delegation-of-labor-mps-to-tell-allan-to-resign-20260727-p60iq2",
-          "title": "Victoria’s Premier Jacinta Allan faces resignation demand from Labor MPs ahead of November election"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/victorian-premier-jacinta-allan-future-labor-mps-meet/106960880",
-          "title": "Deputy premier confirms he will run for Victorian Labor leadership"
         }
       ]
     },
