@@ -293,7 +293,7 @@ p {
   border-radius: 50%;
   display: inline-grid;
   place-items: center;
-  background: #27606a;
+  background: var(--source-color, #27606a);
   color: #fffaf2;
   font-size: 10px;
   font-weight: 800;

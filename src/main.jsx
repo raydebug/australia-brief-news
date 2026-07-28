@@ -404,7 +404,28 @@ const SOURCE_BADGES = {
   "Brisbane Times": "BNE",
   WAtoday: "WA",
   "The Canberra Times": "CBR",
-  AAP: "AAP"
+  AAP: "AAP",
+  "AAP News": "AAP"
+};
+
+const SOURCE_COLORS = {
+  "ABC News": "#111827",
+  "SBS News": "#0f5f6a",
+  "The Guardian Australia": "#052962",
+  "news.com.au": "#7c2d12",
+  "The Australian": "#991b1b",
+  "Yahoo News Australia": "#4c1d95",
+  "Australian Financial Review": "#164e63",
+  "Sky News Australia": "#7f1d1d",
+  "9News": "#1d4ed8",
+  "7NEWS": "#b91c1c",
+  "The Sydney Morning Herald": "#334155",
+  "The Age": "#365314",
+  "Brisbane Times": "#115e59",
+  WAtoday: "#854d0e",
+  "The Canberra Times": "#3730a3",
+  AAP: "#14532d",
+  "AAP News": "#14532d"
 };
 
 function sourceBadge(name) {
@@ -429,9 +450,10 @@ function sourceBadge(name) {
 
 function SourceLogo({ name }) {
   const label = sourceBadge(name);
+  const color = SOURCE_COLORS[name] || "#27606a";
 
   return (
-    <span className="source-logo" aria-label={name}>
+    <span className="source-logo" style={{ "--source-color": color }} aria-label={name}>
       <span className="source-initials">{label}</span>
     </span>
   );
