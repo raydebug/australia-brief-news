@@ -16,9 +16,10 @@
 
 当前语言文件：
 
+- `public/news.en.json`
 - `public/news.zh-Hans.json`
 - `public/news.zh-Hant.json`
-- `public/news.en.json`
+- `public/news.si.json`
 - `public/news.ja.json`
 - `public/news.ko.json`
 - `public/news.vi.json`
@@ -33,7 +34,7 @@ App 默认按当前语言读取当前站点里的 `news.{lang}.json`。如果要
 VITE_NEWS_SOURCE_URL=https://your-site.example/news.{lang}.json
 ```
 
-`{lang}` 会被替换成 `zh-Hans`、`zh-Hant`、`en`、`ja`、`ko`、`vi` 或 `th`。这个地址需要返回与 `public/news.zh-Hans.json` 相同结构的数据。
+`{lang}` 会被替换成 `en`、`zh-Hans`、`zh-Hant`、`si`、`ja`、`ko`、`vi` 或 `th`。这个地址需要返回与 `public/news.zh-Hans.json` 相同结构的数据。
 
 ## 本地预览
 

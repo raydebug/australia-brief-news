@@ -1,4 +1,4 @@
-const CACHE_NAME = "australia-brief-v7";
+const CACHE_NAME = "australia-brief-v8";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -7,6 +7,7 @@ const APP_SHELL = [
   "./news.json",
   "./news.zh-Hans.json",
   "./news.zh-Hant.json",
+  "./news.si.json",
   "./news.en.json",
   "./news.ja.json",
   "./news.ko.json",

@@ -17,9 +17,10 @@ import "./styles.css";
 import "./register-sw.js";
 
 const LANGUAGES = [
+  { code: "en", label: "EN" },
   { code: "zh-Hans", label: "简体" },
   { code: "zh-Hant", label: "繁體" },
-  { code: "en", label: "EN" },
+  { code: "si", label: "සිංහල" },
   { code: "ja", label: "日本語" },
   { code: "ko", label: "한국어" },
   { code: "vi", label: "Tiếng Việt" },
@@ -68,6 +69,27 @@ const I18N = {
     stopReading: "停止朗讀",
     noMatches: "暫無匹配新聞",
     dataError: "暫時讀不到新聞資料。連線後會自動從資料來源重新讀取。"
+  },
+  si: {
+    appName: "ඕස්ට්‍රේලියා කෙටි පුවත්",
+    appSubtitle: "Australia Brief",
+    toolsTitle: "පෙරහන් සහ දත්ත තත්ත්වය",
+    localData: "දේශීය දත්ත",
+    pending: "යාවත්කාලීන වීමට නියමිතයි",
+    online: "සබැඳි",
+    offline: "නොබැඳි",
+    searchPlaceholder: "ශීර්ෂය හෝ සාරාංශය සොයන්න",
+    filterLabel: "පුවත් පෙරහන් කරන්න",
+    all: "සියල්ල",
+    multi: "බහු මූලාශ්‍ර",
+    single: "එක් මූලාශ්‍රයක්",
+    reload: "නැවත පූරණය",
+    install: "ස්ථාපනය",
+    sources: "මූලාශ්‍ර",
+    readAloud: "ශබ්දයෙන් කියවන්න",
+    stopReading: "කියවීම නවත්වන්න",
+    noMatches: "ගැළපෙන පුවත් නැත",
+    dataError: "පුවත් දත්ත තාවකාලිකව ලබාගත නොහැක. සබැඳි වූ විට දත්ත මූලාශ්‍රයෙන් නැවත පූරණය වේ."
   },
   en: {
     appName: "Australia Brief",
@@ -181,6 +203,7 @@ const SPEECH_LANGUAGES = {
   "zh-Hans": "zh-CN",
   "zh-Hant": "zh-TW",
   en: "en-AU",
+  si: "si-LK",
   ja: "ja-JP",
   ko: "ko-KR",
   vi: "vi-VN",
@@ -198,6 +221,10 @@ const SPEECH_VOICE_MATCHERS = {
   en: {
     langs: ["en-au", "en_us", "en-us", "en-gb", "en"],
     names: ["english", "australia", "australian", "samantha", "daniel", "zira", "aria"]
+  },
+  si: {
+    langs: ["si-lk", "si_lk", "si"],
+    names: ["sinhala", "සිංහල"]
   },
   ja: {
     langs: ["ja-jp", "ja_jp", "ja"],
@@ -220,12 +247,13 @@ const SPEECH_VOICE_MATCHERS = {
 function normalizeLanguage(value) {
   const lower = String(value || "").toLowerCase();
   if (lower.startsWith("zh-hant") || lower.includes("tw") || lower.includes("hk")) return "zh-Hant";
+  if (lower.startsWith("si")) return "si";
   if (lower.startsWith("ja")) return "ja";
   if (lower.startsWith("ko")) return "ko";
   if (lower.startsWith("vi")) return "vi";
   if (lower.startsWith("th")) return "th";
   if (lower.startsWith("en")) return "en";
-  return "zh-Hans";
+  return "en";
 }
 
 function initialLanguage() {
