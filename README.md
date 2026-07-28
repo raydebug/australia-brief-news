@@ -1,6 +1,6 @@
-# 澳洲简约新闻
+# 4news
 
-一个适合 GitHub Pages、手机桌面安装和后续 iOS/Android 打包的跨平台新闻 App：
+一个客观、独立、适合 GitHub Pages、手机桌面安装和后续 iOS/Android 打包的跨平台澳洲新闻简报 App：
 
 - 本地拉取多个澳洲新闻来源
 - 自动把相近标题合并成同一新闻簇

@@ -6,7 +6,6 @@ import {
   Download,
   ExternalLink,
   Filter,
-  Globe2,
   Radio,
   RefreshCw,
   Search,
@@ -29,8 +28,8 @@ const LANGUAGES = [
 
 const I18N = {
   "zh-Hans": {
-    appName: "澳洲简约新闻",
-    appSubtitle: "Australia Brief",
+    appName: "4news",
+    appSubtitle: "客观、独立的澳洲新闻简报",
     toolsTitle: "筛选和数据状态",
     localData: "本地数据",
     pending: "待更新",
@@ -53,8 +52,8 @@ const I18N = {
     dataError: "暂时读不到新闻数据。联网后会自动从数据源重新读取。"
   },
   "zh-Hant": {
-    appName: "澳洲簡約新聞",
-    appSubtitle: "Australia Brief",
+    appName: "4news",
+    appSubtitle: "客觀、獨立的澳洲新聞簡報",
     toolsTitle: "篩選和資料狀態",
     localData: "本機資料",
     pending: "待更新",
@@ -77,8 +76,8 @@ const I18N = {
     dataError: "暫時讀不到新聞資料。連線後會自動從資料來源重新讀取。"
   },
   si: {
-    appName: "ඕස්ට්‍රේලියා කෙටි පුවත්",
-    appSubtitle: "Australia Brief",
+    appName: "4news",
+    appSubtitle: "වස්තුනিষ্ঠ, ස්වාධීන ඕස්ට්‍රේලියානු පුවත් සාරාංශය",
     toolsTitle: "පෙරහන් සහ දත්ත තත්ත්වය",
     localData: "දේශීය දත්ත",
     pending: "යාවත්කාලීන වීමට නියමිතයි",
@@ -101,8 +100,8 @@ const I18N = {
     dataError: "පුවත් දත්ත තාවකාලිකව ලබාගත නොහැක. සබැඳි වූ විට දත්ත මූලාශ්‍රයෙන් නැවත පූරණය වේ."
   },
   en: {
-    appName: "Australia Brief",
-    appSubtitle: "Concise Australian news",
+    appName: "4news",
+    appSubtitle: "Objective, independent Australian briefs",
     toolsTitle: "Filters and data status",
     localData: "Local data",
     pending: "Pending",
@@ -125,8 +124,8 @@ const I18N = {
     dataError: "News data is temporarily unavailable. It will reload from the data source when online."
   },
   ja: {
-    appName: "オーストラリア簡潔ニュース",
-    appSubtitle: "Australia Brief",
+    appName: "4news",
+    appSubtitle: "客観的で独立した豪州ニュース要約",
     toolsTitle: "フィルターとデータ状態",
     localData: "ローカルデータ",
     pending: "更新待ち",
@@ -149,8 +148,8 @@ const I18N = {
     dataError: "ニュースデータを一時的に読み込めません。オンラインになるとデータソースから再読み込みします。"
   },
   ko: {
-    appName: "호주 간략 뉴스",
-    appSubtitle: "Australia Brief",
+    appName: "4news",
+    appSubtitle: "객관적이고 독립적인 호주 뉴스 브리핑",
     toolsTitle: "필터 및 데이터 상태",
     localData: "로컬 데이터",
     pending: "업데이트 대기",
@@ -173,8 +172,8 @@ const I18N = {
     dataError: "뉴스 데이터를 일시적으로 읽을 수 없습니다. 온라인 상태가 되면 데이터 소스에서 다시 불러옵니다."
   },
   vi: {
-    appName: "Tin Úc tóm lược",
-    appSubtitle: "Australia Brief",
+    appName: "4news",
+    appSubtitle: "Tin Úc tóm lược, khách quan và độc lập",
     toolsTitle: "Bộ lọc và trạng thái dữ liệu",
     localData: "Dữ liệu cục bộ",
     pending: "Chờ cập nhật",
@@ -197,8 +196,8 @@ const I18N = {
     dataError: "Tạm thời không đọc được dữ liệu tin tức. Khi có mạng, dữ liệu sẽ được tải lại từ nguồn."
   },
   th: {
-    appName: "ข่าวออสเตรเลียแบบย่อ",
-    appSubtitle: "Australia Brief",
+    appName: "4news",
+    appSubtitle: "สรุปข่าวออสเตรเลียที่เป็นกลางและอิสระ",
     toolsTitle: "ตัวกรองและสถานะข้อมูล",
     localData: "ข้อมูลในเครื่อง",
     pending: "รออัปเดต",
@@ -543,7 +542,7 @@ function sourceDisplayName(name) {
 function SourceLogo({ name }) {
   const canonical = canonicalSourceName(name);
   const label = sourceBadge(canonical);
-  const color = SOURCE_COLORS[canonical] || "#27606a";
+  const color = SOURCE_COLORS[canonical] || "#102a43";
 
   return (
     <span className="source-logo" style={{ "--source-color": color }} aria-label={canonical}>
@@ -711,11 +710,11 @@ function App() {
         <div className="brand-row">
           <div className="brand-identity">
             <div className="brand-mark">
-              <Globe2 size={24} />
+              <span>4</span>
             </div>
             <div>
               <h1>{labels.appName}</h1>
-              <span>{labels.appSubtitle}</span>
+              <span className="brand-subtitle">{labels.appSubtitle}</span>
             </div>
           </div>
           <select
