@@ -47,6 +47,7 @@ const I18N = {
     noticeTitle: "内容说明",
     noticeText: "本站只提供基于公开来源事实重新撰写的简报和原始链接，不复制新闻原文、图片、视频、音频或官方标志。",
     readAloud: "朗读",
+    speechUnavailable: "此设备暂无对应语音",
     stopReading: "停止朗读",
     noMatches: "暂无匹配新闻",
     dataError: "暂时读不到新闻数据。联网后会自动从数据源重新读取。"
@@ -70,6 +71,7 @@ const I18N = {
     noticeTitle: "內容說明",
     noticeText: "本站只提供基於公開來源事實重新撰寫的簡報和原始連結，不複製新聞原文、圖片、影片、音訊或官方標誌。",
     readAloud: "朗讀",
+    speechUnavailable: "此裝置暫無對應語音",
     stopReading: "停止朗讀",
     noMatches: "暫無匹配新聞",
     dataError: "暫時讀不到新聞資料。連線後會自動從資料來源重新讀取。"
@@ -93,6 +95,7 @@ const I18N = {
     noticeTitle: "අන්තර්ගත සටහන",
     noticeText: "මෙම අඩවිය පොදු මූලාශ්‍රවලින් තහවුරු කළ කරුණු මත නැවත ලියූ කෙටි පුවත් සහ මුල් සබැඳි පමණක් සපයයි; මුල් පුවත් පෙළ, රූප, වීඩියෝ, ශ්‍රව්‍ය හෝ නිල ලාංඡන පිටපත් නොකරයි.",
     readAloud: "ශබ්දයෙන් කියවන්න",
+    speechUnavailable: "මෙම උපාංගයේ ගැළපෙන හඬක් නොමැත",
     stopReading: "කියවීම නවත්වන්න",
     noMatches: "ගැළපෙන පුවත් නැත",
     dataError: "පුවත් දත්ත තාවකාලිකව ලබාගත නොහැක. සබැඳි වූ විට දත්ත මූලාශ්‍රයෙන් නැවත පූරණය වේ."
@@ -116,6 +119,7 @@ const I18N = {
     noticeTitle: "Content note",
     noticeText: "This site provides rewritten briefings based on facts from public sources plus source links. It does not copy article text, images, video, audio, or official logos.",
     readAloud: "Read aloud",
+    speechUnavailable: "No matching voice on this device",
     stopReading: "Stop reading",
     noMatches: "No matching news",
     dataError: "News data is temporarily unavailable. It will reload from the data source when online."
@@ -139,6 +143,7 @@ const I18N = {
     noticeTitle: "コンテンツ注記",
     noticeText: "このサイトは公開ソースの事実に基づいて書き直した簡報と元リンクのみを提供し、記事本文、画像、動画、音声、公式ロゴはコピーしません。",
     readAloud: "読み上げ",
+    speechUnavailable: "この端末に対応する音声がありません",
     stopReading: "読み上げを停止",
     noMatches: "一致するニュースはありません",
     dataError: "ニュースデータを一時的に読み込めません。オンラインになるとデータソースから再読み込みします。"
@@ -162,6 +167,7 @@ const I18N = {
     noticeTitle: "콘텐츠 안내",
     noticeText: "이 사이트는 공개 출처의 사실을 바탕으로 다시 작성한 브리핑과 원문 링크만 제공하며 기사 본문, 이미지, 동영상, 오디오, 공식 로고를 복사하지 않습니다.",
     readAloud: "읽어주기",
+    speechUnavailable: "이 기기에 맞는 음성이 없습니다",
     stopReading: "읽기 중지",
     noMatches: "일치하는 뉴스가 없습니다",
     dataError: "뉴스 데이터를 일시적으로 읽을 수 없습니다. 온라인 상태가 되면 데이터 소스에서 다시 불러옵니다."
@@ -185,6 +191,7 @@ const I18N = {
     noticeTitle: "Ghi chú nội dung",
     noticeText: "Trang này chỉ cung cấp bản tin được viết lại dựa trên sự kiện từ các nguồn công khai và liên kết gốc; không sao chép văn bản bài báo, hình ảnh, video, âm thanh hoặc logo chính thức.",
     readAloud: "Đọc thành tiếng",
+    speechUnavailable: "Thiết bị này chưa có giọng phù hợp",
     stopReading: "Dừng đọc",
     noMatches: "Không có tin phù hợp",
     dataError: "Tạm thời không đọc được dữ liệu tin tức. Khi có mạng, dữ liệu sẽ được tải lại từ nguồn."
@@ -208,6 +215,7 @@ const I18N = {
     noticeTitle: "หมายเหตุเนื้อหา",
     noticeText: "ไซต์นี้ให้เฉพาะสรุปข่าวที่เขียนใหม่จากข้อเท็จจริงในแหล่งข้อมูลสาธารณะพร้อมลิงก์ต้นทาง ไม่คัดลอกข้อความข่าว รูปภาพ วิดีโอ เสียง หรือโลโก้ทางการ",
     readAloud: "อ่านออกเสียง",
+    speechUnavailable: "อุปกรณ์นี้ไม่มีเสียงที่รองรับ",
     stopReading: "หยุดอ่าน",
     noMatches: "ไม่พบข่าวที่ตรงกัน",
     dataError: "ไม่สามารถอ่านข้อมูลข่าวได้ชั่วคราว เมื่อออนไลน์แล้วจะโหลดข้อมูลใหม่จากแหล่งข่าว"
@@ -259,6 +267,7 @@ const SPEECH_VOICE_MATCHERS = {
     names: ["thai", "ไทย", "kanya", "pattara", "narisa"]
   }
 };
+const STRICT_VOICE_LANGUAGES = new Set(["si"]);
 
 function normalizeLanguage(value) {
   const lower = String(value || "").toLowerCase();
@@ -350,6 +359,11 @@ function pickSpeechVoice(language, locale, voices) {
     normalizedVoices.find(({ lang }) => lang.startsWith(`${primaryLanguage}-`))?.voice ||
     null
   );
+}
+
+function hasSpeechVoice(language, voices) {
+  if (!STRICT_VOICE_LANGUAGES.has(language)) return true;
+  return Boolean(pickSpeechVoice(language, speechLocale(language), voices));
 }
 
 function isRecentCluster(cluster) {
@@ -556,8 +570,20 @@ function App() {
     setInstallPrompt(null);
   }
 
+  function canReadCluster(cluster) {
+    const clusterLanguage = cluster?.language || language;
+    return canSpeak && Boolean(cluster?.voiceScript) && hasSpeechVoice(clusterLanguage, speechVoices);
+  }
+
+  function speechButtonState(cluster) {
+    const canRead = canReadCluster(cluster);
+    const active = speakingId === cluster?.id;
+    const label = !canRead ? labels.speechUnavailable : active ? labels.stopReading : labels.readAloud;
+    return { canRead, active, label };
+  }
+
   function readCluster(cluster) {
-    if (!canSpeak || !cluster?.voiceScript) return;
+    if (!canReadCluster(cluster)) return;
 
     if (speakingId === cluster.id) {
       window.speechSynthesis.cancel();
@@ -719,6 +745,7 @@ function App() {
         <div className="cluster-list">
           {clusters.map((cluster) => {
             const displayCluster = { ...cluster, language };
+            const speechState = speechButtonState(displayCluster);
 
             return (
               <article
@@ -739,12 +766,12 @@ function App() {
                     <h3>{displayCluster.headline}</h3>
                   </button>
                   <button
-                    className={`icon-button compact card-speak-button ${speakingId === cluster.id ? "active" : ""}`}
+                    className={`icon-button compact card-speak-button ${speechState.active ? "active" : ""}`}
                     onClick={() => readCluster(displayCluster)}
-                    disabled={!canSpeak}
-                    title={speakingId === cluster.id ? labels.stopReading : labels.readAloud}
-                    aria-label={speakingId === cluster.id ? labels.stopReading : labels.readAloud}
-                    aria-pressed={speakingId === cluster.id}
+                    disabled={!speechState.canRead}
+                    title={speechState.label}
+                    aria-label={speechState.label}
+                    aria-pressed={speechState.active}
                   >
                     <Volume2 size={17} />
                   </button>
@@ -766,12 +793,12 @@ function App() {
                   <div className="mobile-section">
                     <div className="mobile-script-header">
                       <button
-                        className={`icon-button compact ${speakingId === cluster.id ? "active" : ""}`}
+                        className={`icon-button compact ${speechState.active ? "active" : ""}`}
                         onClick={() => readCluster(displayCluster)}
-                        disabled={!canSpeak}
-                        title={speakingId === cluster.id ? labels.stopReading : labels.readAloud}
-                        aria-label={speakingId === cluster.id ? labels.stopReading : labels.readAloud}
-                        aria-pressed={speakingId === cluster.id}
+                        disabled={!speechState.canRead}
+                        title={speechState.label}
+                        aria-label={speechState.label}
+                        aria-pressed={speechState.active}
                       >
                         <Volume2 size={17} />
                       </button>
@@ -817,18 +844,21 @@ function App() {
 
       <section className="detail-pane">
         {displayActive ? (
+          (() => {
+            const speechState = speechButtonState(displayActive);
+            return (
           <>
             <div className="detail-top">
               <div>
                 <h2>{displayActive.headline}</h2>
               </div>
               <button
-                className={`icon-button ${speakingId === displayActive.id ? "active" : ""}`}
+                className={`icon-button ${speechState.active ? "active" : ""}`}
                 onClick={() => readCluster(displayActive)}
-                disabled={!canSpeak}
-                title={speakingId === displayActive.id ? labels.stopReading : labels.readAloud}
-                aria-label={speakingId === displayActive.id ? labels.stopReading : labels.readAloud}
-                aria-pressed={speakingId === displayActive.id}
+                disabled={!speechState.canRead}
+                title={speechState.label}
+                aria-label={speechState.label}
+                aria-pressed={speechState.active}
               >
                 <Volume2 size={19} />
               </button>
@@ -862,6 +892,8 @@ function App() {
               </section>
             </div>
           </>
+            );
+          })()
         ) : (
           <div className="empty-state">{labels.noMatches}</div>
         )}
