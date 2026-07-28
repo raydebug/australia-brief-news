@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import {
   ChevronDown,
@@ -566,6 +566,7 @@ function App() {
   const [language, setLanguage] = useState(initialLanguage);
   const [speakingId, setSpeakingId] = useState(null);
   const [speechVoices, setSpeechVoices] = useState([]);
+  const speechRunRef = useRef(0);
 
   const labels = I18N[language];
   const activeNewsSourceUrl = newsSourceUrl(language);
@@ -592,6 +593,7 @@ function App() {
     window.localStorage.setItem("brief-language", language);
     document.documentElement.lang = language;
     if (canSpeak) {
+      speechRunRef.current += 1;
       window.speechSynthesis.cancel();
       setSpeakingId(null);
     }
@@ -599,6 +601,7 @@ function App() {
 
   useEffect(() => {
     return () => {
+      speechRunRef.current += 1;
       if (canSpeak) window.speechSynthesis.cancel();
     };
   }, []);
@@ -664,11 +667,22 @@ function App() {
     if (!canReadCluster(cluster)) return;
 
     if (speakingId === cluster.id) {
+      speechRunRef.current += 1;
       window.speechSynthesis.cancel();
       setSpeakingId(null);
       return;
     }
 
+    startReading(cluster, speechRunRef.current + 1);
+  }
+
+  function startReading(cluster, runId) {
+    if (!canReadCluster(cluster)) {
+      setSpeakingId(null);
+      return;
+    }
+
+    speechRunRef.current = runId;
     window.speechSynthesis.cancel();
 
     const locale = speechLocale(cluster.language || language);
@@ -676,8 +690,24 @@ function App() {
     utterance.lang = locale;
     utterance.rate = (cluster.language || language) === "en" ? 1 : 0.95;
     utterance.voice = pickSpeechVoice(cluster.language || language, locale, speechVoices);
-    utterance.onend = () => setSpeakingId(null);
-    utterance.onerror = () => setSpeakingId(null);
+    utterance.onend = () => {
+      if (speechRunRef.current !== runId) return;
+
+      const currentIndex = clusters.findIndex((item) => item.id === cluster.id);
+      const nextCluster = clusters.slice(currentIndex + 1).find((item) => canReadCluster({ ...item, language }));
+
+      if (!nextCluster) {
+        setSpeakingId(null);
+        return;
+      }
+
+      const displayNext = { ...nextCluster, language };
+      setActiveId(displayNext.id);
+      startReading(displayNext, runId);
+    };
+    utterance.onerror = () => {
+      if (speechRunRef.current === runId) setSpeakingId(null);
+    };
 
     setSpeakingId(cluster.id);
     window.speechSynthesis.speak(utterance);
