@@ -508,13 +508,6 @@ p {
   flex-basis: 36px;
 }
 
-.mobile-script-header {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 12px;
-}
-
 .script-panel {
   background: rgba(255, 255, 255, 0.94);
   border: 1px solid var(--line);

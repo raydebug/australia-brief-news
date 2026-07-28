@@ -869,18 +869,6 @@ function App() {
               {cluster.id === expandedId && (
                 <div className="mobile-card-detail">
                   <div className="mobile-section">
-                    <div className="mobile-script-header">
-                      <button
-                        className={`icon-button compact ${speechState.active ? "active" : ""}`}
-                        onClick={() => readCluster(displayCluster)}
-                        disabled={!speechState.canRead}
-                        title={speechState.label}
-                        aria-label={speechState.label}
-                        aria-pressed={speechState.active}
-                      >
-                        <Volume2 size={17} />
-                      </button>
-                    </div>
                     <p>{displayCluster.voiceScript}</p>
                   </div>
 
