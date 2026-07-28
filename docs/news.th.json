@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T18:04:21Z",
+  "updatedAt": "2026-07-28T19:15:39Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,108 @@
     }
   ],
   "errors": [
-    "ในการตรวจสอบรอบนี้ บางหน้าล่าสุดตอบกลับ 403/429/404; ข่าวใหม่จะยังคงตรวจสอบทีละหน้าบทความ"
+    "The Australian returned 403, Yahoo News Australia returned 429, and Sky News Australia's latest page returned 404 during verification; news.com.au article-page checks still need follow-up for a few fresh pulls."
   ],
   "clusters": [
+    {
+      "id": "non-market-sector-debate",
+      "headline": "ABS อธิบายว่าภาคนอกตลาดมีความสำคัญอย่างไร",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T18:41:55Z",
+      "voiceScript": "ABS ระบุว่าการถกเถียงเรื่อง “ภาคนอกตลาด” ในออสเตรเลียกำลังสับสน เพราะหลายคนใช้คำนี้แทนภาครัฐหรือราชการ ทั้งที่ไม่ใช่สิ่งเดียวกัน รายงานชี้ว่าการดูแลเด็ก สาธารณสุข และการศึกษาเป็นแกนหลักของแรงงานกลุ่มนี้ และการมีส่วนร่วมที่เพิ่มขึ้นกำลังดันความต้องการให้สูงขึ้น เรื่องนี้สำคัญเพราะโยงโดยตรงกับการจ้างงานและการถกเถียงเรื่องผลิตภาพ ขั้นต่อไปคือดูว่าผู้กำหนดนโยบายจะแยกการเมืองออกจากข้อมูลตลาดแรงงานได้หรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/australia-non-market-sector-employment-abs-private-public-sector/106961638"
+        }
+      ]
+    },
+    {
+      "id": "supermarket-health-claims",
+      "headline": "คำโฆษณา “สุขภาพดี” ในซูเปอร์มาร์เก็ตถูกจับตาอีกครั้ง",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T18:38:16Z",
+      "voiceScript": "ABC รายงานว่านักการตลาดอาหารกำลังใช้คำอ้างด้านสุขภาพและการออกแบบบรรจุภัณฑ์ เพื่อทำให้สินค้าที่ผ่านการแปรรูปหนักดูดีต่อสุขภาพกว่าความเป็นจริง เรื่องนี้โฟกัสที่ตำแหน่งวางสินค้า คำบนหน้าซอง และภาพลักษณ์ของแบรนด์ ซึ่งอาจชี้นำผู้ซื้อก่อนที่พวกเขาจะดูส่วนผสมด้วยซ้ำ ประเด็นนี้สำคัญเพราะซูเปอร์มาร์เก็ตคือที่ที่ชาวออสเตรเลียส่วนใหญ่ซื้ออาหารประจำวัน และสัญญาณบนแพ็กเกจมีผลต่อการตัดสินใจของครัวเรือนมาก ขั้นต่อไปคือดูว่าการติดฉลากให้ชัดขึ้นหรือกฎที่เข้มขึ้นจะช่วยลดผลของคำโฆษณาเหล่านี้ได้จริงหรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/processed-food-marketing-fooling-shoppers-over-health-claims/106961954"
+        }
+      ]
+    },
+    {
+      "id": "rba-rate-rise-warning",
+      "headline": "RBA เตือนความเสี่ยงเงินเฟ้อ ยังมีโอกาสขึ้นดอกเบี้ยอีก",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-28T17:30:00Z",
+      "voiceScript": "ผู้ว่าการธนาคารกลางออสเตรเลีย Michele Bullock เตือนว่าเงินเฟ้อยังสูงพอที่จะทำให้การขึ้นดอกเบี้ยอีกครั้งยังเป็นไปได้ เธอบอกว่าธนาคารกำลังจับตาแรงกระแทกด้านอุปทาน ผลผลิตที่อ่อนแอ และอุปสงค์ที่ชะลอลง โดยตัวเลขเงินเฟ้อรอบถัดไปและการตัดสินใจวันที่ 11 สิงหาคมเป็นจุดสำคัญ เรื่องนี้สำคัญเพราะราคาน้ำมันที่สูงขึ้นและแรงกระแทกจากภายนอกอื่น ๆ ยังค่อย ๆ ส่งผ่านไปถึงครัวเรือนและธุรกิจ หากตัวเลขเงินเฟ้อครั้งหน้าออกมาร้อนแรง ดอกเบี้ยอาจปรับขึ้นอีกครั้ง",
+      "differences": [
+        "ABC News เน้นแรงกระแทกด้านอุปทานและท่าทีพร้อมดำเนินการของ RBA.",
+        "news.com.au เน้นแรงกดดันค่าครองชีพของครัวเรือนและโอกาสที่ดอกเบี้ยจะขึ้นอีก.",
+        "The Australian มองว่านี่คือความเสี่ยงแบบ stagflation ที่โยงกับผลผลิตอ่อนแอและการเติบโตชะลอ.",
+        "AAP เน้นตัวเลขเงินเฟ้อไตรมาสมิถุนายนและค่าคาดการณ์ trimmed mean ที่ 3.7%"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/rba-governor-warns-world-facing-increased-supply-shocks/106965644"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/interest-rates/reserve-bank-governor-signals-further-rate-hikes-to-tackle-high-cost-of-living/news-story/71532bf57e410fd9380e4d32ad2ffa9d"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/politics/reserve-bank-governor-michele-bullock-warns-of-additional-rate-hikes-to-tame-inflation/news-story/1c0f2e4fbbb3dea0804166caaf0cf359"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/next-rba-rate-call-hinges-on-crucial-inflation-data"
+        }
+      ]
+    },
+    {
+      "id": "mortgage-offset-errors",
+      "headline": "ข้อผิดพลาดบัญชีหักกลบทำให้ผู้กู้บ้านพลาดเงินออม",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T17:30:00Z",
+      "voiceScript": "หน่วยงานกำกับดูแลของออสเตรเลียระบุว่า ความผิดพลาดในการจัดการบัญชีหักกลบสินเชื่อบ้านของธนาคารหลายแห่ง ทำให้ผู้กู้จ่ายดอกเบี้ยเกินไปประมาณ 55 ล้านดอลลาร์ออสเตรเลียภายในสองปี การตรวจสอบสินเชื่อบ้านมากกว่า 200,000 รายการในธนาคารแปดแห่งพบว่ามีบางบัญชีถูกตัดการเชื่อมต่อหรือเปิดใช้งานผิด ทำให้ลูกค้าไม่ได้รับเงินออมที่ควรช่วยลดค่างวด เรื่องนี้สำคัญเพราะบัญชีหักกลบเป็นวิธีที่ใช้กันมากเพื่อลดต้นทุนบ้าน และข้อผิดพลาดที่ซ่อนอยู่ทำให้ระยะเวลาผ่อนยาวขึ้นได้ คำถามต่อไปคือธนาคารจะซ่อมระบบและคืนเงินให้ลูกค้าที่ได้รับผลกระทบได้เร็วแค่ไหน",
+      "differences": [
+        "ข่าวหนึ่งเน้นว่าผู้กู้บ้านพลาดเงินออมจากบัญชีหักกลบ",
+        "อีกข่าวเน้นตัวเลขคืนเงิน 55 ล้านดอลลาร์ออสเตรเลียและขอบเขตการตรวจสอบ",
+        "AAP ระบุว่าธนาคารบางแห่งเชื่อมบัญชีออฟเซ็ตกับสินเชื่อบ้านไม่ถูกต้อง ทำให้ลูกค้าต้องจ่ายเงินเกินไป"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/bank-errors-costing-homebuyers-millions-in-overcharges"
+        }
+      ]
+    },
+    {
+      "id": "migration-plummets-post-pandemic-record-highs",
+      "headline": "การย้ายถิ่นสุทธิลดลงต่อเนื่องจากจุดสูงหลังโควิด",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T17:30:00Z",
+      "voiceScript": "AAP ระบุว่าการย้ายถิ่นสุทธิของออสเตรเลียลดลงอย่างมากจากจุดสูงสุดในปี 2023 โดยการวิเคราะห์ของ CEDA ชี้ว่าลดลงราว 45% จากประมาณ 555,800 คนเหลือ 301,000 คน และอาจลดต่อไปเหลือ 225,000 คนในปีงบประมาณ 2027/28 เรื่องนี้สำคัญเพราะการย้ายถิ่นโยงกับแรงกดดันด้านที่อยู่อาศัย ความต้องการโครงสร้างพื้นฐาน และการเมืองเรื่องจำนวนประชากรโดยตรง คำถามถัดไปคือ ตัวเลขจะลดลงอีกแค่ไหนเมื่อขาเข้ากลับสู่ภาวะปกติและคนออกจากประเทศมากขึ้น",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
+        }
+      ]
+    },
     {
       "id": "qantas-project-sunrise-test-flight",
       "headline": "เที่ยวบินทดสอบของ Qantas ทำให้ Project Sunrise ใกล้เปิดให้บริการขึ้นอีกขั้น",
@@ -151,23 +250,37 @@
       ]
     },
     {
-      "id": "mortgage-offset-errors",
-      "headline": "ข้อผิดพลาดบัญชีหักกลบทำให้ผู้กู้บ้านพลาดเงินออม",
+      "id": "angus-taylor-approval-plateau",
+      "headline": "ผลสำรวจทำให้ Angus Taylor อ่อนแรงลง ขณะที่ One Nation ชะลอตัว",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T15:00:09Z",
+      "voiceScript": "The Guardian รายงานว่าผลสำรวจล่าสุดทำให้คะแนนนิยมของ Angus Taylor ลดลง และชี้ว่าแรงสนับสนุน One Nation ไม่ได้เพิ่มต่อแล้ว ตัวเลขเหล่านี้สำคัญเพราะจะมีผลต่อวิธีที่สองพรรคใหญ่พูดถึงดีลคะแนนพิเศษ ผู้มีสิทธิ์เลือกที่ต่อต้านระบบ และฉากทัศน์รัฐบาลเสียงข้างน้อย สิ่งที่ยังไม่ชัดคือ นี่เป็นเพียงภาพชั่วคราวหรือเป็นสัญญาณของการเปลี่ยนแปลงทางการเมืองระดับประเทศที่กว้างกว่า ตอนนี้ Taylor ยังพยายามประคองข้อความของ Coalition ส่วน One Nation ก็ยังใกล้พอที่จะมีผลต่อเกมการเมือง",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/guardian-essential-poll-angus-taylors-approval-rating-crashes-and-one-nation-support-plateaus"
+        }
+      ]
+    },
+    {
+      "id": "angus-taylor-icac-donation-probe",
+      "headline": "คดีสอบสวนคอร์รัปชันใน NSW ดึง Angus Taylor เข้าสู่ข้อกังขาเรื่องเงินบริจาค",
       "sourceCount": 2,
-      "publishedAt": "2026-07-28T14:01:05Z",
-      "voiceScript": "หน่วยงานกำกับดูแลของออสเตรเลียระบุว่า ความผิดพลาดในการจัดการบัญชีหักกลบสินเชื่อบ้านของธนาคารหลายแห่ง ทำให้ผู้กู้จ่ายดอกเบี้ยเกินไปประมาณ 55 ล้านดอลลาร์ออสเตรเลียภายในสองปี การตรวจสอบสินเชื่อบ้านมากกว่า 200,000 รายการในธนาคารแปดแห่งพบว่ามีบางบัญชีถูกตัดการเชื่อมต่อหรือเปิดใช้งานผิด ทำให้ลูกค้าไม่ได้รับเงินออมที่ควรช่วยลดค่างวด เรื่องนี้สำคัญเพราะบัญชีหักกลบเป็นวิธีที่ใช้กันมากเพื่อลดต้นทุนบ้าน และข้อผิดพลาดที่ซ่อนอยู่ทำให้ระยะเวลาผ่อนยาวขึ้นได้ คำถามต่อไปคือธนาคารจะซ่อมระบบและคืนเงินให้ลูกค้าที่ได้รับผลกระทบได้เร็วแค่ไหน",
+      "publishedAt": "2026-07-28T15:00:06Z",
+      "voiceScript": "การไต่สวนของ ICAC เกี่ยวกับการระดมทุนของพรรค Liberal ใน NSW ขยับเข้าใกล้ Angus Taylor มากขึ้น หลังมีหลักฐานว่ากลุ่ม Reformers เคยคุยกันเรื่องขอรับเงินบริจาคจากเขา การพิจารณาคดีกำลังตรวจสอบการจ่ายเงินที่อาจผิดกฎหมาย การเพิ่มสมาชิกแบบจัดฉาก และสัญญาที่ปรึกษาปลอมซึ่งโยงกับฝ่ายขวาจัดในพรรค เรื่องนี้สำคัญเพราะการสอบสวนได้แตะไปถึงหัวหน้าฝ่ายค้านระดับชาติและอาจเพิ่มแรงกดดันต่อ NSW Liberals อีกมาก คำถามสำคัญคือหลักฐานจะนำไปสู่ข้อสรุปอย่างเป็นทางการหรือสร้างความเสียหายทางการเมืองมากขึ้นเท่านั้น",
       "differences": [
-        "ข่าวหนึ่งเน้นว่าผู้กู้บ้านพลาดเงินออมจากบัญชีหักกลบ",
-        "อีกข่าวเน้นตัวเลขคืนเงิน 55 ล้านดอลลาร์ออสเตรเลียและขอบเขตการตรวจสอบ"
+        "The Guardian บอกว่า Taylor ถูกดึงเข้าสู่การไต่สวนและผลกระทบอาจรุนแรงมาก",
+        "AAP เน้นหลักฐานว่ากลุ่ม Reformers วางแผนจะขอเงินบริจาค 10,000 ดอลลาร์ออสเตรเลียจาก Taylor"
       ],
       "links": [
         {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/angus-taylor-centre-stage-in-icac-hearing-fall-out-could-be-profound-ntwnfb"
         },
         {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/disgusted-pub-mogul-disavows-liberals-donation-aims"
         }
       ]
     },
@@ -638,32 +751,6 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/nsw-icac-operation-rosny-michael-ohara-reformer-liberals/106964276"
-        }
-      ]
-    },
-    {
-      "id": "rba-rate-rise-warning",
-      "headline": "RBA เตือนความเสี่ยงเงินเฟ้อ ยังมีโอกาสขึ้นดอกเบี้ยอีก",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-28T03:19:00.000Z",
-      "voiceScript": "ผู้ว่าการธนาคารกลางออสเตรเลีย Michele Bullock เตือนว่าเงินเฟ้อยังสูงพอที่จะทำให้การขึ้นดอกเบี้ยอีกครั้งยังเป็นไปได้ เธอบอกว่าธนาคารกำลังจับตาแรงกระแทกด้านอุปทาน ผลผลิตที่อ่อนแอ และอุปสงค์ที่ชะลอลง โดยตัวเลขเงินเฟ้อรอบถัดไปและการตัดสินใจวันที่ 11 สิงหาคมเป็นจุดสำคัญ เรื่องนี้สำคัญเพราะราคาน้ำมันที่สูงขึ้นและแรงกระแทกจากภายนอกอื่น ๆ ยังค่อย ๆ ส่งผ่านไปถึงครัวเรือนและธุรกิจ หากตัวเลขเงินเฟ้อครั้งหน้าออกมาร้อนแรง ดอกเบี้ยอาจปรับขึ้นอีกครั้ง",
-      "differences": [
-        "ABC News เน้นแรงกระแทกด้านอุปทานและท่าทีพร้อมดำเนินการของ RBA.",
-        "news.com.au เน้นแรงกดดันค่าครองชีพของครัวเรือนและโอกาสที่ดอกเบี้ยจะขึ้นอีก.",
-        "The Australian มองว่านี่คือความเสี่ยงแบบ stagflation ที่โยงกับผลผลิตอ่อนแอและการเติบโตชะลอ."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/rba-governor-warns-world-facing-increased-supply-shocks/106965644"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/economy/interest-rates/reserve-bank-governor-signals-further-rate-hikes-to-tackle-high-cost-of-living/news-story/71532bf57e410fd9380e4d32ad2ffa9d"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/nation/politics/reserve-bank-governor-michele-bullock-warns-of-additional-rate-hikes-to-tame-inflation/news-story/1c0f2e4fbbb3dea0804166caaf0cf359"
         }
       ]
     },
@@ -1337,20 +1424,6 @@
       ]
     },
     {
-      "id": "housing-rules-rethink",
-      "headline": "กฎเกณฑ์ด้านที่อยู่อาศัยของออสเตรเลียกำลังชะลอการสร้างอาคารใหม่",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "คณะกรรมการเพิ่มผลผลิตต้องการทบทวนกฎการวางแผนและการอนุมัติที่ระบุว่ากำลังชะลอการก่อสร้างที่อยู่อาศัย ความล่าช้า มาตรฐานที่ไม่สอดคล้องกัน และค่าใช้จ่ายในการปฏิบัติตามข้อกำหนด ทำให้การจัดหาให้ทันความต้องการได้ยากขึ้น เป็นเรื่องสำคัญเนื่องจากจะป้อนค่าเช่า ราคาบ้านโดยตรง และประสิทธิภาพของภาคอาคารที่สามารถทำงานได้ คำถามต่อไปคือรัฐบาลกลางและรัฐบาลของรัฐเปลี่ยนข้อเสนอแนะเป็นการปฏิรูปที่เป็นรูปธรรมหรือไม่",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506"
-        }
-      ]
-    },
-    {
       "id": "wa-oil-refinery",
       "headline": "WA สามารถเป็นเจ้าภาพโรงกลั่นแห่งใหม่แห่งแรกของออสเตรเลียในรอบหลายทศวรรษ",
       "sourceCount": 3,
@@ -1373,6 +1446,20 @@
         {
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
+        }
+      ]
+    },
+    {
+      "id": "housing-rules-rethink",
+      "headline": "กฎเกณฑ์ด้านที่อยู่อาศัยของออสเตรเลียกำลังชะลอการสร้างอาคารใหม่",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "คณะกรรมการเพิ่มผลผลิตต้องการทบทวนกฎการวางแผนและการอนุมัติที่ระบุว่ากำลังชะลอการก่อสร้างที่อยู่อาศัย ความล่าช้า มาตรฐานที่ไม่สอดคล้องกัน และค่าใช้จ่ายในการปฏิบัติตามข้อกำหนด ทำให้การจัดหาให้ทันความต้องการได้ยากขึ้น เป็นเรื่องสำคัญเนื่องจากจะป้อนค่าเช่า ราคาบ้านโดยตรง และประสิทธิภาพของภาคอาคารที่สามารถทำงานได้ คำถามต่อไปคือรัฐบาลกลางและรัฐบาลของรัฐเปลี่ยนข้อเสนอแนะเป็นการปฏิรูปที่เป็นรูปธรรมหรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506"
         }
       ]
     },
@@ -1964,20 +2051,6 @@
       ]
     },
     {
-      "id": "brisbane-gpo-tower",
-      "headline": "อาคารสำนักงานสูง 40 ชั้นวางแผนอยู่ข้างๆ GPO ของบริสเบน",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-24T10:00:00+10:00",
-      "voiceScript": "ย่านศูนย์กลางธุรกิจของบริสเบนกำลังได้รับข้อเสนอการพัฒนาที่สำคัญอีกประการหนึ่ง โดยมีอาคารสำนักงานสูง 40 ชั้นซึ่งวางแผนไว้ถัดจาก GPO โครงการนี้ยังรวมถึงพื้นที่สาธารณะในระดับถนนด้วย และจะเข้ามาแทนที่ Edison Exchange ในปัจจุบัน ดังนั้นนี่จึงไม่ใช่แค่เรื่องความสูงเท่านั้น นอกจากนี้ยังเกี่ยวกับวิธีที่ CBD ดูดซับการเติบโตเชิงพาณิชย์อีกด้วย คำถามต่อไปก็คือ การวางแผนและการอนุมัติการออกแบบดำเนินไปอย่างราบรื่นหรือไม่ และหอคอยแห่งนี้เข้ากับเรื่องราวในยุคโอลิมปิกของเมืองได้อย่างไร",
-      "differences": [],
-      "links": [
-        {
-          "source": "Brisbane Times",
-          "url": "https://www.brisbanetimes.com.au/national/queensland/40-storey-office-tower-to-be-built-next-to-brisbane-s-gpo-20260724-p60idr.html"
-        }
-      ]
-    },
-    {
       "id": "labor-conference-pay-package",
       "headline": "การประชุมแรงงานผลักดันสวัสดิการคนงานเยาวชนและศาลยุติธรรม",
       "sourceCount": 3,
@@ -1996,6 +2069,20 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/work/leaders/anthony-albanese-to-speak-at-alp-conference-as-beer-tax-debate-rages/live-coverage/43ba1e0bb2ec2e5eb33be9f30f299134"
+        }
+      ]
+    },
+    {
+      "id": "brisbane-gpo-tower",
+      "headline": "อาคารสำนักงานสูง 40 ชั้นวางแผนอยู่ข้างๆ GPO ของบริสเบน",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T10:00:00+10:00",
+      "voiceScript": "ย่านศูนย์กลางธุรกิจของบริสเบนกำลังได้รับข้อเสนอการพัฒนาที่สำคัญอีกประการหนึ่ง โดยมีอาคารสำนักงานสูง 40 ชั้นซึ่งวางแผนไว้ถัดจาก GPO โครงการนี้ยังรวมถึงพื้นที่สาธารณะในระดับถนนด้วย และจะเข้ามาแทนที่ Edison Exchange ในปัจจุบัน ดังนั้นนี่จึงไม่ใช่แค่เรื่องความสูงเท่านั้น นอกจากนี้ยังเกี่ยวกับวิธีที่ CBD ดูดซับการเติบโตเชิงพาณิชย์อีกด้วย คำถามต่อไปก็คือ การวางแผนและการอนุมัติการออกแบบดำเนินไปอย่างราบรื่นหรือไม่ และหอคอยแห่งนี้เข้ากับเรื่องราวในยุคโอลิมปิกของเมืองได้อย่างไร",
+      "differences": [],
+      "links": [
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/40-storey-office-tower-to-be-built-next-to-brisbane-s-gpo-20260724-p60idr.html"
         }
       ]
     },

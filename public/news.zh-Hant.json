@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T18:04:21Z",
+  "updatedAt": "2026-07-28T19:15:39Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,108 @@
     }
   ],
   "errors": [
-    "本輪驗證中有少數來源頁返回 403/429/404；新稿仍會優先經由文章頁逐條核驗。"
+    "The Australian returned 403, Yahoo News Australia returned 429, and Sky News Australia's latest page returned 404 during verification; news.com.au article-page checks still need follow-up for a few fresh pulls."
   ],
   "clusters": [
+    {
+      "id": "non-market-sector-debate",
+      "headline": "ABS澄清「非市場部門」並不等於公共部門",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T18:41:55Z",
+      "voiceScript": "澳洲統計局說，外界對「非市場部門」的討論常常把它和公共部門混為一談。報導指出，兒童照護、醫療和教育是這個勞動力板塊的重要組成，而更高的參與率正在推高相關需求。這個話題重要，因為它直接關係到就業成長和生產力爭論。接下來要看政策討論能否回到數據本身，而不是停留在口號。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/australia-non-market-sector-employment-abs-private-public-sector/106961638"
+        }
+      ]
+    },
+    {
+      "id": "supermarket-health-claims",
+      "headline": "超市「健康」宣傳再次受到質疑",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T18:38:16Z",
+      "voiceScript": "ABC報導，食品行銷正在利用健康宣稱和包裝設計，把高度加工的產品包裝得更像健康選擇。報導關注的是貨架位置、正面措辭和品牌形象會怎樣影響消費者，而不只是配料表本身。這個問題重要，因為大多數澳洲人日常買食物都在超市完成，包裝上的提示會直接影響家庭選擇。接下來要看更清楚的標籤或更嚴格的規則能不能真正起作用。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/processed-food-marketing-fooling-shoppers-over-health-claims/106961954"
+        }
+      ]
+    },
+    {
+      "id": "rba-rate-rise-warning",
+      "headline": "RBA 警告通膨風險，進一步加息仍可能發生",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-28T17:30:00Z",
+      "voiceScript": "澳洲儲備銀行行長 Michele Bullock 警告，通膨仍高到足以讓再次加息繼續擺在桌面上。她表示，央行正在關注供給衝擊、生產力疲弱與需求放緩，並把下一次通膨數據與 8 月 11 日的決定視為關鍵節點。這項提醒很重要，因為更高的燃油成本與其他外部衝擊仍在逐步傳導到家庭與企業，而 RBA 必須在壓低通膨與維持就業之間取得平衡。如果接下來的通膨數據依然偏熱，利率就可能再次上調。",
+      "differences": [
+        "ABC News 側重供給衝擊以及 RBA 視情況採取行動的態度。",
+        "news.com.au 強調這對家庭生活成本意味著更多加息壓力。",
+        "The Australian 把這一判斷描述為與生產力偏弱和增長放緩相關的滯脹風險。",
+        "AAP 重點放在即將公布的六月季度通膨數據，以及 3.7% 的截尾均值預測。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/rba-governor-warns-world-facing-increased-supply-shocks/106965644"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/interest-rates/reserve-bank-governor-signals-further-rate-hikes-to-tackle-high-cost-of-living/news-story/71532bf57e410fd9380e4d32ad2ffa9d"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/politics/reserve-bank-governor-michele-bullock-warns-of-additional-rate-hikes-to-tame-inflation/news-story/1c0f2e4fbbb3dea0804166caaf0cf359"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/next-rba-rate-call-hinges-on-crucial-inflation-data"
+        }
+      ]
+    },
+    {
+      "id": "mortgage-offset-errors",
+      "headline": "房貸對沖帳戶失誤讓借款人少省了錢",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T17:30:00Z",
+      "voiceScript": "澳洲證券監管機構說，幾家銀行的房貸對沖帳戶處理失誤，讓借款人在兩年裡多付了約 5500 萬澳元利息。監管機構檢查了八家銀行超過 20 萬筆房貸，發現有些帳戶被解除連結或設定錯誤，結果客戶沒能得到本來應該減輕還款壓力的節省。這件事重要，因為對沖帳戶本來就是許多家庭壓低房貸成本的工具，而隱藏錯誤會把還款週期拉長。接下來要看銀行多久能修正系統並補償受影響客戶。",
+      "differences": [
+        "一篇報導側重借款人少拿到的節省。",
+        "另一篇報導更強調 5500 萬澳元的返還和審查規模。",
+        "AAP 提到，部分銀行未能把 offset 帳戶和房貸正確關聯，導致客戶被多收利息。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/bank-errors-costing-homebuyers-millions-in-overcharges"
+        }
+      ]
+    },
+    {
+      "id": "migration-plummets-post-pandemic-record-highs",
+      "headline": "淨移民持續從疫情後高點回落",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T17:30:00Z",
+      "voiceScript": "AAP援引CEDA分析指出，澳洲淨海外移民已經比2023年的高峰下降約45%，從55.58萬人降到30.1萬人。報告也預計，到2027/28財年這一數字可能進一步回落到22.5萬人。這個變化之所以重要，是因為移民規模一直和住房、基礎建設以及人口增長政治密切相連。接下來要看，隨著入境恢復常態、離境增加，這一數字還會不會繼續下探。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
+        }
+      ]
+    },
     {
       "id": "qantas-project-sunrise-test-flight",
       "headline": "Qantas試飛吸引數百萬人關注，Project Sunrise更接近啟航",
@@ -151,23 +250,37 @@
       ]
     },
     {
-      "id": "mortgage-offset-errors",
-      "headline": "房貸對沖帳戶失誤讓借款人少省了錢",
+      "id": "angus-taylor-approval-plateau",
+      "headline": "民調讓 Angus Taylor 處境更弱，One Nation 增勢放緩",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T15:00:09Z",
+      "voiceScript": "The Guardian 的最新民調顯示，Angus Taylor 的支持率下滑，而 One Nation 的支持沒有繼續上衝。這個結果重要，因為它會影響兩大陣營如何處理偏好交換、反建制選民和少數政府情景。眼下的不確定性在於，這只是一次樣本波動，還是聯邦政治格局正在出現更深的變化。對 Coalition 來說，問題是如何穩住資訊傳遞；對 One Nation 來說，關鍵是成長是否已經見頂。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/guardian-essential-poll-angus-taylors-approval-rating-crashes-and-one-nation-support-plateaus"
+        }
+      ]
+    },
+    {
+      "id": "angus-taylor-icac-donation-probe",
+      "headline": "新州腐敗調查把 Angus Taylor 拉進捐款疑雲",
       "sourceCount": 2,
-      "publishedAt": "2026-07-28T14:01:05Z",
-      "voiceScript": "澳洲證券監管機構說，幾家銀行的房貸對沖帳戶處理失誤，讓借款人在兩年裡多付了約 5500 萬澳元利息。監管機構檢查了八家銀行超過 20 萬筆房貸，發現有些帳戶被解除連結或設定錯誤，結果客戶沒能得到本來應該減輕還款壓力的節省。這件事重要，因為對沖帳戶本來就是許多家庭壓低房貸成本的工具，而隱藏錯誤會把還款週期拉長。接下來要看銀行多久能修正系統並補償受影響客戶。",
+      "publishedAt": "2026-07-28T15:00:06Z",
+      "voiceScript": "新州廉政調查已經把焦點推進到 Angus Taylor 身上，證據顯示 Reformers 成員曾討論向他尋求捐款。聽證會正在審查涉嫌非法資金流、拉票式擴員和外包諮詢費等做法，這些都牽涉到自由黨內部一個偏右翼派系。這個故事重要，因為調查已經碰到了聯邦反對黨領袖，可能讓新州自由黨承受更大壓力。接下來要看，證據最終會導向正式結論，還是只帶來進一步的政治傷害。",
       "differences": [
-        "一篇報導側重借款人少拿到的節省。",
-        "另一篇報導更強調 5500 萬澳元的返還和審查規模。"
+        "The Guardian 強調 Taylor 已被捲入聽證會，後果可能很大。",
+        "AAP 強調 Reformers 成員曾計劃向 Taylor 索要一筆 1 萬澳元捐款。"
       ],
       "links": [
         {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/angus-taylor-centre-stage-in-icac-hearing-fall-out-could-be-profound-ntwnfb"
         },
         {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/disgusted-pub-mogul-disavows-liberals-donation-aims"
         }
       ]
     },
@@ -638,32 +751,6 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/nsw-icac-operation-rosny-michael-ohara-reformer-liberals/106964276"
-        }
-      ]
-    },
-    {
-      "id": "rba-rate-rise-warning",
-      "headline": "RBA 警告通膨風險，進一步加息仍可能發生",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-28T03:19:00.000Z",
-      "voiceScript": "澳洲儲備銀行行長 Michele Bullock 警告，通膨仍高到足以讓再次加息繼續擺在桌面上。她表示，央行正在關注供給衝擊、生產力疲弱與需求放緩，並把下一次通膨數據與 8 月 11 日的決定視為關鍵節點。這項提醒很重要，因為更高的燃油成本與其他外部衝擊仍在逐步傳導到家庭與企業，而 RBA 必須在壓低通膨與維持就業之間取得平衡。如果接下來的通膨數據依然偏熱，利率就可能再次上調。",
-      "differences": [
-        "ABC News 側重供給衝擊以及 RBA 視情況採取行動的態度。",
-        "news.com.au 強調這對家庭生活成本意味著更多加息壓力。",
-        "The Australian 把這一判斷描述為與生產力偏弱和增長放緩相關的滯脹風險。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/rba-governor-warns-world-facing-increased-supply-shocks/106965644"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/economy/interest-rates/reserve-bank-governor-signals-further-rate-hikes-to-tackle-high-cost-of-living/news-story/71532bf57e410fd9380e4d32ad2ffa9d"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/nation/politics/reserve-bank-governor-michele-bullock-warns-of-additional-rate-hikes-to-tame-inflation/news-story/1c0f2e4fbbb3dea0804166caaf0cf359"
         }
       ]
     },
@@ -1337,20 +1424,6 @@
       ]
     },
     {
-      "id": "housing-rules-rethink",
-      "headline": "澳洲住房審批規則被指拖慢新屋建設",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "生產力委員會建議重新檢視一系列規劃和審批規則，因為這些制度被認為拖慢住房建設。審批延遲、標準不一和合規成本疊加，讓新增供應更難追上需求。這個問題會直接影響房價、租金和建築業效率。下一步要看聯邦和州政府是否把建議轉成具體改革。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506"
-        }
-      ]
-    },
-    {
       "id": "wa-oil-refinery",
       "headline": "西澳擬建澳洲數十年來首座新煉油廠",
       "sourceCount": 3,
@@ -1373,6 +1446,20 @@
         {
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
+        }
+      ]
+    },
+    {
+      "id": "housing-rules-rethink",
+      "headline": "澳洲住房審批規則被指拖慢新屋建設",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "生產力委員會建議重新檢視一系列規劃和審批規則，因為這些制度被認為拖慢住房建設。審批延遲、標準不一和合規成本疊加，讓新增供應更難追上需求。這個問題會直接影響房價、租金和建築業效率。下一步要看聯邦和州政府是否把建議轉成具體改革。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506"
         }
       ]
     },
@@ -1997,20 +2084,6 @@
       ]
     },
     {
-      "id": "brisbane-gpo-tower",
-      "headline": "布里斯班 GPO 旁将建 40 层办公楼",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-24T10:00:00+10:00",
-      "voiceScript": "布里斯班市中心又迎来一项重大开发计划，GPO 旁边将建设一座 40 层办公楼。方案还包含底层的公共城市空间，并会取代现有的 Edison Exchange，所以这不仅是楼高问题，也是 CBD 如何继续吸收商业扩张的问题。接下来要看规划和设计能否顺利过关，以及它如何嵌入奥运时代的城市叙事。",
-      "differences": [],
-      "links": [
-        {
-          "source": "Brisbane Times",
-          "url": "https://www.brisbanetimes.com.au/national/queensland/40-storey-office-tower-to-be-built-next-to-brisbane-s-gpo-20260724-p60idr.html"
-        }
-      ]
-    },
-    {
       "id": "labor-conference-pay-package",
       "headline": "工党大会推进年轻工人福利和 Fair Work Court",
       "sourceCount": 3,
@@ -2033,6 +2106,20 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/work/leaders/anthony-albanese-to-speak-at-alp-conference-as-beer-tax-debate-rages/live-coverage/43ba1e0bb2ec2e5eb33be9f30f299134"
+        }
+      ]
+    },
+    {
+      "id": "brisbane-gpo-tower",
+      "headline": "布里斯班 GPO 旁将建 40 层办公楼",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T10:00:00+10:00",
+      "voiceScript": "布里斯班市中心又迎来一项重大开发计划，GPO 旁边将建设一座 40 层办公楼。方案还包含底层的公共城市空间，并会取代现有的 Edison Exchange，所以这不仅是楼高问题，也是 CBD 如何继续吸收商业扩张的问题。接下来要看规划和设计能否顺利过关，以及它如何嵌入奥运时代的城市叙事。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/40-storey-office-tower-to-be-built-next-to-brisbane-s-gpo-20260724-p60idr.html"
         }
       ]
     },
