@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T07:07:52.939Z",
+  "updatedAt": "2026-07-28T08:08:30Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -119,6 +119,72 @@
     "Some front pages (news.com.au, AFR, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday, The Canberra Times, and AAP) required HTML/article-page extraction or search-result verification instead of clean RSS parsing in this run."
   ],
   "clusters": [
+    {
+      "id": "pauline-hanson-italy-trip",
+      "headline": "한슨의 이탈리아 여행에 다시 해명 요구",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T07:59:06Z",
+      "voiceScript": "폴린 한슨은 지나 라인하트와 함께 이탈리아에 머문 일을 두고 다시 질문을 받고 있습니다. 그녀는 그 여행이 납세자 부담은 아니었다고 말했지만, 실제 비용을 누가 냈는지는 아직 밝히지 않았습니다. 이 사안은 정치인의 여행 경비 투명성, 억만장자와의 사적 관계, 그리고 공적 자금의 기준이 한꺼번에 걸려 있기 때문에 중요합니다. 비용 출처가 명확해질 때까지 논란은 계속될 가능성이 큽니다.",
+      "differences": [
+        "ABC News: 누가 비용을 냈는지 밝히지 않는 점과 투명성 문제를 중심에 둔다.",
+        "news.com.au: 이탈리아에서 지나 라인하트와 함께 있는 모습과 그로 인한 정치적 파장을 강조한다.",
+        "7NEWS: 한슨이 호화 여행을 영상으로 옹호하는 장면처럼 전달한다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/hanson-reveals-rinehart-paid-for-italy-trip/106968518"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/culture/power-and-influence/pauline-hanson-and-billionaire-gina-rinehart-meet-up-at-white-lotus-hotel-in-sicily-hours-after-one-nation-declines-in-polls/news-story/cb8980251706ee1f2f4f925b4eaae505"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/video/politics/pauline-hanson-defends-luxury-italy-trip-bc-6401421951112"
+        }
+      ]
+    },
+    {
+      "id": "missing-baby-port-macdonnell",
+      "headline": "남호주 실종 아기 수색, 밤사이 중단 뒤 재개",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T07:57:02Z",
+      "voiceScript": "남호주에서 실종된 남자 아기를 찾는 수색이 다시 시작됐습니다. 포트 맥도넬 인근 바다에서 어머니와 어린아이가 발견된 뒤, 거친 날씨 때문에 수색은 밤새 중단됐습니다. 구조대는 바다와 시간을 동시에 상대하고 있으며, 경찰이 사건의 흐름을 어디까지 확인할 수 있는지가 다음 관건입니다. 앞으로는 아기의 흔적이 발견되는지가 핵심입니다.",
+      "differences": [
+        "ABC News: 거친 날씨 때문에 수색이 멈췄다가 재개된 점을 강조한다.",
+        "news.com.au: 시신이 발견된 뒤 아기의 안전에 대한 우려를 부각한다.",
+        "7NEWS: 악천후와 험한 해상 상태가 수색을 늦추고 있다고 전한다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/ocean-search-for-missing-baby-boy-suspended-at-port-macdonnell/106967786"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/south-australia/grave-concerns-for-missing-baby-after-bodies-of-mother-and-toddler-pulled-from-water/news-story/1c951b583abd6e2396dd1b2e8ef1c9cd"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/urgent-plea-in-search-for-missing-baby-after-bodies-of-mother-and-toddler-found-off-port-macdonnell-coastline-c-22637064"
+        }
+      ]
+    },
+    {
+      "id": "cairns-housemate-stabbing-sentence",
+      "headline": "케언스 남성, 동거인 살해로 수감",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T07:55:14Z",
+      "voiceScript": "케언스의 한 남성이 동거인을 칼로 찔러 숨지게 한 혐의로 수감됐습니다. 집 안에서 벌어진 다툼이 치명적인 폭력으로 번진 사건으로, 법원은 형을 선고했습니다. 이번 판결로 한 고비는 넘겼지만, 사소한 갈등이 순식간에 비극으로 이어질 수 있다는 점은 남습니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/steven-edward-anderson-sentenced-fatal-stabbing-darren-smith/106965892"
+        }
+      ]
+    },
     {
       "id": "broken-hill-ato-fraud",
       "headline": "브로큰힐 남성, ATO 130만 호주달러 사기 시도 혐의",
@@ -345,20 +411,20 @@
         "news.com.au는 가계의 생활비 압박과 추가 금리 부담을 부각한다.",
         "The Australian은 이를 낮은 생산성과 성장 둔화에 연결된 스태그플레이션 위험으로 본다."
       ],
-  "links": [
-    {
-      "source": "ABC News",
-      "url": "https://www.abc.net.au/news/2026-07-28/rba-governor-warns-world-facing-increased-supply-shocks/106965644"
-    },
-    {
-      "source": "The Australian",
-      "url": "https://www.theaustralian.com.au/nation/politics/reserve-bank-governor-michele-bullock-warns-of-additional-rate-hikes-to-tame-inflation/news-story/1c0f2e4fbbb3dea0804166caaf0cf359"
-    },
-    {
-      "source": "news.com.au",
-      "url": "https://www.news.com.au/finance/economy/interest-rates/reserve-bank-governor-signals-further-rate-hikes-to-tackle-high-cost-of-living/news-story/71532bf57e410fd9380e4d32ad2ffa9d"
-    }
-  ]
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/rba-governor-warns-world-facing-increased-supply-shocks/106965644"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/politics/reserve-bank-governor-michele-bullock-warns-of-additional-rate-hikes-to-tame-inflation/news-story/1c0f2e4fbbb3dea0804166caaf0cf359"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/interest-rates/reserve-bank-governor-signals-further-rate-hikes-to-tackle-high-cost-of-living/news-story/71532bf57e410fd9380e4d32ad2ffa9d"
+        }
+      ]
     },
     {
       "id": "the-castle-stage-play",
@@ -600,7 +666,7 @@
     {
       "id": "actu-leadership-change",
       "headline": "ACTU 최고 지도자 두 명이 물러난다",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-07-27T21:47:00+10:00",
       "voiceScript": "호주노총의 사무총장 샐리 맥매너스와 회장 미셸 오닐이 사임을 발표하면서 노동운동 지도부 교체가 시작됐다. 노동당 전국대회 직후라는 시점은 임금, 노동시간, 노동자 보호를 둘러싼 노조의 영향력이 가장 크게 주목되는 구간이다. 앞으로는 후임 인선과 노동당과의 관계 변화가 핵심이다.",
       "differences": [
@@ -620,6 +686,10 @@
         {
           "source": "The Australian",
           "url": "https://www.theaustralian.com.au/nation/top-union-leaders-sally-mcmanus-and-michele-oneil-announce-shock-resignations/news-story/b2cb98c940d7277ef363284b48d0e31c"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/actu-leaders-sally-mcmanus-michele-oneil-step-aside-new-generation/r6x6bixff"
         }
       ]
     },

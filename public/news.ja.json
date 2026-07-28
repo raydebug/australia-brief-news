@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T07:07:52.939Z",
+  "updatedAt": "2026-07-28T08:08:30Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -119,6 +119,72 @@
     "Some front pages (news.com.au, AFR, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday, The Canberra Times, and AAP) required HTML/article-page extraction or search-result verification instead of clean RSS parsing in this run."
   ],
   "clusters": [
+    {
+      "id": "pauline-hanson-italy-trip",
+      "headline": "ハンソン氏のイタリア旅行に再び説明要求",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T07:59:06Z",
+      "voiceScript": "ポーリン・ハンソン氏は、ジーナ・ラインハート氏とイタリアに滞在していた件をめぐり、再び説明を求められています。本人は納税者の負担ではないとしていますが、誰が費用を出したのかはまだ明かしていません。問題なのは、議員の旅費の透明性、実業家との近い関係、そして公的資金の扱いが同時に問われていることです。費用の出どころがはっきりするまでは、疑念は収まりそうにありません。",
+      "differences": [
+        "ABC News: 誰が支払ったのかをハンソン氏が明かさない点と、透明性の問題に焦点を当てている。",
+        "news.com.au: イタリアでのラインハート氏との姿と、その政治的な波紋を強調している。",
+        "7NEWS: 豪華な旅行をハンソン氏が動画で擁護した形で伝えている。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/hanson-reveals-rinehart-paid-for-italy-trip/106968518"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/culture/power-and-influence/pauline-hanson-and-billionaire-gina-rinehart-meet-up-at-white-lotus-hotel-in-sicily-hours-after-one-nation-declines-in-polls/news-story/cb8980251706ee1f2f4f925b4eaae505"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/video/politics/pauline-hanson-defends-luxury-italy-trip-bc-6401421951112"
+        }
+      ]
+    },
+    {
+      "id": "missing-baby-port-macdonnell",
+      "headline": "南オーストラリアで行方不明の乳児の捜索が再開",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T07:57:02Z",
+      "voiceScript": "南オーストラリア州で、行方不明の男児を探す捜索が再開されました。ポートマクドネル沖で母親と幼い子どもが見つかったあと、悪天候のため捜索はいったん中断されていました。捜索隊は海と時間の両方と向き合っており、警察が事件の流れをどこまで確認できるかが次の焦点です。今後は、子どもの手がかりが見つかるかどうかが鍵になります。",
+      "differences": [
+        "ABC News: 悪天候で捜索が中止され、再開された点に重点を置いている。",
+        "news.com.au: 遺体が見つかったあと、乳児の安否への懸念を強く伝えている。",
+        "7NEWS: 厳しい海象条件が捜索を難しくしていると伝えている。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/ocean-search-for-missing-baby-boy-suspended-at-port-macdonnell/106967786"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/south-australia/grave-concerns-for-missing-baby-after-bodies-of-mother-and-toddler-pulled-from-water/news-story/1c951b583abd6e2396dd1b2e8ef1c9cd"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/urgent-plea-in-search-for-missing-baby-after-bodies-of-mother-and-toddler-found-off-port-macdonnell-coastline-c-22637064"
+        }
+      ]
+    },
+    {
+      "id": "cairns-housemate-stabbing-sentence",
+      "headline": "ケアンズの男性、同居人刺殺で収監",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T07:55:14Z",
+      "voiceScript": "ケアンズの男性が、同居人を刺して死亡させた事件で収監されました。住居内での口論が致命的な暴力に変わったケースで、裁判所が量刑を言い渡しました。判決で一区切りつきましたが、ささいな争いが短時間で悲劇に変わる危険は残ります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/steven-edward-anderson-sentenced-fatal-stabbing-darren-smith/106965892"
+        }
+      ]
+    },
     {
       "id": "broken-hill-ato-fraud",
       "headline": "ブロークンヒルの男性、ATOへの130万豪ドル詐欺疑惑で訴追",
@@ -600,7 +666,7 @@
     {
       "id": "actu-leadership-change",
       "headline": "ACTUのトップ2人が退任へ",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-07-27T21:47:00+10:00",
       "voiceScript": "オーストラリア労働組合評議会の書記サリー・マクマナス氏と会長ミシェル・オニール氏が退任を発表し、労働運動のトップで世代交代が始まります。労働党の全国大会の直後という時期は、賃金、労働時間、職場保護をめぐる労組の影響力が最も意識される局面です。今後は後継人事と、労働党との関係がどう変わるかが注目点になります。",
       "differences": [
@@ -620,6 +686,10 @@
         {
           "source": "The Australian",
           "url": "https://www.theaustralian.com.au/nation/top-union-leaders-sally-mcmanus-and-michele-oneil-announce-shock-resignations/news-story/b2cb98c940d7277ef363284b48d0e31c"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/actu-leaders-sally-mcmanus-michele-oneil-step-aside-new-generation/r6x6bixff"
         }
       ]
     },

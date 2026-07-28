@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T07:07:52.939Z",
+  "updatedAt": "2026-07-28T08:08:30Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -119,6 +119,72 @@
     "Some front pages (news.com.au, AFR, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday, The Canberra Times, and AAP) required HTML/article-page extraction or search-result verification instead of clean RSS parsing in this run."
   ],
   "clusters": [
+    {
+      "id": "pauline-hanson-italy-trip",
+      "headline": "韓森義大利之行再遭追問",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T07:59:06Z",
+      "voiceScript": "保琳·韓森再次因義大利之行受到追問。她與吉娜·萊因哈特同框出現後表示，這趟行程沒有動用納稅人資金，但仍沒有說明到底是誰付款。這件事之所以重要，是因為它牽涉到議員旅費、與億萬富豪的私人關係，以及政治透明度。接下來大家會繼續盯著的，是相關費用能否被清楚交代。",
+      "differences": [
+        "ABC News：重點放在韓森沒有說明付款人，以及圍繞行程透明度的疑問。",
+        "news.com.au：強調她在義大利與吉娜·萊因哈特同框，以及由此引發的政治反彈。",
+        "7NEWS：把這件事寫成韓森在影片中為豪華行程辯護。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/hanson-reveals-rinehart-paid-for-italy-trip/106968518"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/culture/power-and-influence/pauline-hanson-and-billionaire-gina-rinehart-meet-up-at-white-lotus-hotel-in-sicily-hours-after-one-nation-declines-in-polls/news-story/cb8980251706ee1f2f4f925b4eaae505"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/video/politics/pauline-hanson-defends-luxury-italy-trip-bc-6401421951112"
+        }
+      ]
+    },
+    {
+      "id": "missing-baby-port-macdonnell",
+      "headline": "南澳失蹤嬰兒搜尋在夜間暫停後恢復",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T07:57:02Z",
+      "voiceScript": "南澳警方和志願者已經重新展開對一名失蹤男嬰的搜尋。此前，一名女子和一名幼兒在波特麥克唐奈爾附近海中被找到，搜尋因海況惡劣而在夜間暫停。這個案件之所以重要，是因為救援人員一邊要和時間賽跑，一邊還要應對危險海況，而調查人員也在釐清孩子失蹤前究竟發生了什麼。接下來要看的是搜尋能否找到新線索，以及警方能否進一步確認時間線。",
+      "differences": [
+        "ABC News：重點放在惡劣天氣導致搜尋暫停後又恢復。",
+        "news.com.au：強調在找到遺體後，警方對嬰兒安危的擔憂。",
+        "7NEWS：突出惡劣海況正在拖慢搜尋。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/ocean-search-for-missing-baby-boy-suspended-at-port-macdonnell/106967786"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/south-australia/grave-concerns-for-missing-baby-after-bodies-of-mother-and-toddler-pulled-from-water/news-story/1c951b583abd6e2396dd1b2e8ef1c9cd"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/urgent-plea-in-search-for-missing-baby-after-bodies-of-mother-and-toddler-found-off-port-macdonnell-coastline-c-22637064"
+        }
+      ]
+    },
+    {
+      "id": "cairns-housemate-stabbing-sentence",
+      "headline": "凱恩斯男子因刺死室友被判入獄",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T07:55:14Z",
+      "voiceScript": "凱恩斯一名男子因在爭執中刺死室友而被判入獄。法院認定，這起原本發生在住處內的衝突最終演變成致命暴力。判決意味著刑事程序進入收尾階段，但這宗案件也再次提醒人們，日常爭執有時會迅速升級成悲劇。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/steven-edward-anderson-sentenced-fatal-stabbing-darren-smith/106965892"
+        }
+      ]
+    },
     {
       "id": "broken-hill-ato-fraud",
       "headline": "Broken Hill 一名男子被指試圖騙取稅務局 130 萬澳元",
@@ -600,7 +666,7 @@
     {
       "id": "actu-leadership-change",
       "headline": "ACTU兩位最高領導人宣布卸任",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-07-27T21:47:00+10:00",
       "voiceScript": "澳洲工會理事會秘書 Sally McManus 和主席 Michele O'Neil 宣布卸任，工運最高層進入換班期。這一變化發生在工會和工黨政策互動最密集的時候，後續接班人選會影響工資、工時和工作場所保護的推動力度。接下來要看新領導層如何成形，以及工會與工黨關係是否出現調整。",
       "differences": [
@@ -620,6 +686,10 @@
         {
           "source": "The Australian",
           "url": "https://www.theaustralian.com.au/nation/top-union-leaders-sally-mcmanus-and-michele-oneil-announce-shock-resignations/news-story/b2cb98c940d7277ef363284b48d0e31c"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/actu-leaders-sally-mcmanus-michele-oneil-step-aside-new-generation/r6x6bixff"
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T07:07:52.939Z",
+  "updatedAt": "2026-07-28T08:08:30Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -119,6 +119,72 @@
     "Some front pages (news.com.au, AFR, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday, The Canberra Times, and AAP) required HTML/article-page extraction or search-result verification instead of clean RSS parsing in this run."
   ],
   "clusters": [
+    {
+      "id": "pauline-hanson-italy-trip",
+      "headline": "Pauline Hanson faces fresh scrutiny over her Italy trip",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T07:59:06Z",
+      "voiceScript": "Pauline Hanson is again facing questions about a recent trip to Italy after appearing there with Gina Rinehart. Hanson says the travel did not cost taxpayers, but she has still not said who paid for it. The issue matters because it sits at the intersection of political transparency, personal links to a billionaire, and the public funding rules that apply to senators. The remaining uncertainty is simple: until the bill is accounted for, the trip will keep drawing scrutiny.",
+      "differences": [
+        "ABC News: focuses on Hanson declining to name the payer and the transparency questions around the trip.",
+        "news.com.au: emphasises the Italy sighting with Gina Rinehart and the political fallout.",
+        "7NEWS: frames it as Hanson defending the luxury trip in a video."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/hanson-reveals-rinehart-paid-for-italy-trip/106968518"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/culture/power-and-influence/pauline-hanson-and-billionaire-gina-rinehart-meet-up-at-white-lotus-hotel-in-sicily-hours-after-one-nation-declines-in-polls/news-story/cb8980251706ee1f2f4f925b4eaae505"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/video/politics/pauline-hanson-defends-luxury-italy-trip-bc-6401421951112"
+        }
+      ]
+    },
+    {
+      "id": "missing-baby-port-macdonnell",
+      "headline": "Search for missing South Australian baby resumes after overnight pause",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T07:57:02Z",
+      "voiceScript": "Police and volunteers have resumed the search for a missing baby boy in South Australia after a woman and toddler were found in the ocean near Port MacDonnell. The search was paused overnight as rough weather made conditions too dangerous. The case matters because rescue crews are racing both the clock and the sea conditions, while investigators try to work out exactly what happened before the child disappeared. The next update will depend on whether the search turns up any trace of the baby and what police can confirm about the timeline.",
+      "differences": [
+        "ABC News: focuses on the search being paused and restarted because of rough weather.",
+        "news.com.au: stresses police concern for the infant after the bodies were found.",
+        "7NEWS: highlights the severe coastal conditions slowing the search."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/ocean-search-for-missing-baby-boy-suspended-at-port-macdonnell/106967786"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/south-australia/grave-concerns-for-missing-baby-after-bodies-of-mother-and-toddler-pulled-from-water/news-story/1c951b583abd6e2396dd1b2e8ef1c9cd"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/urgent-plea-in-search-for-missing-baby-after-bodies-of-mother-and-toddler-found-off-port-macdonnell-coastline-c-22637064"
+        }
+      ]
+    },
+    {
+      "id": "cairns-housemate-stabbing-sentence",
+      "headline": "Cairns man jailed after fatal housemate stabbing",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T07:55:14Z",
+      "voiceScript": "A Cairns man has been jailed after fatally stabbing his housemate during a fight. The case matters because it shows how a domestic dispute escalated into a lethal assault and ended in a sentencing decision from the court. The sentence closes one chapter, but the wider lesson is the speed with which ordinary conflict can turn deadly. No broader public threat has been identified.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/steven-edward-anderson-sentenced-fatal-stabbing-darren-smith/106965892"
+        }
+      ]
+    },
     {
       "id": "broken-hill-ato-fraud",
       "headline": "Broken Hill man faces allegation over $1.3m tax office fraud",
@@ -600,7 +666,7 @@
     {
       "id": "actu-leadership-change",
       "headline": "ACTU's top two leaders are stepping down",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-07-27T21:47:00+10:00",
       "voiceScript": "Australian Council of Trade Unions secretary Sally McManus and president Michele O'Neil have announced they are stepping down, opening a leadership transition at the top of the union movement. The timing matters because it comes just after Labor’s national conference, when union influence over wages, hours and workplace protections is being debated most intensely. The next step is choosing successors and seeing whether the ACTU’s relationship with Labor shifts at all.",
       "differences": [
@@ -620,6 +686,10 @@
         {
           "source": "The Australian",
           "url": "https://www.theaustralian.com.au/nation/top-union-leaders-sally-mcmanus-and-michele-oneil-announce-shock-resignations/news-story/b2cb98c940d7277ef363284b48d0e31c"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/actu-leaders-sally-mcmanus-michele-oneil-step-aside-new-generation/r6x6bixff"
         }
       ]
     },

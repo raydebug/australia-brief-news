@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T07:07:52.939Z",
+  "updatedAt": "2026-07-28T08:08:30Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -119,6 +119,72 @@
     "Some front pages (news.com.au, AFR, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday, The Canberra Times, and AAP) required HTML/article-page extraction or search-result verification instead of clean RSS parsing in this run."
   ],
   "clusters": [
+    {
+      "id": "pauline-hanson-italy-trip",
+      "headline": "พอลีน แฮนสันถูกตั้งคำถามอีกครั้งเรื่องทริปอิตาลี",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T07:59:06Z",
+      "voiceScript": "พอลีน แฮนสันกำลังถูกตั้งคำถามอีกครั้งเกี่ยวกับทริปไปอิตาลี หลังปรากฏตัวร่วมกับจีนา ไรน์ฮาร์ต เธอบอกว่าการเดินทางครั้งนี้ไม่ได้ใช้เงินภาษีประชาชน แต่ยังไม่เปิดเผยว่าใครเป็นคนจ่ายค่าใช้จ่ายทั้งหมด เรื่องนี้สำคัญเพราะเกี่ยวข้องกับความโปร่งใสของนักการเมือง ความสัมพันธ์ส่วนตัวกับมหาเศรษฐี และกฎเรื่องค่าใช้จ่ายสาธารณะของวุฒิสมาชิก จนกว่าจะมีคำตอบชัดเจน ทริปนี้ก็น่าจะยังถูกจับตาต่อไป",
+      "differences": [
+        "ABC News: เน้นว่า Hanson ไม่ยอมบอกว่าใครจ่าย และตั้งคำถามเรื่องความโปร่งใส",
+        "news.com.au: เน้นภาพที่เธออยู่ที่อิตาลีกับ Gina Rinehart และแรงกระเพื่อมทางการเมือง",
+        "7NEWS: นำเสนอในมุมที่ Hanson ออกมาปกป้องทริปหรูผ่านวิดีโอ"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/hanson-reveals-rinehart-paid-for-italy-trip/106968518"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/culture/power-and-influence/pauline-hanson-and-billionaire-gina-rinehart-meet-up-at-white-lotus-hotel-in-sicily-hours-after-one-nation-declines-in-polls/news-story/cb8980251706ee1f2f4f925b4eaae505"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/video/politics/pauline-hanson-defends-luxury-italy-trip-bc-6401421951112"
+        }
+      ]
+    },
+    {
+      "id": "missing-baby-port-macdonnell",
+      "headline": "การค้นหาทารกที่สูญหายในเซาท์ออสเตรเลียกลับมาดำเนินต่อหลังหยุดชั่วข้ามคืน",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T07:57:02Z",
+      "voiceScript": "ตำรวจและอาสาสมัครในเซาท์ออสเตรเลียกลับมาค้นหาทารกชายที่สูญหายอีกครั้ง ก่อนหน้านี้มีการพบแม่และเด็กเล็กในทะเลใกล้พอร์ตแมกดอนเนล และต้องหยุดค้นหาชั่วข้ามคืนเพราะสภาพอากาศเลวร้าย เรื่องนี้สำคัญเพราะทีมกู้ภัยกำลังแข่งกับทั้งเวลาและสภาพทะเล ขณะเดียวกันนักสืบยังพยายามหาว่าเกิดอะไรขึ้นก่อนที่เด็กจะหายตัวไป ขั้นต่อไปจะขึ้นอยู่กับว่าจะพบร่องรอยของทารกได้หรือไม่",
+      "differences": [
+        "ABC News: เน้นการหยุดค้นหาและกลับมาค้นหาใหม่เพราะอากาศเลวร้าย",
+        "news.com.au: เน้นความกังวลของตำรวจหลังพบร่างผู้เสียชีวิต",
+        "7NEWS: ชี้ว่าสภาพชายฝั่งที่รุนแรงทำให้การค้นหาช้าลง"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/ocean-search-for-missing-baby-boy-suspended-at-port-macdonnell/106967786"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/south-australia/grave-concerns-for-missing-baby-after-bodies-of-mother-and-toddler-pulled-from-water/news-story/1c951b583abd6e2396dd1b2e8ef1c9cd"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/urgent-plea-in-search-for-missing-baby-after-bodies-of-mother-and-toddler-found-off-port-macdonnell-coastline-c-22637064"
+        }
+      ]
+    },
+    {
+      "id": "cairns-housemate-stabbing-sentence",
+      "headline": "ชายในแคนส์ถูกจำคุกหลังแทงเพื่อนร่วมบ้านเสียชีวิต",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T07:55:14Z",
+      "voiceScript": "ชายคนหนึ่งในแคนส์ถูกส่งเข้าคุกหลังแทงเพื่อนร่วมบ้านจนเสียชีวิตระหว่างการทะเลาะกัน เหตุเริ่มจากความขัดแย้งภายในบ้าน แต่กลับลุกลามเป็นความรุนแรงถึงตาย คำพิพากษาครั้งนี้ปิดคดีในชั้นศาลไปส่วนหนึ่ง แต่ก็สะท้อนว่าความขัดแย้งเล็ก ๆ สามารถบานปลายได้รวดเร็ว",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/steven-edward-anderson-sentenced-fatal-stabbing-darren-smith/106965892"
+        }
+      ]
+    },
     {
       "id": "broken-hill-ato-fraud",
       "headline": "ชายจาก Broken Hill ถูกกล่าวหาพยายามโกง ATO 1.3 ล้านดอลลาร์",
@@ -600,7 +666,7 @@
     {
       "id": "actu-leadership-change",
       "headline": "ผู้นำ 2 อันดับแรกของ ACTU กำลังจะลาออกจากตำแหน่ง",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-07-27T21:47:00+10:00",
       "voiceScript": "แซลลี แมคมานัส เลขาธิการสภาสหภาพการค้าแห่งออสเตรเลีย และมิเคเล่ โอนีล ประธานสภาสหภาพแรงงาน ประกาศว่า พวกเขากำลังก้าวลงจากตำแหน่ง เพื่อเปิดการเปลี่ยนแปลงผู้นำที่เป็นแกนนำของขบวนการสหภาพแรงงาน ช่วงเวลามีความสำคัญเนื่องจากเกิดขึ้นหลังจากการประชุมระดับชาติของพรรคแรงงาน ซึ่งเป็นช่วงที่สหภาพแรงงานมีอิทธิพลเหนือค่าจ้าง ชั่วโมงการทำงาน และการคุ้มครองสถานที่ทำงานกำลังถูกถกเถียงกันอย่างเข้มข้นที่สุด ขั้นตอนต่อไปคือการเลือกผู้สืบทอดและดูว่าความสัมพันธ์ของ ACTU กับพรรคแรงงานมีการเปลี่ยนแปลงหรือไม่",
       "differences": [
@@ -620,6 +686,10 @@
         {
           "source": "The Australian",
           "url": "https://www.theaustralian.com.au/nation/top-union-leaders-sally-mcmanus-and-michele-oneil-announce-shock-resignations/news-story/b2cb98c940d7277ef363284b48d0e31c"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/actu-leaders-sally-mcmanus-michele-oneil-step-aside-new-generation/r6x6bixff"
         }
       ]
     },
