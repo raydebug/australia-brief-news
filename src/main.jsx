@@ -422,6 +422,40 @@ const SOURCE_BADGES = {
   "AAP News": "AAP"
 };
 
+const SOURCE_ALIASES = {
+  "abc": "ABC News",
+  "abc news": "ABC News",
+  "sbs": "SBS News",
+  "sbs news": "SBS News",
+  "guardian au": "The Guardian Australia",
+  "the guardian": "The Guardian Australia",
+  "the guardian australia": "The Guardian Australia",
+  "guardian australia": "The Guardian Australia",
+  "news.com.au": "news.com.au",
+  "news com au": "news.com.au",
+  "the australian": "The Australian",
+  "yahoo au": "Yahoo News Australia",
+  "yahoo news australia": "Yahoo News Australia",
+  "australian financial review": "Australian Financial Review",
+  "afr": "Australian Financial Review",
+  "sky news": "Sky News Australia",
+  "sky news australia": "Sky News Australia",
+  "9news": "9News",
+  "nine news": "9News",
+  "7news": "7NEWS",
+  "seven news": "7NEWS",
+  "the sydney morning herald": "The Sydney Morning Herald",
+  "smh": "The Sydney Morning Herald",
+  "the age": "The Age",
+  "brisbane times": "Brisbane Times",
+  "watoday": "WAtoday",
+  "wa today": "WAtoday",
+  "the canberra times": "The Canberra Times",
+  "canberra times": "The Canberra Times",
+  "aap": "AAP",
+  "aap news": "AAP"
+};
+
 const SOURCE_DISPLAY_NAMES = {
   "ABC News": "ABC News",
   "SBS News": "SBS News",
@@ -462,10 +496,29 @@ const SOURCE_COLORS = {
   "AAP News": "#14532d"
 };
 
-function sourceBadge(name) {
-  if (SOURCE_BADGES[name]) return SOURCE_BADGES[name];
+function normalizeSourceKey(name) {
+  return String(name || "")
+    .trim()
+    .replace(/https?:\/\//gi, "")
+    .replace(/^www\./i, "")
+    .replace(/\.(com|net|org)(\.au)?$/i, (match) => match.toLowerCase())
+    .replace(/[^a-z0-9.]+/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+}
 
-  const cleaned = String(name || "")
+function canonicalSourceName(name) {
+  const raw = String(name || "").trim();
+  const key = normalizeSourceKey(raw);
+  return SOURCE_ALIASES[key] || raw;
+}
+
+function sourceBadge(name) {
+  const canonical = canonicalSourceName(name);
+  if (SOURCE_BADGES[canonical]) return SOURCE_BADGES[canonical];
+
+  const cleaned = canonical
     .replace(/\.(com|net|org)(\.au)?/gi, "")
     .replace(/^the\s+/i, "")
     .trim();
@@ -483,15 +536,17 @@ function sourceBadge(name) {
 }
 
 function sourceDisplayName(name) {
-  return SOURCE_DISPLAY_NAMES[name] || name;
+  const canonical = canonicalSourceName(name);
+  return SOURCE_DISPLAY_NAMES[canonical] || canonical;
 }
 
 function SourceLogo({ name }) {
-  const label = sourceBadge(name);
-  const color = SOURCE_COLORS[name] || "#27606a";
+  const canonical = canonicalSourceName(name);
+  const label = sourceBadge(canonical);
+  const color = SOURCE_COLORS[canonical] || "#27606a";
 
   return (
-    <span className="source-logo" style={{ "--source-color": color }} aria-label={name}>
+    <span className="source-logo" style={{ "--source-color": color }} aria-label={canonical}>
       <span className="source-initials">{label}</span>
     </span>
   );
@@ -847,8 +902,8 @@ function App() {
                           href={link.url}
                           target="_blank"
                           rel="noreferrer"
-                          title={link.source}
-                          aria-label={link.source}
+                          title={sourceDisplayName(link.source)}
+                          aria-label={sourceDisplayName(link.source)}
                           key={`${link.source}-${link.url}`}
                         >
                           <SourceLogo name={link.source} url={link.url} />
@@ -906,7 +961,14 @@ function App() {
               <section>
                 <div className="link-list">
                   {displayActive.links.map((link) => (
-                    <a href={link.url} target="_blank" rel="noreferrer" key={`${link.source}-${link.url}`}>
+                    <a
+                      href={link.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      title={sourceDisplayName(link.source)}
+                      aria-label={sourceDisplayName(link.source)}
+                      key={`${link.source}-${link.url}`}
+                    >
                       <SourceLogo name={link.source} url={link.url} />
                       <span>{link.source}</span>
                       <ExternalLink size={15} />
