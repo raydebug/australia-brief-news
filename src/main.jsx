@@ -388,17 +388,51 @@ function uniqueDifferences(cluster) {
   return differences;
 }
 
-function SourceLogo({ name }) {
-  const letters = name
-    .split(" ")
-    .map((part) => part[0])
+const SOURCE_BADGES = {
+  "ABC News": "ABC",
+  "SBS News": "SBS",
+  "The Guardian Australia": "GUA",
+  "news.com.au": "NCA",
+  "The Australian": "AUS",
+  "Yahoo News Australia": "YAH",
+  "Australian Financial Review": "AFR",
+  "Sky News Australia": "SKY",
+  "9News": "9",
+  "7NEWS": "7",
+  "The Sydney Morning Herald": "SMH",
+  "The Age": "AGE",
+  "Brisbane Times": "BNE",
+  WAtoday: "WA",
+  "The Canberra Times": "CBR",
+  AAP: "AAP"
+};
+
+function sourceBadge(name) {
+  if (SOURCE_BADGES[name]) return SOURCE_BADGES[name];
+
+  const cleaned = String(name || "")
+    .replace(/\.(com|net|org)(\.au)?/gi, "")
+    .replace(/^the\s+/i, "")
+    .trim();
+
+  const compact = cleaned.replace(/[^a-z0-9]/gi, "").toUpperCase();
+  if (compact.length <= 4 && compact) return compact;
+
+  const words = cleaned.match(/[a-z0-9]+/gi) || [];
+  return words
+    .filter((word) => !["news", "australia", "australian", "the"].includes(word.toLowerCase()))
+    .map((word) => word[0])
     .join("")
-    .slice(0, 2)
+    .slice(0, 4)
     .toUpperCase();
+}
+
+function SourceLogo({ name }) {
+  const label = sourceBadge(name);
 
   return (
     <span className="source-logo" aria-label={name}>
-      <span className="source-initials">{letters}</span>
+      <span className="source-initials">{label}</span>
     </span>
   );
 }
