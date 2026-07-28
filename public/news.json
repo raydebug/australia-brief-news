@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T03:11:32.889Z",
+  "updatedAt": "2026-07-28T04:15:05.247Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,154 @@
     }
   ],
   "errors": [
-    "Some source feeds and front pages (news.com.au, AFR, Sky News Australia, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday, The Canberra Times, and AAP) were not cleanly parseable in this run, so current clusters were verified from accessible article pages and search results."
+    "Some front pages (news.com.au, AFR, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday, The Canberra Times, and AAP) required HTML/article-page extraction or search-result verification instead of clean RSS parsing in this run."
   ],
   "clusters": [
+    {
+      "id": "leadership",
+      "headline": "维州政权交接，Ben Carroll 接任州长",
+      "sourceCount": 6,
+      "publishedAt": "2026-07-28T03:54:45Z",
+      "voiceScript": "在党团压力持续发酵后，Ben Carroll 已接任维多利亚州州长，Jacinta Allan 正式离场。他说会就州内建筑业启动皇家委员会调查，并借这次交接为工党在 11 月大选前重整步调。这个变化重要，因为它发生在选举只剩几个月的时候，可能重新定义工党的竞选重点，也会放大围绕 Big Build 的廉政压力。接下来要看的是 Carroll 能否迅速稳住党团，以及调查范围会不会继续扩大。",
+      "differences": [
+        "ABC News 更强调党团交接和 Carroll 的首批表态。",
+        "The Guardian Australia 重点写他宣誓就任、皇家委员会和选举时点。",
+        "SBS News 把焦点放在 Allan 离任后如何稳住政府。",
+        "news.com.au 强调党内裂缝以及 Sonya Kilkenny 的意外参选。",
+        "AAP News 指出，如果没有竞争对手，接班流程会很快完成。",
+        "9News 则把它写成一场戏剧性的党团会议和 Carroll 上任后的首场讲话。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/victorian-labor-caucus-weighs-up-allan-leadership/106962972"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/28/jacinta-allan-victoria-labor-leadership-spill-ben-carroll-challenge-antisemitism-royal-commission-nsw-icac-inquiry-queensland-estimates-ntwnfb"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/28/jacinta-allan-resigns-quits-victoria-premier-leadership-challenge-ben-carroll"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/victorian-premier-jacinta-allan-resigns/41gb9d0wd"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/victoria/politics/ben-carroll-asks-jacinta-allan-to-step-aside-as-victorian-premier-weeks-after-promising-he-wouldnt/news-story/621a2e6b78e523a58e69176e5341a1ed"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/leadership-showdown-as-labor-faces-calls-for-overhaul"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/jacinta-allan-leadership-spill-updates-victoria-20260728-p60j2n.html"
+        }
+      ]
+    },
+    {
+      "id": "matthew-cox-rockhampton-trial",
+      "publishedAt": "2026-07-28T03:35:34Z",
+      "sourceCount": 1,
+      "headline": "Rockhampton 谋杀案进入审判阶段，妻女死亡案将受检验",
+      "voiceScript": "一名昆士兰中部男子被控杀害妻子 Tayla Black 和他们 11 周大的女儿 Murphy，现在案件正进入审判阶段。这个案子重要，因为它牵涉家庭暴力、两条人命的死亡，以及法庭接下来要逐一核实的证据和证词。下一步就是正式开庭，检方会如何拼出整起事件的经过。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/matthew-cox-stand-trial-for-alleged-killings-of-wife-baby/106965496"
+        }
+      ]
+    },
+    {
+      "id": "nsw-icac-perrottet-brothers",
+      "headline": "新州 ICAC 继续追查自由党秘密录音和假咨询费",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-28T03:31:07Z",
+      "voiceScript": "新州廉政公署正在继续审理一宗自由党献金案，焦点落在被禁捐款、假咨询费和党内人脉如何被用来影响预选和政策。最新披露又把秘密录音和截获讯息带进调查，显示资金和人事安排可能被更复杂地串在一起。这个案子之所以重要，是因为它直接关系到政治透明度、捐款规则，以及州大党内部影响力是如何被买卖和隐藏的。接下来要看更多证词、文件核对，以及是否有事项被移交起诉。",
+      "differences": [
+        "ABC News 按时间线梳理听证范围和证人安排。",
+        "The Guardian Australia 侧重秘密录音和右倾派系之间的权力斗争。",
+        "AAP News 强调脏捐款会怎样打击自由党。",
+        "Australian Financial Review 突出电话监听和假支付的细节。",
+        "news.com.au 聚焦 WhatsApp 截听、Nassif 的炫耀和招募网络。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/what-to-expect-from-icac-probe-into-nsw-liberal-party/106955220"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/watchdog-probes-tainted-donations-in-blow-to-liberals"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/senior-politicians-supported-young-nsw-liberal-power-brokers-trying-to-shift-party-to-right-corruption-watchdog-hears-ntwnfb"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/28/nsw-liberals-icac-operation-rosny-secret-tape-recordings-ntwnfb"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/phone-taps-and-sham-payments-to-liberals-in-icac-bombshell-hearing-20260726-p60iny"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/courts-law/whatsapp-intercept-and-christian-recruitment-in-nsw-liberal-icac-probe/news-story/7fdf009da078e46f2f594550f31837f4"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/nsw-icac-operation-rosny-michael-ohara-reformer-liberals/106964276"
+        }
+      ]
+    },
+    {
+      "id": "the-castle-stage-play",
+      "publishedAt": "2026-07-28T03:12:51Z",
+      "sourceCount": 2,
+      "headline": "《The Castle》要被改成舞台剧，Working Dog 原班人马回归",
+      "voiceScript": "Working Dog 的原班人马正在把《The Castle》改成舞台剧，计划在墨尔本首演。这个消息重要，因为这部电影是澳洲最常被引用的喜剧之一，舞台版会检验它那种温情和工薪阶层幽默能否在现场继续成立。接下来要看的是选角和制作细节，以及新版是否能在保留原味的同时让新观众买账。",
+      "differences": [
+        "ABC News 侧重舞台版启动和那些标志性台词。",
+        "The Guardian Australia 更强调创作者回归以及 2027 年的首演计划。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/the-castle-stage-adaptation/106966540"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/stage/2026/jul/28/the-castle-stage-play-working-dog-film-rob-sitch-tom-gleisner-santo-cilauro-jane-kennedy"
+        }
+      ]
+    },
+    {
+      "id": "harvey-norman-latitude-penalty",
+      "publishedAt": "2026-07-28T03:06:34Z",
+      "sourceCount": 2,
+      "headline": "法院因误导性分期广告重罚 Harvey Norman 和 Latitude",
+      "voiceScript": "联邦法院裁定 Harvey Norman 和 Latitude 违反消费者法，因其 60 个月免息广告让顾客在不清楚真实条件下办信用卡并支付额外费用。罚金合计 5500 万澳元，显示监管机构对全国性广告活动和隐藏费用的态度更强硬。接下来要看的是两家公司如何消化这项裁定，以及零售业是否会重新设计类似促销。",
+      "differences": [
+        "ABC News 重点写监管机构如何证明消费者被误导。",
+        "Australian Financial Review 把这项裁定放进更大的零售与市场背景。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/harvey-norman-and-latitude-penalised-over-interest-free-ads/106966304"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/markets/equity-markets/asx-to-fall-oil-plunges-and-semiconductor-stocks-fell-anew-20260728-p60j29"
+        }
+      ]
+    },
     {
       "id": "moira-deeming-victorian-liberals",
       "headline": "Moira Deeming 在被取消资格后退出维州自由党",
@@ -142,94 +287,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/victoria/moira-deeming-leaves-victoria-liberals-after-disendorsement/news-story/95677f4f378d11386c9a25b924ef7f23"
-        }
-      ]
-    },
-    {
-      "id": "nsw-icac-perrottet-brothers",
-      "headline": "新州 ICAC 听证追查自由党可疑付款",
-      "sourceCount": 5,
-      "publishedAt": "2026-07-28T02:48:43Z",
-      "voiceScript": "新州 ICAC 正在审理一宗围绕自由党可疑捐款、秘密录音和党内人脉的听证。最新披露显示，调查对象被指通过伪装成咨询费的付款和被禁捐款来影响党内提名与政策走向。这个案子的关键在于，它直接关系到州政治透明度、捐款规则和开发利益能否介入党务。接下来要看证词、文件和通话记录是否能把资金流与人事安排串起来，并判断是否会有人被转交起诉。",
-      "differences": [
-        "ABC News：按调查时间线解释 ICAC 的听证范围和证人安排。",
-        "AAP News：强调被污染的捐款会怎样打击自由党。",
-        "The Guardian Australia：把它写成自由党右倾派系和秘密录音交织的党内权力斗争。",
-        "Australian Financial Review：突出电话窃听和“虚假付款”的细节。",
-        "news.com.au：聚焦 WhatsApp 截听、Nassif 的自夸，以及保守派招募网络。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/what-to-expect-from-icac-probe-into-nsw-liberal-party/106955220"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/watchdog-probes-tainted-donations-in-blow-to-liberals"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/senior-politicians-supported-young-nsw-liberal-power-brokers-trying-to-shift-party-to-right-corruption-watchdog-hears-ntwnfb"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/icac-operation-rosny-nsw-liberals-corruption-investigation-ntwnfb"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/phone-taps-and-sham-payments-to-liberals-in-icac-bombshell-hearing-20260726-p60iny"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/courts-law/whatsapp-intercept-and-christian-recruitment-in-nsw-liberal-icac-probe/news-story/7fdf009da078e46f2f594550f31837f4"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/nsw-icac-operation-rosny-michael-ohara-reformer-liberals/106964276"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/nsw-liberals-icac-operation-rosny-secret-tape-recordings-ntwnfb"
-        }
-      ]
-    },
-    {
-      "id": "leadership",
-      "headline": "Jacinta Allan 在维州工党领导层交接前辞任",
-      "sourceCount": 5,
-      "publishedAt": "2026-07-28T02:37:49Z",
-      "voiceScript": "Jacinta Allan 在党团压力下辞任，维多利亚州工党的领导权争夺也随之进入交接阶段。Ben Carroll 预计接手，Gabrielle Williams 则先担任临时领导，帮助党内稳定下来。这个变化之所以重要，是因为它发生在维州大选前四个月，可能影响竞选节奏、政策推进和政府形象。接下来要看的是正式接班是否顺利，以及党内裂痕能否尽快收束。",
-      "differences": [
-        "ABC News 更强调党团会议和 Allan 在正式投票前先辞任。",
-        "The Guardian Australia 更关注 Ben Carroll 在 Allan 辞职后接手。",
-        "SBS News 把重点放在 Allan 退场后 Ben Carroll 成为接班人的可能性。",
-        "news.com.au 更强调党内裂痕，以及 Sonya Kilkenny 的意外参选。",
-        "AAP News 指出，如果没有其他候选人，交接可能很快完成。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/victorian-labor-caucus-weighs-up-allan-leadership/106962972"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/jacinta-allan-resigns-quits-victoria-premier-leadership-challenge"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/victorian-premier-jacinta-allan-resigns/41gb9d0wd"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/victoria/politics/ben-carroll-asks-jacinta-allan-to-step-aside-as-victorian-premier-weeks-after-promising-he-wouldnt/news-story/621a2e6b78e523a58e69176e5341a1ed"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/leadership-showdown-as-labor-faces-calls-for-overhaul"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/jacinta-allan-resigns-quits-victoria-premier-leadership-challenge-ben-carroll"
         }
       ]
     },

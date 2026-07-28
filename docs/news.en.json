@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T03:11:32.886Z",
+  "updatedAt": "2026-07-28T04:15:05.247Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,154 @@
     }
   ],
   "errors": [
-    "Some source feeds and front pages (news.com.au, AFR, Sky News Australia, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday, The Canberra Times, and AAP) were not cleanly parseable in this run, so current clusters were verified from accessible article pages and search results."
+    "Some front pages (news.com.au, AFR, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday, The Canberra Times, and AAP) required HTML/article-page extraction or search-result verification instead of clean RSS parsing in this run."
   ],
   "clusters": [
+    {
+      "id": "leadership",
+      "headline": "Victoria hands the premiership to Ben Carroll after Allan steps aside",
+      "sourceCount": 6,
+      "publishedAt": "2026-07-28T03:54:45Z",
+      "voiceScript": "Ben Carroll has been sworn in as Victoria's new premier after Jacinta Allan stepped aside in a fast-moving Labor leadership switch. He says he will launch a royal commission into the state's construction sector and use the transition to reset the government before November's election. The move matters because it lands months before voters decide and could reshape Labor's campaign, its integrity agenda, and the pressure on the Big Build. The next test is how quickly Carroll settles the party room and whether the inquiry broadens the political fallout.",
+      "differences": [
+        "ABC News focuses on the caucus handover and Carroll's first announcements.",
+        "The Guardian Australia highlights the swearing-in, the royal commission, and the election timing.",
+        "SBS News stresses Allan's exit and the need to stabilise the government.",
+        "news.com.au emphasises the internal split and the late challenge from Sonya Kilkenny.",
+        "AAP News notes the transfer avoided a prolonged leadership ballot.",
+        "9News frames it as a dramatic party-room meeting followed by Carroll's first speech as premier."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/victorian-labor-caucus-weighs-up-allan-leadership/106962972"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/28/jacinta-allan-victoria-labor-leadership-spill-ben-carroll-challenge-antisemitism-royal-commission-nsw-icac-inquiry-queensland-estimates-ntwnfb"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/28/jacinta-allan-resigns-quits-victoria-premier-leadership-challenge-ben-carroll"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/victorian-premier-jacinta-allan-resigns/41gb9d0wd"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/victoria/politics/ben-carroll-asks-jacinta-allan-to-step-aside-as-victorian-premier-weeks-after-promising-he-wouldnt/news-story/621a2e6b78e523a58e69176e5341a1ed"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/leadership-showdown-as-labor-faces-calls-for-overhaul"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/jacinta-allan-leadership-spill-updates-victoria-20260728-p60j2n.html"
+        }
+      ]
+    },
+    {
+      "id": "matthew-cox-rockhampton-trial",
+      "publishedAt": "2026-07-28T03:35:34Z",
+      "sourceCount": 1,
+      "headline": "Rockhampton murder case heads to trial over deaths of wife and baby",
+      "voiceScript": "A Central Queensland man accused of killing his wife Tayla Black and their 11-week-old daughter Murphy is heading to trial. The case matters because it is a long-running domestic violence homicide proceeding involving two deaths and evidence that will now be tested in court. The next step is the trial itself and the prosecution case.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/matthew-cox-stand-trial-for-alleged-killings-of-wife-baby/106965496"
+        }
+      ]
+    },
+    {
+      "id": "nsw-icac-perrottet-brothers",
+      "headline": "NSW ICAC hearing expands into secret tapes and sham Liberal payments",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-28T03:31:07Z",
+      "voiceScript": "The NSW corruption watchdog is digging further into allegations that Liberal figures used banned donations, sham consulting payments, and covert recordings to shape preselections and internal power. The latest hearing has widened the picture from a single funding dispute to the way money, factional recruiting, and private messages may have been used together. That matters because it goes to political transparency, donor rules, and whether any of the conduct could still lead to prosecutions. The next steps are more witness evidence, document testing, and any referrals the watchdog makes.",
+      "differences": [
+        "ABC News focuses on the hearing timeline and who is being called.",
+        "The Guardian Australia highlights the secret recordings and the factional network around the Reformers.",
+        "AAP News emphasises the damage tainted donations can do to the Liberal Party.",
+        "Australian Financial Review focuses on sham payments and the finance trail.",
+        "news.com.au highlights the WhatsApp interception and recruitment style inside the faction."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/what-to-expect-from-icac-probe-into-nsw-liberal-party/106955220"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/watchdog-probes-tainted-donations-in-blow-to-liberals"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/senior-politicians-supported-young-nsw-liberal-power-brokers-trying-to-shift-party-to-right-corruption-watchdog-hears-ntwnfb"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/28/nsw-liberals-icac-operation-rosny-secret-tape-recordings-ntwnfb"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/phone-taps-and-sham-payments-to-liberals-in-icac-bombshell-hearing-20260726-p60iny"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/courts-law/whatsapp-intercept-and-christian-recruitment-in-nsw-liberal-icac-probe/news-story/7fdf009da078e46f2f594550f31837f4"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/nsw-icac-operation-rosny-michael-ohara-reformer-liberals/106964276"
+        }
+      ]
+    },
+    {
+      "id": "the-castle-stage-play",
+      "publishedAt": "2026-07-28T03:12:51Z",
+      "sourceCount": 2,
+      "headline": "Working Dog turns The Castle into a stage show for Melbourne",
+      "voiceScript": "Working Dog's original team is turning The Castle into a stage play, with a Melbourne premiere planned for 2027. The story matters because the film is one of Australia's most quoted comedies and the stage version will test how its humour and working-class warmth translate live. The next step is casting and whether the production keeps the original tone while updating it for a new audience.",
+      "differences": [
+        "ABC News highlights the stage launch and the film's famous lines.",
+        "The Guardian Australia focuses on the original creators and the 2027 premiere."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/the-castle-stage-adaptation/106966540"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/stage/2026/jul/28/the-castle-stage-play-working-dog-film-rob-sitch-tom-gleisner-santo-cilauro-jane-kennedy"
+        }
+      ]
+    },
+    {
+      "id": "harvey-norman-latitude-penalty",
+      "publishedAt": "2026-07-28T03:06:34Z",
+      "sourceCount": 2,
+      "headline": "Court hits Harvey Norman and Latitude with $55m over credit-card ads",
+      "voiceScript": "The Federal Court has ordered Harvey Norman and Latitude to pay a combined $55 million after finding their interest-free promotion misled customers into taking out credit cards and paying extra fees. The penalty shows regulators are willing to hit big retail and finance campaigns when the real cost is buried in the fine print. The next step is how the two companies absorb the ruling and whether similar offers are rewritten across retail.",
+      "differences": [
+        "ABC News focuses on the regulator's case and the customer harm.",
+        "Australian Financial Review places the ruling in the wider retail and market context."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/harvey-norman-and-latitude-penalised-over-interest-free-ads/106966304"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/markets/equity-markets/asx-to-fall-oil-plunges-and-semiconductor-stocks-fell-anew-20260728-p60j29"
+        }
+      ]
+    },
     {
       "id": "moira-deeming-victorian-liberals",
       "headline": "Moira Deeming quits Victorian Liberals after disendorsement",
@@ -142,94 +287,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/victoria/moira-deeming-leaves-victoria-liberals-after-disendorsement/news-story/95677f4f378d11386c9a25b924ef7f23"
-        }
-      ]
-    },
-    {
-      "id": "nsw-icac-perrottet-brothers",
-      "headline": "NSW ICAC hearing probes sham payments and Liberal powerbrokers",
-      "sourceCount": 5,
-      "publishedAt": "2026-07-28T02:48:43Z",
-      "voiceScript": "NSW ICAC is hearing allegations that Liberal Party figures used banned donations, sham consultancy payments and factional networks to influence preselections and policy. The latest disclosures point to secret recordings and intercepted messages as investigators test how money may have moved through party-linked entities. The case matters because it goes to how political influence is bought, hidden and potentially enforced inside a major state party. Next comes more witness evidence, document testing and the question of whether any matters are referred for prosecution.",
-      "differences": [
-        "ABC News: lays out the hearing timetable and the scope of the inquiry.",
-        "AAP News: emphasises the damage tainted donations could do to the Liberals.",
-        "The Guardian Australia: frames it as a factional power struggle on the party’s right, with secret recordings in the mix.",
-        "Australian Financial Review: highlights phone taps and sham payments.",
-        "news.com.au: focuses on intercepted WhatsApp calls, Nassif’s boast and the recruitment network."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/what-to-expect-from-icac-probe-into-nsw-liberal-party/106955220"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/watchdog-probes-tainted-donations-in-blow-to-liberals"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/senior-politicians-supported-young-nsw-liberal-power-brokers-trying-to-shift-party-to-right-corruption-watchdog-hears-ntwnfb"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/icac-operation-rosny-nsw-liberals-corruption-investigation-ntwnfb"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/phone-taps-and-sham-payments-to-liberals-in-icac-bombshell-hearing-20260726-p60iny"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/courts-law/whatsapp-intercept-and-christian-recruitment-in-nsw-liberal-icac-probe/news-story/7fdf009da078e46f2f594550f31837f4"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/nsw-icac-operation-rosny-michael-ohara-reformer-liberals/106964276"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/nsw-liberals-icac-operation-rosny-secret-tape-recordings-ntwnfb"
-        }
-      ]
-    },
-    {
-      "id": "leadership",
-      "headline": "Jacinta Allan steps down as Victoria's Labor leadership collapses",
-      "sourceCount": 5,
-      "publishedAt": "2026-07-28T02:37:49Z",
-      "voiceScript": "Jacinta Allan resigned after caucus pressure turned Victoria's leadership contest into a rapid handover. Ben Carroll is now the expected successor, with Gabrielle Williams briefly stepping in as interim leader while Labor stabilises the party room. The change matters because it lands four months before the Victorian election and reshuffles the government's campaign, policy and public messaging. The next step is the leadership ballot and whether the transition stays orderly.",
-      "differences": [
-        "ABC News focuses on the spill meeting and Allan quitting before a formal vote.",
-        "The Guardian Australia focuses on Ben Carroll taking over after Allan's resignation.",
-        "SBS News frames Ben Carroll as the likely successor after Allan stepped aside.",
-        "news.com.au emphasises the internal rupture and Sonya Kilkenny's surprise nomination.",
-        "AAP News notes the handover could move quickly if no rival nominee emerges."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/victorian-labor-caucus-weighs-up-allan-leadership/106962972"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/jacinta-allan-resigns-quits-victoria-premier-leadership-challenge"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/victorian-premier-jacinta-allan-resigns/41gb9d0wd"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/victoria/politics/ben-carroll-asks-jacinta-allan-to-step-aside-as-victorian-premier-weeks-after-promising-he-wouldnt/news-story/621a2e6b78e523a58e69176e5341a1ed"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/leadership-showdown-as-labor-faces-calls-for-overhaul"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/jacinta-allan-resigns-quits-victoria-premier-leadership-challenge-ben-carroll"
         }
       ]
     },
