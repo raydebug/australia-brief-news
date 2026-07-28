@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T05:07:21.519Z",
+  "updatedAt": "2026-07-28T06:07:46.577Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -120,6 +120,62 @@
   ],
   "clusters": [
     {
+      "id": "broken-hill-ato-fraud",
+      "headline": "Broken Hill 一名男子被指試圖騙取稅務局 130 萬澳元",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T05:56:17.000Z",
+      "voiceScript": "一名來自 Broken Hill 的男子被指涉嫌試圖從澳洲稅務局騙取超過 130 萬澳元。此案重要，因為它涉及新南威爾斯州地區的一起大額虛假申報指控。接下來會進入法院程序，調查方需要說明這些申報是如何提出的，以及這套操作是怎樣被發現的。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/broken-hill-man-accused-defraud-over-1-million-false-tax-claims/106962424"
+        }
+      ]
+    },
+    {
+      "id": "act-energy-bill-transparency",
+      "headline": "ACT 議員要求電費帳單直接顯示最便宜方案",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T05:55:58.000Z",
+      "voiceScript": "ACT 獨立議員 Thomas Emerson 說，電費帳單應該更清楚地標出可用的最佳方案，因為他發現 ActewAGL 沒有直接寫明這一點。這個問題重要，是因為帳單呈現方式會影響家庭是否能注意到更便宜的方案。下一步要看的是這家電力公司是否會修改措辭，或者整個市場會不會面臨更強的透明度壓力。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/act-politician-calls-for-more-transparency-on-energy-bills/106966250"
+        }
+      ]
+    },
+    {
+      "id": "gold-coast-cheerleader-inquest",
+      "headline": "法官將調查前 Gold Coast Titans 拉拉隊員死亡案",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T05:53:32.000Z",
+      "voiceScript": "昆士蘭州驗屍官將調查 Breeana Robinson 在 2013 年從 Gold Coast 一棟高層陽台墜落身亡一案。此案重要，是因為她前伴侶的謀殺指控在 2023 年被撤銷，事件經過仍未徹底釐清。接下來是驗屍程序，將檢視哪些證據還能重新審視，以及是否會出現新的結論。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/breeana-robinson-death-inquest-jayden-moorea-gold-coast/106966480"
+        }
+      ]
+    },
+    {
+      "id": "sunshine-coast-health-funding",
+      "headline": "陽光海岸衛生負責人收回對昆州撥款的悲觀說法",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T05:23:06.000Z",
+      "voiceScript": "陽光海岸衛生服務機構的首席執行官在本月稍早一場外洩的員工會議上發表過較為悲觀的說法，如今在預算審查前又把措辭收了回來。這個消息重要，因為它反映出醫院經費和地區醫療系統承壓的現實。下一步要看預算審查能否披露更多關於原先警告的細節，以及後續支援會不會到位。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/sunshine-coast-health-service-funding-queensland-budget/106966656"
+        }
+      ]
+    },
+    {
       "id": "meta-indigenous-content-moderators",
       "headline": "Meta 表示在澳洲沒有負責原住民內容的本地審核員",
       "publishedAt": "2026-07-28T04:53:20.000Z",
@@ -130,7 +186,8 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/meta-indigenous-content-moderators/106966688"
         }
-      ]
+      ],
+      "sourceCount": 1
     },
     {
       "id": "vic-bushfire-inquiry-report",
@@ -143,7 +200,8 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/fire-inquiry-delivers-report-into-2026-bushfires-victoria/106962054"
         }
-      ]
+      ],
+      "sourceCount": 1
     },
     {
       "id": "kpmg-client-files-inquiry",
@@ -156,7 +214,8 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/kpmg-to-front-parliamentary-inquiry-on-secret-stash-client-files/106963446"
         }
-      ]
+      ],
+      "sourceCount": 1
     },
     {
       "id": "south-korea-ant-garnish-case",
@@ -169,7 +228,8 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/evett-south-korea-court-case-over-restaurant-use-of-ants/106949890"
         }
-      ]
+      ],
+      "sourceCount": 1
     },
     {
       "id": "leadership",
@@ -408,11 +468,11 @@
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/23/personal-and-banking-details-among-customer-data-stolen-in-origin-energy-hack"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/28/about-900000-origin-energy-customers-affected-by-hack-as-company-admits-it-was-warned-weeks-before-public-told"
         },
         {
           "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/podcast-episode/origin-energy-confirms-data-breach/vz8qb3sl2"
+          "url": "https://www.sbs.com.au/news/article/origin-data-breach-customers/8immypep2"
         },
         {
           "source": "news.com.au",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T05:07:21.519Z",
+  "updatedAt": "2026-07-28T06:07:46.575Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,65 @@
     }
   ],
   "errors": [
-    "Some front pages (news.com.au, AFR, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday, The Canberra Times, and AAP) required HTML/article-page extraction or search-result verification instead of clean RSS parsing in this run."
+    "news.com.au and AAP RSS endpoints returned no usable items in this run, so those sources still need article-page verification when they are used for fresh coverage."
   ],
   "clusters": [
+    {
+      "id": "broken-hill-ato-fraud",
+      "headline": "Broken Hill 一名男子被指试图骗取税务局 130 万澳元",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T05:56:17.000Z",
+      "voiceScript": "一名来自 Broken Hill 的男子被指涉嫌试图从澳大利亚税务局骗取超过 130 万澳元。此案之所以重要，是因为它涉及新南威尔士州地区的一起大额虚假申报指控。接下来会进入法院程序，调查方需要说明这些申报是如何提交的，以及这套操作是怎样被发现的。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/broken-hill-man-accused-defraud-over-1-million-false-tax-claims/106962424"
+        }
+      ]
+    },
+    {
+      "id": "act-energy-bill-transparency",
+      "headline": "ACT 议员要求电费账单直接显示最便宜方案",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T05:55:58.000Z",
+      "voiceScript": "ACT 独立议员 Thomas Emerson 说，电费账单应当更清楚地标出可用的最优方案，因为他发现 ActewAGL 没有直接写明这一点。这个问题重要，是因为账单呈现方式会影响家庭是否能注意到更便宜的套餐。下一步要看的是这家电力公司是否会修改措辞，或者整个市场会不会面临更强的透明度压力。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/act-politician-calls-for-more-transparency-on-energy-bills/106966250"
+        }
+      ]
+    },
+    {
+      "id": "gold-coast-cheerleader-inquest",
+      "headline": "法官将调查前 Gold Coast Titans 拉拉队员死亡案",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T05:53:32.000Z",
+      "voiceScript": "昆士兰州验尸官将调查 Breeana Robinson 在 2013 年从 Gold Coast 一栋高层阳台坠落身亡一案。此案重要，是因为她前伴侣的谋杀指控在 2023 年被撤销，事件经过仍未彻底厘清。接下来是验尸程序，将检视哪些证据还能重新审视，以及是否会出现新的结论。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/breeana-robinson-death-inquest-jayden-moorea-gold-coast/106966480"
+        }
+      ]
+    },
+    {
+      "id": "sunshine-coast-health-funding",
+      "headline": "阳光海岸卫生负责人收回对昆州拨款的悲观说法",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T05:23:06.000Z",
+      "voiceScript": "阳光海岸卫生服务机构的首席执行官在本月早些时候一场泄露的员工会议上发表过较为悲观的说法，如今在预算审查前又把措辞收了回来。这个消息重要，因为它反映出医院经费和地区医疗系统承压的现实。下一步要看预算审查能否披露更多关于原先警告的细节，以及后续支援会不会到位。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/sunshine-coast-health-service-funding-queensland-budget/106966656"
+        }
+      ]
+    },
     {
       "id": "meta-indigenous-content-moderators",
       "headline": "Meta 表示在澳洲没有负责原住民内容的本地审核员",
@@ -130,7 +186,8 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/meta-indigenous-content-moderators/106966688"
         }
-      ]
+      ],
+      "sourceCount": 1
     },
     {
       "id": "vic-bushfire-inquiry-report",
@@ -143,7 +200,8 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/fire-inquiry-delivers-report-into-2026-bushfires-victoria/106962054"
         }
-      ]
+      ],
+      "sourceCount": 1
     },
     {
       "id": "kpmg-client-files-inquiry",
@@ -156,7 +214,8 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/kpmg-to-front-parliamentary-inquiry-on-secret-stash-client-files/106963446"
         }
-      ]
+      ],
+      "sourceCount": 1
     },
     {
       "id": "south-korea-ant-garnish-case",
@@ -169,7 +228,8 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/evett-south-korea-court-case-over-restaurant-use-of-ants/106949890"
         }
-      ]
+      ],
+      "sourceCount": 1
     },
     {
       "id": "leadership",
@@ -408,11 +468,11 @@
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/23/personal-and-banking-details-among-customer-data-stolen-in-origin-energy-hack"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/28/about-900000-origin-energy-customers-affected-by-hack-as-company-admits-it-was-warned-weeks-before-public-told"
         },
         {
           "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/podcast-episode/origin-energy-confirms-data-breach/vz8qb3sl2"
+          "url": "https://www.sbs.com.au/news/article/origin-data-breach-customers/8immypep2"
         },
         {
           "source": "news.com.au",
