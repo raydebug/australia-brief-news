@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T12:05:05Z",
+  "updatedAt": "2026-07-28T13:11:36Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -120,10 +120,31 @@
   ],
   "clusters": [
     {
+      "id": "pacific-aid-lead",
+      "headline": "澳洲在太平洋融資中超越中國",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-28T12:30:00Z",
+      "voiceScript": "ABC 與《澳洲金融評論》引用的 Lowy Institute 新地圖顯示，澳洲如今已成為太平洋地區最大的貸款方和基礎建設資助者。最新數據說明，這裡長期存在著圍繞資金、通路與影響力的競爭，而與中國有關的投資雖然仍在繼續，但已不再居於領先位置。這之所以重要，是因為這些數字會影響太平洋國家如何權衡債務、發展與戰略關係。接下來要看坎培拉是否會繼續擴大投入，以及其他力量會如何回應。",
+      "differences": [
+        "ABC News 側重 Lowy Institute 地圖以及澳洲融資占比的成長。",
+        "Australian Financial Review 將其描繪為與中國在太平洋外交中的更大競爭。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/new-lowy-pacific-aid-map-australia-lending-investor/106967764"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/australia-expands-pacific-aid-lead-in-contest-with-china-20260727-p60j0p"
+        }
+      ]
+    },
+    {
       "id": "pauline-hanson-italy-trip",
       "headline": "漢森義大利行程的出資來源再次引發質疑",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-28T08:06:57Z",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-28T09:40:56Z",
       "voiceScript": "寶琳·漢森因義大利行程再次受到關注，相關報導把這次出行與吉娜·萊因哈特聯繫起來。漢森表示沒有動用納稅人資金，但整筆費用至今仍沒有被清楚說明。此事之所以重要，是因為它牽涉到政治透明度、公眾人物接受私人資助，以及差旅費用如何揭露。接下來要看是否會有更多文件或說法出現，說明機票和其他費用究竟由誰承擔。",
       "differences": [
         "ABC News：側重漢森拒絕說明付款人，以及圍繞透明度的質疑。",
@@ -147,6 +168,59 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/video/politics/pauline-hanson-defends-luxury-italy-trip-bc-6401421951112"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/gina-rinehart-paid-for-pauline-hanson-s-europe-flights"
+        }
+      ]
+    },
+    {
+      "id": "leadership",
+      "headline": "維州政權交接，Ben Carroll 接任州長",
+      "sourceCount": 6,
+      "publishedAt": "2026-07-28T09:01:17Z",
+      "voiceScript": "在黨團壓力持續發酵後，Ben Carroll 已接任維多利亞州州長，Jacinta Allan 正式離場。他說會就州內建築業啟動皇家委員會調查，並借這次交接為工黨在 11 月大選前重整步調。這個變化重要，因為它發生在選舉只剩幾個月的時候，可能重新定義工黨的競選重點，也會放大圍繞 Big Build 的廉政壓力。接下來要看的是 Carroll 能否迅速穩住黨團，以及調查範圍會不會繼續擴大。",
+      "differences": [
+        "ABC News 更強調黨團交接和 Carroll 的首批表態。",
+        "The Guardian Australia 重點寫他宣誓就任、皇家委員會和選舉時點。",
+        "SBS News 把焦點放在 Allan 離任後如何穩住政府。",
+        "news.com.au 強調黨內裂縫以及 Sonya Kilkenny 的意外參選。",
+        "AAP News 指出，如果沒有競爭對手，接班流程會很快完成。",
+        "9News 則把它寫成一場戲劇性的黨團會議和 Carroll 上任後的首場講話。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/victorian-labor-caucus-weighs-up-allan-leadership/106962972"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/28/jacinta-allan-victoria-labor-leadership-spill-ben-carroll-challenge-antisemitism-royal-commission-nsw-icac-inquiry-queensland-estimates-ntwnfb"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/28/jacinta-allan-resigns-quits-victoria-premier-leadership-challenge-ben-carroll"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/victorian-premier-jacinta-allan-resigns/41gb9d0wd"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/victoria/politics/ben-carroll-asks-jacinta-allan-to-step-aside-as-victorian-premier-weeks-after-promising-he-wouldnt/news-story/621a2e6b78e523a58e69176e5341a1ed"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/leadership-showdown-as-labor-faces-calls-for-overhaul"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/jacinta-allan-leadership-spill-updates-victoria-20260728-p60j2n.html"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/28/ben-carroll-premier-u-turn-victoria-labor"
         }
       ]
     },
@@ -187,6 +261,36 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/steven-edward-anderson-sentenced-fatal-stabbing-darren-smith/106965892"
+        }
+      ]
+    },
+    {
+      "id": "wa-oil-refinery-study",
+      "headline": "西澳新煉油廠計畫進入可行性研究",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-28T07:23:54Z",
+      "voiceScript": "聯邦政府和西澳政府將出資400萬澳元，評估是否能在皮爾巴拉地區卡拉薩附近建設一座新的大型煉油廠。這將是澳洲自上世紀60年代以來首次新建大型煉油設施，核心理由是提高燃油安全，減少對海外供應衝擊的依賴。現在最關鍵的數字是這筆前期研究資金、澳洲對進口燃油的依賴程度，以及專案在商業與環保上能否站得住腳。眼下它還只是研究，不是開工。",
+      "differences": [
+        "ABC News：重點放在卡拉薩/皮爾巴拉的擬建地點，以及強化國家韌性的說法。",
+        "SBS News：強調這可能是澳洲的第三座煉油廠，也點出目前對進口燃油的依賴。",
+        "The Guardian Australia：把焦點放在中東局勢推高通膨與油價的風險上。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/australia-announces-potential-new-oil-refinery-for-the-country-first-since-the-1960s/eow78smgv"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/third-oil-refinery-on-cards-to-help-shield-australia"
         }
       ]
     },
@@ -268,32 +372,6 @@
       ]
     },
     {
-      "id": "wa-oil-refinery-study",
-      "headline": "西澳新煉油廠計畫進入可行性研究",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-28T06:16:00Z",
-      "voiceScript": "聯邦政府和西澳政府將出資400萬澳元，評估是否能在皮爾巴拉地區卡拉薩附近建設一座新的大型煉油廠。這將是澳洲自上世紀60年代以來首次新建大型煉油設施，核心理由是提高燃油安全，減少對海外供應衝擊的依賴。現在最關鍵的數字是這筆前期研究資金、澳洲對進口燃油的依賴程度，以及專案在商業與環保上能否站得住腳。眼下它還只是研究，不是開工。",
-      "differences": [
-        "ABC News：重點放在卡拉薩/皮爾巴拉的擬建地點，以及強化國家韌性的說法。",
-        "SBS News：強調這可能是澳洲的第三座煉油廠，也點出目前對進口燃油的依賴。",
-        "The Guardian Australia：把焦點放在中東局勢推高通膨與油價的風險上。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/podcast-episode/australia-announces-potential-new-oil-refinery-for-the-country-first-since-the-1960s/eow78smgv"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
-        }
-      ]
-    },
-    {
       "id": "broken-hill-ato-fraud",
       "headline": "Broken Hill 一名男子被指試圖騙取稅務局 130 萬澳元",
       "sourceCount": 1,
@@ -338,7 +416,7 @@
     {
       "id": "origin-energy-breach-900k",
       "headline": "Origin 資料外洩波及約90萬客戶",
-      "sourceCount": 3,
+      "sourceCount": 5,
       "publishedAt": "2026-07-28T05:41:39Z",
       "voiceScript": "Origin Energy表示，一起網路事件可能影響約90萬名現任與前任客戶。公司稱，姓名、地址、出生日期、電話號碼和部分帳戶資料可能已被存取，但目前不認為完整的信用卡或銀行資料外洩。這則消息的重要性，在於受影響人數龐大，接下來也可能帶來詐騙與釣魚風險。後續調查會聚焦於入侵方式，以及公司是否應更早對外說明。",
       "differences": [
@@ -358,6 +436,14 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/technology/online/hacking/origin-energy-says-data-of-900000-australians-stolen-in-hack/news-story/2bd8900737cc8564afed4b5c4ba98a8f"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/origin-data-breach-customers/8immypep2"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/nearly-a-million-customers-caught-up-in-origin-data-breach-c-22639526"
         }
       ]
     },
@@ -430,51 +516,6 @@
         }
       ],
       "sourceCount": 1
-    },
-    {
-      "id": "leadership",
-      "headline": "維州政權交接，Ben Carroll 接任州長",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-28T03:54:45Z",
-      "voiceScript": "在黨團壓力持續發酵後，Ben Carroll 已接任維多利亞州州長，Jacinta Allan 正式離場。他說會就州內建築業啟動皇家委員會調查，並借這次交接為工黨在 11 月大選前重整步調。這個變化重要，因為它發生在選舉只剩幾個月的時候，可能重新定義工黨的競選重點，也會放大圍繞 Big Build 的廉政壓力。接下來要看的是 Carroll 能否迅速穩住黨團，以及調查範圍會不會繼續擴大。",
-      "differences": [
-        "ABC News 更強調黨團交接和 Carroll 的首批表態。",
-        "The Guardian Australia 重點寫他宣誓就任、皇家委員會和選舉時點。",
-        "SBS News 把焦點放在 Allan 離任後如何穩住政府。",
-        "news.com.au 強調黨內裂縫以及 Sonya Kilkenny 的意外參選。",
-        "AAP News 指出，如果沒有競爭對手，接班流程會很快完成。",
-        "9News 則把它寫成一場戲劇性的黨團會議和 Carroll 上任後的首場講話。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/victorian-labor-caucus-weighs-up-allan-leadership/106962972"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/28/jacinta-allan-victoria-labor-leadership-spill-ben-carroll-challenge-antisemitism-royal-commission-nsw-icac-inquiry-queensland-estimates-ntwnfb"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/jacinta-allan-resigns-quits-victoria-premier-leadership-challenge-ben-carroll"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/victorian-premier-jacinta-allan-resigns/41gb9d0wd"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/victoria/politics/ben-carroll-asks-jacinta-allan-to-step-aside-as-victorian-premier-weeks-after-promising-he-wouldnt/news-story/621a2e6b78e523a58e69176e5341a1ed"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/leadership-showdown-as-labor-faces-calls-for-overhaul"
-        },
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/vic/jacinta-allan-leadership-spill-updates-victoria-20260728-p60j2n.html"
-        }
-      ]
     },
     {
       "id": "matthew-cox-rockhampton-trial",
@@ -675,7 +716,7 @@
     {
       "id": "europe-wildfires-australia-warning",
       "headline": "歐洲野火危機讓澳洲自己的火季問題更受關注",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-07-28T02:00:00Z",
       "voiceScript": "西班牙和法國已有超過30萬人被迫撤離家園，南歐的山火仍在蔓延。法國方面說情況已有進展，但新的熱浪還在路上，風險並沒有解除。這則消息對澳洲重要，是因為火勢特徵、應急預案和熱浪應對方式都能拿來和本地條件對照。接下來要看的是，澳洲相關機構會不會把歐洲這次火季當成一面預警鏡子。",
       "differences": [],
@@ -683,6 +724,10 @@
         {
           "source": "ABC listen",
           "url": "https://www.abc.net.au/listen/programs/worldtoday/is-europe-s-fire-crisis-a-sign-for-australia-/106966834"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/wildfires-europe-spain-france-heatwave-australian-travellers/hfjoiij4m"
         }
       ]
     },
@@ -731,6 +776,44 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/technology/online/hacking/origin-energy-says-data-of-900000-australians-stolen-in-hack/news-story/2bd8900737cc8564afed4b5c4ba98a8f"
+        }
+      ]
+    },
+    {
+      "id": "actu-leadership-change",
+      "headline": "ACTU兩位最高領導人宣布卸任",
+      "sourceCount": 6,
+      "publishedAt": "2026-07-28T00:34:52Z",
+      "voiceScript": "澳洲工會理事會秘書 Sally McManus 和主席 Michele O'Neil 宣布卸任，工運最高層進入換班期。這一變化發生在工會和工黨政策互動最密集的時候，後續接班人選會影響工資、工時和工作場所保護的推動力度。接下來要看新領導層如何成形，以及工會與工黨關係是否出現調整。",
+      "differences": [
+        "ABC News：突出工會最高層換班與接班程序。",
+        "Australian Financial Review：把這次離任寫成面對新挑戰的新一代交棒。",
+        "The Australian：強調兩人的長期任期，以及她們對工運影響力的重塑。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/actu-leaders-sally-mcmanus-michele-o-neil-resign/106964206"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/work-and-careers/workplace/actu-leadership-to-step-down-make-way-for-new-generation-20260727-p60iv4"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/top-union-leaders-sally-mcmanus-and-michele-oneil-announce-shock-resignations/news-story/b2cb98c940d7277ef363284b48d0e31c"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/actu-leaders-sally-mcmanus-michele-oneil-step-aside-new-generation/r6x6bixff"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/28/sally-mcmanus-michele-oneil-resign-actu-union-leaders"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/actu-bosses-step-down-for-post-cfmeu-renaissance"
         }
       ]
     },
@@ -822,36 +905,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/business/other-industries/how-australias-ai-data-centre-boom-puts-housing-and-energy-projects-at-risk/news-story/b6d7edc95e34d99e4e1f5a6d4b0b21c3"
-        }
-      ]
-    },
-    {
-      "id": "actu-leadership-change",
-      "headline": "ACTU兩位最高領導人宣布卸任",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-27T21:47:00+10:00",
-      "voiceScript": "澳洲工會理事會秘書 Sally McManus 和主席 Michele O'Neil 宣布卸任，工運最高層進入換班期。這一變化發生在工會和工黨政策互動最密集的時候，後續接班人選會影響工資、工時和工作場所保護的推動力度。接下來要看新領導層如何成形，以及工會與工黨關係是否出現調整。",
-      "differences": [
-        "ABC News：突出工會最高層換班與接班程序。",
-        "Australian Financial Review：把這次離任寫成面對新挑戰的新一代交棒。",
-        "The Australian：強調兩人的長期任期，以及她們對工運影響力的重塑。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/actu-leaders-sally-mcmanus-michele-o-neil-resign/106964206"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/work-and-careers/workplace/actu-leadership-to-step-down-make-way-for-new-generation-20260727-p60iv4"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/nation/top-union-leaders-sally-mcmanus-and-michele-oneil-announce-shock-resignations/news-story/b2cb98c940d7277ef363284b48d0e31c"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/actu-leaders-sally-mcmanus-michele-oneil-step-aside-new-generation/r6x6bixff"
         }
       ]
     },
