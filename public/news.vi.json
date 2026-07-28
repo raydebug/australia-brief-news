@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T01:05:13.702Z",
+  "updatedAt": "2026-07-28T02:03:47.000Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,93 @@
     }
   ],
   "errors": [
-    "news.com.au latest RSS returned no items in this run; AFR, Sky News Australia, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday, and The Canberra Times were reachable via HTML front pages, and only clearly Australian stories within 7 days were kept."
+    "Some source feeds and front pages (news.com.au, AFR, Sky News Australia, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday, The Canberra Times, and AAP) were not cleanly parseable in this run, so current clusters were verified from accessible article pages and search results."
   ],
   "clusters": [
+    {
+      "id": "leadership",
+      "headline": "Jacinta Allan rời ghế khi quyền lực Công đảng Victoria được chuyển giao",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-28T01:54:13Z",
+      "voiceScript": "Jacinta Allan đã từ chức sau khi áp lực trong nội bộ đảng biến cuộc tranh chấp lãnh đạo của Victoria thành một cuộc chuyển giao rất nhanh. Ben Carroll nhiều khả năng sẽ kế nhiệm, còn Gabrielle Williams tạm thời nắm vai trò lãnh đạo để giữ ổn định nội bộ Công đảng. Việc này quan trọng vì diễn ra chỉ bốn tháng trước cuộc bầu cử bang và có thể làm thay đổi chiến dịch tranh cử, chính sách và hình ảnh của chính phủ. Bước tiếp theo là phiếu bầu lãnh đạo và liệu quá trình chuyển giao có diễn ra êm thấm hay không.",
+      "differences": [
+        "ABC News nhấn vào cuộc họp đảng và việc Allan rời cuộc đua trước khi bỏ phiếu.",
+        "The Guardian Australia tập trung vào việc Gabrielle Williams tạm quyền sau cuộc họp căng thẳng.",
+        "SBS News xem Ben Carroll là người kế nhiệm nhiều khả năng nhất sau khi Allan rút lui.",
+        "news.com.au nhấn mạnh sự rạn nứt nội bộ và việc Sonya Kilkenny bất ngờ ra tranh cử.",
+        "AAP News cho rằng việc bàn giao có thể diễn ra nhanh nếu không có đối thủ khác."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/victorian-labor-caucus-weighs-up-allan-leadership/106962972"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/28/jacinta-allan-resigns-quits-victoria-premier-leadership-challenge"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/victorian-premier-jacinta-allan-resigns/41gb9d0wd"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/victoria/politics/ben-carroll-asks-jacinta-allan-to-step-aside-as-victorian-premier-weeks-after-promising-he-wouldnt/news-story/621a2e6b78e523a58e69176e5341a1ed"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/leadership-showdown-as-labor-faces-calls-for-overhaul"
+        }
+      ]
+    },
+    {
+      "id": "origin-data-breach-ai-scams",
+      "headline": "Vụ rò rỉ dữ liệu Origin ảnh hưởng 900.000 khách hàng, nguy cơ lừa đảo tăng",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-28T01:26:00Z",
+      "voiceScript": "Origin cho biết khoảng 900.000 hồ sơ khách hàng đã bị ảnh hưởng trong vụ rò rỉ này, khiến mức độ sự việc rõ hơn so với cảnh báo ban đầu. Dữ liệu có thể lộ gồm tên, địa chỉ, ngày sinh, thông tin liên lạc và một phần thông tin tài khoản; ngay cả khi không có dữ liệu thanh toán đầy đủ, chúng vẫn có thể bị dùng để lừa đảo. Điều quan trọng là công ty phục vụ hàng triệu tài khoản, và vụ việc hiện đã chuyển từ điều tra sang thông báo cho khách hàng, rà soát của cơ quan quản lý và phòng chống gian lận. Bước tiếp theo là quy trình thông báo cuối cùng và mức độ ngăn chặn các vụ lừa đảo tiếp theo.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/origin-energy-data-breach-900k-customers-impacted/106961804"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/23/personal-and-banking-details-among-customer-data-stolen-in-origin-energy-hack"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/origin-energy-confirms-data-breach/vz8qb3sl2"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/online/hacking/origin-energy-says-data-of-900000-australians-stolen-in-hack/news-story/2bd8900737cc8564afed4b5c4ba98a8f"
+        }
+      ]
+    },
+    {
+      "id": "melbourne-rape-verdict",
+      "headline": "Bồi thẩm đoàn Victoria kết tội một người đàn ông có ảnh hưởng ở Melbourne về tội hiếp dâm",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T01:19:40Z",
+      "voiceScript": "Một bồi thẩm đoàn tại Tòa án quận Victoria đã kết tội một người đàn ông có ảnh hưởng ở Melbourne về tội hiếp dâm và tấn công tình dục. Vụ án quan trọng vì một cáo buộc từng bị giữ kín trong thời gian dài nay đã dẫn tới bản án kết tội, dù vấn đề ẩn danh và tuyên án vẫn còn. Bước tiếp theo là tuyên án và liệu lệnh giữ kín danh tính có tiếp tục hay không. Vụ việc cũng cho thấy các vụ án tấn công tình dục có thể kéo dài và rất khó xử lý ngay cả khi bằng chứng đã được đưa ra trước bồi thẩm đoàn.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/jury-verdict-in-melbourne-businessman-rape-case/106966126"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/28/well-connected-melbourne-man-guilty-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/victoria/courts-law/highprofile-melbourne-man-guilty-of-raping-woman/news-story/725e8e790b4d2cab4d357669f89fe16c"
+        }
+      ]
+    },
     {
       "id": "builder-warning-nsw",
       "headline": "Nhà xây dựng chưa đăng ký Steve Preston tiếp tục hoạt động ở NSW",
@@ -151,41 +235,6 @@
         {
           "source": "AAP News",
           "url": "https://aapnews.aap.com.au/news/push-for-public-sector-training-on-social-cohesion"
-        }
-      ]
-    },
-    {
-      "id": "leadership",
-      "headline": "Cuộc chiến lãnh đạo Đảng Lao động Victoria leo thang",
-      "sourceCount": 5,
-      "publishedAt": "2026-07-27T19:16:51Z",
-      "voiceScript": "Cuộc đấu tranh nội bộ của Đảng Lao động Victoria đã leo thang thành thách thức lãnh đạo, với việc Ben Carroll chống lại Thủ hiến Jacinta Allan. Cuộc tranh cử này quan trọng vì nó chỉ diễn ra vài tháng trước cuộc bầu cử tiểu bang và có thể làm ảnh hưởng đến chiến dịch tranh cử, chương trình chính sách và hình ảnh công chúng của chính phủ. Câu hỏi quan trọng bây giờ là liệu Allan có thể tổ chức cuộc họp kín hay liệu sự cố tràn dầu tiếp tục diễn ra và gây ra một cuộc bỏ phiếu dài hơn của đảng.",
-      "differences": [
-        "ABC News: tập trung vào số lượng họp kín, cơ chế tràn và cơ hội bỏ phiếu chính thức.",
-        "The Guardian Australia: nêu bật việc Allan từ chối bước sang một bên và chia rẽ phe phái.",
-        "SBS News: coi đây là cuộc thử nghiệm kéo dài bốn tháng trước cuộc bầu cử tháng 11.",
-        "AAP News: nhấn mạnh thách thức có thể kéo dài và khiến chính phủ bất ổn trước cuộc bầu cử."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/victorian-labor-caucus-weighs-up-allan-leadership/106962972"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/jacinta-allan-leadership-challenge-labor-faction-meeting-victoria-politics"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/jacinta-allan-election-victoria-leadership-contest-labor-2026/nepmedqud"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/premier-faces-leadership-challenge-as-election-looms"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/victoria/politics/ben-carroll-asks-jacinta-allan-to-step-aside-as-victorian-premier-weeks-after-promising-he-wouldnt/news-story/621a2e6b78e523a58e69176e5341a1ed"
         }
       ]
     },
@@ -407,46 +456,6 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/mixed-reaction-to-ausalert-emergency-message-system-as-test-fails-to-reach-people-c-22634152"
-        }
-      ]
-    },
-    {
-      "id": "allan-leadership-crisis",
-      "headline": "Jacinta Allan đối mặt với cuộc khủng hoảng lãnh đạo mới",
-      "sourceCount": 7,
-      "publishedAt": "2026-07-27T07:49:14Z",
-      "voiceScript": "Áp lực bên trong Đảng Lao động của Victoria đang ngày càng lộ rõ, với Jacinta Allan hiện đang chịu áp lực trực tiếp. Các nhân vật chủ chốt trong bang đã tổ chức một cuộc họp về khủng hoảng và cuộc tranh luận không còn chỉ là liệu cô ấy có thể cầm cự được hay không. Câu hỏi lớn hơn là liệu xung đột nội bộ có tiếp tục gia tăng cho đến cuộc bầu cử tiếp theo hay không. Điều gì xảy ra tiếp theo phụ thuộc vào việc số lượng đảng tiếp tục thay đổi hay khủng hoảng được ngăn chặn.",
-      "differences": [
-        "SBS News: miêu tả câu chuyện như một cuộc thi lãnh đạo thẳng thắn và nhấn mạnh lời thề tiếp tục chiến đấu của Allan."
-      ],
-      "links": [
-        {
-          "source": "The Age",
-          "url": "https://www.theage.com.au/politics/victoria/jacinta-allan-leadership-challenge-live-updates-victorian-premier-under-threat-as-state-labor-chiefs-hold-crisis-meeting-20260726-p60ip3.html"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/27/ausalert-emergency-warning-test-antisemitism-royal-commission-nsw-icac-inquiry-politics-anthony-albanese-labor-angus-taylor-coalition-victoria-jacinta-allan-ntwnfb"
-        },
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/vic/victorian-premier-jacinta-allan-leadership-challenge-expected-within-days-20260727-p60ir8.html"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/premier-faces-leadership-challenge-as-election-looms"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/another-delegation-of-labor-mps-to-tell-allan-to-resign-20260727-p60iq2"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/victorian-premier-jacinta-allan-future-labor-mps-meet/106960880"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/podcast-episode/jacinta-allan-refuses-to-quit-as-victorian-labor-leadership-fight-erupts/wfqrr0v4v"
         }
       ]
     },
@@ -1397,32 +1406,6 @@
         {
           "source": "WAtoday",
           "url": "https://www.watoday.com.au/national/western-australia/perth-cancer-doctor-admits-he-made-ai-child-sex-videos-20260724-p60ias.html"
-        }
-      ]
-    },
-    {
-      "id": "origin-data-breach-ai-scams",
-      "headline": "Vi phạm dữ liệu nguồn gốc làm tăng lo ngại về các vụ lừa đảo do AI điều khiển",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-23T19:04:00Z",
-      "voiceScript": "Hành vi vi phạm của Origin Energy đã làm dấy lên lo ngại rằng bọn tội phạm sẽ kết hợp tên, địa chỉ, ngày sinh và một phần chi tiết tài khoản bị đánh cắp với thông tin công khai để khiến các email, cuộc gọi và tin nhắn lừa đảo trở nên thuyết phục hơn. Con số quan trọng là 4,8 triệu tài khoản khách hàng của Origin, trong khi tác động đầy đủ vẫn đang được xác nhận. Điều này quan trọng vì ngay cả dữ liệu không đầy đủ cũng có thể trở nên hiệu quả cao khi AI giúp những kẻ lừa đảo mở rộng quy mô mạo danh. Bước tiếp theo là thông báo cho khách hàng, điều tra chính thức và cách các ngân hàng cũng như cơ quan quản lý phản ứng với hành vi gian lận tiếp theo.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/origin-breach-could-fuel-wave-of-ai-powered-scams/106951588"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/23/personal-and-banking-details-among-customer-data-stolen-in-origin-energy-hack"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/not-just-phishing-the-scams-to-watch-for-if-youre-an-origin-energy-customer/3jauqz344"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/online/origin-energy-investigating-reported-security-incident/news-story/a56f465b425a5c1d4381f0d898f4926f"
         }
       ]
     },

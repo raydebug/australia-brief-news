@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T01:05:13.702Z",
+  "updatedAt": "2026-07-28T02:03:47.000Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,93 @@
     }
   ],
   "errors": [
-    "news.com.au 최신 RSS는 이번 실행에서 비어 있었습니다. AFR, Sky News Australia, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday, The Canberra Times는 HTML 메인 페이지 추출로 보완했고, 7일 이내의 호주 관련 기사만 남겼습니다."
+    "Some source feeds and front pages (news.com.au, AFR, Sky News Australia, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday, The Canberra Times, and AAP) were not cleanly parseable in this run, so current clusters were verified from accessible article pages and search results."
   ],
   "clusters": [
+    {
+      "id": "leadership",
+      "headline": "자신타 앨런 사퇴로 빅토리아 노동당 권력 이양",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-28T01:54:13Z",
+      "voiceScript": "자신타 앨런이 당내 압박 속에 물러나면서 빅토리아 노동당의 지도부 다툼은 빠른 권력 이양으로 바뀌었다. 벤 캐럴이 후임이 될 가능성이 크고, 가브리엘 윌리엄스가 당분간 임시 지도자로서 당내를 수습하고 있다. 이번 변화는 주 선거를 4개월 앞둔 시점에 벌어져 선거 전략과 정책 추진, 정부 이미지에 직접 영향을 줄 수 있다. 이제 핵심은 공식 승계가 순조롭게 진행되는지와 당내 균열이 얼마나 빨리 봉합되는지다.",
+      "differences": [
+        "ABC News는 당내 회의와 표결 전에 앨런이 물러난 과정을 강조한다.",
+        "The Guardian Australia는 긴장된 당원 회의 뒤 가브리엘 윌리엄스가 임시 지도자가 된 점을 부각한다.",
+        "SBS News는 앨런이 물러난 뒤 벤 캐럴이 유력 승계자라는 점에 초점을 맞춘다.",
+        "news.com.au는 당내 균열과 소니아 킬니의 예상 밖 출마를 강조한다.",
+        "AAP News는 경쟁자가 없으면 이양이 빠르게 끝날 수 있다고 짚는다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/victorian-labor-caucus-weighs-up-allan-leadership/106962972"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/28/jacinta-allan-resigns-quits-victoria-premier-leadership-challenge"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/victorian-premier-jacinta-allan-resigns/41gb9d0wd"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/victoria/politics/ben-carroll-asks-jacinta-allan-to-step-aside-as-victorian-premier-weeks-after-promising-he-wouldnt/news-story/621a2e6b78e523a58e69176e5341a1ed"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/leadership-showdown-as-labor-faces-calls-for-overhaul"
+        }
+      ]
+    },
+    {
+      "id": "origin-data-breach-ai-scams",
+      "headline": "Origin 정보 유출 영향이 90만 고객으로 확대되며 사기 우려 커져",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-28T01:26:00Z",
+      "voiceScript": "Origin은 이번 유출에 약 90만 건의 고객 기록이 영향을 받았다고 밝혀, 처음 알려진 범위보다 사태의 크기가 더 분명해졌다. 노출됐을 수 있는 정보에는 이름, 주소, 생년월일, 연락처, 일부 계정 정보가 포함될 수 있으며, 완전한 결제 정보가 아니더라도 사기에 악용될 수 있다. 이 사건이 중요한 이유는 이 회사가 수백만 개의 계정을 보유하고 있고, 지금은 조사 단계에서 고객 통지, 규제 검토, 사기 대응 단계로 넘어가고 있기 때문이다. 다음 단계는 최종 통지 절차와 추가 사기를 얼마나 막을 수 있느냐이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/origin-energy-data-breach-900k-customers-impacted/106961804"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/23/personal-and-banking-details-among-customer-data-stolen-in-origin-energy-hack"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/origin-energy-confirms-data-breach/vz8qb3sl2"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/online/hacking/origin-energy-says-data-of-900000-australians-stolen-in-hack/news-story/2bd8900737cc8564afed4b5c4ba98a8f"
+        }
+      ]
+    },
+    {
+      "id": "melbourne-rape-verdict",
+      "headline": "빅토리아 배심원단, 멜버른 유력 남성에 강간 유죄",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T01:19:40Z",
+      "voiceScript": "빅토리아주 카운티 법원 배심원단이 멜버른의 유력 인물에게 강간과 성폭행 유죄 평결을 내렸다. 오랫동안 비공개로 남아 있던 사건이 유죄 판결로 이어졌다는 점에서 의미가 크지만, 신원 비공개와 형량 문제는 아직 남아 있다. 다음 단계는 선고와 비공개 명령을 계속 유지할지 여부다. 이 사건은 성폭력 사건이 배심원 앞에서 다뤄질 때 얼마나 길고 어려운 절차를 거치는지도 보여준다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/jury-verdict-in-melbourne-businessman-rape-case/106966126"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/28/well-connected-melbourne-man-guilty-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/victoria/courts-law/highprofile-melbourne-man-guilty-of-raping-woman/news-story/725e8e790b4d2cab4d357669f89fe16c"
+        }
+      ]
+    },
     {
       "id": "builder-warning-nsw",
       "headline": "무등록 건설업자 Steve Preston, NSW에서 계속 영업",
@@ -151,41 +235,6 @@
         {
           "source": "AAP News",
           "url": "https://aapnews.aap.com.au/news/push-for-public-sector-training-on-social-cohesion"
-        }
-      ]
-    },
-    {
-      "id": "leadership",
-      "headline": "빅토리아 노동당 지도부 싸움이 격화",
-      "sourceCount": 5,
-      "publishedAt": "2026-07-27T19:16:51Z",
-      "voiceScript": "빅토리아 노동당 내부의 갈등이 Ben Carroll의 도전으로 이어지며 Jacinta Allan 총리의 지도력 문제로 번졌다. 주 선거를 몇 달 앞둔 시점의 충돌이어서 선거 전략, 정책 우선순위, 정부 이미지에 영향을 줄 수 있다. 지금 핵심은 Allan이 당내 다수를 지킬 수 있는지, 아니면 공식 표결로 넘어가 내분이 길어질지다.",
-      "differences": [
-        "ABC News는 당내 표 계산과 공식 표결 가능성을 더 강조한다.",
-        "The Guardian Australia는 Allan의 사퇴 거부와 당내 계파 균열을 부각한다.",
-        "SBS News는 11월 주선거까지 4개월밖에 남지 않은 시험대로 이 경쟁을 묘사한다.",
-        "AAP News는 이 갈등이 길어지며 선거 전 정부를 계속 흔들 수 있다고 강조한다."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/victorian-labor-caucus-weighs-up-allan-leadership/106962972"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/jacinta-allan-leadership-challenge-labor-faction-meeting-victoria-politics"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/jacinta-allan-election-victoria-leadership-contest-labor-2026/nepmedqud"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/premier-faces-leadership-challenge-as-election-looms"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/victoria/politics/ben-carroll-asks-jacinta-allan-to-step-aside-as-victorian-premier-weeks-after-promising-he-wouldnt/news-story/621a2e6b78e523a58e69176e5341a1ed"
         }
       ]
     },
@@ -407,46 +456,6 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/mixed-reaction-to-ausalert-emergency-message-system-as-test-fails-to-reach-people-c-22634152"
-        }
-      ]
-    },
-    {
-      "id": "allan-leadership-crisis",
-      "headline": "Jacinta Allen은 새로운 리더십 위기에 직면",
-      "sourceCount": 7,
-      "publishedAt": "2026-07-27T07:49:14Z",
-      "voiceScript": "Jacinta Allen이 주목을 받으면서 빅토리아 노동당 내의 압력이 공개적으로 나타나고 있습니다. 주의 여러 주요 인사들이 위기 회의를 열었습니다. 이제 논쟁은 그녀가 버틸 수 있을지 여부뿐만 아니라 다음 선거까지 내부 투쟁이 계속 심화 될지 여부입니다. 과연 당내 숫자가 계속 변할지, 아니면 위기를 먼저 진압할지 지켜볼 일이다.",
-      "differences": [
-        "SBS News: 이 소식을 곧바른 지도부 경쟁으로 다루며 Allan이 물러서지 않겠다고 밝힌 점을 강조한다."
-      ],
-      "links": [
-        {
-          "source": "The Age",
-          "url": "https://www.theage.com.au/politics/victoria/jacinta-allan-leadership-challenge-live-updates-victorian-premier-under-threat-as-state-labor-chiefs-hold-crisis-meeting-20260726-p60ip3.html"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/27/ausalert-emergency-warning-test-antisemitism-royal-commission-nsw-icac-inquiry-politics-anthony-albanese-labor-angus-taylor-coalition-victoria-jacinta-allan-ntwnfb"
-        },
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/vic/victorian-premier-jacinta-allan-leadership-challenge-expected-within-days-20260727-p60ir8.html"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/premier-faces-leadership-challenge-as-election-looms"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/another-delegation-of-labor-mps-to-tell-allan-to-resign-20260727-p60iq2"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/victorian-premier-jacinta-allan-future-labor-mps-meet/106960880"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/podcast-episode/jacinta-allan-refuses-to-quit-as-victorian-labor-leadership-fight-erupts/wfqrr0v4v"
         }
       ]
     },
@@ -1397,32 +1406,6 @@
         {
           "source": "WAtoday",
           "url": "https://www.watoday.com.au/national/western-australia/perth-cancer-doctor-admits-he-made-ai-child-sex-videos-20260724-p60ias.html"
-        }
-      ]
-    },
-    {
-      "id": "origin-data-breach-ai-scams",
-      "headline": "Origin 데이터 유출로 AI 기반 사기 확산 우려",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-23T19:04:00Z",
-      "voiceScript": "Origin Energy의 유출 사건은 범죄자들이 빼낸 이름, 주소, 생년월일, 일부 계좌 정보를 공개 정보와 결합해 더 정교한 피싱 이메일·전화·문자를 만들 수 있다는 우려를 키웠다. 핵심 숫자는 Origin의 고객 계정 480만 개이며, 실제 피해 범위는 아직 확인 중이다. 중요한 이유는 카드 전체 정보가 없어도 AI가 있으면 불완전한 데이터만으로도 사칭 사기를 대규모로 확장할 수 있기 때문이다. 다음 단계는 고객 통지, 공식 조사, 그리고 은행과 규제기관의 후속 대응이다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/origin-breach-could-fuel-wave-of-ai-powered-scams/106951588"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/23/personal-and-banking-details-among-customer-data-stolen-in-origin-energy-hack"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/not-just-phishing-the-scams-to-watch-for-if-youre-an-origin-energy-customer/3jauqz344"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/online/origin-energy-investigating-reported-security-incident/news-story/a56f465b425a5c1d4381f0d898f4926f"
         }
       ]
     },
