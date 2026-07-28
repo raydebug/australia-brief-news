@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T02:03:47.000Z",
+  "updatedAt": "2026-07-28T03:11:32.892Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -120,14 +120,88 @@
   ],
   "clusters": [
     {
+      "id": "moira-deeming-victorian-liberals",
+      "headline": "モイラ・ディーミングが失格を受けてビクトリア自由党を離党",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T02:56:11Z",
+      "voiceScript": "モイラ・ディーミング氏は、党が公認取り消しに動いたことを受けてビクトリア自由党を辞職し、無所属のクロスベンチに回る見通しです。ビクトリア州で指導部交代が起きた直後の出来事で、11月の州選挙を前に野党が結束を示す余地をさらに狭めます。今後は党内の反発と、自由党が損傷を抑えられるかが焦点です。",
+      "differences": [
+        "ABC News は辞職と党内の即時の動揺を中心に伝えている。",
+        "The Guardian Australia は、ビクトリア州の指導部交代と選挙圧力の中でこの動きを位置づけている。",
+        "news.com.au は、公認取り消し後の無所属化と党内の亀裂を強調している。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/mp-moira-deeming-resigns-liberal-party/106966506"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/28/jacinta-allan-victoria-labor-leadership-spill-ben-carroll-challenge-antisemitism-royal-commission-nsw-icac-inquiry-queensland-estimates-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/victoria/moira-deeming-leaves-victoria-liberals-after-disendorsement/news-story/95677f4f378d11386c9a25b924ef7f23"
+        }
+      ]
+    },
+    {
+      "id": "nsw-icac-perrottet-brothers",
+      "headline": "NSWのICAC審問、偽装支払いと自由党幹部を追及",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-28T02:48:43Z",
+      "voiceScript": "NSW州のICACは、自由党関係者が禁止された献金や偽のコンサル料、党内の人脈を使って候補者選びや政策に影響を与えた疑いを審理している。新たな開示では、秘密録音や通話の傍受が浮上し、資金の流れが党関連の組織をどう通ったのかが検証されている。重要なのは、この問題が州政治の透明性と資金規制、そして政党運営の境界そのものを問うていることだ。今後は証言や書類の確認が進み、起訴に回される事項が出るかが焦点となる。",
+      "differences": [
+        "ABC News：審理の流れと調査範囲を整理している。",
+        "AAP News：不正な献金が自由党に与える打撃を強調している。",
+        "The Guardian Australia：党右派の権力闘争として描き、秘密録音も絡めている。",
+        "Australian Financial Review：電話盗聴と「偽の支払い」を前面に出している。",
+        "news.com.au：傍受された WhatsApp 通話と Nassif の自慢に焦点を当てている。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/what-to-expect-from-icac-probe-into-nsw-liberal-party/106955220"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/watchdog-probes-tainted-donations-in-blow-to-liberals"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/senior-politicians-supported-young-nsw-liberal-power-brokers-trying-to-shift-party-to-right-corruption-watchdog-hears-ntwnfb"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/icac-operation-rosny-nsw-liberals-corruption-investigation-ntwnfb"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/phone-taps-and-sham-payments-to-liberals-in-icac-bombshell-hearing-20260726-p60iny"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/courts-law/whatsapp-intercept-and-christian-recruitment-in-nsw-liberal-icac-probe/news-story/7fdf009da078e46f2f594550f31837f4"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/nsw-icac-operation-rosny-michael-ohara-reformer-liberals/106964276"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/28/nsw-liberals-icac-operation-rosny-secret-tape-recordings-ntwnfb"
+        }
+      ]
+    },
+    {
       "id": "leadership",
       "headline": "ジャシンタ・アランが退任し、ビクトリア州労働党の権力移行が決着",
       "sourceCount": 5,
-      "publishedAt": "2026-07-28T01:54:13Z",
+      "publishedAt": "2026-07-28T02:37:49Z",
       "voiceScript": "ジャシンタ・アラン氏は党内からの圧力を受けて退任し、ビクトリア州労働党の指導部争いは急速な権力移行へと変わった。ベン・キャロル氏が後任となる見通しで、ガブリエル・ウィリアムズ氏が当面は暫定指導者として党内の安定化にあたる。州選挙まで4か月しかない時期の動きで、選挙戦略や政策運営、政府イメージに直接影響する。焦点は、正式な引き継ぎが順調に進むか、党内の亀裂が早く収まるかだ。",
       "differences": [
         "ABC News は、党員会議と正式投票前の退任に焦点を当てている。",
-        "The Guardian Australia は、緊迫した会議のあとにガブリエル・ウィリアムズ氏が暫定指導者に就いた点を強調している。",
+        "The Guardian Australia は、Allan 氏の辞任後に Ben Carroll 氏が引き継ぐ点を中心に伝えている。",
         "SBS News は、アラン氏退任後のベン・キャロル氏を有力後継として描いている。",
         "news.com.au は、党内の亀裂とソニア・キルニー氏の意外な立候補を前面に出している。",
         "AAP News は、対立候補が出なければ移行が速く進む可能性を指摘している。"
@@ -152,6 +226,62 @@
         {
           "source": "AAP News",
           "url": "https://aapnews.aap.com.au/news/leadership-showdown-as-labor-faces-calls-for-overhaul"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/28/jacinta-allan-resigns-quits-victoria-premier-leadership-challenge-ben-carroll"
+        }
+      ]
+    },
+    {
+      "id": "sa-port-macdonnell-search",
+      "headline": "南オーストラリア州の捜索は行方不明の乳児へ、母親と幼児の遺体発見後",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-28T02:20:16Z",
+      "voiceScript": "南オーストラリア州ポートマクドネル周辺では、海から母親と幼い子どもの遺体が見つかったのを受け、行方不明の乳児を探す捜索が続いている。現場は海岸沿いの捜索から、子どもの安否が切迫する重大な行方不明事案に変わった。家族の悲劇であることに加え、沿岸部での捜索対応と警察の捜査が同時に進む点が重要だ。次は乳児の発見と、当局が経緯をどこまで明らかにするかが焦点になる。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/emergency-search-underway-in-port-macdonnell-in-sa-south-east/106963058"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/baby-missing-after-mother-and-toddler-found-dead-off-coast-of-south-australia-ntwnfb"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/search-for-baby-after-bodies-of-mother-toddler-found"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/search-for-missing-baby-boy-continues-port-macdonnell/106966128"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/south-australia/grave-concerns-for-missing-baby-after-bodies-of-mother-and-toddler-pulled-from-water/news-story/1c951b583abd6e2396dd1b2e8ef1c9cd"
+        }
+      ]
+    },
+    {
+      "id": "melbourne-rape-verdict",
+      "headline": "ビクトリア州陪審がメルボルンの有力男性に強姦有罪評決",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T01:58:48Z",
+      "voiceScript": "ビクトリア州の郡裁判所で、メルボルンの有力な人物に対し、強姦と性的暴行の有罪評決が出された。長く秘匿されてきた事件が有罪判決に至ったことで、この事件は大きな意味を持つ一方、身元秘匿と量刑の問題はまだ残っている。次は量刑手続きと、秘匿命令が続くかどうかだ。陪審の前で証拠を争う性暴力事件が、いかに長く厳しい過程になり得るかも示している。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/jury-verdict-in-melbourne-businessman-rape-case/106966126"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/28/well-connected-melbourne-man-guilty-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/victoria/courts-law/highprofile-melbourne-man-guilty-of-raping-woman/news-story/725e8e790b4d2cab4d357669f89fe16c"
         }
       ]
     },
@@ -178,28 +308,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/technology/online/hacking/origin-energy-says-data-of-900000-australians-stolen-in-hack/news-story/2bd8900737cc8564afed4b5c4ba98a8f"
-        }
-      ]
-    },
-    {
-      "id": "melbourne-rape-verdict",
-      "headline": "ビクトリア州陪審がメルボルンの有力男性に強姦有罪評決",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-28T01:19:40Z",
-      "voiceScript": "ビクトリア州の郡裁判所で、メルボルンの有力な人物に対し、強姦と性的暴行の有罪評決が出された。長く秘匿されてきた事件が有罪判決に至ったことで、この事件は大きな意味を持つ一方、身元秘匿と量刑の問題はまだ残っている。次は量刑手続きと、秘匿命令が続くかどうかだ。陪審の前で証拠を争う性暴力事件が、いかに長く厳しい過程になり得るかも示している。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/jury-verdict-in-melbourne-businessman-rape-case/106966126"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/well-connected-melbourne-man-guilty-ntwnfb"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/victoria/courts-law/highprofile-melbourne-man-guilty-of-raping-woman/news-story/725e8e790b4d2cab4d357669f89fe16c"
         }
       ]
     },
@@ -265,28 +373,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/economy/australian-economy/australians-facing-fresh-fuel-nightmare-as-treasury-briefing-warns-price-pressures-may-intensify-as-middle-east-conflict-continues/news-story/4f124e67768d0d6d8271c4e5be95be68"
-        }
-      ]
-    },
-    {
-      "id": "sa-port-macdonnell-search",
-      "headline": "南オーストラリア州の捜索は行方不明の乳児へ、母親と幼児の遺体発見後",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T14:03:51Z",
-      "voiceScript": "南オーストラリア州ポートマクドネル周辺では、海から母親と幼い子どもの遺体が見つかったのを受け、行方不明の乳児を探す捜索が続いている。現場は海岸沿いの捜索から、子どもの安否が切迫する重大な行方不明事案に変わった。家族の悲劇であることに加え、沿岸部での捜索対応と警察の捜査が同時に進む点が重要だ。次は乳児の発見と、当局が経緯をどこまで明らかにするかが焦点になる。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/emergency-search-underway-in-port-macdonnell-in-sa-south-east/106963058"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/baby-missing-after-mother-and-toddler-found-dead-off-coast-of-south-australia-ntwnfb"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/search-for-baby-after-bodies-of-mother-toddler-found"
         }
       ]
     },
@@ -456,46 +542,6 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/mixed-reaction-to-ausalert-emergency-message-system-as-test-fails-to-reach-people-c-22634152"
-        }
-      ]
-    },
-    {
-      "id": "nsw-icac-perrottet-brothers",
-      "headline": "NSWのICAC審問、偽装支払いと自由党幹部を追及",
-      "sourceCount": 5,
-      "publishedAt": "2026-07-27T07:42:17Z",
-      "voiceScript": "NSW州のICACは、自由党関係者が禁止された献金や偽のコンサル料、党内の人脈を使って候補者選びや政策に影響を与えた疑いを審理している。新たな開示では、秘密録音や通話の傍受が浮上し、資金の流れが党関連の組織をどう通ったのかが検証されている。重要なのは、この問題が州政治の透明性と資金規制、そして政党運営の境界そのものを問うていることだ。今後は証言や書類の確認が進み、起訴に回される事項が出るかが焦点となる。",
-      "differences": [
-        "ABC News：審理の流れと調査範囲を整理している。",
-        "AAP News：不正な献金が自由党に与える打撃を強調している。",
-        "The Guardian Australia：党右派の権力闘争として描き、秘密録音も絡めている。",
-        "Australian Financial Review：電話盗聴と「偽の支払い」を前面に出している。",
-        "news.com.au：傍受された WhatsApp 通話と Nassif の自慢に焦点を当てている。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/what-to-expect-from-icac-probe-into-nsw-liberal-party/106955220"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/watchdog-probes-tainted-donations-in-blow-to-liberals"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/senior-politicians-supported-young-nsw-liberal-power-brokers-trying-to-shift-party-to-right-corruption-watchdog-hears-ntwnfb"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/icac-operation-rosny-nsw-liberals-corruption-investigation-ntwnfb"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/phone-taps-and-sham-payments-to-liberals-in-icac-bombshell-hearing-20260726-p60iny"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/courts-law/whatsapp-intercept-and-christian-recruitment-in-nsw-liberal-icac-probe/news-story/7fdf009da078e46f2f594550f31837f4"
         }
       ]
     },
