@@ -405,19 +405,39 @@ function uniqueDifferences(cluster) {
 const SOURCE_BADGES = {
   "ABC News": "ABC",
   "SBS News": "SBS",
-  "The Guardian Australia": "GUA",
-  "news.com.au": "NCA",
+  "The Guardian Australia": "GDN",
+  "news.com.au": "NEWS",
   "The Australian": "AUS",
-  "Yahoo News Australia": "YAH",
+  "Yahoo News Australia": "Y!",
   "Australian Financial Review": "AFR",
   "Sky News Australia": "SKY",
   "9News": "9",
   "7NEWS": "7",
   "The Sydney Morning Herald": "SMH",
   "The Age": "AGE",
-  "Brisbane Times": "BNE",
+  "Brisbane Times": "BT",
   WAtoday: "WA",
   "The Canberra Times": "CBR",
+  AAP: "AAP",
+  "AAP News": "AAP"
+};
+
+const SOURCE_DISPLAY_NAMES = {
+  "ABC News": "ABC News",
+  "SBS News": "SBS News",
+  "The Guardian Australia": "Guardian AU",
+  "news.com.au": "news.com.au",
+  "The Australian": "The Australian",
+  "Yahoo News Australia": "Yahoo AU",
+  "Australian Financial Review": "AFR",
+  "Sky News Australia": "Sky News",
+  "9News": "9News",
+  "7NEWS": "7NEWS",
+  "The Sydney Morning Herald": "SMH",
+  "The Age": "The Age",
+  "Brisbane Times": "Brisbane Times",
+  WAtoday: "WAtoday",
+  "The Canberra Times": "Canberra Times",
   AAP: "AAP",
   "AAP News": "AAP"
 };
@@ -460,6 +480,10 @@ function sourceBadge(name) {
     .join("")
     .slice(0, 4)
     .toUpperCase();
+}
+
+function sourceDisplayName(name) {
+  return SOURCE_DISPLAY_NAMES[name] || name;
 }
 
 function SourceLogo({ name }) {
@@ -722,10 +746,10 @@ function App() {
               {labels.sources}
             </button>
             {(data?.sources || []).map((source) => (
-              <div className="source-row" key={source.id}>
+              <div className="source-row" key={source.id} title={source.name}>
                 <SourceLogo name={source.name} url={source.feed} />
                 <div>
-                  <strong>{source.name}</strong>
+                  <strong>{sourceDisplayName(source.name)}</strong>
                   <span>{source.region}</span>
                 </div>
               </div>
