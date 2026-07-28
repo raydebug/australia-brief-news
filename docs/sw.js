@@ -1,4 +1,4 @@
-const CACHE_NAME = "australia-brief-v8";
+const CACHE_NAME = "australia-brief-v9";
 const APP_SHELL = [
   "./",
   "./index.html",

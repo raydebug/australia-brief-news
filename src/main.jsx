@@ -44,6 +44,8 @@ const I18N = {
     reload: "重新读取",
     install: "安装到设备",
     sources: "来源",
+    noticeTitle: "内容说明",
+    noticeText: "本站只提供基于公开来源事实重新撰写的简报和原始链接，不复制新闻原文、图片、视频、音频或官方标志。",
     readAloud: "朗读",
     stopReading: "停止朗读",
     noMatches: "暂无匹配新闻",
@@ -65,6 +67,8 @@ const I18N = {
     reload: "重新讀取",
     install: "安裝到裝置",
     sources: "來源",
+    noticeTitle: "內容說明",
+    noticeText: "本站只提供基於公開來源事實重新撰寫的簡報和原始連結，不複製新聞原文、圖片、影片、音訊或官方標誌。",
     readAloud: "朗讀",
     stopReading: "停止朗讀",
     noMatches: "暫無匹配新聞",
@@ -86,6 +90,8 @@ const I18N = {
     reload: "නැවත පූරණය",
     install: "ස්ථාපනය",
     sources: "මූලාශ්‍ර",
+    noticeTitle: "අන්තර්ගත සටහන",
+    noticeText: "මෙම අඩවිය පොදු මූලාශ්‍රවලින් තහවුරු කළ කරුණු මත නැවත ලියූ කෙටි පුවත් සහ මුල් සබැඳි පමණක් සපයයි; මුල් පුවත් පෙළ, රූප, වීඩියෝ, ශ්‍රව්‍ය හෝ නිල ලාංඡන පිටපත් නොකරයි.",
     readAloud: "ශබ්දයෙන් කියවන්න",
     stopReading: "කියවීම නවත්වන්න",
     noMatches: "ගැළපෙන පුවත් නැත",
@@ -107,6 +113,8 @@ const I18N = {
     reload: "Reload",
     install: "Install",
     sources: "Sources",
+    noticeTitle: "Content note",
+    noticeText: "This site provides rewritten briefings based on facts from public sources plus source links. It does not copy article text, images, video, audio, or official logos.",
     readAloud: "Read aloud",
     stopReading: "Stop reading",
     noMatches: "No matching news",
@@ -128,6 +136,8 @@ const I18N = {
     reload: "再読み込み",
     install: "インストール",
     sources: "ソース",
+    noticeTitle: "コンテンツ注記",
+    noticeText: "このサイトは公開ソースの事実に基づいて書き直した簡報と元リンクのみを提供し、記事本文、画像、動画、音声、公式ロゴはコピーしません。",
     readAloud: "読み上げ",
     stopReading: "読み上げを停止",
     noMatches: "一致するニュースはありません",
@@ -149,6 +159,8 @@ const I18N = {
     reload: "다시 읽기",
     install: "설치",
     sources: "출처",
+    noticeTitle: "콘텐츠 안내",
+    noticeText: "이 사이트는 공개 출처의 사실을 바탕으로 다시 작성한 브리핑과 원문 링크만 제공하며 기사 본문, 이미지, 동영상, 오디오, 공식 로고를 복사하지 않습니다.",
     readAloud: "읽어주기",
     stopReading: "읽기 중지",
     noMatches: "일치하는 뉴스가 없습니다",
@@ -170,6 +182,8 @@ const I18N = {
     reload: "Tải lại",
     install: "Cài đặt",
     sources: "Nguồn",
+    noticeTitle: "Ghi chú nội dung",
+    noticeText: "Trang này chỉ cung cấp bản tin được viết lại dựa trên sự kiện từ các nguồn công khai và liên kết gốc; không sao chép văn bản bài báo, hình ảnh, video, âm thanh hoặc logo chính thức.",
     readAloud: "Đọc thành tiếng",
     stopReading: "Dừng đọc",
     noMatches: "Không có tin phù hợp",
@@ -191,6 +205,8 @@ const I18N = {
     reload: "โหลดใหม่",
     install: "ติดตั้ง",
     sources: "แหล่งข่าว",
+    noticeTitle: "หมายเหตุเนื้อหา",
+    noticeText: "ไซต์นี้ให้เฉพาะสรุปข่าวที่เขียนใหม่จากข้อเท็จจริงในแหล่งข้อมูลสาธารณะพร้อมลิงก์ต้นทาง ไม่คัดลอกข้อความข่าว รูปภาพ วิดีโอ เสียง หรือโลโก้ทางการ",
     readAloud: "อ่านออกเสียง",
     stopReading: "หยุดอ่าน",
     noMatches: "ไม่พบข่าวที่ตรงกัน",
@@ -372,41 +388,16 @@ function uniqueDifferences(cluster) {
   return differences;
 }
 
-function sourceIconUrl(name, url) {
-  const lowerName = String(name || "").toLowerCase();
-  if (lowerName.includes("abc")) return "https://www.abc.net.au/favicon.ico";
-  if (lowerName.includes("sbs")) return "https://www.sbs.com.au/favicon.ico";
-  if (lowerName.includes("guardian")) return "https://www.theguardian.com/favicon.ico";
-
-  try {
-    const domain = new URL(url).origin;
-    return `${domain}/favicon.ico`;
-  } catch {
-    return "";
-  }
-}
-
-function SourceLogo({ name, url }) {
+function SourceLogo({ name }) {
   const letters = name
     .split(" ")
     .map((part) => part[0])
     .join("")
     .slice(0, 2)
     .toUpperCase();
-  const iconUrl = sourceIconUrl(name, url);
 
   return (
-    <span className={`source-logo ${iconUrl ? "" : "no-icon"}`} aria-label={name}>
-      {iconUrl && (
-        <img
-          alt=""
-          src={iconUrl}
-          onError={(event) => {
-            event.currentTarget.style.display = "none";
-            event.currentTarget.nextElementSibling.style.display = "block";
-          }}
-        />
-      )}
+    <span className="source-logo" aria-label={name}>
       <span className="source-initials">{letters}</span>
     </span>
   );
@@ -658,6 +649,11 @@ function App() {
               </div>
             ))}
           </div>
+
+          <details className="content-notice">
+            <summary>{labels.noticeTitle}</summary>
+            <p>{labels.noticeText}</p>
+          </details>
         </div>
       </aside>
 
