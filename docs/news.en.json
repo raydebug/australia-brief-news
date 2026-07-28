@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T22:02:48Z",
+  "updatedAt": "2026-07-28T23:07:37Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,74 @@
     }
   ],
   "errors": [
-    "The Australian returned 403, Yahoo News Australia returned 429, and Sky News Australia redirected to News24 during verification."
+    "The Australian still redirects to a cookie gate, Yahoo News Australia was rate-limited during verification, and Sky News Australia redirects to News24."
   ],
   "clusters": [
+    {
+      "id": "qld-bird-flu",
+      "headline": "Queensland's bird flu watch tightens around Moreton Island",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T22:58:34Z",
+      "voiceScript": "Queensland's H5 bird flu situation is still centred on Moreton Island, where the first suspected seabird case was confirmed and fresh monitoring is now focused on any wider spread. Officials are telling people to avoid dead or sick birds while repeating that poultry and eggs remain safe to eat. It matters because the state sits close to major wildlife habitats and farm country, so any new detection would quickly become a biosecurity issue. The next step is continued testing along the coast and in nearby bird populations.",
+      "differences": [
+        "ABC News focuses on the latest monitoring and the risk of further spread.",
+        "SBS News keeps the first Queensland detection and food-safety advice in view.",
+        "news.com.au highlights the pressure on wildlife and the poultry sector."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/bird-flu-queensland-suspected-case/106952884"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/queensland-farmers-on-alert-as-h5-bird-flu-reaches-state/106967942"
+        }
+      ]
+    },
+    {
+      "id": "lachie-kennedy-silver",
+      "publishedAt": "2026-07-28T22:15:43Z",
+      "headline": "Lachie Kennedy's silver ends Australia's 100m medal drought",
+      "sourceCount": 4,
+      "voiceScript": "Lachie Kennedy ran 9.85 seconds to take silver in Glasgow's men's 100m final, breaking Patrick Johnson's long-standing Australian record and ending a medal drought that stretched back to 1962. The result matters because sprinting is one of athletics' showcase events, and Australia has spent decades trying to turn potential into a blue-ribbon final result. The next step is seeing whether Kennedy and the wider sprint group can turn this breakthrough into more podium chances later in the meet.",
+      "differences": [
+        "ABC News focuses on the record time and the history Kennedy broke.",
+        "The Guardian emphasizes the scale of the breakthrough in the final.",
+        "AAP focuses on the finish, the medal drought and Australia's sprint depth.",
+        "news.com.au leans on the race drama and the broader Games context."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/commonwealth-games-glasgow-day-five-live-blog/106965170"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/sport/live/2026/jul/28/commonwealth-games-2026-athletics-weightlifting-gymnastics-day-five-live"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/record-falls-as-aussie-jets-power-into-100m-finals"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/commonwealth-games/comm-games-day-5-live/live-coverage/c9a76a7413c93a8f685bce6cf672e03a"
+        }
+      ]
+    },
     {
       "id": "mortgage-offset-errors",
       "headline": "Mortgage offset errors leave borrowers short",
@@ -407,6 +472,32 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/courts-law/australias-most-wanted-man-kazem-hamad-jailed-in-iraq-for-drug-trafficking/news-story/870fb08b15183fa3c972d38d5ca002f6"
+        }
+      ]
+    },
+    {
+      "id": "asx-bullock-reaction",
+      "publishedAt": "2026-07-28T06:23:00Z",
+      "headline": "ASX climbs after Bullock cools rate-hike fears",
+      "sourceCount": 3,
+      "voiceScript": "Australia's share market finished higher after Reserve Bank governor Michele Bullock said softer demand and a cooler housing market could help ease inflation pressure. Traders trimmed expectations for an August rate rise, and the market's recovery was led by sectors that usually benefit when borrowing fears ease. It matters because the RBA's next move will shape mortgage costs, business lending and confidence ahead of the next inflation reading. The next step is the CPI release and whether it confirms the slowdown markets are now pricing in.",
+      "differences": [
+        "ABC News focuses on the market close and the earlier tech sell-off.",
+        "AFR emphasizes the rate-expectation reset and stock movers.",
+        "news.com.au highlights the speech's impact on borrowing fears and the rally."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/asx-markets-business-news-live-updates-tuesday-28-july/106965036"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/markets/equity-markets/asx-to-fall-oil-plunges-and-semiconductor-stocks-fell-anew-20260728-p60j29"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/markets/australian-markets/reserve-bank-governors-words-lift-asx-200-after-early-market-losses/news-story/ba0004246da2ecca17c99bec9e9568aa"
         }
       ]
     },
@@ -1277,32 +1368,6 @@
         {
           "source": "AAP News",
           "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
-        }
-      ]
-    },
-    {
-      "id": "qld-bird-flu",
-      "headline": "Queensland confirms its first H5 bird flu case",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-25T13:28:00+10:00",
-      "voiceScript": "Queensland has confirmed that dead seabird samples from Moreton Island, first suspected of testing positive for H5, have now been verified by CSIRO, meaning highly pathogenic avian influenza has reached the state. The immediate focus is wild-bird monitoring, coastal patrols and telling the public to avoid dead or sick birds. Authorities say chicken and eggs remain safe to eat. The next issue is whether the virus spreads further among wild birds and whether the confirmation leads to a wider biosecurity alert.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/bird-flu-queensland-suspected-case/106952884"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae"
         }
       ]
     },

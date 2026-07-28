@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T22:02:48Z",
+  "updatedAt": "2026-07-28T23:07:37Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,74 @@
     }
   ],
   "errors": [
-    "The Australian returned 403, Yahoo News Australia returned 429, and Sky News Australia redirected to News24 during verification."
+    "The Australian still redirects to a cookie gate, Yahoo News Australia was rate-limited during verification, and Sky News Australia redirects to News24."
   ],
   "clusters": [
+    {
+      "id": "qld-bird-flu",
+      "headline": "මෝර්ටන් දූපත වටා ක්වීන්ස්ලෑන්ඩ් කුරුලු උණ නිරීක්ෂණය දැඩි කරයි",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T22:58:34Z",
+      "voiceScript": "ක්වීන්ස්ලෑන්ඩ්හි H5 කුරුලු උණ තත්ත්වය තවමත් මෝර්ටන් දූපත වටා කේන්ද්‍රගත වී ඇත. පළමු සැක කුරුල්ලු නඩුව තහවුරු වූ පසු, දැන් අවධානය යොමු වී ඇත්තේ ව්‍යාප්තිය තවත් දුරට යනවාද යන්න ගැන ය. නිලධාරීන් මියගිය හෝ අසනීප කුරුල්ලන් අල්ලන්න එපා කියා ජනතාවට කියන අතර, කුකුළු මස් සහ බිත්තර ආහාරයට ගැනීම තවමත් ආරක්ෂිත බව නැවත කියයි. මෙය වැදගත් වන්නේ වල්ජීවිත වාසස්ථාන සහ ගොවිබිම් ආසන්නයේ ඇති මේ ප්‍රදේශයෙන් නව හඳුනාගැනීම් ආරම්භ වුවහොත් එය ඉක්මනින්ම ජෛව-ආරක්ෂක ගැටලුවක් වෙයි. ඊළඟ පියවර වන්නේ වෙරළ කලාපය පුරා තවත් පරීක්ෂණ සහ නව නඩු තිබේදැයි බලන එකයි.",
+      "differences": [
+        "ABC News නවතම නිරීක්ෂණය සහ තවදුරටත් ව්‍යාප්තියේ අවදානම ඉස්මතු කරයි.",
+        "SBS News ක්වීන්ස්ලෑන්ඩ්හි පළමු සැක නඩුව සහ ආහාර ආරක්ෂාව පිළිබඳ උපදෙස් මත අවධානය තබයි.",
+        "news.com.au වල්ජීවිතය සහ කුකුළු කර්මාන්තය මත ඇති පීඩනය අවධාරණය කරයි."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/bird-flu-queensland-suspected-case/106952884"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/queensland-farmers-on-alert-as-h5-bird-flu-reaches-state/106967942"
+        }
+      ]
+    },
+    {
+      "id": "lachie-kennedy-silver",
+      "publishedAt": "2026-07-28T22:15:43Z",
+      "headline": "ග්ලාස්ගෝ 100 මීටර් රිදී පදක්කමෙන් කෙනඩි ඔස්ට්‍රේලියානු දිගු පදක්කම් හිඟය අවසන් කරයි",
+      "sourceCount": 4,
+      "voiceScript": "ලැචී කෙනඩි ග්ලාස්ගෝහි පිරිමි මීටර් 100 අවසන් තරගයේදී තත්පර 9.85ක් දුවා රිදී පදක්කම දිනා ගත්තේය. එමඟින් පට්රික් ජොන්සන්ගේ දිගුකාලීන ඔස්ට්‍රේලියානු වාර්තාව බිඳ වැටුණු අතර 1962 සිට පැවති පිරිමි ස්ප්‍රින්ට් පදක්කම් හිඟයත් අවසන් විය. මෙය වැදගත් වන්නේ ස්ප්‍රින්ට් තරගය තරඟාවලියේ ඉතා කැපී පෙනෙන වේදිකාවක් බැවින්, ඔස්ට්‍රේලියාව දශක ගණනාවකට පසු සැබෑ ඉදිරි පියවරක් දැක්වූ නිසාය. ඊළඟ පියවර වන්නේ ඔහු සහ සමස්ත ස්ප්‍රින්ට් කණ්ඩායම මෙය තවත් පදක්කම් අවස්ථා බවට පත් කරන්නේද යන්නයි.",
+      "differences": [
+        "ABC News කාල වාර්තාව සහ බිඳ වැටුණු ජාතික වාර්තාව මත අවධානය තබයි.",
+        "The Guardian අවසන් තරගයේ ජයග්‍රහණයේ පරිමාණය ඉස්මතු කරයි.",
+        "AAP පදක්කම් හිඟය සහ ඔස්ට්‍රේලියානු ස්ප්‍රින්ට් ගැඹුර පෙන්වයි.",
+        "news.com.au තරගයේ නාට්‍යමයභාවය සහ තරඟාවලි පසුබිම ඉදිරියට ගෙන එයි."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/commonwealth-games-glasgow-day-five-live-blog/106965170"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/sport/live/2026/jul/28/commonwealth-games-2026-athletics-weightlifting-gymnastics-day-five-live"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/record-falls-as-aussie-jets-power-into-100m-finals"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/commonwealth-games/comm-games-day-5-live/live-coverage/c9a76a7413c93a8f685bce6cf672e03a"
+        }
+      ]
+    },
     {
       "id": "mortgage-offset-errors",
       "headline": "නිවාස ණය ඔෆ්සෙට් දෝෂ නිසා ණයගැතියෝ ඉතිරිය අහිමි කරති",
@@ -407,6 +472,32 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/courts-law/australias-most-wanted-man-kazem-hamad-jailed-in-iraq-for-drug-trafficking/news-story/870fb08b15183fa3c972d38d5ca002f6"
+        }
+      ]
+    },
+    {
+      "id": "asx-bullock-reaction",
+      "publishedAt": "2026-07-28T06:23:00Z",
+      "headline": "බුලොක්ගේ අදහස්ෙන් පොලී වැඩිවීමේ බිය අඩුවෙද්දී ඕස්ට්‍රේලියානු කොටස් වෙළඳපොළ ඉහළට",
+      "sourceCount": 3,
+      "voiceScript": "ඕස්ට්‍රේලියානු කොටස් වෙළඳපොළ ඉහළ ගියේ සංචිත බැංකු අධිපතිනි මිෂෙල් බුලොක්ගේ අදහස් නිසාය. ඉල්ලුම මන්දගාමීවීම සහ නිවාස වෙළඳපොළ සිසිල්වීම උද්ධමන පීඩනය අඩු කළ හැකි බව ඇය කියා සිටියා. ඒ නිසා අගෝස්තු මාසයේ තවත් පොලී වැඩිවීමක් ගැන වෙළෙඳපොළේ බිය අඩු විය. මෙය වැදගත් වන්නේ නිවාස ණය, ව්‍යාපාර ණය සහ ආයෝජක විශ්වාසයට එය සෘජුව බලපාන නිසාය. ඊළඟ පියවර වන්නේ නව උද්ධමන දත්ත මේ අදහස් තහවුරු කරනවාද කියා බැලීමයි.",
+      "differences": [
+        "ABC News කොටස් වෙළඳපොළ අවසානය සහ තාක්ෂණික කොටස් පහළ යාම මත අවධානය තබයි.",
+        "AFR පොලී අනුමාන නැවත සැකසීම සහ කොටස් චලනයන් ඉස්මතු කරයි.",
+        "news.com.au බුලොක්ගේ කතාවෙන් ණය ගැනීමේ බිය අඩු වූ ආකාරය පෙන්වයි."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/asx-markets-business-news-live-updates-tuesday-28-july/106965036"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/markets/equity-markets/asx-to-fall-oil-plunges-and-semiconductor-stocks-fell-anew-20260728-p60j29"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/markets/australian-markets/reserve-bank-governors-words-lift-asx-200-after-early-market-losses/news-story/ba0004246da2ecca17c99bec9e9568aa"
         }
       ]
     },
@@ -1277,32 +1368,6 @@
         {
           "source": "AAP News",
           "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
-        }
-      ]
-    },
-    {
-      "id": "qld-bird-flu",
-      "headline": "ක්වීන්ස්ලන්තය එහි පළමු H5 කුරුළු උණ රෝගය තහවුරු කරයි",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-25T13:28:00+10:00",
-      "voiceScript": "H5 සඳහා ධනාත්මක බව පරීක්‍ෂා කළ බවට ප්‍රථමයෙන් සැක කරන ලද මෝර්ටන් දූපතේ මියගිය මුහුදු පක්ෂීන්ගේ සාම්පල දැන් CSIRO විසින් සත්‍යාපනය කර ඇති බව ක්වීන්ස්ලන්ත විසින් තහවුරු කර ඇත, එනම් උග්‍ර ව්‍යාධිජනක කුරුළු ඉන්ෆ්ලුවෙන්සා ප්‍රාන්තයට පැමිණ ඇති බවයි. ක්ෂණික අවධානය යොමු වන්නේ වන කුරුල්ලන් නිරීක්ෂණය කිරීම, වෙරළබඩ මුර සංචාර සහ මිය ගිය හෝ අසනීප වූ පක්ෂීන් වළක්වා ගැනීමට මහජනතාවට පැවසීමයි. කුකුළු මස් සහ බිත්තර ආහාරයට ගැනීම සඳහා ආරක්ෂිතව පවතින බව බලධාරීහු පවසති. මීළඟ ප්‍රශ්නය වන්නේ වෛරසය වල් පක්ෂීන් අතර තවදුරටත් පැතිරෙන්නේද යන්න සහ තහවුරු කිරීම පුළුල් ජෛව ආරක්ෂණ අනතුරු ඇඟවීමකට මග පාදන්නේද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/bird-flu-queensland-suspected-case/106952884"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae"
         }
       ]
     },

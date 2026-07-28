@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T22:02:48Z",
+  "updatedAt": "2026-07-28T23:07:37Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,74 @@
     }
   ],
   "errors": [
-    "The Australian returned 403, Yahoo News Australia returned 429, and Sky News Australia redirected to News24 during verification."
+    "The Australian still redirects to a cookie gate, Yahoo News Australia was rate-limited during verification, and Sky News Australia redirects to News24."
   ],
   "clusters": [
+    {
+      "id": "qld-bird-flu",
+      "headline": "모튼섬 주변 퀸즐랜드 조류독감 감시 강화",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T22:58:34Z",
+      "voiceScript": "퀸즐랜드의 H5 조류독감 상황은 여전히 모튼섬을 중심으로 이어지고 있습니다. 처음 의심 사례가 확인된 뒤, 당국은 더 넓은 확산이 있는지 살펴보며 감시를 강화하고 있습니다. 죽었거나 아픈 새에는 가까이 가지 말라는 안내와 함께 닭고기와 달걀은 계속 안전하다는 설명도 반복되고 있습니다. 이 소식이 중요한 이유는 야생동물 서식지와 농장 지역이 가깝기 때문에 새 감염이 늘면 곧바로 생물안보 문제로 번질 수 있기 때문입니다. 다음 단계는 해안 전역의 추가 검사와 새로운 감염 여부입니다.",
+      "differences": [
+        "ABC News는 최신 감시 강화와 추가 확산 위험을 강조한다.",
+        "SBS News는 퀸즐랜드의 첫 확인 사례와 식품 안전 안내를 강조한다.",
+        "news.com.au는 야생동물과 양계 산업에 가해지는 압박을 부각한다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/bird-flu-queensland-suspected-case/106952884"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/queensland-farmers-on-alert-as-h5-bird-flu-reaches-state/106967942"
+        }
+      ]
+    },
+    {
+      "id": "lachie-kennedy-silver",
+      "publishedAt": "2026-07-28T22:15:43Z",
+      "headline": "글래스고 100m 은메달로 케네디가 호주 메달 가뭄을 끝내",
+      "sourceCount": 4,
+      "voiceScript": "라클리 케네디는 글래스고 남자 100m 결승에서 9초 85를 기록해 은메달을 따냈고, 패트릭 존슨이 갖고 있던 호주 기록도 갈아치웠습니다. 이 결과로 호주의 남자 단거리 메달 가뭄은 1962년 이후 처음으로 끝났습니다. 이 소식이 중요한 이유는 단거리가 육상에서 가장 주목받는 종목 가운데 하나이고, 호주가 오랫동안 결승에서 실제 성과를 내고자 해 왔기 때문입니다. 다음 단계는 이 돌파구가 이번 대회의 다른 메달 기회로 이어지는지 확인하는 일입니다.",
+      "differences": [
+        "ABC News는 기록 경신과 기존 기록의 의미를 강조한다.",
+        "The Guardian은 결승에서 이룬 돌파의 규모를 강조한다.",
+        "AAP는 순위, 메달 가뭄, 호주 단거리의 두께를 강조한다.",
+        "news.com.au는 레이스의 드라마와 대회 맥락을 부각한다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/commonwealth-games-glasgow-day-five-live-blog/106965170"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/sport/live/2026/jul/28/commonwealth-games-2026-athletics-weightlifting-gymnastics-day-five-live"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/record-falls-as-aussie-jets-power-into-100m-finals"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/commonwealth-games/comm-games-day-5-live/live-coverage/c9a76a7413c93a8f685bce6cf672e03a"
+        }
+      ]
+    },
     {
       "id": "mortgage-offset-errors",
       "headline": "주택담보대출 상계계좌 오류로 차입자들이 절감 혜택을 놓쳐",
@@ -407,6 +472,32 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/courts-law/australias-most-wanted-man-kazem-hamad-jailed-in-iraq-for-drug-trafficking/news-story/870fb08b15183fa3c972d38d5ca002f6"
+        }
+      ]
+    },
+    {
+      "id": "asx-bullock-reaction",
+      "publishedAt": "2026-07-28T06:23:00Z",
+      "headline": "블록 총재 발언에 호주 증시 상승, 금리 인상 우려 완화",
+      "sourceCount": 3,
+      "voiceScript": "호주 증시는 호주중앙은행 총재 미셸 블록이 수요 둔화와 주택시장 냉각이 물가 압력을 낮출 수 있다고 말한 뒤 상승 마감했습니다. 시장은 8월 추가 금리 인상 기대를 낮췄고, 이런 변화는 보통 차입 우려가 줄어들 때 강세를 보이는 업종으로 매수세가 옮겨가는 흐름으로 이어졌습니다. 이 소식이 중요한 이유는 주택담보대출 비용과 기업 대출, 그리고 경기 심리에 직접 영향을 주기 때문입니다. 다음 단계는 소비자물가지수가 시장의 이 기대를 실제로 뒷받침하는지 확인하는 일입니다.",
+      "differences": [
+        "ABC News는 장 마감과 전날 기술주 하락을 중심으로 다룬다.",
+        "AFR는 금리 기대 재조정과 종목별 움직임을 강조한다.",
+        "news.com.au는 발언이 차입 불안을 누그러뜨린 점을 부각한다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/asx-markets-business-news-live-updates-tuesday-28-july/106965036"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/markets/equity-markets/asx-to-fall-oil-plunges-and-semiconductor-stocks-fell-anew-20260728-p60j29"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/markets/australian-markets/reserve-bank-governors-words-lift-asx-200-after-early-market-losses/news-story/ba0004246da2ecca17c99bec9e9568aa"
         }
       ]
     },
@@ -1277,32 +1368,6 @@
         {
           "source": "AAP News",
           "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
-        }
-      ]
-    },
-    {
-      "id": "qld-bird-flu",
-      "headline": "퀸즈랜드에서 H5 조류독감 첫 사례 확인",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-25T13:28:00+10:00",
-      "voiceScript": "퀸즈랜드주 모튼 아일랜드에서 발견된 죽은 바닷새 샘플은 처음에는 H5 양성인 것으로 의심되었으며 나중에 CSIRO에 의해 확인되었습니다. 이는 고병원성 조류 인플루엔자가 퀸즈랜드에 유입되었음을 의미합니다. 주 정부는 이제 야생 조류 모니터링, 해안 순찰, 대중에게 죽거나 아픈 새를 피하는 데 중점을 두는 동시에 닭고기와 달걀은 여전히 ​​먹어도 안전하다고 강조하고 있습니다. 다음으로 지켜볼 점은 야생조류 사이에 전파 지점이 더 많아지는지, 이번 확인으로 생물보안 경보가 더욱 확대될지 여부다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/bird-flu-queensland-suspected-case/106952884"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae"
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T22:02:48Z",
+  "updatedAt": "2026-07-28T23:07:37Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,74 @@
     }
   ],
   "errors": [
-    "The Australian returned 403, Yahoo News Australia returned 429, and Sky News Australia redirected to News24 during verification."
+    "The Australian still redirects to a cookie gate, Yahoo News Australia was rate-limited during verification, and Sky News Australia redirects to News24."
   ],
   "clusters": [
+    {
+      "id": "qld-bird-flu",
+      "headline": "การเฝ้าระวังไข้หวัดนกในควีนส์แลนด์เข้มขึ้นรอบเกาะมอร์ตัน",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T22:58:34Z",
+      "voiceScript": "สถานการณ์ไข้หวัดนกสายพันธุ์ H5 ในควีนส์แลนด์ยังคงโฟกัสอยู่ที่เกาะมอร์ตัน หลังจากพบกรณีต้องสงสัยในนกทะเลและยืนยันผลแล้ว ขณะนี้ทางการหันไปจับตาว่าจะลุกลามไปกว้างกว่านี้หรือไม่ พร้อมย้ำให้ประชาชนหลีกเลี่ยงนกที่ตายหรือป่วย และยืนยันว่าเนื้อไก่กับไข่ยังปลอดภัยต่อการบริโภค เรื่องนี้สำคัญเพราะพื้นที่ดังกล่าวอยู่ใกล้แหล่งอาศัยของสัตว์ป่าและเขตเกษตร หากพบเพิ่มก็จะกลายเป็นประเด็นความมั่นคงทางชีวภาพทันที ขั้นต่อไปคือการตรวจตัวอย่างเพิ่มตามแนวชายฝั่งและดูว่าจะพบเคสใหม่หรือไม่",
+      "differences": [
+        "ABC News เน้นการเฝ้าดูล่าสุดและความเสี่ยงของการลุกลาม",
+        "SBS News เน้นกรณีแรกของควีนส์แลนด์และคำแนะนำเรื่องความปลอดภัยอาหาร",
+        "news.com.au เน้นแรงกดดันต่อสัตว์ป่าและอุตสาหกรรมไก่"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/bird-flu-queensland-suspected-case/106952884"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/queensland-farmers-on-alert-as-h5-bird-flu-reaches-state/106967942"
+        }
+      ]
+    },
+    {
+      "id": "lachie-kennedy-silver",
+      "publishedAt": "2026-07-28T22:15:43Z",
+      "headline": "เคนเนดีคว้าเงิน 100 เมตร ยุติช่วงไร้เหรียญของออสเตรเลีย",
+      "sourceCount": 4,
+      "voiceScript": "แลชลี เคนเนดี วิ่งเวลา 9.85 วินาทีในรอบชิงชนะเลิศ 100 เมตรชายที่กลาสโกว์ คว้าเหรียญเงินและทำลายสถิติออสเตรเลียเดิมของแพทริก จอห์นสันลงได้สำเร็จ ผลงานนี้ยังยุติช่วงที่ออสเตรเลียไม่ได้เหรียญในประเภทสปรินต์ชายยาวนานตั้งแต่ปี 1962 เรื่องนี้สำคัญเพราะวิ่ง 100 เมตรเป็นหนึ่งในรายการที่ถูกจับตามองมากที่สุด และออสเตรเลียพยายามเปลี่ยนศักยภาพให้เป็นผลงานจริงมานานหลายสิบปี ขั้นต่อไปคือดูว่าความสำเร็จครั้งนี้จะต่อยอดไปสู่โอกาสเหรียญรายการอื่นในทัวร์นาเมนต์หรือไม่",
+      "differences": [
+        "ABC News เน้นสถิติใหม่และความหมายของสถิติเดิมที่ถูกทำลาย",
+        "The Guardian เน้นขนาดของความสำเร็จในรอบชิง",
+        "AAP เน้นอันดับเข้าเส้นชัย ช่วงไร้เหรียญ และความลึกของนักวิ่งออสเตรเลีย",
+        "news.com.au เน้นความดราม่าของการแข่งขันและบริบทของรายการ"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/commonwealth-games-glasgow-day-five-live-blog/106965170"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/sport/live/2026/jul/28/commonwealth-games-2026-athletics-weightlifting-gymnastics-day-five-live"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/record-falls-as-aussie-jets-power-into-100m-finals"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/commonwealth-games/comm-games-day-5-live/live-coverage/c9a76a7413c93a8f685bce6cf672e03a"
+        }
+      ]
+    },
     {
       "id": "mortgage-offset-errors",
       "headline": "ข้อผิดพลาดบัญชีหักกลบทำให้ผู้กู้บ้านพลาดเงินออม",
@@ -407,6 +472,32 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/courts-law/australias-most-wanted-man-kazem-hamad-jailed-in-iraq-for-drug-trafficking/news-story/870fb08b15183fa3c972d38d5ca002f6"
+        }
+      ]
+    },
+    {
+      "id": "asx-bullock-reaction",
+      "publishedAt": "2026-07-28T06:23:00Z",
+      "headline": "หุ้นออสเตรเลียขยับขึ้น หลังถ้อยแถลงของบูลล็อกคลายกังวลขึ้นดอกเบี้ย",
+      "sourceCount": 3,
+      "voiceScript": "ตลาดหุ้นออสเตรเลียปิดบวก หลังมิเชล บูลล็อก ผู้ว่าการธนาคารกลางออสเตรเลีย ระบุว่าความต้องการที่ชะลอลงและตลาดที่อยู่อาศัยที่เย็นลงอาจช่วยลดแรงกดดันเงินเฟ้อได้ นักลงทุนจึงลดการคาดการณ์ว่าจะขึ้นดอกเบี้ยในเดือนสิงหาคม และหุ้นที่อ่อนไหวต่อ ต้นทุนการกู้ยืมได้แรงหนุน เรื่องนี้สำคัญเพราะทิศทางของ RBA ส่งผลตรงต่อดอกเบี้ยบ้าน สินเชื่อธุรกิจ และความเชื่อมั่นโดยรวม ขั้นต่อไปคือดูตัวเลข CPI ว่าจะยืนยันภาพชะลอตัวตามที่ตลาดกำลังคาดหรือไม่",
+      "differences": [
+        "ABC News เน้นภาพปิดตลาดและแรงขายหุ้นเทคก่อนหน้า",
+        "AFR เน้นการปรับความคาดหวังเรื่องดอกเบี้ยและหุ้นรายตัว",
+        "news.com.au เน้นผลของถ้อยแถลงต่อความกังวลเรื่องการกู้ยืม"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/asx-markets-business-news-live-updates-tuesday-28-july/106965036"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/markets/equity-markets/asx-to-fall-oil-plunges-and-semiconductor-stocks-fell-anew-20260728-p60j29"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/markets/australian-markets/reserve-bank-governors-words-lift-asx-200-after-early-market-losses/news-story/ba0004246da2ecca17c99bec9e9568aa"
         }
       ]
     },
@@ -1277,32 +1368,6 @@
         {
           "source": "AAP News",
           "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
-        }
-      ]
-    },
-    {
-      "id": "qld-bird-flu",
-      "headline": "ควีนส์แลนด์ยืนยันพบผู้ป่วยไข้หวัดนก H5 ครั้งแรก",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-25T13:28:00+10:00",
-      "voiceScript": "ควีนส์แลนด์ยืนยันว่าตัวอย่างนกทะเลที่ตายแล้วจากเกาะมอร์ตัน ซึ่งต้องสงสัยเป็นครั้งแรกว่ามีผลตรวจ H5 เป็นบวก ขณะนี้ได้รับการตรวจสอบโดย CSIRO แล้ว ซึ่งหมายความว่าโรคไข้หวัดนกที่ทำให้เกิดโรคได้เข้าสู่รัฐแล้ว จุดสนใจเร่งด่วนคือการเฝ้าติดตามนกป่า การลาดตระเวนชายฝั่ง และแจ้งให้สาธารณชนหลีกเลี่ยงนกที่ตายแล้วหรือป่วย เจ้าหน้าที่กล่าวว่าไก่และไข่ยังคงรับประทานได้อย่างปลอดภัย ปัญหาต่อไปคือไวรัสแพร่กระจายต่อไปในนกป่าหรือไม่ และการยืนยันจะนำไปสู่การแจ้งเตือนความปลอดภัยทางชีวภาพในวงกว้างหรือไม่",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/bird-flu-queensland-suspected-case/106952884"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae"
         }
       ]
     },

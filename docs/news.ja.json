@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T22:02:48Z",
+  "updatedAt": "2026-07-28T23:07:37Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,74 @@
     }
   ],
   "errors": [
-    "The Australian returned 403, Yahoo News Australia returned 429, and Sky News Australia redirected to News24 during verification."
+    "The Australian still redirects to a cookie gate, Yahoo News Australia was rate-limited during verification, and Sky News Australia redirects to News24."
   ],
   "clusters": [
+    {
+      "id": "qld-bird-flu",
+      "headline": "クイーンズランド州の鳥インフル警戒、モートン島周辺で監視を強化",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T22:58:34Z",
+      "voiceScript": "クイーンズランド州のH5鳥インフルエンザは、モートン島を中心に警戒が続いています。最初に疑い例が出た海鳥はその後確認され、当局はいま、さらに広がっていないかどうかの監視を強めています。死んだ鳥や弱った鳥には近づかないよう呼びかける一方、鶏肉や卵は安全だと繰り返しています。重要なのは、野生動物の生息地と農業地帯が近く、広がりが出ればすぐに生物安全保障の問題になるためです。次の焦点は、沿岸部での追加検査と新たな感染確認の有無です。",
+      "differences": [
+        "ABC News は最新の監視強化と拡大リスクを重視。",
+        "SBS News はクイーンズランド州での初確認と食品安全の案内を重視。",
+        "news.com.au は野生動物と養鶏産業への圧力を強調。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/bird-flu-queensland-suspected-case/106952884"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/queensland-farmers-on-alert-as-h5-bird-flu-reaches-state/106967942"
+        }
+      ]
+    },
+    {
+      "id": "lachie-kennedy-silver",
+      "publishedAt": "2026-07-28T22:15:43Z",
+      "headline": "グラスゴーの100m銀でケネディが豪州のメダル空白を止める",
+      "sourceCount": 4,
+      "voiceScript": "ラクリー・ケネディはグラスゴーの男子100m決勝で9秒85をマークして銀メダルを獲得し、パトリック・ジョンソンが持っていたオーストラリア記録を更新しました。男子短距離でオーストラリアがメダルに届かなかった長い空白も、これで1962年以来ようやく終わりました。重要なのは、短距離は大会の看板種目であり、豪州が長年目指してきた「決勝で勝負する力」を示したからです。次の焦点は、この突破が今大会の他種目の追い風になるかどうかです。",
+      "differences": [
+        "ABC News は記録更新と過去の記録の意味を重視。",
+        "The Guardian は決勝での突破の大きさを強調。",
+        "AAP は着順、メダル空白、豪州短距離の厚みを重視。",
+        "news.com.au はレースのドラマと大会全体の流れを前面に出す。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/commonwealth-games-glasgow-day-five-live-blog/106965170"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/sport/live/2026/jul/28/commonwealth-games-2026-athletics-weightlifting-gymnastics-day-five-live"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/record-falls-as-aussie-jets-power-into-100m-finals"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/commonwealth-games/comm-games-day-5-live/live-coverage/c9a76a7413c93a8f685bce6cf672e03a"
+        }
+      ]
+    },
     {
       "id": "mortgage-offset-errors",
       "headline": "住宅ローンの相殺口座ミスで借り手が節約を逃す",
@@ -407,6 +472,32 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/courts-law/australias-most-wanted-man-kazem-hamad-jailed-in-iraq-for-drug-trafficking/news-story/870fb08b15183fa3c972d38d5ca002f6"
+        }
+      ]
+    },
+    {
+      "id": "asx-bullock-reaction",
+      "publishedAt": "2026-07-28T06:23:00Z",
+      "headline": "ブロック総裁の発言で豪州株上昇、利上げ懸念がやや後退",
+      "sourceCount": 3,
+      "voiceScript": "オーストラリアの株式市場は、準備銀行のミシェル・ブロック総裁が需要の鈍化や住宅市場の落ち着きがインフレ圧力を和らげる可能性があると述べたことで上昇しました。市場は8月の追加利上げ観測を少し後退させ、金融や消費関連の銘柄に注目が集まりました。重要なのは、この動きが住宅ローンや企業の借入コスト、そして景気見通しに直結するためです。次の焦点は消費者物価指数が、今の市場の見方を裏付けるかどうかです。",
+      "differences": [
+        "ABC News は終値と前日のテック株安を重視。",
+        "AFR は利上げ見通しの修正と個別株の動きを重視。",
+        "news.com.au は発言が借入不安を和らげた点を強調。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/asx-markets-business-news-live-updates-tuesday-28-july/106965036"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/markets/equity-markets/asx-to-fall-oil-plunges-and-semiconductor-stocks-fell-anew-20260728-p60j29"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/markets/australian-markets/reserve-bank-governors-words-lift-asx-200-after-early-market-losses/news-story/ba0004246da2ecca17c99bec9e9568aa"
         }
       ]
     },
@@ -1277,32 +1368,6 @@
         {
           "source": "AAP News",
           "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
-        }
-      ]
-    },
-    {
-      "id": "qld-bird-flu",
-      "headline": "クイーンズランド州で初のH5鳥インフルエンザ確認",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-25T13:28:00+10:00",
-      "voiceScript": "クイーンズランド州では、モートン島で見つかった死んだ海鳥の検体が、最初はH5陽性疑いとなり、その後CSIROで確認され、高病原性鳥インフルエンザが州内に入ったことが確認されました。州政府は野鳥の監視や沿岸の巡回を強め、死んだ鳥や体調不良の鳥に近づかないよう呼びかけています。同時に、鶏肉や卵は引き続き安全だと説明しています。次は、野鳥の間でさらなる拡散が起きるかどうかです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/bird-flu-queensland-suspected-case/106952884"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae"
         }
       ]
     },

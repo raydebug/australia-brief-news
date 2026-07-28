@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T22:02:48Z",
+  "updatedAt": "2026-07-28T23:07:37Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,74 @@
     }
   ],
   "errors": [
-    "The Australian returned 403, Yahoo News Australia returned 429, and Sky News Australia redirected to News24 during verification."
+    "The Australian still redirects to a cookie gate, Yahoo News Australia was rate-limited during verification, and Sky News Australia redirects to News24."
   ],
   "clusters": [
+    {
+      "id": "qld-bird-flu",
+      "headline": "Giám sát cúm gia cầm ở Queensland được siết chặt quanh đảo Moreton",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T22:58:34Z",
+      "voiceScript": "Tình hình cúm gia cầm H5 ở Queensland vẫn tập trung quanh đảo Moreton, nơi ca nghi nhiễm đầu tiên ở chim biển đã được xác nhận và việc giám sát hiện hướng tới xem có lan rộng hơn hay không. Chính quyền tiếp tục khuyên người dân tránh xa chim chết hoặc chim bệnh, đồng thời nhấn mạnh thịt gia cầm và trứng vẫn an toàn để ăn. Việc này quan trọng vì bang này nằm gần các vùng sinh cảnh hoang dã và khu nông nghiệp, nên bất kỳ phát hiện mới nào cũng có thể nhanh chóng trở thành vấn đề an toàn sinh học. Bước tiếp theo là xét nghiệm tiếp theo dọc bờ biển và theo dõi xem có thêm ca nào xuất hiện hay không.",
+      "differences": [
+        "ABC News tập trung vào việc theo dõi mới nhất và nguy cơ lan rộng.",
+        "SBS News nhấn mạnh ca đầu tiên ở Queensland cùng khuyến cáo an toàn thực phẩm.",
+        "news.com.au nhấn mạnh áp lực lên động vật hoang dã và ngành gia cầm."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/bird-flu-queensland-suspected-case/106952884"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/queensland-farmers-on-alert-as-h5-bird-flu-reaches-state/106967942"
+        }
+      ]
+    },
+    {
+      "id": "lachie-kennedy-silver",
+      "publishedAt": "2026-07-28T22:15:43Z",
+      "headline": "Kennedy giành bạc 100m, chấm dứt cơn khát huy chương của Úc",
+      "sourceCount": 4,
+      "voiceScript": "Lachie Kennedy chạy 9,85 giây ở chung kết 100m nam tại Glasgow để giành huy chương bạc, đồng thời phá kỷ lục Australia lâu năm của Patrick Johnson. Kết quả này cũng chấm dứt quãng chờ huy chương ở nội dung chạy nước rút nam của Australia kéo dài từ năm 1962. Điều quan trọng là 100m luôn là một trong những nội dung được chú ý nhất của điền kinh, và Australia đã tìm cách biến tiềm năng thành thành tích thực sự trong nhiều thập kỷ. Bước tiếp theo là xem cú đột phá này có mở thêm cơ hội huy chương cho các nội dung còn lại hay không.",
+      "differences": [
+        "ABC News tập trung vào thành tích kỷ lục và ý nghĩa của cột mốc cũ bị phá.",
+        "The Guardian nhấn mạnh quy mô của cú bứt phá ở chung kết.",
+        "AAP tập trung vào thứ hạng về đích, cơn khát huy chương và chiều sâu của đội chạy nước rút Úc.",
+        "news.com.au nhấn vào kịch tính của cuộc đua và bối cảnh chung của đại hội."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/commonwealth-games-glasgow-day-five-live-blog/106965170"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/sport/live/2026/jul/28/commonwealth-games-2026-athletics-weightlifting-gymnastics-day-five-live"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/record-falls-as-aussie-jets-power-into-100m-finals"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/commonwealth-games/comm-games-day-5-live/live-coverage/c9a76a7413c93a8f685bce6cf672e03a"
+        }
+      ]
+    },
     {
       "id": "mortgage-offset-errors",
       "headline": "Lỗi tài khoản bù trừ khiến người vay nhà mất tiền tiết kiệm",
@@ -407,6 +472,32 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/courts-law/australias-most-wanted-man-kazem-hamad-jailed-in-iraq-for-drug-trafficking/news-story/870fb08b15183fa3c972d38d5ca002f6"
+        }
+      ]
+    },
+    {
+      "id": "asx-bullock-reaction",
+      "publishedAt": "2026-07-28T06:23:00Z",
+      "headline": "Chứng khoán Úc tăng sau khi Bullock hạ nhiệt lo ngại tăng lãi suất",
+      "sourceCount": 3,
+      "voiceScript": "Thị trường chứng khoán Úc đi lên sau khi Thống đốc RBA Michele Bullock nói rằng nhu cầu yếu hơn và thị trường nhà ở dịu lại có thể giúp giảm áp lực lạm phát. Nhà đầu tư vì thế bớt đặt cược vào khả năng tăng lãi suất trong tháng 8, và nhóm cổ phiếu nhạy với chi phí vay nợ trở thành tâm điểm. Điều này quan trọng vì bước đi tiếp theo của RBA sẽ ảnh hưởng trực tiếp đến lãi vay mua nhà, tín dụng doanh nghiệp và tâm lý thị trường. Bước kế tiếp là số liệu CPI và xem liệu nó có xác nhận đà chậm lại mà thị trường đang kỳ vọng hay không.",
+      "differences": [
+        "ABC News tập trung vào mức đóng cửa thị trường và đợt bán tháo công nghệ trước đó.",
+        "AFR nhấn mạnh việc điều chỉnh kỳ vọng lãi suất và các cổ phiếu biến động mạnh.",
+        "news.com.au nhấn mạnh tác động của bài phát biểu lên nỗi lo vay nợ."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/asx-markets-business-news-live-updates-tuesday-28-july/106965036"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/markets/equity-markets/asx-to-fall-oil-plunges-and-semiconductor-stocks-fell-anew-20260728-p60j29"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/markets/australian-markets/reserve-bank-governors-words-lift-asx-200-after-early-market-losses/news-story/ba0004246da2ecca17c99bec9e9568aa"
         }
       ]
     },
@@ -1277,32 +1368,6 @@
         {
           "source": "AAP News",
           "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
-        }
-      ]
-    },
-    {
-      "id": "qld-bird-flu",
-      "headline": "Queensland xác nhận ca cúm gia cầm H5 đầu tiên",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-25T13:28:00+10:00",
-      "voiceScript": "Queensland đã xác nhận rằng các mẫu chim biển chết từ Đảo Moreton, ban đầu bị nghi ngờ có kết quả xét nghiệm dương tính với H5, hiện đã được CSIRO xác minh, có nghĩa là cúm gia cầm có độc lực cao đã lan tới bang này. Trọng tâm trước mắt là giám sát chim hoang dã, tuần tra ven biển và khuyến cáo công chúng tránh những con chim chết hoặc bị bệnh. Nhà chức trách cho biết thịt gà và trứng vẫn an toàn để ăn. Vấn đề tiếp theo là liệu virus có lây lan rộng hơn ở các loài chim hoang dã hay không và liệu việc xác nhận này có dẫn đến cảnh báo an toàn sinh học rộng hơn hay không.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/bird-flu-queensland-suspected-case/106952884"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae"
         }
       ]
     },
