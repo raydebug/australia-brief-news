@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T14:00:55Z",
+  "updatedAt": "2026-07-28T15:07:29.860Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,30 @@
     }
   ],
   "errors": [
-    "news.com.au và AAP vẫn cần xác minh bằng trang bài viết khi lấy tin mới; các mục ABC mới đã được lọc theo mức độ liên quan trực tiếp đến Úc."
+    "Trong lần kiểm tra này, một số trang mới nhất trả về lỗi 403/429/404; các tin mới vẫn sẽ được xác minh từng trang bài viết."
   ],
   "clusters": [
+    {
+      "id": "mortgage-offset-errors",
+      "headline": "Lỗi tài khoản bù trừ khiến người vay nhà mất tiền tiết kiệm",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-28T14:01:05Z",
+      "voiceScript": "Cơ quan quản lý của Úc cho biết lỗi xử lý tài khoản bù trừ ở nhiều ngân hàng đã khiến người vay trả thêm khoảng 55 triệu đô la Úc tiền lãi trong hai năm. Cuộc rà soát hơn 200.000 khoản vay nhà ở tại tám ngân hàng phát hiện có tài khoản bị ngắt liên kết hoặc thiết lập sai, nên khách hàng đã mất phần tiết kiệm vốn phải giúp giảm tiền trả hằng kỳ. Điều này quan trọng vì tài khoản bù trừ là cách phổ biến để hạ chi phí vay nhà, và lỗi ẩn có thể kéo dài thời gian trả nợ. Việc tiếp theo là các ngân hàng sửa hệ thống nhanh đến đâu và hoàn tiền cho khách bị ảnh hưởng thế nào.",
+      "differences": [
+        "Một bản tin nhấn vào việc người vay nhà bị mất khoản tiết kiệm từ tài khoản bù trừ.",
+        "Bản tin kia nhấn mạnh con số 55 triệu đô la Úc được hoàn trả và quy mô cuộc rà soát."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
+        }
+      ]
+    },
     {
       "id": "pacific-aid-lead",
       "headline": "Úc vượt Trung Quốc trong cho vay ở Thái Bình Dương",

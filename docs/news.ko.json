@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T14:00:55Z",
+  "updatedAt": "2026-07-28T15:07:29.860Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,30 @@
     }
   ],
   "errors": [
-    "news.com.au와 AAP는 새 항목을 사용할 때 아직 기사 페이지 확인이 필요합니다. 이번에 추가한 ABC 항목은 호주 관련성이 직접 있는 것만 남겼습니다."
+    "이번 확인에서 일부 최신 페이지가 403/429/404를 반환했습니다. 새 항목은 계속 기사 페이지별로 확인합니다."
   ],
   "clusters": [
+    {
+      "id": "mortgage-offset-errors",
+      "headline": "주택담보대출 상계계좌 오류로 차입자들이 절감 혜택을 놓쳐",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-28T14:01:05Z",
+      "voiceScript": "호주 규제당국은 여러 은행의 주택담보대출 상계계좌 처리 오류 때문에 차입자들이 2년 동안 약 5천5백만 호주달러의 추가 이자를 냈다고 밝혔습니다. 8개 은행의 20만 건이 넘는 대출을 살펴본 결과 계좌가 연결되지 않았거나 잘못 설정된 사례가 확인됐고, 그만큼 고객은 원래 받아야 할 이자 절감 혜택을 놓쳤습니다. 상계계좌는 대출 비용을 줄이는 흔한 수단이기 때문에 이런 숨은 오류는 상환 기간을 늘릴 수 있습니다. 이제 남은 쟁점은 은행들이 시스템을 얼마나 빨리 고치고 피해 고객에게 환급할 수 있느냐입니다.",
+      "differences": [
+        "한 보도는 상계계좌 오류로 차입자들이 절감 혜택을 놓친 점을 강조한다.",
+        "다른 보도는 5천5백만 호주달러 환급과 대규모 점검을 부각한다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
+        }
+      ]
+    },
     {
       "id": "pacific-aid-lead",
       "headline": "호주가 태평양 대출에서 중국을 앞섰다",

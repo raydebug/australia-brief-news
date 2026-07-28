@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T14:00:55Z",
+  "updatedAt": "2026-07-28T15:07:29.860Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,30 @@
     }
   ],
   "errors": [
-    "news.com.au 和 AAP 这次仍需要通过文章页进行验证；本轮未见更多可用的澳洲新稿，ABC 新增内容已按澳洲相关性筛选。"
+    "本轮验证中有少数来源页返回 403/429/404；新稿仍会优先经由文章页逐条核验。"
   ],
   "clusters": [
+    {
+      "id": "mortgage-offset-errors",
+      "headline": "房贷对冲账户失误让借款人少省了钱",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-28T14:01:05Z",
+      "voiceScript": "澳大利亚证券监管机构说，几家银行的房贷对冲账户处理失误，让借款人在两年里多付了约 5500 万澳元利息。监管机构检查了八家银行超过 20 万笔房贷，发现有些账户被解绑或设置错误，结果客户没能得到本来应该减少还款压力的节省。这件事重要，因为对冲账户本来就是许多家庭压低房贷成本的工具，而隐藏错误会把还款周期拉长。接下来要看银行多久能修正系统并补偿受影响客户。",
+      "differences": [
+        "一篇报道侧重借款人少拿到的节省。",
+        "另一篇报道更强调 5500 万澳元的返还和审查规模。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
+        }
+      ]
+    },
     {
       "id": "pacific-aid-lead",
       "headline": "澳大利亚在太平洋融资中超越中国",

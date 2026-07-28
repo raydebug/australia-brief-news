@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T14:00:55Z",
+  "updatedAt": "2026-07-28T15:07:29.860Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,30 @@
     }
   ],
   "errors": [
-    "news.com.au and AAP still need article-page verification when fresh items are pulled; the new ABC items were filtered for direct Australian relevance."
+    "The Australian returned 403, Yahoo News Australia returned 429, and Sky News Australia's latest page returned 404 during verification; news.com.au and AAP still need article-page checks for fresh pulls."
   ],
   "clusters": [
+    {
+      "id": "mortgage-offset-errors",
+      "headline": "Mortgage offset errors leave borrowers short",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-28T14:01:05Z",
+      "voiceScript": "ASIC says faulty mortgage offset processes at several banks left borrowers paying about $55 million in extra interest over two years. The review covered more than 200,000 home loans across eight banks and found accounts that were unlinked or set up incorrectly, so customers missed savings that are supposed to lower their repayments. That matters because offset accounts are a common way to reduce mortgage costs, and hidden errors can stretch repayment times. The next question is how quickly banks fix the systems and repay affected customers.",
+      "differences": [
+        "ABC News focuses on borrowers missing out on offset savings.",
+        "The Guardian emphasizes ASIC's $55 million repayment figure and the scale of the review."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
+        }
+      ]
+    },
     {
       "id": "pacific-aid-lead",
       "headline": "Australia pulls ahead of China in Pacific lending",

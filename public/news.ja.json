@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T14:00:55Z",
+  "updatedAt": "2026-07-28T15:07:29.860Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,30 @@
     }
   ],
   "errors": [
-    "news.com.au と AAP は新規項目を使う際に記事ページ確認がまだ必要です。今回追加した ABC 項目は豪州との直接の関連で絞り込みました。"
+    "今回の確認では一部の最新ページが 403/429/404 を返しました。新規項目は引き続き記事ページごとに確認します。"
   ],
   "clusters": [
+    {
+      "id": "mortgage-offset-errors",
+      "headline": "住宅ローンの相殺口座ミスで借り手が節約を逃す",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-28T14:01:05Z",
+      "voiceScript": "豪州の規制当局は、複数の銀行で住宅ローンの相殺口座の処理ミスがあり、借り手が2年間でおよそ5,500万豪ドルの余分な利息を払っていたとしています。8行の20万件超の住宅ローンを調べた結果、口座が外れていたり設定が誤っていたりする例が見つかり、利用者は本来受けられるはずの返済負担の軽減を逃していました。相殺口座は住宅ローンの負担を下げる手段として広く使われているため、隠れた不備は返済期間を長引かせかねません。次は銀行がシステムをどれだけ早く修正し、影響を受けた利用者に返金できるかです。",
+      "differences": [
+        "一方は、借り手が相殺口座の不備で節約を逃した点を強調している。",
+        "もう一方は、5,500万豪ドルの返金と大規模な調査を前面に出している。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
+        }
+      ]
+    },
     {
       "id": "pacific-aid-lead",
       "headline": "オーストラリアが太平洋向け融資で中国を上回る",
