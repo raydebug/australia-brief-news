@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T16:05:22Z",
+  "updatedAt": "2026-07-28T17:08:17Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -119,6 +119,37 @@
     "本轮验证中有少数来源页返回 403/429/404；新稿仍会优先经由文章页逐条核验。"
   ],
   "clusters": [
+    {
+      "id": "qantas-project-sunrise-test-flight",
+      "headline": "Qantas试飞吸引数百万人关注，Project Sunrise更接近启航",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-28T15:15:22Z",
+      "voiceScript": "Qantas完成了一次为Project Sunrise准备的远程试飞，飞机在澳大利亚与图卢兹之间完成了超过24小时的飞行，线上有数百万人跟踪进度。该计划要为悉尼直飞伦敦和纽约的超长航线做准备，这次飞行主要检验燃油、系统和机组安排是否能满足要求。它的重要性在于，Qantas正把长期讨论中的超远程客运航线推进到更接近实际运营的阶段。接下来仍要看认证、交机和航线规划能否按计划完成。",
+      "differences": [
+        "ABC News突出有360多万人在线追踪这次飞行。",
+        "The Australian强调飞行时长和纪录挑战。",
+        "news.com.au侧重Project Sunrise和未来航线推进。",
+        "Australian Financial Review指出Qantas尚未给出墨尔本直飞的明确时间表。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/qantas-project-sunrise-test-flight/106969232"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/business/aviation/test-pilots-push-qantas-new-project-sunrise-jet-to-absolute-limits/news-story/002d2ff13421a28209b7203304ce27a3"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/project-sunrise-first-test-flight-from-europe-to-australia-for-qantas-a3501000ulr/news-story/82c9522eb505e49dd1702a2c3ff788bc"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/transport/qantas-leaves-melbourne-waiting-for-non-stop-london-flights-20260724-p60i77"
+        }
+      ]
+    },
     {
       "id": "mortgage-offset-errors",
       "headline": "房贷对冲账户失误让借款人少省了钱",
@@ -1926,27 +1957,6 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/antisemitism-royal-commission-wraps-fifth-hearing-block-in-melbourne/nv8dgn7xd"
-        }
-      ]
-    },
-    {
-      "id": "qantas-project-sunrise-test-flight",
-      "headline": "Qantas测试飞行让Project Sunrise更接近首航",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-24T04:08:00Z",
-      "voiceScript": "Qantas已经完成Project Sunrise计划的首个超长途试飞，飞机从图卢兹飞到墨尔本后落地，全程超过19小时。澳航说，这批A350-1000ULR的目标，是支撑悉尼直飞伦敦和纽约的航线，而目前仍以悉尼到伦敦作为首要规划。这个进展重要，因为它说明机体和燃油配置基本经得起这段航程，但真正商业化上线仍然还要时间。接下来要看澳航怎样解决剩余的运营细节，以及时间表会不会再次推迟。",
-      "differences": [
-        "ABC News重点写这次19小时后在墨尔本落地，以及试飞的里程碑意义。",
-        "Australian Financial Review强调墨尔本直飞服务仍没有明确时间表。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/qantas-a350-lands-after-19-hour-flight/106955068"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/companies/transport/qantas-leaves-melbourne-waiting-for-non-stop-london-flights-20260724-p60i77"
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T16:05:22Z",
+  "updatedAt": "2026-07-28T17:08:17Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -119,6 +119,37 @@
     "Trong lần kiểm tra này, một số trang mới nhất trả về lỗi 403/429/404; các tin mới vẫn sẽ được xác minh từng trang bài viết."
   ],
   "clusters": [
+    {
+      "id": "qantas-project-sunrise-test-flight",
+      "headline": "Chuyến bay thử của Qantas đưa Project Sunrise tiến gần ngày khai thác",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-28T15:15:22Z",
+      "voiceScript": "Qantas đã hoàn tất một chuyến bay thử đường dài cho dự án Project Sunrise. Máy bay bay hơn 24 giờ giữa Australia và Toulouse, trong khi hàng triệu người theo dõi hành trình trực tuyến. Chiếc A350-1000ULR này được chuẩn bị cho các đường bay không điểm dừng từ Sydney đến London và New York, và chuyến thử nhằm kiểm tra nhiên liệu, hệ thống cùng khả năng vận hành cho chặng bay siêu dài. Điều đáng chú ý là kế hoạch bay thương mại vốn chỉ nằm trên giấy nay đã tiến gần hơn tới thực tế. Những việc còn lại là chứng nhận, bàn giao máy bay và chốt lịch khai thác.",
+      "differences": [
+        "ABC News nhấn mạnh hơn 3,6 triệu người theo dõi trực tiếp chuyến bay.",
+        "The Australian tập trung vào thời lượng bay và khả năng lập kỷ lục.",
+        "news.com.au nói nhiều hơn về lộ trình triển khai các đường bay tương lai.",
+        "Australian Financial Review lưu ý Qantas vẫn chưa có lịch cụ thể cho tuyến Melbourne không dừng."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/qantas-project-sunrise-test-flight/106969232"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/business/aviation/test-pilots-push-qantas-new-project-sunrise-jet-to-absolute-limits/news-story/002d2ff13421a28209b7203304ce27a3"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/project-sunrise-first-test-flight-from-europe-to-australia-for-qantas-a3501000ulr/news-story/82c9522eb505e49dd1702a2c3ff788bc"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/transport/qantas-leaves-melbourne-waiting-for-non-stop-london-flights-20260724-p60i77"
+        }
+      ]
+    },
     {
       "id": "mortgage-offset-errors",
       "headline": "Lỗi tài khoản bù trừ khiến người vay nhà mất tiền tiết kiệm",
@@ -1899,27 +1930,6 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/antisemitism-royal-commission-wraps-fifth-hearing-block-in-melbourne/nv8dgn7xd"
-        }
-      ]
-    },
-    {
-      "id": "qantas-project-sunrise-test-flight",
-      "headline": "Chuyến bay thử của Qantas đưa Project Sunrise tiến gần ngày khai thác",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-24T04:08:00Z",
-      "voiceScript": "Qantas đã hoàn thành chuyến bay thử đầu tiên của Project Sunrise, hạ cánh ở Melbourne sau hơn 19 giờ bay từ Toulouse. Hãng cho biết đội máy bay A350-1000ULR được thiết kế để phục vụ các chuyến bay thẳng từ Sydney đến London và New York, trong đó tuyến Sydney-London vẫn là kế hoạch đầu tiên. Điều này quan trọng vì nó cho thấy khung máy bay và cấu hình nhiên liệu có thể chịu được quãng đường rất dài, dù việc khai thác thương mại vẫn còn ở phía trước. Câu hỏi tiếp theo là Qantas sẽ xử lý các vướng mắc vận hành còn lại nhanh đến đâu và lịch trình có bị lùi thêm hay không.",
-      "differences": [
-        "ABC News nhấn mạnh chuyến bay kéo dài hơn 19 giờ và việc hạ cánh ở Melbourne như một cột mốc thử nghiệm.",
-        "Australian Financial Review nhấn mạnh rằng vẫn chưa có mốc thời gian chắc chắn cho các chuyến bay thẳng từ Melbourne."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/qantas-a350-lands-after-19-hour-flight/106955068"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/companies/transport/qantas-leaves-melbourne-waiting-for-non-stop-london-flights-20260724-p60i77"
         }
       ]
     },

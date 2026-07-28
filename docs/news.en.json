@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T16:05:22Z",
+  "updatedAt": "2026-07-28T17:08:17Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -119,6 +119,37 @@
     "The Australian returned 403, Yahoo News Australia returned 429, and Sky News Australia's latest page returned 404 during verification; news.com.au and AAP still need article-page checks for fresh pulls."
   ],
   "clusters": [
+    {
+      "id": "qantas-project-sunrise-test-flight",
+      "headline": "Qantas test flight draws millions as Project Sunrise nears launch",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-28T15:15:22Z",
+      "voiceScript": "Qantas has completed a long-haul test flight for its Project Sunrise aircraft, and millions of people followed the journey online as the plane moved between Australia and Toulouse. The A350-1000ULR is being prepared for non-stop Sydney-London and Sydney-New York services, and the flight was designed to check fuel use, systems, and the operational setup for very long routes. That matters because it shows the airline is moving from planning toward real-world readiness for ultra-long-haul travel. The remaining questions are certification, delivery timing, and whether the launch schedule holds.",
+      "differences": [
+        "ABC News highlights the 3.6 million people who tracked the flight live.",
+        "The Australian focuses on the flight duration and the record-setting angle.",
+        "news.com.au emphasizes Project Sunrise and the rollout of future routes.",
+        "Australian Financial Review notes that Qantas still has no firm timetable for non-stop Melbourne services."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/qantas-project-sunrise-test-flight/106969232"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/business/aviation/test-pilots-push-qantas-new-project-sunrise-jet-to-absolute-limits/news-story/002d2ff13421a28209b7203304ce27a3"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/project-sunrise-first-test-flight-from-europe-to-australia-for-qantas-a3501000ulr/news-story/82c9522eb505e49dd1702a2c3ff788bc"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/transport/qantas-leaves-melbourne-waiting-for-non-stop-london-flights-20260724-p60i77"
+        }
+      ]
+    },
     {
       "id": "mortgage-offset-errors",
       "headline": "Mortgage offset errors leave borrowers short",
@@ -1899,27 +1930,6 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/antisemitism-royal-commission-wraps-fifth-hearing-block-in-melbourne/nv8dgn7xd"
-        }
-      ]
-    },
-    {
-      "id": "qantas-project-sunrise-test-flight",
-      "headline": "Qantas test flight pushes Project Sunrise closer to launch",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-24T04:08:00Z",
-      "voiceScript": "Qantas has completed the first ultra-long-haul test flight for its Project Sunrise aircraft, landing in Melbourne after more than 19 hours in the air from Toulouse. The airline says the A350-1000ULR program is meant to support non-stop services from Sydney to London and New York, with Sydney-London still the first planned route. The flight matters because it shows the aircraft and fuel setup can handle the distance, even though a commercial launch is still some way off. The next question is how quickly Qantas clears the remaining operational hurdles and whether the timetable shifts again.",
-      "differences": [
-        "ABC News focuses on the 19-hour Melbourne landing and the milestone for the test program.",
-        "Australian Financial Review emphasizes that Qantas still has no firm timetable for non-stop Melbourne services."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/qantas-a350-lands-after-19-hour-flight/106955068"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/companies/transport/qantas-leaves-melbourne-waiting-for-non-stop-london-flights-20260724-p60i77"
         }
       ]
     },

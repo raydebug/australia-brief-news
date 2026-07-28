@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T16:05:22Z",
+  "updatedAt": "2026-07-28T17:08:17Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -119,6 +119,37 @@
     "今回の確認では一部の最新ページが 403/429/404 を返しました。新規項目は引き続き記事ページごとに確認します。"
   ],
   "clusters": [
+    {
+      "id": "qantas-project-sunrise-test-flight",
+      "headline": "Qantasの試験飛行でProject Sunriseが就航に一歩近づく",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-28T15:15:22Z",
+      "voiceScript": "QantasはProject Sunrise向けの長距離試験飛行を終え、機体はオーストラリアとトゥールーズの間を24時間超かけて飛行し、オンラインでは数百万人が追跡した。A350-1000ULRは、シドニー発ロンドン行きとニューヨーク行きの超長距離路線に投入する計画で、今回の飛行では燃料、機体、運航体制が長時間飛行に耐えられるかを確かめた。意味が大きいのは、長く計画段階だった超長距離便が、実運用にかなり近づいたことだ。今後の焦点は、認証、機体引き渡し、そして就航時期の最終決定になる。",
+      "differences": [
+        "ABC Newsはライブで追跡した360万人超に注目している。",
+        "The Australianは飛行時間と記録更新の可能性を強調している。",
+        "news.com.auは今後の路線展開に焦点を当てている。",
+        "Australian Financial Reviewはメルボルン直行便の時期がまだ不透明だと伝えている。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/qantas-project-sunrise-test-flight/106969232"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/business/aviation/test-pilots-push-qantas-new-project-sunrise-jet-to-absolute-limits/news-story/002d2ff13421a28209b7203304ce27a3"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/project-sunrise-first-test-flight-from-europe-to-australia-for-qantas-a3501000ulr/news-story/82c9522eb505e49dd1702a2c3ff788bc"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/transport/qantas-leaves-melbourne-waiting-for-non-stop-london-flights-20260724-p60i77"
+        }
+      ]
+    },
     {
       "id": "mortgage-offset-errors",
       "headline": "住宅ローンの相殺口座ミスで借り手が節約を逃す",
@@ -1899,27 +1930,6 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/antisemitism-royal-commission-wraps-fifth-hearing-block-in-melbourne/nv8dgn7xd"
-        }
-      ]
-    },
-    {
-      "id": "qantas-project-sunrise-test-flight",
-      "headline": "Qantasの試験飛行でProject Sunriseの実用化が一歩近づく",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-24T04:08:00Z",
-      "voiceScript": "Qantasは、Project Sunrise向けの初の超長距離試験飛行を終え、トゥールーズから19時間超の飛行の末、メルボルンに着陸しました。航空会社によると、A350-1000ULR計画はシドニー発ロンドン、ニューヨーク行きの直行便を支えるためのもので、最初の想定路線は今もシドニー-ロンドンです。重要なのは、この機体と燃料設定で長距離飛行に耐えられることが示された点ですが、商業運航の開始はまだ先です。次に注目されるのは、残る運航面の課題をQantasがどれだけ早く片づけ、計画時期がさらに動くかどうかです。",
-      "differences": [
-        "ABC Newsは、19時間超の飛行を終えてメルボルンに着陸した点と試験の節目を強調している。",
-        "Australian Financial Reviewは、メルボルン発の直行サービスにまだ確定した時期がない点を強く打ち出している。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/qantas-a350-lands-after-19-hour-flight/106955068"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/companies/transport/qantas-leaves-melbourne-waiting-for-non-stop-london-flights-20260724-p60i77"
         }
       ]
     },
