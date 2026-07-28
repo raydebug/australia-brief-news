@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T09:07:04Z",
+  "updatedAt": "2026-07-28T10:08:46Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -313,6 +313,32 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/breeana-robinson-death-inquest-jayden-moorea-gold-coast/106966480"
+        }
+      ]
+    },
+    {
+      "id": "origin-energy-breach-900k",
+      "headline": "Origin 資料外洩波及約90萬客戶",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T05:41:39Z",
+      "voiceScript": "Origin Energy表示，一起網路事件可能影響約90萬名現任與前任客戶。公司稱，姓名、地址、出生日期、電話號碼和部分帳戶資料可能已被存取，但目前不認為完整的信用卡或銀行資料外洩。這則消息的重要性，在於受影響人數龐大，接下來也可能帶來詐騙與釣魚風險。後續調查會聚焦於入侵方式，以及公司是否應更早對外說明。",
+      "differences": [
+        "ABC News：強調已確認的波及規模，並稱不認為信用卡或銀行資料被納入。",
+        "The Guardian Australia：指出 Origin 在對外披露前數週就已收到警告。",
+        "news.com.au：強調修正後的 90 萬人估算，以及客戶面臨的詐騙風險。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/origin-energy-data-breach-900k-customers-impacted/106961804"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/28/about-900000-origin-energy-customers-affected-by-hack-as-company-admits-it-was-warned-weeks-before-public-told"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/online/hacking/origin-energy-says-data-of-900000-australians-stolen-in-hack/news-story/2bd8900737cc8564afed4b5c4ba98a8f"
         }
       ]
     },
