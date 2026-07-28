@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T19:15:39Z",
+  "updatedAt": "2026-07-28T21:16:52Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,15 +116,71 @@
     }
   ],
   "errors": [
-    "The Australian returned 403, Yahoo News Australia returned 429, and Sky News Australia's latest page returned 404 during verification; news.com.au article-page checks still need follow-up for a few fresh pulls."
+    "The Australian returned 403, Yahoo News Australia returned 429, and Sky News Australia returned 404 during verification."
   ],
   "clusters": [
     {
+      "id": "port-augusta-community-mural",
+      "headline": "ポートオーガスタで壁画が治安不安への地域の返答に",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T20:56:52Z",
+      "voiceScript": "南オーストラリア州のポートオーガスタでは、地域の治安不安を受けて壁画の取り組みが進んでいます。住民の誇りを高めながら、繰り返される犯罪への対応をもっと強めたいという思いを示す狙いです。地方では信頼が揺らいだとき、目に見える行動が特に重みを持ちます。今後は、この取り組みが景観以上の変化につながるかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/port-augusta-mural-new-mural-community/106901928"
+        }
+      ]
+    },
+    {
+      "id": "dense-breasts-screening-gap",
+      "headline": "高濃度乳房組織が一部のがんを見つけにくくしている",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T20:52:43Z",
+      "voiceScript": "医師たちは、乳房組織が高濃度だと通常の検査でがんが見えにくくなり、治療の遅れにつながるおそれがあると警告しています。問題は検査そのものだけでなく、追加検査が必要な人にその情報が十分伝わるかどうかです。早期発見は治療の選択肢を大きく左右するため、この点は重要です。今後は、見落としを減らすために検診のルールがどれだけ早く変わるかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/dense-breasts-halting-life-saving-cancer-diagnosis/106919428"
+        }
+      ]
+    },
+    {
+      "id": "melbourne-carjacking-charges",
+      "headline": "メルボルンで相次ぐ車両強奪容疑、10代9人が起訴",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T20:24:30Z",
+      "voiceScript": "メルボルンでは、相次いだ車両強奪事件をめぐり10代の9人が起訴されました。若者による犯罪、車両盗難、そして暴力犯罪への不安が重なる案件です。繰り返される車両強奪は、都市での移動の感覚をすぐに変えてしまうため重要です。今後は、裁判の進展と、捜査側が追加起訴を行うかが焦点になります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/teens-arrested-over-melbourne-carjacking-spree/106969600"
+        }
+      ]
+    },
+    {
+      "id": "queensland-social-housing-review",
+      "headline": "クイーンズランドの住宅審査で数百世帯が退去危機に",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T19:41:32Z",
+      "voiceScript": "クイーンズランド州の住宅審査で、数百人の公営住宅入居者が退去の危機に置かれています。賃貸市場が逼迫する中で、もともと選択肢の少ない人たちに影響が及ぶ点が問題です。公営住宅が不足している状況で、州がどこまで入居ルールを厳格に適用すべきかも問われます。今後は、異議申し立てや支援策、政策対応があるかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/queensland-public-housing-rent-tenancy-reviews/106962176"
+        }
+      ]
+    },
+    {
       "id": "non-market-sector-debate",
-      "headline": "ABSが「非市場部門」の意味を説明",
+      "headline": "オーストラリア統計局が「非市場部門」の意味を説明",
       "sourceCount": 1,
       "publishedAt": "2026-07-28T18:41:55Z",
-      "voiceScript": "ABSは、オーストラリアの「非市場部門」をめぐる議論が、公務部門と同じものとして語られることで混乱していると指摘している。記事は、保育、医療、教育がこの労働分野の中心で、参加率の上昇が需要を押し上げていると伝える。これは雇用増加と生産性の議論に直結するため重要だ。今後の焦点は、政治的な見出しよりも実際の労働市場データに議論を戻せるかどうかだ。",
+      "voiceScript": "オーストラリア統計局は、オーストラリアの「非市場部門」をめぐる議論が、公務部門と同じものとして語られることで混乱していると指摘している。記事は、保育、医療、教育がこの労働分野の中心で、参加率の上昇が需要を押し上げていると伝える。これは雇用増加と生産性の議論に直結するため重要だ。今後の焦点は、政治的な見出しよりも実際の労働市場データに議論を戻せるかどうかだ。",
       "differences": [],
       "links": [
         {
@@ -138,7 +194,7 @@
       "headline": "スーパーの商品表示に健康訴求への疑念",
       "sourceCount": 1,
       "publishedAt": "2026-07-28T18:38:16Z",
-      "voiceScript": "ABCは、食品メーカーが健康表示やパッケージを使って、実際より健康的に見せていると報じている。記事は、棚での配置や表面の言葉、ブランド演出が、消費者の選択を先に左右する仕組みに注目する。これは、毎日の食品を買う場所の多くがスーパーであり、包装の印象が家庭の選択に強く影響するから重要だ。今後の焦点は、より明確な表示や厳しいルールが本当に効果を持つかどうかだ。",
+      "voiceScript": "食品メーカーが健康表示やパッケージを使って、実際より健康的に見せていると報じている。記事は、棚での配置や表面の言葉、ブランド演出が、消費者の選択を先に左右する仕組みに注目する。これは、毎日の食品を買う場所の多くがスーパーであり、包装の印象が家庭の選択に強く影響するから重要だ。今後の焦点は、より明確な表示や厳しいルールが本当に効果を持つかどうかだ。",
       "differences": [],
       "links": [
         {
@@ -148,33 +204,16 @@
       ]
     },
     {
-      "id": "rba-rate-rise-warning",
-      "headline": "RBA、インフレリスクで追加利上げの可能性を示唆",
-      "sourceCount": 4,
+      "id": "migration-plummets-post-pandemic-record-highs",
+      "headline": "純移民数はパンデミック後のピークからなお減少",
+      "sourceCount": 1,
       "publishedAt": "2026-07-28T17:30:00Z",
-      "voiceScript": "オーストラリア準備銀行のミシェル・ブロック総裁は、インフレ率がなお高く、再利上げの可能性が残っていると警告しました。総裁は、供給ショック、低い生産性、需要の鈍化を注視しており、次回のインフレ指標と8月11日の会合が重要な節目になると述べました。これは、燃料高などの外的ショックが家計と企業にまだ波及しており、RBAがインフレ抑制と雇用維持の両立を迫られているためです。次の物価統計が強ければ、金利は再び上がる可能性があります。",
-      "differences": [
-        "ABC News は、供給ショックと、必要なら行動するRBAの姿勢を中心に伝えています。",
-        "news.com.au は、家計の生活費負担とさらなる利上げの可能性を強調しています。",
-        "The Australian は、弱い生産性と成長鈍化に結びつくスタグフレーションのリスクとして描いています。",
-        "AAPは、6月四半期のインフレ指標と3.7％とされるトリム平均の予測に注目している。"
-      ],
+      "voiceScript": "オーストラリアの純海外移民は、2023年のピークからなお大きく減っている。ある分析では、55万5800人ほどから30万1000人へ下がり、2027/28年度には22万5000人まで落ち込む可能性があるという。これは住宅不足、インフラ需要、人口増加をめぐる政治に直結するため重要だ。今後の焦点は、入国が通常化し、出国が増える中で数字がさらに下がるかどうかだ。",
+      "differences": [],
       "links": [
         {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/rba-governor-warns-world-facing-increased-supply-shocks/106965644"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/economy/interest-rates/reserve-bank-governor-signals-further-rate-hikes-to-tackle-high-cost-of-living/news-story/71532bf57e410fd9380e4d32ad2ffa9d"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/nation/politics/reserve-bank-governor-michele-bullock-warns-of-additional-rate-hikes-to-tame-inflation/news-story/1c0f2e4fbbb3dea0804166caaf0cf359"
-        },
-        {
           "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/next-rba-rate-call-hinges-on-crucial-inflation-data"
+          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
         }
       ]
     },
@@ -205,25 +244,42 @@
       ]
     },
     {
-      "id": "migration-plummets-post-pandemic-record-highs",
-      "headline": "純移民数はパンデミック後のピークからなお減少",
-      "sourceCount": 1,
+      "id": "rba-rate-rise-warning",
+      "headline": "オーストラリア準備銀行、インフレリスクで追加利上げの可能性を示唆",
+      "sourceCount": 4,
       "publishedAt": "2026-07-28T17:30:00Z",
-      "voiceScript": "AAPは、オーストラリアの純海外移民が2023年のピークから大きく減っていると伝えた。CEDAの分析では、減少幅は約45％で、55万5800人ほどから30万1000人へ落ち込み、2027/28年度には22万5000人まで下がる可能性がある。これは住宅不足、インフラ需要、人口増加をめぐる政治に直結するため重要だ。今後の焦点は、入国が通常化し、出国が増える中で数字がさらに下がるかどうかだ。",
-      "differences": [],
+      "voiceScript": "オーストラリア準備銀行総裁は、インフレ率がなお高く、再利上げの可能性が残っていると警告しました。総裁は、供給ショック、低い生産性、需要の鈍化を注視しており、次回のインフレ指標と8月11日の会合が重要な節目になると述べました。これは、燃料高などの外的ショックが家計と企業にまだ波及しており、中央銀行がインフレ抑制と雇用維持の両立を迫られているためです。次の物価統計が強ければ、金利は再び上がる可能性があります。",
+      "differences": [
+        "ABC News は、供給ショックと、必要なら行動するRBAの姿勢を中心に伝えています。",
+        "news.com.au は、家計の生活費負担とさらなる利上げの可能性を強調しています。",
+        "The Australian は、弱い生産性と成長鈍化に結びつくスタグフレーションのリスクとして描いています。",
+        "AAPは、6月四半期のインフレ指標と3.7％とされるトリム平均の予測に注目している。"
+      ],
       "links": [
         {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/rba-governor-warns-world-facing-increased-supply-shocks/106965644"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/interest-rates/reserve-bank-governor-signals-further-rate-hikes-to-tackle-high-cost-of-living/news-story/71532bf57e410fd9380e4d32ad2ffa9d"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/politics/reserve-bank-governor-michele-bullock-warns-of-additional-rate-hikes-to-tame-inflation/news-story/1c0f2e4fbbb3dea0804166caaf0cf359"
+        },
+        {
           "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
+          "url": "https://aapnews.aap.com.au/news/next-rba-rate-call-hinges-on-crucial-inflation-data"
         }
       ]
     },
     {
       "id": "qantas-project-sunrise-test-flight",
-      "headline": "Qantasの試験飛行でProject Sunriseが就航に一歩近づく",
+      "headline": "長距離試験飛行で超長距離直行計画が就航に一歩近づく",
       "sourceCount": 4,
       "publishedAt": "2026-07-28T15:15:22Z",
-      "voiceScript": "QantasはProject Sunrise向けの長距離試験飛行を終え、機体はオーストラリアとトゥールーズの間を24時間超かけて飛行し、オンラインでは数百万人が追跡した。A350-1000ULRは、シドニー発ロンドン行きとニューヨーク行きの超長距離路線に投入する計画で、今回の飛行では燃料、機体、運航体制が長時間飛行に耐えられるかを確かめた。意味が大きいのは、長く計画段階だった超長距離便が、実運用にかなり近づいたことだ。今後の焦点は、認証、機体引き渡し、そして就航時期の最終決定になる。",
+      "voiceScript": "長距離直行計画向けの試験飛行が完了し、航空機はオーストラリアとトゥールーズの間を24時間超かけて飛行し、オンラインでは数百万人が追跡した。シドニー発のロンドン行きとニューヨーク行きを想定したこの計画では、今回の飛行で燃料、機体、運航体制が長時間飛行に耐えられるかを確かめた。意味が大きいのは、長く計画段階だった超長距離便が、実運用にかなり近づいたことだ。今後の焦点は、認証、機体引き渡し、そして就航時期の最終決定になる。",
       "differences": [
         "ABC Newsはライブで追跡した360万人超に注目している。",
         "The Australianは飛行時間と記録更新の可能性を強調している。",
@@ -302,6 +358,20 @@
         {
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/politics/federal/australia-expands-pacific-aid-lead-in-contest-with-china-20260727-p60j0p"
+        }
+      ]
+    },
+    {
+      "id": "beechwood-collapse-homeless-family",
+      "headline": "建設会社の破綻で母親1人と11人の子どもが住まいを失う",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T10:18:56.650Z",
+      "voiceScript": "建設会社の破綻により、支払い済みの住宅が引き渡されず、1人の母親と11人の子どもが住まいを失う危機に置かれています。建設の失敗が家族の安全だけでなく、住宅制度全体にまで波及することを示す事例です。購入者は補償を待ちながら、家賃や住宅ローンの負担にさらされ続けるため重要です。今後は、破産手続きの中でどこまで資金を回収できるかが焦点になります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/a-current-affair/mum-and-11-kids-left-facing-homelessness-20260728-p60jen.html"
         }
       ]
     },
@@ -533,6 +603,20 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/parts-of-queensland-drought-declared/106967428"
+        }
+      ]
+    },
+    {
+      "id": "sydney-schoolboys-image-case",
+      "headline": "シドニーの裁判所、男子生徒に裸画像を送らせた強要事件を審理",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T06:00:05.801Z",
+      "voiceScript": "シドニーの裁判所では、教員補助員が男子生徒に裸画像を送らせたとして強要した疑いが審理されています。これは一度の失敗ではなく、信頼の悪用とグルーミングの問題です。子どもの安全を守る事件では、早い通報と被害に見合う司法対応が重要です。今後は裁判の進展と、その後の量刑が焦点になります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/deviant-teacher-s-aide-coerced-young-boys-into-sending-naked-images-20260728-p60jc9.html"
         }
       ]
     },
@@ -1424,6 +1508,20 @@
       ]
     },
     {
+      "id": "housing-rules-rethink",
+      "headline": "住宅審査ルールが新築を遅らせていると指摘",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "生産性委員会は、住宅建設を遅らせているとされる計画・審査ルールの見直しを求めている。審査の遅れ、基準のばらつき、順守コストが重なり、供給が需要に追いつきにくくなっている。これは家賃や住宅価格、建設業の効率に直結する問題だ。次は、連邦と州政府がこの提案を具体的な改革に移すかどうかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506"
+        }
+      ]
+    },
+    {
       "id": "wa-oil-refinery",
       "headline": "西オーストラリア州で数十年ぶりの新製油所計画",
       "sourceCount": 3,
@@ -1446,20 +1544,6 @@
         {
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
-        }
-      ]
-    },
-    {
-      "id": "housing-rules-rethink",
-      "headline": "住宅審査ルールが新築を遅らせていると指摘",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "生産性委員会は、住宅建設を遅らせているとされる計画・審査ルールの見直しを求めている。審査の遅れ、基準のばらつき、順守コストが重なり、供給が需要に追いつきにくくなっている。これは家賃や住宅価格、建設業の効率に直結する問題だ。次は、連邦と州政府がこの提案を具体的な改革に移すかどうかです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506"
         }
       ]
     },
@@ -2051,6 +2135,20 @@
       ]
     },
     {
+      "id": "brisbane-gpo-tower",
+      "headline": "ブリスベンGPO隣に40階建てオフィスビル計画",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T10:00:00+10:00",
+      "voiceScript": "ブリスベンCBDでは、GPOの隣に40階建てのオフィスビルを建てる新たな大規模開発案が出ました。計画には1階部分の公共空間も含まれ、既存のEdison Exchangeを置き換えるため、単なる高さの問題ではなく、CBDが商業拡張をどう受け止めるかという話でもあります。次は、計画やデザインが順調に通るかどうか、そしてこの案がオリンピック時代の都市像にどう組み込まれるかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/40-storey-office-tower-to-be-built-next-to-brisbane-s-gpo-20260724-p60idr.html"
+        }
+      ]
+    },
+    {
       "id": "labor-conference-pay-package",
       "headline": "労働党大会、若手労働者向け給付とFair Work Courtを前進",
       "sourceCount": 3,
@@ -2069,20 +2167,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/work/leaders/anthony-albanese-to-speak-at-alp-conference-as-beer-tax-debate-rages/live-coverage/43ba1e0bb2ec2e5eb33be9f30f299134"
-        }
-      ]
-    },
-    {
-      "id": "brisbane-gpo-tower",
-      "headline": "ブリスベンGPO隣に40階建てオフィスビル計画",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-24T10:00:00+10:00",
-      "voiceScript": "ブリスベンCBDでは、GPOの隣に40階建てのオフィスビルを建てる新たな大規模開発案が出ました。計画には1階部分の公共空間も含まれ、既存のEdison Exchangeを置き換えるため、単なる高さの問題ではなく、CBDが商業拡張をどう受け止めるかという話でもあります。次は、計画やデザインが順調に通るかどうか、そしてこの案がオリンピック時代の都市像にどう組み込まれるかです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "Brisbane Times",
-          "url": "https://www.brisbanetimes.com.au/national/queensland/40-storey-office-tower-to-be-built-next-to-brisbane-s-gpo-20260724-p60idr.html"
         }
       ]
     },

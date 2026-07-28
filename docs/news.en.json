@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T19:15:39Z",
+  "updatedAt": "2026-07-28T21:16:52Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,9 +116,65 @@
     }
   ],
   "errors": [
-    "The Australian returned 403, Yahoo News Australia returned 429, and Sky News Australia's latest page returned 404 during verification; news.com.au article-page checks still need follow-up for a few fresh pulls."
+    "The Australian returned 403, Yahoo News Australia returned 429, and Sky News Australia returned 404 during verification."
   ],
   "clusters": [
+    {
+      "id": "port-augusta-community-mural",
+      "headline": "Port Augusta mural turns crime worries into a community project",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T20:56:52Z",
+      "voiceScript": "People in Port Augusta have turned local crime worries into a public mural project. The idea is to lift pride in the town while reminding people that residents want a stronger response to repeat offending. It matters because regional communities often rely on visible local action when confidence starts to slip. The next test is whether the project changes more than the streetscape.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/port-augusta-mural-new-mural-community/106901928"
+        }
+      ]
+    },
+    {
+      "id": "dense-breasts-screening-gap",
+      "headline": "Dense breast tissue is making some cancers harder to detect",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T20:52:43Z",
+      "voiceScript": "Doctors are warning that dense breast tissue can hide cancers on routine scans and delay treatment. The concern is not just the scan itself but whether women are told when they need extra checks. That matters because earlier detection changes the options available to patients. The open question is whether screening rules will change fast enough to reduce missed cases.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/dense-breasts-halting-life-saving-cancer-diagnosis/106919428"
+        }
+      ]
+    },
+    {
+      "id": "melbourne-carjacking-charges",
+      "headline": "Melbourne police charge nine teenagers over alleged carjackings",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T20:24:30Z",
+      "voiceScript": "Police in Melbourne have charged nine teenagers over an alleged series of carjackings. The case sits at the intersection of youth offending, vehicle theft and public fear about violent crime. It matters because repeated carjackings can quickly change how people move around the city. The next step is the court process and any further charges investigators decide to lay.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/teens-arrested-over-melbourne-carjacking-spree/106969600"
+        }
+      ]
+    },
+    {
+      "id": "queensland-social-housing-review",
+      "headline": "Queensland's housing review puts hundreds of tenants at risk",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T19:41:32Z",
+      "voiceScript": "A Queensland housing review has left hundreds of social housing tenants facing eviction. The issue matters because it hits people who already have few options in a tight rental market and may not have the money or support to move quickly. It also raises questions about how strictly the state should enforce tenancy rules when social housing is already scarce. The next stage is any appeal, support package or policy response.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/queensland-public-housing-rent-tenancy-reviews/106962176"
+        }
+      ]
+    },
     {
       "id": "non-market-sector-debate",
       "headline": "ABS explains why the non-market workforce matters",
@@ -144,6 +200,46 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/processed-food-marketing-fooling-shoppers-over-health-claims/106961954"
+        }
+      ]
+    },
+    {
+      "id": "migration-plummets-post-pandemic-record-highs",
+      "headline": "Net migration keeps easing from its post-pandemic peak",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T17:30:00Z",
+      "voiceScript": "AAP says Australia's net overseas migration has fallen sharply from its 2023 high, with the latest CEDA analysis putting the drop at about 45 per cent. The report says the total has slid from roughly 555,800 to 301,000 and could fall to 225,000 by 2027/28. That matters because migration remains tied to housing pressure, infrastructure demand, and the politics of population growth. The next question is how much further the numbers fall as arrivals normalise and departures rise.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
+        }
+      ]
+    },
+    {
+      "id": "mortgage-offset-errors",
+      "headline": "Mortgage offset errors leave borrowers short",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T17:30:00Z",
+      "voiceScript": "ASIC says faulty mortgage offset processes at several banks left borrowers paying about $55 million in extra interest over two years. The review covered more than 200,000 home loans across eight banks and found accounts that were unlinked or set up incorrectly, so customers missed savings that are supposed to lower their repayments. That matters because offset accounts are a common way to reduce mortgage costs, and hidden errors can stretch repayment times. The next question is how quickly banks fix the systems and repay affected customers.",
+      "differences": [
+        "ABC News focuses on borrowers missing out on offset savings.",
+        "The Guardian emphasizes ASIC's $55 million repayment figure and the scale of the review.",
+        "AAP says banks failed to link offset accounts and left customers out of pocket."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/bank-errors-costing-homebuyers-millions-in-overcharges"
         }
       ]
     },
@@ -175,46 +271,6 @@
         {
           "source": "AAP News",
           "url": "https://aapnews.aap.com.au/news/next-rba-rate-call-hinges-on-crucial-inflation-data"
-        }
-      ]
-    },
-    {
-      "id": "mortgage-offset-errors",
-      "headline": "Mortgage offset errors leave borrowers short",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-28T17:30:00Z",
-      "voiceScript": "ASIC says faulty mortgage offset processes at several banks left borrowers paying about $55 million in extra interest over two years. The review covered more than 200,000 home loans across eight banks and found accounts that were unlinked or set up incorrectly, so customers missed savings that are supposed to lower their repayments. That matters because offset accounts are a common way to reduce mortgage costs, and hidden errors can stretch repayment times. The next question is how quickly banks fix the systems and repay affected customers.",
-      "differences": [
-        "ABC News focuses on borrowers missing out on offset savings.",
-        "The Guardian emphasizes ASIC's $55 million repayment figure and the scale of the review.",
-        "AAP says banks failed to link offset accounts and left customers out of pocket."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/bank-errors-costing-homebuyers-millions-in-overcharges"
-        }
-      ]
-    },
-    {
-      "id": "migration-plummets-post-pandemic-record-highs",
-      "headline": "Net migration keeps easing from its post-pandemic peak",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-28T17:30:00Z",
-      "voiceScript": "AAP says Australia's net overseas migration has fallen sharply from its 2023 high, with the latest CEDA analysis putting the drop at about 45 per cent. The report says the total has slid from roughly 555,800 to 301,000 and could fall to 225,000 by 2027/28. That matters because migration remains tied to housing pressure, infrastructure demand, and the politics of population growth. The next question is how much further the numbers fall as arrivals normalise and departures rise.",
-      "differences": [],
-      "links": [
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
         }
       ]
     },
@@ -302,6 +358,20 @@
         {
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/politics/federal/australia-expands-pacific-aid-lead-in-contest-with-china-20260727-p60j0p"
+        }
+      ]
+    },
+    {
+      "id": "beechwood-collapse-homeless-family",
+      "headline": "Builder collapse leaves one mother and 11 children without a home",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T10:18:56.650Z",
+      "voiceScript": "A collapsed builder has left one mother and 11 children facing homelessness after a paid-for home was never delivered. The case shows how a construction failure can spill straight into family security and the broader housing system. It matters because buyers can be left waiting for compensation while rent and mortgage pressures keep rising. The next step is whether anyone in the insolvency process can recover enough to help the family.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/a-current-affair/mum-and-11-kids-left-facing-homelessness-20260728-p60jen.html"
         }
       ]
     },
@@ -533,6 +603,20 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/parts-of-queensland-drought-declared/106967428"
+        }
+      ]
+    },
+    {
+      "id": "sydney-schoolboys-image-case",
+      "headline": "Sydney court hears coercion case involving schoolboys' nude images",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T06:00:05.801Z",
+      "voiceScript": "A Sydney court has heard allegations that a teacher's aide coerced schoolboys into sending nude images. The case points to abuse of trust and grooming rather than a one-off lapse. It matters because child protection cases depend on early reporting and a justice response that matches the harm. The next step is the court process and any sentence that follows.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/deviant-teacher-s-aide-coerced-young-boys-into-sending-naked-images-20260728-p60jc9.html"
         }
       ]
     },
@@ -1424,6 +1508,20 @@
       ]
     },
     {
+      "id": "housing-rules-rethink",
+      "headline": "Australia's housing rules are slowing new builds",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "The Productivity Commission wants a rethink of planning and approval rules it says are slowing housing construction. Delays, inconsistent standards and compliance costs are making it harder for supply to keep up with demand. It matters because it feeds directly into rents, home prices and how efficiently the building sector can work. The next question is whether federal and state governments turn the recommendation into concrete reform.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506"
+        }
+      ]
+    },
+    {
       "id": "wa-oil-refinery",
       "headline": "WA could host Australia's first new refinery in decades",
       "sourceCount": 3,
@@ -1446,20 +1544,6 @@
         {
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
-        }
-      ]
-    },
-    {
-      "id": "housing-rules-rethink",
-      "headline": "Australia's housing rules are slowing new builds",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "The Productivity Commission wants a rethink of planning and approval rules it says are slowing housing construction. Delays, inconsistent standards and compliance costs are making it harder for supply to keep up with demand. It matters because it feeds directly into rents, home prices and how efficiently the building sector can work. The next question is whether federal and state governments turn the recommendation into concrete reform.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506"
         }
       ]
     },
@@ -2051,6 +2135,20 @@
       ]
     },
     {
+      "id": "brisbane-gpo-tower",
+      "headline": "Forty-storey office tower planned beside Brisbane GPO",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T10:00:00+10:00",
+      "voiceScript": "Brisbane's CBD is getting another major development proposal, with a 40-storey office tower planned next to the GPO. The project also includes public space at street level and would replace the current Edison Exchange, so this is not only about height. It is also about how the CBD keeps absorbing commercial growth. The next question is whether planning and design approval go smoothly, and how the tower fits into the city's Olympic-era story.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/40-storey-office-tower-to-be-built-next-to-brisbane-s-gpo-20260724-p60idr.html"
+        }
+      ]
+    },
+    {
       "id": "labor-conference-pay-package",
       "headline": "Labor conference pushes youth worker benefits and a Fair Work Court",
       "sourceCount": 3,
@@ -2069,20 +2167,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/work/leaders/anthony-albanese-to-speak-at-alp-conference-as-beer-tax-debate-rages/live-coverage/43ba1e0bb2ec2e5eb33be9f30f299134"
-        }
-      ]
-    },
-    {
-      "id": "brisbane-gpo-tower",
-      "headline": "Forty-storey office tower planned beside Brisbane GPO",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-24T10:00:00+10:00",
-      "voiceScript": "Brisbane's CBD is getting another major development proposal, with a 40-storey office tower planned next to the GPO. The project also includes public space at street level and would replace the current Edison Exchange, so this is not only about height. It is also about how the CBD keeps absorbing commercial growth. The next question is whether planning and design approval go smoothly, and how the tower fits into the city's Olympic-era story.",
-      "differences": [],
-      "links": [
-        {
-          "source": "Brisbane Times",
-          "url": "https://www.brisbanetimes.com.au/national/queensland/40-storey-office-tower-to-be-built-next-to-brisbane-s-gpo-20260724-p60idr.html"
         }
       ]
     },

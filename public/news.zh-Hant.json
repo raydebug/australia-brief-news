@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T19:15:39Z",
+  "updatedAt": "2026-07-28T21:16:52Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,12 +116,68 @@
     }
   ],
   "errors": [
-    "The Australian returned 403, Yahoo News Australia returned 429, and Sky News Australia's latest page returned 404 during verification; news.com.au article-page checks still need follow-up for a few fresh pulls."
+    "The Australian returned 403, Yahoo News Australia returned 429, and Sky News Australia returned 404 during verification."
   ],
   "clusters": [
     {
+      "id": "port-augusta-community-mural",
+      "headline": "港奧古斯塔用壁畫回應治安焦慮",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T20:56:52Z",
+      "voiceScript": "港奧古斯塔的居民把當地治安擔憂轉化成了一項公開壁畫計畫。這個想法一邊提升小鎮認同感，一邊提醒外界，居民希望對反覆犯罪有更強的回應。之所以重要，是因為區域社區在信任開始鬆動時，往往需要看得見的本地行動。接下來要看，這項計畫能否帶來超出街景變化的效果。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/port-augusta-mural-new-mural-community/106901928"
+        }
+      ]
+    },
+    {
+      "id": "dense-breasts-screening-gap",
+      "headline": "乳腺緻密讓部分癌症更難被發現",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T20:52:43Z",
+      "voiceScript": "醫生提醒說，乳腺緻密可能讓常規掃描下的癌症更難顯現，從而拖慢治療。問題不只是檢查本身，還在於女性是否會被明確告知自己需要額外篩查。之所以重要，是因為越早發現，患者可選擇的治療方式就越多。接下來要看，篩查規則會不會足夠快地調整，減少漏診。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/dense-breasts-halting-life-saving-cancer-diagnosis/106919428"
+        }
+      ]
+    },
+    {
+      "id": "melbourne-carjacking-charges",
+      "headline": "墨爾本警方就連環劫車案起訴九名青少年",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T20:24:30Z",
+      "voiceScript": "墨爾本警方已就一起涉嫌連續劫車案起訴九名青少年。這個案件同時牽涉青少年犯罪、車輛盜搶和公眾對暴力治安的擔憂。之所以重要，是因為反覆發生的劫車很快會改變人們在城市裡的出行方式。接下來要看法院程序如何推進，以及調查人員是否還會提出更多指控。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/teens-arrested-over-melbourne-carjacking-spree/106969600"
+        }
+      ]
+    },
+    {
+      "id": "queensland-social-housing-review",
+      "headline": "昆士蘭住宅審查讓數百名住戶面臨驅逐",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T19:41:32Z",
+      "voiceScript": "昆士蘭一項住宅審查已經讓數百名社會住宅租戶面臨被驅逐的風險。這個問題之所以重要，是因為它打擊的是本來就沒有太多選擇的人，而租屋市場又十分緊張，他們往往沒有足夠的錢或支援快速搬走。它也引發了一個問題：在社會住宅本就稀缺的情況下，州政府應當多嚴格地執行租約規則。接下來要看是否會出現申訴、支援方案或政策回應。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/queensland-public-housing-rent-tenancy-reviews/106962176"
+        }
+      ]
+    },
+    {
       "id": "non-market-sector-debate",
-      "headline": "ABS澄清「非市場部門」並不等於公共部門",
+      "headline": "澳洲統計局澄清「非市場部門」並不等於公共部門",
       "sourceCount": 1,
       "publishedAt": "2026-07-28T18:41:55Z",
       "voiceScript": "澳洲統計局說，外界對「非市場部門」的討論常常把它和公共部門混為一談。報導指出，兒童照護、醫療和教育是這個勞動力板塊的重要組成，而更高的參與率正在推高相關需求。這個話題重要，因為它直接關係到就業成長和生產力爭論。接下來要看政策討論能否回到數據本身，而不是停留在口號。",
@@ -138,7 +194,7 @@
       "headline": "超市「健康」宣傳再次受到質疑",
       "sourceCount": 1,
       "publishedAt": "2026-07-28T18:38:16Z",
-      "voiceScript": "ABC報導，食品行銷正在利用健康宣稱和包裝設計，把高度加工的產品包裝得更像健康選擇。報導關注的是貨架位置、正面措辭和品牌形象會怎樣影響消費者，而不只是配料表本身。這個問題重要，因為大多數澳洲人日常買食物都在超市完成，包裝上的提示會直接影響家庭選擇。接下來要看更清楚的標籤或更嚴格的規則能不能真正起作用。",
+      "voiceScript": "食品行銷正在利用健康宣稱和包裝設計，把高度加工的產品包裝得更像健康選擇。報導關注的是貨架位置、正面措辭和品牌形象會怎樣影響消費者，而不只是配料表本身。這個問題重要，因為大多數澳洲人日常買食物都在超市完成，包裝上的提示會直接影響家庭選擇。接下來要看更清楚的標籤或更嚴格的規則能不能真正起作用。",
       "differences": [],
       "links": [
         {
@@ -148,33 +204,16 @@
       ]
     },
     {
-      "id": "rba-rate-rise-warning",
-      "headline": "RBA 警告通膨風險，進一步加息仍可能發生",
-      "sourceCount": 4,
+      "id": "migration-plummets-post-pandemic-record-highs",
+      "headline": "淨移民持續從疫情後高點回落",
+      "sourceCount": 1,
       "publishedAt": "2026-07-28T17:30:00Z",
-      "voiceScript": "澳洲儲備銀行行長 Michele Bullock 警告，通膨仍高到足以讓再次加息繼續擺在桌面上。她表示，央行正在關注供給衝擊、生產力疲弱與需求放緩，並把下一次通膨數據與 8 月 11 日的決定視為關鍵節點。這項提醒很重要，因為更高的燃油成本與其他外部衝擊仍在逐步傳導到家庭與企業，而 RBA 必須在壓低通膨與維持就業之間取得平衡。如果接下來的通膨數據依然偏熱，利率就可能再次上調。",
-      "differences": [
-        "ABC News 側重供給衝擊以及 RBA 視情況採取行動的態度。",
-        "news.com.au 強調這對家庭生活成本意味著更多加息壓力。",
-        "The Australian 把這一判斷描述為與生產力偏弱和增長放緩相關的滯脹風險。",
-        "AAP 重點放在即將公布的六月季度通膨數據，以及 3.7% 的截尾均值預測。"
-      ],
+      "voiceScript": "澳洲淨海外移民已經比2023年的高峰下降約45%，從55.58萬人降到30.1萬人。另一項分析也預計，到2027/28財年這一數字可能進一步回落到22.5萬人。這個變化之所以重要，是因為移民規模一直和住房、基礎建設以及人口增長政治密切相連。接下來要看，隨著入境恢復常態、離境增加，這一數字還會不會繼續下探。",
+      "differences": [],
       "links": [
         {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/rba-governor-warns-world-facing-increased-supply-shocks/106965644"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/economy/interest-rates/reserve-bank-governor-signals-further-rate-hikes-to-tackle-high-cost-of-living/news-story/71532bf57e410fd9380e4d32ad2ffa9d"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/nation/politics/reserve-bank-governor-michele-bullock-warns-of-additional-rate-hikes-to-tame-inflation/news-story/1c0f2e4fbbb3dea0804166caaf0cf359"
-        },
-        {
           "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/next-rba-rate-call-hinges-on-crucial-inflation-data"
+          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
         }
       ]
     },
@@ -205,25 +244,42 @@
       ]
     },
     {
-      "id": "migration-plummets-post-pandemic-record-highs",
-      "headline": "淨移民持續從疫情後高點回落",
-      "sourceCount": 1,
+      "id": "rba-rate-rise-warning",
+      "headline": "澳洲儲備銀行警告通膨風險，進一步加息仍可能發生",
+      "sourceCount": 4,
       "publishedAt": "2026-07-28T17:30:00Z",
-      "voiceScript": "AAP援引CEDA分析指出，澳洲淨海外移民已經比2023年的高峰下降約45%，從55.58萬人降到30.1萬人。報告也預計，到2027/28財年這一數字可能進一步回落到22.5萬人。這個變化之所以重要，是因為移民規模一直和住房、基礎建設以及人口增長政治密切相連。接下來要看，隨著入境恢復常態、離境增加，這一數字還會不會繼續下探。",
-      "differences": [],
+      "voiceScript": "澳洲儲備銀行行長警告，通膨仍高到足以讓再次加息繼續擺在桌面上。央行正在關注供給衝擊、生產力疲弱與需求放緩，並把下一次通膨數據與 8 月 11 日的決定視為關鍵節點。這項提醒很重要，因為更高的燃油成本與其他外部衝擊仍在逐步傳導到家庭與企業，而央行必須在壓低通膨與維持就業之間取得平衡。如果接下來的通膨數據依然偏熱，利率就可能再次上調。",
+      "differences": [
+        "ABC News 側重供給衝擊以及 RBA 視情況採取行動的態度。",
+        "news.com.au 強調這對家庭生活成本意味著更多加息壓力。",
+        "The Australian 把這一判斷描述為與生產力偏弱和增長放緩相關的滯脹風險。",
+        "AAP 重點放在即將公布的六月季度通膨數據，以及 3.7% 的截尾均值預測。"
+      ],
       "links": [
         {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/rba-governor-warns-world-facing-increased-supply-shocks/106965644"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/interest-rates/reserve-bank-governor-signals-further-rate-hikes-to-tackle-high-cost-of-living/news-story/71532bf57e410fd9380e4d32ad2ffa9d"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/politics/reserve-bank-governor-michele-bullock-warns-of-additional-rate-hikes-to-tame-inflation/news-story/1c0f2e4fbbb3dea0804166caaf0cf359"
+        },
+        {
           "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
+          "url": "https://aapnews.aap.com.au/news/next-rba-rate-call-hinges-on-crucial-inflation-data"
         }
       ]
     },
     {
       "id": "qantas-project-sunrise-test-flight",
-      "headline": "Qantas試飛吸引數百萬人關注，Project Sunrise更接近啟航",
+      "headline": "澳航試飛讓超遠程直飛計畫更接近啟航",
       "sourceCount": 4,
       "publishedAt": "2026-07-28T15:15:22Z",
-      "voiceScript": "Qantas完成了一次為Project Sunrise準備的長程試飛，飛機在澳洲與土魯斯之間飛行超過24小時，線上有數百萬人追蹤進度。這項計畫是要為雪梨直飛倫敦和紐約的超長航線做準備，這次飛行主要檢驗燃油、系統和機組安排是否足以支撐長時間飛行。它的重要性在於，Qantas正把長期討論中的超長程客運航線推向更接近實際營運的階段。接下來仍要看認證、交機與航線規劃能否如期完成。",
+      "voiceScript": "一架為超遠程直飛計畫準備的測試飛機完成了超過24小時的試飛，線上有數百萬人追蹤進度。這項計畫是要為雪梨直飛倫敦和紐約做準備，試飛主要檢驗燃油、系統和機組安排是否足以支撐超長航程。它的重要性在於，長期討論中的超遠程客運航線正更接近實際營運。接下來仍要看認證、交機與航線規劃能否如期完成。",
       "differences": [
         "ABC News突出有360多萬人即時追蹤這次飛行。",
         "The Australian強調飛行時間與挑戰紀錄的角度。",
@@ -302,6 +358,20 @@
         {
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/politics/federal/australia-expands-pacific-aid-lead-in-contest-with-china-20260727-p60j0p"
+        }
+      ]
+    },
+    {
+      "id": "beechwood-collapse-homeless-family",
+      "headline": "建築商倒閉讓一位母親和11個孩子無家可歸",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T10:18:56.650Z",
+      "voiceScript": "一家建築公司倒閉後，一位母親和11個孩子因為原本付費購買的住房沒有交付而面臨無家可歸。這個案例說明，建築失敗會直接衝擊家庭安全，也會把壓力傳導到更廣泛的住宅體系。之所以重要，是因為買家往往只能一邊等待賠償，一邊承受租金和按揭不斷上漲的壓力。接下來要看破產清算程序裡是否有人能追回足夠資金，真正幫到這個家庭。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/a-current-affair/mum-and-11-kids-left-facing-homelessness-20260728-p60jen.html"
         }
       ]
     },
@@ -533,6 +603,20 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/parts-of-queensland-drought-declared/106967428"
+        }
+      ]
+    },
+    {
+      "id": "sydney-schoolboys-image-case",
+      "headline": "雪梨法院審理教師助理脅迫男生發送裸照一案",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T06:00:05.801Z",
+      "voiceScript": "雪梨一家法院聽取了指控，稱一名教師助理脅迫男生發送裸照。這個案件顯示的不是一次失誤，而是對信任的濫用和誘騙行為。之所以重要，是因為兒童保護案件既依賴及早舉報，也依賴與傷害程度相匹配的司法回應。接下來要看法院程序如何推進，以及最終會否判刑。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/deviant-teacher-s-aide-coerced-young-boys-into-sending-naked-images-20260728-p60jc9.html"
         }
       ]
     },
@@ -1424,6 +1508,20 @@
       ]
     },
     {
+      "id": "housing-rules-rethink",
+      "headline": "澳洲住房審批規則被指拖慢新屋建設",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "生產力委員會建議重新檢視一系列規劃和審批規則，因為這些制度被認為拖慢住房建設。審批延遲、標準不一和合規成本疊加，讓新增供應更難追上需求。這個問題會直接影響房價、租金和建築業效率。下一步要看聯邦和州政府是否把建議轉成具體改革。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506"
+        }
+      ]
+    },
+    {
       "id": "wa-oil-refinery",
       "headline": "西澳擬建澳洲數十年來首座新煉油廠",
       "sourceCount": 3,
@@ -1446,20 +1544,6 @@
         {
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
-        }
-      ]
-    },
-    {
-      "id": "housing-rules-rethink",
-      "headline": "澳洲住房審批規則被指拖慢新屋建設",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "生產力委員會建議重新檢視一系列規劃和審批規則，因為這些制度被認為拖慢住房建設。審批延遲、標準不一和合規成本疊加，讓新增供應更難追上需求。這個問題會直接影響房價、租金和建築業效率。下一步要看聯邦和州政府是否把建議轉成具體改革。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506"
         }
       ]
     },
@@ -2084,6 +2168,20 @@
       ]
     },
     {
+      "id": "brisbane-gpo-tower",
+      "headline": "布里斯班 GPO 旁将建 40 层办公楼",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T10:00:00+10:00",
+      "voiceScript": "布里斯班市中心又迎来一项重大开发计划，GPO 旁边将建设一座 40 层办公楼。方案还包含底层的公共城市空间，并会取代现有的 Edison Exchange，所以这不仅是楼高问题，也是 CBD 如何继续吸收商业扩张的问题。接下来要看规划和设计能否顺利过关，以及它如何嵌入奥运时代的城市叙事。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/40-storey-office-tower-to-be-built-next-to-brisbane-s-gpo-20260724-p60idr.html"
+        }
+      ]
+    },
+    {
       "id": "labor-conference-pay-package",
       "headline": "工党大会推进年轻工人福利和 Fair Work Court",
       "sourceCount": 3,
@@ -2106,20 +2204,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/work/leaders/anthony-albanese-to-speak-at-alp-conference-as-beer-tax-debate-rages/live-coverage/43ba1e0bb2ec2e5eb33be9f30f299134"
-        }
-      ]
-    },
-    {
-      "id": "brisbane-gpo-tower",
-      "headline": "布里斯班 GPO 旁将建 40 层办公楼",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-24T10:00:00+10:00",
-      "voiceScript": "布里斯班市中心又迎来一项重大开发计划，GPO 旁边将建设一座 40 层办公楼。方案还包含底层的公共城市空间，并会取代现有的 Edison Exchange，所以这不仅是楼高问题，也是 CBD 如何继续吸收商业扩张的问题。接下来要看规划和设计能否顺利过关，以及它如何嵌入奥运时代的城市叙事。",
-      "differences": [],
-      "links": [
-        {
-          "source": "Brisbane Times",
-          "url": "https://www.brisbanetimes.com.au/national/queensland/40-storey-office-tower-to-be-built-next-to-brisbane-s-gpo-20260724-p60idr.html"
         }
       ]
     },

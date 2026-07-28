@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T19:15:39Z",
+  "updatedAt": "2026-07-28T21:16:52Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,15 +116,71 @@
     }
   ],
   "errors": [
-    "The Australian returned 403, Yahoo News Australia returned 429, and Sky News Australia's latest page returned 404 during verification; news.com.au article-page checks still need follow-up for a few fresh pulls."
+    "The Australian returned 403, Yahoo News Australia returned 429, and Sky News Australia returned 404 during verification."
   ],
   "clusters": [
     {
+      "id": "port-augusta-community-mural",
+      "headline": "Bức tranh tường ở Pốt Ô-ga-xơ-ta biến nỗi lo tội phạm thành dự án cộng đồng",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T20:56:52Z",
+      "voiceScript": "Người dân ở Pốt Ô-ga-xơ-ta đã biến nỗi lo về tội phạm địa phương thành một dự án bức tranh tường công cộng. Mục tiêu là tăng niềm tự hào của thị trấn và nhắc rằng cư dân muốn phản ứng mạnh hơn với các vụ tái phạm. Điều này quan trọng vì các cộng đồng vùng xa thường cần những hành động nhìn thấy được để lấy lại niềm tin. Câu hỏi tiếp theo là dự án này có tạo ra thay đổi ngoài cảnh quan đường phố hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/port-augusta-mural-new-mural-community/106901928"
+        }
+      ]
+    },
+    {
+      "id": "dense-breasts-screening-gap",
+      "headline": "Mô vú dày khiến một số ca ung thư khó phát hiện hơn",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T20:52:43Z",
+      "voiceScript": "Các bác sĩ cảnh báo rằng mô vú dày có thể che khuất ung thư trên những lần chụp thường quy và làm chậm điều trị. Vấn đề không chỉ nằm ở bản chụp mà còn ở việc phụ nữ có được thông báo rõ khi nào cần kiểm tra bổ sung hay không. Điều này quan trọng vì phát hiện sớm sẽ quyết định nhiều lựa chọn điều trị cho bệnh nhân. Câu hỏi tiếp theo là liệu các quy định sàng lọc có thay đổi đủ nhanh để giảm số ca bỏ sót hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/dense-breasts-halting-life-saving-cancer-diagnosis/106919428"
+        }
+      ]
+    },
+    {
+      "id": "melbourne-carjacking-charges",
+      "headline": "Cảnh sát Melbourne truy tố 9 thiếu niên vì loạt vụ cướp xe nghi vấn",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T20:24:30Z",
+      "voiceScript": "Cảnh sát Melbourne đã truy tố 9 thiếu niên liên quan đến một loạt vụ cướp xe bị cáo buộc. Vụ việc liên quan đến tội phạm vị thành niên, trộm xe và nỗi lo của công chúng về bạo lực đường phố. Điều này quan trọng vì các vụ cướp xe lặp lại có thể nhanh chóng làm thay đổi cách người dân di chuyển trong thành phố. Bước tiếp theo là quá trình ra tòa và liệu nhà điều tra có đưa thêm cáo buộc hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/teens-arrested-over-melbourne-carjacking-spree/106969600"
+        }
+      ]
+    },
+    {
+      "id": "queensland-social-housing-review",
+      "headline": "Rà soát nhà ở Queensland khiến hàng trăm người thuê đối mặt nguy cơ bị đuổi",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T19:41:32Z",
+      "voiceScript": "Một đợt rà soát nhà ở tại Queensland đã khiến hàng trăm người thuê nhà ở xã hội đứng trước nguy cơ bị đuổi. Điều này quan trọng vì nó tác động đến những người vốn đã có rất ít lựa chọn trong thị trường thuê nhà chật chội và có thể không có đủ tiền hay hỗ trợ để chuyển đi nhanh. Nó cũng đặt ra câu hỏi về việc bang nên áp dụng quy định thuê nhà nghiêm đến mức nào khi nhà ở xã hội vốn đã khan hiếm. Bước tiếp theo là khiếu nại, gói hỗ trợ hoặc phản ứng chính sách nào có thể xuất hiện.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/queensland-public-housing-rent-tenancy-reviews/106962176"
+        }
+      ]
+    },
+    {
       "id": "non-market-sector-debate",
-      "headline": "ABS giải thích vì sao khu vực phi thị trường quan trọng",
+      "headline": "Cục Thống kê Úc giải thích vì sao khu vực phi thị trường quan trọng",
       "sourceCount": 1,
       "publishedAt": "2026-07-28T18:41:55Z",
-      "voiceScript": "ABS cho rằng cuộc tranh luận về khu vực phi thị trường ở Australia đang bị rối vì nhiều người dùng nó như một cách gọi khác của khu vực công. Bài viết nêu chăm sóc trẻ em, y tế và giáo dục là những phần chính của lực lượng lao động này, đồng thời cho biết mức tham gia cao hơn đang kéo nhu cầu tăng lên. Điều đó quan trọng vì khu vực này tác động lớn đến tăng việc làm và các tranh luận về năng suất. Bước tiếp theo là xem giới hoạch định chính sách có thể tách tranh cãi chính trị ra khỏi số liệu lao động thực tế hay không.",
+      "voiceScript": "Cục Thống kê Úc cho rằng cuộc tranh luận về khu vực phi thị trường ở Australia đang bị rối vì nhiều người dùng nó như một cách gọi khác của khu vực công. Bài viết nêu chăm sóc trẻ em, y tế và giáo dục là những phần chính của lực lượng lao động này, đồng thời cho biết mức tham gia cao hơn đang kéo nhu cầu tăng lên. Điều đó quan trọng vì khu vực này tác động lớn đến tăng việc làm và các tranh luận về năng suất. Bước tiếp theo là xem giới hoạch định chính sách có thể tách tranh cãi chính trị ra khỏi số liệu lao động thực tế hay không.",
       "differences": [],
       "links": [
         {
@@ -138,12 +194,52 @@
       "headline": "Tuyên bố “tốt cho sức khỏe” ở siêu thị bị soi kỹ hơn",
       "sourceCount": 1,
       "publishedAt": "2026-07-28T18:38:16Z",
-      "voiceScript": "ABC cho biết các nhà tiếp thị thực phẩm đang dùng lời quảng bá sức khỏe và thiết kế bao bì để khiến những sản phẩm chế biến nhiều trông lành mạnh hơn thực tế. Bài viết tập trung vào vị trí trên kệ, chữ in ở mặt trước và cách xây dựng thương hiệu có thể dẫn dắt lựa chọn của người mua trước khi họ xem bảng thành phần. Điều này quan trọng vì siêu thị là nơi phần lớn người Australia mua thực phẩm hằng ngày, nên những tín hiệu trên bao bì có thể ảnh hưởng mạnh đến quyết định của cả gia đình. Câu hỏi còn lại là nhãn mác rõ hơn hoặc quy định chặt hơn có đủ sức làm các lời quảng bá này kém hiệu quả hay không.",
+      "voiceScript": "Các nhà tiếp thị thực phẩm đang dùng lời quảng bá sức khỏe và thiết kế bao bì để khiến những sản phẩm chế biến nhiều trông lành mạnh hơn thực tế. Bài viết tập trung vào vị trí trên kệ, chữ in ở mặt trước và cách xây dựng thương hiệu có thể dẫn dắt lựa chọn của người mua trước khi họ xem bảng thành phần. Điều này quan trọng vì siêu thị là nơi phần lớn người Australia mua thực phẩm hằng ngày, nên những tín hiệu trên bao bì có thể ảnh hưởng mạnh đến quyết định của cả gia đình. Câu hỏi còn lại là nhãn mác rõ hơn hoặc quy định chặt hơn có đủ sức làm các lời quảng bá này kém hiệu quả hay không.",
       "differences": [],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/processed-food-marketing-fooling-shoppers-over-health-claims/106961954"
+        }
+      ]
+    },
+    {
+      "id": "migration-plummets-post-pandemic-record-highs",
+      "headline": "Di cư ròng tiếp tục giảm từ mức đỉnh sau đại dịch",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T17:30:00Z",
+      "voiceScript": "Di cư ròng quốc tế của Australia đã giảm mạnh so với đỉnh năm 2023. Con số này đã giảm từ khoảng 555.800 xuống còn 301.000, và có thể tiếp tục xuống 225.000 vào năm tài chính 2027/28. Điều này quan trọng vì nhập cư vẫn gắn chặt với áp lực nhà ở, nhu cầu hạ tầng và chính trị về tăng dân số. Câu hỏi tiếp theo là con số sẽ còn giảm thêm bao nhiêu khi lượng đến trở lại bình thường và lượng rời đi tăng lên.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
+        }
+      ]
+    },
+    {
+      "id": "mortgage-offset-errors",
+      "headline": "Lỗi tài khoản bù trừ khiến người vay nhà mất tiền tiết kiệm",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-28T17:30:00Z",
+      "voiceScript": "Cơ quan quản lý của Úc cho biết lỗi xử lý tài khoản bù trừ ở nhiều ngân hàng đã khiến người vay trả thêm khoảng 55 triệu đô la Úc tiền lãi trong hai năm. Cuộc rà soát hơn 200.000 khoản vay nhà ở tại tám ngân hàng phát hiện có tài khoản bị ngắt liên kết hoặc thiết lập sai, nên khách hàng đã mất phần tiết kiệm vốn phải giúp giảm tiền trả hằng kỳ. Điều này quan trọng vì tài khoản bù trừ là cách phổ biến để hạ chi phí vay nhà, và lỗi ẩn có thể kéo dài thời gian trả nợ. Việc tiếp theo là các ngân hàng sửa hệ thống nhanh đến đâu và hoàn tiền cho khách bị ảnh hưởng thế nào.",
+      "differences": [
+        "Một bản tin nhấn vào việc người vay nhà bị mất khoản tiết kiệm từ tài khoản bù trừ.",
+        "Bản tin kia nhấn mạnh con số 55 triệu đô la Úc được hoàn trả và quy mô cuộc rà soát.",
+        "AAP cho biết một số ngân hàng đã không liên kết đúng tài khoản offset với khoản vay mua nhà, khiến khách hàng bị thiệt."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/bank-errors-costing-homebuyers-millions-in-overcharges"
         }
       ]
     },
@@ -175,46 +271,6 @@
         {
           "source": "AAP News",
           "url": "https://aapnews.aap.com.au/news/next-rba-rate-call-hinges-on-crucial-inflation-data"
-        }
-      ]
-    },
-    {
-      "id": "mortgage-offset-errors",
-      "headline": "Lỗi tài khoản bù trừ khiến người vay nhà mất tiền tiết kiệm",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-28T17:30:00Z",
-      "voiceScript": "Cơ quan quản lý của Úc cho biết lỗi xử lý tài khoản bù trừ ở nhiều ngân hàng đã khiến người vay trả thêm khoảng 55 triệu đô la Úc tiền lãi trong hai năm. Cuộc rà soát hơn 200.000 khoản vay nhà ở tại tám ngân hàng phát hiện có tài khoản bị ngắt liên kết hoặc thiết lập sai, nên khách hàng đã mất phần tiết kiệm vốn phải giúp giảm tiền trả hằng kỳ. Điều này quan trọng vì tài khoản bù trừ là cách phổ biến để hạ chi phí vay nhà, và lỗi ẩn có thể kéo dài thời gian trả nợ. Việc tiếp theo là các ngân hàng sửa hệ thống nhanh đến đâu và hoàn tiền cho khách bị ảnh hưởng thế nào.",
-      "differences": [
-        "Một bản tin nhấn vào việc người vay nhà bị mất khoản tiết kiệm từ tài khoản bù trừ.",
-        "Bản tin kia nhấn mạnh con số 55 triệu đô la Úc được hoàn trả và quy mô cuộc rà soát.",
-        "AAP cho biết một số ngân hàng đã không liên kết đúng tài khoản offset với khoản vay mua nhà, khiến khách hàng bị thiệt."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/bank-errors-costing-homebuyers-millions-in-overcharges"
-        }
-      ]
-    },
-    {
-      "id": "migration-plummets-post-pandemic-record-highs",
-      "headline": "Di cư ròng tiếp tục giảm từ mức đỉnh sau đại dịch",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-28T17:30:00Z",
-      "voiceScript": "AAP cho biết di cư ròng quốc tế của Australia đã giảm mạnh so với đỉnh năm 2023. Phân tích của CEDA ước tính mức giảm khoảng 45%, từ 555.800 xuống còn 301.000, và có thể giảm tiếp xuống 225.000 vào năm tài chính 2027/28. Điều này quan trọng vì nhập cư vẫn gắn chặt với áp lực nhà ở, nhu cầu hạ tầng và chính trị về tăng dân số. Câu hỏi tiếp theo là con số sẽ còn giảm thêm bao nhiêu khi lượng đến trở lại bình thường và lượng rời đi tăng lên.",
-      "differences": [],
-      "links": [
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
         }
       ]
     },
@@ -302,6 +358,20 @@
         {
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/politics/federal/australia-expands-pacific-aid-lead-in-contest-with-china-20260727-p60j0p"
+        }
+      ]
+    },
+    {
+      "id": "beechwood-collapse-homeless-family",
+      "headline": "Nhà thầu sụp đổ khiến một người mẹ và 11 con có nguy cơ mất chỗ ở",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T10:18:56.650Z",
+      "voiceScript": "Sau khi một nhà thầu sụp đổ, một người mẹ và 11 đứa con phải đối mặt với nguy cơ vô gia cư vì căn nhà đã thanh toán nhưng không được bàn giao. Vụ việc cho thấy một thất bại trong xây dựng có thể lan thẳng sang an toàn gia đình và cả hệ thống nhà ở rộng lớn hơn. Điều này quan trọng vì người mua có thể phải chờ bồi thường trong khi áp lực tiền thuê và thế chấp vẫn tăng. Bước tiếp theo là liệu quy trình phá sản có thu hồi đủ tiền để giúp gia đình hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/a-current-affair/mum-and-11-kids-left-facing-homelessness-20260728-p60jen.html"
         }
       ]
     },
@@ -533,6 +603,20 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/parts-of-queensland-drought-declared/106967428"
+        }
+      ]
+    },
+    {
+      "id": "sydney-schoolboys-image-case",
+      "headline": "Tòa Sydney xét xử vụ ép học sinh nam gửi ảnh khỏa thân",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T06:00:05.801Z",
+      "voiceScript": "Một tòa án ở Sydney đã nghe cáo buộc rằng một trợ lý giáo viên ép các nam sinh gửi ảnh khỏa thân. Vụ việc cho thấy sự lạm dụng niềm tin và hành vi dụ dỗ, chứ không phải chỉ là một sai sót đơn lẻ. Điều này quan trọng vì các vụ bảo vệ trẻ em phụ thuộc vào việc tố giác sớm và phản ứng tư pháp tương xứng với mức độ tổn hại. Bước tiếp theo là quá trình xét xử và bản án cuối cùng.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/deviant-teacher-s-aide-coerced-young-boys-into-sending-naked-images-20260728-p60jc9.html"
         }
       ]
     },
@@ -1424,6 +1508,20 @@
       ]
     },
     {
+      "id": "housing-rules-rethink",
+      "headline": "Các quy định về nhà ở của Úc đang làm chậm việc xây dựng mới",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "Ủy ban Năng suất muốn xem xét lại các quy định về quy hoạch và phê duyệt mà họ cho rằng đang làm chậm quá trình xây dựng nhà ở. Sự chậm trễ, tiêu chuẩn không nhất quán và chi phí tuân thủ đang khiến nguồn cung khó theo kịp nhu cầu hơn. Nó quan trọng vì nó ảnh hưởng trực tiếp đến tiền thuê nhà, giá nhà và mức độ hiệu quả mà ngành xây dựng có thể hoạt động. Câu hỏi tiếp theo là liệu chính phủ liên bang và tiểu bang có biến khuyến nghị này thành cải cách cụ thể hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506"
+        }
+      ]
+    },
+    {
       "id": "wa-oil-refinery",
       "headline": "WA có thể là nơi đặt nhà máy lọc dầu mới đầu tiên của Úc sau nhiều thập kỷ",
       "sourceCount": 3,
@@ -1446,20 +1544,6 @@
         {
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
-        }
-      ]
-    },
-    {
-      "id": "housing-rules-rethink",
-      "headline": "Các quy định về nhà ở của Úc đang làm chậm việc xây dựng mới",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "Ủy ban Năng suất muốn xem xét lại các quy định về quy hoạch và phê duyệt mà họ cho rằng đang làm chậm quá trình xây dựng nhà ở. Sự chậm trễ, tiêu chuẩn không nhất quán và chi phí tuân thủ đang khiến nguồn cung khó theo kịp nhu cầu hơn. Nó quan trọng vì nó ảnh hưởng trực tiếp đến tiền thuê nhà, giá nhà và mức độ hiệu quả mà ngành xây dựng có thể hoạt động. Câu hỏi tiếp theo là liệu chính phủ liên bang và tiểu bang có biến khuyến nghị này thành cải cách cụ thể hay không.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506"
         }
       ]
     },
@@ -2051,6 +2135,20 @@
       ]
     },
     {
+      "id": "brisbane-gpo-tower",
+      "headline": "Tòa tháp văn phòng 40 tầng được quy hoạch bên cạnh Brisbane GPO",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T10:00:00+10:00",
+      "voiceScript": "CBD của Brisbane đang nhận được một đề xuất phát triển lớn khác, với một tòa tháp văn phòng 40 tầng được quy hoạch bên cạnh GPO. Dự án cũng bao gồm không gian công cộng ở mức đường phố và sẽ thay thế Edison Exchange hiện tại, vì vậy đây không chỉ là vấn đề về chiều cao. Nó cũng nói về cách CBD tiếp tục hấp thụ tăng trưởng thương mại. Câu hỏi tiếp theo là liệu việc phê duyệt quy hoạch và thiết kế có diễn ra suôn sẻ hay không và tòa tháp có phù hợp với câu chuyện thời kỳ Olympic của thành phố hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/40-storey-office-tower-to-be-built-next-to-brisbane-s-gpo-20260724-p60idr.html"
+        }
+      ]
+    },
+    {
       "id": "labor-conference-pay-package",
       "headline": "Hội nghị lao động thúc đẩy quyền lợi của người lao động thanh niên và Tòa án Công bằng Lao động",
       "sourceCount": 3,
@@ -2069,20 +2167,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/work/leaders/anthony-albanese-to-speak-at-alp-conference-as-beer-tax-debate-rages/live-coverage/43ba1e0bb2ec2e5eb33be9f30f299134"
-        }
-      ]
-    },
-    {
-      "id": "brisbane-gpo-tower",
-      "headline": "Tòa tháp văn phòng 40 tầng được quy hoạch bên cạnh Brisbane GPO",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-24T10:00:00+10:00",
-      "voiceScript": "CBD của Brisbane đang nhận được một đề xuất phát triển lớn khác, với một tòa tháp văn phòng 40 tầng được quy hoạch bên cạnh GPO. Dự án cũng bao gồm không gian công cộng ở mức đường phố và sẽ thay thế Edison Exchange hiện tại, vì vậy đây không chỉ là vấn đề về chiều cao. Nó cũng nói về cách CBD tiếp tục hấp thụ tăng trưởng thương mại. Câu hỏi tiếp theo là liệu việc phê duyệt quy hoạch và thiết kế có diễn ra suôn sẻ hay không và tòa tháp có phù hợp với câu chuyện thời kỳ Olympic của thành phố hay không.",
-      "differences": [],
-      "links": [
-        {
-          "source": "Brisbane Times",
-          "url": "https://www.brisbanetimes.com.au/national/queensland/40-storey-office-tower-to-be-built-next-to-brisbane-s-gpo-20260724-p60idr.html"
         }
       ]
     },

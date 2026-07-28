@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T19:15:39Z",
+  "updatedAt": "2026-07-28T21:16:52Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -116,15 +116,71 @@
     }
   ],
   "errors": [
-    "The Australian returned 403, Yahoo News Australia returned 429, and Sky News Australia's latest page returned 404 during verification; news.com.au article-page checks still need follow-up for a few fresh pulls."
+    "The Australian returned 403, Yahoo News Australia returned 429, and Sky News Australia returned 404 during verification."
   ],
   "clusters": [
     {
+      "id": "port-augusta-community-mural",
+      "headline": "포트오거스타 벽화가 치안 우려에 대한 지역의 답이 되다",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T20:56:52Z",
+      "voiceScript": "사우스오스트레일리아주 포트오거스타에서는 지역의 치안 우려를 담아 벽화 프로젝트가 진행되고 있습니다. 주민들은 마을의 자부심을 높이는 동시에 반복 범죄에 더 강한 대응이 필요하다는 뜻을 드러내고 있습니다. 지역사회는 신뢰가 흔들릴 때 눈에 보이는 행동에 기대는 경우가 많기 때문에 이 소식이 중요합니다. 앞으로는 이 프로젝트가 거리 풍경 이상의 변화를 만들 수 있는지가 관건입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/port-augusta-mural-new-mural-community/106901928"
+        }
+      ]
+    },
+    {
+      "id": "dense-breasts-screening-gap",
+      "headline": "치밀한 유방 조직이 일부 암 발견을 더 어렵게 만들고 있다",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T20:52:43Z",
+      "voiceScript": "의사들은 유방 조직이 치밀하면 일반 검사에서 암이 잘 보이지 않아 치료가 늦어질 수 있다고 경고하고 있습니다. 문제는 검사 자체뿐 아니라, 추가 검사가 필요한 사람에게 그 사실이 제대로 알려지느냐입니다. 조기 발견은 환자가 선택할 수 있는 치료 방법을 크게 바꾸기 때문에 이 사안은 중요합니다. 앞으로는 놓치는 사례를 줄이기 위해 검진 기준이 얼마나 빨리 바뀌는지가 관건입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/dense-breasts-halting-life-saving-cancer-diagnosis/106919428"
+        }
+      ]
+    },
+    {
+      "id": "melbourne-carjacking-charges",
+      "headline": "멜버른 경찰, 차량 강탈 혐의로 10대 9명 기소",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T20:24:30Z",
+      "voiceScript": "멜버른 경찰은 연쇄 차량 강탈 의혹과 관련해 10대 9명을 기소했습니다. 이 사건은 청소년 범죄, 차량 절도, 그리고 폭력 범죄에 대한 불안이 겹쳐 있는 사안입니다. 반복되는 차량 강탈은 도시 안에서 사람들의 이동 방식까지 바꿀 수 있기 때문에 중요합니다. 앞으로는 법원 절차와 추가 기소 여부가 관건입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/teens-arrested-over-melbourne-carjacking-spree/106969600"
+        }
+      ]
+    },
+    {
+      "id": "queensland-social-housing-review",
+      "headline": "퀸즐랜드 주택 점검에 수백 명의 세입자가 퇴거 위기에 놓였다",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T19:41:32Z",
+      "voiceScript": "퀸즐랜드의 한 주택 점검으로 수백 명의 공공주택 세입자가 퇴거 위기에 놓였습니다. 이미 선택지가 거의 없는 사람들에게 영향을 주고, 임대 시장이 빠듯한 상황에서 빠르게 이주할 돈이나 지원이 없는 경우도 많다는 점에서 중요합니다. 공공주택이 부족한 상황에서 주가 임대 규정을 얼마나 엄격하게 적용해야 하는지도 쟁점입니다. 앞으로는 이의 제기, 지원 방안, 정책 대응이 나올지 지켜봐야 합니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/queensland-public-housing-rent-tenancy-reviews/106962176"
+        }
+      ]
+    },
+    {
       "id": "non-market-sector-debate",
-      "headline": "ABS가 ‘비시장 부문’의 의미를 설명했다",
+      "headline": "호주통계청이 “비시장 부문”의 의미를 설명했다",
       "sourceCount": 1,
       "publishedAt": "2026-07-28T18:41:55Z",
-      "voiceScript": "호주 통계청은 “비시장 부문”에 대한 논의가 공공부문과 같은 뜻으로 받아들여지면서 혼선이 생기고 있다고 설명했다. 기사에서는 보육, 의료, 교육이 이 노동 부문의 핵심이며, 참여율 상승이 해당 수요를 끌어올리고 있다고 짚는다. 이 이슈가 중요한 이유는 고용 증가와 생산성 논쟁에 직접 연결되기 때문이다. 앞으로의 과제는 정치적 구호보다 실제 노동시장 데이터에 초점을 돌릴 수 있느냐는 점이다.",
+      "voiceScript": "호주통계청은 “비시장 부문”에 대한 논의가 공공부문과 같은 뜻으로 받아들여지면서 혼선이 생기고 있다고 설명했다. 기사에서는 보육, 의료, 교육이 이 노동 부문의 핵심이며, 참여율 상승이 해당 수요를 끌어올리고 있다고 짚는다. 이 이슈가 중요한 이유는 고용 증가와 생산성 논쟁에 직접 연결되기 때문이다. 앞으로의 과제는 정치적 구호보다 실제 노동시장 데이터에 초점을 돌릴 수 있느냐는 점이다.",
       "differences": [],
       "links": [
         {
@@ -138,7 +194,7 @@
       "headline": "마트의 건강 주장에 대한 감시가 다시 강화됐다",
       "sourceCount": 1,
       "publishedAt": "2026-07-28T18:38:16Z",
-      "voiceScript": "ABC는 식품 마케팅이 건강 주장과 포장을 이용해 고도로 가공된 제품을 더 건강해 보이게 만들고 있다고 보도했다. 이 이야기는 진열 위치, 포장 전면의 문구, 브랜드 이미지가 소비자의 선택에 어떤 영향을 주는지에 초점을 맞춘다. 이 문제가 중요한 이유는 대부분의 호주인이 일상 식품을 슈퍼마켓에서 사기 때문에 포장에 담긴 신호가 가정의 선택에 큰 영향을 주기 때문이다. 앞으로는 더 분명한 라벨이나 더 강한 규제가 이런 주장들을 약화시킬 수 있을지가 관건이다.",
+      "voiceScript": "식품 마케팅이 건강 주장과 포장을 이용해 고도로 가공된 제품을 더 건강해 보이게 만들고 있다고 보도했다. 이 이야기는 진열 위치, 포장 전면의 문구, 브랜드 이미지가 소비자의 선택에 어떤 영향을 주는지에 초점을 맞춘다. 이 문제가 중요한 이유는 대부분의 호주인이 일상 식품을 슈퍼마켓에서 사기 때문에 포장에 담긴 신호가 가정의 선택에 큰 영향을 주기 때문이다. 앞으로는 더 분명한 라벨이나 더 강한 규제가 이런 주장들을 약화시킬 수 있을지가 관건이다.",
       "differences": [],
       "links": [
         {
@@ -148,33 +204,16 @@
       ]
     },
     {
-      "id": "rba-rate-rise-warning",
-      "headline": "RBA, 물가 위험으로 추가 금리 인상 가능성 경고",
-      "sourceCount": 4,
+      "id": "migration-plummets-post-pandemic-record-highs",
+      "headline": "순이민이 팬데믹 이후 정점에서 계속 줄고 있다",
+      "sourceCount": 1,
       "publishedAt": "2026-07-28T17:30:00Z",
-      "voiceScript": "호주중앙은행 총재 Michele Bullock은 물가상승률이 여전히 높아 추가 금리 인상 가능성이 남아 있다고 경고했다. 그녀는 공급 충격, 낮은 생산성, 그리고 둔화된 수요를 지켜보고 있으며, 다음 물가 지표와 8월 11일 결정이 핵심 분기점이라고 말했다. 이 경고가 중요한 이유는 연료비 상승 같은 외부 충격이 아직 가계와 기업에 계속 전가되고 있기 때문이다. 앞으로 물가 수치가 뜨겁게 나오면 금리는 다시 오를 수 있다.",
-      "differences": [
-        "ABC News는 공급 충격과 상황에 따라 대응하겠다는 RBA의 태도를 강조한다.",
-        "news.com.au는 가계의 생활비 압박과 추가 금리 부담을 부각한다.",
-        "The Australian은 이를 낮은 생산성과 성장 둔화에 연결된 스태그플레이션 위험으로 본다.",
-        "AAP은 6월 분기 물가 지표와 3.7%로 예상되는 trimmed mean 수치에 초점을 맞춘다."
-      ],
+      "voiceScript": "호주의 순해외이민은 2023년 정점 이후 크게 줄었다. 한 분석에 따르면 약 55만5800명에서 30만1000명으로 내려왔고, 2027/28년에는 22만5000명까지 떨어질 수 있다. 이 수치가 중요한 이유는 이민 규모가 주택 압박, 인프라 수요, 인구 증가 정치와 직접 연결되기 때문이다. 앞으로는 입국이 정상화되고 출국이 늘면서 숫자가 더 내려갈지 지켜봐야 한다.",
+      "differences": [],
       "links": [
         {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/rba-governor-warns-world-facing-increased-supply-shocks/106965644"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/nation/politics/reserve-bank-governor-michele-bullock-warns-of-additional-rate-hikes-to-tame-inflation/news-story/1c0f2e4fbbb3dea0804166caaf0cf359"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/economy/interest-rates/reserve-bank-governor-signals-further-rate-hikes-to-tackle-high-cost-of-living/news-story/71532bf57e410fd9380e4d32ad2ffa9d"
-        },
-        {
           "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/next-rba-rate-call-hinges-on-crucial-inflation-data"
+          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
         }
       ]
     },
@@ -205,25 +244,42 @@
       ]
     },
     {
-      "id": "migration-plummets-post-pandemic-record-highs",
-      "headline": "순이민이 팬데믹 이후 정점에서 계속 줄고 있다",
-      "sourceCount": 1,
+      "id": "rba-rate-rise-warning",
+      "headline": "호주중앙은행, 물가 위험으로 추가 금리 인상 가능성 경고",
+      "sourceCount": 4,
       "publishedAt": "2026-07-28T17:30:00Z",
-      "voiceScript": "AAP는 호주의 순해외이민이 2023년 정점 이후 크게 줄었다고 전했다. CEDA 분석에 따르면 감소 폭은 약 45%로, 55만5800명 수준에서 30만1000명으로 내려왔고 2027/28년에는 22만5000명까지 떨어질 수 있다. 이 수치가 중요한 이유는 이민 규모가 주택 압박, 인프라 수요, 인구 증가 정치와 직접 연결되기 때문이다. 앞으로는 입국이 정상화되고 출국이 늘면서 숫자가 더 내려갈지 지켜봐야 한다.",
-      "differences": [],
+      "voiceScript": "호주중앙은행 총재는 물가상승률이 여전히 높아 추가 금리 인상 가능성이 남아 있다고 경고했다. 총재는 공급 충격, 낮은 생산성, 그리고 둔화된 수요를 지켜보고 있으며, 다음 물가 지표와 8월 11일 결정이 핵심 분기점이라고 말했다. 이 경고가 중요한 이유는 연료비 상승 같은 외부 충격이 아직 가계와 기업에 계속 전가되고 있기 때문이다. 앞으로 물가 수치가 뜨겁게 나오면 금리는 다시 오를 수 있다.",
+      "differences": [
+        "ABC News는 공급 충격과 상황에 따라 대응하겠다는 RBA의 태도를 강조한다.",
+        "news.com.au는 가계의 생활비 압박과 추가 금리 부담을 부각한다.",
+        "The Australian은 이를 낮은 생산성과 성장 둔화에 연결된 스태그플레이션 위험으로 본다.",
+        "AAP은 6월 분기 물가 지표와 3.7%로 예상되는 trimmed mean 수치에 초점을 맞춘다."
+      ],
       "links": [
         {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/rba-governor-warns-world-facing-increased-supply-shocks/106965644"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/politics/reserve-bank-governor-michele-bullock-warns-of-additional-rate-hikes-to-tame-inflation/news-story/1c0f2e4fbbb3dea0804166caaf0cf359"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/interest-rates/reserve-bank-governor-signals-further-rate-hikes-to-tackle-high-cost-of-living/news-story/71532bf57e410fd9380e4d32ad2ffa9d"
+        },
+        {
           "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
+          "url": "https://aapnews.aap.com.au/news/next-rba-rate-call-hinges-on-crucial-inflation-data"
         }
       ]
     },
     {
       "id": "qantas-project-sunrise-test-flight",
-      "headline": "콴타스 시험 비행으로 프로젝트 선라이즈가 취항에 더 가까워졌다",
+      "headline": "장거리 시험 비행으로 초장거리 직항 계획이 취항에 더 가까워졌다",
       "sourceCount": 4,
       "publishedAt": "2026-07-28T15:15:22Z",
-      "voiceScript": "콴타스는 프로젝트 선라이즈용 장거리 시험 비행을 마쳤고, 항공기는 호주와 툴루즈 사이를 24시간이 넘도록 비행했으며 온라인에서는 수백만 명이 진행 상황을 지켜봤다. A350-1000ULR은 시드니에서 런던과 뉴욕으로 가는 초장거리 노선에 투입될 예정이며, 이번 비행은 연료와 시스템, 운항 준비가 장시간 비행을 감당할 수 있는지 확인하는 과정이었다. 이번 결과가 중요한 이유는 오랫동안 계획 단계에 있던 초장거리 여객 서비스가 실제 운영에 한 걸음 더 가까워졌기 때문이다. 앞으로는 인증, 인도 일정, 노선 확정이 남아 있다.",
+      "voiceScript": "초장거리 직항 계획을 위한 시험 비행이 끝났고, 항공기는 호주와 툴루즈 사이를 24시간이 넘도록 비행했으며 온라인에서는 수백만 명이 진행 상황을 지켜봤다. 시드니에서 런던과 뉴욕으로 가는 초장거리 노선을 준비하는 이 계획은 이번 비행으로 연료, 시스템, 운항 준비가 장시간 비행을 감당할 수 있는지 확인했다. 이번 결과가 중요한 이유는 오랫동안 계획 단계에 있던 초장거리 여객 서비스가 실제 운영에 한 걸음 더 가까워졌기 때문이다. 앞으로는 인증, 인도 일정, 노선 확정이 남아 있다.",
       "differences": [
         "ABC News는 360만 명이 실시간으로 비행을 추적한 점을 부각했다.",
         "The Australian은 비행 시간과 기록 도전 가능성을 강조했다.",
@@ -302,6 +358,20 @@
         {
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/politics/federal/australia-expands-pacific-aid-lead-in-contest-with-china-20260727-p60j0p"
+        }
+      ]
+    },
+    {
+      "id": "beechwood-collapse-homeless-family",
+      "headline": "건설사 붕괴로 한 어머니와 아이 11명이 집을 잃게 됐다",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T10:18:56.650Z",
+      "voiceScript": "건설사 붕괴 이후, 이미 대금을 지불한 집이 인도되지 않아 한 어머니와 아이 11명이 집을 잃을 위기에 놓였습니다. 이 사례는 건설 실패가 가족의 안전을 넘어 더 넓은 주거 체계까지 바로 흔들 수 있음을 보여줍니다. 구매자들은 보상을 기다리는 동안에도 임대료와 대출 상환 압박을 계속 받게 되므로 중요합니다. 앞으로는 파산 절차에서 얼마나 자금을 회수해 가족을 도울 수 있는지가 관건입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/a-current-affair/mum-and-11-kids-left-facing-homelessness-20260728-p60jen.html"
         }
       ]
     },
@@ -533,6 +603,20 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/parts-of-queensland-drought-declared/106967428"
+        }
+      ]
+    },
+    {
+      "id": "sydney-schoolboys-image-case",
+      "headline": "시드니 법원, 남학생에게 나체 이미지를 보내게 한 강요 사건 심리",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T06:00:05.801Z",
+      "voiceScript": "시드니 법원은 교직 보조원이 남학생들에게 나체 이미지를 보내도록 강요했다는 혐의를 심리하고 있습니다. 이 사건은 단순한 실수가 아니라 신뢰를 악용하고 접근한 문제를 보여줍니다. 아동 보호 사건에서는 조기 신고와 피해에 걸맞은 사법 대응이 중요하기 때문에 이 소식이 중요합니다. 앞으로는 재판 절차와 그에 따른 선고가 관건입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/deviant-teacher-s-aide-coerced-young-boys-into-sending-naked-images-20260728-p60jc9.html"
         }
       ]
     },
@@ -1424,6 +1508,20 @@
       ]
     },
     {
+      "id": "housing-rules-rethink",
+      "headline": "주택 심사 규정이 새 집 건설을 늦춘다는 지적",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "생산성위원회는 주택 건설을 늦춘다고 지적되는 계획과 심사 규정의 재검토를 요구하고 있다. 심사 지연, 기준의 불일치, 준수 비용이 겹치면서 공급이 수요를 따라가기 더 어려워지고 있다. 이는 집값과 임대료, 건설업 효율에 바로 연결되는 문제다. 다음 단계는 연방과 주 정부가 이를 구체적인 개혁으로 옮기느냐이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506"
+        }
+      ]
+    },
+    {
       "id": "wa-oil-refinery",
       "headline": "서호주에 수십 년 만의 새 정유소 추진",
       "sourceCount": 3,
@@ -1446,20 +1544,6 @@
         {
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
-        }
-      ]
-    },
-    {
-      "id": "housing-rules-rethink",
-      "headline": "주택 심사 규정이 새 집 건설을 늦춘다는 지적",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "생산성위원회는 주택 건설을 늦춘다고 지적되는 계획과 심사 규정의 재검토를 요구하고 있다. 심사 지연, 기준의 불일치, 준수 비용이 겹치면서 공급이 수요를 따라가기 더 어려워지고 있다. 이는 집값과 임대료, 건설업 효율에 바로 연결되는 문제다. 다음 단계는 연방과 주 정부가 이를 구체적인 개혁으로 옮기느냐이다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/the-utopia-style-regulations-holding-back-new-homes/106963506"
         }
       ]
     },
@@ -2051,6 +2135,20 @@
       ]
     },
     {
+      "id": "brisbane-gpo-tower",
+      "headline": "브리즈번 GPO 옆에 40층짜리 사무실 건물 건설 예정",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-24T10:00:00+10:00",
+      "voiceScript": "브리즈번 도심은 GPO 옆에 40층짜리 오피스 타워를 건설하는 등 또 다른 대규모 개발을 계획하고 있습니다. 이 계획에는 1층의 공공 도시 공간도 포함되며 기존 Edison Exchange를 대체하게 됩니다. 따라서 단지 높이의 문제가 아니라 CBD가 상업적 확장을 계속해서 흡수하는 방식이 중요합니다. 다음은 계획과 디자인이 어떻게 성공할 수 있는지, 그리고 그것이 올림픽 시대의 도시 서사에 어떻게 자리잡을 수 있는지입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/queensland/40-storey-office-tower-to-be-built-next-to-brisbane-s-gpo-20260724-p60idr.html"
+        }
+      ]
+    },
+    {
       "id": "labor-conference-pay-package",
       "headline": "노동 회의는 젊은 근로자 혜택과 공정한 노동 법원을 발전시킵니다.",
       "sourceCount": 3,
@@ -2069,20 +2167,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/work/leaders/anthony-albanese-to-speak-at-alp-conference-as-beer-tax-debate-rages/live-coverage/43ba1e0bb2ec2e5eb33be9f30f299134"
-        }
-      ]
-    },
-    {
-      "id": "brisbane-gpo-tower",
-      "headline": "브리즈번 GPO 옆에 40층짜리 사무실 건물 건설 예정",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-24T10:00:00+10:00",
-      "voiceScript": "브리즈번 도심은 GPO 옆에 40층짜리 오피스 타워를 건설하는 등 또 다른 대규모 개발을 계획하고 있습니다. 이 계획에는 1층의 공공 도시 공간도 포함되며 기존 Edison Exchange를 대체하게 됩니다. 따라서 단지 높이의 문제가 아니라 CBD가 상업적 확장을 계속해서 흡수하는 방식이 중요합니다. 다음은 계획과 디자인이 어떻게 성공할 수 있는지, 그리고 그것이 올림픽 시대의 도시 서사에 어떻게 자리잡을 수 있는지입니다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "Brisbane Times",
-          "url": "https://www.brisbanetimes.com.au/national/queensland/40-storey-office-tower-to-be-built-next-to-brisbane-s-gpo-20260724-p60idr.html"
         }
       ]
     },
