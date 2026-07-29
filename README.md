@@ -1,4 +1,4 @@
-# 4news
+# 4News
 
 一个客观、独立、适合 GitHub Pages、手机桌面安装和后续 iOS/Android 打包的跨平台澳洲新闻简报 App：
 

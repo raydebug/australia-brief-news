@@ -202,7 +202,7 @@ const THEME_OPTIONS = [
 
 const I18N = {
   "zh-Hans": {
-    appName: "4news",
+    appName: "4News",
     appSubtitle: "极简，AI 驱动",
     toolsTitle: "筛选和数据状态",
     localData: "本地数据",
@@ -229,7 +229,7 @@ const I18N = {
     dataError: "暂时读不到新闻数据。联网后会自动从数据源重新读取。"
   },
   "zh-Hant": {
-    appName: "4news",
+    appName: "4News",
     appSubtitle: "極簡，AI 驅動",
     toolsTitle: "篩選和資料狀態",
     localData: "本機資料",
@@ -256,7 +256,7 @@ const I18N = {
     dataError: "暫時讀不到新聞資料。連線後會自動從資料來源重新讀取。"
   },
   si: {
-    appName: "4news",
+    appName: "4News",
     appSubtitle: "වස්තුනিষ্ঠ, ස්වාධීන ඕස්ට්‍රේලියානු පුවත් සාරාංශය",
     toolsTitle: "පෙරහන් සහ දත්ත තත්ත්වය",
     localData: "දේශීය දත්ත",
@@ -283,7 +283,7 @@ const I18N = {
     dataError: "පුවත් දත්ත තාවකාලිකව ලබාගත නොහැක. සබැඳි වූ විට දත්ත මූලාශ්‍රයෙන් නැවත පූරණය වේ."
   },
   en: {
-    appName: "4news",
+    appName: "4News",
     appSubtitle: "Minimal, powered by AI",
     toolsTitle: "Filters and data status",
     localData: "Local data",
@@ -310,7 +310,7 @@ const I18N = {
     dataError: "News data is temporarily unavailable. It will reload from the data source when online."
   },
   ja: {
-    appName: "4news",
+    appName: "4News",
     appSubtitle: "客観的で独立した豪州ニュース要約",
     toolsTitle: "フィルターとデータ状態",
     localData: "ローカルデータ",
@@ -337,7 +337,7 @@ const I18N = {
     dataError: "ニュースデータを一時的に読み込めません。オンラインになるとデータソースから再読み込みします。"
   },
   ko: {
-    appName: "4news",
+    appName: "4News",
     appSubtitle: "객관적이고 독립적인 호주 뉴스 브리핑",
     toolsTitle: "필터 및 데이터 상태",
     localData: "로컬 데이터",
@@ -364,7 +364,7 @@ const I18N = {
     dataError: "뉴스 데이터를 일시적으로 읽을 수 없습니다. 온라인 상태가 되면 데이터 소스에서 다시 불러옵니다."
   },
   vi: {
-    appName: "4news",
+    appName: "4News",
     appSubtitle: "Tin Úc tóm lược, khách quan và độc lập",
     toolsTitle: "Bộ lọc và trạng thái dữ liệu",
     localData: "Dữ liệu cục bộ",
@@ -391,7 +391,7 @@ const I18N = {
     dataError: "Tạm thời không đọc được dữ liệu tin tức. Khi có mạng, dữ liệu sẽ được tải lại từ nguồn."
   },
   th: {
-    appName: "4news",
+    appName: "4News",
     appSubtitle: "สรุปข่าวออสเตรเลียที่เป็นกลางและอิสระ",
     toolsTitle: "ตัวกรองและสถานะข้อมูล",
     localData: "ข้อมูลในเครื่อง",
