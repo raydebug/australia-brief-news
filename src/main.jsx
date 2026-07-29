@@ -17,14 +17,14 @@ import "./register-sw.js";
 
 const LANGUAGES = [
   { code: "en", label: "EN" },
-  { code: "es", label: "Español" },
   { code: "zh-Hans", label: "简体" },
   { code: "zh-Hant", label: "繁體" },
   { code: "si", label: "සිංහල" },
   { code: "ja", label: "日本語" },
   { code: "ko", label: "한국어" },
   { code: "vi", label: "Tiếng Việt" },
-  { code: "th", label: "ไทย" }
+  { code: "th", label: "ไทย" },
+  { code: "es", label: "Español" }
 ];
 
 const FONT_OPTIONS = [
