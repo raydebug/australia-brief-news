@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T12:18:32Z",
+  "updatedAt": "2026-07-29T13:14:09.270Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -101,11 +101,38 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still blocks nocookies pages, and news.com.au RSS remains unreliable, so latest-page and search fallbacks were used when needed.",
-    "A few current stories still only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches.",
-    "7NEWS article pages are still bot-gated in this environment, so only list-page items with trustworthy metadata were considered and uncertain items were skipped."
+    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
+    "Some stories still only had one usable Australia-focused source inside the 7-day window, so those clusters remain single-source rather than forcing weak matches."
   ],
   "clusters": [
+    {
+      "id": "first-nations-remand-data",
+      "headline": "First Nations children spend longer on remand, data shows",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T12:35:44.000Z",
+      "voiceScript": "Fresh national data shows Aboriginal and Torres Strait Islander children are spending longer in detention before sentencing. That matters because remand can deepen harm for young people already overrepresented in the justice system and shape the debate over bail, youth justice and Closing the Gap. The key question is whether states and territories change their detention and support settings, or whether the trend keeps worsening.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/productivity-commission-latest-closing-the-gap-data/106891958"
+        }
+      ]
+    },
+    {
+      "id": "kpmg-audit-job-cuts",
+      "headline": "KPMG moves to cut over 1,000 jobs as audit scandal fallout grows",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T10:00:00.000Z",
+      "voiceScript": "KPMG Australia says it will cut more than 1,000 jobs as the fallout from its audit misconduct scandal continues. That matters because it shows the cost of the scandal is still flowing through the firm and could affect the wider professional services market. The next question is how deep the restructuring goes and whether regulators or clients keep applying pressure.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/professional-services/kpmg-will-sack-dozens-of-partners-1000-staff-amid-audit-scandal-fallout-20260729-p60jnx"
+        }
+      ]
+    },
     {
       "id": "aukus-wa-submarines",
       "headline": "Conroy sets 2032 end point for US submarine rotations in WA",
@@ -149,6 +176,20 @@
       ]
     },
     {
+      "id": "sydney-apartment-build-costs",
+      "headline": "Sydney apartment build costs edge toward $1 million",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T09:07:43.000Z",
+      "voiceScript": "Construction costs are pushing the price of building an apartment in Sydney close to $1 million in some cases. That matters because housing supply depends on faster approvals and lower build costs, but councils and governments still have to manage planning rules and infrastructure demands. The next issue is whether reform can slow the cost blowout enough to improve supply.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/property/residential/labor-threatens-sydney-councils-as-cost-to-build-an-apartment-hits-1m-20260729-p60jm5"
+        }
+      ]
+    },
+    {
       "id": "prison-worker-trial",
       "headline": "Convicted killer gives evidence in prison-worker trial",
       "sourceCount": 1,
@@ -165,7 +206,7 @@
     {
       "id": "health-watchdog-antisemitism",
       "headline": "Health regulator reassures clinicians over antisemitism guidance",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-07-29T08:15:23.000Z",
       "voiceScript": "Australia's health regulator is trying to calm fears that new guidance tied to antisemitism could be used to silence clinicians. The dispute comes after concerns that the draft approach could blur professional oversight with free-expression worries. It matters because the issue sits at the intersection of regulation, free speech and community safety. The regulator is likely to face more questions as the policy is applied.",
       "differences": [],
@@ -173,6 +214,10 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/risk-based-visa-screening-backed-to-beat-anti-semitism"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/health-watchdog-rejects-fears-over-antisemitism-definition-20260729-p60jpn"
         }
       ]
     },
@@ -1111,6 +1156,20 @@
       ]
     },
     {
+      "id": "schools-deepfake-photo-warning",
+      "headline": "Schools warned that posted student photos can be turned into deepfakes",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T11:05:31.000Z",
+      "voiceScript": "Schools are being warned that ordinary photos posted online can be reused to create fake sexual or exploitative images with artificial intelligence. That matters because it can expose children to harm, change how schools use social media and make parents far more cautious about what gets shared. The next step is whether education authorities tighten guidance and whether schools cut back on public photo posts.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australian-schools-warned-photos-they-post-are-vulnerable-to-artificial-intelligence-deepfake-threat-c-22641762"
+        }
+      ]
+    },
+    {
       "id": "pauline-hanson-italy-trip",
       "headline": "Questions grow over who funded Pauline Hanson's Italy trip",
       "sourceCount": 6,
@@ -1146,6 +1205,20 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/gina-rinehart-funded-flights-and-fashion-show-for-pauline-hanson/kgmh8psur"
+        }
+      ]
+    },
+    {
+      "id": "emergency-alert-trial-missed-households",
+      "headline": "Emergency alert trial missed some Australians",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T09:19:43.000Z",
+      "voiceScript": "A nationwide emergency alert trial reached most phones, but survey results suggest about one in nine Australians were missed. That matters because the system is supposed to warn people quickly during fires, floods and other fast-moving emergencies. The open question is whether the misses were caused by network gaps, device settings or the test design, and whether a second trial is needed before rollout.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/ausalert-test-survey-finds-one-in-nine-australians-not-reached-during-trial-of-emergency-lifeline-c-22641479"
         }
       ]
     },
@@ -1223,6 +1296,20 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/courts-law/australias-most-wanted-man-kazem-hamad-jailed-in-iraq-for-drug-trafficking/news-story/870fb08b15183fa3c972d38d5ca002f6"
+        }
+      ]
+    },
+    {
+      "id": "stax-collapse-activewear-orders",
+      "headline": "Liquidator report shows Stax collapse has left millions unpaid",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T06:28:17.000Z",
+      "voiceScript": "A liquidator report says the Australian activewear brand Stax has left thousands of customers and creditors waiting on more than $17 million in unpaid orders. That matters because it shows how quickly a fast-growing consumer brand can unravel when cash tightens and supplier debts stack up. The next question is how much buyers can recover and whether any rescue deal remains possible.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/stax-collapse-australian-activewear-brand-leaves-thousands-of-customers-with-17m-in-unfulfilled-orders-c-22640675"
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T12:18:32Z",
+  "updatedAt": "2026-07-29T13:14:09.277Z",
   "generatedBy": "codex",
   "language": "si",
   "sources": [
@@ -101,11 +101,38 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still blocks nocookies pages, and news.com.au RSS remains unreliable, so latest-page and search fallbacks were used when needed.",
-    "A few current stories still only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches.",
-    "7NEWS article pages are still bot-gated in this environment, so only list-page items with trustworthy metadata were considered and uncertain items were skipped."
+    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
+    "Some stories still only had one usable Australia-focused source inside the 7-day window, so those clusters remain single-source rather than forcing weak matches."
   ],
   "clusters": [
+    {
+      "id": "first-nations-remand-data",
+      "headline": "නව දත්තෙන් පළමු ජාතීන්ගේ දරුවන් වැඩි කාලයක් නඩු තීන්දුවට පෙර රඳවා තබා සිටින බව පෙන්වයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T12:35:44.000Z",
+      "voiceScript": "නව ජාතික දත්තෙන් පෙන්නුම් කරන්නේ Aboriginal සහ Torres Strait Islander දරුවන් දඩුවම් තීන්දුවට පෙර රඳවා තබා සිටින කාලය වැඩිවෙමින් 있다는ය. මෙය වැදගත් වන්නේ එවැනි රඳවා තැබීම් දැනටමත් නීති පද්ධතිය තුළ අධිකව නියෝජනය වන තරුණයන්ට සිදුවන හානිය තවත් වැඩි කළ හැකි නිසාත් bail, youth justice සහ Closing the Gap ගැන වන විවාදයටත් බලපාන නිසාය. දැන් ප්‍රධාන ප්‍රශ්නය වන්නේ ප්‍රාන්ත සහ ප්‍රදේශ සිය රඳවා තබා ගැනීමේ සහ සහාය දීමේ ක්‍රම වෙනස් කරයිද, නැතහොත් මේ තත්ත්වය තවදුරටත් නරක වෙයිද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/productivity-commission-latest-closing-the-gap-data/106891958"
+        }
+      ]
+    },
+    {
+      "id": "kpmg-audit-job-cuts",
+      "headline": "විගණන කතාව දරුණු වීමත් සමඟ KPMG රැකියා 1,000කට වැඩි ප්‍රමාණයක් කපා හරී",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T10:00:00.000Z",
+      "voiceScript": "KPMG Australia පවසන්නේ විගණන අක්‍රමිකතා සම්බන්ධ කතාබහ තවමත් දිගහැරෙන නිසා රැකියා 1,000 කට වඩා කපා හරින්න වෙන බවයි. මෙය වැදගත් වන්නේ එම ප්‍රතිවිපාක සමාගමේ ඇතුළතට දිගටම බර දමන අතර වෘත්තීය සේවා වෙළඳපොළටත් බලපෑමක් ඇති කළ හැකි නිසාය. දැන් ප්‍රධාන ප්‍රශ්නය වන්නේ ප්‍රතිව්‍යුහගත කිරීම කොතෙක් ගැඹුරට යනවාද සහ නියාමකයන් හෝ ගනුදෙනුකරුවන් තවත් පීඩනය දමනවාද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/professional-services/kpmg-will-sack-dozens-of-partners-1000-staff-amid-audit-scandal-fallout-20260729-p60jnx"
+        }
+      ]
+    },
     {
       "id": "aukus-wa-submarines",
       "headline": "කොන්රෝයි බටහිර ඔස්ට්‍රේලියාවේ ඇමරිකානු සබ්මැරීන් මාරුවීම් සඳහා 2032 අවසන් සීමාවක් දමයි",
@@ -149,6 +176,20 @@
       ]
     },
     {
+      "id": "sydney-apartment-build-costs",
+      "headline": "සిడ්නි නිවාස ඒකකයක් ඉදිකිරීමට වැයවන මුදල ඩොලර් මිලියනයකට ආසන්න වෙයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T09:07:43.000Z",
+      "voiceScript": "ඉදිකිරීම් වියදම් නිසා සিডනි හි apartment එකක් ඉදිකිරීමට වන මුදල සමහර අවස්ථාවල ඩොලර් මිලියනයකට ආසන්න වෙමින් තිබේ. මෙය වැදගත් වන්නේ නිවාස සැපයුම වේගවත් අනුමත කිරීම් සහ අඩු ඉදිකිරීම් වියදම් මත රඳා පවතින අතරත් ප්‍රාදේශීය සභා සහ රජයන්ට තවමත් සැලසුම් නීති සහ යටිතල පහසුකම් පීඩනය කළමනාකරණය කළ යුතු නිසාය. දැන් බලන්න වෙන්නේ ප්‍රතිසංස්කරණයක් වියදම් ඉහළ යාම මන්දගාමී කරලා සැපයුම වැඩි කරයිද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/property/residential/labor-threatens-sydney-councils-as-cost-to-build-an-apartment-hits-1m-20260729-p60jm5"
+        }
+      ]
+    },
+    {
       "id": "prison-worker-trial",
       "headline": "දඬුවම් ලැබූ ඝාතකයෙක් ජේල වැඩකරුගේ නඩුවේ සාක්ෂි දෙයි",
       "sourceCount": 1,
@@ -165,7 +206,7 @@
     {
       "id": "health-watchdog-antisemitism",
       "headline": "යුදෙව්විරෝධී මාර්ගෝපදේශ පිළිබඳව සෞඛ්‍ය නියාමකයා වෛද්‍යවරුන්ට සහනය දේ",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-07-29T08:15:23.000Z",
       "voiceScript": "ඕස්ට්‍රේලියාවේ සෞඛ්‍ය නියාමකයා, යුදෙව්විරෝධීභාවයට සම්බන්ධ නව මාර්ගෝපදේශ වෛද්‍යවරුන් නිහඬ කිරීමට යොදාගනු නොලැබෙන බවට වූ බිය අඩු කිරීමට උත්සාහ කරයි. මෙම විවාදය මතුවුණේ කෙටුම්පත් ප්‍රවේශය වෘත්තීය නියාමනය සහ ප්‍රකාශන නිදහස පිළිබඳ බිය මිශ්‍ර කරනු ඇතැයි කියන නිසාය. මෙය වැදගත් වන්නේ නියාමනය, කතා නිදහස සහ ප්‍රජා ආරක්ෂාව එකිනෙකට හමුවන තැන මෙය පවතින නිසයි. ප්‍රතිපත්තිය ක්‍රියාත්මක වන විට නියාමකයාට තවත් ප්‍රශ්න එල්ල වීමට ඉඩ ඇත.",
       "differences": [],
@@ -173,6 +214,10 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/risk-based-visa-screening-backed-to-beat-anti-semitism"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/health-watchdog-rejects-fears-over-antisemitism-definition-20260729-p60jpn"
         }
       ]
     },
@@ -1108,6 +1153,20 @@
       ]
     },
     {
+      "id": "schools-deepfake-photo-warning",
+      "headline": "පාසල්වලට අනතුරු ඇඟවෙයි: පළ කළ ශිෂ්‍ය ඡායාරූප deepfake බවට හැරවිය හැක",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T11:05:31.000Z",
+      "voiceScript": "පාසල්වලින් අන්තර්ජාලයට දමන සාමාන්‍ය ඡායාරූප කෘත්‍රිම බුද්ධියෙන් නැවත භාවිතා කර ව්‍යාජ ලිංගික හෝ අපයෝජන රූප නිර්මාණය කළ හැකි බවට අනතුරු අඟවයි. මෙය වැදගත් වන්නේ එය දරුවන්ට හානියක් විය හැකි නිසාත්, පාසල් සමාජ මාධ්‍ය භාවිතය වෙනස් කළ හැකි නිසාත්, දෙමාපියන් පළ කරන දේ ගැන තවදුරටත් සැලකිලිමත් වන නිසාත්ය. දැන් බලන්න වෙන්නේ අධ්‍යාපන බලධාරීන් උපදෙස් තද කරයිද සහ පාසල් ප්‍රසිද්ධ ඡායාරූප අඩු කරයිද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australian-schools-warned-photos-they-post-are-vulnerable-to-artificial-intelligence-deepfake-threat-c-22641762"
+        }
+      ]
+    },
+    {
       "id": "pauline-hanson-italy-trip",
       "headline": "පෝලීන් හැන්සන්ගේ ඉතාලි ගමනට මුදල් සැපයුවේ කවුදැයි නැවත ප්‍රශ්න උඩට",
       "sourceCount": 6,
@@ -1143,6 +1202,20 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/gina-rinehart-funded-flights-and-fashion-show-for-pauline-hanson/kgmh8psur"
+        }
+      ]
+    },
+    {
+      "id": "emergency-alert-trial-missed-households",
+      "headline": "හදිසි අනතුරු ඇඟවීමේ පරීක්ෂණයෙන් සමහර ඔස්ට්‍රේලියානුවන් මඟහැරී ඇත",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T09:19:43.000Z",
+      "voiceScript": "රට පුරා කළ හදිසි අනතුරු ඇඟවීමේ පරීක්ෂණය බොහෝ දුරට දුරකථන වෙත ගියත්, සමීක්ෂණ ප්‍රතිඵල අනුව ඔස්ට්‍රේලියානුවන් දසයෙන් එකට ආසන්න පිරිසකට එය නොලැබී තිබේ. මෙය වැදගත් වන්නේ ගින්න, ගංවතුර සහ වෙනත් වේගයෙන් වෙනස් වන හදිසි අවස්ථාවලදී පද්ධතිය මිනිසුන් ඉක්මනින් අනතුරු අඟවන්න ඕන නිසාය. දැන් ප්‍රධාන ප්‍රශ්නය වන්නේ මෙය ජාල හිඟ, දුරකථන සැකසුම් හෝ පරීක්ෂණ සැලැස්ම නිසාද, සහ නිකුත් කිරීමට පෙර දෙවන පරීක්ෂණයක් අවශ්‍යද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/ausalert-test-survey-finds-one-in-nine-australians-not-reached-during-trial-of-emergency-lifeline-c-22641479"
         }
       ]
     },
@@ -1220,6 +1293,20 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/courts-law/australias-most-wanted-man-kazem-hamad-jailed-in-iraq-for-drug-trafficking/news-story/870fb08b15183fa3c972d38d5ca002f6"
+        }
+      ]
+    },
+    {
+      "id": "stax-collapse-activewear-orders",
+      "headline": "ලිකුඩේටර් වාර්තාවෙන් කියවෙන්නේ Stax කඩාවැටීමෙන් මිලියන ගණනක් තවමත් නොගෙවී ඇති බවයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T06:28:17.000Z",
+      "voiceScript": "ලිකුඩේටර් වාර්තාවක් කියන්නේ Australian activewear brand Stax නිසා පාරිභෝගිකයන් සහ ණයකරුවන් දහස් ගණනක් ඩොලර් මිලියන 17කට වැඩි නොගෙවූ ඇණවුම් වෙනුවෙන් බලා සිටින බවයි. මෙය වැදගත් වන්නේ මුදල් අඩුවීම සහ සැපයුම්කරු ණය එකතු වීම සමඟ වේගයෙන් වර්ධනය වන පාරිභෝගික brand එකක් කොතරම් ඉක්මනින් කඩා වැටිය හැකිද යන්න පෙන්වන නිසාය. දැන් ප්‍රධාන ප්‍රශ්නය වන්නේ ගනුදෙනුකරුවන්ට කොච්චර ආපසු ලැබේද සහ ගලවා ගැනීමේ ගිවිසුමක් තවමත් හැකිද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/stax-collapse-australian-activewear-brand-leaves-thousands-of-customers-with-17m-in-unfulfilled-orders-c-22640675"
         }
       ]
     },

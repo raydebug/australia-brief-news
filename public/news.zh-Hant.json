@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T12:18:32Z",
+  "updatedAt": "2026-07-29T13:14:09.275Z",
   "generatedBy": "codex",
   "language": "zh-Hant",
   "sources": [
@@ -101,11 +101,38 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still blocks nocookies pages, and news.com.au RSS remains unreliable, so latest-page and search fallbacks were used when needed.",
-    "A few current stories still only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches.",
-    "7NEWS article pages are still bot-gated in this environment, so only list-page items with trustworthy metadata were considered and uncertain items were skipped."
+    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
+    "Some stories still only had one usable Australia-focused source inside the 7-day window, so those clusters remain single-source rather than forcing weak matches."
   ],
   "clusters": [
+    {
+      "id": "first-nations-remand-data",
+      "headline": "最新數據顯示，原住民兒童候審羈押時間更長",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T12:35:44.000Z",
+      "voiceScript": "最新全國數據顯示，澳洲原住民與托雷斯海峽島民兒童在宣判前被羈押的時間更長。這個變化很重要，因為候審羈押會加重已經在司法系統中占比過高的青少年所承受的傷害，也會影響保釋、青少年司法和 Closing the Gap 的討論。接下來要看的是，各州和領地會不會調整羈押與支援安排，還是這一趨勢持續惡化。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/productivity-commission-latest-closing-the-gap-data/106891958"
+        }
+      ]
+    },
+    {
+      "id": "kpmg-audit-job-cuts",
+      "headline": "KPMG 因審計醜聞餘波準備裁員逾千人",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T10:00:00.000Z",
+      "voiceScript": "KPMG 澳洲表示，隨著審計失當醜聞的影響持續發酵，公司將裁掉 1000 多個職位。這個決定很重要，因為它說明醜聞的成本仍在向公司內部傳導，也可能波及更廣泛的專業服務市場。接下來要看的是重組會有多深，以及監管機構和客戶會不會繼續施壓。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/professional-services/kpmg-will-sack-dozens-of-partners-1000-staff-amid-audit-scandal-fallout-20260729-p60jnx"
+        }
+      ]
+    },
     {
       "id": "aukus-wa-submarines",
       "headline": "康羅伊為西澳美軍潛艇輪換設下2032年終點",
@@ -149,6 +176,20 @@
       ]
     },
     {
+      "id": "sydney-apartment-build-costs",
+      "headline": "雪梨公寓建造成本逼近 100 萬澳元",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T09:07:43.000Z",
+      "voiceScript": "建築成本正在把雪梨一套公寓的建造價格推向接近 100 萬澳元。這個變化很重要，因為住房供應既依賴更快審批，也依賴更低建造成本，但地方議會和政府仍要處理規劃規則和基礎設施壓力。接下來要看的是，改革能否把成本失控的速度壓下來，從而改善供應。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/property/residential/labor-threatens-sydney-councils-as-cost-to-build-an-apartment-hits-1m-20260729-p60jm5"
+        }
+      ]
+    },
+    {
       "id": "prison-worker-trial",
       "headline": "被定罪的殺人犯在獄警審判中出庭作證",
       "sourceCount": 1,
@@ -165,7 +206,7 @@
     {
       "id": "health-watchdog-antisemitism",
       "headline": "衛生監管機構就反猶指引安撫醫護人員",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-07-29T08:15:23.000Z",
       "voiceScript": "澳洲衛生監管機構正試圖緩解外界擔憂，即與反猶主義有關的新指引會被用來壓制醫護人員。爭議源於外界擔心，草案做法會把職業監管和言論自由憂慮混在一起。它的重要性在於，這個問題正好處在監管、言論自由和社區安全的交叉點上。隨著政策落地，監管機構預計還會面對更多追問。",
       "differences": [],
@@ -173,6 +214,10 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/risk-based-visa-screening-backed-to-beat-anti-semitism"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/health-watchdog-rejects-fears-over-antisemitism-definition-20260729-p60jpn"
         }
       ]
     },
@@ -1111,6 +1156,20 @@
       ]
     },
     {
+      "id": "schools-deepfake-photo-warning",
+      "headline": "學校被提醒：公開發布的學生照片可能被做成深偽內容",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T11:05:31.000Z",
+      "voiceScript": "學校正被提醒，網上公開發布的普通照片可能會被人工智能重新利用，做成虛假的性侵或剝削圖像。這個問題很重要，因為它會讓兒童面臨傷害，也會改變學校使用社交媒體的方式，並讓家長對分享內容更加謹慎。下一步要看的是，教育部門會不會收緊指引，以及學校會不會減少公開照片。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australian-schools-warned-photos-they-post-are-vulnerable-to-artificial-intelligence-deepfake-threat-c-22641762"
+        }
+      ]
+    },
+    {
       "id": "pauline-hanson-italy-trip",
       "headline": "漢森義大利行程的出資來源再次引發質疑",
       "sourceCount": 6,
@@ -1146,6 +1205,20 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/gina-rinehart-funded-flights-and-fashion-show-for-pauline-hanson/kgmh8psur"
+        }
+      ]
+    },
+    {
+      "id": "emergency-alert-trial-missed-households",
+      "headline": "緊急警報試驗有部分澳洲人未收到",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T09:19:43.000Z",
+      "voiceScript": "一項全國性的緊急警報試驗覆蓋了大多數手機，但調查結果顯示，大約九分之一的澳洲人沒有收到警報。這個問題很重要，因為這個系統本來是為了在山火、洪水等快速變化的緊急情況中盡快提醒民眾。接下來要弄清楚的是，是網路缺口、裝置設定還是測試設計導致漏發，以及在正式推廣前是否還需要第二次試驗。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/ausalert-test-survey-finds-one-in-nine-australians-not-reached-during-trial-of-emergency-lifeline-c-22641479"
         }
       ]
     },
@@ -1223,6 +1296,20 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/courts-law/australias-most-wanted-man-kazem-hamad-jailed-in-iraq-for-drug-trafficking/news-story/870fb08b15183fa3c972d38d5ca002f6"
+        }
+      ]
+    },
+    {
+      "id": "stax-collapse-activewear-orders",
+      "headline": "清算報告顯示，Stax 倒閉後仍有數百萬澳元未付",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T06:28:17.000Z",
+      "voiceScript": "清算報告說，澳洲運動服品牌 Stax 讓成千上萬的顧客和債權人仍在等待超過 1700 萬澳元的未付訂單。這個問題很重要，因為它顯示一家快速成長的消費品牌在現金吃緊、供應商債務累積時可以多快崩塌。接下來要看的是，買家還能追回多少，以及是否還有任何救援交易可行。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/stax-collapse-australian-activewear-brand-leaves-thousands-of-customers-with-17m-in-unfulfilled-orders-c-22640675"
         }
       ]
     },

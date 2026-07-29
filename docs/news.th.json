@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T12:18:32Z",
+  "updatedAt": "2026-07-29T13:14:09.282Z",
   "generatedBy": "codex",
   "language": "th",
   "sources": [
@@ -101,11 +101,38 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still blocks nocookies pages, and news.com.au RSS remains unreliable, so latest-page and search fallbacks were used when needed.",
-    "A few current stories still only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches.",
-    "7NEWS article pages are still bot-gated in this environment, so only list-page items with trustworthy metadata were considered and uncertain items were skipped."
+    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
+    "Some stories still only had one usable Australia-focused source inside the 7-day window, so those clusters remain single-source rather than forcing weak matches."
   ],
   "clusters": [
+    {
+      "id": "first-nations-remand-data",
+      "headline": "ข้อมูลใหม่ชี้ เด็กชนพื้นเมืองถูกคุมขังก่อนพิพากษานานขึ้น",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T12:35:44.000Z",
+      "voiceScript": "ข้อมูลระดับชาติชุดใหม่ชี้ว่าเด็กชาวอะบอริจินและชาวหมู่เกาะช่องแคบทอร์เรสถูกควบคุมตัวก่อนพิพากษานานขึ้น เรื่องนี้สำคัญเพราะการรอคดีอาจยิ่งทำร้ายเยาวชนที่ถูกระบบยุติธรรมกระทบอยู่แล้วมาก และยังส่งผลต่อการถกเถียงเรื่องการประกันตัว กระบวนการยุติธรรมเยาวชน และ Closing the Gap คำถามต่อไปคือแต่ละรัฐและดินแดนจะปรับระบบควบคุมตัวและการสนับสนุนหรือไม่ หรือแนวโน้มนี้จะยิ่งแย่ลง",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/productivity-commission-latest-closing-the-gap-data/106891958"
+        }
+      ]
+    },
+    {
+      "id": "kpmg-audit-job-cuts",
+      "headline": "KPMG เตรียมลดพนักงานกว่า 1,000 คน หลังผลกระทบคดีอื้อฉาวด้านสอบบัญชี",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T10:00:00.000Z",
+      "voiceScript": "KPMG Australia ระบุว่าจะลดพนักงานมากกว่า 1,000 คน ขณะที่ผลกระทบจากคดีอื้อฉาวด้านสอบบัญชียังเดินหน้าต่อไป เรื่องนี้สำคัญเพราะต้นทุนจากคดีดังกล่าวยังคงกระทบถึงภายในบริษัท และอาจลามไปยังตลาดบริการวิชาชีพในวงกว้าง คำถามต่อไปคือการปรับโครงสร้างจะลึกแค่ไหน และหน่วยงานกำกับดูแลหรือกลุ่มลูกค้าจะกดดันต่อหรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/professional-services/kpmg-will-sack-dozens-of-partners-1000-staff-amid-audit-scandal-fallout-20260729-p60jnx"
+        }
+      ]
+    },
     {
       "id": "aukus-wa-submarines",
       "headline": "คอนรอยกำหนดจุดสิ้นสุดปี 2032 สำหรับการหมุนเวียนเรือดำน้ำสหรัฐฯ ในรัฐเวสเทิร์นออสเตรเลีย",
@@ -149,6 +176,20 @@
       ]
     },
     {
+      "id": "sydney-apartment-build-costs",
+      "headline": "ต้นทุนสร้างอพาร์ตเมนต์ในซิดนีย์แตะเกือบ 1 ล้านดอลลาร์",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T09:07:43.000Z",
+      "voiceScript": "ต้นทุนก่อสร้างกำลังผลักให้ราคาการสร้างอพาร์ตเมนต์ในซิดนีย์เข้าใกล้ 1 ล้านดอลลาร์ในบางกรณี เรื่องนี้สำคัญเพราะอุปทานที่อยู่อาศัยต้องอาศัยการอนุมัติที่เร็วขึ้นและต้นทุนก่อสร้างที่ต่ำลง แต่สภาท้องถิ่นและรัฐบาลยังต้องจัดการกฎผังเมืองและความต้องการโครงสร้างพื้นฐานอยู่ดี คำถามต่อไปคือการปฏิรูปจะช่วยชะลอการพุ่งของต้นทุนได้มากพอหรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/property/residential/labor-threatens-sydney-councils-as-cost-to-build-an-apartment-hits-1m-20260729-p60jm5"
+        }
+      ]
+    },
+    {
       "id": "prison-worker-trial",
       "headline": "มือสังหารที่ถูกตัดสินคดีแล้ว ให้การในคดีเจ้าหน้าที่เรือนจำ",
       "sourceCount": 1,
@@ -165,7 +206,7 @@
     {
       "id": "health-watchdog-antisemitism",
       "headline": "หน่วยงานกำกับสุขภาพคลายกังวลแพทย์เรื่องแนวทางต่อต้านยิว",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-07-29T08:15:23.000Z",
       "voiceScript": "หน่วยงานกำกับด้านสุขภาพของออสเตรเลียกำลังพยายามลดความกังวลว่าแนวทางใหม่ที่โยงกับการต่อต้านยิวอาจถูกใช้เพื่อปิดปากบุคลากรทางการแพทย์ กระแสโต้เถียงเกิดจากความกังวลว่าร่างแนวทางนี้จะทำให้เส้นแบ่งระหว่างการกำกับวิชาชีพกับเสรีภาพในการแสดงออกพร่าเลือน เรื่องนี้สำคัญเพราะอยู่ตรงจุดตัดของกฎระเบียบ เสรีภาพในการพูด และความปลอดภัยของชุมชน เมื่อเริ่มใช้จริง หน่วยงานนี้น่าจะต้องตอบคำถามเพิ่มเติมอีกมาก",
       "differences": [],
@@ -173,6 +214,10 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/risk-based-visa-screening-backed-to-beat-anti-semitism"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/health-watchdog-rejects-fears-over-antisemitism-definition-20260729-p60jpn"
         }
       ]
     },
@@ -1111,6 +1156,20 @@
       ]
     },
     {
+      "id": "schools-deepfake-photo-warning",
+      "headline": "โรงเรียนถูกเตือน ภาพนักเรียนที่โพสต์อาจถูกทำเป็นดีปเฟก",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T11:05:31.000Z",
+      "voiceScript": "โรงเรียนกำลังได้รับคำเตือนว่าภาพทั่วไปที่โพสต์ออนไลน์อาจถูกนำไปใช้ซ้ำด้วยปัญญาประดิษฐ์เพื่อสร้างภาพลวงเรื่องทางเพศหรือการแสวงหาประโยชน์ เรื่องนี้สำคัญเพราะอาจทำให้เด็กตกอยู่ในความเสี่ยง เปลี่ยนวิธีที่โรงเรียนใช้โซเชียลมีเดีย และทำให้ผู้ปกครองระมัดระวังสิ่งที่แชร์มากขึ้น ขั้นต่อไปคือดูว่าหน่วยงานการศึกษาจะเข้มงวดแนวทางหรือไม่ และโรงเรียนจะลดการโพสต์ภาพสาธารณะลงหรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australian-schools-warned-photos-they-post-are-vulnerable-to-artificial-intelligence-deepfake-threat-c-22641762"
+        }
+      ]
+    },
+    {
       "id": "pauline-hanson-italy-trip",
       "headline": "เริ่มมีคำถามอีกครั้งว่าใครเป็นผู้จ่ายค่าเดินทางไปอิตาลีของพอลีน แฮนสัน",
       "sourceCount": 6,
@@ -1146,6 +1205,20 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/gina-rinehart-funded-flights-and-fashion-show-for-pauline-hanson/kgmh8psur"
+        }
+      ]
+    },
+    {
+      "id": "emergency-alert-trial-missed-households",
+      "headline": "การทดสอบระบบเตือนฉุกเฉินมีชาวออสเตรเลียบางส่วนที่ไม่ถึงมือ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T09:19:43.000Z",
+      "voiceScript": "การทดสอบระบบเตือนฉุกเฉินทั่วประเทศส่งถึงโทรศัพท์ส่วนใหญ่ แต่ผลสำรวจชี้ว่าชาวออสเตรเลียประมาณหนึ่งในเก้าไม่ได้รับข้อความ เรื่องนี้สำคัญเพราะระบบนี้มีไว้เตือนผู้คนอย่างรวดเร็วในช่วงไฟป่า น้ำท่วม และเหตุฉุกเฉินที่เปลี่ยนแปลงเร็ว คำถามต่อไปคือสาเหตุที่พลาดมาจากช่องโหว่เครือข่าย การตั้งค่าอุปกรณ์ หรือรูปแบบการทดสอบ และควรมีการทดสอบรอบที่สองก่อนเปิดใช้จริงหรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/ausalert-test-survey-finds-one-in-nine-australians-not-reached-during-trial-of-emergency-lifeline-c-22641479"
         }
       ]
     },
@@ -1223,6 +1296,20 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/courts-law/australias-most-wanted-man-kazem-hamad-jailed-in-iraq-for-drug-trafficking/news-story/870fb08b15183fa3c972d38d5ca002f6"
+        }
+      ]
+    },
+    {
+      "id": "stax-collapse-activewear-orders",
+      "headline": "รายงานผู้ชำระบัญชีชี้ Stax ล้มเหลว ทิ้งหนี้ค้างนับล้าน",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T06:28:17.000Z",
+      "voiceScript": "รายงานผู้ชำระบัญชีระบุว่าแบรนด์เสื้อผ้าออกกำลังกายของออสเตรเลียอย่าง Stax ทิ้งให้ลูกค้าและเจ้าหนี้หลายพันรายรอคอยคำสั่งซื้อที่ยังไม่ได้จ่ายมูลค่ากว่า 17 ล้านดอลลาร์ เรื่องนี้สำคัญเพราะมันแสดงให้เห็นว่าแบรนด์ที่เติบโตเร็วสามารถพังทลายได้แค่ไหนเมื่อเงินสดตึงและหนี้ซัพพลายเออร์สะสม คำถามต่อไปคือผู้ซื้อจะเรียกคืนได้เท่าไร และยังมีดีลกอบกู้เหลืออยู่หรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/stax-collapse-australian-activewear-brand-leaves-thousands-of-customers-with-17m-in-unfulfilled-orders-c-22640675"
         }
       ]
     },

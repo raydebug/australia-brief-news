@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T12:18:32Z",
+  "updatedAt": "2026-07-29T13:14:09.281Z",
   "generatedBy": "codex",
   "language": "vi",
   "sources": [
@@ -101,11 +101,38 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still blocks nocookies pages, and news.com.au RSS remains unreliable, so latest-page and search fallbacks were used when needed.",
-    "A few current stories still only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches.",
-    "7NEWS article pages are still bot-gated in this environment, so only list-page items with trustworthy metadata were considered and uncertain items were skipped."
+    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
+    "Some stories still only had one usable Australia-focused source inside the 7-day window, so those clusters remain single-source rather than forcing weak matches."
   ],
   "clusters": [
+    {
+      "id": "first-nations-remand-data",
+      "headline": "Dữ liệu mới cho thấy trẻ em Thổ dân bị tạm giam lâu hơn trước khi tuyên án",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T12:35:44.000Z",
+      "voiceScript": "Dữ liệu toàn quốc mới cho thấy trẻ em Thổ dân và cư dân đảo Torres Strait bị tạm giam trước khi tuyên án lâu hơn. Điều này quan trọng vì việc bị giam chờ xử có thể làm tổn hại thêm cho những người trẻ vốn đã bị hệ thống tư pháp ảnh hưởng nặng, đồng thời tác động tới tranh luận về bảo lãnh, tư pháp vị thành niên và Closing the Gap. Câu hỏi tiếp theo là các bang và vùng lãnh thổ có thay đổi cách giam giữ và hỗ trợ hay xu hướng này sẽ còn xấu đi.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/productivity-commission-latest-closing-the-gap-data/106891958"
+        }
+      ]
+    },
+    {
+      "id": "kpmg-audit-job-cuts",
+      "headline": "KPMG chuẩn bị cắt hơn 1.000 việc làm khi dư chấn bê bối kiểm toán kéo dài",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T10:00:00.000Z",
+      "voiceScript": "KPMG Australia cho biết họ sẽ cắt hơn 1.000 việc làm khi dư chấn từ vụ bê bối kiểm toán vẫn tiếp diễn. Điều này quan trọng vì chi phí của vụ việc vẫn đang lan vào bên trong công ty và có thể ảnh hưởng tới thị trường dịch vụ chuyên nghiệp rộng hơn. Câu hỏi tiếp theo là tái cấu trúc sẽ sâu đến đâu và liệu cơ quan quản lý hay khách hàng có tiếp tục gây sức ép hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/professional-services/kpmg-will-sack-dozens-of-partners-1000-staff-amid-audit-scandal-fallout-20260729-p60jnx"
+        }
+      ]
+    },
     {
       "id": "aukus-wa-submarines",
       "headline": "Conroy đặt mốc kết thúc năm 2032 cho việc luân chuyển tàu ngầm Mỹ ở Tây Úc",
@@ -149,6 +176,20 @@
       ]
     },
     {
+      "id": "sydney-apartment-build-costs",
+      "headline": "Chi phí xây căn hộ ở Sydney tiến sát 1 triệu đô la",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T09:07:43.000Z",
+      "voiceScript": "Chi phí xây dựng đang đẩy giá xây một căn hộ ở Sydney lên gần 1 triệu đô la trong một số trường hợp. Điều này quan trọng vì nguồn cung nhà ở phụ thuộc vào việc phê duyệt nhanh hơn và chi phí xây thấp hơn, nhưng các hội đồng địa phương và chính quyền vẫn phải xử lý quy hoạch và nhu cầu hạ tầng. Vấn đề tiếp theo là liệu cải cách có thể kìm đà tăng chi phí đủ để cải thiện nguồn cung hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/property/residential/labor-threatens-sydney-councils-as-cost-to-build-an-apartment-hits-1m-20260729-p60jm5"
+        }
+      ]
+    },
+    {
       "id": "prison-worker-trial",
       "headline": "Kẻ giết người bị kết án làm chứng trong phiên tòa của nhân viên trại giam",
       "sourceCount": 1,
@@ -165,7 +206,7 @@
     {
       "id": "health-watchdog-antisemitism",
       "headline": "Cơ quan quản lý y tế trấn an bác sĩ về hướng dẫn liên quan tới bài Do Thái",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-07-29T08:15:23.000Z",
       "voiceScript": "Cơ quan quản lý y tế của Australia đang cố xoa dịu lo ngại rằng hướng dẫn mới liên quan đến bài Do Thái có thể bị dùng để bịt miệng giới hành nghề y. Tranh cãi nảy sinh vì có ý kiến cho rằng bản dự thảo đang làm mờ ranh giới giữa giám sát nghề nghiệp và các lo ngại về tự do ngôn luận. Điều này quan trọng vì nó nằm ở giao điểm giữa quy định, quyền tự do phát biểu và an toàn cộng đồng. Khi chính sách được áp dụng, cơ quan này có thể sẽ còn phải giải thích thêm.",
       "differences": [],
@@ -173,6 +214,10 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/risk-based-visa-screening-backed-to-beat-anti-semitism"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/health-watchdog-rejects-fears-over-antisemitism-definition-20260729-p60jpn"
         }
       ]
     },
@@ -1111,6 +1156,20 @@
       ]
     },
     {
+      "id": "schools-deepfake-photo-warning",
+      "headline": "Trường học được cảnh báo ảnh học sinh đăng lên có thể bị biến thành deepfake",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T11:05:31.000Z",
+      "voiceScript": "Các trường đang được cảnh báo rằng những bức ảnh bình thường đăng lên mạng có thể bị AI tái sử dụng để tạo ra hình ảnh khiêu dâm hoặc bóc lột giả. Điều này quan trọng vì nó có thể khiến trẻ em gặp rủi ro, làm thay đổi cách trường dùng mạng xã hội và khiến phụ huynh thận trọng hơn với những gì được chia sẻ. Bước tiếp theo là liệu ngành giáo dục có siết hướng dẫn và trường học có cắt giảm ảnh công khai hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australian-schools-warned-photos-they-post-are-vulnerable-to-artificial-intelligence-deepfake-threat-c-22641762"
+        }
+      ]
+    },
+    {
       "id": "pauline-hanson-italy-trip",
       "headline": "Ai đã chi trả cho chuyến đi Ý của Pauline Hanson lại bị đặt câu hỏi",
       "sourceCount": 6,
@@ -1146,6 +1205,20 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/gina-rinehart-funded-flights-and-fashion-show-for-pauline-hanson/kgmh8psur"
+        }
+      ]
+    },
+    {
+      "id": "emergency-alert-trial-missed-households",
+      "headline": "Một số người Australia không nhận được cảnh báo khẩn cấp trong cuộc thử nghiệm",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T09:19:43.000Z",
+      "voiceScript": "Một cuộc thử nghiệm cảnh báo khẩn cấp trên toàn quốc đã tới được hầu hết điện thoại, nhưng kết quả khảo sát cho thấy khoảng 1 trong 9 người Australia không nhận được. Điều này quan trọng vì hệ thống này được dùng để báo nhanh trong cháy rừng, lũ lụt và các tình huống khẩn cấp diễn biến rất nhanh. Câu hỏi mở là việc bỏ sót đến từ vùng phủ sóng, cài đặt thiết bị hay thiết kế thử nghiệm, và liệu có cần làm thêm một lần nữa trước khi triển khai hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/ausalert-test-survey-finds-one-in-nine-australians-not-reached-during-trial-of-emergency-lifeline-c-22641479"
         }
       ]
     },
@@ -1223,6 +1296,20 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/courts-law/australias-most-wanted-man-kazem-hamad-jailed-in-iraq-for-drug-trafficking/news-story/870fb08b15183fa3c972d38d5ca002f6"
+        }
+      ]
+    },
+    {
+      "id": "stax-collapse-activewear-orders",
+      "headline": "Báo cáo thanh lý cho thấy Stax sụp đổ, còn nợ hàng triệu đô la",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T06:28:17.000Z",
+      "voiceScript": "Một báo cáo thanh lý cho biết thương hiệu đồ thể thao Stax của Australia đã để lại hàng nghìn khách hàng và chủ nợ chờ hơn 17 triệu đô la cho các đơn hàng chưa thanh toán. Điều này quan trọng vì nó cho thấy một thương hiệu tiêu dùng tăng trưởng nhanh có thể sụp rất nhanh khi tiền mặt cạn và nợ nhà cung cấp chồng lên nhau. Câu hỏi tiếp theo là người mua có thể thu hồi bao nhiêu và còn cơ hội cứu vãn nào hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/stax-collapse-australian-activewear-brand-leaves-thousands-of-customers-with-17m-in-unfulfilled-orders-c-22640675"
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T12:18:32Z",
+  "updatedAt": "2026-07-29T13:14:09.280Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -101,11 +101,38 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still blocks nocookies pages, and news.com.au RSS remains unreliable, so latest-page and search fallbacks were used when needed.",
-    "A few current stories still only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches.",
-    "7NEWS article pages are still bot-gated in this environment, so only list-page items with trustworthy metadata were considered and uncertain items were skipped."
+    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
+    "Some stories still only had one usable Australia-focused source inside the 7-day window, so those clusters remain single-source rather than forcing weak matches."
   ],
   "clusters": [
+    {
+      "id": "first-nations-remand-data",
+      "headline": "새 자료, 원주민 아동의 선고 전 구금 기간이 길어져",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T12:35:44.000Z",
+      "voiceScript": "새 전국 자료는 원주민과 토레스 해협 섬 주민 아동이 선고 전 구금 상태에 머무는 시간이 더 길어지고 있음을 보여줍니다. 이는 이미 사법체계에서 과도하게 노출된 청소년에게 더 큰 부담을 주고, 보석과 청소년 사법, Closing the Gap 논의에도 영향을 미칩니다. 이제 각 주와 준주가 구금과 지원 방식을 바꿀지, 아니면 이런 흐름이 더 악화될지가 관건입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/productivity-commission-latest-closing-the-gap-data/106891958"
+        }
+      ]
+    },
+    {
+      "id": "kpmg-audit-job-cuts",
+      "headline": "KPMG, 감사 스캔들 여파 속 1,000명 이상 감원 추진",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T10:00:00.000Z",
+      "voiceScript": "KPMG 호주는 감사 부정 의혹의 여파가 계속되면서 1,000명 넘는 인력을 줄일 것이라고 밝혔습니다. 이는 스캔들의 비용이 아직도 회사 안으로 퍼지고 있으며, 더 넓은 전문 서비스 시장에도 영향을 줄 수 있음을 보여줍니다. 이제 관심은 구조조정이 얼마나 깊어질지, 그리고 규제 당국과 고객의 압박이 계속될지에 쏠립니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/professional-services/kpmg-will-sack-dozens-of-partners-1000-staff-amid-audit-scandal-fallout-20260729-p60jnx"
+        }
+      ]
+    },
     {
       "id": "aukus-wa-submarines",
       "headline": "콘로이 장관, 서호주 미 잠수함 순환 배치에 2032년 시한 제시",
@@ -149,6 +176,20 @@
       ]
     },
     {
+      "id": "sydney-apartment-build-costs",
+      "headline": "시드니 아파트 건설비, 100만 호주달러에 근접",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T09:07:43.000Z",
+      "voiceScript": "건설비 상승으로 시드니에서는 아파트 한 채를 짓는 비용이 경우에 따라 100만 호주달러에 근접하고 있습니다. 주택 공급은 더 빠른 인허가와 낮은 건설비에 달려 있지만, 지방정부와 주정부는 여전히 계획 규정과 인프라 수요를 관리해야 합니다. 이제 관심은 개혁이 비용 급등을 충분히 늦춰 공급 개선으로 이어질 수 있느냐입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/property/residential/labor-threatens-sydney-councils-as-cost-to-build-an-apartment-hits-1m-20260729-p60jm5"
+        }
+      ]
+    },
+    {
       "id": "prison-worker-trial",
       "headline": "유죄 살인범, 교정직원 재판에서 증언",
       "sourceCount": 1,
@@ -165,7 +206,7 @@
     {
       "id": "health-watchdog-antisemitism",
       "headline": "보건 규제기관, 반유대주의 지침 관련 우려 진화 나서",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-07-29T08:15:23.000Z",
       "voiceScript": "호주의 보건 규제기관이 반유대주의와 연결된 새 지침이 의료인을 침묵시키는 데 쓰일 수 있다는 우려를 잠재우려 하고 있습니다. 초안이 직업 감독과 표현의 자유에 대한 걱정을 뒤섞을 수 있다는 지적이 논란의 출발점입니다. 규제와 언론의 자유, 지역사회 안전이 맞물린 사안이기 때문에 중요합니다. 정책이 실제로 적용되면 규제기관은 더 많은 질문을 받게 될 가능성이 큽니다.",
       "differences": [],
@@ -173,6 +214,10 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/risk-based-visa-screening-backed-to-beat-anti-semitism"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/health-watchdog-rejects-fears-over-antisemitism-definition-20260729-p60jpn"
         }
       ]
     },
@@ -1111,6 +1156,20 @@
       ]
     },
     {
+      "id": "schools-deepfake-photo-warning",
+      "headline": "학교에 경고, 올린 학생 사진이 딥페이크로 악용될 수 있어",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T11:05:31.000Z",
+      "voiceScript": "학교가 온라인에 올린 평범한 사진이 인공지능으로 다시 활용돼 가짜 성적·착취성 이미지로 바뀔 수 있다는 경고가 나왔습니다. 이는 아이들을 위험에 노출시키고, 학교의 소셜미디어 사용 방식을 바꾸며, 학부모가 공유 내용에 더 조심하게 만들 수 있기 때문에 중요합니다. 이제 관심은 교육 당국이 지침을 더 강화할지, 학교가 공개 사진을 줄일지에 쏠립니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australian-schools-warned-photos-they-post-are-vulnerable-to-artificial-intelligence-deepfake-threat-c-22641762"
+        }
+      ]
+    },
+    {
       "id": "pauline-hanson-italy-trip",
       "headline": "한슨의 이탈리아 여행 비용을 누가 댔는지 다시 의문이 커진다",
       "sourceCount": 6,
@@ -1146,6 +1205,20 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/gina-rinehart-funded-flights-and-fashion-show-for-pauline-hanson/kgmh8psur"
+        }
+      ]
+    },
+    {
+      "id": "emergency-alert-trial-missed-households",
+      "headline": "긴급 경보 시험, 일부 호주인에게는 닿지 않아",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T09:19:43.000Z",
+      "voiceScript": "전국 긴급 경보 시험은 대부분의 휴대전화에 전달됐지만, 조사 결과 호주인 9명 중 1명가량은 받지 못한 것으로 나타났습니다. 이는 산불, 홍수 같은 빠르게 진행되는 비상 상황에서 사람들에게 즉시 알려야 하는 시스템이기 때문에 중요합니다. 이제 관심은 통신망 공백인지, 기기 설정인지, 시험 방식의 문제인지와, 정식 도입 전 재시험이 필요한지에 쏠립니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/ausalert-test-survey-finds-one-in-nine-australians-not-reached-during-trial-of-emergency-lifeline-c-22641479"
         }
       ]
     },
@@ -1223,6 +1296,20 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/courts-law/australias-most-wanted-man-kazem-hamad-jailed-in-iraq-for-drug-trafficking/news-story/870fb08b15183fa3c972d38d5ca002f6"
+        }
+      ]
+    },
+    {
+      "id": "stax-collapse-activewear-orders",
+      "headline": "청산인 보고서, Stax 붕괴로 수백만 달러 미지급 확인",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T06:28:17.000Z",
+      "voiceScript": "청산인 보고서에 따르면 호주 액티브웨어 브랜드 Stax는 수천 명의 고객과 채권자에게 1,700만 호주달러가 넘는 미지급 주문을 남겼습니다. 이는 빠르게 성장한 소비자 브랜드도 현금이 마르고 공급업체 부채가 쌓이면 얼마나 빨리 무너질 수 있는지를 보여주기 때문에 중요합니다. 이제 관심은 구매자들이 얼마나 회수할 수 있는지, 그리고 구조 거래가 아직 가능한지에 쏠립니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/stax-collapse-australian-activewear-brand-leaves-thousands-of-customers-with-17m-in-unfulfilled-orders-c-22640675"
         }
       ]
     },

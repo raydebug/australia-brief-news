@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T12:18:32Z",
+  "updatedAt": "2026-07-29T13:14:09.278Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -101,11 +101,38 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still blocks nocookies pages, and news.com.au RSS remains unreliable, so latest-page and search fallbacks were used when needed.",
-    "A few current stories still only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches.",
-    "7NEWS article pages are still bot-gated in this environment, so only list-page items with trustworthy metadata were considered and uncertain items were skipped."
+    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
+    "Some stories still only had one usable Australia-focused source inside the 7-day window, so those clusters remain single-source rather than forcing weak matches."
   ],
   "clusters": [
+    {
+      "id": "first-nations-remand-data",
+      "headline": "新データ、先住民の子どもの勾留期間が長期化",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T12:35:44.000Z",
+      "voiceScript": "新たな全国データで、アボリジナルとトレス海峡諸島民の子どもが判決前に拘束される期間が長くなっていることが示されました。これは、すでに司法制度で過大に代表されている若者への負担をさらに重くし、保釈や少年司法、Closing the Gap の議論にも影響します。今後の焦点は、州や準州が拘束と支援の仕組みを見直すのか、それともこの傾向が続くのかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/productivity-commission-latest-closing-the-gap-data/106891958"
+        }
+      ]
+    },
+    {
+      "id": "kpmg-audit-job-cuts",
+      "headline": "KPMG、会計不祥事の余波で1,000人超を削減へ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T10:00:00.000Z",
+      "voiceScript": "KPMGオーストラリアは、監査不正問題の余波が続く中で1,000人超の人員削減を進めるとしています。これは不祥事のコストがなお社内に広がっており、専門サービス業界全体にも影響しうることを示します。今後の焦点は、再編がどこまで進むのか、そして規制当局や顧客の圧力が続くのかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/professional-services/kpmg-will-sack-dozens-of-partners-1000-staff-amid-audit-scandal-fallout-20260729-p60jnx"
+        }
+      ]
+    },
     {
       "id": "aukus-wa-submarines",
       "headline": "コンロイ氏、西豪州の米潜水艦ローテーションに2032年の区切り",
@@ -149,6 +176,20 @@
       ]
     },
     {
+      "id": "sydney-apartment-build-costs",
+      "headline": "シドニーの集合住宅建設費が100万豪ドル近くに",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T09:07:43.000Z",
+      "voiceScript": "建設費の上昇で、シドニーではアパート1戸を建てる費用が場合によって100万豪ドル近くまで膨らんでいます。住宅供給は迅速な承認と低い建設費に左右されますが、自治体と政府は依然として計画規制やインフラ需要をさばかなければなりません。今後の焦点は、改革でコスト高騰を抑え、供給改善につなげられるかどうかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/property/residential/labor-threatens-sydney-councils-as-cost-to-build-an-apartment-hits-1m-20260729-p60jm5"
+        }
+      ]
+    },
+    {
       "id": "prison-worker-trial",
       "headline": "有罪判決の殺人犯、刑務所職員の裁判で証言",
       "sourceCount": 1,
@@ -165,7 +206,7 @@
     {
       "id": "health-watchdog-antisemitism",
       "headline": "保健規制当局、反ユダヤ主義ガイダンスで医療従事者を安心させる",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-07-29T08:15:23.000Z",
       "voiceScript": "オーストラリアの保健規制当局は、反ユダヤ主義に結びつく新たな指針が医療従事者を黙らせるために使われるのではないかという懸念を和らげようとしています。草案が職業上の監督と表現の自由への不安をあいまいにするのでは、という指摘が争点です。重要なのは、規制、言論の自由、地域の安全が交差する問題だからです。運用が始まれば、当局にはさらに説明が求められるでしょう。",
       "differences": [],
@@ -173,6 +214,10 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/risk-based-visa-screening-backed-to-beat-anti-semitism"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/health-watchdog-rejects-fears-over-antisemitism-definition-20260729-p60jpn"
         }
       ]
     },
@@ -1111,6 +1156,20 @@
       ]
     },
     {
+      "id": "schools-deepfake-photo-warning",
+      "headline": "学校に警告、投稿した生徒写真がディープフェイクに悪用される恐れ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T11:05:31.000Z",
+      "voiceScript": "学校がオンラインに投稿した何気ない写真が、AIで偽の性的・搾取的画像に再利用されるおそれがあるとして警告が出ています。これは子どもを危険にさらし、学校のSNS運用を変え、保護者にも共有内容への慎重さを促すからです。今後は教育当局が指針を厳しくするのか、学校が公開写真を減らすのかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australian-schools-warned-photos-they-post-are-vulnerable-to-artificial-intelligence-deepfake-threat-c-22641762"
+        }
+      ]
+    },
+    {
       "id": "pauline-hanson-italy-trip",
       "headline": "ハンソン氏のイタリア渡航費の負担者に再び注目",
       "sourceCount": 6,
@@ -1146,6 +1205,20 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/gina-rinehart-funded-flights-and-fashion-show-for-pauline-hanson/kgmh8psur"
+        }
+      ]
+    },
+    {
+      "id": "emergency-alert-trial-missed-households",
+      "headline": "緊急警報の試験、届かなかったオーストラリア人も",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T09:19:43.000Z",
+      "voiceScript": "全国規模の緊急警報試験は大半の端末に届きましたが、調査結果ではオーストラリア人の約9人に1人が受信できなかった可能性があります。これは、山火事や洪水など急速に進む緊急事態で素早く知らせるための仕組みだからこそ重要です。今後の焦点は、通信網の穴、端末設定、試験設計のどれが原因だったのか、そして本格展開前に再試験が必要かどうかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/ausalert-test-survey-finds-one-in-nine-australians-not-reached-during-trial-of-emergency-lifeline-c-22641479"
         }
       ]
     },
@@ -1223,6 +1296,20 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/courts-law/australias-most-wanted-man-kazem-hamad-jailed-in-iraq-for-drug-trafficking/news-story/870fb08b15183fa3c972d38d5ca002f6"
+        }
+      ]
+    },
+    {
+      "id": "stax-collapse-activewear-orders",
+      "headline": "清算人報告、Stax破綻で数百万ドルが未払いに",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T06:28:17.000Z",
+      "voiceScript": "清算人の報告によると、オーストラリアのアクティブウェアブランドStaxは、数千人の顧客と債権者を1,700万ドル超の未払い注文を抱えたままにしました。これは、急成長した消費者ブランドでも、資金繰りが厳しくなり仕入先への債務が積み上がると急速に崩れることを示します。今後の焦点は、購入者がどれだけ回収できるか、そして救済取引の余地が残っているかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/stax-collapse-australian-activewear-brand-leaves-thousands-of-customers-with-17m-in-unfulfilled-orders-c-22640675"
         }
       ]
     },
