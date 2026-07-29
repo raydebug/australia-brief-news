@@ -1,6 +1,7 @@
 {
-  "updatedAt": "2026-07-29T11:04:39Z",
+  "updatedAt": "2026-07-29T12:18:32Z",
   "generatedBy": "codex",
+  "language": "zh-Hans",
   "sources": [
     {
       "id": "abc",
@@ -101,7 +102,8 @@
   ],
   "errors": [
     "The Australian still redirects to a cookie wall, Sky News Australia still blocks nocookies pages, and news.com.au RSS remains unreliable, so latest-page and search fallbacks were used when needed.",
-    "A few current stories still only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
+    "A few current stories still only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches.",
+    "7NEWS article pages are still bot-gated in this environment, so only list-page items with trustworthy metadata were considered and uncertain items were skipped."
   ],
   "clusters": [
     {
@@ -133,6 +135,76 @@
       ]
     },
     {
+      "id": "wa-sex-club-appeal",
+      "headline": "珀斯业主将就同意制性场所被拒提起上诉",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T09:18:38.000Z",
+      "voiceScript": "珀斯一名成人生意业主在市府拒绝其设立同意制性场所的计划后，准备提出上诉。这个提案原本打算在珀斯西部运营，如今还要再接受规划和许可规则的审查。它的重要性在于，这起案件会检验地方政府如何对待成人场所，以及它能在多大程度上阻止此类项目。上诉结果将决定这个设想是获得二次审理，还是继续被挡在门外。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/city-of-perth-rejects-pink-rabbit-sex-club/106972440"
+        }
+      ]
+    },
+    {
+      "id": "prison-worker-trial",
+      "headline": "被定罪的杀人犯在狱警审判中出庭作证",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:51:25.000Z",
+      "voiceScript": "一名被定罪的杀人犯在涉及监狱工作人员的审判中出庭作证。案件目前仍聚焦于监狱内发生了什么，以及这名工作人员是否越过了法律或职业界线。它的重要性在于，这些证词可能影响羁押场所的问责，也可能影响法庭随后对该工作人员的认定。庭审结束前预计还会有更多证据。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/convicted-murderer-mcguinness-evidence-in-prison-worker-trial/106973456"
+        }
+      ]
+    },
+    {
+      "id": "health-watchdog-antisemitism",
+      "headline": "卫生监管机构就反犹指导方针安抚医务人员",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:15:23.000Z",
+      "voiceScript": "澳大利亚卫生监管机构正试图缓解外界担忧，即与反犹主义有关的新指导方针会被用来压制医务人员。争议源于外界担心，草案做法会把职业监管和言论自由忧虑混在一起。它的重要性在于，这个问题正好处在监管、言论自由和社区安全的交叉点上。随着政策落地，监管机构预计还会面对更多追问。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/risk-based-visa-screening-backed-to-beat-anti-semitism"
+        }
+      ]
+    },
+    {
+      "id": "wa-paedophile-release",
+      "headline": "西澳最恶劣的儿童性犯罪者之一面临出狱",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:14:08.000Z",
+      "voiceScript": "西澳正在为一名最臭名昭著的儿童性犯罪者之一可能获释做准备，他已服刑多年。这个案件再次引发外界讨论，高风险罪犯出狱后应当接受怎样的监管。它的重要性在于，任何释放条件都必须同时面对公共安全和惩罚力度的检验。若法律或假释决定有变，出狱时间和条件仍可能调整。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/wa-paedophile-dennis-mckenna-weighs-release-from-jail/106967874"
+        }
+      ]
+    },
+    {
+      "id": "qld-syria-execution",
+      "headline": "昆士兰男子因叙利亚杀人指控面临死刑",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:11:58.000Z",
+      "voiceScript": "一名昆士兰男子被指在叙利亚杀害一名澳大利亚人，可能面临死刑。这个案件把海外刑事指控和澳大利亚国内的法律、外交应对联系在了一起。它的重要性在于，它牵涉领事支援、正当程序，以及澳大利亚在公民海外被指控时会如何反应。下一步将是正式的司法程序，以及政府可能采取的动作。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/australian-patrick-stevenson-charged-with-murder-in-syria/106959686"
+        }
+      ]
+    },
+    {
       "id": "victorian-cults-email-leak",
       "headline": "维州高控制团体调查误把匿名幸存者邮箱发给群成员",
       "sourceCount": 1,
@@ -157,6 +229,20 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/june-2026-inflation-falls-to-3-8-per-cent/ikupactu0"
+        }
+      ]
+    },
+    {
+      "id": "young-driver-jailed",
+      "headline": "死者家属称致命车祸刑期过轻",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T07:57:12.000Z",
+      "voiceScript": "一名小女孩的家属表示，肇事司机因致命车祸被判刑后，处罚仍然太轻。家属对这场车祸后果愈发愤怒，因为撞击前司机已经有违法驾驶行为。它的重要性在于，涉及毒驾或鲁莽驾驶的致死案件，往往会成为量刑是否足够严厉的试金石。若提出上诉或复核，接下来就会决定刑罚是否改变。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/young-girl-s-family-baffled-as-manic-driver-jailed"
         }
       ]
     },
@@ -220,8 +306,8 @@
     {
       "id": "cult-inquiry-coercive-control",
       "headline": "维州调查建议把强制控制法延伸到边缘团体",
-      "publishedAt": "2026-07-29T07:52:51.000Z",
       "sourceCount": 1,
+      "publishedAt": "2026-07-29T07:52:51.000Z",
       "voiceScript": "维多利亚州议会一项调查建议，把强制控制相关法律扩大到高控制的宗教和边缘团体。调查认为，现有规则没有完全覆盖一些封闭社群如何隔离成员、要求服从，并在情感和经济上施压。这个建议重要，是因为这类伤害可能没有明显肢体暴力，却同样会让警方和法院更难介入。接下来要看州政府是否起草法案，以及新规则会写得多宽。",
       "differences": [],
       "links": [
@@ -234,8 +320,8 @@
     {
       "id": "capital-guard-bond-fraud",
       "headline": "Capital Guard 投资者在一场虚假债券交易中损失1700万澳元",
-      "publishedAt": "2026-07-29T07:35:16.000Z",
       "sourceCount": 1,
+      "publishedAt": "2026-07-29T07:35:16.000Z",
       "voiceScript": "ASIC 说，投资者向 Capital Guard 投入了 1700 万澳元，结果所谓的债券投资方案根本不存在。监管机构认为，这笔钱是在看似合法的投资包装下被募集的，但相关产品是假的，资金如今下落不明。这个案件重要，因为它显示出熟悉的金融语言也能被用来包装大规模诈骗。接下来要看的是资金流向追查，以及监管和执法机构会采取什么行动。",
       "differences": [],
       "links": [
@@ -292,8 +378,24 @@
       ]
     },
     {
+      "id": "australia-pacific-military",
+      "headline": "澳大利亚在地区演习中加深太平洋防务合作",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:02:54.000Z",
+      "voiceScript": "澳大利亚已经与太平洋伙伴一起参加一场大型海军演习，目的是强化地区协作。斐济首次参加，也显示堪培拉正努力加深自己在太平洋的安全角色。它的重要性在于，防务演习已经成为更大范围影响力竞争的一部分。此次演习也会检验较小伙伴国家能把能力建设到什么程度。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/australia-joins-pacific-nations-flexing-military-muscle"
+        }
+      ]
+    },
+    {
       "id": "banks-offset-account-failures",
       "headline": "ASIC说房贷抵消账户失误已让借款人损失数百万",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-29T05:46:00.000Z",
       "voiceScript": "ASIC表示，多家银行没有把房贷抵消账户正确设好或持续跟踪，导致客户多付了本不该付的利息。监管机构称，银行两年内已经支付了超过5500万澳元赔偿，问题可能波及数百万背负房贷的澳大利亚家庭。之所以重要，是因为抵消账户本来就是为了降低房贷利息，但小小的处理失误可能拖上多年才被发现。眼下的下一步是借款人核对账单，银行则要把剩余错误尽快补齐。",
       "differences": [
         "ABC把赔偿总额和监管警告放在中心。",
@@ -322,13 +424,13 @@
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
         }
-      ],
-      "publishedAt": "2026-07-29T05:46:00.000Z",
-      "sourceCount": 5
+      ]
     },
     {
       "id": "geelong-driver-jailed-mia-rossiter",
       "headline": "维州法院因Geelong致死车祸判囚司机",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T05:29:54.000Z",
       "voiceScript": "维多利亚州法院已判处Jordan Kenyon入狱，他承认对一起造成12岁女孩Mia Rossiter死亡的车祸负责。这起事故发生在Geelong附近的Stonehaven，法庭听到他当时处于GHB影响下，而且有长期危险驾驶记录，还在假释期内。这个案件的重要性在于，它再次说明重复危险驾驶和监管失守会如何酿成致命后果。下一步是量刑细节以及Rossiter一家继续恢复的过程。",
       "differences": [],
       "links": [
@@ -336,13 +438,13 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/jordan-kenyon-jailed-over-crash-that-killed-mia-rossiter/106971210"
         }
-      ],
-      "publishedAt": "2026-07-29T05:29:54.000Z",
-      "sourceCount": 1
+      ]
     },
     {
       "id": "angus-taylor-icac-donation-denial",
       "headline": "NSW ICAC调查让Angus Taylor承压",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-29T05:24:20.000Z",
       "voiceScript": "新州反腐调查因捐款和派系交易的证据，把Angus Taylor卷进更大的党内争斗。Taylor说自己没有支付任何款项，也不涉及任何不当行为，但这场听证已经加剧了保守派自由党内部的政治损伤。委员会还在审查一份针对前部长的抹黑文件，说明调查范围已经扩大。下一步要看听证继续推进后，证据会不会进一步指向正式失当。",
       "differences": [
         "ABC把焦点放在那份针对David Elliott的“shit sheet”证据。",
@@ -362,9 +464,7 @@
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/no-payment-was-made-liberal-leader-denies-donation"
         }
-      ],
-      "publishedAt": "2026-07-29T05:24:20.000Z",
-      "sourceCount": 3
+      ]
     },
     {
       "id": "one-nation-qld-missing-financial-statements",
@@ -423,6 +523,8 @@
     {
       "id": "june-inflation-eases-rate-hike-odds",
       "headline": "6月通胀降温，8月加息压力减轻",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-29T04:21:32.000Z",
       "voiceScript": "澳大利亚6月年通胀率降至3.8%，澳洲联储更关注的修剪均值仍在3.6%。这份偏软的数据让家庭压力略有缓解，也让市场下调了8月再度加息的概率，不过住房、租金和服务价格仍然偏黏。之所以重要，是因为澳洲联储两周后就要再开会，下一步会直接影响贷款成本、消费和市场信心。接下来要观察的是，燃料、住房和其他供应冲击会不会继续传导到后续通胀数据。",
       "differences": [
         "ABC News 聚焦更低的 CPI 读数和市场反应。",
@@ -452,9 +554,7 @@
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/podcast-episode/chalmers-inflation-drop-is-a-good-sign-evening-news-bulletin-29-july-2026/expibfrsb"
         }
-      ],
-      "publishedAt": "2026-07-29T04:21:32.000Z",
-      "sourceCount": 5
+      ]
     },
     {
       "id": "pump-price-relief-ends-oil-risks",
@@ -759,6 +859,20 @@
       ]
     },
     {
+      "id": "higgins-settlement",
+      "headline": "联邦政府结束Higgins事件相关的另一宗法律案件",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T23:20:16.000Z",
+      "voiceScript": "联邦政府已就与布列塔尼·希金斯事件有关的一宗职场索赔达成和解，结束了又一个法律篇章。协议涉及前自由党职员菲奥娜·布朗，也是在这起事件的政治和职场后果接受多年公众审视之后达成的。它的重要性在于，这让这则已经重塑全国辩论的故事，又少了一项悬而未决的法律争议。围绕问责的更大问题预计仍会继续。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/higgins-legal-saga-brought-to-a-close-with-settlement"
+        }
+      ]
+    },
+    {
       "id": "data-centre-energy-pushback",
       "headline": "总理推动的数据中心计划遭遇能源与规划阻力",
       "sourceCount": 2,
@@ -826,9 +940,9 @@
     },
     {
       "id": "lachie-kennedy-silver",
-      "publishedAt": "2026-07-28T22:15:43Z",
       "headline": "肯尼迪百米摘银，澳洲男子短跑终结长期奖牌荒",
       "sourceCount": 4,
+      "publishedAt": "2026-07-28T22:15:43Z",
       "voiceScript": "拉奇·肯尼迪在格拉斯哥男子100米决赛跑出9.85秒拿下银牌，打破帕特里克·约翰逊长期保持的澳洲纪录，也终结了澳洲男子短跑自1962年以来的奖牌荒。这个结果重要，是因为短跑一直是田径最受关注的项目之一，而澳洲过去几十年一直想把潜力兑现成真正的决赛成绩。下一步要看他和澳洲短跑队能否把这次突破继续转化成后续项目的奖牌机会。",
       "differences": [
         "ABC News 侧重纪录成绩和被打破的历史纪录。",
@@ -852,6 +966,34 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/sport/commonwealth-games/comm-games-day-5-live/live-coverage/c9a76a7413c93a8f685bce6cf672e03a"
+        }
+      ]
+    },
+    {
+      "id": "australia-pacific-aid",
+      "headline": "澳大利亚仍领跑太平洋援助，中国转变策略",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T19:40:19.000Z",
+      "voiceScript": "一份新报告显示，尽管中国正从大额贷款转向更小型的战略项目，澳大利亚仍是太平洋地区最大的援助国。报告称，澳大利亚在2024年提供了最大份额的融资，而中国的角色则变得更加挑选性。它的重要性在于，援助如今已成为该地区影响力和安全竞争的一部分。下一项值得关注的数据将是2025年的数字。",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/pacific-china-australia-development-aid-lowy/dksbg6tui"
+        }
+      ]
+    },
+    {
+      "id": "migration-falls",
+      "headline": "疫情后移民激增态势明显回落",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T17:30:00.000Z",
+      "voiceScript": "最新分析显示，移民数量已从疫情后高峰明显回落，而这一高峰曾推动许多政治争论。这个下降很重要，因为移民人数直接影响住房、工资和基础设施压力的讨论。它说明，尽管围绕移民的政治争议仍然激烈，输入规模或许正在放缓。下一次数据将检验这一下降是否会继续。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
         }
       ]
     },
@@ -1086,9 +1228,9 @@
     },
     {
       "id": "asx-bullock-reaction",
-      "publishedAt": "2026-07-28T06:23:00Z",
       "headline": "布洛克讲话缓和加息担忧，澳股收高",
       "sourceCount": 3,
+      "publishedAt": "2026-07-28T06:23:00Z",
       "voiceScript": "澳洲股市在储备银行行长米歇尔·布洛克讲话后收高。她表示，需求走弱和房市降温可能有助于缓解通胀压力，市场因此下调了对8月加息的押注。这个变化重要，因为它会直接影响房贷、企业融资和整体信心，而下一轮通胀数据将决定市场会不会继续重新定价。下一步要看 CPI 是否真的印证这种放缓。",
       "differences": [
         "ABC News 侧重股市收盘和此前科技股抛售。",
@@ -1145,6 +1287,20 @@
       ]
     },
     {
+      "id": "housing-red-tape",
+      "headline": "住房改革推动聚焦审批与规划层层障碍",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T05:39:10.000Z",
+      "voiceScript": "一项新的住房改革推动，正把重点放在拖慢审批、压住施工的层层规定上。观点认为，阻碍建房的不只是成本，还有繁琐的红带规则。它的重要性在于，供应压力会直接推高租金、影响可负担性，并加剧全国各地的政治不满。现在的关键是，各级政府能否在不制造新延误的情况下削减这些堵点。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/the-rules-stopping-australia-from-building-more-homes"
+        }
+      ]
+    },
+    {
       "id": "nsw-icac-perrottet-brothers",
       "headline": "新州 ICAC 继续追查自由党秘密录音和假咨询费",
       "sourceCount": 5,
@@ -1190,9 +1346,9 @@
     },
     {
       "id": "the-castle-stage-play",
-      "publishedAt": "2026-07-28T03:12:51Z",
-      "sourceCount": 2,
       "headline": "《The Castle》要被改成舞台剧，Working Dog 原班人马回归",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-28T03:12:51Z",
       "voiceScript": "Working Dog 的原班人马正在把《The Castle》改成舞台剧，计划在墨尔本首演。这个消息重要，因为这部电影是澳洲最常被引用的喜剧之一，舞台版会检验它那种温情和工薪阶层幽默能否在现场继续成立。接下来要看的是选角和制作细节，以及新版是否能在保留原味的同时让新观众买账。",
       "differences": [
         "ABC News 侧重舞台版启动和那些标志性台词。",
@@ -1211,9 +1367,9 @@
     },
     {
       "id": "harvey-norman-latitude-penalty",
-      "publishedAt": "2026-07-28T03:06:34Z",
-      "sourceCount": 2,
       "headline": "法院因误导性分期广告重罚 Harvey Norman 和 Latitude",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-28T03:06:34Z",
       "voiceScript": "联邦法院裁定 Harvey Norman 和 Latitude 违反消费者法，因其 60 个月免息广告让顾客在不清楚真实条件下办信用卡并支付额外费用。罚金合计 5500 万澳元，显示监管机构对全国性广告活动和隐藏费用的态度更强硬。接下来要看的是两家公司如何消化这项裁定，以及零售业是否会重新设计类似促销。",
       "differences": [
         "ABC News 重点写监管机构如何证明消费者被误导。",
@@ -1468,32 +1624,6 @@
       ]
     },
     {
-      "id": "wa-oil-refinery",
-      "headline": "西澳拟建澳洲数十年来首座新炼油厂",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "联邦和西澳政府正在为佩尔达曼公司支持的一项可行性研究提供资金，评估在西澳新建炼油厂的可行性。若项目推进，这将是澳洲自上世纪60年代以来首座大型新炼油厂。中东局势紧张推高油价，也再次凸显澳洲对进口燃料的依赖。接下来要看选址、融资和审批能否落实，这些决定会影响燃料安全与供应链韧性。",
-      "differences": [
-        "ABC News：把重点放在西澳和佩尔达曼公司的新项目，以及联邦和州政府支持的可行性研究。",
-        "The Guardian Australia：强调中东冲突推高通胀和燃料风险，并指出澳洲约九成液体燃料依赖进口。",
-        "Australian Financial Review：把它写成总理对燃料危机的回应，并提到西澳选址尚未确定。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
-        }
-      ]
-    },
-    {
       "id": "sa-industrial-manslaughter",
       "headline": "南澳制造企业被控首例工业过失杀人",
       "sourceCount": 2,
@@ -1611,12 +1741,13 @@
     {
       "id": "qld-river-to-the-sea-challenge",
       "headline": "昆州“从河到海”禁令遭高院挑战",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T06:57:05Z",
       "voiceScript": "昆州围绕 “from the river to the sea” 的禁令继续在高院受挑战。抗议者主张，这项把某些口号列为可罚表达的法律已经越过了反仇恨的界线，直接限制了言论自由。争议核心是州政府怎样在反仇恨、公共安全和政治表达之间划线。接下来要看高院是否受理，以及这项挑战会不会影响现行规定的适用范围。",
       "differences": [
         "ABC News：更直接呈现抗议者的法律挑战和争点。",
         "The Guardian Australia：强调禁令把两个口号都纳入可罚表达，焦点是言论自由边界。"
       ],
-      "publishedAt": "2026-07-27T06:57:05Z",
       "links": [
         {
           "source": "ABC News",
@@ -1626,8 +1757,7 @@
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/27/protesters-launch-high-court-challenge-to-queensland-ban-on-from-the-river-to-the-sea-ntwnfb"
         }
-      ],
-      "sourceCount": 2
+      ]
     },
     {
       "id": "pauline-hanson-verdict",
@@ -1712,6 +1842,32 @@
         {
           "source": "The Sydney Morning Herald",
           "url": "https://www.smh.com.au/national/queensland/car-strikes-train-bridge-suspending-line-for-over-an-hour-20260727-p60ith.html"
+        }
+      ]
+    },
+    {
+      "id": "wa-oil-refinery",
+      "headline": "西澳拟建澳洲数十年来首座新炼油厂",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "联邦和西澳政府正在为佩尔达曼公司支持的一项可行性研究提供资金，评估在西澳新建炼油厂的可行性。若项目推进，这将是澳洲自上世纪60年代以来首座大型新炼油厂。中东局势紧张推高油价，也再次凸显澳洲对进口燃料的依赖。接下来要看选址、融资和审批能否落实，这些决定会影响燃料安全与供应链韧性。",
+      "differences": [
+        "ABC News：把重点放在西澳和佩尔达曼公司的新项目，以及联邦和州政府支持的可行性研究。",
+        "The Guardian Australia：强调中东冲突推高通胀和燃料风险，并指出澳洲约九成液体燃料依赖进口。",
+        "Australian Financial Review：把它写成总理对燃料危机的回应，并提到西澳选址尚未确定。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
         }
       ]
     },
@@ -1808,6 +1964,27 @@
       ]
     },
     {
+      "id": "census-explained",
+      "headline": "2026 年人口普查要填什么、谁必须参加",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T12:39:35Z",
+      "voiceScript": "2026 年人口普查将在 8 月 11 日进行，官方提醒大多数在澳居住的人都要填写，部分临时签证持有人也在范围内。关键问题是填写截止时间、可能的罚款，以及这些数据会如何影响学校、医疗和基础设施的资源分配。接下来要看宣传和提醒能不能提高完成率，尤其是新移民家庭和偏远地区住户。",
+      "differences": [
+        "7NEWS：更直接列出截止日期、填写方式和潜在罚款。",
+        "SBS News：特别强调哪些临时签证持有人也必须参加，以及这份数据为什么重要。"
+      ],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj"
+        }
+      ]
+    },
+    {
       "id": "vad-telehealth",
       "headline": "工党支持临终协助远程医疗咨询",
       "sourceCount": 4,
@@ -1835,27 +2012,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5"
-        }
-      ]
-    },
-    {
-      "id": "census-explained",
-      "headline": "2026 年人口普查要填什么、谁必须参加",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T12:39:35Z",
-      "voiceScript": "2026 年人口普查将在 8 月 11 日进行，官方提醒大多数在澳居住的人都要填写，部分临时签证持有人也在范围内。关键问题是填写截止时间、可能的罚款，以及这些数据会如何影响学校、医疗和基础设施的资源分配。接下来要看宣传和提醒能不能提高完成率，尤其是新移民家庭和偏远地区住户。",
-      "differences": [
-        "7NEWS：更直接列出截止日期、填写方式和潜在罚款。",
-        "SBS News：特别强调哪些临时签证持有人也必须参加，以及这份数据为什么重要。"
-      ],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj"
         }
       ]
     },
@@ -1892,46 +2048,6 @@
         {
           "source": "Brisbane Times",
           "url": "https://www.brisbanetimes.com.au/national/queensland/three-dead-in-two-crashes-across-south-east-overnight-20260726-p60ils.html"
-        }
-      ]
-    },
-    {
-      "id": "fuel-price-rise",
-      "headline": "燃油价格上涨，消费税减免即将结束",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-25T14:19:00+10:00",
-      "voiceScript": "燃油价格这轮上涨没有停下来的迹象，联邦政府也明确表示，不打算把 8 月 2 日到期的燃油消费税减免继续往后延。随着国际原油价格抬升、地缘冲突扰动供应，悉尼、墨尔本等地的泵价已经明显上行，家庭和通勤族会最先感受到压力。接下来要观察的是油价会不会继续推高通胀，以及这会不会影响澳洲央行 8 月的利率判断。",
-      "differences": [
-        "ABC News：强调供应仍然充足，政府先稳定市场情绪。",
-        "The Guardian Australia：更强调家庭负担、泵价上冲到每升 2 澳元，以及 RBA 加息风险。",
-        "SBS News：突出燃油税减免即将结束，以及市场已在押注进一步加息。",
-        "news.com.au：把焦点放在油价 40 天高位和 16 仙优惠结束后的冲击。",
-        "The Sydney Morning Herald：直接点出消费税减免结束后，油价会继续抬升。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293"
-        },
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         }
       ]
     },
@@ -2000,6 +2116,46 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/environment/2026/jul/25/herbicide-parkinsons-disease-paraquat-pulled-from-sale-australia-syngenta"
+        }
+      ]
+    },
+    {
+      "id": "fuel-price-rise",
+      "headline": "燃油价格上涨，消费税减免即将结束",
+      "sourceCount": 6,
+      "publishedAt": "2026-07-25T14:19:00+10:00",
+      "voiceScript": "燃油价格这轮上涨没有停下来的迹象，联邦政府也明确表示，不打算把 8 月 2 日到期的燃油消费税减免继续往后延。随着国际原油价格抬升、地缘冲突扰动供应，悉尼、墨尔本等地的泵价已经明显上行，家庭和通勤族会最先感受到压力。接下来要观察的是油价会不会继续推高通胀，以及这会不会影响澳洲央行 8 月的利率判断。",
+      "differences": [
+        "ABC News：强调供应仍然充足，政府先稳定市场情绪。",
+        "The Guardian Australia：更强调家庭负担、泵价上冲到每升 2 澳元，以及 RBA 加息风险。",
+        "SBS News：突出燃油税减免即将结束，以及市场已在押注进一步加息。",
+        "news.com.au：把焦点放在油价 40 天高位和 16 仙优惠结束后的冲击。",
+        "The Sydney Morning Herald：直接点出消费税减免结束后，油价会继续抬升。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         }
       ]
     },
@@ -2083,6 +2239,5 @@
         }
       ]
     }
-  ],
-  "language": "zh-Hans"
+  ]
 }

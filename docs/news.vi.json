@@ -1,6 +1,7 @@
 {
-  "updatedAt": "2026-07-29T11:04:39Z",
+  "updatedAt": "2026-07-29T12:18:32Z",
   "generatedBy": "codex",
+  "language": "vi",
   "sources": [
     {
       "id": "abc",
@@ -101,7 +102,8 @@
   ],
   "errors": [
     "The Australian still redirects to a cookie wall, Sky News Australia still blocks nocookies pages, and news.com.au RSS remains unreliable, so latest-page and search fallbacks were used when needed.",
-    "A few current stories still only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
+    "A few current stories still only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches.",
+    "7NEWS article pages are still bot-gated in this environment, so only list-page items with trustworthy metadata were considered and uncertain items were skipped."
   ],
   "clusters": [
     {
@@ -133,6 +135,76 @@
       ]
     },
     {
+      "id": "wa-sex-club-appeal",
+      "headline": "Chủ cơ sở ở Perth kháng quyết định từ chối câu lạc bộ tình dục có đồng thuận",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T09:18:38.000Z",
+      "voiceScript": "Một chủ cơ sở kinh doanh người lớn ở Perth sẽ kháng cáo sau khi thành phố bác bỏ kế hoạch mở một câu lạc bộ tình dục có sự đồng thuận. Dự án này từng được đề xuất ở phía tây Perth và nay lại bị xem xét kỹ về quy hoạch lẫn giấy phép. Việc này quan trọng vì nó thử xem chính quyền địa phương đối xử với các địa điểm dành cho người lớn ra sao và có thể chặn chúng đến mức nào. Kết quả kháng cáo sẽ quyết định dự án được xem xét lại hay bị dừng hẳn.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/city-of-perth-rejects-pink-rabbit-sex-club/106972440"
+        }
+      ]
+    },
+    {
+      "id": "prison-worker-trial",
+      "headline": "Kẻ giết người bị kết án làm chứng trong phiên tòa của nhân viên trại giam",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:51:25.000Z",
+      "voiceScript": "Một người từng bị kết án giết người đã ra làm chứng trong phiên tòa liên quan đến một nhân viên trại giam. Vụ việc vẫn xoay quanh điều gì đã xảy ra bên trong nhà tù và liệu người nhân viên đó có vượt quá ranh giới pháp lý hay nghề nghiệp hay không. Điều này quan trọng vì lời khai có thể ảnh hưởng đến trách nhiệm giải trình trong hệ thống giam giữ và những kết luận sau đó đối với nhân viên này. Tòa vẫn dự kiến sẽ nghe thêm chứng cứ trước khi ra quyết định.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/convicted-murderer-mcguinness-evidence-in-prison-worker-trial/106973456"
+        }
+      ]
+    },
+    {
+      "id": "health-watchdog-antisemitism",
+      "headline": "Cơ quan quản lý y tế trấn an bác sĩ về hướng dẫn liên quan tới bài Do Thái",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:15:23.000Z",
+      "voiceScript": "Cơ quan quản lý y tế của Australia đang cố xoa dịu lo ngại rằng hướng dẫn mới liên quan đến bài Do Thái có thể bị dùng để bịt miệng giới hành nghề y. Tranh cãi nảy sinh vì có ý kiến cho rằng bản dự thảo đang làm mờ ranh giới giữa giám sát nghề nghiệp và các lo ngại về tự do ngôn luận. Điều này quan trọng vì nó nằm ở giao điểm giữa quy định, quyền tự do phát biểu và an toàn cộng đồng. Khi chính sách được áp dụng, cơ quan này có thể sẽ còn phải giải thích thêm.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/risk-based-visa-screening-backed-to-beat-anti-semitism"
+        }
+      ]
+    },
+    {
+      "id": "wa-paedophile-release",
+      "headline": "Một trong những kẻ xâm hại trẻ em tồi tệ nhất ở WA có thể được trả tự do",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:14:08.000Z",
+      "voiceScript": "Tây Australia đang chuẩn bị cho khả năng một trong những kẻ phạm tội xâm hại trẻ em khét tiếng nhất của bang sẽ được trả tự do sau nhiều năm ngồi tù. Vụ việc đã làm nóng lại tranh luận về việc phải giám sát thế nào khi những kẻ nguy hiểm cao rời nhà tù. Điều này quan trọng vì mọi điều kiện trả tự do đều phải được cân nhắc giữa an toàn cộng đồng và mức độ trừng phạt. Thời điểm và điều kiện vẫn có thể thay đổi nếu quyết định pháp lý hoặc ân xá thay đổi.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/wa-paedophile-dennis-mckenna-weighs-release-from-jail/106967874"
+        }
+      ]
+    },
+    {
+      "id": "qld-syria-execution",
+      "headline": "Người đàn ông ở Queensland đối mặt án tử hình vì cáo buộc giết người tại Syria",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:11:58.000Z",
+      "voiceScript": "Một người đàn ông ở Queensland có thể đối mặt án tử hình sau khi bị cáo buộc giết một người Australia ở Syria. Vụ việc nối một cáo buộc hình sự ở nước ngoài với phản ứng pháp lý và ngoại giao trong nước. Điều này quan trọng vì nó đặt ra câu hỏi về hỗ trợ lãnh sự, thủ tục tố tụng đúng luật và cách Australia phản ứng khi công dân bị cáo buộc ở nước ngoài. Bước tiếp theo là quá trình xét xử chính thức và bất kỳ hành động nào từ chính phủ.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/australian-patrick-stevenson-charged-with-murder-in-syria/106959686"
+        }
+      ]
+    },
+    {
       "id": "victorian-cults-email-leak",
       "headline": "Cuộc điều tra ở Victoria vô tình để lộ email của người sống sót ẩn danh",
       "sourceCount": 1,
@@ -157,6 +229,20 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/june-2026-inflation-falls-to-3-8-per-cent/ikupactu0"
+        }
+      ]
+    },
+    {
+      "id": "young-driver-jailed",
+      "headline": "Gia đình nạn nhân nói án tù cho vụ tai nạn chết người là quá nhẹ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T07:57:12.000Z",
+      "voiceScript": "Gia đình một bé gái nói bản án dành cho người lái xe gây ra vụ tai nạn chết người vẫn còn quá nhẹ. Họ vẫn phẫn nộ vì người lái xe đã vi phạm luật trước khi va chạm xảy ra. Điều này quan trọng vì các vụ tử vong trên đường có liên quan đến ma túy hoặc lái xe liều lĩnh thường trở thành phép thử cho mức án. Nếu có kháng cáo hoặc xem xét lại, hình phạt có thể thay đổi.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/young-girl-s-family-baffled-as-manic-driver-jailed"
         }
       ]
     },
@@ -220,8 +306,8 @@
     {
       "id": "cult-inquiry-coercive-control",
       "headline": "Điều tra ở Victoria ủng hộ mở rộng luật chống kiểm soát cưỡng ép",
-      "publishedAt": "2026-07-29T07:52:51.000Z",
       "sourceCount": 1,
+      "publishedAt": "2026-07-29T07:52:51.000Z",
       "voiceScript": "Một cuộc điều tra của quốc hội Victoria khuyến nghị mở rộng luật chống kiểm soát cưỡng ép sang các nhóm tôn giáo và nhóm kín có mức độ kiểm soát cao. Ủy ban cho rằng luật hiện tại chưa phản ánh đầy đủ cách một số cộng đồng cô lập thành viên, ép buộc phục tùng và tạo áp lực về cảm xúc lẫn tài chính. Điều này quan trọng vì tổn hại có thể rất nặng dù không có bạo lực thể chất rõ ràng. Bước tiếp theo là xem chính quyền bang có đưa khuyến nghị này thành dự luật hay không.",
       "differences": [],
       "links": [
@@ -234,8 +320,8 @@
     {
       "id": "capital-guard-bond-fraud",
       "headline": "Nhà đầu tư mất 17 triệu đô trong vụ trái phiếu giả của Capital Guard",
-      "publishedAt": "2026-07-29T07:35:16.000Z",
       "sourceCount": 1,
+      "publishedAt": "2026-07-29T07:35:16.000Z",
       "voiceScript": "ASIC cho biết các nhà đầu tư đã rót 17 triệu đô vào một chương trình trái phiếu của Capital Guard vốn không hề tồn tại. Theo cơ quan quản lý, tiền được huy động dưới lớp vỏ của một khoản đầu tư hợp pháp, nhưng sản phẩm là giả và số tiền hiện chưa được tìm thấy. Vụ việc cho thấy ngôn ngữ tài chính quen thuộc cũng có thể được dùng để che giấu một vụ lừa đảo quy mô lớn. Bước tiếp theo là truy vết dòng tiền và xem cơ quan chức năng sẽ đi theo hướng dân sự hay hình sự.",
       "differences": [],
       "links": [
@@ -292,8 +378,24 @@
       ]
     },
     {
+      "id": "australia-pacific-military",
+      "headline": "Australia tăng cường quan hệ quốc phòng với Thái Bình Dương trong cuộc diễn tập khu vực",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:02:54.000Z",
+      "voiceScript": "Australia đã cùng các đối tác Thái Bình Dương tham gia một cuộc diễn tập hải quân lớn nhằm siết chặt hợp tác trong khu vực. Fiji tham gia lần đầu, cho thấy Canberra đang muốn đào sâu hơn vai trò an ninh của mình ở Thái Bình Dương. Điều này quan trọng vì các cuộc tập trận quốc phòng giờ đã trở thành một phần của cuộc cạnh tranh ảnh hưởng rộng hơn. Cuộc diễn tập cũng sẽ cho thấy các nước nhỏ hơn có thể nâng năng lực đến đâu.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/australia-joins-pacific-nations-flexing-military-muscle"
+        }
+      ]
+    },
+    {
       "id": "banks-offset-account-failures",
       "headline": "ASIC nói lỗi tài khoản offset đã khiến người vay mất hàng triệu",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-29T05:46:00.000Z",
       "voiceScript": "ASIC cho biết nhiều ngân hàng đã thiết lập hoặc theo dõi tài khoản offset thế chấp không đúng cách, khiến khách hàng phải trả nhiều lãi hơn mức đáng ra họ phải trả. Cơ quan giám sát nói các ngân hàng đã bồi thường hơn 55 triệu đô la Australia trong hai năm, và rủi ro này có thể ảnh hưởng đến hàng triệu hộ gia đình có vay mua nhà. Vấn đề quan trọng vì offset được thiết kế để giảm tiền lãi, nhưng một lỗi xử lý nhỏ có thể kéo dài nhiều năm mới bị phát hiện. Việc cần làm ngay là người vay kiểm tra sao kê và ngân hàng sửa hết các lỗi còn lại.",
       "differences": [
         "ABC đặt quy mô bồi thường và cảnh báo của cơ quan giám sát ở trung tâm.",
@@ -322,13 +424,13 @@
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
         }
-      ],
-      "publishedAt": "2026-07-29T05:46:00.000Z",
-      "sourceCount": 5
+      ]
     },
     {
       "id": "geelong-driver-jailed-mia-rossiter",
       "headline": "Tòa án Victoria bỏ tù tài xế sau vụ tai nạn chết người ở Geelong",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T05:29:54.000Z",
       "voiceScript": "Tòa án Victoria đã tuyên án tù đối với Jordan Kenyon sau khi ông nhận tội trong vụ tai nạn khiến bé Mia Rossiter 12 tuổi thiệt mạng gần Geelong. Tòa được nghe rằng ông đang trong thời gian quản thúc sau án trước, có hồ sơ lái xe nguy hiểm kéo dài và ở trong tình trạng bị GHB tác động khi lao sang làn xe của gia đình ở Stonehaven. Vụ việc quan trọng vì nó cho thấy việc tái phạm lái xe nguy hiểm và giám sát lỏng lẻo có thể dẫn đến hậu quả chết người. Bước tiếp theo là chi tiết mức án và quá trình hồi phục lâu dài của gia đình Rossiter.",
       "differences": [],
       "links": [
@@ -336,13 +438,13 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/jordan-kenyon-jailed-over-crash-that-killed-mia-rossiter/106971210"
         }
-      ],
-      "publishedAt": "2026-07-29T05:29:54.000Z",
-      "sourceCount": 1
+      ]
     },
     {
       "id": "angus-taylor-icac-donation-denial",
       "headline": "ICAC NSW làm Angus Taylor chịu thêm sức ép chính trị",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-29T05:24:20.000Z",
       "voiceScript": "Cuộc điều tra tham nhũng ở NSW đã kéo Angus Taylor vào một cuộc đấu phe phái rộng hơn sau khi lời khai và tin nhắn nêu ra cáo buộc về các khoản quyên góp cho một nhóm bảo thủ của đảng Liberal. Taylor nói ông không hề chi trả khoản nào và không bị cáo buộc sai phạm, nhưng phiên điều trần đã khiến thiệt hại chính trị đối với đảng nặng thêm. Ủy ban cũng đang xem xét một hồ sơ bôi xấu nhằm vào một cựu bộ trưởng, cho thấy phạm vi điều tra đã mở rộng. Bước tiếp theo là các phiên điều trần tiếp diễn và xem có bằng chứng nào nối các cáo buộc với hành vi sai trái chính thức hay không.",
       "differences": [
         "ABC tập trung vào bằng chứng `shit sheet` và chiến dịch nhắm vào David Elliott.",
@@ -362,9 +464,7 @@
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/no-payment-was-made-liberal-leader-denies-donation"
         }
-      ],
-      "publishedAt": "2026-07-29T05:24:20.000Z",
-      "sourceCount": 3
+      ]
     },
     {
       "id": "one-nation-qld-missing-financial-statements",
@@ -423,6 +523,8 @@
     {
       "id": "june-inflation-eases-rate-hike-odds",
       "headline": "Lạm phát tháng 6 hạ nhiệt, giảm áp lực tăng lãi suất tháng 8",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-29T04:21:32.000Z",
       "voiceScript": "Lạm phát hằng năm của Australia giảm xuống 3,8% trong tháng 6, trong khi thước đo trung bình cắt gọt mà ngân hàng trung ương theo dõi chặt chẽ vẫn ở mức 3,6%. Kết quả mềm hơn này giúp các hộ gia đình bớt áp lực phần nào và khiến thị trường hạ bớt khả năng tăng lãi suất trong tháng 8, dù giá nhà, tiền thuê và dịch vụ vẫn còn cứng đầu. Điều này quan trọng vì ngân hàng trung ương sẽ họp lại sau hai tuần nữa, và quyết định tiếp theo sẽ tác động đến chi phí vay, chi tiêu và niềm tin. Điểm chưa chắc chắn là liệu giá nhiên liệu, nhà ở và các cú sốc nguồn cung khác có tiếp tục lan sang các số liệu lạm phát sau đó hay không.",
       "differences": [
         "Bản tin đầu tiên nhấn mạnh số giá tiêu dùng thấp hơn và phản ứng của thị trường.",
@@ -452,9 +554,7 @@
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/podcast-episode/chalmers-inflation-drop-is-a-good-sign-evening-news-bulletin-29-july-2026/expibfrsb"
         }
-      ],
-      "publishedAt": "2026-07-29T04:21:32.000Z",
-      "sourceCount": 5
+      ]
     },
     {
       "id": "pump-price-relief-ends-oil-risks",
@@ -759,6 +859,20 @@
       ]
     },
     {
+      "id": "higgins-settlement",
+      "headline": "Chính phủ liên bang khép lại thêm một vụ kiện liên quan đến thời Higgins",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T23:20:16.000Z",
+      "voiceScript": "Khối Thịnh vượng chung đã dàn xếp một đơn kiện lao động gắn với câu chuyện Brittany Higgins, khép lại thêm một chương pháp lý nữa. Thỏa thuận này liên quan đến cựu nhân viên đảng Tự do Fiona Brown và đến sau nhiều năm vụ việc bị soi xét về hệ quả chính trị lẫn nơi làm việc. Điều này quan trọng vì nó loại bỏ thêm một tranh chấp chưa ngã ngũ trong câu chuyện đã làm thay đổi tranh luận trên toàn quốc. Các câu hỏi lớn hơn về trách nhiệm giải trình quanh vụ bê bối này nhiều khả năng vẫn sẽ tiếp tục.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/higgins-legal-saga-brought-to-a-close-with-settlement"
+        }
+      ]
+    },
+    {
       "id": "data-centre-energy-pushback",
       "headline": "Thúc đẩy xây dựng trung tâm dữ liệu vấp phản ứng về điện và quy hoạch",
       "sourceCount": 2,
@@ -826,9 +940,9 @@
     },
     {
       "id": "lachie-kennedy-silver",
-      "publishedAt": "2026-07-28T22:15:43Z",
       "headline": "Kennedy giành bạc 100m, chấm dứt cơn khát huy chương của Úc",
       "sourceCount": 4,
+      "publishedAt": "2026-07-28T22:15:43Z",
       "voiceScript": "Lachie Kennedy chạy 9,85 giây ở chung kết 100m nam tại Glasgow để giành huy chương bạc, đồng thời phá kỷ lục Australia lâu năm của Patrick Johnson. Kết quả này cũng chấm dứt quãng chờ huy chương ở nội dung chạy nước rút nam của Australia kéo dài từ năm 1962. Điều quan trọng là 100m luôn là một trong những nội dung được chú ý nhất của điền kinh, và Australia đã tìm cách biến tiềm năng thành thành tích thực sự trong nhiều thập kỷ. Bước tiếp theo là xem cú đột phá này có mở thêm cơ hội huy chương cho các nội dung còn lại hay không.",
       "differences": [
         "ABC News tập trung vào thành tích kỷ lục và ý nghĩa của cột mốc cũ bị phá.",
@@ -852,6 +966,34 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/sport/commonwealth-games/comm-games-day-5-live/live-coverage/c9a76a7413c93a8f685bce6cf672e03a"
+        }
+      ]
+    },
+    {
+      "id": "australia-pacific-aid",
+      "headline": "Australia vẫn dẫn đầu viện trợ Thái Bình Dương khi Trung Quốc đổi chiến lược",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T19:40:19.000Z",
+      "voiceScript": "Australia vẫn là nhà tài trợ lớn nhất cho khu vực Thái Bình Dương, trong khi Trung Quốc chuyển từ các khoản vay khổng lồ sang những dự án chiến lược nhỏ hơn. Báo cáo mới cho biết Australia cung cấp phần tài trợ lớn nhất trong năm 2024, còn vai trò của Trung Quốc thì mang tính chọn lọc hơn. Điều này quan trọng vì viện trợ giờ đã là một phần của cuộc cạnh tranh rộng hơn về ảnh hưởng và an ninh trong khu vực. Mốc tiếp theo sẽ là số liệu năm 2025 khi chúng được công bố.",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/pacific-china-australia-development-aid-lowy/dksbg6tui"
+        }
+      ]
+    },
+    {
+      "id": "migration-falls",
+      "headline": "Làn sóng di cư hậu đại dịch hạ nhiệt rõ rệt",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T17:30:00.000Z",
+      "voiceScript": "Phân tích mới cho thấy mức di cư đã giảm mạnh so với đỉnh hậu đại dịch từng làm bùng lên nhiều tranh luận chính trị. Sự giảm này quan trọng vì di cư gắn trực tiếp với các cuộc tranh luận về nhà ở, tiền lương và hạ tầng. Nó cho thấy quy mô tiếp nhận có thể đang chậm lại dù chính trị quanh chủ đề này vẫn rất nóng. Báo cáo số tiếp theo sẽ cho biết xu hướng giảm này có tiếp diễn hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
         }
       ]
     },
@@ -1086,9 +1228,9 @@
     },
     {
       "id": "asx-bullock-reaction",
-      "publishedAt": "2026-07-28T06:23:00Z",
       "headline": "Chứng khoán Úc tăng sau khi Bullock hạ nhiệt lo ngại tăng lãi suất",
       "sourceCount": 3,
+      "publishedAt": "2026-07-28T06:23:00Z",
       "voiceScript": "Thị trường chứng khoán Úc đi lên sau khi Thống đốc RBA Michele Bullock nói rằng nhu cầu yếu hơn và thị trường nhà ở dịu lại có thể giúp giảm áp lực lạm phát. Nhà đầu tư vì thế bớt đặt cược vào khả năng tăng lãi suất trong tháng 8, và nhóm cổ phiếu nhạy với chi phí vay nợ trở thành tâm điểm. Điều này quan trọng vì bước đi tiếp theo của RBA sẽ ảnh hưởng trực tiếp đến lãi vay mua nhà, tín dụng doanh nghiệp và tâm lý thị trường. Bước kế tiếp là số liệu CPI và xem liệu nó có xác nhận đà chậm lại mà thị trường đang kỳ vọng hay không.",
       "differences": [
         "ABC News tập trung vào mức đóng cửa thị trường và đợt bán tháo công nghệ trước đó.",
@@ -1145,6 +1287,20 @@
       ]
     },
     {
+      "id": "housing-red-tape",
+      "headline": "Nỗ lực cải cách nhà ở nhắm vào các nút thắt quy hoạch và phê duyệt",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T05:39:10.000Z",
+      "voiceScript": "Một đợt thúc đẩy cải cách nhà ở mới đang nhắm vào những lớp quy định làm chậm phê duyệt và cản trở xây dựng. Lập luận là không chỉ chi phí, mà chính sự rườm rà này đang ngăn nhiều căn nhà mới được xây lên. Điều đó quan trọng vì áp lực nguồn cung tác động trực tiếp đến tiền thuê, khả năng mua nhà và sự bức xúc chính trị trên khắp nước. Câu hỏi bây giờ là các chính phủ có thể gỡ nút thắt mà không tạo ra những trì hoãn mới hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/the-rules-stopping-australia-from-building-more-homes"
+        }
+      ]
+    },
+    {
       "id": "nsw-icac-perrottet-brothers",
       "headline": "ICAC NSW mở rộng điều tra sang ghi âm bí mật và khoản chi giả mạo",
       "sourceCount": 5,
@@ -1190,9 +1346,9 @@
     },
     {
       "id": "the-castle-stage-play",
-      "publishedAt": "2026-07-28T03:12:51Z",
-      "sourceCount": 2,
       "headline": "The Castle được dựng thành sân khấu, Working Dog trở lại đầy đủ",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-28T03:12:51Z",
       "voiceScript": "Nhóm sáng tạo gốc của Working Dog đang chuyển The Castle thành một vở kịch sân khấu, với buổi công diễn đầu tiên dự kiến ở Melbourne vào năm 2027. Điều này quan trọng vì bộ phim là một trong những hài kịch được trích dẫn nhiều nhất ở Úc, và phiên bản sân khấu sẽ thử xem sự ấm áp cùng chất hài lao động có còn hợp trên sân khấu hay không. Bước tiếp theo là chọn diễn viên và các chi tiết sản xuất, rồi xem phiên bản mới có giữ được tinh thần gốc không.",
       "differences": [
         "ABC News nhấn vào việc mở màn bản sân khấu và những câu thoại biểu tượng.",
@@ -1211,9 +1367,9 @@
     },
     {
       "id": "harvey-norman-latitude-penalty",
-      "publishedAt": "2026-07-28T03:06:34Z",
-      "sourceCount": 2,
       "headline": "Tòa án phạt nặng Harvey Norman và Latitude vì quảng cáo trả góp gây hiểu lầm",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-28T03:06:34Z",
       "voiceScript": "Tòa án Liên bang đã buộc Harvey Norman và Latitude phải trả tổng cộng 55 triệu đô la Úc sau khi kết luận chương trình “lãi suất 0” của họ đã khiến khách hàng mở thẻ tín dụng và chịu thêm phí trong khi chưa hiểu rõ điều kiện thực tế. Mức phạt cho thấy cơ quan quản lý sẵn sàng xử lý mạnh khi quảng cáo lớn che giấu chi phí thật. Bước tiếp theo là hai công ty sẽ thích ứng thế nào và các ưu đãi tương tự có bị viết lại hay không.",
       "differences": [
         "ABC News tập trung vào cách cơ quan quản lý chứng minh người tiêu dùng bị lừa.",
@@ -1468,32 +1624,6 @@
       ]
     },
     {
-      "id": "wa-oil-refinery",
-      "headline": "WA có thể là nơi đặt nhà máy lọc dầu mới đầu tiên của Úc sau nhiều thập kỷ",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "Chính phủ liên bang và Tây Úc đang tài trợ cho một nghiên cứu khả thi cho đề xuất nhà máy lọc dầu do Perdaman hậu thuẫn ở WA. Nếu được tiến hành, đây sẽ là nhà máy lọc dầu mới lớn đầu tiên của Úc kể từ những năm 1960, khi căng thẳng ở Trung Đông đẩy giá dầu lên cao và cho thấy nước này vẫn phụ thuộc nhiều vào nhiên liệu nhập khẩu như thế nào. Các bước tiếp theo là lựa chọn địa điểm, điều kiện tài trợ và phê duyệt về môi trường, tất cả đều sẽ quyết định liệu dự án có thể cải thiện an ninh nhiên liệu và khả năng phục hồi nguồn cung hay không.",
-      "differences": [
-        "ABC News: tập trung vào đề xuất của WA và nghiên cứu khả thi được chính phủ ủng hộ.",
-        "The Guardian Australia: nhấn mạnh đến góc độ lạm phát và an ninh năng lượng, lưu ý rằng Australia nhập khẩu khoảng 90% nhiên liệu lỏng.",
-        "Tạp chí Tài chính Úc: coi đây là phản ứng của Thủ tướng đối với cuộc khủng hoảng nhiên liệu, với địa điểm ở WA vẫn chưa được quyết định."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
-        }
-      ]
-    },
-    {
       "id": "sa-industrial-manslaughter",
       "headline": "Nhà sản xuất Nam Úc bị buộc tội trong vụ ngộ sát công nghiệp đầu tiên",
       "sourceCount": 2,
@@ -1611,12 +1741,13 @@
     {
       "id": "qld-river-to-the-sea-challenge",
       "headline": "Lệnh cấm “từ sông ra biển” của Queensland đối mặt với thách thức của Tòa án Tối cao",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T06:57:05Z",
       "voiceScript": "Lệnh cấm 'từ sông ra biển' của Queensland hiện đang bị thách thức tại Tòa án Tối cao bởi những người biểu tình cho rằng luật này vượt quá ranh giới từ ngăn chặn lời nói căm thù sang kiểm soát lời nói. Tranh chấp liên quan đến việc nhà nước vạch ra ranh giới giữa việc bảo vệ cộng đồng, giữ trật tự công cộng và hạn chế biểu hiện chính trị ở đâu. Tiếp theo là quá trình xét xử của tòa án, bao gồm cả việc khiếu nại có được xét xử hay không và liệu luật có được thu hẹp hay không.",
       "differences": [
         "ABC News: trình bày thách thức như một bài kiểm tra pháp lý trực tiếp và nêu rõ cách diễn đạt vấn đề.",
         "The Guardian Australia: nhấn mạnh cuộc đấu tranh tự do ngôn luận về cách áp dụng lệnh cấm đối với ngôn ngữ phản kháng."
       ],
-      "publishedAt": "2026-07-27T06:57:05Z",
       "links": [
         {
           "source": "ABC News",
@@ -1626,8 +1757,7 @@
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/27/protesters-launch-high-court-challenge-to-queensland-ban-on-from-the-river-to-the-sea-ntwnfb"
         }
-      ],
-      "sourceCount": 2
+      ]
     },
     {
       "id": "pauline-hanson-verdict",
@@ -1712,6 +1842,32 @@
         {
           "source": "The Sydney Morning Herald",
           "url": "https://www.smh.com.au/national/queensland/car-strikes-train-bridge-suspending-line-for-over-an-hour-20260727-p60ith.html"
+        }
+      ]
+    },
+    {
+      "id": "wa-oil-refinery",
+      "headline": "WA có thể là nơi đặt nhà máy lọc dầu mới đầu tiên của Úc sau nhiều thập kỷ",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "Chính phủ liên bang và Tây Úc đang tài trợ cho một nghiên cứu khả thi cho đề xuất nhà máy lọc dầu do Perdaman hậu thuẫn ở WA. Nếu được tiến hành, đây sẽ là nhà máy lọc dầu mới lớn đầu tiên của Úc kể từ những năm 1960, khi căng thẳng ở Trung Đông đẩy giá dầu lên cao và cho thấy nước này vẫn phụ thuộc nhiều vào nhiên liệu nhập khẩu như thế nào. Các bước tiếp theo là lựa chọn địa điểm, điều kiện tài trợ và phê duyệt về môi trường, tất cả đều sẽ quyết định liệu dự án có thể cải thiện an ninh nhiên liệu và khả năng phục hồi nguồn cung hay không.",
+      "differences": [
+        "ABC News: tập trung vào đề xuất của WA và nghiên cứu khả thi được chính phủ ủng hộ.",
+        "The Guardian Australia: nhấn mạnh đến góc độ lạm phát và an ninh năng lượng, lưu ý rằng Australia nhập khẩu khoảng 90% nhiên liệu lỏng.",
+        "Tạp chí Tài chính Úc: coi đây là phản ứng của Thủ tướng đối với cuộc khủng hoảng nhiên liệu, với địa điểm ở WA vẫn chưa được quyết định."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
         }
       ]
     },
@@ -1802,6 +1958,27 @@
       ]
     },
     {
+      "id": "census-explained",
+      "headline": "Điều tra dân số năm 2026: ai phải tham gia và điều gì đang bị đe dọa",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T12:39:35Z",
+      "voiceScript": "Cuộc điều tra dân số năm 2026 sẽ diễn ra vào ngày 11 tháng 8 và các quan chức cho biết hầu hết người dân sống ở Úc phải hoàn thành cuộc điều tra này, bao gồm cả một số người có thị thực tạm thời. Các câu hỏi chính là thời hạn, các khoản phạt có thể xảy ra và cách dữ liệu sẽ được sử dụng để phân bổ trường học, dịch vụ y tế và các nguồn lực khác. Điều tiếp theo cần theo dõi là liệu lời nhắc có nâng cao tỷ lệ phản hồi hay không, đặc biệt là ở các hộ gia đình nhập cư và người dân ở vùng sâu vùng xa.",
+      "differences": [
+        "7TIN TỨC: nêu rõ ngày quan trọng, cách hoàn thành và các khoản phạt có thể xảy ra.",
+        "SBS News: nêu bật những người có thị thực tạm thời phải tham gia và tại sao số lượng lại quan trọng."
+      ],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj"
+        }
+      ]
+    },
+    {
       "id": "vad-telehealth",
       "headline": "Lao động ủng hộ tư vấn sức khỏe từ xa để hỗ trợ cái chết",
       "sourceCount": 4,
@@ -1824,27 +2001,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5"
-        }
-      ]
-    },
-    {
-      "id": "census-explained",
-      "headline": "Điều tra dân số năm 2026: ai phải tham gia và điều gì đang bị đe dọa",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T12:39:35Z",
-      "voiceScript": "Cuộc điều tra dân số năm 2026 sẽ diễn ra vào ngày 11 tháng 8 và các quan chức cho biết hầu hết người dân sống ở Úc phải hoàn thành cuộc điều tra này, bao gồm cả một số người có thị thực tạm thời. Các câu hỏi chính là thời hạn, các khoản phạt có thể xảy ra và cách dữ liệu sẽ được sử dụng để phân bổ trường học, dịch vụ y tế và các nguồn lực khác. Điều tiếp theo cần theo dõi là liệu lời nhắc có nâng cao tỷ lệ phản hồi hay không, đặc biệt là ở các hộ gia đình nhập cư và người dân ở vùng sâu vùng xa.",
-      "differences": [
-        "7TIN TỨC: nêu rõ ngày quan trọng, cách hoàn thành và các khoản phạt có thể xảy ra.",
-        "SBS News: nêu bật những người có thị thực tạm thời phải tham gia và tại sao số lượng lại quan trọng."
-      ],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj"
         }
       ]
     },
@@ -1881,40 +2037,6 @@
         {
           "source": "Brisbane Times",
           "url": "https://www.brisbanetimes.com.au/national/queensland/three-dead-in-two-crashes-across-south-east-overnight-20260726-p60ils.html"
-        }
-      ]
-    },
-    {
-      "id": "fuel-price-rise",
-      "headline": "Giá nhiên liệu tăng khi đợt cắt giảm thuế tiêu thụ đặc biệt sắp kết thúc",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-25T14:19:00+10:00",
-      "voiceScript": "Giá nhiên liệu vẫn đang tăng và chính phủ liên bang đã nói rõ rằng họ sẽ không gia hạn việc cắt giảm tiêu thụ đặc biệt về nhiên liệu sau khi hết hạn vào ngày 2 tháng 8. Với giá dầu toàn cầu tăng và sự gián đoạn địa chính trị ảnh hưởng đến nguồn cung, giá bơm ở Sydney, Melbourne và các nơi khác đã tăng cao hơn. Các hộ gia đình và người đi lại sẽ cảm nhận được điều đó đầu tiên. Câu hỏi tiếp theo là liệu chi phí nhiên liệu cao hơn có dẫn đến lạm phát và ảnh hưởng đến quyết định lãi suất tháng 8 của Ngân hàng Dự trữ hay không.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293"
-        },
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         }
       ]
     },
@@ -1977,6 +2099,40 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/environment/2026/jul/25/herbicide-parkinsons-disease-paraquat-pulled-from-sale-australia-syngenta"
+        }
+      ]
+    },
+    {
+      "id": "fuel-price-rise",
+      "headline": "Giá nhiên liệu tăng khi đợt cắt giảm thuế tiêu thụ đặc biệt sắp kết thúc",
+      "sourceCount": 6,
+      "publishedAt": "2026-07-25T14:19:00+10:00",
+      "voiceScript": "Giá nhiên liệu vẫn đang tăng và chính phủ liên bang đã nói rõ rằng họ sẽ không gia hạn việc cắt giảm tiêu thụ đặc biệt về nhiên liệu sau khi hết hạn vào ngày 2 tháng 8. Với giá dầu toàn cầu tăng và sự gián đoạn địa chính trị ảnh hưởng đến nguồn cung, giá bơm ở Sydney, Melbourne và các nơi khác đã tăng cao hơn. Các hộ gia đình và người đi lại sẽ cảm nhận được điều đó đầu tiên. Câu hỏi tiếp theo là liệu chi phí nhiên liệu cao hơn có dẫn đến lạm phát và ảnh hưởng đến quyết định lãi suất tháng 8 của Ngân hàng Dự trữ hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         }
       ]
     },
@@ -2050,6 +2206,5 @@
         }
       ]
     }
-  ],
-  "language": "vi"
+  ]
 }

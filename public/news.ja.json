@@ -1,6 +1,7 @@
 {
-  "updatedAt": "2026-07-29T11:04:39Z",
+  "updatedAt": "2026-07-29T12:18:32Z",
   "generatedBy": "codex",
+  "language": "ja",
   "sources": [
     {
       "id": "abc",
@@ -101,7 +102,8 @@
   ],
   "errors": [
     "The Australian still redirects to a cookie wall, Sky News Australia still blocks nocookies pages, and news.com.au RSS remains unreliable, so latest-page and search fallbacks were used when needed.",
-    "A few current stories still only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
+    "A few current stories still only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches.",
+    "7NEWS article pages are still bot-gated in this environment, so only list-page items with trustworthy metadata were considered and uncertain items were skipped."
   ],
   "clusters": [
     {
@@ -133,6 +135,76 @@
       ]
     },
     {
+      "id": "wa-sex-club-appeal",
+      "headline": "パースの事業者、同意型の性的施設計画の却下に異議へ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T09:18:38.000Z",
+      "voiceScript": "パースの成人向け事業者が、同意型の性的施設の計画を市が退けたことを受けて異議申し立てを進めます。計画は西パースでの運営を想定していましたが、今は計画と免許のルールが改めて問われています。重要なのは、自治体が成人向け施設をどう扱うのか、どこまで止められるのかを試す案件だからです。異議申し立てで再審理に進むのか、それとも計画が止まったままになるのかが決まります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/city-of-perth-rejects-pink-rabbit-sex-club/106972440"
+        }
+      ]
+    },
+    {
+      "id": "prison-worker-trial",
+      "headline": "有罪判決の殺人犯、刑務所職員の裁判で証言",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:51:25.000Z",
+      "voiceScript": "有罪判決を受けた殺人犯が、刑務所職員をめぐる裁判で証言台に立ちました。争点は、刑務所内で何が起きたのか、そして職員が法的または職務上の線を越えたのかどうかです。重要なのは、この証言が拘禁施設での責任追及と、その職員への今後の判断に影響し得るからです。判決までには、さらに証拠が出る見通しです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/convicted-murderer-mcguinness-evidence-in-prison-worker-trial/106973456"
+        }
+      ]
+    },
+    {
+      "id": "health-watchdog-antisemitism",
+      "headline": "保健規制当局、反ユダヤ主義ガイダンスで医療従事者を安心させる",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:15:23.000Z",
+      "voiceScript": "オーストラリアの保健規制当局は、反ユダヤ主義に結びつく新たな指針が医療従事者を黙らせるために使われるのではないかという懸念を和らげようとしています。草案が職業上の監督と表現の自由への不安をあいまいにするのでは、という指摘が争点です。重要なのは、規制、言論の自由、地域の安全が交差する問題だからです。運用が始まれば、当局にはさらに説明が求められるでしょう。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/risk-based-visa-screening-backed-to-beat-anti-semitism"
+        }
+      ]
+    },
+    {
+      "id": "wa-paedophile-release",
+      "headline": "WA州の重大児童性犯罪者、長期服役後に釈放の可能性",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:14:08.000Z",
+      "voiceScript": "西オーストラリア州では、長年服役してきた州内でも悪名高い児童性犯罪者の一人が釈放される可能性に備えています。高リスク受刑者が刑務所を出た後、どのような監督が必要なのか、議論が再燃しています。重要なのは、釈放条件が公共の安全と処罰の両面で評価されるからです。法的判断や仮釈放の決定次第で、時期や条件はなお変わる可能性があります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/wa-paedophile-dennis-mckenna-weighs-release-from-jail/106967874"
+        }
+      ]
+    },
+    {
+      "id": "qld-syria-execution",
+      "headline": "クイーンズランド州の男、シリアでの殺害疑惑で死刑の恐れ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:11:58.000Z",
+      "voiceScript": "クイーンズランド州の男が、シリアでオーストラリア人を殺害した疑いで死刑に直面する可能性があります。海外での刑事疑惑が、オーストラリア国内の法的・外交的対応とつながっています。重要なのは、領事支援や適正手続き、そして海外で市民が訴追された場合にオーストラリアがどう対応するかが問われるからです。今後は正式な裁判手続きと、政府の対応が焦点になります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/australian-patrick-stevenson-charged-with-murder-in-syria/106959686"
+        }
+      ]
+    },
+    {
       "id": "victorian-cults-email-leak",
       "headline": "ビクトリア州の調査、匿名の生存者メールを誤って公開",
       "sourceCount": 1,
@@ -157,6 +229,20 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/june-2026-inflation-falls-to-3-8-per-cent/ikupactu0"
+        }
+      ]
+    },
+    {
+      "id": "young-driver-jailed",
+      "headline": "遺族、死亡事故の刑期は軽すぎると主張",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T07:57:12.000Z",
+      "voiceScript": "幼い少女の家族は、死亡事故を起こした運転者に言い渡された刑がまだ軽すぎると訴えています。衝突前に違法運転があったとされ、家族の怒りはさらに強まっています。重要なのは、薬物や危険運転が絡む死亡事故では、量刑の厳しさが常に問われるからです。控訴や再審査があれば、処罰が変わるかどうかが決まります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/young-girl-s-family-baffled-as-manic-driver-jailed"
         }
       ]
     },
@@ -220,8 +306,8 @@
     {
       "id": "cult-inquiry-coercive-control",
       "headline": "ビクトリア州の調査が、周縁グループにも支配的行為規制を広げるよう求める",
-      "publishedAt": "2026-07-29T07:52:51.000Z",
       "sourceCount": 1,
+      "publishedAt": "2026-07-29T07:52:51.000Z",
       "voiceScript": "ビクトリア州議会の調査は、宗教系や周縁グループにも「強制的支配」を禁じる法律を広げるべきだと勧告しました。調査は、閉鎖的な共同体が人を孤立させ、従わせ、感情面や経済面で圧力をかけるやり方を、現行法だけでは十分に捉えきれないとみています。暴力が目に見えなくても被害は深刻になり得るため、この提案は重要です。次の焦点は、州政府が法案化するかどうかです。",
       "differences": [],
       "links": [
@@ -234,8 +320,8 @@
     {
       "id": "capital-guard-bond-fraud",
       "headline": "Capital Guardの偽債券で投資家が1700万ドルを失う",
-      "publishedAt": "2026-07-29T07:35:16.000Z",
       "sourceCount": 1,
+      "publishedAt": "2026-07-29T07:35:16.000Z",
       "voiceScript": "ASICは、投資家が Capital Guard の存在しない債券案件に1700万ドルを投じていたとしています。監督当局によると、正規の投資商品に見せかけて資金を集めていましたが、実際の金融商品は架空で、資金は行方不明です。これは、見慣れた金融用語でも大規模な詐欺の隠れみのになり得ることを示しています。次は、資金の流れの追跡と、当局が民事・刑事のどちらで動くかです。",
       "differences": [],
       "links": [
@@ -292,8 +378,24 @@
       ]
     },
     {
+      "id": "australia-pacific-military",
+      "headline": "豪州、太平洋での防衛協力を演習で拡大",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:02:54.000Z",
+      "voiceScript": "オーストラリアは、地域での連携を強めるための大規模な海軍演習に太平洋の仲間と参加しました。フィジーが初参加となり、キャンベラが太平洋での安全保障上の役割を深めようとしている姿勢も示しています。重要なのは、防衛演習が今や影響力争いの一部になっているからです。演習は、小規模な参加国がどこまで能力を高められるかも試します。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/australia-joins-pacific-nations-flexing-military-muscle"
+        }
+      ]
+    },
+    {
       "id": "banks-offset-account-failures",
       "headline": "住宅ローンのオフセット口座ミスで借り手に数百万ドルの損失",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-29T05:46:00.000Z",
       "voiceScript": "ASICは、複数の銀行が住宅ローンのオフセット口座を正しく設定・管理できず、顧客が本来より多くの利息を払っていたと指摘した。監督当局によると、銀行はこの2年で5500万豪ドル超の補償を支払っており、問題は住宅ローンを持つ数百万人の世帯に及ぶ可能性がある。オフセット口座は返済負担を下げるための仕組みだが、小さな処理ミスが長期間見逃されることがあるのが厄介だ。次の焦点は、借り手が明細を確認し、銀行が残る不備を是正できるかどうかだ。",
       "differences": [
         "ABCは補償総額と監督当局の警告を中心に伝える。",
@@ -322,13 +424,13 @@
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
         }
-      ],
-      "publishedAt": "2026-07-29T05:46:00.000Z",
-      "sourceCount": 5
+      ]
     },
     {
       "id": "geelong-driver-jailed-mia-rossiter",
       "headline": "ジーロングの致死事故で運転手に実刑",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T05:29:54.000Z",
       "voiceScript": "ビクトリア州の裁判所は、Geelong近郊で12歳のMia Rossiterさんが死亡した事故について有罪を認めたJordan Kenyon被告に実刑を言い渡した。法廷では、彼が仮釈放中で長い危険運転歴があり、GHBの影響下でStonehavenで家族の車に衝突したことが示された。繰り返される危険運転と監督の甘さが致命的な結果につながることを示す事件だ。次は量刑の詳細と、Rossiter一家の長い回復の過程だ。",
       "differences": [],
       "links": [
@@ -336,13 +438,13 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/jordan-kenyon-jailed-over-crash-that-killed-mia-rossiter/106971210"
         }
-      ],
-      "publishedAt": "2026-07-29T05:29:54.000Z",
-      "sourceCount": 1
+      ]
     },
     {
       "id": "angus-taylor-icac-donation-denial",
       "headline": "NSW ICACがAngus Taylor氏への政治的打撃を拡大",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-29T05:24:20.000Z",
       "voiceScript": "NSWの腐敗調査は、保守派の自由党グループへの寄付疑惑ややり取りの記録を受けて、Angus Taylor氏を党内の派閥争いの中心に引きずり込んだ。Taylor氏は支払いをしておらず不正もしていないと否定しているが、審理はすでに党への政治的ダメージを深めている。委員会は元閣僚を傷つける文書を使った別の動きも調べており、調査の広がりが見えてきた。次は審理の継続と、正式な不正につながる証拠が出るかどうかだ。",
       "differences": [
         "ABCはDavid Elliott氏を狙った`shit sheet`の証拠に焦点を当てる。",
@@ -362,9 +464,7 @@
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/no-payment-was-made-liberal-leader-denies-donation"
         }
-      ],
-      "publishedAt": "2026-07-29T05:24:20.000Z",
-      "sourceCount": 3
+      ]
     },
     {
       "id": "one-nation-qld-missing-financial-statements",
@@ -423,6 +523,8 @@
     {
       "id": "june-inflation-eases-rate-hike-odds",
       "headline": "6月のインフレ鈍化で8月利上げ観測が後退",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-29T04:21:32.000Z",
       "voiceScript": "オーストラリアの6月の年率インフレは3.8％に鈍化し、オーストラリア準備銀行が重視する基調インフレは3.6％のままでした。やや弱い結果で家計の圧力は少し和らぎ、市場は8月の利上げ観測を後退させましたが、住宅費、家賃、サービス価格はなお根強いままです。重要なのは、RBAが2週間後に再び会合を開き、次の判断が借入コストや消費、景況感を左右するためです。次に注目されるのは、燃料、住宅、ほかの供給ショックが今後のインフレ指標にまで波及するかどうかです。",
       "differences": [
         "低い消費者物価指数と市場の反応を重視する報道",
@@ -452,9 +554,7 @@
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/podcast-episode/chalmers-inflation-drop-is-a-good-sign-evening-news-bulletin-29-july-2026/expibfrsb"
         }
-      ],
-      "publishedAt": "2026-07-29T04:21:32.000Z",
-      "sourceCount": 5
+      ]
     },
     {
       "id": "pump-price-relief-ends-oil-risks",
@@ -759,6 +859,20 @@
       ]
     },
     {
+      "id": "higgins-settlement",
+      "headline": "連邦政府、ヒギンズ事件絡みの別件を和解で終結",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T23:20:16.000Z",
+      "voiceScript": "連邦政府は、ブリタニー・ヒギンズ事件に関連する職場の請求を和解し、別の法的な章を終えました。合意には元自由党スタッフのフィオナ・ブラウンが関わり、政治面と職場での余波が何年も注目されてきました。重要なのは、この一件が全国的な議論を変えてきた物語から、未解決の争点をさらに一つ減らしたことです。スキャンダルをめぐる説明責任の論点は、なお続く見通しです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/higgins-legal-saga-brought-to-a-close-with-settlement"
+        }
+      ]
+    },
+    {
       "id": "data-centre-energy-pushback",
       "headline": "首相のデータセンター推進、電力と計画面の反発に直面",
       "sourceCount": 2,
@@ -826,9 +940,9 @@
     },
     {
       "id": "lachie-kennedy-silver",
-      "publishedAt": "2026-07-28T22:15:43Z",
       "headline": "グラスゴーの100m銀でケネディが豪州のメダル空白を止める",
       "sourceCount": 4,
+      "publishedAt": "2026-07-28T22:15:43Z",
       "voiceScript": "ラクリー・ケネディはグラスゴーの男子100m決勝で9秒85をマークして銀メダルを獲得し、パトリック・ジョンソンが持っていたオーストラリア記録を更新しました。男子短距離でオーストラリアがメダルに届かなかった長い空白も、これで1962年以来ようやく終わりました。重要なのは、短距離は大会の看板種目であり、豪州が長年目指してきた「決勝で勝負する力」を示したからです。次の焦点は、この突破が今大会の他種目の追い風になるかどうかです。",
       "differences": [
         "ABC News は記録更新と過去の記録の意味を重視。",
@@ -852,6 +966,34 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/sport/commonwealth-games/comm-games-day-5-live/live-coverage/c9a76a7413c93a8f685bce6cf672e03a"
+        }
+      ]
+    },
+    {
+      "id": "australia-pacific-aid",
+      "headline": "太平洋援助でなお豪州が先行、中国は手法を変更",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T19:40:19.000Z",
+      "voiceScript": "中国が大規模融資から小規模で戦略的な案件へと手法を変える中でも、オーストラリアはなお太平洋最大の援助国です。新しい報告書は、2024年にオーストラリアが最も大きな資金を提供し、中国の関与はより選別的になったと示しています。重要なのは、援助が今や地域での影響力と安全保障をめぐる競争の一部だからです。次の注目点は、2025年の数字が出たときに同じ流れが続くかどうかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/pacific-china-australia-development-aid-lowy/dksbg6tui"
+        }
+      ]
+    },
+    {
+      "id": "migration-falls",
+      "headline": "パンデミック後の移民急増、勢いが大きく鈍化",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T17:30:00.000Z",
+      "voiceScript": "新たな分析で、パンデミック後の高水準から移民が大きく減っていることが示されました。移民は住宅、賃金、インフラ負担をめぐる議論に直結するため、この下落は重要です。政治的な対立が続いていても、受け入れ規模はやや落ち着いてきた可能性があります。次の統計で、この減少が続くかどうかが焦点になります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
         }
       ]
     },
@@ -1086,9 +1228,9 @@
     },
     {
       "id": "asx-bullock-reaction",
-      "publishedAt": "2026-07-28T06:23:00Z",
       "headline": "ブロック総裁の発言で豪州株上昇、利上げ懸念がやや後退",
       "sourceCount": 3,
+      "publishedAt": "2026-07-28T06:23:00Z",
       "voiceScript": "オーストラリアの株式市場は、準備銀行のミシェル・ブロック総裁が需要の鈍化や住宅市場の落ち着きがインフレ圧力を和らげる可能性があると述べたことで上昇しました。市場は8月の追加利上げ観測を少し後退させ、金融や消費関連の銘柄に注目が集まりました。重要なのは、この動きが住宅ローンや企業の借入コスト、そして景気見通しに直結するためです。次の焦点は消費者物価指数が、今の市場の見方を裏付けるかどうかです。",
       "differences": [
         "ABC News は終値と前日のテック株安を重視。",
@@ -1145,6 +1287,20 @@
       ]
     },
     {
+      "id": "housing-red-tape",
+      "headline": "住宅改革、許認可と計画の煩雑さを削減へ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T05:39:10.000Z",
+      "voiceScript": "新たな住宅改革の動きは、承認を遅らせ建設を止める複雑なルールに焦点を当てています。高いコストだけでなく、こうした煩雑な規制が住宅供給を妨げているという考えです。重要なのは、供給不足が家賃や手頃さ、そして全国の政治的不満に直結するからです。今後は、別の遅れを生まずにどこまで障害を減らせるかが問われます。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/the-rules-stopping-australia-from-building-more-homes"
+        }
+      ]
+    },
+    {
       "id": "nsw-icac-perrottet-brothers",
       "headline": "NSWのICAC審問、秘密録音と偽装支払いの疑惑を拡大",
       "sourceCount": 5,
@@ -1190,9 +1346,9 @@
     },
     {
       "id": "the-castle-stage-play",
-      "publishedAt": "2026-07-28T03:12:51Z",
-      "sourceCount": 2,
       "headline": "Working Dog が The Castle を舞台化、オリジナル陣が再集結",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-28T03:12:51Z",
       "voiceScript": "Working Dog のオリジナルチームが、映画 The Castle を舞台劇として再構成し、2027 年にメルボルンで初演する計画だ。これは、この映画がオーストラリアで最も引用されるコメディの一つであり、舞台版がその温かさと労働者階級のユーモアを保てるかが注目されるからだ。次は配役と制作の詳細、そして新しい観客にも通じるかどうかだ。",
       "differences": [
         "ABC News は舞台化の開始と有名な台詞に注目している。",
@@ -1211,9 +1367,9 @@
     },
     {
       "id": "harvey-norman-latitude-penalty",
-      "publishedAt": "2026-07-28T03:06:34Z",
-      "sourceCount": 2,
       "headline": "誤解を招く分割払い広告でHarvey NormanとLatitudeに5500万豪ドルの罰金",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-28T03:06:34Z",
       "voiceScript": "連邦裁判所は、Harvey Norman と Latitude が 60 か月無利子の広告で顧客を誤解させ、クレジットカードの契約や追加費用につながったとして、合計 5500 万豪ドルの支払いを命じた。大手の小売・金融キャンペーンでも、実際の負担を隠せば厳しい制裁が科されることを示す判決だ。次は、両社がこの判断をどう受け止め、似た販促がどう見直されるかだ。",
       "differences": [
         "ABC News は規制当局がどう消費者の誤認を示したかに注目している。",
@@ -1468,32 +1624,6 @@
       ]
     },
     {
-      "id": "wa-oil-refinery",
-      "headline": "西オーストラリア州で数十年ぶりの新製油所計画",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "連邦政府と西オーストラリア州政府は、ペルダマン社が関わる製油所計画の実現可能性調査に資金を出している。実現すれば、オーストラリアで1960年代以来となる大型の新製油所になる。中東情勢の緊張で原油価格が上がる中、輸入燃料への依存が改めて浮き彫りになっている。今後は用地、資金調達、環境審査が進むかどうかが焦点になる。",
-      "differences": [
-        "ABC News：西オーストラリア州とペルダマン社の計画、そして連邦・州政府による実現可能性調査を前面に出している。",
-        "The Guardian Australia：中東の緊張がインフレと燃料リスクを押し上げている点を強調し、オーストラリアの液体燃料の約9割が輸入だと伝える。",
-        "Australian Financial Review：首相の燃料危機対応として描き、西オーストラリア州の建設予定地がまだ未定だと伝える。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
-        }
-      ]
-    },
-    {
       "id": "sa-industrial-manslaughter",
       "headline": "南オーストラリア州の製造会社、州初の産業過失致死で起訴",
       "sourceCount": 2,
@@ -1611,12 +1741,13 @@
     {
       "id": "qld-river-to-the-sea-challenge",
       "headline": "クイーンズランド州の「from the river to the sea」禁止に高裁挑戦",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T06:57:05Z",
       "voiceScript": "クイーンズランド州の “from the river to the sea” 禁止措置は、高等裁判所で抗議者により争われている。訴えの中心は、この法律がヘイト対策の範囲を超えて言論を制限しているのではないかという点だ。争点は、州がコミュニティ保護、公共の秩序、政治的表現の自由をどう線引きするかにある。今後は高裁が受理するかどうか、そして現行ルールがどこまで狭められるかが注目される。",
       "differences": [
         "ABC News：法律の文言と争点を直接示している。",
         "The Guardian Australia：抗議の言葉をどこまで規制できるかという言論の自由に焦点を当てている。"
       ],
-      "publishedAt": "2026-07-27T06:57:05Z",
       "links": [
         {
           "source": "ABC News",
@@ -1626,8 +1757,7 @@
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/27/protesters-launch-high-court-challenge-to-queensland-ban-on-from-the-river-to-the-sea-ntwnfb"
         }
-      ],
-      "sourceCount": 2
+      ]
     },
     {
       "id": "pauline-hanson-verdict",
@@ -1712,6 +1842,32 @@
         {
           "source": "The Sydney Morning Herald",
           "url": "https://www.smh.com.au/national/queensland/car-strikes-train-bridge-suspending-line-for-over-an-hour-20260727-p60ith.html"
+        }
+      ]
+    },
+    {
+      "id": "wa-oil-refinery",
+      "headline": "西オーストラリア州で数十年ぶりの新製油所計画",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "連邦政府と西オーストラリア州政府は、ペルダマン社が関わる製油所計画の実現可能性調査に資金を出している。実現すれば、オーストラリアで1960年代以来となる大型の新製油所になる。中東情勢の緊張で原油価格が上がる中、輸入燃料への依存が改めて浮き彫りになっている。今後は用地、資金調達、環境審査が進むかどうかが焦点になる。",
+      "differences": [
+        "ABC News：西オーストラリア州とペルダマン社の計画、そして連邦・州政府による実現可能性調査を前面に出している。",
+        "The Guardian Australia：中東の緊張がインフレと燃料リスクを押し上げている点を強調し、オーストラリアの液体燃料の約9割が輸入だと伝える。",
+        "Australian Financial Review：首相の燃料危機対応として描き、西オーストラリア州の建設予定地がまだ未定だと伝える。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
         }
       ]
     },
@@ -1802,6 +1958,27 @@
       ]
     },
     {
+      "id": "census-explained",
+      "headline": "2026年国勢調査、誰が対象で何が重要か",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T12:39:35Z",
+      "voiceScript": "2026年国勢調査は8月11日に実施され、オーストラリアで暮らす多くの人は記入が必要で、一部の臨時ビザ保有者も対象です。焦点は、締め切りと罰金の有無、そして集まったデータが学校や医療などの資源配分にどう使われるかです。今後は、案内で回答率が上がるか、特に移民世帯や地方・遠隔地の世帯でどこまで回収できるかが注目されます。",
+      "differences": [
+        "7NEWS: 期限、記入方法、罰金の可能性をわかりやすく整理。",
+        "SBS News: どの臨時ビザ保有者が対象かと、調査の重要性を強調。"
+      ],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj"
+        }
+      ]
+    },
+    {
       "id": "vad-telehealth",
       "headline": "Labor、安楽死の遠隔医療相談を支持",
       "sourceCount": 4,
@@ -1824,27 +2001,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5"
-        }
-      ]
-    },
-    {
-      "id": "census-explained",
-      "headline": "2026年国勢調査、誰が対象で何が重要か",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T12:39:35Z",
-      "voiceScript": "2026年国勢調査は8月11日に実施され、オーストラリアで暮らす多くの人は記入が必要で、一部の臨時ビザ保有者も対象です。焦点は、締め切りと罰金の有無、そして集まったデータが学校や医療などの資源配分にどう使われるかです。今後は、案内で回答率が上がるか、特に移民世帯や地方・遠隔地の世帯でどこまで回収できるかが注目されます。",
-      "differences": [
-        "7NEWS: 期限、記入方法、罰金の可能性をわかりやすく整理。",
-        "SBS News: どの臨時ビザ保有者が対象かと、調査の重要性を強調。"
-      ],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj"
         }
       ]
     },
@@ -1881,40 +2037,6 @@
         {
           "source": "Brisbane Times",
           "url": "https://www.brisbanetimes.com.au/national/queensland/three-dead-in-two-crashes-across-south-east-overnight-20260726-p60ils.html"
-        }
-      ]
-    },
-    {
-      "id": "fuel-price-rise",
-      "headline": "燃料価格が上昇、燃料税減免の終了が迫る",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-25T14:19:00+10:00",
-      "voiceScript": "燃料価格はなお上昇を続けており、連邦政府は8月2日に期限を迎える燃料税減免を延長しない方針を明言しました。国際原油価格の上昇と地政学的な供給不安で、シドニーやメルボルンなどでは給油価格がすでに上がっています。家計と通勤者が最初に影響を受ける一方で、この動きがインフレや8月のRBA判断にどう響くかも注目されます。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293"
-        },
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         }
       ]
     },
@@ -1977,6 +2099,40 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/environment/2026/jul/25/herbicide-parkinsons-disease-paraquat-pulled-from-sale-australia-syngenta"
+        }
+      ]
+    },
+    {
+      "id": "fuel-price-rise",
+      "headline": "燃料価格が上昇、燃料税減免の終了が迫る",
+      "sourceCount": 6,
+      "publishedAt": "2026-07-25T14:19:00+10:00",
+      "voiceScript": "燃料価格はなお上昇を続けており、連邦政府は8月2日に期限を迎える燃料税減免を延長しない方針を明言しました。国際原油価格の上昇と地政学的な供給不安で、シドニーやメルボルンなどでは給油価格がすでに上がっています。家計と通勤者が最初に影響を受ける一方で、この動きがインフレや8月のRBA判断にどう響くかも注目されます。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         }
       ]
     },
@@ -2050,6 +2206,5 @@
         }
       ]
     }
-  ],
-  "language": "ja"
+  ]
 }

@@ -1,6 +1,7 @@
 {
-  "updatedAt": "2026-07-29T11:04:39Z",
+  "updatedAt": "2026-07-29T12:18:32Z",
   "generatedBy": "codex",
+  "language": "si",
   "sources": [
     {
       "id": "abc",
@@ -101,7 +102,8 @@
   ],
   "errors": [
     "The Australian still redirects to a cookie wall, Sky News Australia still blocks nocookies pages, and news.com.au RSS remains unreliable, so latest-page and search fallbacks were used when needed.",
-    "A few current stories still only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
+    "A few current stories still only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches.",
+    "7NEWS article pages are still bot-gated in this environment, so only list-page items with trustworthy metadata were considered and uncertain items were skipped."
   ],
   "clusters": [
     {
@@ -133,6 +135,76 @@
       ]
     },
     {
+      "id": "wa-sex-club-appeal",
+      "headline": "පර්ත් ව්‍යාපාරිකයා සම්මුති-අධාරිත ලිංගික සමාජය ප්‍රතික්ෂේපයට එරෙහිව අභියාචනා කරයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T09:18:38.000Z",
+      "voiceScript": "පර්ත් හි වැඩිහිටි ව්‍යාපාරයක හිමිකරු, සම්මුති පදනම් ලිංගික සමාජයක් සඳහා වූ යෝජනාව නගරය ප්‍රතික්ෂේප කළ පසු අභියාචනයක් ඉදිරිපත් කිරීමට යයි. යෝජනාව බටහිර පර්ත් හි ක්‍රියාත්මක වීමට තිබුණි, දැන් නම් සැලසුම් සහ බලපත්‍ර නීති යළි පරීක්ෂාවට ලක්වෙයි. මෙය වැදගත් වන්නේ දේශීය පාලනය වැඩිහිටි ස්ථානවලට කෙසේ සලකනවාද, ඒවා වළක්වන්නට කෙතරම් දුර යා හැකිදැයි පරීක්ෂා කරන නිසයි. අභියාචනයෙන් තීරණය වන්නේ අදහසට නැවත විභාගයක් ලැබේද, නැත්නම් එය අවහිරවම පවතීද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/city-of-perth-rejects-pink-rabbit-sex-club/106972440"
+        }
+      ]
+    },
+    {
+      "id": "prison-worker-trial",
+      "headline": "දඬුවම් ලැබූ ඝාතකයෙක් ජේල වැඩකරුගේ නඩුවේ සාක්ෂි දෙයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:51:25.000Z",
+      "voiceScript": "දඬුවම් ලැබූ ඝාතකයෙක් සිරගෙදර වැඩකරුවෙකු සම්බන්ධ නඩුවක සාක්ෂි ලබා දී ඇත. නඩුව තවමත් අවධානය යොමු කරන්නේ සිරගෙදර ඇතුළත සිදු වූ දේ සහ එම වැඩකරු නීතිමය හෝ වෘත්තීය සීමා ඉක්මවා ගියාද යන්න ගැනයි. මෙය වැදගත් වන්නේ, මෙම සාක්ෂි රඳවා තැබීමේ ස්ථානවල වගවීමත් වැඩකරුට එරෙහි අනතුරු අගයත් බලපාන්නට পারে. තීන්දුවට පෙර තවත් සාක්ෂි ඉදිරිපත් වීමට නියමිතය.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/convicted-murderer-mcguinness-evidence-in-prison-worker-trial/106973456"
+        }
+      ]
+    },
+    {
+      "id": "health-watchdog-antisemitism",
+      "headline": "යුදෙව්විරෝධී මාර්ගෝපදේශ පිළිබඳව සෞඛ්‍ය නියාමකයා වෛද්‍යවරුන්ට සහනය දේ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:15:23.000Z",
+      "voiceScript": "ඕස්ට්‍රේලියාවේ සෞඛ්‍ය නියාමකයා, යුදෙව්විරෝධීභාවයට සම්බන්ධ නව මාර්ගෝපදේශ වෛද්‍යවරුන් නිහඬ කිරීමට යොදාගනු නොලැබෙන බවට වූ බිය අඩු කිරීමට උත්සාහ කරයි. මෙම විවාදය මතුවුණේ කෙටුම්පත් ප්‍රවේශය වෘත්තීය නියාමනය සහ ප්‍රකාශන නිදහස පිළිබඳ බිය මිශ්‍ර කරනු ඇතැයි කියන නිසාය. මෙය වැදගත් වන්නේ නියාමනය, කතා නිදහස සහ ප්‍රජා ආරක්ෂාව එකිනෙකට හමුවන තැන මෙය පවතින නිසයි. ප්‍රතිපත්තිය ක්‍රියාත්මක වන විට නියාමකයාට තවත් ප්‍රශ්න එල්ල වීමට ඉඩ ඇත.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/risk-based-visa-screening-backed-to-beat-anti-semitism"
+        }
+      ]
+    },
+    {
+      "id": "wa-paedophile-release",
+      "headline": "බටහිර ඕස්ට්‍රේලියාවේ බරපතල ළමා ලිංගික අපරාධකරුවෙකු නිදහසට ලඟා වෙයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:14:08.000Z",
+      "voiceScript": "බටහිර ඕස්ට්‍රේලියාව වසර ගණනාවක් සිරගතව සිටි තම ප්‍රාන්තයේ වඩාත් ප්‍රකට ළමා ලිංගික අපරාධකරුවන්ගෙන් එක් අයෙකු නිදහස් විය හැකි බවට සූදානම් වෙයි. මේ සිද්ධියෙන් නැවතත් මතුවන්නේ ඉහළ අවදානමක් ඇති අපරාධකරුවන් සිරෙන් පිටවූ පසු කෙසේ නිරීක්ෂණය කළ යුතුද යන්නයි. එය වැදගත් වන්නේ නිදහස් කිරීමේ කොන්දේසි මහජන ආරක්ෂාව සහ දඬුවම යන දෙකම මත මැන බලන නිසයි. නීතිමය හෝ පාරෝල් තීරණ වෙනස් වුවහොත් කාලසීමාව සහ කොන්දේසි තවමත් වෙනස් විය හැක.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/wa-paedophile-dennis-mckenna-weighs-release-from-jail/106967874"
+        }
+      ]
+    },
+    {
+      "id": "qld-syria-execution",
+      "headline": "ක්වීන්ස්ලෑන්ඩ් පුද්ගලයෙක් සිරියාවෙ ඝාතන චෝදනාවෙන් මරණ දඬුවමට මුහුණ දේ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:11:58.000Z",
+      "voiceScript": "ක්වීන්ස්ලෑන්ඩ්හි පුද්ගලයෙක් සිරියාවේදී ඕස්ට්‍රේලියානු පුරවැසියෙකු ඝාතනය කළ බවට චෝදනා ලැබ මරණ දඬුවමට මුහුණ දීමට ඉඩ ඇත. මෙය විදේශීය අපරාධ චෝදනාවක් ඕස්ට්‍රේලියාවේ නීතිමය සහ රාජ්‍යතාන්ත්‍රික ප්‍රතිචාරයක් සමඟ සම්බන්ධ කරයි. එය වැදගත් වන්නේ කොන්සියුලර් සහාය, සාධාරණ නඩු ක්‍රියාවලිය, සහ විදේශයකදී පුරවැසියෙකුට එරෙහි චෝදනාවකට ඕස්ට්‍රේලියාව දක්වන ප්‍රතිචාරය පිළිබඳ ප්‍රශ්න මතු කරන නිසයි. ඊළඟ පියවර වන්නේ නිල අධිකරණ ක්‍රියාවලිය සහ රජයේ හැකි ප්‍රතිචාරයයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/australian-patrick-stevenson-charged-with-murder-in-syria/106959686"
+        }
+      ]
+    },
+    {
       "id": "victorian-cults-email-leak",
       "headline": "වික්ටෝරියානු විමර්ශනයක් අනන්‍ය පැවැත්ගත් අයගේ විද්‍යුත් තැපෑල් ලිපින වැරදියට හෙළි කරයි",
       "sourceCount": 1,
@@ -157,6 +229,20 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/june-2026-inflation-falls-to-3-8-per-cent/ikupactu0"
+        }
+      ]
+    },
+    {
+      "id": "young-driver-jailed",
+      "headline": "මරණාත්මක රථ අනතුරට ලැබුණු සිර දඬුවම අඩු බව පවුල කියයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T07:57:12.000Z",
+      "voiceScript": "කුඩා දැරියකගේ පවුල කියන්නේ මාරක රථ අනතුරක් සිදු කළ රියදුරාට දුන් සිර දඬුවම තවමත් ප්‍රමාණවත් නැති බවයි. ගැටුමට පෙර නීති උල්ලංඝනය කළ රියදුරාගේ ක්‍රියාවන් නිසා ඔවුන් තවදුරටත් කෝපයෙන් පසුවෙයි. මෙය වැදගත් වන්නේ මත්ද්‍රව්‍ය හෝ නොසැලකිලිමත් රිය පැදවීමෙන් සිදුවූ මරණ නඩු වලදී දඬුවම කොතරම් තද විය යුතුදැයි පරීක්ෂා කරන නිසයි. අභියාචනයක් හෝ සමාලෝචනයක් ඇත්නම් දඬුවම වෙනස් වන්නේද යන්න තීරණය කරනු ඇත.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/young-girl-s-family-baffled-as-manic-driver-jailed"
         }
       ]
     },
@@ -220,8 +306,8 @@
     {
       "id": "cult-inquiry-coercive-control",
       "headline": "වික්ටෝරියා විමර්ශනය කණ්ඩායම්වලට එරෙහි බලහත්කාර පාලන නීති පුළුල් කිරීමට ඉල්ලයි",
-      "publishedAt": "2026-07-29T07:52:51.000Z",
       "sourceCount": 1,
+      "publishedAt": "2026-07-29T07:52:51.000Z",
       "voiceScript": "වික්ටෝරියා පාර්ලිමේන්තු විමර්ශනයක්, දැඩි පාලනයක් ඇති ආගමික සහ අන්තගාමී කණ්ඩායම් සඳහා බලහත්කාර පාලන නීති ව්‍යාප්ත කළ යුතු බව නිර්දේශ කරයි. පවතින නීතිවලින් සමහර වැසුණු කණ්ඩායම් සාමාජිකයන් හුදකලා කරමින්, අනුගත වීමට බල කරමින්, හැඟීම්මය හා ආර්ථික පීඩනය දමන ආකාරය සම්පූර්ණයෙන්ම අල්ලා නොගන්නා බව විමර්ශනය කියයි. මෙය වැදගත් වන්නේ ශාරීරික පහරදීම් නැතුවත් අභ්‍යන්තර හිංසනය සැඟවී තිබිය හැකි නිසාත් පොලිසියට සහ අධිකරණයට එයට ප්‍රතිචාර දීමට අපහසු වන නිසාත්ය. ඊළඟ පියවර වන්නේ රාජ්‍ය රජය මෙය නීතියක් බවට පත් කරන්නේද යන්නයි.",
       "differences": [],
       "links": [
@@ -234,8 +320,8 @@
     {
       "id": "capital-guard-bond-fraud",
       "headline": "Capital Guard ආයෝජකයෝ නොපවතින බැඳුම්කර යෝජනාවකින් ඩොලර් මිලියන 17ක් අහිමි කරති",
-      "publishedAt": "2026-07-29T07:35:16.000Z",
       "sourceCount": 1,
+      "publishedAt": "2026-07-29T07:35:16.000Z",
       "voiceScript": "ASIC පවසන්නේ ආයෝජකයෝ Capital Guard හි නොපවතින බැඳුම්කර යෝජනාවකට ඩොලර් මිලියන 17ක් දමා ඇති බවයි. නියාමකයාට අනුව එය නීත්‍යානුකූල ආයෝජනයක් ලෙස පෙනුණු මුහුණුවරක් යටතේ මුදල් එකතු කර තිබුණද, නිෂ්පාදනයම වංචනිකය සහ අරමුදල් දැන් අස්ථානගතව ඇත. මෙය වැදගත් වන්නේ විශ්වාසය දිනා ගැනීමට හුරුපුරුදු මූල්‍ය භාෂාව මහා පරිමාණ වංචාවකට භාවිත කළ හැකි බව පෙන්වන නිසාය. ඊළඟ පියවර වන්නේ මුදල් පථය සොයා බැලීමත්, පසුව සිවිල් හෝ අපරාධ ක්‍රියාමාර්ගය කුමක්දැයි තීරණය කිරීමත්ය.",
       "differences": [],
       "links": [
@@ -292,8 +378,24 @@
       ]
     },
     {
+      "id": "australia-pacific-military",
+      "headline": "ප්‍රාදේශීය හමුදා අභ්‍යාසයකදී ඕස්ට්‍රේලියාව පැසිෆික් ආරක්ෂක සම්බන්ධතා ව්‍යාප්ත කරයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:02:54.000Z",
+      "voiceScript": "ඕස්ට්‍රේලියාව පැසිෆික් සහකරුවන් සමඟ ප්‍රදේශයේ සහයෝගිතාව වර්ධනය කිරීමේ අරමුණ ඇති ප්‍රධාන නාවික අභ්‍යාසයකට එක්වී ඇත. ෆිජි පළමු වරට සහභාගී වීමෙන්, කැනබරා පැසිෆික් කලාපයේ ආරක්ෂක භූමිකාව තවදුරටත් ගැඹුරු කිරීමට උත්සාහ කරන බව පෙනේ. මෙය වැදගත් වන්නේ ආරක්ෂක අභ්‍යාස දැන් බලපෑම සඳහා ඇති විශාල තරඟයේ කොටසක් වන නිසයි. අභ්‍යාසයෙන් කුඩා සහකරුවන්ට තම හැකියාවන් කොතරම් දුරට ගොඩනගාගත හැකිදැයිද පරීක්ෂාවට ලක්වේ.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/australia-joins-pacific-nations-flexing-military-muscle"
+        }
+      ]
+    },
+    {
       "id": "banks-offset-account-failures",
       "headline": "මෝර්ගේජ් offset ගිණුම් වැරදි ණයගන්නන්ට මිලියන ගණන් අහිමි කරලා",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-29T05:46:00.000Z",
       "voiceScript": "ASIC පවසන්නේ බැංකු කිහිපයක් mortgage offset ගිණුම් නිවැරදිව සකස් කිරීම හෝ නිරීක්ෂණය කිරීම අසාර්ථක වී ඇති අතර එමඟින් ගනුදෙනුකරුවන්ට වඩාත් වැඩි පොලියක් ගෙවීමට සිදුවූ බවයි. පසුගිය වසර දෙකකදී බැංකු විසින් ඕස්ට්‍රේලියානු ණයගන්නන්ට මිලියන 55කට වැඩි වන්දි ගෙවා ඇති අතර, ගැටලුව නිවාස ණය ඇති මිලියන ගණනකට බලපායි. මේක වැදගත් වන්නේ offset ගිණුම් නිර්මාණය කර ඇත්තේ වාරික අඩු කිරීමට වුවත් කුඩා පද්ධති වැරදි දිගු කාලයක් තිස්සේ නොදැනී යා හැකි නිසායි. දැන් ණයගන්නන් තම ප්‍රකාශ පරීක්ෂා කළ යුතු අතර බැංකු ඉතිරි වැරදි නිවැරදි කළ යුතුයි.",
       "differences": [
         "ABC වන්දි ප්‍රමාණය සහ නියාමක අනතුරු ඇඟවීම ඉස්මතු කරයි.",
@@ -322,13 +424,13 @@
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
         }
-      ],
-      "publishedAt": "2026-07-29T05:46:00.000Z",
-      "sourceCount": 5
+      ]
     },
     {
       "id": "geelong-driver-jailed-mia-rossiter",
       "headline": "Geelong මාරක අනතුරට司机ට වික්ටෝරියා අධිකරණය සිර දඩුවම් දීලා",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T05:29:54.000Z",
       "voiceScript": "12 හැවිරිදි Mia Rossiter මියගිය Geelong අසළ අනතුර සම්බන්ධයෙන් වරද පිළිගත් Jordan Kenyon ට වික්ටෝරියා අධිකරණය සිර දඩුවම් ලබාදී ඇත. ඔහු parole එකේ සිටි බවත්, දිගු කාලීන රියදුරු වාර්තාවක් තිබූ බවත්, GHB භාවිතයෙන් සිටියදී Stonehaven හි පවුලේ කාරය මතට ගැටුණු බවත් අධිකරණය අසා ඇත. මෙම නඩුව වැදගත් වන්නේ නැවත නැවත කරන අනතුරුදායක රිය පැදවීම හා දුර්වල නිරීක්ෂණය මරණීය ප්‍රතිඵලයකට යා හැකි බව නැවත පෙන්වන නිසායි. ඊළඟට දඬුවම් විස්තර සහ Rossiter පවුලේ සුවය යළි ගොඩනැගීමයි.",
       "differences": [],
       "links": [
@@ -336,13 +438,13 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/jordan-kenyon-jailed-over-crash-that-killed-mia-rossiter/106971210"
         }
-      ],
-      "publishedAt": "2026-07-29T05:29:54.000Z",
-      "sourceCount": 1
+      ]
     },
     {
       "id": "angus-taylor-icac-donation-denial",
       "headline": "NSW ICAC விசாரணை Angus Taylor மீது அரசியல் அழுத்தத்தை அதிகரிக்கிறது",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-29T05:24:20.000Z",
       "voiceScript": "NSW ஊழல் விசாரணையில் சாட்சிகள் மற்றும் செய்திகள் பாதுகாப்பு மனப்பாங்குள்ள Liberal குழுவுக்கு வழங்கப்பட்ட நன்கொடைகள் குறித்த குற்றச்சாட்டுகளை எழுப்பியதால் Angus Taylor பரந்த faction போராட்டத்தில் சிக்கினார். Taylor எந்தப் பணமும் செலுத்தவில்லை என்றும், தவறு செய்ததாக குற்றம் சாட்டப்படவில்லை என்றும் கூறுகிறார்; ஆனால் இந்த விசாரணை கட்சிக்கு ஏற்கெனவே அரசியல் பாதிப்பை அதிகரித்துவிட்டது. முன்னாள் அமைச்சரை குறிவைத்த சேதப்படுத்தும் ஆவணத்தையும் ஆணையம் ஆராய்கிறது, எனவே விசாரணை பரப்பு மேலும் விரிந்துள்ளது. அடுத்த கட்டம் விசாரணை தொடர்வதும், குற்றச்சாட்டுகள் அதிகாரப்பூர்வ தவறை இணைக்கிறதா என்பதைப் பார்க்கவும்தான்.",
       "differences": [
         "ABC David Elliott-ஐ குறிவைத்த `shit sheet` சான்றில் கவனம் செலுத்துகிறது.",
@@ -362,9 +464,7 @@
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/no-payment-was-made-liberal-leader-denies-donation"
         }
-      ],
-      "publishedAt": "2026-07-29T05:24:20.000Z",
-      "sourceCount": 3
+      ]
     },
     {
       "id": "one-nation-qld-missing-financial-statements",
@@ -423,6 +523,8 @@
     {
       "id": "june-inflation-eases-rate-hike-odds",
       "headline": "ජූනි උද්ධමනය පහළ යයි, අගෝස්තු පොලී අනුපාත පීඩනය ලිහිල් වෙයි",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-29T04:21:32.000Z",
       "voiceScript": "ඕස්ට්‍රේලියාවේ වාර්ෂික උද්ධමනය ජූනි මාසයේදී සියයට 3.8 දක්වා පහළ ගිය අතර, ඕස්ට්‍රේලියානු මහ බැංකුව නිරීක්ෂණය කරන මූලික උද්ධමන මිනුම සියයට 3.6ක් ලෙසම පැවතිණි. මේ අගය ටිකක් ලිහිල් වීමෙන් ගෘහස්ථ පීඩනය අඩුවුණු අතර අගෝස්තු මාසයේ පොලී අනුපාතය තවත් ඉහළ යාමේ හැකියාව වෙළඳපොළ තුළ අඩු විය. නිවාස, කුලී සහ සේවා මිල තවමත් දැඩි නිසා සම්පූර්ණ සහනයක් නැහැ. ඕස්ට්‍රේලියානු මහ බැංකුව සති දෙකකින් නැවත රැස්වෙන බැවින් ඊළඟ තීරණය ණය වියදම්, වියදම් සහ විශ්වාසය සඳහා වැදගත් වනු ඇත. ඉන්ධන, නිවාස සහ අනෙකුත් සැපයුම් කම්පන ඉදිරි උද්ධමන කියවීම්වලට තවදුරටත් බලපාන්නේද යන්න දැන් බලන්න ඕනෑ.",
       "differences": [
         "පළමු වාර්තාව අඩු පාරිභෝගික මිල දර්ශකය සහ වෙළඳපොළ ප්‍රතිචාරය ඉස්මතු කරයි.",
@@ -452,9 +554,7 @@
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/podcast-episode/chalmers-inflation-drop-is-a-good-sign-evening-news-bulletin-29-july-2026/expibfrsb"
         }
-      ],
-      "publishedAt": "2026-07-29T04:21:32.000Z",
-      "sourceCount": 5
+      ]
     },
     {
       "id": "pump-price-relief-ends-oil-risks",
@@ -756,6 +856,20 @@
       ]
     },
     {
+      "id": "higgins-settlement",
+      "headline": "Higgins කතාවේ තවත් නීතිමය නඩුවක් සමුළුවෙන් අවසන්",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T23:20:16.000Z",
+      "voiceScript": "Brittany Higgins කතාවට සම්බන්ධ සේවා ස්ථාන හිමිකම් නඩුවක් Commonwealth විසින් සමථ කර ඇත. මෙම එකඟතාවයට හිටපු ලිබරල් කාර්ය මණ්ඩල සාමාජික Fiona Brownද ඇතුළත් වන අතර, එය වසර ගණනාවක්ම දේශපාලන හා වැඩපොළ ප්‍රතිඵල පිළිබඳ මහජන විමසුමකින් පසු එළඹුණි. මෙය වැදගත් වන්නේ ජාතික වශයෙන් විවාදය වෙනස් කළ කතාවකින් තවත් නිරාකරණය නොවූ හිමිකමක් ඉවත් කරන නිසාය. වගවීම පිළිබඳ විශාල ප්‍රශ්න තවමත් දිගටම පවතිනු ඇත.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/higgins-legal-saga-brought-to-a-close-with-settlement"
+        }
+      ]
+    },
+    {
       "id": "data-centre-energy-pushback",
       "headline": "අග්‍රාමාත්‍යයාගේ දත්ත මධ්‍යස්ථාන තල්ලුව බලශක්ති හා සැලසුම් විරෝධතාවට මුහුණ දෙයි",
       "sourceCount": 2,
@@ -823,9 +937,9 @@
     },
     {
       "id": "lachie-kennedy-silver",
-      "publishedAt": "2026-07-28T22:15:43Z",
       "headline": "ග්ලාස්ගෝ 100 මීටර් රිදී පදක්කමෙන් කෙනඩි ඔස්ට්‍රේලියානු දිගු පදක්කම් හිඟය අවසන් කරයි",
       "sourceCount": 4,
+      "publishedAt": "2026-07-28T22:15:43Z",
       "voiceScript": "ලැචී කෙනඩි ග්ලාස්ගෝහි පිරිමි මීටර් 100 අවසන් තරගයේදී තත්පර 9.85ක් දුවා රිදී පදක්කම දිනා ගත්තේය. එමඟින් පට්රික් ජොන්සන්ගේ දිගුකාලීන ඔස්ට්‍රේලියානු වාර්තාව බිඳ වැටුණු අතර 1962 සිට පැවති පිරිමි ස්ප්‍රින්ට් පදක්කම් හිඟයත් අවසන් විය. මෙය වැදගත් වන්නේ ස්ප්‍රින්ට් තරගය තරඟාවලියේ ඉතා කැපී පෙනෙන වේදිකාවක් බැවින්, ඔස්ට්‍රේලියාව දශක ගණනාවකට පසු සැබෑ ඉදිරි පියවරක් දැක්වූ නිසාය. ඊළඟ පියවර වන්නේ ඔහු සහ සමස්ත ස්ප්‍රින්ට් කණ්ඩායම මෙය තවත් පදක්කම් අවස්ථා බවට පත් කරන්නේද යන්නයි.",
       "differences": [
         "ABC News කාල වාර්තාව සහ බිඳ වැටුණු ජාතික වාර්තාව මත අවධානය තබයි.",
@@ -849,6 +963,34 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/sport/commonwealth-games/comm-games-day-5-live/live-coverage/c9a76a7413c93a8f685bce6cf672e03a"
+        }
+      ]
+    },
+    {
+      "id": "australia-pacific-aid",
+      "headline": "චීනයේ ක්‍රමය වෙනස් වෙද්දී ඕස්ට්‍රේලියාව තවමත් පැසිෆික් ආධාරයේ ඉදිරියෙන්",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T19:40:19.000Z",
+      "voiceScript": "චීනය විශාල ණයවලින් ඉවත්ව කුඩා ռազմත්මක ව්‍යාපෘති වෙත හැරුණත්, ඕස්ට්‍රේලියාව තවමත් පැසිෆික් කලාපයේ විශාලතම ආධාරකරු ලෙස පවතින බව නව වාර්තාවකින් කියවේ. වාර්තාවට අනුව 2024දී අරමුදල් හි විශාලතම කොටස ඕස්ට්‍රේලියාව ලබා දුන් අතර, චීනයේ භූමිකාව තෝරාගත් ව්‍යාපෘති වෙත සීමා වී ඇත. මෙය වැදගත් වන්නේ ආධාර දැන් කලාපයේ බලපෑම සහ ආරක්ෂාව පිළිබඳ විශාල තරඟයේ කොටසක් වන නිසයි. 2025 සංඛ්‍යා නිකුත් වූ පසු ඊළඟ මිනුම එයයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/pacific-china-australia-development-aid-lowy/dksbg6tui"
+        }
+      ]
+    },
+    {
+      "id": "migration-falls",
+      "headline": "පශ්චාත්-මහാമාරි සංක්‍රමණ වැඩිවීම දැඩි ලෙස අඩුවෙයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T17:30:00.000Z",
+      "voiceScript": "නව විශ්ලේෂණයකින් පෙන්වෙන්නේ පශ්චාත්-මහාමාරි උච්චතම මට්ටම්වලින් සංක්‍රමණය දැඩි ලෙස පහළ ගොස් ඇති බවයි. මෙය වැදගත් වන්නේ සංක්‍රමණය නිවස, වැටුප් සහ මූලික පහසුකම් පීඩනය පිළිබඳ වාදයට සෘජුවම සම්බන්ධ වන නිසයි. දේශපාලන උණුසුම තවමත් තියෙද්දීවත් ආගමන පරිමාණය ටිකක් ලිහිල් වන්නට ඇති බව මෙය පෙන්වයි. ඊළඟ සංඛ්‍යා පෙළේදී මේ පහළ යෑම දිගටම පවතිනවාදැයි බලන්න ඇත.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
         }
       ]
     },
@@ -1083,9 +1225,9 @@
     },
     {
       "id": "asx-bullock-reaction",
-      "publishedAt": "2026-07-28T06:23:00Z",
       "headline": "බුලොක්ගේ අදහස්ෙන් පොලී වැඩිවීමේ බිය අඩුවෙද්දී ඕස්ට්‍රේලියානු කොටස් වෙළඳපොළ ඉහළට",
       "sourceCount": 3,
+      "publishedAt": "2026-07-28T06:23:00Z",
       "voiceScript": "ඕස්ට්‍රේලියානු කොටස් වෙළඳපොළ ඉහළ ගියේ සංචිත බැංකු අධිපතිනි මිෂෙල් බුලොක්ගේ අදහස් නිසාය. ඉල්ලුම මන්දගාමීවීම සහ නිවාස වෙළඳපොළ සිසිල්වීම උද්ධමන පීඩනය අඩු කළ හැකි බව ඇය කියා සිටියා. ඒ නිසා අගෝස්තු මාසයේ තවත් පොලී වැඩිවීමක් ගැන වෙළෙඳපොළේ බිය අඩු විය. මෙය වැදගත් වන්නේ නිවාස ණය, ව්‍යාපාර ණය සහ ආයෝජක විශ්වාසයට එය සෘජුව බලපාන නිසාය. ඊළඟ පියවර වන්නේ නව උද්ධමන දත්ත මේ අදහස් තහවුරු කරනවාද කියා බැලීමයි.",
       "differences": [
         "ABC News කොටස් වෙළඳපොළ අවසානය සහ තාක්ෂණික කොටස් පහළ යාම මත අවධානය තබයි.",
@@ -1142,6 +1284,20 @@
       ]
     },
     {
+      "id": "housing-red-tape",
+      "headline": "නිවාස සංස්කරණ ව්‍යාපාරය අනුමත කිරීමේ රෙගුලාසි මගින් ඇති බාධා ඉලක්ක කරයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T05:39:10.000Z",
+      "voiceScript": "නිවාස අර්බුදය විසඳීමට නව පියවරකදී අවධානය යොමු වන්නේ අනුමත කිරීම් හෙමින් කරන සහ ඉදිකිරීම් නැවත්වන නීති මාලාව මතයි. තර්කය නම් වැඩි නිවාස ඉදිකිරීමට බාධා කරන එක වියදම් පමණක් නොව, අනවශ්‍ය රෙඩ් ටේප් ද බවයි. මෙය වැදගත් වන්නේ සැපයුම් පීඩනය කුලී, අඩු මිල සහ දේශපාලන නොසතුටට සෘජුවම බලපාන නිසයි. දැන් ප්‍රශ්නය වන්නේ, අලුත් ප්‍රමාදයන් නොමැතිව ඒ බාධා කපා හැරීමට රජයන්ට හැකිද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/the-rules-stopping-australia-from-building-more-homes"
+        }
+      ]
+    },
+    {
       "id": "nsw-icac-perrottet-brothers",
       "headline": "NSW ICAC විමර්ශනය රහස් පටිගත කිරීම් සහ ව්‍යාජ Liberal ගෙවීම් දක්වා පුළුල් වෙයි",
       "sourceCount": 5,
@@ -1187,9 +1343,9 @@
     },
     {
       "id": "the-castle-stage-play",
-      "publishedAt": "2026-07-28T03:12:51Z",
-      "sourceCount": 2,
       "headline": "The Castle වේදිකා නාට්‍යයක් වෙයි, Working Dog මුල් කණ්ඩායම නැවත එක් වෙයි",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-28T03:12:51Z",
       "voiceScript": "Working Dog හි මුල් කණ්ඩායම The Castle චිත්‍රපටය වේදිකා නාට්‍යයක් ලෙස නැවත නිර්මාණය කරමින් සිටී, සහ එය Melbourne හි 2027 දී පෙන්වීමට සැලසුම් කර ඇත. මෙය වැදගත් වන්නේ මෙම චිත්‍රපටය ඕස්ට්‍රේලියාවේ වැඩිම වාර ගණනක් උපුටා දක්වනු ලබන විකට කතාවලින් එකක් වන නිසාය. වේදිකා අනුවාදය ඒහි උණුසුම සහ සාමාන්‍ය පවුල් කතාව ජීවමාන ප්‍රේක්ෂකයින් අතරත් වැඩ කරයිද යන්න පෙන්වනු ඇත. ඊළඟ පියවර වන්නේ නළු තේරීම සහ නිෂ්පාදන විස්තරයි.",
       "differences": [
         "ABC ප්‍රවෘත්ති වේදිකා දියත් කිරීම සහ ජනප්‍රිය වාක්‍ය ඉස්මතු කරයි.",
@@ -1208,9 +1364,9 @@
     },
     {
       "id": "harvey-norman-latitude-penalty",
-      "publishedAt": "2026-07-28T03:06:34Z",
-      "sourceCount": 2,
       "headline": "Harvey Norman සහ Latitude වෙත credit-card දැන්වීම් ගැන $55m දඩයමක්",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-28T03:06:34Z",
       "voiceScript": "Federal Court එක Harvey Norman සහ Latitude සමාගම්වලට ඒකාබද්ධව $55 million ගෙවීමට නියෝග කර ඇත. හේතුව වූයේ ඔවුන්ගේ interest-free ප්‍රවර්ධනය මගින් ගනුදෙනුකරුවන් credit card ගන්නා ලෙසත් අමතර ගාස්තු ගෙවන ලෙසත් වැරදි ලෙස පෙනෙන්නට සලස්වීමයි. මෙය වැදගත් වන්නේ සමාගම් දැන්වීම්වල සැබෑ වියදම සඟවූ විට නියාමකයින් දැඩිව ක්‍රියා කරන බව පෙන්නුම් කරන නිසාය. ඉදිරියේදී බලන්න තියෙන්නේ සමාගම් දෙක මේ නියෝගයට දෙන ප්‍රතිචාරය සහ සමාන ප්‍රවර්ධන වෙනස් කරන්නේද යන්නයි.",
       "differences": [
         "ABC News පාරිභෝගිකයන් වංචා වුණේ කෙසේදැයි නියාමකය පෙන්වූ ආකාරය කෙරෙහි අවධානය යොමු කරයි.",
@@ -1465,32 +1621,6 @@
       ]
     },
     {
-      "id": "wa-oil-refinery",
-      "headline": "දශක කිහිපයකින් ඔස්ට්‍රේලියාවේ ප්‍රථම නව පිරිපහදුව සඳහා WA හට සත්කාරකත්වය සැපයිය හැකිය",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "ෆෙඩරල් සහ බටහිර ඕස්ට්‍රේලියානු ආන්ඩු WA හි Perdaman පිටුබලය සහිත පිරිපහදු යෝජනාවක් සඳහා ශක්‍යතා අධ්‍යයනයක් සඳහා අරමුදල් සපයයි. එය ඉදිරියට ගියහොත්, මැදපෙරදිග ආතතීන් තෙල් මිල ඉහළ නංවන අතර රට තවමත් ආනයනික ඉන්ධන මත රඳා පවතින ආකාරය හෙළිදරව් කිරීමත් සමඟ එය 1960 ගණන්වලින් පසු ඕස්ට්‍රේලියාවේ පළමු විශාල නව පිරිපහදුව වනු ඇත. මීළඟ පියවර වන්නේ අඩවි තෝරාගැනීම, අරමුදල් සැපයීමේ නියමයන් සහ පාරිසරික අනුමැතිය, ව්‍යාපෘතියට ඉන්ධන සුරක්ෂිතතාව සහ සැපයුම් ඔරොත්තු දීමේ හැකියාව වැඩිදියුණු කළ හැකිද යන්න හැඩගස්වනු ඇත.",
-      "differences": [
-        "ABC පුවත්: WA යෝජනාව සහ රජය විසින් අනුබල දෙන ශක්‍යතා අධ්‍යයනය කෙරෙහි අවධානය යොමු කරයි.",
-        "The Guardian Australia: ඕස්ට්‍රේලියාව සිය ද්‍රව ඉන්ධනවලින් 90%ක් පමණ ආනයනය කරන බව සඳහන් කරමින් උද්ධමනය සහ බලශක්ති ආරක්ෂණ කෝණය අවධාරණය කරයි.",
-        "ඕස්ට්‍රේලියානු මූල්‍ය සමාලෝචනය: WA ස්ථානය තවමත් තීරණය කර නොමැති ඉන්ධන අර්බුදයකට අගමැතිගේ ප්‍රතිචාරය ලෙස එය රාමු කරයි."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
-        }
-      ]
-    },
-    {
       "id": "sa-industrial-manslaughter",
       "headline": "දකුණු ඕස්ට්‍රේලියානු නිෂ්පාදකයාට පළමු කාර්මික මනුෂ්‍ය ඝාතනය සම්බන්ධයෙන් චෝදනා එල්ල විය",
       "sourceCount": 2,
@@ -1608,12 +1738,13 @@
     {
       "id": "qld-river-to-the-sea-challenge",
       "headline": "\"ගඟේ සිට මුහුදට\" ක්වීන්ස්ලන්ත තහනම මහාධිකරණ අභියෝගයට මුහුණ දෙයි",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-27T06:57:05Z",
       "voiceScript": "ක්වීන්ස්ලන්ඩ් හි 'ගඟේ සිට මුහුද දක්වා' තහනම් කිරීම දැන් මහාධිකරණයේ අභියෝගයට ලක්ව ඇත්තේ නීතිය වෛරී කථන වැළැක්වීමේ සිට කථන පාලනය දක්වා සීමාව ඉක්මවා යන බව පවසන විරෝධතාකරුවන් විසිනි. ආරවුල වන්නේ ප්‍රජාවන් ආරක්ෂා කිරීම, මහජන සාමය පවත්වා ගැනීම සහ දේශපාලන ප්‍රකාශනය සීමා කිරීම අතර රාජ්‍යය රේඛාව අඳින්නේ කොතැනද යන්නයි. ඊළඟට පැමිණෙන්නේ අභියෝගයට සවන් දෙනවාද නීතිය පටුද යන්න ඇතුළු අධිකරණ ක්‍රියාවලියම ය.",
       "differences": [
         "ABC News: අභියෝගය සෘජු නීතිමය පරීක්ෂණයක් ලෙස ඉදිරිපත් කරන අතර ගැටලුවේ වචන උච්චාරණය කරයි.",
         "ගාඩියන් ඕස්ට්‍රේලියාව: තහනම විරෝධතා භාෂාවට අදාළ වන ආකාරය පිළිබඳ නිදහස් කථන සටන අවධාරණය කරයි."
       ],
-      "publishedAt": "2026-07-27T06:57:05Z",
       "links": [
         {
           "source": "ABC News",
@@ -1623,8 +1754,7 @@
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/27/protesters-launch-high-court-challenge-to-queensland-ban-on-from-the-river-to-the-sea-ntwnfb"
         }
-      ],
-      "sourceCount": 2
+      ]
     },
     {
       "id": "pauline-hanson-verdict",
@@ -1709,6 +1839,32 @@
         {
           "source": "The Sydney Morning Herald",
           "url": "https://www.smh.com.au/national/queensland/car-strikes-train-bridge-suspending-line-for-over-an-hour-20260727-p60ith.html"
+        }
+      ]
+    },
+    {
+      "id": "wa-oil-refinery",
+      "headline": "දශක කිහිපයකින් ඔස්ට්‍රේලියාවේ ප්‍රථම නව පිරිපහදුව සඳහා WA හට සත්කාරකත්වය සැපයිය හැකිය",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "ෆෙඩරල් සහ බටහිර ඕස්ට්‍රේලියානු ආන්ඩු WA හි Perdaman පිටුබලය සහිත පිරිපහදු යෝජනාවක් සඳහා ශක්‍යතා අධ්‍යයනයක් සඳහා අරමුදල් සපයයි. එය ඉදිරියට ගියහොත්, මැදපෙරදිග ආතතීන් තෙල් මිල ඉහළ නංවන අතර රට තවමත් ආනයනික ඉන්ධන මත රඳා පවතින ආකාරය හෙළිදරව් කිරීමත් සමඟ එය 1960 ගණන්වලින් පසු ඕස්ට්‍රේලියාවේ පළමු විශාල නව පිරිපහදුව වනු ඇත. මීළඟ පියවර වන්නේ අඩවි තෝරාගැනීම, අරමුදල් සැපයීමේ නියමයන් සහ පාරිසරික අනුමැතිය, ව්‍යාපෘතියට ඉන්ධන සුරක්ෂිතතාව සහ සැපයුම් ඔරොත්තු දීමේ හැකියාව වැඩිදියුණු කළ හැකිද යන්න හැඩගස්වනු ඇත.",
+      "differences": [
+        "ABC පුවත්: WA යෝජනාව සහ රජය විසින් අනුබල දෙන ශක්‍යතා අධ්‍යයනය කෙරෙහි අවධානය යොමු කරයි.",
+        "The Guardian Australia: ඕස්ට්‍රේලියාව සිය ද්‍රව ඉන්ධනවලින් 90%ක් පමණ ආනයනය කරන බව සඳහන් කරමින් උද්ධමනය සහ බලශක්ති ආරක්ෂණ කෝණය අවධාරණය කරයි.",
+        "ඕස්ට්‍රේලියානු මූල්‍ය සමාලෝචනය: WA ස්ථානය තවමත් තීරණය කර නොමැති ඉන්ධන අර්බුදයකට අගමැතිගේ ප්‍රතිචාරය ලෙස එය රාමු කරයි."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
         }
       ]
     },
@@ -1799,6 +1955,27 @@
       ]
     },
     {
+      "id": "census-explained",
+      "headline": "2026 සංගණනය: සහභාගී විය යුත්තේ කවුරුන්ද සහ අවදානමට ලක්ව ඇති දේ",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T12:39:35Z",
+      "voiceScript": "2026 සංගණනය අගෝස්තු 11 දිනට නියමිත අතර, සමහර තාවකාලික වීසා බලපත්‍රලාභීන් ඇතුළුව ඕස්ට්‍රේලියාවේ වෙසෙන බොහෝ දෙනා එය සම්පූර්ණ කළ යුතු බව නිලධාරීහු පවසති. ප්‍රධාන ප්‍රශ්න වන්නේ අවසාන දිනය, හැකි දඩ මුදල් සහ පාසල්, සෞඛ්‍ය සේවා සහ අනෙකුත් සම්පත් වෙන් කිරීමට දත්ත භාවිතා කරන්නේ කෙසේද යන්නයි. මීළඟට නැරඹිය යුතු දෙය නම් සිහිකැඳවීම් ප්‍රතිචාර අනුපාතය ඉහළ නංවන්නේද යන්නයි, විශේෂයෙන්ම සංක්‍රමණික කුටුම්භයන් සහ දුරස්ථ ප්‍රදේශවල ජනතාව අතර.",
+      "differences": [
+        "7NEWS: ප්‍රධාන දිනය, එය සම්පූර්ණ කරන්නේ කෙසේද සහ විභව දඩ මුදල් නියම කරයි.",
+        "SBS ප්‍රවෘත්ති: කුමන තාවකාලික වීසා බලපත්‍රලාභීන් සහභාගී විය යුතුද සහ ගණන් කිරීම වැදගත් වන්නේ මන්දැයි ඉස්මතු කරයි."
+      ],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj"
+        }
+      ]
+    },
+    {
       "id": "vad-telehealth",
       "headline": "සහායක මියයාම සඳහා ටෙලිහෙල්ත් උපදේශන සඳහා කම්කරු සහාය දක්වයි",
       "sourceCount": 4,
@@ -1821,27 +1998,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5"
-        }
-      ]
-    },
-    {
-      "id": "census-explained",
-      "headline": "2026 සංගණනය: සහභාගී විය යුත්තේ කවුරුන්ද සහ අවදානමට ලක්ව ඇති දේ",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T12:39:35Z",
-      "voiceScript": "2026 සංගණනය අගෝස්තු 11 දිනට නියමිත අතර, සමහර තාවකාලික වීසා බලපත්‍රලාභීන් ඇතුළුව ඕස්ට්‍රේලියාවේ වෙසෙන බොහෝ දෙනා එය සම්පූර්ණ කළ යුතු බව නිලධාරීහු පවසති. ප්‍රධාන ප්‍රශ්න වන්නේ අවසාන දිනය, හැකි දඩ මුදල් සහ පාසල්, සෞඛ්‍ය සේවා සහ අනෙකුත් සම්පත් වෙන් කිරීමට දත්ත භාවිතා කරන්නේ කෙසේද යන්නයි. මීළඟට නැරඹිය යුතු දෙය නම් සිහිකැඳවීම් ප්‍රතිචාර අනුපාතය ඉහළ නංවන්නේද යන්නයි, විශේෂයෙන්ම සංක්‍රමණික කුටුම්භයන් සහ දුරස්ථ ප්‍රදේශවල ජනතාව අතර.",
-      "differences": [
-        "7NEWS: ප්‍රධාන දිනය, එය සම්පූර්ණ කරන්නේ කෙසේද සහ විභව දඩ මුදල් නියම කරයි.",
-        "SBS ප්‍රවෘත්ති: කුමන තාවකාලික වීසා බලපත්‍රලාභීන් සහභාගී විය යුතුද සහ ගණන් කිරීම වැදගත් වන්නේ මන්දැයි ඉස්මතු කරයි."
-      ],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj"
         }
       ]
     },
@@ -1878,40 +2034,6 @@
         {
           "source": "Brisbane Times",
           "url": "https://www.brisbanetimes.com.au/national/queensland/three-dead-in-two-crashes-across-south-east-overnight-20260726-p60ils.html"
-        }
-      ]
-    },
-    {
-      "id": "fuel-price-rise",
-      "headline": "සුරාබදු කප්පාදුව අවසන් වීමට ආසන්න වන විට ඉන්ධන මිල ඉහළ යමින් තිබේ",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-25T14:19:00+10:00",
-      "voiceScript": "ඉන්ධන මිල තවමත් ඉහළ යමින් පවතින අතර, ෆෙඩරල් රජය පැහැදිලි කර ඇත්තේ ඉන්ධන සුරාබදු කප්පාදුව අගෝස්තු 2 කල් ඉකුත්වීමෙන් ඔබ්බට දීර්ඝ නොකරන බවයි. ගෝලීය තෙල් මිල ඉහළ යාම සහ භූ දේශපාලනික කඩාකප්පල් වීම සැපයුමට පහර දීමත් සමඟ, සිඩ්නි, මෙල්බර්න් සහ වෙනත් තැන්වල පොම්ප මිල දැනටමත් ඉහළ යමින් පවතී. නිවෙස් හිමියන්ට සහ මගීන්ට එය මුලින්ම දැනෙනු ඇත. මීළඟ ප්‍රශ්නය වන්නේ ඉහළ ඉන්ධන පිරිවැය උද්ධමනය දක්වා පෝෂණය වන අතර රිසර්ව් බැංකුවේ අගෝස්තු පොලී අනුපාත තීරණයට බලපාන්නේද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293"
-        },
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         }
       ]
     },
@@ -1974,6 +2096,40 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/environment/2026/jul/25/herbicide-parkinsons-disease-paraquat-pulled-from-sale-australia-syngenta"
+        }
+      ]
+    },
+    {
+      "id": "fuel-price-rise",
+      "headline": "සුරාබදු කප්පාදුව අවසන් වීමට ආසන්න වන විට ඉන්ධන මිල ඉහළ යමින් තිබේ",
+      "sourceCount": 6,
+      "publishedAt": "2026-07-25T14:19:00+10:00",
+      "voiceScript": "ඉන්ධන මිල තවමත් ඉහළ යමින් පවතින අතර, ෆෙඩරල් රජය පැහැදිලි කර ඇත්තේ ඉන්ධන සුරාබදු කප්පාදුව අගෝස්තු 2 කල් ඉකුත්වීමෙන් ඔබ්බට දීර්ඝ නොකරන බවයි. ගෝලීය තෙල් මිල ඉහළ යාම සහ භූ දේශපාලනික කඩාකප්පල් වීම සැපයුමට පහර දීමත් සමඟ, සිඩ්නි, මෙල්බර්න් සහ වෙනත් තැන්වල පොම්ප මිල දැනටමත් ඉහළ යමින් පවතී. නිවෙස් හිමියන්ට සහ මගීන්ට එය මුලින්ම දැනෙනු ඇත. මීළඟ ප්‍රශ්නය වන්නේ ඉහළ ඉන්ධන පිරිවැය උද්ධමනය දක්වා පෝෂණය වන අතර රිසර්ව් බැංකුවේ අගෝස්තු පොලී අනුපාත තීරණයට බලපාන්නේද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         }
       ]
     },
@@ -2047,6 +2203,5 @@
         }
       ]
     }
-  ],
-  "language": "si"
+  ]
 }
