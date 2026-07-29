@@ -17,6 +17,7 @@ import "./register-sw.js";
 
 const LANGUAGES = [
   { code: "en", label: "EN" },
+  { code: "es", label: "Español" },
   { code: "zh-Hans", label: "简体" },
   { code: "zh-Hant", label: "繁體" },
   { code: "si", label: "සිංහල" },
@@ -309,6 +310,33 @@ const I18N = {
     noMatches: "No matching news",
     dataError: "News data is temporarily unavailable. It will reload from the data source when online."
   },
+  es: {
+    appName: "4News",
+    appSubtitle: "Minimal, impulsado por IA",
+    toolsTitle: "Filtros y estado de datos",
+    localData: "Datos locales",
+    pending: "Pendiente",
+    online: "En línea",
+    offline: "Sin conexión",
+    searchPlaceholder: "Buscar titulares o resúmenes",
+    filterLabel: "Filtrar noticias",
+    all: "Todo",
+    multi: "Varias fuentes",
+    single: "Una fuente",
+    reload: "Recargar",
+    font: "Fuente",
+    fontSize: "Tamaño",
+    theme: "Tema",
+    install: "Instalar",
+    sources: "Fuentes",
+    noticeTitle: "Nota de contenido",
+    noticeText: "Los resúmenes son generados por IA a partir de fuentes públicas y pueden contener errores. Consulta las fuentes originales para ver el contexto completo. Este sitio solo ofrece resúmenes reescritos y enlaces a las fuentes.",
+    readAloud: "Leer en voz alta",
+    speechUnavailable: "No hay una voz compatible en este dispositivo",
+    stopReading: "Detener lectura",
+    noMatches: "No hay noticias coincidentes",
+    dataError: "Los datos de noticias no están disponibles temporalmente. Se volverán a cargar desde la fuente cuando haya conexión."
+  },
   ja: {
     appName: "4News",
     appSubtitle: "客観的で独立した豪州ニュース要約",
@@ -424,6 +452,7 @@ const SPEECH_LANGUAGES = {
   "zh-Hans": "zh-CN",
   "zh-Hant": "zh-TW",
   en: "en-AU",
+  es: "es-ES",
   si: "si-LK",
   ja: "ja-JP",
   ko: "ko-KR",
@@ -442,6 +471,10 @@ const SPEECH_VOICE_MATCHERS = {
   en: {
     langs: ["en-au", "en_us", "en-us", "en-gb", "en"],
     names: ["english", "australia", "australian", "samantha", "daniel", "zira", "aria"]
+  },
+  es: {
+    langs: ["es-es", "es_mx", "es-mx", "es-us", "es"],
+    names: ["spanish", "español", "monica", "jorge", "paulina", "marisol"]
   },
   si: {
     langs: ["si-lk", "si_lk", "si"],
@@ -474,6 +507,7 @@ function normalizeLanguage(value) {
   if (lower.startsWith("ko")) return "ko";
   if (lower.startsWith("vi")) return "vi";
   if (lower.startsWith("th")) return "th";
+  if (lower.startsWith("es")) return "es";
   if (lower.startsWith("en")) return "en";
   return "en";
 }
