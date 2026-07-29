@@ -56,6 +56,104 @@ const FONT_SIZE_OPTIONS = [
   { code: "xlarge", label: "XL", scale: 1.24 }
 ];
 
+const THEME_OPTIONS = [
+  {
+    code: "classic",
+    label: "Classic",
+    vars: {
+      "--ink": "#172026",
+      "--muted": "#66727a",
+      "--line": "#d8dde2",
+      "--paper": "#f7f8f8",
+      "--panel": "#ffffff",
+      "--panel-soft": "#f1f4f6",
+      "--sidebar-bg": "#e9eef2",
+      "--detail-bg": "#eef2f5",
+      "--control-bg": "rgba(255, 255, 255, 0.72)",
+      "--brand": "#102a43",
+      "--brand-strong": "#0b1f33",
+      "--accent": "#b4232a",
+      "--accent-dark": "#8f1d25"
+    }
+  },
+  {
+    code: "paper",
+    label: "Paper",
+    vars: {
+      "--ink": "#202124",
+      "--muted": "#70757a",
+      "--line": "#dedbd2",
+      "--paper": "#fbfaf6",
+      "--panel": "#ffffff",
+      "--panel-soft": "#f3f1ea",
+      "--sidebar-bg": "#f0eee6",
+      "--detail-bg": "#f6f4ee",
+      "--control-bg": "rgba(255, 255, 255, 0.76)",
+      "--brand": "#27364a",
+      "--brand-strong": "#182435",
+      "--accent": "#9f2f2f",
+      "--accent-dark": "#7c2227"
+    }
+  },
+  {
+    code: "sepia",
+    label: "Sepia",
+    vars: {
+      "--ink": "#2a2118",
+      "--muted": "#74685c",
+      "--line": "#d9cdbd",
+      "--paper": "#f5ead8",
+      "--panel": "#fff7ea",
+      "--panel-soft": "#eee0cb",
+      "--sidebar-bg": "#eadcc8",
+      "--detail-bg": "#efe2cf",
+      "--control-bg": "rgba(255, 247, 234, 0.78)",
+      "--brand": "#4a3524",
+      "--brand-strong": "#2e2118",
+      "--accent": "#9b3a2c",
+      "--accent-dark": "#743024"
+    }
+  },
+  {
+    code: "green",
+    label: "Soft Green",
+    vars: {
+      "--ink": "#17231d",
+      "--muted": "#63716a",
+      "--line": "#d3ddd4",
+      "--paper": "#f5f8f4",
+      "--panel": "#ffffff",
+      "--panel-soft": "#edf3ed",
+      "--sidebar-bg": "#e5eee5",
+      "--detail-bg": "#edf4ed",
+      "--control-bg": "rgba(255, 255, 255, 0.74)",
+      "--brand": "#1f3a32",
+      "--brand-strong": "#142820",
+      "--accent": "#9f3438",
+      "--accent-dark": "#7d272d"
+    }
+  },
+  {
+    code: "night",
+    label: "Night",
+    vars: {
+      "--ink": "#edf2f7",
+      "--muted": "#9aa8b5",
+      "--line": "#293746",
+      "--paper": "#101821",
+      "--panel": "#17212c",
+      "--panel-soft": "#1f2b38",
+      "--sidebar-bg": "#0c141d",
+      "--detail-bg": "#111b25",
+      "--control-bg": "rgba(23, 33, 44, 0.82)",
+      "--brand": "#d6e4f0",
+      "--brand-strong": "#0a1118",
+      "--accent": "#d45a61",
+      "--accent-dark": "#f0a3a8"
+    }
+  }
+];
+
 const I18N = {
   "zh-Hans": {
     appName: "4news",
@@ -73,6 +171,7 @@ const I18N = {
     reload: "重新读取",
     font: "字体",
     fontSize: "字号",
+    theme: "配色",
     install: "安装到设备",
     sources: "来源",
     noticeTitle: "内容说明",
@@ -99,6 +198,7 @@ const I18N = {
     reload: "重新讀取",
     font: "字體",
     fontSize: "字號",
+    theme: "配色",
     install: "安裝到裝置",
     sources: "來源",
     noticeTitle: "內容說明",
@@ -125,6 +225,7 @@ const I18N = {
     reload: "නැවත පූරණය",
     font: "අකුරු",
     fontSize: "අකුරු ප්‍රමාණය",
+    theme: "තේමාව",
     install: "ස්ථාපනය",
     sources: "මූලාශ්‍ර",
     noticeTitle: "අන්තර්ගත සටහන",
@@ -151,6 +252,7 @@ const I18N = {
     reload: "Reload",
     font: "Font",
     fontSize: "Size",
+    theme: "Theme",
     install: "Install",
     sources: "Sources",
     noticeTitle: "Content note",
@@ -177,6 +279,7 @@ const I18N = {
     reload: "再読み込み",
     font: "フォント",
     fontSize: "サイズ",
+    theme: "テーマ",
     install: "インストール",
     sources: "ソース",
     noticeTitle: "コンテンツ注記",
@@ -203,6 +306,7 @@ const I18N = {
     reload: "다시 읽기",
     font: "글꼴",
     fontSize: "크기",
+    theme: "테마",
     install: "설치",
     sources: "출처",
     noticeTitle: "콘텐츠 안내",
@@ -229,6 +333,7 @@ const I18N = {
     reload: "Tải lại",
     font: "Phông chữ",
     fontSize: "Cỡ chữ",
+    theme: "Giao diện",
     install: "Cài đặt",
     sources: "Nguồn",
     noticeTitle: "Ghi chú nội dung",
@@ -255,6 +360,7 @@ const I18N = {
     reload: "โหลดใหม่",
     font: "ฟอนต์",
     fontSize: "ขนาด",
+    theme: "ธีม",
     install: "ติดตั้ง",
     sources: "แหล่งข่าว",
     noticeTitle: "หมายเหตุเนื้อหา",
@@ -342,6 +448,12 @@ function initialFontSize() {
   const stored = window.localStorage.getItem("brief-font-size");
   if (FONT_SIZE_OPTIONS.some((option) => option.code === stored)) return stored;
   return "standard";
+}
+
+function initialTheme() {
+  const stored = window.localStorage.getItem("brief-theme");
+  if (THEME_OPTIONS.some((option) => option.code === stored)) return stored;
+  return "classic";
 }
 
 function newsSourceUrl(language) {
@@ -624,6 +736,7 @@ function App() {
   const [language, setLanguage] = useState(initialLanguage);
   const [font, setFont] = useState(initialFont);
   const [fontSize, setFontSize] = useState(initialFontSize);
+  const [theme, setTheme] = useState(initialTheme);
   const [speakingId, setSpeakingId] = useState(null);
   const [speechVoices, setSpeechVoices] = useState([]);
   const speechRunRef = useRef(0);
@@ -631,6 +744,7 @@ function App() {
   const labels = I18N[language];
   const selectedFont = FONT_OPTIONS.find((option) => option.code === font) || FONT_OPTIONS[0];
   const selectedFontSize = FONT_SIZE_OPTIONS.find((option) => option.code === fontSize) || FONT_SIZE_OPTIONS[1];
+  const selectedTheme = THEME_OPTIONS.find((option) => option.code === theme) || THEME_OPTIONS[0];
   const activeNewsSourceUrl = newsSourceUrl(language);
   const canSpeak = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
 
@@ -668,6 +782,10 @@ function App() {
   useEffect(() => {
     window.localStorage.setItem("brief-font-size", fontSize);
   }, [fontSize]);
+
+  useEffect(() => {
+    window.localStorage.setItem("brief-theme", theme);
+  }, [theme]);
 
   useEffect(() => {
     return () => {
@@ -808,6 +926,7 @@ function App() {
     <main
       className="app-shell"
       style={{
+        ...selectedTheme.vars,
         "--app-font-family": selectedFont.stack,
         "--font-scale": selectedFontSize.scale
       }}
@@ -895,6 +1014,17 @@ function App() {
               aria-label={labels.fontSize}
             >
               {FONT_SIZE_OPTIONS.map((option) => (
+                <option key={option.code} value={option.code}>
+                  {option.label}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          <div className="setting-control">
+            <span>{labels.theme}</span>
+            <select value={theme} onChange={(event) => setTheme(event.target.value)} aria-label={labels.theme}>
+              {THEME_OPTIONS.map((option) => (
                 <option key={option.code} value={option.code}>
                   {option.label}
                 </option>
