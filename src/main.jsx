@@ -821,6 +821,150 @@ const SOCIAL_TOPIC_RULES = [
   }
 ];
 
+const DEVELOPED_COUNTRY_EXPERIENCE = {
+  housing: {
+    "zh-Hans":
+      "可参考芬兰 Housing First 的经验：先稳定住房，再处理成瘾、就业和医疗，效果通常比让人先满足复杂条件更好；维也纳长期公营和非营利住房说明，供给本身要足够大才会压住价格。反面教训是英国部分地区长期规划拖延和存量住房安全修复缓慢，证明只喊加快审批不够。AI 更适合做三件事：找出审批真正卡在哪个环节，预测哪些家庭会先掉入无家可归风险，并监测补贴是否被房租上涨吞掉。",
+    "zh-Hant":
+      "可參考芬蘭 Housing First 的經驗：先穩定住房，再處理成癮、就業和醫療，效果通常比讓人先滿足複雜條件更好；維也納長期公營和非營利住房說明，供給本身要足夠大才會壓住價格。反面教訓是英國部分地區長期規劃拖延和存量住房安全修復緩慢，證明只喊加快審批不夠。AI 更適合做三件事：找出審批真正卡在哪個環節，預測哪些家庭會先掉入無家可歸風險，並監測補貼是否被房租上漲吞掉。",
+    en:
+      "Finland's Housing First approach is useful here: stabilise housing first, then deal with addiction, work and health, instead of making vulnerable people clear every condition before they get a home. Vienna also shows that large, durable public and non-profit supply can shape prices. The warning case is the UK, where planning delays and slow remediation of unsafe housing stock show that slogans about faster approvals are not enough. AI is most useful for finding the exact approval bottleneck, forecasting which households are closest to homelessness, and checking whether subsidies are being swallowed by rent rises.",
+    es:
+      "La experiencia finlandesa de Housing First es relevante: estabilizar primero la vivienda y luego tratar adicciones, empleo y salud suele funcionar mejor que exigir condiciones previas complejas. Viena muestra que una oferta pública y sin ánimo de lucro suficientemente grande puede contener precios. La advertencia viene del Reino Unido, donde retrasos urbanísticos y reparación lenta de viviendas inseguras muestran que acelerar aprobaciones no basta. La IA puede detectar el cuello de botella real, prever qué hogares se acercan al sinhogarismo y vigilar si los subsidios acaban absorbidos por subidas de alquiler.",
+    ja:
+      "参考になるのはフィンランドの Housing First です。先に住まいを安定させ、その後に依存、仕事、医療を扱う方が、複雑な条件を先に満たさせるより機能しやすい。ウィーンの公的・非営利住宅も、十分な供給が価格を左右することを示します。逆に英国では、計画遅延や危険住宅の修復遅れが、承認を速くするだけでは足りないと示しました。AI は承認の詰まり、ホームレス化リスクの高い世帯、補助金が家賃上昇に吸収されていないかを監視するのに向いています。",
+    ko:
+      "핀란드의 Housing First 경험이 참고됩니다. 먼저 주거를 안정시키고 그다음 중독, 고용, 의료를 다루는 방식이 복잡한 조건을 먼저 요구하는 방식보다 효과적인 경우가 많습니다. 비엔나의 공공·비영리 주택은 충분한 공급 자체가 가격을 움직인다는 점을 보여줍니다. 반대로 영국 일부 지역의 계획 지연과 위험 주택 보수 지연은 승인 속도 구호만으로는 부족하다는 교훈입니다. AI는 승인 병목, 노숙 위험 가구, 보조금이 임대료 상승에 흡수되는지를 감시하는 데 적합합니다.",
+    vi:
+      "Kinh nghiệm Housing First của Phần Lan đáng tham khảo: ổn định chỗ ở trước, rồi xử lý nghiện, việc làm và y tế, thường tốt hơn việc bắt người yếu thế đáp ứng nhiều điều kiện trước. Vienna cho thấy nguồn cung công và phi lợi nhuận đủ lớn có thể tác động giá. Bài học ngược là Anh, nơi trì hoãn quy hoạch và sửa nhà không an toàn quá chậm cho thấy khẩu hiệu đẩy nhanh phê duyệt là chưa đủ. AI nên dùng để tìm nút thắt phê duyệt, dự báo hộ sắp rơi vào vô gia cư và kiểm tra trợ cấp có bị tiền thuê nuốt mất không.",
+    th:
+      "บทเรียนจาก Housing First ของฟินแลนด์คือให้ที่อยู่อาศัยมั่นคงก่อน แล้วค่อยจัดการเรื่องเสพติด งาน และสุขภาพ มักได้ผลกว่าการให้คนเปราะบางผ่านเงื่อนไขซับซ้อนก่อน เวียนนาก็ชี้ว่าที่อยู่อาศัยภาครัฐและไม่แสวงกำไรจำนวนมากพอช่วยกดราคาได้ บทเรียนด้านลบคืออังกฤษที่เจอความล่าช้าเรื่องผังเมืองและการซ่อมบ้านไม่ปลอดภัย AI เหมาะกับการหาคอขวดอนุมัติ คาดการณ์ครัวเรือนเสี่ยงไร้บ้าน และดูว่าเงินช่วยเหลือถูกค่าเช่ากลืนไปหรือไม่",
+    si:
+      "ෆින්ලන්තයේ Housing First අත්දැකීම මෙහි ප්‍රයෝජනවත්ය: පළමුව නිවාස ස්ථාවර කර, පසුව addiction, work සහ health ගැටලු සලකයි. Vienna පෙන්වන්නේ public/non-profit housing supply විශාල නම් මිල පාලනයට බලපෑ හැකි බවයි. UK හි planning delays සහ unsafe housing remediation මන්දගාමී වීමෙන් approvals වේගවත් කිරීම පමණක් ප්‍රමාණවත් නොවන බව පෙනේ. AI හොඳින් භාවිතා කළ හැක්කේ approval bottlenecks, homelessness risk households සහ subsidies rent rises වලට ගිලී යනවාද යන්න සොයා ගැනීමටය."
+  },
+  health: {
+    "zh-Hans":
+      "国际经验的关键不是“多上系统”，而是系统是否接入临床流程。丹麦、芬兰等北欧国家的健康数据基础较强，能支持更连续的随访和研究；英国 NHS 的排队和急诊压力则说明，数字入口不能替代真实床位、人手和问责。荷兰儿童福利算法丑闻也提醒，医疗和福利数据一旦用于自动判定风险，必须能解释、能申诉、能停用。AI 在澳洲更应先做低风险环节：分诊排序、漏诊/漏随访提醒、异常处方提示和隐私泄露预警。",
+    "zh-Hant":
+      "國際經驗的關鍵不是「多上系統」，而是系統是否接入臨床流程。丹麥、芬蘭等北歐國家的健康資料基礎較強，能支持更連續的追蹤和研究；英國 NHS 的排隊和急診壓力則說明，數位入口不能替代真實床位、人手和問責。荷蘭兒童福利演算法醜聞也提醒，醫療和福利資料一旦用於自動判定風險，必須能解釋、能申訴、能停用。AI 在澳洲更應先做低風險環節：分診排序、漏診/漏追蹤提醒、異常處方提示和隱私外洩預警。",
+    en:
+      "The lesson from other developed systems is that software only helps if it is inside the clinical workflow. Denmark and Finland show the value of strong health-data infrastructure for follow-up and research. The NHS shows the limit: digital front doors do not create beds, clinicians or accountability. The Dutch childcare-benefits scandal is also relevant, because health and welfare risk scoring must be explainable, appealable and stoppable. In Australia, AI should start in lower-risk layers: triage prioritisation, missed follow-up alerts, prescribing anomaly warnings and privacy-leak detection.",
+    es:
+      "La lección internacional es que el software solo ayuda si entra en el flujo clínico. Dinamarca y Finlandia muestran el valor de una infraestructura fuerte de datos sanitarios para seguimiento e investigación. El NHS británico muestra el límite: una puerta digital no crea camas, personal ni responsabilidad. El escándalo neerlandés de subsidios infantiles recuerda que puntuar riesgos en salud o bienestar debe ser explicable, apelable y reversible. En Australia, la IA debería empezar por usos de menor riesgo: priorizar triaje, alertar seguimientos perdidos, detectar prescripciones anómalas y fugas de privacidad.",
+    ja:
+      "他国の教訓は、ソフトウェアは臨床の流れに入って初めて役立つという点です。デンマークやフィンランドは、強い医療データ基盤が追跡や研究に有効だと示します。一方、英国 NHS はデジタル窓口だけでは病床、人員、責任は増えないことを示します。オランダの給付アルゴリズム問題も、医療・福祉のリスク判定には説明、異議申し立て、停止可能性が必要だと教えます。豪州ではまず、トリアージ、未追跡警告、処方異常、情報漏れ検知から始めるべきです。",
+    ko:
+      "다른 선진국의 교훈은 소프트웨어가 임상 흐름 안에 들어갈 때만 효과가 있다는 점입니다. 덴마크와 핀란드는 강한 보건 데이터 기반이 추적 관리와 연구에 도움이 됨을 보여줍니다. 영국 NHS는 디지털 창구만으로 병상, 인력, 책임이 생기지 않는다는 한계를 보여줍니다. 네덜란드 보육수당 알고리즘 사건은 의료·복지 위험 점수가 설명 가능하고 이의 제기와 중단이 가능해야 함을 경고합니다. 호주에서는 분류 우선순위, 미추적 알림, 처방 이상, 개인정보 유출 감지부터 적용하는 편이 낫습니다.",
+    vi:
+      "Bài học từ các hệ thống phát triển là phần mềm chỉ hữu ích khi nằm trong quy trình lâm sàng. Đan Mạch và Phần Lan cho thấy hạ tầng dữ liệu y tế mạnh giúp theo dõi và nghiên cứu. NHS của Anh cho thấy giới hạn: cổng số không tự tạo ra giường bệnh, nhân lực hay trách nhiệm. Vụ thuật toán trợ cấp trẻ em ở Hà Lan nhắc rằng chấm điểm rủi ro y tế và phúc lợi phải giải thích được, khiếu nại được và dừng được. Ở Úc, AI nên bắt đầu từ phân luồng, nhắc theo dõi bỏ sót, cảnh báo kê đơn bất thường và phát hiện rò rỉ riêng tư.",
+    th:
+      "บทเรียนจากประเทศพัฒนาแล้วคือซอฟต์แวร์ช่วยได้ต่อเมื่ออยู่ใน workflow การรักษาจริง เดนมาร์กและฟินแลนด์แสดงว่าฐานข้อมูลสุขภาพที่ดีช่วยติดตามและวิจัยได้ ส่วน NHS อังกฤษชี้ว่าประตูดิจิทัลไม่ได้สร้างเตียง บุคลากร หรือความรับผิดชอบเอง กรณีอัลกอริทึมสวัสดิการเด็กของเนเธอร์แลนด์เตือนว่าการให้คะแนนความเสี่ยงด้านสุขภาพและสวัสดิการต้องอธิบาย อุทธรณ์ และหยุดได้ ในออสเตรเลีย AI ควรเริ่มจากจัดลำดับ triage เตือน follow-up ที่หาย เตือนใบสั่งยาผิดปกติ และจับความเสี่ยงข้อมูลรั่ว",
+    si:
+      "අනෙකුත් developed health systems වල පාඩම software clinical workflow තුළ ඇතුළත් වූ විට පමණක් ප්‍රයෝජනවත් බවයි. Denmark සහ Finland strong health-data infrastructure මඟින් follow-up සහ research සඳහා වටිනාකම පෙන්වයි. UK NHS පෙන්වන්නේ digital front door එක beds, clinicians හෝ accountability නිර්මාණය නොකරන බවයි. Netherlands childcare-benefits algorithm scandal ද health/welfare risk scoring explainable, appealable, stoppable විය යුතු බව මතක් කරයි. Australia හි AI පළමුව triage, missed follow-up alerts, prescribing warnings සහ privacy leak detection වැනි අඩු අවදානම් තැන්වල යොදා ගත යුතුය."
+  },
+  justice: {
+    "zh-Hans":
+      "发达国家的经验很清楚：公共安全系统如果只追求“更硬”，很容易把问题推迟到下一次悲剧。美国 COMPAS 等算法量刑争议说明，黑箱风险评分会放大种族和阶层偏见；荷兰福利算法丑闻说明，错误模型可以毁掉无辜家庭。相对可取的是把 AI 限制在辅助层：整理证据时间线、发现多机构之间未共享的风险信号、提醒保释或保护令条件是否被违反。最终判断必须由人承担，并接受独立审计。",
+    "zh-Hant":
+      "發達國家的經驗很清楚：公共安全系統如果只追求「更硬」，很容易把問題推遲到下一次悲劇。美國 COMPAS 等演算法量刑爭議說明，黑箱風險評分會放大種族和階層偏見；荷蘭福利演算法醜聞說明，錯誤模型可以毀掉無辜家庭。相對可取的是把 AI 限制在輔助層：整理證據時間線、發現多機構之間未共享的風險信號、提醒保釋或保護令條件是否被違反。最終判斷必須由人承擔，並接受獨立審計。",
+    en:
+      "The developed-country record is clear: if public safety only becomes tougher after each case, it often postpones failure rather than prevents it. US risk-scoring controversies around tools such as COMPAS show how black-box models can amplify race and class bias. The Dutch welfare-algorithm scandal shows how automated suspicion can damage innocent families. The safer use of AI is narrower: evidence timelines, cross-agency risk signals, and alerts when bail or protection-order conditions may have been breached. Final judgement must stay with accountable people and independent audits.",
+    es:
+      "La experiencia de países desarrollados es clara: si la seguridad pública solo se endurece después de cada caso, suele posponer el fracaso en vez de prevenirlo. Las controversias en EE. UU. sobre herramientas como COMPAS muestran cómo modelos opacos pueden amplificar sesgos raciales y de clase. El escándalo neerlandés de bienestar muestra cómo la sospecha automatizada puede dañar familias inocentes. El uso seguro de IA es más estrecho: cronologías de pruebas, señales de riesgo entre agencias y alertas sobre incumplimientos de fianzas u órdenes de protección. El juicio final debe quedar en personas responsables y auditorías independientes.",
+    ja:
+      "先進国の経験は明確です。事件のたびに厳罰化だけを進めても、失敗を防ぐより先送りしがちです。米国の COMPAS などのリスク評価論争は、ブラックボックスモデルが人種や階層の偏りを増幅し得ることを示しました。オランダの福祉アルゴリズム問題は、自動化された疑いが無実の家庭を傷つける危険を示します。AI の安全な使い方は、証拠の時系列整理、機関間のリスク信号、保釈や保護命令違反の警告に限定すべきです。最終判断は責任ある人と独立監査に残す必要があります。",
+    ko:
+      "선진국의 경험은 분명합니다. 공공안전이 사건 뒤마다 더 강한 처벌만 추구하면 실패를 막기보다 다음 사건으로 미룰 수 있습니다. 미국 COMPAS 같은 위험 점수 논란은 블랙박스 모델이 인종과 계층 편향을 키울 수 있음을 보여줍니다. 네덜란드 복지 알고리즘 사건은 자동화된 의심이 무고한 가정을 파괴할 수 있음을 보여줍니다. AI는 증거 타임라인, 기관 간 위험 신호, 보석이나 보호명령 위반 알림 같은 보조 역할로 제한해야 합니다. 최종 판단은 책임 있는 사람과 독립 감사가 맡아야 합니다.",
+    vi:
+      "Kinh nghiệm các nước phát triển khá rõ: nếu an toàn công cộng chỉ cứng rắn hơn sau mỗi vụ, thất bại thường bị trì hoãn chứ không được ngăn chặn. Tranh cãi ở Mỹ quanh các công cụ như COMPAS cho thấy mô hình hộp đen có thể khuếch đại thiên lệch chủng tộc và giai tầng. Vụ thuật toán phúc lợi ở Hà Lan cho thấy nghi ngờ tự động có thể làm hại gia đình vô tội. AI nên giới hạn ở vai trò phụ trợ: dòng thời gian chứng cứ, tín hiệu rủi ro giữa cơ quan, cảnh báo vi phạm bảo lãnh hoặc lệnh bảo vệ. Phán đoán cuối cùng phải thuộc về người chịu trách nhiệm và kiểm toán độc lập.",
+    th:
+      "ประสบการณ์ประเทศพัฒนาแล้วชัดเจนว่า ถ้าความปลอดภัยสาธารณะตอบโต้ด้วยความเข้มงวดหลังเกิดคดีเท่านั้น มักเลื่อนความล้มเหลวไปครั้งหน้า ไม่ได้ป้องกันจริง ข้อถกเถียงเรื่อง COMPAS ในสหรัฐฯ แสดงว่าโมเดลกล่องดำเพิ่มอคติทางเชื้อชาติและชนชั้นได้ กรณีอัลกอริทึมสวัสดิการของเนเธอร์แลนด์ชี้ว่าความสงสัยอัตโนมัติทำร้ายครอบครัวบริสุทธิ์ได้ AI ควรจำกัดไว้ที่ไทม์ไลน์หลักฐาน สัญญาณเสี่ยงข้ามหน่วยงาน และเตือนการฝ่าฝืนเงื่อนไขประกันหรือคำสั่งคุ้มครอง การตัดสินสุดท้ายต้องเป็นของคนที่รับผิดชอบและถูก audit ได้",
+    si:
+      "Developed countries වල අත්දැකීම පැහැදිලිය: public safety එක සෑම සිද්ධියකට පසුම තවත් 'hard' වීමෙන් පමණක් අසාර්ථකත්වය වැළැක්වීම වෙනුවට පසුතල්ලු විය හැක. US හි COMPAS වැනි risk-scoring controversies black-box models race/class bias වැඩි කළ හැකි බව පෙන්වයි. Dutch welfare-algorithm scandal automated suspicion නිර්දෝෂී පවුල්ට හානි කළ හැකි බව පෙන්වයි. AI ආරක්ෂිත භාවිතය evidence timelines, cross-agency risk signals සහ bail/protection-order breach alerts වැනි auxiliary layer එකට සීමා විය යුතුය. අවසන් තීරණය accountable people සහ independent audits යටතේ තිබිය යුතුය."
+  },
+  community: {
+    "zh-Hans":
+      "这类问题可以参考新西兰 Wellbeing Budget 和部分北欧市政服务的做法：把儿童、老人、残障、移民和社区服务放在同一张结果表里看，而不是每个部门各算各的。失败经验也很重要：加拿大凤凰工资系统和英国一些大型公共 IT 项目说明，集中系统如果上线太急，会把弱势群体先伤到。AI 的位置应是“雷达”而不是“裁判”：发现同一家庭在学校、医院、福利和警务系统里反复出现的风险信号，再交给本地服务人员核实。",
+    "zh-Hant":
+      "這類問題可以參考紐西蘭 Wellbeing Budget 和部分北歐市政服務的做法：把兒童、老人、殘障、移民和社區服務放在同一張結果表裡看，而不是每個部門各算各的。失敗經驗也很重要：加拿大 Phoenix 工資系統和英國一些大型公共 IT 項目說明，集中系統如果上線太急，會把弱勢群體先傷到。AI 的位置應是「雷達」而不是「裁判」：發現同一家庭在學校、醫院、福利和警務系統裡反覆出現的風險信號，再交給本地服務人員核實。",
+    en:
+      "A useful comparison is New Zealand's wellbeing-budget approach and some Nordic municipal models: look at children, older people, disability, migrants and community services through shared outcomes, not departmental silos. The failure cases matter too. Canada's Phoenix payroll system and several large UK public-IT failures show that centralised systems rushed into production can hurt vulnerable users first. AI should act as radar, not judge: detect repeated risk signals across schools, hospitals, welfare and policing, then send them to local workers for verification.",
+    es:
+      "Una comparación útil es el enfoque de presupuesto de bienestar de Nueva Zelanda y algunos modelos municipales nórdicos: mirar infancia, mayores, discapacidad, migrantes y servicios comunitarios con resultados compartidos, no en silos. Los fracasos también importan. El sistema Phoenix de nóminas en Canadá y varios grandes fallos de TI pública en Reino Unido muestran que sistemas centralizados lanzados con prisa dañan primero a usuarios vulnerables. La IA debe ser radar, no juez: detectar señales repetidas entre escuelas, hospitales, bienestar y policía, y enviarlas a trabajadores locales para verificar.",
+    ja:
+      "参考になるのはニュージーランドの Wellbeing Budget や北欧の自治体モデルです。子ども、高齢者、障害、移民、地域サービスを部門別ではなく共通の成果で見る発想です。一方、カナダの Phoenix 給与システムや英国の大型公共 IT 失敗は、中央集権システムを急いで導入すると弱い利用者が先に傷つくことを示します。AI は裁判官ではなくレーダーであるべきです。学校、病院、福祉、警察にまたがる繰り返しのリスク信号を見つけ、地域の担当者が確認する形が安全です。",
+    ko:
+      "뉴질랜드의 Wellbeing Budget 접근과 일부 북유럽 지자체 모델이 참고됩니다. 아동, 노인, 장애, 이민자, 지역 서비스를 부처별 칸막이가 아니라 공동 성과로 보는 방식입니다. 실패 사례도 중요합니다. 캐나다 Phoenix 급여 시스템과 영국의 대형 공공 IT 실패는 중앙 시스템을 급하게 도입하면 취약 이용자가 먼저 피해를 입을 수 있음을 보여줍니다. AI는 판사가 아니라 레이더여야 합니다. 학교, 병원, 복지, 경찰에 반복적으로 나타나는 위험 신호를 감지하고 지역 담당자가 확인하게 해야 합니다.",
+    vi:
+      "Có thể so với cách tiếp cận ngân sách wellbeing của New Zealand và một số mô hình đô thị Bắc Âu: nhìn trẻ em, người già, khuyết tật, di dân và dịch vụ cộng đồng bằng kết quả chung, không theo từng silo. Bài học thất bại cũng quan trọng. Hệ thống lương Phoenix của Canada và nhiều dự án CNTT công ở Anh cho thấy hệ thống tập trung triển khai vội có thể làm hại người yếu thế trước. AI nên là radar, không phải thẩm phán: phát hiện tín hiệu rủi ro lặp lại giữa trường học, bệnh viện, phúc lợi và cảnh sát, rồi chuyển cho nhân viên địa phương xác minh.",
+    th:
+      "เทียบได้กับแนวทาง Wellbeing Budget ของนิวซีแลนด์และบริการเทศบาลบางแบบของนอร์ดิก คือดูเด็ก ผู้สูงอายุ คนพิการ ผู้อพยพ และบริการชุมชนผ่านผลลัพธ์ร่วม ไม่ใช่แยกเป็นหน่วยงาน บทเรียนล้มเหลวก็สำคัญ เช่นระบบเงินเดือน Phoenix ของแคนาดาและโครงการ IT ภาครัฐขนาดใหญ่บางแห่งในอังกฤษ ชี้ว่าระบบรวมศูนย์ที่รีบเปิดใช้ทำร้ายผู้เปราะบางก่อน AI ควรเป็นเรดาร์ ไม่ใช่ผู้ตัดสิน: เห็นสัญญาณเสี่ยงซ้ำในโรงเรียน โรงพยาบาล สวัสดิการ และตำรวจ แล้วส่งให้เจ้าหน้าที่ท้องถิ่นตรวจสอบ",
+    si:
+      "New Zealand Wellbeing Budget approach සහ Nordic municipal models මෙහි ප්‍රයෝජනවත් සංසන්දනයකි: children, older people, disability, migrants සහ community services departmental silos වෙනුවට shared outcomes මත බැලීම. Failure cases ද වැදගත්ය. Canada's Phoenix payroll system සහ UK public-IT failures පෙන්වන්නේ rushed centralised systems vulnerable users මුලින්ම හානියට පත් කළ හැකි බවයි. AI radar එකක් විය යුතුය, judge එකක් නොවේ: schools, hospitals, welfare සහ policing හරහා නැවත නැවත පෙනෙන risk signals හඳුනාගෙන local workers වෙත verification සඳහා යැවීම."
+  },
+  environment: {
+    "zh-Hans":
+      "发达国家的经验是，环境风险管理靠早发现和可信沟通。日本的地震、海啸预警系统说明，明确触发规则和公众反复演练会救命；韩国和台湾的疫情数据工具说明，实时数据很有用，但隐私边界必须事先讲清。反面是欧洲部分地区热浪、野火和洪水中，预警和撤离信息到达太晚。AI 在澳洲可以把实验室、野外巡查、热线、传感器和天气数据合成风险图，但每一次封锁、清理或补偿决定都要有公开阈值。",
+    "zh-Hant":
+      "發達國家的經驗是，環境風險管理靠早發現和可信溝通。日本的地震、海嘯預警系統說明，明確觸發規則和公眾反覆演練會救命；韓國和台灣的疫情資料工具說明，即時資料很有用，但隱私邊界必須事先講清。反面是歐洲部分地區熱浪、野火和洪水中，預警和撤離資訊到達太晚。AI 在澳洲可以把實驗室、野外巡查、熱線、感測器和天氣資料合成風險圖，但每一次封鎖、清理或補償決定都要有公開門檻。",
+    en:
+      "Developed-country experience says environmental risk management depends on early detection and trusted communication. Japan's earthquake and tsunami warnings show that clear trigger rules and public drills save lives. South Korea and Taiwan's pandemic data tools show the value of real-time data, but also the need to define privacy boundaries before the crisis. The warning cases are European heatwaves, wildfires and floods where alerts or evacuation messages arrived too late. In Australia, AI can combine labs, field checks, hotlines, sensors and weather into risk maps, but restrictions, clean-ups and compensation should still use published thresholds.",
+    es:
+      "La experiencia de países desarrollados muestra que el riesgo ambiental depende de detección temprana y comunicación confiable. Las alertas de terremoto y tsunami de Japón muestran que reglas claras y simulacros salvan vidas. Las herramientas de datos de pandemia de Corea del Sur y Taiwán muestran el valor de datos en tiempo real, pero también la necesidad de límites de privacidad previos. Los casos negativos son olas de calor, incendios e inundaciones en Europa donde alertas o evacuaciones llegaron tarde. En Australia, la IA puede unir laboratorios, inspecciones, líneas de aviso, sensores y clima en mapas de riesgo, pero restricciones, limpieza y compensación deben usar umbrales públicos.",
+    ja:
+      "先進国の経験では、環境リスク管理は早期発見と信頼できる説明にかかっています。日本の地震・津波警報は、明確な発動基準と訓練が命を救うことを示します。韓国や台湾の感染症データ活用はリアルタイムデータの価値を示す一方、危機前にプライバシー境界を決める必要も示しました。欧州の熱波、山火事、洪水では警報や避難情報が遅れた例があります。豪州では AI が検査、巡回、通報、センサー、気象をリスク地図にできますが、規制、清掃、補償は公開基準で決めるべきです。",
+    ko:
+      "선진국 경험은 환경 위험 관리가 조기 발견과 신뢰할 수 있는 소통에 달려 있음을 보여줍니다. 일본의 지진·쓰나미 경보는 명확한 기준과 반복 훈련이 생명을 구한다는 점을 보여줍니다. 한국과 대만의 팬데믹 데이터 도구는 실시간 데이터의 가치를 보여주지만 위기 전에 개인정보 경계를 정해야 함도 보여줍니다. 유럽의 폭염, 산불, 홍수에서는 경보나 대피 메시지가 늦은 사례가 있었습니다. 호주에서는 AI가 실험실, 현장 점검, 신고, 센서, 기상 데이터를 위험 지도로 합칠 수 있지만 제한, 정화, 보상 결정은 공개 기준을 써야 합니다.",
+    vi:
+      "Kinh nghiệm các nước phát triển cho thấy quản lý rủi ro môi trường phụ thuộc vào phát hiện sớm và truyền thông đáng tin. Cảnh báo động đất, sóng thần của Nhật cho thấy quy tắc kích hoạt rõ và diễn tập cứu mạng. Công cụ dữ liệu dịch bệnh của Hàn Quốc và Đài Loan cho thấy dữ liệu thời gian thực hữu ích, nhưng ranh giới riêng tư phải có trước khủng hoảng. Bài học xấu là nắng nóng, cháy rừng và lũ ở châu Âu khi cảnh báo hoặc sơ tán đến muộn. Ở Úc, AI có thể ghép phòng thí nghiệm, kiểm tra hiện trường, hotline, cảm biến và thời tiết thành bản đồ rủi ro, nhưng hạn chế, dọn dẹp và bồi thường cần ngưỡng công khai.",
+    th:
+      "ประสบการณ์ประเทศพัฒนาแล้วบอกว่าการจัดการความเสี่ยงสิ่งแวดล้อมขึ้นกับการพบเร็วและสื่อสารให้เชื่อถือได้ ระบบเตือนแผ่นดินไหวและสึนามิของญี่ปุ่นแสดงว่าเกณฑ์ trigger ชัดและการซ้อมช่วยชีวิตได้ เครื่องมือข้อมูลโควิดของเกาหลีใต้และไต้หวันแสดงว่าข้อมูล realtime มีค่า แต่ต้องกำหนดขอบเขตความเป็นส่วนตัวก่อนวิกฤต บทเรียนด้านลบคือคลื่นความร้อน ไฟป่า และน้ำท่วมในยุโรปที่คำเตือนหรืออพยพมาช้า ในออสเตรเลีย AI รวมแล็บ ภาคสนาม hotline sensor และอากาศเป็นแผนที่เสี่ยงได้ แต่การปิดพื้นที่ ทำความสะอาด และชดเชยต้องมี threshold สาธารณะ",
+    si:
+      "Developed-country experience පෙන්වන්නේ environmental risk management early detection සහ trusted communication මත රඳා පවතින බවයි. Japan earthquake/tsunami warnings පැහැදිලි trigger rules සහ public drills ජීවිත බේරාගන්නා බව පෙන්වයි. South Korea සහ Taiwan pandemic data tools real-time data වටිනාකම පෙන්වූ නමුත් privacy boundaries crisis එකට පෙර නිර්වචනය කළ යුතු බවත් පෙන්වයි. Europe heatwaves, wildfires සහ floods වල alerts/evacuation messages ප්‍රමාද වූ cases warning වේ. Australia හි AI labs, field checks, hotlines, sensors සහ weather data risk maps බවට කළ හැකි නමුත් restrictions, clean-ups සහ compensation published thresholds මත විය යුතුය."
+  },
+  "economic-harm": {
+    "zh-Hans":
+      "金融和消费伤害的国际经验很直接：监管不能等媒体曝光后才动作。英国开放银行和反诈骗协作说明，标准化数据接口能让消费者更容易发现异常；欧盟 GDPR 的罚款机制说明，隐私违规必须有真实成本。反面经验是美国信用评分和荷兰福利算法争议，自动化系统如果不透明，会把错误长期压在弱势群体身上。AI 可以帮澳洲做交易异常、误收费、诈骗话术和高风险合同预警，但企业必须解释模型依据，并自动退还可确认损失。",
+    "zh-Hant":
+      "金融和消費傷害的國際經驗很直接：監管不能等媒體曝光後才動作。英國開放銀行和反詐協作說明，標準化資料介面能讓消費者更容易發現異常；歐盟 GDPR 的罰款機制說明，隱私違規必須有真實成本。反面經驗是美國信用評分和荷蘭福利演算法爭議，自動化系統如果不透明，會把錯誤長期壓在弱勢群體身上。AI 可以幫澳洲做交易異常、誤收費、詐騙話術和高風險合約預警，但企業必須解釋模型依據，並自動退還可確認損失。",
+    en:
+      "The international lesson is direct: regulators should not wait for media exposure before acting. UK open-banking and anti-scam coordination show how standardised data can help consumers and banks spot anomalies earlier. The EU's GDPR enforcement shows that privacy breaches need real financial cost. The warning cases are US credit scoring and the Dutch welfare-algorithm scandal, where opaque automation can trap weaker users in error. AI can help Australia flag abnormal transactions, fee mistakes, scam language and risky contracts, but firms should explain the model basis and automatically refund confirmed losses.",
+    es:
+      "La lección internacional es directa: los reguladores no deben esperar a que la prensa revele el problema. La banca abierta y coordinación antifraude del Reino Unido muestran cómo datos estandarizados ayudan a consumidores y bancos a detectar anomalías antes. El GDPR europeo muestra que violar privacidad debe tener coste real. Los casos negativos son el scoring crediticio de EE. UU. y el escándalo neerlandés de bienestar, donde automatización opaca atrapa a usuarios débiles en errores. La IA puede alertar transacciones anómalas, cobros erróneos, lenguaje de estafa y contratos riesgosos, pero las empresas deben explicar el modelo y reembolsar pérdidas confirmadas.",
+    ja:
+      "国際的な教訓は明確です。規制当局は報道で発覚してから動くべきではありません。英国のオープンバンキングや詐欺対策連携は、標準化データが消費者と銀行の異常検知を早めることを示します。EU の GDPR 執行は、個人情報違反に実際の費用を負わせる必要を示します。米国の信用スコアやオランダの福祉アルゴリズム問題は、不透明な自動化が弱い利用者を誤りに閉じ込める危険を示します。豪州では AI が異常取引、誤課金、詐欺文句、危険契約を警告できますが、企業は根拠を説明し、確認済み損失を自動返金すべきです。",
+    ko:
+      "국제적 교훈은 분명합니다. 규제기관은 언론 보도 뒤에야 움직여서는 안 됩니다. 영국의 오픈뱅킹과 사기 대응 협력은 표준화 데이터가 소비자와 은행의 이상 탐지를 앞당길 수 있음을 보여줍니다. EU GDPR 집행은 개인정보 침해에 실제 비용이 있어야 함을 보여줍니다. 미국 신용점수와 네덜란드 복지 알고리즘 사건은 불투명한 자동화가 약한 이용자를 오류에 가둘 수 있음을 경고합니다. AI는 이상 거래, 수수료 오류, 사기 문구, 위험 계약을 경고할 수 있지만 기업은 모델 근거를 설명하고 확인된 손실은 자동 환불해야 합니다.",
+    vi:
+      "Bài học quốc tế rất thẳng: cơ quan quản lý không nên chờ báo chí phanh phui mới hành động. Open banking và phối hợp chống lừa đảo của Anh cho thấy dữ liệu chuẩn hóa giúp người tiêu dùng và ngân hàng phát hiện bất thường sớm hơn. GDPR của EU cho thấy vi phạm riêng tư phải có chi phí thật. Bài học xấu là chấm điểm tín dụng ở Mỹ và thuật toán phúc lợi Hà Lan, nơi tự động hóa mờ đục khiến người yếu thế mắc kẹt trong lỗi. AI có thể cảnh báo giao dịch bất thường, lỗi phí, ngôn ngữ lừa đảo và hợp đồng rủi ro, nhưng doanh nghiệp phải giải thích căn cứ mô hình và tự hoàn tiền tổn thất xác nhận được.",
+    th:
+      "บทเรียนสากลตรงมาก: regulator ไม่ควรรอให้สื่อเปิดโปงก่อนค่อยขยับ Open banking และความร่วมมือต้าน scam ของอังกฤษแสดงว่าข้อมูลมาตรฐานช่วยให้ผู้บริโภคและธนาคารเจอความผิดปกติเร็วขึ้น GDPR ของยุโรปชี้ว่าการละเมิด privacy ต้องมีต้นทุนจริง บทเรียนด้านลบคือ credit scoring ในสหรัฐฯ และอัลกอริทึมสวัสดิการเนเธอร์แลนด์ที่ระบบอัตโนมัติไม่โปร่งใสขังผู้เปราะบางไว้กับความผิดพลาด AI ช่วยเตือนธุรกรรมผิดปกติ ค่าธรรมเนียมผิด คำพูด scam และสัญญาเสี่ยงได้ แต่บริษัทต้องอธิบายเหตุผลของโมเดลและคืนเงินความเสียหายที่ยืนยันได้อัตโนมัติ",
+    si:
+      "International lesson එක සෘජුය: regulators මාධ්‍යයෙන් හෙළි වූ පසු පමණක් ක්‍රියා නොකළ යුතුය. UK open-banking සහ anti-scam coordination standardised data මඟින් consumers/banks anomalies ඉක්මනින් දැකිය හැකි බව පෙන්වයි. EU GDPR enforcement privacy breaches සඳහා real financial cost අවශ්‍ය බව පෙන්වයි. US credit scoring සහ Dutch welfare-algorithm scandal opaque automation දුර්වල users error තුළ තබා ගත හැකි බව warning වේ. Australia හි AI abnormal transactions, fee mistakes, scam language සහ risky contracts flag කළ හැකි නමුත් firms model basis පැහැදිලි කර confirmed losses automatic refund කළ යුතුය."
+  }
+};
+
+const FALLBACK_DEVELOPED_COUNTRY_EXPERIENCE = {
+  "zh-Hans":
+    "对照其他发达国家，成功经验通常不是某个新部门，而是可验证的目标、公开数据和持续迭代；失败经验则多发生在系统上线太急、数据不透明、受影响者没有申诉渠道。AI 可以提高发现问题的速度，但不能替代政治选择和公共责任。最稳妥的做法是先让 AI 做预警、归纳、排队和审计线索，再让有权责的人作最终决定。",
+  "zh-Hant":
+    "對照其他發達國家，成功經驗通常不是某個新部門，而是可驗證的目標、公開資料和持續迭代；失敗經驗則多發生在系統上線太急、資料不透明、受影響者沒有申訴渠道。AI 可以提高發現問題的速度，但不能替代政治選擇和公共責任。最穩妥的做法是先讓 AI 做預警、歸納、排隊和審計線索，再讓有權責的人作最終決定。",
+  en:
+    "Across developed countries, the success pattern is rarely a new agency by itself. It is measurable goals, open data and continuous adjustment. The failure pattern is rushed systems, opaque data and no appeal channel for affected people. AI can make problems visible earlier, but it cannot replace public responsibility. The safer model is to use AI for warnings, synthesis, queueing and audit leads, then leave final decisions with accountable people.",
+  es:
+    "En países desarrollados, el patrón de éxito rara vez es crear una agencia nueva por sí sola. Suele ser metas medibles, datos abiertos y ajuste continuo. El patrón de fracaso es sistemas apresurados, datos opacos y falta de apelación para afectados. La IA puede hacer visibles los problemas antes, pero no sustituye la responsabilidad pública. El modelo más seguro es usar IA para alertas, síntesis, priorización y pistas de auditoría, dejando decisiones finales a personas responsables.",
+  ja:
+    "先進国を比べると、成功は新しい機関そのものではなく、測れる目標、公開データ、継続的な修正から生まれます。失敗は、急いだシステム、不透明なデータ、被害者の不服申し立て不在で起きがちです。AI は問題を早く見える化できますが、公共責任を置き換えません。安全なのは、警告、要約、優先順位、監査手がかりに使い、最終判断を責任ある人に残すことです。",
+  ko:
+    "선진국을 비교하면 성공 패턴은 새 기관 자체가 아니라 측정 가능한 목표, 공개 데이터, 지속적 조정입니다. 실패 패턴은 성급한 시스템, 불투명한 데이터, 영향을 받은 사람의 이의 제기 부재입니다. AI는 문제를 더 빨리 보이게 할 수 있지만 공적 책임을 대체할 수 없습니다. 안전한 방식은 AI를 경고, 요약, 우선순위, 감사 단서에 쓰고 최종 결정은 책임 있는 사람에게 남기는 것입니다.",
+  vi:
+    "So với các nước phát triển, thành công hiếm khi chỉ đến từ một cơ quan mới. Nó thường là mục tiêu đo được, dữ liệu mở và điều chỉnh liên tục. Thất bại thường là hệ thống triển khai vội, dữ liệu mờ và người bị ảnh hưởng không có đường khiếu nại. AI có thể làm vấn đề hiện ra sớm hơn, nhưng không thay thế trách nhiệm công. Cách an toàn là dùng AI cho cảnh báo, tổng hợp, xếp hàng và manh mối kiểm toán, rồi để quyết định cuối cho người chịu trách nhiệm.",
+  th:
+    "เมื่อเทียบประเทศพัฒนาแล้ว รูปแบบสำเร็จมักไม่ใช่ตั้งหน่วยงานใหม่อย่างเดียว แต่คือเป้าหมายที่วัดได้ ข้อมูลเปิด และปรับปรุงต่อเนื่อง รูปแบบล้มเหลวคือระบบเร่งเปิด ข้อมูลทึบ และผู้ได้รับผลกระทบไม่มีทางอุทธรณ์ AI ทำให้ปัญหาเห็นเร็วขึ้นได้ แต่แทนความรับผิดชอบสาธารณะไม่ได้ วิธีที่ปลอดภัยคือใช้ AI เพื่อเตือน สรุป จัดคิว และหาเบาะแส audit แล้วให้คนที่รับผิดชอบตัดสินสุดท้าย",
+  si:
+    "Developed countries සසඳද්දී success pattern එක නව agency එකක් පමණක් නොව measurable goals, open data සහ continuous adjustment වේ. Failure pattern එක rushed systems, opaque data සහ affected people සඳහා appeal channel නැති වීමයි. AI ගැටලු ඉක්මනින් පෙන්විය හැකි නමුත් public responsibility වෙනුවට නොවේ. ආරක්ෂිත model එක AI warnings, synthesis, queueing සහ audit leads සඳහා භාවිතා කර final decisions accountable people වෙත තැබීමයි."
+};
+
 const FALLBACK_SOCIAL_COMMENTARY = {
   "zh-Hans":
     "这条新闻真正值得追的是制度怎样更早发现问题、减少伤害、把责任落实到人。AI 可以帮助做风险预警、信息整合和资源分配，但前提是透明、可审计，并且把最终判断留给可问责的人。",
@@ -851,7 +995,11 @@ function getFourNewsCommentary(cluster, language) {
 
   const haystack = `${cluster.id || ""} ${cluster.headline || ""} ${cluster.voiceScript || ""}`.toLowerCase();
   const matchedRule = SOCIAL_TOPIC_RULES.find((rule) => rule.keywords.some((keyword) => haystack.includes(keyword)));
-  if (matchedRule) return matchedRule.comments[language] || matchedRule.comments.en;
+  if (matchedRule) {
+    const base = matchedRule.comments[language] || matchedRule.comments.en;
+    const experience = DEVELOPED_COUNTRY_EXPERIENCE[matchedRule.topic]?.[language] || DEVELOPED_COUNTRY_EXPERIENCE[matchedRule.topic]?.en;
+    return [base, experience].filter(Boolean).join(" ");
+  }
 
   const socialSignals = [
     "abuse",
@@ -872,7 +1020,10 @@ function getFourNewsCommentary(cluster, language) {
     "victim"
   ];
   if (socialSignals.some((signal) => haystack.includes(signal))) {
-    return FALLBACK_SOCIAL_COMMENTARY[language] || FALLBACK_SOCIAL_COMMENTARY.en;
+    return [
+      FALLBACK_SOCIAL_COMMENTARY[language] || FALLBACK_SOCIAL_COMMENTARY.en,
+      FALLBACK_DEVELOPED_COUNTRY_EXPERIENCE[language] || FALLBACK_DEVELOPED_COUNTRY_EXPERIENCE.en
+    ].join(" ");
   }
 
   return "";
