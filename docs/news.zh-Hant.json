@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T01:04:32Z",
+  "updatedAt": "2026-07-29T02:10:39Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -120,6 +120,62 @@
   ],
   "clusters": [
     {
+      "id": "melbourne-steroid-trafficking",
+      "headline": "墨爾本一男一女因涉嫌類固醇走私團伙被起訴",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T01:47:11Z",
+      "voiceScript": "警方表示，墨爾本一男一女因涉嫌參與類固醇走私行動而被起訴。案件重點在於這些違禁藥物如何被取得、轉運和掩飾，以及是否借用了虛假的醫療身分。此事重要，因為類固醇供應受到嚴格管制，也可能牽連更廣泛的有組織犯罪。接下來將進入法院程序，並看警方是否公布更多證據。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/melbourne-man-and-woman-charged-with-trafficking-steroids/106970736"
+        }
+      ]
+    },
+    {
+      "id": "gold-coast-third-transplant",
+      "headline": "黃金海岸一名護士因罕見疾病等待第三次腎移植",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T01:10:19Z",
+      "voiceScript": "黃金海岸一名患有罕見先天性疾病的護士，正在等待第三次腎移植。她多年來一直反覆面對腎臟問題，病例說明有些患者會因為病情反覆而需要多次移植。此事重要，因為移植需求一直很高，患者在等待合適配對時往往要接受長期專科治療。下一步是繼續尋找合適捐贈者並維持治療。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/gold-coast-nurse-kidney-transplant-rare-congenital-disorder/106965788"
+        }
+      ]
+    },
+    {
+      "id": "cairns-hospital-police-shooting",
+      "headline": "凱恩斯醫院為一名男子後來遭警方槍擊前的治療辯護",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T01:06:42Z",
+      "voiceScript": "凱恩斯一家醫院表示，在一名男子隨後遭警方槍擊之前，醫院對他的治療符合要求。外界現在關注的是醫院治療、他之後的狀況以及警方反應之間的時間線。此事重要，因為涉及嚴重武力的案件，往往要看健康風險是否被及時識別並處理。下一步很可能是更細緻審查醫療和警方記錄。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/cairns-hospital-defends-treatment-man-police-shooting/106970118"
+        }
+      ]
+    },
+    {
+      "id": "one-nation-queensland-filing",
+      "headline": "一國黨因審計報表逾期在昆士蘭面臨被取消註冊風險",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T00:52:34Z",
+      "voiceScript": "一國黨因錯過提交經審計財務報表的期限，在昆士蘭面臨被取消註冊的風險。表面上這是行政問題，但它會影響政黨的法律地位和公眾透明度。此事重要，因為選舉監管機構依靠這些申報來監督政黨財務。下一步是該黨和監管機構的正式回應。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/one-nation-faces-being-struck-off-in-queensland-after-failing-to-file-audited-financial-statements"
+        }
+      ]
+    },
+    {
       "id": "ndis-darwin-public-servant",
       "headline": "達爾文一名公務員被控涉嫌 NDIS 詐騙",
       "sourceCount": 1,
@@ -164,7 +220,7 @@
     {
       "id": "data-centre-energy-pushback",
       "headline": "總理推動的資料中心計畫遭遇能源與規劃阻力",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-07-28T23:14:32Z",
       "voiceScript": "總理推動的資料中心擴張計畫，正因用電需求、規劃審批和地方基礎設施壓力而遭遇阻力。爭論的焦點是這些專案到底需要多少電力，以及電網和諮詢流程能否承受。此事重要，因為資料中心正在成為澳洲科技、能源和土地利用政策的共同考題。下一步是對專案本身和供電假設進行更嚴格審查。",
       "differences": [],
@@ -172,6 +228,10 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/data-center-boom-powers-up-political-energy-debate/106929726"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/new-plan-prevent-data-centres-driving-power-prices-up/j0li5asyx"
         }
       ]
     },
@@ -206,6 +266,10 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/queensland-farmers-on-alert-as-h5-bird-flu-reaches-state/106967942"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/h5-bird-flu-strain-very-likely-spreading-locally-in-sa/106970486"
         }
       ]
     },
@@ -345,7 +409,7 @@
     {
       "id": "angus-taylor-icac-donation-probe",
       "headline": "新州腐敗調查把 Angus Taylor 拉進捐款疑雲",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-07-28T15:00:06Z",
       "voiceScript": "新州廉政調查已經把焦點推進到 Angus Taylor 身上，證據顯示 Reformers 成員曾討論向他尋求捐款。聽證會正在審查涉嫌非法資金流、拉票式擴員和外包諮詢費等做法，這些都牽涉到自由黨內部一個偏右翼派系。這個故事重要，因為調查已經碰到了聯邦反對黨領袖，可能讓新州自由黨承受更大壓力。接下來要看，證據最終會導向正式結論，還是只帶來進一步的政治傷害。",
       "differences": [
@@ -360,6 +424,10 @@
         {
           "source": "AAP News",
           "url": "https://aapnews.aap.com.au/news/disgusted-pub-mogul-disavows-liberals-donation-aims"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/taylor-denies-giving-money-to-group-at-centre-of-nsw-corruption-probe/106970262"
         }
       ]
     },
@@ -387,7 +455,7 @@
     {
       "id": "pauline-hanson-italy-trip",
       "headline": "漢森義大利行程的出資來源再次引發質疑",
-      "sourceCount": 5,
+      "sourceCount": 6,
       "publishedAt": "2026-07-28T09:40:56Z",
       "voiceScript": "寶琳·漢森因義大利行程再次受到關注，相關報導把這次出行與吉娜·萊因哈特聯繫起來。漢森表示沒有動用納稅人資金，但整筆費用至今仍沒有被清楚說明。此事之所以重要，是因為它牽涉到政治透明度、公眾人物接受私人資助，以及差旅費用如何揭露。接下來要看是否會有更多文件或說法出現，說明機票和其他費用究竟由誰承擔。",
       "differences": [
@@ -416,6 +484,10 @@
         {
           "source": "AAP News",
           "url": "https://aapnews.aap.com.au/news/gina-rinehart-paid-for-pauline-hanson-s-europe-flights"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/gina-rinehart-funded-flights-and-fashion-show-for-pauline-hanson/kgmh8psur"
         }
       ]
     },
@@ -929,6 +1001,32 @@
       ]
     },
     {
+      "id": "wa-oil-refinery",
+      "headline": "西澳擬建澳洲數十年來首座新煉油廠",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "聯邦和西澳政府正在為佩爾達曼公司支持的一項可行性研究提供資金，評估在西澳新建煉油廠的可行性。若專案推進，這將是澳洲自上世紀60年代以來首座大型新煉油廠。中東局勢緊張推高油價，也再次凸顯澳洲對進口燃料的依賴。接下來要看選址、融資和審批能否落實，這些決定會影響燃料安全與供應鏈韌性。",
+      "differences": [
+        "ABC News：把重點放在西澳和佩爾達曼公司的新專案，以及聯邦和州政府支持的可行性研究。",
+        "The Guardian Australia：強調中東衝突推高通膨和燃料風險，並指出澳洲約九成液體燃料依賴進口。",
+        "Australian Financial Review：把它寫成總理對燃料危機的回應，並提到西澳選址尚未確定。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
+        }
+      ]
+    },
+    {
       "id": "sa-industrial-manslaughter",
       "headline": "南澳製造企業被控首例工業過失殺人",
       "sourceCount": 2,
@@ -1151,32 +1249,6 @@
       ]
     },
     {
-      "id": "wa-oil-refinery",
-      "headline": "西澳擬建澳洲數十年來首座新煉油廠",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "聯邦和西澳政府正在為佩爾達曼公司支持的一項可行性研究提供資金，評估在西澳新建煉油廠的可行性。若專案推進，這將是澳洲自上世紀60年代以來首座大型新煉油廠。中東局勢緊張推高油價，也再次凸顯澳洲對進口燃料的依賴。接下來要看選址、融資和審批能否落實，這些決定會影響燃料安全與供應鏈韌性。",
-      "differences": [
-        "ABC News：把重點放在西澳和佩爾達曼公司的新專案，以及聯邦和州政府支持的可行性研究。",
-        "The Guardian Australia：強調中東衝突推高通膨和燃料風險，並指出澳洲約九成液體燃料依賴進口。",
-        "Australian Financial Review：把它寫成總理對燃料危機的回應，並提到西澳選址尚未確定。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
-        }
-      ]
-    },
-    {
       "id": "one-nation-poll-surge-2026",
       "headline": "一國黨民調走高，Coalition 持續劃清合作界線",
       "sourceCount": 2,
@@ -1269,27 +1341,6 @@
       ]
     },
     {
-      "id": "census-explained",
-      "headline": "2026 年人口普查要填什麼、誰必須參加",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T12:39:35Z",
-      "voiceScript": "2026 年人口普查將在 8 月 11 日進行，官方提醒大多數在澳居住的人都要填寫，部分臨時簽證持有人也在範圍內。關鍵問題是填寫截止時間、可能的罰款，以及這些數據會如何影響學校、醫療和基礎設施的資源分配。接下來要看宣傳和提醒能不能提高完成率，尤其是新移民家庭和偏遠地區住戶。",
-      "differences": [
-        "7NEWS：更直接列出截止日期、填寫方式和潛在罰款。",
-        "SBS News：特別強調哪些臨時簽證持有人也必須參加，以及這份數據為什麼重要。"
-      ],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj"
-        }
-      ]
-    },
-    {
       "id": "vad-telehealth",
       "headline": "工党支持临终协助远程医疗咨询",
       "sourceCount": 4,
@@ -1317,6 +1368,27 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5"
+        }
+      ]
+    },
+    {
+      "id": "census-explained",
+      "headline": "2026 年人口普查要填什麼、誰必須參加",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T12:39:35Z",
+      "voiceScript": "2026 年人口普查將在 8 月 11 日進行，官方提醒大多數在澳居住的人都要填寫，部分臨時簽證持有人也在範圍內。關鍵問題是填寫截止時間、可能的罰款，以及這些數據會如何影響學校、醫療和基礎設施的資源分配。接下來要看宣傳和提醒能不能提高完成率，尤其是新移民家庭和偏遠地區住戶。",
+      "differences": [
+        "7NEWS：更直接列出截止日期、填寫方式和潛在罰款。",
+        "SBS News：特別強調哪些臨時簽證持有人也必須參加，以及這份數據為什麼重要。"
+      ],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj"
         }
       ]
     },
@@ -1353,6 +1425,46 @@
         {
           "source": "Brisbane Times",
           "url": "https://www.brisbanetimes.com.au/national/queensland/three-dead-in-two-crashes-across-south-east-overnight-20260726-p60ils.html"
+        }
+      ]
+    },
+    {
+      "id": "fuel-price-rise",
+      "headline": "燃油价格上涨，消费税减免即将结束",
+      "sourceCount": 6,
+      "publishedAt": "2026-07-25T14:19:00+10:00",
+      "voiceScript": "燃油价格这轮上涨没有停下来的迹象，联邦政府也明确表示，不打算把 8 月 2 日到期的燃油消费税减免继续往后延。随着国际原油价格抬升、地缘冲突扰动供应，悉尼、墨尔本等地的泵价已经明显上行，家庭和通勤族会最先感受到压力。接下来要观察的是油价会不会继续推高通胀，以及这会不会影响澳洲央行 8 月的利率判断。",
+      "differences": [
+        "ABC News：强调供应仍然充足，政府先稳定市场情绪。",
+        "The Guardian Australia：更强调家庭负担、泵价上冲到每升 2 澳元，以及 RBA 加息风险。",
+        "SBS News：突出燃油税减免即将结束，以及市场已在押注进一步加息。",
+        "news.com.au：把焦点放在油价 40 天高位和 16 仙优惠结束后的冲击。",
+        "The Sydney Morning Herald：直接点出消费税减免结束后，油价会继续抬升。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         }
       ]
     },
@@ -1421,46 +1533,6 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/environment/2026/jul/25/herbicide-parkinsons-disease-paraquat-pulled-from-sale-australia-syngenta"
-        }
-      ]
-    },
-    {
-      "id": "fuel-price-rise",
-      "headline": "燃油价格上涨，消费税减免即将结束",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-25T14:19:00+10:00",
-      "voiceScript": "燃油价格这轮上涨没有停下来的迹象，联邦政府也明确表示，不打算把 8 月 2 日到期的燃油消费税减免继续往后延。随着国际原油价格抬升、地缘冲突扰动供应，悉尼、墨尔本等地的泵价已经明显上行，家庭和通勤族会最先感受到压力。接下来要观察的是油价会不会继续推高通胀，以及这会不会影响澳洲央行 8 月的利率判断。",
-      "differences": [
-        "ABC News：强调供应仍然充足，政府先稳定市场情绪。",
-        "The Guardian Australia：更强调家庭负担、泵价上冲到每升 2 澳元，以及 RBA 加息风险。",
-        "SBS News：突出燃油税减免即将结束，以及市场已在押注进一步加息。",
-        "news.com.au：把焦点放在油价 40 天高位和 16 仙优惠结束后的冲击。",
-        "The Sydney Morning Herald：直接点出消费税减免结束后，油价会继续抬升。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293"
-        },
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         }
       ]
     },
