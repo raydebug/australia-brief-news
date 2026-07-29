@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T08:13:48.044Z",
+  "updatedAt": "2026-07-29T09:11:11.426Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -100,8 +100,8 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used.",
-    "A few current stories only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
+    "The Australian still redirects to a cookie wall, Sky News Australia still blocks nocookies pages, and news.com.au RSS remains unreliable, so latest-page and search fallbacks were used when needed.",
+    "A few current stories still only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
   ],
   "clusters": [
     {
@@ -551,6 +551,37 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/29/cannabis-prescription-australia-doctors"
+        }
+      ]
+    },
+    {
+      "id": "offset-account-errors",
+      "headline": "ASIC, offset 계좌 오류로 주택담보대출 차주가 5500만 호주달러를 더 냈다고 밝혀",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-29T02:20:00.000Z",
+      "voiceScript": "ASIC은 은행들이 2년 동안 offset 계좌를 제대로 작동시키지 못해 주택담보대출 이자에 대해 5500만 호주달러 넘는 보상을 지급했다고 밝혔습니다. 감독기관은 20만 건이 넘는 주택담보대출을 검토했고, 일부 계좌가 제대로 연결되지 않아 차주들이 더 많은 이자를 부담한 사례를 확인했습니다. 이 문제가 중요한 이유는 손실이 한동안 드러나지 않을 수 있고, 큰 대출일수록 작은 오류도 금세 큰 금액으로 불어나기 때문입니다. 앞으로 은행들은 계좌를 바로잡고, 영향을 받은 고객을 보상하고, 얼마나 많은 차주가 피해를 봤는지 설명해야 합니다.",
+      "differences": [
+        "ABC News는 20만 건이 넘는 대출 검토에 초점을 맞춥니다.",
+        "The Guardian Australia는 초과 이자 규모와 민원 절차를 강조합니다.",
+        "SBS News는 차주가 offset 계좌 연결 상태를 어떻게 확인하는지 설명합니다.",
+        "7NEWS는 이런 오류가 고객에게 잘 보이지 않는다는 점을 부각합니다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/how-to-check-your-offset-account-is-working-properly-after-55-million-error-exposed/way17b2qi"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australian-mortgage-holders-told-to-check-bank-accounts-after-costly-offset-failures-discovered-c-22646473"
         }
       ]
     },

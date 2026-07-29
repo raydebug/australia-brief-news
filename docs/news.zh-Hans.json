@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T08:13:48.044Z",
+  "updatedAt": "2026-07-29T09:11:11.426Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -100,8 +100,8 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used.",
-    "A few current stories only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
+    "The Australian still redirects to a cookie wall, Sky News Australia still blocks nocookies pages, and news.com.au RSS remains unreliable, so latest-page and search fallbacks were used when needed.",
+    "A few current stories still only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
   ],
   "clusters": [
     {
@@ -551,6 +551,37 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/29/cannabis-prescription-australia-doctors"
+        }
+      ]
+    },
+    {
+      "id": "offset-account-errors",
+      "headline": "ASIC称抵销账户错误让房贷客户多付5500万澳元",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-29T02:20:00.000Z",
+      "voiceScript": "ASIC表示，银行在两年内因抵销账户没有正确降低房贷利息而支付了超过5500万澳元赔偿。监管机构审查了20多万笔住房贷款，发现有些账户没有正确关联，结果借款人实际付出了本不该支付的利息。这个问题之所以重要，是因为损失常常不会立刻被发现，而在大额房贷上，哪怕小错误也会不断累积。下一步是银行修正账户、赔偿受影响客户，并说明究竟有多少借款人被波及。",
+      "differences": [
+        "ABC News 侧重 ASIC 对20多万笔贷款的审查。",
+        "The Guardian Australia 强调额外利息规模和投诉处理路径。",
+        "SBS News 说明借款人如何检查抵销账户是否正确关联。",
+        "7NEWS 突出这类错误对客户来说不容易察觉。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/how-to-check-your-offset-account-is-working-properly-after-55-million-error-exposed/way17b2qi"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australian-mortgage-holders-told-to-check-bank-accounts-after-costly-offset-failures-discovered-c-22646473"
         }
       ]
     },

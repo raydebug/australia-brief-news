@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T08:13:48.044Z",
+  "updatedAt": "2026-07-29T09:11:11.426Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -100,8 +100,8 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used.",
-    "A few current stories only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
+    "The Australian still redirects to a cookie wall, Sky News Australia still blocks nocookies pages, and news.com.au RSS remains unreliable, so latest-page and search fallbacks were used when needed.",
+    "A few current stories still only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
   ],
   "clusters": [
     {
@@ -551,6 +551,37 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/29/cannabis-prescription-australia-doctors"
+        }
+      ]
+    },
+    {
+      "id": "offset-account-errors",
+      "headline": "ASIC nói lỗi tài khoản offset khiến người vay mua nhà mất thêm 55 triệu đô la Úc",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-29T02:20:00.000Z",
+      "voiceScript": "ASIC cho biết các ngân hàng đã phải bồi thường hơn 55 triệu đô la Úc trong hai năm vì tài khoản offset không giảm lãi vay mua nhà đúng cách. Cơ quan giám sát đã xem xét hơn 200.000 khoản vay nhà và phát hiện một số tài khoản không được liên kết đúng, khiến người vay phải trả lãi cao hơn mức đáng ra phải trả. Việc này quan trọng vì thiệt hại có thể bị che khuất trong nhiều tháng, và chỉ một lỗi nhỏ cũng có thể cộng dồn thành số tiền rất lớn với khoản vay lớn. Bước tiếp theo là các ngân hàng sửa tài khoản, bồi thường cho khách hàng bị ảnh hưởng và nói rõ có bao nhiêu người vay bị tác động.",
+      "differences": [
+        "ABC News tập trung vào cuộc rà soát hơn 200.000 khoản vay của ASIC.",
+        "The Guardian Australia nhấn mạnh quy mô tiền lãi phát sinh thêm và quy trình khiếu nại.",
+        "SBS News giải thích cách người vay tự kiểm tra tài khoản offset.",
+        "7NEWS nhấn mạnh việc lỗi này khó được khách hàng nhận ra."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/how-to-check-your-offset-account-is-working-properly-after-55-million-error-exposed/way17b2qi"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australian-mortgage-holders-told-to-check-bank-accounts-after-costly-offset-failures-discovered-c-22646473"
         }
       ]
     },

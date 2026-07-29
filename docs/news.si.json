@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T08:13:48.044Z",
+  "updatedAt": "2026-07-29T09:11:11.426Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -100,8 +100,8 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used.",
-    "A few current stories only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
+    "The Australian still redirects to a cookie wall, Sky News Australia still blocks nocookies pages, and news.com.au RSS remains unreliable, so latest-page and search fallbacks were used when needed.",
+    "A few current stories still only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
   ],
   "clusters": [
     {
@@ -548,6 +548,37 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/29/cannabis-prescription-australia-doctors"
+        }
+      ]
+    },
+    {
+      "id": "offset-account-errors",
+      "headline": "ASIC පවසන්නේ offset ගිණුම් දෝෂ නිසා ගෘහණය ගත් අය ඩොලර් මිලියන 55ක් වැඩිපුර ගෙවලා කියලා",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-29T02:20:00.000Z",
+      "voiceScript": "ASIC කියන්නේ වසර දෙකක් තුළ බැංකු offset ගිණුම් නිසා ගෘහණය ණයවල පොලී නිවැරදිව අඩු නොවූ නිසා ඩොලර් මිලියන 55කට වැඩි වන්දි ගෙවලා තියෙනවා කියලා. නියාමකයා ගෘහණය ණය 200,000කට වඩා පරීක්ෂා කරලා, සමහර ගිණුම් නිවැරදිව සම්බන්ධ කරලා නැතිව තිබුණා කියලා හොයාගෙන තියෙනවා. මේක වැදගත්, මන්ද මෙවැනි පාඩු මාස ගණන් සැඟවී තිබෙන්න පුළුවන්, විශාල ණයකදී කුඩා දෝෂවත් එකතු වෙලා විශාල මුදලක් වෙනවා. ඊළඟ පියවර බැංකු ගිණුම් හදාගැනීම, බලපෑම් ලැබූ ගනුදෙනුකරුවන්ට වන්දි දීම, සහ කොපමණ දෙනෙක් බලපෑමට ලක්වුණාද කියලා පැහැදිලි කිරීමයි.",
+      "differences": [
+        "ABC News 200,000කට වැඩි ණය පරීක්ෂාව මත අවධානය යොමු කරයි.",
+        "The Guardian Australia අමතර පොලී ප්‍රමාණය සහ පැමිණිලි මාර්ගය වැඩි දුරටත් දක්වයි.",
+        "SBS News offset ගිණුම නිවැරදිව සම්බන්ධ වීදැයි පරීක්ෂා කරන ආකාරය පැහැදිලි කරයි.",
+        "7NEWS මේ වගේ දෝෂ ගනුදෙනුකරුවන්ට පහසුවෙන් නොපෙනෙන බව ඉස්මතු කරයි."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/how-to-check-your-offset-account-is-working-properly-after-55-million-error-exposed/way17b2qi"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australian-mortgage-holders-told-to-check-bank-accounts-after-costly-offset-failures-discovered-c-22646473"
         }
       ]
     },
