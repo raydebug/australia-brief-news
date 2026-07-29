@@ -151,6 +151,44 @@ const THEME_OPTIONS = [
       "--accent": "#d45a61",
       "--accent-dark": "#f0a3a8"
     }
+  },
+  {
+    code: "midnight",
+    label: "Midnight",
+    vars: {
+      "--ink": "#e8eef5",
+      "--muted": "#9aa9bb",
+      "--line": "#26364a",
+      "--paper": "#0b1420",
+      "--panel": "#111d2b",
+      "--panel-soft": "#19283a",
+      "--sidebar-bg": "#08111b",
+      "--detail-bg": "#0d1824",
+      "--control-bg": "rgba(17, 29, 43, 0.86)",
+      "--brand": "#c9d8e8",
+      "--brand-strong": "#050b12",
+      "--accent": "#c44f64",
+      "--accent-dark": "#e99aaa"
+    }
+  },
+  {
+    code: "charcoal",
+    label: "Charcoal",
+    vars: {
+      "--ink": "#eeeeec",
+      "--muted": "#a8a6a0",
+      "--line": "#3a3935",
+      "--paper": "#161614",
+      "--panel": "#20201d",
+      "--panel-soft": "#2a2925",
+      "--sidebar-bg": "#11110f",
+      "--detail-bg": "#181816",
+      "--control-bg": "rgba(32, 32, 29, 0.86)",
+      "--brand": "#e2dfd4",
+      "--brand-strong": "#090908",
+      "--accent": "#c65f45",
+      "--accent-dark": "#e4a28f"
+    }
   }
 ];
 
