@@ -47,6 +47,11 @@ a:focus-visible {
 
 .app-shell {
   font-family: var(--app-font-family);
+  --card-title-size: calc(18px * var(--font-scale, 1));
+  --card-text-size: calc(16px * var(--font-scale, 1));
+  --detail-title-size: calc(34px * var(--font-scale, 1));
+  --detail-script-size: calc(19px * var(--font-scale, 1));
+  --mobile-detail-size: calc(17px * var(--font-scale, 1));
   display: grid;
   grid-template-columns: 300px minmax(320px, 440px) minmax(0, 1fr);
   height: 100vh;
@@ -157,7 +162,7 @@ p {
 
 .status-strip div,
 .app-status,
-.font-control {
+.setting-control {
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 10px;
@@ -175,14 +180,14 @@ p {
 }
 
 .app-status div,
-.font-control {
+.setting-control {
   display: flex;
   align-items: center;
   gap: 8px;
   min-width: 0;
 }
 
-.font-control {
+.setting-control {
   justify-content: space-between;
   color: #3f4b53;
   font-size: 13px;
@@ -190,13 +195,13 @@ p {
 
 .status-strip span,
 .app-status span,
-.font-control span {
+.setting-control span {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.font-control select {
+.setting-control select {
   min-width: 0;
   max-width: 160px;
   height: 32px;
@@ -451,11 +456,12 @@ p {
 }
 
 .cluster-card h3 {
-  font-size: 18px;
+  font-size: var(--card-title-size);
   line-height: 1.25;
 }
 
 .cluster-card p {
+  font-size: var(--card-text-size);
   color: #46535c;
   line-height: 1.5;
 }
@@ -491,7 +497,7 @@ p {
 }
 
 .detail-top h2 {
-  font-size: 34px;
+  font-size: var(--detail-title-size);
   line-height: 1.12;
   max-width: 780px;
 }
@@ -539,7 +545,7 @@ p {
 }
 
 .script-panel p {
-  font-size: 19px;
+  font-size: var(--detail-script-size);
   line-height: 1.8;
 }
 
@@ -751,7 +757,7 @@ p {
   }
 
   .mobile-card-detail p {
-    font-size: 17px;
+    font-size: var(--mobile-detail-size);
     line-height: 1.65;
     color: #34414a;
   }

@@ -49,6 +49,13 @@ const FONT_OPTIONS = [
   }
 ];
 
+const FONT_SIZE_OPTIONS = [
+  { code: "small", label: "Small", scale: 0.92 },
+  { code: "standard", label: "Standard", scale: 1 },
+  { code: "large", label: "Large", scale: 1.12 },
+  { code: "xlarge", label: "XL", scale: 1.24 }
+];
+
 const I18N = {
   "zh-Hans": {
     appName: "4news",
@@ -65,6 +72,7 @@ const I18N = {
     single: "单源",
     reload: "重新读取",
     font: "字体",
+    fontSize: "字号",
     install: "安装到设备",
     sources: "来源",
     noticeTitle: "内容说明",
@@ -90,6 +98,7 @@ const I18N = {
     single: "單源",
     reload: "重新讀取",
     font: "字體",
+    fontSize: "字號",
     install: "安裝到裝置",
     sources: "來源",
     noticeTitle: "內容說明",
@@ -115,6 +124,7 @@ const I18N = {
     single: "එක් මූලාශ්‍රයක්",
     reload: "නැවත පූරණය",
     font: "අකුරු",
+    fontSize: "අකුරු ප්‍රමාණය",
     install: "ස්ථාපනය",
     sources: "මූලාශ්‍ර",
     noticeTitle: "අන්තර්ගත සටහන",
@@ -140,6 +150,7 @@ const I18N = {
     single: "Single-source",
     reload: "Reload",
     font: "Font",
+    fontSize: "Size",
     install: "Install",
     sources: "Sources",
     noticeTitle: "Content note",
@@ -165,6 +176,7 @@ const I18N = {
     single: "単一ソース",
     reload: "再読み込み",
     font: "フォント",
+    fontSize: "サイズ",
     install: "インストール",
     sources: "ソース",
     noticeTitle: "コンテンツ注記",
@@ -190,6 +202,7 @@ const I18N = {
     single: "단일 출처",
     reload: "다시 읽기",
     font: "글꼴",
+    fontSize: "크기",
     install: "설치",
     sources: "출처",
     noticeTitle: "콘텐츠 안내",
@@ -215,6 +228,7 @@ const I18N = {
     single: "Một nguồn",
     reload: "Tải lại",
     font: "Phông chữ",
+    fontSize: "Cỡ chữ",
     install: "Cài đặt",
     sources: "Nguồn",
     noticeTitle: "Ghi chú nội dung",
@@ -240,6 +254,7 @@ const I18N = {
     single: "แหล่งเดียว",
     reload: "โหลดใหม่",
     font: "ฟอนต์",
+    fontSize: "ขนาด",
     install: "ติดตั้ง",
     sources: "แหล่งข่าว",
     noticeTitle: "หมายเหตุเนื้อหา",
@@ -321,6 +336,12 @@ function initialFont() {
   const stored = window.localStorage.getItem("brief-font");
   if (FONT_OPTIONS.some((option) => option.code === stored)) return stored;
   return "system";
+}
+
+function initialFontSize() {
+  const stored = window.localStorage.getItem("brief-font-size");
+  if (FONT_SIZE_OPTIONS.some((option) => option.code === stored)) return stored;
+  return "standard";
 }
 
 function newsSourceUrl(language) {
@@ -602,12 +623,14 @@ function App() {
   const [toolsOpen, setToolsOpen] = useState(false);
   const [language, setLanguage] = useState(initialLanguage);
   const [font, setFont] = useState(initialFont);
+  const [fontSize, setFontSize] = useState(initialFontSize);
   const [speakingId, setSpeakingId] = useState(null);
   const [speechVoices, setSpeechVoices] = useState([]);
   const speechRunRef = useRef(0);
 
   const labels = I18N[language];
   const selectedFont = FONT_OPTIONS.find((option) => option.code === font) || FONT_OPTIONS[0];
+  const selectedFontSize = FONT_SIZE_OPTIONS.find((option) => option.code === fontSize) || FONT_SIZE_OPTIONS[1];
   const activeNewsSourceUrl = newsSourceUrl(language);
   const canSpeak = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
 
@@ -641,6 +664,10 @@ function App() {
   useEffect(() => {
     window.localStorage.setItem("brief-font", font);
   }, [font]);
+
+  useEffect(() => {
+    window.localStorage.setItem("brief-font-size", fontSize);
+  }, [fontSize]);
 
   useEffect(() => {
     return () => {
@@ -778,7 +805,13 @@ function App() {
   }, [activeId, clusters]);
 
   return (
-    <main className="app-shell" style={{ "--app-font-family": selectedFont.stack }}>
+    <main
+      className="app-shell"
+      style={{
+        "--app-font-family": selectedFont.stack,
+        "--font-scale": selectedFontSize.scale
+      }}
+    >
       <aside className="sidebar">
         <div className="brand-row">
           <div className="brand-identity">
@@ -843,10 +876,25 @@ function App() {
             />
           </div>
 
-          <div className="font-control">
+          <div className="setting-control">
             <span>{labels.font}</span>
             <select value={font} onChange={(event) => setFont(event.target.value)} aria-label={labels.font}>
               {FONT_OPTIONS.map((option) => (
+                <option key={option.code} value={option.code}>
+                  {option.label}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          <div className="setting-control">
+            <span>{labels.fontSize}</span>
+            <select
+              value={fontSize}
+              onChange={(event) => setFontSize(event.target.value)}
+              aria-label={labels.fontSize}
+            >
+              {FONT_SIZE_OPTIONS.map((option) => (
                 <option key={option.code} value={option.code}>
                   {option.label}
                 </option>
