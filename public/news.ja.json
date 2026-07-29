@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T09:11:11.426Z",
+  "updatedAt": "2026-07-29T10:06:38Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -366,18 +366,19 @@
     },
     {
       "id": "june-inflation-eases-rate-hike-odds",
-      "headline": "6月の物価は落ち着き、追加利上げの理由が弱まる",
-      "voiceScript": "オーストラリアの6月インフレは、エコノミストの予想を下回って前年比3.8%まで鈍化した。借り手には少し राहतが出る一方、8月の利上げは起きにくくなったが、住宅・建設などの粘着的なコストはなおRBAの許容範囲を上回っている。市場は、この鈍化が次の金融政策判断を変えるほど広がっているのかを見極めようとしている。次の焦点はRBA会合と次回の物価データだ。",
+      "headline": "6月のインフレ鈍化で8月利上げ観測が後退",
+      "voiceScript": "オーストラリアの6月の年率インフレは3.8％に鈍化し、オーストラリア準備銀行が重視する基調インフレは3.6％のままでした。やや弱い結果で家計の圧力は少し和らぎ、市場は8月の利上げ観測を後退させましたが、住宅費、家賃、サービス価格はなお根強いままです。重要なのは、RBAが2週間後に再び会合を開き、次の判断が借入コストや消費、景況感を左右するためです。次に注目されるのは、燃料、住宅、ほかの供給ショックが今後のインフレ指標にまで波及するかどうかです。",
       "differences": [
-        "ABCは建設コスト、ASXの反発、月次データ更新を重視する。",
-        "AAPは借り手にとっての予想外の追い風として受け止める。",
-        "Guardianは利上げ確率の低下と、家賃や建設費の重さに注目する。",
-        "AFRは市場反応と、RBAが据え置きやすくなった点を強調する。"
+        "低い消費者物価指数と市場の反応を重視する報道",
+        "住宅ローンの負担緩和とサービス価格の粘着性を指摘する報道",
+        "市場の利上げ観測修正と株価の反発を扱う報道",
+        "8月の追加利上げ確率が下がった点に注目する報道",
+        "基調的な圧力はなお残るとの見方"
       ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/cpi-inflation-interest-rates-asx-market-live-updates/106969852"
+          "url": "https://www.abc.net.au/news/2026-07-29/inflation-june-australia-2026-abs-interest-rates/106970830"
         },
         {
           "source": "The Guardian Australia",
@@ -388,12 +389,16 @@
           "url": "https://www.afr.com/policy/economy/softer-inflation-gives-rba-room-to-hold-rates-20260729-p60jip"
         },
         {
-          "source": "AAP",
+          "source": "AAP News",
           "url": "https://aapnews.aap.com.au/news/australian-shares-surge-as-inflation-eases-rio-rallies"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/chalmers-inflation-drop-is-a-good-sign-evening-news-bulletin-29-july-2026/expibfrsb"
         }
       ],
       "publishedAt": "2026-07-29T04:21:32.000Z",
-      "sourceCount": 4
+      "sourceCount": 5
     },
     {
       "id": "pump-price-relief-ends-oil-risks",
@@ -782,15 +787,16 @@
     },
     {
       "id": "rba-rate-rise-warning",
-      "headline": "オーストラリア準備銀行、インフレリスクで追加利上げの可能性を示唆",
-      "sourceCount": 4,
+      "headline": "供給ショックでRBAの追加利上げ余地が残る",
+      "sourceCount": 5,
       "publishedAt": "2026-07-28T17:30:00Z",
-      "voiceScript": "オーストラリア準備銀行総裁は、インフレ率がなお高く、再利上げの可能性が残っていると警告しました。総裁は、供給ショック、低い生産性、需要の鈍化を注視しており、次回のインフレ指標と8月11日の会合が重要な節目になると述べました。これは、燃料高などの外的ショックが家計と企業にまだ波及しており、中央銀行がインフレ抑制と雇用維持の両立を迫られているためです。次の物価統計が強ければ、金利は再び上がる可能性があります。",
+      "voiceScript": "オーストラリア準備銀行のミシェル・ブロック総裁は、世界的な供給ショックがなおインフレの現実的なリスクであり、物価圧力が自然に和らぐと想定することはできないと述べました。8月の理事会を前に、当局は最新の消費者物価指数、エネルギー費の上昇、減速する経済を見極めています。重要なのは、国内需要が弱まっても輸入ショックが物価を高止まりさせ、RBAの余地を狭める可能性があるためです。次の焦点は、最近のインフレ指標が十分に広範で、金利を据え置ける内容かどうかです。",
       "differences": [
-        "ABC News は、供給ショックと、必要なら行動するRBAの姿勢を中心に伝えています。",
-        "news.com.au は、家計の生活費負担とさらなる利上げの可能性を強調しています。",
-        "The Australian は、弱い生産性と成長鈍化に結びつくスタグフレーションのリスクとして描いています。",
-        "AAPは、6月四半期のインフレ指標と3.7％とされるトリム平均の予測に注目している。"
+        "供給ショックと粘着的なインフレへの警戒を重視する報道",
+        "より高いインフレ見通しと追加対応の可能性を強調する報道",
+        "住宅ローン利用者と家計の生活費圧力に焦点を当てる報道",
+        "低い生産性と減速する成長に結びつくスタグフレーションリスクとして位置づける報道",
+        "消費者物価指数予測とトリム平均の見通しを中心に伝える報道"
       ],
       "links": [
         {
@@ -808,6 +814,10 @@
         {
           "source": "AAP News",
           "url": "https://aapnews.aap.com.au/news/next-rba-rate-call-hinges-on-crucial-inflation-data"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/policy/economy/sticky-inflation-cooling-house-prices-inside-the-rba-s-rates-dilemma-20260729-p60jjr"
         }
       ]
     },
