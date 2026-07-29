@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T03:12:08Z",
+  "updatedAt": "2026-07-29T04:09:28Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -100,9 +100,79 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie gate, Yahoo News Australia was rate-limited during verification, and Sky News Australia redirects to News24."
+    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; Yahoo News Australia is accessible again."
   ],
   "clusters": [
+    {
+      "id": "pump-price-relief-ends-oil-risks",
+      "headline": "Pump-price relief ends as oil risks stay elevated",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T03:59:54Z",
+      "voiceScript": "A temporary fuel discount is due to end on Monday, so drivers will pay more at the bowser even though global oil markets are still unstable. The story matters because fuel costs flow quickly into household budgets, freight and food prices. Regional motorists and commuters will feel it first if petrol follows the same direction. The next question is whether prices settle after the discount disappears or keep tracking overseas shocks.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/fuel-excise-discount-ends-iran-war-oil-prices/106971298"
+        }
+      ]
+    },
+    {
+      "id": "shoalhaven-land-sale-sparks-backlash",
+      "headline": "Shoalhaven land sale plan sparks backlash from community groups",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T03:54:34Z",
+      "voiceScript": "Shoalhaven Council's plan to sell about $14 million worth of land has triggered strong objections from local not-for-profit groups. The fight is about more than one asset sale: it affects community facilities, future development and how councils manage public land. It matters because once land is sold, the decision is hard to reverse. The next step is whether councillors slow the process, change the plan or push it through.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/shoalhaven-council-land-sell-off/106968006"
+        }
+      ]
+    },
+    {
+      "id": "benji-marshall-vaping-denial",
+      "headline": "Benji Marshall denies reports of vaping inside the Tigers gym",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T03:28:44Z",
+      "voiceScript": "Wests Tigers coach Benji Marshall has rejected claims that players were vaping in the club gym. The issue matters because it goes straight to discipline, professionalism and the standards expected inside an NRL program. A confirmed breach would add pressure to a side already trying to reset its culture. The next step is whether the club adds detail, keeps it internal or lets the story fade.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/wests-tigers-nrl-benji-marshall-adam-doueihi-vaping/106971632"
+        }
+      ]
+    },
+    {
+      "id": "canberra-elective-surgery-record",
+      "headline": "Canberra posts a record elective surgery tally",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T03:13:47Z",
+      "voiceScript": "Canberra's health system has recorded a record number of elective surgeries, a sign that some pressure on the waiting list may be easing. That matters because every extra operation can mean less pain, less delay and a quicker return to work for patients. It also gives the territory's new health minister a strong number to defend. The next test is whether hospitals can keep the pace without creating new bottlenecks elsewhere.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/act-elective-surgery-figures-new-health-minister/106966668"
+        }
+      ]
+    },
+    {
+      "id": "hunter-transmission-line-green-light",
+      "headline": "Hunter transmission line gets the green light after a major reroute",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T03:06:26Z",
+      "voiceScript": "A major transmission line project in the Hunter has won approval after planners pushed the route away from more homes and sensitive frog habitat. The decision matters because grid upgrades are central to the energy transition, but each change also adds cost, time and community friction. It shows how hard it is to build new infrastructure while limiting local damage. The next step is construction planning and whether further objections emerge.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/hunter-transmission-project-approved-route-amended/106969890"
+        }
+      ]
+    },
     {
       "id": "qantas-worker-payout-delay",
       "headline": "Court criticises delay in Qantas worker compensation",
@@ -156,7 +226,7 @@
     {
       "id": "inflation-eases-rate-rise-chance",
       "headline": "Lower inflation eases pressure on Australia’s next rate decision",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-07-29T02:45:51Z",
       "voiceScript": "Fresh consumer price data showed inflation slowed to 3.8 per cent in the year to June, which makes an August rate rise less likely. The number is still above the Reserve Bank’s comfort zone, but it came in below what many economists had expected. That matters for mortgage holders and businesses because borrowing costs can move quickly when markets reprice the RBA. The next checkpoint is the 11 August decision, with more debate likely if the next round of data turns hot again.",
       "differences": [],
@@ -164,6 +234,10 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/business/2026/jul/29/cpi-rate-inflation-rba-reserve-bank-australia-interest-rates"
+        },
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.finance.yahoo.com/news/next-rba-rate-call-hinges-173000605.html"
         }
       ]
     },

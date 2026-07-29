@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T03:12:08Z",
+  "updatedAt": "2026-07-29T04:09:28Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -100,9 +100,79 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie gate, Yahoo News Australia was rate-limited during verification, and Sky News Australia redirects to News24."
+    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; Yahoo News Australia is accessible again."
   ],
   "clusters": [
+    {
+      "id": "pump-price-relief-ends-oil-risks",
+      "headline": "油价减免即将结束，国际原油风险仍在",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T03:59:54Z",
+      "voiceScript": "临时燃油减免将在周一结束，司机在加油站付的钱会更高，但全球原油市场仍然不稳定。这个变化之所以重要，是因为燃油成本会很快传导到家庭开支、货运和食品价格。若汽油价格继续跟随外部冲击上行，通勤者和偏远地区司机会最先感受到压力。接下来要看的是，减免取消后油价会不会稳定下来，还是继续跟着海外局势波动。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/fuel-excise-discount-ends-iran-war-oil-prices/106971298"
+        }
+      ]
+    },
+    {
+      "id": "shoalhaven-land-sale-sparks-backlash",
+      "headline": "肖尔黑文拟卖地计划引发社区团体强烈反弹",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T03:54:34Z",
+      "voiceScript": "肖尔黑文市议会打算出售约1400万澳元的土地，这一计划引发了本地非营利组织的强烈反对。争议并不只是一宗资产出售，还关系到社区设施、未来开发，以及市议会如何管理公共土地。之所以重要，是因为一旦土地卖出，后续很难再收回决定。接下来要看的是，议员会放慢程序、修改方案，还是继续推进。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/shoalhaven-council-land-sell-off/106968006"
+        }
+      ]
+    },
+    {
+      "id": "benji-marshall-vaping-denial",
+      "headline": "本吉·马歇尔否认老虎队健身房内有吸电子烟传闻",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T03:28:44Z",
+      "voiceScript": "西部老虎队主教练本吉·马歇尔否认了球员在俱乐部健身房吸电子烟的说法。这个问题之所以重要，是因为它直接关系到纪律、职业标准，以及 NRL 球队内部应有的规范。若真有违规行为，只会给这支正试图重建文化的球队再添压力。接下来要看的是，俱乐部会不会补充细节、内部处理，还是让这件事逐渐淡去。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/wests-tigers-nrl-benji-marshall-adam-doueihi-vaping/106971632"
+        }
+      ]
+    },
+    {
+      "id": "canberra-elective-surgery-record",
+      "headline": "堪培拉择期手术量创纪录",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T03:13:47Z",
+      "voiceScript": "堪培拉的医疗系统录得创纪录的择期手术数量，这说明等候名单上的压力可能正在缓解。这个数字之所以重要，是因为每多做一台手术，都可能意味着患者少一点疼痛、少一点等待，也能更快回到工作岗位。它同时也给领地的新任卫生部长留下了一个需要守住的强指标。接下来要看的是，医院能否在不制造其他堵点的情况下维持这个速度。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/act-elective-surgery-figures-new-health-minister/106966668"
+        }
+      ]
+    },
+    {
+      "id": "hunter-transmission-line-green-light",
+      "headline": "猎人地区输电线路改道后获批",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T03:06:26Z",
+      "voiceScript": "猎人地区一项重要输电线路项目在规划方将线路改到远离更多住宅和敏感青蛙栖息地后，获得了批准。这个决定之所以重要，是因为电网升级是能源转型的核心，但每一次改线都会增加成本、时间和社区摩擦。它也说明，在尽量减少本地影响的前提下建设新基础设施并不容易。接下来要看的是施工计划，以及是否还会出现新的反对意见。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/hunter-transmission-project-approved-route-amended/106969890"
+        }
+      ]
+    },
     {
       "id": "qantas-worker-payout-delay",
       "headline": "法院批评澳航员工赔偿发放拖延",
@@ -156,7 +226,7 @@
     {
       "id": "inflation-eases-rate-rise-chance",
       "headline": "通胀回落，澳洲加息压力暂时减轻",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-07-29T02:45:51Z",
       "voiceScript": "最新消费价格数据显示，6月年度通胀降至3.8%，这让8月再加息的可能性下降。这个数字仍高于澳洲央行舒适区，但比很多经济学家预期更低。它对房贷家庭和企业都很重要，因为市场重新定价后，借贷成本会很快变化。接下来要看的，是8月11日的利率决定，以及后续数据会不会再把市场推回加息预期。",
       "differences": [],
@@ -164,6 +234,10 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/business/2026/jul/29/cpi-rate-inflation-rba-reserve-bank-australia-interest-rates"
+        },
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.finance.yahoo.com/news/next-rba-rate-call-hinges-173000605.html"
         }
       ]
     },

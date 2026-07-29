@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T03:12:08Z",
+  "updatedAt": "2026-07-29T04:09:28Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -100,9 +100,79 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie gate, Yahoo News Australia was rate-limited during verification, and Sky News Australia redirects to News24."
+    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; Yahoo News Australia is accessible again."
   ],
   "clusters": [
+    {
+      "id": "pump-price-relief-ends-oil-risks",
+      "headline": "유류 할인 종료로 가계는 주유비 상승을 대비",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T03:59:54Z",
+      "voiceScript": "한시적 연료 할인은 월요일에 끝날 예정이라 운전자들의 주유비가 오를 수 있지만, 세계 원유시장은 여전히 불안정합니다. 이 변화가 중요한 이유는 연료비가 가계 예산과 운송비, 식품 가격에 빠르게 번지기 때문입니다. 특히 통근자와 지역 운전자들이 가장 먼저 체감할 가능성이 큽니다. 다음 관건은 할인 종료 뒤 가격이 안정될지, 아니면 해외 변수에 따라 더 오를지입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/fuel-excise-discount-ends-iran-war-oil-prices/106971298"
+        }
+      ]
+    },
+    {
+      "id": "shoalhaven-land-sale-sparks-backlash",
+      "headline": "쇼얼헤이븐 토지 매각안에 지역 단체 반발",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T03:54:34Z",
+      "voiceScript": "쇼얼헤이븐 시의회가 약 1,400만 호주달러 규모의 토지 매각을 추진하면서 지역 비영리단체들의 거센 반발을 사고 있습니다. 이 문제는 단순한 자산 매각이 아니라 지역 시설, 향후 개발, 그리고 시가 공공 토지를 어떻게 관리할지와도 연결돼 있습니다. 한 번 땅이 팔리면 결정을 되돌리기 어렵다는 점에서 중요합니다. 다음 단계는 의원들이 절차를 늦출지, 계획을 바꿀지, 아니면 그대로 밀어붙일지입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/shoalhaven-council-land-sell-off/106968006"
+        }
+      ]
+    },
+    {
+      "id": "benji-marshall-vaping-denial",
+      "headline": "벤지 마셜, 타이거스 체육관 전자담배 보도 부인",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T03:28:44Z",
+      "voiceScript": "웨스트스 타이거스의 벤지 마셜 감독은 구단 체육관에서 선수들이 전자담배를 피웠다는 보도를 부인했습니다. 이 문제는 규율과 프로다운 태도, 그리고 NRL 팀에 기대되는 기준과 바로 연결되기 때문에 중요합니다. 사실로 확인되면 문화를 다시 세우려는 팀에 더 큰 압박이 될 수 있습니다. 다음 관건은 구단이 세부 내용을 더 밝힐지, 내부적으로 처리할지, 아니면 보도가 잦아들지입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/wests-tigers-nrl-benji-marshall-adam-doueihi-vaping/106971632"
+        }
+      ]
+    },
+    {
+      "id": "canberra-elective-surgery-record",
+      "headline": "캔버라 선택 수술 건수 사상 최고치",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T03:13:47Z",
+      "voiceScript": "캔버라 보건 시스템이 선택 수술 기록을 세우면서 대기자 명단 압박이 다소 완화되고 있다는 신호가 나왔습니다. 이 수치는 환자에게 통증과 지연을 줄이고, 더 빨리 일터로 돌아갈 가능성을 뜻하기 때문에 중요합니다. 또한 지역의 새 보건장관에게도 지켜야 할 강한 성과가 됩니다. 다음 관건은 병원들이 다른 병목을 만들지 않으면서 이 속도를 유지할 수 있느냐입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/act-elective-surgery-figures-new-health-minister/106966668"
+        }
+      ]
+    },
+    {
+      "id": "hunter-transmission-line-green-light",
+      "headline": "헌터 송전선, 대규모 노선 변경 끝에 승인",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T03:06:26Z",
+      "voiceScript": "헌터 지역의 주요 송전선 프로젝트가 대규모 노선 변경 끝에 승인됐습니다. 더 많은 주택과 민감한 개구리 서식지를 피해 경로를 조정한 뒤 나온 결정입니다. 전력망 업그레이드는 에너지 전환의 핵심이지만, 노선을 바꿀 때마다 비용과 시간, 지역사회 갈등이 커집니다. 지역 피해를 줄이면서 새 기반시설을 짓는 일이 얼마나 어려운지를 보여주는 사례입니다. 다음 단계는 공사 계획과 추가 반대가 나올지 여부입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/hunter-transmission-project-approved-route-amended/106969890"
+        }
+      ]
+    },
     {
       "id": "qantas-worker-payout-delay",
       "headline": "콴타스 노동자 보상금 지급 지연에 법원 비판",
@@ -156,7 +226,7 @@
     {
       "id": "inflation-eases-rate-rise-chance",
       "headline": "물가 둔화로 호주 다음 금리 결정 압박 완화",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-07-29T02:45:51Z",
       "voiceScript": "최신 소비자물가 자료에 따르면 6월까지 1년간 물가상승률은 3.8%로 둔화했습니다. 이 수치는 8월 추가 금리 인상 가능성을 낮췄습니다. 다만 호주중앙은행이 편안해하는 범위보다 아직 높고, 많은 경제학자들이 예상한 수준보다도 낮았습니다. 이는 주택대출 보유자와 기업에 중요합니다. 시장이 RBA 전망을 다시 반영하면 차입비용이 빠르게 움직일 수 있기 때문입니다. 다음 관전 포인트는 8월 11일 결정과 이후 물가 데이터입니다.",
       "differences": [],
@@ -164,6 +234,10 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/business/2026/jul/29/cpi-rate-inflation-rba-reserve-bank-australia-interest-rates"
+        },
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.finance.yahoo.com/news/next-rba-rate-call-hinges-173000605.html"
         }
       ]
     },
