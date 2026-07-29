@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T05:10:29.583Z",
+  "updatedAt": "2026-07-29T06:14:28.639Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -100,9 +100,107 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; Yahoo News Australia is accessible again."
+    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; Yahoo News Australia is accessible again.",
+    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used."
   ],
   "clusters": [
+    {
+      "id": "ben-carroll-victoria-royal-commission",
+      "headline": "벤 캐럴, 앨런 퇴진 뒤 빅토리아 주정비에 착수",
+      "voiceScript": "재신타 앨런이 물러난 뒤 벤 캐럴은 빅토리아주 총리로서 첫 근무일을 시작했고, 11월 선거 전에 정부를 안정시키려 하고 있다. 그는 건설 부문 의혹에 대한 왕립조사위원회 구성을 시사했고, 내각 구성을 손볼 가능성도 있다. 새 지도부가 당내 긴장을 누르고 선거전이 본격화되기 전에 지지율을 회복할 수 있는지가 핵심이다. 다음 단계는 조사 범위와 첫 주의 인사·정책 결정이다.",
+      "differences": [
+        "ABC는 첫날 정비와 내각 개편 가능성에 초점을 둔다.",
+        "AAP는 왕립조사위원회와 더 큰 정책 개편을 강조한다.",
+        "Guardian은 다니엘 앤드루스의 공개 지지와 선거 압박을 부각한다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/ben-carroll-first-full-day-as-victorian-premier/106968666"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/daniel-andrews-statement-ben-carroll-victoria-state-election-ntwnfb"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/leadership-showdown-as-labor-faces-calls-for-overhaul"
+        }
+      ],
+      "publishedAt": "2026-07-29T05:52:02.000Z",
+      "sourceCount": 3
+    },
+    {
+      "id": "banks-offset-account-failures",
+      "headline": "모기지 오프셋 계좌 실수로 대출자들이 수백만 달러 손실",
+      "voiceScript": "ASIC은 여러 은행이 모기지 오프셋 계좌를 제대로 설정하거나 관리하지 못해 고객들이 받아야 할 이익을 놓쳤다고 밝혔다. 감독당국에 따르면 은행들은 최근 2년 동안 5500만 호주달러가 넘는 보상을 지급했으며, 이 문제는 주택담보대출을 가진 수백만 가구에 영향을 줄 수 있다. 오프셋 계좌는 원래 이자 부담을 줄이기 위한 장치지만, 작은 처리 오류가 오랫동안 드러나지 않을 수 있다는 점이 핵심이다. 이제 대출자들은 명세서를 확인하고 은행들은 남은 오류를 정리해야 한다.",
+      "differences": [
+        "ABC는 보상 규모와 규제당국의 경고를 중심에 둔다.",
+        "SBS는 대출자가 직접 확인하는 방법을 안내한다.",
+        "AAP는 숨은 과다청구 위험과 은행 문의를 강조한다.",
+        "AFR은 보상 비용과 ASIC의 압박에 초점을 맞춘다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/hidden-harm-the-17-000-offset-account-failure-that-exposes-banks-costly-blind-spot/kkx8e9306"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/financial-services/regulator-slams-top-banks-over-failings-in-mortgage-offset-accounts-20260726-p60in7"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/bank-errors-costing-homebuyers-millions-in-overcharges"
+        }
+      ],
+      "publishedAt": "2026-07-29T05:46:00.000Z",
+      "sourceCount": 4
+    },
+    {
+      "id": "geelong-driver-jailed-mia-rossiter",
+      "headline": "Geelong 치명적 사고 운전자에 빅토리아 법원 실형",
+      "voiceScript": "빅토리아 법원은 Geelong 인근 사고로 12살 Mia Rossiter를 숨지게 한 혐의를 인정한 Jordan Kenyon에게 실형을 선고했다. 법원은 그가 가석방 중이었고 오랜 위험운전 전력이 있었으며 GHB 영향 아래 Stonehaven에서 가족 차량과 충돌했다고 들었다. 이 사건은 반복되는 위험운전과 느슨한 감독이 어떻게 치명적 결과로 이어질 수 있는지 보여준다. 다음 단계는 선고 세부 내용과 Rossiter 가족의 회복 과정이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/jordan-kenyon-jailed-over-crash-that-killed-mia-rossiter/106971210"
+        }
+      ],
+      "publishedAt": "2026-07-29T05:29:54.000Z",
+      "sourceCount": 1
+    },
+    {
+      "id": "angus-taylor-icac-donation-denial",
+      "headline": "NSW ICAC 조사로 Angus Taylor가 정치적 부담을 안게 됐다",
+      "voiceScript": "NSW 부패조사에서 증언과 메시지가 보수 성향 자유당 그룹에 대한 기부 의혹을 제기하면서 Angus Taylor가 더 큰 계파 싸움에 휘말렸다. Taylor는 어떤 금전도 지급한 적이 없고 잘못도 없다고 말하지만, 청문회는 이미 당에 정치적 타격을 키우고 있다. 위원회는 전 장관을 공격하려는 문서도 살피고 있어 조사 범위가 더 넓어졌다. 다음 단계는 청문회가 계속되면서 주장과 공식 부정행위 사이의 연결고리가 나오는지 여부다.",
+      "differences": [
+        "ABC는 David Elliott를 겨냥한 `shit sheet` 증거에 초점을 맞춘다.",
+        "AAP는 Taylor의 기부 부인과 그가 조사에 끌려 들어간 점을 강조한다.",
+        "Guardian은 더 큰 부패와 계파 후과를 부각한다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/nsw-icac-rosny-dylan-whitelaw-david-elliott/106971066"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/angus-taylor-nsw-icac-inquiry-liberal-party-reformers-donation-ntwnfb"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/no-payment-was-made-liberal-leader-denies-donation"
+        }
+      ],
+      "publishedAt": "2026-07-29T05:24:20.000Z",
+      "sourceCount": 3
+    },
     {
       "id": "one-nation-qld-missing-financial-statements",
       "headline": "원네이션, 퀸즐랜드 회계서류 제출 시한 압박",
@@ -144,6 +242,37 @@
           "url": "https://www.abc.net.au/news/2026-07-29/police-responding-to-incident-at-elizabeth-east/106972018"
         }
       ]
+    },
+    {
+      "id": "june-inflation-eases-rate-hike-odds",
+      "headline": "6월 물가 둔화로 추가 금리 인상 명분이 약해졌다",
+      "voiceScript": "호주 6월 물가상승률은 경제학자들의 예상보다 낮았고, 연간 상승률은 3.8%로 둔화됐다. 이 수치는 대출자들에게는 한숨 돌릴 여지를 주며 8월 금리 인상 가능성도 낮춘다. 다만 주택과 건설을 포함한 끈적한 비용은 여전히 RBA가 편한 수준보다 높다. 이제 시장의 관심은 이 둔화가 다음 정책 결정을 바꿀 만큼 넓은지에 쏠린다. 다음 고비는 RBA 회의와 추가 물가 지표다.",
+      "differences": [
+        "ABC는 건설비, ASX 반등, 월간 지표를 강조한다.",
+        "AAP는 대출자에게 뜻밖의 호재로 본다.",
+        "Guardian은 금리 인상 가능성 하락과 임대료·건설비 압박에 주목한다.",
+        "AFR은 시장 반응과 RBA가 동결할 여지를 부각한다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/cpi-inflation-interest-rates-asx-market-live-updates/106969852"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/business/2026/jul/29/cpi-rate-inflation-rba-reserve-bank-australia-interest-rates"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/policy/economy/softer-inflation-gives-rba-room-to-hold-rates-20260729-p60jip"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/australian-shares-surge-as-inflation-eases-rio-rallies"
+        }
+      ],
+      "publishedAt": "2026-07-29T04:21:32.000Z",
+      "sourceCount": 4
     },
     {
       "id": "pump-price-relief-ends-oil-risks",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T05:10:29.583Z",
+  "updatedAt": "2026-07-29T06:14:28.639Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -100,9 +100,107 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; Yahoo News Australia is accessible again."
+    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; Yahoo News Australia is accessible again.",
+    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used."
   ],
   "clusters": [
+    {
+      "id": "ben-carroll-victoria-royal-commission",
+      "headline": "Ben Carroll接手维州工党 试图稳住局面",
+      "voiceScript": "Jacinta Allan辞职后，Ben Carroll开始担任维多利亚州州长的第一天，工党正赶在11月大选前试图稳住政府。他已经表态要就建筑业涉嫌腐败成立皇家委员会，并可能调整内阁分工，给这场领导更替划出新起点。眼下的考验是，新班子能否先压住党内紧张，再在竞选升温前重建选民支持。下一步要看调查范围，以及政府在上任首周会推出哪些决定。",
+      "differences": [
+        "ABC把重点放在新班子上任和可能的内阁调整。",
+        "AAP强调皇家委员会和更广泛的政策重整。",
+        "Guardian突出Daniel Andrews公开表态支持，以及工党面临的选举压力。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/ben-carroll-first-full-day-as-victorian-premier/106968666"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/daniel-andrews-statement-ben-carroll-victoria-state-election-ntwnfb"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/leadership-showdown-as-labor-faces-calls-for-overhaul"
+        }
+      ],
+      "publishedAt": "2026-07-29T05:52:02.000Z",
+      "sourceCount": 3
+    },
+    {
+      "id": "banks-offset-account-failures",
+      "headline": "ASIC说房贷抵消账户失误已让借款人损失数百万",
+      "voiceScript": "ASIC表示，多家银行没有把房贷抵消账户正确设好或持续跟踪，导致客户多付了本不该付的利息。监管机构称，银行两年内已经支付了超过5500万澳元赔偿，问题可能波及数百万背负房贷的澳大利亚家庭。之所以重要，是因为抵消账户本来就是为了降低房贷利息，但小小的处理失误可能拖上多年才被发现。眼下的下一步是借款人核对账单，银行则要把剩余错误尽快补齐。",
+      "differences": [
+        "ABC把赔偿总额和监管警告放在中心。",
+        "SBS把这份报告转成借款人自查指南。",
+        "AAP强调隐蔽的多收利息风险，并建议客户联系银行。",
+        "AFR聚焦赔偿账单和ASIC对银行的压力。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/hidden-harm-the-17-000-offset-account-failure-that-exposes-banks-costly-blind-spot/kkx8e9306"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/financial-services/regulator-slams-top-banks-over-failings-in-mortgage-offset-accounts-20260726-p60in7"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/bank-errors-costing-homebuyers-millions-in-overcharges"
+        }
+      ],
+      "publishedAt": "2026-07-29T05:46:00.000Z",
+      "sourceCount": 4
+    },
+    {
+      "id": "geelong-driver-jailed-mia-rossiter",
+      "headline": "维州法院因Geelong致死车祸判囚司机",
+      "voiceScript": "维多利亚州法院已判处Jordan Kenyon入狱，他承认对一起造成12岁女孩Mia Rossiter死亡的车祸负责。这起事故发生在Geelong附近的Stonehaven，法庭听到他当时处于GHB影响下，而且有长期危险驾驶记录，还在假释期内。这个案件的重要性在于，它再次说明重复危险驾驶和监管失守会如何酿成致命后果。下一步是量刑细节以及Rossiter一家继续恢复的过程。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/jordan-kenyon-jailed-over-crash-that-killed-mia-rossiter/106971210"
+        }
+      ],
+      "publishedAt": "2026-07-29T05:29:54.000Z",
+      "sourceCount": 1
+    },
+    {
+      "id": "angus-taylor-icac-donation-denial",
+      "headline": "NSW ICAC调查让Angus Taylor承压",
+      "voiceScript": "新州反腐调查因捐款和派系交易的证据，把Angus Taylor卷进更大的党内争斗。Taylor说自己没有支付任何款项，也不涉及任何不当行为，但这场听证已经加剧了保守派自由党内部的政治损伤。委员会还在审查一份针对前部长的抹黑文件，说明调查范围已经扩大。下一步要看听证继续推进后，证据会不会进一步指向正式失当。",
+      "differences": [
+        "ABC把焦点放在那份针对David Elliott的“shit sheet”证据。",
+        "AAP强调Taylor否认有任何捐款，并说明他被牵连进调查。",
+        "Guardian突出更大的腐败和派系后果。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/nsw-icac-rosny-dylan-whitelaw-david-elliott/106971066"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/angus-taylor-nsw-icac-inquiry-liberal-party-reformers-donation-ntwnfb"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/no-payment-was-made-liberal-leader-denies-donation"
+        }
+      ],
+      "publishedAt": "2026-07-29T05:24:20.000Z",
+      "sourceCount": 3
+    },
     {
       "id": "one-nation-qld-missing-financial-statements",
       "headline": "一国党面临补交昆州账目期限",
@@ -144,6 +242,37 @@
           "url": "https://www.abc.net.au/news/2026-07-29/police-responding-to-incident-at-elizabeth-east/106972018"
         }
       ]
+    },
+    {
+      "id": "june-inflation-eases-rate-hike-odds",
+      "headline": "6月通胀降温 进一步加息的理由变弱",
+      "voiceScript": "澳大利亚6月通胀低于经济学家预期，全年通胀回落到3.8%。这让借款人稍稍松口气，也让8月再加息的可能性下降，不过住房、建筑和其他黏性成本仍高于澳洲央行的舒适区。市场现在关注的是，这次降温是否足以改变下一次政策决定。接下来要看RBA会议和下一轮价格数据。",
+      "differences": [
+        "ABC强调建筑成本、股市反弹和月度数据更新。",
+        "AAP把结果解读为对借款人的意外利好。",
+        "Guardian关注加息概率下降，以及租金和建房成本仍有压力。",
+        "AFR侧重市场反应和央行更有空间按兵不动。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/cpi-inflation-interest-rates-asx-market-live-updates/106969852"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/business/2026/jul/29/cpi-rate-inflation-rba-reserve-bank-australia-interest-rates"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/policy/economy/softer-inflation-gives-rba-room-to-hold-rates-20260729-p60jip"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/australian-shares-surge-as-inflation-eases-rio-rallies"
+        }
+      ],
+      "publishedAt": "2026-07-29T04:21:32.000Z",
+      "sourceCount": 4
     },
     {
       "id": "pump-price-relief-ends-oil-risks",
