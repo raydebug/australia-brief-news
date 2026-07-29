@@ -1,124 +1,200 @@
 {
-  "updatedAt": "2026-07-29T02:10:39Z",
+  "updatedAt": "2026-07-29T03:12:08Z",
   "generatedBy": "codex",
   "sources": [
     {
       "id": "abc",
       "name": "ABC News",
       "region": "National",
-      "feed": "https://www.abc.net.au/news/feed/51120/rss.xml",
-      "tone": "public broadcaster"
+      "feed": "https://www.abc.net.au/news/feed/51120/rss.xml"
     },
     {
       "id": "sbs",
       "name": "SBS News",
       "region": "National",
-      "feed": "https://www.sbs.com.au/news/feed",
-      "tone": "multicultural service"
+      "feed": "https://www.sbs.com.au/news/feed"
     },
     {
       "id": "guardian-au",
       "name": "The Guardian Australia",
       "region": "National",
-      "feed": "https://www.theguardian.com/australia-news/rss",
-      "tone": "analytical angle"
+      "feed": "https://www.theguardian.com/australia-news/rss"
     },
     {
       "id": "news-com-au",
       "name": "news.com.au",
       "region": "National",
-      "feed": "https://www.news.com.au/content-feeds/latest-news-rss/",
-      "tone": "commercial mainstream"
+      "feed": "https://www.news.com.au/content-feeds/latest-news-rss/"
     },
     {
       "id": "the-australian",
       "name": "The Australian",
       "region": "National",
-      "feed": "https://www.theaustralian.com.au/",
-      "tone": "national broadsheet"
+      "feed": "https://www.theaustralian.com.au/"
     },
     {
       "id": "yahoo-au",
       "name": "Yahoo News Australia",
       "region": "National",
-      "feed": "https://au.news.yahoo.com/",
-      "tone": "aggregated mainstream"
+      "feed": "https://au.news.yahoo.com/"
     },
     {
       "id": "afr",
       "name": "Australian Financial Review",
       "region": "Business",
-      "feed": "https://www.afr.com/latest",
-      "tone": "business and markets"
+      "feed": "https://www.afr.com/latest"
     },
     {
       "id": "sky-news-au",
       "name": "Sky News Australia",
       "region": "National",
-      "feed": "https://www.skynews.com.au/australia-news",
-      "tone": "commercial broadcast news"
+      "feed": "https://www.skynews.com.au/australia-news"
     },
     {
       "id": "nine-news-au",
       "name": "9News",
       "region": "National",
-      "feed": "https://www.9news.com.au/national",
-      "tone": "commercial broadcast news"
+      "feed": "https://www.9news.com.au/national"
     },
     {
       "id": "seven-news-au",
       "name": "7NEWS",
       "region": "National",
-      "feed": "https://7news.com.au/news/australia",
-      "tone": "commercial broadcast news"
+      "feed": "https://7news.com.au/news/australia"
     },
     {
       "id": "smh",
       "name": "The Sydney Morning Herald",
       "region": "NSW",
-      "feed": "https://www.smh.com.au/national",
-      "tone": "metro masthead"
+      "feed": "https://www.smh.com.au/national"
     },
     {
       "id": "the-age",
       "name": "The Age",
       "region": "Victoria",
-      "feed": "https://www.theage.com.au/national/victoria",
-      "tone": "metro masthead"
+      "feed": "https://www.theage.com.au/national/victoria"
     },
     {
       "id": "brisbane-times",
       "name": "Brisbane Times",
       "region": "Queensland",
-      "feed": "https://www.brisbanetimes.com.au/national/queensland",
-      "tone": "metro masthead"
+      "feed": "https://www.brisbanetimes.com.au/national/queensland"
     },
     {
       "id": "watoday",
       "name": "WAtoday",
       "region": "Western Australia",
-      "feed": "https://www.watoday.com.au/national/western-australia",
-      "tone": "metro masthead"
+      "feed": "https://www.watoday.com.au/national/western-australia"
     },
     {
       "id": "canberra-times",
       "name": "The Canberra Times",
       "region": "ACT",
-      "feed": "https://www.canberratimes.com.au/news/latest-news/",
-      "tone": "regional masthead"
+      "feed": "https://www.canberratimes.com.au/news/latest-news/"
     },
     {
       "id": "aap",
       "name": "AAP",
       "region": "National",
-      "feed": "https://www.aap.com.au/news/",
-      "tone": "wire service"
+      "feed": "https://www.aap.com.au/news/"
     }
   ],
   "errors": [
     "The Australian still redirects to a cookie gate, Yahoo News Australia was rate-limited during verification, and Sky News Australia redirects to News24."
   ],
   "clusters": [
+    {
+      "id": "qantas-worker-payout-delay",
+      "headline": "Court criticises delay in Qantas worker compensation",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T02:58:44Z",
+      "voiceScript": "A judge has criticised the slow delivery of the $120 million compensation Qantas agreed to pay workers it illegally sacked. The dispute is now less about the size of the payment and more about how long affected staff must wait for money meant to settle a long legal fight. That matters because compensation only works if it reaches people promptly, especially after years of proceedings. Next, the court will keep pressing the lawyers handling the payout and any further delays should become clearer.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/judge-pans-maurice-blackburn-lawyers-re-qantas-worker-payouts/106970578"
+        }
+      ]
+    },
+    {
+      "id": "sa-bird-flu-sea-lions",
+      "headline": "South Australian bird flu risk rises as local spread looks likely",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T02:58:20Z",
+      "voiceScript": "South Australia has recorded more suspected H5 bird flu cases, and authorities now say local spread is very likely. The focus is Kangaroo Island and the state’s south-east, where sea lions and other wildlife are being watched closely. This matters because once detections move beyond isolated cases, wildlife and nearby agriculture can face a much bigger biosecurity problem. The next step is laboratory confirmation and continued monitoring of the coastline and islands.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/h5-bird-flu-strain-very-likely-spreading-locally-in-sa/106970486"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+        }
+      ]
+    },
+    {
+      "id": "nsw-icac-david-elliott-document",
+      "headline": "ICAC hears allegations of a campaign against a former NSW minister",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T02:53:29Z",
+      "voiceScript": "NSW’s corruption watchdog has heard claims that Liberal operatives drew up a document meant to damage former minister David Elliott. The hearing is testing how party manoeuvring, donations and private communications may have overlapped behind the scenes. That matters because ICAC cases can reshape political careers and public confidence in fundraising rules. Next, more witnesses and documents are likely to show whether the inquiry widens further.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/nsw-icac-rosny-dylan-whitelaw-david-elliott/106971066"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/angus-taylor-nsw-icac-inquiry-liberal-party-reformers-donation-ntwnfb"
+        }
+      ]
+    },
+    {
+      "id": "inflation-eases-rate-rise-chance",
+      "headline": "Lower inflation eases pressure on Australia’s next rate decision",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T02:45:51Z",
+      "voiceScript": "Fresh consumer price data showed inflation slowed to 3.8 per cent in the year to June, which makes an August rate rise less likely. The number is still above the Reserve Bank’s comfort zone, but it came in below what many economists had expected. That matters for mortgage holders and businesses because borrowing costs can move quickly when markets reprice the RBA. The next checkpoint is the 11 August decision, with more debate likely if the next round of data turns hot again.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/business/2026/jul/29/cpi-rate-inflation-rba-reserve-bank-australia-interest-rates"
+        }
+      ]
+    },
+    {
+      "id": "south-australia-murder-suicide",
+      "headline": "South Australia treats deaths of woman and toddler as murder-suicide",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T02:19:32Z",
+      "voiceScript": "South Australia Police say they are treating the deaths of a woman and her toddler found in water off the state’s south-east coast as a murder-suicide. The case now turns on the timeline before the bodies were found and what investigators can reconstruct from the scene. It matters because the deaths of a parent and child raise urgent safeguarding and forensic questions, and the coastal location makes the investigation harder. Next, police will keep piecing together movements and circumstances before any formal findings are made.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/police-treating-death-of-woman-and-toddler-as-murder-suicide/106968662"
+        }
+      ]
+    },
+    {
+      "id": "gosford-stabbing-appeal",
+      "headline": "Police seek a teenager after a fatal stabbing in Gosford",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T02:08:23Z",
+      "voiceScript": "Police are asking a 15-year-old boy to come forward after a man was fatally stabbed on Gosford’s main street. The case now hinges on the timeline from the late-night attack to the appeal for the boy to contact investigators. It matters because violence in a busy town centre can quickly spread fear and raise questions about who was present and why. Next, investigators will try to identify the boy and confirm exactly what happened before any charges are considered.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/teen-appeal-after-gosford-stabbing/106969544"
+        }
+      ]
+    },
     {
       "id": "melbourne-steroid-trafficking",
       "headline": "Melbourne pair charged over alleged steroid trafficking ring",
@@ -266,10 +342,6 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/queensland-farmers-on-alert-as-h5-bird-flu-reaches-state/106967942"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/h5-bird-flu-strain-very-likely-spreading-locally-in-sa/106970486"
         }
       ]
     },
@@ -1001,32 +1073,6 @@
       ]
     },
     {
-      "id": "wa-oil-refinery",
-      "headline": "WA could host Australia's first new refinery in decades",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "The federal and Western Australian governments are funding a feasibility study for a Perdaman-backed refinery proposal in WA. If it goes ahead, it would be Australia’s first large new refinery since the 1960s, coming as Middle East tensions push up oil prices and expose how heavily the country still relies on imported fuel. The next steps are site selection, funding terms and environmental approvals, all of which will shape whether the project can improve fuel security and supply resilience.",
-      "differences": [
-        "ABC News: focuses on the WA proposal and the feasibility study backed by governments.",
-        "The Guardian Australia: stresses the inflation and energy-security angle, noting Australia imports about 90% of its liquid fuels.",
-        "Australian Financial Review: frames it as the PM’s response to a fuel crisis, with the WA location still undecided."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
-        }
-      ]
-    },
-    {
       "id": "sa-industrial-manslaughter",
       "headline": "South Australian manufacturer charged in first industrial manslaughter case",
       "sourceCount": 2,
@@ -1249,6 +1295,32 @@
       ]
     },
     {
+      "id": "wa-oil-refinery",
+      "headline": "WA could host Australia's first new refinery in decades",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "The federal and Western Australian governments are funding a feasibility study for a Perdaman-backed refinery proposal in WA. If it goes ahead, it would be Australia’s first large new refinery since the 1960s, coming as Middle East tensions push up oil prices and expose how heavily the country still relies on imported fuel. The next steps are site selection, funding terms and environmental approvals, all of which will shape whether the project can improve fuel security and supply resilience.",
+      "differences": [
+        "ABC News: focuses on the WA proposal and the feasibility study backed by governments.",
+        "The Guardian Australia: stresses the inflation and energy-security angle, noting Australia imports about 90% of its liquid fuels.",
+        "Australian Financial Review: frames it as the PM’s response to a fuel crisis, with the WA location still undecided."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
+        }
+      ]
+    },
+    {
       "id": "one-nation-poll-surge-2026",
       "headline": "One Nation rises in polls as Coalition keeps ruling out a deal",
       "sourceCount": 2,
@@ -1335,6 +1407,27 @@
       ]
     },
     {
+      "id": "census-explained",
+      "headline": "2026 Census: who must take part and what is at stake",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T12:39:35Z",
+      "voiceScript": "The 2026 Census is due on 11 August, and officials say most people living in Australia must complete it, including some temporary visa holders. The key questions are the deadline, possible fines and how the data will be used to allocate schools, health services and other resources. The next thing to watch is whether reminders lift the response rate, especially among migrant households and people in remote areas.",
+      "differences": [
+        "7NEWS: spells out the key date, how to complete it and the potential fines.",
+        "SBS News: highlights which temporary visa holders must participate and why the count matters."
+      ],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj"
+        }
+      ]
+    },
+    {
       "id": "vad-telehealth",
       "headline": "Labor backs telehealth consultations for assisted dying",
       "sourceCount": 4,
@@ -1357,27 +1450,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5"
-        }
-      ]
-    },
-    {
-      "id": "census-explained",
-      "headline": "2026 Census: who must take part and what is at stake",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T12:39:35Z",
-      "voiceScript": "The 2026 Census is due on 11 August, and officials say most people living in Australia must complete it, including some temporary visa holders. The key questions are the deadline, possible fines and how the data will be used to allocate schools, health services and other resources. The next thing to watch is whether reminders lift the response rate, especially among migrant households and people in remote areas.",
-      "differences": [
-        "7NEWS: spells out the key date, how to complete it and the potential fines.",
-        "SBS News: highlights which temporary visa holders must participate and why the count matters."
-      ],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj"
         }
       ]
     },
@@ -1414,40 +1486,6 @@
         {
           "source": "Brisbane Times",
           "url": "https://www.brisbanetimes.com.au/national/queensland/three-dead-in-two-crashes-across-south-east-overnight-20260726-p60ils.html"
-        }
-      ]
-    },
-    {
-      "id": "fuel-price-rise",
-      "headline": "Fuel prices are rising as the excise cut nears its end",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-25T14:19:00+10:00",
-      "voiceScript": "Fuel prices are still climbing, and the federal government has made clear it will not extend the fuel excise cut beyond its August 2 expiry. With global oil prices rising and geopolitical disruption hitting supply, pump prices in Sydney, Melbourne and elsewhere are already moving higher. Households and commuters will feel that first. The next question is whether higher fuel costs feed through into inflation and affect the Reserve Bank's August interest-rate decision.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293"
-        },
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         }
       ]
     },
@@ -1510,6 +1548,40 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/environment/2026/jul/25/herbicide-parkinsons-disease-paraquat-pulled-from-sale-australia-syngenta"
+        }
+      ]
+    },
+    {
+      "id": "fuel-price-rise",
+      "headline": "Fuel prices are rising as the excise cut nears its end",
+      "sourceCount": 6,
+      "publishedAt": "2026-07-25T14:19:00+10:00",
+      "voiceScript": "Fuel prices are still climbing, and the federal government has made clear it will not extend the fuel excise cut beyond its August 2 expiry. With global oil prices rising and geopolitical disruption hitting supply, pump prices in Sydney, Melbourne and elsewhere are already moving higher. Households and commuters will feel that first. The next question is whether higher fuel costs feed through into inflation and affect the Reserve Bank's August interest-rate decision.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         }
       ]
     },

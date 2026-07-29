@@ -1,124 +1,200 @@
 {
-  "updatedAt": "2026-07-29T02:10:39Z",
+  "updatedAt": "2026-07-29T03:12:08Z",
   "generatedBy": "codex",
   "sources": [
     {
       "id": "abc",
       "name": "ABC News",
       "region": "National",
-      "feed": "https://www.abc.net.au/news/feed/51120/rss.xml",
-      "tone": "公共放送"
+      "feed": "https://www.abc.net.au/news/feed/51120/rss.xml"
     },
     {
       "id": "sbs",
       "name": "SBS News",
       "region": "National",
-      "feed": "https://www.sbs.com.au/news/feed",
-      "tone": "多文化サービス"
+      "feed": "https://www.sbs.com.au/news/feed"
     },
     {
       "id": "guardian-au",
       "name": "The Guardian Australia",
       "region": "National",
-      "feed": "https://www.theguardian.com/australia-news/rss",
-      "tone": "分析重視"
+      "feed": "https://www.theguardian.com/australia-news/rss"
     },
     {
       "id": "news-com-au",
       "name": "news.com.au",
       "region": "National",
-      "feed": "https://www.news.com.au/content-feeds/latest-news-rss/",
-      "tone": "商業系主流"
+      "feed": "https://www.news.com.au/content-feeds/latest-news-rss/"
     },
     {
       "id": "the-australian",
       "name": "The Australian",
       "region": "National",
-      "feed": "https://www.theaustralian.com.au/",
-      "tone": "全国紙"
+      "feed": "https://www.theaustralian.com.au/"
     },
     {
       "id": "yahoo-au",
       "name": "Yahoo News Australia",
       "region": "National",
-      "feed": "https://au.news.yahoo.com/",
-      "tone": "主流メディア集約"
+      "feed": "https://au.news.yahoo.com/"
     },
     {
       "id": "afr",
       "name": "Australian Financial Review",
       "region": "Business",
-      "feed": "https://www.afr.com/latest",
-      "tone": "ビジネス・市場"
+      "feed": "https://www.afr.com/latest"
     },
     {
       "id": "sky-news-au",
       "name": "Sky News Australia",
       "region": "National",
-      "feed": "https://www.skynews.com.au/australia-news",
-      "tone": "民放ニュース"
+      "feed": "https://www.skynews.com.au/australia-news"
     },
     {
       "id": "nine-news-au",
       "name": "9News",
       "region": "National",
-      "feed": "https://www.9news.com.au/national",
-      "tone": "民放ニュース"
+      "feed": "https://www.9news.com.au/national"
     },
     {
       "id": "seven-news-au",
       "name": "7NEWS",
       "region": "National",
-      "feed": "https://7news.com.au/news/australia",
-      "tone": "民放ニュース"
+      "feed": "https://7news.com.au/news/australia"
     },
     {
       "id": "smh",
       "name": "The Sydney Morning Herald",
       "region": "NSW",
-      "feed": "https://www.smh.com.au/national",
-      "tone": "首都圏紙"
+      "feed": "https://www.smh.com.au/national"
     },
     {
       "id": "the-age",
       "name": "The Age",
       "region": "Victoria",
-      "feed": "https://www.theage.com.au/national/victoria",
-      "tone": "首都圏紙"
+      "feed": "https://www.theage.com.au/national/victoria"
     },
     {
       "id": "brisbane-times",
       "name": "Brisbane Times",
       "region": "Queensland",
-      "feed": "https://www.brisbanetimes.com.au/national/queensland",
-      "tone": "首都圏紙"
+      "feed": "https://www.brisbanetimes.com.au/national/queensland"
     },
     {
       "id": "watoday",
       "name": "WAtoday",
       "region": "Western Australia",
-      "feed": "https://www.watoday.com.au/national/western-australia",
-      "tone": "首都圏紙"
+      "feed": "https://www.watoday.com.au/national/western-australia"
     },
     {
       "id": "canberra-times",
       "name": "The Canberra Times",
       "region": "ACT",
-      "feed": "https://www.canberratimes.com.au/news/latest-news/",
-      "tone": "地方紙"
+      "feed": "https://www.canberratimes.com.au/news/latest-news/"
     },
     {
       "id": "aap",
       "name": "AAP",
       "region": "National",
-      "feed": "https://www.aap.com.au/news/",
-      "tone": "通信社"
+      "feed": "https://www.aap.com.au/news/"
     }
   ],
   "errors": [
     "The Australian still redirects to a cookie gate, Yahoo News Australia was rate-limited during verification, and Sky News Australia redirects to News24."
   ],
   "clusters": [
+    {
+      "id": "qantas-worker-payout-delay",
+      "headline": "カンタス労働者への補償金支払いの遅れに裁判所が苦言",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T02:58:44Z",
+      "voiceScript": "裁判所は、違法に解雇されたカンタス労働者への1億2000万豪ドルの補償金支払いが遅れているとして厳しく批判しました。争点は補償額そのものより、長引いた法廷闘争の決着に当てられた金が、被害を受けた人たちにいつ届くのかです。補償は、長い手続きのあとでも速やかに届いてこそ意味があります。今後は、支払いを担う弁護士側への追及が続き、遅れがさらに解消されるかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/judge-pans-maurice-blackburn-lawyers-re-qantas-worker-payouts/106970578"
+        }
+      ]
+    },
+    {
+      "id": "sa-bird-flu-sea-lions",
+      "headline": "南オーストラリアの鳥インフル警戒高まる、地域内感染の可能性が強まる",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T02:58:20Z",
+      "voiceScript": "南オーストラリアでH5鳥インフルの疑い例がさらに見つかり、当局は地域内での感染がかなり起きている可能性が高いとしています。注目されているのはカンガルー島と州南東部で、アシカを含む野生動物の監視が強まっています。点在する発見の段階を超えると、野生動物と周辺の農業にとって大きなバイオセキュリティ問題になります。今後は検査結果の確定と、海岸や島の継続監視が焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/h5-bird-flu-strain-very-likely-spreading-locally-in-sa/106970486"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+        }
+      ]
+    },
+    {
+      "id": "nsw-icac-david-elliott-document",
+      "headline": "NSW汚職監視機関、元州閣僚を狙った文書工作の疑惑を聴取",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T02:53:29Z",
+      "voiceScript": "NSWの汚職監視機関は、自由党の関係者が元閣僚デビッド・エリオット氏の評価を下げるための文書を作成したという疑惑を聴取しました。審理では、党内の動き、献金、私的なやり取りが裏でどう重なっていたのかが問われています。ICAC案件は政治家の経歴だけでなく、献金ルールへの信頼も揺らすため重要です。今後は、さらに多くの証人と書類が出そろい、捜査が広がるかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/nsw-icac-rosny-dylan-whitelaw-david-elliott/106971066"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/angus-taylor-nsw-icac-inquiry-liberal-party-reformers-donation-ntwnfb"
+        }
+      ]
+    },
+    {
+      "id": "inflation-eases-rate-rise-chance",
+      "headline": "インフレ鈍化で次回利上げ観測はやや後退",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T02:45:51Z",
+      "voiceScript": "最新の消費者物価データで、6月までの1年間のインフレ率は3.8％まで鈍化しました。これで8月の利上げはやや遠のきましたが、まだ中央銀行の許容範囲を上回っています。多くの経済学者の予想より低かったことは、住宅ローン利用者と企業にとって重要です。市場がRBAの見通しを組み替えると借り入れコストはすぐ動くため、次の焦点は8月11日の判断と、その後のデータです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/business/2026/jul/29/cpi-rate-inflation-rba-reserve-bank-australia-interest-rates"
+        }
+      ]
+    },
+    {
+      "id": "south-australia-murder-suicide",
+      "headline": "南オーストラリアで女性と幼児の死亡、警察は無理心中と判断",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T02:19:32Z",
+      "voiceScript": "南オーストラリア警察は、州南東部の沖で水中から見つかった女性と幼児の死亡を、無理心中として扱っていると発表しました。今の焦点は、遺体が見つかる前の時間の流れと、現場から何が再構成できるかです。親と子の死亡は保護と法医学の緊急課題を生み、海岸という場所が捜査を難しくします。今後は、警察が行動の流れと状況を詰め、正式な結論に向かいます。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/police-treating-death-of-woman-and-toddler-as-murder-suicide/106968662"
+        }
+      ]
+    },
+    {
+      "id": "gosford-stabbing-appeal",
+      "headline": "ゴスフォード刺殺事件で15歳少年に警察が出頭を呼びかけ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T02:08:23Z",
+      "voiceScript": "ゴスフォードの中心街で男性が刺され死亡したあと、警察は15歳の少年に連絡を取るよう呼びかけています。今の焦点は、深夜の襲撃から少年への呼びかけに至るまでの時間の流れです。この事件が重要なのは、繁華街での暴力がすぐに不安を広げ、誰がその場にいたのかという疑問を生むからです。今後は、少年の所在確認と、起訴前に何が起きたのかの特定が進む見通しです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/teen-appeal-after-gosford-stabbing/106969544"
+        }
+      ]
+    },
     {
       "id": "melbourne-steroid-trafficking",
       "headline": "メルボルンの男女2人、違法ステロイド密売の疑いで起訴",
@@ -266,10 +342,6 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/queensland-farmers-on-alert-as-h5-bird-flu-reaches-state/106967942"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/h5-bird-flu-strain-very-likely-spreading-locally-in-sa/106970486"
         }
       ]
     },
@@ -1001,32 +1073,6 @@
       ]
     },
     {
-      "id": "wa-oil-refinery",
-      "headline": "西オーストラリア州で数十年ぶりの新製油所計画",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "連邦政府と西オーストラリア州政府は、ペルダマン社が関わる製油所計画の実現可能性調査に資金を出している。実現すれば、オーストラリアで1960年代以来となる大型の新製油所になる。中東情勢の緊張で原油価格が上がる中、輸入燃料への依存が改めて浮き彫りになっている。今後は用地、資金調達、環境審査が進むかどうかが焦点になる。",
-      "differences": [
-        "ABC News：西オーストラリア州とペルダマン社の計画、そして連邦・州政府による実現可能性調査を前面に出している。",
-        "The Guardian Australia：中東の緊張がインフレと燃料リスクを押し上げている点を強調し、オーストラリアの液体燃料の約9割が輸入だと伝える。",
-        "Australian Financial Review：首相の燃料危機対応として描き、西オーストラリア州の建設予定地がまだ未定だと伝える。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
-        }
-      ]
-    },
-    {
       "id": "sa-industrial-manslaughter",
       "headline": "南オーストラリア州の製造会社、州初の産業過失致死で起訴",
       "sourceCount": 2,
@@ -1249,6 +1295,32 @@
       ]
     },
     {
+      "id": "wa-oil-refinery",
+      "headline": "西オーストラリア州で数十年ぶりの新製油所計画",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "連邦政府と西オーストラリア州政府は、ペルダマン社が関わる製油所計画の実現可能性調査に資金を出している。実現すれば、オーストラリアで1960年代以来となる大型の新製油所になる。中東情勢の緊張で原油価格が上がる中、輸入燃料への依存が改めて浮き彫りになっている。今後は用地、資金調達、環境審査が進むかどうかが焦点になる。",
+      "differences": [
+        "ABC News：西オーストラリア州とペルダマン社の計画、そして連邦・州政府による実現可能性調査を前面に出している。",
+        "The Guardian Australia：中東の緊張がインフレと燃料リスクを押し上げている点を強調し、オーストラリアの液体燃料の約9割が輸入だと伝える。",
+        "Australian Financial Review：首相の燃料危機対応として描き、西オーストラリア州の建設予定地がまだ未定だと伝える。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
+        }
+      ]
+    },
+    {
       "id": "one-nation-poll-surge-2026",
       "headline": "ワン・ネーション支持が上昇、連合は協力を否定",
       "sourceCount": 2,
@@ -1335,6 +1407,27 @@
       ]
     },
     {
+      "id": "census-explained",
+      "headline": "2026年国勢調査、誰が対象で何が重要か",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T12:39:35Z",
+      "voiceScript": "2026年国勢調査は8月11日に実施され、オーストラリアで暮らす多くの人は記入が必要で、一部の臨時ビザ保有者も対象です。焦点は、締め切りと罰金の有無、そして集まったデータが学校や医療などの資源配分にどう使われるかです。今後は、案内で回答率が上がるか、特に移民世帯や地方・遠隔地の世帯でどこまで回収できるかが注目されます。",
+      "differences": [
+        "7NEWS: 期限、記入方法、罰金の可能性をわかりやすく整理。",
+        "SBS News: どの臨時ビザ保有者が対象かと、調査の重要性を強調。"
+      ],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj"
+        }
+      ]
+    },
+    {
       "id": "vad-telehealth",
       "headline": "Labor、安楽死の遠隔医療相談を支持",
       "sourceCount": 4,
@@ -1357,27 +1450,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5"
-        }
-      ]
-    },
-    {
-      "id": "census-explained",
-      "headline": "2026年国勢調査、誰が対象で何が重要か",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T12:39:35Z",
-      "voiceScript": "2026年国勢調査は8月11日に実施され、オーストラリアで暮らす多くの人は記入が必要で、一部の臨時ビザ保有者も対象です。焦点は、締め切りと罰金の有無、そして集まったデータが学校や医療などの資源配分にどう使われるかです。今後は、案内で回答率が上がるか、特に移民世帯や地方・遠隔地の世帯でどこまで回収できるかが注目されます。",
-      "differences": [
-        "7NEWS: 期限、記入方法、罰金の可能性をわかりやすく整理。",
-        "SBS News: どの臨時ビザ保有者が対象かと、調査の重要性を強調。"
-      ],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj"
         }
       ]
     },
@@ -1414,40 +1486,6 @@
         {
           "source": "Brisbane Times",
           "url": "https://www.brisbanetimes.com.au/national/queensland/three-dead-in-two-crashes-across-south-east-overnight-20260726-p60ils.html"
-        }
-      ]
-    },
-    {
-      "id": "fuel-price-rise",
-      "headline": "燃料価格が上昇、燃料税減免の終了が迫る",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-25T14:19:00+10:00",
-      "voiceScript": "燃料価格はなお上昇を続けており、連邦政府は8月2日に期限を迎える燃料税減免を延長しない方針を明言しました。国際原油価格の上昇と地政学的な供給不安で、シドニーやメルボルンなどでは給油価格がすでに上がっています。家計と通勤者が最初に影響を受ける一方で、この動きがインフレや8月のRBA判断にどう響くかも注目されます。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293"
-        },
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         }
       ]
     },
@@ -1510,6 +1548,40 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/environment/2026/jul/25/herbicide-parkinsons-disease-paraquat-pulled-from-sale-australia-syngenta"
+        }
+      ]
+    },
+    {
+      "id": "fuel-price-rise",
+      "headline": "燃料価格が上昇、燃料税減免の終了が迫る",
+      "sourceCount": 6,
+      "publishedAt": "2026-07-25T14:19:00+10:00",
+      "voiceScript": "燃料価格はなお上昇を続けており、連邦政府は8月2日に期限を迎える燃料税減免を延長しない方針を明言しました。国際原油価格の上昇と地政学的な供給不安で、シドニーやメルボルンなどでは給油価格がすでに上がっています。家計と通勤者が最初に影響を受ける一方で、この動きがインフレや8月のRBA判断にどう響くかも注目されます。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         }
       ]
     },

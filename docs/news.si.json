@@ -1,124 +1,200 @@
 {
-  "updatedAt": "2026-07-29T02:10:39Z",
+  "updatedAt": "2026-07-29T03:12:08Z",
   "generatedBy": "codex",
   "sources": [
     {
       "id": "abc",
       "name": "ABC News",
       "region": "National",
-      "feed": "https://www.abc.net.au/news/feed/51120/rss.xml",
-      "tone": "public broadcaster"
+      "feed": "https://www.abc.net.au/news/feed/51120/rss.xml"
     },
     {
       "id": "sbs",
       "name": "SBS News",
       "region": "National",
-      "feed": "https://www.sbs.com.au/news/feed",
-      "tone": "multicultural service"
+      "feed": "https://www.sbs.com.au/news/feed"
     },
     {
       "id": "guardian-au",
       "name": "The Guardian Australia",
       "region": "National",
-      "feed": "https://www.theguardian.com/australia-news/rss",
-      "tone": "analytical angle"
+      "feed": "https://www.theguardian.com/australia-news/rss"
     },
     {
       "id": "news-com-au",
       "name": "news.com.au",
       "region": "National",
-      "feed": "https://www.news.com.au/content-feeds/latest-news-rss/",
-      "tone": "commercial mainstream"
+      "feed": "https://www.news.com.au/content-feeds/latest-news-rss/"
     },
     {
       "id": "the-australian",
       "name": "The Australian",
       "region": "National",
-      "feed": "https://www.theaustralian.com.au/",
-      "tone": "national broadsheet"
+      "feed": "https://www.theaustralian.com.au/"
     },
     {
       "id": "yahoo-au",
       "name": "Yahoo News Australia",
       "region": "National",
-      "feed": "https://au.news.yahoo.com/",
-      "tone": "aggregated mainstream"
+      "feed": "https://au.news.yahoo.com/"
     },
     {
       "id": "afr",
       "name": "Australian Financial Review",
       "region": "Business",
-      "feed": "https://www.afr.com/latest",
-      "tone": "business and markets"
+      "feed": "https://www.afr.com/latest"
     },
     {
       "id": "sky-news-au",
       "name": "Sky News Australia",
       "region": "National",
-      "feed": "https://www.skynews.com.au/australia-news",
-      "tone": "commercial broadcast news"
+      "feed": "https://www.skynews.com.au/australia-news"
     },
     {
       "id": "nine-news-au",
       "name": "9News",
       "region": "National",
-      "feed": "https://www.9news.com.au/national",
-      "tone": "commercial broadcast news"
+      "feed": "https://www.9news.com.au/national"
     },
     {
       "id": "seven-news-au",
       "name": "7NEWS",
       "region": "National",
-      "feed": "https://7news.com.au/news/australia",
-      "tone": "commercial broadcast news"
+      "feed": "https://7news.com.au/news/australia"
     },
     {
       "id": "smh",
       "name": "The Sydney Morning Herald",
       "region": "NSW",
-      "feed": "https://www.smh.com.au/national",
-      "tone": "metro masthead"
+      "feed": "https://www.smh.com.au/national"
     },
     {
       "id": "the-age",
       "name": "The Age",
       "region": "Victoria",
-      "feed": "https://www.theage.com.au/national/victoria",
-      "tone": "metro masthead"
+      "feed": "https://www.theage.com.au/national/victoria"
     },
     {
       "id": "brisbane-times",
       "name": "Brisbane Times",
       "region": "Queensland",
-      "feed": "https://www.brisbanetimes.com.au/national/queensland",
-      "tone": "metro masthead"
+      "feed": "https://www.brisbanetimes.com.au/national/queensland"
     },
     {
       "id": "watoday",
       "name": "WAtoday",
       "region": "Western Australia",
-      "feed": "https://www.watoday.com.au/national/western-australia",
-      "tone": "metro masthead"
+      "feed": "https://www.watoday.com.au/national/western-australia"
     },
     {
       "id": "canberra-times",
       "name": "The Canberra Times",
       "region": "ACT",
-      "feed": "https://www.canberratimes.com.au/news/latest-news/",
-      "tone": "regional masthead"
+      "feed": "https://www.canberratimes.com.au/news/latest-news/"
     },
     {
       "id": "aap",
       "name": "AAP",
       "region": "National",
-      "feed": "https://www.aap.com.au/news/",
-      "tone": "wire service"
+      "feed": "https://www.aap.com.au/news/"
     }
   ],
   "errors": [
     "The Australian still redirects to a cookie gate, Yahoo News Australia was rate-limited during verification, and Sky News Australia redirects to News24."
   ],
   "clusters": [
+    {
+      "id": "qantas-worker-payout-delay",
+      "headline": "Qantas කම්කරුවන්ගේ වන්දි ගෙවීම ප්‍රමාද වීම අධිකරණය විවේචනය කරයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T02:58:44Z",
+      "voiceScript": "නීතිවිරෝධී ලෙස සේවයෙන් ඉවත් කළ Qantas කම්කරුවන්ට ගෙවීමට එකඟ වූ ඩොලර් මිලියන 120 ක වන්දි මුදල ප්‍රමාද වීම ගැන අධිකරණය විවේචනය කළා. දැන් ගැටලුව මුදලේ ප්‍රමාණය නොව, දිගු නඩු වාරයක් අවසන් කිරීමට තිබූ මේ මුදල් පීඩාවට පත් සේවකයන්ට කවදා ලැබේද යන්නයි. මෙය වැදගත්, මන්ද වන්දි මුදල් කාලයට ලැබුණාම පමණක් එහි අරමුණ ඉටු වේ, විශේෂයෙන් වසර ගණනාවක් පුරා ගිය නඩුවකට පසු. ඊළඟට අධිකරණය ගෙවීම භාර නීතිඥයන්ගෙන් තවදුරටත් وضاحت අසාවි, ප්‍රමාදය කොතරම් දුරට අඩුවේද යන්නත් පැහැදිලි වේවි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/judge-pans-maurice-blackburn-lawyers-re-qantas-worker-payouts/106970578"
+        }
+      ]
+    },
+    {
+      "id": "sa-bird-flu-sea-lions",
+      "headline": "දකුණු ඔස්ට්‍රේලියාවේ පක්ෂි උණ අවදානම වැඩිවෙයි, දේශීය ව්‍යාප්තියක් ඇති බව පෙනේ",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T02:58:20Z",
+      "voiceScript": "දකුණු ඔස්ට්‍රේලියාවේ H5 පක්ෂි උණ සැකසහිත තවත් අවස්ථා කිහිපයක් හඳුනාගෙන ඇති අතර, බලධාරීන් දැන් කියන්නේ දේශීය ව්‍යාප්තියක් ඉතාමත් හැකි බවයි. අවධානය කංගාරු දූපත සහ ප්‍රාන්තයේ දකුණු-නැගෙනහිර ප්‍රදේශය මතයි; එහි මුද්‍රා සහ වෙනත් වනජීවීන් දැන් දැඩිව නිරීක්ෂණය කරනවා. මෙය වැදගත්, මන්ද වෙනම හඳුනාගැනීම්වලින් එහාට පැතිරුණොත් වනජීවීන්ටත් අසල කෘෂිකර්මාන්තයටත් විශාල ජෛව ආරක්ෂණ ගැටලුවක් බවට පත්වෙයි. ඊළඟට කළයුත්තේ රසායනාගාර තහවුරුකිරීම් සහ වෙරළ සහ දූපත් පුරා අඛණ්ඩ නිරීක්ෂණයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/h5-bird-flu-strain-very-likely-spreading-locally-in-sa/106970486"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+        }
+      ]
+    },
+    {
+      "id": "nsw-icac-david-elliott-document",
+      "headline": "හිටපු NSW ඇමතිවරයෙකුට එරෙහි ව්‍යාපාරයක් ගැන ICAC වෙත චෝදනා ඉදිරිපත් වෙයි",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T02:53:29Z",
+      "voiceScript": "NSW දූෂණ විමර්ශන ආයතනය ඉදිරියේ, ලිබරල් පක්ෂයේ ක්‍රියාකාරීන් හිටපු ඇමති David Elliottගේ පාර්ලිමේන්තු සහ දේශපාලන ජීවිතයට හානි කිරීමට ලියූ ලේඛනයක් ගැන චෝදනා ඉදිරිපත් වුණා. මෙම විභාගයෙන් පක්ෂ ඇතුළත ක්‍රියාකාරකම්, දායකතා සහ පෞද්ගලික සන්නිවේදන එකිනෙක මිශ්‍ර වී තිබුණේද කියලා පරීක්ෂා කරනවා. මෙය වැදගත්, මන්ද ICAC නඩු දේශපාලන කරියර්ස් සහ අරමුදල් නීති පිළිබඳ මහජන විශ්වාසය දෙකම වෙනස් කරයි. ඊළඟට තවත් සාක්ෂිකරුවන් සහ ලේඛන වලින් විමර්ශනය තවදුරටත් පුළුල් වේදැයි බලන්න තියෙනවා.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/nsw-icac-rosny-dylan-whitelaw-david-elliott/106971066"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/angus-taylor-nsw-icac-inquiry-liberal-party-reformers-donation-ntwnfb"
+        }
+      ]
+    },
+    {
+      "id": "inflation-eases-rate-rise-chance",
+      "headline": "අඩු වූ උද්ධමනය ඊළඟ පොලී අනුපාතික තීරණයට ඇති පීඩනය අඩු කරයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T02:45:51Z",
+      "voiceScript": "නව පාරිභෝගික මිල දත්ත වලින් පෙන්වන්නේ ජූනි අවසානය දක්වා වසරක උද්ධමනය සියයට 3.8 දක්වා පහළ ගිය බවයි. ඒ නිසා අගෝස්තු මාසයේ පොලී අනුපාතිකය තවත් ඉහළ යාමේ ඉඩ අඩු වෙයි. එහෙත් එය තවමත් මහ බැංකුවට සුවපහසු මට්ටමකට වඩා ඉහළයි, ගණනත් බලාපොරොත්තු වූ තරම් ඉහළ නොවීය. මෙය ණය ගෙවන්නන්ටත් ව්‍යාපාරවලටත් වැදගත්, මන්ද වෙළෙඳපොළ අපේක්ෂා නැවත සකස් වුණොත් ණය ගාස්තු ඉක්මනින් වෙනස් වේ. ඊළඟට බලන්න තියෙන්නේ අගෝස්තු 11 තීරණය සහ පසුව එන දත්ත නැවත උණුසුම් වෙනවාද කියන එකයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/business/2026/jul/29/cpi-rate-inflation-rba-reserve-bank-australia-interest-rates"
+        }
+      ]
+    },
+    {
+      "id": "south-australia-murder-suicide",
+      "headline": "කාන්තාවක් සහ කුඩා දරුවෙක් මියයාම දකුණු ඔස්ට්‍රේලියා පොලිසිය මර්ඩර්-සුයිසයිඩ් ලෙස සැලකේ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T02:19:32Z",
+      "voiceScript": "දකුණු ඔස්ට්‍රේලියා පොලිසිය කියන්නේ ප්‍රාන්තයේ දකුණු-නැගෙනහිර වෙරළ අසල ජලයෙන් හමුවූ කාන්තාවක් සහ ඇගේ කුඩා දරුවාගේ මරණ මර්ඩර්-සුයිසයිඩ් ලෙස සලකන බවයි. දැන් ප්‍රධාන ගැටලුව වන්නේ සිරුරු හමු වීමට පෙර කාලරේඛාව සහ සිදුවූ දේ ස්ථානයෙන්ම නැවත ගොඩනගන්න පුළුවන්ද යන්නයි. මෙය වැදගත්, මන්ද මවක් සහ දරුවෙක් මියයාමෙන් ආරක්ෂාව සහ විද්‍යාත්මක පරීක්ෂණ සම්බන්ධ ඉක්මන් ප්‍රශ්න මතුවේ, වෙරළේ ස්ථානය නිසා විමර්ශනය තවත් සංකීර්ණ වේ. ඊළඟට පොලිසිය ඔවුන්ගේ ගමන් සහ තත්ත්වය එකතු කරමින් නිල නිගමනයකට යාමට පෙර තොරතුරු තහවුරු කරනු ඇත.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/police-treating-death-of-woman-and-toddler-as-murder-suicide/106968662"
+        }
+      ]
+    },
+    {
+      "id": "gosford-stabbing-appeal",
+      "headline": "Gosford හි මාරාන්තික පිහි ඇනුමෙන් පසු පොලිසිය 15 හැවිරිදි පිරිමි දරුවෙකු සොයයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T02:08:23Z",
+      "voiceScript": "Gosford හි ප්‍රධාන වීදියේ රාත්‍රියේ සිදු වූ පිහි ඇනුමකින් පසුව මියගිය පිරිමියෙකු සම්බන්ධයෙන් වයස 15ක් වූ පිරිමි දරුවෙකු පොලිසිය සම්බන්ධ කර ගන්නැයි ඉල්ලා සිටිනවා. දැන් ප්‍රධාන ගැටලුව වන්නේ රාත්‍රී සිදුවීමෙන් පස්සේ පොලිසිය මේ දරුවා සොයා ගන්නැයි කර ඇති ඉල්ලීම දක්වා ගිය කාලරේඛාවයි. මෙය වැදගත්, මන්ද කාර්යබහුල නගර මධ්‍යයක ප්‍රචණ්ඩත්වය ඉක්මනින් බිය පැතිරවිය හැකි අතර කව්ද එහි සිටියේ කියන ප්‍රශ්නය මතුවේ. ඊළඟට විමර්ශකයන් මේ දරුවා හඳුනාගෙන, චෝදනා ගැනීමට පෙර ඇත්තටම සිදු වූයේ කුමක්දැයි තහවුරු කරනු ඇත.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/teen-appeal-after-gosford-stabbing/106969544"
+        }
+      ]
+    },
     {
       "id": "melbourne-steroid-trafficking",
       "headline": "මෙල්බර්න් යුවළක් ස්ටෙරොයිඩ් ජාවාරම් නඩුවකට චෝදනා ලබයි",
@@ -266,10 +342,6 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/queensland-farmers-on-alert-as-h5-bird-flu-reaches-state/106967942"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/h5-bird-flu-strain-very-likely-spreading-locally-in-sa/106970486"
         }
       ]
     },
@@ -1001,32 +1073,6 @@
       ]
     },
     {
-      "id": "wa-oil-refinery",
-      "headline": "දශක කිහිපයකින් ඔස්ට්‍රේලියාවේ ප්‍රථම නව පිරිපහදුව සඳහා WA හට සත්කාරකත්වය සැපයිය හැකිය",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "ෆෙඩරල් සහ බටහිර ඕස්ට්‍රේලියානු ආන්ඩු WA හි Perdaman පිටුබලය සහිත පිරිපහදු යෝජනාවක් සඳහා ශක්‍යතා අධ්‍යයනයක් සඳහා අරමුදල් සපයයි. එය ඉදිරියට ගියහොත්, මැදපෙරදිග ආතතීන් තෙල් මිල ඉහළ නංවන අතර රට තවමත් ආනයනික ඉන්ධන මත රඳා පවතින ආකාරය හෙළිදරව් කිරීමත් සමඟ එය 1960 ගණන්වලින් පසු ඕස්ට්‍රේලියාවේ පළමු විශාල නව පිරිපහදුව වනු ඇත. මීළඟ පියවර වන්නේ අඩවි තෝරාගැනීම, අරමුදල් සැපයීමේ නියමයන් සහ පාරිසරික අනුමැතිය, ව්‍යාපෘතියට ඉන්ධන සුරක්ෂිතතාව සහ සැපයුම් ඔරොත්තු දීමේ හැකියාව වැඩිදියුණු කළ හැකිද යන්න හැඩගස්වනු ඇත.",
-      "differences": [
-        "ABC පුවත්: WA යෝජනාව සහ රජය විසින් අනුබල දෙන ශක්‍යතා අධ්‍යයනය කෙරෙහි අවධානය යොමු කරයි.",
-        "The Guardian Australia: ඕස්ට්‍රේලියාව සිය ද්‍රව ඉන්ධනවලින් 90%ක් පමණ ආනයනය කරන බව සඳහන් කරමින් උද්ධමනය සහ බලශක්ති ආරක්ෂණ කෝණය අවධාරණය කරයි.",
-        "ඕස්ට්‍රේලියානු මූල්‍ය සමාලෝචනය: WA ස්ථානය තවමත් තීරණය කර නොමැති ඉන්ධන අර්බුදයකට අගමැතිගේ ප්‍රතිචාරය ලෙස එය රාමු කරයි."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
-        }
-      ]
-    },
-    {
       "id": "sa-industrial-manslaughter",
       "headline": "දකුණු ඕස්ට්‍රේලියානු නිෂ්පාදකයාට පළමු කාර්මික මනුෂ්‍ය ඝාතනය සම්බන්ධයෙන් චෝදනා එල්ල විය",
       "sourceCount": 2,
@@ -1249,6 +1295,32 @@
       ]
     },
     {
+      "id": "wa-oil-refinery",
+      "headline": "දශක කිහිපයකින් ඔස්ට්‍රේලියාවේ ප්‍රථම නව පිරිපහදුව සඳහා WA හට සත්කාරකත්වය සැපයිය හැකිය",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "ෆෙඩරල් සහ බටහිර ඕස්ට්‍රේලියානු ආන්ඩු WA හි Perdaman පිටුබලය සහිත පිරිපහදු යෝජනාවක් සඳහා ශක්‍යතා අධ්‍යයනයක් සඳහා අරමුදල් සපයයි. එය ඉදිරියට ගියහොත්, මැදපෙරදිග ආතතීන් තෙල් මිල ඉහළ නංවන අතර රට තවමත් ආනයනික ඉන්ධන මත රඳා පවතින ආකාරය හෙළිදරව් කිරීමත් සමඟ එය 1960 ගණන්වලින් පසු ඕස්ට්‍රේලියාවේ පළමු විශාල නව පිරිපහදුව වනු ඇත. මීළඟ පියවර වන්නේ අඩවි තෝරාගැනීම, අරමුදල් සැපයීමේ නියමයන් සහ පාරිසරික අනුමැතිය, ව්‍යාපෘතියට ඉන්ධන සුරක්ෂිතතාව සහ සැපයුම් ඔරොත්තු දීමේ හැකියාව වැඩිදියුණු කළ හැකිද යන්න හැඩගස්වනු ඇත.",
+      "differences": [
+        "ABC පුවත්: WA යෝජනාව සහ රජය විසින් අනුබල දෙන ශක්‍යතා අධ්‍යයනය කෙරෙහි අවධානය යොමු කරයි.",
+        "The Guardian Australia: ඕස්ට්‍රේලියාව සිය ද්‍රව ඉන්ධනවලින් 90%ක් පමණ ආනයනය කරන බව සඳහන් කරමින් උද්ධමනය සහ බලශක්ති ආරක්ෂණ කෝණය අවධාරණය කරයි.",
+        "ඕස්ට්‍රේලියානු මූල්‍ය සමාලෝචනය: WA ස්ථානය තවමත් තීරණය කර නොමැති ඉන්ධන අර්බුදයකට අගමැතිගේ ප්‍රතිචාරය ලෙස එය රාමු කරයි."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
+        }
+      ]
+    },
+    {
       "id": "one-nation-poll-surge-2026",
       "headline": "සන්ධානය ගිවිසුමක් ප්‍රතික්ෂේප කරන බැවින් ඡන්ද විමසීම්වලදී එක් ජාතියක් නැගී සිටියි",
       "sourceCount": 2,
@@ -1335,6 +1407,27 @@
       ]
     },
     {
+      "id": "census-explained",
+      "headline": "2026 සංගණනය: සහභාගී විය යුත්තේ කවුරුන්ද සහ අවදානමට ලක්ව ඇති දේ",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T12:39:35Z",
+      "voiceScript": "2026 සංගණනය අගෝස්තු 11 දිනට නියමිත අතර, සමහර තාවකාලික වීසා බලපත්‍රලාභීන් ඇතුළුව ඕස්ට්‍රේලියාවේ වෙසෙන බොහෝ දෙනා එය සම්පූර්ණ කළ යුතු බව නිලධාරීහු පවසති. ප්‍රධාන ප්‍රශ්න වන්නේ අවසාන දිනය, හැකි දඩ මුදල් සහ පාසල්, සෞඛ්‍ය සේවා සහ අනෙකුත් සම්පත් වෙන් කිරීමට දත්ත භාවිතා කරන්නේ කෙසේද යන්නයි. මීළඟට නැරඹිය යුතු දෙය නම් සිහිකැඳවීම් ප්‍රතිචාර අනුපාතය ඉහළ නංවන්නේද යන්නයි, විශේෂයෙන්ම සංක්‍රමණික කුටුම්භයන් සහ දුරස්ථ ප්‍රදේශවල ජනතාව අතර.",
+      "differences": [
+        "7NEWS: ප්‍රධාන දිනය, එය සම්පූර්ණ කරන්නේ කෙසේද සහ විභව දඩ මුදල් නියම කරයි.",
+        "SBS ප්‍රවෘත්ති: කුමන තාවකාලික වීසා බලපත්‍රලාභීන් සහභාගී විය යුතුද සහ ගණන් කිරීම වැදගත් වන්නේ මන්දැයි ඉස්මතු කරයි."
+      ],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj"
+        }
+      ]
+    },
+    {
       "id": "vad-telehealth",
       "headline": "සහායක මියයාම සඳහා ටෙලිහෙල්ත් උපදේශන සඳහා කම්කරු සහාය දක්වයි",
       "sourceCount": 4,
@@ -1357,27 +1450,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5"
-        }
-      ]
-    },
-    {
-      "id": "census-explained",
-      "headline": "2026 සංගණනය: සහභාගී විය යුත්තේ කවුරුන්ද සහ අවදානමට ලක්ව ඇති දේ",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T12:39:35Z",
-      "voiceScript": "2026 සංගණනය අගෝස්තු 11 දිනට නියමිත අතර, සමහර තාවකාලික වීසා බලපත්‍රලාභීන් ඇතුළුව ඕස්ට්‍රේලියාවේ වෙසෙන බොහෝ දෙනා එය සම්පූර්ණ කළ යුතු බව නිලධාරීහු පවසති. ප්‍රධාන ප්‍රශ්න වන්නේ අවසාන දිනය, හැකි දඩ මුදල් සහ පාසල්, සෞඛ්‍ය සේවා සහ අනෙකුත් සම්පත් වෙන් කිරීමට දත්ත භාවිතා කරන්නේ කෙසේද යන්නයි. මීළඟට නැරඹිය යුතු දෙය නම් සිහිකැඳවීම් ප්‍රතිචාර අනුපාතය ඉහළ නංවන්නේද යන්නයි, විශේෂයෙන්ම සංක්‍රමණික කුටුම්භයන් සහ දුරස්ථ ප්‍රදේශවල ජනතාව අතර.",
-      "differences": [
-        "7NEWS: ප්‍රධාන දිනය, එය සම්පූර්ණ කරන්නේ කෙසේද සහ විභව දඩ මුදල් නියම කරයි.",
-        "SBS ප්‍රවෘත්ති: කුමන තාවකාලික වීසා බලපත්‍රලාභීන් සහභාගී විය යුතුද සහ ගණන් කිරීම වැදගත් වන්නේ මන්දැයි ඉස්මතු කරයි."
-      ],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj"
         }
       ]
     },
@@ -1414,40 +1486,6 @@
         {
           "source": "Brisbane Times",
           "url": "https://www.brisbanetimes.com.au/national/queensland/three-dead-in-two-crashes-across-south-east-overnight-20260726-p60ils.html"
-        }
-      ]
-    },
-    {
-      "id": "fuel-price-rise",
-      "headline": "සුරාබදු කප්පාදුව අවසන් වීමට ආසන්න වන විට ඉන්ධන මිල ඉහළ යමින් තිබේ",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-25T14:19:00+10:00",
-      "voiceScript": "ඉන්ධන මිල තවමත් ඉහළ යමින් පවතින අතර, ෆෙඩරල් රජය පැහැදිලි කර ඇත්තේ ඉන්ධන සුරාබදු කප්පාදුව අගෝස්තු 2 කල් ඉකුත්වීමෙන් ඔබ්බට දීර්ඝ නොකරන බවයි. ගෝලීය තෙල් මිල ඉහළ යාම සහ භූ දේශපාලනික කඩාකප්පල් වීම සැපයුමට පහර දීමත් සමඟ, සිඩ්නි, මෙල්බර්න් සහ වෙනත් තැන්වල පොම්ප මිල දැනටමත් ඉහළ යමින් පවතී. නිවෙස් හිමියන්ට සහ මගීන්ට එය මුලින්ම දැනෙනු ඇත. මීළඟ ප්‍රශ්නය වන්නේ ඉහළ ඉන්ධන පිරිවැය උද්ධමනය දක්වා පෝෂණය වන අතර රිසර්ව් බැංකුවේ අගෝස්තු පොලී අනුපාත තීරණයට බලපාන්නේද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293"
-        },
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         }
       ]
     },
@@ -1510,6 +1548,40 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/environment/2026/jul/25/herbicide-parkinsons-disease-paraquat-pulled-from-sale-australia-syngenta"
+        }
+      ]
+    },
+    {
+      "id": "fuel-price-rise",
+      "headline": "සුරාබදු කප්පාදුව අවසන් වීමට ආසන්න වන විට ඉන්ධන මිල ඉහළ යමින් තිබේ",
+      "sourceCount": 6,
+      "publishedAt": "2026-07-25T14:19:00+10:00",
+      "voiceScript": "ඉන්ධන මිල තවමත් ඉහළ යමින් පවතින අතර, ෆෙඩරල් රජය පැහැදිලි කර ඇත්තේ ඉන්ධන සුරාබදු කප්පාදුව අගෝස්තු 2 කල් ඉකුත්වීමෙන් ඔබ්බට දීර්ඝ නොකරන බවයි. ගෝලීය තෙල් මිල ඉහළ යාම සහ භූ දේශපාලනික කඩාකප්පල් වීම සැපයුමට පහර දීමත් සමඟ, සිඩ්නි, මෙල්බර්න් සහ වෙනත් තැන්වල පොම්ප මිල දැනටමත් ඉහළ යමින් පවතී. නිවෙස් හිමියන්ට සහ මගීන්ට එය මුලින්ම දැනෙනු ඇත. මීළඟ ප්‍රශ්නය වන්නේ ඉහළ ඉන්ධන පිරිවැය උද්ධමනය දක්වා පෝෂණය වන අතර රිසර්ව් බැංකුවේ අගෝස්තු පොලී අනුපාත තීරණයට බලපාන්නේද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         }
       ]
     },

@@ -1,124 +1,200 @@
 {
-  "updatedAt": "2026-07-29T02:10:39Z",
+  "updatedAt": "2026-07-29T03:12:08Z",
   "generatedBy": "codex",
   "sources": [
     {
       "id": "abc",
       "name": "ABC News",
       "region": "National",
-      "feed": "https://www.abc.net.au/news/feed/51120/rss.xml",
-      "tone": "public broadcaster"
+      "feed": "https://www.abc.net.au/news/feed/51120/rss.xml"
     },
     {
       "id": "sbs",
       "name": "SBS News",
       "region": "National",
-      "feed": "https://www.sbs.com.au/news/feed",
-      "tone": "multicultural service"
+      "feed": "https://www.sbs.com.au/news/feed"
     },
     {
       "id": "guardian-au",
       "name": "The Guardian Australia",
       "region": "National",
-      "feed": "https://www.theguardian.com/australia-news/rss",
-      "tone": "analytical angle"
+      "feed": "https://www.theguardian.com/australia-news/rss"
     },
     {
       "id": "news-com-au",
       "name": "news.com.au",
       "region": "National",
-      "feed": "https://www.news.com.au/content-feeds/latest-news-rss/",
-      "tone": "commercial mainstream"
+      "feed": "https://www.news.com.au/content-feeds/latest-news-rss/"
     },
     {
       "id": "the-australian",
       "name": "The Australian",
       "region": "National",
-      "feed": "https://www.theaustralian.com.au/",
-      "tone": "national broadsheet"
+      "feed": "https://www.theaustralian.com.au/"
     },
     {
       "id": "yahoo-au",
       "name": "Yahoo News Australia",
       "region": "National",
-      "feed": "https://au.news.yahoo.com/",
-      "tone": "aggregated mainstream"
+      "feed": "https://au.news.yahoo.com/"
     },
     {
       "id": "afr",
       "name": "Australian Financial Review",
       "region": "Business",
-      "feed": "https://www.afr.com/latest",
-      "tone": "business and markets"
+      "feed": "https://www.afr.com/latest"
     },
     {
       "id": "sky-news-au",
       "name": "Sky News Australia",
       "region": "National",
-      "feed": "https://www.skynews.com.au/australia-news",
-      "tone": "commercial broadcast news"
+      "feed": "https://www.skynews.com.au/australia-news"
     },
     {
       "id": "nine-news-au",
       "name": "9News",
       "region": "National",
-      "feed": "https://www.9news.com.au/national",
-      "tone": "commercial broadcast news"
+      "feed": "https://www.9news.com.au/national"
     },
     {
       "id": "seven-news-au",
       "name": "7NEWS",
       "region": "National",
-      "feed": "https://7news.com.au/news/australia",
-      "tone": "commercial broadcast news"
+      "feed": "https://7news.com.au/news/australia"
     },
     {
       "id": "smh",
       "name": "The Sydney Morning Herald",
       "region": "NSW",
-      "feed": "https://www.smh.com.au/national",
-      "tone": "metro masthead"
+      "feed": "https://www.smh.com.au/national"
     },
     {
       "id": "the-age",
       "name": "The Age",
       "region": "Victoria",
-      "feed": "https://www.theage.com.au/national/victoria",
-      "tone": "metro masthead"
+      "feed": "https://www.theage.com.au/national/victoria"
     },
     {
       "id": "brisbane-times",
       "name": "Brisbane Times",
       "region": "Queensland",
-      "feed": "https://www.brisbanetimes.com.au/national/queensland",
-      "tone": "metro masthead"
+      "feed": "https://www.brisbanetimes.com.au/national/queensland"
     },
     {
       "id": "watoday",
       "name": "WAtoday",
       "region": "Western Australia",
-      "feed": "https://www.watoday.com.au/national/western-australia",
-      "tone": "metro masthead"
+      "feed": "https://www.watoday.com.au/national/western-australia"
     },
     {
       "id": "canberra-times",
       "name": "The Canberra Times",
       "region": "ACT",
-      "feed": "https://www.canberratimes.com.au/news/latest-news/",
-      "tone": "regional masthead"
+      "feed": "https://www.canberratimes.com.au/news/latest-news/"
     },
     {
       "id": "aap",
       "name": "AAP",
       "region": "National",
-      "feed": "https://www.aap.com.au/news/",
-      "tone": "wire service"
+      "feed": "https://www.aap.com.au/news/"
     }
   ],
   "errors": [
     "The Australian still redirects to a cookie gate, Yahoo News Australia was rate-limited during verification, and Sky News Australia redirects to News24."
   ],
   "clusters": [
+    {
+      "id": "qantas-worker-payout-delay",
+      "headline": "Tòa án chỉ trích việc chậm bồi thường cho lao động Qantas",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T02:58:44Z",
+      "voiceScript": "Một thẩm phán đã chỉ trích việc chi trả chậm khoản bồi thường 120 triệu đô la Úc mà Qantas đồng ý trả cho những lao động bị sa thải trái luật. Tranh cãi lúc này không còn nằm ở con số nữa mà ở việc những người bị ảnh hưởng sẽ phải chờ bao lâu để nhận số tiền vốn nhằm khép lại một vụ kiện kéo dài. Điều đó quan trọng vì bồi thường chỉ có ý nghĩa khi đến tay người nhận kịp thời, nhất là sau nhiều năm kiện tụng. Sắp tới, tòa sẽ tiếp tục gây sức ép lên nhóm luật sư xử lý khoản thanh toán và khả năng trì hoãn thêm sẽ rõ hơn.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/judge-pans-maurice-blackburn-lawyers-re-qantas-worker-payouts/106970578"
+        }
+      ]
+    },
+    {
+      "id": "sa-bird-flu-sea-lions",
+      "headline": "Nguy cơ cúm gia cầm ở Nam Australia tăng lên khi khả năng lây lan tại chỗ ngày càng rõ",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T02:58:20Z",
+      "voiceScript": "Nam Australia đã ghi nhận thêm nhiều ca nghi nhiễm cúm gia cầm H5, và giới chức nay nói khả năng lây lan tại chỗ là rất cao. Tâm điểm là đảo Kangaroo và vùng đông nam của bang, nơi hải sư và các loài động vật hoang dã khác đang được theo dõi chặt chẽ. Điều này quan trọng vì khi các phát hiện không còn là từng ca riêng lẻ, vấn đề an toàn sinh học với động vật hoang dã và nông nghiệp quanh đó sẽ tăng rất nhanh. Bước tiếp theo là xác nhận bằng xét nghiệm và tiếp tục giám sát bờ biển cùng các hòn đảo.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/h5-bird-flu-strain-very-likely-spreading-locally-in-sa/106970486"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+        }
+      ]
+    },
+    {
+      "id": "nsw-icac-david-elliott-document",
+      "headline": "ICAC nghe cáo buộc về chiến dịch hạ bệ một cựu bộ trưởng NSW",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T02:53:29Z",
+      "voiceScript": "Cơ quan chống tham nhũng của NSW đã nghe cáo buộc rằng các nhân vật của đảng Tự do từng soạn một tài liệu nhằm làm tổn hại cựu bộ trưởng David Elliott. Phiên điều trần đang xem xét việc vận động nội bộ, tiền quyên góp và các liên lạc riêng tư có thể đã đan xen với nhau như thế nào. Điều này quan trọng vì các vụ ICAC có thể làm thay đổi sự nghiệp chính trị và niềm tin của công chúng vào quy định tài trợ. Sắp tới, thêm nhân chứng và tài liệu sẽ cho thấy cuộc điều tra có mở rộng thêm hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/nsw-icac-rosny-dylan-whitelaw-david-elliott/106971066"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/angus-taylor-nsw-icac-inquiry-liberal-party-reformers-donation-ntwnfb"
+        }
+      ]
+    },
+    {
+      "id": "inflation-eases-rate-rise-chance",
+      "headline": "Lạm phát hạ nhiệt làm giảm áp lực lên quyết định lãi suất tiếp theo của Australia",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T02:45:51Z",
+      "voiceScript": "Dữ liệu giá tiêu dùng mới cho thấy lạm phát đã chậm lại còn 3,8% trong năm tính đến tháng 6, khiến khả năng tăng lãi suất vào tháng 8 giảm bớt. Con số này vẫn cao hơn vùng thoải mái của Ngân hàng Dự trữ, nhưng thấp hơn dự báo của nhiều nhà kinh tế. Điều đó quan trọng với người vay mua nhà và doanh nghiệp vì chi phí vay có thể đổi rất nhanh khi thị trường định giá lại kỳ vọng về RBA. Mốc tiếp theo là quyết định ngày 11 tháng 8, và cuộc tranh luận sẽ còn tiếp diễn nếu dữ liệu mới lại nóng lên.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/business/2026/jul/29/cpi-rate-inflation-rba-reserve-bank-australia-interest-rates"
+        }
+      ]
+    },
+    {
+      "id": "south-australia-murder-suicide",
+      "headline": "Nam Australia coi cái chết của một phụ nữ và em bé là án giết người rồi tự sát",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T02:19:32Z",
+      "voiceScript": "Cảnh sát Nam Australia cho biết họ đang xem cái chết của một phụ nữ và đứa trẻ nhỏ được tìm thấy dưới nước ngoài bờ biển đông nam của bang là một vụ giết người rồi tự sát. Trọng tâm lúc này là mốc thời gian trước khi thi thể được tìm thấy và những gì điều tra viên có thể dựng lại từ hiện trường. Vụ việc quan trọng vì cái chết của một người mẹ và con nhỏ đặt ra các câu hỏi khẩn cấp về bảo vệ và pháp y, còn vị trí ven biển khiến điều tra khó hơn. Sắp tới, cảnh sát sẽ tiếp tục ghép lại hành trình và hoàn cảnh trước khi đưa ra kết luận chính thức.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/police-treating-death-of-woman-and-toddler-as-murder-suicide/106968662"
+        }
+      ]
+    },
+    {
+      "id": "gosford-stabbing-appeal",
+      "headline": "Cảnh sát tìm một thiếu niên sau vụ đâm chết người ở Gosford",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T02:08:23Z",
+      "voiceScript": "Cảnh sát đang kêu gọi một thiếu niên 15 tuổi chủ động liên lạc sau khi một người đàn ông bị đâm chết trên phố chính ở Gosford. Vụ việc lúc này xoay quanh mốc thời gian từ đêm xảy ra tấn công đến lời kêu gọi cậu bé liên hệ với điều tra viên. Điều này quan trọng vì bạo lực ở khu trung tâm đông đúc có thể nhanh chóng gây hoang mang và đặt ra câu hỏi ai đã có mặt tại đó. Sắp tới, nhà điều tra sẽ cố xác định thiếu niên này và làm rõ chính xác chuyện gì đã xảy ra trước khi nghĩ đến cáo buộc.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/teen-appeal-after-gosford-stabbing/106969544"
+        }
+      ]
+    },
     {
       "id": "melbourne-steroid-trafficking",
       "headline": "Một cặp ở Melbourne bị truy tố vì nghi buôn lậu steroid",
@@ -266,10 +342,6 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/queensland-farmers-on-alert-as-h5-bird-flu-reaches-state/106967942"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/h5-bird-flu-strain-very-likely-spreading-locally-in-sa/106970486"
         }
       ]
     },
@@ -1001,32 +1073,6 @@
       ]
     },
     {
-      "id": "wa-oil-refinery",
-      "headline": "WA có thể là nơi đặt nhà máy lọc dầu mới đầu tiên của Úc sau nhiều thập kỷ",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "Chính phủ liên bang và Tây Úc đang tài trợ cho một nghiên cứu khả thi cho đề xuất nhà máy lọc dầu do Perdaman hậu thuẫn ở WA. Nếu được tiến hành, đây sẽ là nhà máy lọc dầu mới lớn đầu tiên của Úc kể từ những năm 1960, khi căng thẳng ở Trung Đông đẩy giá dầu lên cao và cho thấy nước này vẫn phụ thuộc nhiều vào nhiên liệu nhập khẩu như thế nào. Các bước tiếp theo là lựa chọn địa điểm, điều kiện tài trợ và phê duyệt về môi trường, tất cả đều sẽ quyết định liệu dự án có thể cải thiện an ninh nhiên liệu và khả năng phục hồi nguồn cung hay không.",
-      "differences": [
-        "ABC News: tập trung vào đề xuất của WA và nghiên cứu khả thi được chính phủ ủng hộ.",
-        "The Guardian Australia: nhấn mạnh đến góc độ lạm phát và an ninh năng lượng, lưu ý rằng Australia nhập khẩu khoảng 90% nhiên liệu lỏng.",
-        "Tạp chí Tài chính Úc: coi đây là phản ứng của Thủ tướng đối với cuộc khủng hoảng nhiên liệu, với địa điểm ở WA vẫn chưa được quyết định."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
-        }
-      ]
-    },
-    {
       "id": "sa-industrial-manslaughter",
       "headline": "Nhà sản xuất Nam Úc bị buộc tội trong vụ ngộ sát công nghiệp đầu tiên",
       "sourceCount": 2,
@@ -1249,6 +1295,32 @@
       ]
     },
     {
+      "id": "wa-oil-refinery",
+      "headline": "WA có thể là nơi đặt nhà máy lọc dầu mới đầu tiên của Úc sau nhiều thập kỷ",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T10:30:00+10:00",
+      "voiceScript": "Chính phủ liên bang và Tây Úc đang tài trợ cho một nghiên cứu khả thi cho đề xuất nhà máy lọc dầu do Perdaman hậu thuẫn ở WA. Nếu được tiến hành, đây sẽ là nhà máy lọc dầu mới lớn đầu tiên của Úc kể từ những năm 1960, khi căng thẳng ở Trung Đông đẩy giá dầu lên cao và cho thấy nước này vẫn phụ thuộc nhiều vào nhiên liệu nhập khẩu như thế nào. Các bước tiếp theo là lựa chọn địa điểm, điều kiện tài trợ và phê duyệt về môi trường, tất cả đều sẽ quyết định liệu dự án có thể cải thiện an ninh nhiên liệu và khả năng phục hồi nguồn cung hay không.",
+      "differences": [
+        "ABC News: tập trung vào đề xuất của WA và nghiên cứu khả thi được chính phủ ủng hộ.",
+        "The Guardian Australia: nhấn mạnh đến góc độ lạm phát và an ninh năng lượng, lưu ý rằng Australia nhập khẩu khoảng 90% nhiên liệu lỏng.",
+        "Tạp chí Tài chính Úc: coi đây là phản ứng của Thủ tướng đối với cuộc khủng hoảng nhiên liệu, với địa điểm ở WA vẫn chưa được quyết định."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
+        }
+      ]
+    },
+    {
       "id": "one-nation-poll-surge-2026",
       "headline": "Đảng Một Quốc Gia tăng trong thăm dò, Liên minh tiếp tục bác khả năng thỏa thuận",
       "sourceCount": 2,
@@ -1335,6 +1407,27 @@
       ]
     },
     {
+      "id": "census-explained",
+      "headline": "Điều tra dân số năm 2026: ai phải tham gia và điều gì đang bị đe dọa",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T12:39:35Z",
+      "voiceScript": "Cuộc điều tra dân số năm 2026 sẽ diễn ra vào ngày 11 tháng 8 và các quan chức cho biết hầu hết người dân sống ở Úc phải hoàn thành cuộc điều tra này, bao gồm cả một số người có thị thực tạm thời. Các câu hỏi chính là thời hạn, các khoản phạt có thể xảy ra và cách dữ liệu sẽ được sử dụng để phân bổ trường học, dịch vụ y tế và các nguồn lực khác. Điều tiếp theo cần theo dõi là liệu lời nhắc có nâng cao tỷ lệ phản hồi hay không, đặc biệt là ở các hộ gia đình nhập cư và người dân ở vùng sâu vùng xa.",
+      "differences": [
+        "7TIN TỨC: nêu rõ ngày quan trọng, cách hoàn thành và các khoản phạt có thể xảy ra.",
+        "SBS News: nêu bật những người có thị thực tạm thời phải tham gia và tại sao số lượng lại quan trọng."
+      ],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj"
+        }
+      ]
+    },
+    {
       "id": "vad-telehealth",
       "headline": "Lao động ủng hộ tư vấn sức khỏe từ xa để hỗ trợ cái chết",
       "sourceCount": 4,
@@ -1357,27 +1450,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5"
-        }
-      ]
-    },
-    {
-      "id": "census-explained",
-      "headline": "Điều tra dân số năm 2026: ai phải tham gia và điều gì đang bị đe dọa",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T12:39:35Z",
-      "voiceScript": "Cuộc điều tra dân số năm 2026 sẽ diễn ra vào ngày 11 tháng 8 và các quan chức cho biết hầu hết người dân sống ở Úc phải hoàn thành cuộc điều tra này, bao gồm cả một số người có thị thực tạm thời. Các câu hỏi chính là thời hạn, các khoản phạt có thể xảy ra và cách dữ liệu sẽ được sử dụng để phân bổ trường học, dịch vụ y tế và các nguồn lực khác. Điều tiếp theo cần theo dõi là liệu lời nhắc có nâng cao tỷ lệ phản hồi hay không, đặc biệt là ở các hộ gia đình nhập cư và người dân ở vùng sâu vùng xa.",
-      "differences": [
-        "7TIN TỨC: nêu rõ ngày quan trọng, cách hoàn thành và các khoản phạt có thể xảy ra.",
-        "SBS News: nêu bật những người có thị thực tạm thời phải tham gia và tại sao số lượng lại quan trọng."
-      ],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj"
         }
       ]
     },
@@ -1414,40 +1486,6 @@
         {
           "source": "Brisbane Times",
           "url": "https://www.brisbanetimes.com.au/national/queensland/three-dead-in-two-crashes-across-south-east-overnight-20260726-p60ils.html"
-        }
-      ]
-    },
-    {
-      "id": "fuel-price-rise",
-      "headline": "Giá nhiên liệu tăng khi đợt cắt giảm thuế tiêu thụ đặc biệt sắp kết thúc",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-25T14:19:00+10:00",
-      "voiceScript": "Giá nhiên liệu vẫn đang tăng và chính phủ liên bang đã nói rõ rằng họ sẽ không gia hạn việc cắt giảm tiêu thụ đặc biệt về nhiên liệu sau khi hết hạn vào ngày 2 tháng 8. Với giá dầu toàn cầu tăng và sự gián đoạn địa chính trị ảnh hưởng đến nguồn cung, giá bơm ở Sydney, Melbourne và các nơi khác đã tăng cao hơn. Các hộ gia đình và người đi lại sẽ cảm nhận được điều đó đầu tiên. Câu hỏi tiếp theo là liệu chi phí nhiên liệu cao hơn có dẫn đến lạm phát và ảnh hưởng đến quyết định lãi suất tháng 8 của Ngân hàng Dự trữ hay không.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293"
-        },
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         }
       ]
     },
@@ -1510,6 +1548,40 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/environment/2026/jul/25/herbicide-parkinsons-disease-paraquat-pulled-from-sale-australia-syngenta"
+        }
+      ]
+    },
+    {
+      "id": "fuel-price-rise",
+      "headline": "Giá nhiên liệu tăng khi đợt cắt giảm thuế tiêu thụ đặc biệt sắp kết thúc",
+      "sourceCount": 6,
+      "publishedAt": "2026-07-25T14:19:00+10:00",
+      "voiceScript": "Giá nhiên liệu vẫn đang tăng và chính phủ liên bang đã nói rõ rằng họ sẽ không gia hạn việc cắt giảm tiêu thụ đặc biệt về nhiên liệu sau khi hết hạn vào ngày 2 tháng 8. Với giá dầu toàn cầu tăng và sự gián đoạn địa chính trị ảnh hưởng đến nguồn cung, giá bơm ở Sydney, Melbourne và các nơi khác đã tăng cao hơn. Các hộ gia đình và người đi lại sẽ cảm nhận được điều đó đầu tiên. Câu hỏi tiếp theo là liệu chi phí nhiên liệu cao hơn có dẫn đến lạm phát và ảnh hưởng đến quyết định lãi suất tháng 8 của Ngân hàng Dự trữ hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         }
       ]
     },
