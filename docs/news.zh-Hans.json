@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T21:13:37.986Z",
+  "updatedAt": "2026-07-29T22:15:53.427Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -101,30 +101,129 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
-    "A few fresh stories were still only available from one Australia-focused source at update time, so some new clusters remain single-source until more coverage appears."
+    "《澳大利亚人报》仍然重定向到 cookie 墙，澳大利亚天空新闻仍然提供 nocookies 页面，而 news.com.au 最新新闻 RSS 仍然是 HTML，而不是干净的提要，因此需要后备提取。",
+    "AAP 文章详细信息页面与主页链接不一致，因此 AAP 被排除在本次运行的最终集群集中之外。",
+    "少数故事仍然是单一来源，因为在收集时没有第二份最近以澳大利亚为重点的报告。"
   ],
   "clusters": [
     {
-      "id": "hellenic-club-pokie-cash-limits",
-      "headline": "堪培拉寡妇称俱乐部教她绕过老虎机取现上限",
+      "id": "aussie-swimming-record-night",
+      "headline": "澳大利亚游泳运动员不断寻找让赛场惊喜的新方法",
       "sourceCount": 1,
-      "publishedAt": "2026-07-29T20:56:30Z",
-      "voiceScript": "堪培拉一名寡妇说，Hellenic Club 的员工曾教她和已故丈夫如何继续提取现金，绕过俱乐部的老虎机取现上限。她表示，这种做法最终让家庭损失了数十万澳元，也让外界重新追问俱乐部究竟如何监控赌博伤害。接下来要看的，是监管机构会把这视为个别违规，还是更大范围问题的一部分。",
+      "publishedAt": "2026-07-29T21:59:33Z",
+      "voiceScript": "一个意想不到的来源为澳大利亚游泳队另一个创纪录的夜晚提供了动力。这一结果凸显了海豚计划的深度以及新名字仍在不断涌现的方式。下一个问题是这种势头是否会持续到未来更大的会议中。",
       "differences": [],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/hellenic-club-accused-gamblers-cash-withdrawal-limits/106971446"
+          "url": "https://www.abc.net.au/news/2026-07-30/kai-taylor-swimming-commonwealth-games-kyle-chalmers/106974426"
         }
       ]
     },
     {
-      "id": "moranbah-country-footy-debut",
-      "headline": "母女同场为 Moranbah 橄榄球俱乐部完成首秀",
+      "id": "closing-gap-off-track",
+      "headline": "澳大利亚缩小差距的进展仍然严重落后",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T21:59:16Z",
+      "voiceScript": "新报告称澳大利亚仅实现了一项缩小差距目标，并且一些差距可能会扩大而不是缩小。最新的里程碑值得欢迎，但它不会改变更大的图景。下一个压力点是政府能否将目标转化为实际成果。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
+        }
+      ]
+    },
+    {
+      "id": "prisoner-detained-release-date",
+      "headline": "南澳大利亚拘留检查未能按时释放囚犯",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T21:59:04Z",
+      "voiceScript": "监察员发现，南澳大利亚惩教机构在一名囚犯本应被释放后仍将其拘留了几个月。该案指出的是释放检查方面的基本失败，而不是复杂的法律纠纷。迫在眉睫的问题是需要改变多少保障措施才能避免同样的错误再次发生。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/sa-correctional-services-detains-prisoner-after-release-date/106970996"
+        }
+      ]
+    },
+    {
+      "id": "wa-mental-health-failure-family-moves",
+      "headline": "A WA 家庭表示，薄弱的心理健康保健迫使他们离开该州",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T21:56:29Z",
+      "voiceScript": "一个家庭表示，西澳大利亚州心理健康系统的差距严重到足以迫使他们跨州。他们描述了在他们最需要的时候却屡屡得不到护理和支持的失败。这个故事增加了国家系统的压力，因为家庭仍然被迫向其他地方寻求帮助。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/family-moves-interstate-poor-mental-health-services-south-west/106973160"
+        }
+      ]
+    },
+    {
+      "id": "victoria-roads-repair-bill",
+      "headline": "维多利亚州因道路不断破损而面临巨额维修费用",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T21:36:17Z",
+      "voiceScript": "维多利亚州的道路网络正在恶化，最新的分析表明维修成本将是巨大的。问题不再只是表面损坏；而是问题。这是政府愿意为修复问题提供资金的速度。在这笔钱到位之前，司机将继续为崎岖不平的道路和缓慢的行驶付出代价。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/how-much-it-would-cost-to-repair-victoria-crumbling-roads/106836750"
+        }
+      ]
+    },
+    {
+      "id": "brisbane-airborne-car-bus",
+      "headline": "一辆汽车在一场剧烈的道路事故中撞上了布里斯班的一辆公共汽车",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T21:11:14Z",
+      "voiceScript": "在布里斯班，一场车祸导致一辆汽车飞到空中并撞到一辆公共汽车的侧面。周三，紧急救援人员必须处理撞击和受伤情况。这个案例表明，普通的交通事故很快就会变成严重的城市车祸现场。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/qld-car-lodges-in-bus-rocklea/106974526"
+        }
+      ]
+    },
+    {
+      "id": "stolen-car-teen-crash",
+      "headline": "一辆被盗汽车发生车祸，两名少女受伤",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T21:09:36Z",
+      "voiceScript": "两名 14 岁女孩在一辆被盗汽车发生车祸后受伤。警方正在处理这起碰撞事故和盗窃案的调查。这再次提醒人们，当年轻人参与盗窃车辆犯罪时，会变得多么危险。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/teenage-girls-injured-in-langwarrin-crash/106974580"
+        }
+      ]
+    },
+    {
+      "id": "bird-flu-poultry-risk",
+      "headline": "家禽养殖户警告禽流感可能会通过当地鸡群传播",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T20:51:08Z",
+      "voiceScript": "农民表示，他们担心禽流感可能已经在当地传播。重点是生物安全、测试速度以及追踪感染的速度。如果这种扩散得到证实，生产商可能会面临更严格的控制和新的损失。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/local-bird-flu-spread-concern-sa-poultry-farmer-biosecurity-robe/106971582"
+        }
+      ]
+    },
+    {
+      "id": "country-footy-family-debut",
+      "headline": "母女罕见地共同为乡村足球俱乐部首次亮相",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:43:30Z",
-      "voiceScript": "昆士兰中部一对母女本赛季为同一家乡村橄榄球俱乐部完成了首秀。对外看这是一个小故事，但它也说明草根俱乐部如何把家庭和社区重新拉在一起。接下来要看的是，她们能否把这股热度延续到季后赛争夺中。",
+      "voiceScript": "一对母女一起为乡村足球俱乐部首次亮相。这是一个当地的小体育故事，但它很重要，因为它表明社区俱乐部仍然依赖家庭关系。这一刻也提醒我们，参与与最终得分同样重要。",
       "differences": [],
       "links": [
         {
@@ -134,11 +233,11 @@
       ]
     },
     {
-      "id": "nras-rent-hikes",
-      "headline": "国家租金可负担计划到期后 癌症老人面临大幅涨租",
+      "id": "rent-housing-subsidy-ends",
+      "headline": "住房支持结束后，一名老年癌症患者面临租金急剧上涨",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:38:50Z",
-      "voiceScript": "墨尔本一名年长癌症患者说，国家租金可负担计划补贴结束后，她的房租一下子涨了很多。倡议者表示，随着更多住房退出该计划，成千上万名租客正承受类似压力。接下来要看的是，政府会不会推出替代方案，还是让这波租金冲击继续传导下去。",
+      "voiceScript": "一位80岁的癌症患者在住房补贴结束后发现房租大幅上涨。这一增加使得本已捉襟见肘的预算空间所剩无几。这是一个直白的例子，说明微小的政策变化如何对有重大健康需求的人造成最严重的打击。",
       "differences": [],
       "links": [
         {
@@ -148,11 +247,11 @@
       ]
     },
     {
-      "id": "norfolk-island-rare-snails",
-      "headline": "诺福克岛稀有蜗牛在失踪数十年后重返野外",
+      "id": "taronga-rare-snail",
+      "headline": "塔龙加动物园培育出一种罕见的蜗牛，使其从濒临灭绝的边缘恢复过来",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:37:36Z",
-      "voiceScript": "研究人员说，一种罕见的 Campbell 缘纹玻璃蜗牛在被人工繁育回濒危边缘后，已经重新放回诺福克岛。大约 1000 只蜗牛被放进一个受保护的山谷，开始重建野外种群。接下来要观察的是，这个族群能否撑住足够久，真正降低物种再次消失的风险。",
+      "voiceScript": "塔龙加动物园饲养了一种被认为已经消失的稀有蜗牛。结果表明，圈养繁殖可以为濒临灭绝的物种赢得时间。环保人士现在想知道这些动物是否能够在动物园之外生存。",
       "differences": [],
       "links": [
         {
@@ -162,11 +261,11 @@
       ]
     },
     {
-      "id": "elder-abuse-protections",
-      "headline": "老人讲述受虐经历 保护呼声进一步升高",
+      "id": "elder-abuse-prevention",
+      "headline": "倡导者正在推动对虐待澳大利亚老年人的行为采取更严厉的行动",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:35:40Z",
-      "voiceScript": "澳大利亚的老年人正在公开论坛上分享受虐经历，推动者则在要求更强的保护措施。焦点包括经济胁迫、忽视和家庭压力，这些问题往往要到损失变得严重时才会被看见。接下来关键的是，政府和银行能否把“提醒大家注意”变成真正可执行的保护。",
+      "voiceScript": "活动人士表示，围绕虐待老年人的公众对话仍然需要改变。他们希望在问题被报道后得到更强烈的认识和更明确的回应。现在的争论是，当前的保障措施是否足够，还是仍然太容易被忽视。",
       "differences": [],
       "links": [
         {
@@ -176,11 +275,11 @@
       ]
     },
     {
-      "id": "varroa-treatment-access",
-      "headline": "养蜂人要求更实用的瓦螨防治方案",
+      "id": "varroa-mite-treatment-access",
+      "headline": "养蜂人要求更快地获得瓦螨治疗方法",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:28:07Z",
-      "voiceScript": "随着瓦螨继续在澳大利亚蜂群中扩散，养蜂人正要求更容易获得的防治手段。业界说，现有工具太有限，审批拖延会同时伤害蜂蜜产量和作物授粉。眼下的问题是，监管机构会不会更快推进审批和配套支持。",
+      "voiceScript": "养蜂人表示，目前针对瓦螨的治疗方案太有限。他们希望在害虫对蜂巢和授粉工作造成更大损害之前获得更好的工具。这个问题的重要性远远超出了蜂蜜的范围，因为它影响到更广泛的食物链中的农业。",
       "differences": [],
       "links": [
         {
@@ -190,11 +289,11 @@
       ]
     },
     {
-      "id": "kealba-landfill-closure",
-      "headline": "墨尔本西部 Kealba 垃圾填埋场将因火灾损害关闭",
+      "id": "landfill-fire-closure",
+      "headline": "墨尔本垃圾填埋场在火灾造成持久损害后将关闭数年",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:03:09Z",
-      "voiceScript": "墨尔本西部一处垃圾填埋场在地下火和反复的零星火点折腾多年后，终于要关闭了。关闭意味着一个长期社区隐患将结束，但场地修复和地区垃圾处理能力如何安排，仍然留下问题。居民接下来会盯着，政府能否拿出明确清理方案，并避免类似情况再次发生。",
+      "voiceScript": "多年前的一场火灾造成了长期问题，墨尔本郊区的一个垃圾填埋场计划关闭。关闭结束了当地的麻烦，但也引发了垃圾下一步将去往何处的问题。居民们将密切关注现场情况和后续计划。",
       "differences": [],
       "links": [
         {
@@ -205,101 +304,80 @@
     },
     {
       "id": "queensland-disability-council-vacancies",
-      "headline": "昆士兰的残障委员会席位空了一年还没补上",
+      "headline": "昆士兰州残疾人委员会一年后仍有空缺",
+      "sourceCount": 1,
       "publishedAt": "2026-07-29T19:35:28Z",
-      "voiceScript": "昆士兰的残障委员会几乎空缺了一整年，让倡议者没有完整的正式席位参与讨论。问题之所以重要，是因为这个委员会本应把亲身经验带进无障碍、服务和改革的决策中。眼下最关键的是任命何时完成，以及拖延是否已经让政府听到的意见范围变窄。在席位补齐之前，代表性缺口仍是这条新闻的核心。",
+      "voiceScript": "近一年后，昆士兰州残疾人委员会的几个席位仍然空缺。这在政策决策继续向前推进的同时，在正式代表性方面留下了缺口。这一延迟表明任命程序未能满足会议上发言权的需要。",
       "differences": [],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/qld-disability-council-queensland-vacancy/106970710"
         }
-      ],
-      "sourceCount": 1
+      ]
     },
     {
-      "id": "australian-solar-bottleneck",
-      "headline": "澳洲太阳能很便宜，但规模化建设成了难题",
+      "id": "neil-the-seal-costs",
+      "headline": "塔斯马尼亚现在有一个更明确的法案来管理海豹尼尔",
       "sourceCount": 1,
-      "publishedAt": "2026-07-29T18:53:55Z",
-      "voiceScript": "澳大利亚的太阳能已经很便宜，但真正的难点变成了如何更快地建出来。报道提到，机器人和更好的制造能力，也许能帮助澳洲造出足够多的面板和设备，把充足日照转化成更大的产业优势。现在的问题是，供应链、劳动力和电网升级能不能跟上。",
+      "publishedAt": "2026-07-29T19:29:01Z",
+      "voiceScript": "当局已经公布了与海豹尼尔相关的损坏账单和管理费用。这些数字将野生动物的故事变成了具体的公共开支。他们还表明，管理一只著名的动物既是一场人气竞赛，也是一个后勤问题。",
       "differences": [],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/turning-to-robots-to-build-australian-solar-future/106917752"
+          "url": "https://www.abc.net.au/news/2026-07-30/neil-the-seal-damage-costs-revealed-tasmania/106970512"
         }
       ]
     },
     {
-      "id": "voting-fines-federal-election",
-      "headline": "未投票罚款已突破 400 万澳元",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T18:43:33Z",
-      "voiceScript": "澳大利亚选举委员会说，约 20 万人在错过去年联邦大选后已经缴清罚款，总额超过 400 万澳元。投票是强制性的，所以这个数字既是罚款累计，也反映还有多少通知需要处理。后续还可能有更多缴费或补发通知，因此总额在流程结束前仍可能上升。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/voters-fined-failure-to-vote-federal-election-/106971244"
-        }
-      ]
-    },
-    {
-      "id": "zoladex-pbs-backdown",
-      "headline": "药企撤回调整，Zoladex 继续免费供应",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T18:42:12Z",
-      "voiceScript": "Zoladex 的生产商撤回了原本可能把这款药纳入 PBS 收费的计划，因此乳腺癌和子宫内膜异位症患者仍可继续免费使用。这个变化很重要，因为它避免了已经承受重病负担的人再多出一笔开销，不过后续的定价安排仍可能调整。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/zoladex-pbs-astrazenica-breast-cancer-endometriosis/106969942"
-        }
-      ]
-    },
-    {
-      "id": "leaked-liberal-preselectors",
-      "headline": "泄露的自由党名单暴露预选名册管理失误",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T18:38:02Z",
-      "voiceScript": "一份外泄的自由党电子表格引发质疑，因为里面竟然列入了一名已故人士和两名前成员的预选名单。问题发生在维州一场关键角逐中，所以这不只是文书失误，更关系到候选人筛选到底是如何管理的。接下来要看党内如何回应，以及这份名单是怎么被整理出来的。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/leaked-liberal-spreadsheet-dead-ex-members-preselection/106964176"
-        }
-      ]
-    },
-    {
-      "id": "sydney-wiley-park-house-fire",
-      "headline": "悉尼 Wiley Park 住宅火灾造成三人死亡",
+      "id": "victorian-labor-ben-carroll",
+      "headline": "本·卡罗尔的崛起引发了新的维多利亚工党重置",
       "sourceCount": 2,
-      "publishedAt": "2026-07-29T15:53:50Z",
-      "voiceScript": "悉尼西南部 Wiley Park 的 Cornelia Street 一处住宅在周三深夜起火，三人遇难。警方表示，消防人员在接近晚上 10 点接报赶到，现场已设立警戒区，调查人员正确认死者身份并查明起火原因。此事之所以重要，是因为它既牵涉家庭悲剧，也需要尽快分清是意外还是人为。",
+      "publishedAt": "2026-07-29T19:17:29Z",
+      "voiceScript": "本·卡罗尔的晋升加深了维多利亚工党内部的重组。党内人士表示，这一转变削弱了社会主义左翼，并开启了领导权争夺的新阶段。下一个考验是，这一变化是否会给工党带来更清晰的选举道路，或者只是带来更多的内部压力。",
       "differences": [
-        "ABC News 侧重警方反应和现场调查。",
-        "7NEWS 更强调火势蔓延速度以及现场找到三具遗体。"
+        "ABC 强调工党内部的派系破坏，而《卫报》则强调卡罗尔的选举前景和内部斗争的后果。",
+        "同样的政治改组要么被解读为派系打击，要么被解读为重置竞选活动的机会。"
       ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/three-dead-in-sydney-housefire-wiley-park/106974284"
+          "url": "https://www.abc.net.au/news/2026-07-30/victoria-labor-party-leadership-jacinta-allan-ben-carroll/106973322"
         },
         {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/three-dead-after-horror-late-night-house-fire-in-sydneys-wiley-park-c-22648662"
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/daniel-andrews-statement-ben-carroll-victoria-state-election-ntwnfb"
         }
       ]
     },
     {
-      "id": "sa-bat-decline",
-      "headline": "南澳稀有弯翼蝙蝠数量大幅下滑",
+      "id": "inflation-eases-chalmers-cautious",
+      "headline": "通货膨胀再次放缓，但堪培拉听起来仍然谨慎",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T19:00:00Z",
+      "voiceScript": "新的通胀数据较低，财务主管正在谈论结果。即便如此，堪培拉发出的更广泛的信息仍然是谨慎而不是庆祝。这很重要，因为利率预期和家庭压力都取决于这种趋势是否持续。",
+      "differences": [
+        "SBS 重点关注通胀数据和政府应对措施，而 ABC 则更关注吉姆·查尔默斯 (Jim Chalmers) 对前景的谨慎态度。",
+        "这两个故事都描述了同样的疲软通胀背景，但它们对政治反应的包装不同。"
+      ],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/june-2026-inflation-falls-to-3-8-per-cent/ikupactu0"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/fuel-excise-inflation-jim-chalmers-reserve-bank-interest-rates/106965396"
+        }
+      ]
+    },
+    {
+      "id": "endangered-bat-decline",
+      "headline": "一种濒危澳大利亚蝙蝠的数量再次急剧下降",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T15:00:37Z",
-      "voiceScript": "南澳 Naracoorte 的繁殖洞穴监测显示，南部弯翼蝙蝠数量比过去五年平均值少了约 5,000 只，降幅约为 14% 到 16%。科学家说，目前还不知道原因，但这种濒危物种本来就高度依赖成年个体存活。这个变化很重要，因为蝙蝠有助于控制昆虫，而继续减少可能把物种推向更危险的处境。",
+      "voiceScript": "科学家表示，一种濒临灭绝的澳大利亚蝙蝠的数量急剧下降，原因尚不清楚。在一个地区，降幅高达 16%。这种不确定性使得保护问题变得更加紧迫，因为管理者仍然不知道是什么在推动这一问题。",
       "differences": [],
       "links": [
         {
@@ -309,1255 +387,116 @@
       ]
     },
     {
-      "id": "atlassian-ai-wallet",
-      "headline": "Atlassian 为员工 AI 使用设置支出上限",
+      "id": "chicken-labels-mean",
+      "headline": "澳大利亚超市鸡肉标签正在为购物者解码",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T15:00:36Z",
-      "voiceScript": "Atlassian 已开始为部分研发员工设置每月 AI 支出上限，个人额度大约在 500 到 2,000 美元之间。公司此举反映出企业正在同时面对模型调用成本和效率争议。对澳洲科技界来说，这说明 AI 不只是生产力工具，也正在迅速改变内部预算和工作规则。",
+      "voiceScript": "购物者被告知诸如散养、有机和无激素等标签在澳大利亚鸡肉产品上的实际含义。令人担忧的是，措辞可能看起来比基本标准的实际情况更清晰。对于消费者来说，问题在于标签是否符合结账时的期望。",
       "differences": [],
       "links": [
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/technology/2026/jul/30/atlassian-tightens-tracking-of-staff-ai-use-as-other-technology-firms-encourage-tokenmaxxing"
+          "url": "https://www.theguardian.com/food/2026/jul/30/free-range-organic-and-hormone-free-what-do-australian-supermarket-chicken-labels-mean"
         }
       ]
     },
     {
-      "id": "regional-renewables-benefits",
-      "headline": "地方社区要求更清楚分享可再生能源项目收益",
+      "id": "sunshine-coast-holiday-club-liquidation",
+      "headline": "A阳光海岸度假俱乐部倒闭，会员要求退款",
       "sourceCount": 1,
-      "publishedAt": "2026-07-29T15:00:36Z",
-      "voiceScript": "地方领袖希望风电、光伏、电池和输电项目的收益分配更清晰。推动方向是一项全国性方案，把更多资金回流给地方议会和项目所在社区，让新的能源基础设施不再只被看成负担。难点在于，各级政府能否同意一个足够简单、又能跨州运作的模型。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/30/australians-value-batteries-and-evs-but-renewables-industry-must-earn-trust-of-regions-summit-told"
-        }
-      ]
-    },
-    {
-      "id": "first-nations-remand-data",
-      "headline": "最新数据显示，原住民儿童被羁押候审时间更长",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T12:35:44.000Z",
-      "voiceScript": "最新全国数据显示，澳大利亚原住民和托雷斯海峡岛民儿童在宣判前被羁押的时间更长。这个变化很重要，因为候审羁押会加重已经在司法系统中占比过高的青少年所承受的伤害，也会影响保释、青少年司法和 Closing the Gap 的讨论。接下来要看的是，各州和领地会不会调整羁押与支持安排，还是这一趋势继续恶化。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/productivity-commission-latest-closing-the-gap-data/106891958"
-        }
-      ]
-    },
-    {
-      "id": "kpmg-audit-job-cuts",
-      "headline": "KPMG 因审计丑闻余波准备裁员逾千人",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T10:00:00.000Z",
-      "voiceScript": "KPMG 澳大利亚表示，随着审计失当丑闻的影响继续发酵，公司将裁掉 1000 多个岗位。这个决定很重要，因为它说明丑闻的成本仍在向公司内部传导，也可能波及更广泛的专业服务市场。接下来要看的是重组会有多深，以及监管机构和客户会不会继续施压。",
-      "differences": [],
-      "links": [
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/companies/professional-services/kpmg-will-sack-dozens-of-partners-1000-staff-amid-audit-scandal-fallout-20260729-p60jnx"
-        }
-      ]
-    },
-    {
-      "id": "aukus-wa-submarines",
-      "headline": "康罗伊为西澳美军潜艇轮换设下2032年终点",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T09:41:00.000Z",
-      "voiceScript": "国防部长帕特·康罗伊说，经过西澳 HMAS Stirling 基地的美国潜艇轮换预计会在2032年后结束。这个时间表给 AUKUS 计划中的关键环节划出更明确的边界，也让堪培拉能更清楚地安排潜艇计划的过渡期。这很重要，因为这座海军基地一直是轮换协议和西部防务规划的核心。接下来要看的是，轮换结束后会用什么安排接手，以及这个时间点会不会再调整。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/pat-conroy-aukus-doubts-about-timeframe/106973268"
-        }
-      ]
-    },
-    {
-      "id": "nt-drug-ring-aliases",
-      "headline": "警方短信把北领地涉嫌贩毒网络和戏谑化名联系起来",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T09:35:07.000Z",
-      "voiceScript": "警方说，一串群聊信息帮助他们把北领地一张涉嫌贩毒网络，和一名被指位于运作高层的人联系起来。聊天内容里据称用了 Duke Dingbat 和 Bush Jesus 这样的化名，随后这名男子的保释被撤销。这件事重要，因为通讯记录可能把零散怀疑变成一张清晰的关系网，显示谁在和谁联系、供应链如何运作。接下来会进入法庭程序，信息内容和每个人的角色都会受到检验。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/alleged-interstate-drug-ring-aliases-darwin/106972206"
-        }
-      ]
-    },
-    {
-      "id": "wa-sex-club-appeal",
-      "headline": "珀斯业主将就同意制性场所被拒提起上诉",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T09:18:38.000Z",
-      "voiceScript": "珀斯一名成人生意业主在市府拒绝其设立同意制性场所的计划后，准备提出上诉。这个提案原本打算在珀斯西部运营，如今还要再接受规划和许可规则的审查。它的重要性在于，这起案件会检验地方政府如何对待成人场所，以及它能在多大程度上阻止此类项目。上诉结果将决定这个设想是获得二次审理，还是继续被挡在门外。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/city-of-perth-rejects-pink-rabbit-sex-club/106972440"
-        }
-      ]
-    },
-    {
-      "id": "sydney-apartment-build-costs",
-      "headline": "悉尼公寓建设成本逼近 100 万澳元",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T09:07:43.000Z",
-      "voiceScript": "建筑成本正在把悉尼一套公寓的建造价格推向接近 100 万澳元。这个变化很重要，因为住房供应既依赖更快审批，也依赖更低建造成本，但地方议会和政府仍要处理规划规则和基础设施压力。接下来要看的是，改革能否把成本失控的速度压下来，从而改善供应。",
-      "differences": [],
-      "links": [
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/property/residential/labor-threatens-sydney-councils-as-cost-to-build-an-apartment-hits-1m-20260729-p60jm5"
-        }
-      ]
-    },
-    {
-      "id": "prison-worker-trial",
-      "headline": "被定罪的杀人犯在狱警审判中出庭作证",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T08:51:25.000Z",
-      "voiceScript": "一名被定罪的杀人犯在涉及监狱工作人员的审判中出庭作证。案件目前仍聚焦于监狱内发生了什么，以及这名工作人员是否越过了法律或职业界线。它的重要性在于，这些证词可能影响羁押场所的问责，也可能影响法庭随后对该工作人员的认定。庭审结束前预计还会有更多证据。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/convicted-murderer-mcguinness-evidence-in-prison-worker-trial/106973456"
-        }
-      ]
-    },
-    {
-      "id": "health-watchdog-antisemitism",
-      "headline": "卫生监管机构就反犹指导方针安抚医务人员",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-29T08:15:23.000Z",
-      "voiceScript": "澳大利亚卫生监管机构正试图缓解外界担忧，即与反犹主义有关的新指导方针会被用来压制医务人员。争议源于外界担心，草案做法会把职业监管和言论自由忧虑混在一起。它的重要性在于，这个问题正好处在监管、言论自由和社区安全的交叉点上。随着政策落地，监管机构预计还会面对更多追问。",
-      "differences": [],
-      "links": [
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/risk-based-visa-screening-backed-to-beat-anti-semitism"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/health-watchdog-rejects-fears-over-antisemitism-definition-20260729-p60jpn"
-        }
-      ]
-    },
-    {
-      "id": "wa-paedophile-release",
-      "headline": "西澳最恶劣的儿童性犯罪者之一面临出狱",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T08:14:08.000Z",
-      "voiceScript": "西澳正在为一名最臭名昭著的儿童性犯罪者之一可能获释做准备，他已服刑多年。这个案件再次引发外界讨论，高风险罪犯出狱后应当接受怎样的监管。它的重要性在于，任何释放条件都必须同时面对公共安全和惩罚力度的检验。若法律或假释决定有变，出狱时间和条件仍可能调整。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/wa-paedophile-dennis-mckenna-weighs-release-from-jail/106967874"
-        }
-      ]
-    },
-    {
-      "id": "wa-paedophile-release-2026",
-      "headline": "西澳高风险儿童性侵者将受监管出狱",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T08:14:08.000Z",
-      "voiceScript": "丹尼斯·麦肯纳预计将在严格监管下出狱，法院认定他仍是高风险严重罪犯。此案之所以重要，是因为它把历史上的儿童性侵伤害再次推到公众面前，也让外界重新讨论刑期结束后究竟能通过多少监管来控制风险。下一步是正式的释放决定，以及可能附加的监管条件。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/wa-paedophile-dennis-mckenna-weighs-release-from-jail/106967874"
-        }
-      ]
-    },
-    {
-      "id": "qld-syria-execution",
-      "headline": "昆士兰男子因叙利亚杀人指控面临死刑",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T08:11:58.000Z",
-      "voiceScript": "一名昆士兰男子被指在叙利亚杀害一名澳大利亚人，可能面临死刑。这个案件把海外刑事指控和澳大利亚国内的法律、外交应对联系在了一起。它的重要性在于，它牵涉领事支援、正当程序，以及澳大利亚在公民海外被指控时会如何反应。下一步将是正式的司法程序，以及政府可能采取的动作。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/australian-patrick-stevenson-charged-with-murder-in-syria/106959686"
-        }
-      ]
-    },
-    {
-      "id": "queensland-man-syria-death-penalty",
-      "headline": "黄金海岸技师在叙利亚面临死刑风险",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T08:11:58Z",
-      "voiceScript": "一名 20 岁的黄金海岸手机技师，因涉嫌射杀另一名澳大利亚人，在叙利亚面临可能的死刑判决。这个案子之所以重要，是因为它把昆州居民和一宗严重的海外杀人指控连在一起，也可能牵涉领事与法律上的复杂问题。眼下先看叙利亚司法程序，最终结果仍不确定。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/australian-patrick-stevenson-charged-with-murder-in-syria/106959686"
-        }
-      ]
-    },
-    {
-      "id": "victorian-cults-email-leak",
-      "headline": "维州高控制团体调查误把匿名幸存者邮箱发给群成员",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T08:09:11.000Z",
-      "voiceScript": "维多利亚州议会一项调查已经道歉，因为在发送最终报告通知时，匿名幸存者的邮箱地址被意外暴露给了其他群组成员。这个失误很严重，因为它可能让曾就高控制团体发声的人身份外泄，也会让其他人更不愿意作证。这也引发了一个基本问题：议会程序里该如何处理敏感证据。委员会现在必须解释这次失误，并加强私人联络资料的保护。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/victorian-cults-inquiry-accidentally-shares-email-address-of-anonymous-survivors-with-group-members-ntwnfb"
-        }
-      ]
-    },
-    {
-      "id": "young-driver-jailed",
-      "headline": "死者家属称致命车祸刑期过轻",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T07:57:12.000Z",
-      "voiceScript": "一名小女孩的家属表示，肇事司机因致命车祸被判刑后，处罚仍然太轻。家属对这场车祸后果愈发愤怒，因为撞击前司机已经有违法驾驶行为。它的重要性在于，涉及毒驾或鲁莽驾驶的致死案件，往往会成为量刑是否足够严厉的试金石。若提出上诉或复核，接下来就会决定刑罚是否改变。",
-      "differences": [],
-      "links": [
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/young-girl-s-family-baffled-as-manic-driver-jailed"
-        }
-      ]
-    },
-    {
-      "id": "leadership",
-      "headline": "维州政权交接，Ben Carroll 接任州长",
-      "sourceCount": 8,
-      "publishedAt": "2026-07-29T07:55:06.000Z",
-      "voiceScript": "在党团压力持续发酵后，Ben Carroll 已接任维多利亚州州长，Jacinta Allan 正式离场。他说会就州内建筑业启动皇家委员会调查，并借这次交接为工党在 11 月大选前重整步调。这个变化重要，因为它发生在选举只剩几个月的时候，可能重新定义工党的竞选重点，也会放大围绕 Big Build 的廉政压力。接下来要看的是 Carroll 能否迅速稳住党团，以及调查范围会不会继续扩大。",
-      "differences": [
-        "ABC News 更强调党团交接和 Carroll 的首批表态。",
-        "The Guardian Australia 重点写他宣誓就任、皇家委员会和选举时点。",
-        "SBS News 把焦点放在 Allan 离任后如何稳住政府。",
-        "news.com.au 强调党内裂缝以及 Sonya Kilkenny 的意外参选。",
-        "AAP News 指出，如果没有竞争对手，接班流程会很快完成。",
-        "9News 则把它写成一场戏剧性的党团会议和 Carroll 上任后的首场讲话。",
-        "《Australian Financial Review》把重点放在商界预期和新州长面临的职场政策考验上。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/victorian-labor-caucus-weighs-up-allan-leadership/106962972"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/28/jacinta-allan-victoria-labor-leadership-spill-ben-carroll-challenge-antisemitism-royal-commission-nsw-icac-inquiry-queensland-estimates-ntwnfb"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/jacinta-allan-resigns-quits-victoria-premier-leadership-challenge-ben-carroll"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/victorian-premier-jacinta-allan-resigns/41gb9d0wd"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/victoria/politics/ben-carroll-asks-jacinta-allan-to-step-aside-as-victorian-premier-weeks-after-promising-he-wouldnt/news-story/621a2e6b78e523a58e69176e5341a1ed"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/leadership-showdown-as-labor-faces-calls-for-overhaul"
-        },
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/vic/jacinta-allan-leadership-spill-updates-victoria-20260728-p60j2n.html"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/ben-carroll-premier-u-turn-victoria-labor"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/ben-carroll-first-full-day-as-victorian-premier/106968666"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/daniel-andrews-statement-ben-carroll-victoria-state-election-ntwnfb"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/work/at-work/ben-carrolls-first-day-as-premier-marred-by-technical-difficulties-in-gimmick-press-conference/news-story/2113bec1a7254fb35f8b51925b815891"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/victoria/victorias-new-premier-live-coverage-of-ben-carrolls-first-full-day-on-the-job/live-coverage/82bcfc26dcfebbc4a2d8c1455bed4f48"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/new-victoria-premier-carroll-set-to-make-changes-to-wfh-laws-20260729-p60jjg"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/chanticleer/victoria-s-new-premier-says-the-five-words-business-wanted-to-hear-20260728-p60jai"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/victoria-labor-party-leadership-jacinta-allan-ben-carroll/106973322"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/from-kmart-to-premier-ben-carroll-s-political-rise"
-        }
-      ]
-    },
-    {
-      "id": "cult-inquiry-coercive-control",
-      "headline": "维州调查建议把强制控制法延伸到边缘团体",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T07:52:51.000Z",
-      "voiceScript": "维多利亚州议会一项调查建议，把强制控制相关法律扩大到高控制的宗教和边缘团体。调查认为，现有规则没有完全覆盖一些封闭社群如何隔离成员、要求服从，并在情感和经济上施压。这个建议重要，是因为这类伤害可能没有明显肢体暴力，却同样会让警方和法院更难介入。接下来要看州政府是否起草法案，以及新规则会写得多宽。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/cult-inquiry-recommendations-victoria-fringe-groups/106971052"
-        }
-      ]
-    },
-    {
-      "id": "capital-guard-bond-fraud",
-      "headline": "Capital Guard 投资者在一场虚假债券交易中损失1700万澳元",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T07:35:16.000Z",
-      "voiceScript": "ASIC 说，投资者向 Capital Guard 投入了 1700 万澳元，结果所谓的债券投资方案根本不存在。监管机构认为，这笔钱是在看似合法的投资包装下被募集的，但相关产品是假的，资金如今下落不明。这个案件重要，因为它显示出熟悉的金融语言也能被用来包装大规模诈骗。接下来要看的是资金流向追查，以及监管和执法机构会采取什么行动。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/capital-guard-bonds-investment-fraud-millions-missing/106951318"
-        }
-      ]
-    },
-    {
-      "id": "south-australia-murder-suicide",
-      "headline": "南澳妇幼死亡案被警方按谋杀后自杀处理",
-      "sourceCount": 5,
-      "publishedAt": "2026-07-29T07:33:26.000Z",
-      "voiceScript": "南澳警方表示，他们把在州东南海岸附近水域发现的一名女子和其幼儿的死亡按谋杀后自杀处理。现在的关键是遗体被发现前的时间线，以及调查人员能否从现场还原经过。此事重要，因为母亲和孩子的死亡会立刻引发监护和法医层面的紧急问题，而海岸地点也让调查更难。接下来，警方会继续拼接两人的行踪和背景，再决定是否公布正式结论。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/police-treating-death-of-woman-and-toddler-as-murder-suicide/106968662"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/sa-police-helena-wright-toddler-death-missing-baby-port-macdonnell-ntwnfb"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/ocean-search-for-missing-baby-boy-suspended-at-port-macdonnell/106967786"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/south-australia/grave-concerns-for-missing-baby-after-bodies-of-mother-and-toddler-pulled-from-water/news-story/1c951b583abd6e2396dd1b2e8ef1c9cd"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/urgent-plea-in-search-for-missing-baby-after-bodies-of-mother-and-toddler-found-off-port-macdonnell-coastline-c-22637064"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/search-for-baby-after-bodies-of-mother-toddler-found"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/mother-attended-police-station-day-before-murder-suicide/106973380"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/search-for-missing-baby-boy-continues-port-macdonnell/106966128"
-        }
-      ]
-    },
-    {
-      "id": "diesel-squeeze-fuel-relief",
-      "headline": "柴油价格吃紧，燃油减免进入倒计时",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-29T16:52:00+10:00",
-      "voiceScript": "柴油价格正在走高，燃油市场也在收紧，而燃油税减免很快就要结束。ABC 说，这轮压力主要来自荷姆兹海峡的供应紧张和炼油能力受限；SBS 则确认减免会在 8 月 2 日结束，并提醒车主涨幅大概率只是温和上升，不会突然失控。这个消息重要，是因为柴油会直接影响货运、农业和地区运输，哪怕只是小幅变化，也可能很快传导到整体经济。",
-      "differences": [
-        "ABC 把重点放在供应压力和柴油市场的炼油限制。",
-        "SBS 把重点放在燃油税减免的到期时间，以及 NRMA 对车主的提醒。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/programs/the-business/2026-07-29/how-soon-could-australia-face-a-diesel-squeeze-/106970864"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/fuel-excise-ends-sunday-what-to-do/spv7v7xap"
-        }
-      ]
-    },
-    {
-      "id": "humpback-birth-kingscliff",
-      "headline": "一段无人机影像拍到新州海岸的座头鲸分娩",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-29T16:42:00+10:00",
-      "voiceScript": "一架无人机在新州北海岸的 Kingscliff 附近拍到了座头鲸分娩的画面，海洋科学家说，这段影像有助于补充对分娩行为的了解。视频仍需进一步核实其研究价值，而这次记录之所以罕见，是因为完整拍到座头鲸分娩本来就极少。下一步是专家审看这段素材，以及它能否真正用于科研。",
-      "differences": [
-        "《卫报》补充说，这段影像可能只是全球第四次完整拍到座头鲸分娩。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/humpback-whale-birth-filmed-kingscliff-new-south-wales/106969926"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/environment/video/2026/jul/29/humpback-whale-gives-birth-australia-nsw-drone-video"
-        }
-      ]
-    },
-    {
-      "id": "australia-post-stamp-rise",
-      "headline": "澳大利亚邮政将于9月再次上调邮票价格",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T06:30:00Z",
-      "voiceScript": "澳大利亚邮政计划从9月1日起把普通邮票价格提高到1.85澳元，因为信件数量已经跌到上世纪30年代以来未见的低位。对大多数家庭来说，这次涨幅不大，但它反映出在数字通讯取代纸质信件后，维持全国邮政网络的成本仍在上升。优惠邮票和节日贺卡邮票保持不变，这让部分用户的影响略微减轻。接下来要看的是9月的正式执行，以及堪培拉是否会有进一步回应。",
-      "differences": [],
-      "links": [
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/money/costs/stamp-price-increase-approved-as-australia-post-says-letter-volumes-are-at-1930s-levels/news-story/0668d893eabfa3b88179a2be8525efb9"
-        }
-      ]
-    },
-    {
-      "id": "wa-refinery-fuel-security",
-      "headline": "西澳炼油厂研究重启澳洲燃料安全争论",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-29T16:15:00+10:00",
-      "voiceScript": "联邦政府和西澳政府正在拿出 400 万澳元，研究在皮尔巴拉建设一座新的炼油厂。这可能会成为自上世纪60年代以来，澳洲首个大规模新炼厂项目。支持者说，这有助于在近期油市冲击后增强燃料安全；批评者则认为项目离不开长期补贴，还会继续把资金锁在化石燃料上。接下来要看的是可行性研究本身，重点会放在成本、选址，以及有没有真正的商业理由去建。",
-      "differences": [
-        "AAP 把这项计划描述为燃料安全和就业措施，并与燃油减免到期联系起来。",
-        "The Guardian 更强调经济性和气候风险，认为这个项目不划算，而且会高度依赖补贴。"
-      ],
-      "links": [
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/third-oil-refinery-on-cards-to-help-shield-australia"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
-        }
-      ]
-    },
-    {
-      "id": "nt-clp-closing-the-gap-funding",
-      "headline": "北领地原住民团体要求CLP说明Closing the Gap资金去向",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T06:06:00Z",
-      "voiceScript": "北领地的原住民团体正在要求CLP政府说明Closing the Gap资金到底花在了哪里，并认为公众需要更清楚的问责。这个争议之所以重要，是因为这些资金本来要改善住房、医疗和司法结果，如果进展拖延或监督不足，社区就可能拿不到项目应有的服务。它也进一步引出一个更大的问题：北领地到底在多大程度上完成了原住民相关目标。接下来要看的是政府怎么回应，以及是否会公布更多支出细节。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/nt-child-protection-changes-closing-the-gap-financial-penalties/106961540"
-        }
-      ]
-    },
-    {
-      "id": "australia-pacific-military",
-      "headline": "澳大利亚在地区演习中加深太平洋防务合作",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T06:02:54.000Z",
-      "voiceScript": "澳大利亚已经与太平洋伙伴一起参加一场大型海军演习，目的是强化地区协作。斐济首次参加，也显示堪培拉正努力加深自己在太平洋的安全角色。它的重要性在于，防务演习已经成为更大范围影响力竞争的一部分。此次演习也会检验较小伙伴国家能把能力建设到什么程度。",
-      "differences": [],
-      "links": [
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/australia-joins-pacific-nations-flexing-military-muscle"
-        }
-      ]
-    },
-    {
-      "id": "banks-offset-account-failures",
-      "headline": "ASIC说房贷抵消账户失误已让借款人损失数百万",
-      "sourceCount": 5,
-      "publishedAt": "2026-07-29T05:46:00.000Z",
-      "voiceScript": "ASIC表示，多家银行没有把房贷抵消账户正确设好或持续跟踪，导致客户多付了本不该付的利息。监管机构称，银行两年内已经支付了超过5500万澳元赔偿，问题可能波及数百万背负房贷的澳大利亚家庭。之所以重要，是因为抵消账户本来就是为了降低房贷利息，但小小的处理失误可能拖上多年才被发现。眼下的下一步是借款人核对账单，银行则要把剩余错误尽快补齐。",
-      "differences": [
-        "ABC把赔偿总额和监管警告放在中心。",
-        "SBS把这份报告转成借款人自查指南。",
-        "AAP强调隐蔽的多收利息风险，并建议客户联系银行。",
-        "AFR聚焦赔偿账单和ASIC对银行的压力。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/hidden-harm-the-17-000-offset-account-failure-that-exposes-banks-costly-blind-spot/kkx8e9306"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/companies/financial-services/regulator-slams-top-banks-over-failings-in-mortgage-offset-accounts-20260726-p60in7"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/bank-errors-costing-homebuyers-millions-in-overcharges"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
-        }
-      ]
-    },
-    {
-      "id": "geelong-driver-jailed-mia-rossiter",
-      "headline": "维州法院因Geelong致死车祸判囚司机",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T05:29:54.000Z",
-      "voiceScript": "维多利亚州法院已判处Jordan Kenyon入狱，他承认对一起造成12岁女孩Mia Rossiter死亡的车祸负责。这起事故发生在Geelong附近的Stonehaven，法庭听到他当时处于GHB影响下，而且有长期危险驾驶记录，还在假释期内。这个案件的重要性在于，它再次说明重复危险驾驶和监管失守会如何酿成致命后果。下一步是量刑细节以及Rossiter一家继续恢复的过程。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/jordan-kenyon-jailed-over-crash-that-killed-mia-rossiter/106971210"
-        }
-      ]
-    },
-    {
-      "id": "angus-taylor-icac-donation-denial",
-      "headline": "NSW ICAC调查让Angus Taylor承压",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-29T05:24:20.000Z",
-      "voiceScript": "新州反腐调查因捐款和派系交易的证据，把Angus Taylor卷进更大的党内争斗。Taylor说自己没有支付任何款项，也不涉及任何不当行为，但这场听证已经加剧了保守派自由党内部的政治损伤。委员会还在审查一份针对前部长的抹黑文件，说明调查范围已经扩大。下一步要看听证继续推进后，证据会不会进一步指向正式失当。",
-      "differences": [
-        "ABC把焦点放在那份针对David Elliott的“shit sheet”证据。",
-        "AAP强调Taylor否认有任何捐款，并说明他被牵连进调查。",
-        "Guardian突出更大的腐败和派系后果。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/nsw-icac-rosny-dylan-whitelaw-david-elliott/106971066"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/angus-taylor-nsw-icac-inquiry-liberal-party-reformers-donation-ntwnfb"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/no-payment-was-made-liberal-leader-denies-donation"
-        }
-      ]
-    },
-    {
-      "id": "one-nation-qld-missing-financial-statements",
-      "headline": "一国党昆州分部面临合规最后期限",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-29T04:56:00Z",
-      "voiceScript": "昆州监管机构已要求一国党在8月18日前补交三年的财务报表，否则该协会可能被取消资格。缺失的文件涵盖2023年至2025年，也让这起事件变成对该党内部管理的新考验。之所以重要，是因为合规失误可能引发处罚、损害公众信任，也会让本就承受政治压力的政党更加被动。接下来要看的是报表能否按时补齐，还是监管机构会直接启动执行程序。",
-      "differences": [
-        "ABC 把重点放在8月18日的最后期限和被注销风险上。",
-        "The Guardian 将其视为合规失败，并指出其在昆州的政治后果。",
-        "AFR 强调缺失记录以及 Jim Chalmers 的反应。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/qld-pauline-hanson-one-nation-financial-statements/106972240"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/federal/missing-financial-records-put-one-nation-at-risk-in-queensland-20260729-p60jlr"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/one-nation-faces-being-struck-off-in-queensland-after-failing-to-file-audited-financial-statements"
-        }
-      ]
-    },
-    {
-      "id": "ivf-twins-lawsuit-royal-north-shore",
-      "headline": "悉尼医院因胚胎混淆案被起诉",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T04:51:00Z",
-      "voiceScript": "一个悉尼家庭在 DNA 检测揭开1995年胚胎混淆后，已经提起民事诉讼。两名双胞胎是在错误的生母身边长大的，如今案件将进入新州最高法院。此事重要，因为它涉及生殖医疗的责任归属，也反映出多年后才显现的临床错误后果。接下来，法院会查明经过、责任和可能的赔偿安排。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/lawsuit-launched-over-decades-old-ivf-mix-up/106970538"
-        }
-      ]
-    },
-    {
-      "id": "elizabeth-east-major-police-operation",
-      "headline": "阿德莱德北部重大警务行动封锁主干道",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T04:39:00Z",
-      "voiceScript": "阿德莱德北部的伊丽莎白东区发生重大警务行动，主干道 Main North Road 的部分路段已被封锁。现场有数十名警员和应急人员，南向车辆被改道，调查人员在 Fairfield Road 一带展开工作。对当地来说，这件事最直接影响的是安全和交通，但核心情况仍未完全公开。警方表示，稍晚会向公众通报最新进展。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/police-responding-to-incident-at-elizabeth-east/106972018"
-        }
-      ]
-    },
-    {
-      "id": "june-inflation-eases-rate-hike-odds",
-      "headline": "6月通胀降温，8月加息压力减轻",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-29T04:21:32.000Z",
-      "voiceScript": "澳大利亚6月年通胀率降至3.8%，澳洲联储更关注的修剪均值仍在3.6%。这份偏软的数据让家庭压力略有缓解，也让市场下调了8月再度加息的概率，不过住房、租金和服务价格仍然偏黏。之所以重要，是因为澳洲联储两周后就要再开会，下一步会直接影响贷款成本、消费和市场信心。接下来要观察的是，燃料、住房和其他供应冲击会不会继续传导到后续通胀数据。",
-      "differences": [
-        "ABC News 聚焦更低的 CPI 读数和市场反应。",
-        "The Guardian Australia 强调房贷压力缓解，但服务价格仍然黏性较强。",
-        "Australian Financial Review 着重于市场重新定价加息概率和股市反弹。",
-        "AAP News 关注8月加息概率下调。",
-        "SBS News 把这份结果描述成好消息，但也提醒潜在压力仍在。",
-        "news.com.au 重点写按揭持有人的短期缓解、银行预测和市场即时反应。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/inflation-june-australia-2026-abs-interest-rates/106970830"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/business/2026/jul/29/cpi-rate-inflation-rba-reserve-bank-australia-interest-rates"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/policy/economy/softer-inflation-gives-rba-room-to-hold-rates-20260729-p60jip"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/australian-shares-surge-as-inflation-eases-rio-rallies"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/podcast-episode/chalmers-inflation-drop-is-a-good-sign-evening-news-bulletin-29-july-2026/expibfrsb"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/june-2026-inflation-falls-to-3-8-per-cent/ikupactu0"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/economy/interest-rates/mortgage-holders-on-notice-as-critical-inflation-figures-released/news-story/bc4797b3448dd8704c68943041e0c015"
-        }
-      ]
-    },
-    {
-      "id": "pump-price-relief-ends-oil-risks",
-      "headline": "燃油补贴即将结束，汽油价格又在上升",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-29T03:59:54Z",
-      "voiceScript": "澳大利亚的临时燃油折扣将于8月2日结束，而多个城市的汽油价格已经重新逼近或超过每升2澳元。这个变化之所以重要，是因为燃油会迅速传导到货运、食品和家庭预算，油泵上的小幅波动很快就会变成实际压力。财政部和市场观察人士都把这波上涨归因于全球油价走高和中东局势紧张。接下来要看的是，消费税优惠结束后价格会不会稳定，还是会继续跟着海外冲击上行。",
-      "differences": [
-        "ABC 重点放在消费税优惠到期和对司机的即时影响。",
-        "The Guardian 把汽油上涨放进更广泛的家庭压力和加息风险里。",
-        "news.com.au 强调财政部预警以及各城市加油站的价格。",
-        "AAP 则把重点放在汽油重回每升2澳元上方和更大的经济前景。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/fuel-excise-discount-ends-iran-war-oil-prices/106971298"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/economy/australian-economy/australians-facing-fresh-fuel-nightmare-as-treasury-briefing-warns-price-pressures-may-intensify-as-middle-east-conflict-continues/news-story/4f124e67768d0d6d8271c4e5be95be68"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/higher-rates-and-pricey-petrol-as-economic-outlook-dims"
-        }
-      ]
-    },
-    {
-      "id": "shoalhaven-land-sale-sparks-backlash",
-      "headline": "肖尔黑文拟卖地计划引发社区团体强烈反弹",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T03:54:34Z",
-      "voiceScript": "肖尔黑文市议会打算出售约1400万澳元的土地，这一计划引发了本地非营利组织的强烈反对。争议并不只是一宗资产出售，还关系到社区设施、未来开发，以及市议会如何管理公共土地。之所以重要，是因为一旦土地卖出，后续很难再收回决定。接下来要看的是，议员会放慢程序、修改方案，还是继续推进。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/shoalhaven-council-land-sell-off/106968006"
-        }
-      ]
-    },
-    {
-      "id": "benji-marshall-vaping-denial",
-      "headline": "本吉·马歇尔否认老虎队健身房内有吸电子烟传闻",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T03:28:44Z",
-      "voiceScript": "西部老虎队主教练本吉·马歇尔否认了球员在俱乐部健身房吸电子烟的说法。这个问题之所以重要，是因为它直接关系到纪律、职业标准，以及 NRL 球队内部应有的规范。若真有违规行为，只会给这支正试图重建文化的球队再添压力。接下来要看的是，俱乐部会不会补充细节、内部处理，还是让这件事逐渐淡去。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/wests-tigers-nrl-benji-marshall-adam-doueihi-vaping/106971632"
-        }
-      ]
-    },
-    {
-      "id": "datacentres-renewables-offset-rules",
-      "headline": "各州支持要求数据中心补足用电的能源规则",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-29T03:19:00Z",
-      "voiceScript": "联邦和各州部长已经同意一套规则，要求大型数据中心额外投资可再生能源，避免新增耗电把电价推高。昆州和北领地仍持保留态度，其余地区则支持建立全国框架。此事重要，因为数据中心扩张会同时影响电费、水资源和新电力项目推进速度。部长们预计会在9月进一步细化规则，而业界也在提醒，最后的设计必须可执行。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/queensland-northern-territory-reject-ai-datacentre-renewable-energy"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/new-plan-prevent-data-centres-driving-power-prices-up/j0li5asyx"
-        }
-      ]
-    },
-    {
-      "id": "canberra-elective-surgery-record",
-      "headline": "堪培拉择期手术量创纪录",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T03:13:47Z",
-      "voiceScript": "堪培拉的医疗系统录得创纪录的择期手术数量，这说明等候名单上的压力可能正在缓解。这个数字之所以重要，是因为每多做一台手术，都可能意味着患者少一点疼痛、少一点等待，也能更快回到工作岗位。它同时也给领地的新任卫生部长留下了一个需要守住的强指标。接下来要看的是，医院能否在不制造其他堵点的情况下维持这个速度。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/act-elective-surgery-figures-new-health-minister/106966668"
-        }
-      ]
-    },
-    {
-      "id": "hunter-transmission-line-green-light",
-      "headline": "猎人地区输电线路改道后获批",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T03:06:26Z",
-      "voiceScript": "猎人地区一项重要输电线路项目在规划方将线路改到远离更多住宅和敏感青蛙栖息地后，获得了批准。这个决定之所以重要，是因为电网升级是能源转型的核心，但每一次改线都会增加成本、时间和社区摩擦。它也说明，在尽量减少本地影响的前提下建设新基础设施并不容易。接下来要看的是施工计划，以及是否还会出现新的反对意见。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/hunter-transmission-project-approved-route-amended/106969890"
-        }
-      ]
-    },
-    {
-      "id": "qantas-worker-payout-delay",
-      "headline": "法院批评澳航员工赔偿发放拖延",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T02:58:44Z",
-      "voiceScript": "法院批评迟迟没有发放给被非法解雇澳航员工的1.2亿澳元赔偿。争议现在不在于赔多少，而在于这些本应解决长期纠纷的钱何时能真正到手。此事重要，因为赔偿只有及时发放才有意义，尤其是在漫长诉讼之后。接下来，负责付款的律师团队还会继续被追问，延误是否还能缩短也会更清楚。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/judge-pans-maurice-blackburn-lawyers-re-qantas-worker-payouts/106970578"
-        }
-      ]
-    },
-    {
-      "id": "sa-bird-flu-sea-lions",
-      "headline": "鸟类流感似乎正在南澳野生动物中传播",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-29T02:58:20Z",
-      "voiceScript": "南澳现在面临更广泛的H5禽流感问题，官方表示当地传播很可能已经发生，而且州南东部出现了更多疑似病例。令人担心的是，病毒可能正在野生动物之间扩散，而不只是停留在个别鸟类身上，这会让控制更困难，也会增加海狮和附近家禽的风险。之所以重要，是因为一旦病毒在野外站稳脚跟，生物安全应对就会复杂得多。接下来要看的是实验室确认结果，以及海岸和繁殖地的持续监测。",
-      "differences": [
-        "ABC 重点放在本地传播和监测应对上。",
-        "The Guardian 强调林肯海岸的疑似病例和野生动物扩散。",
-        "AAP 突出海狮群落风险以及更广泛的野生动物威胁。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/h5-bird-flu-strain-very-likely-spreading-locally-in-sa/106970486"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/h5-bird-flu-suspected-new-cases-south-australia"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/extremely-likely-bird-flu-now-spreading-in-wildlife"
-        }
-      ]
-    },
-    {
-      "id": "australia-post-stamp-rise-2026",
-      "headline": "澳洲邮政再获批准上调邮资",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T02:51:33.000Z",
-      "voiceScript": "澳大利亚邮政已获准再次上调基础邮资，因为信件量持续下滑，邮政网络也在努力收回成本。这个变化会影响家庭、小企业，以及仍依赖实体邮件的人，即使包裹业务如今已成主营。下一步是价格流程最终敲定，以及更高资费的生效日期。",
+      "publishedAt": "2026-07-29T08:18:53Z",
+      "voiceScript": "阳光海岸度假积分计划度假村俱乐部已进入清算阶段。预先付款的会员现在正试图收回资金和他们预计稍后使用的预订。此次倒闭是对预付费旅行计划风险的又一次警告。",
       "differences": [],
       "links": [
         {
           "source": "7NEWS",
-          "url": "https://7news.com.au/news/australia-post-cleared-to-increase-price-of-standard-letter-postage-c-22644555"
+          "url": "https://7news.com.au/travel/sunshine-coast-holiday-company-the-resort-club-enters-liquidation-after-one-star-reviews-and-refund-complaints-c-22646161"
         }
       ]
     },
     {
-      "id": "high-thc-cannabis-prescribing-concerns",
-      "headline": "高 THC 医用大麻处方引发新的安全担忧",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T02:45:20Z",
-      "voiceScript": "莫纳什大学的一项综述指出，澳洲医生经常开具 THC 含量远高于临床试验验证范围的医用大麻产品。部分产品的 THC 高达88%，但现有最强证据只覆盖到22%以下的产品，监管机构因此被要求加强把关。此事重要，因为慢性疼痛、焦虑和远程医疗开方正在推动大量使用，而已报告的不良反应包括精神病样症状和严重恶心。下一步要看的是，TGA 是否会转向设定浓度上限、加强标签和监测。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/cannabis-prescription-australia-doctors"
-        }
-      ]
-    },
-    {
-      "id": "offset-account-errors",
-      "headline": "ASIC称抵销账户错误让房贷客户多付5500万澳元",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-29T02:20:00.000Z",
-      "voiceScript": "ASIC表示，银行在两年内因抵销账户没有正确降低房贷利息而支付了超过5500万澳元赔偿。监管机构审查了20多万笔住房贷款，发现有些账户没有正确关联，结果借款人实际付出了本不该支付的利息。这个问题之所以重要，是因为损失常常不会立刻被发现，而在大额房贷上，哪怕小错误也会不断累积。下一步是银行修正账户、赔偿受影响客户，并说明究竟有多少借款人被波及。",
+      "id": "offset-account-failures",
+      "headline": "对冲账户故障导致银行客户检查余额",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T08:12:42Z",
+      "voiceScript": "在发现抵消系统故障后，抵押贷款持有人被告知检查他们的银行账户。这个问题增加了与住房贷款相关的储蓄未按预期发挥作用的风险。客户现在需要明确确认他们的帐户已正确设置和保护。",
       "differences": [
-        "ABC News 侧重 ASIC 对20多万笔贷款的审查。",
-        "The Guardian Australia 强调额外利息规模和投诉处理路径。",
-        "SBS News 说明借款人如何检查抵销账户是否正确关联。",
-        "7NEWS 突出这类错误对客户来说不容易察觉。"
+        "SBS 解释了如何检查对冲账户是否正常工作，而 7NEWS 则在发现故障后向抵押贷款持有人发出警告。",
+        "两者都关注客户的实际风险，但 SBS​​ 提供了更广泛的操作指南。"
       ],
       "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
-        },
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/how-to-check-your-offset-account-is-working-properly-after-55-million-error-exposed/way17b2qi"
         },
         {
           "source": "7NEWS",
-          "url": "https://7news.com.au/news/australian-mortgage-holders-told-to-check-bank-accounts-after-costly-offset-failures-discovered-c-22646473"
+          "url": "https://7news.com.au/news/australians-mortgage-holders-told-to-check-bank-accounts-after-costly-offset-failures-discovered-c-22646473"
         }
       ]
     },
     {
-      "id": "gosford-stabbing-appeal",
-      "headline": "警方寻找戈斯福德致命刺伤案中的 15 岁少年",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T02:08:23Z",
-      "voiceScript": "警方正要求一名15岁男孩主动与调查人员联系，因为戈斯福德主街昨天晚上发生致命刺伤，一名男子被刺身亡。现在的关键是从案发到警方发出呼吁之间的时间线，以及这名少年在现场到底扮演什么角色。这个事件之所以重要，是因为市中心暴力案会迅速扩大恐慌，也会引出谁在场、发生了什么的问题。接下来，调查人员会继续寻找这名少年，并核实是否需要进一步指控。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/teen-appeal-after-gosford-stabbing/106969544"
-        }
-      ]
-    },
-    {
-      "id": "melbourne-steroid-trafficking",
-      "headline": "墨尔本一男一女因涉嫌类固醇走私团伙被起诉",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T01:47:11Z",
-      "voiceScript": "警方表示，墨尔本一男一女因涉嫌参与类固醇走私行动而被起诉。案件重点在于这些违禁药物如何被取得、转运和掩饰，以及是否借用了虚假的医疗身份。此事重要，因为类固醇供应受到严格管制，也可能牵连更广泛的有组织犯罪。接下来将进入法院程序，并看警方是否公布更多证据。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/melbourne-man-and-woman-charged-with-trafficking-steroids/106970736"
-        }
-      ]
-    },
-    {
-      "id": "gold-coast-third-transplant",
-      "headline": "黄金海岸一名护士因罕见疾病等待第三次肾移植",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T01:10:19Z",
-      "voiceScript": "黄金海岸一名患有罕见先天性疾病的护士，正在等待第三次肾移植。她多年来一直反复面对肾脏问题，病例说明有些患者会因为病情反复而需要多次移植。此事重要，因为移植需求一直很高，患者在等待合适配型时往往要接受长期专科治疗。下一步是继续寻找合适捐赠者并维持治疗。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/gold-coast-nurse-kidney-transplant-rare-congenital-disorder/106965788"
-        }
-      ]
-    },
-    {
-      "id": "cairns-hospital-police-shooting",
-      "headline": "凯恩斯医院为一名男子后来遭警方枪击前的治疗辩护",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T01:06:42Z",
-      "voiceScript": "凯恩斯一家医院表示，在一名男子随后遭警方枪击之前，医院对他的治疗符合要求。外界现在关注的是医院治疗、他之后的状况以及警方反应之间的时间线。此事重要，因为涉及严重武力的案件，往往要看健康风险是否被及时识别并处理。下一步很可能是更细致审查医疗和警方记录。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/cairns-hospital-defends-treatment-man-police-shooting/106970118"
-        }
-      ]
-    },
-    {
-      "id": "ndis-darwin-public-servant",
-      "headline": "达尔文一名公务员被控涉嫌 NDIS 诈骗",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-28T23:40:23Z",
-      "voiceScript": "达尔文一名公务员因涉嫌利用职务参与国家残障保险计划诈骗而被起诉，警方称涉案金额达到数百万澳元。案件目前仍在调查中，重点是这名公职人员如何接触到相关资金和流程。此事重要，因为 NDIS 是澳洲最庞大的公共项目之一，一旦出现内部滥用，就会迅速冲击公众信任。下一步是法院程序和警方是否继续扩案。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/nt-public-servant-genevine-ebelebe-charged-alleged-ndis-fraud/106969828"
-        }
-      ]
-    },
-    {
-      "id": "qld-boot-camp-scrutiny",
-      "headline": "昆士兰少年管教营计划受到儿童安全审视",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-28T23:33:58Z",
-      "voiceScript": "昆士兰拟推行的少年司法管教营模式再次受到审视，焦点是若出现对儿童的伤害，应该如何记录和监测。批评者认为，报告路径、保护措施和责任归属仍然不够清晰。此事重要，因为政策既要面对脆弱的年轻人，也试图减少再犯。下一步是政府进一步细化运行规则。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/qld-human-rights-commission-silent-about-youth-boot-camp/106962234"
-        }
-      ]
-    },
-    {
-      "id": "amateur-cricket-cheating-probe",
-      "headline": "业余板球联赛因疑似作弊展开调查",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-28T23:29:56Z",
-      "voiceScript": "一段在网上流传的视频引发了对业余板球联赛是否存在操纵比赛的调查。组织者现在需要查清到底发生了什么，比赛结果是否受到影响，以及是否需要纪律处分。此事重要，因为即便是地方赛事，公平竞争也是信任的基础，而视频一旦传播，影响会很快扩大。下一步是审查证据并决定后续处理。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/cricket-video-goes-viral-as-slip-fielder-clicks/106969988"
-        }
-      ]
-    },
-    {
-      "id": "higgins-settlement",
-      "headline": "联邦政府结束Higgins事件相关的另一宗法律案件",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-28T23:20:16.000Z",
-      "voiceScript": "联邦政府已就与布列塔尼·希金斯事件有关的一宗职场索赔达成和解，结束了又一个法律篇章。协议涉及前自由党职员菲奥娜·布朗，也是在这起事件的政治和职场后果接受多年公众审视之后达成的。它的重要性在于，这让这则已经重塑全国辩论的故事，又少了一项悬而未决的法律争议。围绕问责的更大问题预计仍会继续。",
-      "differences": [],
-      "links": [
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/higgins-legal-saga-brought-to-a-close-with-settlement"
-        }
-      ]
-    },
-    {
-      "id": "data-centre-energy-pushback",
-      "headline": "总理推动的数据中心计划遭遇能源与规划阻力",
+      "id": "fuel-discount-and-petrol-prices",
+      "headline": "随着折扣消失，司机们正准备迎接更高的燃油费用",
       "sourceCount": 2,
-      "publishedAt": "2026-07-28T23:14:32Z",
-      "voiceScript": "总理推动的数据中心扩张计划，正因用电需求、规划审批和地方基础设施压力而遭遇阻力。争论的焦点是这些项目到底需要多少电力，以及电网和咨询流程能否承受。此事重要，因为数据中心正在成为澳洲科技、能源和土地利用政策的共同考题。下一步是对项目本身和供电假设进行更严格审查。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/data-center-boom-powers-up-political-energy-debate/106929726"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/new-plan-prevent-data-centres-driving-power-prices-up/j0li5asyx"
-        }
-      ]
-    },
-    {
-      "id": "qld-bird-flu",
-      "headline": "昆士兰禽流感监测收紧，莫顿岛周边持续排查",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-28T22:58:34Z",
-      "voiceScript": "昆士兰的 H5 禽流感情况仍以莫顿岛为中心，最初在野生海鸟身上发现的疑似阳性已经确认，新的重点变成沿海和周边鸟群是否出现进一步扩散。官方继续提醒公众不要接触死亡或生病的鸟类，同时强调家禽和鸡蛋仍然可以安全食用。之所以重要，是因为昆士兰靠近重要野生动物栖息地和农业区，任何新增发现都会很快变成生物安全问题。下一步是继续检测沿海样本并观察是否会在更多鸟群中出现病例。",
+      "publishedAt": "2026-07-29T07:36:19Z",
+      "voiceScript": "燃油折扣即将结束，司机被告知要注意价格重置的日期。在某些地区，汽油价格已经升至每升 2 美元以上。家庭预算面临直接压力，但更广泛的生活成本影响可能会迅速蔓延。",
       "differences": [
-        "ABC News 侧重最新监测和继续扩散的风险。",
-        "SBS News 保留了首次昆士兰发现和食品安全提示。",
-        "news.com.au 强调对野生动物和家禽产业的压力。"
+        "《卫报》报道将这一举措视为实时燃油价格飙升的一部分，而 SBS 则重点关注折扣结束以及司机下一步应该做什么。",
+        "两份报告都指出了相同的价格压力，但对直接痛苦的描述不同。"
       ],
       "links": [
         {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/bird-flu-queensland-suspected-case/106952884"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114"
-        },
-        {
           "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/queensland-farmers-on-alert-as-h5-bird-flu-reaches-state/106967942"
-        }
-      ]
-    },
-    {
-      "id": "sydney-m5-fan-fault",
-      "headline": "悉尼 M5 高速在早高峰因风机故障严重拥堵",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-28T22:55:04Z",
-      "voiceScript": "悉尼 M5 高速因风机故障，在早高峰期间出现严重延误，车流一度排到约 10 公里。该通道既承担通勤，也承担货运，是城市最繁忙的路段之一，因此小故障也会迅速扩散。下一步是完成维修，并在受影响路段清空后恢复正常通行。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/major-sydney-m5-traffic-delays-amid-repairs-fan/106969970"
-        }
-      ]
-    },
-    {
-      "id": "lachie-kennedy-silver",
-      "headline": "肯尼迪百米摘银，澳洲男子短跑终结长期奖牌荒",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-28T22:15:43Z",
-      "voiceScript": "拉奇·肯尼迪在格拉斯哥男子100米决赛跑出9.85秒拿下银牌，打破帕特里克·约翰逊长期保持的澳洲纪录，也终结了澳洲男子短跑自1962年以来的奖牌荒。这个结果重要，是因为短跑一直是田径最受关注的项目之一，而澳洲过去几十年一直想把潜力兑现成真正的决赛成绩。下一步要看他和澳洲短跑队能否把这次突破继续转化成后续项目的奖牌机会。",
-      "differences": [
-        "ABC News 侧重纪录成绩和被打破的历史纪录。",
-        "The Guardian 强调这场决赛带来的突破尺度。",
-        "AAP 侧重冲线结果、奖牌荒和澳洲短跑厚度。",
-        "news.com.au 侧重比赛戏剧性和赛事背景。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/commonwealth-games-glasgow-day-five-live-blog/106965170"
+          "url": "https://www.sbs.com.au/news/article/fuel-excise-ends-sunday-what-to-do/spv7v7xap"
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/sport/live/2026/jul/28/commonwealth-games-2026-athletics-weightlifting-gymnastics-day-five-live"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/record-falls-as-aussie-jets-power-into-100m-finals"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/sport/commonwealth-games/comm-games-day-5-live/live-coverage/c9a76a7413c93a8f685bce6cf672e03a"
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
         }
       ]
     },
     {
-      "id": "doctors-ai-privacy",
-      "headline": "医生使用 AI 的速度快过监管防线",
+      "id": "qantas-long-haul-plane",
+      "headline": "澳洲航空的远程喷气机计划可能会改变澳大利亚人的飞行方式",
       "sourceCount": 1,
-      "publishedAt": "2026-07-28T21:00:00Z",
-      "voiceScript": "一份报告说，人工智能已经进入澳洲医疗体系的多个环节，但隐私和准确性方面的防护措施仍然跟不上。风险在于，临床人员可能在没有清晰监管的情况下使用会保存病人资料或生成错误结果的工具。这个问题重要，是因为医疗系统若要安全使用 AI，就必须更快补上规则。",
-      "differences": [],
-      "links": [
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/doctors-ai-usage-raising-privacy-and-safety-concerns"
-        }
-      ]
-    },
-    {
-      "id": "australia-pacific-aid",
-      "headline": "澳大利亚仍领跑太平洋援助，中国转变策略",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-28T19:40:19.000Z",
-      "voiceScript": "一份新报告显示，尽管中国正从大额贷款转向更小型的战略项目，澳大利亚仍是太平洋地区最大的援助国。报告称，澳大利亚在2024年提供了最大份额的融资，而中国的角色则变得更加挑选性。它的重要性在于，援助如今已成为该地区影响力和安全竞争的一部分。下一项值得关注的数据将是2025年的数字。",
+      "publishedAt": "2026-07-29T06:48:46Z",
+      "voiceScript": "澳洲航空正在推进一项创纪录的飞机项目，该项目可以减少长途旅行中的中途停留需求。该航空公司希望从澳大利亚出发的直飞旅行变得更加实用。考验在于飞机和经济是否能够大规模发挥作用。",
       "differences": [],
       "links": [
         {
           "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/pacific-china-australia-development-aid-lowy/dksbg6tui"
+          "url": "https://www.sbs.com.au/news/article/project-sunrise-why-stopovers-will-survive/hj6549f5h"
         }
       ]
     },
     {
-      "id": "migration-fall-from-peak",
-      "headline": "澳洲移民流入继续从高峰回落",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-28T17:30:00Z",
-      "voiceScript": "CEDA 的分析显示，澳洲净海外移民已从 2023 年 555,800 人的峰值下降到约 301,000 人，降幅接近 45%。机构还预计，到 2027/28 财年，这一数字会进一步放缓到约 225,000 人。这个变化很重要，因为移民会影响住房、劳动力和公共服务的讨论。",
-      "differences": [],
-      "links": [
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
-        }
-      ]
-    },
-    {
-      "id": "migration-falls",
-      "headline": "疫情后移民激增态势明显回落",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-28T17:30:00.000Z",
-      "voiceScript": "最新分析显示，移民数量已从疫情后高峰明显回落，而这一高峰曾推动许多政治争论。这个下降很重要，因为移民人数直接影响住房、工资和基础设施压力的讨论。它说明，尽管围绕移民的政治争议仍然激烈，输入规模或许正在放缓。下一次数据将检验这一下降是否会继续。",
-      "differences": [],
-      "links": [
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
-        }
-      ]
-    },
-    {
-      "id": "rba-rate-rise-warning",
-      "headline": "供应冲击让澳洲联储再次加息仍有可能",
-      "sourceCount": 5,
-      "publishedAt": "2026-07-28T17:30:00Z",
-      "voiceScript": "澳洲联储主席米歇尔·布洛克表示，全球供应冲击仍是通胀的现实风险，央行不能假设物价压力会平稳消退。她发出这一警告时，官员们正在权衡最新CPI数据、更高的能源成本和放缓的经济走势，为8月会议做准备。之所以重要，是因为即使国内需求走弱，进口冲击也可能让物价维持高位，令澳洲联储更难放松政策。接下来要看的是，最近这份通胀读数是否足够广泛，足以让利率维持不变。",
+      "id": "wa-oil-refinery-criticism",
+      "headline": "西澳大利亚拟议的炼油厂正面临越来越多的批评",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T06:15:55Z",
+      "voiceScript": "专家对西澳大利亚拟议的炼油厂提出质疑，称其技术过时。他们表示，该计划与清洁能源转型相比显得很尴尬。真正的问题是该项目是否具有商业意义或已经落后于潮流。",
       "differences": [
-        "ABC News 关注澳洲联储对供应冲击和黏性通胀的警告。",
-        "Australian Financial Review 强调更高的通胀前景和再次动作的可能。",
-        "news.com.au 突出房贷和家庭面临的生活成本压力。",
-        "The Australian 把这事框成与低生产率和增长放缓有关的滞胀风险。",
-        "AAP News 关注CPI预测和修剪均值的展望。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/rba-governor-warns-world-facing-increased-supply-shocks/106965644"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/economy/interest-rates/reserve-bank-governor-signals-further-rate-hikes-to-tackle-high-cost-of-living/news-story/71532bf57e410fd9380e4d32ad2ffa9d"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/nation/politics/reserve-bank-governor-michele-bullock-warns-of-additional-rate-hikes-to-tame-inflation/news-story/1c0f2e4fbbb3dea0804166caaf0cf359"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/next-rba-rate-call-hinges-on-crucial-inflation-data"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/policy/economy/sticky-inflation-cooling-house-prices-inside-the-rba-s-rates-dilemma-20260729-p60jjr"
-        }
-      ]
-    },
-    {
-      "id": "qantas-project-sunrise-test-flight",
-      "headline": "澳航试飞让超远程直飞计划更近一步",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-28T15:15:22Z",
-      "voiceScript": "一架为超远程直飞计划准备的测试飞机完成了超过24小时的试飞，线上有数百万人关注进度。这个计划要为悉尼直飞伦敦和纽约做准备，试飞主要检验燃油、系统和机组安排是否足以支撑超长航程。它的重要性在于，长期讨论中的超远程客运航线正更接近实际运营。接下来仍要看认证、交机和航线规划能否按计划完成。",
-      "differences": [
-        "ABC News突出有360多万人在线追踪这次飞行。",
-        "The Australian强调飞行时长和纪录挑战。",
-        "news.com.au侧重Project Sunrise和未来航线推进。",
-        "Australian Financial Review指出Qantas尚未给出墨尔本直飞的明确时间表。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/qantas-project-sunrise-test-flight/106969232"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/business/aviation/test-pilots-push-qantas-new-project-sunrise-jet-to-absolute-limits/news-story/002d2ff13421a28209b7203304ce27a3"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/travel/travel-updates/project-sunrise-first-test-flight-from-europe-to-australia-for-qantas-a3501000ulr/news-story/82c9522eb505e49dd1702a2c3ff788bc"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/companies/transport/qantas-leaves-melbourne-waiting-for-non-stop-london-flights-20260724-p60i77"
-        }
-      ]
-    },
-    {
-      "id": "angus-taylor-icac-donation-probe",
-      "headline": "新州腐败调查把 Angus Taylor 拉进捐款疑云",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-28T15:00:06Z",
-      "voiceScript": "新州廉政调查已经把焦点推进到 Angus Taylor 身上，证据显示 Reformers 成员曾讨论向他寻求捐款。听证会正在审查涉嫌非法资金流、拉票式扩员和外包咨询费等做法，这些都牵涉到自由党内部一个偏右翼派系。这个故事重要，因为调查已经碰到了联邦反对党领袖，可能让新州自由党承受更大压力。接下来要看，证据最终会导向正式结论，还是只带来进一步的政治伤害。",
-      "differences": [
-        "The Guardian 强调 Taylor 已被卷入听证会，后果可能很大。",
-        "AAP 强调 Reformers 成员曾计划向 Taylor 索要一笔 1 万澳元捐款。"
+        "《卫报》倾向于对清洁能源的批评，而 SBS 将该计划视为更广泛的政策和供应辩论。",
+        "两个故事都质疑炼油厂在当前的能源转型中是否仍然有意义。"
       ],
       "links": [
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/angus-taylor-centre-stage-in-icac-hearing-fall-out-could-be-profound-ntwnfb"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/western-australia-oil-refinery-feasibility-study"
         },
         {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/disgusted-pub-mogul-disavows-liberals-donation-aims"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/taylor-denies-giving-money-to-group-at-centre-of-nsw-corruption-probe/106970262"
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/does-albaneses-idea-for-more-australian-oil-supplies-stack-up/gznqdz12z"
         }
       ]
     },
     {
-      "id": "pacific-aid-lead",
-      "headline": "澳大利亚在太平洋融资中超越中国",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-28T12:30:00Z",
-      "voiceScript": "ABC 和《澳大利亚金融评论》引用的 Lowy Institute 新地图显示，澳大利亚如今已成为太平洋地区最大的贷款方和基础设施资助者。最新数据说明，这里长期存在着围绕资金、通道和影响力的竞争，而与中国有关的投资虽然仍在继续，但已不再居于领先位置。这之所以重要，是因为这些数字会影响太平洋国家如何权衡债务、发展和战略关系。接下来要看堪培拉是否会继续扩大投入，以及其他力量会如何回应。",
-      "differences": [
-        "ABC News 侧重 Lowy Institute 地图以及澳大利亚融资份额的增长。",
-        "Australian Financial Review 将其描绘为与中国在太平洋外交中的更大竞争。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/new-lowy-pacific-aid-map-australia-lending-investor/106967764"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/federal/australia-expands-pacific-aid-lead-in-contest-with-china-20260727-p60j0p"
-        }
-      ]
-    },
-    {
-      "id": "schools-deepfake-photo-warning",
-      "headline": "学校被提醒：公开发布的学生照片可能被做成深度伪造",
+      "id": "deepfake-school-photo-warning",
+      "headline": "学校被警告发布的照片可能会变成深度假货",
       "sourceCount": 1,
-      "publishedAt": "2026-07-28T11:05:31.000Z",
-      "voiceScript": "学校正被提醒，网上公开发布的普通照片可能会被人工智能重新利用，做成虚假的性侵或剥削图像。这个问题很重要，因为它会让儿童面临伤害，也会改变学校使用社交媒体的方式，并让家长对分享内容更加谨慎。下一步要看的是，教育部门会不会收紧指引，以及学校会不会减少公开照片。",
+      "publishedAt": "2026-07-28T11:05:31Z",
+      "voiceScript": "澳大利亚学校被警告，他们在网上分享的照片可能会在人工智能深度伪造攻击中重复使用。这种风险并不是理论上的，因为普通图像可能会变成滥用材料。实际的挑战是学校如何在不切断正常沟通的情况下管理在线共享。",
       "differences": [],
       "links": [
         {
@@ -1567,50 +506,11 @@
       ]
     },
     {
-      "id": "pauline-hanson-italy-trip",
-      "headline": "汉森意大利行程的出资来源再次引发质疑",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-28T09:40:56Z",
-      "voiceScript": "宝琳·汉森因意大利行程再次受到关注，相关报道把这次出行与吉娜·莱因哈特联系起来。汉森表示没有动用纳税人资金，但整笔费用至今仍没有被清楚说明。此事之所以重要，是因为它牵涉到政治透明度、公众人物接受私人资助，以及差旅费用如何披露。接下来要看是否会有更多文件或说法出现，说明机票和其他费用究竟由谁承担。",
-      "differences": [
-        "ABC News：侧重汉森拒绝说明付款人，以及围绕透明度的质疑。",
-        "The Guardian Australia：突出莱因哈特被指支付了从伦敦到西西里的机票。",
-        "news.com.au：强调在西西里会面的场景和随后出现的政治反弹。",
-        "7NEWS：以汉森在视频中为这次行程辩护为重点。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/hanson-reveals-rinehart-paid-for-italy-trip/106968518"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/pauline-hanson-gina-rinehart-flights-london-italy-dolce-gabbana-show-ntwnfb"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/culture/power-and-influence/pauline-hanson-and-billionaire-gina-rinehart-meet-up-at-white-lotus-hotel-in-sicily-hours-after-one-nation-declines-in-polls/news-story/cb8980251706ee1f2f4f925b4eaae505"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/video/politics/pauline-hanson-defends-luxury-italy-trip-bc-6401421951112"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/gina-rinehart-paid-for-pauline-hanson-s-europe-flights"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/gina-rinehart-funded-flights-and-fashion-show-for-pauline-hanson/kgmh8psur"
-        }
-      ]
-    },
-    {
-      "id": "emergency-alert-trial-missed-households",
-      "headline": "紧急警报试验有部分澳大利亚人未收到",
+      "id": "emergency-alert-trial",
+      "headline": "澳大利亚紧急警报试验仍然漏掉了太多人",
       "sourceCount": 1,
-      "publishedAt": "2026-07-28T09:19:43.000Z",
-      "voiceScript": "一项全国性的紧急警报试验覆盖了大多数手机，但调查结果显示，大约九分之一的澳大利亚人没有收到警报。这个问题很重要，因为这个系统本来是为了在山火、洪水等快速变化的紧急情况中尽快提醒民众。接下来要弄清楚的是，是网络缺口、设备设置还是测试设计导致漏发，以及在正式推广前是否还需要第二次试验。",
+      "publishedAt": "2026-07-28T09:19:43Z",
+      "voiceScript": "紧急警报系统的试用并没有覆盖到它应该覆盖的所有人。调查结果表明，全国测试可能需要在 10 月份启动之前再次运行。可靠性是关键问题，因为警报只有在人们实际收到时才起作用。",
       "differences": [],
       "links": [
         {
@@ -1620,129 +520,16 @@
       ]
     },
     {
-      "id": "wa-oil-refinery-study",
-      "headline": "西澳新炼油厂计划进入可行性研究",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-28T07:23:54Z",
-      "voiceScript": "联邦政府和西澳政府将出资400万澳元，评估是否能在皮尔巴拉地区卡拉萨附近建设一座新的大型炼油厂。这将是澳洲自上世纪60年代以来首次新建大型炼油设施，核心理由是提高燃油安全，减少对海外供应冲击的依赖。现在最关键的数字是这笔前期研究资金、澳洲对进口燃油的依赖程度，以及项目在商业和环保上能否站得住脚。眼下它还只是研究，不是开工。",
-      "differences": [
-        "ABC News：重点放在卡拉萨/皮尔巴拉的拟建地点，以及增强国家韧性的说法。",
-        "SBS News：强调这可能是澳洲的第三座炼油厂，也点出当前对进口燃油的依赖。",
-        "The Guardian Australia：把焦点放在中东局势推高通胀和油价的风险上。",
-        "news.com.au 把炼油厂计划写成对西澳燃料安全的防线，也是对全球油价冲击的回应。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/podcast-episode/australia-announces-potential-new-oil-refinery-for-the-country-first-since-the-1960s/eow78smgv"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/third-oil-refinery-on-cards-to-help-shield-australia"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/politics/new-oil-refinery-planned-for-wa-to-secure-australias-fuel-supply/news-story/03fc4bceb105fa2328ddec972868d9dd"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
-        }
-      ]
-    },
-    {
-      "id": "kazem-hamad-iraq-life-sentence",
-      "headline": "墨尔本前黑帮头目在伊拉克被判无期",
+      "id": "origin-data-breach",
+      "headline": "Origin 表示数据泄露已影响近百万客户",
       "sourceCount": 2,
-      "publishedAt": "2026-07-28T06:40:00Z",
-      "voiceScript": "前墨尔本有组织犯罪头目 Kazem Hamad 被伊拉克法院判处无期徒刑，罪名是贩运毒品。伊拉克方面称，他牵涉的走私网络同时连接伊拉克和澳洲，而他过去又与墨尔本烟草战争有关。这个判决让一名长期活跃的犯罪人物暂时出局，但围绕相关网络的执法关注可能还会继续。",
+      "publishedAt": "2026-07-28T04:37:33Z",
+      "voiceScript": "Origin 在披露影响约 900,000 名客户的数据泄露事件后道歉。规模之大足以对公司在信息披露和安全方面施加压力。下一步是如何快速地通知客户以及采取哪些额外的保障措施。",
       "differences": [
-        "ABC News：补充了伊拉克方面关于他向伊拉克和澳洲走私毒品的说法，并提到与墨尔本烟草战争的关联。",
-        "news.com.au：把他写成澳洲的“头号通缉人物”，并强调无期徒刑判决。"
+        "SBS 以道歉和客户回应为中心，而 7NEWS 则强调违规的规模和受影响的人数。",
+        "同一事件被定性为消费者更新或大规模企业安全故障。"
       ],
       "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/kazem-hamad-sentenced-to-life-in-iraq-jail/106968276"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/courts-law/australias-most-wanted-man-kazem-hamad-jailed-in-iraq-for-drug-trafficking/news-story/870fb08b15183fa3c972d38d5ca002f6"
-        }
-      ]
-    },
-    {
-      "id": "stax-collapse-activewear-orders",
-      "headline": "清算报告显示，Stax 倒闭后仍有数百万澳元未付",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-28T06:28:17.000Z",
-      "voiceScript": "清算报告说，澳大利亚运动服品牌 Stax 让成千上万的顾客和债权人仍在等待超过 1700 万澳元的未付订单。这个问题很重要，因为它显示出一家快速成长的消费品牌在现金吃紧、供应商债务累积时可以多快崩塌。接下来要看的是，买家还能追回多少，以及是否还有任何救援交易可行。",
-      "differences": [],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/stax-collapse-australian-activewear-brand-leaves-thousands-of-customers-with-17m-in-unfulfilled-orders-c-22640675"
-        }
-      ]
-    },
-    {
-      "id": "asx-bullock-reaction",
-      "headline": "布洛克讲话缓和加息担忧，澳股收高",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-28T06:23:00Z",
-      "voiceScript": "澳洲股市在储备银行行长米歇尔·布洛克讲话后收高。她表示，需求走弱和房市降温可能有助于缓解通胀压力，市场因此下调了对8月加息的押注。这个变化重要，因为它会直接影响房贷、企业融资和整体信心，而下一轮通胀数据将决定市场会不会继续重新定价。下一步要看 CPI 是否真的印证这种放缓。",
-      "differences": [
-        "ABC News 侧重股市收盘和此前科技股抛售。",
-        "AFR 侧重利率预期的重新定价和个股表现。",
-        "news.com.au 侧重讲话如何缓和借贷担忧并推动反弹。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/asx-markets-business-news-live-updates-tuesday-28-july/106965036"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/markets/equity-markets/asx-to-fall-oil-plunges-and-semiconductor-stocks-fell-anew-20260728-p60j29"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/markets/australian-markets/reserve-bank-governors-words-lift-asx-200-after-early-market-losses/news-story/ba0004246da2ecca17c99bec9e9568aa"
-        }
-      ]
-    },
-    {
-      "id": "origin-energy-breach-900k",
-      "headline": "Origin 数据泄露波及约90万客户",
-      "sourceCount": 5,
-      "publishedAt": "2026-07-28T05:41:39Z",
-      "voiceScript": "Origin Energy表示，一次网络事件可能影响了约90万名现有和前客户。公司说，姓名、地址、出生日期、电话号码和部分账户信息可能被获取，但目前不认为完整的银行卡或银行资料外泄。这条消息的重要性在于，受影响人数很大，后续还会有诈骗和钓鱼风险。接下来，调查重点会放在入侵方式，以及公司是否更早就该向公众说明情况。",
-      "differences": [
-        "ABC News：强调已确认的波及规模，并称不认为信用卡或银行资料被包含在内。",
-        "The Guardian Australia：突出 Origin 在向公众披露前数周就已收到警告。",
-        "news.com.au：强调修订后的 90 万人估算，以及客户面临的诈骗风险。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/origin-energy-data-breach-900k-customers-impacted/106961804"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/about-900000-origin-energy-customers-affected-by-hack-as-company-admits-it-was-warned-weeks-before-public-told"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/online/hacking/origin-energy-says-data-of-900000-australians-stolen-in-hack/news-story/2bd8900737cc8564afed4b5c4ba98a8f"
-        },
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/origin-data-breach-customers/8immypep2"
@@ -1754,974 +541,30 @@
       ]
     },
     {
-      "id": "housing-red-tape",
-      "headline": "住房改革推动聚焦审批与规划层层障碍",
+      "id": "actu-leadership-handover",
+      "headline": "ACTU 正在准备领导层交接",
       "sourceCount": 1,
-      "publishedAt": "2026-07-28T05:39:10.000Z",
-      "voiceScript": "一项新的住房改革推动，正把重点放在拖慢审批、压住施工的层层规定上。观点认为，阻碍建房的不只是成本，还有繁琐的红带规则。它的重要性在于，供应压力会直接推高租金、影响可负担性，并加剧全国各地的政治不满。现在的关键是，各级政府能否在不制造新延误的情况下削减这些堵点。",
+      "publishedAt": "2026-07-28T00:00:17Z",
+      "voiceScript": "萨莉·麦克马纳斯和米歇尔·奥尼尔将退位，为新一代工会领导层开辟道路。这一变化很重要，因为澳大利亚工会联合会仍在主导有关工资、工作场所权利和产业战略的辩论。接下来会发生什么将取决于谁接任以及过渡完成的速度。",
       "differences": [],
       "links": [
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/the-rules-stopping-australia-from-building-more-homes"
-        }
-      ]
-    },
-    {
-      "id": "data-centres-draw-tradies",
-      "headline": "数据中心扩张正在挤压住房建筑用工",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-28T05:06:03Z",
-      "voiceScript": "电气工人工会警告，数据中心建设热潮正在把电工和其他熟练工人从住房项目中吸走。原本就吃紧的建筑行业因此面临更大压力，房屋供应和成本控制都会受到影响。这个问题之所以重要，是因为熟练工短缺会让住房危机更难缓解。",
-      "differences": [],
-      "links": [
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/union-warns-data-centres-poaching-tradies-from-housing"
-        }
-      ]
-    },
-    {
-      "id": "rockhampton-double-murder-case-trial",
-      "headline": "洛克汉普顿家庭命案进入审判阶段",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-28T03:35:34.000Z",
-      "voiceScript": "马修·考克斯已被要求就洛克汉普顿妻子泰拉·布莱克和他们 11 周大女儿死亡一案接受审判。法庭本周重点在于他是否具备受审能力，以及在确定开庭日期前案件应如何推进。之所以重要，是因为这起案件涉及一个年轻家庭的家庭杀人案，而是否适合受审也会影响检方的时间表和诉讼走向。下一步要看法院是否认定他可以受审，并敲定审期。",
-      "differences": [
-        "ABC News 侧重法院下令进入审判程序以及洛克汉普顿最高法院的时间表。",
-        "7NEWS 侧重证人证词和能力审查听证。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/matthew-cox-stand-trial-for-alleged-killings-of-wife-baby/106965496"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/witnesses-testify-in-trial-of-queensland-man-accused-of-murdering-wife-and-baby-daughter-c-22643030"
-        }
-      ]
-    },
-    {
-      "id": "nsw-icac-perrottet-brothers",
-      "headline": "新州 ICAC 继续追查自由党秘密录音和假咨询费",
-      "sourceCount": 5,
-      "publishedAt": "2026-07-28T03:31:07Z",
-      "voiceScript": "新州廉政公署正在继续审理一宗自由党献金案，焦点落在被禁捐款、假咨询费和党内人脉如何被用来影响预选和政策。最新披露又把秘密录音和截获讯息带进调查，显示资金和人事安排可能被更复杂地串在一起。这个案子之所以重要，是因为它直接关系到政治透明度、捐款规则，以及州大党内部影响力是如何被买卖和隐藏的。接下来要看更多证词、文件核对，以及是否有事项被移交起诉。",
-      "differences": [
-        "ABC News 按时间线梳理听证范围和证人安排。",
-        "The Guardian Australia 侧重秘密录音和右倾派系之间的权力斗争。",
-        "AAP News 强调脏捐款会怎样打击自由党。",
-        "Australian Financial Review 突出电话监听和假支付的细节。",
-        "news.com.au 聚焦 WhatsApp 截听、Nassif 的炫耀和招募网络。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/what-to-expect-from-icac-probe-into-nsw-liberal-party/106955220"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/watchdog-probes-tainted-donations-in-blow-to-liberals"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/senior-politicians-supported-young-nsw-liberal-power-brokers-trying-to-shift-party-to-right-corruption-watchdog-hears-ntwnfb"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/nsw-liberals-icac-operation-rosny-secret-tape-recordings-ntwnfb"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/phone-taps-and-sham-payments-to-liberals-in-icac-bombshell-hearing-20260726-p60iny"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/courts-law/whatsapp-intercept-and-christian-recruitment-in-nsw-liberal-icac-probe/news-story/7fdf009da078e46f2f594550f31837f4"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/nsw-icac-operation-rosny-michael-ohara-reformer-liberals/106964276"
-        }
-      ]
-    },
-    {
-      "id": "the-castle-stage-play",
-      "headline": "《The Castle》要被改成舞台剧，Working Dog 原班人马回归",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-28T03:12:51Z",
-      "voiceScript": "Working Dog 的原班人马正在把《The Castle》改成舞台剧，计划在墨尔本首演。这个消息重要，因为这部电影是澳洲最常被引用的喜剧之一，舞台版会检验它那种温情和工薪阶层幽默能否在现场继续成立。接下来要看的是选角和制作细节，以及新版是否能在保留原味的同时让新观众买账。",
-      "differences": [
-        "ABC News 侧重舞台版启动和那些标志性台词。",
-        "The Guardian Australia 更强调创作者回归以及 2027 年的首演计划。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/the-castle-stage-adaptation/106966540"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/stage/2026/jul/28/the-castle-stage-play-working-dog-film-rob-sitch-tom-gleisner-santo-cilauro-jane-kennedy"
-        }
-      ]
-    },
-    {
-      "id": "harvey-norman-latitude-penalty",
-      "headline": "法院因误导性分期广告重罚 Harvey Norman 和 Latitude",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-28T03:06:34Z",
-      "voiceScript": "联邦法院裁定 Harvey Norman 和 Latitude 违反消费者法，因其 60 个月免息广告让顾客在不清楚真实条件下办信用卡并支付额外费用。罚金合计 5500 万澳元，显示监管机构对全国性广告活动和隐藏费用的态度更强硬。接下来要看的是两家公司如何消化这项裁定，以及零售业是否会重新设计类似促销。",
-      "differences": [
-        "ABC News 重点写监管机构如何证明消费者被误导。",
-        "Australian Financial Review 把这项裁定放进更大的零售与市场背景。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/harvey-norman-and-latitude-penalised-over-interest-free-ads/106966304"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/markets/equity-markets/asx-to-fall-oil-plunges-and-semiconductor-stocks-fell-anew-20260728-p60j29"
-        }
-      ]
-    },
-    {
-      "id": "moira-deeming-victorian-liberals",
-      "headline": "Moira Deeming 在被取消资格后退出维州自由党",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-28T02:56:11Z",
-      "voiceScript": "Moira Deeming 已辞去维多利亚州自由党党籍，并将在交叉席位上活动，因为该党已推动取消她的候选资格。这个变化之所以重要，是因为它发生在维州领导层刚刚更替之后，进一步削弱了自由党在 11 月州选前展示团结的空间。接下来要看的是党内后续反弹，以及自由党能否把损失控制住。",
-      "differences": [
-        "ABC News 更关注辞职本身和党团内部的即时反应。",
-        "The Guardian Australia 把这件事放在维州领导层变化和选举压力的大背景下。",
-        "news.com.au 更突出她转到交叉席位后的党内裂痕。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/mp-moira-deeming-resigns-liberal-party/106966506"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/28/jacinta-allan-victoria-labor-leadership-spill-ben-carroll-challenge-antisemitism-royal-commission-nsw-icac-inquiry-queensland-estimates-ntwnfb"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/victoria/moira-deeming-leaves-victoria-liberals-after-disendorsement/news-story/95677f4f378d11386c9a25b924ef7f23"
-        }
-      ]
-    },
-    {
-      "id": "europe-wildfires-australia-warning",
-      "headline": "欧洲野火危机让澳洲自己的火季问题更受关注",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-28T02:00:00Z",
-      "voiceScript": "西班牙和法国已有超过30万人被迫撤离家园，南欧的山火仍在蔓延。法国方面说情况已有进展，但新的热浪还在路上，风险并没有解除。这个消息对澳洲重要，是因为火势特征、应急预案和热浪应对方式都能拿来和本地条件对照。接下来要看的是，澳洲相关机构会不会把欧洲这次火季当成一面预警镜子。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC listen",
-          "url": "https://www.abc.net.au/listen/programs/worldtoday/is-europe-s-fire-crisis-a-sign-for-australia-/106966834"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/wildfires-europe-spain-france-heatwave-australian-travellers/hfjoiij4m"
-        }
-      ]
-    },
-    {
-      "id": "melbourne-rape-verdict",
-      "headline": "维州陪审团裁定墨尔本一名知名男子强奸罪名成立",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-28T01:58:48Z",
-      "voiceScript": "维多利亚州一家地方法院的陪审团裁定，一名在墨尔本颇有背景的男子犯下强奸和性侵罪。这个案件重要，是因为原本长期受到保密限制的指控终于形成定罪，而身份保密和量刑问题还要继续处理。接下来要看的是量刑，以及法院是否维持相关保密令。它也说明，即使证据最终交由陪审团审理，性侵案件仍可能经历漫长而艰难的司法过程。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/jury-verdict-in-melbourne-businessman-rape-case/106966126"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/well-connected-melbourne-man-guilty-ntwnfb"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/victoria/courts-law/highprofile-melbourne-man-guilty-of-raping-woman/news-story/725e8e790b4d2cab4d357669f89fe16c"
-        }
-      ]
-    },
-    {
-      "id": "origin-data-breach-ai-scams",
-      "headline": "Origin 数据泄露波及 90 万客户，诈骗风险进一步上升",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-28T01:26:00Z",
-      "voiceScript": "Origin 现在表示，大约 90 万条客户记录卷入了这次数据泄露，规模比最初警告的范围更清楚。泄露内容可能包括姓名、住址、出生日期、联系方式和部分账号信息，即使没有完整付款资料，也足以被用来诈骗。之所以重要，是因为这家公司服务数百万账户，事件已经从调查阶段转向客户通知、监管审查和反欺诈处置。接下来要看的是最终通知流程，以及有多少人能及时阻断后续诈骗。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/origin-energy-data-breach-900k-customers-impacted/106961804"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/about-900000-origin-energy-customers-affected-by-hack-as-company-admits-it-was-warned-weeks-before-public-told"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/origin-data-breach-customers/8immypep2"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/online/hacking/origin-energy-says-data-of-900000-australians-stolen-in-hack/news-story/2bd8900737cc8564afed4b5c4ba98a8f"
-        }
-      ]
-    },
-    {
-      "id": "actu-leadership-change",
-      "headline": "ACTU两位最高领导人宣布卸任",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-28T00:34:52Z",
-      "voiceScript": "澳洲工会理事会秘书 Sally McManus 和主席 Michele O'Neil 宣布卸任，工运最高层进入换班期。这一变化发生在工会和工党政策互动最密集的时候，后续接班人选会影响工资、工时和工作场所保护的推动力度。接下来要看新领导层如何成形，以及工会与工党关系是否出现调整。",
-      "differences": [
-        "ABC News：突出工会最高层换班与接班程序。",
-        "Australian Financial Review：把这次离任写成面对新挑战的新一代交棒。",
-        "The Australian：强调两人的长期任期，以及她们对工运影响力的重塑。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/actu-leaders-sally-mcmanus-michele-o-neil-resign/106964206"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/work-and-careers/workplace/actu-leadership-to-step-down-make-way-for-new-generation-20260727-p60iv4"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/nation/top-union-leaders-sally-mcmanus-and-michele-oneil-announce-shock-resignations/news-story/b2cb98c940d7277ef363284b48d0e31c"
-        },
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/actu-leaders-sally-mcmanus-michele-oneil-step-aside-new-generation/r6x6bixff"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/sally-mcmanus-michele-oneil-resign-actu-union-leaders"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/actu-bosses-step-down-for-post-cfmeu-renaissance"
         }
       ]
     },
     {
-      "id": "antisemitism",
-      "headline": "反犹太主义皇家委员会把教育和培训列为重点",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-27T19:44:47Z",
-      "voiceScript": "联邦反犹太主义与社会凝聚力皇家委员会本周回到悉尼，开始讨论如何通过学校教育和公共部门培训来减少仇恨。ABC 的报道把重点放在学校里的大屠杀教育和反仇恨工具，AAP 则强调公职人员是否需要额外的社融培训。这个议题之所以重要，是因为委员会已经从描述问题转向测试制度能否真正预防仇恨。接下来要看这些想法会不会写进正式建议。",
-      "differences": [
-        "ABC News：重点放在学校里的大屠杀教育，以及教育体系如何成为反仇恨工具。",
-        "AAP News：强调面向公职人员的社融培训建议，以及更广泛的制度回应。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/bondi-antisemitism-social-cohesion-royal-commission-education/106946500"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/push-for-public-sector-training-on-social-cohesion"
-        }
-      ]
-    },
-    {
-      "id": "energy",
-      "headline": "中东战争推高能源风险，澳洲或建新炼油厂",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-27T19:01:50Z",
-      "voiceScript": "Treasury 警告说，中东战争带来的经济冲击可能继续加重，油价和通胀压力都还没过去。与此同时，联邦和西澳政府开始推动新的燃料安全方案，包括研究在西澳建设新的炼油设施。这个故事重要在于，它把海外冲突直接连到澳洲家庭油费、企业成本和能源安全上。接下来要看可行性研究是否会变成真正的资金承诺。",
-      "differences": [
-        "ABC News：重点放在 Treasury 对战争冲击和经济恶化的整体警告。",
-        "The Guardian Australia：突出西澳可能出现新炼油厂，以及财政部长面对通胀压力的能源回应。",
-        "AAP News：强调油价冲击和市场脆弱性，说明能源风险已经进入政策核心。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/middle-east-war-economic-impact-to-worsen-treasury-warns/106963778"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/oil-shock-could-be-worse-than-the-first-treasury-warns"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/economy/australian-economy/australians-facing-fresh-fuel-nightmare-as-treasury-briefing-warns-price-pressures-may-intensify-as-middle-east-conflict-continues/news-story/4f124e67768d0d6d8271c4e5be95be68"
-        }
-      ]
-    },
-    {
-      "id": "data-centre-pressure",
-      "headline": "澳洲数据中心扩张正给电力和住房带来新压力",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T18:44:42.000Z",
-      "voiceScript": "澳洲快速扩张的数据中心产业正在给电力系统和相关建设带来新的压力。近期报道显示，围绕数据中心该如何采购清洁能源，政策争论正在升温；与此同时，分析人士警告，这股扩张可能吸走工人并拖慢住房等其他项目。这个问题之所以重要，是因为数据中心的用电需求增长速度已经快于电网升级和新增发电。各级政府接下来必须决定，是强力推进清洁能源要求，还是分阶段落实。下一步的关键，是这些新增需求能否在不推高成本、也不拖慢其他工程的情况下被消化。",
-      "differences": [
-        "ABC News 侧重于数据中心快速增长对电力系统的压力。",
-        "The Australian 把重点放在 AirTrunk 与 Andrew Forrest 之间关于清洁能源规则的政策争论。",
-        "news.com.au 强调这股扩张对住房供应和技术工人的外溢影响。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/data-centre-explosion-could-spark-power-price-hikes/106963258"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/business/andrew-forrest-urges-china-cooperation-on-ai-as-airtrunk-delivers-energy-demand-to-labor/news-story/f190c469bb45288922f07b813c26832b"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/business/other-industries/how-australias-ai-data-centre-boom-puts-housing-and-energy-projects-at-risk/news-story/b6d7edc95e34d99e4e1f5a6d4b0b21c3"
-        }
-      ]
-    },
-    {
-      "id": "sa-industrial-manslaughter",
-      "headline": "南澳制造企业被控首例工业过失杀人",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-27T10:14:16Z",
-      "voiceScript": "阿德莱德一家制造企业及其董事被控南澳首例工业过失杀人，案件与 2024 年一名 28 岁工人死亡的事故有关。调查方指称，涉事机器的安全联锁可能被绕过，事故前也曾出现安全隐患提醒。这起案件的重要性在于，它是南澳新工业过失杀人法律的实际考验，也会影响企业对机器防护和工地责任的理解。接下来要看法庭如何处理这些指控，以及这宗案件会不会推动更多工厂安全检查。",
-      "differences": [
-        "ABC News：强调 SafeWork SA 的起诉决定，以及新法下更重的刑责背景。",
-        "7NEWS：更具体描写机器安全联锁被指遭绕过的经过，以及公司和董事同时被起诉的细节。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/industrial-manslaughter-charges-laid-against-adelaide-company/106963526"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/industrial-manslaughter-charges-laid-over-fatal-2024-adelaide-workplace-accident-c-22634952.amp"
-        }
-      ]
-    },
-    {
-      "id": "pauline",
-      "headline": "保琳·汉森上诉败诉，法庭维持对法鲁奇的种族歧视认定",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-27T08:41:00Z",
-      "voiceScript": "Pauline Hanson 对联邦法院种族歧视认定的上诉已经失败，法院维持她针对 Mehreen Faruqi 的那条推文构成歧视。这个案子重要，因为它继续划定澳洲政治言论和种族侮辱之间的界线，也可能影响今后类似案件的判例走向。接下来要看 Hanson 是否继续上诉到高等法院，以及这场诉讼的费用如何处理。",
-      "differences": [
-        "ABC News：更强调上诉程序、原始推文内容，以及 Hanson 可能寻求高院上诉。",
-        "The Guardian Australia：突出三位法官一致驳回上诉，以及这项判决的法律先例意义。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/nsw-pauline-hanson-appeal-mehreen-faruqi-judgement/106962048"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb"
-        }
-      ]
-    },
-    {
-      "id": "jewish-security-guns-inquiry",
-      "headline": "犹太社区安保持枪争议进入皇家委员会听证",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T07:59:50.000Z",
-      "voiceScript": "新州关于反犹太主义和社会凝聚力的皇家委员会听证，正在讨论是否允许犹太社区安保组织在露天活动中持枪。新州警方副专员认为，这样做可能被看成对某个群体的偏袒，也会让社区关系更紧张；支持者则强调大型户外活动的应对速度和现场风险。这个议题重要，因为它直接牵涉到澳洲反犹太主义、安全资源分配和警方职责边界。接下来要看听证会是否会推动更明确的安保规则。",
-      "differences": [
-        "ABC News：把听证重点放在风险与安保顾问的观点上，追问为什么私人安保要被武装。",
-        "AAP News：强调警方担心“偏袒”观感，以及这会加剧社区分裂。",
-        "The Guardian Australia：突出新州警方副专员的反对意见和 CSG 在户外活动中的持枪争议。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/bondi-antisemitism-royal-commission-arming-security-guards/106960940"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/government-egged-on-anti-semitism-says-jewish-leader"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/nsw-police-deputy-commissioner-says-letting-jewish-security-group-carry-guns-could-be-seen-as-favouritism-ntwnfb"
-        }
-      ]
-    },
-    {
-      "id": "ausalert-national-test",
-      "headline": "AusAlert 测试后，部分手机仍未收到警报",
-      "sourceCount": 8,
-      "publishedAt": "2026-07-27T07:50:27Z",
-      "voiceScript": "全国 AusAlert 测试完成后，联邦政府称系统整体表现成功，但不少居民反映没有收到警报，或收到得太晚。这个系统是为了在山火、洪水和其他紧急情况中，把信息更快推送到指定区域；争议点在于它会覆盖静音模式，也会牵动家暴受害者的隐私和安全。接下来要看官方如何解释漏发原因，以及正式启用前会不会调整覆盖和分发方式。",
-      "differences": [
-        "ABC News：强调测试后官方仍称整体成功，但不少人反馈没有收到警报。",
-        "SBS News：更关注测试前后的准备工作，以及家暴受害者的安全风险。",
-        "7NEWS：聚焦全国同步警报的实际体验，以及部分用户完全没收到通知。",
-        "AAP News：把这次演练写成一次“非常成功”的全国测试。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/ausalert-test-a-success-declares-minister/106963350"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/ausalert-emergency-warning-test-what-you-need-to-know-and-how-to-prepare/zghu8pk7o"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/everything-you-need-to-know-about-ausalert-warning-alarm-test/news-story/dac4abc3a73dc2b0ca2c872cf5361f16"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://www.aap.com.au/news/new-ausalert-warning-system-to-blast-out-national-siren"
-        },
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/emergency-alert-test-australia-what-to-expect-july-27-everything-to-know-20260709-p60dyd.html"
-        },
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/ausalert-test-coming-today-20260727-p60iq6.html"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/ausalert-national-alert-test-sound-emergency-warning-system-time-date"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/mixed-reaction-to-ausalert-emergency-message-system-as-test-fails-to-reach-people-c-22634152"
-        }
-      ]
-    },
-    {
-      "id": "qld-river-to-the-sea-challenge",
-      "headline": "昆州“从河到海”禁令遭高院挑战",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-27T06:57:05Z",
-      "voiceScript": "昆州围绕 “from the river to the sea” 的禁令继续在高院受挑战。抗议者主张，这项把某些口号列为可罚表达的法律已经越过了反仇恨的界线，直接限制了言论自由。争议核心是州政府怎样在反仇恨、公共安全和政治表达之间划线。接下来要看高院是否受理，以及这项挑战会不会影响现行规定的适用范围。",
-      "differences": [
-        "ABC News：更直接呈现抗议者的法律挑战和争点。",
-        "The Guardian Australia：强调禁令把两个口号都纳入可罚表达，焦点是言论自由边界。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/qld-palestine-israel-hate-speech-laws-high-court-challenge/106964098"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/protesters-launch-high-court-challenge-to-queensland-ban-on-from-the-river-to-the-sea-ntwnfb"
-        }
-      ]
-    },
-    {
-      "id": "pauline-hanson-verdict",
-      "headline": "保琳·汉森种族歧视上诉被驳回",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T05:59:34.000Z",
-      "voiceScript": "联邦法院已经驳回了保琳·汉森针对种族歧视裁决的上诉，维持她在一条针对 Mehreen Faruqi 的推文中违反相关法律的认定。这个结果不仅关系她个人的法律责任和未来可能继续上诉的选择，也会影响一国党围绕移民、种族和言论边界的政治压力。案件的重要性在于，它再次划清了政治表达和种族歧视之间的界线。接下来要看她是否申请向高等法院继续上诉，以及各方如何回应这项裁决。",
-      "differences": [
-        "The Guardian Australia：把裁决写成对 Faruqi 的胜诉，并强调法官对 2022 年推文的法律定性。"
-      ],
-      "links": [
-        {
-          "source": "9News",
-          "url": "https://www.nine.com.au/australia-news/pauline-hanson-racial-discrimination-court-case-appeal-verdict-mehreen-faruqi-20260727-p60isj.html"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/racism-verdict-latest-danger-to-pauline-hansons-surge"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb"
-        }
-      ]
-    },
-    {
-      "id": "sa-bird-flu-spike",
-      "headline": "南澳新增 7 起疑似 H5 禽流感病例",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-27T02:30:00Z",
-      "voiceScript": "南澳又通报 7 起疑似 H5 禽流感病例，其中 5 起来自同一地点。现阶段还没有证据显示病毒已经进入商用家禽系统，但相关样本已经送往进一步确认。对普通人来说，重点不是恐慌，而是野鸟和沿海区域的监测范围正在扩大，生物安全提醒会更频繁。接下来要看 CSIRO 的最终检测结果，以及是否需要对更多沿海和野生动物区域采取限制或清理措施。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/seven-suspected-h5-bird-flu-cases-in-sa/106961794"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/science/animals/south-australia-records-spike-in-bird-flu-cases/news-story/6c0bd4e13b26f13737ea1390abef39b6"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://www.aap.com.au/news/seven-suspected-bird-flu-cases-found-in-native-species"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/27/ausalert-emergency-warning-test-antisemitism-royal-commission-nsw-icac-inquiry-politics-anthony-albanese-labor-angus-taylor-coalition-victoria-jacinta-allan-ntwnfb"
-        }
-      ]
-    },
-    {
-      "id": "adelaide-sikh-temple-fire",
-      "headline": "阿德莱德 Sikh 寺庙大火被烧毁",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-27T01:01:00Z",
-      "voiceScript": "阿德莱德北郊的 Gurudwara Dashmesh Darbar 在深夜大火中被严重烧毁，屋顶倒塌，消防员花了数小时才控制火势。火灾影响的不只是一栋建筑，也包括社区礼拜、神圣经书保存和日常布施厨房等服务。现在最关键的是确认起火原因、评估损失，并尽快为当地 Sikh 社区安排临时聚会和支援。接下来要看警方和消防调查结果，以及重建资金和社区援助如何落实。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/sikh-temple-destrpyed-in-fire-north-adelaide/106961130"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/sikh-temple-destroyed-by-massive-blaze-in-adelaide-c-22631800"
-        }
-      ]
-    },
-    {
-      "id": "car-strikes-train-bridge",
-      "headline": "汽车撞上火车桥，昆州线路停运一小时多",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-27T00:31:56Z",
-      "voiceScript": "昆州一辆车撞上火车桥后，相关线路在早高峰被迫停运一个多小时，直到安全检查完成才恢复。关键不只是交通延误，而是这类撞击会马上影响通勤、货运和道路管理。现在还要看司机是否受伤、事故原因是什么，以及现场是否会有后续维修。",
-      "differences": [],
-      "links": [
-        {
-          "source": "Brisbane Times",
-          "url": "https://www.brisbanetimes.com.au/national/queensland/car-strikes-train-bridge-suspending-line-for-over-an-hour-20260727-p60ith.html"
-        },
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/queensland/car-strikes-train-bridge-suspending-line-for-over-an-hour-20260727-p60ith.html"
-        }
-      ]
-    },
-    {
-      "id": "wa-oil-refinery",
-      "headline": "西澳拟建澳洲数十年来首座新炼油厂",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "联邦和西澳政府正在为佩尔达曼公司支持的一项可行性研究提供资金，评估在西澳新建炼油厂的可行性。若项目推进，这将是澳洲自上世纪60年代以来首座大型新炼油厂。中东局势紧张推高油价，也再次凸显澳洲对进口燃料的依赖。接下来要看选址、融资和审批能否落实，这些决定会影响燃料安全与供应链韧性。",
-      "differences": [
-        "ABC News：把重点放在西澳和佩尔达曼公司的新项目，以及联邦和州政府支持的可行性研究。",
-        "The Guardian Australia：强调中东冲突推高通胀和燃料风险，并指出澳洲约九成液体燃料依赖进口。",
-        "Australian Financial Review：把它写成总理对燃料危机的回应，并提到西澳选址尚未确定。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
-        }
-      ]
-    },
-    {
-      "id": "one-nation-poll-surge-2026",
-      "headline": "一国党民调走高，Coalition 继续划清合作界线",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-27T00:25:00.000Z",
-      "voiceScript": "DemosAU 民调显示，一国党首选票支持率升到 30%，在联邦政治中的存在感继续上升。随后几篇报道把焦点放在 Coalition 的公开表态上：一方面，部分联盟党人士开始讨论选后合作的算术；另一方面，党内领袖又把与一国党结盟的说法压下去。这个变化重要，因为它关系到下次选举后是否会出现更碎片化的议会，以及偏好交换和少数政府谈判的空间。接下来要看民调会不会继续走高，以及 Coalition 的表态是否真的保持一致。",
-      "differences": [
-        "news.com.au 重点放在民调数字、座位数和执政算术；ABC 重点放在 Angus Taylor 对联盟谈一国党合作的公开否定。"
-      ],
-      "links": [
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/work/leaders/one-nation-would-be-within-arms-reach-of-forming-government-with-coalition-new-poll-shows/news-story/84d1a28fb8484e38a69dfc58b8b58d67"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/federal-politics-live-blog-pm-dinner-july-27/106960978"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/politics/lets-make-a-deal-pauline-hansons-offer-to-angus-taylor/news-story/69232dadc3decb8ef17aa85ae5947281"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/politics/liberal-senator-andrew-bragg-leaves-door-open-to-one-nation-coalition-says-party-needs-to-be-pragmatic/news-story/817a4856550b5b5dc9b2982c1f77e054"
-        }
-      ]
-    },
-    {
-      "id": "tariffs-pushback",
-      "headline": "澳洲就特朗普关税动作强硬回应",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T23:04:55Z",
-      "voiceScript": "澳洲再次卷入美国关税争议，华盛顿的新贸易动作引发堪培拉反弹。关税问题的影响不只停留在外交表态，它会传导到出口商成本、消费者价格、企业订单和政府谈判空间。对澳洲来说，关键是能否把争议限制在短期政治动作里，而不是让它变成更长期的贸易摩擦。接下来要看美国是否调整立场，以及澳洲政府会采取多强硬的交涉路线。",
-      "differences": [
-        "SBS：更偏分析，强调经济复杂性和撤销关税的理由。",
-        "The Guardian Australia：更偏实时政治报道，突出即时反应和突发新闻背景。"
-      ],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/27/ausalert-emergency-warning-test-antisemitism-royal-commission-nsw-icac-inquiry-politics-anthony-albanese-labor-angus-taylor-coalition-victoria-jacinta-allan-ntwnfb"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/donald-trump-hit-australia-with-nonsense-12-5-per-cent-tarriffs/x4qy0tc68"
-        }
-      ]
-    },
-    {
-      "id": "kogan-clone-site-pricing",
-      "headline": "Kogan 因第二个高价站点受到审视",
+      "id": "ato-tax-return-lodgement",
+      "headline": "ATO 要求数百万纳税人立即提交纳税申报表",
       "sourceCount": 1,
-      "publishedAt": "2026-07-27T08:20:00+10:00",
-      "voiceScript": "ABC 说，Kogan 运营着一个名为 Exclusive Brands 的独立网站，同样的商品在那里的标价明显更高。外界担心，消费者在对比价格时看到的参考价并不透明，折扣看起来也许比实际更大。Kogan 否认有不当行为，接下来就看消费者监管机构会不会正式介入调查。",
+      "publishedAt": "2026-07-27T21:43:43Z",
+      "voiceScript": "ATO 表示，现在是数百万澳大利亚纳税人提交纳税申报表的时候了。该警告旨在防止延误并保持申请季节的顺利进行。实际问题是人们在提交之前是否拥有所需的信息。",
       "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/kogan-exclusive-brands-website-pricing/106891632"
-        }
-      ]
-    },
-    {
-      "id": "albanese-dinner-scrutiny",
-      "headline": "阿尔巴尼斯因富豪晚宴再受审视",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-26T21:10:28Z",
-      "voiceScript": "安东尼·阿尔巴尼斯因为在 Point Piper 参加一场富豪晚宴再次受到追问。争议重点不是一顿饭本身，而是总理与商界和富裕捐助圈层接触时，公众能否看到足够透明度和边界。对政府来说，这类新闻会影响政治形象，也会让生活成本压力下的选民重新审视领导人与普通家庭的距离。接下来要看反对党是否继续追打，以及政府是否公布更多细节。",
-      "differences": [
-        "ABC News：采用实时更新格式，重点跟进政府辩护和现场反应。",
-        "news.com.au：语气更怀疑，强调阿尔巴尼斯回答时的尴尬。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/federal-politics-live-blog-pm-dinner-july-27/106960978"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/politics/i-attend-lots-of-dinners-prime-minister-anthony-albanese-quiz-over-point-piper-dinner/news-story/8e3b17291d8ae6becbae6377c2c0c41d"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/federal/pm-has-questions-to-answer-about-point-piper-dinner-say-coalition-20260727-p60isi"
-        }
-      ]
-    },
-    {
-      "id": "nsw-icac-powerbroker-uk",
-      "headline": "新州自由党前权力掮客身在英国，Icac指控听证受关注",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T15:00:17Z",
-      "voiceScript": "新南威尔士自由党一名前权力掮客因 Icac 指控成为焦点，但他目前身在英国，预计不会亲自出庭。报道的关键在于，调查的时间表和执行方式可能因此受到影响。对反腐调查来说，缺席不一定意味着结案，反而可能拖长程序。下一步要看 Icac 是否还能继续推进证词和听证安排。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/former-nsw-liberal-powerbroker-at-heart-of-icac-allegations-now-living-in-uk-and-not-expected-to-appear-ntwnfb"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/watchdog-probes-tainted-donations-in-blow-to-liberals"
-        }
-      ]
-    },
-    {
-      "id": "census-explained",
-      "headline": "2026 年人口普查要填什么、谁必须参加",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T12:39:35Z",
-      "voiceScript": "2026 年人口普查将在 8 月 11 日进行，官方提醒大多数在澳居住的人都要填写，部分临时签证持有人也在范围内。关键问题是填写截止时间、可能的罚款，以及这些数据会如何影响学校、医疗和基础设施的资源分配。接下来要看宣传和提醒能不能提高完成率，尤其是新移民家庭和偏远地区住户。",
-      "differences": [
-        "7NEWS：更直接列出截止日期、填写方式和潜在罚款。",
-        "SBS News：特别强调哪些临时签证持有人也必须参加，以及这份数据为什么重要。"
-      ],
       "links": [
         {
           "source": "7NEWS",
-          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj"
-        }
-      ]
-    },
-    {
-      "id": "vad-telehealth",
-      "headline": "工党支持临终协助远程医疗咨询",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-26T15:00:00+10:00",
-      "voiceScript": "工党全国会议已经通过修改平台，支持把临终协助的咨询放到电话和视频里进行。阿尔巴尼斯本人仍明确保留反对意见，担心这会削弱面对面评估和现有防误用措施；支持者则强调，偏远地区和行动不便的病人常常很难赶到医院或诊所，现行联邦刑法也让医生在沟通上顾虑重重。下一步要看联邦内阁会不会把党内立场变成正式法案，以及修法时如何同时守住可及性和安全边界。",
-      "differences": [
-        "ABC News：强调总理个人反对，以及医疗安全和面对面评估。",
-        "The Guardian Australia：更强调偏远和行动不便患者的可及性，以及联邦刑法造成的障碍。",
-        "SBS News：把焦点放在党内表决已经通过，以及这一争议仍属于良心投票范围。",
-        "news.com.au：点出法律风险和医生可能面对的合规压力。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-26/albanese-opposed-telehealth-voluntary-assisted-dying/106959388"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/26/labor-pressure-telehealth-access-euthanasia-assisted-dying-anthony-albanese"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/podcast-episode/prime-minister-rejects-proposal-of-voluntary-assisted-dying-via-telehealth/di63vkdwy"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5"
-        }
-      ]
-    },
-    {
-      "id": "nsw-counselling-records-review",
-      "headline": "新州启动性侵幸存者咨询记录调查",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T02:21:48.000Z",
-      "voiceScript": "新南威尔士州已经启动一项为期一年的调查，审视性侵幸存者的咨询记录为何会被传唤到法庭，甚至在部分案件中被外流。调查由悉尼大学的 Rita Shackel 教授主导，重点会看现行保护是否足够，以及是否需要更强的法律豁免。这个问题之所以重要，是因为它直接关系到受害者能否在不担心隐私被反过来利用的情况下寻求帮助，也关系到司法程序对敏感治疗资料的使用边界。接下来要看调查是否推动更严格的保密规则和改革。",
-      "differences": [],
-      "links": [
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/push-to-guard-victims-from-trauma-of-therapy-disclosure"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/real-life/news-life/nsw-government-announces-inquiry-into-counselling-records-of-sexual-assault-victimsurvivors/news-story/5d36d7880647898f1176ee589fd3d69f"
-        }
-      ]
-    },
-    {
-      "id": "qld-road-deaths",
-      "headline": "昆州东南部夜间两起车祸致三人死亡",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T02:01:53.793Z",
-      "voiceScript": "南东昆州一晚接连发生两起致命车祸，3人死亡，另外两人重伤。现在最关键的是事故是否都与超速、疲劳或道路状况有关，以及警方和交通部门会不会把调查结果迅速公布。对当地来说，这类连环事故会马上压到道路安全和急救系统的压力测试。接下来要看是否会有进一步指控或更具体的危险路段提示。",
-      "differences": [],
-      "links": [
-        {
-          "source": "9News",
-          "url": "https://www.nine.com.au/australia-news/qld/three-killed-in-horror-night-on-south-east-queensland-roads-20260726-p60ima.html"
-        },
-        {
-          "source": "Brisbane Times",
-          "url": "https://www.brisbanetimes.com.au/national/queensland/three-dead-in-two-crashes-across-south-east-overnight-20260726-p60ils.html"
-        }
-      ]
-    },
-    {
-      "id": "cluster-1",
-      "headline": "凯恩斯警方冲突中两人中枪",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-25T09:47:50.000Z",
-      "voiceScript": "昆士兰凯恩斯一场与持枪嫌疑人的冲突，最后演变成警方开枪，一男一女中枪。现在公开的信息还不完整，关键还在于嫌疑人是谁、现场经过如何升级，以及两名伤者的伤势是否稳定。接下来要看警方能否把时间线和执法判断交代清楚，否则外界对这次行动是否必要的疑问还会继续。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/queensland-police-shoot-man-woman-cairns-altercation/106958468"
-        },
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/qld/two-people-including-innocent-bystander-shot-by-police-in-cairns-queensland-20260726-p60ikh.html"
-        },
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/man-shot-by-police-in-queensland-to-face-court-20260727-p60iq7.html"
-        },
-        {
-          "source": "Brisbane Times",
-          "url": "https://www.brisbanetimes.com.au/national/queensland/woman-caught-in-crossfire-as-police-shoot-armed-man-during-stand-off-20260726-p60il7.html"
-        }
-      ]
-    },
-    {
-      "id": "cluster-4",
-      "headline": "Husic 推动加沙辩论失败后批评工党文化",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-25T06:01:39.000Z",
-      "voiceScript": "工党全国会议上，Ed Husic 推动把加沙相关议题带到大会讨论的提议没有通过，党内分歧直接摆到台面上。Husic 随后批评工党文化太僵硬，说明这不只是外交表态问题，也牵动党纪、穆斯林选民观感和政府未来在中东问题上的回旋空间。接下来要看领导层会不会给出更清楚的解释，以及 Husic 是否继续在党内施压。",
-      "differences": [
-        "ABC News：更强调 Husic 对工党文化和党纪的直接批评。",
-        "The Guardian Australia：更强调这场争议在全国会议收尾时被按住，没有演成公开冲突。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/ed-husic-pushes-for-gaza-debate-at-labor-conference/106957962"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/ed-husic-labor-gaza-genocide-claims-ntwnfb"
-        }
-      ]
-    },
-    {
-      "id": "cluster-5",
-      "headline": "争议除草剂 paraquat 将停止在澳洲销售",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-25T04:59:49.000Z",
-      "voiceScript": "Syngenta 宣布停止在澳洲销售 paraquat 之后，这种争议除草剂的去向基本确定。企业给出的理由是监管收紧，再加上商业、制造和物流上的压力；更大的背景是，多国早已禁用这类产品，而它和健康风险的争议也一直没停。接下来要看农户有没有足够替代品，以及监管机构会不会继续收紧更多高风险农药。",
-      "differences": [
-        "ABC News：侧重企业退出销售的监管与商业原因。",
-        "The Guardian Australia：侧重 paraquat 在多国被禁，以及与帕金森病风险相关的长期争议。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/rural/2026-07-25/syngenta-stops-sales-of-paraquat-after-apvma-review/106956466"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/environment/2026/jul/25/herbicide-parkinsons-disease-paraquat-pulled-from-sale-australia-syngenta"
-        }
-      ]
-    },
-    {
-      "id": "fuel-price-rise",
-      "headline": "燃油价格上涨，消费税减免即将结束",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-25T14:19:00+10:00",
-      "voiceScript": "燃油价格这轮上涨没有停下来的迹象，联邦政府也明确表示，不打算把 8 月 2 日到期的燃油消费税减免继续往后延。随着国际原油价格抬升、地缘冲突扰动供应，悉尼、墨尔本等地的泵价已经明显上行，家庭和通勤族会最先感受到压力。接下来要观察的是油价会不会继续推高通胀，以及这会不会影响澳洲央行 8 月的利率判断。",
-      "differences": [
-        "ABC News：强调供应仍然充足，政府先稳定市场情绪。",
-        "The Guardian Australia：更强调家庭负担、泵价上冲到每升 2 澳元，以及 RBA 加息风险。",
-        "SBS News：突出燃油税减免即将结束，以及市场已在押注进一步加息。",
-        "news.com.au：把焦点放在油价 40 天高位和 16 仙优惠结束后的冲击。",
-        "The Sydney Morning Herald：直接点出消费税减免结束后，油价会继续抬升。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293"
-        },
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
-        }
-      ]
-    },
-    {
-      "id": "us-tariff-australian-exports",
-      "headline": "美国新关税冲击澳洲出口",
-      "sourceCount": 5,
-      "publishedAt": "2026-07-24T13:31:00+10:00",
-      "voiceScript": "美国对澳洲出口加征 12.5% 关税，原本的 10% 临时税率也一起到期，澳洲政府马上把它定义为不公平的贸易打击。现在受影响最直接的是出口企业和谈判气氛，牛肉、黄金等关键产品暂时没有吃到最重冲击，但整个供应链的成本和不确定性都在上升。接下来要看堪培拉是否继续游说华府，以及这套以“强迫劳动”为名的关税逻辑会不会继续扩大。",
-      "differences": [
-        "ABC News：说明临时 10% 关税到期后税率再上调 2.5 个百分点，并提到企业已考虑法律和游说手段。",
-        "The Guardian Australia：更强调 12.5% 适用于大量澳洲出口，同时点出牛肉和黄金等关键出口暂时豁免。",
-        "SBS News：把它写成澳洲明确拒绝美国说法的快速国际新闻，强调即时生效。",
-        "news.com.au：更集中在 Albanese 与 Don Farrell 的强硬回应，以及对消费者和出口商的连带影响。",
-        "9News：强调总理会在与特朗普会面时直接提出这项关税。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/us-trump-administration-new-tariff-announcement/106938462"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/24/donald-trump-hits-australian-exports-to-us-with-new-higher-trade-tariff-over-claims-of-forced-labour"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/podcast-episode/australia-rejects-higher-us-tariffs/drpzxtsup"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/economy/australian-economy/anthony-albaneses-rejects-trumps-unjustified-slavery-tariff/news-story/979af50892a0cb89c9cc9f3ca3218314"
-        },
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/donald-trump-anthony-albanese-tariffs-20260726-p60in6.html"
-        }
-      ]
-    },
-    {
-      "id": "labor-conference-pay-package",
-      "headline": "工党大会推进年轻工人福利和 Fair Work Court",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-24T10:00:00+10:00",
-      "voiceScript": "工党在阿德莱德的全国会议继续抛出劳动政策，核心是建立新的 Fair Work Court，并把 Paid Prac 扩大到更多前线健康专业，同时讨论年轻工人的 super 门槛。政府想把争议较高、成本较高的劳动纠纷尽量转进更便宜、更快的流程，也想减轻学生实习期的现金压力。反对者会盯着雇主成本和财政代价，接下来要看这些承诺会不会真的落到法案和预算里。",
-      "differences": [
-        "ABC News：更聚焦工党会议表决与党内工业政策。",
-        "SBS News：更详细列出扩围到哪些健康专业，以及每周补贴金额。",
-        "news.com.au：更突出 Albanese 的主旨演说、Fair Work Court 和年轻工人 super 改革。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-23/federal-politics-live-blog-paid-prac/106947462"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/see-the-full-list-who-will-get-338-weekly-payments-under-prac-payment-expansion/j8vf90nhj"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/work/leaders/anthony-albanese-to-speak-at-alp-conference-as-beer-tax-debate-rages/live-coverage/43ba1e0bb2ec2e5eb33be9f30f299134"
-        }
-      ]
-    },
-    {
-      "id": "vic-teachers-strike-2026",
-      "headline": "维州教师再次罢工，薪资与工作量僵局延烧",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-23T08:22:12.000Z",
-      "voiceScript": "维多利亚州公立学校教师再次走上街头，抗议薪资和工作量问题仍然没有真正解决。工会说，政府提出的方案虽然给出约 28% 的加薪幅度，但班级负担、会议安排和人员短缺都还在，成员因此否决了协议并继续工业行动。政府则坚持说，这份方案会让维州教师成为全国薪酬最高的一批。此事的重要性在于，它会直接影响学生、家长和学校日常运作，也反映出维州教育系统的人手压力。接下来要看双方能否在下一轮谈判前找到折中方案。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-23/victorian-teachers-on-strike-today-as-offer-is-rejected/106946678"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/vote-deadline-on-teacher-pay-offer-as-strike-looms"
+          "url": "https://7news.com.au/news/ato-tells-millions-of-australian-taxpayers-now-is-the-time-to-lodge-returns-c-22636284"
         }
       ]
     }
