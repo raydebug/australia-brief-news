@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T15:05:07.061Z",
+  "updatedAt": "2026-07-29T16:12:54.977Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -102,9 +102,58 @@
   ],
   "errors": [
     "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
-    "Some stories still only had one usable Australia-focused source inside the 7-day window, so those clusters remain single-source rather than forcing weak matches."
+    "A few fresh stories were still only available from one Australia-focused source at update time, so some new clusters remain single-source until more coverage appears."
   ],
   "clusters": [
+    {
+      "id": "sydney-wiley-park-house-fire",
+      "headline": "시드니 윌리파크 주택 화재로 3명 숨져",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T15:53:50Z",
+      "voiceScript": "수요일 밤 늦게 시드니 서부 윌리파크의 코널리아 스트리트에 있는 주택에서 큰불이 나 세 명이 숨졌습니다. 경찰은 밤 10시가 되기 전 신고를 받고 출동했고, 현장은 통제된 채 희생자 신원 확인과 화재 원인 조사가 진행 중입니다. 이번 사건은 가족 비극인 동시에 화재가 사고였는지 다른 요인이 있었는지 가려야 하는 중대한 수사가 됐습니다.",
+      "differences": [
+        "ABC 뉴스는 경찰 대응과 수사 상황에 초점을 맞췄습니다.",
+        "7NEWS는 불길이 얼마나 빠르게 번졌는지와 현장에서 시신 세 구가 발견됐다는 점을 강조했습니다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/three-dead-in-sydney-housefire-wiley-park/106974284"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/three-dead-after-horror-late-night-house-fire-in-sydneys-wiley-park-c-22648662"
+        }
+      ]
+    },
+    {
+      "id": "sa-bat-decline",
+      "headline": "남호주 희귀 박쥐 개체 수가 급감",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T15:00:37Z",
+      "voiceScript": "나라코어트 번식지 조사에서 남부 벤트윙 박쥐가 지난 5년 평균보다 약 5천 마리 적게 확인돼 14~16% 감소한 것으로 나타났습니다. 원인은 아직 밝혀지지 않았지만, 이 종은 성체 생존율에 크게 좌우되는 데다 이미 멸종위기종입니다. 곤충을 먹으며 생태계에 도움을 주는 종인 만큼, 이번 감소는 매우 우려스럽습니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/environment/2026/jul/30/southern-bent-wing-bat-population-decline"
+        }
+      ]
+    },
+    {
+      "id": "atlassian-ai-wallet",
+      "headline": "아틀라시안, 직원의 AI 사용에 월별 한도 도입",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T15:00:36Z",
+      "voiceScript": "아틀라시안은 일부 연구개발 직원에게 월별 AI 사용 한도를 적용하기 시작했습니다. 개인별 한도는 대략 500달러에서 2,000달러 사이로, AI 호출 비용이 빠르게 커지는 상황을 반영합니다. 호주 대표 기술기업이 AI를 쓰면서도 지출 관리와 내부 규칙을 더 엄격하게 바꾸고 있다는 신호입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/technology/2026/jul/30/atlassian-tightens-tracking-of-staff-ai-use-as-other-technology-firms-encourage-tokenmaxxing"
+        }
+      ]
+    },
     {
       "id": "first-nations-remand-data",
       "headline": "새 자료, 원주민 아동의 선고 전 구금 기간이 길어져",
@@ -1019,6 +1068,20 @@
       ]
     },
     {
+      "id": "doctors-ai-privacy",
+      "headline": "의료 현장의 AI 사용, 규제가 속도를 못 따라가",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T21:00:00Z",
+      "voiceScript": "보고서는 호주 의료 분야에서 AI 사용이 빠르게 늘고 있지만, 정확성과 개인정보 보호 장치는 아직 뒤처져 있다고 지적했습니다. 환자 정보를 저장하거나 잘못된 결과를 낼 수 있는 도구를 명확한 감독 없이 쓰는 위험이 있습니다. 진료 현장에서 AI를 안전하게 쓰려면 규칙을 더 빨리 정비해야 합니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/doctors-ai-usage-raising-privacy-and-safety-concerns"
+        }
+      ]
+    },
+    {
       "id": "australia-pacific-aid",
       "headline": "중국이 전략을 바꾸는 동안 호주는 여전히 태평양 원조 선두",
       "sourceCount": 1,
@@ -1029,6 +1092,20 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/pacific-china-australia-development-aid-lowy/dksbg6tui"
+        }
+      ]
+    },
+    {
+      "id": "migration-fall-from-peak",
+      "headline": "호주의 이주 유입, 정점에서 계속 둔화",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T17:30:00Z",
+      "voiceScript": "CEDA 분석에 따르면 호주의 순해외이주는 2023년 55만5,800명 정점에서 약 30만1,000명으로 내려와 약 45% 줄었습니다. 또 2027/28년에는 약 22만5,000명 수준으로 더 둔화할 것으로 예상됩니다. 주거, 노동력, 공공서비스 논쟁과 직결되기 때문에 중요한 수치입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
         }
       ]
     },
@@ -1362,6 +1439,20 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/the-rules-stopping-australia-from-building-more-homes"
+        }
+      ]
+    },
+    {
+      "id": "data-centres-draw-tradies",
+      "headline": "데이터센터 확장, 주택 공사 인력까지 압박",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T05:06:03Z",
+      "voiceScript": "전기노조는 데이터센터 건설 붐이 전기공과 숙련 인력을 주택 공사에서 빼가고 있다고 경고했습니다. 이미 빠듯한 건설 현장에 추가 압박이 생기면서 새 집 공급과 비용 관리가 더 어려워질 수 있습니다. 주택난을 완화하려는 논의에 인력 부족 문제가 다시 올라온 셈입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/union-warns-data-centres-poaching-tradies-from-housing"
         }
       ]
     },

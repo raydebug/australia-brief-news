@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T15:05:07.061Z",
+  "updatedAt": "2026-07-29T16:12:54.981Z",
   "generatedBy": "codex",
   "language": "th",
   "sources": [
@@ -102,9 +102,58 @@
   ],
   "errors": [
     "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
-    "Some stories still only had one usable Australia-focused source inside the 7-day window, so those clusters remain single-source rather than forcing weak matches."
+    "A few fresh stories were still only available from one Australia-focused source at update time, so some new clusters remain single-source until more coverage appears."
   ],
   "clusters": [
+    {
+      "id": "sydney-wiley-park-house-fire",
+      "headline": "ไฟไหม้บ้านที่ไวย์ลีพาร์ก ซิดนีย์ คร่าชีวิต 3 คน",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T15:53:50Z",
+      "voiceScript": "ช่วงดึกคืนวันพุธ บ้านหลังหนึ่งบนถนนคอร์เนเลียในย่านไวย์ลีพาร์ก ทางตะวันตกเฉียงใต้ของซิดนีย์เกิดไฟไหม้รุนแรงจนมีผู้เสียชีวิต 3 คน เจ้าหน้าที่ดับเพลิงถูกเรียกไปก่อนสี่ทุ่มเล็กน้อย และตำรวจได้ปิดพื้นที่เพื่อสืบหาตัวผู้เสียชีวิตและหาสาเหตุของเพลิงไหม้ เหตุการณ์นี้สำคัญเพราะเป็นทั้งโศกนาฏกรรมของครอบครัวและคดีใหญ่ที่ต้องแยกให้ได้ว่าเป็นอุบัติเหตุหรือมีเจตนาอื่น",
+      "differences": [
+        "ABC News เน้นการตอบสนองของตำรวจและการสืบสวนที่กำลังดำเนินอยู่",
+        "7NEWS เน้นว่าไฟลุกลามเร็วเพียงใดและพบร่างผู้เสียชีวิตสามคนในที่เกิดเหตุ"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/three-dead-in-sydney-housefire-wiley-park/106974284"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/three-dead-after-horror-late-night-house-fire-in-sydneys-wiley-park-c-22648662"
+        }
+      ]
+    },
+    {
+      "id": "sa-bat-decline",
+      "headline": "จำนวนค้างคาวหูพับหายากในเซาท์ออสเตรเลียลดลงแรง",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T15:00:37Z",
+      "voiceScript": "การสำรวจที่แหล่งขยายพันธุ์ในนาราโคร์ตพบว่าค้างคาวหูพับใต้มีจำนวนต่ำกว่าค่าเฉลี่ยห้าปีราว 5,000 ตัว หรือประมาณ 14 ถึง 16 เปอร์เซ็นต์ นักวิทยาศาสตร์ยังไม่รู้สาเหตุ แต่ชนิดนี้อยู่ในภาวะใกล้สูญพันธุ์ขั้นวิกฤตและพึ่งพาการอยู่รอดของตัวเต็มวัยอย่างมาก เหตุการณ์นี้สำคัญเพราะค้างคาวช่วยควบคุมแมลง และการลดลงต่อเนื่องอาจผลักสายพันธุ์นี้เข้าใกล้การสูญพันธุ์มากขึ้น",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/environment/2026/jul/30/southern-bent-wing-bat-population-decline"
+        }
+      ]
+    },
+    {
+      "id": "atlassian-ai-wallet",
+      "headline": "แอตลาสเซียนจำกัดค่าใช้จ่าย AI ของพนักงาน",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T15:00:36Z",
+      "voiceScript": "แอตลาสเซียนเริ่มกำหนดเพดานค่าใช้จ่าย AI รายเดือนสำหรับพนักงานบางส่วนในสายวิจัยและพัฒนา โดยอยู่ราว 500 ถึง 2,000 ดอลลาร์สหรัฐต่อคน มาตรการนี้สะท้อนว่าบริษัทกำลังพยายามใช้ AI ให้คุ้มค่า แต่ก็ต้องคุมต้นทุนที่พุ่งเร็ว การเปลี่ยนแปลงนี้สำคัญเพราะเป็นสัญญาณว่าบริษัทเทคโนโลยีรายใหญ่ของออสเตรเลียกำลังปรับกติกาการทำงานตามต้นทุน AI ที่สูงขึ้น",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/technology/2026/jul/30/atlassian-tightens-tracking-of-staff-ai-use-as-other-technology-firms-encourage-tokenmaxxing"
+        }
+      ]
+    },
     {
       "id": "first-nations-remand-data",
       "headline": "ข้อมูลใหม่ชี้ เด็กชนพื้นเมืองถูกคุมขังก่อนพิพากษานานขึ้น",
@@ -1019,6 +1068,20 @@
       ]
     },
     {
+      "id": "doctors-ai-privacy",
+      "headline": "การใช้ AI ในวงการแพทย์วิ่งนำหน้าการกำกับดูแล",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T21:00:00Z",
+      "voiceScript": "รายงานฉบับหนึ่งระบุว่า AI ได้เข้าไปอยู่ในหลายส่วนของระบบสาธารณสุขออสเตรเลียแล้ว แต่การป้องกันด้านความแม่นยำและความเป็นส่วนตัวยังตามไม่ทัน ความเสี่ยงคือบุคลากรทางการแพทย์อาจใช้เครื่องมือที่เก็บข้อมูลคนไข้หรือให้ผลผิดพลาดโดยไม่มีการกำกับชัดเจน หากจะใช้ AI อย่างปลอดภัยในระบบสุขภาพ ก็ต้องเร่งปรับกฎให้ทันเทคโนโลยี",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/doctors-ai-usage-raising-privacy-and-safety-concerns"
+        }
+      ]
+    },
+    {
       "id": "australia-pacific-aid",
       "headline": "ออสเตรเลียยังนำด้านเงินช่วยเหลือแปซิฟิก ขณะที่จีนเปลี่ยนวิธี",
       "sourceCount": 1,
@@ -1029,6 +1092,20 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/pacific-china-australia-development-aid-lowy/dksbg6tui"
+        }
+      ]
+    },
+    {
+      "id": "migration-fall-from-peak",
+      "headline": "การย้ายถิ่นสุทธิของออสเตรเลียยังคงลดลงจากจุดสูงสุด",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T17:30:00Z",
+      "voiceScript": "การวิเคราะห์ของ CEDA ระบุว่าการย้ายถิ่นสุทธิของออสเตรเลียลดจากจุดสูงสุด 555,800 คนในปี 2023 เหลือราว 301,000 คน หรือหดลงเกือบ 45 เปอร์เซ็นต์ และคาดว่าจะชะลอต่อไปเหลือประมาณ 225,000 คนในปีการเงิน 2027/28 เรื่องนี้สำคัญเพราะการย้ายถิ่นส่งผลโดยตรงต่อที่อยู่อาศัย แรงงาน และบริการสาธารณะ",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
         }
       ]
     },
@@ -1362,6 +1439,20 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/the-rules-stopping-australia-from-building-more-homes"
+        }
+      ]
+    },
+    {
+      "id": "data-centres-draw-tradies",
+      "headline": "การก่อสร้างดาต้าเซ็นเตอร์กำลังกดดันแรงงานสร้างบ้าน",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T05:06:03Z",
+      "voiceScript": "สหภาพแรงงานไฟฟ้าเตือนว่าการขยายตัวของดาต้าเซ็นเตอร์กำลังดึงช่างไฟและแรงงานฝีมือออกจากงานก่อสร้างที่อยู่อาศัย ในขณะที่ภาคก่อสร้างก็ขาดคนอยู่แล้ว แรงกดดันใหม่นี้อาจทำให้การสร้างบ้านช้าลงและต้นทุนสูงขึ้น เรื่องนี้สำคัญเพราะการขาดแรงงานฝีมือทำให้ปัญหาบ้านแพงแก้ยากขึ้น",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/union-warns-data-centres-poaching-tradies-from-housing"
         }
       ]
     },

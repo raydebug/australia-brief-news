@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T15:05:07.061Z",
+  "updatedAt": "2026-07-29T16:12:54.973Z",
   "generatedBy": "codex",
   "language": "si",
   "sources": [
@@ -102,9 +102,58 @@
   ],
   "errors": [
     "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
-    "Some stories still only had one usable Australia-focused source inside the 7-day window, so those clusters remain single-source rather than forcing weak matches."
+    "A few fresh stories were still only available from one Australia-focused source at update time, so some new clusters remain single-source until more coverage appears."
   ],
   "clusters": [
+    {
+      "id": "sydney-wiley-park-house-fire",
+      "headline": "සිඩ්නි වයිලි පාර්ක් නිවසක ගින්නෙන් තිදෙනා මරුට",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T15:53:50Z",
+      "voiceScript": "බදාදා රාත්‍රියේ සිඩ්නි නිරිතදිග වයිලි පාර්ක්හි කොර්නේලියා වීදියේ නිවසක දැඩි ගින්නක් හටගෙන තිදෙනෙක් මිය ගියා. පොලිසිය කියන්නේ රාත්‍රී 10ට පෙර ගිනි නිවන සේවය කැඳවූ බවත්, දැන් ස්ථානය වටලා මියගිය අය හඳුනා ගැනීමට සහ ගින්න පටන්ගත් ආකාරය සොයා බැලීමට විමර්ශනය කරන බවත්ය. මෙය වැදගත් වන්නේ මෙය පවුල් ව්‍යසනයක් වගේම අනතුරක්ද නැත්නම් වෙනත් හේතුවක්ද කියන එක පැහැදිලි කළ යුතු විශාල විමර්ශනයක් වන නිසාය.",
+      "differences": [
+        "ABC News පොලිසියේ ප්‍රතිචාරය සහ විමර්ශනය ඉදිරියට යන බවට අවධානය යොමු කරයි.",
+        "7NEWS ගින්න ඉක්මනින් පැතිරුණු ආකාරය සහ ස්ථානයේ සිරුරු තුනක් හමු වූ බව අවධාරණය කරයි."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/three-dead-in-sydney-housefire-wiley-park/106974284"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/three-dead-after-horror-late-night-house-fire-in-sydneys-wiley-park-c-22648662"
+        }
+      ]
+    },
+    {
+      "id": "sa-bat-decline",
+      "headline": "දකුණු ඔස්ට්‍රේලියාවේ දුර්ලභ වවුලන් ගණන දැඩි ලෙස පහළ වැටේ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T15:00:37Z",
+      "voiceScript": "නරාකෝර්ට්හි ප්‍රජනන ගුහාවේ ගණනය කිරීම්වලින් පෙනෙන්නේ දකුණු bent-wing වවුලන් සංඛ්‍යාව පසුගිය වසර පහේ සාමාන්‍යයට වඩා සතුන් 5,000ක් පමණ අඩු වී ඇති බවත්, එය සියයට 14 සිට 16 දක්වා පහළ යාමක් බවත්ය. විද්‍යාඥයන්ට තවමත් හේතුව පැහැදිලි නැත, එහෙත් මෙම විශේෂය දැනටමත් දැඩි ලෙස අවදානමේ පවතින අතර වැඩිහිටි සතුන්ගේ ජීවත්වීම මත බොහෝ දුරට රඳා පවතී. මෙය වැදගත් වන්නේ වවුලන් කීට පළිබෝධ පාලනයට උදව් කරන අතර අඛණ්ඩ පසුබැසීම විශේෂය අතුරුදහන් වීමේ දිශාවට තවත් තල්ලු කළ හැකි නිසාය.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/environment/2026/jul/30/southern-bent-wing-bat-population-decline"
+        }
+      ]
+    },
+    {
+      "id": "atlassian-ai-wallet",
+      "headline": "අට්ලැසියන් AI භාවිතයට මාසික වියදම් සීමා දමයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T15:00:36Z",
+      "voiceScript": "අට්ලැසියන් සිය පර්යේෂණ සහ සංවර්ධන කණ්ඩායම්වල සමහර සේවකයන්ට මාසික AI වියදම් සීමාවන් හඳුන්වා දී ඇත. එක් පුද්ගලයකුට සීමා වන්නේ ඇමෙරිකානු ඩොලර් 500 සිට 2,000 දක්වා අතර මට්ටමකි, මොඩල භාවිත වියදම් ඉක්මනින් ඉහළ යන බැවිනි. මෙය වැදගත් වන්නේ AI භාවිතය වැඩිවෙත්ම වියදම් පාලනය සහ වැඩ නීති ඉක්මනින් වෙනස් විය හැකි බව පෙන්නුම් කරන නිසාය.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/technology/2026/jul/30/atlassian-tightens-tracking-of-staff-ai-use-as-other-technology-firms-encourage-tokenmaxxing"
+        }
+      ]
+    },
     {
       "id": "first-nations-remand-data",
       "headline": "නව දත්තෙන් පළමු ජාතීන්ගේ දරුවන් වැඩි කාලයක් නඩු තීන්දුවට පෙර රඳවා තබා සිටින බව පෙන්වයි",
@@ -1016,6 +1065,20 @@
       ]
     },
     {
+      "id": "doctors-ai-privacy",
+      "headline": "වෛද්‍ය ක්ෂේත්‍රයේ AI භාවිතය නියාමනය අභිබවා යයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T21:00:00Z",
+      "voiceScript": "වාර්තාවක් කියන්නේ ඔස්ට්‍රේලියානු සෞඛ්‍ය පද්ධතියේ බොහෝ කොටස්වලට AI දැනටමත් ඇතුල් වී ඇති නමුත්, නිරවද්‍යතාව සහ පෞද්ගලිකත්ව ආරක්ෂණ තවමත් පසුපසින් බවය. අවදානම වන්නේ රෝගී දත්ත ගබඩා කරන හෝ වැරදි ප්‍රතිඵල දෙන මෙවලම් පැහැදිලි පාලනයකින් තොරව භාවිත කළ හැකි වීමයි. සෞඛ්‍ය සේවාවේ AI ආරක්ෂිතව භාවිත කිරීමට නම් නීති ඉක්මනින් යාවත්කාලීන කළ යුතුය.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/doctors-ai-usage-raising-privacy-and-safety-concerns"
+        }
+      ]
+    },
+    {
       "id": "australia-pacific-aid",
       "headline": "චීනයේ ක්‍රමය වෙනස් වෙද්දී ඕස්ට්‍රේලියාව තවමත් පැසිෆික් ආධාරයේ ඉදිරියෙන්",
       "sourceCount": 1,
@@ -1026,6 +1089,20 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/pacific-china-australia-development-aid-lowy/dksbg6tui"
+        }
+      ]
+    },
+    {
+      "id": "migration-fall-from-peak",
+      "headline": "ඔස්ට්‍රේලියාවේ නෙට් සංක්‍රමණය උච්ච මට්ටමෙන් පහළ යමින් පවතී",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T17:30:00Z",
+      "voiceScript": "CEDA විශ්ලේෂණයට අනුව ඔස්ට්‍රේලියාවේ නෙට් විදේශීය සංක්‍රමණය 2023 දී 555,800 දෙනාගේ උච්ච මට්ටමෙන් අඩු වී දැන් සරියට 301,000ක් පමණ දක්වා වැටී ඇත, එය සම්භවයෙන් සියයට 45ක පහළ යාමකි. 2027/28 මුදල් වසරේදී එය තවදුරටත් 225,000ක් පමණ දක්වා මන්දගාමී වනු ඇතැයිද ඔවුන් අපේක්ෂා කරයි. මෙය වැදගත් වන්නේ නිවාස, කම්කරු බලය සහ පොදු සේවාවන් ගැන වන සාකච්ඡාවට මෙය සෘජුව බලපාන නිසාය.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
         }
       ]
     },
@@ -1359,6 +1436,20 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/the-rules-stopping-australia-from-building-more-homes"
+        }
+      ]
+    },
+    {
+      "id": "data-centres-draw-tradies",
+      "headline": "දත්ත මධ්‍යස්ථාන ව්‍යාප්තිය නිවාස ඉදිකිරීම් කම්කරු බලය තද කරයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T05:06:03Z",
+      "voiceScript": "විදුලි කම්කරුවන්ගේ සංගමය අනතුරු අඟවන්නේ දත්ත මධ්‍යස්ථාන ඉදිකිරීම් උණුසුම නිවාස ව්‍යාපෘතිවලින් විදුලි කම්කරුවන් සහ අනෙකුත් දක්ෂ කම්කරුවන් ඉවතට ඇදගනිමින් 있다는ය. දැනටමත් කම්කරුවන් අඩු වූ ඉදිකිරීම් ක්ෂේත්‍රයට මෙය තවත් පීඩනයක් වන අතර නව නිවාස සැපයුම සහ වියදම් පාලනයට බලපෑ හැකිය. නිවාස අර්බුදය ලිහිල් කිරීමට උත්සාහ කරන විටම මෙවැනි කම්කරු හිඟය එය තවත් දුෂ්කර කරයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/union-warns-data-centres-poaching-tradies-from-housing"
         }
       ]
     },

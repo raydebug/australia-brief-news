@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T15:05:07.061Z",
+  "updatedAt": "2026-07-29T16:12:54.975Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -102,9 +102,58 @@
   ],
   "errors": [
     "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
-    "Some stories still only had one usable Australia-focused source inside the 7-day window, so those clusters remain single-source rather than forcing weak matches."
+    "A few fresh stories were still only available from one Australia-focused source at update time, so some new clusters remain single-source until more coverage appears."
   ],
   "clusters": [
+    {
+      "id": "sydney-wiley-park-house-fire",
+      "headline": "シドニーのウィリーパーク住宅火災で3人死亡",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T15:53:50Z",
+      "voiceScript": "水曜日の夜遅く、シドニー西部ウィリーパークのコーネリア通りにある住宅が火事になり、3人が死亡しました。警察によると、消防隊は午後10時前に通報を受けて出動し、現場は封鎖され、身元確認と出火原因の調査が進められています。偶発事故か、別の要因があったのかを見極める必要があり、家族の悲劇としても重大です。",
+      "differences": [
+        "ABC News は警察対応と捜査を中心に伝えています。",
+        "7NEWS は火の回り方の早さと、現場で3人の遺体が見つかった点を強調しています。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/three-dead-in-sydney-housefire-wiley-park/106974284"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/three-dead-after-horror-late-night-house-fire-in-sydneys-wiley-park-c-22648662"
+        }
+      ]
+    },
+    {
+      "id": "sa-bat-decline",
+      "headline": "南オーストラリアで希少コウモリの数が急減",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T15:00:37Z",
+      "voiceScript": "ナラコートの繁殖地では、絶滅危惧種の southern bent-wing bat の個体数が過去5年平均より約5,000頭少なく、約14〜16%減っていることが分かりました。原因はまだ不明ですが、この種は成体の生存率に大きく左右されるため、減少は深刻です。昆虫を食べて生態系に役立つ種だけに、今後の動向が注目されます。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/environment/2026/jul/30/southern-bent-wing-bat-population-decline"
+        }
+      ]
+    },
+    {
+      "id": "atlassian-ai-wallet",
+      "headline": "Atlassian、AI利用に月額上限を導入",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T15:00:36Z",
+      "voiceScript": "Atlassian は一部の研究開発部門の社員に対し、AI の月額利用上限を導入しました。個人ごとの上限はおよそ500〜2,000ドルで、生成AIの利用コストが急速に膨らむ状況を反映しています。オーストラリア発の大手テック企業が、AIを使いながらも支出管理を強め始めていることを示しています。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/technology/2026/jul/30/atlassian-tightens-tracking-of-staff-ai-use-as-other-technology-firms-encourage-tokenmaxxing"
+        }
+      ]
+    },
     {
       "id": "first-nations-remand-data",
       "headline": "新データ、先住民の子どもの勾留期間が長期化",
@@ -1019,6 +1068,20 @@
       ]
     },
     {
+      "id": "doctors-ai-privacy",
+      "headline": "医療現場のAI利用、規制が追いつかず",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T21:00:00Z",
+      "voiceScript": "報告書によると、オーストラリアの医療現場ではAIの活用が広がっていますが、精度や個人情報保護の仕組みが追いついていません。患者データを保存するツールや、誤りを生む可能性のあるツールを、明確な監督なしに使うリスクが指摘されています。診療でAIを安全に使うには、ルール整備が急務です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/doctors-ai-usage-raising-privacy-and-safety-concerns"
+        }
+      ]
+    },
+    {
       "id": "australia-pacific-aid",
       "headline": "太平洋援助でなお豪州が先行、中国は手法を変更",
       "sourceCount": 1,
@@ -1029,6 +1092,20 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/pacific-china-australia-development-aid-lowy/dksbg6tui"
+        }
+      ]
+    },
+    {
+      "id": "migration-fall-from-peak",
+      "headline": "オーストラリアの移民流入、ピークから減速",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T17:30:00Z",
+      "voiceScript": "CEDA の分析では、オーストラリアの純海外移民は2023年の55万5,800人をピークに、約30万1,000人まで下がり、約45%減となりました。さらに2027/28年度には22万5,000人前後まで鈍化すると見込まれています。住宅、労働力、公共サービスの議論に直結するため、重要な数字です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
         }
       ]
     },
@@ -1362,6 +1439,20 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/the-rules-stopping-australia-from-building-more-homes"
+        }
+      ]
+    },
+    {
+      "id": "data-centres-draw-tradies",
+      "headline": "データセンター建設が住宅工事の人手を圧迫",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T05:06:03Z",
+      "voiceScript": "電気工事労組は、データセンター建設の急増が電気工や熟練工を住宅建設から奪っていると警告しています。もともと人手不足の建設現場にさらに負荷がかかり、新築住宅の供給やコストに影響しかねません。住宅不足をどう和らげるかという議論に、労働力の問題が加わっています。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/union-warns-data-centres-poaching-tradies-from-housing"
         }
       ]
     },

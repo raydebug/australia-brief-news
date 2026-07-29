@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T15:05:07.061Z",
+  "updatedAt": "2026-07-29T16:12:54.979Z",
   "generatedBy": "codex",
   "language": "vi",
   "sources": [
@@ -102,9 +102,58 @@
   ],
   "errors": [
     "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
-    "Some stories still only had one usable Australia-focused source inside the 7-day window, so those clusters remain single-source rather than forcing weak matches."
+    "A few fresh stories were still only available from one Australia-focused source at update time, so some new clusters remain single-source until more coverage appears."
   ],
   "clusters": [
+    {
+      "id": "sydney-wiley-park-house-fire",
+      "headline": "Ba người thiệt mạng trong vụ cháy nhà ở Wiley Park, Sydney",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T15:53:50Z",
+      "voiceScript": "Đêm muộn thứ Tư, một căn nhà trên đường Cornelia ở Wiley Park, phía tây nam Sydney, bốc cháy dữ dội và làm ba người chết. Cảnh sát cho biết lực lượng cứu hỏa được gọi đến ngay trước 10 giờ tối, hiện trường đã được phong tỏa và cuộc điều tra đang tập trung vào việc xác định nạn nhân cùng nguyên nhân bùng cháy. Vụ việc đáng chú ý vì đây vừa là một bi kịch gia đình vừa là một cuộc điều tra lớn về tai nạn hay hành vi cố ý.",
+      "differences": [
+        "ABC News nhấn mạnh phản ứng của cảnh sát và quá trình điều tra.",
+        "7NEWS tập trung vào tốc độ lan của đám cháy và việc tìm thấy ba thi thể tại hiện trường."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/three-dead-in-sydney-housefire-wiley-park/106974284"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/three-dead-after-horror-late-night-house-fire-in-sydneys-wiley-park-c-22648662"
+        }
+      ]
+    },
+    {
+      "id": "sa-bat-decline",
+      "headline": "Số lượng dơi cánh gấp hiếm ở Nam Úc giảm mạnh",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T15:00:37Z",
+      "voiceScript": "Khảo sát tại nơi sinh sản ở Naracoorte cho thấy quần thể dơi cánh gấp miền nam thấp hơn khoảng 5.000 con so với mức trung bình năm năm qua, tức giảm khoảng 14 đến 16 phần trăm. Các nhà khoa học chưa biết nguyên nhân, nhưng loài này vốn đã ở tình trạng cực kỳ nguy cấp và phụ thuộc nhiều vào việc con trưởng thành sống sót. Diễn biến này quan trọng vì dơi giúp kiểm soát côn trùng và sự suy giảm thêm có thể đẩy loài đến gần bờ tuyệt chủng hơn nữa.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/environment/2026/jul/30/southern-bent-wing-bat-population-decline"
+        }
+      ]
+    },
+    {
+      "id": "atlassian-ai-wallet",
+      "headline": "Atlassian đặt trần chi tiêu AI cho nhân viên",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T15:00:36Z",
+      "voiceScript": "Atlassian đã bắt đầu áp dụng giới hạn chi tiêu AI hàng tháng cho một số nhân viên nghiên cứu và phát triển, với mức khoảng 500 đến 2.000 đô la Mỹ mỗi người. Động thái này cho thấy doanh nghiệp đang vừa muốn tận dụng AI vừa phải kiểm soát chi phí sử dụng mô hình. Điều đó đặc biệt đáng chú ý với một công ty công nghệ lớn của Úc, nơi quy tắc làm việc đang đổi rất nhanh.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/technology/2026/jul/30/atlassian-tightens-tracking-of-staff-ai-use-as-other-technology-firms-encourage-tokenmaxxing"
+        }
+      ]
+    },
     {
       "id": "first-nations-remand-data",
       "headline": "Dữ liệu mới cho thấy trẻ em Thổ dân bị tạm giam lâu hơn trước khi tuyên án",
@@ -1019,6 +1068,20 @@
       ]
     },
     {
+      "id": "doctors-ai-privacy",
+      "headline": "Việc dùng AI trong y tế đang vượt quá tốc độ của giám sát",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T21:00:00Z",
+      "voiceScript": "Một báo cáo nói AI đã đi vào nhiều phần của hệ thống y tế Úc, nhưng các biện pháp bảo vệ về độ chính xác và quyền riêng tư vẫn chưa theo kịp. Rủi ro là bác sĩ và nhân viên y tế có thể dùng các công cụ lưu dữ liệu bệnh nhân hoặc tạo ra kết quả sai mà chưa có giám sát rõ ràng. Muốn dùng AI an toàn trong chăm sóc sức khỏe thì quy định phải được cập nhật nhanh hơn.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/doctors-ai-usage-raising-privacy-and-safety-concerns"
+        }
+      ]
+    },
+    {
       "id": "australia-pacific-aid",
       "headline": "Australia vẫn dẫn đầu viện trợ Thái Bình Dương khi Trung Quốc đổi chiến lược",
       "sourceCount": 1,
@@ -1029,6 +1092,20 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/pacific-china-australia-development-aid-lowy/dksbg6tui"
+        }
+      ]
+    },
+    {
+      "id": "migration-fall-from-peak",
+      "headline": "Lượng di cư ròng của Úc tiếp tục giảm từ mức đỉnh",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T17:30:00Z",
+      "voiceScript": "Phân tích của CEDA cho thấy di cư ròng vào Úc đã giảm từ mức đỉnh 555.800 người năm 2023 xuống khoảng 301.000 người, tức giảm gần 45 phần trăm. Tổ chức này cũng dự báo con số đó sẽ còn chậm lại, xuống khoảng 225.000 vào năm tài chính 2027/28. Điều này quan trọng vì di cư tác động trực tiếp đến nhà ở, lao động và dịch vụ công.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
         }
       ]
     },
@@ -1362,6 +1439,20 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/the-rules-stopping-australia-from-building-more-homes"
+        }
+      ]
+    },
+    {
+      "id": "data-centres-draw-tradies",
+      "headline": "Làn sóng trung tâm dữ liệu đang siết nguồn thợ xây nhà",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T05:06:03Z",
+      "voiceScript": "Công đoàn ngành điện cảnh báo việc bùng nổ xây dựng trung tâm dữ liệu đang kéo thợ điện và nhiều thợ lành nghề ra khỏi các công trình nhà ở. Trong khi ngành xây dựng vốn đã thiếu nhân lực, áp lực mới này có thể làm nguồn cung nhà chậm hơn và chi phí tăng cao hơn. Đây là vấn đề lớn vì thiếu lao động lành nghề khiến khủng hoảng nhà ở khó giải quyết hơn.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/union-warns-data-centres-poaching-tradies-from-housing"
         }
       ]
     },

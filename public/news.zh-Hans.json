@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T15:05:07.061Z",
+  "updatedAt": "2026-07-29T16:12:54.971Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -102,9 +102,58 @@
   ],
   "errors": [
     "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
-    "Some stories still only had one usable Australia-focused source inside the 7-day window, so those clusters remain single-source rather than forcing weak matches."
+    "A few fresh stories were still only available from one Australia-focused source at update time, so some new clusters remain single-source until more coverage appears."
   ],
   "clusters": [
+    {
+      "id": "sydney-wiley-park-house-fire",
+      "headline": "悉尼 Wiley Park 住宅火灾造成三人死亡",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T15:53:50Z",
+      "voiceScript": "悉尼西南部 Wiley Park 的 Cornelia Street 一处住宅在周三深夜起火，三人遇难。警方表示，消防人员在接近晚上 10 点接报赶到，现场已设立警戒区，调查人员正确认死者身份并查明起火原因。此事之所以重要，是因为它既牵涉家庭悲剧，也需要尽快分清是意外还是人为。",
+      "differences": [
+        "ABC News 侧重警方反应和现场调查。",
+        "7NEWS 更强调火势蔓延速度以及现场找到三具遗体。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/three-dead-in-sydney-housefire-wiley-park/106974284"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/three-dead-after-horror-late-night-house-fire-in-sydneys-wiley-park-c-22648662"
+        }
+      ]
+    },
+    {
+      "id": "sa-bat-decline",
+      "headline": "南澳稀有弯翼蝙蝠数量大幅下滑",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T15:00:37Z",
+      "voiceScript": "南澳 Naracoorte 的繁殖洞穴监测显示，南部弯翼蝙蝠数量比过去五年平均值少了约 5,000 只，降幅约为 14% 到 16%。科学家说，目前还不知道原因，但这种濒危物种本来就高度依赖成年个体存活。这个变化很重要，因为蝙蝠有助于控制昆虫，而继续减少可能把物种推向更危险的处境。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/environment/2026/jul/30/southern-bent-wing-bat-population-decline"
+        }
+      ]
+    },
+    {
+      "id": "atlassian-ai-wallet",
+      "headline": "Atlassian 为员工 AI 使用设置支出上限",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T15:00:36Z",
+      "voiceScript": "Atlassian 已开始为部分研发员工设置每月 AI 支出上限，个人额度大约在 500 到 2,000 美元之间。公司此举反映出企业正在同时面对模型调用成本和效率争议。对澳洲科技界来说，这说明 AI 不只是生产力工具，也正在迅速改变内部预算和工作规则。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/technology/2026/jul/30/atlassian-tightens-tracking-of-staff-ai-use-as-other-technology-firms-encourage-tokenmaxxing"
+        }
+      ]
+    },
     {
       "id": "first-nations-remand-data",
       "headline": "最新数据显示，原住民儿童被羁押候审时间更长",
@@ -1019,6 +1068,20 @@
       ]
     },
     {
+      "id": "doctors-ai-privacy",
+      "headline": "医生使用 AI 的速度快过监管防线",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T21:00:00Z",
+      "voiceScript": "一份报告说，人工智能已经进入澳洲医疗体系的多个环节，但隐私和准确性方面的防护措施仍然跟不上。风险在于，临床人员可能在没有清晰监管的情况下使用会保存病人资料或生成错误结果的工具。这个问题重要，是因为医疗系统若要安全使用 AI，就必须更快补上规则。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/doctors-ai-usage-raising-privacy-and-safety-concerns"
+        }
+      ]
+    },
+    {
       "id": "australia-pacific-aid",
       "headline": "澳大利亚仍领跑太平洋援助，中国转变策略",
       "sourceCount": 1,
@@ -1029,6 +1092,20 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/pacific-china-australia-development-aid-lowy/dksbg6tui"
+        }
+      ]
+    },
+    {
+      "id": "migration-fall-from-peak",
+      "headline": "澳洲移民流入继续从高峰回落",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T17:30:00Z",
+      "voiceScript": "CEDA 的分析显示，澳洲净海外移民已从 2023 年 555,800 人的峰值下降到约 301,000 人，降幅接近 45%。机构还预计，到 2027/28 财年，这一数字会进一步放缓到约 225,000 人。这个变化很重要，因为移民会影响住房、劳动力和公共服务的讨论。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
         }
       ]
     },
@@ -1362,6 +1439,20 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/the-rules-stopping-australia-from-building-more-homes"
+        }
+      ]
+    },
+    {
+      "id": "data-centres-draw-tradies",
+      "headline": "数据中心扩张正在挤压住房建筑用工",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T05:06:03Z",
+      "voiceScript": "电气工人工会警告，数据中心建设热潮正在把电工和其他熟练工人从住房项目中吸走。原本就吃紧的建筑行业因此面临更大压力，房屋供应和成本控制都会受到影响。这个问题之所以重要，是因为熟练工短缺会让住房危机更难缓解。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/union-warns-data-centres-poaching-tradies-from-housing"
         }
       ]
     },

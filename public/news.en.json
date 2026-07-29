@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T15:05:07.061Z",
+  "updatedAt": "2026-07-29T16:12:54.966Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -102,9 +102,58 @@
   ],
   "errors": [
     "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
-    "Some stories still only had one usable Australia-focused source inside the 7-day window, so those clusters remain single-source rather than forcing weak matches."
+    "A few fresh stories were still only available from one Australia-focused source at update time, so some new clusters remain single-source until more coverage appears."
   ],
   "clusters": [
+    {
+      "id": "sydney-wiley-park-house-fire",
+      "headline": "Three killed in Sydney's Wiley Park house fire",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T15:53:50Z",
+      "voiceScript": "Three people have died after a late-night fire tore through a home on Cornelia Street in Wiley Park. Emergency crews were called just before 10pm on Wednesday, and police have established a crime scene while they work to identify the victims and determine how the blaze started. The case matters because it leaves a family tragedy and a serious inquiry into whether the fire was accidental or deliberate.",
+      "differences": [
+        "ABC News reports the police response and the active investigation.",
+        "7NEWS focuses on the speed of the fire and the discovery of three bodies at the scene."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/three-dead-in-sydney-housefire-wiley-park/106974284"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/three-dead-after-horror-late-night-house-fire-in-sydneys-wiley-park-c-22648662"
+        }
+      ]
+    },
+    {
+      "id": "sa-bat-decline",
+      "headline": "South Australia records a sharp fall in rare bent-wing bats",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T15:00:37Z",
+      "voiceScript": "Counts at South Australia's Naracoorte maternity site show about 5,000 fewer southern bent-wing bats than the five-year average, a drop of roughly 14 to 16 per cent. Scientists say they do not yet know what caused the fall, but the species is already critically endangered and depends heavily on adult survival. The decline matters because the bats help control insects, and more losses could push the species closer to extinction.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/environment/2026/jul/30/southern-bent-wing-bat-population-decline"
+        }
+      ]
+    },
+    {
+      "id": "atlassian-ai-wallet",
+      "headline": "Atlassian caps AI spending as staff usage climbs",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T15:00:36Z",
+      "voiceScript": "Atlassian has introduced monthly AI spending limits for some research and development staff, with individual budgets ranging from about $500 to $2,000. The move comes as companies wrestle with the cost of heavy model use and the gap between productivity gains and token bills. It matters because one of Australia's biggest tech names is showing how quickly AI costs can change workplace rules.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/technology/2026/jul/30/atlassian-tightens-tracking-of-staff-ai-use-as-other-technology-firms-encourage-tokenmaxxing"
+        }
+      ]
+    },
     {
       "id": "first-nations-remand-data",
       "headline": "First Nations children spend longer on remand, data shows",
@@ -1019,6 +1068,20 @@
       ]
     },
     {
+      "id": "doctors-ai-privacy",
+      "headline": "Doctors' AI use is outrunning safeguards",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T21:00:00Z",
+      "voiceScript": "A report says artificial intelligence is now woven into parts of the Australian medical system, but privacy and accuracy safeguards are lagging behind the technology. The concern is that clinicians may use tools that store patient data or produce errors without clear oversight. It matters because the health system needs faster rules if AI is going to be used safely in consultations, records and diagnosis.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/doctors-ai-usage-raising-privacy-and-safety-concerns"
+        }
+      ]
+    },
+    {
       "id": "australia-pacific-aid",
       "headline": "Australia still leads Pacific aid as China shifts tactics",
       "sourceCount": 1,
@@ -1029,6 +1092,20 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/pacific-china-australia-development-aid-lowy/dksbg6tui"
+        }
+      ]
+    },
+    {
+      "id": "migration-fall-from-peak",
+      "headline": "Australia's migration intake keeps sliding from its peak",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T17:30:00Z",
+      "voiceScript": "A CEDA analysis says net overseas migration has fallen by about 45 per cent from its 2023 peak of 555,800 to about 301,000. The group says Treasury expects the intake to ease further to around 225,000 by 2027/28. The figures matter because migration feeds the housing, labour and services debate, and the slowdown changes the assumptions behind those arguments.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/migration-plummets-from-post-pandemic-record-highs"
         }
       ]
     },
@@ -1362,6 +1439,20 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/the-rules-stopping-australia-from-building-more-homes"
+        }
+      ]
+    },
+    {
+      "id": "data-centres-draw-tradies",
+      "headline": "Data centre build-out is pulling trades away from housing",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T05:06:03Z",
+      "voiceScript": "The Electrical Trades Union says the rapid build-out of data centres is pulling electricians and other trades away from housing work. That adds pressure to a construction sector already struggling to deliver enough new homes and keep costs under control. The issue matters because competition for skilled labour can slow housing supply and make the shortage harder to fix.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/union-warns-data-centres-poaching-tradies-from-housing"
         }
       ]
     },
