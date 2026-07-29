@@ -29,7 +29,7 @@ const LANGUAGES = [
 const I18N = {
   "zh-Hans": {
     appName: "4news",
-    appSubtitle: "客观、独立的澳洲新闻简报",
+    appSubtitle: "客观，独立，多源，AI 驱动",
     toolsTitle: "筛选和数据状态",
     localData: "本地数据",
     pending: "待更新",
@@ -53,7 +53,7 @@ const I18N = {
   },
   "zh-Hant": {
     appName: "4news",
-    appSubtitle: "客觀、獨立的澳洲新聞簡報",
+    appSubtitle: "客觀，獨立，多源，AI 驅動",
     toolsTitle: "篩選和資料狀態",
     localData: "本機資料",
     pending: "待更新",
@@ -101,7 +101,7 @@ const I18N = {
   },
   en: {
     appName: "4news",
-    appSubtitle: "Objective, independent Australian briefs",
+    appSubtitle: "Objective, independent, multi-source, powered by AI",
     toolsTitle: "Filters and data status",
     localData: "Local data",
     pending: "Pending",
