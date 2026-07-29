@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T06:14:28.639Z",
+  "updatedAt": "2026-07-29T07:15:46.839Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -100,10 +100,38 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; Yahoo News Australia is accessible again.",
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used."
+    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used.",
+    "A few current stories only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
   ],
   "clusters": [
+    {
+      "id": "australia-post-stamp-rise",
+      "headline": "澳洲郵政將於9月再次調高郵票價格",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:30:00Z",
+      "voiceScript": "澳洲郵政計劃自9月1日起把普通郵票價格提高到1.85澳元，因為信件數量已經跌到上世紀30年代以來未見的低位。對大多數家庭來說，這次漲幅不大，但它反映出在數位通訊取代紙本信件後，維持全國郵政網路的成本仍在上升。優惠郵票和節日賀卡郵票維持不變，讓部分使用者的影響稍微減輕。接下來要看的是9月正式上路，以及坎培拉是否會有進一步回應。",
+      "differences": [],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/stamp-price-increase-approved-as-australia-post-says-letter-volumes-are-at-1930s-levels/news-story/0668d893eabfa3b88179a2be8525efb9"
+        }
+      ]
+    },
+    {
+      "id": "nt-clp-closing-the-gap-funding",
+      "headline": "北領地原住民團體要求CLP說明Closing the Gap資金去向",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:06:00Z",
+      "voiceScript": "北領地的原住民團體正在要求CLP政府說明Closing the Gap資金到底花在哪裡，並認為公眾需要更清楚的問責。這個爭議之所以重要，是因為這些資金本來要改善住房、醫療和司法結果，如果進展拖延或監督不足，社區就可能拿不到項目應有的服務。它也進一步引出一個更大的問題：北領地到底在多大程度上完成了原住民相關目標。接下來要看的是政府怎麼回應，以及是否會公布更多支出細節。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/nt-child-protection-changes-closing-the-gap-financial-penalties/106961540"
+        }
+      ]
+    },
     {
       "id": "ben-carroll-victoria-royal-commission",
       "headline": "Ben Carroll接手維州工黨 試圖穩住局面",
@@ -203,15 +231,27 @@
     },
     {
       "id": "one-nation-qld-missing-financial-statements",
-      "headline": "一國黨面臨補交昆州帳目期限",
-      "sourceCount": 1,
+      "headline": "一國黨昆州分部面臨合規最後期限",
+      "sourceCount": 3,
       "publishedAt": "2026-07-29T04:56:00Z",
-      "voiceScript": "一國黨表示，將補交昆州分部拖欠了三年的帳目。監管機構先前已警告，如果文件繼續缺失，這個分部可能面臨被註銷的風險。相關欠交文件涵蓋2023到2025財年，昆州公平交易辦公室給出的審計報表期限是8月18日。此事重要在於，它關係到政黨合規、內部帳務和文件不完整時可能面臨的處罰。接下來要看的是，這個黨能否在期限前補齊，還是會觸發調查與罰則。",
-      "differences": [],
+      "voiceScript": "昆州監管機構已要求一國黨在8月18日前補交三年的財務報表，否則該協會可能被取消資格。缺失的文件涵蓋2023年至2025年，也讓這起事件變成對該黨內部管理的新考驗。之所以重要，是因為合規失誤可能引發處罰、損害公眾信任，也會讓本就承受政治壓力的政黨更加被動。接下來要看的是報表能否按時補齊，還是監管機構會直接啟動執行程序。",
+      "differences": [
+        "ABC 把重點放在8月18日的最後期限和被註銷風險上。",
+        "The Guardian 將其視為合規失敗，並指出其在昆州的政治後果。",
+        "AFR 強調缺失紀錄以及 Jim Chalmers 的反應。"
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/qld-pauline-hanson-one-nation-financial-statements/106972240"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/missing-financial-records-put-one-nation-at-risk-in-queensland-20260729-p60jlr"
         }
       ]
     },
@@ -276,15 +316,32 @@
     },
     {
       "id": "pump-price-relief-ends-oil-risks",
-      "headline": "油價減免即將結束，國際原油風險仍在",
-      "sourceCount": 1,
+      "headline": "燃油補貼即將結束，汽油價格又在上升",
+      "sourceCount": 4,
       "publishedAt": "2026-07-29T03:59:54Z",
-      "voiceScript": "臨時燃油減免將在週一結束，駕駛人到加油站要付更多錢，但全球原油市場仍然不穩定。這件事之所以重要，是因為燃油成本會很快傳導到家庭支出、貨運和食品價格。若汽油價格繼續跟著外部衝擊上行，通勤族和偏遠地區駕駛會最先感受到壓力。接下來要看的是，減免取消後油價會不會穩定下來，還是繼續隨海外局勢波動。",
-      "differences": [],
+      "voiceScript": "澳洲的臨時燃油折扣將於8月2日結束，而多個城市的汽油價格已經重新逼近或超過每升2澳元。這項變化之所以重要，是因為燃油會迅速傳導到貨運、食品和家庭預算，油槍價格的小幅波動很快就會變成實際壓力。財政部和市場觀察人士都把這波上漲歸因於全球油價走高和中東局勢緊張。接下來要看的是，消費稅優惠結束後價格會不會穩定，還是會繼續跟著海外衝擊上行。",
+      "differences": [
+        "ABC 重點放在消費稅優惠到期和對駕駛人的即時影響。",
+        "The Guardian 把汽油上漲放進更廣泛的家庭壓力和加息風險裡。",
+        "news.com.au 強調財政部預警以及各城市加油站的價格。",
+        "AAP 則把重點放在汽油回到每升2澳元上方和更大的經濟前景。"
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/fuel-excise-discount-ends-iran-war-oil-prices/106971298"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/australian-economy/australians-facing-fresh-fuel-nightmare-as-treasury-briefing-warns-price-pressures-may-intensify-as-middle-east-conflict-continues/news-story/4f124e67768d0d6d8271c4e5be95be68"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/higher-rates-and-pricey-petrol-as-economic-outlook-dims"
         }
       ]
     },
@@ -378,11 +435,15 @@
     },
     {
       "id": "sa-bird-flu-sea-lions",
-      "headline": "南澳禽流感疑雲加重，本地傳播跡象越來越強",
-      "sourceCount": 2,
+      "headline": "鳥類流感似乎正在南澳野生動物中傳播",
+      "sourceCount": 3,
       "publishedAt": "2026-07-29T02:58:20Z",
-      "voiceScript": "南澳州新增多起 H5 禽流感疑似病例，官方現在認為本地傳播很可能已經發生。重點落在袋鼠島和州東南部，海獅和其他野生動物都在密切監測之中。之所以重要，是因為一旦不再只是零星發現，野生動物和周邊農業都會很快面臨更大的生物安全壓力。下一步是實驗室確認結果，以及繼續追蹤海岸和島嶼周邊的樣本。",
-      "differences": [],
+      "voiceScript": "南澳現在面臨更廣泛的H5禽流感問題，官方表示當地傳播很可能已經發生，而且州南東部出現了更多疑似病例。令人擔心的是，病毒可能正在野生動物之間擴散，而不只是停留在個別鳥類身上，這會讓控制更困難，也會增加海獅和附近家禽的風險。之所以重要，是因為一旦病毒在野外站穩腳跟，生物安全應對就會複雜得多。接下來要看的是實驗室確認結果，以及海岸和繁殖地的持續監測。",
+      "differences": [
+        "ABC 重點放在本地傳播和監測應對上。",
+        "The Guardian 強調林肯海岸的疑似病例和野生動物擴散。",
+        "AAP 突出海獅群落風險以及更廣泛的野生動物威脅。"
+      ],
       "links": [
         {
           "source": "ABC News",
@@ -390,7 +451,11 @@
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/h5-bird-flu-suspected-new-cases-south-australia"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/extremely-likely-bird-flu-now-spreading-in-wildlife"
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T06:14:28.639Z",
+  "updatedAt": "2026-07-29T07:15:46.839Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -100,10 +100,38 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; Yahoo News Australia is accessible again.",
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used."
+    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used.",
+    "A few current stories only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
   ],
   "clusters": [
+    {
+      "id": "australia-post-stamp-rise",
+      "headline": "Australia Post จะขึ้นราคาสแตมป์อีกครั้งในเดือนกันยายน",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:30:00Z",
+      "voiceScript": "Australia Post วางแผนจะปรับราคาสแตมป์มาตรฐานเป็น 1.85 ดอลลาร์ตั้งแต่วันที่ 1 กันยายน หลังปริมาณจดหมายลดลงไปอยู่ระดับที่ไม่เคยเห็นตั้งแต่ทศวรรษ 1930 สำหรับครัวเรือนส่วนใหญ่ การขึ้นครั้งนี้ไม่มาก แต่สะท้อนว่าต้นทุนในการคงบริการไปรษณีย์ทั่วประเทศยังสูงขึ้นต่อเนื่องในขณะที่การสื่อสารดิจิทัลเข้ามาแทนที่จดหมายแบบเดิม สแตมป์แบบลดราคาและสแตมป์อวยพรยังคงเดิม จึงช่วยลดแรงกระทบกับบางกลุ่มได้บ้าง ขั้นต่อไปคือการเริ่มใช้จริงในเดือนกันยายนและท่าทีจากแคนเบอร์รา",
+      "differences": [],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/stamp-price-increase-approved-as-australia-post-says-letter-volumes-are-at-1930s-levels/news-story/0668d893eabfa3b88179a2be8525efb9"
+        }
+      ]
+    },
+    {
+      "id": "nt-clp-closing-the-gap-funding",
+      "headline": "กลุ่ม Aboriginal ใน NT เรียกร้องให้ CLP ชี้แจงการใช้เงิน Closing the Gap",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:06:00Z",
+      "voiceScript": "กลุ่ม Aboriginal ใน Northern Territory กำลังกดดันรัฐบาล CLP ให้ชี้แจงว่าเงิน Closing the Gap ถูกใช้ไปอย่างไร เรื่องนี้สำคัญเพราะเงินดังกล่าวมีเป้าหมายเพื่อปรับปรุงที่อยู่อาศัย สุขภาพ และความยุติธรรม หากการดำเนินงานล่าช้าหรือการกำกับดูแลอ่อนแอ ชุมชนอาจไม่ได้รับบริการตามที่โครงการตั้งใจไว้ ข้อพิพาทนี้ยังเชื่อมกับคำถามใหญ่กว่าว่า NT ทำได้ตามเป้าหมายด้านชนพื้นเมืองมากแค่ไหน ขั้นต่อไปคือท่าทีของรัฐบาลและว่าจะเปิดเผยรายละเอียดการใช้จ่ายเพิ่มหรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/nt-child-protection-changes-closing-the-gap-financial-penalties/106961540"
+        }
+      ]
+    },
     {
       "id": "ben-carroll-victoria-royal-commission",
       "headline": "Ben Carroll เดินหน้ารีเซ็ตการนำของวิกตอเรียหลัง Allan ลาออก",
@@ -203,15 +231,27 @@
     },
     {
       "id": "one-nation-qld-missing-financial-statements",
-      "headline": "วันเนชันเผชิญเส้นตายยื่นบัญชีของควีนส์แลนด์",
-      "sourceCount": 1,
+      "headline": "สาขา One Nation ในควีนส์แลนด์เผชิญเส้นตายด้านการปฏิบัติตามกฎ",
+      "sourceCount": 3,
       "publishedAt": "2026-07-29T04:56:00Z",
-      "voiceScript": "วันเนชันระบุว่าจะยื่นบัญชีของสาขาควีนส์แลนด์ที่ค้างมานานสามปี หลังหน่วยงานกำกับเตือนว่าสาขานี้อาจถูกเพิกถอนการจดทะเบียนได้ เอกสารที่ค้างครอบคลุมปีงบประมาณ 2023 ถึง 2025 และสำนักงานการค้าที่เป็นธรรมของควีนส์แลนด์กำหนดเส้นตาย 18 สิงหาคมสำหรับงบที่ผ่านการตรวจสอบ เรื่องนี้สำคัญเพราะเกี่ยวกับการปฏิบัติตามกฎของพรรค การทำบัญชีภายใน และความเสี่ยงต่อบทลงโทษหากเอกสารยังไม่ครบ ขั้นต่อไปคือพรรคจะส่งทันหรือไม่ หรือจะถูกสอบสวนและลงโทษ.",
-      "differences": [],
+      "voiceScript": "หน่วยงานกำกับดูแลในควีนส์แลนด์ให้เวลา One Nation จนถึงวันที่ 18 สิงหาคมเพื่อยื่นงบการเงินที่ค้างอยู่ 3 ปี ไม่เช่นนั้นสมาคมอาจถูกยกเลิก การขาดเอกสารในช่วงปี 2023 ถึง 2025 ทำให้กลายเป็นบททดสอบใหม่ของการควบคุมภายในพรรค เรื่องนี้สำคัญเพราะความผิดด้านการปฏิบัติตามกฎอาจนำไปสู่โทษปรับ กระทบความเชื่อมั่นของสาธารณะ และทำให้พรรคที่ถูกกดดันทางการเมืองอยู่แล้วเสียเปรียบมากขึ้น ขั้นต่อไปคือดูว่าเอกสารจะถูกยื่นทันเวลาหรือหน่วยงานจะเริ่มบังคับใช้เส้นตาย",
+      "differences": [
+        "ABC เน้นเส้นตายวันที่ 18 สิงหาคมและความเสี่ยงถูกเพิกถอนทะเบียน",
+        "The Guardian มองว่าเป็นความล้มเหลวด้านการปฏิบัติตามกฎที่มีผลทางการเมืองในควีนส์แลนด์",
+        "AFR ชี้ไปที่เอกสารที่ขาดหายและปฏิกิริยาของ Jim Chalmers"
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/qld-pauline-hanson-one-nation-financial-statements/106972240"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/missing-financial-records-put-one-nation-at-risk-in-queensland-20260729-p60jlr"
         }
       ]
     },
@@ -276,15 +316,32 @@
     },
     {
       "id": "pump-price-relief-ends-oil-risks",
-      "headline": "ส่วนลดน้ำมันกำลังหมดลง ขณะที่ความเสี่ยงน้ำมันยังสูง",
-      "sourceCount": 1,
+      "headline": "มาตรการช่วยค่าน้ำมันใกล้หมดอายุ แต่ราคาน้ำมันยังขยับขึ้น",
+      "sourceCount": 4,
       "publishedAt": "2026-07-29T03:59:54Z",
-      "voiceScript": "มาตรการลดราคาน้ำมันชั่วคราวจะสิ้นสุดในวันจันทร์ ทำให้ผู้ขับขี่ต้องจ่ายแพงขึ้นที่ปั๊ม แม้ตลาดน้ำมันโลกยังผันผวนอยู่ก็ตาม เรื่องนี้สำคัญเพราะต้นทุนน้ำมันส่งผลเร็วต่อค่าครองชีพ ค่าขนส่ง และราคาอาหาร หากราคาน้ำมันยังเคลื่อนไหวตามปัจจัยต่างประเทศ ผู้เดินทางไปทำงานและคนในพื้นที่ห่างไกลจะรู้สึกได้ก่อน สิ่งต่อไปที่ต้องดูคือราคาจะทรงตัวหลังหมดส่วนลด หรือยังแกว่งตามแรงกระแทกจากต่างประเทศต่อไป",
-      "differences": [],
+      "voiceScript": "ส่วนลดน้ำมันชั่วคราวของออสเตรเลียจะสิ้นสุดในวันที่ 2 สิงหาคม ขณะที่ราคาน้ำมันเบนซินในหลายเมืองกลับขึ้นมาใกล้หรือสูงกว่า 2 ดอลลาร์ต่อลิตรแล้ว เรื่องนี้สำคัญเพราะค่าน้ำมันส่งผลต่อค่าขนส่ง ราคาของกิน และงบครัวเรือนอย่างรวดเร็ว กระทรวงการคลังและผู้ติดตามตลาดมองว่าการขึ้นครั้งนี้เชื่อมกับราคาน้ำมันโลกที่สูงขึ้นและความตึงเครียดในตะวันออกกลาง คำถามต่อไปคือราคาจะทรงตัวหลังสิทธิ์ภาษีสิ้นสุดหรือจะขึ้นต่อหากแรงกระแทกจากต่างประเทศยังไม่จบ",
+      "differences": [
+        "ABC เน้นเส้นตายของส่วนลดภาษีและผลกระทบทันทีต่อผู้ขับขี่",
+        "The Guardian เชื่อมกับแรงกดดันต่อครัวเรือนและความเสี่ยงเรื่องดอกเบี้ย",
+        "news.com.au เน้นคำเตือนของ Treasury และราคาหน้าปั๊มตามเมืองต่าง ๆ",
+        "AAP มองว่าราคาน้ำมันอาจกลับไปเหนือ 2 ดอลลาร์ต่อลิตร"
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/fuel-excise-discount-ends-iran-war-oil-prices/106971298"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/australian-economy/australians-facing-fresh-fuel-nightmare-as-treasury-briefing-warns-price-pressures-may-intensify-as-middle-east-conflict-continues/news-story/4f124e67768d0d6d8271c4e5be95be68"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/higher-rates-and-pricey-petrol-as-economic-outlook-dims"
         }
       ]
     },
@@ -378,11 +435,15 @@
     },
     {
       "id": "sa-bird-flu-sea-lions",
-      "headline": "ความเสี่ยงไข้หวัดนกในเซาท์ออสเตรเลียสูงขึ้น หลังมีแนวโน้มแพร่ในพื้นที่",
-      "sourceCount": 2,
+      "headline": "ไวรัสไข้หวัดนกดูเหมือนกำลังแพร่ในสัตว์ป่าของเซาท์ออสเตรเลีย",
+      "sourceCount": 3,
       "publishedAt": "2026-07-29T02:58:20Z",
-      "voiceScript": "เซาท์ออสเตรเลียพบผู้ต้องสงสัยติดเชื้อไข้หวัดนก H5 เพิ่มขึ้น และตอนนี้ทางการบอกว่ามีแนวโน้มสูงมากว่าจะมีการแพร่ในพื้นที่ จุดสนใจอยู่ที่เกาะคังการูและพื้นที่ทางตะวันออกเฉียงใต้ของรัฐ ซึ่งมีการเฝ้าดูสิงโตทะเลและสัตว์ป่าอื่น ๆ อย่างใกล้ชิด เรื่องนี้สำคัญเพราะเมื่อไม่ใช่แค่จุดเดียวอีกต่อไป ปัญหาความปลอดภัยทางชีวภาพจะลุกลามไปสู่สัตว์ป่าและเกษตรกรรมโดยรอบได้เร็ว ขั้นต่อไปคือรอผลยืนยันจากห้องแล็บและเฝ้าติดตามชายฝั่งกับเกาะต่าง ๆ ต่อไป",
-      "differences": [],
+      "voiceScript": "ขณะนี้เซาท์ออสเตรเลียกำลังเผชิญปัญหา H5 ไข้หวัดนกที่ใหญ่ขึ้น เจ้าหน้าที่ระบุว่ามีความเป็นไปได้สูงมากว่ามีการแพร่เชื้อในพื้นที่ และพบผู้ต้องสงสัยเพิ่มเติมในตอนใต้ของรัฐ ความกังวลคือไวรัสอาจกำลังแพร่ในสัตว์ป่าแทนที่จะอยู่แค่ในนกบางตัว ซึ่งจะทำให้การควบคุมยากขึ้นและเพิ่มความเสี่ยงต่อสิงโตทะเลรวมถึงสัตว์ปีกใกล้เคียง เรื่องนี้สำคัญเพราะเมื่อไวรัสตั้งหลักในธรรมชาติแล้ว การตอบสนองด้านความปลอดภัยชีวภาพจะซับซ้อนขึ้นมาก ขั้นต่อไปคือรอผลยืนยันจากห้องแล็บและเฝ้าระวังแนวชายฝั่งกับแหล่งอาศัยต่อไป",
+      "differences": [
+        "ABC เน้นการแพร่เชื้อในพื้นที่และการเฝ้าระวัง",
+        "The Guardian เน้นผู้ต้องสงสัยใน Limestone Coast และการแพร่ในสัตว์ป่า",
+        "AAP ชี้ความเสี่ยงต่อฝูงสิงโตทะเลและภัยคุกคามวงกว้างต่อสัตว์ป่า"
+      ],
       "links": [
         {
           "source": "ABC News",
@@ -390,7 +451,11 @@
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/h5-bird-flu-suspected-new-cases-south-australia"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/extremely-likely-bird-flu-now-spreading-in-wildlife"
         }
       ]
     },

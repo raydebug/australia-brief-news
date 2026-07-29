@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T06:14:28.639Z",
+  "updatedAt": "2026-07-29T07:15:46.839Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -100,10 +100,38 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; Yahoo News Australia is accessible again.",
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used."
+    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used.",
+    "A few current stories only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
   ],
   "clusters": [
+    {
+      "id": "australia-post-stamp-rise",
+      "headline": "Australia Post sẽ lại tăng giá tem vào tháng 9",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:30:00Z",
+      "voiceScript": "Australia Post dự định nâng giá tem tiêu chuẩn lên 1,85 đô la từ ngày 1/9, sau khi lượng thư gửi giảm xuống mức chưa từng thấy kể từ thập niên 1930. Với đa số hộ gia đình, mức tăng này không lớn, nhưng nó cho thấy chi phí duy trì dịch vụ thư trên toàn quốc vẫn tăng trong lúc nhắn tin số thay thế thư giấy. Tem ưu đãi và tem thiệp lễ vẫn giữ nguyên, nên một số người dùng sẽ bớt bị ảnh hưởng. Bước tiếp theo là việc triển khai chính thức vào tháng 9 và phản ứng từ Canberra.",
+      "differences": [],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/stamp-price-increase-approved-as-australia-post-says-letter-volumes-are-at-1930s-levels/news-story/0668d893eabfa3b88179a2be8525efb9"
+        }
+      ]
+    },
+    {
+      "id": "nt-clp-closing-the-gap-funding",
+      "headline": "Các nhóm Aboriginal ở NT yêu cầu CLP giải thích khoản chi Closing the Gap",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:06:00Z",
+      "voiceScript": "Các nhóm Aboriginal ở Lãnh thổ Bắc Úc đang yêu cầu chính quyền CLP giải thích tiền Closing the Gap đã được chi như thế nào. Vấn đề này quan trọng vì nguồn tiền đó nhằm cải thiện nhà ở, y tế và công lý; nếu tiến độ chậm hoặc giám sát yếu, cộng đồng có thể không nhận được dịch vụ mà chương trình được thiết kế để hỗ trợ. Tranh cãi này cũng kéo theo câu hỏi lớn hơn về việc lãnh thổ đang đạt mục tiêu dành cho người bản địa đến đâu. Bước tiếp theo là phản ứng của chính quyền và liệu họ có công bố thêm chi tiết chi tiêu hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/nt-child-protection-changes-closing-the-gap-financial-penalties/106961540"
+        }
+      ]
+    },
     {
       "id": "ben-carroll-victoria-royal-commission",
       "headline": "Ben Carroll tìm cách ổn định Victoria sau khi Allan rời ghế",
@@ -203,15 +231,27 @@
     },
     {
       "id": "one-nation-qld-missing-financial-statements",
-      "headline": "Đảng Một Quốc gia đối mặt hạn chót nộp báo cáo tài chính ở Queensland",
-      "sourceCount": 1,
+      "headline": "Chi nhánh One Nation ở Queensland đối mặt hạn chót tuân thủ",
+      "sourceCount": 3,
       "publishedAt": "2026-07-29T04:56:00Z",
-      "voiceScript": "Đảng Một Quốc gia nói sẽ nộp ba năm báo cáo tài chính còn thiếu của chi nhánh Queensland sau khi cơ quan quản lý cảnh báo chi nhánh này có thể bị hủy đăng ký. Các hồ sơ chậm nộp bao gồm các năm tài chính 2023 đến 2025, và Văn phòng Giao dịch Công bằng đã đặt hạn chót 18 tháng 8 cho báo cáo đã kiểm toán. Việc này quan trọng vì nó liên quan đến tuân thủ của đảng, sổ sách nội bộ và nguy cơ bị xử phạt nếu hồ sơ vẫn chưa đầy đủ. Bước tiếp theo là đảng có kịp hạn hay không, hay sẽ bị điều tra và phạt.",
-      "differences": [],
+      "voiceScript": "Cơ quan quản lý ở Queensland đã cho One Nation đến ngày 18/8 để nộp ba năm báo cáo tài chính còn thiếu, nếu không hiệp hội có thể bị hủy đăng ký. Các tài liệu bị thiếu bao gồm giai đoạn 2023 đến 2025 và đang trở thành phép thử mới đối với kiểm soát nội bộ của đảng. Vấn đề này quan trọng vì sai phạm tuân thủ có thể kéo theo tiền phạt, làm suy giảm niềm tin công chúng và khiến một đảng vốn đã chịu áp lực chính trị càng khó xử hơn. Bước tiếp theo là xem hồ sơ có được nộp đúng hạn hay cơ quan quản lý sẽ thực thi thời hạn này.",
+      "differences": [
+        "ABC tập trung vào hạn 18/8 và nguy cơ bị xóa đăng ký.",
+        "The Guardian xem đây là thất bại tuân thủ với hệ quả chính trị ở Queensland.",
+        "AFR nhấn mạnh hồ sơ thiếu và phản ứng của Jim Chalmers."
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/qld-pauline-hanson-one-nation-financial-statements/106972240"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/missing-financial-records-put-one-nation-at-risk-in-queensland-20260729-p60jlr"
         }
       ]
     },
@@ -276,15 +316,32 @@
     },
     {
       "id": "pump-price-relief-ends-oil-risks",
-      "headline": "Ưu đãi xăng hết hạn khi rủi ro dầu mỏ vẫn còn cao",
-      "sourceCount": 1,
+      "headline": "Hỗ trợ nhiên liệu sắp kết thúc, giá xăng lại tăng",
+      "sourceCount": 4,
       "publishedAt": "2026-07-29T03:59:54Z",
-      "voiceScript": "Ưu đãi xăng tạm thời sẽ kết thúc vào thứ Hai, nên người lái xe sẽ phải trả nhiều hơn tại trạm bơm dù thị trường dầu thế giới vẫn chưa ổn định. Điều này quan trọng vì chi phí nhiên liệu lan rất nhanh sang ngân sách hộ gia đình, vận tải và giá thực phẩm. Người đi làm xa và tài xế ở vùng xa có thể cảm nhận áp lực đầu tiên. Câu hỏi tiếp theo là giá sẽ ổn định sau khi ưu đãi hết hạn hay tiếp tục đi theo các cú sốc từ bên ngoài.",
-      "differences": [],
+      "voiceScript": "Khoản giảm giá nhiên liệu tạm thời của Australia sẽ hết vào ngày 2/8, trong khi giá xăng ở nhiều thành phố đã quay lại gần hoặc vượt mốc 2 đô la mỗi lít. Diễn biến này quan trọng vì chi phí xăng dầu lan rất nhanh sang vận tải, thực phẩm và ngân sách hộ gia đình. Bộ Tài chính và các nhà theo dõi thị trường đang cho rằng đà tăng này xuất phát từ giá dầu thế giới cao hơn và căng thẳng ở Trung Đông. Câu hỏi tiếp theo là giá có ổn định sau khi ưu đãi thuế hết hiệu lực hay sẽ còn tăng nữa nếu biến động bên ngoài kéo dài.",
+      "differences": [
+        "ABC tập trung vào hạn chót của ưu đãi thuế và tác động tức thì lên tài xế.",
+        "The Guardian đặt việc tăng giá xăng trong bối cảnh áp lực lên hộ gia đình và rủi ro lãi suất.",
+        "news.com.au nhấn mạnh cảnh báo của Bộ Tài chính và giá tại từng thành phố.",
+        "AAP xem đây là dấu hiệu giá xăng có thể trở lại trên mốc 2 đô la/lít."
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/fuel-excise-discount-ends-iran-war-oil-prices/106971298"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/australian-economy/australians-facing-fresh-fuel-nightmare-as-treasury-briefing-warns-price-pressures-may-intensify-as-middle-east-conflict-continues/news-story/4f124e67768d0d6d8271c4e5be95be68"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/higher-rates-and-pricey-petrol-as-economic-outlook-dims"
         }
       ]
     },
@@ -378,11 +435,15 @@
     },
     {
       "id": "sa-bird-flu-sea-lions",
-      "headline": "Nguy cơ cúm gia cầm ở Nam Australia tăng lên khi khả năng lây lan tại chỗ ngày càng rõ",
-      "sourceCount": 2,
+      "headline": "Cúm gia cầm dường như đang lan trong động vật hoang dã ở Nam Australia",
+      "sourceCount": 3,
       "publishedAt": "2026-07-29T02:58:20Z",
-      "voiceScript": "Nam Australia đã ghi nhận thêm nhiều ca nghi nhiễm cúm gia cầm H5, và giới chức nay nói khả năng lây lan tại chỗ là rất cao. Tâm điểm là đảo Kangaroo và vùng đông nam của bang, nơi hải sư và các loài động vật hoang dã khác đang được theo dõi chặt chẽ. Điều này quan trọng vì khi các phát hiện không còn là từng ca riêng lẻ, vấn đề an toàn sinh học với động vật hoang dã và nông nghiệp quanh đó sẽ tăng rất nhanh. Bước tiếp theo là xác nhận bằng xét nghiệm và tiếp tục giám sát bờ biển cùng các hòn đảo.",
-      "differences": [],
+      "voiceScript": "Nam Australia hiện đối mặt với một vấn đề H5 cúm gia cầm lớn hơn nhiều khi giới chức cho rằng lây truyền tại chỗ rất có thể đã xảy ra và các ca nghi ngờ tiếp tục xuất hiện ở phía đông nam bang. Điều đáng lo là virus có thể đang lan trong động vật hoang dã thay vì chỉ dừng ở từng con chim riêng lẻ, khiến việc khống chế khó hơn và làm tăng rủi ro cho sư tử biển cùng đàn gia cầm gần đó. Điều này quan trọng vì một khi virus bám rễ trong môi trường tự nhiên, phản ứng an toàn sinh học sẽ phức tạp hơn nhiều. Bước tiếp theo là chờ xác nhận từ phòng thí nghiệm và tiếp tục giám sát bờ biển cùng các khu vực sinh sản.",
+      "differences": [
+        "ABC tập trung vào lây truyền tại chỗ và phản ứng giám sát.",
+        "The Guardian nhấn mạnh các ca nghi ngờ ở Limestone Coast và sự lan sang động vật hoang dã.",
+        "AAP nêu rõ nguy cơ với quần thể sư tử biển và mối đe dọa rộng hơn với động vật hoang dã."
+      ],
       "links": [
         {
           "source": "ABC News",
@@ -390,7 +451,11 @@
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/h5-bird-flu-suspected-new-cases-south-australia"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/extremely-likely-bird-flu-now-spreading-in-wildlife"
         }
       ]
     },

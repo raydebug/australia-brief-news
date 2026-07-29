@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T06:14:28.639Z",
+  "updatedAt": "2026-07-29T07:15:46.839Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -100,10 +100,38 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; Yahoo News Australia is accessible again.",
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used."
+    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used.",
+    "A few current stories only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
   ],
   "clusters": [
+    {
+      "id": "australia-post-stamp-rise",
+      "headline": "Australia Post සැප්තැම්බර් මාසයේදී මුද්දර ගාස්තු නැවත ඉහළ නංවයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:30:00Z",
+      "voiceScript": "Australia Post සැප්තැම්බර් 1 දා සිට සාමාන්‍ය මුද්දරයක මිල ඩොලර් 1.85 දක්වා ඉහළ දැමීමට සැලසුම් කරයි. ලිපි පරිමාව 1930 ගණන්වලින් පසු නොදුටු මට්ටමකට වැටීමත් එක්ක මේ පියවර ගෙන ඇත. බොහෝ ගෘහස්ථයන්ට වැඩිම වියදමක් නැති වුවත්, රට පුරා ලිපි සේවාවක් පවත්වාගෙන යාමේ පිරිවැය වැඩිවෙන බව මේකෙන් පේනවා. වට්ටම් මුද්දර සහ උත්සව කාඩ් මුද්දර වෙනස් නොවේ. ඊළඟ පියවර සැප්තැම්බර් 1 දා ක්‍රියාත්මක කිරීම සහ කැන්බරා හි ප්‍රතිචාරයයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/stamp-price-increase-approved-as-australia-post-says-letter-volumes-are-at-1930s-levels/news-story/0668d893eabfa3b88179a2be8525efb9"
+        }
+      ]
+    },
+    {
+      "id": "nt-clp-closing-the-gap-funding",
+      "headline": "NT හි Aboriginal කණ්ඩායම් CLP වෙතින් Closing the Gap මුදල් ගැන පිළිතුරු ඉල්ලයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:06:00Z",
+      "voiceScript": "Northern Territory හි Aboriginal කණ්ඩායම් CLP ආණ්ඩුවෙන් Closing the Gap මුදල් කොහොම වියදම් වෙනවාද කියලා පැහැදිලි කිරීමක් ඉල්ලනවා. මෙය වැදගත් වන්නේ එම මුදල් නිවාස, සෞඛ්‍ය සහ නීති-යුක්ති ප්‍රතිඵල හොඳ කරගන්න සඳහාම යොදාගන්නා නිසාය. ප්‍රගතිය ප්‍රමාද වුවහොත් හෝ අධීක්ෂණය දුර්වල වුවහොත්, වැඩසටහනේ අරමුණට අනුව සේවා නොලැබෙන්න පුළුවන්. ඒක NT එක Indigenous ඉලක්ක කොච්චර දුරට පුරවලා තියෙනවාද කියන විශාල ප්‍රශ්නයකටත් යොමු වෙයි. ඊළඟට බලන්න තියෙන්නේ ආණ්ඩුවේ ප්‍රතිචාරය සහ වැඩි දත්ත නිකුත් කරනවාද කියන එකයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/nt-child-protection-changes-closing-the-gap-financial-penalties/106961540"
+        }
+      ]
+    },
     {
       "id": "ben-carroll-victoria-royal-commission",
       "headline": "Allan ඉවත්වීමෙන් පසු Ben Carroll වික්ටෝරියා නායකත්වය නැවත සකස් කරයි",
@@ -203,15 +231,27 @@
     },
     {
       "id": "one-nation-qld-missing-financial-statements",
-      "headline": "වන් නේෂන්ට ක්වීන්ස්ලන්ත ගිණුම් ඉදිරිපත් කිරීමට අවසන් දිනයක්",
-      "sourceCount": 1,
+      "headline": "ක්වීන්ස්ලන්තයේ One Nation ශාඛාවට අනුකූලතා අවසාන කාලය ලැබේ",
+      "sourceCount": 3,
       "publishedAt": "2026-07-29T04:56:00Z",
-      "voiceScript": "වන් නේෂන් කියන්නේ ක්වීන්ස්ලන්ත අංශයේ වසර තුනක පමා වූ ගිණුම් ඉදිරිපත් කරන බවයි. අතුරුදන් වූ ලිපිගොනු 2023 සිට 2025 දක්වා කාලය ආවරණය කරන අතර, වගකිවයුතු වෙළඳ කාර්යාලය විසින් පරීක්ෂා කළ වාර්තා 18 අගෝස්තු වෙනකල් ඉදිරිපත් කළ යුතු බව දන්වා තිබෙනවා. මෙය වැදගත් වෙන්නේ පක්ෂයේ නීති පිළිපැදීම, ඇතුළත ගිණුම් පාලනය සහ ලේඛන අසම්පූර්ණව තිබේ නම් ඇතිවන දඬුවම් අවදානම නිසාය. ඊළඟට බලන්න තියෙන්නේ පක්ෂය කාලසීමාව අතැර නොමැතිව ඉදිරිපත් කරනවාද, නැත්නම් විමර්ශනයකට සහ දඬුවම්වලට මුහුණ දෙනවාද කියලා.",
-      "differences": [],
+      "voiceScript": "ක්වීන්ස්ලන්ත නියාමකයින් One Nation ට අගෝස්තු 18 දාට පෙර වසර තුනක පමණ පසුගිය මුදල් වාර්තා ඉදිරිපත් කරන ලෙස නියම කර ඇත. එසේ නොකළහොත් සංගමය අවලංගු විය හැකිය. 2023 සිට 2025 දක්වා වන මෙම ලියකියවිලි හිඟය පක්ෂයේ ඇතුළත පාලනයට නව පරීක්ෂණයක් වී තිබේ. මේක වැදගත් වන්නේ අනුකූලතා අසාර්ථකවීම් දඩ නියම වීමට, මහජන විශ්වාසය බිඳ වැටීමට සහ දේශපාලන පීඩනය වැඩි වීමට හේතු විය හැකි නිසාය. ඊළඟට බලන්න තියෙන්නේ වාර්තා නියමිත වේලාවට ලැබේද නැද්ද කියන එකයි.",
+      "differences": [
+        "ABC අගෝස්තු 18 අවසාන දිනය සහ අවලංගු වීමේ අවදානම මතු කරයි.",
+        "The Guardian මෙය ක්වීන්ස්ලන්තයේ දේශපාලන ප්‍රතිඵල ඇති අනුකූලතා ප්‍රශ්නයක් ලෙස දකී.",
+        "AFR අහිමි වාර්තා සහ Jim Chalmersගේ ප්‍රතිචාරය ඉස්මතු කරයි."
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/qld-pauline-hanson-one-nation-financial-statements/106972240"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/missing-financial-records-put-one-nation-at-risk-in-queensland-20260729-p60jlr"
         }
       ]
     },
@@ -276,15 +316,29 @@
     },
     {
       "id": "pump-price-relief-ends-oil-risks",
-      "headline": "ඉන්ධන සහන අවසන් වෙයි, තෙල් අවදානම් තවමත් ඉහළයි",
-      "sourceCount": 1,
+      "headline": "ඉන්ධන සහනය අවසන් වෙමින් තිබියදී පෙට්‍රල් නැවත ඉහළ යයි",
+      "sourceCount": 4,
       "publishedAt": "2026-07-29T03:59:54Z",
-      "voiceScript": "තාවකාලික ඉන්ධන සහනය සඳුදා අවසන් වීමට නියමිතයි. ඒ නිසා ගැසොලින් මිල ගොඩක් නැගෙන්න පුළුවන්, නමුත් ලෝක තෙල් වෙළඳපොළ තවමත් අස්ථිරයි. මෙය වැදගත් වෙන්නේ ඉන්ධන වියදම ඉක්මනින්ම ගෘහ බජට්, භාණ්ඩ ප්‍රවාහනය සහ ආහාර මිලවලට බලපාන නිසාය. නගර අතර ගමන් කරන පිරිස් සහ දුර ප්‍රදේශවල රියදුරන්ට මේ තත්ත්වය මුලින්ම දැනෙන්න පුළුවන්. ඊළඟ ප්‍රශ්නය නම් සහනය ඉවත් වීමෙන් පසුව මිල ස්ථාවර වේද, නැත්නම් විදේශීය කම්පන දිගටම බලපා වේද යන්නයි.",
-      "differences": [],
+      "voiceScript": "ඕස්ට්‍රේලියාවේ තාවකාලික ඉන්ධන වට්ටම අගෝස්තු 2 දා අවසන් වීමට නියමිතයි. ඒ අතරතුර බොහෝ නගරවල පෙට්‍රල් ලීටරයකට ඩොලර් 2ක් ළඟට හෝ ඉහළට ගොස් ඇත. මේක වැදගත් වන්නේ ඉන්ධන වියදම ප්‍රවාහන ගාස්තු, ආහාර මිල සහ ගෘහස්ථ වියදම් ඉක්මනින්ම බලපාන නිසාය. භාණ්ඩාගාරය සහ වෙළඳපොළ නිරීක්ෂකයන් මේ ඉහළ යාම ගෝලීය තෙල් මිල සහ මැද පෙරදිග තත්ත්වය සමඟ සම්බන්ධ කරති. ඊළඟට බැලිය යුත්තේ වට්ටම ඉවර වුන පසු මිල ස්ථාවර වේද, නැතිනම් තවත් ඉහළ යනවාද යන්නයි.",
+      "differences": [
+        "ABC is by way of translation?"
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/fuel-excise-discount-ends-iran-war-oil-prices/106971298"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/australian-economy/australians-facing-fresh-fuel-nightmare-as-treasury-briefing-warns-price-pressures-may-intensify-as-middle-east-conflict-continues/news-story/4f124e67768d0d6d8271c4e5be95be68"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/higher-rates-and-pricey-petrol-as-economic-outlook-dims"
         }
       ]
     },
@@ -378,11 +432,15 @@
     },
     {
       "id": "sa-bird-flu-sea-lions",
-      "headline": "දකුණු ඔස්ට්‍රේලියාවේ පක්ෂි උණ අවදානම වැඩිවෙයි, දේශීය ව්‍යාප්තියක් ඇති බව පෙනේ",
-      "sourceCount": 2,
+      "headline": "දකුණු ඔස්ට්‍රේලියානු වනජීවී අතර පක්ෂි උණ පැතිරෙමින් පවතින 듯",
+      "sourceCount": 3,
       "publishedAt": "2026-07-29T02:58:20Z",
-      "voiceScript": "දකුණු ඔස්ට්‍රේලියාවේ H5 පක්ෂි උණ සැකසහිත තවත් අවස්ථා කිහිපයක් හඳුනාගෙන ඇති අතර, බලධාරීන් දැන් කියන්නේ දේශීය ව්‍යාප්තියක් ඉතාමත් හැකි බවයි. අවධානය කංගාරු දූපත සහ ප්‍රාන්තයේ දකුණු-නැගෙනහිර ප්‍රදේශය මතයි; එහි මුද්‍රා සහ වෙනත් වනජීවීන් දැන් දැඩිව නිරීක්ෂණය කරනවා. මෙය වැදගත්, මන්ද වෙනම හඳුනාගැනීම්වලින් එහාට පැතිරුණොත් වනජීවීන්ටත් අසල කෘෂිකර්මාන්තයටත් විශාල ජෛව ආරක්ෂණ ගැටලුවක් බවට පත්වෙයි. ඊළඟට කළයුත්තේ රසායනාගාර තහවුරුකිරීම් සහ වෙරළ සහ දූපත් පුරා අඛණ්ඩ නිරීක්ෂණයි.",
-      "differences": [],
+      "voiceScript": "දකුණු ඔස්ට්‍රේලියාවේ H5 පක්ෂි උණ ගැටලුව දැන් වඩාත් විශාල වී ඇතැයි පෙනේ. බලධාරීන් කියන්නේ දේශීය පැතිරීම ඉතාමත් ඉඩ ඇති බවත්, ප්‍රාන්තයේ දකුණු-නැගෙනහිර ප්‍රදේශවල සැක සහිත සිද්ධීන් පෙනී ආ බවත්ය. භීතිය වන්නේ වෛරසය හුදෙක් තනි පක්ෂීන් තුළ නොව වනජීවී අතරම පැතිරෙනවා විය හැකි නිසාය. එය සීමා කිරීම අමාරු කරන අතර මුහුදු සිංහයන්ට සහ ළඟ ඇති කුකුළු පාලනයට අවදානම වැඩි කරයි. වනයේ පැතිරීම තහවුරු වුණොත් ජීව ආරක්ෂක පියවර තවත් සංකීර්ණ වේ. ඊළඟට බැලිය යුත්තේ රසායනාගාර තහවුරු කිරීම සහ වෙරළ තීරය සහ බෝවෙන ස්ථානවල අඛණ්ඩ නිරීක්ෂණයයි.",
+      "differences": [
+        "ABC දේශීය පැතිරීම සහ නිරීක්ෂණ ප්‍රතිචාරය මත අවධානය යොමු කරයි.",
+        "The Guardian ලිමස්ටෝන් කෝස්ට්හි සැක සහිත සිද්ධීන් හා වනජීවී පැතිරීම ඉස්මතු කරයි.",
+        "AAP මුහුදු සිංහ ජනපදවල අවදානම සහ විශාල වනජීවී තර්ජනය මතු කරයි."
+      ],
       "links": [
         {
           "source": "ABC News",
@@ -390,7 +448,11 @@
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/h5-bird-flu-suspected-new-cases-south-australia"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/extremely-likely-bird-flu-now-spreading-in-wildlife"
         }
       ]
     },

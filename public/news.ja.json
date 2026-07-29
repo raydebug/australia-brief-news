@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T06:14:28.639Z",
+  "updatedAt": "2026-07-29T07:15:46.839Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -100,10 +100,38 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; Yahoo News Australia is accessible again.",
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used."
+    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used.",
+    "A few current stories only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
   ],
   "clusters": [
+    {
+      "id": "australia-post-stamp-rise",
+      "headline": "Australia Postが9月に切手価格を再び引き上げる",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:30:00Z",
+      "voiceScript": "Australia Postは、手紙の取扱量が1930年代以来の低水準まで落ち込んだことを受け、9月1日から標準切手を1枚1.85ドルに引き上げる予定です。多くの家庭にとって値上げ幅は小さいものの、デジタル通信への移行が進む中で全国の郵便サービスを維持するコストが上がり続けていることを示しています。割引切手やグリーティング用の切手は据え置きで、一部の利用者への影響は抑えられます。次の焦点は9月の実施と、キャンベラ側の反応です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/stamp-price-increase-approved-as-australia-post-says-letter-volumes-are-at-1930s-levels/news-story/0668d893eabfa3b88179a2be8525efb9"
+        }
+      ]
+    },
+    {
+      "id": "nt-clp-closing-the-gap-funding",
+      "headline": "NTの先住民団体がCLPにClosing the Gap資金の説明を求める",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:06:00Z",
+      "voiceScript": "ノーザンテリトリーの先住民団体は、Closing the Gap資金がどのように使われているのかについてCLP政権に説明を求めています。住宅、医療、司法の成果を改善するための資金である以上、進捗の遅れや監督不足があれば、地域に必要なサービスが届かなくなる恐れがあります。これは、NTが先住民関連の目標をどこまで達成できているのかという、より大きな論点にもつながります。次の焦点は政府の対応と、支出の詳細がさらに公開されるかどうかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/nt-child-protection-changes-closing-the-gap-financial-penalties/106961540"
+        }
+      ]
+    },
     {
       "id": "ben-carroll-victoria-royal-commission",
       "headline": "ベン・キャロル氏、アラン氏退陣後のビクトリア州政権立て直しに着手",
@@ -203,15 +231,27 @@
     },
     {
       "id": "one-nation-qld-missing-financial-statements",
-      "headline": "ワンネーション、クイーンズランド会計書類の提出期限に直面",
-      "sourceCount": 1,
+      "headline": "ワン・ネーションのクイーンズランド支部に遵守期限",
+      "sourceCount": 3,
       "publishedAt": "2026-07-29T04:56:00Z",
-      "voiceScript": "ワンネーションは、クイーンズランド支部の未提出だった3年分の会計書類を提出するとしています。監督当局は、書類が出されなければ支部の登録取消しもあり得ると警告していました。対象は2023年から2025年までの3会計年度で、監督当局は監査済み書類の期限を8月18日に設定しています。重要なのは、政党の法令順守と内部会計、そして書類不備が続いた場合の制裁の可能性です。次は、期限までに提出できるか、それとも調査や罰則に進むかが焦点です。",
-      "differences": [],
+      "voiceScript": "クイーンズランド州の監督当局は、ワン・ネーションに対し8月18日までに過去3年分の財務報告書を提出するよう求め、従わなければ団体登録を取り消す可能性があるとしています。対象は2023年から2025年までの未提出分で、党内の管理体制が改めて問われています。コンプライアンス違反は罰則や信頼低下につながり、すでに政治的な圧力を受ける政党には痛手です。次の焦点は、期限内に書類がそろうのか、それとも当局が執行に動くのかです。",
+      "differences": [
+        "ABCは8月18日の期限と登録抹消リスクを中心に伝える。",
+        "The Guardianはクイーンズランドでの政治的余波を伴う遵守不備として描く。",
+        "AFRは欠けている記録とジム・チャーマーズの反応を強調する。"
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/qld-pauline-hanson-one-nation-financial-statements/106972240"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/missing-financial-records-put-one-nation-at-risk-in-queensland-20260729-p60jlr"
         }
       ]
     },
@@ -276,15 +316,32 @@
     },
     {
       "id": "pump-price-relief-ends-oil-risks",
-      "headline": "燃料負担軽減が終わり、原油不安はなお続く",
-      "sourceCount": 1,
+      "headline": "燃料支援が終わる直前に、ガソリン価格が再び上昇",
+      "sourceCount": 4,
       "publishedAt": "2026-07-29T03:59:54Z",
-      "voiceScript": "一時的な燃料負担軽減策が月曜に終了し、給油時の支払いは上がる見通しです。ただ、世界の原油市場はまだ不安定で、先行きは読みにくいままです。燃料費は家計、物流、食料価格にすぐ波及するため、この動きは大きい意味を持ちます。次は、補助終了後に価格が落ち着くのか、それとも海外要因に連れ高するのかが焦点です。",
-      "differences": [],
+      "voiceScript": "オーストラリアの一時的な燃料割引は8月2日に終了する予定で、すでに多くの都市でガソリン価格が1リットル2ドル前後、あるいはそれ以上に戻りつつあります。燃料価格は輸送費、食料品、家計の支出にすぐ波及するため、この動きは小さく見えても影響は大きいです。財務省や市場関係者は、世界の原油高と中東情勢の緊迫化が背景にあるとみています。今後の焦点は、減税措置が終わった後に価格が落ち着くのか、それとも海外要因でさらに上がるのかです。",
+      "differences": [
+        "ABCは燃料税割引の期限と運転者への即時影響を重視。",
+        "The Guardianは家計全体の圧力と利上げリスクに結び付けている。",
+        "news.com.auは財務省の警告と都市ごとの給油価格に焦点。",
+        "AAPは2ドル超えの再来と景気見通しを軸にしている。"
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/fuel-excise-discount-ends-iran-war-oil-prices/106971298"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/australian-economy/australians-facing-fresh-fuel-nightmare-as-treasury-briefing-warns-price-pressures-may-intensify-as-middle-east-conflict-continues/news-story/4f124e67768d0d6d8271c4e5be95be68"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/higher-rates-and-pricey-petrol-as-economic-outlook-dims"
         }
       ]
     },
@@ -378,11 +435,15 @@
     },
     {
       "id": "sa-bird-flu-sea-lions",
-      "headline": "南オーストラリアの鳥インフル警戒高まる、地域内感染の可能性が強まる",
-      "sourceCount": 2,
+      "headline": "南オーストラリアの野生動物で鳥インフルエンザが広がりつつある",
+      "sourceCount": 3,
       "publishedAt": "2026-07-29T02:58:20Z",
-      "voiceScript": "南オーストラリアでH5鳥インフルの疑い例がさらに見つかり、当局は地域内での感染がかなり起きている可能性が高いとしています。注目されているのはカンガルー島と州南東部で、アシカを含む野生動物の監視が強まっています。点在する発見の段階を超えると、野生動物と周辺の農業にとって大きなバイオセキュリティ問題になります。今後は検査結果の確定と、海岸や島の継続監視が焦点です。",
-      "differences": [],
+      "voiceScript": "南オーストラリア州ではH5鳥インフルエンザの問題がさらに広がっており、当局は地域内での感染がかなり起きている可能性が高いとみています。州南東部では疑い例も増えており、ウイルスが単独の鳥ではなく野生動物の間で広がっているのではないかという懸念が強まっています。そうなると封じ込めは難しくなり、オットセイや周辺の家禽にもリスクが及びます。野外での定着が確認されれば、バイオセキュリティ対応はさらに複雑になります。次の焦点は、検査結果の確定と海岸線や繁殖地での監視の継続です。",
+      "differences": [
+        "ABCは地域内感染と監視対応を重視。",
+        "The Guardianはリムストーン・コーストの疑い例と野生動物への広がりを強調。",
+        "AAPはオットセイの群れへのリスクと野生動物全体への脅威を前面に出す。"
+      ],
       "links": [
         {
           "source": "ABC News",
@@ -390,7 +451,11 @@
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/h5-bird-flu-suspected-new-cases-south-australia"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/extremely-likely-bird-flu-now-spreading-in-wildlife"
         }
       ]
     },

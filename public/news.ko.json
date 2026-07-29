@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T06:14:28.639Z",
+  "updatedAt": "2026-07-29T07:15:46.839Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -100,10 +100,38 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; Yahoo News Australia is accessible again.",
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used."
+    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used.",
+    "A few current stories only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
   ],
   "clusters": [
+    {
+      "id": "australia-post-stamp-rise",
+      "headline": "Australia Post가 9월에 우표 가격을 다시 올린다",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:30:00Z",
+      "voiceScript": "Australia Post는 우편물 이용량이 1930년대 이후 본 적 없는 수준까지 줄어들자 9월 1일부터 일반 우표 가격을 1.85달러로 올릴 계획입니다. 대부분의 가계에 큰 폭은 아니지만, 디지털 메시지가 우편을 대체하는 가운데 전국 우편 서비스를 유지하는 비용이 계속 커지고 있음을 보여줍니다. 할인 우표와 연하장 우표는 그대로 유지돼 일부 이용자의 부담은 덜합니다. 다음 단계는 9월 1일 실제 시행과 캔버라의 반응입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/stamp-price-increase-approved-as-australia-post-says-letter-volumes-are-at-1930s-levels/news-story/0668d893eabfa3b88179a2be8525efb9"
+        }
+      ]
+    },
+    {
+      "id": "nt-clp-closing-the-gap-funding",
+      "headline": "NT 원주민 단체들, CLP에 Closing the Gap 지출 설명 요구",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:06:00Z",
+      "voiceScript": "노던테리토리의 원주민 단체들은 CLP 정부에 Closing the Gap 자금이 어디에 쓰이는지 설명하라고 요구하고 있습니다. 이 자금은 주거, 보건, 사법 성과를 개선하기 위한 것이기 때문에, 진행이 늦거나 관리가 부실하면 지역사회가 필요한 서비스를 받지 못할 수 있습니다. 이 논란은 NT가 원주민 관련 목표를 얼마나 달성하고 있는지라는 더 큰 문제로도 이어집니다. 다음 단계는 정부의 대응과 지출 내역 추가 공개 여부입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/nt-child-protection-changes-closing-the-gap-financial-penalties/106961540"
+        }
+      ]
+    },
     {
       "id": "ben-carroll-victoria-royal-commission",
       "headline": "벤 캐럴, 앨런 퇴진 뒤 빅토리아 주정비에 착수",
@@ -203,15 +231,27 @@
     },
     {
       "id": "one-nation-qld-missing-financial-statements",
-      "headline": "원네이션, 퀸즐랜드 회계서류 제출 시한 압박",
-      "sourceCount": 1,
+      "headline": "원네이션 퀸즐랜드 지부에 준수 마감 시한",
+      "sourceCount": 3,
       "publishedAt": "2026-07-29T04:56:00Z",
-      "voiceScript": "원네이션은 퀸즐랜드 지부가 미뤄둔 3년치 회계서류를 제출하겠다고 밝혔습니다. 규제 당국은 서류가 계속 빠지면 지부 등록 취소도 가능하다고 경고해 왔습니다. 대상은 2023년부터 2025년까지의 회계연도이며, 감사된 보고서 제출 기한은 8월 18일로 잡혀 있습니다. 이 사안은 정당의 준법성, 내부 회계, 그리고 서류 미비가 이어질 때의 제재 가능성을 보여 줍니다. 이제 관건은 기한을 맞추는지, 아니면 조사와 처벌로 이어지는지입니다.",
-      "differences": [],
+      "voiceScript": "퀸즐랜드 규제당국은 원네이션에 8월 18일까지 지난 3년치 재무제표를 제출하라고 요구했습니다. 기한을 넘기면 협회 등록이 취소될 수 있습니다. 제출이 빠진 2023년부터 2025년까지의 문서는 당 내부 관리가 제대로 됐는지 다시 묻는 시험대가 됐습니다. 준수 실패는 벌금, 신뢰 하락, 정치적 부담으로 이어질 수 있기 때문에 이 사안은 중요합니다. 이제 남은 쟁점은 서류가 제때 제출되는지, 아니면 당국이 집행에 나서는지입니다.",
+      "differences": [
+        "ABC는 8월 18일 마감과 등록 취소 위험을 강조한다.",
+        "The Guardian은 퀸즐랜드에서의 정치적 파장을 동반한 준수 실패로 본다.",
+        "AFR은 누락된 기록과 짐 차머스의 반응을 부각한다."
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/qld-pauline-hanson-one-nation-financial-statements/106972240"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/missing-financial-records-put-one-nation-at-risk-in-queensland-20260729-p60jlr"
         }
       ]
     },
@@ -276,15 +316,32 @@
     },
     {
       "id": "pump-price-relief-ends-oil-risks",
-      "headline": "유류 할인 종료로 가계는 주유비 상승을 대비",
-      "sourceCount": 1,
+      "headline": "유류 지원이 끝나자 휘발유 가격이 다시 오르고 있다",
+      "sourceCount": 4,
       "publishedAt": "2026-07-29T03:59:54Z",
-      "voiceScript": "한시적 연료 할인은 월요일에 끝날 예정이라 운전자들의 주유비가 오를 수 있지만, 세계 원유시장은 여전히 불안정합니다. 이 변화가 중요한 이유는 연료비가 가계 예산과 운송비, 식품 가격에 빠르게 번지기 때문입니다. 특히 통근자와 지역 운전자들이 가장 먼저 체감할 가능성이 큽니다. 다음 관건은 할인 종료 뒤 가격이 안정될지, 아니면 해외 변수에 따라 더 오를지입니다.",
-      "differences": [],
+      "voiceScript": "호주의 임시 유류 할인은 8월 2일에 종료될 예정이며, 이미 여러 도시에서 휘발유 가격이 리터당 2달러 안팎 또는 그 이상으로 다시 올라가고 있습니다. 유류비는 운송비와 식료품 가격, 가계 지출에 바로 영향을 주기 때문에 이 변화는 생각보다 큽니다. 재무부와 시장 관측자들은 국제 유가 상승과 중동 긴장 고조를 원인으로 보고 있습니다. 앞으로의 관전 포인트는 세금 감면이 끝난 뒤 가격이 안정되는지, 아니면 해외 충격이 이어져 더 오르는지입니다.",
+      "differences": [
+        "ABC는 유류세 종료 시점과 운전자 부담을 강조한다.",
+        "The Guardian은 가계 압박과 금리 위험을 함께 본다.",
+        "news.com.au는 재무부 경고와 도시별 주유 가격을 앞세운다.",
+        "AAP는 리터당 2달러 재진입과 경제 전망을 중심에 둔다."
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/fuel-excise-discount-ends-iran-war-oil-prices/106971298"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/australian-economy/australians-facing-fresh-fuel-nightmare-as-treasury-briefing-warns-price-pressures-may-intensify-as-middle-east-conflict-continues/news-story/4f124e67768d0d6d8271c4e5be95be68"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/higher-rates-and-pricey-petrol-as-economic-outlook-dims"
         }
       ]
     },
@@ -378,11 +435,15 @@
     },
     {
       "id": "sa-bird-flu-sea-lions",
-      "headline": "남호주 조류독감 위험 확대, 지역 확산 가능성 커져",
-      "sourceCount": 2,
+      "headline": "남호주 야생동물 사이에서 조류독감이 퍼지고 있다",
+      "sourceCount": 3,
       "publishedAt": "2026-07-29T02:58:20Z",
-      "voiceScript": "남호주에서 H5 조류독감 의심 사례가 더 나오면서 당국은 지역 내 확산이 매우 가능하다고 보고 있습니다. 초점은 캥거루섬과 주 남동부이며, 바다사자와 다른 야생동물도 집중 감시 대상입니다. 개별 사례를 넘어서 확산이 확인되면 야생동물과 주변 농업 모두에 더 큰 생물안보 문제가 됩니다. 다음 단계는 검사 확정과 해안선, 섬 지역에 대한 계속된 감시입니다.",
-      "differences": [],
+      "voiceScript": "남호주에서는 H5 조류독감 문제가 더 넓게 번지고 있는 것으로 보입니다. 당국은 지역 내 전파 가능성이 매우 높고, 주 남동부에서 의심 사례가 늘고 있다고 밝혔습니다. 우려되는 점은 바이러스가 개별 조류에만 머무는 것이 아니라 야생동물 사이로 퍼지고 있을 수 있다는 점입니다. 그렇게 되면 통제가 훨씬 어려워지고 바다사자와 주변 가금류의 위험도 커집니다. 야생에서 전파가 자리 잡으면 생물안보 대응은 더 복잡해집니다. 다음 단계는 실험실 확인과 해안 및 번식지에 대한 지속적인 감시입니다.",
+      "differences": [
+        "ABC는 지역 내 전파와 감시 대응을 강조한다.",
+        "The Guardian은 리머스톤 코스트의 의심 사례와 야생동물 확산을 부각한다.",
+        "AAP는 바다사자 집단의 위험과 더 넓은 야생동물 위협을 앞세운다."
+      ],
       "links": [
         {
           "source": "ABC News",
@@ -390,7 +451,11 @@
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/h5-bird-flu-suspected-new-cases-south-australia"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/extremely-likely-bird-flu-now-spreading-in-wildlife"
         }
       ]
     },

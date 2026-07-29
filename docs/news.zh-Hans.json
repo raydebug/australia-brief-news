@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T06:14:28.639Z",
+  "updatedAt": "2026-07-29T07:15:46.839Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -100,10 +100,38 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; Yahoo News Australia is accessible again.",
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used."
+    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used.",
+    "A few current stories only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
   ],
   "clusters": [
+    {
+      "id": "australia-post-stamp-rise",
+      "headline": "澳大利亚邮政将于9月再次上调邮票价格",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:30:00Z",
+      "voiceScript": "澳大利亚邮政计划从9月1日起把普通邮票价格提高到1.85澳元，因为信件数量已经跌到上世纪30年代以来未见的低位。对大多数家庭来说，这次涨幅不大，但它反映出在数字通讯取代纸质信件后，维持全国邮政网络的成本仍在上升。优惠邮票和节日贺卡邮票保持不变，这让部分用户的影响略微减轻。接下来要看的是9月的正式执行，以及堪培拉是否会有进一步回应。",
+      "differences": [],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/stamp-price-increase-approved-as-australia-post-says-letter-volumes-are-at-1930s-levels/news-story/0668d893eabfa3b88179a2be8525efb9"
+        }
+      ]
+    },
+    {
+      "id": "nt-clp-closing-the-gap-funding",
+      "headline": "北领地原住民团体要求CLP说明Closing the Gap资金去向",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:06:00Z",
+      "voiceScript": "北领地的原住民团体正在要求CLP政府说明Closing the Gap资金到底花在了哪里，并认为公众需要更清楚的问责。这个争议之所以重要，是因为这些资金本来要改善住房、医疗和司法结果，如果进展拖延或监督不足，社区就可能拿不到项目应有的服务。它也进一步引出一个更大的问题：北领地到底在多大程度上完成了原住民相关目标。接下来要看的是政府怎么回应，以及是否会公布更多支出细节。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/nt-child-protection-changes-closing-the-gap-financial-penalties/106961540"
+        }
+      ]
+    },
     {
       "id": "ben-carroll-victoria-royal-commission",
       "headline": "Ben Carroll接手维州工党 试图稳住局面",
@@ -203,15 +231,27 @@
     },
     {
       "id": "one-nation-qld-missing-financial-statements",
-      "headline": "一国党面临补交昆州账目期限",
-      "sourceCount": 1,
+      "headline": "一国党昆州分部面临合规最后期限",
+      "sourceCount": 3,
       "publishedAt": "2026-07-29T04:56:00Z",
-      "voiceScript": "一国党表示，将补交昆州分部拖欠了三年的账目。监管机构此前已警告，如果文件继续缺失，这个分部可能面临被注销的风险。相关欠交文件覆盖2023到2025财年，昆州公平交易办公室给出的审计报表期限是8月18日。此事重要在于，它关系到政党合规、内部账务和文件不完整时可能面临的处罚。接下来要看的是，这个党能否在期限前补齐，还是会触发调查与罚则。",
-      "differences": [],
+      "voiceScript": "昆州监管机构已要求一国党在8月18日前补交三年的财务报表，否则该协会可能被取消资格。缺失的文件涵盖2023年至2025年，也让这起事件变成对该党内部管理的新考验。之所以重要，是因为合规失误可能引发处罚、损害公众信任，也会让本就承受政治压力的政党更加被动。接下来要看的是报表能否按时补齐，还是监管机构会直接启动执行程序。",
+      "differences": [
+        "ABC 把重点放在8月18日的最后期限和被注销风险上。",
+        "The Guardian 将其视为合规失败，并指出其在昆州的政治后果。",
+        "AFR 强调缺失记录以及 Jim Chalmers 的反应。"
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/qld-pauline-hanson-one-nation-financial-statements/106972240"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/missing-financial-records-put-one-nation-at-risk-in-queensland-20260729-p60jlr"
         }
       ]
     },
@@ -276,15 +316,32 @@
     },
     {
       "id": "pump-price-relief-ends-oil-risks",
-      "headline": "油价减免即将结束，国际原油风险仍在",
-      "sourceCount": 1,
+      "headline": "燃油补贴即将结束，汽油价格又在上升",
+      "sourceCount": 4,
       "publishedAt": "2026-07-29T03:59:54Z",
-      "voiceScript": "临时燃油减免将在周一结束，司机在加油站付的钱会更高，但全球原油市场仍然不稳定。这个变化之所以重要，是因为燃油成本会很快传导到家庭开支、货运和食品价格。若汽油价格继续跟随外部冲击上行，通勤者和偏远地区司机会最先感受到压力。接下来要看的是，减免取消后油价会不会稳定下来，还是继续跟着海外局势波动。",
-      "differences": [],
+      "voiceScript": "澳大利亚的临时燃油折扣将于8月2日结束，而多个城市的汽油价格已经重新逼近或超过每升2澳元。这个变化之所以重要，是因为燃油会迅速传导到货运、食品和家庭预算，油泵上的小幅波动很快就会变成实际压力。财政部和市场观察人士都把这波上涨归因于全球油价走高和中东局势紧张。接下来要看的是，消费税优惠结束后价格会不会稳定，还是会继续跟着海外冲击上行。",
+      "differences": [
+        "ABC 重点放在消费税优惠到期和对司机的即时影响。",
+        "The Guardian 把汽油上涨放进更广泛的家庭压力和加息风险里。",
+        "news.com.au 强调财政部预警以及各城市加油站的价格。",
+        "AAP 则把重点放在汽油重回每升2澳元上方和更大的经济前景。"
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/fuel-excise-discount-ends-iran-war-oil-prices/106971298"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/australian-economy/australians-facing-fresh-fuel-nightmare-as-treasury-briefing-warns-price-pressures-may-intensify-as-middle-east-conflict-continues/news-story/4f124e67768d0d6d8271c4e5be95be68"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/higher-rates-and-pricey-petrol-as-economic-outlook-dims"
         }
       ]
     },
@@ -378,11 +435,15 @@
     },
     {
       "id": "sa-bird-flu-sea-lions",
-      "headline": "南澳禽流感疑云加重，本地传播迹象越来越强",
-      "sourceCount": 2,
+      "headline": "鸟类流感似乎正在南澳野生动物中传播",
+      "sourceCount": 3,
       "publishedAt": "2026-07-29T02:58:20Z",
-      "voiceScript": "南澳州新增多起 H5 禽流感疑似病例，官方现在认为本地传播很可能已经发生。重点落在袋鼠岛和州东南部，海狮和其他野生动物都在密切监测之中。之所以重要，是因为一旦不再只是零星发现，野生动物和周边农业都会很快面临更大的生物安全压力。下一步是实验室确认结果，以及继续追踪海岸和岛屿周边的样本。",
-      "differences": [],
+      "voiceScript": "南澳现在面临更广泛的H5禽流感问题，官方表示当地传播很可能已经发生，而且州南东部出现了更多疑似病例。令人担心的是，病毒可能正在野生动物之间扩散，而不只是停留在个别鸟类身上，这会让控制更困难，也会增加海狮和附近家禽的风险。之所以重要，是因为一旦病毒在野外站稳脚跟，生物安全应对就会复杂得多。接下来要看的是实验室确认结果，以及海岸和繁殖地的持续监测。",
+      "differences": [
+        "ABC 重点放在本地传播和监测应对上。",
+        "The Guardian 强调林肯海岸的疑似病例和野生动物扩散。",
+        "AAP 突出海狮群落风险以及更广泛的野生动物威胁。"
+      ],
       "links": [
         {
           "source": "ABC News",
@@ -390,7 +451,11 @@
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/h5-bird-flu-suspected-new-cases-south-australia"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/extremely-likely-bird-flu-now-spreading-in-wildlife"
         }
       ]
     },

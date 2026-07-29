@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T06:14:28.639Z",
+  "updatedAt": "2026-07-29T07:15:46.839Z",
   "generatedBy": "codex",
   "sources": [
     {
@@ -100,10 +100,38 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; Yahoo News Australia is accessible again.",
-    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used."
+    "The Australian still redirects to a cookie wall, and Sky News Australia still redirects to News24 nocookies; news.com.au RSS was not reliably parseable, so latest-page and search fallbacks were used.",
+    "A few current stories only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
   ],
   "clusters": [
+    {
+      "id": "australia-post-stamp-rise",
+      "headline": "Australia Post will lift stamp prices again in September",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:30:00Z",
+      "voiceScript": "Australia Post plans to raise the price of a standard stamp to $1.85 from 1 September, after letter volumes sank to levels not seen since the 1930s. The increase is small for most households, but it matters because the cost of keeping a nationwide letter service running keeps rising as digital messaging replaces mail. Concession and greeting stamps stay unchanged, which softens the hit for some users. The next step is the final implementation in September and any response from Canberra.",
+      "differences": [],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/stamp-price-increase-approved-as-australia-post-says-letter-volumes-are-at-1930s-levels/news-story/0668d893eabfa3b88179a2be8525efb9"
+        }
+      ]
+    },
+    {
+      "id": "nt-clp-closing-the-gap-funding",
+      "headline": "NT Aboriginal groups press CLP on Closing the Gap spending",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:06:00Z",
+      "voiceScript": "Aboriginal groups in the Northern Territory are pressing the CLP government over how Closing the Gap money is being spent, arguing the public needs clearer accountability. The dispute matters because the funding is meant to improve housing, health and justice outcomes, and delays or weak oversight can leave communities without the services the program is supposed to fund. It also feeds into a wider argument about how well the territory is meeting Indigenous targets. The next step is the government's response and whether it releases more detail on spending.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/nt-child-protection-changes-closing-the-gap-financial-penalties/106961540"
+        }
+      ]
+    },
     {
       "id": "ben-carroll-victoria-royal-commission",
       "headline": "Ben Carroll resets Victoria's leadership after Allan's exit",
@@ -203,15 +231,27 @@
     },
     {
       "id": "one-nation-qld-missing-financial-statements",
-      "headline": "One Nation faces deadline to file Queensland accounts",
-      "sourceCount": 1,
+      "headline": "One Nation's Queensland branch faces a compliance deadline",
+      "sourceCount": 3,
       "publishedAt": "2026-07-29T04:56:00Z",
-      "voiceScript": "One Nation says it will lodge three years of overdue Queensland division accounts after regulators warned the branch could be cancelled. The missing filings cover 2023 to 2025 and the Office of Fair Trading has set an 18 August deadline for audited statements. The case matters because it goes to party compliance, internal bookkeeping and the risk of sanctions if the paperwork stays incomplete. The next step is whether the party meets the deadline or faces an investigation and possible penalties.",
-      "differences": [],
+      "voiceScript": "Queensland regulators have given One Nation until 18 August to lodge three years of overdue financial statements or face cancellation of the association. The missing paperwork covers 2023 to 2025 and has turned into a fresh test of the party's internal controls. It matters because compliance failures can trigger penalties, damage public trust and complicate a party already under political pressure. The next step is whether the filings arrive on time or the regulator moves to enforce the deadline.",
+      "differences": [
+        "ABC centers the 18 August deadline and the deregistration risk.",
+        "The Guardian frames it as a compliance failure with political fallout in Queensland.",
+        "AFR highlights the missing records and Jim Chalmers' reaction."
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/qld-pauline-hanson-one-nation-financial-statements/106972240"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/missing-financial-records-put-one-nation-at-risk-in-queensland-20260729-p60jlr"
         }
       ]
     },
@@ -276,15 +316,32 @@
     },
     {
       "id": "pump-price-relief-ends-oil-risks",
-      "headline": "Pump-price relief ends as oil risks stay elevated",
-      "sourceCount": 1,
+      "headline": "Fuel relief is ending just as petrol climbs again",
+      "sourceCount": 4,
       "publishedAt": "2026-07-29T03:59:54Z",
-      "voiceScript": "A temporary fuel discount is due to end on Monday, so drivers will pay more at the bowser even though global oil markets are still unstable. The story matters because fuel costs flow quickly into household budgets, freight and food prices. Regional motorists and commuters will feel it first if petrol follows the same direction. The next question is whether prices settle after the discount disappears or keep tracking overseas shocks.",
-      "differences": [],
+      "voiceScript": "Australia's temporary fuel discount is ending on 2 August, and drivers are already seeing petrol move back toward or above $2 a litre in many cities. The squeeze matters because fuel feeds straight into freight, groceries and mortgage pressure, so a small bowser change can quickly reach household budgets. Treasury and market watchers are linking the move to higher global oil prices and wider Middle East tensions. The next step is whether prices stabilise after the excise cut ends or climb further if overseas shocks continue.",
+      "differences": [
+        "ABC focuses on the excise deadline and the immediate cash impact on drivers.",
+        "The Guardian ties the petrol rise to wider household pressure and rate risk.",
+        "news.com.au highlights Treasury warnings and the city-by-city pump prices.",
+        "AAP frames the story around petrol above $2 and the broader economic outlook."
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/fuel-excise-discount-ends-iran-war-oil-prices/106971298"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/australian-economy/australians-facing-fresh-fuel-nightmare-as-treasury-briefing-warns-price-pressures-may-intensify-as-middle-east-conflict-continues/news-story/4f124e67768d0d6d8271c4e5be95be68"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/higher-rates-and-pricey-petrol-as-economic-outlook-dims"
         }
       ]
     },
@@ -378,11 +435,15 @@
     },
     {
       "id": "sa-bird-flu-sea-lions",
-      "headline": "South Australian bird flu risk rises as local spread looks likely",
-      "sourceCount": 2,
+      "headline": "Bird flu appears to be spreading through South Australian wildlife",
+      "sourceCount": 3,
       "publishedAt": "2026-07-29T02:58:20Z",
-      "voiceScript": "South Australia has recorded more suspected H5 bird flu cases, and authorities now say local spread is very likely. The focus is Kangaroo Island and the state’s south-east, where sea lions and other wildlife are being watched closely. This matters because once detections move beyond isolated cases, wildlife and nearby agriculture can face a much bigger biosecurity problem. The next step is laboratory confirmation and continued monitoring of the coastline and islands.",
-      "differences": [],
+      "voiceScript": "South Australia now faces a much wider H5 bird flu problem, with authorities saying local transmission is very likely and suspected cases appearing across the state's south-east. The concern is that the virus may be moving through wildlife rather than staying in isolated birds, which makes containment harder and raises risks for sea lions and nearby poultry. That matters because biosecurity response gets far more complex once spread is established in the wild. The next step is laboratory confirmation and continued surveillance of the coast and breeding sites.",
+      "differences": [
+        "ABC focuses on local transmission and the surveillance response.",
+        "The Guardian emphasises the suspected cases in the Limestone Coast and wildlife spread.",
+        "AAP highlights the risk to sea lion colonies and the broader wildlife threat."
+      ],
       "links": [
         {
           "source": "ABC News",
@@ -390,7 +451,11 @@
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/h5-bird-flu-suspected-new-cases-south-australia"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/extremely-likely-bird-flu-now-spreading-in-wildlife"
         }
       ]
     },
