@@ -56,6 +56,14 @@ const FONT_SIZE_OPTIONS = [
   { code: "xlarge", label: "XL", scale: 1.24 }
 ];
 
+const POLICY_LINKS = [
+  { href: "./about.html", label: "About" },
+  { href: "./editorial-policy.html", label: "Editorial" },
+  { href: "./privacy.html", label: "Privacy" },
+  { href: "./terms.html", label: "Terms" },
+  { href: "./corrections.html", label: "Corrections" }
+];
+
 const THEME_OPTIONS = [
   {
     code: "classic",
@@ -213,7 +221,7 @@ const I18N = {
     install: "安装到设备",
     sources: "来源",
     noticeTitle: "内容说明",
-    noticeText: "本站只提供基于公开来源事实重新撰写的简报和原始链接，不复制新闻原文、图片、视频、音频或官方标志。",
+    noticeText: "摘要由 AI 基于公开来源生成，可能存在错误，请以原始来源为准。本站只提供重新撰写的简报和原始链接，不复制新闻原文、图片、视频、音频或官方标志。",
     readAloud: "朗读",
     speechUnavailable: "此设备暂无对应语音",
     stopReading: "停止朗读",
@@ -240,7 +248,7 @@ const I18N = {
     install: "安裝到裝置",
     sources: "來源",
     noticeTitle: "內容說明",
-    noticeText: "本站只提供基於公開來源事實重新撰寫的簡報和原始連結，不複製新聞原文、圖片、影片、音訊或官方標誌。",
+    noticeText: "摘要由 AI 基於公開來源生成，可能存在錯誤，請以原始來源為準。本站只提供重新撰寫的簡報和原始連結，不複製新聞原文、圖片、影片、音訊或官方標誌。",
     readAloud: "朗讀",
     speechUnavailable: "此裝置暫無對應語音",
     stopReading: "停止朗讀",
@@ -267,7 +275,7 @@ const I18N = {
     install: "ස්ථාපනය",
     sources: "මූලාශ්‍ර",
     noticeTitle: "අන්තර්ගත සටහන",
-    noticeText: "මෙම අඩවිය පොදු මූලාශ්‍රවලින් තහවුරු කළ කරුණු මත නැවත ලියූ කෙටි පුවත් සහ මුල් සබැඳි පමණක් සපයයි; මුල් පුවත් පෙළ, රූප, වීඩියෝ, ශ්‍රව්‍ය හෝ නිල ලාංඡන පිටපත් නොකරයි.",
+    noticeText: "Summaries are AI-generated from public sources and may contain errors. Check original sources for full context. This site provides rewritten briefs and source links only.",
     readAloud: "ශබ්දයෙන් කියවන්න",
     speechUnavailable: "මෙම උපාංගයේ ගැළපෙන හඬක් නොමැත",
     stopReading: "කියවීම නවත්වන්න",
@@ -294,7 +302,7 @@ const I18N = {
     install: "Install",
     sources: "Sources",
     noticeTitle: "Content note",
-    noticeText: "This site provides rewritten briefings based on facts from public sources plus source links. It does not copy article text, images, video, audio, or official logos.",
+    noticeText: "Summaries are AI-generated from public sources and may contain errors. Check original sources for full context. This site provides rewritten briefs and source links only.",
     readAloud: "Read aloud",
     speechUnavailable: "No matching voice on this device",
     stopReading: "Stop reading",
@@ -321,7 +329,7 @@ const I18N = {
     install: "インストール",
     sources: "ソース",
     noticeTitle: "コンテンツ注記",
-    noticeText: "このサイトは公開ソースの事実に基づいて書き直した簡報と元リンクのみを提供し、記事本文、画像、動画、音声、公式ロゴはコピーしません。",
+    noticeText: "Summaries are AI-generated from public sources and may contain errors. Check original sources for full context. This site provides rewritten briefs and source links only.",
     readAloud: "読み上げ",
     speechUnavailable: "この端末に対応する音声がありません",
     stopReading: "読み上げを停止",
@@ -348,7 +356,7 @@ const I18N = {
     install: "설치",
     sources: "출처",
     noticeTitle: "콘텐츠 안내",
-    noticeText: "이 사이트는 공개 출처의 사실을 바탕으로 다시 작성한 브리핑과 원문 링크만 제공하며 기사 본문, 이미지, 동영상, 오디오, 공식 로고를 복사하지 않습니다.",
+    noticeText: "Summaries are AI-generated from public sources and may contain errors. Check original sources for full context. This site provides rewritten briefs and source links only.",
     readAloud: "읽어주기",
     speechUnavailable: "이 기기에 맞는 음성이 없습니다",
     stopReading: "읽기 중지",
@@ -375,7 +383,7 @@ const I18N = {
     install: "Cài đặt",
     sources: "Nguồn",
     noticeTitle: "Ghi chú nội dung",
-    noticeText: "Trang này chỉ cung cấp bản tin được viết lại dựa trên sự kiện từ các nguồn công khai và liên kết gốc; không sao chép văn bản bài báo, hình ảnh, video, âm thanh hoặc logo chính thức.",
+    noticeText: "Summaries are AI-generated from public sources and may contain errors. Check original sources for full context. This site provides rewritten briefs and source links only.",
     readAloud: "Đọc thành tiếng",
     speechUnavailable: "Thiết bị này chưa có giọng phù hợp",
     stopReading: "Dừng đọc",
@@ -402,7 +410,7 @@ const I18N = {
     install: "ติดตั้ง",
     sources: "แหล่งข่าว",
     noticeTitle: "หมายเหตุเนื้อหา",
-    noticeText: "ไซต์นี้ให้เฉพาะสรุปข่าวที่เขียนใหม่จากข้อเท็จจริงในแหล่งข้อมูลสาธารณะพร้อมลิงก์ต้นทาง ไม่คัดลอกข้อความข่าว รูปภาพ วิดีโอ เสียง หรือโลโก้ทางการ",
+    noticeText: "Summaries are AI-generated from public sources and may contain errors. Check original sources for full context. This site provides rewritten briefs and source links only.",
     readAloud: "อ่านออกเสียง",
     speechUnavailable: "อุปกรณ์นี้ไม่มีเสียงที่รองรับ",
     stopReading: "หยุดอ่าน",
@@ -1114,6 +1122,14 @@ function App() {
             <summary>{labels.noticeTitle}</summary>
             <p>{labels.noticeText}</p>
           </details>
+
+          <nav className="policy-links" aria-label="Site policies">
+            {POLICY_LINKS.map((link) => (
+              <a href={link.href} key={link.href}>
+                {link.label}
+              </a>
+            ))}
+          </nav>
         </div>
       </aside>
 
