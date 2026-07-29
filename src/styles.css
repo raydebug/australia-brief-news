@@ -46,6 +46,7 @@ a:focus-visible {
 }
 
 .app-shell {
+  font-family: var(--app-font-family);
   display: grid;
   grid-template-columns: 300px minmax(320px, 440px) minmax(0, 1fr);
   height: 100vh;
@@ -155,7 +156,8 @@ p {
 }
 
 .status-strip div,
-.app-status {
+.app-status,
+.font-control {
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 10px;
@@ -172,18 +174,38 @@ p {
   font-size: 13px;
 }
 
-.app-status div {
+.app-status div,
+.font-control {
   display: flex;
   align-items: center;
   gap: 8px;
   min-width: 0;
 }
 
+.font-control {
+  justify-content: space-between;
+  color: #3f4b53;
+  font-size: 13px;
+}
+
 .status-strip span,
-.app-status span {
+.app-status span,
+.font-control span {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.font-control select {
+  min-width: 0;
+  max-width: 160px;
+  height: 32px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--brand);
+  padding: 0 8px;
+  cursor: pointer;
 }
 
 .search-box {

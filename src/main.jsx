@@ -26,6 +26,29 @@ const LANGUAGES = [
   { code: "th", label: "ไทย" }
 ];
 
+const FONT_OPTIONS = [
+  {
+    code: "system",
+    label: "System",
+    stack: 'Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif'
+  },
+  {
+    code: "news",
+    label: "News Sans",
+    stack: '"Avenir Next", Avenir, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif'
+  },
+  {
+    code: "serif",
+    label: "Serif",
+    stack: 'Georgia, "Times New Roman", "Noto Serif CJK SC", "Songti SC", SimSun, serif'
+  },
+  {
+    code: "mono",
+    label: "Mono",
+    stack: '"SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace'
+  }
+];
+
 const I18N = {
   "zh-Hans": {
     appName: "4news",
@@ -41,6 +64,7 @@ const I18N = {
     multi: "多源",
     single: "单源",
     reload: "重新读取",
+    font: "字体",
     install: "安装到设备",
     sources: "来源",
     noticeTitle: "内容说明",
@@ -65,6 +89,7 @@ const I18N = {
     multi: "多源",
     single: "單源",
     reload: "重新讀取",
+    font: "字體",
     install: "安裝到裝置",
     sources: "來源",
     noticeTitle: "內容說明",
@@ -89,6 +114,7 @@ const I18N = {
     multi: "බහු මූලාශ්‍ර",
     single: "එක් මූලාශ්‍රයක්",
     reload: "නැවත පූරණය",
+    font: "අකුරු",
     install: "ස්ථාපනය",
     sources: "මූලාශ්‍ර",
     noticeTitle: "අන්තර්ගත සටහන",
@@ -113,6 +139,7 @@ const I18N = {
     multi: "Multi-source",
     single: "Single-source",
     reload: "Reload",
+    font: "Font",
     install: "Install",
     sources: "Sources",
     noticeTitle: "Content note",
@@ -137,6 +164,7 @@ const I18N = {
     multi: "複数ソース",
     single: "単一ソース",
     reload: "再読み込み",
+    font: "フォント",
     install: "インストール",
     sources: "ソース",
     noticeTitle: "コンテンツ注記",
@@ -161,6 +189,7 @@ const I18N = {
     multi: "복수 출처",
     single: "단일 출처",
     reload: "다시 읽기",
+    font: "글꼴",
     install: "설치",
     sources: "출처",
     noticeTitle: "콘텐츠 안내",
@@ -185,6 +214,7 @@ const I18N = {
     multi: "Nhiều nguồn",
     single: "Một nguồn",
     reload: "Tải lại",
+    font: "Phông chữ",
     install: "Cài đặt",
     sources: "Nguồn",
     noticeTitle: "Ghi chú nội dung",
@@ -209,6 +239,7 @@ const I18N = {
     multi: "หลายแหล่ง",
     single: "แหล่งเดียว",
     reload: "โหลดใหม่",
+    font: "ฟอนต์",
     install: "ติดตั้ง",
     sources: "แหล่งข่าว",
     noticeTitle: "หมายเหตุเนื้อหา",
@@ -284,6 +315,12 @@ function initialLanguage() {
   const stored = window.localStorage.getItem("brief-language");
   if (stored && I18N[stored]) return stored;
   return normalizeLanguage(navigator.language);
+}
+
+function initialFont() {
+  const stored = window.localStorage.getItem("brief-font");
+  if (FONT_OPTIONS.some((option) => option.code === stored)) return stored;
+  return "system";
 }
 
 function newsSourceUrl(language) {
@@ -564,11 +601,13 @@ function App() {
   const [online, setOnline] = useState(navigator.onLine);
   const [toolsOpen, setToolsOpen] = useState(false);
   const [language, setLanguage] = useState(initialLanguage);
+  const [font, setFont] = useState(initialFont);
   const [speakingId, setSpeakingId] = useState(null);
   const [speechVoices, setSpeechVoices] = useState([]);
   const speechRunRef = useRef(0);
 
   const labels = I18N[language];
+  const selectedFont = FONT_OPTIONS.find((option) => option.code === font) || FONT_OPTIONS[0];
   const activeNewsSourceUrl = newsSourceUrl(language);
   const canSpeak = "speechSynthesis" in window && "SpeechSynthesisUtterance" in window;
 
@@ -598,6 +637,10 @@ function App() {
       setSpeakingId(null);
     }
   }, [language]);
+
+  useEffect(() => {
+    window.localStorage.setItem("brief-font", font);
+  }, [font]);
 
   useEffect(() => {
     return () => {
@@ -735,7 +778,7 @@ function App() {
   }, [activeId, clusters]);
 
   return (
-    <main className="app-shell">
+    <main className="app-shell" style={{ "--app-font-family": selectedFont.stack }}>
       <aside className="sidebar">
         <div className="brand-row">
           <div className="brand-identity">
@@ -798,6 +841,17 @@ function App() {
               onChange={(event) => setQuery(event.target.value)}
               placeholder={labels.searchPlaceholder}
             />
+          </div>
+
+          <div className="font-control">
+            <span>{labels.font}</span>
+            <select value={font} onChange={(event) => setFont(event.target.value)} aria-label={labels.font}>
+              {FONT_OPTIONS.map((option) => (
+                <option key={option.code} value={option.code}>
+                  {option.label}
+                </option>
+              ))}
+            </select>
           </div>
 
           <div className="segmented" aria-label={labels.filterLabel}>
