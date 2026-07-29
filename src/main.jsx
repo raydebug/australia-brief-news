@@ -980,9 +980,7 @@ function App() {
       <aside className="sidebar">
         <div className="brand-row">
           <div className="brand-identity">
-            <div className="brand-mark">
-              <span>4</span>
-            </div>
+            <img className="brand-mark" src="./icon.svg" alt="4News" />
             <div>
               <h1>{labels.appName}</h1>
               <span className="brand-subtitle">{labels.appSubtitle}</span>

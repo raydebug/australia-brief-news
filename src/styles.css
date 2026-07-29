@@ -96,16 +96,7 @@ a:focus-visible {
 }
 
 .brand-mark {
-  background: var(--brand-strong);
-  color: #ffffff;
-  font-size: 24px;
-  font-weight: 900;
-  line-height: 1;
-}
-
-.brand-mark span {
   display: block;
-  transform: translateY(-1px);
 }
 
 .mobile-tools-toggle {
