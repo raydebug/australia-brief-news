@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T19:11:23Z",
+  "updatedAt": "2026-07-29T20:13:11.258Z",
   "generatedBy": "codex",
   "language": "th",
   "sources": [
@@ -105,6 +105,20 @@
     "A few fresh stories were still only available from one Australia-focused source at update time, so some new clusters remain single-source until more coverage appears."
   ],
   "clusters": [
+    {
+      "id": "queensland-disability-council-vacancies",
+      "headline": "สภาคนพิการของควีนส์แลนด์ยังมีที่นั่งว่างหลังผ่านไปหนึ่งปี",
+      "publishedAt": "2026-07-29T19:35:28Z",
+      "voiceScript": "สภาคนพิการของควีนส์แลนด์ยังมีที่นั่งว่างมานานเกือบหนึ่งปี ทำให้เสียงของผู้มีประสบการณ์จริงยังไม่ได้เข้าไปอยู่ในวงตัดสินใจอย่างเต็มที่ เรื่องนี้สำคัญเพราะสภามีหน้าที่นำข้อเสนอจากประสบการณ์จริงไปสู่การตัดสินใจเรื่องการเข้าถึงบริการและการปฏิรูปต่าง ๆ คำถามเร่งด่วนคือจะมีการแต่งตั้งเมื่อไร และความล่าช้านี้ทำให้รัฐบาลได้ยินมุมมองแคบลงแล้วหรือยัง จนกว่าจะเติมที่นั่งเหล่านี้ ช่องว่างด้านการเป็นตัวแทนก็ยังเป็นหัวใจของข่าวนี้",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/qld-disability-council-queensland-vacancy/106970710"
+        }
+      ],
+      "sourceCount": 1
+    },
     {
       "id": "australian-solar-bottleneck",
       "headline": "บูมพลังงานแสงอาทิตย์ของออสเตรเลียกำลังติดปัญหาการก่อสร้าง",
@@ -413,7 +427,7 @@
     {
       "id": "leadership",
       "headline": "วิกตอเรียเปลี่ยนผู้นำ Ben Carroll ขึ้นเป็นนายกฯ หลัง Jacinta Allan ลาออก",
-      "sourceCount": 6,
+      "sourceCount": 8,
       "publishedAt": "2026-07-29T07:55:06.000Z",
       "voiceScript": "Ben Carroll สาบานตนรับตำแหน่งผู้นำรัฐวิกตอเรียคนใหม่หลังจาก Jacinta Allan ก้าวลงจากตำแหน่ง เขาบอกว่าจะตั้ง royal commission ตรวจสอบภาคก่อสร้างของรัฐ และใช้ช่วงเปลี่ยนผ่านนี้ปรับทิศทางรัฐบาลก่อนการเลือกตั้งเดือนพฤศจิกายน เรื่องนี้สำคัญเพราะเกิดขึ้นเพียงไม่กี่เดือนก่อนวันเลือกตั้ง และอาจเปลี่ยนทั้งแผนหาเสียงของ Labor และแรงกดดันรอบ Big Build ขั้นต่อไปคือดูว่า Carroll จะคุมพรรคได้เร็วแค่ไหน และการสอบสวนจะขยายผลทางการเมืองหรือไม่",
       "differences": [
@@ -422,7 +436,8 @@
         "SBS News เน้นความจำเป็นในการประคองรัฐบาลหลัง Allan ลาออก.",
         "news.com.au เน้นรอยร้าวภายในพรรคและการท้าชิงของ Sonya Kilkenny.",
         "AAP News ชี้ว่าหากไม่มีคู่แข่ง การเปลี่ยนผ่านอาจเกิดขึ้นเร็วมาก.",
-        "9News มองว่าเป็นการประชุมพรรคที่ดราม่าก่อน Carroll กล่าวสุนทรพจน์ครั้งแรก."
+        "9News มองว่าเป็นการประชุมพรรคที่ดราม่าก่อน Carroll กล่าวสุนทรพจน์ครั้งแรก.",
+        "Australian Financial Review เน้นความคาดหวังของภาคธุรกิจและบททดสอบนโยบายสถานที่ทำงานของผู้นำคนใหม่"
       ],
       "links": [
         {
@@ -464,6 +479,30 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/29/daniel-andrews-statement-ben-carroll-victoria-state-election-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/work/at-work/ben-carrolls-first-day-as-premier-marred-by-technical-difficulties-in-gimmick-press-conference/news-story/2113bec1a7254fb35f8b51925b815891"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/victoria/victorias-new-premier-live-coverage-of-ben-carrolls-first-full-day-on-the-job/live-coverage/82bcfc26dcfebbc4a2d8c1455bed4f48"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/new-victoria-premier-carroll-set-to-make-changes-to-wfh-laws-20260729-p60jjg"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/chanticleer/victoria-s-new-premier-says-the-five-words-business-wanted-to-hear-20260728-p60jai"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/victoria-labor-party-leadership-jacinta-allan-ben-carroll/106973322"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/from-kmart-to-premier-ben-carroll-s-political-rise"
         }
       ]
     },
@@ -771,7 +810,7 @@
     {
       "id": "june-inflation-eases-rate-hike-odds",
       "headline": "เงินเฟ้อเดือนมิถุนายนชะลอลง ลดแรงกดดันต่อดอกเบี้ยเดือนสิงหาคม",
-      "sourceCount": 5,
+      "sourceCount": 6,
       "publishedAt": "2026-07-29T04:21:32.000Z",
       "voiceScript": "อัตราเงินเฟ้อรายปีของออสเตรเลียลดลงมาอยู่ที่ 3.8% ในเดือนมิถุนายน ขณะที่ตัวชี้วัดเงินเฟ้อพื้นฐานที่ธนาคารกลางติดตามใกล้ชิดยังอยู่ที่ 3.6% ตัวเลขที่อ่อนลงช่วยลดแรงกดดันต่อครัวเรือนและทำให้ตลาดลดโอกาสที่ดอกเบี้ยจะถูกขึ้นในเดือนสิงหาคมลง แม้ราคาที่อยู่อาศัย ค่าเช่า และบริการต่าง ๆ ยังเหนียวอยู่ เหตุผลที่สำคัญคือธนาคารกลางจะประชุมอีกครั้งในอีกสองสัปดาห์ และการตัดสินใจครั้งต่อไปจะกำหนดต้นทุนการกู้ยืม การใช้จ่าย และความเชื่อมั่น ประเด็นที่ยังต้องจับตาคือราคาน้ำมัน ที่อยู่อาศัย และแรงกระแทกด้านอุปทานอื่น ๆ จะส่งผ่านไปยังตัวเลขเงินเฟ้อรอบถัดไปต่อเนื่องหรือไม่",
       "differences": [
@@ -779,7 +818,8 @@
         "อีกบทความชี้ว่าภาระสินเชื่อบ้านเบาลงแต่ราคาบริการยังเหนียว",
         "ตลาดปรับคาดการณ์ดอกเบี้ยใหม่",
         "อีกแหล่งมองว่าโอกาสขึ้นดอกเบี้ยในเดือนสิงหาคมลดลง",
-        "บทสรุปสั้น ๆ มองว่าเป็นสัญญาณดี แต่แรงกดดันพื้นฐานยังอยู่"
+        "บทสรุปสั้น ๆ มองว่าเป็นสัญญาณดี แต่แรงกดดันพื้นฐานยังอยู่",
+        "news.com.au เน้นการผ่อนคลายชั่วคราวของผู้กู้บ้าน การคาดการณ์ของธนาคาร และปฏิกิริยาทันทีของตลาด"
       ],
       "links": [
         {
@@ -805,6 +845,10 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/june-2026-inflation-falls-to-3-8-per-cent/ikupactu0"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/interest-rates/mortgage-holders-on-notice-as-critical-inflation-figures-released/news-story/bc4797b3448dd8704c68943041e0c015"
         }
       ]
     },
@@ -1460,13 +1504,14 @@
     {
       "id": "wa-oil-refinery-study",
       "headline": "เวสเทิร์นออสเตรเลียเปิดทางศึกษาการสร้างโรงกลั่นน้ำมันแห่งใหม่",
-      "sourceCount": 4,
+      "sourceCount": 6,
       "publishedAt": "2026-07-28T07:23:54Z",
       "voiceScript": "รัฐบาลกลางและรัฐบาลเวสเทิร์นออสเตรเลียจะศึกษาว่าสามารถสร้างโรงกลั่นน้ำมันขนาดใหญ่แห่งใหม่ใกล้ Karratha ในเขต Pilbara ได้หรือไม่ โครงการนี้อาจเป็นโรงกลั่นใหม่แห่งแรกของออสเตรเลียนับตั้งแต่ทศวรรษ 1960 และถูกเสนอว่าเป็นมาตรการเพิ่มความมั่นคงด้านเชื้อเพลิงในช่วงที่ตลาดน้ำมันโลกผันผวน ตัวเลขสำคัญคือวงเงินศึกษาความเป็นไปได้ 4 ล้านดอลลาร์ การพึ่งพาเชื้อเพลิงนำเข้าที่สูง และคำถามว่ายังมีความคุ้มค่าพอจะเดินหน้าต่อหรือไม่ ตอนนี้ยังเป็นเพียงสัญญาณเชิงนโยบาย ไม่ใช่การเริ่มก่อสร้าง",
       "differences": [
         "ABC News: เน้นพื้นที่ Karratha/Pilbara และเหตุผลเรื่องความยืดหยุ่นของประเทศ",
         "SBS News: เน้นว่าอาจกลายเป็นโรงกลั่นแห่งที่สามของออสเตรเลีย และชี้ให้เห็นการพึ่งพาเชื้อเพลิงนำเข้า",
-        "The Guardian Australia: วางกรอบไว้ที่เงินเฟ้อและแรงกระแทกราคาน้ำมันจากความขัดแย้งในตะวันออกกลาง"
+        "The Guardian Australia: วางกรอบไว้ที่เงินเฟ้อและแรงกระแทกราคาน้ำมันจากความขัดแย้งในตะวันออกกลาง",
+        "news.com.au มองโครงการโรงกลั่นนี้เป็นมาตรการความมั่นคงด้านเชื้อเพลิงของ WA และการตอบสนองต่อแรงกระแทกราคาทั่วโลก"
       ],
       "links": [
         {
@@ -1484,6 +1529,14 @@
         {
           "source": "AAP News",
           "url": "https://aapnews.aap.com.au/news/third-oil-refinery-on-cards-to-help-shield-australia"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/new-oil-refinery-planned-for-wa-to-secure-australias-fuel-supply/news-story/03fc4bceb105fa2328ddec972868d9dd"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
         }
       ]
     },

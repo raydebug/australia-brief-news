@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T19:11:23Z",
+  "updatedAt": "2026-07-29T20:13:11.241Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -105,6 +105,20 @@
     "A few fresh stories were still only available from one Australia-focused source at update time, so some new clusters remain single-source until more coverage appears."
   ],
   "clusters": [
+    {
+      "id": "queensland-disability-council-vacancies",
+      "headline": "Queensland leaves disability council seats unfilled a year on",
+      "publishedAt": "2026-07-29T19:35:28Z",
+      "voiceScript": "Queensland's disability council has gone almost a year with vacant seats, leaving advocates without a full formal voice in the room. That matters because the council is supposed to feed lived-experience advice into decisions on access, services and reform. The immediate question is when the appointments will be made and whether the delay has already narrowed the range of views government is hearing. Until the seats are filled, the gap in representation remains part of the story.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/qld-disability-council-queensland-vacancy/106970710"
+        }
+      ],
+      "sourceCount": 1
+    },
     {
       "id": "australian-solar-bottleneck",
       "headline": "Australia's solar boom now runs into the build problem",
@@ -413,7 +427,7 @@
     {
       "id": "leadership",
       "headline": "Victoria hands the premiership to Ben Carroll after Allan steps aside",
-      "sourceCount": 6,
+      "sourceCount": 8,
       "publishedAt": "2026-07-29T07:55:06.000Z",
       "voiceScript": "Ben Carroll has been sworn in as Victoria's new premier after Jacinta Allan stepped aside in a fast-moving Labor leadership switch. He says he will launch a royal commission into the state's construction sector and use the transition to reset the government before November's election. The move matters because it lands months before voters decide and could reshape Labor's campaign, its integrity agenda, and the pressure on the Big Build. The next test is how quickly Carroll settles the party room and whether the inquiry broadens the political fallout.",
       "differences": [
@@ -422,7 +436,8 @@
         "SBS News stresses Allan's exit and the need to stabilise the government.",
         "news.com.au emphasises the internal split and the late challenge from Sonya Kilkenny.",
         "AAP News notes the transfer avoided a prolonged leadership ballot.",
-        "9News frames it as a dramatic party-room meeting followed by Carroll's first speech as premier."
+        "9News frames it as a dramatic party-room meeting followed by Carroll's first speech as premier.",
+        "Australian Financial Review focuses on business expectations and workplace policy tests for the new premier."
       ],
       "links": [
         {
@@ -464,6 +479,30 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/29/daniel-andrews-statement-ben-carroll-victoria-state-election-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/work/at-work/ben-carrolls-first-day-as-premier-marred-by-technical-difficulties-in-gimmick-press-conference/news-story/2113bec1a7254fb35f8b51925b815891"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/victoria/victorias-new-premier-live-coverage-of-ben-carrolls-first-full-day-on-the-job/live-coverage/82bcfc26dcfebbc4a2d8c1455bed4f48"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/new-victoria-premier-carroll-set-to-make-changes-to-wfh-laws-20260729-p60jjg"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/chanticleer/victoria-s-new-premier-says-the-five-words-business-wanted-to-hear-20260728-p60jai"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/victoria-labor-party-leadership-jacinta-allan-ben-carroll/106973322"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/from-kmart-to-premier-ben-carroll-s-political-rise"
         }
       ]
     },
@@ -771,7 +810,7 @@
     {
       "id": "june-inflation-eases-rate-hike-odds",
       "headline": "June inflation cools, easing pressure on August rates",
-      "sourceCount": 5,
+      "sourceCount": 6,
       "publishedAt": "2026-07-29T04:21:32.000Z",
       "voiceScript": "Australia's annual inflation rate fell to 3.8 per cent in June, while the Reserve Bank's trimmed mean measure held at 3.6 per cent. The softer result took some pressure off households and pushed markets to scale back the chance of an August rate rise, even though housing, rents and other services are still sticky. It matters because the RBA meets again in a fortnight and the next move will shape borrowing costs, spending and confidence. The main uncertainty is whether fuel, housing and other supply shocks keep feeding into later inflation readings.",
       "differences": [
@@ -779,7 +818,8 @@
         "The Guardian Australia highlights relief for mortgage holders alongside still-sticky service inflation.",
         "Australian Financial Review emphasizes the reset in rate expectations and the rebound in shares.",
         "AAP News focuses on the lower odds of an August increase.",
-        "SBS News frames the result as a welcome sign while warning that underlying pressures remain."
+        "SBS News frames the result as a welcome sign while warning that underlying pressures remain.",
+        "news.com.au centers on mortgage relief, bank forecasts and the market reaction."
       ],
       "links": [
         {
@@ -805,6 +845,10 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/june-2026-inflation-falls-to-3-8-per-cent/ikupactu0"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/interest-rates/mortgage-holders-on-notice-as-critical-inflation-figures-released/news-story/bc4797b3448dd8704c68943041e0c015"
         }
       ]
     },
@@ -1460,13 +1504,14 @@
     {
       "id": "wa-oil-refinery-study",
       "headline": "Western Australia study opens the door to a new oil refinery",
-      "sourceCount": 4,
+      "sourceCount": 6,
       "publishedAt": "2026-07-28T07:23:54Z",
       "voiceScript": "The federal and Western Australian governments will study whether a new large-scale oil refinery can be built near Karratha in the Pilbara. The proposal would be the first refinery built in Australia since the 1960s, and it is being sold as a fuel-security move at a time of global oil shocks. The key numbers are the $4 million feasibility study, Australia's heavy dependence on imported fuel, and the still-open question of whether a project like this can be built cheaply enough to proceed. For now, it is a policy signal, not a construction start.",
       "differences": [
         "ABC News: focuses on the Karratha/Pilbara location and the resilience argument.",
         "SBS News: stresses that this could become Australia's third refinery and highlights import dependence.",
-        "The Guardian Australia: frames the plan around inflation and fuel shocks linked to the Middle East conflict."
+        "The Guardian Australia: frames the plan around inflation and fuel shocks linked to the Middle East conflict.",
+        "news.com.au frames the refinery as a fuel-security move for WA and a response to global price shocks."
       ],
       "links": [
         {
@@ -1484,6 +1529,14 @@
         {
           "source": "AAP News",
           "url": "https://aapnews.aap.com.au/news/third-oil-refinery-on-cards-to-help-shield-australia"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/new-oil-refinery-planned-for-wa-to-secure-australias-fuel-supply/news-story/03fc4bceb105fa2328ddec972868d9dd"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
         }
       ]
     },
