@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T22:20:00.324Z",
+  "updatedAt": "2026-07-30T23:10:58.448Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -541,7 +541,7 @@
     {
       "id": "nsw-reformers-icac-inquiry",
       "headline": "NSW 개혁파를 둘러싼 부패감찰기구 조사 확대, 기부와 당내 세력화 의혹 심리",
-      "sourceCount": 4,
+      "sourceCount": 6,
       "publishedAt": "2026-07-30T07:08:53.000Z",
       "voiceScript": "뉴사우스웨일스 부패감찰기구는 자유당 개혁파를 둘러싼 기부, 당원 모집, 당내 세력화 의혹을 계속 심리하고 있습니다. 증언 과정에서 앵거스 테일러의 이름도 거론됐지만 그는 부적절한 지급을 부인했습니다. 핵심은 기부 규정과 당 운영의 경계가 어디서 무너졌는지이며, 앞으로도 증인이 더 나올 예정입니다.",
       "differences": [
@@ -563,6 +563,14 @@
         {
           "source": "The Australian",
           "url": "https://www.theaustralian.com.au/nation/politics/angus-taylor-wasnt-opposed-to-conservative-subfaction-at-centre-of-icac-branchstacking-probe/news-story/d22de6f4d3b161d6f583b452ce318381"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/no-payment-was-made-liberal-leader-denies-donation"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/shakedown-liberal-leader-angus-taylor-named-in-icac-hearing/news-story/4b49442ca010c1786f683dfa01c6df46"
         }
       ],
       "language": "ko"
@@ -1634,12 +1642,28 @@
     },
     {
       "id": "emergency-alert-trial",
-      "headline": "호주의 긴급 경보 재판에서는 여전히 너무 많은 사람을 놓쳤습니다.",
-      "sourceCount": 1,
+      "headline": "호주의 긴급 경보 시험은 일부 기기가 여전히 놓치고 있음을 보여줬다",
+      "sourceCount": 4,
       "publishedAt": "2026-07-28T09:19:43Z",
-      "voiceScript": "긴급 경보 시스템의 시험은 도달할 예정이었던 모든 사람에게 도달하지 못했습니다. 설문 조사 결과에 따르면 10월 출시 전에 전국 테스트를 다시 실행해야 할 수도 있습니다. 경고는 사람들이 실제로 수신한 경우에만 작동하므로 신뢰성이 핵심 문제입니다.",
-      "differences": [],
+      "voiceScript": "호주는 새로운 전국 긴급 경보 시스템의 첫 시험을 진행해 10월 정식 도입을 앞두고 호환되는 휴대전화에 10초짜리 사이렌과 안내 메시지를 보냈다. 산불과 홍수처럼 빠르게 변하는 재난에서는 경보가 사람들에게 신속히 전달돼야만 의미가 있으므로 이번 시험은 중요하다. 안전을 위해 숨겨둔 휴대전화에 의존하는 가정에도 큰 문제다. 당국은 목표로 한 기지국 대부분에서 경보가 송출됐다고 말하지만, 일부 기기는 여전히 수신하지 못했다. 다음 단계는 부족한 구간을 점검하고 새 시스템이 기존 경보와 어떻게 함께 운영될지 확인하는 일이다.",
+      "differences": [
+        "ABC 는 시험 때 호환 휴대전화에 어떤 모습과 소리가 전달됐는지 설명한다.",
+        "AAP 는 경보가 목표 기지국의 94%에 도달해 정부의 범위 목표를 충족했다고 전한다.",
+        "SBS 는 일부 휴대전화가 경보를 받지 못한 이유와 사용자가 확인해야 할 점에 초점을 맞춘다."
+      ],
       "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/what-to-know-about-ausalert-emergency-warning-test/106919574"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/new-ausalert-warning-system-to-blast-out-national-siren"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/ausalert-test-what-if-you-dont-receive-an-alert/q2bqe4cnp"
+        },
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/ausalert-test-survey-finds-one-in-nine-australians-not-reached-during-trial-of-emergency-lifeline-c-22641479"

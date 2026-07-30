@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T22:25:04.587Z",
+  "updatedAt": "2026-07-30T23:10:58.448Z",
   "generatedBy": "codex",
   "language": "es",
   "sources": [
@@ -541,7 +541,7 @@
     {
       "id": "nsw-reformers-icac-inquiry",
       "headline": "La investigación de ICAC sobre los Reformers de NSW se amplía con preguntas sobre donaciones y maniobras internas",
-      "sourceCount": 4,
+      "sourceCount": 6,
       "publishedAt": "2026-07-30T07:08:53.000Z",
       "voiceScript": "La investigación de ICAC en Nueva Gales del Sur sobre la facción Reformers del Partido Liberal sigue centrada en supuestas donaciones irregulares, captación de miembros y maniobras internas. El nombre de Angus Taylor apareció en el testimonio, aunque él niega cualquier pago indebido. La importancia del caso es que sigue mostrando cómo pudieron haberse estirado las normas de financiación y el funcionamiento del partido, y todavía quedan testigos por declarar.",
       "differences": [
@@ -563,6 +563,14 @@
         {
           "source": "The Australian",
           "url": "https://www.theaustralian.com.au/nation/politics/angus-taylor-wasnt-opposed-to-conservative-subfaction-at-centre-of-icac-branchstacking-probe/news-story/d22de6f4d3b161d6f583b452ce318381"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/no-payment-was-made-liberal-leader-denies-donation"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/shakedown-liberal-leader-angus-taylor-named-in-icac-hearing/news-story/4b49442ca010c1786f683dfa01c6df46"
         }
       ],
       "language": "es"
@@ -1634,12 +1642,28 @@
     },
     {
       "id": "emergency-alert-trial",
-      "headline": "La prueba de alerta de emergencia de Australia todavía ignora a demasiadas personas",
-      "sourceCount": 1,
+      "headline": "La prueba australiana de alerta de emergencia mostró fallas de cobertura",
+      "sourceCount": 4,
       "publishedAt": "2026-07-28T09:19:43Z",
-      "voiceScript": "Una prueba del sistema de alerta de emergencia no llegó a todas las personas a las que debía llegar. Los resultados de la encuesta sugieren que es posible que la prueba nacional necesite otra ejecución antes del lanzamiento en octubre. La confiabilidad es la cuestión clave porque una alerta solo funciona si las personas realmente la reciben.",
-      "differences": [],
+      "voiceScript": "Australia realizó su primer ensayo nacional del nuevo sistema de alerta de emergencia, enviando una sirena de 10 segundos y un mensaje de aviso a los teléfonos compatibles antes del despliegue previsto para octubre. La prueba importa porque las alertas solo sirven si llegan rápido durante incendios, inundaciones y otras emergencias de evolución rápida, incluso en hogares que dependen de teléfonos ocultos por seguridad. Las autoridades dicen que la mayoría de las torres objetivo transmitieron el aviso, pero algunos dispositivos siguieron sin recibirlo. El siguiente paso es revisar las brechas y confirmar cómo funcionará el nuevo sistema junto con las alertas existentes.",
+      "differences": [
+        "ABC explica cómo se vio y se oyó la prueba en los teléfonos compatibles.",
+        "AAP dice que la alerta llegó al 94% de las torres objetivo y cumplió la meta del gobierno.",
+        "SBS se centra en por qué algunos teléfonos no recibieron la alerta y qué deben revisar los usuarios."
+      ],
       "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/what-to-know-about-ausalert-emergency-warning-test/106919574"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/new-ausalert-warning-system-to-blast-out-national-siren"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/ausalert-test-what-if-you-dont-receive-an-alert/q2bqe4cnp"
+        },
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/ausalert-test-survey-finds-one-in-nine-australians-not-reached-during-trial-of-emergency-lifeline-c-22641479"

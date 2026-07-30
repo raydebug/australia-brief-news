@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T22:20:00.324Z",
+  "updatedAt": "2026-07-30T23:10:58.448Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -541,7 +541,7 @@
     {
       "id": "nsw-reformers-icac-inquiry",
       "headline": "NSW改革派めぐるICAC調査拡大、寄付と枝分かれ工作の疑惑を審理",
-      "sourceCount": 4,
+      "sourceCount": 6,
       "publishedAt": "2026-07-30T07:08:53.000Z",
       "voiceScript": "ニューサウスウェールズ州のICACは、自由党改革派グループをめぐる寄付、党員勧誘、党内派閥工作の疑惑を続けて審理しています。証言ではアンガス・テイラーの名前も取り上げられましたが、彼は不適切な支払いを否定しています。注目されるのは、寄付規則と党運営の境界がどこで崩れたのかで、今後も証人が続きます。",
       "differences": [
@@ -563,6 +563,14 @@
         {
           "source": "The Australian",
           "url": "https://www.theaustralian.com.au/nation/politics/angus-taylor-wasnt-opposed-to-conservative-subfaction-at-centre-of-icac-branchstacking-probe/news-story/d22de6f4d3b161d6f583b452ce318381"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/no-payment-was-made-liberal-leader-denies-donation"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/shakedown-liberal-leader-angus-taylor-named-in-icac-hearing/news-story/4b49442ca010c1786f683dfa01c6df46"
         }
       ],
       "language": "ja"
@@ -1634,12 +1642,28 @@
     },
     {
       "id": "emergency-alert-trial",
-      "headline": "オーストラリアの緊急警報試験では依然として多くの人が逃されている",
-      "sourceCount": 1,
+      "headline": "豪州の緊急警報試験で届かない端末があることが分かった",
+      "sourceCount": 4,
       "publishedAt": "2026-07-28T09:19:43Z",
-      "voiceScript": "緊急警報システムの試験運用では、届けるべき全員に届けられませんでした。調査結果は、10月の試験開始前に国家試験を再度実施する必要がある可能性があることを示唆している。アラートは人々が実際に受信した場合にのみ機能するため、信頼性が重要な問題となります。",
-      "differences": [],
+      "voiceScript": "オーストラリアは新しい全国緊急警報システムの初回試験を実施し、10月の本格導入に向けて対応端末に10秒のサイレンと通知を送信した。山火事や洪水のように急変する災害では、警報が素早く十分な人数に届かなければ意味がないため、この試験は重要だ。身を隠して使う端末に頼る人にとっても無視できない。政府は対象基地局の多くで送信できたとしている一方、一部の端末には届かなかった。次は、届かなかった理由を洗い出し、既存の警報とどう併用するかを詰める段階になる。",
+      "differences": [
+        "ABC は、試験で端末にどんな表示と音が出たかを説明している。",
+        "AAP は、警報が対象基地局の 94% に届き、政府の到達目標を満たしたと伝えている。",
+        "SBS は、なぜ一部の端末に届かなかったのか、利用者が何を確認すべきかに焦点を当てている。"
+      ],
       "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/what-to-know-about-ausalert-emergency-warning-test/106919574"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/new-ausalert-warning-system-to-blast-out-national-siren"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/ausalert-test-what-if-you-dont-receive-an-alert/q2bqe4cnp"
+        },
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/ausalert-test-survey-finds-one-in-nine-australians-not-reached-during-trial-of-emergency-lifeline-c-22641479"

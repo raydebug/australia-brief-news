@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T22:20:00.324Z",
+  "updatedAt": "2026-07-30T23:10:58.448Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -541,7 +541,7 @@
     {
       "id": "nsw-reformers-icac-inquiry",
       "headline": "NSW Reformers 反腐调查扩大，捐款和拉票指控受审",
-      "sourceCount": 4,
+      "sourceCount": 6,
       "publishedAt": "2026-07-30T07:08:53.000Z",
       "voiceScript": "新南威尔士州 ICAC 对自由党 Reformers 派系的调查，正在围绕可疑捐款、拉票操作和党内派系政治继续听证。证词已把安格斯·泰勒的名字带入争议，但他否认作出任何不当付款或支持该团体。这一调查之所以重要，是因为它还在揭示捐款规则和党务机器可能如何被利用，后续证人仍会出场。",
       "differences": [
@@ -563,6 +563,14 @@
         {
           "source": "The Australian",
           "url": "https://www.theaustralian.com.au/nation/politics/angus-taylor-wasnt-opposed-to-conservative-subfaction-at-centre-of-icac-branchstacking-probe/news-story/d22de6f4d3b161d6f583b452ce318381"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/no-payment-was-made-liberal-leader-denies-donation"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/shakedown-liberal-leader-angus-taylor-named-in-icac-hearing/news-story/4b49442ca010c1786f683dfa01c6df46"
         }
       ],
       "language": "zh-Hans"
@@ -1634,12 +1642,28 @@
     },
     {
       "id": "emergency-alert-trial",
-      "headline": "澳大利亚的紧急警报试验仍然漏掉了太多人",
-      "sourceCount": 1,
+      "headline": "澳洲紧急警报测试暴露覆盖缺口",
+      "sourceCount": 4,
       "publishedAt": "2026-07-28T09:19:43Z",
-      "voiceScript": "紧急警报系统的试用并没有覆盖到它应该覆盖的所有人。调查结果表明，全国测试可能需要在 10 月份启动之前再次运行。可靠性是关键问题，因为警报只有在人们实际收到时才起作用。",
-      "differences": [],
+      "voiceScript": "澳大利亚首次全国试运行新的紧急预警系统，向兼容手机发送了持续 10 秒的警报声和提示信息，为 10 月正式上线做准备。这项测试很重要，因为山火、洪水和其他突发危机中，警报只有真正快速送达足够多人时才有用，也关系到依赖隐藏手机求安全的人。官方说大多数目标基站都播发了警报，但仍有部分设备没有收到。接下来要做的是查清覆盖缺口，并确认新系统如何与现有警报并行运行。",
+      "differences": [
+        "ABC 说明了这次测试在兼容手机上会如何响起和显示。",
+        "AAP 说这次警报覆盖了 94% 的目标基站，达到了政府设定的覆盖目标。",
+        "SBS 重点解释为什么有些手机没有收到警报，以及用户该检查什么。"
+      ],
       "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-27/what-to-know-about-ausalert-emergency-warning-test/106919574"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/new-ausalert-warning-system-to-blast-out-national-siren"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/ausalert-test-what-if-you-dont-receive-an-alert/q2bqe4cnp"
+        },
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/ausalert-test-survey-finds-one-in-nine-australians-not-reached-during-trial-of-emergency-lifeline-c-22641479"
