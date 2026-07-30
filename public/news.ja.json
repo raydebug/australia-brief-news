@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T23:59:59.000Z",
+  "updatedAt": "2026-07-30T01:08:47.477Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -101,17 +101,135 @@
     }
   ],
   "errors": [
-    "Australian は依然として Cookie ウォールにリダイレクトされ、Sky News Australia は依然として nocookies ページを提供し、news.com.au 最新ニュース RSS は依然としてクリーン フィードではなく HTML であるため、フォールバック抽出が必要でした。",
-    "今回の実行では、AAP 記事ページはカバレッジの照合に使用できましたが、最近の一部のページでは正規 URL を解決するために検索結果のフォールバックが依然として必要でした。",
-    "オーストラリアに焦点を当てた最近の 2 番目の報告書が収集時点で入手できなかったため、少数の記事が単一情報源のままになっています。"
+    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
+    "AAP article pages were usable for matching coverage this run, but some recent pages still needed search-result fallback to resolve the canonical URL.",
+    "A small number of stories remain single-source because no second recent Australia-focused report was available at collection time."
   ],
   "clusters": [
     {
+      "id": "victorian-labor-reshuffle-carroll",
+      "headline": "ベン・キャロル氏の昇格でビクトリア州労働党が再び人事刷新",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-30T00:50:14Z",
+      "voiceScript": "11月の選挙前に議題を管理するため、ベン・キャロル氏により大きな役割が与えられ、労働党寄りの人物が加わる形で、ビクトリア州政府は内部体制を組み替えています。これは、重要な時期に誰が日々の政治運営を担うのかを改めて決めるため重要です。新体制が安定を生むのか、それとも新たな駆け引きの始まりになるのかが次の焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/politics/victoria/carroll-enlists-labor-loyalist-to-run-government-ahead-of-reshuffle-20260730-p60jwd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/politics/victoria/carroll-enlists-labor-loyalist-to-run-government-ahead-of-reshuffle-20260730-p60jwd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/politics/victoria/carroll-enlists-labor-loyalist-to-run-government-ahead-of-reshuffle-20260730-p60jwd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/politics/victoria/carroll-enlists-labor-loyalist-to-run-government-ahead-of-reshuffle-20260730-p60jwd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ]
+    },
+    {
+      "id": "optus-federal-court-outage",
+      "headline": "Optus は三重ゼロ障害をめぐり連邦裁判所の対応に直面",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T00:48:54Z",
+      "voiceScript": "オーストラリアの通信規制当局は、2025年に緊急通報を妨げた障害をめぐって Optus を連邦裁判所に訴えました。この件は、三重ゼロの信頼性、ネットワークの強さ、そして昨年の失敗が残した社会的影響に引き続き注目を集めます。次は裁判手続きで、科される制裁や Optus に求められる修正策が左右される可能性があります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/acma-takes-optus-to-federal-court-over-2025-outage/106975412"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
+        }
+      ]
+    },
+    {
+      "id": "luke-gosling-arrest-inquiry",
+      "headline": "ルーク・ゴスリング氏の逮捕で連邦労働党議員への監視が強まる",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-30T00:44:07Z",
+      "voiceScript": "7月中旬の公開イベントに関連したとされる暴行の疑いで、ノーザンテリトリー警察が連邦労働党のルーク・ゴスリング議員を逮捕しました。現職議員が関わるため、この件は法的にも政治的にも重い意味を持ちます。今後は司法手続きに移り、党の対応や議会への波紋が焦点になります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/federal-mp-luke-gosling-arrested-alleged-assault-administrator/106975278"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/politics/federal/federal-labor-mp-luke-gosling-arrested-over-alleged-assault-20260730-p60jxl.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/politics/federal/federal-labor-mp-luke-gosling-arrested-over-alleged-assault-20260730-p60jxl.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/politics/federal/federal-labor-mp-luke-gosling-arrested-over-alleged-assault-20260730-p60jxl.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/politics/federal/federal-labor-mp-luke-gosling-arrested-over-alleged-assault-20260730-p60jxl.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ]
+    },
+    {
+      "id": "kpmg-job-cut-pressure",
+      "headline": "KPMG の人員削減報道でコンサル雇用への圧力が続く",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-30T00:38:38Z",
+      "voiceScript": "KPMG は最終決定は出していないとしていますが、約1,000人規模の削減報道が同社の人員計画に注目を集めています。この数字が重要なのは、コンサル業界の減速が依然として雇用に波及していることを示すからです。次に注目されるのは、会社自身による規模、時期、対象範囲の確認です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/business/companies/kpmg-says-no-decisions-have-been-made-on-staff-purge-amid-reports-of-1000-cuts-20260729-p60jsy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/business/companies/kpmg-says-no-decisions-have-been-made-on-staff-purge-amid-reports-of-1000-cuts-20260729-p60jsy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/business/companies/kpmg-says-no-decisions-have-been-made-on-staff-purge-amid-reports-of-1000-cuts-20260729-p60jsy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/business/companies/kpmg-says-no-decisions-have-been-made-on-staff-purge-amid-reports-of-1000-cuts-20260729-p60jsy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ]
+    },
+    {
+      "id": "victoria-h5n1-first-detection",
+      "headline": "ビクトリア州で初の H5N1 検出、豪州の鳥インフル対策に新たな緊張",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T00:31:02Z",
+      "voiceScript": "ビクトリア州で初めて H5N1 が確認され、オーストラリアの鳥インフル監視に新たな圧力がかかっています。これは、野生動物の確認、家禽の防疫、そしてウイルスが局地的なのか広がっているのかを判断する速度に影響するため重要です。次の手がかりは、追加検査と現地監視から得られます。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/victoria-bird-flu-h5n1-detection/106839886"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/jul/30/bird-flu-australia-h5n1-how-will-it-affect-wildlife"
+        }
+      ]
+    },
+    {
       "id": "aussie-swimming-record-night",
-      "headline": "オーストラリアの水泳選手はフィールドを驚かせる新しい方法を見つけ続けている",
+      "headline": "Australian swimmers keep finding new ways to surprise the field",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:59:33Z",
-      "voiceScript": "予期せぬ供給源が、オーストラリアの水泳にとって新たな記録樹立の夜の原動力となった。この結果は、ドルフィンズのプログラムの深さと、新しい名前が依然として注目を集めている様子を強調しています。次の問題は、その勢いが今後のより大きな大会にも持続するかどうかだ。",
+      "voiceScript": "An unexpected source helped power another record-setting night for Australian swimming. The result underlines the depth in the Dolphins program and the way new names are still pushing into view. The next question is whether that momentum holds into the bigger meets ahead.",
       "differences": [],
       "links": [
         {
@@ -122,10 +240,10 @@
     },
     {
       "id": "closing-gap-off-track",
-      "headline": "オーストラリアのギャップ解消の進捗は依然として大幅に遅れている",
+      "headline": "Australia's Closing the Gap progress is still badly off pace",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:59:16Z",
-      "voiceScript": "新しい報道によると、オーストラリアはギャップ解消目標を1つしか達成しておらず、一部のギャップは縮小するどころか拡大する可能性がある。最新のマイルストーンは歓迎しますが、全体像は変わりません。次の重要なポイントは、政府が目標を実績に結びつけることができるかどうかだ。",
+      "voiceScript": "New reporting says Australia has met only one Closing the Gap target and that some gaps may widen instead of narrow. The latest milestone is welcome, but it does not change the bigger picture. The next pressure point is whether governments can turn targets into actual results.",
       "differences": [],
       "links": [
         {
@@ -136,10 +254,10 @@
     },
     {
       "id": "prisoner-detained-release-date",
-      "headline": "南オーストラリア州の拘留検査、期限までに囚人を釈放できなかった",
+      "headline": "South Australian custody checks failed to free a prisoner on time",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:59:04Z",
-      "voiceScript": "オンブズマンは、南オーストラリア州の矯正局が、釈放されるはずだった囚人を数か月間拘留し続けていたことを発見した。この訴訟は、複雑な法的紛争ではなく、釈放チェックにおける基本的な欠陥を指摘している。当面の問題は、同じ間違いが再び起こらないようにするために、どれだけの安全策を変更する必要があるかということです。",
+      "voiceScript": "An ombudsman has found that South Australian correctional services kept a prisoner in custody for several months after the person should have been released. The case points to a basic failure in release checks rather than a complex legal dispute. The immediate question is how many safeguards need to change so the same mistake does not happen again.",
       "differences": [],
       "links": [
         {
@@ -150,10 +268,10 @@
     },
     {
       "id": "wa-mental-health-failure-family-moves",
-      "headline": "ワシントン州の家族は、メンタルヘルスケアが弱かったため州を離れることになったと語る",
+      "headline": "A WA family says weak mental health care forced them to leave the state",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:56:29Z",
-      "voiceScript": "ある家族は、西オーストラリア州の精神保健制度のギャップが州を越えるほど深刻だったと語る。彼らは、ケアとサポートが最も必要なときに繰り返された失敗について説明しています。家族たちは今も助けを求めて他所を探すことを余儀なくされているため、この話は国家制度にさらなる圧力を加えている。",
+      "voiceScript": "A family says gaps in Western Australia's mental health system were serious enough to push them interstate. They describe repeated failures in care and support when they needed it most. The story adds pressure on the state system because families are still being forced to look elsewhere for help.",
       "differences": [],
       "links": [
         {
@@ -164,10 +282,10 @@
     },
     {
       "id": "victoria-roads-repair-bill",
-      "headline": "ビクトリア州は道路の故障が続いており、多額の修繕費に直面している",
+      "headline": "Victoria faces a large repair bill as its roads keep breaking down",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:36:17Z",
-      "voiceScript": "ビクトリア州の道路網は劣化しており、新たな分析によると、修復費用が多額になることが示唆されています。問題はもはや表面の損傷だけではありません。政府がどれだけ迅速に修正に資金を提供するかが重要です。そのお金がコミットされるまで、ドライバーはより悪路や低速走行で代償を払い続けることになります。",
+      "voiceScript": "Victoria's road network is deteriorating and fresh analysis suggests the repair cost will be substantial. The problem is no longer just surface damage; it is how quickly governments are willing to fund a fix. Until that money is committed, drivers will keep paying the price in rougher roads and slower trips.",
       "differences": [],
       "links": [
         {
@@ -178,10 +296,10 @@
     },
     {
       "id": "brisbane-airborne-car-bus",
-      "headline": "ブリスベンのバスに車が突っ込み、激しい交通事故が発生した",
+      "headline": "A car flew into a Brisbane bus in a violent road crash",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:11:14Z",
-      "voiceScript": "ブリスベンでは衝突事故により車が空中に浮遊し、バスの側面に衝突した。水曜日には救急隊員が衝撃と負傷者に対処しなければならなかった。この事例は、日常的な交通事故がいかに急速に深刻な都市事故現場に発展するかを示しています。",
+      "voiceScript": "In Brisbane, a crash sent a car airborne and into the side of a bus. Emergency crews had to deal with the impact and any injuries on Wednesday. The case shows how quickly a routine traffic incident can become a serious urban crash scene.",
       "differences": [],
       "links": [
         {
@@ -192,10 +310,10 @@
     },
     {
       "id": "stolen-car-teen-crash",
-      "headline": "盗まれた車が衝突し、10代の少女2人が負傷",
+      "headline": "Two teenage girls were injured when a stolen car crashed",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:09:36Z",
-      "voiceScript": "盗難車が衝突し、14歳の少女2人が負傷した。警察は衝突事故と盗難事件の両方で捜査を進めている。これは、若者が巻き込まれた場合、盗難車犯罪がいかに危険なものになるかを改めて思い起こさせます。",
+      "voiceScript": "Two 14-year-old girls were hurt after a stolen car crashed. Police are dealing with both the collision and the theft investigation. It is another reminder of how dangerous stolen-vehicle offending becomes when young people are involved.",
       "differences": [],
       "links": [
         {
@@ -206,10 +324,10 @@
     },
     {
       "id": "bird-flu-poultry-risk",
-      "headline": "養鶏農家は、鳥インフルエンザが地元の群れに感染している可能性があると警告している",
+      "headline": "Poultry farmers are warning that bird flu may be moving through local flocks",
       "sourceCount": 2,
       "publishedAt": "2026-07-29T20:51:08Z",
-      "voiceScript": "農家らは、鳥インフルエンザがすでに地元で広がっている可能性を懸念していると述べている。焦点は、バイオセキュリティ、検査速度、感染をいかに早く追跡できるかにあります。感染拡大が確認されれば、生産者は管理が強化され、新たな損失に直面する可能性がある。",
+      "voiceScript": "Farmers say they are concerned bird flu could already be spreading locally. The focus is on biosecurity, testing speed and how fast an infection can be tracked down. If the spread is confirmed, producers could face tighter controls and fresh losses.",
       "differences": [],
       "links": [
         {
@@ -224,10 +342,10 @@
     },
     {
       "id": "country-footy-family-debut",
-      "headline": "母と娘が珍しい共同でカントリーフットボールクラブにデビュー",
+      "headline": "A mother and daughter made a rare joint debut for a country footy club",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:43:30Z",
-      "voiceScript": "母と娘が一緒にカントリーフットボールクラブでデビューした。これは地元のスポーツに関する小さな話ですが、コミュニティクラブが依然として家族の絆にどれだけ依存しているかを示すものであるため、重要です。この瞬間はまた、参加が最終スコアと同じくらい重要であることを思い出させます。",
+      "voiceScript": "A mother and daughter have debuted together for a country football club. It is a small local-sport story, but it matters because it shows how much community clubs still rely on family ties. The moment also reminds us that participation can be as important as the final score.",
       "differences": [],
       "links": [
         {
@@ -238,10 +356,10 @@
     },
     {
       "id": "rent-housing-subsidy-ends",
-      "headline": "高齢のがん患者は住宅支援終了後、家賃の高騰に直面している",
+      "headline": "An older cancer patient is facing a steep rent rise after housing support ended",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:38:50Z",
-      "voiceScript": "80歳のがん患者は、住宅補助金が終了した後、家賃が急激に上昇するのを目の当たりにした。この増額では、すでに限界に達している予算にはほとんど余裕がありません。これは、小さな政策の変更が、重大な健康ニーズを持つ人々にいかに大きな打撃を与えるかを示す率直な例です。",
+      "voiceScript": "An 80-year-old cancer patient has seen rent rise sharply after a housing subsidy came to an end. The increase leaves little room in an already stretched budget. It is a blunt example of how small policy changes can hit people with major health needs hardest.",
       "differences": [],
       "links": [
         {
@@ -252,10 +370,10 @@
     },
     {
       "id": "taronga-rare-snail",
-      "headline": "タロンガ動物園が珍しいカタツムリを繁殖させて瀬戸際から復活させた",
+      "headline": "Taronga Zoo has bred a rare snail back from the brink",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:37:36Z",
-      "voiceScript": "タロンガ動物園は、絶滅したと思われていた珍しいカタツムリを繁殖させた。この結果は、絶滅の危機に瀕している種が飼育下繁殖によってどのように時間を稼ぐことができるかを示しています。自然保護活動家らは今後、動物園を出ても個体群が生きていけるかどうかを知りたいと考えているだろう。",
+      "voiceScript": "Taronga Zoo has bred a rare snail that was thought to be lost. The result shows how captive breeding can buy time for species on the edge of extinction. Conservationists will now want to know whether the population can survive beyond the zoo.",
       "differences": [],
       "links": [
         {
@@ -266,10 +384,10 @@
     },
     {
       "id": "elder-abuse-prevention",
-      "headline": "擁護者らはオーストラリアの高齢者に対する虐待に対するより厳しい措置を求めている",
+      "headline": "Advocates are pushing for tougher action on abuse of older Australians",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:35:40Z",
-      "voiceScript": "活動家らは、高齢者虐待を巡る公の場での会話はまだ変える必要があると主張する。彼らは問題をより強く認識し、問題が報告された場合にはより明確な対応を望んでいます。現在の議論は、現在の安全対策が十分なのか、それともまだ無視するには簡単すぎるのかということだ。",
+      "voiceScript": "Campaigners say the public conversation around elder abuse still needs to change. They want stronger recognition of the problem and clearer responses when it is reported. The debate now is whether the current safeguards are enough or still too easy to ignore.",
       "differences": [],
       "links": [
         {
@@ -280,10 +398,10 @@
     },
     {
       "id": "varroa-mite-treatment-access",
-      "headline": "養蜂家はバロアダニ治療法をより早く利用できるよう求めています",
+      "headline": "Beekeepers are asking for faster access to varroa mite treatments",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:28:07Z",
-      "voiceScript": "養蜂家らは、バロアダニに対する現在の治療法はあまりにも限られていると述べている。彼らは、害虫が巣箱や受粉作業にさらなる被害をもたらす前に、より優れたツールを利用したいと考えています。この問題は、より広範な食物連鎖全体にわたる農業に影響を与えるため、蜂蜜をはるかに超えて重要です。",
+      "voiceScript": "Beekeepers say the current treatment options for varroa mite are too limited. They want access to better tools before the pest causes more damage to hives and pollination work. The issue matters well beyond honey because it affects agriculture across the wider food chain.",
       "differences": [],
       "links": [
         {
@@ -294,10 +412,10 @@
     },
     {
       "id": "landfill-fire-closure",
-      "headline": "メルボルンの埋立地、火災による被害が数年続いて閉鎖へ",
+      "headline": "A Melbourne landfill is set to close years after a fire left lasting damage",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:03:09Z",
-      "voiceScript": "メルボルン郊外の埋立地は、数年前に長期にわたる問題を引き起こした火災の後、閉鎖される予定だ。閉鎖により地元の迷惑行為は解消されるが、廃棄物が次にどこへ行くのかという疑問も生じる。住民は現場の状況とその後の計画を注意深く見守っていくことになる。",
+      "voiceScript": "A suburban landfill in Melbourne is scheduled to close after a fire caused long-term problems years ago. The shutdown ends a local nuisance, but it also raises questions about where waste will go next. Residents will be watching the site and the follow-up plan closely.",
       "differences": [],
       "links": [
         {
@@ -308,10 +426,10 @@
     },
     {
       "id": "queensland-disability-council-vacancies",
-      "headline": "クイーンズランド州では1年経った今でも障害者評議会に欠員が残っている",
+      "headline": "Queensland still has vacancies on its disability council a year later",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T19:35:28Z",
-      "voiceScript": "クイーンズランド州障害者議会のいくつかの議席は、ほぼ1年経った今でも埋まっていない。そのため、政策決定が引き続き進められる一方で、正式な表明にはギャップが残る。この遅れは、会議の席での意見の必要性に任命手続きが追いついていないことを示唆している。",
+      "voiceScript": "Several seats on Queensland's disability council remain unfilled almost a year later. That leaves a gap in formal representation while policy decisions continue to move ahead. The delay suggests the appointment process has not caught up with the need for voices at the table.",
       "differences": [],
       "links": [
         {
@@ -322,10 +440,10 @@
     },
     {
       "id": "neil-the-seal-costs",
-      "headline": "タスマニア州はアザラシのニールを管理するためのより明確な法案を制定した",
+      "headline": "Tasmania now has a clearer bill for managing Neil the seal",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T19:29:01Z",
-      "voiceScript": "当局はニール・ザ・アザラシに関連した損害賠償請求書と管理費を発表した。この数字は、ウイルスに関する話題を具体的な公的支出に変えます。彼らはまた、有名な動物の管理は、人気コンテストと同じくらい物流上の問題になる可能性があることを示しています。",
+      "voiceScript": "Authorities have released the damage bill and management costs linked to Neil the seal. The figures turn a viral wildlife story into a concrete public expense. They also show that managing a famous animal can be as much a logistics problem as a popularity contest.",
       "differences": [],
       "links": [
         {
@@ -336,13 +454,13 @@
     },
     {
       "id": "victorian-labor-ben-carroll",
-      "headline": "ベン・キャロルの台頭は、ビクトリア朝の労働党の新たなリセットを引き起こした",
+      "headline": "Ben Carroll's rise has triggered a fresh Victorian Labor reset",
       "sourceCount": 5,
       "publishedAt": "2026-07-29T19:17:29Z",
-      "voiceScript": "ベン・キャロルの昇進により、ビクトリア州労働党内部の動揺が深まった。党内部関係者らは、この変化により社会主義左翼が弱体化し、指導者争いに新たな段階が始まったと主張している。次の試金石は、この変更が労働党に選挙への道をより明確にするのか、それとも単に内部の緊張を高めるだけなのかだ。",
+      "voiceScript": "Ben Carroll's promotion has deepened the shake-up inside Victorian Labor. Party insiders say the shift has weakened the Socialist Left and opened a new phase in the leadership contest. The next test is whether the change gives Labor a clearer path to the election or just more internal strain.",
       "differences": [
-        "ABCは労働党内部の派閥的ダメージを強調する一方、ガーディアンはキャロル氏の選挙見通しと党内闘争の余波を強調している。",
-        "同じ政治的再編は、派閥間の打撃として、あるいは選挙戦をリセットする機会として読まれている。"
+        "ABC emphasises the factional damage inside Labor, while The Guardian stresses Carroll's election prospects and the aftermath of the internal fight.",
+        "The same political reshuffle is being read either as a factional blow or as a chance to reset the campaign."
       ],
       "links": [
         {
@@ -369,13 +487,13 @@
     },
     {
       "id": "inflation-eases-chalmers-cautious",
-      "headline": "インフレは再び緩和したが、キャンベラは依然として慎重な姿勢を示している",
+      "headline": "Inflation has eased again, but Canberra is still sounding cautious",
       "sourceCount": 4,
       "publishedAt": "2026-07-29T19:00:00Z",
-      "voiceScript": "新しいインフレ率の数値は低下を示しており、財務担当者はその結果を大げさに話している。それでも、キャンベラからの広範なメッセージは依然として祝賀というよりは警戒だ。金利期待と家計への圧力はどちらも、その傾向が続くかどうかに左右されるため、これは重要だ。",
+      "voiceScript": "New inflation numbers point lower, and the treasurer is talking up the result. Even so, the broader message from Canberra is still caution rather than celebration. That matters because interest-rate expectations and household pressure both depend on whether the trend lasts.",
       "differences": [
-        "SBSはインフレ率と政府の対応を前面に押し出す一方、ABCはジム・チャーマーズの見通しに対する慎重な姿勢に重点を置いている。",
-        "どちらの記事も同じ緩やかなインフレ背景を描いていますが、政治的反応のパッケージ化が異なります。"
+        "SBS foregrounds the inflation figure and the government response, while ABC focuses more on Jim Chalmers' caution about the outlook.",
+        "Both stories describe the same softer inflation backdrop, but they package the political reaction differently."
       ],
       "links": [
         {
@@ -398,10 +516,10 @@
     },
     {
       "id": "endangered-bat-decline",
-      "headline": "絶滅危惧種のオーストラリアのコウモリが再び個体数の急激な減少に見舞われた",
+      "headline": "An endangered Australian bat has suffered another sharp population drop",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T15:00:37Z",
-      "voiceScript": "科学者らは、絶滅の危機に瀕しているオーストラリアのコウモリの個体数が激減しているが、その原因はまだ明らかになっていないと述べている。ある地域では最大16％も減少した。管理者たちは何が問題を引き起こしているのかまだ分かっていないため、この不確実性が保護問題の緊急性を高めている。",
+      "voiceScript": "Scientists say the population of an endangered Australian bat has fallen sharply and the cause is still unclear. In one area, the drop is as much as 16 per cent. That uncertainty makes the conservation problem more urgent because managers still do not know what is driving it.",
       "differences": [],
       "links": [
         {
@@ -412,10 +530,10 @@
     },
     {
       "id": "chicken-labels-mean",
-      "headline": "オーストラリアのスーパーマーケットの鶏肉のラベルが買い物客のために解読されている",
+      "headline": "Australian supermarket chicken labels are being decoded for shoppers",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T15:00:36Z",
-      "voiceScript": "買い物客は、オーストラリアの鶏肉製品について、放し飼い、オーガニック、ホルモン不使用などのラベルが実際に何を意味するのかを知らされています。懸念されるのは、その文言が基礎となる標準よりも明確に見える可能性があることです。消費者にとって問題は、ラベルがチェックアウト時の期待と一致するかどうかです。",
+      "voiceScript": "Shoppers are being told what labels such as free-range, organic and hormone-free actually mean on Australian chicken products. The concern is that the wording can look clearer than the underlying standards really are. For consumers, the issue is whether the label matches the expectation at the checkout.",
       "differences": [],
       "links": [
         {
@@ -426,13 +544,13 @@
     },
     {
       "id": "fair-work-court-data-push",
-      "headline": "法廷データは労働党の新たな職場裁判所の主張を弱体化させている",
+      "headline": "裁判所のデータが新しい職場裁判所を求める労働党の根拠を弱めている",
       "sourceCount": 3,
       "publishedAt": "2026-07-29T08:29:00Z",
-      "voiceScript": "連邦裁判所の統計は、職場や賃金不足に関する訴訟がすでに迅速に進んでいることを示唆しており、これが新たな公正労働裁判所の設置を求める労働党の主張を弱めるものとなっている。党内の労働組合や支持者からの圧力を受けて、政府は依然としてこの計画を支持している。これから本当の試練となるのは、この変更によって紛争が加速するのか、それともすでに忙しいシステムに単に別のレイヤーを追加するだけなのかということだ。",
+      "voiceScript": "連邦裁判所のデータを見ると、職場紛争や未払い賃金の案件はすでにより速く進んでおり、新しいフェアワーク裁判所を設けるべきだという労働党の主張は弱まっています。政府は労組や党内支持層からの圧力を受けても、なお計画を支持しています。本当の焦点は、この変更が紛争処理を速めるのか、それともすでに混み合っている制度に層を一つ増やすだけなのかです。",
       "differences": [
-        "ABCとnews.com.auは労働党の会議発表と法廷の政治訴訟に焦点を当てているが、AFRはその必要性を問う法廷データに焦点を当てている。",
-        "3 つの情報源はいずれも同じ政策推進について述べていますが、それを改革か、問題を探して修正するかのどちらかであると枠組みを定めています。"
+        "ABC and news.com.au focus on Labor's conference announcement and the political case for the court, while AFR concentrates on the court data that challenges the need for it.",
+        "All three sources describe the same policy push, but they frame it as either a reform or a fix looking for a problem."
       ],
       "links": [
         {
@@ -451,10 +569,10 @@
     },
     {
       "id": "sunshine-coast-holiday-club-liquidation",
-      "headline": "サンシャインコーストのホリデークラブが潰れ、会員が返金を求めている",
+      "headline": "A Sunshine Coast holiday club has collapsed and members want refunds",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T08:18:53Z",
-      "voiceScript": "サンシャインコーストのホリデーポイント制度であるリゾートクラブが清算に入った。前払いした会員たちは現在、後で使う予定だったお金と予約を回収しようとしている。今回の破綻は、前払い旅行スキームのリスクについての新たな警告となっている。",
+      "voiceScript": "The Resort Club, a Sunshine Coast holiday points scheme, has gone into liquidation. Members who paid upfront are now trying to recover money and bookings they expected to use later. The collapse is another warning about the risks in prepaid travel schemes.",
       "differences": [],
       "links": [
         {
@@ -465,13 +583,13 @@
     },
     {
       "id": "offset-account-failures",
-      "headline": "相殺口座の破綻により、銀行顧客は残高を確認することになった",
+      "headline": "Offset account failures have left bank customers checking their balances",
       "sourceCount": 2,
       "publishedAt": "2026-07-29T08:12:42Z",
-      "voiceScript": "相殺システムの障害が発覚したことを受け、住宅ローン保有者は銀行口座を確認するよう呼び掛けられている。この問題により、住宅ローンに連動した貯蓄が期待通りに機能していないリスクが高まっている。現在、顧客は自分のアカウントが正しく設定され、保護されていることを明確に確認する必要があります。",
+      "voiceScript": "Mortgage holders are being told to check their bank accounts after offset system failures were uncovered. The problem raises the risk that savings linked to home loans were not working as expected. Customers now need clear confirmation that their accounts are set up and protected correctly.",
       "differences": [
-        "SBSは相殺口座が機能しているかどうかを確認する方法を説明し、7NEWSは破綻発覚後に住宅ローン保有者に警告を発している。",
-        "どちらも顧客に対する実際的なリスクに焦点を当てていますが、SBS はより広範なハウツー ガイドを提供します。"
+        "SBS explains how to check whether the offset account is working, while 7NEWS leads with the warning to mortgage holders after the failures were discovered.",
+        "Both focus on the practical risk to customers, but SBS gives the broader how-to guide."
       ],
       "links": [
         {
@@ -486,13 +604,13 @@
     },
     {
       "id": "fuel-discount-and-petrol-prices",
-      "headline": "割引がなくなるため、ドライバーはガソリン代の高騰に備えている",
+      "headline": "Drivers are bracing for higher fuel bills as the discount disappears",
       "sourceCount": 4,
       "publishedAt": "2026-07-29T07:36:19Z",
-      "voiceScript": "燃料割引は終了しており、ドライバーは価格がリセットされる日付に注意するよう呼び掛けられている。一部の地域ではガソリン価格がすでに1リットルあたり2ドルを超えている。差し迫った圧力は家計にあるが、生活費への影響は急速に広がる可能性がある。",
+      "voiceScript": "The fuel discount is ending, and drivers are being told to watch the dates as prices reset. Petrol has already moved above $2 a litre in some areas. The immediate pressure is on household budgets, but the wider cost-of-living effect could spread quickly.",
       "differences": [
-        "ガーディアンの報道ではこの動きを燃料価格高騰の一環として扱っているが、SBSは割引終了とドライバーが次に何をすべきかに焦点を当てている。",
-        "どちらのレポートも同じ価格圧力を指摘しているが、差し迫った痛みの枠組みが異なっている。"
+        "Guardian coverage treats the move as part of a live fuel-price spike, while SBS focuses on the discount ending and what drivers should do next.",
+        "Both reports point to the same price pressure, but they frame the immediate pain differently."
       ],
       "links": [
         {
@@ -515,10 +633,10 @@
     },
     {
       "id": "qantas-long-haul-plane",
-      "headline": "カンタス航空の長距離ジェット計画はオーストラリア人の飛行機の乗り方を変える可能性がある",
+      "headline": "Qantas' long-range jet plan could change how Australians fly",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T06:48:46Z",
-      "voiceScript": "カンタス航空は、非常に長い旅行における途中降機の必要性を減らすことができる記録的な航空機プロジェクトを推進しています。同社はオーストラリアからの直行便をより現実的なものにしたいと考えている。テストは、飛行機と経済の両方が大規模に機能できるかどうかです。",
+      "voiceScript": "Qantas is pushing ahead with a record-setting aircraft project that could reduce the need for stopovers on very long trips. The airline wants direct travel from Australia to become more practical. The test is whether the plane and the economics can both work at scale.",
       "differences": [],
       "links": [
         {
@@ -529,13 +647,13 @@
     },
     {
       "id": "wa-oil-refinery-criticism",
-      "headline": "西オーストラリア州に提案されている製油所への批判が高まっている",
+      "headline": "Western Australia's proposed oil refinery is facing growing criticism",
       "sourceCount": 3,
       "publishedAt": "2026-07-29T06:15:55Z",
-      "voiceScript": "専門家らは西オーストラリア州で計画されている製油所に疑問を抱いており、それは時代遅れの技術だと呼んでいる。彼らは、この計画はクリーンエネルギーへの移行と気まずく隣り合わせにあると言う。本当の問題は、そのプロジェクトが商業的に妥当なのか、それともすでに時代遅れになっているのかということだ。",
+      "voiceScript": "Experts are questioning a proposed oil refinery in Western Australia and calling it outdated technology. They say the plan sits awkwardly beside the clean-energy transition. The real issue is whether the project is commercially sensible or already behind the curve.",
       "differences": [
-        "ガーディアン紙はクリーンエネルギー批判に傾いているが、SBSはこの計画をより広範な政策と供給に関する議論として組み立てている。",
-        "どちらの話も、現在のエネルギー転換において製油所が依然として意味をなすのかどうかを疑問視している。"
+        "The Guardian leans into the clean-energy critique, while SBS frames the plan as a broader policy and supply debate.",
+        "Both stories question whether the refinery still makes sense in the current energy shift."
       ],
       "links": [
         {
@@ -554,13 +672,13 @@
     },
     {
       "id": "one-nation-financial-records-risk",
-      "headline": "ある国の口座紛失によりクイーンズランド州支店が危険にさらされている",
+      "headline": "One Nation's missing accounts are putting its Queensland branch at risk",
       "sourceCount": 3,
       "publishedAt": "2026-07-29T04:56:00Z",
-      "voiceScript": "クイーンズランド州の規制当局は、ワン・ネイションは監査済みの会計報告書をまだ3年間支払う義務があり、その遅れが同党の国家機関に大きなプレッシャーにさらされていると述べている。同党は書類を提出するとしているが、期限を過ぎたため、クイーンズランド州支部は取り消しや罰則にさらされることになった。この話が重要なのは、届け出問題を党が地方組織を無傷で維持できるかどうかのテストに変えるからだ。",
+      "voiceScript": "Queensland regulators say One Nation still owes audited accounts for three years, and that delay has put the party's state entity under real pressure. The party says it will file the paperwork, but the missed deadlines have left its Queensland branch exposed to cancellation and penalties. The story matters because it turns a filing problem into a test of whether the party can keep its local organisation intact.",
       "differences": [
-        "ABCは規制当局の期限と党の巻き返しの誓約でリードする一方、AFRは記載漏れと取り消しのリスクを強調している。",
-        "ガーディアンはこの問題を、ワン・ネイションからクイーンズランド州の拠点を剥奪する可能性がある広範なコンプライアンス違反であると位置づけている。"
+        "ABC leads with the regulator deadline and the party's vow to catch up, while AFR emphasises the missing statements and the risk of cancellation.",
+        "The Guardian frames the issue as a wider compliance failure that could strip One Nation of its Queensland base."
       ],
       "links": [
         {
@@ -579,10 +697,10 @@
     },
     {
       "id": "deepfake-school-photo-warning",
-      "headline": "投稿された写真がディープフェイクに変えられる可能性があると学校に警告",
+      "headline": "Schools are being warned that posted photos can be turned into deepfakes",
       "sourceCount": 1,
       "publishedAt": "2026-07-28T11:05:31Z",
-      "voiceScript": "オーストラリアの学校は、オンラインで共有している写真が人工知能によるディープフェイク攻撃に再利用される可能性があると警告されている。通常の画像が悪用の素材になる可能性があるため、このリスクは理論上のものではありません。実際的な課題は、学校が通常のコミュニケーションを遮断することなくオンライン共有を管理する方法です。",
+      "voiceScript": "Australian schools are being warned that photos they share online can be reused in artificial-intelligence deepfake attacks. The risk is not theoretical because ordinary images can be turned into material for abuse. The practical challenge is how schools manage online sharing without cutting off normal communication.",
       "differences": [],
       "links": [
         {
@@ -593,10 +711,10 @@
     },
     {
       "id": "emergency-alert-trial",
-      "headline": "オーストラリアの緊急警報試験では依然として多くの人が逃されている",
+      "headline": "Australia's emergency alert trial still missed too many people",
       "sourceCount": 1,
       "publishedAt": "2026-07-28T09:19:43Z",
-      "voiceScript": "緊急警報システムの試験運用では、届けるべき全員に届けられませんでした。調査結果は、10月の試験開始前に国家試験を再度実施する必要がある可能性があることを示唆している。アラートは人々が実際に受信した場合にのみ機能するため、信頼性が重要な問題となります。",
+      "voiceScript": "A trial of the emergency alert system did not reach everyone it was meant to reach. Survey results suggest the national test may need another run before the October launch. Reliability is the key issue because an alert only works if people actually receive it.",
       "differences": [],
       "links": [
         {
@@ -607,13 +725,13 @@
     },
     {
       "id": "origin-data-breach",
-      "headline": "Originはデータ侵害により100万人近くの顧客に影響が出たと発表",
+      "headline": "Origin says a data breach has affected close to a million customers",
       "sourceCount": 7,
       "publishedAt": "2026-07-28T04:37:33Z",
-      "voiceScript": "オリジンは、約90万人の顧客に影響を与えたデータ侵害を明らかにした後、謝罪した。その規模は、情報開示とセキュリティに関して同社に圧力をかけ続けるのに十分な大きさである。次のステップは、顧客にいかに迅速に情報を提供し、どのような追加の保護措置を講じるかです。",
+      "voiceScript": "Origin has apologised after revealing a data breach that affected about 900,000 customers. The scale is large enough to keep pressure on the company over disclosure and security. The next step is how quickly customers are informed and what extra safeguards are put in place.",
       "differences": [
-        "SBSは謝罪と顧客への対応を中心に取り上げ、7NEWSは侵害の規模と影響を受けた人の数を強調している。",
-        "同じインシデントは、消費者向けのアップデート、または企業の大規模なセキュリティ障害として組み立てられています。"
+        "SBS centres the apology and customer response, while 7NEWS emphasises the scale of the breach and the number of people affected.",
+        "The same incident is being framed either as a consumer update or as a large-scale corporate security failure."
       ],
       "links": [
         {
@@ -648,10 +766,10 @@
     },
     {
       "id": "actu-leadership-handover",
-      "headline": "ACTUはリーダーシップの引き継ぎを準備中",
+      "headline": "The ACTU is preparing for a leadership handover",
       "sourceCount": 1,
       "publishedAt": "2026-07-28T00:00:17Z",
-      "voiceScript": "サリー・マクマナスとミシェル・オニールは退陣し、新世代の組合指導者への道を開く。 ACTUが依然として賃金、職場の権利、産業戦略に関する議論を形成しているため、この変化は重要である。次に何が起こるかは、誰が引き継ぐのか、そして移行がどれだけ早く完了するかによって決まります。",
+      "voiceScript": "Sally McManus and Michele O'Neil are stepping aside, opening the way for a new generation of union leadership. The change matters because the ACTU still shapes debate on wages, workplace rights and industrial strategy. What comes next will depend on who takes over and how quickly the transition settles.",
       "differences": [],
       "links": [
         {
@@ -662,10 +780,10 @@
     },
     {
       "id": "ato-tax-return-lodgement",
-      "headline": "ATOは数百万人の納税者に今すぐ申告をするよう呼びかけている",
+      "headline": "The ATO is telling millions of taxpayers to lodge returns now",
       "sourceCount": 1,
       "publishedAt": "2026-07-27T21:43:43Z",
-      "voiceScript": "ATOは、今こそオーストラリアの数百万人の納税者が申告を行う時期であると述べている。この警告は遅延を防ぎ、出願シーズンを順調に進めることを目的としている。実際的な問題は、人々が送信する前に必要な情報を持っているかどうかです。",
+      "voiceScript": "The ATO says now is the time for millions of Australian taxpayers to lodge their returns. The warning is aimed at preventing delays and keeping the filing season moving. The practical question is whether people have the information they need before they submit.",
       "differences": [],
       "links": [
         {

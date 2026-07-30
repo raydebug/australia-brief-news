@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T23:59:59.000Z",
+  "updatedAt": "2026-07-30T01:08:47.481Z",
   "generatedBy": "codex",
   "language": "th",
   "sources": [
@@ -101,17 +101,135 @@
     }
   ],
   "errors": [
-    "ชาวออสเตรเลียยังคงเปลี่ยนเส้นทางไปที่ผนังคุกกี้ Sky News Australia ยังคงให้บริการหน้า nocookies และ RSS ข่าวล่าสุดของ news.com.au ยังคงเป็น HTML แทนที่จะเป็นฟีดใหม่ทั้งหมด ดังนั้นจึงจำเป็นต้องมีการแยกทางเลือก",
-    "หน้าบทความ AAP สามารถใช้เพื่อการจับคู่ความครอบคลุมในครั้งนี้ แต่หน้าล่าสุดบางหน้ายังคงต้องใช้ทางเลือกผลการค้นหาเพื่อแก้ไข URL ตามรูปแบบบัญญัติ",
-    "เรื่องราวจำนวนเล็กน้อยยังคงเป็นแหล่งข้อมูลเดียวเนื่องจากไม่มีรายงานที่เน้นออสเตรเลียฉบับที่สองล่าสุดในขณะรวบรวม"
+    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
+    "AAP article pages were usable for matching coverage this run, but some recent pages still needed search-result fallback to resolve the canonical URL.",
+    "A small number of stories remain single-source because no second recent Australia-focused report was available at collection time."
   ],
   "clusters": [
     {
+      "id": "victorian-labor-reshuffle-carroll",
+      "headline": "การเลื่อนตำแหน่งของ Ben Carroll จุดชนวนการปรับทีมแรงงานวิกตอเรียอีกครั้ง",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-30T00:50:14Z",
+      "voiceScript": "รัฐบาลวิกตอเรียกำลังจัดทีมภายในใหม่ โดยให้ Ben Carroll มีบทบาทมากขึ้น และดึงคนใกล้ชิดพรรคแรงงานเข้ามาดูแลวาระก่อนการเลือกตั้งเดือนพฤศจิกายน การปรับทีมครั้งนี้สำคัญเพราะเป็นการกำหนดว่าใครจะนำกลยุทธ์การเมืองรายวันในช่วงเวลาที่อ่อนไหว คำถามต่อไปคือโครงสร้างใหม่นี้จะช่วยเพิ่มเสถียรภาพ หรือจะเริ่มรอบการต่อรองทางการเมืองครั้งใหม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/politics/victoria/carroll-enlists-labor-loyalist-to-run-government-ahead-of-reshuffle-20260730-p60jwd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/politics/victoria/carroll-enlists-labor-loyalist-to-run-government-ahead-of-reshuffle-20260730-p60jwd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/politics/victoria/carroll-enlists-labor-loyalist-to-run-government-ahead-of-reshuffle-20260730-p60jwd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/politics/victoria/carroll-enlists-labor-loyalist-to-run-government-ahead-of-reshuffle-20260730-p60jwd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ]
+    },
+    {
+      "id": "optus-federal-court-outage",
+      "headline": "Optus เผชิญคดีในศาลกลางหลังเหตุขัดข้อง triple-zero",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T00:48:54Z",
+      "voiceScript": "หน่วยงานกำกับดูแลโทรคมนาคมของออสเตรเลียได้นำ Optus ขึ้นสู่ศาลกลางจากเหตุขัดข้องในปี 2025 ที่กระทบการโทรฉุกเฉิน คดีนี้ยังคงกดดันเรื่องความน่าเชื่อถือของบริการ triple-zero ความทนทานของเครือข่าย และผลกระทบต่อสาธารณะจากความล้มเหลวเมื่อปีก่อน ขั้นตอนต่อไปคือกระบวนการในศาล ซึ่งอาจกำหนดทั้งค่าปรับและการแก้ไขที่ Optus ต้องทำ",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/acma-takes-optus-to-federal-court-over-2025-outage/106975412"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
+        }
+      ]
+    },
+    {
+      "id": "luke-gosling-arrest-inquiry",
+      "headline": "การจับกุม Luke Gosling ทำให้ ส.ส. แรงงานรัฐบาลกลางถูกจับตาอีกครั้ง",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-30T00:44:07Z",
+      "voiceScript": "ตำรวจดินแดนนอร์เทิร์นเทร์ริทอรีจับกุม ส.ส. แรงงานรัฐบาลกลาง Luke Gosling จากข้อกล่าวหาทำร้ายร่างกายที่เชื่อมโยงกับงานสาธารณะช่วงกลางเดือนกรกฎาคม เรื่องนี้ร้ายแรงเพราะเกี่ยวข้องกับสมาชิกสภาที่กำลังดำรงตำแหน่ง และอาจตามมาด้วยผลทั้งทางกฎหมายและการเมือง คดีจะเดินหน้าเข้าสู่กระบวนการศาล ขณะที่ท่าทีของพรรคและผลสะเทือนในรัฐสภายังต้องติดตามต่อ",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/federal-mp-luke-gosling-arrested-alleged-assault-administrator/106975278"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/politics/federal/federal-labor-mp-luke-gosling-arrested-over-alleged-assault-20260730-p60jxl.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/politics/federal/federal-labor-mp-luke-gosling-arrested-over-alleged-assault-20260730-p60jxl.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/politics/federal/federal-labor-mp-luke-gosling-arrested-over-alleged-assault-20260730-p60jxl.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/politics/federal/federal-labor-mp-luke-gosling-arrested-over-alleged-assault-20260730-p60jxl.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ]
+    },
+    {
+      "id": "kpmg-job-cut-pressure",
+      "headline": "ข่าวการลดคนของ KPMG ชี้แรงกดดันต่อสายงานที่ปรึกษายังไม่คลาย",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-30T00:38:38Z",
+      "voiceScript": "KPMG ระบุว่ายังไม่มีข้อสรุปสุดท้าย แต่รายงานว่ามีความเป็นไปได้ที่จะตัดงานราว 1,000 ตำแหน่ง ทำให้แผนกำลังคนของบริษัทถูกจับตามอง ตัวเลขนี้สำคัญเพราะสะท้อนว่าภาวะชะลอตัวของธุรกิจที่ปรึกษายังส่งผลมาถึงการจ้างงาน สิ่งที่ต้องรอต่อไปคือการยืนยันจากบริษัทเองเรื่องขนาด ช่วงเวลา และขอบเขตของการปรับลด",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/business/companies/kpmg-says-no-decisions-have-been-made-on-staff-purge-amid-reports-of-1000-cuts-20260729-p60jsy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/business/companies/kpmg-says-no-decisions-have-been-made-on-staff-purge-amid-reports-of-1000-cuts-20260729-p60jsy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/business/companies/kpmg-says-no-decisions-have-been-made-on-staff-purge-amid-reports-of-1000-cuts-20260729-p60jsy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/business/companies/kpmg-says-no-decisions-have-been-made-on-staff-purge-amid-reports-of-1000-cuts-20260729-p60jsy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ]
+    },
+    {
+      "id": "victoria-h5n1-first-detection",
+      "headline": "วิกตอเรียพบ H5N1 ครั้งแรก เพิ่มความตึงเครียดต่อการรับมือไข้หวัดนกของออสเตรเลีย",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T00:31:02Z",
+      "voiceScript": "วิกตอเรียยืนยันการพบ H5N1 ครั้งแรก ซึ่งเพิ่มแรงกดดันต่อการเฝ้าระวังไข้หวัดนกของออสเตรเลีย เหตุการณ์นี้สำคัญเพราะกระทบต่อการตรวจสัตว์ป่า ความปลอดภัยทางชีวภาพของสัตว์ปีก และความเร็วในการตัดสินว่าเชื้อยังจำกัดอยู่ในพื้นที่หรือเริ่มแพร่กว้าง การตรวจเพิ่มเติมและการเฝ้าระวังภาคสนามจะเป็นตัวชี้ต่อไป",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/victoria-bird-flu-h5n1-detection/106839886"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/jul/30/bird-flu-australia-h5n1-how-will-it-affect-wildlife"
+        }
+      ]
+    },
+    {
       "id": "aussie-swimming-record-night",
-      "headline": "นักว่ายน้ำชาวออสเตรเลียค้นหาวิธีใหม่ๆ เพื่อสร้างความประหลาดใจให้กับสนาม",
+      "headline": "Australian swimmers keep finding new ways to surprise the field",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:59:33Z",
-      "voiceScript": "แหล่งที่มาที่ไม่คาดคิดช่วยขับเคลื่อนค่ำคืนที่สร้างสถิติใหม่ให้กับการว่ายน้ำในออสเตรเลีย ผลลัพธ์ที่ได้ตอกย้ำความลึกในโปรแกรม Dolphins และวิธีที่ชื่อใหม่ยังคงถูกนำเสนอในมุมมอง คำถามต่อไปคือโมเมนตัมดังกล่าวจะยังคงอยู่ในการพบปะที่ใหญ่กว่าที่อยู่ข้างหน้าหรือไม่",
+      "voiceScript": "An unexpected source helped power another record-setting night for Australian swimming. The result underlines the depth in the Dolphins program and the way new names are still pushing into view. The next question is whether that momentum holds into the bigger meets ahead.",
       "differences": [],
       "links": [
         {
@@ -122,10 +240,10 @@
     },
     {
       "id": "closing-gap-off-track",
-      "headline": "ความคืบหน้าการปิดช่องว่างของออสเตรเลียยังคงไม่เป็นไปตามแผน",
+      "headline": "Australia's Closing the Gap progress is still badly off pace",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:59:16Z",
-      "voiceScript": "การรายงานใหม่ระบุว่าออสเตรเลียบรรลุเป้าหมายการปิดช่องว่างเพียงเป้าหมายเดียว และช่องว่างบางส่วนอาจกว้างขึ้นแทนที่จะแคบลง เรายินดีต้อนรับเหตุการณ์สำคัญครั้งล่าสุด แต่ก็ไม่ได้เปลี่ยนภาพที่ใหญ่ขึ้น ประเด็นกดดันต่อไปคือรัฐบาลสามารถเปลี่ยนเป้าหมายให้กลายเป็นผลลัพธ์ที่แท้จริงได้หรือไม่",
+      "voiceScript": "New reporting says Australia has met only one Closing the Gap target and that some gaps may widen instead of narrow. The latest milestone is welcome, but it does not change the bigger picture. The next pressure point is whether governments can turn targets into actual results.",
       "differences": [],
       "links": [
         {
@@ -136,10 +254,10 @@
     },
     {
       "id": "prisoner-detained-release-date",
-      "headline": "การตรวจสอบการควบคุมตัวของออสเตรเลียใต้ล้มเหลวในการปล่อยตัวนักโทษตรงเวลา",
+      "headline": "South Australian custody checks failed to free a prisoner on time",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:59:04Z",
-      "voiceScript": "ผู้ตรวจการแผ่นดินพบว่าหน่วยงานราชทัณฑ์ของรัฐเซาท์ออสเตรเลียควบคุมตัวนักโทษไว้เป็นเวลาหลายเดือนหลังจากที่บุคคลดังกล่าวควรได้รับการปล่อยตัว คดีนี้ชี้ให้เห็นถึงความล้มเหลวขั้นพื้นฐานในการตรวจสอบการปล่อยตัวมากกว่าข้อพิพาททางกฎหมายที่ซับซ้อน คำถามทันทีคือต้องเปลี่ยนมาตรการป้องกันกี่��รั้ง เพื่อไม่ให้ข้อผิดพลาดเดิมเกิดขึ้นอีก",
+      "voiceScript": "An ombudsman has found that South Australian correctional services kept a prisoner in custody for several months after the person should have been released. The case points to a basic failure in release checks rather than a complex legal dispute. The immediate question is how many safeguards need to change so the same mistake does not happen again.",
       "differences": [],
       "links": [
         {
@@ -150,10 +268,10 @@
     },
     {
       "id": "wa-mental-health-failure-family-moves",
-      "headline": "ครอบครัว WA กล่าวว่าการดูแลสุขภาพจิตที่อ่อนแอทำให้พวกเขาต้องออกจากรัฐ",
+      "headline": "A WA family says weak mental health care forced them to leave the state",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:56:29Z",
-      "voiceScript": "ครอบครัวหนึ่งกล่าวว่าช่องว่างในระบบสุขภาพจิตของรัฐเวสเทิร์นออสเตรเลียนั้นร้ายแรงพอที่จะผลักดันให้พวกเขาข้ามรัฐได้ พวกเขาอธิบายถึงความล้มเหลวซ้ำแล้วซ้ำเล่าในการดูแลและช่วยเหลือในเวลาที่พวกเขาต้องการมากที่สุด เรื่องราวนี้เพิ่มความกดดันให้กับระบบของรัฐ เนื่องจากครอบครัวยังคงถูกบังคับให้มองหาความช่วยเหลือจากที่อื่น",
+      "voiceScript": "A family says gaps in Western Australia's mental health system were serious enough to push them interstate. They describe repeated failures in care and support when they needed it most. The story adds pressure on the state system because families are still being forced to look elsewhere for help.",
       "differences": [],
       "links": [
         {
@@ -164,10 +282,10 @@
     },
     {
       "id": "victoria-roads-repair-bill",
-      "headline": "วิกตอเรียต้องเผชิญกับการเรียกเก็บเงินค่าซ่อมแซมก้อนใหญ่เนื่องจากถนนในเมืองพังทลายอย่างต่อเนื่อง",
+      "headline": "Victoria faces a large repair bill as its roads keep breaking down",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:36:17Z",
-      "voiceScript": "เครือข่ายถนนของรัฐวิกตอเรียกำลังทรุดโทรม และการวิเคราะห์ล่าสุดชี้ให้เห็นว่าค่าซ่อมจะมีจำนวนมาก ปัญหาไม่ใช่แค่ความเสียหายที่พื้นผิวอีกต่อไป มันเป็นความรวดเร็วที่รัฐบาลยินดีให้ทุนเพื่อแก้ไขปัญหา จนกว่าจะได้รับเงินดังกล่าว ผู้ขับขี่จะต้องจ่ายราคาตามถนนที่ขรุขระและการเดินทางที่ช้าลง",
+      "voiceScript": "Victoria's road network is deteriorating and fresh analysis suggests the repair cost will be substantial. The problem is no longer just surface damage; it is how quickly governments are willing to fund a fix. Until that money is committed, drivers will keep paying the price in rougher roads and slower trips.",
       "differences": [],
       "links": [
         {
@@ -178,10 +296,10 @@
     },
     {
       "id": "brisbane-airborne-car-bus",
-      "headline": "มีรถยนต์คันหนึ่งบินชนรถบัสบริสเบนในอุบัติเหตุจราจรรุนแรง",
+      "headline": "A car flew into a Brisbane bus in a violent road crash",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:11:14Z",
-      "voiceScript": "ในบริสเบน อุบัติเหตุรถชนทำให้รถยนต์กระเด็นไปกลางรถบัส เจ้าหน้าที่ฉุกเฉินต้องรับมือกับผลกระทบและการบาดเจ็บใดๆ ในวันพุธ คดีนี้แสดงให้เห็นว่าอุบัติเหตุจราจรที่เกิดขึ้นเป็นประจำสามารถกลายเป็นเหตุเกิดอุบัติเหตุร้ายแรงในเมืองได้เร็วเพียงใด",
+      "voiceScript": "In Brisbane, a crash sent a car airborne and into the side of a bus. Emergency crews had to deal with the impact and any injuries on Wednesday. The case shows how quickly a routine traffic incident can become a serious urban crash scene.",
       "differences": [],
       "links": [
         {
@@ -192,10 +310,10 @@
     },
     {
       "id": "stolen-car-teen-crash",
-      "headline": "เด็กหญิงวัยรุ่นสองคนได้รับบาดเจ็บเมื่อรถที่ถูกขโมยชนกัน",
+      "headline": "Two teenage girls were injured when a stolen car crashed",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:09:36Z",
-      "voiceScript": "เด็กหญิงอายุ 14 ปีสองคนได้รับบาดเจ็บหลังจากรถที่ถูกขโมยชนกัน ตำรวจกำลังรับมือกับทั้งการชนและการสอบสวนการโจรกรรม นับเป็นเครื่องเตือนใจอีกประการหนึ่งว่าการกระทำความผิดเกี่ยวกับรถยนต์ที่ถูกขโมยมานั้นอันตรายเพียงใดเมื่อคนหนุ่มสาวเข้ามาเกี่ยวข้อง",
+      "voiceScript": "Two 14-year-old girls were hurt after a stolen car crashed. Police are dealing with both the collision and the theft investigation. It is another reminder of how dangerous stolen-vehicle offending becomes when young people are involved.",
       "differences": [],
       "links": [
         {
@@ -206,10 +324,10 @@
     },
     {
       "id": "bird-flu-poultry-risk",
-      "headline": "เกษตรกรผู้เลี้ยงสัตว์ปีกเตือนว่าไข้หวัดนกอาจแพร่กระจายผ่านฝูงสัตว์ในท้องถิ่น",
+      "headline": "Poultry farmers are warning that bird flu may be moving through local flocks",
       "sourceCount": 2,
       "publishedAt": "2026-07-29T20:51:08Z",
-      "voiceScript": "เกษตรกรกังวลว่าไข้หวัดนกอาจแพร่ระบาดในพื้นที่แล้ว จุดเน้นอยู่ที่ความปลอดภัยทางชีวภาพ ความเร็วในการทดสอบ และความรวดเร็วในการติดตามการติดเชื้อ หากสเปรดได้รับการยืนยัน ผู้ผลิตอาจเผชิญกับการควบคุมที่เข้มงวดยิ่งขึ้นและความสูญเสียครั้งใหม่",
+      "voiceScript": "Farmers say they are concerned bird flu could already be spreading locally. The focus is on biosecurity, testing speed and how fast an infection can be tracked down. If the spread is confirmed, producers could face tighter controls and fresh losses.",
       "differences": [],
       "links": [
         {
@@ -224,10 +342,10 @@
     },
     {
       "id": "country-footy-family-debut",
-      "headline": "แม่และลูกสาวประเดิมสนามร่วมกับสโมสรฟุตบอลในชนบทซึ่งหาได้ยาก",
+      "headline": "A mother and daughter made a rare joint debut for a country footy club",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:43:30Z",
-      "voiceScript": "แม่และลูกสาวเดบิวต์ด้วยกันในสโมสรฟุตบอลคันทรี่ มันเป็นเรื่องราวกีฬาท้องถิ่นเล็กๆ น้อยๆ แต่มีความสำคัญเพราะมันแสดงให้เห็นว่าสโมสรในชุมชนยังคงต้องพึ่งพาความสัมพันธ์ในครอบครัวมากน้อยเพียงใด ช่วงเวลาดังกล่าวยังเตือนเราว่าการมีส่วนร่วมมีความสำคัญพอๆ กับคะแนนสุดท้าย",
+      "voiceScript": "A mother and daughter have debuted together for a country football club. It is a small local-sport story, but it matters because it shows how much community clubs still rely on family ties. The moment also reminds us that participation can be as important as the final score.",
       "differences": [],
       "links": [
         {
@@ -238,10 +356,10 @@
     },
     {
       "id": "rent-housing-subsidy-ends",
-      "headline": "ผู้ป่วยมะเร็งสูงอายุต้องเผชิญกับค่าเช่าที่สูงขึ้นหลังจากการสนับสนุนที่อยู่อาศัยสิ้นสุดลง",
+      "headline": "An older cancer patient is facing a steep rent rise after housing support ended",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:38:50Z",
-      "voiceScript": "ผู้ป่วยโรคมะเร็งวัย 80 ปี พบว่าค่าเช่าเพิ่มขึ้นอย่างรวดเร็ว หลังเงินอุดหนุนที่อยู่อาศัยสิ้นสุดลง การเพิ่มขึ้นนี้ทำให้เหลือพื้นที่เพียงเล็กน้อยในงบประมาณที่ขยายออกไปแล้ว นี่เป็นตัวอย่างที่ชัดเจนของการที่การเปลี่ยนแปลงนโยบายเล็กๆ น้อยๆ สามารถส่งผลกระทบต่อผู้ที่มีความต้องการด้านสุขภาพที่สำคัญได้ยากที่สุด",
+      "voiceScript": "An 80-year-old cancer patient has seen rent rise sharply after a housing subsidy came to an end. The increase leaves little room in an already stretched budget. It is a blunt example of how small policy changes can hit people with major health needs hardest.",
       "differences": [],
       "links": [
         {
@@ -252,10 +370,10 @@
     },
     {
       "id": "taronga-rare-snail",
-      "headline": "สวนสัตว์ Taronga ได้เพาะพันธุ์หอยทากหายากกลับมาแล้ว",
+      "headline": "Taronga Zoo has bred a rare snail back from the brink",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:37:36Z",
-      "voiceScript": "สวนสัตว์ Taronga เพาะพันธุ์หอยทากหายากที่คิดว่าสูญหายไปแล้ว ผลการวิจัยแสดงให้เห็นว่าการเพาะพันธุ์แบบเชลยสามารถซื้อเวลาให้กับสายพันธุ์ที่ใกล้จะสูญพันธุ์ได้อย่างไร ตอนนี้นักอนุรักษ์ต้องการทราบว่าประชากรสามารถอยู่รอดได้นอกสวนสัตว์หรือไม่",
+      "voiceScript": "Taronga Zoo has bred a rare snail that was thought to be lost. The result shows how captive breeding can buy time for species on the edge of extinction. Conservationists will now want to know whether the population can survive beyond the zoo.",
       "differences": [],
       "links": [
         {
@@ -266,10 +384,10 @@
     },
     {
       "id": "elder-abuse-prevention",
-      "headline": "ผู้สนับสนุนกำลังผลักดันให้มีการดำเนินการที่เข้มงวดมากขึ้นต่อการละเมิดชาวออสเตรเลียที่มีอายุมากกว่า",
+      "headline": "Advocates are pushing for tougher action on abuse of older Australians",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:35:40Z",
-      "voiceScript": "นักรณรงค์กล่าวว่าการสนทนาในที่สาธารณะเกี่ยวกับการล่วงละเมิดผู้สูงอายุยังคงต้องมีการเปลี่ยนแปลง พวกเขาต้องการการรับรู้ปัญหาที่ชัดเจนยิ่งขึ้นและการตอบสนองที่ชัดเจนยิ่งขึ้นเมื่อมีการรายงาน การอภิปรายในขณะนี้คือว่าการป้องกันในปัจจุบันเพียงพอหรือยังง่ายเกินไปที่จะเพิกเฉย",
+      "voiceScript": "Campaigners say the public conversation around elder abuse still needs to change. They want stronger recognition of the problem and clearer responses when it is reported. The debate now is whether the current safeguards are enough or still too easy to ignore.",
       "differences": [],
       "links": [
         {
@@ -280,10 +398,10 @@
     },
     {
       "id": "varroa-mite-treatment-access",
-      "headline": "ผู้เลี้ยงผึ้งกำลังขอให้เข้าถึงการรักษาไร varroa ได้เร็วขึ้น",
+      "headline": "Beekeepers are asking for faster access to varroa mite treatments",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:28:07Z",
-      "voiceScript": "ผู้เลี้ยงผึ้งกล่าวว่าทางเลือกในการรักษาไร varroa ในปัจจุบันมีจำกัดเกินไป พวกเขาต้องการเข้าถึงเครื่องมือที่ดีกว่าก่อนที่ศัตรูพืชจะสร้างความเสียหายให้กับลมพิษและงานผสมเกสรมากขึ้น ประเด็นนี้มีความสำคัญมากกว่าน้ำผึ้ง เนื่องจากส่งผลกระทบต่อการเกษตรกรรมในห่วงโซ่อาหารที่กว้างขึ้น",
+      "voiceScript": "Beekeepers say the current treatment options for varroa mite are too limited. They want access to better tools before the pest causes more damage to hives and pollination work. The issue matters well beyond honey because it affects agriculture across the wider food chain.",
       "differences": [],
       "links": [
         {
@@ -294,10 +412,10 @@
     },
     {
       "id": "landfill-fire-closure",
-      "headline": "สถานที่ฝังกลบขยะในเมลเบิร์นเตรียมปิดหลายปีหลังไฟไหม้ทิ้งความเสียหายยาวนาน",
+      "headline": "A Melbourne landfill is set to close years after a fire left lasting damage",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:03:09Z",
-      "voiceScript": "พื้นที่ฝังกลบชานเมืองในเมลเบิร์นมีกำหนดปิดหลังจากเหตุเพลิงไหม้ก่อให้เกิดปัญหาระยะยาวเมื่อหลายปีก่อน การปิดระบบดังกล่าวยุติความรำคาญในท้องถิ่น แต่ยังทำให้เกิดคำถามว่าขยะจะถูกส่งไปยังพื้นที่ใดต่อไป ชาวบ้านจะจับตาดูพื้นที่และแผนติดตามผลอย่างใกล้ชิด",
+      "voiceScript": "A suburban landfill in Melbourne is scheduled to close after a fire caused long-term problems years ago. The shutdown ends a local nuisance, but it also raises questions about where waste will go next. Residents will be watching the site and the follow-up plan closely.",
       "differences": [],
       "links": [
         {
@@ -308,10 +426,10 @@
     },
     {
       "id": "queensland-disability-council-vacancies",
-      "headline": "รัฐควีนส์แลนด์ยังคงมีตำแหน่งว่างในสภาผู้พิการในอีกหนึ่งปีต่อมา",
+      "headline": "Queensland still has vacancies on its disability council a year later",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T19:35:28Z",
-      "voiceScript": "ที่นั่งหลายที่นั่งในสภาผู้พิการของรัฐควีนส์แลนด์ยังคงเหลือที่นั่งไม่เพียงพอในเกือบหนึ่งปีต่อมา นั่นทำให้เกิดช่องว่างในการเป็นตัวแทนอย่างเป็นทางการ ในขณะที่การตัดสินใจเชิงนโยบายยังคงดำเนินต่อไป ความล่าช้าบ่งบอกว่ากระบวนการนัดหมายไม่ทันความต้องการเสียงที่โต๊ะ",
+      "voiceScript": "Several seats on Queensland's disability council remain unfilled almost a year later. That leaves a gap in formal representation while policy decisions continue to move ahead. The delay suggests the appointment process has not caught up with the need for voices at the table.",
       "differences": [],
       "links": [
         {
@@ -322,10 +440,10 @@
     },
     {
       "id": "neil-the-seal-costs",
-      "headline": "ตอนนี้แทสเมเนียมีร่างกฎหมายที่ชัดเจนมากขึ้นในการจัดการผนึกนีล",
+      "headline": "Tasmania now has a clearer bill for managing Neil the seal",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T19:29:01Z",
-      "voiceScript": "เจ้าหน้าที่ได้เปิดเผยใบเรียกเก็บเงินความเสียหายและค่าใช้จ่ายในการจัดการที่เกี่ยวข้องกับนีลผนึกแล้ว ตัวเลขเหล่านี้เปลี่ยนเรื่องราวของสัตว์ป่าที่เป็นกระแสอย่างรวดเร็วให้กลายเป็นค่าใช้จ่ายสาธารณะที่เป็นรูปธรรม พวกเขายังแสดงให้เห็นว่าการจัดการสัตว์ที่มีชื่อเสียงอาจเป็นปัญหาด้านลอจิสติกส์พอๆ กับการประกวดความนิยม",
+      "voiceScript": "Authorities have released the damage bill and management costs linked to Neil the seal. The figures turn a viral wildlife story into a concrete public expense. They also show that managing a famous animal can be as much a logistics problem as a popularity contest.",
       "differences": [],
       "links": [
         {
@@ -336,13 +454,13 @@
     },
     {
       "id": "victorian-labor-ben-carroll",
-      "headline": "การเพิ่มขึ้นของเบ็น แคร์โรลล์ได้ก่อให้เกิดการรีเซ็ตแรงงานในยุควิกตอเรียครั้งใหม่",
+      "headline": "Ben Carroll's rise has triggered a fresh Victorian Labor reset",
       "sourceCount": 5,
       "publishedAt": "2026-07-29T19:17:29Z",
-      "voiceScript": "การเลื่อนตำแหน่งของเบ็น แคร์โรลล์ทำให้ความสั่นคลอนภายในพรรคแรงงานวิกตอเรียลึกซึ้งยิ่งขึ้น คนในพรรคกล่าวว่าการเปลี่ยนแปลงดังกล่าวทำให้ฝ่ายซ้ายสังคมนิยมอ่อนแอลง และเปิดเวทีใหม่ในการแข่งขันผู้นำ บททดสอบต่อไปคือ การเปลี่ยนแปลงดังกล่าวทำให้พรรคแรงงานมีเส้นทางที่ชัดเจนมากขึ้นในการเลือกตั้งหรือเป็นเพียงคว���มเครียดภายในที่มากขึ้นเท่านั้น",
+      "voiceScript": "Ben Carroll's promotion has deepened the shake-up inside Victorian Labor. Party insiders say the shift has weakened the Socialist Left and opened a new phase in the leadership contest. The next test is whether the change gives Labor a clearer path to the election or just more internal strain.",
       "differences": [
-        "ABC เน้นย้ำถึงความเสียหายของฝ่ายภายในพรรคแรงงาน ขณะที่เดอะการ์เดียนเน้นย้ำถึงโอกาสการเลือกตั้งของแคร์โรลล์และผลพวงของการต่อสู้ภายใน",
-        "การเปลี่ยนแปลงทางการเมืองแบบเดียวกันนี้กำลังถูกมองว่าเป็นการโจมตีแบบกลุ่มหรือเป็นโอกาสในการรีเซ็ตการรณรงค์"
+        "ABC emphasises the factional damage inside Labor, while The Guardian stresses Carroll's election prospects and the aftermath of the internal fight.",
+        "The same political reshuffle is being read either as a factional blow or as a chance to reset the campaign."
       ],
       "links": [
         {
@@ -369,13 +487,13 @@
     },
     {
       "id": "inflation-eases-chalmers-cautious",
-      "headline": "อัตราเงินเฟ้อผ่อนคลายลงอีกครั้ง แต่แคนเบอร์รายังคงดูระมัดระวัง",
+      "headline": "Inflation has eased again, but Canberra is still sounding cautious",
       "sourceCount": 4,
       "publishedAt": "2026-07-29T19:00:00Z",
-      "voiceScript": "ตัวเลขเงินเฟ้อใหม่ชี้ลดลง และเหรัญญิกกำลังพูดถึงผลลัพธ์ อย่างไรก็ตาม ข้อความในวงกว้างจากแคนเบอร์รายังคงเป็นการเตือนมากกว่าการเฉลิมฉลอง นั่นสำคัญเพราะความคาดหวังด้านอัตราดอกเบี้ยและความกดดันของภาคครัวเรือนขึ้นอยู่กับว่าแนวโน้มจะคงอยู่หรือไม่",
+      "voiceScript": "New inflation numbers point lower, and the treasurer is talking up the result. Even so, the broader message from Canberra is still caution rather than celebration. That matters because interest-rate expectations and household pressure both depend on whether the trend lasts.",
       "differences": [
-        "SBS ให้ความสำคัญกับตัวเลขเงินเฟ้อและการตอบสนองของรัฐบาล ในขณะที่ ABC ให้ความสำคัญกับคำเตือนของ Jim Chalmers เกี่ยวกับแนวโน้มดังกล่าวมากกว่า",
-        "ทั้งสองเรื่องบรรยายถึงฉากหลังของภาวะเงินเฟ้อที่นุ่มนวลกว่าเหมือนกัน แต่สะท้อนถึงปฏิกิริยาทางการเมืองที่แตกต่างกัน"
+        "SBS foregrounds the inflation figure and the government response, while ABC focuses more on Jim Chalmers' caution about the outlook.",
+        "Both stories describe the same softer inflation backdrop, but they package the political reaction differently."
       ],
       "links": [
         {
@@ -398,10 +516,10 @@
     },
     {
       "id": "endangered-bat-decline",
-      "headline": "ค้างคาวออสเตรเลียที่ใกล้สูญพันธุ์ได้รับความเดือดร้อนจากจำนวนประชากรลดลงอย่างรวดเร็วอีกครั้ง",
+      "headline": "An endangered Australian bat has suffered another sharp population drop",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T15:00:37Z",
-      "voiceScript": "นักวิทยาศาสตร์กล่าวว่าจำนวนค้างคาวออสเตรเลียที่ใกล้สูญพันธุ์ลดลงอย่างรวดเร็ว และสาเหตุยังไม่ชัดเจน ในพื้นที่หนึ่งการลดลงมากถึงร้อยละ 16 ความไม่แน่นอนดังกล่าวทำให้ปัญหาการอนุรักษ์มีความเร่งด่วนมากขึ้น เนื่องจากผู้จัดการยังไม่รู้ว่าอะไรเป็นตัวขับเคลื่อน",
+      "voiceScript": "Scientists say the population of an endangered Australian bat has fallen sharply and the cause is still unclear. In one area, the drop is as much as 16 per cent. That uncertainty makes the conservation problem more urgent because managers still do not know what is driving it.",
       "differences": [],
       "links": [
         {
@@ -412,10 +530,10 @@
     },
     {
       "id": "chicken-labels-mean",
-      "headline": "ฉลากไก่ซูเปอร์มาร์เก็ตในออสเตรเลียกำลังถูกถอดรหัสเพื่อนักช้อป",
+      "headline": "Australian supermarket chicken labels are being decoded for shoppers",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T15:00:36Z",
-      "voiceScript": "ผู้ซื้อได้รับแจ้งว่าฉลากต่างๆ เช่น ปลอดสาร ออร์แกนิก และปราศจากฮอร์โมน แท้จริงแล้วมีความหมายอย่างไรกับผลิตภัณฑ์ไก่ของออสเตรเลีย ข้อกังวลก็คือถ้อยคำอาจดูชัดเจนกว่ามาตรฐานที่แท้จริง สำหรับผู้บริโภค ปัญหาอยู่ที่ว่าฉลากตรงกับความคาดหวังที่จุดชำระเงินหรือไม่",
+      "voiceScript": "Shoppers are being told what labels such as free-range, organic and hormone-free actually mean on Australian chicken products. The concern is that the wording can look clearer than the underlying standards really are. For consumers, the issue is whether the label matches the expectation at the checkout.",
       "differences": [],
       "links": [
         {
@@ -426,13 +544,13 @@
     },
     {
       "id": "fair-work-court-data-push",
-      "headline": "ข้อมูลของศาลกำลังตัดราคาคดีของพรรคแรงงานสำหรับศาลที่ทำงานแห่งใหม่",
+      "headline": "ข้อมูลศาลทำให้เหตุผลของแรงงานในการตั้งศาลแรงงานใหม่อ่อนลง",
       "sourceCount": 3,
       "publishedAt": "2026-07-29T08:29:00Z",
-      "voiceScript": "ตัวเลขของศาลรัฐบาลกลางแนะนำว่าคดีเกี่ยวกับสถานที่ทำงานและค่าจ้างต่ำกว่าความเป็นจริงกำลังดำเนินไปอย่างรวดเร็วยิ่งขึ้น ซึ่งทำให้ข้อโต้แย้งของพรรคแรงงานในการจัดตั้งศาลยุติธรรมแห่งใหม่อ่อนแอลง รัฐบาลยังคงสนับสนุนแผนนี้หลังจากได้รับแรงกดดันจากสหภาพแรงงานและผู้สนับสนุนภายในพรรค การทดสอบที่แท้จริงในขณะนี้คือว่าการเปลี่ยนแปลงจะเร่งการโต้แย้งหรือเพียงเพิ่มเลเยอร์อื่นให้กับระบบที่ยุ่งอยู่แล้ว",
+      "voiceScript": "สถิติของศาลกลางชี้ว่าคดีด้านสถานที่ทำงานและการจ่ายค่าจ้างไม่ครบกำลังเดินหน้าเร็วขึ้นอยู่แล้ว ซึ่งทำให้เหตุผลของพรรคแรงงานในการตั้ง Fair Work Court ใหม่อ่อนลง รัฐบาลยังคงสนับสนุนแผนนี้แม้จะถูกกดดันจากสหภาพแรงงานและผู้สนับสนุนภายในพรรค คำถามสำคัญตอนนี้คือการเปลี่ยนแปลงนี้จะทำให้ข้อพิพาทคลี่คลายเร็วขึ้น หรือเพียงเพิ่มอีกชั้นให้กับระบบที่ยุ่งอยู่แล้ว",
       "differences": [
-        "ABC และ news.com.au มุ่งเน้นไปที่การประกาศการประชุมของพรรคแรงงานและคดีทางการเมืองของศาล ในขณะที่ AFR มุ่งเน้นไปที่ข้อมูลของศาลที่ท้าทายความจำเป็น",
-        "แหล่งข้อมูลทั้งสามแห่งอธิบายถึงการผลักดันนโยบายเดียวกัน แต่พวกเขาตีกรอบว่าเป็นการปฏิรูปหรือการแก้ไขที่ต้องการหาปัญหา"
+        "ABC and news.com.au focus on Labor's conference announcement and the political case for the court, while AFR concentrates on the court data that challenges the need for it.",
+        "All three sources describe the same policy push, but they frame it as either a reform or a fix looking for a problem."
       ],
       "links": [
         {
@@ -451,10 +569,10 @@
     },
     {
       "id": "sunshine-coast-holiday-club-liquidation",
-      "headline": "คลับวันหยุดแห่งหนึ่งในซันไชน์โคสต์พังทลายลง และสมาชิกต้องการเงินคืน",
+      "headline": "A Sunshine Coast holiday club has collapsed and members want refunds",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T08:18:53Z",
-      "voiceScript": "The Resort Club ซึ่งเป็นโครงการสะสมคะแนนในช่วงวันหยุดของ Sunshine Coast ได้เข้าสู่การชำระบัญชีแล้ว ขณะนี้สมาชิกที่ชำระเงินล่วงหน้ากำลังพยายามขอเงินคืนและการจองที่พวกเขาคาดว่าจะใช้ในภายหลัง การล่มสลายครั้งนี้เป็นอีกคำเตือนหนึ่งเกี่ยวกับความเสี่ยงในแผนการเดินทางแบบเติมเงิน",
+      "voiceScript": "The Resort Club, a Sunshine Coast holiday points scheme, has gone into liquidation. Members who paid upfront are now trying to recover money and bookings they expected to use later. The collapse is another warning about the risks in prepaid travel schemes.",
       "differences": [],
       "links": [
         {
@@ -465,13 +583,13 @@
     },
     {
       "id": "offset-account-failures",
-      "headline": "ความล้มเหลวของบัญชีออฟเซ็ตทำให้ลูกค้าธนาคารต้องตรวจสอบยอดคงเหลือของตน",
+      "headline": "Offset account failures have left bank customers checking their balances",
       "sourceCount": 2,
       "publishedAt": "2026-07-29T08:12:42Z",
-      "voiceScript": "ผู้ถือสินเชื่อที่อยู่อาศัยได้รับคำสั่งให้ตรวจสอบบัญชีธนาคารของตนหลังจากค้นพบความล้มเหลวของระบบชดเชย ปัญหาทำให้เกิดความเสี่ยงที่การออมที่เกี่ยวข้องกับสินเชื่อบ้านจะไม่เป็นไปตามที่คาดไว้ ขณะนี้ลูกค้าต้องการการยืนยันที่ชัดเจนว่าบัญชีของตนได้รับการตั้งค่าและป้องกันอย่างถูกต้อง",
+      "voiceScript": "Mortgage holders are being told to check their bank accounts after offset system failures were uncovered. The problem raises the risk that savings linked to home loans were not working as expected. Customers now need clear confirmation that their accounts are set up and protected correctly.",
       "differences": [
-        "SBS อธิบายวิธีตรวจสอบว่าบัญชีออฟเซ็ตใช้งานได้หรือไม่ ในขณะที่ 7NEWS เป็นผู้นำพร้อมคำเตือนไปยังผู้ถือจำนองหลังจากค้นพบความล้มเหลว",
-        "ทั้งสองมุ่งเน้นไปที่ความเสี่ยงเชิงปฏิบัติให้กับลูกค้า แต่ SBS ให้คำแนะนำวิธีการที่กว้างขึ้น"
+        "SBS explains how to check whether the offset account is working, while 7NEWS leads with the warning to mortgage holders after the failures were discovered.",
+        "Both focus on the practical risk to customers, but SBS gives the broader how-to guide."
       ],
       "links": [
         {
@@ -486,13 +604,13 @@
     },
     {
       "id": "fuel-discount-and-petrol-prices",
-      "headline": "ผู้ขับขี่ต่างเตรียมพร้อมสำหรับค่าน้ำมันที่สูงขึ้นเมื่อส่วนลดหายไป",
+      "headline": "Drivers are bracing for higher fuel bills as the discount disappears",
       "sourceCount": 4,
       "publishedAt": "2026-07-29T07:36:19Z",
-      "voiceScript": "ส่วนลดค่าน้ำมันกำลังจะสิ้นสุดลง และผู้ขับขี่จะได้รับแจ้งให้ดูวันที่เมื่อราคาใหม่ถูกรีเซ็ต น้ำมันได้ขยับเหนือ 2 ดอลลาร์ต่อลิตรแล้วในบางพื้นที่ ความกดดันที่เกิดขึ้นทันทีนั้นอยู่ที่งบประมาณของครัวเรือน แต่ผลกระทบด้านค่าครองชีพที่กว้างขึ้นอาจแพร่กระจายอย่างรวดเร็ว",
+      "voiceScript": "The fuel discount is ending, and drivers are being told to watch the dates as prices reset. Petrol has already moved above $2 a litre in some areas. The immediate pressure is on household budgets, but the wider cost-of-living effect could spread quickly.",
       "differences": [
-        "การรายงานข่าวของ Guardian ถือว่าการเคลื่อนไหวนี้เป็นส่วนหนึ่งของราคาน้ำมันที่พุ่งสูงขึ้น ในขณะที่ SBS มุ่งเน้นไปที่การสิ้นสุดส่วนลดและสิ่งที่ผู้ขับขี่ควรทำต่อไป",
-        "รายงานทั้งสองฉบับชี้ไปที่แรงกดดันด้านราคาที่เท่ากัน แต่พวกเขาตีกรอบความเจ็บปวดที่เกิดขึ้นทันทีแตกต่างกัน"
+        "Guardian coverage treats the move as part of a live fuel-price spike, while SBS focuses on the discount ending and what drivers should do next.",
+        "Both reports point to the same price pressure, but they frame the immediate pain differently."
       ],
       "links": [
         {
@@ -515,10 +633,10 @@
     },
     {
       "id": "qantas-long-haul-plane",
-      "headline": "แผนเครื่องบินเจ็ทพิสัยไกลของแควนตัสอาจเปลี่ยนวิธีการบินของชาวออสเตรเลีย",
+      "headline": "Qantas' long-range jet plan could change how Australians fly",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T06:48:46Z",
-      "voiceScript": "แควนตัสกำลังเดินหน้าด้วยโครงการเครื่องบินที่สร้างสถิติใหม่ ซึ่งสามารถลดความจำเป็นในการแวะพักระหว่างการเดินทางระยะไกลได้ สายการบินต้องการให้การเดินทางตรงจากออสเตรเลียมีประโยชน์มากขึ้น การทดสอบคือเครื่องบินและเศรษฐศาสตร์สามารถทำงานได้ในวงกว้างหรือไม่",
+      "voiceScript": "Qantas is pushing ahead with a record-setting aircraft project that could reduce the need for stopovers on very long trips. The airline wants direct travel from Australia to become more practical. The test is whether the plane and the economics can both work at scale.",
       "differences": [],
       "links": [
         {
@@ -529,13 +647,13 @@
     },
     {
       "id": "wa-oil-refinery-criticism",
-      "headline": "โรงกลั่นน้ำมันที่เสนอของรัฐเวสเทิร์นออสเตรเลียกำลังเผชิญกับคำวิพากษ์วิจารณ์ที่เพิ่มมากขึ้น",
+      "headline": "Western Australia's proposed oil refinery is facing growing criticism",
       "sourceCount": 3,
       "publishedAt": "2026-07-29T06:15:55Z",
-      "voiceScript": "ผู้เชี่ยวชาญกำลังตั้งคำถามเกี่ยวกับข้อเสนอโรงกลั่นน้ำมันในรัฐเวสเทิร์นออสเตรเลีย และเรียกโรงกลั่นน้ำมันว่าเทคโนโลยีล้าสมัย พวกเขากล่าวว่าแผนดังกล่าวอยู่เคียงข้างการเปลี่ยนแปลงพลังงานสะอาดอย่างเชื่องช้า ปัญหาที่แท้จริงคือโครงการนี้สมเหตุสมผลในเชิงพาณิชย์หรืออยู่หลังโค้งไปแล้ว",
+      "voiceScript": "Experts are questioning a proposed oil refinery in Western Australia and calling it outdated technology. They say the plan sits awkwardly beside the clean-energy transition. The real issue is whether the project is commercially sensible or already behind the curve.",
       "differences": [
-        "เดอะการ์เดียนเอนเอียงไปที่การวิพากษ์วิจารณ์พลังงานสะอาด ในขณะที่เอสบีเอสวางกรอบแผนเป็นการอภิปรายนโยบายและอุปทานในวงกว้าง",
-        "เรื่องราวทั้งสองตั้งคำถามว่าโรงกลั่นยังคงสมเหตุสมผลกับการเปลี่ยนแปลงพลังงานในปัจจุบันหรือไม่"
+        "The Guardian leans into the clean-energy critique, while SBS frames the plan as a broader policy and supply debate.",
+        "Both stories question whether the refinery still makes sense in the current energy shift."
       ],
       "links": [
         {
@@ -554,13 +672,13 @@
     },
     {
       "id": "one-nation-financial-records-risk",
-      "headline": "บัญชีที่หายไปของ One Nation กำลังทำให้สาขาในควีนส์แลนด์ตกอยู่ในความเสี่ยง",
+      "headline": "One Nation's missing accounts are putting its Queensland branch at risk",
       "sourceCount": 3,
       "publishedAt": "2026-07-29T04:56:00Z",
-      "voiceScript": "หน่วยงานกำกับดูแลของรัฐควีนส์แลนด์กล่าวว่า One Nation ยังคงเป็นหนี้บัญชีที่ได้รับการตรวจสอบเป็นเวลาสามปี และความล่าช้าดังกล่าวทำให้หน่วยงานของรัฐของพรรคตกอยู่ภายใต้แรงกดดันอย่างแท้จริง พรรคกล่าวว่าจะยื่นเอกสาร แต่กำหนดเวลาที่พลาดไปทำให้สาขาควีนส์แลนด์เสี่ยงต่อการยกเลิกและบทลงโทษ เรื่องราวมีความสำคัญเพราะมันเปลี่ยนปัญหาการจัดเก็บภาษีเป็นการทดสอบว่าพรรคจะรักษาองค์กรท้องถิ่นของตนไว้ได้หรือไม่",
+      "voiceScript": "Queensland regulators say One Nation still owes audited accounts for three years, and that delay has put the party's state entity under real pressure. The party says it will file the paperwork, but the missed deadlines have left its Queensland branch exposed to cancellation and penalties. The story matters because it turns a filing problem into a test of whether the party can keep its local organisation intact.",
       "differences": [
-        "ABC เป็นผู้นำตามกำหนดเวลาของหน่วยงานกำกับดูแลและคำมั่นของพรรคที่จะตามให้ทัน ขณะที่ AFR เน้นย้ำถึงข้อความที่ขาดหายไปและความเสี่ยงในการยกเลิก",
-        "เดอะการ์เดียนตีกรอบปัญหานี้ว่าเป็นความล้มเหลวในการปฏิบัติตามข้อกำหนดในวงกว้างซึ่งอาจทำลายฐาน One Nation ของรัฐควีนส์แลนด์"
+        "ABC leads with the regulator deadline and the party's vow to catch up, while AFR emphasises the missing statements and the risk of cancellation.",
+        "The Guardian frames the issue as a wider compliance failure that could strip One Nation of its Queensland base."
       ],
       "links": [
         {
@@ -579,10 +697,10 @@
     },
     {
       "id": "deepfake-school-photo-warning",
-      "headline": "โรงเรียนถูกเตือนว่าภาพถ่ายที่โพสต์อาจกลายเป็น Deepfake ได้",
+      "headline": "Schools are being warned that posted photos can be turned into deepfakes",
       "sourceCount": 1,
       "publishedAt": "2026-07-28T11:05:31Z",
-      "voiceScript": "โรงเรียนในออสเตรเลียได้รับคำเตือนว่ารูปภาพที่พวกเขาแชร์ทางออนไลน์สามารถนำกลับมาใช้ซ้ำได้ในการโจมตีแบบดีพเฟคด้วยปัญญาประดิษฐ์ ความเสี่ยงไม่ได้เป็นไปตามทฤษฎี เนื่องจากภาพธรรมดาๆ สามารถเปลี่ยนให้เป็นเนื้อหาสำหรับการละเมิดได้ ความท้าทายในทางปฏิบัติคือวิธีที่โรงเรียนจัดการการแบ่งปันออนไลน์โดยไม���ตัดการสื่อสารตามปกติ",
+      "voiceScript": "Australian schools are being warned that photos they share online can be reused in artificial-intelligence deepfake attacks. The risk is not theoretical because ordinary images can be turned into material for abuse. The practical challenge is how schools manage online sharing without cutting off normal communication.",
       "differences": [],
       "links": [
         {
@@ -593,10 +711,10 @@
     },
     {
       "id": "emergency-alert-trial",
-      "headline": "การทดลองแจ้งเตือนเหตุฉุกเฉินของออสเตรเลียยังคงพลาดคนจำนวนมากเกินไป",
+      "headline": "Australia's emergency alert trial still missed too many people",
       "sourceCount": 1,
       "publishedAt": "2026-07-28T09:19:43Z",
-      "voiceScript": "การทดลองใช้ระบบแจ้งเตือนเหตุฉุกเฉินไม่ได้เข้าถึงทุกคนที่ตั้งใจจะเข้าถึง ผลการสำรวจแนะนำว่าการทดสอบระดับชาติอาจต้องทำอีกครั้งก่อนเปิดตัวในเดือนตุลาคม ความน่าเชื่อถือเป็นประเด็นสำคัญ เนื่องจากการแจ้งเตือนจะใช้ได้ก็ต่อเมื่อผู้คนได้รับการแจ้งเตือนจริงๆ",
+      "voiceScript": "A trial of the emergency alert system did not reach everyone it was meant to reach. Survey results suggest the national test may need another run before the October launch. Reliability is the key issue because an alert only works if people actually receive it.",
       "differences": [],
       "links": [
         {
@@ -607,13 +725,13 @@
     },
     {
       "id": "origin-data-breach",
-      "headline": "Origin กล่าวว่าการละเมิดข้อมูลส่งผลกระทบต่อลูกค้าเกือบล้านราย",
+      "headline": "Origin says a data breach has affected close to a million customers",
       "sourceCount": 7,
       "publishedAt": "2026-07-28T04:37:33Z",
-      "voiceScript": "Origin ขออภัยหลังจากเปิดเผยการละเมิดข้อมูลที่ส่งผลกระทบต่อลูกค้าประมาณ 900,000 ราย มาตราส่วนนี้ใหญ่พอที่จะสร้างแรงกดดันต่อบริษัทในเรื่องการเปิดเผยข้อมูลและการรักษาความปลอดภัย ขั้นตอนต่อไปคือความรวดเร็วในการแจ้งให้ลูกค้าทราบ และมีการใช้มาตรการป้องกันเพิ่มเติมอะไรบ้าง",
+      "voiceScript": "Origin has apologised after revealing a data breach that affected about 900,000 customers. The scale is large enough to keep pressure on the company over disclosure and security. The next step is how quickly customers are informed and what extra safeguards are put in place.",
       "differences": [
-        "SBS ให้ความสำคัญกับคำขอโทษและการตอบกลับของลูกค้า ในขณะที่ 7NEWS เน้นย้ำถึงขนาดของการละเมิดและจำนวนผู้ที่ได้รับผลกระทบ",
-        "เหตุการณ์เดียวกันนี้กำลังถูกตีกรอบว่าเป็นการอัปเดตสำหรับผู้ใช้ทั่วไปหรือความล้มเหลวด้านความปลอดภัยขององค์กรขนาดใหญ่"
+        "SBS centres the apology and customer response, while 7NEWS emphasises the scale of the breach and the number of people affected.",
+        "The same incident is being framed either as a consumer update or as a large-scale corporate security failure."
       ],
       "links": [
         {
@@ -648,10 +766,10 @@
     },
     {
       "id": "actu-leadership-handover",
-      "headline": "ACTU กำลังเตรียมการมอบตำแหน่งผู้นำ",
+      "headline": "The ACTU is preparing for a leadership handover",
       "sourceCount": 1,
       "publishedAt": "2026-07-28T00:00:17Z",
-      "voiceScript": "แซลลี่ แม็กมานัสและมิเคเล่ โอ'นีลกำลังก้าวออกจากกัน เปิดทางให้ผู้นำสหภาพแรงงานรุ่นใหม่ การเปลี่ยนแปลงมีความสำคัญเนื่องจาก ACTU ยังคงกำหนดการอภิปรายเกี่ยวกับค่าจ้าง สิทธิในที่ทำงาน และกลยุทธ์ทางอุตสาหกรรม สิ่งที่จะเกิดขึ้นต่อไปจะขึ้นอยู่กับว่าใครจะเข้ามารับช่วงต่อและการเปลี่ยนแปลงจะยุติได้เร็��แค่ไหน",
+      "voiceScript": "Sally McManus and Michele O'Neil are stepping aside, opening the way for a new generation of union leadership. The change matters because the ACTU still shapes debate on wages, workplace rights and industrial strategy. What comes next will depend on who takes over and how quickly the transition settles.",
       "differences": [],
       "links": [
         {
@@ -662,10 +780,10 @@
     },
     {
       "id": "ato-tax-return-lodgement",
-      "headline": "ATO กำลังแจ้งให้ผู้เสียภาษีหลายล้านคนยื่นเรื่องขอคืนในขณะนี้",
+      "headline": "The ATO is telling millions of taxpayers to lodge returns now",
       "sourceCount": 1,
       "publishedAt": "2026-07-27T21:43:43Z",
-      "voiceScript": "ATO กล่าวว่าขณะนี้เป็นเวลาสำหรับผู้เสียภาษีชาวออสเตรเลียหลายล้านคนในการยื่นแบบแสดงรายการของตน คำเตือนนี้มีจุดมุ่งหมายเพื่อป้องกันความล่าช้าและทำให้ฤดูกาลยื่นเอกสารดำเนินต่อไป คำถามเชิงปฏิบัติคือผู้คนมีข้อมูลที่ต้องการก่อนส่งหรือไม่",
+      "voiceScript": "The ATO says now is the time for millions of Australian taxpayers to lodge their returns. The warning is aimed at preventing delays and keeping the filing season moving. The practical question is whether people have the information they need before they submit.",
       "differences": [],
       "links": [
         {

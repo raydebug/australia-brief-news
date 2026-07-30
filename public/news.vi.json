@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T23:59:59.000Z",
+  "updatedAt": "2026-07-30T01:08:47.480Z",
   "generatedBy": "codex",
   "language": "vi",
   "sources": [
@@ -101,17 +101,135 @@
     }
   ],
   "errors": [
-    "Người Úc vẫn chuyển hướng đến một bức tường cookie, Sky News Australia vẫn phục vụ một trang nocookies và news.com.au RSS tin tức mới nhất vẫn là HTML chứ không phải là một nguồn cấp dữ liệu sạch, vì vậy cần phải trích xuất dự phòng.",
-    "Các trang bài viết AAP có thể được sử dụng để đối sánh phạm vi đưa tin trong lần chạy này, nhưng một số trang gần đây vẫn cần dự phòng kết quả tìm kiếm để giải quyết URL chuẩn.",
-    "Một số ít câu chuyện vẫn chỉ là một nguồn duy nhất vì không có báo cáo thứ hai tập trung vào Úc gần đây tại thời điểm thu thập."
+    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
+    "AAP article pages were usable for matching coverage this run, but some recent pages still needed search-result fallback to resolve the canonical URL.",
+    "A small number of stories remain single-source because no second recent Australia-focused report was available at collection time."
   ],
   "clusters": [
     {
+      "id": "victorian-labor-reshuffle-carroll",
+      "headline": "Việc thăng chức của Ben Carroll kéo theo một đợt xáo trộn mới của Lao động Victoria",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-30T00:50:14Z",
+      "voiceScript": "Chính quyền Victoria đang điều chỉnh lại đội ngũ nội bộ khi Ben Carroll được giao vai trò lớn hơn và một nhân vật trung thành với Lao động được đưa vào để điều hành chương trình trước cuộc bầu cử tháng Mười Một. Đợt xáo trộn này quan trọng vì nó xác định lại ai sẽ dẫn dắt chiến lược chính trị hằng ngày trong thời điểm nhạy cảm. Câu hỏi tiếp theo là liệu cách sắp xếp mới có mang lại ổn định hay chỉ mở ra một vòng xoay chính trị mới.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/politics/victoria/carroll-enlists-labor-loyalist-to-run-government-ahead-of-reshuffle-20260730-p60jwd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/politics/victoria/carroll-enlists-labor-loyalist-to-run-government-ahead-of-reshuffle-20260730-p60jwd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/politics/victoria/carroll-enlists-labor-loyalist-to-run-government-ahead-of-reshuffle-20260730-p60jwd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/politics/victoria/carroll-enlists-labor-loyalist-to-run-government-ahead-of-reshuffle-20260730-p60jwd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ]
+    },
+    {
+      "id": "optus-federal-court-outage",
+      "headline": "Optus đối mặt vụ kiện tại Tòa Liên bang sau sự cố triple-zero",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T00:48:54Z",
+      "voiceScript": "Cơ quan quản lý viễn thông của Úc đã đưa Optus ra Tòa Liên bang vì sự cố năm 2025 làm gián đoạn cuộc gọi khẩn cấp. Vụ việc tiếp tục gây áp lực lên độ tin cậy của dịch vụ triple-zero, khả năng chống chịu của mạng lưới và hệ quả công chúng từ thất bại năm ngoái. Bước tiếp theo là quá trình xét xử, có thể định hình cả mức phạt lẫn các biện pháp khắc phục mà Optus phải thực hiện.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/acma-takes-optus-to-federal-court-over-2025-outage/106975412"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
+        }
+      ]
+    },
+    {
+      "id": "luke-gosling-arrest-inquiry",
+      "headline": "Việc bắt giữ Luke Gosling khiến một nghị sĩ Lao động liên bang bị soi xét thêm",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-30T00:44:07Z",
+      "voiceScript": "Cảnh sát Lãnh thổ Bắc Úc đã bắt giữ nghị sĩ Lao động liên bang Luke Gosling liên quan đến cáo buộc hành hung trong một sự kiện công cộng vào giữa tháng Bảy. Vấn đề này nghiêm trọng vì liên quan đến một nghị sĩ đương nhiệm và có thể kéo theo hậu quả pháp lý lẫn chính trị. Hồ sơ giờ sẽ chuyển sang hệ thống tòa án, còn phản ứng của đảng và tác động trong quốc hội vẫn đang chờ đợi.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/federal-mp-luke-gosling-arrested-alleged-assault-administrator/106975278"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/politics/federal/federal-labor-mp-luke-gosling-arrested-over-alleged-assault-20260730-p60jxl.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/politics/federal/federal-labor-mp-luke-gosling-arrested-over-alleged-assault-20260730-p60jxl.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/politics/federal/federal-labor-mp-luke-gosling-arrested-over-alleged-assault-20260730-p60jxl.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/politics/federal/federal-labor-mp-luke-gosling-arrested-over-alleged-assault-20260730-p60jxl.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ]
+    },
+    {
+      "id": "kpmg-job-cut-pressure",
+      "headline": "Tin đồn cắt giảm nhân sự của KPMG cho thấy áp lực vẫn đè lên ngành tư vấn",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-30T00:38:38Z",
+      "voiceScript": "KPMG nói chưa có quyết định cuối cùng, nhưng các báo cáo về khả năng cắt khoảng 1.000 việc làm đã đưa kế hoạch nhân sự của hãng vào tâm điểm chú ý. Con số này quan trọng vì nó cho thấy sự chững lại của ngành tư vấn vẫn đang lan sang số lượng lao động. Thông tin tiếp theo sẽ là xác nhận của công ty về quy mô, thời điểm và phạm vi cắt giảm.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/business/companies/kpmg-says-no-decisions-have-been-made-on-staff-purge-amid-reports-of-1000-cuts-20260729-p60jsy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/business/companies/kpmg-says-no-decisions-have-been-made-on-staff-purge-amid-reports-of-1000-cuts-20260729-p60jsy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/business/companies/kpmg-says-no-decisions-have-been-made-on-staff-purge-amid-reports-of-1000-cuts-20260729-p60jsy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/business/companies/kpmg-says-no-decisions-have-been-made-on-staff-purge-amid-reports-of-1000-cuts-20260729-p60jsy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ]
+    },
+    {
+      "id": "victoria-h5n1-first-detection",
+      "headline": "Victoria ghi nhận H5N1 đầu tiên, làm tăng mức độ căng thẳng trong ứng phó cúm gia cầm",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T00:31:02Z",
+      "voiceScript": "Victoria đã xác nhận trường hợp H5N1 đầu tiên, làm tăng áp lực lên công tác giám sát cúm gia cầm của Úc. Việc này quan trọng vì nó ảnh hưởng đến kiểm tra động vật hoang dã, an toàn sinh học đối với gia cầm và tốc độ xác định virus đang ở mức cục bộ hay lan rộng hơn. Những đợt xét nghiệm và giám sát thực địa tiếp theo sẽ cung cấp manh mối mới.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/victoria-bird-flu-h5n1-detection/106839886"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/jul/30/bird-flu-australia-h5n1-how-will-it-affect-wildlife"
+        }
+      ]
+    },
+    {
       "id": "aussie-swimming-record-night",
-      "headline": "Các vận động viên bơi lội Úc liên tục tìm ra cách mới để gây bất ngờ trên sân",
+      "headline": "Australian swimmers keep finding new ways to surprise the field",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:59:33Z",
-      "voiceScript": "Một nguồn bất ngờ đã giúp tạo nên một đêm lập kỷ lục khác cho môn bơi lội Úc. Kết quả nhấn mạnh chiều sâu của chương trình Dolphins và cách mà những cái tên mới vẫn đang được đưa vào xem xét. Câu hỏi tiếp theo là liệu động lực đó có giữ được trong những cuộc gặp lớn hơn ở phía trước hay không.",
+      "voiceScript": "An unexpected source helped power another record-setting night for Australian swimming. The result underlines the depth in the Dolphins program and the way new names are still pushing into view. The next question is whether that momentum holds into the bigger meets ahead.",
       "differences": [],
       "links": [
         {
@@ -122,10 +240,10 @@
     },
     {
       "id": "closing-gap-off-track",
-      "headline": "Tiến trình thu hẹp khoảng cách của Úc vẫn còn chậm so với tốc độ",
+      "headline": "Australia's Closing the Gap progress is still badly off pace",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:59:16Z",
-      "voiceScript": "Báo cáo mới cho biết Úc mới chỉ đạt được một mục tiêu Thu hẹp khoảng cách và một số khoảng cách có thể mở rộng thay vì thu hẹp. Cột mốc mới nhất được chào đón nhưng nó không làm thay đổi bức tranh toàn cảnh. Điểm áp lực tiếp theo là liệu chính phủ có thể biến mục tiêu thành kết quả thực tế hay không.",
+      "voiceScript": "New reporting says Australia has met only one Closing the Gap target and that some gaps may widen instead of narrow. The latest milestone is welcome, but it does not change the bigger picture. The next pressure point is whether governments can turn targets into actual results.",
       "differences": [],
       "links": [
         {
@@ -136,10 +254,10 @@
     },
     {
       "id": "prisoner-detained-release-date",
-      "headline": "Kiểm tra tạm giữ ở Nam Úc không giải thoát được tù nhân đúng thời hạn",
+      "headline": "South Australian custody checks failed to free a prisoner on time",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:59:04Z",
-      "voiceScript": "Một thanh tra viên đã phát hiện ra rằng cơ quan cải huấn Nam Úc đã giam giữ một tù nhân trong vài tháng sau khi người này lẽ ra phải được thả. Vụ việc chỉ ra một thất bại cơ bản trong việc kiểm tra phát hành hơn là một tranh chấp pháp lý phức tạp. Câu hỏi trước mắt là cần phải thay đổi bao nhiêu biện pháp bảo vệ để sai lầm tương tự không xảy ra lần nữa.",
+      "voiceScript": "An ombudsman has found that South Australian correctional services kept a prisoner in custody for several months after the person should have been released. The case points to a basic failure in release checks rather than a complex legal dispute. The immediate question is how many safeguards need to change so the same mistake does not happen again.",
       "differences": [],
       "links": [
         {
@@ -150,10 +268,10 @@
     },
     {
       "id": "wa-mental-health-failure-family-moves",
-      "headline": "Một gia đình ở WA cho biết việc chăm sóc sức khỏe tâm thần yếu kém đã buộc họ phải rời khỏi bang",
+      "headline": "A WA family says weak mental health care forced them to leave the state",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:56:29Z",
-      "voiceScript": "Một gia đình cho biết những lỗ hổng trong hệ thống sức khỏe tâm thần của Tây Úc đủ nghiêm trọng để khiến họ phải chuyển sang liên bang. Họ mô tả những thất bại liên tục trong việc chăm sóc và hỗ trợ khi họ cần nhất. Câu chuyện này gây thêm áp lực lên hệ thống nhà nước vì các gia đình vẫn buộc phải tìm kiếm sự giúp đỡ ở nơi khác.",
+      "voiceScript": "A family says gaps in Western Australia's mental health system were serious enough to push them interstate. They describe repeated failures in care and support when they needed it most. The story adds pressure on the state system because families are still being forced to look elsewhere for help.",
       "differences": [],
       "links": [
         {
@@ -164,10 +282,10 @@
     },
     {
       "id": "victoria-roads-repair-bill",
-      "headline": "Victoria phải đối mặt với hóa đơn sửa chữa lớn khi đường sá liên tục bị hư hỏng",
+      "headline": "Victoria faces a large repair bill as its roads keep breaking down",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:36:17Z",
-      "voiceScript": "Mạng lưới đường bộ của Victoria đang xuống cấp và phân tích mới cho thấy chi phí sửa chữa sẽ rất lớn. Vấn đề không còn chỉ là hư hỏng bề mặt; vấn đề là các chính phủ sẵn sàng tài trợ cho việc sửa chữa nhanh đến mức nào. Cho đến khi số tiền đó được cam kết, các tài xế sẽ tiếp tục phải trả giá bằng những con đường gồ ghề hơn và những chuyến đi chậm hơn.",
+      "voiceScript": "Victoria's road network is deteriorating and fresh analysis suggests the repair cost will be substantial. The problem is no longer just surface damage; it is how quickly governments are willing to fund a fix. Until that money is committed, drivers will keep paying the price in rougher roads and slower trips.",
       "differences": [],
       "links": [
         {
@@ -178,10 +296,10 @@
     },
     {
       "id": "brisbane-airborne-car-bus",
-      "headline": "Một chiếc ô tô đã đâm vào một chiếc xe buýt ở Brisbane trong một vụ va chạm dữ dội trên đường",
+      "headline": "A car flew into a Brisbane bus in a violent road crash",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:11:14Z",
-      "voiceScript": "Ở Brisbane, một vụ va chạm đã khiến một chiếc ô tô bay lên không trung và đâm vào hông một chiếc xe buýt. Đội cứu hộ khẩn cấp đã phải giải quyết vụ va chạm và bất kỳ người bị thương nào vào hôm thứ Tư. Vụ việc cho thấy một sự cố giao thông thông thường có thể nhanh chóng trở thành hiện trường vụ va chạm đô thị nghiêm trọng như thế nào.",
+      "voiceScript": "In Brisbane, a crash sent a car airborne and into the side of a bus. Emergency crews had to deal with the impact and any injuries on Wednesday. The case shows how quickly a routine traffic incident can become a serious urban crash scene.",
       "differences": [],
       "links": [
         {
@@ -192,10 +310,10 @@
     },
     {
       "id": "stolen-car-teen-crash",
-      "headline": "Hai thiếu nữ bị thương khi xe trộm đâm vào nhau",
+      "headline": "Two teenage girls were injured when a stolen car crashed",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T21:09:36Z",
-      "voiceScript": "Hai bé gái 14 tuổi bị thương sau vụ đâm xe trộm. Cảnh sát đang giải quyết cả vụ va chạm và điều tra trộm cắp. Đó là một lời nhắc nhở khác về mức độ nguy hiểm của tội trộm cắp xe khi có liên quan đến thanh thiếu niên.",
+      "voiceScript": "Two 14-year-old girls were hurt after a stolen car crashed. Police are dealing with both the collision and the theft investigation. It is another reminder of how dangerous stolen-vehicle offending becomes when young people are involved.",
       "differences": [],
       "links": [
         {
@@ -206,10 +324,10 @@
     },
     {
       "id": "bird-flu-poultry-risk",
-      "headline": "Người chăn nuôi gia cầm cảnh báo cúm gia cầm có thể lây lan qua đàn gia cầm địa phương",
+      "headline": "Poultry farmers are warning that bird flu may be moving through local flocks",
       "sourceCount": 2,
       "publishedAt": "2026-07-29T20:51:08Z",
-      "voiceScript": "Nông dân nói rằng họ lo ngại cúm gia cầm có thể đã lây lan tại địa phương. Trọng tâm là an toàn sinh học, tốc độ xét nghiệm và tốc độ theo dõi lây nhiễm. Nếu mức chênh lệch được xác nhận, các nhà sản xuất có thể phải đối mặt với sự kiểm soát chặt chẽ hơn và những khoản lỗ mới.",
+      "voiceScript": "Farmers say they are concerned bird flu could already be spreading locally. The focus is on biosecurity, testing speed and how fast an infection can be tracked down. If the spread is confirmed, producers could face tighter controls and fresh losses.",
       "differences": [],
       "links": [
         {
@@ -224,10 +342,10 @@
     },
     {
       "id": "country-footy-family-debut",
-      "headline": "Hai mẹ con có trận ra mắt hiếm hoi cho câu lạc bộ bóng đá đồng quê",
+      "headline": "A mother and daughter made a rare joint debut for a country footy club",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:43:30Z",
-      "voiceScript": "Hai mẹ con cùng nhau ra mắt cho một câu lạc bộ bóng đá đồng quê. Đó là một câu chuyện thể thao địa phương nhỏ nhưng quan trọng vì nó cho thấy các câu lạc bộ cộng đồng vẫn dựa vào mối quan hệ gia đình đến mức nào. Khoảnh khắc này cũng nhắc nhở chúng ta rằng sự tham gia có thể quan trọng như điểm số cuối cùng.",
+      "voiceScript": "A mother and daughter have debuted together for a country football club. It is a small local-sport story, but it matters because it shows how much community clubs still rely on family ties. The moment also reminds us that participation can be as important as the final score.",
       "differences": [],
       "links": [
         {
@@ -238,10 +356,10 @@
     },
     {
       "id": "rent-housing-subsidy-ends",
-      "headline": "Một bệnh nhân ung thư lớn tuổi đang phải đối mặt với mức tăng tiền thuê nhà sau khi ngừng hỗ trợ nhà ở",
+      "headline": "An older cancer patient is facing a steep rent rise after housing support ended",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:38:50Z",
-      "voiceScript": "Một bệnh nhân ung thư 80 tuổi đã chứng kiến ​​tiền thuê nhà tăng mạnh sau khi trợ cấp nhà ở chấm dứt. Sự gia tăng này để lại rất ít chỗ trong ngân sách vốn đã căng thẳng. Đó là một ví dụ thẳng thắn về việc những thay đổi chính sách nhỏ có thể ảnh hưởng nặng nề nhất đến những người có nhu cầu sức khỏe lớn như thế nào.",
+      "voiceScript": "An 80-year-old cancer patient has seen rent rise sharply after a housing subsidy came to an end. The increase leaves little room in an already stretched budget. It is a blunt example of how small policy changes can hit people with major health needs hardest.",
       "differences": [],
       "links": [
         {
@@ -252,10 +370,10 @@
     },
     {
       "id": "taronga-rare-snail",
-      "headline": "Vườn thú Taronga đã nhân giống một con ốc quý hiếm từ bờ vực tuyệt chủng",
+      "headline": "Taronga Zoo has bred a rare snail back from the brink",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:37:36Z",
-      "voiceScript": "Vườn thú Taronga đã nhân giống một loài ốc quý hiếm được cho là đã thất lạc. Kết quả cho thấy việc nhân giống nuôi nhốt có thể kéo dài thời gian cho các loài đang bên bờ vực tuyệt chủng như thế nào. Các nhà bảo tồn bây giờ sẽ muốn biết liệu quần thể này có thể sống sót ngoài vườn thú hay không.",
+      "voiceScript": "Taronga Zoo has bred a rare snail that was thought to be lost. The result shows how captive breeding can buy time for species on the edge of extinction. Conservationists will now want to know whether the population can survive beyond the zoo.",
       "differences": [],
       "links": [
         {
@@ -266,10 +384,10 @@
     },
     {
       "id": "elder-abuse-prevention",
-      "headline": "Những người ủng hộ đang thúc đẩy hành động cứng rắn hơn đối với việc lạm dụng người Úc lớn tuổi",
+      "headline": "Advocates are pushing for tougher action on abuse of older Australians",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:35:40Z",
-      "voiceScript": "Các nhà vận động cho rằng cuộc trò chuyện công khai xung quanh vấn đề lạm dụng người cao tuổi vẫn cần phải thay đổi. Họ muốn nhận thức rõ ràng hơn về vấn đề và phản hồi rõ ràng hơn khi vấn đề được báo cáo. Cuộc tranh luận hiện nay là liệu các biện pháp bảo vệ hiện tại đã đủ hay vẫn còn quá dễ bị bỏ qua.",
+      "voiceScript": "Campaigners say the public conversation around elder abuse still needs to change. They want stronger recognition of the problem and clearer responses when it is reported. The debate now is whether the current safeguards are enough or still too easy to ignore.",
       "differences": [],
       "links": [
         {
@@ -280,10 +398,10 @@
     },
     {
       "id": "varroa-mite-treatment-access",
-      "headline": "Người nuôi ong đang yêu cầu tiếp cận nhanh hơn với các phương pháp điều trị ve varroa",
+      "headline": "Beekeepers are asking for faster access to varroa mite treatments",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:28:07Z",
-      "voiceScript": "Những người nuôi ong cho biết các lựa chọn điều trị hiện nay đối với ve varroa còn quá hạn chế. Họ muốn tiếp cận với những công cụ tốt hơn trước khi sâu bệnh gây ra nhiều thiệt hại hơn cho tổ ong và công việc thụ phấn. Vấn đề còn quan trọng hơn mật ong vì nó ảnh hưởng đến nông nghiệp trên toàn chuỗi thức ăn.",
+      "voiceScript": "Beekeepers say the current treatment options for varroa mite are too limited. They want access to better tools before the pest causes more damage to hives and pollination work. The issue matters well beyond honey because it affects agriculture across the wider food chain.",
       "differences": [],
       "links": [
         {
@@ -294,10 +412,10 @@
     },
     {
       "id": "landfill-fire-closure",
-      "headline": "Một bãi rác ở Melbourne chuẩn bị đóng cửa nhiều năm sau khi hỏa hoạn để lại thiệt hại lâu dài",
+      "headline": "A Melbourne landfill is set to close years after a fire left lasting damage",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T20:03:09Z",
-      "voiceScript": "Một bãi rác ở ngoại ô Melbourne dự kiến ​​​​đóng cửa sau vụ hỏa hoạn gây ra vấn đề kéo dài nhiều năm trước. Việc ngừng hoạt động chấm dứt sự phiền toái cho địa phương, nhưng nó cũng đặt ra câu hỏi về việc chất thải tiếp theo sẽ đi về đâu. Người dân sẽ theo dõi hiện trường và kế hoạch tiếp theo một cách chặt chẽ.",
+      "voiceScript": "A suburban landfill in Melbourne is scheduled to close after a fire caused long-term problems years ago. The shutdown ends a local nuisance, but it also raises questions about where waste will go next. Residents will be watching the site and the follow-up plan closely.",
       "differences": [],
       "links": [
         {
@@ -308,10 +426,10 @@
     },
     {
       "id": "queensland-disability-council-vacancies",
-      "headline": "Queensland vẫn còn chỗ trống trong hội đồng người khuyết tật một năm sau",
+      "headline": "Queensland still has vacancies on its disability council a year later",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T19:35:28Z",
-      "voiceScript": "Một số ghế trong hội đồng người khuyết tật của Queensland vẫn chưa được lấp đầy gần một năm sau đó. Điều đó để lại một khoảng trống trong sự đại diện chính thức trong khi các quyết định chính sách tiếp tục được tiến hành. Sự chậm trễ cho thấy quá trình bổ nhiệm chưa bắt kịp nhu cầu có tiếng nói tại bàn đàm phán.",
+      "voiceScript": "Several seats on Queensland's disability council remain unfilled almost a year later. That leaves a gap in formal representation while policy decisions continue to move ahead. The delay suggests the appointment process has not caught up with the need for voices at the table.",
       "differences": [],
       "links": [
         {
@@ -322,10 +440,10 @@
     },
     {
       "id": "neil-the-seal-costs",
-      "headline": "Tasmania hiện có dự luật rõ ràng hơn về việc quản lý hải cẩu Neil",
+      "headline": "Tasmania now has a clearer bill for managing Neil the seal",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T19:29:01Z",
-      "voiceScript": "Cơ quan chức năng đã công bố hóa đơn thiệt hại và chi phí quản lý liên quan đến con dấu của Neil. Những con số này biến câu chuyện về động vật hoang dã lan truyền thành một khoản chi phí công cụ thể. Họ cũng cho thấy rằng việc quản lý một loài động vật nổi tiếng có thể là một vấn đề hậu cần giống như một cuộc thi về sự nổi tiếng.",
+      "voiceScript": "Authorities have released the damage bill and management costs linked to Neil the seal. The figures turn a viral wildlife story into a concrete public expense. They also show that managing a famous animal can be as much a logistics problem as a popularity contest.",
       "differences": [],
       "links": [
         {
@@ -336,13 +454,13 @@
     },
     {
       "id": "victorian-labor-ben-carroll",
-      "headline": "Sự nổi lên của Ben Carroll đã gây ra một cuộc tái thiết lập Lao động Victoria mới",
+      "headline": "Ben Carroll's rise has triggered a fresh Victorian Labor reset",
       "sourceCount": 5,
       "publishedAt": "2026-07-29T19:17:29Z",
-      "voiceScript": "Sự thăng tiến của Ben Carroll đã làm sâu sắc thêm sự rung chuyển trong Đảng Lao động Victoria. Những người trong Đảng nói rằng sự thay đổi này đã làm suy yếu Cánh Tả Xã hội và mở ra một giai đoạn mới trong cuộc cạnh tranh lãnh đạo. Bài kiểm tra tiếp theo là liệu sự thay đổi này có mang lại cho Đảng Lao động một con đường bầu cử rõ ràng hơn hay chỉ gây thêm căng thẳng nội bộ.",
+      "voiceScript": "Ben Carroll's promotion has deepened the shake-up inside Victorian Labor. Party insiders say the shift has weakened the Socialist Left and opened a new phase in the leadership contest. The next test is whether the change gives Labor a clearer path to the election or just more internal strain.",
       "differences": [
-        "ABC nhấn mạnh thiệt hại phe phái bên trong Đảng Lao động, trong khi The Guardian nhấn mạnh triển vọng bầu cử của Carroll và hậu quả của cuộc đấu tranh nội bộ.",
-        "Cuộc cải tổ chính trị tương tự đang được coi là một đòn phe phái hoặc là một cơ hội để thiết lập lại chiến dịch."
+        "ABC emphasises the factional damage inside Labor, while The Guardian stresses Carroll's election prospects and the aftermath of the internal fight.",
+        "The same political reshuffle is being read either as a factional blow or as a chance to reset the campaign."
       ],
       "links": [
         {
@@ -369,13 +487,13 @@
     },
     {
       "id": "inflation-eases-chalmers-cautious",
-      "headline": "Lạm phát đã giảm bớt nhưng Canberra vẫn tỏ ra thận trọng",
+      "headline": "Inflation has eased again, but Canberra is still sounding cautious",
       "sourceCount": 4,
       "publishedAt": "2026-07-29T19:00:00Z",
-      "voiceScript": "Con số lạm phát mới thấp hơn và thủ quỹ đang công bố kết quả. Mặc dù vậy, thông điệp rộng hơn từ Canberra vẫn là sự thận trọng hơn là ăn mừng. Điều đó quan trọng vì kỳ vọng về lãi suất và áp lực của hộ gia đình đều phụ thuộc vào việc xu hướng này có kéo dài hay không.",
+      "voiceScript": "New inflation numbers point lower, and the treasurer is talking up the result. Even so, the broader message from Canberra is still caution rather than celebration. That matters because interest-rate expectations and household pressure both depend on whether the trend lasts.",
       "differences": [
-        "SBS đưa ra con số lạm phát và phản ứng của chính phủ, trong khi ABC tập trung nhiều hơn vào sự thận trọng của Jim Chalmers về triển vọng.",
-        "Cả hai câu chuyện đều mô tả cùng một bối cảnh lạm phát nhẹ nhàng hơn, nhưng chúng thể hiện phản ứng chính trị theo cách khác nhau."
+        "SBS foregrounds the inflation figure and the government response, while ABC focuses more on Jim Chalmers' caution about the outlook.",
+        "Both stories describe the same softer inflation backdrop, but they package the political reaction differently."
       ],
       "links": [
         {
@@ -398,10 +516,10 @@
     },
     {
       "id": "endangered-bat-decline",
-      "headline": "Một loài dơi Úc có nguy cơ tuyệt chủng lại phải chịu sự sụt giảm dân số mạnh mẽ",
+      "headline": "An endangered Australian bat has suffered another sharp population drop",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T15:00:37Z",
-      "voiceScript": "Các nhà khoa học cho biết số lượng loài dơi Úc có nguy cơ tuyệt chủng đã giảm mạnh và nguyên nhân vẫn chưa rõ ràng. Ở một khu vực, mức giảm lên tới 16%. Sự không chắc chắn đó khiến vấn đề bảo tồn trở nên cấp bách hơn vì các nhà quản lý vẫn chưa biết điều gì đang thúc đẩy nó.",
+      "voiceScript": "Scientists say the population of an endangered Australian bat has fallen sharply and the cause is still unclear. In one area, the drop is as much as 16 per cent. That uncertainty makes the conservation problem more urgent because managers still do not know what is driving it.",
       "differences": [],
       "links": [
         {
@@ -412,10 +530,10 @@
     },
     {
       "id": "chicken-labels-mean",
-      "headline": "Nhãn gà siêu thị Úc đang được giải mã cho người mua hàng",
+      "headline": "Australian supermarket chicken labels are being decoded for shoppers",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T15:00:36Z",
-      "voiceScript": "Người mua hàng đang được biết các nhãn như chăn nuôi thả rông, hữu cơ và không chứa hormone thực sự có ý nghĩa gì trên các sản phẩm thịt gà của Úc. Điều đáng lo ngại là cách diễn đạt có thể trông rõ ràng hơn thực tế so với các tiêu chuẩn cơ bản. Đối với người tiêu dùng, vấn đề là liệu nhãn có phù hợp với mong đợi khi thanh toán hay không.",
+      "voiceScript": "Shoppers are being told what labels such as free-range, organic and hormone-free actually mean on Australian chicken products. The concern is that the wording can look clearer than the underlying standards really are. For consumers, the issue is whether the label matches the expectation at the checkout.",
       "differences": [],
       "links": [
         {
@@ -426,13 +544,13 @@
     },
     {
       "id": "fair-work-court-data-push",
-      "headline": "Dữ liệu tòa án đang làm giảm bớt vụ kiện của Đảng Lao động đối với một tòa án nơi làm việc mới",
+      "headline": "Dữ liệu tòa án làm suy yếu lập luận của Lao động về một tòa án lao động mới",
       "sourceCount": 3,
       "publishedAt": "2026-07-29T08:29:00Z",
-      "voiceScript": "Số liệu của tòa án liên bang cho thấy các vụ kiện về nơi làm việc và trả lương thấp đang diễn ra nhanh hơn, điều này làm suy yếu lập luận của Đảng Lao động về Tòa án Công bằng Lao động mới. Chính phủ vẫn đang ủng hộ kế hoạch này sau áp lực từ các công đoàn và những người ủng hộ trong đảng. Thử nghiệm thực sự bây giờ là liệu thay đổi này có đẩy nhanh tranh chấp hay chỉ đơn giản là thêm một lớp khác vào hệ thống vốn đã bận rộn.",
+      "voiceScript": "Số liệu từ Tòa Liên bang cho thấy các vụ việc liên quan đến nơi làm việc và trả thiếu lương đang được xử lý nhanh hơn, điều này làm yếu đi lập luận của Lao động về việc lập một Fair Work Court mới. Chính phủ vẫn ủng hộ kế hoạch này sau sức ép từ các công đoàn và những người ủng hộ trong đảng. Câu hỏi thực sự bây giờ là liệu thay đổi này có giúp giải quyết tranh chấp nhanh hơn hay chỉ thêm một lớp nữa vào hệ thống vốn đã bận rộn.",
       "differences": [
-        "ABC và news.com.au tập trung vào thông báo tại hội nghị của Đảng Lao động và vụ kiện chính trị của tòa án, trong khi AFR tập trung vào dữ liệu của tòa án thách thức sự cần thiết của nó.",
-        "Cả ba nguồn đều mô tả cùng một sự thúc đẩy chính sách, nhưng họ coi đó là một cuộc cải cách hoặc một giải pháp khắc phục vấn đề."
+        "ABC and news.com.au focus on Labor's conference announcement and the political case for the court, while AFR concentrates on the court data that challenges the need for it.",
+        "All three sources describe the same policy push, but they frame it as either a reform or a fix looking for a problem."
       ],
       "links": [
         {
@@ -451,10 +569,10 @@
     },
     {
       "id": "sunshine-coast-holiday-club-liquidation",
-      "headline": "Câu lạc bộ nghỉ mát Sunshine Coast đã sụp đổ và các thành viên muốn hoàn lại tiền",
+      "headline": "A Sunshine Coast holiday club has collapsed and members want refunds",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T08:18:53Z",
-      "voiceScript": "Resort Club, một chương trình tích điểm nghỉ mát ở Sunshine Coast, đã bị phá sản. Các thành viên đã trả trước hiện đang cố gắng lấy lại tiền và các đặt chỗ mà họ dự kiến ​​sẽ sử dụng sau này. Sự sụp đổ là một cảnh báo khác về những rủi ro trong các chương trình du lịch trả trước.",
+      "voiceScript": "The Resort Club, a Sunshine Coast holiday points scheme, has gone into liquidation. Members who paid upfront are now trying to recover money and bookings they expected to use later. The collapse is another warning about the risks in prepaid travel schemes.",
       "differences": [],
       "links": [
         {
@@ -465,13 +583,13 @@
     },
     {
       "id": "offset-account-failures",
-      "headline": "Lỗi tài khoản bù đắp đã khiến khách hàng ngân hàng phải kiểm tra số dư của họ",
+      "headline": "Offset account failures have left bank customers checking their balances",
       "sourceCount": 2,
       "publishedAt": "2026-07-29T08:12:42Z",
-      "voiceScript": "Những người nắm giữ thế chấp đang được yêu cầu kiểm tra tài khoản ngân hàng của họ sau khi phát hiện ra lỗi hệ thống bù đắp. Vấn đề làm tăng nguy cơ các khoản tiết kiệm liên quan đến khoản vay mua nhà không mang lại hiệu quả như mong đợi. Bây giờ khách hàng cần xác nhận rõ ràng rằng tài khoản của họ đã được thiết lập và bảo vệ chính xác.",
+      "voiceScript": "Mortgage holders are being told to check their bank accounts after offset system failures were uncovered. The problem raises the risk that savings linked to home loans were not working as expected. Customers now need clear confirmation that their accounts are set up and protected correctly.",
       "differences": [
-        "SBS giải thích cách kiểm tra xem tài khoản bù đắp có hoạt động hay không, trong khi 7NEWS đưa ra cảnh báo cho chủ sở hữu thế chấp sau khi phát hiện ra sai sót.",
-        "Cả hai đều tập trung vào rủi ro thực tế đối với khách hàng, nhưng SBS đưa ra hướng dẫn cách thực hiện rộng hơn."
+        "SBS explains how to check whether the offset account is working, while 7NEWS leads with the warning to mortgage holders after the failures were discovered.",
+        "Both focus on the practical risk to customers, but SBS gives the broader how-to guide."
       ],
       "links": [
         {
@@ -486,13 +604,13 @@
     },
     {
       "id": "fuel-discount-and-petrol-prices",
-      "headline": "Các tài xế đang chuẩn bị cho hóa đơn nhiên liệu cao hơn khi giảm giá biến mất",
+      "headline": "Drivers are bracing for higher fuel bills as the discount disappears",
       "sourceCount": 4,
       "publishedAt": "2026-07-29T07:36:19Z",
-      "voiceScript": "Việc giảm giá nhiên liệu sắp kết thúc và các tài xế được yêu cầu xem ngày khi giá được điều chỉnh lại. Xăng đã tăng lên trên 2 USD/lít ở một số khu vực. Áp lực trước mắt đè nặng lên ngân sách hộ gia đình, nhưng tác động lên chi phí sinh hoạt rộng hơn có thể lan rộng nhanh chóng.",
+      "voiceScript": "The fuel discount is ending, and drivers are being told to watch the dates as prices reset. Petrol has already moved above $2 a litre in some areas. The immediate pressure is on household budgets, but the wider cost-of-living effect could spread quickly.",
       "differences": [
-        "Báo cáo của Guardian coi động thái này là một phần của đợt tăng giá nhiên liệu trực tiếp, trong khi SBS tập trung vào việc kết thúc giảm giá và những gì tài xế nên làm tiếp theo.",
-        "Cả hai báo cáo đều chỉ ra áp lực giá như nhau, nhưng chúng trình bày nỗi đau trước mắt một cách khác nhau."
+        "Guardian coverage treats the move as part of a live fuel-price spike, while SBS focuses on the discount ending and what drivers should do next.",
+        "Both reports point to the same price pressure, but they frame the immediate pain differently."
       ],
       "links": [
         {
@@ -515,10 +633,10 @@
     },
     {
       "id": "qantas-long-haul-plane",
-      "headline": "Kế hoạch máy bay phản lực tầm xa của Qantas có thể thay đổi cách người Úc bay",
+      "headline": "Qantas' long-range jet plan could change how Australians fly",
       "sourceCount": 1,
       "publishedAt": "2026-07-29T06:48:46Z",
-      "voiceScript": "Qantas đang đẩy mạnh dự án máy bay lập kỷ lục có thể giảm nhu cầu dừng chân trong những chuyến đi rất dài. Hãng hàng không mong muốn việc đi thẳng từ Úc trở nên thiết thực hơn. Bài kiểm tra là liệu máy bay và nền kinh tế có thể hoạt động ở quy mô lớn hay không.",
+      "voiceScript": "Qantas is pushing ahead with a record-setting aircraft project that could reduce the need for stopovers on very long trips. The airline wants direct travel from Australia to become more practical. The test is whether the plane and the economics can both work at scale.",
       "differences": [],
       "links": [
         {
@@ -529,13 +647,13 @@
     },
     {
       "id": "wa-oil-refinery-criticism",
-      "headline": "Nhà máy lọc dầu được đề xuất của Tây Úc đang phải đối mặt với sự chỉ trích ngày càng tăng",
+      "headline": "Western Australia's proposed oil refinery is facing growing criticism",
       "sourceCount": 3,
       "publishedAt": "2026-07-29T06:15:55Z",
-      "voiceScript": "Các chuyên gia đang đặt câu hỏi về một nhà máy lọc dầu được đề xuất ở Tây Úc và gọi đây là công nghệ lỗi thời. Họ nói rằng kế hoạch này nằm lúng túng bên cạnh quá trình chuyển đổi năng lượng sạch. Vấn đề thực sự là liệu dự án có hợp lý về mặt thương mại hay đã bị chậm trễ.",
+      "voiceScript": "Experts are questioning a proposed oil refinery in Western Australia and calling it outdated technology. They say the plan sits awkwardly beside the clean-energy transition. The real issue is whether the project is commercially sensible or already behind the curve.",
       "differences": [
-        "The Guardian dựa vào lời phê bình về năng lượng sạch, trong khi SBS trình bày kế hoạch này như một cuộc tranh luận về chính sách và nguồn cung rộng hơn.",
-        "Cả hai câu chuyện đều đặt câu hỏi liệu nhà máy lọc dầu có còn ý nghĩa trong sự chuyển dịch năng lượng hiện nay hay không."
+        "The Guardian leans into the clean-energy critique, while SBS frames the plan as a broader policy and supply debate.",
+        "Both stories question whether the refinery still makes sense in the current energy shift."
       ],
       "links": [
         {
@@ -554,13 +672,13 @@
     },
     {
       "id": "one-nation-financial-records-risk",
-      "headline": "Các tài khoản bị mất của One Nation đang khiến chi nhánh Queensland gặp rủi ro",
+      "headline": "One Nation's missing accounts are putting its Queensland branch at risk",
       "sourceCount": 3,
       "publishedAt": "2026-07-29T04:56:00Z",
-      "voiceScript": "Các cơ quan quản lý của Queensland cho biết One Nation vẫn nợ các tài khoản đã được kiểm toán trong ba năm và sự chậm trễ đó đã khiến cơ quan nhà nước của đảng này chịu áp lực thực sự. Đảng này cho biết họ sẽ nộp các thủ tục giấy tờ, nhưng việc trễ thời hạn đã khiến chi nhánh ở Queensland có nguy cơ bị hủy bỏ và bị phạt. Câu chuyện quan trọng vì nó biến vấn đề nộp đơn thành một bài kiểm tra xem liệu đảng có thể giữ nguyên tổ chức địa phương của mình hay không.",
+      "voiceScript": "Queensland regulators say One Nation still owes audited accounts for three years, and that delay has put the party's state entity under real pressure. The party says it will file the paperwork, but the missed deadlines have left its Queensland branch exposed to cancellation and penalties. The story matters because it turns a filing problem into a test of whether the party can keep its local organisation intact.",
       "differences": [
-        "ABC dẫn đầu với thời hạn của cơ quan quản lý và lời hứa của đảng sẽ bắt kịp, trong khi AFR nhấn mạnh những tuyên bố còn thiếu và nguy cơ bị hủy bỏ.",
-        "The Guardian coi vấn đề này là một lỗi tuân thủ rộng hơn có thể tước bỏ One Nation khỏi căn cứ ở Queensland."
+        "ABC leads with the regulator deadline and the party's vow to catch up, while AFR emphasises the missing statements and the risk of cancellation.",
+        "The Guardian frames the issue as a wider compliance failure that could strip One Nation of its Queensland base."
       ],
       "links": [
         {
@@ -579,10 +697,10 @@
     },
     {
       "id": "deepfake-school-photo-warning",
-      "headline": "Các trường học đang được cảnh báo rằng những bức ảnh được đăng có thể bị biến thành deepfake",
+      "headline": "Schools are being warned that posted photos can be turned into deepfakes",
       "sourceCount": 1,
       "publishedAt": "2026-07-28T11:05:31Z",
-      "voiceScript": "Các trường học ở Úc đang được cảnh báo rằng những bức ảnh họ chia sẻ trực tuyến có thể được sử dụng lại trong các cuộc tấn công deepfake bằng trí tuệ nhân tạo. Rủi ro không phải là lý thuyết vì những hình ảnh thông thường có thể bị biến thành tài liệu để lạm dụng. Thách thức thực tế là làm thế nào các trường học có thể quản lý việc chia sẻ trực tuyến mà không cắt đứt liên lạc thông thường.",
+      "voiceScript": "Australian schools are being warned that photos they share online can be reused in artificial-intelligence deepfake attacks. The risk is not theoretical because ordinary images can be turned into material for abuse. The practical challenge is how schools manage online sharing without cutting off normal communication.",
       "differences": [],
       "links": [
         {
@@ -593,10 +711,10 @@
     },
     {
       "id": "emergency-alert-trial",
-      "headline": "Thử nghiệm cảnh báo khẩn cấp của Úc vẫn bỏ sót quá nhiều người",
+      "headline": "Australia's emergency alert trial still missed too many people",
       "sourceCount": 1,
       "publishedAt": "2026-07-28T09:19:43Z",
-      "voiceScript": "Cuộc thử nghiệm hệ thống cảnh báo khẩn cấp đã không đến được với tất cả mọi người mà nó dự định tiếp cận. Kết quả khảo sát cho thấy cuộc thử nghiệm quốc gia có thể cần thực hiện thêm một lần nữa trước khi ra mắt vào tháng 10. Độ tin cậy là vấn đề then chốt vì cảnh báo chỉ có tác dụng nếu mọi người thực sự nhận được nó.",
+      "voiceScript": "A trial of the emergency alert system did not reach everyone it was meant to reach. Survey results suggest the national test may need another run before the October launch. Reliability is the key issue because an alert only works if people actually receive it.",
       "differences": [],
       "links": [
         {
@@ -607,13 +725,13 @@
     },
     {
       "id": "origin-data-breach",
-      "headline": "Origin cho biết vi phạm dữ liệu đã ảnh hưởng đến gần một triệu khách hàng",
+      "headline": "Origin says a data breach has affected close to a million customers",
       "sourceCount": 7,
       "publishedAt": "2026-07-28T04:37:33Z",
-      "voiceScript": "Origin đã xin lỗi sau khi tiết lộ vụ vi phạm dữ liệu ảnh hưởng đến khoảng 900.000 khách hàng. Quy mô đủ lớn để gây áp lực lên công ty về vấn đề tiết lộ thông tin và bảo mật. Bước tiếp theo là tốc độ thông báo cho khách hàng và những biện pháp bảo vệ bổ sung nào được áp dụng.",
+      "voiceScript": "Origin has apologised after revealing a data breach that affected about 900,000 customers. The scale is large enough to keep pressure on the company over disclosure and security. The next step is how quickly customers are informed and what extra safeguards are put in place.",
       "differences": [
-        "SBS tập trung vào lời xin lỗi và phản hồi của khách hàng, trong khi 7NEWS nhấn mạnh quy mô vi phạm và số người bị ảnh hưởng.",
-        "Sự cố tương tự đang được coi là một bản cập nhật dành cho người tiêu dùng hoặc là một lỗi bảo mật doanh nghiệp quy mô lớn."
+        "SBS centres the apology and customer response, while 7NEWS emphasises the scale of the breach and the number of people affected.",
+        "The same incident is being framed either as a consumer update or as a large-scale corporate security failure."
       ],
       "links": [
         {
@@ -648,10 +766,10 @@
     },
     {
       "id": "actu-leadership-handover",
-      "headline": "ACTU chuẩn bị bàn giao lãnh đạo",
+      "headline": "The ACTU is preparing for a leadership handover",
       "sourceCount": 1,
       "publishedAt": "2026-07-28T00:00:17Z",
-      "voiceScript": "Sally McManus và Michele O'Neil đang bước sang một bên, mở đường cho một thế hệ lãnh đạo công đoàn mới. Sự thay đổi này có ý nghĩa quan trọng vì ACTU vẫn định hình cuộc tranh luận về tiền lương, quyền tại nơi làm việc và chiến lược công nghiệp. Điều gì xảy ra tiếp theo sẽ phụ thuộc vào người tiếp quản và quá trình chuyển đổi diễn ra nhanh như thế nào.",
+      "voiceScript": "Sally McManus and Michele O'Neil are stepping aside, opening the way for a new generation of union leadership. The change matters because the ACTU still shapes debate on wages, workplace rights and industrial strategy. What comes next will depend on who takes over and how quickly the transition settles.",
       "differences": [],
       "links": [
         {
@@ -662,10 +780,10 @@
     },
     {
       "id": "ato-tax-return-lodgement",
-      "headline": "ATO đang yêu cầu hàng triệu người nộp thuế nộp tờ khai ngay bây giờ",
+      "headline": "The ATO is telling millions of taxpayers to lodge returns now",
       "sourceCount": 1,
       "publishedAt": "2026-07-27T21:43:43Z",
-      "voiceScript": "ATO cho biết bây giờ là thời điểm để hàng triệu người nộp thuế ở Úc nộp tờ khai. Cảnh báo này nhằm mục đích ngăn chặn sự chậm trễ và duy trì mùa khai thuế. Câu hỏi thực tế là liệu mọi người có đủ thông tin họ cần trước khi gửi hay không.",
+      "voiceScript": "The ATO says now is the time for millions of Australian taxpayers to lodge their returns. The warning is aimed at preventing delays and keeping the filing season moving. The practical question is whether people have the information they need before they submit.",
       "differences": [],
       "links": [
         {
