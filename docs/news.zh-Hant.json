@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T10:12:46.703Z",
+  "updatedAt": "2026-07-30T11:14:55.877Z",
   "generatedBy": "codex",
   "language": "zh-Hant",
   "sources": [
@@ -107,6 +107,82 @@
   ],
   "clusters": [
     {
+      "id": "brisbane-bus-airborne-crash",
+      "headline": "失控汽車飛入布里斯本公車側面，阿徹菲爾德事故引發關注",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T10:19:15.209Z",
+      "voiceScript": "一輛豐田雅力士在阿徹菲爾德被撞得騰空而起，隨後砸進布里斯本一輛公車側面，公車當時沒有乘客，但車體受損明顯。警方說，事故發生在 Beaudesert Road 和 Granard Road 附近，起因是一連串併線動作。涉事女駕駛被送醫，初步傷勢主要是驚嚇，調查仍在釐清碰撞經過。",
+      "differences": [
+        "9News 更突出布里斯本地點和公車受撞情景，news.com.au 更強調車輛騰空後的撞擊畫面。"
+      ],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/toyota-yaris-lodges-in-side-of-bus-after-crash-rocklea-brisbane-20260730-p60jty.html"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/incidents/bizarre-moment-car-flies-through-air-ploughs-into-side-of-bus-in-brisbane/news-story/2f09254d43be6fb6528aa211abcabc64"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "cfmeu-setka-threats",
+      "headline": "CFMEU管理者稱，仍應認真看待塞卡的威脅",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T10:10:09.000Z",
+      "voiceScript": "CFMEU管理者邁克爾·克羅斯比表示，與約翰·塞卡有關的威脅並不應被輕視。在最近一次訪談中，他還質疑了前維州州長賈辛塔·艾倫的說法，並認為皇家委員會並不是所有問題的答案。更大的背景是，工會仍處於托管狀態，而塞卡引發的爭議還在持續。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/cfmeu-adminstrator-on-setka-threats-royal-commission/106979150"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "mount-gambier-toy-library-statement",
+      "headline": "芒特甘比爾玩具圖書館悼念海倫娜·賴特和孩子們",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T09:37:41.000Z",
+      "voiceScript": "芒特甘比爾一家玩具圖書館發出悼念聲明，表示海倫娜·賴特及其孩子們的離世給當地社區帶來了很深的衝擊。這個消息之所以重要，是因為它讓一場家庭悲劇的影響變得非常具體，也顯示出志工和鄰里正在承受怎樣的失落。接下來更可能出現的，是社區支援和警方或驗屍程序的後續更新。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/mount-gambier-toy-library-issues-helena-wright-statement/106979294"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "japan-earthquake-travel-warning",
+      "headline": "日本地震後澳洲旅客收到提醒，傷亡和破壞仍在擴大",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-30T08:38:02.164Z",
+      "voiceScript": "日本南部發生強烈地震，已造成多人死亡，建築受損，救援人員仍在倒塌商場附近搜尋失聯者。與此同時，澳洲旅客也被提醒關注當地安全和行程變化。眼下最大的未知數，是失蹤人數和災損是否還會繼續上升。",
+      "differences": [
+        "9News 先講面向澳洲旅客的提醒，SBS 和 news.com.au 則更集中在地震傷亡、損毀和搜救進展。"
+      ],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/travel-warning-to-aussies-after-deadly-earthquake-rocks-japan-20260730-p60k2s.html"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/japan-urgent-search-survivors-kumamoto-earthquake-death-toll-stands-at-13/vamp7i58i"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/incidents/huge-71-magnitude-earthquake-hits-japan-sparking-tsunami-warning/news-story/71443378feb72446553f03f8b087466c"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
       "id": "darwin-doctor-child-abuse-bail",
       "headline": "達爾文醫生因兒童性虐待指控爭取續押",
       "sourceCount": 1,
@@ -169,6 +245,35 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/30/gina-rinehart-fitzroy-river-rowing-crocodiles-brisbane-olympics-2032"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "nsw-reformers-icac-inquiry",
+      "headline": "NSW Reformers 反腐調查擴大，捐款和拉票指控受審",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-30T07:08:53.000Z",
+      "voiceScript": "新南威爾斯州 ICAC 對自由黨 Reformers 派系的調查，正在圍繞可疑捐款、拉票操作和黨內派系政治繼續聽證。證詞已把安格斯·泰勒的名字帶入爭議，但他否認作出任何不當付款或支持該團體。這一調查之所以重要，是因為它還在揭示捐款規則和黨務機器可能如何被利用，後續證人仍會出場。",
+      "differences": [
+        "ABC 更強調聽證證據，Guardian 聚焦派系內部文件和政治後果，SBS 以通俗方式梳理調查脈絡，The Australian 則聚焦安格斯·泰勒的否認。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/nsw-icac-rosny-hearings-robert-assaf-catholic-liberal/106975264"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/icac-hits-paydirt-as-reformers-shit-sheets-are-given-a-very-public-airing"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/operation-rosny-icac-reformers-explainer/74489b18k"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/politics/angus-taylor-wasnt-opposed-to-conservative-subfaction-at-centre-of-icac-branchstacking-probe/news-story/d22de6f4d3b161d6f583b452ce318381"
         }
       ],
       "language": "zh-Hant"

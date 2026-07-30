@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T10:12:46.703Z",
+  "updatedAt": "2026-07-30T11:18:05.823Z",
   "generatedBy": "codex",
   "language": "es",
   "sources": [
@@ -107,6 +107,82 @@
   ],
   "clusters": [
     {
+      "id": "brisbane-bus-airborne-crash",
+      "headline": "Un coche salió volando y chocó contra un autobús en Brisbane",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T10:19:15.209Z",
+      "voiceScript": "Un Toyota Yaris salió despedido en Archerfield y terminó impactando contra el costado de un autobús en Brisbane. El autobús iba vacío, pero el golpe dejó el vehículo muy dañado y la conductora del coche tuvo que ser llevada al hospital por el shock. La policía dice que el choque empezó con una cadena de cambios de carril y aún investiga exactamente cómo ocurrió.",
+      "differences": [
+        "9News pone el foco en la escena del choque en Brisbane, mientras que news.com.au destaca la imagen del coche en el aire y el impacto contra el autobús."
+      ],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/toyota-yaris-lodges-in-side-of-bus-after-crash-rocklea-brisbane-20260730-p60jty.html"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/incidents/bizarre-moment-car-flies-through-air-ploughs-into-side-of-bus-in-brisbane/news-story/2f09254d43be6fb6528aa211abcabc64"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "cfmeu-setka-threats",
+      "headline": "El administrador de CFMEU dice que las amenazas de Setka siguen siendo serias",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T10:10:09.000Z",
+      "voiceScript": "El administrador de CFMEU, Michael Crosby, dijo que las amenazas vinculadas con John Setka no deben tomarse a la ligera. En una entrevista reciente también cuestionó comentarios de la ex primera ministra victoriana Jacinta Allan y sostuvo que las comisiones reales no siempre son la respuesta. El fondo del caso es que el sindicato sigue bajo administración mientras el conflicto por Setka continúa.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/cfmeu-adminstrator-on-setka-threats-royal-commission/106979150"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "mount-gambier-toy-library-statement",
+      "headline": "La juguetería de Mount Gambier lamenta a Helena Wright y a sus hijos",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T09:37:41.000Z",
+      "voiceScript": "Una juguetería de Mount Gambier publicó un comunicado tras la muerte de Helena Wright y sus hijos, reflejando cuánto ha golpeado la pérdida a la comunidad local. El tributo muestra el impacto humano de la tragedia y la ayuda que ahora necesitan los voluntarios y los vecinos. Lo más probable es que la próxima actualización llegue mediante apoyo comunitario o a través de la policía y el forense si se conocen más detalles.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/mount-gambier-toy-library-issues-helena-wright-statement/106979294"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "japan-earthquake-travel-warning",
+      "headline": "Alertan a viajeros australianos tras el terremoto en Japón mientras suben las víctimas y los daños",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-30T08:38:02.164Z",
+      "voiceScript": "Un fuerte terremoto en el sur de Japón dejó muertos, dañó edificios y obligó a los equipos de rescate a seguir buscando alrededor de un centro comercial derrumbado. También se advirtió a los viajeros australianos que vigilen la seguridad y posibles cambios en sus planes. La incógnita ahora es cuántas personas siguen desaparecidas y si la cifra de daños seguirá aumentando.",
+      "differences": [
+        "9News pone el foco en la advertencia para los viajeros australianos, mientras que SBS y news.com.au destacan el balance de víctimas, daños y labores de rescate."
+      ],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/travel-warning-to-aussies-after-deadly-earthquake-rocks-japan-20260730-p60k2s.html"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/japan-urgent-search-survivors-kumamoto-earthquake-death-toll-stands-at-13/vamp7i58i"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/incidents/huge-71-magnitude-earthquake-hits-japan-sparking-tsunami-warning/news-story/71443378feb72446553f03f8b087466c"
+        }
+      ],
+      "language": "es"
+    },
+    {
       "id": "darwin-doctor-child-abuse-bail",
       "headline": "Un médico de Darwin impugna seguir en prisión por acusaciones de abuso infantil",
       "sourceCount": 1,
@@ -169,6 +245,35 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/30/gina-rinehart-fitzroy-river-rowing-crocodiles-brisbane-olympics-2032"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "nsw-reformers-icac-inquiry",
+      "headline": "La investigación de ICAC sobre los Reformers de NSW se amplía con preguntas sobre donaciones y maniobras internas",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-30T07:08:53.000Z",
+      "voiceScript": "La investigación de ICAC en Nueva Gales del Sur sobre la facción Reformers del Partido Liberal sigue centrada en supuestas donaciones irregulares, captación de miembros y maniobras internas. El nombre de Angus Taylor apareció en el testimonio, aunque él niega cualquier pago indebido. La importancia del caso es que sigue mostrando cómo pudieron haberse estirado las normas de financiación y el funcionamiento del partido, y todavía quedan testigos por declarar.",
+      "differences": [
+        "ABC se centra en el testimonio, Guardian en los documentos internos y la política de facciones, SBS en la explicación general y The Australian en la negación de Angus Taylor."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/nsw-icac-rosny-hearings-robert-assaf-catholic-liberal/106975264"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/icac-hits-paydirt-as-reformers-shit-sheets-are-given-a-very-public-airing"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/operation-rosny-icac-reformers-explainer/74489b18k"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/politics/angus-taylor-wasnt-opposed-to-conservative-subfaction-at-centre-of-icac-branchstacking-probe/news-story/d22de6f4d3b161d6f583b452ce318381"
         }
       ],
       "language": "es"

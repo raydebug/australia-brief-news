@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T10:12:46.703Z",
+  "updatedAt": "2026-07-30T11:14:55.877Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -107,6 +107,82 @@
   ],
   "clusters": [
     {
+      "id": "brisbane-bus-airborne-crash",
+      "headline": "暴走した車がブリスベンのバス側面に衝突、アーチャーフィールドで異例の事故",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T10:19:15.209Z",
+      "voiceScript": "アーチャーフィールドでトヨタ・ヤリスが跳ね上がるように飛び、ブリスベンの路線バス側面に食い込みました。バスに乗客はいなかった一方、車は大きく損傷し、運転していた女性はショックで搬送されました。警察は車線変更をきっかけにした連鎖的な接触とみており、事故の詳しい経緯を調べています。",
+      "differences": [
+        "9Newsはブリスベンの事故現場を前面に出し、news.com.auは車が空中に飛び上がってバスに突っ込む映像性を強く打ち出しています。"
+      ],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/toyota-yaris-lodges-in-side-of-bus-after-crash-rocklea-brisbane-20260730-p60jty.html"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/incidents/bizarre-moment-car-flies-through-air-ploughs-into-side-of-bus-in-brisbane/news-story/2f09254d43be6fb6528aa211abcabc64"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "cfmeu-setka-threats",
+      "headline": "CFMEU管理者、セツカ氏の脅しを軽く見ないよう呼びかけ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T10:10:09.000Z",
+      "voiceScript": "CFMEU管理者のマイケル・クロスビー氏は、ジョン・セツカ氏に関係する脅しは深刻だと述べました。最近のインタビューでは、元ビクトリア州首相ジャシンタ・アラン氏の説明にも疑問を投げかけ、王立委員会が万能ではないとも語っています。工事労組は依然として管理下にあり、セツカ氏をめぐる対立はなお収束していません。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/cfmeu-adminstrator-on-setka-threats-royal-commission/106979150"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "mount-gambier-toy-library-statement",
+      "headline": "マウントガンビアの玩具図書館、ヘレナ・ライトさんと子どもたちを悼む",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T09:37:41.000Z",
+      "voiceScript": "マウントガンビアの玩具図書館が声明を出し、ヘレナ・ライトさんと子どもたちの死に深い哀悼を示しました。地域にとっては、家族の悲劇がどれほど大きな衝撃を与えたかを伝える出来事です。今後は、地域支援や警察・検視の続報が出る見通しです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/mount-gambier-toy-library-issues-helena-wright-statement/106979294"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "japan-earthquake-travel-warning",
+      "headline": "日本地震でオーストラリア渡航者に注意喚起、死傷と被害が拡大",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-30T08:38:02.164Z",
+      "voiceScript": "日本南部の強い地震で死者が出て、建物が損壊し、倒壊した商業施設周辺では救助活動が続いています。オーストラリアの旅行者にも注意が呼びかけられ、現地の安全や移動への影響が焦点です。今後は行方不明者の数と被害規模がさらに増えるかが注目点です。",
+      "differences": [
+        "9Newsはオーストラリア渡航者向けの注意喚起を前面に出し、SBSとnews.com.auは地震の死傷者数、損壊、救助活動に重心を置いています。"
+      ],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/travel-warning-to-aussies-after-deadly-earthquake-rocks-japan-20260730-p60k2s.html"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/japan-urgent-search-survivors-kumamoto-earthquake-death-toll-stands-at-13/vamp7i58i"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/incidents/huge-71-magnitude-earthquake-hits-japan-sparking-tsunami-warning/news-story/71443378feb72446553f03f8b087466c"
+        }
+      ],
+      "language": "ja"
+    },
+    {
       "id": "darwin-doctor-child-abuse-bail",
       "headline": "ダーウィンの医師、児童虐待疑惑で拘束継続に異議",
       "sourceCount": 1,
@@ -169,6 +245,35 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/30/gina-rinehart-fitzroy-river-rowing-crocodiles-brisbane-olympics-2032"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "nsw-reformers-icac-inquiry",
+      "headline": "NSW改革派めぐるICAC調査拡大、寄付と枝分かれ工作の疑惑を審理",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-30T07:08:53.000Z",
+      "voiceScript": "ニューサウスウェールズ州のICACは、自由党改革派グループをめぐる寄付、党員勧誘、党内派閥工作の疑惑を続けて審理しています。証言ではアンガス・テイラーの名前も取り上げられましたが、彼は不適切な支払いを否定しています。注目されるのは、寄付規則と党運営の境界がどこで崩れたのかで、今後も証人が続きます。",
+      "differences": [
+        "ABCは証言内容を中心に、Guardianは内部文書と派閥政治を、SBSは全体像の解説を、The Australianはアンガス・テイラーの否定をそれぞれ強調しています。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/nsw-icac-rosny-hearings-robert-assaf-catholic-liberal/106975264"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/icac-hits-paydirt-as-reformers-shit-sheets-are-given-a-very-public-airing"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/operation-rosny-icac-reformers-explainer/74489b18k"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/politics/angus-taylor-wasnt-opposed-to-conservative-subfaction-at-centre-of-icac-branchstacking-probe/news-story/d22de6f4d3b161d6f583b452ce318381"
         }
       ],
       "language": "ja"
