@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T12:16:43.032Z",
+  "updatedAt": "2026-07-30T13:09:19.087Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -145,7 +145,7 @@
     {
       "id": "brisbane-bus-airborne-crash",
       "headline": "Airborne car slams into Brisbane bus in an Archerfield crash",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-07-30T10:19:15.209Z",
       "voiceScript": "A Toyota Yaris was launched into the air in Archerfield and smashed into the side of a Brisbane bus. The bus was empty, but the impact left the vehicle badly damaged and sent the driver of the car to hospital in shock. Police say the crash began with a chain of lane changes, and investigators are still piecing together exactly how it unfolded.",
       "differences": [
@@ -159,6 +159,10 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/travel/travel-updates/incidents/bizarre-moment-car-flies-through-air-ploughs-into-side-of-bus-in-brisbane/news-story/2f09254d43be6fb6528aa211abcabc64"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/qld-car-lodges-in-bus-rocklea/106974526"
         }
       ],
       "language": "en"
@@ -174,31 +178,6 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/cfmeu-adminstrator-on-setka-threats-royal-commission/106979150"
-        }
-      ],
-      "language": "en"
-    },
-    {
-      "id": "luke-gosling-assault-charge",
-      "headline": "Luke Gosling faces assault charges over NT administrator incident",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-30T10:03:00.000Z",
-      "voiceScript": "Federal MP Luke Gosling has been charged over an alleged assault involving Northern Territory administrator David Connolly at a Darwin festival earlier this month. Gosling says he will fight the allegations, and the opposition has moved quickly to demand he step aside from his federal envoy role. The case matters because it now sits between a criminal process and national politics. He is due to face Darwin Local Court in September.",
-      "differences": [
-        "ABC and AAP focus on the charge details and court date, while Guardian emphasises the political fallout and calls for him to step aside."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/federal-labor-mp-luke-gosling-charged-with-assault/106979340"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/30/luke-gosling-labor-mp-arrested-northern-territory-nt-ntwnfb"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/federal-labor-mp-arrested-over-assault-allegations"
         }
       ],
       "language": "en"
@@ -249,21 +228,6 @@
       "sourceCount": 1,
       "publishedAt": "2026-07-30T07:49:22Z",
       "voiceScript": "A Darwin doctor is challenging a bail decision after police allegedly found up to 1 million child abuse images and videos during a raid on his home. The scale of the material is why the case has drawn close scrutiny, and the court now has to decide whether he remains in custody while the criminal process continues. The next step is the bail appeal and any further hearings.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/darwin-doctor-child-abuse-material-bail-supreme-court/106977238"
-        }
-      ],
-      "language": "en"
-    },
-    {
-      "id": "darwin-doctor-child-abuse-cache",
-      "headline": "Darwin doctor fights bail after police allege a huge child-abuse cache",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T07:49:22.000Z",
-      "voiceScript": "A prominent Darwin doctor is contesting a bail refusal after police alleged they found up to a million child abuse images and videos in a search of his home. The allegations have triggered a major criminal case and renewed scrutiny of online offending and professional trust. The immediate question is whether bail will stay refused and what further charges may follow.",
       "differences": [],
       "links": [
         {
@@ -536,28 +500,6 @@
       "language": "en"
     },
     {
-      "id": "nsw-mental-health-clinician-response",
-      "headline": "NSW shifts some mental health crises from police to clinicians",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-30T05:05:16Z",
-      "voiceScript": "New South Wales will begin sending specialist mental-health teams to some crisis call-outs instead of defaulting to police, backed by a $270 million, 10-year plan. The model adds round-the-clock triage and new response teams so more calls can be handled by clinicians, not officers. It matters because recent deaths and long-standing criticism pushed the state to change course, but the new setup still covers only part of the state at first.",
-      "differences": [
-        "ABC frames the change through the wider debate over crisis care and police involvement, while Guardian sets out the new triage teams, funding and 24/7 advice hub.",
-        "Both describe the same shift away from police-first responses, but the Guardian article gives the most detail on rollout."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/virtual-mental-health-hub-nsw-for-emergency-callouts/106975846"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/30/nsw-to-send-paramedics-not-police-to-some-mental-health-emergencies-after-multiple-deaths"
-        }
-      ],
-      "language": "en"
-    },
-    {
       "id": "brisbane-citycat-peak-hour-strike",
       "headline": "Brisbane ferries pause for peak-hour industrial action",
       "sourceCount": 1,
@@ -624,20 +566,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/victoria/premier-ben-carroll-makes-historic-apology-to-victims-of-child-sex-abuse-in-victorian-public-schools/news-story/53c2afd9b32756b74a9686c20d6eface"
-        }
-      ]
-    },
-    {
-      "id": "nsw-clinician-led-mental-health-response",
-      "headline": "NSW begins clinician-led response for some mental health emergencies",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T02:58:52Z",
-      "voiceScript": "New South Wales is rolling out a model that sends mental health clinicians to some emergency callouts instead of police. The aim is to give people in crisis a faster health response and reduce the risk of escalation. It matters because the first response can shape whether someone gets care, transport or police involvement, and the next question is how widely the system expands.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/virtual-mental-health-hub-nsw-for-emergency-callouts/106975846"
         }
       ]
     },
@@ -771,7 +699,7 @@
     {
       "id": "victorian-labor-reshuffle-carroll",
       "headline": "Ben Carroll's promotion triggers another Victorian Labor reshuffle",
-      "sourceCount": 5,
+      "sourceCount": 9,
       "publishedAt": "2026-07-30T00:50:14Z",
       "voiceScript": "Victoria's government is moving its internal lineup again as Ben Carroll takes a larger role and a Labor loyalist is brought in to manage the agenda before the November election. The reshuffle matters because it resets who is driving day-to-day political strategy at a sensitive time. The key question is whether the new arrangement stabilises the government or simply starts a new round of political manoeuvring.",
       "differences": [],
@@ -795,6 +723,22 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/leadership-showdown-as-labor-faces-calls-for-overhaul"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/victoria-labor-party-leadership-jacinta-allan-ben-carroll/106973322"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/daniel-andrews-statement-ben-carroll-victoria-state-election-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/victoria/politics/ben-carroll-asks-jacinta-allan-to-step-aside-as-victorian-premier-weeks-after-promising-he-wouldnt/news-story/621a2e6b78e523a58e69176e5341a1ed"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/new-victoria-premier-carroll-set-to-make-changes-to-wfh-laws-20260729-p60jjg"
         }
       ]
     },
@@ -997,20 +941,6 @@
       ]
     },
     {
-      "id": "brisbane-airborne-car-bus",
-      "headline": "A car flew into a Brisbane bus in a violent road crash",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T21:11:14Z",
-      "voiceScript": "In Brisbane, a crash sent a car airborne and into the side of a bus. Emergency crews had to deal with the impact and any injuries on Wednesday. The case shows how quickly a routine traffic incident can become a serious urban crash scene.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/qld-car-lodges-in-bus-rocklea/106974526"
-        }
-      ]
-    },
-    {
       "id": "stolen-car-teen-crash",
       "headline": "Two teenage girls were injured when a stolen car crashed",
       "sourceCount": 1,
@@ -1133,39 +1063,6 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/neil-the-seal-damage-costs-revealed-tasmania/106970512"
-        }
-      ]
-    },
-    {
-      "id": "victorian-labor-ben-carroll",
-      "headline": "Ben Carroll's rise has triggered a fresh Victorian Labor reset",
-      "sourceCount": 5,
-      "publishedAt": "2026-07-29T19:17:29Z",
-      "voiceScript": "Ben Carroll's promotion has deepened the shake-up inside Victorian Labor. Party insiders say the shift has weakened the Socialist Left and opened a new phase in the leadership contest. The next test is whether the change gives Labor a clearer path to the election or just more internal strain.",
-      "differences": [
-        "ABC emphasises the factional damage inside Labor, while The Guardian stresses Carroll's election prospects and the aftermath of the internal fight.",
-        "The same political reshuffle is being read either as a factional blow or as a chance to reset the campaign."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/victoria-labor-party-leadership-jacinta-allan-ben-carroll/106973322"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/daniel-andrews-statement-ben-carroll-victoria-state-election-ntwnfb"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/victoria/politics/ben-carroll-asks-jacinta-allan-to-step-aside-as-victorian-premier-weeks-after-promising-he-wouldnt/news-story/621a2e6b78e523a58e69176e5341a1ed"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/new-victoria-premier-carroll-set-to-make-changes-to-wfh-laws-20260729-p60jjg"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/leadership-showdown-as-labor-faces-calls-for-overhaul"
         }
       ]
     },
@@ -1377,6 +1274,21 @@
           "url": "https://7news.com.au/news/ausalert-test-survey-finds-one-in-nine-australians-not-reached-during-trial-of-emergency-lifeline-c-22641479"
         }
       ]
+    },
+    {
+      "id": "stax-collapse",
+      "language": "en",
+      "headline": "Stax collapse leaves customers chasing unpaid orders",
+      "publishedAt": "2026-07-28T06:28:17.000Z",
+      "voiceScript": "The activewear brand Stax has fallen into liquidation after a report from liquidators laid out its financial position. The report says the company still has about $1.7 million in unfulfilled orders, so customers and creditors are now waiting to see what can be recovered. It matters because it turns a retail collapse into a consumer-loss story, especially for people who paid upfront. The next step is the liquidation process and the final payout to creditors.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/stax-collapse-australian-activewear-brand-leaves-thousands-of-customers-with-17m-in-unfulfilled-orders-c-22640675"
+        }
+      ],
+      "sourceCount": 1
     },
     {
       "id": "origin-data-breach",
