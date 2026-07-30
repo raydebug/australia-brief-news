@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T13:09:19.087Z",
+  "updatedAt": "2026-07-30T15:11:29.999Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -107,6 +107,48 @@
   ],
   "clusters": [
     {
+      "id": "glasgow-wind-hurdles",
+      "headline": "澳大利亚选手在格拉斯哥强风中继续冲击奖牌",
+      "voiceScript": "澳大利亚选手在格拉斯哥一天都在和强风周旋，这种天气足以打乱跨栏节奏，也会让每一次调整都变得关键。Michelle Jenneke 和 Cameron McEntyre 都在努力适应环境，而 Jessica Hull 则顺利进入女子英里决赛，让澳大利亚的奖牌希望继续延伸。这个故事的重要性在于，天气对比赛计划的影响有时不亚于状态，接下来的决赛将检验谁适应得最快。下一步就是晚间的各项决赛，技术和战术都会决定结果。",
+      "differences": [
+        "ABC 更集中于跨栏选手和风势影响，AAP 则把镜头拉到 Jessica Hull 的晋级和澳大利亚整体的田径冲牌进程。"
+      ],
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T13:12:00.000Z",
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/michelle-jenneke-glasgow-commonwealth-games-cam-mcentyre-wind/106979514"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/hull-safely-through-to-lead-aussie-women-s-mile-charge"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
+      "id": "roosters-record-blowout",
+      "headline": "Roosters 在击溃 Cowboys 的比赛中打出破纪录火力",
+      "voiceScript": "Sydney Roosters 在对阵 North Queensland 的比赛中火力全开，以 82 比 12 大胜，这场比赛的总得分和分差都足以排进现代 NRL 的纪录行列。如此悬殊的比分，既反映出 Roosters 的执行力，也暴露了 Cowboys 在压力下的崩盘。接下来要看的，是 Roosters 能否把这一场声明式胜利延续成一段稳定状态。",
+      "differences": [
+        "ABC 把它当作一场不断刷新的纪录战来报道，news.com.au 则更强调 82 比 12 这个历史性比分以及结果的震撼感。"
+      ],
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T12:42:00.000Z",
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/nrl-live-updates-north-queensland-cowboys-sydney-roosters/106979316"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/nrl/what-are-we-watching-roosters-superstars-91year-first-in-shocking-nrl-slaughter/news-story/71a3330642eff1183a5dba4632aad69f"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
       "id": "syria-death-penalty-australian-man",
       "headline": "澳方介入保护面临叙利亚死刑的黄金海岸男子",
       "sourceCount": 2,
@@ -129,15 +171,21 @@
     },
     {
       "id": "kiama-library-old-book",
-      "headline": "基亚马图书馆收到一本约 150 年前借出的书",
-      "sourceCount": 1,
+      "headline": "基亚马图书馆的一本旧书在约150年后回到手中",
+      "sourceCount": 2,
       "publishedAt": "2026-07-30T10:59:19.000Z",
-      "voiceScript": "基亚马公共图书馆一册《Antiquities of Athens》在住宅翻修中被发现藏在墙内后，终于被归还。它看起来已经失踪了好几代，如今由发现者转交回馆。这个故事提醒人们，本地馆藏里常常埋着意想不到的历史。接下来图书馆要决定如何保存并展示这本书。",
-      "differences": [],
+      "voiceScript": "一本大约150年前从基亚马图书馆借出的书，在一次房屋翻修中被发现藏在砌死的壁炉里后，终于被归还。ABC 补充说，这本书接下来会进入特别馆藏，而《卫报》则强调这次逾期归还的时间之久令人惊讶。这个故事的意义在于，原本只是地方趣闻，如今变成了一项文物保护工作；下一步是妥善保存，让公众能继续看到它，而不是再次外借。",
+      "differences": [
+        "ABC 交代了发现地点和保存安排，而《The Guardian Australia》更突出这本书逾期归还的惊人时长。"
+      ],
       "links": [
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/30/book-returned-to-australian-library-150-years-overdue"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/library-book-returned-after-150-years-kiama-library/106970186"
         }
       ],
       "language": "zh-Hans"
@@ -193,6 +241,31 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/mount-gambier-toy-library-issues-helena-wright-statement/106979294"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
+      "id": "yindjibarndi-fortescue-appeal",
+      "headline": "Yindjibarndi 继续推进对 Fortescue 的上诉",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-30T09:37:00.000Z",
+      "voiceScript": "Yindjibarndi 传统所有者正在就联邦法院约1.5亿澳元的赔偿裁定提起上诉。法院此前认定，Fortescue 在没有必要协议的情况下建成并运营了矿山。争议围绕文化损失、土地进入权，以及在未经同意推进采矿时赔偿应有多大展开。此案之所以重要，是因为它可能影响澳大利亚最重大的原住民土地权案件之一的下一阶段，而全联邦法院程序现在是关键下一步。",
+      "differences": [
+        "ABC 聚焦于上诉决定和赔偿金额，AAP 把它概括为围绕赔付款的争议，AFR 则强调这仍是 Fortescue 面临的更大法律战的一部分。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/yindjibarndi-appeal-fortescue-native-title-case/106976548"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/indigenous-community-rejects-150-million-mining-payout"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/mining/yindjibarndi-to-reignite-legal-fight-against-forrest-s-fortescue-20260730-p60k5a"
         }
       ],
       "language": "zh-Hans"
@@ -329,21 +402,6 @@
         {
           "source": "The Australian",
           "url": "https://www.theaustralian.com.au/nation/politics/angus-taylor-wasnt-opposed-to-conservative-subfaction-at-centre-of-icac-branchstacking-probe/news-story/d22de6f4d3b161d6f583b452ce318381"
-        }
-      ],
-      "language": "zh-Hans"
-    },
-    {
-      "id": "yindjibarndi-fortescue-appeal",
-      "headline": "Yindjibarndi 继续追究 Fortescue 争议",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T06:58:16Z",
-      "voiceScript": "Yindjibarndi 原住民产权持有人已投票决定继续与 Fortescue 的法律争议，此前法院就土地和文化损失作出了重大赔偿裁定。此案之所以重要，是因为它会影响皮尔巴拉地区矿业进入方式和传统所有者权利的处理，下一步将进入上诉程序。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/yindjibarndi-appeal-fortescue-native-title-case/106976548"
         }
       ],
       "language": "zh-Hans"

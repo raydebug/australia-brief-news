@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T13:09:19.087Z",
+  "updatedAt": "2026-07-30T15:11:29.999Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -107,6 +107,48 @@
   ],
   "clusters": [
     {
+      "id": "glasgow-wind-hurdles",
+      "headline": "Australian athletes battle Glasgow wind as medals draw near",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T13:12:00.000Z",
+      "voiceScript": "Australian athletes in Glasgow have spent the day dealing with wind strong enough to throw off hurdling rhythm and make every adjustment matter. Michelle Jenneke and Cameron McEntyre are among those trying to stay balanced in the conditions, while Jessica Hull moved through to the women's mile final as Australia kept its medal push alive. The story matters because weather can change race plans as much as fitness does, and the finals will show who adapts best. The next step is the evening races, where technique and tactics will decide the results.",
+      "differences": [
+        "ABC centres the hurdlers and the wind conditions, while AAP broadens the picture to Jessica Hull's progression and Australia's wider track campaign."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/michelle-jenneke-glasgow-commonwealth-games-cam-mcentyre-wind/106979514"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/hull-safely-through-to-lead-aussie-women-s-mile-charge"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "roosters-record-blowout",
+      "headline": "Roosters set a record scoring burst in a demolition of the Cowboys",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T12:42:00.000Z",
+      "voiceScript": "Sydney Roosters produced a huge attacking night against North Queensland, racing away to an 82-12 win that will sit near the top of modern NRL scoring records. The scale of the margin matters because it reflects both the Roosters' execution and the Cowboys' collapse under pressure. The next question is whether the Roosters can turn one statement win into a lasting run of form.",
+      "differences": [
+        "ABC presents it as a live record-setting blowout, while news.com.au leads with the historic scoreline and the shock value of the result."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/nrl-live-updates-north-queensland-cowboys-sydney-roosters/106979316"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/nrl/what-are-we-watching-roosters-superstars-91year-first-in-shocking-nrl-slaughter/news-story/71a3330642eff1183a5dba4632aad69f"
+        }
+      ],
+      "language": "en"
+    },
+    {
       "id": "syria-death-penalty-australian-man",
       "headline": "Australia steps in for Gold Coast man facing Syria's death penalty",
       "sourceCount": 2,
@@ -130,14 +172,20 @@
     {
       "id": "kiama-library-old-book",
       "headline": "Kiama library gets a book back after about 150 years",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-07-30T10:59:19.000Z",
-      "voiceScript": "A public library in Kiama has had a long-lost copy of Antiquities of Athens returned after it was found inside a wall during home renovations. The book appears to have been hidden for generations before being handed back by the person who discovered it. The story matters because it shows how local collections can surface unexpected history. The library now has to decide how to preserve and present the volume.",
-      "differences": [],
+      "voiceScript": "A book borrowed from Kiama Library roughly 150 years ago has been returned after it was found inside a bricked-up fireplace during home renovations. ABC adds that the volume will now be moved into a special collection, while the Guardian report focused on how extraordinary the overdue return is. The story matters because it turns a local curiosity into a conservation job, and the next step is preserving the book for public access rather than lending it out again.",
+      "differences": [
+        "ABC adds the discovery location and the preservation plan, while The Guardian Australia focuses on the extraordinary overdue return."
+      ],
       "links": [
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/30/book-returned-to-australian-library-150-years-overdue"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/library-book-returned-after-150-years-kiama-library/106970186"
         }
       ],
       "language": "en"
@@ -193,6 +241,31 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/mount-gambier-toy-library-issues-helena-wright-statement/106979294"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "yindjibarndi-fortescue-appeal",
+      "headline": "Yindjibarndi press ahead with Fortescue appeal",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-30T09:37:00.000Z",
+      "voiceScript": "Yindjibarndi traditional owners are appealing a Federal Court compensation order of about $150 million against Fortescue after the court found mines were built and operated without the required agreement. The dispute is about cultural loss, land access and how large the compensation should be when mining has gone ahead without consent. The appeal matters because it could shape the next phase of one of Australia's biggest native title battles, and the Full Federal Court process is now the key next step.",
+      "differences": [
+        "ABC focuses on the appeal decision and the size of the compensation order, AAP frames it as a dispute over the payout, and AFR emphasises the broader Fortescue legal fight."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/yindjibarndi-appeal-fortescue-native-title-case/106976548"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/indigenous-community-rejects-150-million-mining-payout"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/mining/yindjibarndi-to-reignite-legal-fight-against-forrest-s-fortescue-20260730-p60k5a"
         }
       ],
       "language": "en"
@@ -329,21 +402,6 @@
         {
           "source": "The Australian",
           "url": "https://www.theaustralian.com.au/nation/politics/angus-taylor-wasnt-opposed-to-conservative-subfaction-at-centre-of-icac-branchstacking-probe/news-story/d22de6f4d3b161d6f583b452ce318381"
-        }
-      ],
-      "language": "en"
-    },
-    {
-      "id": "yindjibarndi-fortescue-appeal",
-      "headline": "Yindjibarndi press on with Fortescue fight",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T06:58:16Z",
-      "voiceScript": "Yindjibarndi native title holders have voted to continue their legal fight with Fortescue after the court ordered a major compensation payment over land and cultural loss. The dispute matters because it will shape how mining access and Traditional Owner rights are handled in the Pilbara, and the appeal process is now the next step.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/yindjibarndi-appeal-fortescue-native-title-case/106976548"
         }
       ],
       "language": "en"

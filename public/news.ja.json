@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T13:09:19.087Z",
+  "updatedAt": "2026-07-30T15:11:29.999Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -107,6 +107,48 @@
   ],
   "clusters": [
     {
+      "id": "glasgow-wind-hurdles",
+      "headline": "グラスゴーの強風の中で豪州選手がメダル争いを続ける",
+      "voiceScript": "グラスゴーでは、豪州選手が一日中、強い風と向き合っています。こうした条件はハードルのリズムを崩しやすく、細かな調整が重要になります。Michelle Jenneke と Cameron McEntyre らが適応を探る一方、Jessica Hull は女子マイル決勝へ進み、オーストラリアのメダル期待をつないでいます。天候は体調と同じくらい競技計画を変えうるため、この話題は重要です。次は夜の決勝で、技術と戦術が結果を決めます。",
+      "differences": [
+        "ABC はハードル種目と風の影響に集中し、AAP は Jessica Hull の進出と豪州のトラック競技全体の流れを広く伝えています。"
+      ],
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T13:12:00.000Z",
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/michelle-jenneke-glasgow-commonwealth-games-cam-mcentyre-wind/106979514"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/hull-safely-through-to-lead-aussie-women-s-mile-charge"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "roosters-record-blowout",
+      "headline": "Roosters が Cowboys を圧倒し、記録級の大量得点",
+      "voiceScript": "Sydney Roosters は North Queensland 戦で攻撃を爆発させ、82-12 の大勝を収めました。得点差も総得点も、現代 NRL の記録級です。これほどの大差は、Roosters の精度と Cowboys の崩れの両方を示しています。次に注目されるのは、この一勝を継続的な好調につなげられるかどうかです。",
+      "differences": [
+        "ABC はライブで記録的な大勝として伝え、news.com.au は 82-12 という歴史的なスコアと衝撃性を前面に出しています。"
+      ],
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T12:42:00.000Z",
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/nrl-live-updates-north-queensland-cowboys-sydney-roosters/106979316"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/nrl/what-are-we-watching-roosters-superstars-91year-first-in-shocking-nrl-slaughter/news-story/71a3330642eff1183a5dba4632aad69f"
+        }
+      ],
+      "language": "ja"
+    },
+    {
       "id": "syria-death-penalty-australian-man",
       "headline": "シリアの死刑懸念に直面するゴールドコースト男性をオーストラリアが支援",
       "sourceCount": 2,
@@ -129,15 +171,21 @@
     },
     {
       "id": "kiama-library-old-book",
-      "headline": "キアマの図書館に約150年ぶりに本が戻る",
-      "sourceCount": 1,
+      "headline": "キアマ図書館に約150年ぶりに本が戻る",
+      "sourceCount": 2,
       "publishedAt": "2026-07-30T10:59:19.000Z",
-      "voiceScript": "キアマの公共図書館では、住宅の改修中に壁の中から見つかった Antiquities of Athens が返却されました。長年失われていた本が、発見した人によって図書館に戻された形です。地域の蔵書には思いがけない歴史が残っていることを示す出来事です。次は、図書館がこの本をどう保存し展示するかを決める段階です。",
-      "differences": [],
+      "voiceScript": "キアマ図書館で約150年前に借りられた本が、住宅の改修中に壁で塞がれた暖炉の中から見つかり、返却されました。ABC はこの本が今後特別コレクションに移されると伝え、Guardian は返却までの長さの異例さを強調しています。これは、地域のちょっとした発見が文化財の保存作業に変わる話です。次は、この本を貸し出しではなく保管用としてどう守るかが焦点です。",
+      "differences": [
+        "ABC は発見場所と保存計画を補い、The Guardian Australia は返却までの異常な長さに焦点を当てています。"
+      ],
       "links": [
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/30/book-returned-to-australian-library-150-years-overdue"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/library-book-returned-after-150-years-kiama-library/106970186"
         }
       ],
       "language": "ja"
@@ -193,6 +241,31 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/mount-gambier-toy-library-issues-helena-wright-statement/106979294"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "yindjibarndi-fortescue-appeal",
+      "headline": "Yindjibarndi が Fortescue への控訴を進める",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-30T09:37:00.000Z",
+      "voiceScript": "Yindjibarndi の伝統所有者は、連邦裁判所が Fortescue に対して約1億5000万豪ドルの補償を命じた判断に控訴しています。裁判所は、必要な合意なしに鉱山が建設・運営されたと認定しました。争点は、文化的損失、土地へのアクセス、そして同意なしに採掘が進められた場合の補償額です。この訴えは、オーストラリアでも最大級の native title 紛争の次の局面を左右する可能性があります。次の重要な手続きは Full Federal Court での審理です。",
+      "differences": [
+        "ABC は控訴の判断と補償額に重点を置き、AAP は支払いをめぐる争いとして描き、AFR は Fortescue にとってさらに大きな法廷闘争の一部だと強調しています。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/yindjibarndi-appeal-fortescue-native-title-case/106976548"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/indigenous-community-rejects-150-million-mining-payout"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/mining/yindjibarndi-to-reignite-legal-fight-against-forrest-s-fortescue-20260730-p60k5a"
         }
       ],
       "language": "ja"
@@ -329,21 +402,6 @@
         {
           "source": "The Australian",
           "url": "https://www.theaustralian.com.au/nation/politics/angus-taylor-wasnt-opposed-to-conservative-subfaction-at-centre-of-icac-branchstacking-probe/news-story/d22de6f4d3b161d6f583b452ce318381"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "yindjibarndi-fortescue-appeal",
-      "headline": "ヤインジバルンディがフォーテスキューとの争いを継続",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T06:58:16Z",
-      "voiceScript": "ヤインジバルンディの伝統的所有者たちは、土地と文化的損失をめぐって裁判所が巨額の補償を命じたあと、フォーテスキューとの法廷闘争を続ける方針を決めました。この争いは、ピルバラでの採掘権と伝統的所有者の権利を今後どう扱うかに影響するため重要で、次は控訴手続きに移ります。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/yindjibarndi-appeal-fortescue-native-title-case/106976548"
         }
       ],
       "language": "ja"
