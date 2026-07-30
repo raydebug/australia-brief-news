@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T08:10:28.702Z",
+  "updatedAt": "2026-07-30T09:11:42.660Z",
   "generatedBy": "codex",
   "language": "zh-Hant",
   "sources": [
@@ -103,9 +103,76 @@
   "errors": [
     "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
     "The Australian and Sky News Australia still require fallback extraction for current coverage.",
-    "A few fresh Australia stories remain single-source because no second recent report was available at collection time."
+    "Darwin doctor, South Australia helium and Lismore flood-defence items were only available from one recent report during this run."
   ],
   "clusters": [
+    {
+      "id": "darwin-doctor-child-abuse-bail",
+      "headline": "達爾文醫生因兒童性虐待指控爭取續押",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:49:22Z",
+      "voiceScript": "達爾文一名醫生正對保釋裁定提出挑戰，警方稱在他家中搜索時查獲多達 100 萬份兒童性虐待圖片和影片。這起案件之所以重要，是因為涉及的資料規模極大，也關係到嫌疑人在審理期間是否繼續羈押。下一步將是保釋上訴，以及後續刑事程序如何推進。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/darwin-doctor-child-abuse-material-bail-supreme-court/106977238"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "south-australia-helium-production-restart",
+      "headline": "南澳重新恢復本土氦氣產出",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:39:06Z",
+      "voiceScript": "南澳大利亞重新在本地產出氦氣，這是自 2023 年以來澳大利亞首次恢復這類供應。這項進展之所以重要，是因為氦氣在醫療和半導體行業都很關鍵，而澳洲此前一直依賴海外市場。接下來要看新產量能否穩定擴大，並形成可持續的商業供應。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/australian-helium-production-hopes-after-sa-extraction/106975642"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "lismore-flood-defences-support",
+      "headline": "利斯莫爾商界推動更強防洪工程",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:38:18Z",
+      "voiceScript": "利斯莫爾的商界人士支持修建更強的防洪工程，包括蓄水池方案，以降低這座城鎮面臨的洪水風險。國家科學機構的評估認為，這類工程可以明顯削弱未來洪災衝擊，而 2022 年的災難已讓重建成本接近 10 億澳元。接下來關鍵在於各級政府是否願意為長期防護買單。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/lismore-businesses-call-for-an-opportunity-to-save-their-city/106975576"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "rockhampton-olympic-rowing-lobbying",
+      "headline": "奧運賽艇場地一度被推向羅克漢普頓",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T07:35:29Z",
+      "voiceScript": "文件顯示，2032 年奧運賽艇項目曾被遊說從布里斯本轉向羅克漢普頓的菲茨羅伊河。這個提議之所以重要，是因為場地選擇會影響區域投資、交通規劃，以及這條賽道究竟實不實際的政治爭論。接下來要看昆州政府是否繼續推進這項方案，還是改回其他地點。",
+      "differences": [
+        "ABC 著重於政府文件和具體遊說內容。",
+        "《衛報》更強調菲茨羅伊河方案的爭議，以及外界反彈。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/gina-rinehart-olympic-lobbying-rockhampton/106978242"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/30/gina-rinehart-fitzroy-river-rowing-crocodiles-brisbane-olympics-2032"
+        }
+      ],
+      "language": "zh-Hant"
+    },
     {
       "id": "yindjibarndi-fortescue-appeal",
       "headline": "Yindjibarndi 持續追究 Fortescue 爭議",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T08:10:28.702Z",
+  "updatedAt": "2026-07-30T09:11:42.660Z",
   "generatedBy": "codex",
   "language": "th",
   "sources": [
@@ -103,9 +103,76 @@
   "errors": [
     "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
     "The Australian and Sky News Australia still require fallback extraction for current coverage.",
-    "A few fresh Australia stories remain single-source because no second recent report was available at collection time."
+    "Darwin doctor, South Australia helium and Lismore flood-defence items were only available from one recent report during this run."
   ],
   "clusters": [
+    {
+      "id": "darwin-doctor-child-abuse-bail",
+      "headline": "แพทย์ที่ดาร์วินคัดค้านการถูกควบคุมตัวต่อในคดีล่วงละเมิดเด็ก",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:49:22Z",
+      "voiceScript": "แพทย์คนหนึ่งในดาร์วินกำลังอุทธรณ์คำตัดสินเรื่องประกันตัว หลังตำรวจระบุว่าพบภาพและวิดีโอล่วงละเมิดเด็กมากถึง 1 ล้านไฟล์ระหว่างการตรวจค้นบ้านของเขา คดีนี้สำคัญเพราะขนาดของหลักฐานที่ถูกอ้างถึงมีมาก และศาลต้องตัดสินว่าจะให้เขาถูกควบคุมตัวต่อระหว่างกระบวนการพิจารณาหรือไม่ ขั้นต่อไปคือการอุทธรณ์ประกันตัวและกระบวนคดีอาญาที่จะตามมา",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/darwin-doctor-child-abuse-material-bail-supreme-court/106977238"
+        }
+      ],
+      "language": "th"
+    },
+    {
+      "id": "south-australia-helium-production-restart",
+      "headline": "เซาท์ออสเตรเลียกลับมาผลิตฮีเลียมในประเทศ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:39:06Z",
+      "voiceScript": "เซาท์ออสเตรเลียกลับมาผลิตฮีเลียมในออสเตรเลียเป็นครั้งแรกนับตั้งแต่ปี 2023 เรื่องนี้สำคัญเพราะฮีเลียมเป็นวัตถุดิบจำเป็นสำหรับการแพทย์และห่วงโซ่อุปทานเซมิคอนดักเตอร์ ขณะที่ออสเตรเลียเคยต้องพึ่งพาการนำเข้าเป็นหลัก ประเด็นต่อไปคือกำลังการผลิตใหม่จะขยายได้มั่นคงและคุ้มค่าทางพาณิชย์หรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/australian-helium-production-hopes-after-sa-extraction/106975642"
+        }
+      ],
+      "language": "th"
+    },
+    {
+      "id": "lismore-flood-defences-support",
+      "headline": "ภาคธุรกิจ Lismore หนุนงานป้องกันน้ำท่วมที่แข็งแรงกว่าเดิม",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:38:18Z",
+      "voiceScript": "ภาคธุรกิจใน Lismore สนับสนุนงานวิศวกรรมที่แข็งแรงกว่าเดิม รวมถึงบ่อกักเก็บน้ำ เพื่อช่วยลดความเสี่ยงน้ำท่วมของเมือง รายงานจากหน่วยงานวิทยาศาสตร์ระดับชาติระบุว่าวิธีนี้ช่วยลดความเสียหายในอนาคตได้มาก ขณะที่น้ำท่วมปี 2022 ทำให้ต้นทุนการฟื้นฟูแตะเกือบ 1 พันล้านดอลลาร์ออสเตรเลีย ขั้นต่อไปคือรัฐบาลจะยอมสนับสนุนเงินสำหรับการป้องกันระยะยาวหรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/lismore-businesses-call-for-an-opportunity-to-save-their-city/106975576"
+        }
+      ],
+      "language": "th"
+    },
+    {
+      "id": "rockhampton-olympic-rowing-lobbying",
+      "headline": "แผนเรือพายโอลิมปิกถูกผลักไปยัง Rockhampton",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T07:35:29Z",
+      "voiceScript": "เอกสารแสดงว่ามีการล็อบบี้ให้ย้ายการแข่งขันเรือพายโอลิมปิกปี 2032 จาก Brisbane ไปยังแม่น้ำ Fitzroy ที่ Rockhampton เรื่องนี้สำคัญเพราะการเลือกสถานที่ส่งผลต่อการลงทุนในภูมิภาค แผนขนส่ง และการถกเถียงทางการเมืองว่าพื้นที่ดังกล่าวใช้งานได้จริงหรือไม่ ตอนนี้ยังไม่ชัดว่ารัฐบาล Queensland จะเดินหน้าแผนนี้ต่อหรือหันกลับไปใช้สถานที่อื่น",
+      "differences": [
+        "รายงานแรกเน้นเอกสารของรัฐบาลและคำขอล็อบบี้โดยตรง",
+        "รายงานที่สองเน้นข้อถกเถียงและแรงต้านต่อแผน Fitzroy River มากกว่า"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/gina-rinehart-olympic-lobbying-rockhampton/106978242"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/30/gina-rinehart-fitzroy-river-rowing-crocodiles-brisbane-olympics-2032"
+        }
+      ],
+      "language": "th"
+    },
     {
       "id": "yindjibarndi-fortescue-appeal",
       "headline": "ยินจิบาร์นดีเดินหน้าสู้คดีฟอร์ติสคิวต่อ",

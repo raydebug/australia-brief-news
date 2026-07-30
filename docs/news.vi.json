@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T08:10:28.702Z",
+  "updatedAt": "2026-07-30T09:11:42.660Z",
   "generatedBy": "codex",
   "language": "vi",
   "sources": [
@@ -103,9 +103,76 @@
   "errors": [
     "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
     "The Australian and Sky News Australia still require fallback extraction for current coverage.",
-    "A few fresh Australia stories remain single-source because no second recent report was available at collection time."
+    "Darwin doctor, South Australia helium and Lismore flood-defence items were only available from one recent report during this run."
   ],
   "clusters": [
+    {
+      "id": "darwin-doctor-child-abuse-bail",
+      "headline": "Bác sĩ ở Darwin tranh cãi việc tiếp tục bị giam vì cáo buộc lạm dụng trẻ em",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:49:22Z",
+      "voiceScript": "Một bác sĩ ở Darwin đang kháng nghị quyết định bảo lãnh sau khi cảnh sát nói rằng họ đã thu giữ tới 1 triệu ảnh và video lạm dụng trẻ em trong cuộc khám xét nhà ông. Vụ việc đáng chú ý vì quy mô tài liệu bị cáo buộc là rất lớn và tòa án phải quyết định liệu ông có nên tiếp tục bị tạm giam trong khi vụ án hình sự diễn ra hay không. Bước tiếp theo là phiên xem xét bảo lãnh và các thủ tục tố tụng sau đó.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/darwin-doctor-child-abuse-material-bail-supreme-court/106977238"
+        }
+      ],
+      "language": "vi"
+    },
+    {
+      "id": "south-australia-helium-production-restart",
+      "headline": "Nam Úc khởi động lại sản lượng heli trong nước",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:39:06Z",
+      "voiceScript": "Nam Úc đã tạo ra khí heli ở Australia lần đầu tiên kể từ năm 2023. Việc này quan trọng vì heli là đầu vào cần thiết cho y tế và chuỗi cung ứng bán dẫn, trong khi Australia lâu nay phụ thuộc vào nguồn nhập khẩu. Câu hỏi tiếp theo là sản lượng mới có thể tăng đều và duy trì được thương mại hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/australian-helium-production-hopes-after-sa-extraction/106975642"
+        }
+      ],
+      "language": "vi"
+    },
+    {
+      "id": "lismore-flood-defences-support",
+      "headline": "Doanh nghiệp Lismore thúc đẩy hệ thống chống lũ mạnh hơn",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:38:18Z",
+      "voiceScript": "Các chủ doanh nghiệp ở Lismore ủng hộ những công trình kỹ thuật mạnh hơn, gồm cả các hồ trữ nước, để giảm rủi ro lũ lụt cho thị trấn. Đánh giá của cơ quan khoa học quốc gia cho rằng cách làm này có thể giảm đáng kể thiệt hại trong tương lai, trong khi trận lũ năm 2022 đã khiến chi phí tái thiết tăng lên gần 1 tỷ đô la Australia. Bước tiếp theo là liệu các cấp chính quyền có sẵn sàng tài trợ cho một giải pháp dài hạn hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/lismore-businesses-call-for-an-opportunity-to-save-their-city/106975576"
+        }
+      ],
+      "language": "vi"
+    },
+    {
+      "id": "rockhampton-olympic-rowing-lobbying",
+      "headline": "Kế hoạch đua thuyền Olympic bị đẩy về Rockhampton",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T07:35:29Z",
+      "voiceScript": "Tài liệu cho thấy có hoạt động vận động để chuyển nội dung đua thuyền của Olympic 2032 từ Brisbane sang sông Fitzroy ở Rockhampton. Quyết định địa điểm ảnh hưởng trực tiếp đến đầu tư khu vực, kế hoạch giao thông và cuộc tranh luận chính trị về việc phương án đó có thực tế hay không. Hiện chưa rõ chính quyền Queensland có giữ kế hoạch này hay sẽ quay lại địa điểm khác.",
+      "differences": [
+        "Bản tin đầu tiên tập trung vào tài liệu của chính phủ và yêu cầu vận động cụ thể.",
+        "Bản tin thứ hai nhấn mạnh tranh cãi quanh phương án Fitzroy River và phản ứng trái chiều."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/gina-rinehart-olympic-lobbying-rockhampton/106978242"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/30/gina-rinehart-fitzroy-river-rowing-crocodiles-brisbane-olympics-2032"
+        }
+      ],
+      "language": "vi"
+    },
     {
       "id": "yindjibarndi-fortescue-appeal",
       "headline": "Yindjibarndi tiếp tục theo đuổi vụ Fortescue",

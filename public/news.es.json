@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T08:10:28.702Z",
+  "updatedAt": "2026-07-30T09:11:42.660Z",
   "generatedBy": "codex",
   "language": "es",
   "sources": [
@@ -103,9 +103,76 @@
   "errors": [
     "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
     "The Australian and Sky News Australia still require fallback extraction for current coverage.",
-    "A few fresh Australia stories remain single-source because no second recent report was available at collection time."
+    "Darwin doctor, South Australia helium and Lismore flood-defence items were only available from one recent report during this run."
   ],
   "clusters": [
+    {
+      "id": "darwin-doctor-child-abuse-bail",
+      "headline": "Un médico de Darwin impugna seguir en prisión por acusaciones de abuso infantil",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:49:22Z",
+      "voiceScript": "Un médico de Darwin está impugnando una decisión sobre su libertad bajo fianza después de que la policía dijera haber hallado hasta 1 millón de imágenes y videos de abuso infantil en un allanamiento en su casa. La magnitud del material explica por qué el caso ha recibido tanta atención, y ahora el tribunal debe decidir si seguirá detenido mientras avanza el proceso penal. El siguiente paso será la apelación sobre la fianza y las audiencias posteriores.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/darwin-doctor-child-abuse-material-bail-supreme-court/106977238"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "south-australia-helium-production-restart",
+      "headline": "Australia Meridional reanuda la producción local de helio",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:39:06Z",
+      "voiceScript": "Australia Meridional ha producido helio en Australia por primera vez desde 2023, lo que marca el regreso de un recurso clave para las cadenas de suministro médicas y de semiconductores. Esto importa porque el helio es difícil de sustituir y Australia había dependido del suministro externo desde que se detuvo la producción local. La gran pregunta ahora es si el nuevo volumen podrá crecer hasta convertirse en un flujo comercial fiable.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/australian-helium-production-hopes-after-sa-extraction/106975642"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "lismore-flood-defences-support",
+      "headline": "Empresarios de Lismore piden defensas contra inundaciones más fuertes",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:38:18Z",
+      "voiceScript": "Los líderes empresariales de Lismore respaldan obras de ingeniería, incluidos estanques de retención de agua, para reducir el riesgo de inundación que sigue pesando sobre la ciudad. Una evaluación del organismo científico nacional dice que la idea podría recortar las futuras crecidas, y el desastre de 2022 dejó los costes de reconstrucción cerca de 1.000 millones de dólares. El siguiente paso es ver si los gobiernos financiarán la obra como una protección a largo plazo.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/lismore-businesses-call-for-an-opportunity-to-save-their-city/106975576"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "rockhampton-olympic-rowing-lobbying",
+      "headline": "Empujaron la sede olímpica de remo hacia Rockhampton",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T07:35:29Z",
+      "voiceScript": "Los documentos muestran gestiones para mover el remo olímpico de 2032 fuera de Brisbane y llevarlo al río Fitzroy, en Rockhampton. Eso importa porque la elección de la sede afecta la inversión regional, la planificación del transporte y la disputa política sobre si el trazado es práctico o simbólico. La incógnita ahora es si Queensland mantendrá el plan o volverá a otra opción.",
+      "differences": [
+        "La primera nota se centra en los documentos del gobierno y en la petición concreta de lobby para mover el remo a Rockhampton.",
+        "La segunda subraya la polémica en torno al Fitzroy River y el rechazo que generó la propuesta."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/gina-rinehart-olympic-lobbying-rockhampton/106978242"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/30/gina-rinehart-fitzroy-river-rowing-crocodiles-brisbane-olympics-2032"
+        }
+      ],
+      "language": "es"
+    },
     {
       "id": "yindjibarndi-fortescue-appeal",
       "headline": "Yindjibarndi sigue la pelea con Fortescue",

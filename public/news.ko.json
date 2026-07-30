@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T08:10:28.702Z",
+  "updatedAt": "2026-07-30T09:11:42.660Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -103,9 +103,76 @@
   "errors": [
     "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
     "The Australian and Sky News Australia still require fallback extraction for current coverage.",
-    "A few fresh Australia stories remain single-source because no second recent report was available at collection time."
+    "Darwin doctor, South Australia helium and Lismore flood-defence items were only available from one recent report during this run."
   ],
   "clusters": [
+    {
+      "id": "darwin-doctor-child-abuse-bail",
+      "headline": "다윈 의사, 아동학대 혐의 구속 유지에 이의 제기",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:49:22Z",
+      "voiceScript": "다윈의 한 의사가 경찰이 자택 수색에서 최대 100만 개의 아동 학대 이미지와 영상을 발견했다고 주장한 사건으로 보석 결정을 다투고 있다. 사건의 핵심은 자료의 규모가 매우 크다는 점과, 재판이 진행되는 동안 그를 계속 구금할 필요가 있는지다. 다음 단계는 보석 항소와 이후 형사 절차다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/darwin-doctor-child-abuse-material-bail-supreme-court/106977238"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "south-australia-helium-production-restart",
+      "headline": "사우스오스트레일리아에서 국내 헬륨 생산이 다시 시작됐다",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:39:06Z",
+      "voiceScript": "사우스오스트레일리아에서 2023년 이후 처음으로 호주 안에서 헬륨 생산이 재개됐다. 헬륨은 의료 장비와 반도체 공급망에 필요한 자원이라서, 국내 생산이 다시 생긴 것은 의미가 크다. 이제 관건은 새 생산이 안정적으로 늘어나 상업적으로 지속될 수 있느냐는 점이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/australian-helium-production-hopes-after-sa-extraction/106975642"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "lismore-flood-defences-support",
+      "headline": "리스모어 기업들, 더 강한 홍수 방어 공사 요구",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:38:18Z",
+      "voiceScript": "리스모어의 기업들은 물 저장 시설 같은 공학적 대책을 포함해 홍수 위험을 줄일 더 강한 방어 공사를 지지하고 있다. 국립 과학 기관의 평가는 이런 공사가 앞으로의 피해를 줄일 수 있다고 보고 있으며, 2022년 홍수 복구 비용은 약 10억 호주달러에 이르는 것으로 평가됐다. 다음 단계는 정부가 이 사업을 장기 방재로 보고 자금을 댈지 여부다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/lismore-businesses-call-for-an-opportunity-to-save-their-city/106975576"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "rockhampton-olympic-rowing-lobbying",
+      "headline": "록햄프턴이 올림픽 조정 경기장으로 밀려났다",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T07:35:29Z",
+      "voiceScript": "문서에 따르면 2032년 올림픽 조정 경기를 브리즈번에서 록햄프턴의 피츠로이 강으로 옮기려는 로비가 있었다. 경기장 선정은 지역 투자와 교통 계획, 그리고 그 코스가 현실적인지에 대한 정치 논쟁에 직접 영향을 준다. 이제 남은 문제는 퀸즐랜드 정부가 이 계획을 계속 밀어붙일지, 아니면 다른 장소로 돌아갈지다.",
+      "differences": [
+        "첫 번째 보도는 정부 문서와 구체적인 로비 내용에 초점을 맞춘다.",
+        "두 번째 보도는 피츠로이 강 장소를 둘러싼 논쟁과 반발을 더 크게 다룬다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/gina-rinehart-olympic-lobbying-rockhampton/106978242"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/30/gina-rinehart-fitzroy-river-rowing-crocodiles-brisbane-olympics-2032"
+        }
+      ],
+      "language": "ko"
+    },
     {
       "id": "yindjibarndi-fortescue-appeal",
       "headline": "윈지바르디, 포르테스큐와의 분쟁 계속 추진",

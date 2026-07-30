@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T08:10:28.702Z",
+  "updatedAt": "2026-07-30T09:11:42.660Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -103,9 +103,76 @@
   "errors": [
     "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
     "The Australian and Sky News Australia still require fallback extraction for current coverage.",
-    "A few fresh Australia stories remain single-source because no second recent report was available at collection time."
+    "Darwin doctor, South Australia helium and Lismore flood-defence items were only available from one recent report during this run."
   ],
   "clusters": [
+    {
+      "id": "darwin-doctor-child-abuse-bail",
+      "headline": "Darwin doctor fights to stay in custody over child abuse allegations",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:49:22Z",
+      "voiceScript": "A Darwin doctor is challenging a bail decision after police allegedly found up to 1 million child abuse images and videos during a raid on his home. The scale of the material is why the case has drawn close scrutiny, and the court now has to decide whether he remains in custody while the criminal process continues. The next step is the bail appeal and any further hearings.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/darwin-doctor-child-abuse-material-bail-supreme-court/106977238"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "south-australia-helium-production-restart",
+      "headline": "South Australia restarts domestic helium output",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:39:06Z",
+      "voiceScript": "South Australia has produced helium in Australia for the first time since 2023, marking a restart for a resource that matters to medical and semiconductor supply chains. The issue matters because helium is hard to replace and Australia has relied on overseas supply since domestic production stopped. The key question now is whether the new output can scale into a reliable commercial stream.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/australian-helium-production-hopes-after-sa-extraction/106975642"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "lismore-flood-defences-support",
+      "headline": "Lismore businesses press for stronger flood defences",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:38:18Z",
+      "voiceScript": "Lismore business leaders are backing engineering works, including water-retention basins, to reduce the flood risk that still hangs over the town. A CSIRO assessment says the idea could cut future flooding, and the 2022 disaster left rebuilding costs close to $1 billion. The next step is whether governments will fund the work and treat it as a long-term protection measure.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/lismore-businesses-call-for-an-opportunity-to-save-their-city/106975576"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "rockhampton-olympic-rowing-lobbying",
+      "headline": "Olympic rowing plans were pushed toward Rockhampton",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T07:35:29Z",
+      "voiceScript": "Documents show lobbying to move 2032 Olympic rowing away from Brisbane and toward Rockhampton on the Fitzroy River. That matters because venue choices affect regional investment, transport planning and the political fight over whether the course is practical or symbolic. The main uncertainty is whether Queensland will keep the plan alive or stick with a different site.",
+      "differences": [
+        "The ABC centres on the government documents and the specific lobbying request to move rowing to Rockhampton.",
+        "The Guardian frames it as a broader row over the Fitzroy River venue and the backlash around the proposal."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/gina-rinehart-olympic-lobbying-rockhampton/106978242"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/30/gina-rinehart-fitzroy-river-rowing-crocodiles-brisbane-olympics-2032"
+        }
+      ],
+      "language": "en"
+    },
     {
       "id": "yindjibarndi-fortescue-appeal",
       "headline": "Yindjibarndi press on with Fortescue fight",

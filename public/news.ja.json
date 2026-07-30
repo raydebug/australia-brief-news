@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T08:10:28.702Z",
+  "updatedAt": "2026-07-30T09:11:42.660Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -103,9 +103,76 @@
   "errors": [
     "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
     "The Australian and Sky News Australia still require fallback extraction for current coverage.",
-    "A few fresh Australia stories remain single-source because no second recent report was available at collection time."
+    "Darwin doctor, South Australia helium and Lismore flood-defence items were only available from one recent report during this run."
   ],
   "clusters": [
+    {
+      "id": "darwin-doctor-child-abuse-bail",
+      "headline": "ダーウィンの医師、児童虐待疑惑で拘束継続に異議",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:49:22Z",
+      "voiceScript": "ダーウィンの医師が、警察が自宅捜索で最大100万件の児童虐待画像や動画を押収したとされる件で、保釈判断に異議を申し立てている。問題は資料の規模だけでなく、裁判が進む間に身柄を拘束し続ける必要があるのかという点だ。次は保釈審査の審理と、その後の刑事手続きになる。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/darwin-doctor-child-abuse-material-bail-supreme-court/106977238"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "south-australia-helium-production-restart",
+      "headline": "南オーストラリアで国内のヘリウム生産が再開",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:39:06Z",
+      "voiceScript": "南オーストラリアで、2023年以来となるオーストラリア国内のヘリウム生産が再開された。ヘリウムは医療機器や半導体の供給網で欠かせず、これまで国内供給が止まっていたことを考えると意味は大きい。今後の焦点は、新しい生産が安定して拡大し、商業ベースで続けられるかどうかだ。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/australian-helium-production-hopes-after-sa-extraction/106975642"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "lismore-flood-defences-support",
+      "headline": "リズモアの事業者が洪水対策の強化を後押し",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:38:18Z",
+      "voiceScript": "リズモアの事業者は、貯水池のような工学的対策を含め、町を洪水から守るための強い防災工事を求めている。国の科学機関の評価では、こうした対策で将来の浸水をかなり抑えられる可能性があり、2022年の洪水被害は復旧費を約10億豪ドル規模に押し上げた。次の焦点は、各政府が長期防護として資金を出すかどうかだ。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/lismore-businesses-call-for-an-opportunity-to-save-their-city/106975576"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "rockhampton-olympic-rowing-lobbying",
+      "headline": "ロックハンプトンが五輪ローイング会場として押し上げられた",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T07:35:29Z",
+      "voiceScript": "文書によると、2032年五輪のローイング競技をブリスベンからロックハンプトンのフィッツロイ川へ移すよう働きかけが行われていた。会場選定は、地域投資や交通計画、そしてそのコースが現実的かどうかという政治論争に直結する。今後の焦点は、クイーンズランド州政府がこの案を維持するのか、それとも別の会場に戻すのかだ。",
+      "differences": [
+        "最初の報道は、政府文書と具体的な移転要請に焦点を当てている。",
+        "二つ目の報道は、フィッツロイ川案をめぐる論争と反発をより強く打ち出している。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/gina-rinehart-olympic-lobbying-rockhampton/106978242"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/30/gina-rinehart-fitzroy-river-rowing-crocodiles-brisbane-olympics-2032"
+        }
+      ],
+      "language": "ja"
+    },
     {
       "id": "yindjibarndi-fortescue-appeal",
       "headline": "ヤインジバルンディがフォーテスキューとの争いを継続",

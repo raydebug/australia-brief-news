@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T08:10:28.702Z",
+  "updatedAt": "2026-07-30T09:11:42.660Z",
   "generatedBy": "codex",
   "language": "si",
   "sources": [
@@ -103,9 +103,76 @@
   "errors": [
     "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
     "The Australian and Sky News Australia still require fallback extraction for current coverage.",
-    "A few fresh Australia stories remain single-source because no second recent report was available at collection time."
+    "Darwin doctor, South Australia helium and Lismore flood-defence items were only available from one recent report during this run."
   ],
   "clusters": [
+    {
+      "id": "darwin-doctor-child-abuse-bail",
+      "headline": "ළමා අපයෝජන චෝදනා මත ඩාර්වින් වෛද්‍යවරයකු රඳවා තබාගැනීමට විරුද්ධ වෙයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:49:22Z",
+      "voiceScript": "ඩාර්වින්හි වෛද්‍යවරයකු, පොලිසිය ඔහුගේ නිවස සොයා බලන අතරතුර ළමා අපයෝජන රූප සහ වීඩියෝ ලක්ෂ 10ක් දක්වා සොයාගෙන ඇතැයි කියන සිද්ධියකින් පසුව, බේල් තීන්දුවට අභියෝග කරමින් සිටී. මෙම නඩුව වැදගත් වන්නේ චෝදනා ලැබූ ද්‍රව්‍ය ප්‍රමාණය ඉතා විශාල වීමත්, නඩු කටයුතු ඉදිරියට යන අතරතුර ඔහු රඳවා තබාගැනීමට අවශ්‍යද යන්න අධිකරණය තීරණය කළ යුතු වීමත් නිසාය. ඊළඟ පියවර වන්නේ බේල් අභියාචනය සහ ඉදිරි විභාගයන්ය.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/darwin-doctor-child-abuse-material-bail-supreme-court/106977238"
+        }
+      ],
+      "language": "si"
+    },
+    {
+      "id": "south-australia-helium-production-restart",
+      "headline": "දකුණු ඕස්ට්‍රේලියාවේ දේශීය හීලියම් නිෂ්පාදනය නැවත ආරම්භ වෙයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:39:06Z",
+      "voiceScript": "දකුණු ඕස්ට්‍රේලියාවේදී 2023 න් පසු පළමු වරට ඔස්ට්‍රේලියාවේදී හීලියම් නිෂ්පාදනය නැවත ආරම්භ වී තිබේ. මෙය වැදගත් වන්නේ හීලියම් වෛද්‍ය සහ අර්ධසන්නායක සැපයුම් දාමවල අත්‍යවශ්‍ය වායුවක් වීම නිසාය, සහ මෙරටට විදේශ සැපයුම මත අඩු රඳාපැවැත්මක් ලබාදෙන නිසාය. දැන් ප්‍රධාන ප්‍රශ්නය වන්නේ නව නිෂ්පාදනය ස්ථාවරව වැඩි කර වාණිජ ලෙස පවත්වා ගත හැකිද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/australian-helium-production-hopes-after-sa-extraction/106975642"
+        }
+      ],
+      "language": "si"
+    },
+    {
+      "id": "lismore-flood-defences-support",
+      "headline": "ලිස්මෝර් ව්‍යාපාරිකයෝ ශක්තිමත් ගංවතුර ආරක්ෂණ වැඩ ඉල්ලති",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:38:18Z",
+      "voiceScript": "ලිස්මෝර්හි ව්‍යාපාරික නායකයෝ, ජලය රඳවා තබන බඳුන් ඇතුළු ඉංජිනේරු වැඩවලින් ගංවතුර අවදානම අඩු කිරීමට සහය දක්වති. ජාතික විද්‍යා ආයතනයේ ඇගයීමක් අනුව එවැනි වැඩවලින් අනාගත ගංවතුර පීඩනය අඩු කළ හැකි අතර, 2022 ව්‍යසනයෙන් නැවත ගොඩනැගීමට අවශ්‍ය වියදම දළ වශයෙන් ඔස්ට්‍රේලියානු ඩොලර් බිලියනයකට ආසන්න වී තිබේ. ඊළඟ පියවර වන්නේ රජයන් ඒ සඳහා මුදල් දෙනවාද, දිගුකාලීන ආරක්ෂාවක් ලෙස සලකනවාද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/lismore-businesses-call-for-an-opportunity-to-save-their-city/106975576"
+        }
+      ],
+      "language": "si"
+    },
+    {
+      "id": "rockhampton-olympic-rowing-lobbying",
+      "headline": "ඔලිම්පික් ඔරු තරග රොක්හැම්ප්ටන් දෙසට තල්ලු විය",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T07:35:29Z",
+      "voiceScript": "ලේඛන අනුව 2032 ඔලිම්පික් ඔරු තරග බ්‍රිස්බේන් සිට රොක්හැම්ප්ටන්හි ෆිට්ස්රෝයි ගඟට මාරු කිරීමට බලපෑම් කර තිබේ. මෙය වැදගත් වන්නේ ස්ථානය තෝරාගැනීම කලාපීය ආයෝජන, ප්‍රවාහන සැලසුම් සහ ඒ මාර්ගය ප්‍රායෝගිකද කියන දේශපාලන විවාදය යන සියල්ලට බලපාන නිසාය. ඊළඟට සිදුවන්නේ ක්වීන්ස්ලෑන්ඩ් රජය එම අදහස ඉදිරියට ගෙනයනවාද නැද්ද යන්නයි.",
+      "differences": [
+        "පළමු වාර්තාව රජයේ ලේඛන සහ නිශ්චිත ඉල්ලීම කෙරෙහි අවධානය යොමු කරයි.",
+        "දෙවැනි වාර්තාව ෆිට්ස්රෝයි ගඟේ ස්ථානය වටා ඇති විවාදය සහ විරෝධය වැඩි කරයි."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/gina-rinehart-olympic-lobbying-rockhampton/106978242"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/30/gina-rinehart-fitzroy-river-rowing-crocodiles-brisbane-olympics-2032"
+        }
+      ],
+      "language": "si"
+    },
     {
       "id": "yindjibarndi-fortescue-appeal",
       "headline": "යින්ජිබාර්න්දි ෆෝර්ටෙස්කියු සටන ඉදිරියට ගෙන යයි",
