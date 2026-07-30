@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T15:11:29.999Z",
+  "updatedAt": "2026-07-30T16:12:01.655Z",
   "generatedBy": "codex",
   "language": "vi",
   "sources": [
@@ -101,11 +101,31 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
-    "The Australian and Sky News Australia still require fallback extraction for current coverage.",
-    "Darwin doctor, South Australia helium and Lismore flood-defence items were only available from one recent report during this run."
+    "news.com.au latest-news RSS still renders HTML, so current-item discovery used page and search-result fallback.",
+    "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "ridge-barredo-weightlifting-injury",
+      "headline": "Ridge Barredo vẫn muốn tiếp tục cử tạ sau chấn thương đáng ngại",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T14:25:39.000Z",
+      "voiceScript": "Vận động viên cử tạ người Úc Ridge Barredo bị đau đầu gối sau một lần nâng hụt ở Glasgow, nhưng anh nói cú ngã này sẽ không chấm dứt sự nghiệp của mình. Anh đang tranh chấp ở hạng 110 kg nam thì động tác hỏng, buộc phải rời sàn bằng nạng và chờ chụp chiếu để biết mức độ tổn thương. Điều này quan trọng vì chỉ một lần thất bại có thể biến cuộc đua huy chương thành hành trình hồi phục dài ngày. Bước tiếp theo là đánh giá y khoa và phục hồi, trong khi Barredo đã nói về chuyện trở lại.",
+      "differences": [
+        "ABC nhấn mạnh hơn vào chi tiết chấn thương và kế hoạch trở lại, còn AAP tập trung vào cú nâng hụt và phản ứng ngay sau đó."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/commonwealth-games-ridge-barredo-mafs-weightlifting/106979516"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/married-at-first-sight-star-s-games-date-falls-flat"
+        }
+      ],
+      "language": "vi"
+    },
     {
       "id": "glasgow-wind-hurdles",
       "headline": "Gió mạnh ở Glasgow vẫn không làm chậm tham vọng huy chương của Australia",
@@ -452,21 +472,6 @@
       "language": "vi"
     },
     {
-      "id": "social-media-racism-federal-hearing",
-      "headline": "Phân biệt chủng tộc trên mạng bị đưa ra quốc hội",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T06:25:22Z",
-      "voiceScript": "Các lãnh đạo First Nations nói với một phiên điều trần liên bang rằng những lời lẽ kỳ thị trên mạng đang gây hại cho người trẻ, trong khi Hội Bác sĩ Đa khoa Hoàng gia Úc gọi nạn phân biệt chủng tộc là tình trạng khẩn cấp về y tế công cộng. Vấn đề này quan trọng vì nó nối nội dung trực tuyến, sức khỏe tinh thần và an toàn cộng đồng, và ủy ban sẽ dùng các bằng chứng đó để đưa ra khuyến nghị.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/racist-social-media-comments-slammed-at-federal-gov-hearing/106977480"
-        }
-      ],
-      "language": "vi"
-    },
-    {
       "id": "victoria-bunnings-dog-attack",
       "headline": "Cô bé nhập viện sau vụ chó cắn ở Bunnings",
       "sourceCount": 2,
@@ -481,6 +486,27 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/pets/dog-euthanised-after-attacking-young-girl-at-bunnings-in-regional-victoria/news-story/c4243eb42da4d087644dbc0adc4a047a"
+        }
+      ],
+      "language": "vi"
+    },
+    {
+      "id": "closing-gap-off-track",
+      "headline": "Các mục tiêu Closing the Gap vẫn đang chậm đáng kể",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T06:03:40.000Z",
+      "voiceScript": "Úc mới chỉ đạt được một mục tiêu trong chương trình Closing the Gap, với tỷ lệ trẻ em Thổ dân vào mẫu giáo là cột mốc quốc gia duy nhất đã hoàn thành. Báo cáo mới cho thấy một số mục tiêu khác có cải thiện nhưng vẫn chưa theo kịp, còn tỷ lệ giam giữ, an toàn trẻ em và một số kết quả y tế lại đi xuống. Điều này quan trọng vì hạn chót năm 2031 đã đi được một nửa chặng đường, trong khi chính phủ vẫn cần chứng minh bằng kết quả đo được chứ không chỉ bằng tuyên bố. Bước tiếp theo là xem chính phủ liên bang và các bang có biến báo cáo này thành hành động có kinh phí và do các tổ chức bản địa dẫn dắt hay không.",
+      "differences": [
+        "AAP nhấn mạnh tính khẩn cấp của các mục tiêu bị chậm và nhu cầu hành động thực chất, còn Guardian live blog đặt cập nhật này trong bức tranh tin tức quốc gia rộng hơn."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/concerning-closing-the-gap-off-track-before-deadline"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
         }
       ],
       "language": "vi"
@@ -969,21 +995,6 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/kai-taylor-swimming-commonwealth-games-kyle-chalmers/106974426"
-        }
-      ],
-      "language": "vi"
-    },
-    {
-      "id": "closing-gap-off-track",
-      "headline": "Tiến trình thu hẹp khoảng cách của Úc vẫn còn chậm so với tốc độ",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T21:59:16Z",
-      "voiceScript": "Báo cáo mới cho biết Úc mới chỉ đạt được một mục tiêu Thu hẹp khoảng cách và một số khoảng cách có thể mở rộng thay vì thu hẹp. Cột mốc mới nhất được chào đón nhưng nó không làm thay đổi bức tranh toàn cảnh. Điểm áp lực tiếp theo là liệu chính phủ có thể biến mục tiêu thành kết quả thực tế hay không.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
         }
       ],
       "language": "vi"
@@ -1486,6 +1497,31 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/ato-tells-millions-of-australian-taxpayers-now-is-the-time-to-lodge-returns-c-22636284"
+        }
+      ],
+      "language": "vi"
+    },
+    {
+      "id": "hanson-racial-vilification-appeal",
+      "headline": "Hanson thua kháng cáo về phán quyết phân biệt chủng tộc với Faruqi",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T07:52:56.000Z",
+      "voiceScript": "Tòa Liên bang đã giữ nguyên phán quyết rằng Pauline Hanson có hành vi sỉ nhục mang tính phân biệt chủng tộc đối với Mehreen Faruqi qua một bài đăng sau khi Nữ hoàng Elizabeth II qua đời. Hanson đang cân nhắc kháng cáo lên Tối cao Pháp viện, còn Faruqi cho rằng vụ việc cho thấy lời nói mang tính phân biệt chủng tộc vẫn có hậu quả pháp lý. Quyết định này quan trọng vì nó nhấn mạnh ranh giới giữa công kích chính trị và lăng mạ chủng tộc trái pháp luật. Bước tiếp theo là liệu Hanson có nộp đơn kháng cáo tiếp trong thời hạn hay không.",
+      "differences": [
+        "SBS đưa tin ngắn về kết quả kháng cáo, AAP giải thích rõ hơn ý nghĩa pháp lý, còn Guardian đặt phán quyết trong bối cảnh chính trị rộng hơn của Hanson."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/racism-verdict-latest-danger-to-pauline-hanson-s-surge"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/pauline-hanson-fails-to-overturn-racial-vilification-ruling/69owgtjla"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb"
         }
       ],
       "language": "vi"

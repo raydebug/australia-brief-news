@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T15:11:29.999Z",
+  "updatedAt": "2026-07-30T16:12:01.655Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -101,11 +101,31 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
-    "The Australian and Sky News Australia still require fallback extraction for current coverage.",
-    "Darwin doctor, South Australia helium and Lismore flood-defence items were only available from one recent report during this run."
+    "news.com.au latest-news RSS still renders HTML, so current-item discovery used page and search-result fallback.",
+    "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "ridge-barredo-weightlifting-injury",
+      "headline": "リッジ・バレードは負傷後も重量挙げを続ける意向",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T14:25:39.000Z",
+      "voiceScript": "オーストラリアの重量挙げ選手リッジ・バレードは、グラスゴーでの試技失敗のあと膝を痛めたが、この挫折で競技人生が終わるわけではないと言っている。男子110キロ級で上位を狙っていたが、挙上に失敗して松葉づえで退場することになり、これから検査で傷の程度を確認する。重要なのは、一度の失敗がメダル争いを長いリハビリに変えてしまうことだ。次は診断と回復が焦点で、本人はすでに復帰を口にしている。",
+      "differences": [
+        "ABC は負傷の細部と復帰計画をより強調し、AAP は失敗したリフトと直後の様子をより前面に出している。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/commonwealth-games-ridge-barredo-mafs-weightlifting/106979516"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/married-at-first-sight-star-s-games-date-falls-flat"
+        }
+      ],
+      "language": "ja"
+    },
     {
       "id": "glasgow-wind-hurdles",
       "headline": "グラスゴーの強風の中で豪州選手がメダル争いを続ける",
@@ -452,21 +472,6 @@
       "language": "ja"
     },
     {
-      "id": "social-media-racism-federal-hearing",
-      "headline": "ネット上の人種差別が連邦審議会で焦点に",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T06:25:22Z",
-      "voiceScript": "先住民のリーダーたちは、ネット上の人種差別的な攻撃が若者に害を与えていると連邦審議会で訴えました。オーストラリア王立総合診療医学会は人種差別を公衆衛生上の緊急事態と表現しています。論点は、オンラインの監視、メンタルヘルス、地域の安全をどう結びつけるかで、委員会はこの証言をもとに提言をまとめます。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/racist-social-media-comments-slammed-at-federal-gov-hearing/106977480"
-        }
-      ],
-      "language": "ja"
-    },
-    {
       "id": "victoria-bunnings-dog-attack",
       "headline": "ビクトリア州のBunningsで犬に噛まれ少女が入院",
       "sourceCount": 2,
@@ -481,6 +486,27 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/pets/dog-euthanised-after-attacking-young-girl-at-bunnings-in-regional-victoria/news-story/c4243eb42da4d087644dbc0adc4a047a"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "closing-gap-off-track",
+      "headline": "Closing the Gap の目標は依然として大きく遅れている",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T06:03:40.000Z",
+      "voiceScript": "オーストラリアでは、Closing the Gap の目標で現時点で達成できているのは一つだけで、先住民の就学前教育の登録率が唯一の全国的な達成項目となっている。新しい報告書は、いくつかの目標が改善していてもなお予定より遅れており、収監率、子どもの安全、一部の健康指標はむしろ悪化していると示した。2031年の期限はすでに折り返し点に達しており、政府には声明ではなく測定できる行動が求められる。次の焦点は、連邦と州が先住民主導の組織とともに、資金の付いた実行可能な対策へ移せるかどうかだ。",
+      "differences": [
+        "AAP は目標未達の切迫感と実行の必要性を前面に出し、Guardian のライブブログはこの更新をより大きな国内ニュースの流れの中に置いている。"
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/concerning-closing-the-gap-off-track-before-deadline"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
         }
       ],
       "language": "ja"
@@ -969,21 +995,6 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/kai-taylor-swimming-commonwealth-games-kyle-chalmers/106974426"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "closing-gap-off-track",
-      "headline": "オーストラリアのギャップ解消の進捗は依然として大幅に遅れている",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T21:59:16Z",
-      "voiceScript": "新しい報道によると、オーストラリアはギャップ解消目標を1つしか達成しておらず、一部のギャップは縮小するどころか拡大する可能性がある。最新のマイルストーンは歓迎しますが、全体像は変わりません。次の重要なポイントは、政府が目標を実績に結びつけることができるかどうかだ。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
         }
       ],
       "language": "ja"
@@ -1486,6 +1497,31 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/ato-tells-millions-of-australian-taxpayers-now-is-the-time-to-lodge-returns-c-22636284"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "hanson-racial-vilification-appeal",
+      "headline": "ハンソン氏、ファルーキ判決への控訴で敗訴",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T07:52:56.000Z",
+      "voiceScript": "エリザベス2世の死後に投稿されたツイートをめぐり、ポーリン・ハンソン氏がメフリーン・ファルーキ氏を人種的に侮辱したとする判断を連邦裁判所が維持した。ハンソン氏は高等裁判所への最終的な上訴を検討している一方、ファルーキ氏は、人種差別的発言にも法的な結果があることが示されたと受け止めている。この判断は、政治的攻撃と違法な人種侮辱の境界を改めて示した点で重要だ。次は、ハンソン氏が期限内にさらに上訴するかどうかが焦点となる。",
+      "differences": [
+        "SBS は結果を短く伝え、AAP は法的な意味をより詳しく説明し、Guardian はハンソン氏の政治的文脈まで含めている。"
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/racism-verdict-latest-danger-to-pauline-hanson-s-surge"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/pauline-hanson-fails-to-overturn-racial-vilification-ruling/69owgtjla"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb"
         }
       ],
       "language": "ja"

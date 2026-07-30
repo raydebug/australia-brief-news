@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T15:11:29.999Z",
+  "updatedAt": "2026-07-30T16:12:01.655Z",
   "generatedBy": "codex",
   "language": "th",
   "sources": [
@@ -101,11 +101,31 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
-    "The Australian and Sky News Australia still require fallback extraction for current coverage.",
-    "Darwin doctor, South Australia helium and Lismore flood-defence items were only available from one recent report during this run."
+    "news.com.au latest-news RSS still renders HTML, so current-item discovery used page and search-result fallback.",
+    "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "ridge-barredo-weightlifting-injury",
+      "headline": "ริดจ์ บาเรโดบอกว่าจะยกน้ำหนักต่อ แม้เจ็บหนักในเกมส์",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T14:25:39.000Z",
+      "voiceScript": "ริดจ์ บาเรโด นักยกน้ำหนักออสเตรเลียได้รับบาดเจ็บที่หัวเข่าหลังจากยกพลาดในกลาสโกว์ แต่เขาบอกว่าอุปสรรคครั้งนี้จะไม่ทำให้เส้นทางอาชีพของเขาจบลง เขากำลังไล่ผลงานในรุ่น 110 กิโลกรัมชาย ก่อนที่ท่าจะพลาดจนต้องออกจากเวทีด้วยไม้ค้ำ และตอนนี้ต้องรอผลสแกนดูความรุนแรงของอาการบาดเจ็บ เรื่องนี้สำคัญเพราะความพลาดเพียงครั้งเดียวอาจเปลี่ยนการล่าหรียญให้กลายเป็นแผนฟื้นตัวระยะยาว ขั้นต่อไปคือการประเมินทางการแพทย์และการพักฟื้น ขณะที่เขาเริ่มพูดถึงการกลับมาแล้ว",
+      "differences": [
+        "เอบีซีเน้นรายละเอียดอาการบาดเจ็บและแผนกลับมา ส่วนเอเอพีเน้นจังหวะยกที่พลาดและสิ่งที่เกิดขึ้นทันทีหลังจากนั้น"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/commonwealth-games-ridge-barredo-mafs-weightlifting/106979516"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/married-at-first-sight-star-s-games-date-falls-flat"
+        }
+      ],
+      "language": "th"
+    },
     {
       "id": "glasgow-wind-hurdles",
       "headline": "ลมแรงที่กลาสโกว์ยังไม่หยุดความหวังเหรียญของออสเตรเลีย",
@@ -452,21 +472,6 @@
       "language": "th"
     },
     {
-      "id": "social-media-racism-federal-hearing",
-      "headline": "การเหยียดเชื้อชาติออนไลน์ถูกหยิบในที่ประชุมสอบสวนของรัฐบาลกลาง",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T06:25:22Z",
-      "voiceScript": "ผู้นำชนพื้นเมืองบอกต่อที่ประชุมสอบสวนของรัฐบาลกลางว่าการด่าว่าเหยียดเชื้อชาติบนโลกออนไลน์กำลังทำร้ายคนรุ่นใหม่ ขณะที่ราชวิทยาลัยแพทย์ทั่วไปแห่งออสเตรเลียเรียกเรื่องนี้ว่าเป็นภาวะฉุกเฉินด้านสาธารณสุข ประเด็นนี้สำคัญเพราะเชื่อมโยงการกำกับเนื้อหา สุขภาพจิต และความปลอดภัยของชุมชน และคณะกรรมาธิการจะใช้หลักฐานนี้กำหนดข้อเสนอแนะต่อไป",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/racist-social-media-comments-slammed-at-federal-gov-hearing/106977480"
-        }
-      ],
-      "language": "th"
-    },
-    {
       "id": "victoria-bunnings-dog-attack",
       "headline": "เด็กหญิงเข้าโรงพยาบาลหลังถูกสุนัขกัดในบันนิงส์",
       "sourceCount": 2,
@@ -481,6 +486,27 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/pets/dog-euthanised-after-attacking-young-girl-at-bunnings-in-regional-victoria/news-story/c4243eb42da4d087644dbc0adc4a047a"
+        }
+      ],
+      "language": "th"
+    },
+    {
+      "id": "closing-gap-off-track",
+      "headline": "เป้าหมายการลดช่องว่างยังล้าหลังอย่างมาก",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T06:03:40.000Z",
+      "voiceScript": "ออสเตรเลียบรรลุเป้าหมายการลดช่องว่างได้เพียงหนึ่งข้อเท่านั้น โดยอัตราเด็กชนพื้นเมืองเข้าเรียนก่อนวัยเป็นหมุดหมายระดับชาติที่ทำได้แล้วเพียงข้อเดียว รายงานฉบับใหม่ระบุว่าหลายเป้าหมายมีความคืบหน้าแต่ยังไม่ทันกำหนด ขณะที่อัตราการจำคุก ความปลอดภัยของเด็ก และผลลัพธ์ด้านสุขภาพบางส่วนกลับแย่ลง เรื่องนี้สำคัญเพราะเส้นตายปี 2031 ผ่านไปแล้วครึ่งทาง และรัฐบาลต้องแสดงผลงานที่วัดผลได้ ไม่ใช่แค่ถ้อยแถลง ขั้นต่อไปคือดูว่ารัฐบาลกลางและรัฐบาลรัฐจะเปลี่ยนรายงานนี้เป็นการลงมือจริงที่มีงบประมาณและให้ชุมชนชนพื้นเมืองเป็นผู้นำได้หรือไม่",
+      "differences": [
+        "เอเอพีเน้นความเร่งด่วนของเป้าหมายที่พลาดและความจำเป็นของการลงมือจริง ส่วนการ์เดียนไลฟ์บล็อกวางการอัปเดตนี้ไว้ในภาพข่าวระดับประเทศที่กว้างกว่า"
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/concerning-closing-the-gap-off-track-before-deadline"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
         }
       ],
       "language": "th"
@@ -969,21 +995,6 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/kai-taylor-swimming-commonwealth-games-kyle-chalmers/106974426"
-        }
-      ],
-      "language": "th"
-    },
-    {
-      "id": "closing-gap-off-track",
-      "headline": "ความคืบหน้าการปิดช่องว่างของออสเตรเลียยังคงไม่เป็นไปตามแผน",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T21:59:16Z",
-      "voiceScript": "การรายงานใหม่ระบุว่าออสเตรเลียบรรลุเป้าหมายการปิดช่องว่างเพียงเป้าหมายเดียว และช่องว่างบางส่วนอาจกว้างขึ้นแทนที่จะแคบลง เรายินดีต้อนรับเหตุการณ์สำคัญครั้งล่าสุด แต่ก็ไม่ได้เปลี่ยนภาพที่ใหญ่ขึ้น ประเด็นกดดันต่อไปคือรัฐบาลสามารถเปลี่ยนเป้าหมายให้กลายเป็นผลลัพธ์ที่แท้จริงได้หรือไม่",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
         }
       ],
       "language": "th"
@@ -1486,6 +1497,31 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/ato-tells-millions-of-australian-taxpayers-now-is-the-time-to-lodge-returns-c-22636284"
+        }
+      ],
+      "language": "th"
+    },
+    {
+      "id": "hanson-racial-vilification-appeal",
+      "headline": "แฮนสันแพ้อุทธรณ์คดีเหยียดเชื้อชาติของฟารูกี",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T07:52:56.000Z",
+      "voiceScript": "ศาลรัฐบาลกลางยืนตามคำตัดสินเดิมว่า พอลีน แฮนสัน ใช้ถ้อยคำเหยียดเชื้อชาติต่อ เมห์รีน ฟารูกี ผ่านทวีตหลังการสวรรคตของควีนเอลิซาเบธที่ 2 ตอนนี้แฮนสันกำลังพิจารณาจะยื่นเรื่องต่อศาลสูงสุดหรือไม่ ขณะที่ฟารูกีมองว่าคดีนี้ย้ำชัดว่าคำพูดเหยียดเชื้อชาติมีผลทางกฎหมาย เรื่องนี้สำคัญเพราะยืนยันเส้นแบ่งระหว่างการโจมตีทางการเมืองกับการดูหมิ่นทางเชื้อชาติที่ผิดกฎหมาย ขั้นต่อไปคือดูว่าแฮนสันจะอุทธรณ์ต่อภายในกำหนดหรือไม่",
+      "differences": [
+        "เอสบีเอสรายงานผลคดีแบบสั้น ๆ ส่วนเอเอพีอธิบายผลทางกฎหมายละเอียดกว่า และการ์เดียนวางคดีนี้ไว้ในบริบทการเมืองที่กว้างขึ้นของแฮนสัน"
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/racism-verdict-latest-danger-to-pauline-hanson-s-surge"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/pauline-hanson-fails-to-overturn-racial-vilification-ruling/69owgtjla"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb"
         }
       ],
       "language": "th"

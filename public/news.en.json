@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T15:11:29.999Z",
+  "updatedAt": "2026-07-30T16:12:01.655Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -101,11 +101,31 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
-    "The Australian and Sky News Australia still require fallback extraction for current coverage.",
-    "Darwin doctor, South Australia helium and Lismore flood-defence items were only available from one recent report during this run."
+    "news.com.au latest-news RSS still renders HTML, so current-item discovery used page and search-result fallback.",
+    "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "ridge-barredo-weightlifting-injury",
+      "headline": "Ridge Barredo vows to keep lifting after a nasty Games injury",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T14:25:39.000Z",
+      "voiceScript": "Australian weightlifter Ridge Barredo has suffered a knee injury after a failed lift in Glasgow, but he says the setback will not end his career. He was chasing a strong finish in the men's 110-kilogram class when the attempt went wrong and left him on crutches, with scans now due to check the damage. The story matters because one bad lift can turn a medal run into a rehab plan. The next step is medical assessment and recovery, while Barredo is already talking about coming back.",
+      "differences": [
+        "ABC focuses more on Barredo's injury detail and his plans to return, while AAP stresses the dramatic failed lift and the immediate aftermath."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/commonwealth-games-ridge-barredo-mafs-weightlifting/106979516"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/married-at-first-sight-star-s-games-date-falls-flat"
+        }
+      ],
+      "language": "en"
+    },
     {
       "id": "glasgow-wind-hurdles",
       "headline": "Australian athletes battle Glasgow wind as medals draw near",
@@ -452,21 +472,6 @@
       "language": "en"
     },
     {
-      "id": "social-media-racism-federal-hearing",
-      "headline": "Online racism is pushed before a federal inquiry",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T06:25:22Z",
-      "voiceScript": "First Nations leaders have told a federal hearing that racist abuse online is damaging young people, while the Royal Australian College of General Practitioners has described racism as a public health emergency. The issue matters because it connects online moderation, mental health and community safety, and the committee will use the evidence to shape its recommendations.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/racist-social-media-comments-slammed-at-federal-gov-hearing/106977480"
-        }
-      ],
-      "language": "en"
-    },
-    {
       "id": "victoria-bunnings-dog-attack",
       "headline": "Regional Victoria dog attack sends child to hospital",
       "sourceCount": 2,
@@ -481,6 +486,27 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/pets/dog-euthanised-after-attacking-young-girl-at-bunnings-in-regional-victoria/news-story/c4243eb42da4d087644dbc0adc4a047a"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "closing-gap-off-track",
+      "headline": "Closing the Gap targets are still badly off pace",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T06:03:40.000Z",
+      "voiceScript": "Australia has reached only one Closing the Gap target so far, with First Nations pre-school enrolment the lone national milestone already met. The new report says several other targets are improving but still off track, while incarceration, child safety and some health outcomes are moving the wrong way. That matters because the 2031 deadline is already halfway gone and governments still have to show real progress, not just new statements. The next step is whether federal and state governments turn the report into funded, measurable action with Aboriginal-led organisations.",
+      "differences": [
+        "AAP foregrounds the urgency of the missed targets and the call for practical action, while the Guardian live blog places the update inside a wider national news roundup."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/concerning-closing-the-gap-off-track-before-deadline"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
         }
       ],
       "language": "en"
@@ -966,20 +992,6 @@
       ]
     },
     {
-      "id": "closing-gap-off-track",
-      "headline": "Australia's Closing the Gap progress is still badly off pace",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T21:59:16Z",
-      "voiceScript": "New reporting says Australia has met only one Closing the Gap target and that some gaps may widen instead of narrow. The latest milestone is welcome, but it does not change the bigger picture. The next pressure point is whether governments can turn targets into actual results.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
-        }
-      ]
-    },
-    {
       "id": "prisoner-detained-release-date",
       "headline": "South Australian custody checks failed to free a prisoner on time",
       "sourceCount": 1,
@@ -1454,6 +1466,31 @@
           "url": "https://7news.com.au/news/ato-tells-millions-of-australian-taxpayers-now-is-the-time-to-lodge-returns-c-22636284"
         }
       ]
+    },
+    {
+      "id": "hanson-racial-vilification-appeal",
+      "headline": "Hanson loses appeal over the Faruqi racism ruling",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T07:52:56.000Z",
+      "voiceScript": "The Federal Court has upheld a ruling that Pauline Hanson racially vilified Mehreen Faruqi over a tweet sent after Queen Elizabeth II died. Hanson is now weighing a final High Court challenge, while Faruqi says the case matters because racist speech still has legal consequences. The decision is important because it reinforces the boundary between political attack and unlawful racial abuse. The next step is whether Hanson files another appeal within the deadline.",
+      "differences": [
+        "SBS turns it into a short bulletin on the appeal result, AAP explains the legal impact in more detail, and the Guardian places the ruling in Hanson's wider political context."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/racism-verdict-latest-danger-to-pauline-hanson-s-surge"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/pauline-hanson-fails-to-overturn-racial-vilification-ruling/69owgtjla"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb"
+        }
+      ],
+      "language": "en"
     }
   ]
 }

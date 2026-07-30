@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T15:11:29.999Z",
+  "updatedAt": "2026-07-30T16:12:01.655Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -101,11 +101,31 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
-    "The Australian and Sky News Australia still require fallback extraction for current coverage.",
-    "Darwin doctor, South Australia helium and Lismore flood-defence items were only available from one recent report during this run."
+    "news.com.au latest-news RSS still renders HTML, so current-item discovery used page and search-result fallback.",
+    "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "ridge-barredo-weightlifting-injury",
+      "headline": "리지 바레도는 부상 뒤에도 역도를 계속하겠다고 밝혔다",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T14:25:39.000Z",
+      "voiceScript": "호주 역도 선수 리지 바레도는 글래스고에서 시도한 리프트가 실패한 뒤 무릎을 다쳤지만, 이번 일이 자신의 선수 경력을 끝내지는 않을 것이라고 말한다. 그는 남자 110킬로급에서 좋은 성적을 노리던 중 동작에 실패해 목발에 의지해 물러났고, 이제 스캔으로 부상 정도를 확인해야 한다. 한 번의 실패가 메달 도전을 재활 계획으로 바꿀 수 있다는 점에서 이 소식은 중요하다. 다음 단계는 의료 진단과 회복이며, 바레도는 이미 복귀를 말하고 있다.",
+      "differences": [
+        "에이비씨는 부상의 세부 내용과 복귀 계획을 더 강조하고, 에이이에이피는 실패한 리프트와 직후 상황을 더 부각한다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/commonwealth-games-ridge-barredo-mafs-weightlifting/106979516"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/married-at-first-sight-star-s-games-date-falls-flat"
+        }
+      ],
+      "language": "ko"
+    },
     {
       "id": "glasgow-wind-hurdles",
       "headline": "글래스고의 강풍 속에서도 호주 선수들은 메달 경쟁을 이어간다",
@@ -452,21 +472,6 @@
       "language": "ko"
     },
     {
-      "id": "social-media-racism-federal-hearing",
-      "headline": "온라인 인종차별, 연방 청문회 쟁점으로",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T06:25:22Z",
-      "voiceScript": "원주민 지도자들은 연방 청문회에서 온라인상의 인종차별적 공격이 젊은 세대에 해를 주고 있다고 말했습니다. 호주 왕립 일반의학회는 인종차별을 공중보건 비상사태라고 규정했습니다. 이 사안은 온라인 콘텐츠 관리와 정신건강, 지역사회의 안전을 잇는 문제이며, 위원회는 이 증언을 바탕으로 권고안을 마련하게 됩니다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/racist-social-media-comments-slammed-at-federal-gov-hearing/106977480"
-        }
-      ],
-      "language": "ko"
-    },
-    {
       "id": "victoria-bunnings-dog-attack",
       "headline": "빅토리아주 Bunnings 개 물림 사고로 소녀 병원행",
       "sourceCount": 2,
@@ -481,6 +486,27 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/pets/dog-euthanised-after-attacking-young-girl-at-bunnings-in-regional-victoria/news-story/c4243eb42da4d087644dbc0adc4a047a"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "closing-gap-off-track",
+      "headline": "격차 해소 목표는 여전히 크게 뒤처져 있다",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T06:03:40.000Z",
+      "voiceScript": "호주에서는 격차 해소 목표 가운데 지금까지 달성된 것은 단 하나뿐이며, 원주민 아동의 유치원 등록률만이 전국적으로 이미 달성된 지표다. 새 보고서는 몇몇 목표가 개선되고는 있지만 여전히 일정에 뒤처져 있고, 수감률과 아동 안전, 일부 건강 지표는 오히려 나빠지고 있다고 지적한다. 이 문제가 중요한 이유는 2031년 시한이 이미 절반을 넘었기 때문이다. 다음 단계는 연방과 주 정부가 원주민 주도 단체와 함께 예산이 붙은 실질적 행동으로 옮길 수 있느냐이다.",
+      "differences": [
+        "에이이에이피는 미달 목표의 긴급성과 실질적 행동 필요성을 강조하고, 가디언 라이브 블로그는 이 소식을 더 큰 전국 뉴스 흐름 속에 넣어 다룬다."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/concerning-closing-the-gap-off-track-before-deadline"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
         }
       ],
       "language": "ko"
@@ -969,21 +995,6 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/kai-taylor-swimming-commonwealth-games-kyle-chalmers/106974426"
-        }
-      ],
-      "language": "ko"
-    },
-    {
-      "id": "closing-gap-off-track",
-      "headline": "호주의 격차 해소 진행 속도는 여전히 심각하지 않습니다.",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T21:59:16Z",
-      "voiceScript": "새로운 보고에 따르면 호주는 단 하나의 격차 해소 목표를 달성했으며 일부 격차는 좁아지기보다는 넓어질 수 있습니다. 최신 이정표는 환영하지만 더 큰 그림을 바꾸지는 않습니다. 다음 압력 포인트는 정부가 목표를 실제 결과로 전환할 수 있는지 여부입니다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
         }
       ],
       "language": "ko"
@@ -1486,6 +1497,31 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/ato-tells-millions-of-australian-taxpayers-now-is-the-time-to-lodge-returns-c-22636284"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "hanson-racial-vilification-appeal",
+      "headline": "한슨의 파루키 인종차별 판결 항소가 기각됐다",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T07:52:56.000Z",
+      "voiceScript": "엘리자베스 2세 서거 뒤 올린 트윗과 관련해 폴린 한슨이 메흐린 파루키에게 인종적 모욕을 했다는 판결을 연방 법원이 유지했다. 한슨은 최종적으로 고등법원에 다시 다투는 방안을 검토 중이고, 파루키는 인종차별적 발언에도 법적 책임이 따른다는 점이 확인됐다고 본다. 이 결정은 정치적 공격과 불법적 인종 모욕 사이의 경계를 다시 분명히 했다는 점에서 중요하다. 다음 단계는 한슨이 기한 안에 추가 항소를 제기하느냐이다.",
+      "differences": [
+        "에스비에스는 결과를 짧게 전하고, 에이이에이피는 법적 의미를 더 자세히 설명하며, 가디언은 한슨의 더 넓은 정치적 맥락을 함께 다룬다."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/racism-verdict-latest-danger-to-pauline-hanson-s-surge"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/pauline-hanson-fails-to-overturn-racial-vilification-ruling/69owgtjla"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb"
         }
       ],
       "language": "ko"

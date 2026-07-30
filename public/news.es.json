@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T15:13:29.366Z",
+  "updatedAt": "2026-07-30T16:15:10.966Z",
   "generatedBy": "codex",
   "language": "es",
   "sources": [
@@ -101,11 +101,31 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
-    "The Australian and Sky News Australia still require fallback extraction for current coverage.",
-    "Darwin doctor, South Australia helium and Lismore flood-defence items were only available from one recent report during this run."
+    "news.com.au latest-news RSS still renders HTML, so current-item discovery used page and search-result fallback.",
+    "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "ridge-barredo-weightlifting-injury",
+      "headline": "Ridge Barredo promete seguir levantando pesas tras una dura lesión en los Juegos",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T14:25:39.000Z",
+      "voiceScript": "El levantador australiano Ridge Barredo sufrió una lesión de rodilla tras fallar un intento en Glasgow, pero dice que el tropiezo no pondrá fin a su carrera. Competía en la categoría masculina de 110 kilos cuando el movimiento salió mal y terminó en muletas, a la espera de estudios para medir el daño. La historia importa porque un solo fallo puede convertir una aspiración de medalla en un plan de rehabilitación. El siguiente paso es la evaluación médica y la recuperación, mientras Barredo ya habla de volver.",
+      "differences": [
+        "ABC enfatiza más el detalle de la lesión y sus planes de regreso, mientras AAP subraya el intento fallido y lo ocurrido de inmediato."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/commonwealth-games-ridge-barredo-mafs-weightlifting/106979516"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/married-at-first-sight-star-s-games-date-falls-flat"
+        }
+      ],
+      "language": "es"
+    },
     {
       "id": "glasgow-wind-hurdles",
       "language": "es",
@@ -452,21 +472,6 @@
       "language": "es"
     },
     {
-      "id": "social-media-racism-federal-hearing",
-      "headline": "La desinformación racista en redes llega a una audiencia federal",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T06:25:22Z",
-      "voiceScript": "Líderes de las Primeras Naciones dijeron a una audiencia federal que los abusos racistas en línea están dañando a los jóvenes, mientras el Royal Australian College of General Practitioners describió el racismo como una emergencia de salud pública. El tema importa porque conecta moderación de contenidos, salud mental y seguridad comunitaria, y el comité usará esas pruebas para sus recomendaciones.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/racist-social-media-comments-slammed-at-federal-gov-hearing/106977480"
-        }
-      ],
-      "language": "es"
-    },
-    {
       "id": "victoria-bunnings-dog-attack",
       "headline": "Ataque de perro en Victoria rural envía a una niña al hospital",
       "sourceCount": 2,
@@ -481,6 +486,27 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/pets/dog-euthanised-after-attacking-young-girl-at-bunnings-in-regional-victoria/news-story/c4243eb42da4d087644dbc0adc4a047a"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "closing-gap-off-track",
+      "headline": "Las metas de Closing the Gap siguen muy atrasadas",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T06:03:40.000Z",
+      "voiceScript": "Australia solo ha alcanzado una de las metas de Closing the Gap, y la inscripción preescolar de niños de las Primeras Naciones es el único hito nacional ya cumplido. El nuevo informe dice que varias metas mejoran pero siguen fuera de ritmo, mientras que el encarcelamiento, la seguridad infantil y algunos resultados de salud empeoran. Esto importa porque el plazo de 2031 ya va por la mitad y los gobiernos todavía deben mostrar avances reales, no solo declaraciones. El siguiente paso es ver si los gobiernos federal y estatales convierten el informe en acciones financiadas y medibles con liderazgo de organizaciones aborígenes.",
+      "differences": [
+        "AAP subraya la urgencia de las metas incumplidas y la necesidad de medidas concretas, mientras que el blog en vivo de The Guardian sitúa la actualización dentro de una cobertura nacional más amplia."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/concerning-closing-the-gap-off-track-before-deadline"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
         }
       ],
       "language": "es"
@@ -977,21 +1003,6 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/kai-taylor-swimming-commonwealth-games-kyle-chalmers/106974426"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "closing-gap-off-track",
-      "headline": "El progreso de Australia en el programa Closing the Gap todavía está muy retrasado",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T21:59:16Z",
-      "voiceScript": "Un nuevo informe dice que Australia ha cumplido sólo un objetivo de Cerrar la Brecha y que algunas brechas pueden ampliarse en lugar de reducirse. El último hito es bienvenido, pero no cambia el panorama general. El siguiente punto de presión es si los gobiernos pueden convertir las metas en resultados reales.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
         }
       ],
       "language": "es"
@@ -1494,6 +1505,31 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/ato-tells-millions-of-australian-taxpayers-now-is-the-time-to-lodge-returns-c-22636284"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "hanson-racial-vilification-appeal",
+      "headline": "Hanson pierde la apelación por el fallo de racismo contra Faruqi",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T07:52:56.000Z",
+      "voiceScript": "El Tribunal Federal mantuvo el fallo que concluyó que Pauline Hanson incurrió en una conducta racista contra Mehreen Faruqi por un tuit enviado tras la muerte de la reina Isabel II. Hanson estudia ahora un último recurso ante el Tribunal Superior, mientras Faruqi sostiene que el caso demuestra que el discurso racista sigue teniendo consecuencias legales. La decisión importa porque vuelve a marcar el límite entre el ataque político y el abuso racial ilegal. El siguiente paso es saber si Hanson presenta otra apelación dentro del plazo.",
+      "differences": [
+        "SBS lo presenta como una breve actualización sobre el resultado de la apelación, AAP explica con más detalle el impacto legal y The Guardian lo sitúa en el contexto político más amplio de Hanson."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/racism-verdict-latest-danger-to-pauline-hanson-s-surge"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/pauline-hanson-fails-to-overturn-racial-vilification-ruling/69owgtjla"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb"
         }
       ],
       "language": "es"

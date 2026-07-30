@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T15:11:29.999Z",
+  "updatedAt": "2026-07-30T16:12:01.655Z",
   "generatedBy": "codex",
   "language": "si",
   "sources": [
@@ -101,11 +101,31 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
-    "The Australian and Sky News Australia still require fallback extraction for current coverage.",
-    "Darwin doctor, South Australia helium and Lismore flood-defence items were only available from one recent report during this run."
+    "news.com.au latest-news RSS still renders HTML, so current-item discovery used page and search-result fallback.",
+    "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "ridge-barredo-weightlifting-injury",
+      "headline": "රීජ් බාරෙඩෝ තුවාලයෙන් පසුවත් බර ඉසිලීම නතර නොකරන බව කියයි",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T14:25:39.000Z",
+      "voiceScript": "ඔස්ට්‍රේලියානු බර ඉසිලීමේ ක්‍රීඩක රීජ් බාරෙඩෝ ග්ලාස්ගෝහිදී උත්සාහ කළ ඉසිල්ලක් අසාර්ථක වීමෙන් පසු දණහිසට තුවාල ලබා තිබුණත්, මේ අත්දැකීම ඔහුගේ ක්‍රීඩා ජීවිතය අවසන් කරන්නේ නැති බව කියයි. ඔහු පිරිමි කිලෝග්‍රෑම් 110 තරගයේදී හොඳ ප්‍රතිඵලයක් සොයමින් සිටි අතර, උත්සාහය වැරදී ගිය පසු කූරු ආධාරයෙන් පිටව යාමට සිදු විය. එකම අසාර්ථක උත්සාහයක්ම පදක්කම් හඹා යන ගමනක් දිගු සුවවීමේ කාලයක් බවට පත් කළ හැකි නිසා මෙය වැදගත්ය. ඉදිරි පියවර වන්නේ වෛද්‍ය පරීක්ෂණ සහ සුවවීමයි; බාරෙඩෝ දැනටමත් නැවත පැමිණීම ගැන කතා කරමින් සිටී.",
+      "differences": [
+        "ඒබීසී වඩාත් ඉස්මතු කරන්නේ තුවාලයේ විස්තර සහ නැවත පැමිණීමේ සැලැස්මයි; ඒඒපී වඩාත් ඉස්මතු කරන්නේ අසාර්ථක උත්සාහය සහ එතැනින් පසු සිදුවූ දේය."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/commonwealth-games-ridge-barredo-mafs-weightlifting/106979516"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/married-at-first-sight-star-s-games-date-falls-flat"
+        }
+      ],
+      "language": "si"
+    },
     {
       "id": "glasgow-wind-hurdles",
       "headline": "ග්ලාස්ගෝවේ තද සුළඟ අතර ඔස්ට්‍රේලියානු ක්‍රීඩකයෝ පදක්කම් සටන දිගටම ගෙන යති",
@@ -452,21 +472,6 @@
       "language": "si"
     },
     {
-      "id": "social-media-racism-federal-hearing",
-      "headline": "සමාජ මාධ්‍ය වර්ගවාදය ෆෙඩරල් විභාගයට ගෙනෙයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T06:25:22Z",
-      "voiceScript": "මුල් ජනජාති නායකයෝ ෆෙඩරල් විභාගයකදී අන්තර්ජාලයේ වර්ගවාදී අපහාස තරුණයන්ට හානි කරන බව කියා ඇත. ඕස්ට්‍රේලියානු සාමාන්‍ය වෛද්‍යවරුන්ගේ රාජකීය සංගමය වර්ගවාදය මහජන සෞඛ්‍ය හදිසි තත්ත්වයක් ලෙස විස්තර කර තිබේ. මෙය වැදගත් වන්නේ අන්තර්ගත පාලනය, මානසික සෞඛ්‍ය සහ ප්‍රජා ආරක්ෂාව එකට බැඳෙන නිසාය; කමිටුව මේ සාක්ෂි මත නිර්දේශ සකස් කරයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/racist-social-media-comments-slammed-at-federal-gov-hearing/106977480"
-        }
-      ],
-      "language": "si"
-    },
-    {
       "id": "victoria-bunnings-dog-attack",
       "headline": "වික්ටෝරියාහි බනින්ග්ස් සිද්ධියකින් දැරිය රෝහලට",
       "sourceCount": 2,
@@ -481,6 +486,27 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/pets/dog-euthanised-after-attacking-young-girl-at-bunnings-in-regional-victoria/news-story/c4243eb42da4d087644dbc0adc4a047a"
+        }
+      ],
+      "language": "si"
+    },
+    {
+      "id": "closing-gap-off-track",
+      "headline": "ක්ලෝසින් ද ගැප් ඉලක්ක තවමත් බරපතළ ලෙස පසුබැසී ඇත",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T06:03:40.000Z",
+      "voiceScript": "ඔස්ට්‍රේලියාව ක්ලෝසින් ද ගැප් ඉලක්කවලින් මෙතෙක් ලබාගෙන ඇත්තේ එකක් පමණක් වන අතර, පළමු ජාතීන්ගේ පෙර පාසල් ඇතුළත් වීම පමණයි රටපුරා දැනටමත් ඉටු වූ ඉලක්කය. නව වාර්තාවෙන් පෙනෙන්නේ තවත් කිහිපයක් ඉදිරියට ගොස් ඇති නමුත් තවමත් කාලසීමාවට අනුකූල නොවන බවත්, සිරගත වීම, ළමා ආරක්ෂාව සහ සමහර සෞඛ්‍ය ප්‍රතිඵල පසුබැසෙමින් පවතින බවත්ය. 2031 අවසන් දිනයේ අඩක්ම ගෙවී ගොස් ඇති බැවින් මෙය වැදගත්ය. ඊළඟ පියවර වන්නේ ෆෙඩරල් සහ ප්‍රාන්ත ආණ්ඩු මෙම වාර්තාව මුදල් යොදන ලද, ප්‍රායෝගික ක්‍රියාමාර්ග බවට පත් කරන්නේද යන්නයි.",
+      "differences": [
+        "ඒඒපී මගින් ඉලක්ක අහිමි වීමේ හදිසිභාවය සහ ප්‍රායෝගික ක්‍රියාමාර්ග අවශ්‍යතාවය ඉස්මතු කරයි; ගාඩියන් ලයිව් බ්ලොග් එක මෙය පුළුල් ජාතික පුවත් සංග්‍රහයක කොටසක් ලෙස තබයි."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/concerning-closing-the-gap-off-track-before-deadline"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
         }
       ],
       "language": "si"
@@ -969,21 +995,6 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/kai-taylor-swimming-commonwealth-games-kyle-chalmers/106974426"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "closing-gap-off-track",
-      "headline": "ඔස්ට්‍රේලියාවේ ක්ලෝස් ද ගැප් ප්‍රගතිය තවමත් දුර්වල මට්ටමක පවතී",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T21:59:16Z",
-      "voiceScript": "නව වාර්තාකරණය පවසන්නේ ඕස්ට්‍රේලියාව සපුරා ඇත්තේ එක් පරතරයක් වසා දැමීමේ ඉලක්කයක් පමණක් බවත් සමහර හිඩැස් පටු වීම වෙනුවට පුළුල් විය හැකි බවත්ය. නවතම සන්ධිස්ථානය සාදරයෙන් පිළිගනිමු, නමුත් එය විශාල පින්තූරය වෙනස් නොකරයි. ඊළඟ පීඩන ලක්ෂ්‍යය වන්නේ ඉලක්ක සැබෑ ප්‍රතිඵල බවට පත් කිරීමට ආණ්ඩුවලට හැකිද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
         }
       ],
       "language": "si"
@@ -1486,6 +1497,31 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/ato-tells-millions-of-australian-taxpayers-now-is-the-time-to-lodge-returns-c-22636284"
+        }
+      ],
+      "language": "si"
+    },
+    {
+      "id": "hanson-racial-vilification-appeal",
+      "headline": "හැන්සන්ගේ ෆරුකි වර්ගවාදී තීන්දුවට කළ අභියාචනය අසාර්ථකයි",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T07:52:56.000Z",
+      "voiceScript": "එලිසබෙත් දෙවන රැජිනගේ මරණයෙන් පසු එවූ ට්වීට් එකක් සම්බන්ධයෙන් පෝලීන් හැන්සන් මෙහ්රීන් ෆරුකිට වර්ගවාදී අපහාසයක් කළ බවට තිබූ තීන්දුව ෆෙඩරල් අධිකරණය තහවුරු කර තිබේ. හැන්සන් දැන් අවසන් වරටත් උසස් අධිකරණයට අභියාචනයක් ඉදිරිපත් කරන්නේදැයි සලකා බලන අතර, වර්ගවාදී කතා වලට නීතිමය ප්‍රතිඵල තිබෙන බව මේ නඩුවෙන් නැවතත් පෙන්වා දී ඇතැයි ෆරුකි කියයි. මෙය වැදගත් වන්නේ දේශපාලන ප්‍රහාරය සහ නීතිවිරෝධී වර්ගවාදී අපහාසය අතර සීමාව නැවත තහවුරු කරන නිසාය. ඊළඟ පියවර හැන්සන් තවත් අභියාචනයක් දාන්නේද යන්නයි.",
+      "differences": [
+        "එස්බීඑස් මෙය අභියාචන ප්‍රතිඵලය පිළිබඳ කෙටි වාර්තාවක් ලෙස දක්වයි, ඒඒපී නීතිමය බලපෑම වැඩි විස්තරයෙන් පැහැදිලි කරයි, ගාඩියන් තීන්දුව හැන්සන්ගේ විශාල දේශපාලන පසුබිම තුළ තබයි."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/racism-verdict-latest-danger-to-pauline-hanson-s-surge"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/pauline-hanson-fails-to-overturn-racial-vilification-ruling/69owgtjla"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb"
         }
       ],
       "language": "si"

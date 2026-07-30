@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T15:11:29.999Z",
+  "updatedAt": "2026-07-30T16:12:01.655Z",
   "generatedBy": "codex",
   "language": "zh-Hant",
   "sources": [
@@ -101,11 +101,31 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
-    "The Australian and Sky News Australia still require fallback extraction for current coverage.",
-    "Darwin doctor, South Australia helium and Lismore flood-defence items were only available from one recent report during this run."
+    "news.com.au latest-news RSS still renders HTML, so current-item discovery used page and search-result fallback.",
+    "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "ridge-barredo-weightlifting-injury",
+      "headline": "Ridge Barredo 受傷後仍表示要繼續舉重",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T14:25:39.000Z",
+      "voiceScript": "澳洲舉重選手 Ridge Barredo 在格拉斯哥一次試舉失敗後傷到膝蓋，但他表示這次挫折不會結束自己的職業生涯。他原本在男子 110 公斤級衝擊好成績，結果動作失手，只能拄著拐離場，接下來要靠掃描檢查傷勢。重要之處在於，一次失手就可能把爭牌機會變成漫長復健。下一步先看醫療評估與恢復情況，而他已經開始談回歸。",
+      "differences": [
+        "ABC 更突出傷情細節和回歸計畫，AAP 則更強調失手瞬間和賽後反應。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/commonwealth-games-ridge-barredo-mafs-weightlifting/106979516"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/married-at-first-sight-star-s-games-date-falls-flat"
+        }
+      ],
+      "language": "zh-Hant"
+    },
     {
       "id": "glasgow-wind-hurdles",
       "headline": "澳洲選手在格拉斯哥強風中持續衝擊獎牌",
@@ -452,21 +472,6 @@
       "language": "zh-Hant"
     },
     {
-      "id": "social-media-racism-federal-hearing",
-      "headline": "網路種族主義被帶上聯邦聽證會",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T06:25:22Z",
-      "voiceScript": "第一民族領袖在聯邦聽證會上表示，網路上的種族主義辱罵正在傷害年輕人，而澳洲皇家全科醫生學會則把種族主義稱為公共衛生緊急狀況。此事重要在於，它把網路內容管理、心理健康和社區安全連結起來，委員會接下來會根據這些證據提出建議。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/racist-social-media-comments-slammed-at-federal-gov-hearing/106977480"
-        }
-      ],
-      "language": "zh-Hant"
-    },
-    {
       "id": "victoria-bunnings-dog-attack",
       "headline": "維州地區 Bunnings 狗咬傷女孩送醫",
       "sourceCount": 2,
@@ -481,6 +486,27 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/lifestyle/pets/dog-euthanised-after-attacking-young-girl-at-bunnings-in-regional-victoria/news-story/c4243eb42da4d087644dbc0adc4a047a"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "closing-gap-off-track",
+      "headline": "縮小差距目標仍然明顯落後",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T06:03:40.000Z",
+      "voiceScript": "最新《Closing the Gap》報告顯示，澳洲目前只實現了一個全國目標，第一民族兒童學前入學率是唯一已經達標的指標。其餘不少目標雖然有進展，但仍未趕上進度，監禁率、兒童安全和部分健康結果甚至在倒退。重要之處在於，2031 年期限已經走到一半，政府需要拿出可衡量的行動，而不只是再發聲明。下一步要看聯邦和各州是否會把報告轉成有資金支持、由原住民主導的實際項目。",
+      "differences": [
+        "AAP 更強調目標落後的緊迫性和務實行動需求，Guardian 直播稿則把這一更新放在更大的全國新聞串裡。"
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/concerning-closing-the-gap-off-track-before-deadline"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
         }
       ],
       "language": "zh-Hant"
@@ -969,21 +995,6 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/kai-taylor-swimming-commonwealth-games-kyle-chalmers/106974426"
-        }
-      ],
-      "language": "zh-Hant"
-    },
-    {
-      "id": "closing-gap-off-track",
-      "headline": "澳洲縮小差距的進展仍然嚴重落後",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T21:59:16Z",
-      "voiceScript": "新報告稱，澳洲僅實現了一項「縮小差距」目標，並且一些差距可能會擴大而不是縮小。最新的里程碑值得歡迎，但它不會改變更大的圖像。下一個壓力點是政府能否將目標轉化為實際成果。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
         }
       ],
       "language": "zh-Hant"
@@ -1486,6 +1497,31 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/ato-tells-millions-of-australian-taxpayers-now-is-the-time-to-lodge-returns-c-22636284"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "hanson-racial-vilification-appeal",
+      "headline": "漢森就 Faruqi 種族歧視裁定上訴失敗",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-27T07:52:56.000Z",
+      "voiceScript": "聯邦法院維持了先前裁定，認定 Pauline Hanson 因一則在伊麗莎白二世去世後發出的推文對 Mehreen Faruqi 構成種族歧視。漢森現在考慮是否再向高等法院上訴，而 Faruqi 認為這起案件的意義在於，種族歧視言論仍會帶來法律後果。這個裁定重要，因為它再次劃清了政治攻擊與違法種族辱罵之間的界線。下一步要看漢森是否在期限內繼續上訴。",
+      "differences": [
+        "SBS 把它處理成一則簡短的結果播報，AAP 更詳細解釋了法律影響，Guardian 則把裁定放進漢森更大的政治背景裡。"
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/racism-verdict-latest-danger-to-pauline-hanson-s-surge"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/pauline-hanson-fails-to-overturn-racial-vilification-ruling/69owgtjla"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb"
         }
       ],
       "language": "zh-Hant"
