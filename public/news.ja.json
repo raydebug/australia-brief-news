@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T06:11:54Z",
+  "updatedAt": "2026-07-30T07:13:48.526Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -101,11 +101,90 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and the news.com.au latest-news RSS is still HTML, so fallback extraction was needed.",
-    "AAP article pages were usable for matching coverage this run, but some recent pages still needed search-result fallback to resolve the canonical URL.",
-    "A handful of fresh Australia stories remain single-source because no second recent Australia-focused report was available at collection time."
+    "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
+    "The Australian and Sky News Australia still require fallback extraction for current coverage.",
+    "A few fresh Australia stories remain single-source because no second recent report was available at collection time."
   ],
   "clusters": [
+    {
+      "id": "yindjibarndi-fortescue-appeal",
+      "headline": "ヤインジバルンディがフォーテスキューとの争いを継続",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:58:16Z",
+      "voiceScript": "ヤインジバルンディの伝統的所有者たちは、土地と文化的損失をめぐって裁判所が巨額の補償を命じたあと、フォーテスキューとの法廷闘争を続ける方針を決めました。この争いは、ピルバラでの採掘権と伝統的所有者の権利を今後どう扱うかに影響するため重要で、次は控訴手続きに移ります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/yindjibarndi-appeal-fortescue-native-title-case/106976548"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "south-australian-nurses-reject-pay-offer",
+      "headline": "南オーストラリア州の看護師が新賃上げ案を拒否",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:57:00Z",
+      "voiceScript": "南オーストラリア州の公務部門の看護師と助産師は、州政府の最新の賃上げ案を退けました。争いは州の労働審判所に持ち込まれ、病院やケア現場の人手不足が続く中で、次の判断が現場に大きく影響します。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/public-sector-nurses-and-midwives-reject-sa-government-offer/106975694"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "andrew-hastie-wa-defamation-trial",
+      "headline": "アンドリュー・ハスティー氏が西豪州の名誉毀損裁判に出廷",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:26:56Z",
+      "voiceScript": "連邦議員アンドリュー・ハスティー氏は、西オーストラリア州の実業家グレッグ・ポーランド氏が本人と元フェアファクス記者2人を相手に起こした名誉毀損訴訟で法廷に立ちました。争点は、過去の行為についてどこまで公に言えるのか、またその発言が名誉を傷つけたのかどうかで、裁判所は現在証拠を検討しています。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/liberal-mp-andrew-hastie-takes-stand-wa-today-defamation-trial/106976242"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "social-media-racism-federal-hearing",
+      "headline": "ネット上の人種差別が連邦審議会で焦点に",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:25:22Z",
+      "voiceScript": "先住民のリーダーたちは、ネット上の人種差別的な攻撃が若者に害を与えていると連邦審議会で訴えました。オーストラリア王立総合診療医学会は人種差別を公衆衛生上の緊急事態と表現しています。論点は、オンラインの監視、メンタルヘルス、地域の安全をどう結びつけるかで、委員会はこの証言をもとに提言をまとめます。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/racist-social-media-comments-slammed-at-federal-gov-hearing/106977480"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "victoria-bunnings-dog-attack",
+      "headline": "ビクトリア州のBunningsで犬に噛まれ少女が入院",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T06:06:13Z",
+      "voiceScript": "ビクトリア州の地域のBunnings店内で犬に噛まれた少女が病院に搬送されました。犬はその後、飼い主に引き渡されて安楽死され、当局はなお経緯を調べています。混雑する小売店での安全確保と、危険な犬をどう管理するかが問われています。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/young-girl-in-hospital-after-dog-attack-in-bunnings-store/106977418"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/pets/dog-euthanised-after-attacking-young-girl-at-bunnings-in-regional-victoria/news-story/c4243eb42da4d087644dbc0adc4a047a"
+        }
+      ],
+      "language": "ja"
+    },
     {
       "id": "tasmanian-ambulance-fire-hospital",
       "headline": "タスマニアの病院前で救急車が火災で全焼",
@@ -1060,11 +1139,5 @@
       ],
       "language": "ja"
     }
-  ],
-  "generatedFrom": "news.en.json",
-  "translation": {
-    "target": "ja",
-    "method": "manual translation by Codex",
-    "updatedAt": "2026-07-30T06:11:54Z"
-  }
+  ]
 }

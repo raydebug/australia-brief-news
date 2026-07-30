@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T06:11:54Z",
+  "updatedAt": "2026-07-30T07:13:48.526Z",
   "generatedBy": "codex",
   "language": "th",
   "sources": [
@@ -101,11 +101,90 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and the news.com.au latest-news RSS is still HTML, so fallback extraction was needed.",
-    "AAP article pages were usable for matching coverage this run, but some recent pages still needed search-result fallback to resolve the canonical URL.",
-    "A handful of fresh Australia stories remain single-source because no second recent Australia-focused report was available at collection time."
+    "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
+    "The Australian and Sky News Australia still require fallback extraction for current coverage.",
+    "A few fresh Australia stories remain single-source because no second recent report was available at collection time."
   ],
   "clusters": [
+    {
+      "id": "yindjibarndi-fortescue-appeal",
+      "headline": "ยินจิบาร์นดีเดินหน้าสู้คดีฟอร์ติสคิวต่อ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:58:16Z",
+      "voiceScript": "ผู้ถือสิทธิ์ดั้งเดิมของยินจิบาร์นดีลงมติเดินหน้าต่อสู้คดีกับฟอร์ติสคิว หลังศาลสั่งชดใช้ครั้งใหญ่จากความสูญเสียด้านที่ดินและวัฒนธรรม ประเด็นนี้สำคัญเพราะจะกำหนดวิธีจัดการสิทธิ์ของเจ้าของดั้งเดิมและการเข้าถึงเหมืองในพิลบารา และขั้นต่อไปคือกระบวนการอุทธรณ์",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/yindjibarndi-appeal-fortescue-native-title-case/106976548"
+        }
+      ],
+      "language": "th"
+    },
+    {
+      "id": "south-australian-nurses-reject-pay-offer",
+      "headline": "พยาบาลเซาท์ออสเตรเลียปฏิเสธข้อเสนอขึ้นค่าจ้างใหม่",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:57:00Z",
+      "voiceScript": "พยาบาลและผดุงครรภ์ภาครัฐของเซาท์ออสเตรเลียปฏิเสธข้อเสนอขึ้นค่าจ้างล่าสุดของรัฐบาล ทำให้ข้อพิพาทถูกส่งต่อไปยังศาลแรงงานของรัฐ เรื่องนี้สำคัญเพราะโรงพยาบาลและบริการดูแลยังเผชิญแรงกดดันด้านกำลังคน และคำตัดสินถัดไปจะกำหนดทิศทางต่อจากนี้",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/public-sector-nurses-and-midwives-reject-sa-government-offer/106975694"
+        }
+      ],
+      "language": "th"
+    },
+    {
+      "id": "andrew-hastie-wa-defamation-trial",
+      "headline": "แอนดรู แฮสตีขึ้นศาลคดีหมิ่นประมาทในเวสเทิร์นออสเตรเลีย",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:26:56Z",
+      "voiceScript": "ส.ส. แอนดรู แฮสตีขึ้นศาลในคดีหมิ่นประมาทที่นักธุรกิจจากเวสเทิร์นออสเตรเลีย เกร็ก โปแลนด์ ฟ้องเขาและอดีตนักข่าวเฟร์แฟกซ์อีกสองคน คดีนี้สำคัญเพราะศาลต้องพิจารณาว่าพูดเรื่องพฤติกรรมในอดีตได้แค่ไหน และคำพูดนั้นทำให้ชื่อเสียงเสียหายหรือไม่ โดยขณะนี้ศาลยังคงรับฟังพยานหลักฐานต่อไป",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/liberal-mp-andrew-hastie-takes-stand-wa-today-defamation-trial/106976242"
+        }
+      ],
+      "language": "th"
+    },
+    {
+      "id": "social-media-racism-federal-hearing",
+      "headline": "การเหยียดเชื้อชาติออนไลน์ถูกหยิบในที่ประชุมสอบสวนของรัฐบาลกลาง",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:25:22Z",
+      "voiceScript": "ผู้นำชนพื้นเมืองบอกต่อที่ประชุมสอบสวนของรัฐบาลกลางว่าการด่าว่าเหยียดเชื้อชาติบนโลกออนไลน์กำลังทำร้ายคนรุ่นใหม่ ขณะที่ราชวิทยาลัยแพทย์ทั่วไปแห่งออสเตรเลียเรียกเรื่องนี้ว่าเป็นภาวะฉุกเฉินด้านสาธารณสุข ประเด็นนี้สำคัญเพราะเชื่อมโยงการกำกับเนื้อหา สุขภาพจิต และความปลอดภัยของชุมชน และคณะกรรมาธิการจะใช้หลักฐานนี้กำหนดข้อเสนอแนะต่อไป",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/racist-social-media-comments-slammed-at-federal-gov-hearing/106977480"
+        }
+      ],
+      "language": "th"
+    },
+    {
+      "id": "victoria-bunnings-dog-attack",
+      "headline": "เด็กหญิงเข้าโรงพยาบาลหลังถูกสุนัขกัดในบันนิงส์",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T06:06:13Z",
+      "voiceScript": "เด็กหญิงคนหนึ่งถูกนำส่งโรงพยาบาลหลังถูกสุนัขกัดภายในร้านบันนิงส์ในพื้นที่ชนบทของรัฐวิกตอเรีย ต่อมาสุนัขตัวดังกล่าวถูกเจ้าของส่งมอบและทำการุณยฆาต ขณะที่เจ้าหน้าที่กำลังสอบสวนเหตุการณ์นี้อยู่ เหตุการณ์นี้สำคัญเพราะทำให้เกิดคำถามเรื่องความปลอดภัยในพื้นที่ค้าปลีกที่มีคนพลุกพล่านและการควบคุมสุนัขอันตราย",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/young-girl-in-hospital-after-dog-attack-in-bunnings-store/106977418"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/pets/dog-euthanised-after-attacking-young-girl-at-bunnings-in-regional-victoria/news-story/c4243eb42da4d087644dbc0adc4a047a"
+        }
+      ],
+      "language": "th"
+    },
     {
       "id": "tasmanian-ambulance-fire-hospital",
       "headline": "รถพยาบาลในแทสมาเนียถูกไฟไหม้หมดคันนอกโรงพยาบาล",
@@ -1060,11 +1139,5 @@
       ],
       "language": "th"
     }
-  ],
-  "generatedFrom": "news.en.json",
-  "translation": {
-    "target": "th",
-    "method": "manual translation by Codex",
-    "updatedAt": "2026-07-30T06:11:54Z"
-  }
+  ]
 }

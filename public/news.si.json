@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T06:11:54Z",
+  "updatedAt": "2026-07-30T07:13:48.526Z",
   "generatedBy": "codex",
   "language": "si",
   "sources": [
@@ -101,11 +101,90 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and the news.com.au latest-news RSS is still HTML, so fallback extraction was needed.",
-    "AAP article pages were usable for matching coverage this run, but some recent pages still needed search-result fallback to resolve the canonical URL.",
-    "A handful of fresh Australia stories remain single-source because no second recent Australia-focused report was available at collection time."
+    "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
+    "The Australian and Sky News Australia still require fallback extraction for current coverage.",
+    "A few fresh Australia stories remain single-source because no second recent report was available at collection time."
   ],
   "clusters": [
+    {
+      "id": "yindjibarndi-fortescue-appeal",
+      "headline": "යින්ජිබාර්න්දි ෆෝර්ටෙස්කියු සටන ඉදිරියට ගෙන යයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:58:16Z",
+      "voiceScript": "යින්ජිබාර්න්දි සම්ප්‍රදායික හිමිකරුවන් ඉඩම් හා සංස්කෘතික පාඩු සම්බන්ධයෙන් අධිකරණය විශාල වන්දි මුදලක් නියම කළ පසු ෆෝර්ටෙස්කියු සමඟ ඇති නීතිමය සටන ඉදිරියට ගෙන යාමට ඡන්දය දී ඇත. මෙය වැදගත් වන්නේ පීල්බරාහි පතල් ප්‍රවේශය හා සම්ප්‍රදායික හිමිකරුවන්ගේ අයිතිවාසිකම් අනාගතයේ කෙසේ හැසිරවෙයිද යන්න මෙය නියම කරන නිසාය. ඊළඟ පියවර වන්නේ අභියාචනා ක්‍රියාවලියයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/yindjibarndi-appeal-fortescue-native-title-case/106976548"
+        }
+      ],
+      "language": "si"
+    },
+    {
+      "id": "south-australian-nurses-reject-pay-offer",
+      "headline": "දකුණු ඕස්ට්‍රේලියා නර්ස්වරු වැටුප් යෝජනාව ප්‍රතික්ෂේප කරති",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:57:00Z",
+      "voiceScript": "දකුණු ඕස්ට්‍රේලියාවේ රාජ්‍ය සේවයේ නර්ස්වරු සහ මැදවයින් රජයේ නවතම වැටුප් යෝජනාව ප්‍රතික්ෂේප කර ඇත. දැන් මෙම ගැටලුව රාජ්‍ය රැකියා නියෝජිත අධිකරණයට යන අතර, රෝහල් සහ සත්කාර සේවාවල සේවක පීඩනය තවමත් උග්‍රව පවතී. ඉදිරි තීරණය ඊළඟට කුමක් සිදුවේද යන්න තීරණය කරනු ඇත.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/public-sector-nurses-and-midwives-reject-sa-government-offer/106975694"
+        }
+      ],
+      "language": "si"
+    },
+    {
+      "id": "andrew-hastie-wa-defamation-trial",
+      "headline": "අන්ඩ්‍රූ හැස්ටි බටහිර ඕස්ට්‍රේලියා අපහාස නඩුවේ අධිකරණයට",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:26:56Z",
+      "voiceScript": "ෆෙඩරල් මන්ත්‍රී අන්ඩ්‍රූ හැස්ටි බටහිර ඕස්ට්‍රේලියා ව්‍යාපාරික ග්‍රෙග් පොලන්ඩ් ඔහුට සහ හිටපු ෆෙයාර්ෆැක්ස් පුවත්පත්කරු දෙදෙනකුට එරෙහිව ගෙනා අපහාස නඩුවේ අධිකරණයට පෙනී සිටියේය. මෙහි වැදගත්කම වන්නේ පසුගිය හැසිරීම් පිළිබඳ ප්‍රසිද්ධ ප්‍රකාශවල සීමාව සහ ඒවා නාමහානියක් කළේදැයි අධිකරණය තීරණය කරන නිසාය. සාක්ෂි විමසීම තවදුරටත් පැවැත්වේ.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/liberal-mp-andrew-hastie-takes-stand-wa-today-defamation-trial/106976242"
+        }
+      ],
+      "language": "si"
+    },
+    {
+      "id": "social-media-racism-federal-hearing",
+      "headline": "සමාජ මාධ්‍ය වර්ගවාදය ෆෙඩරල් විභාගයට ගෙනෙයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:25:22Z",
+      "voiceScript": "මුල් ජනජාති නායකයෝ ෆෙඩරල් විභාගයකදී අන්තර්ජාලයේ වර්ගවාදී අපහාස තරුණයන්ට හානි කරන බව කියා ඇත. ඕස්ට්‍රේලියානු සාමාන්‍ය වෛද්‍යවරුන්ගේ රාජකීය සංගමය වර්ගවාදය මහජන සෞඛ්‍ය හදිසි තත්ත්වයක් ලෙස විස්තර කර තිබේ. මෙය වැදගත් වන්නේ අන්තර්ගත පාලනය, මානසික සෞඛ්‍ය සහ ප්‍රජා ආරක්ෂාව එකට බැඳෙන නිසාය; කමිටුව මේ සාක්ෂි මත නිර්දේශ සකස් කරයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/racist-social-media-comments-slammed-at-federal-gov-hearing/106977480"
+        }
+      ],
+      "language": "si"
+    },
+    {
+      "id": "victoria-bunnings-dog-attack",
+      "headline": "වික්ටෝරියාහි බනින්ග්ස් සිද්ධියකින් දැරිය රෝහලට",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T06:06:13Z",
+      "voiceScript": "වික්ටෝරියාහි ප්‍රදේශීය බනින්ග්ස් වෙළඳසැලක් ඇතුළත බල්ලෙක් කුඩා දැරියක් සපා කෑ පසු ඇය රෝහලට ගෙන ගියේය. පසුව බල්ලා හිමිකරුවන් විසින් භාරදී අවසන් කළ අතර, සිදුවූ දේ පිළිබඳ පරීක්ෂණය තවමත් දිගටම පවතී. මෙම සිද්ධිය වැදගත් වන්නේ කාර්යබහුල වෙළඳ ස්ථානවල ආරක්ෂාව සහ භයානක බල්ලන් සම්බන්ධ නීති කෙසේ ක්‍රියාත්මක වනවාද යන්න නැවත මතු කරන නිසාය.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/young-girl-in-hospital-after-dog-attack-in-bunnings-store/106977418"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/pets/dog-euthanised-after-attacking-young-girl-at-bunnings-in-regional-victoria/news-story/c4243eb42da4d087644dbc0adc4a047a"
+        }
+      ],
+      "language": "si"
+    },
     {
       "id": "tasmanian-ambulance-fire-hospital",
       "headline": "ටස්මේනියාවේ රෝහල පිටත ගින්නකින් ගිලන් රථයක් විනාශ වෙයි",
@@ -1060,11 +1139,5 @@
       ],
       "language": "si"
     }
-  ],
-  "generatedFrom": "news.en.json",
-  "translation": {
-    "target": "si",
-    "method": "manual translation by Codex",
-    "updatedAt": "2026-07-30T06:11:54Z"
-  }
+  ]
 }

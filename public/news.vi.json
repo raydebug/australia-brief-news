@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T06:11:54Z",
+  "updatedAt": "2026-07-30T07:13:48.526Z",
   "generatedBy": "codex",
   "language": "vi",
   "sources": [
@@ -101,11 +101,90 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and the news.com.au latest-news RSS is still HTML, so fallback extraction was needed.",
-    "AAP article pages were usable for matching coverage this run, but some recent pages still needed search-result fallback to resolve the canonical URL.",
-    "A handful of fresh Australia stories remain single-source because no second recent Australia-focused report was available at collection time."
+    "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
+    "The Australian and Sky News Australia still require fallback extraction for current coverage.",
+    "A few fresh Australia stories remain single-source because no second recent report was available at collection time."
   ],
   "clusters": [
+    {
+      "id": "yindjibarndi-fortescue-appeal",
+      "headline": "Yindjibarndi tiếp tục theo đuổi vụ Fortescue",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:58:16Z",
+      "voiceScript": "Những người giữ quyền sở hữu bản địa Yindjibarndi đã bỏ phiếu tiếp tục cuộc chiến pháp lý với Fortescue sau khi tòa ra lệnh bồi thường lớn vì mất mát về đất đai và văn hóa. Vụ việc quan trọng vì nó sẽ định hình cách quyền tiếp cận khai mỏ và quyền của chủ truyền thống được xử lý ở Pilbara, và bước tiếp theo là quá trình kháng cáo.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/yindjibarndi-appeal-fortescue-native-title-case/106976548"
+        }
+      ],
+      "language": "vi"
+    },
+    {
+      "id": "south-australian-nurses-reject-pay-offer",
+      "headline": "Điều dưỡng Nam Úc bác đề xuất tăng lương mới",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:57:00Z",
+      "voiceScript": "Điều dưỡng và hộ sinh khu vực công ở Nam Úc đã bác bỏ đề xuất tăng lương mới nhất của chính phủ tiểu bang. Tranh chấp này sẽ được đưa lên tòa lao động của bang, trong lúc các bệnh viện và dịch vụ chăm sóc vẫn chịu áp lực nhân sự. Quyết định kế tiếp sẽ cho biết điều gì xảy ra tiếp theo.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/public-sector-nurses-and-midwives-reject-sa-government-offer/106975694"
+        }
+      ],
+      "language": "vi"
+    },
+    {
+      "id": "andrew-hastie-wa-defamation-trial",
+      "headline": "Andrew Hastie ra tòa trong vụ kiện phỉ báng ở WA",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:26:56Z",
+      "voiceScript": "Nghị sĩ liên bang Andrew Hastie đã có mặt tại tòa trong vụ kiện phỉ báng do doanh nhân Tây Úc Greg Poland khởi xướng chống lại ông và hai cựu nhà báo Fairfax. Vụ việc quan trọng vì tòa sẽ xem xét những gì có thể nói công khai về hành vi trong quá khứ và liệu các phát biểu đó có gây tổn hại danh tiếng hay không, trong khi phần trình bày chứng cứ vẫn đang tiếp tục.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/liberal-mp-andrew-hastie-takes-stand-wa-today-defamation-trial/106976242"
+        }
+      ],
+      "language": "vi"
+    },
+    {
+      "id": "social-media-racism-federal-hearing",
+      "headline": "Phân biệt chủng tộc trên mạng bị đưa ra quốc hội",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:25:22Z",
+      "voiceScript": "Các lãnh đạo First Nations nói với một phiên điều trần liên bang rằng những lời lẽ kỳ thị trên mạng đang gây hại cho người trẻ, trong khi Hội Bác sĩ Đa khoa Hoàng gia Úc gọi nạn phân biệt chủng tộc là tình trạng khẩn cấp về y tế công cộng. Vấn đề này quan trọng vì nó nối nội dung trực tuyến, sức khỏe tinh thần và an toàn cộng đồng, và ủy ban sẽ dùng các bằng chứng đó để đưa ra khuyến nghị.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/racist-social-media-comments-slammed-at-federal-gov-hearing/106977480"
+        }
+      ],
+      "language": "vi"
+    },
+    {
+      "id": "victoria-bunnings-dog-attack",
+      "headline": "Cô bé nhập viện sau vụ chó cắn ở Bunnings",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T06:06:13Z",
+      "voiceScript": "Một bé gái đã được đưa vào bệnh viện sau khi bị chó cắn bên trong một cửa hàng Bunnings ở vùng Victoria. Con chó sau đó được chủ giao nộp và bị an tử, còn cơ quan chức năng vẫn đang điều tra sự việc. Vụ việc đặt ra câu hỏi về an toàn ở các cửa hàng đông khách và cách quản lý chó nguy hiểm.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/young-girl-in-hospital-after-dog-attack-in-bunnings-store/106977418"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/pets/dog-euthanised-after-attacking-young-girl-at-bunnings-in-regional-victoria/news-story/c4243eb42da4d087644dbc0adc4a047a"
+        }
+      ],
+      "language": "vi"
+    },
     {
       "id": "tasmanian-ambulance-fire-hospital",
       "headline": "Xe cứu thương ở Tasmania bị cháy rụi bên ngoài bệnh viện",
@@ -1060,11 +1139,5 @@
       ],
       "language": "vi"
     }
-  ],
-  "generatedFrom": "news.en.json",
-  "translation": {
-    "target": "vi",
-    "method": "manual translation by Codex",
-    "updatedAt": "2026-07-30T06:11:54Z"
-  }
+  ]
 }

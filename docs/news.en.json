@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T06:11:54Z",
+  "updatedAt": "2026-07-30T07:13:48.526Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -101,11 +101,90 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and the news.com.au latest-news RSS is still HTML, so fallback extraction was needed.",
-    "AAP article pages were usable for matching coverage this run, but some recent pages still needed search-result fallback to resolve the canonical URL.",
-    "A handful of fresh Australia stories remain single-source because no second recent Australia-focused report was available at collection time."
+    "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
+    "The Australian and Sky News Australia still require fallback extraction for current coverage.",
+    "A few fresh Australia stories remain single-source because no second recent report was available at collection time."
   ],
   "clusters": [
+    {
+      "id": "yindjibarndi-fortescue-appeal",
+      "headline": "Yindjibarndi press on with Fortescue fight",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:58:16Z",
+      "voiceScript": "Yindjibarndi native title holders have voted to continue their legal fight with Fortescue after the court ordered a major compensation payment over land and cultural loss. The dispute matters because it will shape how mining access and Traditional Owner rights are handled in the Pilbara, and the appeal process is now the next step.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/yindjibarndi-appeal-fortescue-native-title-case/106976548"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "south-australian-nurses-reject-pay-offer",
+      "headline": "South Australian nurses reject latest pay offer",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:57:00Z",
+      "voiceScript": "South Australia's public-sector nurses and midwives have rejected the government's latest pay offer, sending the dispute to the state employment tribunal. The outcome matters because staffing pressure is still affecting hospitals and care services, and the tribunal will decide what happens next.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/public-sector-nurses-and-midwives-reject-sa-government-offer/106975694"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "andrew-hastie-wa-defamation-trial",
+      "headline": "Andrew Hastie appears in WA defamation trial",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:26:56Z",
+      "voiceScript": "Federal MP Andrew Hastie has appeared in court in a defamation case brought by WA businessman Greg Poland against him and two former Fairfax journalists. The case matters because it will test what can be said publicly about past conduct and whether the comments caused reputational harm, with the court now hearing evidence.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/liberal-mp-andrew-hastie-takes-stand-wa-today-defamation-trial/106976242"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "social-media-racism-federal-hearing",
+      "headline": "Online racism is pushed before a federal inquiry",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:25:22Z",
+      "voiceScript": "First Nations leaders have told a federal hearing that racist abuse online is damaging young people, while the Royal Australian College of General Practitioners has described racism as a public health emergency. The issue matters because it connects online moderation, mental health and community safety, and the committee will use the evidence to shape its recommendations.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/racist-social-media-comments-slammed-at-federal-gov-hearing/106977480"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "victoria-bunnings-dog-attack",
+      "headline": "Regional Victoria dog attack sends child to hospital",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T06:06:13Z",
+      "voiceScript": "A young girl has been taken to hospital after being bitten by a dog inside a Bunnings store in regional Victoria. The dog was later surrendered and euthanised, and authorities are still investigating what happened. The incident matters because it raises questions about safety in busy retail spaces and how local rules handle dangerous dogs.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/young-girl-in-hospital-after-dog-attack-in-bunnings-store/106977418"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/pets/dog-euthanised-after-attacking-young-girl-at-bunnings-in-regional-victoria/news-story/c4243eb42da4d087644dbc0adc4a047a"
+        }
+      ],
+      "language": "en"
+    },
     {
       "id": "tasmanian-ambulance-fire-hospital",
       "headline": "Tasmanian ambulance destroyed in hospital fire",

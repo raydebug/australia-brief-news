@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T06:11:54Z",
+  "updatedAt": "2026-07-30T07:10:57.756Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -101,11 +101,90 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and the news.com.au latest-news RSS is still HTML, so fallback extraction was needed.",
-    "AAP article pages were usable for matching coverage this run, but some recent pages still needed search-result fallback to resolve the canonical URL.",
-    "A handful of fresh Australia stories remain single-source because no second recent Australia-focused report was available at collection time."
+    "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
+    "The Australian and Sky News Australia still require fallback extraction for current coverage.",
+    "A few fresh Australia stories remain single-source because no second recent report was available at collection time."
   ],
   "clusters": [
+    {
+      "id": "yindjibarndi-fortescue-appeal",
+      "headline": "Yindjibarndi 继续追究 Fortescue 争议",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:58:16Z",
+      "voiceScript": "Yindjibarndi 原住民产权持有人已投票决定继续与 Fortescue 的法律争议，此前法院就土地和文化损失作出了重大赔偿裁定。此案之所以重要，是因为它会影响皮尔巴拉地区矿业进入方式和传统所有者权利的处理，下一步将进入上诉程序。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/yindjibarndi-appeal-fortescue-native-title-case/106976548"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
+      "id": "south-australian-nurses-reject-pay-offer",
+      "headline": "南澳护士和助产士拒绝最新加薪方案",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:57:00Z",
+      "voiceScript": "南澳公立部门的护士和助产士已经拒绝州政府最新的加薪方案，争议接下来将交由州就业仲裁庭处理。此事重要在于，医院和护理服务仍面临人手压力，仲裁结果会决定后续走向。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/public-sector-nurses-and-midwives-reject-sa-government-offer/106975694"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
+      "id": "andrew-hastie-wa-defamation-trial",
+      "headline": "安德鲁·哈斯蒂出庭应对西澳诽谤案",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:26:56Z",
+      "voiceScript": "联邦议员安德鲁·哈斯蒂已经在一宗诽谤案中出庭，西澳商人格雷格·波兰德将他和两名前 Fairfax 记者告上法庭。此案的重要性在于，法院要判断公众对过往行为的评论边界，以及相关言论是否造成名誉损害，目前庭审仍在继续。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/liberal-mp-andrew-hastie-takes-stand-wa-today-defamation-trial/106976242"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
+      "id": "social-media-racism-federal-hearing",
+      "headline": "网络种族主义被摆上联邦听证会",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:25:22Z",
+      "voiceScript": "第一民族领袖在联邦听证会上表示，网络上的种族主义辱骂正在伤害年轻人，而澳大利亚皇家全科医生学会则把种族主义称为公共卫生紧急状况。此事重要在于，它把网络内容管理、心理健康和社区安全联系起来，委员会接下来会依据这些证据形成建议。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/racist-social-media-comments-slammed-at-federal-gov-hearing/106977480"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
+      "id": "victoria-bunnings-dog-attack",
+      "headline": "维州地区 Bunnings 狗咬伤女孩送医",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T06:06:13Z",
+      "voiceScript": "维多利亚州地区一间 Bunnings 店内发生狗咬伤事件后，一名小女孩被送往医院。涉事狗随后被主人交出并实施安乐死，相关部门仍在调查经过。此事重要在于，它再次引发人们对繁忙零售场所安全和危险犬只管理的关注。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/young-girl-in-hospital-after-dog-attack-in-bunnings-store/106977418"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/pets/dog-euthanised-after-attacking-young-girl-at-bunnings-in-regional-victoria/news-story/c4243eb42da4d087644dbc0adc4a047a"
+        }
+      ],
+      "language": "zh-Hans"
+    },
     {
       "id": "tasmanian-ambulance-fire-hospital",
       "headline": "塔州医院外一辆救护车被火烧毁",
@@ -1060,11 +1139,5 @@
       ],
       "language": "zh-Hans"
     }
-  ],
-  "generatedFrom": "news.en.json",
-  "translation": {
-    "target": "zh-Hans",
-    "method": "manual translation by Codex",
-    "updatedAt": "2026-07-30T06:11:54Z"
-  }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T06:11:54Z",
+  "updatedAt": "2026-07-30T07:13:48.526Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -101,11 +101,90 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and the news.com.au latest-news RSS is still HTML, so fallback extraction was needed.",
-    "AAP article pages were usable for matching coverage this run, but some recent pages still needed search-result fallback to resolve the canonical URL.",
-    "A handful of fresh Australia stories remain single-source because no second recent Australia-focused report was available at collection time."
+    "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
+    "The Australian and Sky News Australia still require fallback extraction for current coverage.",
+    "A few fresh Australia stories remain single-source because no second recent report was available at collection time."
   ],
   "clusters": [
+    {
+      "id": "yindjibarndi-fortescue-appeal",
+      "headline": "윈지바르디, 포르테스큐와의 분쟁 계속 추진",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:58:16Z",
+      "voiceScript": "윈지바르디 전통 소유자들은 토지와 문화적 손실과 관련해 법원이 거액의 배상을 명령한 뒤 포르테스큐와의 법적 다툼을 계속하기로 표결했습니다. 이 사안은 필바라 지역의 광산 접근과 전통 소유자 권리가 앞으로 어떻게 다뤄질지에 영향을 주기 때문에 중요합니다. 다음 단계는 항소 절차입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/yindjibarndi-appeal-fortescue-native-title-case/106976548"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "south-australian-nurses-reject-pay-offer",
+      "headline": "남호주 간호사들, 새 임금안 거부",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:57:00Z",
+      "voiceScript": "남호주의 공공부문 간호사와 조산사들이 정부의 최신 임금 제안을 거부했습니다. 이 분쟁은 주 노동심판소로 넘어가며, 병원과 돌봄 서비스의 인력 압박이 계속되는 상황에서 다음 결정이 현장에 큰 영향을 줄 것입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/public-sector-nurses-and-midwives-reject-sa-government-offer/106975694"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "andrew-hastie-wa-defamation-trial",
+      "headline": "앤드루 해스티, 서호주 명예훼손 재판 출석",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:26:56Z",
+      "voiceScript": "연방 의원 앤드루 해스티가 서호주 사업가 그레그 폴랜드가 자신과 전 페어팩스 기자 2명을 상대로 제기한 명예훼손 재판에 출석했습니다. 이 사건은 과거 행위에 대해 어디까지 공개적으로 말할 수 있는지, 그리고 그 발언이 명예를 훼손했는지를 가리는 시험대가 됩니다. 법원은 지금 증거를 심리하고 있습니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/liberal-mp-andrew-hastie-takes-stand-wa-today-defamation-trial/106976242"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "social-media-racism-federal-hearing",
+      "headline": "온라인 인종차별, 연방 청문회 쟁점으로",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:25:22Z",
+      "voiceScript": "원주민 지도자들은 연방 청문회에서 온라인상의 인종차별적 공격이 젊은 세대에 해를 주고 있다고 말했습니다. 호주 왕립 일반의학회는 인종차별을 공중보건 비상사태라고 규정했습니다. 이 사안은 온라인 콘텐츠 관리와 정신건강, 지역사회의 안전을 잇는 문제이며, 위원회는 이 증언을 바탕으로 권고안을 마련하게 됩니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/racist-social-media-comments-slammed-at-federal-gov-hearing/106977480"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "victoria-bunnings-dog-attack",
+      "headline": "빅토리아주 Bunnings 개 물림 사고로 소녀 병원행",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T06:06:13Z",
+      "voiceScript": "빅토리아주 지역의 한 Bunnings 매장 안에서 개에게 물린 어린 소녀가 병원으로 옮겨졌습니다. 해당 개는 이후 주인에게 넘겨져 안락사됐고, 당국은 여전히 사건 경위를 조사하고 있습니다. 이 사건은 붐비는 상점에서의 안전과 위험견 관리가 어떻게 이뤄져야 하는지 다시 묻고 있습니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/young-girl-in-hospital-after-dog-attack-in-bunnings-store/106977418"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/pets/dog-euthanised-after-attacking-young-girl-at-bunnings-in-regional-victoria/news-story/c4243eb42da4d087644dbc0adc4a047a"
+        }
+      ],
+      "language": "ko"
+    },
     {
       "id": "tasmanian-ambulance-fire-hospital",
       "headline": "태즈메이니아 병원 밖 구급차가 화재로 전소",
@@ -1060,11 +1139,5 @@
       ],
       "language": "ko"
     }
-  ],
-  "generatedFrom": "news.en.json",
-  "translation": {
-    "target": "ko",
-    "method": "manual translation by Codex",
-    "updatedAt": "2026-07-30T06:11:54Z"
-  }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T06:14:37Z",
+  "updatedAt": "2026-07-30T07:13:48.526Z",
   "generatedBy": "codex",
   "language": "es",
   "sources": [
@@ -101,11 +101,90 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and the news.com.au latest-news RSS is still HTML, so fallback extraction was needed.",
-    "AAP article pages were usable for matching coverage this run, but some recent pages still needed search-result fallback to resolve the canonical URL.",
-    "A handful of fresh Australia stories remain single-source because no second recent Australia-focused report was available at collection time."
+    "news.com.au latest-news RSS still resolves to HTML, so current-item discovery used page and search-result fallback.",
+    "The Australian and Sky News Australia still require fallback extraction for current coverage.",
+    "A few fresh Australia stories remain single-source because no second recent report was available at collection time."
   ],
   "clusters": [
+    {
+      "id": "yindjibarndi-fortescue-appeal",
+      "headline": "Yindjibarndi sigue la pelea con Fortescue",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:58:16Z",
+      "voiceScript": "Los titulares del título nativo Yindjibarndi han votado seguir su batalla legal con Fortescue tras una orden judicial de gran compensación por pérdidas de tierra y cultura. El caso importa porque puede definir cómo se manejan el acceso minero y los derechos de los dueños tradicionales en el Pilbara, y ahora pasa a la apelación.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/yindjibarndi-appeal-fortescue-native-title-case/106976548"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "south-australian-nurses-reject-pay-offer",
+      "headline": "Enfermeras del sur de Australia rechazan la nueva oferta salarial",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:57:00Z",
+      "voiceScript": "Las enfermeras y matronas del sector público de Australia del Sur han rechazado la última oferta salarial del gobierno, lo que envía la disputa al tribunal laboral estatal. Importa porque la presión de personal sigue afectando a hospitales y servicios de cuidados, y ese tribunal decidirá el siguiente paso.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/public-sector-nurses-and-midwives-reject-sa-government-offer/106975694"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "andrew-hastie-wa-defamation-trial",
+      "headline": "Andrew Hastie comparece en juicio por difamación en WA",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:26:56Z",
+      "voiceScript": "El diputado federal Andrew Hastie ha comparecido en un caso por difamación presentado por el empresario de Australia Occidental Greg Poland contra él y dos ex periodistas de Fairfax. El proceso es importante porque el tribunal evaluará qué se puede decir públicamente sobre conductas pasadas y si esas declaraciones dañaron la reputación, mientras sigue la presentación de pruebas.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/liberal-mp-andrew-hastie-takes-stand-wa-today-defamation-trial/106976242"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "social-media-racism-federal-hearing",
+      "headline": "La desinformación racista en redes llega a una audiencia federal",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T06:25:22Z",
+      "voiceScript": "Líderes de las Primeras Naciones dijeron a una audiencia federal que los abusos racistas en línea están dañando a los jóvenes, mientras el Royal Australian College of General Practitioners describió el racismo como una emergencia de salud pública. El tema importa porque conecta moderación de contenidos, salud mental y seguridad comunitaria, y el comité usará esas pruebas para sus recomendaciones.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/racist-social-media-comments-slammed-at-federal-gov-hearing/106977480"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "victoria-bunnings-dog-attack",
+      "headline": "Ataque de perro en Victoria rural envía a una niña al hospital",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T06:06:13Z",
+      "voiceScript": "Una niña fue trasladada al hospital después de ser mordida por un perro dentro de una tienda Bunnings en una zona regional de Victoria. Más tarde, el perro fue entregado por sus dueños y sacrificado, y las autoridades siguen investigando lo ocurrido. El caso importa porque vuelve a poner sobre la mesa la seguridad en comercios concurridos y el control de perros peligrosos.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/young-girl-in-hospital-after-dog-attack-in-bunnings-store/106977418"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/pets/dog-euthanised-after-attacking-young-girl-at-bunnings-in-regional-victoria/news-story/c4243eb42da4d087644dbc0adc4a047a"
+        }
+      ],
+      "language": "es"
+    },
     {
       "id": "tasmanian-ambulance-fire-hospital",
       "headline": "Una ambulancia de Tasmania queda destruida en un incendio junto al hospital",
@@ -1060,11 +1139,5 @@
       ],
       "language": "es"
     }
-  ],
-  "generatedFrom": "news.en.json",
-  "translation": {
-    "target": "es",
-    "method": "manual translation by Codex",
-    "updatedAt": "2026-07-30T06:14:37Z"
-  }
+  ]
 }
