@@ -1,9 +1,14 @@
-const CACHE_NAME = "australia-brief-v11";
+const CACHE_NAME = "australia-brief-v12";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
   "./icon.svg",
+  "./favicon-16.png",
+  "./favicon-32.png",
+  "./apple-touch-icon.png",
+  "./icon-192.png",
+  "./icon-512.png",
   "./news.json",
   "./news.zh-Hans.json",
   "./news.zh-Hant.json",
