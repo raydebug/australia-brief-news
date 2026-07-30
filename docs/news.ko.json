@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T02:06:48.158Z",
+  "updatedAt": "2026-07-30T03:13:13Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -101,11 +101,53 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
+    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and the news.com.au latest-news RSS is still HTML, so fallback extraction was needed.",
     "AAP article pages were usable for matching coverage this run, but some recent pages still needed search-result fallback to resolve the canonical URL.",
-    "A small number of stories remain single-source because no second recent Australia-focused report was available at collection time."
+    "A handful of fresh Australia stories remain single-source because no second recent Australia-focused report was available at collection time."
   ],
   "clusters": [
+    {
+      "id": "nsw-clinician-led-mental-health-response",
+      "headline": "NSW 일부 정신건강 긴급 출동에 임상 인력 투입",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T02:58:52Z",
+      "voiceScript": "뉴사우스웨일스주는 일부 긴급 신고에 경찰 대신 정신건강 임상 인력을 보내는 방식으로 바꾸고 있습니다. 위기 상황에 있는 사람에게 더 빠른 의료 지원을 주고, 상황이 더 악화되는 것을 막으려는 취지입니다. 첫 대응이 치료, 이송, 경찰 개입 중 무엇이 될지 좌우할 수 있어서, 이 체계가 얼마나 넓게 확대될지가 다음 관전 포인트입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/virtual-mental-health-hub-nsw-for-emergency-callouts/106975846"
+        }
+      ]
+    },
+    {
+      "id": "ben-carroll-srl-review",
+      "headline": "Ben Carroll, Suburban Rail Loop 재검토 가능성 열어둬",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T02:11:34Z",
+      "voiceScript": "빅토리아주의 새 주총리는 Suburban Rail Loop 예산을 다른 사업으로 돌리는 방안을 배제하지 않았습니다. 동시에 약속됐던 재택근무 법안 수정도 시사했습니다. 주 최대 규모의 기반 시설 사업이 새 지도부 출범 초기에 다시 검토되는 셈이라, 계약과 비용, 우선순위를 둘러싼 논쟁이 다시 커질 수 있습니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/30/ben-carroll-victoria-suburban-rail-loop-funds-srl-wfh-laws"
+        }
+      ]
+    },
+    {
+      "id": "teacher-free-palestine-sticker-inquiry",
+      "headline": "‘Free Palestine’ 스티커 둘러싼 교사 관련 진술",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T02:05:55Z",
+      "voiceScript": "반유대주의 조사에서 학교 내 긴장을 살펴보는 과정에, ‘Free Palestine’ 스티커가 붙은 노트북을 교사가 사용했다는 진술이 나왔습니다. 쟁점은 교실 기준, 반유대주의, 그리고 학교가 정치적 상징의 경계를 어디에 그을지입니다. 앞으로 조사 결과가 이 사례를 더 넓은 정책 공백의 신호로 볼지 주목됩니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/antisemitism-hate-speech-in-schools-royal-commission/106975202"
+        }
+      ]
+    },
     {
       "id": "telegram-esafety-court-extremist-videos",
       "headline": "호주 온라인 안전 당국이 텔레그램을 극단 콘텐츠 문제로 제소",
@@ -233,6 +275,32 @@
         {
           "source": "WAtoday",
           "url": "https://www.watoday.com.au/business/companies/kpmg-says-no-decisions-have-been-made-on-staff-purge-amid-reports-of-1000-cuts-20260729-p60jsy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ]
+    },
+    {
+      "id": "victoria-bird-flu-first-detection",
+      "headline": "빅토리아주에서 H5N1 조류독감 첫 확인",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-30T00:31:02Z",
+      "voiceScript": "빅토리아주 남서부에서 발견된 야생 새에서 H5N1 조류독감이 처음 확인됐습니다. 이미 다른 주들에서도 확산 우려가 커진 만큼, 당국은 가금류와 더 넓은 야생동물 집단으로 번질 가능성을 주시하고 있습니다. 이 변종은 새 무리 안에서 빠르게 퍼질 수 있어, 앞으로는 감시 강화와 추가 검사 결과가 중요합니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/victoria-bird-flu-h5n1-detection/106839886"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/jul/30/bird-flu-australia-h5n1-how-will-it-affect-wildlife"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/more-bird-flu-detections-spark-wildlife-fears"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/mike-smithson-sas-worst-bird-flu-fears-may-be-unfolding-as-numbers-climb-c-22639259"
         }
       ]
     },

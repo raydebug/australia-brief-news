@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T02:06:48.158Z",
+  "updatedAt": "2026-07-30T03:13:13Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -101,11 +101,53 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
+    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and the news.com.au latest-news RSS is still HTML, so fallback extraction was needed.",
     "AAP article pages were usable for matching coverage this run, but some recent pages still needed search-result fallback to resolve the canonical URL.",
-    "A small number of stories remain single-source because no second recent Australia-focused report was available at collection time."
+    "A handful of fresh Australia stories remain single-source because no second recent Australia-focused report was available at collection time."
   ],
   "clusters": [
+    {
+      "id": "nsw-clinician-led-mental-health-response",
+      "headline": "NSWが一部のメンタルヘルス緊急通報で臨床スタッフ対応を始める",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T02:58:52Z",
+      "voiceScript": "ニューサウスウェールズ州では、一部の緊急通報に警察ではなくメンタルヘルスの臨床スタッフを向かわせる運用が始まっています。危機にある人へ、より早く医療につなげることと、状況の悪化を防ぐことが狙いです。最初の対応が治療、搬送、警察介入のどれになるかを左右するため、この仕組みがどこまで広がるかが次の焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/virtual-mental-health-hub-nsw-for-emergency-callouts/106975846"
+        }
+      ]
+    },
+    {
+      "id": "ben-carroll-srl-review",
+      "headline": "Ben Carroll氏、Suburban Rail Loopの見直しに含み",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T02:11:34Z",
+      "voiceScript": "ビクトリア州の新首相は、Suburban Rail Loopに充てる資金を他の事業へ振り向ける可能性を否定していません。あわせて、約束されていた在宅勤務法の修正にも言及しました。州最大級のインフラ計画が政権交代の初期段階で再検討されるため、契約、費用、優先順位をめぐる議論が再燃する可能性があります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/30/ben-carroll-victoria-suburban-rail-loop-funds-srl-wfh-laws"
+        }
+      ]
+    },
+    {
+      "id": "teacher-free-palestine-sticker-inquiry",
+      "headline": "“Free Palestine”ステッカーをめぐり教師の扱いを巡る証言",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T02:05:55Z",
+      "voiceScript": "反ユダヤ主義に関する調査では、学校内の緊張を検証する中で、“Free Palestine”ステッカーを付けたノートパソコンを教師が使っていたという証言が示されました。争点は、教室での基準、反ユダヤ主義、そして政治的シンボルに学校がどう線を引くかです。今後は、調査が証拠をどう評価し、これがより広い政策の穴を示すのかが焦点になります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/antisemitism-hate-speech-in-schools-royal-commission/106975202"
+        }
+      ]
+    },
     {
       "id": "telegram-esafety-court-extremist-videos",
       "headline": "豪ネット安全当局がTelegramを過激動画めぐり提訴",
@@ -233,6 +275,32 @@
         {
           "source": "WAtoday",
           "url": "https://www.watoday.com.au/business/companies/kpmg-says-no-decisions-have-been-made-on-staff-purge-amid-reports-of-1000-cuts-20260729-p60jsy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ]
+    },
+    {
+      "id": "victoria-bird-flu-first-detection",
+      "headline": "ビクトリア州でH5N1鳥インフルエンザを初確認",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-30T00:31:02Z",
+      "voiceScript": "ビクトリア州は、州南西部で見つかった野鳥からH5N1鳥インフルエンザの感染を初めて確認しました。すでに他州でも広がりが問題になっており、当局は家禽やより広い野生動物への影響を警戒しています。鳥の群れの中では広がりが早いため、今後は監視の強化と追加検査が重要になります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/victoria-bird-flu-h5n1-detection/106839886"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/jul/30/bird-flu-australia-h5n1-how-will-it-affect-wildlife"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/more-bird-flu-detections-spark-wildlife-fears"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/mike-smithson-sas-worst-bird-flu-fears-may-be-unfolding-as-numbers-climb-c-22639259"
         }
       ]
     },

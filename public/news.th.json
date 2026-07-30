@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T02:06:48.158Z",
+  "updatedAt": "2026-07-30T03:13:13Z",
   "generatedBy": "codex",
   "language": "th",
   "sources": [
@@ -101,11 +101,53 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
+    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and the news.com.au latest-news RSS is still HTML, so fallback extraction was needed.",
     "AAP article pages were usable for matching coverage this run, but some recent pages still needed search-result fallback to resolve the canonical URL.",
-    "A small number of stories remain single-source because no second recent Australia-focused report was available at collection time."
+    "A handful of fresh Australia stories remain single-source because no second recent Australia-focused report was available at collection time."
   ],
   "clusters": [
+    {
+      "id": "nsw-clinician-led-mental-health-response",
+      "headline": "NSW เริ่มใช้ผู้เชี่ยวชาญตอบเหตุฉุกเฉินด้านสุขภาพจิตบางกรณี",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T02:58:52Z",
+      "voiceScript": "นิวเซาท์เวลส์กำลังเริ่มใช้ผู้เชี่ยวชาญด้านสุขภาพจิตไปตอบรับเหตุฉุกเฉินบางกรณีแทนตำรวจ เป้าหมายคือให้คนที่กำลังวิกฤตได้รับการดูแลทางการแพทย์เร็วขึ้นและลดโอกาสที่สถานการณ์จะลุกลาม เรื่องนี้สำคัญเพราะการตอบสนองครั้งแรกอาจกำหนดได้ว่าคนนั้นจะได้รับการดูแล การส่งต่อ หรือการเข้ามาของตำรวจ และคำถามต่อไปคือระบบนี้จะขยายได้กว้างแค่ไหน",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/virtual-mental-health-hub-nsw-for-emergency-callouts/106975846"
+        }
+      ]
+    },
+    {
+      "id": "ben-carroll-srl-review",
+      "headline": "Ben Carroll เปิดทางทบทวนงบประมาณ Suburban Rail Loop",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T02:11:34Z",
+      "voiceScript": "มุขมนตรีคนใหม่ของรัฐวิกตอเรียบอกว่ายังไม่ตัดความเป็นไปได้ที่จะโยกงบของ Suburban Rail Loop ไปยังโครงการอื่น และยังส่งสัญญาณอาจปรับกฎหมายที่เคยให้คำมั่นเรื่องการทำงานจากบ้านด้วย เรื่องนี้สำคัญเพราะมันทำให้หนึ่งในโครงการโครงสร้างพื้นฐานใหญ่ที่สุดของรัฐกลับมาอยู่บนโต๊ะทบทวนตั้งแต่ช่วงเริ่มต้นของผู้นำคนใหม่ คำถามต่อไปคือเขาจะปิดประเด็นได้หรือจะเปิดศึกใหม่เรื่องสัญญา ต้นทุน และลำดับความสำคัญ",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/30/ben-carroll-victoria-suburban-rail-loop-funds-srl-wfh-laws"
+        }
+      ]
+    },
+    {
+      "id": "teacher-free-palestine-sticker-inquiry",
+      "headline": "การไต่สวนได้ฟังข้อกล่าวหาเรื่องโน้ตบุ๊กติดสติกเกอร์ “Free Palestine” ของครู",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T02:05:55Z",
+      "voiceScript": "การไต่สวนเรื่องการต่อต้านยิวได้ฟังข้อกล่าวหาว่าครูคนหนึ่งใช้โน้ตบุ๊กที่ติดสติกเกอร์ “Free Palestine” ขณะกำลังมีการตรวจสอบบรรยากาศในโรงเรียน เรื่องนี้สำคัญเพราะเชื่อมกับการถกเถียงที่กว้างกว่าเรื่องมาตรฐานในห้องเรียน การต่อต้านยิว และเส้นแบ่งที่โรงเรียนควรวางไว้สำหรับสัญลักษณ์ทางการเมือง ขั้นต่อไปคือการประเมินหลักฐานและดูว่านี่สะท้อนช่องว่างด้านนโยบายในวงกว้างหรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/antisemitism-hate-speech-in-schools-royal-commission/106975202"
+        }
+      ]
+    },
     {
       "id": "telegram-esafety-court-extremist-videos",
       "headline": "หน่วยกำกับความปลอดภัยออนไลน์ของออสเตรเลียฟ้องเทเลแกรมกรณีเนื้อหาหัวรุนแรง",
@@ -233,6 +275,32 @@
         {
           "source": "WAtoday",
           "url": "https://www.watoday.com.au/business/companies/kpmg-says-no-decisions-have-been-made-on-staff-purge-amid-reports-of-1000-cuts-20260729-p60jsy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ]
+    },
+    {
+      "id": "victoria-bird-flu-first-detection",
+      "headline": "วิกตอเรียยืนยันการพบเชื้อ H5N1 นกไข้หวัดนกครั้งแรก",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-30T00:31:02Z",
+      "voiceScript": "วิกตอเรียยืนยันการพบเชื้อไข้หวัดนก H5N1 ครั้งแรกในนกป่าที่พบทางตะวันตกเฉียงใต้ของรัฐ การพบครั้งนี้สะท้อนว่าการระบาดกำลังขยายวงกว้างขึ้น และเจ้าหน้าที่ยังคงเฝ้าระวังว่าเชื้อจะเข้าสู่สัตว์ปีกหรือประชากรสัตว์ป่ากลุ่มอื่นหรือไม่ เรื่องนี้สำคัญเพราะเชื้อสายพันธุ์นี้แพร่กระจายในฝูงนกได้รวดเร็ว ขั้นต่อไปคือการเฝ้าระวังที่เข้มขึ้นและรอผลตรวจเพิ่มเติม",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/victoria-bird-flu-h5n1-detection/106839886"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/jul/30/bird-flu-australia-h5n1-how-will-it-affect-wildlife"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/more-bird-flu-detections-spark-wildlife-fears"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/mike-smithson-sas-worst-bird-flu-fears-may-be-unfolding-as-numbers-climb-c-22639259"
         }
       ]
     },

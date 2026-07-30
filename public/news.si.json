@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T02:06:48.158Z",
+  "updatedAt": "2026-07-30T03:13:13Z",
   "generatedBy": "codex",
   "language": "si",
   "sources": [
@@ -101,11 +101,53 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
+    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and the news.com.au latest-news RSS is still HTML, so fallback extraction was needed.",
     "AAP article pages were usable for matching coverage this run, but some recent pages still needed search-result fallback to resolve the canonical URL.",
-    "A small number of stories remain single-source because no second recent Australia-focused report was available at collection time."
+    "A handful of fresh Australia stories remain single-source because no second recent Australia-focused report was available at collection time."
   ],
   "clusters": [
+    {
+      "id": "nsw-clinician-led-mental-health-response",
+      "headline": "NSW හි සමහර මානසික සෞඛ්‍ය හදිසි අවස්ථා සඳහා වෛද්‍යවරුන් පෙරමුණ ගනී",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T02:58:52Z",
+      "voiceScript": "නිව් සවුත් වේල්ස් ප්‍රාන්තය දැන් සමහර හදිසි ඇමතුම්වලට පොලිසියට පෙර මානසික සෞඛ්‍ය වෛද්‍යවරුන් යොදන ආකෘතියක් ක්‍රියාත්මක කරමින් සිටී. අරමුණ වන්නේ අර්බුදයේ සිටින අයට වේගයෙන් සෞඛ්‍ය සේවාවක් ලබාදීමත්, තත්ත්වය උග්‍ර වීමේ අවදානම අඩු කිරීමත්ය. මෙය වැදගත් වන්නේ පළමු ප්‍රතිචාරය අනුව පුද්ගලයෙකුට ලැබෙන්නේ සත්කාරයද, ප්‍රවාහනයද, නැතිනම් පොලිස් මැදිහත්වීමද යන්න තීරණය විය හැකි නිසාය.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/virtual-mental-health-hub-nsw-for-emergency-callouts/106975846"
+        }
+      ]
+    },
+    {
+      "id": "ben-carroll-srl-review",
+      "headline": "Ben Carroll Suburban Rail Loop නැවත සමාලෝචනයකට ඉඩ දෙයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T02:11:34Z",
+      "voiceScript": "වික්ටෝරියාවේ නව ප්‍රාන්ත නායකයා කියන්නේ Suburban Rail Loop සඳහා වෙන් කළ මුදල් වෙනත් ව්‍යාපෘති වෙත යොමු කිරීම බැහැර කර නැති බවයි. ඔහු වැඩි දුරටත් නිවසේ සිට වැඩ කිරීමේ නීතියට වෙනස්කම් සලකා බලන බවත් සඳහන් කරයි. මෙය වැදගත් වන්නේ ප්‍රාන්තයේ විශාලතම යටිතල පහසුකම් ව්‍යාපෘතිවලින් එකක් නැවත විභාගයට ලක්වීම නිසාය. ඊළඟ ප්‍රශ්නය වන්නේ ඔහු ආරවුල ස්ථාවර කරයිද, නැතහොත් ගිවිසුම්, වියදම් සහ ප්‍රමුඛතා ගැන නව ගැටුමක් ඇති කරයිද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/30/ben-carroll-victoria-suburban-rail-loop-funds-srl-wfh-laws"
+        }
+      ]
+    },
+    {
+      "id": "teacher-free-palestine-sticker-inquiry",
+      "headline": "ආචාර්ය මණ්ඩලයේ “Free Palestine” ස්ටිකරයක් ගැන විමර්ශනයක ප්‍රකාශ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T02:05:55Z",
+      "voiceScript": "යුදෙව් විරෝධී අභිමාන විමර්ශනයකදී පාසල් පරිසරය පරීක්ෂා කරමින් සිටියදී, “Free Palestine” ස්ටිකරයක් ඇලවූ ලැප්ටොප් එකක් භාවිතා කළ ගුරුවරයෙක් ගැන ප්‍රකාශ ඉදිරිපත් විය. මෙය වැදගත් වන්නේ පන්ති කාමරයේ ප්‍රමිතීන්, යුදෙව් විරෝධීභාවය, සහ දේශපාලන සංකේත පිළිබඳ පාසල් සීමා කොතැනද යන්න ගැන විශාල සංවාදයක කොටසක් ලෙසය. ඉදිරියේදී විමර්ශනය සාක්ෂි විග්‍රහ කර, මෙය පුළුල් ප්‍රතිපත්ති හිඟයක් පෙන්වන්නේදැයි තීරණය කරනු ඇත.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/antisemitism-hate-speech-in-schools-royal-commission/106975202"
+        }
+      ]
+    },
     {
       "id": "telegram-esafety-court-extremist-videos",
       "headline": "අන්තර්ජාල ආරක්ෂණ නියාමකයා ටෙලිග්‍රෑම්ට එරෙහිව අධිකරණ පියවර ගනී",
@@ -233,6 +275,32 @@
         {
           "source": "WAtoday",
           "url": "https://www.watoday.com.au/business/companies/kpmg-says-no-decisions-have-been-made-on-staff-purge-amid-reports-of-1000-cuts-20260729-p60jsy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ]
+    },
+    {
+      "id": "victoria-bird-flu-first-detection",
+      "headline": "වික්ටෝරියාවෙන් H5N1 කුරුලු උණේ පළමු සනාථකරණය",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-30T00:31:02Z",
+      "voiceScript": "වික්ටෝරියාවේ නිරිතදිග ප්‍රදේශයක සොයාගත් වල් පක්ෂියක H5N1 කුරුලු උණ තහවුරු කර ඇත. මේ සිද්ධියෙන් පෙනෙන්නේ වෙනත් ප්‍රාන්තවලට පමණක් නොව වසංගතය තවත් පළලට පැතිරෙමින් ඇති බවයි; බලධාරීන් තවමත් එය කුකුළු පාලනයට හෝ වල් සත්ව ගහනයට කෙතරම් බලපායිද යන්න නිරීක්ෂණය කරමින් සිටී. මෙය වැදගත් වන්නේ මෙම වර්ගය පක්ෂීන් අතර ඉතා වේගයෙන් පැතිරිය හැකි බැවින්, ඉදිරි පියවර වන්නේ තද නිරීක්ෂණය සහ තවදුරටත් පරීක්ෂණයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/victoria-bird-flu-h5n1-detection/106839886"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/jul/30/bird-flu-australia-h5n1-how-will-it-affect-wildlife"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/more-bird-flu-detections-spark-wildlife-fears"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/mike-smithson-sas-worst-bird-flu-fears-may-be-unfolding-as-numbers-climb-c-22639259"
         }
       ]
     },
