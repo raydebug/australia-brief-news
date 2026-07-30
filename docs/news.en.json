@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T19:11:13.839Z",
+  "updatedAt": "2026-07-30T20:14:39.932Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -105,6 +105,21 @@
     "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "bhp-port-hedland-second-stoppage",
+      "headline": "BHP Port Hedland workers weigh another pay stoppage",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T17:30:00Z",
+      "voiceScript": "Workers at BHP's Port Hedland export terminal are deciding whether to take another round of protected industrial action as pay talks drag on. The dispute matters because the terminal is one of Australia's most important bulk iron ore hubs, and the first strike already threatened shipments and royalties. The next step is whether unions vote for a longer stoppage or force the company back to the bargaining table.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/bhp-workers-meet-to-consider-second-strike-over-wages"
+        }
+      ],
+      "language": "en"
+    },
     {
       "id": "sam-mostyn-civics-warning",
       "headline": "Sam Mostyn warns weak civic knowledge is putting pressure on democracy",
@@ -346,6 +361,21 @@
       "language": "en"
     },
     {
+      "id": "adelaide-knife-attack-attempted-murder",
+      "headline": "Adelaide knife attack leads to attempted murder charge",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T08:00:39.000Z",
+      "voiceScript": "A man accused of stabbing a South Australian police officer in the neck during a roadside confrontation in Adelaide has been charged with attempted murder. He was also shot by police and remains in hospital while the injured officer continues to recover. The case matters because a street incident quickly became a serious public-safety and accountability test. The next steps are medical clearance, formal interviews and the court process.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/attempted-murder-charge-for-man-after-officer-stabbed"
+        }
+      ],
+      "language": "en"
+    },
+    {
       "id": "darwin-doctor-child-abuse-bail",
       "headline": "Darwin doctor fights to stay in custody over child abuse allegations",
       "sourceCount": 1,
@@ -437,6 +467,21 @@
         {
           "source": "The Australian",
           "url": "https://www.theaustralian.com.au/nation/politics/angus-taylor-wasnt-opposed-to-conservative-subfaction-at-centre-of-icac-branchstacking-probe/news-story/d22de6f4d3b161d6f583b452ce318381"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "antisemitism-education-push",
+      "headline": "Australia's antisemitism envoy presses for training across every level of education",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:04:52.000Z",
+      "voiceScript": "Australia's special envoy on antisemitism says the response has to start early and continue through university, not stop at one classroom or one campus. Jillian Segal wants training, curriculum work and staff support to become part of the anti-hate response as the royal commission keeps hearing evidence from schools and universities. The point is to move from reacting to incidents to building a prevention plan. The next test is whether governments and education providers turn that advice into practice.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/anti-semitism-envoy-to-return-to-royal-commission"
         }
       ],
       "language": "en"
@@ -614,6 +659,21 @@
       "language": "en"
     },
     {
+      "id": "housing-approvals-target-gap",
+      "headline": "June approvals rise, but Australia is still short of housing targets",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T05:02:41.000Z",
+      "voiceScript": "Building approvals improved in June and finished the financial year higher than the year before, but Australia is still well behind the pace needed to hit the national housing target. The ABS figures matter because approvals are the first sign of future supply, even though homes still need financing, construction and time. The next question is whether the lift in higher-density approvals can keep going without another slowdown later in the year.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/housing-approvals-rebound-but-still-behind-targets"
+        }
+      ],
+      "language": "en"
+    },
+    {
       "id": "brisbane-citycat-peak-hour-strike",
       "headline": "Brisbane ferries pause for peak-hour industrial action",
       "sourceCount": 1,
@@ -684,25 +744,46 @@
       ]
     },
     {
-      "id": "optus-triple-zero-court-action",
-      "headline": "Watchdog drags Optus to court over the triple-zero outage",
-      "sourceCount": 2,
+      "id": "optus-federal-court-outage",
+      "headline": "ACMA takes Optus to court over the 2025 triple-zero outage",
+      "voiceScript": "Australia's communications regulator has taken Optus to Federal Court over the 2025 triple-zero outage that left emergency calls unable to connect. The case says the failure breached emergency-call obligations across multiple jurisdictions and could leave the telco facing very large penalties. It also keeps pressure on the industry to prove that network upgrades and other technical changes cannot put triple zero at risk. The next step is Optus's defence and the court timetable.",
+      "differences": [],
+      "sourceCount": 8,
       "publishedAt": "2026-07-30T02:15:00Z",
-      "voiceScript": "The ACMA is taking Optus to the Federal Court over a network failure that stopped emergency triple-zero calls. The case follows scrutiny of a service breakdown that affected hundreds of calls and put the telco under heavy regulatory pressure. It matters because triple-zero access is a core public safety obligation, not just a billing or network issue. The court case now turns on whether Optus breached its duties and what penalty follows.",
-      "differences": [
-        "AAP frames the case around the scale of the outage and the potential fines, while the Guardian's live coverage stresses the public-safety and accountability angle."
-      ],
       "links": [
         {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/optus-sued-by-watchdog-over-triple-zero-network-outage"
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/acma-takes-optus-to-federal-court-over-2025-outage/106975412"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/telecommunications/optus-faces-fines-up-to-251m-from-triple-zero-lawsuit-20260730-p60jyg"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/regulator-launches-legal-action-against-optus-over-deadly-september-2025-triple0-outage/news-story/fa93f881710562afd04a86942d53367d"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/business/technology/optus-faces-fines-of-up-to-251m-as-communications-watchdog-sues-over-fatal-outage/news-story/8399d15bddc678f1635c3596164f179d"
         },
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/acma-sues-optus-over-2025-netword-outage-and-failed-triple-zero-calls/t2ty0fm4v"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/acma-launches-legal-action-against-optus-over-2025-outage-linked-to-emergency-call-failures-and-deaths-c-22650848.amp"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/optus-sued-by-watchdog-over-triple-zero-network-outage"
         }
-      ],
-      "language": "en"
+      ]
     },
     {
       "id": "ben-carroll-srl-review",
@@ -733,53 +814,10 @@
       ]
     },
     {
-      "id": "telegram-esafety-court-extremist-videos",
-      "headline": "eSafety takes Telegram to court over extremist videos",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-30T01:54:55Z",
-      "voiceScript": "Australia's eSafety commissioner has started Federal Court action against Telegram, alleging the platform failed to remove pro-terror content after user reports and left extremist videos visible online. The case matters because it tests how far Australia's online safety rules can reach when a service hosts material linked to Christchurch, Buffalo and ISIS propaganda. The next step is the court process and Telegram's response.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/esafety-commission-takes-telegram-to-court-terrorism-videos/106974768"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/online/social/australia-pursuing-54m-fine-for-telegram-over-alleged-antiterror-rule-breaches/news-story/052e3a26cb57649e85bf513b7fd8729d"
-        }
-      ]
-    },
-    {
-      "id": "telegram-terror-content-court-action",
-      "headline": "Australia's online regulator takes Telegram to court over extremist videos",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-30T01:54:00Z",
-      "voiceScript": "The eSafety commissioner has filed Federal Court action against Telegram, alleging the platform failed to remove terror and violent-extremist videos after warnings. The case matters because it tests whether Australia's online-safety law can force faster takedowns from a major messaging app. Telegram says it will contest the case, and the legal fight now moves into court. If eSafety wins, the platform could face substantial fines.",
-      "differences": [
-        "ABC focuses on the alleged failure to remove specific extremist videos, while AAP highlights the size of the possible penalties and the regulator's warning to platforms."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/esafety-commission-takes-telegram-to-court-terrorism-videos/106974768"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/social-app-taken-to-court-over-terror-related-content"
-        }
-      ],
-      "language": "en"
-    },
-    {
       "id": "telegram-esafety-court-action",
       "headline": "Australia's eSafety regulator takes Telegram to court over extremist content",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-30T01:50:00Z",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-30T01:54:55Z",
       "voiceScript": "Australia's eSafety Commissioner has started Federal Court action against Telegram, alleging the platform failed to remove violent extremist material quickly enough. The case centres on ISIS material and footage linked to major mass shootings, with regulators saying some content stayed online for months. It matters because it tests how far Australia's online safety laws can go when a platform does not meet transparency and removal obligations. Telegram now has to answer the allegation in court.",
       "differences": [],
       "links": [
@@ -794,47 +832,17 @@
         {
           "source": "The Australian",
           "url": "https://www.theaustralian.com.au/nation/telegram-vows-to-fight-esafety-over-isis-beheading-christchurch-massacre-videos/news-story/3d692bdd7a0d455f965d081a712e1e93"
-        }
-      ],
-      "language": "en"
-    },
-    {
-      "id": "optus-federal-court-outage",
-      "headline": "ACMA takes Optus to court over the 2025 triple-zero outage",
-      "voiceScript": "Australia's communications regulator has taken Optus to Federal Court over the 2025 triple-zero outage that left emergency calls unable to connect. The case says the failure breached emergency-call obligations across multiple jurisdictions and could leave the telco facing very large penalties. It also keeps pressure on the industry to prove that network upgrades and other technical changes cannot put triple zero at risk. The next step is Optus's defence and the court timetable.",
-      "differences": [],
-      "sourceCount": 7,
-      "publishedAt": "2026-07-30T01:45:52Z",
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/acma-takes-optus-to-federal-court-over-2025-outage/106975412"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/companies/telecommunications/optus-faces-fines-up-to-251m-from-triple-zero-lawsuit-20260730-p60jyg"
         },
         {
           "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/regulator-launches-legal-action-against-optus-over-deadly-september-2025-triple0-outage/news-story/fa93f881710562afd04a86942d53367d"
+          "url": "https://www.news.com.au/technology/online/social/australia-pursuing-54m-fine-for-telegram-over-alleged-antiterror-rule-breaches/news-story/052e3a26cb57649e85bf513b7fd8729d"
         },
         {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/business/technology/optus-faces-fines-of-up-to-251m-as-communications-watchdog-sues-over-fatal-outage/news-story/8399d15bddc678f1635c3596164f179d"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/acma-sues-optus-over-2025-netword-outage-and-failed-triple-zero-calls/t2ty0fm4v"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/acma-launches-legal-action-against-optus-over-2025-outage-linked-to-emergency-call-failures-and-deaths-c-22650848.amp"
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/social-app-taken-to-court-over-terror-related-content"
         }
-      ]
+      ],
+      "language": "en"
     },
     {
       "id": "archibald-ryvchin-peoples-choice",

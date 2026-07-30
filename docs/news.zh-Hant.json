@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T19:11:13.839Z",
+  "updatedAt": "2026-07-30T20:14:39.938Z",
   "generatedBy": "codex",
   "language": "zh-Hant",
   "sources": [
@@ -105,6 +105,21 @@
     "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "bhp-port-hedland-second-stoppage",
+      "headline": "BHP 波特海德蘭工人考慮再次停工爭取加薪",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T17:30:00Z",
+      "voiceScript": "BHP 位於西澳波特海德蘭的出口碼頭工人，正在決定是否在薪酬談判遲遲無果的情況下再次採取受保護的工業行動。此事重要，因為這個碼頭是澳洲最關鍵的鐵礦石散運樞紐之一，而上一次罷工已經威脅到貨運與州財政收入。接下來要看工會會不會投票支持更長時間的停工，還是迫使公司回到談判桌。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/bhp-workers-meet-to-consider-second-strike-over-wages"
+        }
+      ],
+      "language": "zh-Hant"
+    },
     {
       "id": "sam-mostyn-civics-warning",
       "headline": "Sam Mostyn 警告公民知識薄弱正在壓民主",
@@ -346,6 +361,21 @@
       "language": "zh-Hant"
     },
     {
+      "id": "adelaide-knife-attack-attempted-murder",
+      "headline": "阿德雷德持刀襲警案引發謀殺未遂指控",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T08:00:39.000Z",
+      "voiceScript": "一名被指在南澳阿德雷德街頭衝突中刺傷警員的男子，隨後被控謀殺未遂。該男子在遭警方擊中後仍在醫院接受治療，受傷警員也持續康復中。此案的重要性在於，一起街頭事件很快升級為公共安全與責任追究問題。下一步是醫療評估、正式訊問與後續法庭程序。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/attempted-murder-charge-for-man-after-officer-stabbed"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
       "id": "darwin-doctor-child-abuse-bail",
       "headline": "達爾文醫生因兒童性虐待指控爭取續押",
       "sourceCount": 1,
@@ -437,6 +467,21 @@
         {
           "source": "The Australian",
           "url": "https://www.theaustralian.com.au/nation/politics/angus-taylor-wasnt-opposed-to-conservative-subfaction-at-centre-of-icac-branchstacking-probe/news-story/d22de6f4d3b161d6f583b452ce318381"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "antisemitism-education-push",
+      "headline": "澳洲反猶太主義特使推動從學前到大學的教育訓練",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T07:04:52.000Z",
+      "voiceScript": "澳洲反猶太主義特使表示，回應不能只停留在一間教室或一個校園，而是要從更早階段延續到大學。Jillian Segal 希望訓練、課程設計和教職員支援，都成為反仇恨應對的一部分，因為皇家調查委員會仍在持續聽取學校和大學的證據。重點在於把應對個案轉成預防方案。接下來要看政府和教育機構是否會把這些建議真正落實。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/anti-semitism-envoy-to-return-to-royal-commission"
         }
       ],
       "language": "zh-Hant"
@@ -617,6 +662,21 @@
       "language": "zh-Hant"
     },
     {
+      "id": "housing-approvals-target-gap",
+      "headline": "6 月建築批准回升，但澳洲仍落後於住房目標",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T05:02:41.000Z",
+      "voiceScript": "澳洲 6 月建築批准有所回升，整個財年也高於上一年，但距離全國住房目標所需的速度仍然明顯不足。ABS 數據之所以重要，是因為批准是未來供應的最早訊號，不過房屋仍要經過融資、動工和施工，才會真正進入市場。接下來要看高密度項目的增長能否持續，而不會在今年稍後再度放緩。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/housing-approvals-rebound-but-still-behind-targets"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
       "id": "brisbane-citycat-peak-hour-strike",
       "headline": "布里斯本渡輪在尖峰時段因工潮停運",
       "sourceCount": 1,
@@ -690,22 +750,44 @@
       "language": "zh-Hant"
     },
     {
-      "id": "optus-triple-zero-court-action",
-      "headline": "監管機構因三零服務故障起訴 Optus",
-      "sourceCount": 2,
+      "id": "optus-federal-court-outage",
+      "headline": "ACMA 因 2025 年三零停電事件將 Optus 告上法庭",
+      "voiceScript": "澳洲通訊監管機構已將 Optus 告上聯邦法院，原因是 2025 年發生的三零故障導致緊急電話無法接通。該案稱，這項失敗違反了多個司法管轄區的緊急呼叫義務，並可能使該電信公司面臨巨額處罰。它還向行業施加壓力，要求其證明網路升級和其他技術變革不會使「三個零」面臨風險。下一步是 Optus 的辯護和法庭時間表。",
+      "differences": [],
+      "sourceCount": 8,
       "publishedAt": "2026-07-30T02:15:00Z",
-      "voiceScript": "ACMA 正把 Optus 告上聯邦法院，指控其網路故障導致緊急三零電話無法接通。這起案件源於一次影響數百通求救電話的中斷，也讓這家電信公司承受更大的監管壓力。這件事的重要性在於，三零接通是基礎公共安全義務，而不是一般的網路問題。接下來法院將判斷 Optus 是否違反職責，以及可能承擔什麼處罰。",
-      "differences": [
-        "AAP 更強調故障規模和潛在罰款，而 Guardian 的直播報導更突出公共安全與問責。"
-      ],
       "links": [
         {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/optus-sued-by-watchdog-over-triple-zero-network-outage"
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/acma-takes-optus-to-federal-court-over-2025-outage/106975412"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/telecommunications/optus-faces-fines-up-to-251m-from-triple-zero-lawsuit-20260730-p60jyg"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/regulator-launches-legal-action-against-optus-over-deadly-september-2025-triple0-outage/news-story/fa93f881710562afd04a86942d53367d"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/business/technology/optus-faces-fines-of-up-to-251m-as-communications-watchdog-sues-over-fatal-outage/news-story/8399d15bddc678f1635c3596164f179d"
         },
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/acma-sues-optus-over-2025-netword-outage-and-failed-triple-zero-calls/t2ty0fm4v"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/acma-launches-legal-action-against-optus-over-2025-outage-linked-to-emergency-call-failures-and-deaths-c-22650848.amp"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/optus-sued-by-watchdog-over-triple-zero-network-outage"
         }
       ],
       "language": "zh-Hant"
@@ -741,54 +823,10 @@
       "language": "zh-Hant"
     },
     {
-      "id": "telegram-esafety-court-extremist-videos",
-      "headline": "eSafety 因極端主義影片將 Telegram 告上法庭",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-30T01:54:55Z",
-      "voiceScript": "澳洲電子安全專員已向聯邦法院提起針對 Telegram 的訴訟，指控該平台在用戶舉報後未能刪除支持恐怖分子的內容，並在網路上留下了極端主義影片。此案很重要，因為它測試了當某個服務託管與基督城、布法羅和伊斯蘭國宣傳相關的材料時，澳洲的線上安全規則能達到什麼程度。下一步是法庭程序和 Telegram 的回應。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/esafety-commission-takes-telegram-to-court-terrorism-videos/106974768"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/online/social/australia-pursuing-54m-fine-for-telegram-over-alleged-antiterror-rule-breaches/news-story/052e3a26cb57649e85bf513b7fd8729d"
-        }
-      ],
-      "language": "zh-Hant"
-    },
-    {
-      "id": "telegram-terror-content-court-action",
-      "headline": "澳洲網安監管機構就極端影片起訴 Telegram",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-30T01:54:00Z",
-      "voiceScript": "eSafety 專員已經向聯邦法院提起訴訟，指控 Telegram 在多次警告後仍未移除恐怖主義和暴力極端內容。這起案件的關鍵在於，它檢驗澳洲網路安全法律能否迫使大型通訊平台更快下架違法內容。Telegram 說自己會應訴，而這場法律爭議現在已經進入法院程序。如果監管方勝訴，平台可能面臨高額罰款。",
-      "differences": [
-        "ABC 更強調具體未移除的極端影片，AAP 則更突出可能的罰款規模和監管警告。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/esafety-commission-takes-telegram-to-court-terrorism-videos/106974768"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/social-app-taken-to-court-over-terror-related-content"
-        }
-      ],
-      "language": "zh-Hant"
-    },
-    {
       "id": "telegram-esafety-court-action",
       "headline": "澳洲 eSafety 監管機構就極端內容起訴 Telegram",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-30T01:50:00Z",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-30T01:54:55Z",
       "voiceScript": "澳洲 eSafety 專員已向聯邦法院對 Telegram 提起訴訟，指控該平台沒有及時移除暴力極端內容。案件涉及 ISIS 相關影片和與多起大規模攻擊有關的影像，監管方稱部分內容在網上停留了數月。這宗案件的重要性在於，它檢驗澳洲網路安全法律在平台不配合時能走多遠。Telegram 接下來必須在法庭上回應這些指控。",
       "differences": [],
       "links": [
@@ -803,37 +841,14 @@
         {
           "source": "The Australian",
           "url": "https://www.theaustralian.com.au/nation/telegram-vows-to-fight-esafety-over-isis-beheading-christchurch-massacre-videos/news-story/3d692bdd7a0d455f965d081a712e1e93"
-        }
-      ],
-      "language": "zh-Hant"
-    },
-    {
-      "id": "optus-federal-court-outage",
-      "headline": "ACMA 因 2025 年三零停電事件將 Optus 告上法庭",
-      "voiceScript": "澳洲通訊監管機構已將 Optus 告上聯邦法院，原因是 2025 年發生的三零故障導致緊急電話無法接通。該案稱，這項失敗違反了多個司法管轄區的緊急呼叫義務，並可能使該電信公司面臨巨額處罰。它還向行業施加壓力，要求其證明網路升級和其他技術變革不會使「三個零」面臨風險。下一步是 Optus 的辯護和法庭時間表。",
-      "differences": [],
-      "sourceCount": 5,
-      "publishedAt": "2026-07-30T01:45:52Z",
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/acma-takes-optus-to-federal-court-over-2025-outage/106975412"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/companies/telecommunications/optus-faces-fines-up-to-251m-from-triple-zero-lawsuit-20260730-p60jyg"
         },
         {
           "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/regulator-launches-legal-action-against-optus-over-deadly-september-2025-triple0-outage/news-story/fa93f881710562afd04a86942d53367d"
+          "url": "https://www.news.com.au/technology/online/social/australia-pursuing-54m-fine-for-telegram-over-alleged-antiterror-rule-breaches/news-story/052e3a26cb57649e85bf513b7fd8729d"
         },
         {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/business/technology/optus-faces-fines-of-up-to-251m-as-communications-watchdog-sues-over-fatal-outage/news-story/8399d15bddc678f1635c3596164f179d"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/social-app-taken-to-court-over-terror-related-content"
         }
       ],
       "language": "zh-Hant"
