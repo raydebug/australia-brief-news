@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T16:12:01.655Z",
+  "updatedAt": "2026-07-30T17:07:59.048Z",
   "generatedBy": "codex",
   "language": "si",
   "sources": [
@@ -105,6 +105,21 @@
     "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "sam-mostyn-civics-warning",
+      "headline": "සෑම් මොස්ටින් ප්‍රජා දැනුම දුර්වල වීම ගැන අවවාද කරයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T15:00:19Z",
+      "voiceScript": "ගවර්නර්-ජෙනරල් සෑම් මොස්ටින් කියන්නේ ඕස්ට්‍රේලියාවේ ප්‍රජාතන්ත්‍රය ක්‍රියා කරන ආකාරය ගැන ඇති අවබෝධ හිඟය බරපතළ ගැටලුවක් වෙමින් පවතින බවයි. ඇය පාසල්වලට පමණක් නොව වැඩිහිටියන්ටත් ආයතන සහ වගකීම් පිළිබඳ වඩා පැහැදිලි දැනුමක් අවශ්‍ය බව කියයි. මහජන ආයතන පිළිබඳ විශ්වාසය දැනටමත් පීඩනයට ලක්ව ඇති නිසා මෙම අවවාදය වැදගත් වේ. ඊළඟ පියවර ප්‍රජා අධ්‍යාපනය සහ මහජන සම්බන්ධතාවය දිගුකාලීන ප්‍රමුඛතාවයක් කරන්නේද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/31/governor-general-warns-of-growing-catastrophe-that-threatens-to-undermine-democracy-in-australia-ntwnfb"
+        }
+      ],
+      "language": "si"
+    },
     {
       "id": "ridge-barredo-weightlifting-injury",
       "headline": "රීජ් බාරෙඩෝ තුවාලයෙන් පසුවත් බර ඉසිලීම නතර නොකරන බව කියයි",
@@ -1522,6 +1537,31 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb"
+        }
+      ],
+      "language": "si"
+    },
+    {
+      "id": "labor-vad-telehealth-barrier",
+      "headline": "ලේබර් පක්ෂය වෛද්‍යකරණය හරහා අවසන් ජීවිත සේවාවට ඇති බාධාව ඉවත් කිරීමට සහාය දෙයි",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T02:22:00Z",
+      "voiceScript": "ලේබර් පක්ෂය දුරකථන හෝ වීඩියෝ මගින් ස්වෙච්ඡා සහාය ඇති මරණය ගැන වෛද්‍යවරුන්ට කතා කිරීමට ඇති ෆෙඩරල් බාධා ඉවත් කරන වෙනසකට සහාය දී ඇත. දුර ප්‍රදේශවල රෝගීන්ට මෙය වඩාත් වැදගත් වන්නේ දුර සහ විශේෂඥ හිඟය නිසා අවසන් ජීවිත තීරණ දැනටමත් ප්‍රමාද විය හැකි බැවිනි. කැන්බරා පක්ෂ ප්‍රතිපත්තිය නීතියක් කළහොත් ක්‍රියාවලියට ළඟා වීම පහසු විය හැකි නමුත් රාජ්‍ය ආරක්ෂණ ක්‍රම එබැවින් අහෝසි නොවේ. ඊළඟට බලන්න ඕනේ මේ යෝජනාව නිතරගයෙන් ඉදිරියට යනවද සහ ෆෙඩරල් ආණ්ඩුව ප්‍රතිචාර දක්වන හැටි.",
+      "differences": [
+        "ABC පක්ෂ සමුළුවේ ඡන්දය සහ නීතිමය අවදානම මත අවධානය යොමු කරයි, Guardian දුර ප්‍රදේශ රෝගීන්ගේ ප්‍රවේශය ඉස්මතු කරයි."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/voluntary-assisted-dying-via-telehealth-endorsed-by-alp/106956766"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-26/albanese-opposed-telehealth-voluntary-assisted-dying/106959388"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/26/labor-pressure-telehealth-access-euthanasia-assisted-dying-anthony-albanese"
         }
       ],
       "language": "si"

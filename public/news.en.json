@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T16:12:01.655Z",
+  "updatedAt": "2026-07-30T17:07:59.048Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -105,6 +105,21 @@
     "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "sam-mostyn-civics-warning",
+      "headline": "Sam Mostyn warns weak civic knowledge is putting pressure on democracy",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T15:00:19Z",
+      "voiceScript": "Governor-General Sam Mostyn says Australia's civic knowledge gap is becoming a real problem, and she wants civics education treated as a national priority. She says the issue is not just about schools, because adults also need a clearer grasp of how democratic institutions work. The warning matters now because trust in public institutions is already under pressure. The next question is whether governments respond with stronger civics teaching and public engagement.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/31/governor-general-warns-of-growing-catastrophe-that-threatens-to-undermine-democracy-in-australia-ntwnfb"
+        }
+      ],
+      "language": "en"
+    },
     {
       "id": "ridge-barredo-weightlifting-injury",
       "headline": "Ridge Barredo vows to keep lifting after a nasty Games injury",
@@ -1488,6 +1503,31 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "labor-vad-telehealth-barrier",
+      "headline": "Labor moves to clear the telehealth barrier for assisted dying",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T02:22:00Z",
+      "voiceScript": "Labor has backed a change that would remove federal barriers stopping doctors from discussing voluntary assisted dying by phone or video. The issue matters most for people in regional areas, where distance and a lack of specialists can already slow end-of-life decisions. If Canberra turns the party policy into law, the process could become easier to reach without changing state safeguards. The next step is whether the proposal advances beyond party policy and how the federal government responds.",
+      "differences": [
+        "ABC focuses on the party conference change and legal risk, while The Guardian emphasises access barriers for regional patients."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/voluntary-assisted-dying-via-telehealth-endorsed-by-alp/106956766"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-26/albanese-opposed-telehealth-voluntary-assisted-dying/106959388"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/26/labor-pressure-telehealth-access-euthanasia-assisted-dying-anthony-albanese"
         }
       ],
       "language": "en"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T16:12:01.655Z",
+  "updatedAt": "2026-07-30T17:07:59.048Z",
   "generatedBy": "codex",
   "language": "zh-Hant",
   "sources": [
@@ -105,6 +105,21 @@
     "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "sam-mostyn-civics-warning",
+      "headline": "Sam Mostyn 警告公民知識薄弱正在壓民主",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T15:00:19Z",
+      "voiceScript": "總督 Sam Mostyn 說，澳洲對民主制度運作的理解正在變弱，她希望公民教育被放到更重要的位置。她認為問題不只在學生，成年人也需要更清楚知道制度和職責如何運作，因為不信任和誤解正在加大壓力。這個警告之所以重要，是因為公眾對機構的質疑已經上升。接下來要看政府會不會把公民教育和公共溝通當作長期任務。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/31/governor-general-warns-of-growing-catastrophe-that-threatens-to-undermine-democracy-in-australia-ntwnfb"
+        }
+      ],
+      "language": "zh-Hant"
+    },
     {
       "id": "ridge-barredo-weightlifting-injury",
       "headline": "Ridge Barredo 受傷後仍表示要繼續舉重",
@@ -1522,6 +1537,31 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "labor-vad-telehealth-barrier",
+      "headline": "工黨支持為安樂死遠距問診掃清聯邦障礙",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T02:22:00Z",
+      "voiceScript": "工黨已經支持修改聯邦法律，清除醫生透過電話或視訊討論 自願協助死亡 時遇到的限制。對偏遠地區患者來說，這項變化最關鍵，因為就醫距離和專科不足本來就會拖慢臨終決定。若坎培拉把黨內立場變成法律，流程可能更容易接近，但州級的保障機制不會因此消失。下一步要看這項提案能否真正推進，以及聯邦政府如何回應。",
+      "differences": [
+        "ABC 突出黨大會表決與法律風險，Guardian 更強調偏遠地區的可及性問題。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/voluntary-assisted-dying-via-telehealth-endorsed-by-alp/106956766"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-26/albanese-opposed-telehealth-voluntary-assisted-dying/106959388"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/26/labor-pressure-telehealth-access-euthanasia-assisted-dying-anthony-albanese"
         }
       ],
       "language": "zh-Hant"

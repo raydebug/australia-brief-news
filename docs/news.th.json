@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T16:12:01.655Z",
+  "updatedAt": "2026-07-30T17:07:59.048Z",
   "generatedBy": "codex",
   "language": "th",
   "sources": [
@@ -105,6 +105,21 @@
     "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "sam-mostyn-civics-warning",
+      "headline": "แซม มอสทินเตือนว่าความรู้พลเมืองที่อ่อนลงกำลังกดดันประชาธิปไตย",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T15:00:19Z",
+      "voiceScript": "ผู้สำเร็จราชการแผ่นดินแซม มอสทินบอกว่าช่องว่างด้านความเข้าใจว่าประชาธิปไตยของออสเตรเลียทำงานอย่างไร กำลังกลายเป็นปัญหาร้ายแรง และเธออยากให้การศึกษาพลเมืองเป็นเรื่องสำคัญระดับชาติ เธอมองว่านี่ไม่ใช่เรื่องของโรงเรียนเท่านั้น เพราะผู้ใหญ่ก็ต้องเข้าใจสถาบันและความรับผิดชอบให้ชัดขึ้น คำเตือนนี้สำคัญเพราะความเชื่อมั่นต่อสถาบันสาธารณะกำลังถูกกดดัน คำถามต่อไปคือรัฐบาลจะมองการศึกษาพลเมืองและการสื่อสารสาธารณะเป็นภาระระยะยาวหรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/31/governor-general-warns-of-growing-catastrophe-that-threatens-to-undermine-democracy-in-australia-ntwnfb"
+        }
+      ],
+      "language": "th"
+    },
     {
       "id": "ridge-barredo-weightlifting-injury",
       "headline": "ริดจ์ บาเรโดบอกว่าจะยกน้ำหนักต่อ แม้เจ็บหนักในเกมส์",
@@ -1522,6 +1537,31 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb"
+        }
+      ],
+      "language": "th"
+    },
+    {
+      "id": "labor-vad-telehealth-barrier",
+      "headline": "แรงงานสนับสนุนการลบอุปสรรคเทเลเฮลธ์สำหรับการช่วยตาย",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T02:22:00Z",
+      "voiceScript": "พรรคแรงงานสนับสนุนการเปลี่ยนแปลงเพื่อยกเลิกข้อจำกัดระดับสหพันธรัฐที่ทำให้แพทย์พูดคุยเรื่อง การช่วยจบชีวิต ผ่านโทรศัพท์หรือวิดีโอไม่ได้ เรื่องนี้สำคัญมากสำหรับคนในพื้นที่ห่างไกล เพราะระยะทางและการขาดแคลนผู้เชี่ยวชาญทำให้การตัดสินใจช่วงท้ายชีวิตล่าช้าอยู่แล้ว หากแคนเบอร์ราเปลี่ยนจุดยืนของพรรคให้เป็นกฎหมาย ขั้นตอนอาจเข้าถึงได้ง่ายขึ้นโดยไม่กระทบมาตรการคุ้มครองของแต่ละรัฐ ขั้นต่อไปคือดูว่า ข้อเสนอนี้จะเดินหน้าต่ออย่างไร และรัฐบาลกลางจะตอบสนองแบบไหน",
+      "differences": [
+        "ABC เน้นการลงมติของพรรคและความเสี่ยงทางกฎหมาย ส่วน Guardian เน้นการเข้าถึงของผู้ป่วยในพื้นที่ห่างไกล."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/voluntary-assisted-dying-via-telehealth-endorsed-by-alp/106956766"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-26/albanese-opposed-telehealth-voluntary-assisted-dying/106959388"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/26/labor-pressure-telehealth-access-euthanasia-assisted-dying-anthony-albanese"
         }
       ],
       "language": "th"

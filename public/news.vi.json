@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T16:12:01.655Z",
+  "updatedAt": "2026-07-30T17:07:59.048Z",
   "generatedBy": "codex",
   "language": "vi",
   "sources": [
@@ -105,6 +105,21 @@
     "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "sam-mostyn-civics-warning",
+      "headline": "Sam Mostyn cảnh báo hiểu biết công dân yếu đang gây sức ép lên dân chủ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T15:00:19Z",
+      "voiceScript": "Toàn quyền Sam Mostyn nói rằng khoảng trống hiểu biết về cách dân chủ Australia vận hành đang trở thành vấn đề nghiêm trọng, và bà muốn giáo dục công dân được coi là ưu tiên quốc gia. Bà cho rằng đây không chỉ là chuyện của trường học, vì người lớn cũng cần hiểu rõ hơn về thể chế và trách nhiệm. Lời cảnh báo này quan trọng vì niềm tin vào các cơ quan công quyền đang chịu sức ép. Câu hỏi tiếp theo là chính phủ có coi giáo dục công dân và truyền thông công là nhiệm vụ dài hạn hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/31/governor-general-warns-of-growing-catastrophe-that-threatens-to-undermine-democracy-in-australia-ntwnfb"
+        }
+      ],
+      "language": "vi"
+    },
     {
       "id": "ridge-barredo-weightlifting-injury",
       "headline": "Ridge Barredo vẫn muốn tiếp tục cử tạ sau chấn thương đáng ngại",
@@ -1522,6 +1537,31 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb"
+        }
+      ],
+      "language": "vi"
+    },
+    {
+      "id": "labor-vad-telehealth-barrier",
+      "headline": "Lao động ủng hộ gỡ rào cản y tế từ xa cho trợ tử",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-26T02:22:00Z",
+      "voiceScript": "Đảng Lao động đã ủng hộ thay đổi để xóa các rào cản liên bang ngăn bác sĩ trao đổi về trợ tử qua điện thoại hoặc video. Với người ở vùng xa, thay đổi này đặc biệt quan trọng vì khoảng cách và thiếu chuyên gia vốn đã làm chậm các quyết định cuối đời. Nếu Canberra biến lập trường của đảng thành luật, quy trình có thể dễ tiếp cận hơn mà vẫn giữ các cơ chế bảo vệ của từng bang. Bước tiếp theo là xem đề xuất có được đẩy xa hơn lập trường của đảng hay không, và chính phủ liên bang phản ứng thế nào.",
+      "differences": [
+        "ABC nhấn mạnh cuộc bỏ phiếu tại đại hội đảng và rủi ro pháp lý, còn Guardian nhấn mạnh khả năng tiếp cận của bệnh nhân vùng xa."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-25/voluntary-assisted-dying-via-telehealth-endorsed-by-alp/106956766"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-26/albanese-opposed-telehealth-voluntary-assisted-dying/106959388"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/26/labor-pressure-telehealth-access-euthanasia-assisted-dying-anthony-albanese"
         }
       ],
       "language": "vi"
