@@ -14,6 +14,15 @@
 
 内容由 Codex 定时任务每小时更新一次。任务会维护按语言拆分的数据文件，再构建 `docs/` 供 GitHub Pages 发布。
 
+定时任务生成完成后必须先确认多语言数据一致性：
+
+```bash
+npm run validate:news
+npm run build
+```
+
+`validate:news` 会检查所有语言文件的新闻数量、ID 顺序、语言字段、明显未翻译文本和发布目录同步状态。检查失败时不要发布。
+
 当前语言文件：
 
 - `public/news.en.json`

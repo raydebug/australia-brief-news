@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
+    "validate:news": "node scripts/validate-news-data.mjs",
+    "build": "npm run validate:news && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "cap:sync": "npm run build && npx cap sync"
   },

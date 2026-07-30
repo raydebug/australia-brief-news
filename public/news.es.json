@@ -1,6 +1,7 @@
 {
-  "updatedAt": "2026-07-29T11:04:39Z",
+  "updatedAt": "2026-07-30T05:13:49Z",
   "generatedBy": "codex",
+  "language": "es",
   "sources": [
     {
       "id": "abc",
@@ -100,295 +101,759 @@
     }
   ],
   "errors": [
-    "The Australian still redirects to a cookie wall, Sky News Australia still blocks nocookies pages, and news.com.au RSS remains unreliable, so latest-page and search fallbacks were used when needed.",
-    "A few current stories still only had one usable Australia-focused source inside the 7-day window, so those clusters stay single-source instead of forcing weak matches."
+    "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and the news.com.au latest-news RSS is still HTML, so fallback extraction was needed.",
+    "AAP article pages were usable for matching coverage this run, but some recent pages still needed search-result fallback to resolve the canonical URL.",
+    "A handful of fresh Australia stories remain single-source because no second recent Australia-focused report was available at collection time."
   ],
   "clusters": [
     {
-      "id": "aukus-wa-submarines",
-      "headline": "Conroy fija el punto final de 2032 para las rotaciones de submarinos estadounidenses en WA",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T09:41:00.000Z",
-      "voiceScript": "El Ministro de Defensa, Pat Conroy, dice que se espera que las rotaciones de submarinos estadounidenses a través del HMAS Stirling en Australia Occidental finalicen después de 2032. El cronograma establece un límite más firme alrededor de un tablón clave de AUKUS y brinda a Canberra una ventana de transición más clara para el plan submarino más amplio. Es importante porque la base naval ha sido fundamental para el acuerdo de rotación y para la planificación de la defensa a largo plazo en el oeste. La siguiente cuestión es qué viene después del modelo de rotación y con qué firmeza se fija la fecha de finalización.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/pat-conroy-aukus-doubts-about-timeframe/106973268"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "nt-drug-ring-aliases",
-      "headline": "Los textos de la policía vinculan la supuesta red de drogas del NT con alias cómicos",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T09:35:07.000Z",
-      "voiceScript": "La policía dice que una pila de mensajes grupales ayudó a conectar una supuesta red de drogas del Territorio del Norte con un hombre que, según ellos, estaba sentado cerca de la cima de la operación. Según los informes, los chats utilizaron alias como Duke Dingbat y Bush Jesus antes de que se revocara la libertad bajo fianza. Es importante porque los registros de mensajes pueden convertir sospechas dispersas en un mapa de quién estaba hablando con quién y cómo pudo haber funcionado la cadena de suministro. La siguiente fase es el proceso judicial, donde se pondrán a prueba los mensajes y el supuesto rol de cada persona.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/alleged-interstate-drug-ring-aliases-darwin/106972206"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "victorian-cults-email-leak",
-      "headline": "La investigación sobre las sectas victorianas expone por error correos electrónicos anónimos de supervivientes",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T08:09:11.000Z",
-      "voiceScript": "Una investigación parlamentaria de Victoria se disculpó después de que las direcciones de correo electrónico de sobrevivientes anónimos fueran accidentalmente visibles para otros miembros del grupo cuando se enviaron avisos sobre su informe final. El error es importante porque puede exponer a las personas que hablaron sobre grupos de alto control y disuadir a otros de hablar. También plantea preguntas básicas sobre cómo se manejan las pruebas sensibles en los procesos parlamentarios. El comité ahora tiene que explicar la violación y endurecer su manejo de los datos de contacto privados.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/victorian-cults-inquiry-accidentally-shares-email-address-of-anonymous-survivors-with-group-members-ntwnfb"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "inflation-eases-rate-pressure",
-      "headline": "La inflación vuelve a disminuir, lo que reduce la presión sobre una subida de tipos en agosto",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T08:02:26.000Z",
-      "voiceScript": "Las nuevas cifras de junio han quitado algo de intensidad a la historia de la inflación, con la tasa anual cayendo al 3,8 por ciento. Los mercados ahora consideran menos probable un aumento de las tasas en agosto, aunque los precios todavía están por encima de la banda objetivo del Banco de la Reserva. Eso es importante porque esta lectura influirá en los costos de endeudamiento de los hogares, la presión salarial y la próxima decisión del banco. La pregunta clave es si la desaceleración es lo suficientemente amplia como para durar.",
+      "id": "inflation-eases-chalmers-cautious",
+      "headline": "Los prestatarios todavía sienten la presión a pesar de una inflación más suave",
+      "sourceCount": 6,
+      "publishedAt": "2026-07-30T03:29:00Z",
+      "voiceScript": "Los últimos datos de inflación de Australia han aliviado algo de presión sobre las expectativas de tipos, pero los bancos siguen informando de condiciones estrictas para los prestatarios. Un nuevo informe dice que la NAB ha visto una fuerte caída en las solicitudes de préstamos hipotecarios, lo que sugiere que los hogares aún no están obteniendo mucho alivio de la crisis del costo de vida. El panorama más amplio es que la menor inflación no se ha traducido en un crédito más fácil ni en pagos más baratos. Los próximos días mostrarán si los prestamistas y el Banco de la Reserva siguen suavizando sus perspectivas.",
       "differences": [],
       "links": [
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/june-2026-inflation-falls-to-3-8-per-cent/ikupactu0"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/inflation-june-australia-2026-abs-interest-rates/106970830"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/next-rba-rate-call-hinges-on-crucial-inflation-data"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/inflation-cost-of-living-pressures-fuel-groceries-interest-rates-20260729-p60jrk.html"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/business/banking/nab-reveals-huge-plunge-in-mortgages-as-central-bank-rejects-property-rescue/news-story/26daef01d8802ea5b1a02d37910f7986"
         }
       ],
       "language": "es"
     },
     {
-      "id": "leadership",
-      "headline": "Victoria le entrega el cargo de primer ministro a Ben Carroll después de que Allan se hace a un lado",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-29T07:55:06.000Z",
-      "voiceScript": "Ben Carroll ha prestado juramento como nuevo primer ministro de Victoria después de que Jacinta Allan dimitiera en un rápido cambio de liderazgo laborista. Dice que lanzará una comisión real en el sector de la construcción del estado y utilizará la transición para restablecer el gobierno antes de las elecciones de noviembre. La medida es importante porque llega meses antes de que los votantes decidan y podría remodelar la campaña laborista, su agenda de integridad y la presión sobre la Gran Construcción. La siguiente prueba es qué tan rápido Carroll calma la sala del partido y si la investigación amplía las consecuencias políticas.",
+      "id": "nsw-clinician-led-mental-health-response",
+      "headline": "Nueva Gales del Sur comienza una respuesta dirigida por médicos para algunas emergencias de salud mental",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T02:58:52Z",
+      "voiceScript": "Nueva Gales del Sur está implementando un modelo que envía a médicos de salud mental a algunas llamadas de emergencia en lugar de a la policía. El objetivo es dar a las personas en crisis una respuesta sanitaria más rápida y reducir el riesgo de escalada. Es importante porque la primera respuesta puede determinar si alguien recibe atención, transporte o participación policial, y la siguiente pregunta es hasta qué punto se expande el sistema.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/virtual-mental-health-hub-nsw-for-emergency-callouts/106975846"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "ben-carroll-srl-review",
+      "headline": "Ben Carroll abre la puerta a una revisión de Suburban Rail Loop",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T02:11:34Z",
+      "voiceScript": "El nuevo primer ministro de Victoria dice que no descarta destinar los fondos del Suburban Rail Loop a otros proyectos, y también está señalando cambios a una prometida ley de trabajo desde casa. La medida es importante porque vuelve a poner bajo revisión una de las mayores apuestas en infraestructura del estado al comienzo de una nueva fase de liderazgo. La pregunta abierta es si zanja el debate o crea una nueva pelea sobre contratos, costos y prioridades.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/30/ben-carroll-victoria-suburban-rail-loop-funds-srl-wfh-laws"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "teacher-free-palestine-sticker-inquiry",
+      "headline": "La Comisión Real escucha las reclamaciones sobre la pegatina de \"Palestina libre\" de un profesor",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T02:05:55Z",
+      "voiceScript": "Una investigación sobre antisemitismo escuchó afirmaciones de que un maestro usó una computadora portátil marcada con una pegatina de \"Palestina libre\" mientras se examinaban las tensiones escolares. El tema es importante porque se ubica dentro de un debate más amplio sobre los estándares en las aulas, el antisemitismo y dónde las escuelas marcan el límite en cuanto a símbolos políticos. El siguiente paso es que la investigación sopese la evidencia y decida si el caso apunta a brechas políticas más amplias.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/antisemitism-hate-speech-in-schools-royal-commission/106975202"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "telegram-esafety-court-extremist-videos",
+      "headline": "eSafety lleva a Telegram a los tribunales por vídeos extremistas",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-30T01:54:55Z",
+      "voiceScript": "El comisionado de eSafety de Australia inició una acción en el Tribunal Federal contra Telegram, alegando que la plataforma no eliminó el contenido proterrorista después de que los usuarios informaran y dejó videos extremistas visibles en línea. El caso es importante porque pone a prueba hasta dónde pueden llegar las normas de seguridad en línea de Australia cuando un servicio aloja material vinculado a la propaganda de Christchurch, Buffalo e ISIS. El siguiente paso es el proceso judicial y la respuesta de Telegram.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/esafety-commission-takes-telegram-to-court-terrorism-videos/106974768"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/online/social/australia-pursuing-54m-fine-for-telegram-over-alleged-antiterror-rule-breaches/news-story/052e3a26cb57649e85bf513b7fd8729d"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "optus-federal-court-outage",
+      "headline": "ACMA lleva a Optus a los tribunales por la interrupción del triple cero de 2025",
+      "voiceScript": "El regulador de comunicaciones de Australia llevó a Optus ante el Tribunal Federal por la interrupción triple cero de 2025 que dejó sin poder conectarse las llamadas de emergencia. El caso dice que la falla violó las obligaciones de llamadas de emergencia en múltiples jurisdicciones y podría dejar a la empresa de telecomunicaciones enfrentando sanciones muy cuantiosas. También mantiene la presión sobre la industria para que demuestre que las actualizaciones de la red y otros cambios técnicos no pueden poner en riesgo el triple cero. El siguiente paso es la defensa de Optus y el calendario judicial.",
+      "differences": [],
+      "sourceCount": 5,
+      "publishedAt": "2026-07-30T01:45:52Z",
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/acma-takes-optus-to-federal-court-over-2025-outage/106975412"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/telecommunications/optus-faces-fines-up-to-251m-from-triple-zero-lawsuit-20260730-p60jyg"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/regulator-launches-legal-action-against-optus-over-deadly-september-2025-triple0-outage/news-story/fa93f881710562afd04a86942d53367d"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/business/technology/optus-faces-fines-of-up-to-251m-as-communications-watchdog-sues-over-fatal-outage/news-story/8399d15bddc678f1635c3596164f179d"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "victorian-labor-reshuffle-carroll",
+      "headline": "El ascenso de Ben Carroll desencadena otra reorganización laborista en Victoria",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-30T00:50:14Z",
+      "voiceScript": "El gobierno de Victoria está cambiando su alineación interna nuevamente a medida que Ben Carroll asume un papel más importante y se contrata a un laborista leal para gestionar la agenda antes de las elecciones de noviembre. La reorganización es importante porque restablece quién dirige la estrategia política diaria en un momento delicado. La pregunta clave es si el nuevo acuerdo estabiliza al gobierno o simplemente inicia una nueva ronda de maniobras políticas.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/politics/victoria/carroll-enlists-labor-loyalist-to-run-government-ahead-of-reshuffle-20260730-p60jwd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/politics/victoria/carroll-enlists-labor-loyalist-to-run-government-ahead-of-reshuffle-20260730-p60jwd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/politics/victoria/carroll-enlists-labor-loyalist-to-run-government-ahead-of-reshuffle-20260730-p60jwd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/politics/victoria/carroll-enlists-labor-loyalist-to-run-government-ahead-of-reshuffle-20260730-p60jwd.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/leadership-showdown-as-labor-faces-calls-for-overhaul"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "wiley-park-house-fire-three-dead",
+      "publishedAt": "2026-07-30T00:46:42Z",
+      "sourceCount": 4,
+      "headline": "Tres miembros de una familia mueren en un incendio en una casa de Wiley Park",
+      "voiceScript": "Un incendio en el apartamento de una abuela de Wiley Park en el suroeste de Sydney dejó tres personas muertas, incluido un niño de 16 años. La policía dice que los equipos fueron llamados alrededor de las 9:45 p.m. del miércoles y encontraron a las víctimas después de abrirse paso a través de la vivienda trasera en llamas. Los investigadores de la Policía de Nueva Gales del Sur y los Bomberos y Rescate de Nueva Gales del Sur todavía están trabajando para identificar los cuerpos y determinar cómo comenzó el incendio. La escena ha sido declarada escena del crimen y se realizará un informe forense.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/three-dead-in-sydney-house-fire-wiley-park/106974284"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/three-found-dead-in-granny-flat-after-house-fire"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/nsw-act/news/three-dead-after-fire-rips-through-granny-flat-in-wiley-park-sydney/news-story/2205943f227e4af8289054824bef89e2"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/nsw/three-dead-in-south-west-sydney-house-fire-20260730-p60jte.html"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "luke-gosling-arrest-inquiry",
+      "headline": "Luke Gosling enfrenta cargos después de un incidente en el festival de Darwin",
+      "voiceScript": "El diputado federal Luke Gosling ha sido arrestado y acusado de una presunta agresión al administrador del Territorio del Norte, David Connolly, en un festival de Darwin a principios de este mes. El asunto es políticamente delicado porque involucra a un parlamentario laborista en ejercicio y a un alto funcionario territorial, y su papel de enviado especial ya está bajo presión. Gosling dice que niega las acusaciones y las impugnará. El próximo punto de control es la comparecencia ante el Tribunal Local de Darwin en septiembre, que determinará las consecuencias jurídicas y políticas.",
+      "differences": [],
+      "sourceCount": 9,
+      "publishedAt": "2026-07-30T00:44:07Z",
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/federal-mp-luke-gosling-arrested-alleged-assault-administrator/106975278"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/30/luke-gosling-labor-mp-arrested-northern-territory-nt-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/northern-territory/federal-mp-luke-gosling-arrested-for-allegedly-assaulting-nt-administrator-at-public-event/news-story/f4113273d58a610e753150c508bac2b6"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/politics/federal/federal-labor-mp-luke-gosling-arrested-over-alleged-assault-20260730-p60jxl.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/politics/federal/federal-labor-mp-luke-gosling-arrested-over-alleged-assault-20260730-p60jxl.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/politics/federal/federal-labor-mp-luke-gosling-arrested-over-alleged-assault-20260730-p60jxl.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/politics/federal/federal-labor-mp-luke-gosling-arrested-over-alleged-assault-20260730-p60jxl.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/federal-labor-mp-arrested-over-assault-allegations"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/federal-labor-mp-arrested-for-alleged-assault-against-nt-administrator-20260730-p60jxi.html"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "kpmg-job-cut-pressure",
+      "headline": "Los informes sobre recortes de personal de KPMG apuntan a una mayor presión sobre los empleos de consultoría",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-30T00:38:38Z",
+      "voiceScript": "KPMG dice que no se ha tomado una decisión final, pero los informes de que se podrían eliminar alrededor de 1.000 puestos de trabajo han puesto los planes de fuerza laboral de la empresa bajo el foco de atención. Las cifras importan porque sugieren que la desaceleración generalizada de la consultoría todavía se está reflejando en la plantilla. La próxima actualización será la propia confirmación de la compañía sobre la escala, el momento y dónde se realizarán los recortes.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/business/companies/kpmg-says-no-decisions-have-been-made-on-staff-purge-amid-reports-of-1000-cuts-20260729-p60jsy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/business/companies/kpmg-says-no-decisions-have-been-made-on-staff-purge-amid-reports-of-1000-cuts-20260729-p60jsy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/business/companies/kpmg-says-no-decisions-have-been-made-on-staff-purge-amid-reports-of-1000-cuts-20260729-p60jsy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/business/companies/kpmg-says-no-decisions-have-been-made-on-staff-purge-amid-reports-of-1000-cuts-20260729-p60jsy.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "victoria-bird-flu-first-detection",
+      "headline": "Victoria registra su primera detección de gripe aviar H5N1",
+      "voiceScript": "Victoria ha confirmado su primera detección de gripe aviar H5N1 después de que un charrán crestado en el suroeste del estado diera positivo. El caso se encuentra dentro de un brote más amplio de vida silvestre que ya afecta a otros estados, por lo que las autoridades están ampliando la vigilancia y los controles de bioseguridad alrededor de las colonias de aves marinas y especies amenazadas. El riesgo para la salud pública sigue siendo bajo por ahora, pero el hallazgo es importante porque una mayor propagación aumentaría la presión sobre la protección de la vida silvestre y la planificación avícola. Más pruebas mostrarán si se trata de una detección única o parte de una cadena local más amplia.",
+      "differences": [],
+      "sourceCount": 5,
+      "publishedAt": "2026-07-30T00:31:02Z",
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/victoria-bird-flu-h5n1-detection/106839886"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/jul/30/bird-flu-australia-h5n1-how-will-it-affect-wildlife"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/environment/victoria-reports-first-ever-bird-flu-case-as-south-australia-braces-after-local-transmission/news-story/ce3d799f66276499e144f2f328fd314a"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/more-bird-flu-detections-spark-wildlife-fears"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/victoria-records-its-first-case-of-h5-bird-flu-c-22650311.amp"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "aussie-swimming-record-night",
+      "headline": "Los nadadores australianos siguen encontrando nuevas formas de sorprender al campo",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T21:59:33Z",
+      "voiceScript": "Una fuente inesperada ayudó a impulsar otra noche récord para la natación australiana. El resultado subraya la profundidad del programa de los Dolphins y la forma en que todavía aparecen nuevos nombres. La siguiente pregunta es si ese impulso se mantiene en las competiciones más importantes que se avecinan.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/kai-taylor-swimming-commonwealth-games-kyle-chalmers/106974426"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "closing-gap-off-track",
+      "headline": "El progreso de Australia en el programa Closing the Gap todavía está muy retrasado",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T21:59:16Z",
+      "voiceScript": "Un nuevo informe dice que Australia ha cumplido sólo un objetivo de Cerrar la Brecha y que algunas brechas pueden ampliarse en lugar de reducirse. El último hito es bienvenido, pero no cambia el panorama general. El siguiente punto de presión es si los gobiernos pueden convertir las metas en resultados reales.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "prisoner-detained-release-date",
+      "headline": "Los controles de custodia del sur de Australia no lograron liberar a un prisionero a tiempo",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T21:59:04Z",
+      "voiceScript": "Un defensor del pueblo descubrió que los servicios penitenciarios del sur de Australia mantuvieron bajo custodia a un preso durante varios meses después de que la persona debería haber sido liberada. El caso apunta a una falla básica en los controles de liberación más que a una disputa legal compleja. La pregunta inmediata es cuántas salvaguardas deben cambiarse para que no vuelva a ocurrir el mismo error.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/sa-correctional-services-detains-prisoner-after-release-date/106970996"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "wa-mental-health-failure-family-moves",
+      "headline": "Una familia de WA dice que la mala atención de salud mental los obligó a abandonar el estado",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T21:56:29Z",
+      "voiceScript": "Una familia dice que las brechas en el sistema de salud mental de Australia Occidental eran lo suficientemente graves como para empujarlos a un estado interestatal. Describen repetidos fracasos en la atención y el apoyo cuando más lo necesitaban. La historia añade presión al sistema estatal porque las familias todavía se ven obligadas a buscar ayuda en otros lugares.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/family-moves-interstate-poor-mental-health-services-south-west/106973160"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "victoria-roads-repair-bill",
+      "headline": "Victoria enfrenta una gran factura de reparación mientras sus carreteras siguen descomponiéndose",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T21:36:17Z",
+      "voiceScript": "La red de carreteras de Victoria se está deteriorando y un nuevo análisis sugiere que el coste de reparación será sustancial. El problema ya no es sólo el daño superficial; es la rapidez con la que los gobiernos están dispuestos a financiar una solución. Hasta que se comprometa ese dinero, los conductores seguirán pagando el precio en carreteras más accidentadas y viajes más lentos.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/how-much-it-would-cost-to-repair-victoria-crumbling-roads/106836750"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "brisbane-airborne-car-bus",
+      "headline": "Un coche chocó contra un autobús de Brisbane en un violento accidente de tráfico",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T21:11:14Z",
+      "voiceScript": "En Brisbane, un accidente hizo que un automóvil saliera volando y chocara contra el costado de un autobús. Los equipos de emergencia tuvieron que hacerse cargo del impacto y de los heridos el miércoles. El caso muestra con qué rapidez un incidente de tráfico rutinario puede convertirse en la escena de un accidente urbano grave.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/qld-car-lodges-in-bus-rocklea/106974526"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "stolen-car-teen-crash",
+      "headline": "Dos adolescentes resultaron heridas al chocar un auto robado",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T21:09:36Z",
+      "voiceScript": "Dos niñas de 14 años resultaron heridas después de que un coche robado chocara. La policía se ocupa tanto de la colisión como de la investigación del robo. Es otro recordatorio de cuán peligrosos son los delitos relacionados con vehículos robados cuando hay jóvenes involucrados.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/teenage-girls-injured-in-langwarrin-crash/106974580"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "bird-flu-poultry-risk",
+      "headline": "Los avicultores advierten que la gripe aviar puede estar propagándose entre las bandadas locales",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T20:51:08Z",
+      "voiceScript": "Los agricultores dicen que les preocupa que la gripe aviar ya se esté propagando localmente. La atención se centra en la bioseguridad, la velocidad de las pruebas y la rapidez con la que se puede rastrear una infección. Si se confirma el diferencial, los productores podrían enfrentar controles más estrictos y nuevas pérdidas.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/local-bird-flu-spread-concern-sa-poultry-farmer-biosecurity-robe/106971582"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/bird-flu-cases-climb-as-queensland-joins-tally"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "country-footy-family-debut",
+      "headline": "Una madre y su hija hicieron un inusual debut conjunto en un club de fútbol country.",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T20:43:30Z",
+      "voiceScript": "Una madre y su hija han debutado juntas en un club de fútbol de su país. Es una pequeña historia sobre un deporte local, pero es importante porque muestra hasta qué punto los clubes comunitarios todavía dependen de los lazos familiares. El momento también nos recuerda que la participación puede ser tan importante como el resultado final.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/moranbah-miners-rugby-league-club-family-debut/106947758"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "rent-housing-subsidy-ends",
+      "headline": "Un paciente mayor con cáncer se enfrenta a un fuerte aumento del alquiler después de que finalizara el apoyo a la vivienda",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T20:38:50Z",
+      "voiceScript": "Un paciente de cáncer de 80 años vio cómo el alquiler aumentaba drásticamente después de que finalizara un subsidio de vivienda. El aumento deja poco espacio en un presupuesto ya ajustado. Es un ejemplo contundente de cómo pequeños cambios de política pueden afectar más duramente a las personas con grandes necesidades de salud.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/affordable-housing-scheme-nras-ends/106954782"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "taronga-rare-snail",
+      "headline": "El zoológico de Taronga ha rescatado a un caracol poco común del borde del abismo",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T20:37:36Z",
+      "voiceScript": "El zoológico de Taronga ha criado un caracol raro que se creía perdido. El resultado muestra cómo la cría en cautiverio puede ganar tiempo para especies al borde de la extinción. Los conservacionistas ahora querrán saber si la población puede sobrevivir más allá del zoológico.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/nsw-rare-snails-thought-extinct-new-home-norfolk-island/106970802"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "elder-abuse-prevention",
+      "headline": "Los defensores presionan para que se adopten medidas más duras contra el abuso de los australianos mayores",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T20:35:40Z",
+      "voiceScript": "Los activistas dicen que el debate público sobre el abuso de personas mayores aún debe cambiar. Quieren un mayor reconocimiento del problema y respuestas más claras cuando se informa. El debate ahora es si las salvaguardias actuales son suficientes o si todavía son demasiado fáciles de ignorar.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/criminalising-elder-abuse-to-protect-older-australians/106963190"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "varroa-mite-treatment-access",
+      "headline": "Los apicultores piden un acceso más rápido a los tratamientos contra la varroa",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T20:28:07Z",
+      "voiceScript": "Los apicultores dicen que las opciones de tratamiento actuales para el ácaro varroa son demasiado limitadas. Quieren acceder a mejores herramientas antes de que la plaga cause más daños a las colmenas y al trabajo de polinización. La cuestión importa mucho más allá de la miel porque afecta a la agricultura a lo largo de toda la cadena alimentaria.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/beekeepers-access-organic-varroa-mite-treatments-agriculture-bee/106952974"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "landfill-fire-closure",
+      "headline": "Un vertedero de Melbourne cerrará años después de que un incendio dejara daños duraderos",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T20:03:09Z",
+      "voiceScript": "Está previsto que un vertedero suburbano en Melbourne cierre después de que un incendio causara problemas a largo plazo hace años. El cierre pone fin a una molestia local, pero también plantea dudas sobre adónde irán a continuación los residuos. Los residentes observarán de cerca el sitio y el plan de seguimiento.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/kealba-landfill-in-western-melbourne-to-close/106969042"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "queensland-disability-council-vacancies",
+      "headline": "Queensland todavía tiene vacantes en su consejo de discapacidad un año después",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T19:35:28Z",
+      "voiceScript": "Varios puestos en el consejo de discapacidad de Queensland siguen sin cubrir casi un año después. Eso deja una brecha en la representación formal mientras las decisiones políticas continúan avanzando. La demora sugiere que el proceso de nombramiento no ha respondido a la necesidad de voces en la mesa.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/qld-disability-council-queensland-vacancy/106970710"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "neil-the-seal-costs",
+      "headline": "Tasmania ahora tiene una factura más clara para la gestión de la foca Neil",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T19:29:01Z",
+      "voiceScript": "Las autoridades han publicado la factura de daños y los costes de gestión relacionados con la foca Neil. Las cifras convierten una historia viral sobre vida silvestre en un gasto público concreto. También muestran que gestionar un animal famoso puede ser tanto un problema de logística como un concurso de popularidad.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/neil-the-seal-damage-costs-revealed-tasmania/106970512"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "victorian-labor-ben-carroll",
+      "headline": "El ascenso de Ben Carroll ha desencadenado un nuevo reinicio laborista victoriano",
+      "sourceCount": 5,
+      "publishedAt": "2026-07-29T19:17:29Z",
+      "voiceScript": "La promoción de Ben Carroll ha profundizado la reestructuración dentro del Partido Laborista Victoriano. Los expertos del partido dicen que el cambio ha debilitado a la Izquierda Socialista y ha abierto una nueva fase en la contienda por el liderazgo. La próxima prueba es si el cambio le da al Partido Laborista un camino más claro hacia las elecciones o simplemente más tensión interna.",
       "differences": [
-        "ABC News se centra en el traspaso del caucus y los primeros anuncios de Carroll.",
-        "The Guardian Australia destaca la toma de juramento, la comisión real y el momento de las elecciones.",
-        "SBS News destaca la salida de Allan y la necesidad de estabilizar el gobierno.",
-        "news.com.au enfatiza la división interna y el último desafío de Sonya Kilkenny.",
-        "AAP News señala que la transferencia evitó una votación prolongada sobre el liderazgo.",
-        "9News lo presenta como una dramática reunión en una sala de fiestas seguida del primer discurso de Carroll como primer ministro."
+        "ABC enfatiza el daño entre facciones dentro del Partido Laborista, mientras que The Guardian enfatiza las perspectivas electorales de Carroll y las consecuencias de la lucha interna.",
+        "La misma reorganización política se interpreta como un golpe entre facciones o como una oportunidad para reiniciar la campaña."
       ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/victorian-labor-caucus-weighs-up-allan-leadership/106962972"
+          "url": "https://www.abc.net.au/news/2026-07-30/victoria-labor-party-leadership-jacinta-allan-ben-carroll/106973322"
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/28/jacinta-allan-victoria-labor-leadership-spill-ben-carroll-challenge-antisemitism-royal-commission-nsw-icac-inquiry-queensland-estimates-ntwnfb"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/jacinta-allan-resigns-quits-victoria-premier-leadership-challenge-ben-carroll"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/victorian-premier-jacinta-allan-resigns/41gb9d0wd"
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/daniel-andrews-statement-ben-carroll-victoria-state-election-ntwnfb"
         },
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/victoria/politics/ben-carroll-asks-jacinta-allan-to-step-aside-as-victorian-premier-weeks-after-promising-he-wouldnt/news-story/621a2e6b78e523a58e69176e5341a1ed"
         },
         {
-          "source": "AAP News",
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/new-victoria-premier-carroll-set-to-make-changes-to-wfh-laws-20260729-p60jjg"
+        },
+        {
+          "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/leadership-showdown-as-labor-faces-calls-for-overhaul"
-        },
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/vic/jacinta-allan-leadership-spill-updates-victoria-20260728-p60j2n.html"
-        },
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "endangered-bat-decline",
+      "headline": "Un murciélago australiano en peligro de extinción ha sufrido otra fuerte caída de su población",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T15:00:37Z",
+      "voiceScript": "Los científicos dicen que la población de un murciélago australiano en peligro de extinción ha disminuido drásticamente y la causa aún no está clara. En una zona, la caída llega al 16 por ciento. Esa incertidumbre hace que el problema de la conservación sea más urgente porque los administradores aún no saben qué lo impulsa.",
+      "differences": [],
+      "links": [
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/ben-carroll-premier-u-turn-victoria-labor"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/ben-carroll-first-full-day-as-victorian-premier/106968666"
-        },
+          "url": "https://www.theguardian.com/environment/2026/jul/30/southern-bent-wing-bat-population-decline"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "chicken-labels-mean",
+      "headline": "Se están decodificando las etiquetas de pollo de los supermercados australianos para los compradores",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T15:00:36Z",
+      "voiceScript": "A los compradores se les está diciendo qué significan realmente etiquetas como criado en libertad, orgánico y sin hormonas en los productos de pollo australianos. La preocupación es que la redacción pueda parecer más clara de lo que realmente son las normas subyacentes. Para los consumidores, la cuestión es si la etiqueta coincide con las expectativas en la caja.",
+      "differences": [],
+      "links": [
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/daniel-andrews-statement-ben-carroll-victoria-state-election-ntwnfb"
+          "url": "https://www.theguardian.com/food/2026/jul/30/free-range-organic-and-hormone-free-what-do-australian-supermarket-chicken-labels-mean"
         }
       ],
       "language": "es"
     },
     {
-      "id": "cult-inquiry-coercive-control",
-      "headline": "La investigación de Victoria respalda las leyes de control coercitivo para grupos marginales",
-      "publishedAt": "2026-07-29T07:52:51.000Z",
-      "sourceCount": 1,
-      "voiceScript": "Una investigación parlamentaria victoriana recomendó extender las leyes de control coercitivo a grupos religiosos y marginales de alto control. El panel dice que las reglas actuales no capturan completamente la forma en que algunas comunidades cerradas aíslan a sus miembros, imponen la obediencia y presionan a las personas financiera o emocionalmente. Esto es importante porque el abuso puede ocultarse incluso cuando no hay violencia física evidente, lo que dificulta la intervención de la policía y los tribunales. El siguiente paso es si el gobierno estatal redacta la legislación y con qué amplitud se redactarían las nuevas reglas.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/cult-inquiry-recommendations-victoria-fringe-groups/106971052"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "capital-guard-bond-fraud",
-      "headline": "Los inversores de Capital Guard perdieron 17 millones de dólares en un acuerdo de bonos falso",
-      "publishedAt": "2026-07-29T07:35:16.000Z",
-      "sourceCount": 1,
-      "voiceScript": "ASIC dice que los inversores pusieron 17 millones de dólares en un plan de bonos de Capital Guard que no existía. El regulador dice que el dinero se recaudó bajo la promesa de una inversión legítima, pero el producto era falso y los fondos ahora faltan. Esto es importante porque el caso muestra cómo las estafas a gran escala pueden utilizar un lenguaje financiero familiar para ganarse la confianza. El siguiente paso es rastrear el dinero y decidir si se sigue una acción civil o penal.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/capital-guard-bonds-investment-fraud-millions-missing/106951318"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "south-australia-murder-suicide",
-      "headline": "Australia del Sur trata la muerte de una mujer y un niño pequeño como asesinato-suicidio",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-29T07:33:26.000Z",
-      "voiceScript": "La policía de Australia del Sur dice que está tratando la muerte de una mujer y su niño pequeño encontrados en el agua frente a la costa sureste del estado como un asesinato-suicidio. El caso ahora gira en torno a la línea de tiempo anterior a que se encontraran los cuerpos y lo que los investigadores pueden reconstruir a partir de la escena. Es importante porque la muerte de un padre y un niño plantea cuestiones forenses y de salvaguardia urgentes, y la ubicación costera dificulta la investigación. A continuación, la policía seguirá recopilando movimientos y circunstancias antes de llegar a conclusiones formales.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/police-treating-death-of-woman-and-toddler-as-murder-suicide/106968662"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/sa-police-helena-wright-toddler-death-missing-baby-port-macdonnell-ntwnfb"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "australia-post-stamp-rise",
-      "headline": "Australia Post volverá a subir los precios de los sellos en septiembre",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T06:30:00Z",
-      "voiceScript": "Australia Post planea aumentar el precio de un sello estándar a 1,85 dólares a partir del 1 de septiembre, después de que el volumen de cartas cayera a niveles no vistos desde la década de 1930. El aumento es pequeño para la mayoría de los hogares, pero es importante porque el costo de mantener en funcionamiento un servicio de correspondencia a nivel nacional sigue aumentando a medida que la mensajería digital reemplaza al correo. Los sellos de concesión y saludo permanecen sin cambios, lo que suaviza el impacto para algunos usuarios. El siguiente paso es la implementación final en septiembre y cualquier respuesta de Canberra.",
-      "differences": [],
-      "links": [
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/money/costs/stamp-price-increase-approved-as-australia-post-says-letter-volumes-are-at-1930s-levels/news-story/0668d893eabfa3b88179a2be8525efb9"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "nt-clp-closing-the-gap-funding",
-      "headline": "Grupos aborígenes del NT presionan al CLP sobre el gasto de Closing the Gap",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T06:06:00Z",
-      "voiceScript": "Los grupos aborígenes del Territorio del Norte están presionando al gobierno del CLP sobre cómo se gasta el dinero de Closing the Gap, argumentando que el público necesita una rendición de cuentas más clara. La disputa es importante porque el financiamiento está destinado a mejorar los resultados en materia de vivienda, salud y justicia, y los retrasos o la supervisión deficiente pueden dejar a las comunidades sin los servicios que se supone debe financiar el programa. También alimenta un argumento más amplio sobre qué tan bien el territorio está cumpliendo con los objetivos indígenas. El siguiente paso es la respuesta del gobierno y si publica más detalles sobre el gasto.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/nt-child-protection-changes-closing-the-gap-financial-penalties/106961540"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "banks-offset-account-failures",
-      "headline": "ASIC dice que los errores de compensación de hipotecas han costado millones a los prestatarios",
-      "voiceScript": "ASIC dice que varios bancos no han establecido ni monitoreado adecuadamente las cuentas de compensación hipotecaria, lo que ha dejado a los clientes pagando más intereses de los que deberían. El organismo de control dice que los bancos ya han pagado más de 55 millones de dólares en compensación, y la exposición total afecta a millones de hogares australianos con préstamos hipotecarios. El problema es importante porque las cuentas de compensación están diseñadas para reducir los reembolsos, pero pequeños errores de procesamiento pueden ocurrir durante años antes de que se noten. El siguiente paso inmediato es que los prestatarios revisen sus estados de cuenta y que los bancos limpien los errores restantes.",
+      "id": "fair-work-court-data-push",
+      "headline": "Los datos judiciales están socavando el caso del Partido Laborista a favor de un nuevo tribunal laboral",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-29T08:29:00Z",
+      "voiceScript": "Las cifras de los tribunales federales sugieren que los casos relacionados con el lugar de trabajo y los pagos insuficientes ya están avanzando más rápido, lo que debilita el argumento del Partido Laborista a favor de un nuevo Tribunal Laboral Justo. El gobierno sigue respaldando el plan tras la presión de los sindicatos y simpatizantes dentro del partido. La verdadera prueba ahora es si el cambio aceleraría las disputas o simplemente agregaría otra capa a un sistema que ya está ocupado.",
       "differences": [
-        "ABC pone en el centro el baremo de las indemnizaciones y la advertencia del regulador.",
-        "SBS convierte el informe en un manual práctico para que los prestatarios comprueben su propia cuenta.",
-        "La AAP destaca el riesgo oculto de cobro excesivo e insta a los clientes a llamar a su banco.",
-        "AFR se centra en la factura de compensación y la presión de la ASIC sobre los bancos."
+        "ABC y news.com.au se centran en el anuncio de la conferencia laborista y el caso político a favor del tribunal, mientras que AFR se concentra en los datos judiciales que cuestionan su necesidad.",
+        "Las tres fuentes describen el mismo impulso político, pero lo enmarcan como una reforma o una solución que busca un problema."
       ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/hidden-harm-the-17-000-offset-account-failure-that-exposes-banks-costly-blind-spot/kkx8e9306"
+          "url": "https://www.abc.net.au/news/2026-07-23/federal-politics-live-blog-paid-prac/106947462"
         },
         {
           "source": "Australian Financial Review",
-          "url": "https://www.afr.com/companies/financial-services/regulator-slams-top-banks-over-failings-in-mortgage-offset-accounts-20260726-p60in7"
+          "url": "https://www.afr.com/work-and-careers/workplace/no-delays-court-data-contradicts-albanese-s-fair-work-court-push-20260729-p60jh9"
         },
         {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/bank-errors-costing-homebuyers-millions-in-overcharges"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/work/at-work/labor-to-expand-paid-prac-for-frontline-health-workers/news-story/7e2607b80c1f4bbd7420e3cfd4d2d6cb"
         }
       ],
-      "publishedAt": "2026-07-29T05:46:00.000Z",
-      "sourceCount": 5,
       "language": "es"
     },
     {
-      "id": "geelong-driver-jailed-mia-rossiter",
-      "headline": "Un tribunal de Victoria encarcela a un conductor por un accidente mortal en Geelong",
-      "voiceScript": "Un tribunal de Victoria encarceló a Jordan Kenyon después de que se declarara culpable de un accidente que mató a Mia Rossiter, de 12 años, cerca de Geelong. El tribunal escuchó que estaba en libertad condicional, tenía un largo historial de conducción y estaba drogado con GHB cuando cruzó el coche de la familia en Stonehaven. El caso es importante porque muestra cómo la reincidencia al conducir y una supervisión deficiente pueden terminar en un resultado fatal. El siguiente paso es el detalle de la sentencia y la larga recuperación de la familia del accidente.",
+      "id": "sunshine-coast-holiday-club-liquidation",
+      "headline": "Un club de vacaciones de Sunshine Coast colapsó y los miembros quieren reembolsos",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:18:53Z",
+      "voiceScript": "El Resort Club, un programa de puntos de vacaciones de Sunshine Coast, ha entrado en liquidación. Los miembros que pagaron por adelantado ahora están intentando recuperar el dinero y las reservas que esperaban utilizar más adelante. El colapso es otra advertencia sobre los riesgos de los planes de viajes prepagos.",
       "differences": [],
       "links": [
         {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/jordan-kenyon-jailed-over-crash-that-killed-mia-rossiter/106971210"
+          "source": "7NEWS",
+          "url": "https://7news.com.au/travel/sunshine-coast-holiday-company-the-resort-club-enters-liquidation-after-one-star-reviews-and-refund-complaints-c-22646161"
         }
       ],
-      "publishedAt": "2026-07-29T05:29:54.000Z",
-      "sourceCount": 1,
       "language": "es"
     },
     {
-      "id": "angus-taylor-icac-donation-denial",
-      "headline": "NSW ICAC amplía las consecuencias políticas para Angus Taylor",
-      "voiceScript": "La investigación sobre corrupción en Nueva Gales del Sur ha llevado a Angus Taylor a una lucha entre facciones más amplia después de que testigos y mensajes plantearan afirmaciones sobre donaciones a un grupo liberal conservador. Taylor dice que no hizo ningún pago y no está acusado de ningún delito, pero la audiencia ya ha profundizado el daño político del partido. La comisión también está examinando un esfuerzo separado para atacar a un ex ministro con un documento perjudicial, lo que demuestra cuán amplia se ha vuelto la investigación. El siguiente paso es la continuación de las audiencias y cualquier prueba que vincule las denuncias con faltas formales.",
+      "id": "offset-account-failures",
+      "headline": "Las fallas en las cuentas de compensación han dejado a los clientes bancarios revisando sus saldos",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T08:12:42Z",
+      "voiceScript": "A los titulares de hipotecas se les pide que revisen sus cuentas bancarias después de que se descubrieron fallas en el sistema de compensación. El problema aumenta el riesgo de que los ahorros vinculados a préstamos hipotecarios no estuvieran funcionando como se esperaba. Los clientes ahora necesitan una confirmación clara de que sus cuentas están configuradas y protegidas correctamente.",
       "differences": [
-        "ABC se centra en las pruebas de la \"hoja de mierda\" y la supuesta campaña contra David Elliott.",
-        "La AAP se centra en la negación de Taylor de cualquier donación y en la inclusión de su nombre en la investigación.",
-        "Guardian enfatiza la corrupción más amplia y las consecuencias entre facciones."
+        "SBS explica cómo comprobar si la cuenta de compensación funciona, mientras que 7NEWS advierte a los titulares de hipotecas tras el descubrimiento de los fallos.",
+        "Ambos se centran en el riesgo práctico para los clientes, pero SBS ofrece una guía práctica más amplia."
       ],
       "links": [
         {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/nsw-icac-rosny-dylan-whitelaw-david-elliott/106971066"
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/how-to-check-your-offset-account-is-working-properly-after-55-million-error-exposed/way17b2qi"
         },
         {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/angus-taylor-nsw-icac-inquiry-liberal-party-reformers-donation-ntwnfb"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/no-payment-was-made-liberal-leader-denies-donation"
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australians-mortgage-holders-told-to-check-bank-accounts-after-costly-offset-failures-discovered-c-22646473"
         }
       ],
-      "publishedAt": "2026-07-29T05:24:20.000Z",
-      "sourceCount": 3,
       "language": "es"
     },
     {
-      "id": "one-nation-qld-missing-financial-statements",
-      "headline": "La sucursal de One Nation en Queensland enfrenta una fecha límite de cumplimiento",
+      "id": "fuel-discount-and-petrol-prices",
+      "headline": "Los conductores se preparan para facturas de combustible más altas a medida que desaparece el descuento",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-29T07:36:19Z",
+      "voiceScript": "El descuento en combustible está terminando y se les pide a los conductores que estén atentos a las fechas a medida que se restablecen los precios. La gasolina ya ha superado los 2 dólares el litro en algunas zonas. La presión inmediata recae sobre los presupuestos de los hogares, pero el efecto más amplio del costo de vida podría extenderse rápidamente.",
+      "differences": [
+        "La cobertura de Guardian trata la medida como parte de un aumento en el precio del combustible, mientras que SBS se centra en el final del descuento y en lo que los conductores deben hacer a continuación.",
+        "Ambos informes apuntan a la misma presión sobre los precios, pero enmarcan el dolor inmediato de manera diferente."
+      ],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/fuel-excise-ends-sunday-what-to-do/spv7v7xap"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/federal-politics-live-blog-hanson-donation-july-29/106969612"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "qantas-long-haul-plane",
+      "headline": "El plan de aviones de largo alcance de Qantas podría cambiar la forma en que vuelan los australianos",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T06:48:46Z",
+      "voiceScript": "Qantas sigue adelante con un proyecto de avión que batirá récords y que podría reducir la necesidad de escalas en viajes muy largos. La aerolínea quiere que los viajes directos desde Australia sean más prácticos. La prueba es si el avión y la economía pueden funcionar a escala.",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/project-sunrise-why-stopovers-will-survive/hj6549f5h"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "wa-oil-refinery-criticism",
+      "headline": "La refinería de petróleo propuesta por Australia Occidental enfrenta crecientes críticas",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-29T06:15:55Z",
+      "voiceScript": "Los expertos cuestionan la propuesta de refinería de petróleo en Australia Occidental y la califican de tecnología obsoleta. Dicen que el plan no encaja bien con la transición a la energía limpia. La verdadera cuestión es si el proyecto es comercialmente sensato o si ya está atrasado.",
+      "differences": [
+        "The Guardian se inclina hacia la crítica de la energía limpia, mientras que SBS enmarca el plan como un debate más amplio sobre políticas y suministro.",
+        "Ambas historias cuestionan si la refinería todavía tiene sentido en el actual cambio energético."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/western-australia-oil-refinery-feasibility-study"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/does-albaneses-idea-for-more-australian-oil-supplies-stack-up/gznqdz12z"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/third-oil-refinery-on-cards-to-help-shield-australia"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "one-nation-financial-records-risk",
+      "headline": "Las cuentas perdidas de One Nation están poniendo en riesgo su sucursal de Queensland",
       "sourceCount": 3,
       "publishedAt": "2026-07-29T04:56:00Z",
-      "voiceScript": "Los reguladores de Queensland le han dado a One Nation hasta el 18 de agosto para presentar tres años de estados financieros vencidos o enfrentar la cancelación de la asociación. La documentación que falta abarca de 2023 a 2025 y se ha convertido en una nueva prueba de los controles internos del partido. Es importante porque los incumplimientos pueden generar sanciones, dañar la confianza pública y complicar a un partido que ya se encuentra bajo presión política. El siguiente paso es si las presentaciones llegan a tiempo o si el regulador actúa para hacer cumplir el plazo.",
+      "voiceScript": "Los reguladores de Queensland dicen que One Nation todavía debe cuentas auditadas durante tres años, y ese retraso ha puesto a la entidad estatal del partido bajo una presión real. El partido dice que presentará la documentación, pero el incumplimiento de los plazos ha dejado a su sucursal de Queensland expuesta a cancelaciones y sanciones. La historia importa porque convierte un problema de presentación de solicitudes en una prueba para determinar si el partido puede mantener intacta su organización local.",
       "differences": [
-        "ABC centra la fecha límite del 18 de agosto y el riesgo de baja.",
-        "The Guardian lo enmarca como un incumplimiento con consecuencias políticas en Queensland.",
-        "AFR destaca los registros faltantes y la reacción de Jim Chalmers."
+        "ABC destaca el plazo del regulador y la promesa del partido de ponerse al día, mientras que AFR subraya las declaraciones que faltan y el riesgo de cancelación.",
+        "The Guardian enmarca el problema como una falla de cumplimiento más amplia que podría despojar a One Nation de su base en Queensland."
       ],
       "links": [
         {
@@ -396,351 +861,9 @@
           "url": "https://www.abc.net.au/news/2026-07-29/qld-pauline-hanson-one-nation-financial-statements/106972240"
         },
         {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
-        },
-        {
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/politics/federal/missing-financial-records-put-one-nation-at-risk-in-queensland-20260729-p60jlr"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "ivf-twins-lawsuit-royal-north-shore",
-      "headline": "Hospital de Sydney demandado por confusión de embriones encontrada en una prueba de ADN",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T04:51:00Z",
-      "voiceScript": "Una familia de Sydney ha iniciado un caso civil después de que las pruebas de ADN expusieran una confusión de embriones de FIV en 1995 en el Royal North Shore Hospital. Los gemelos fueron criados por la madre biológica equivocada y el reclamo ahora va a la Corte Suprema de Nueva Gales del Sur. El caso es importante porque trata sobre la responsabilidad en los servicios de fertilidad y la larga cola de errores clínicos históricos. El proceso judicial comprobará ahora qué ocurrió, quién es el responsable y qué compensación puede derivarse.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/lawsuit-launched-over-decades-old-ivf-mix-up/106970538"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "elizabeth-east-major-police-operation",
-      "headline": "La policía cierra la carretera de Adelaida en una importante operación en el lado norte",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T04:39:00Z",
-      "voiceScript": "La policía bloqueó parte de Main North Road en el norte de Adelaida después de un incidente importante en Elizabeth East. Decenas de oficiales y equipos de emergencia estaban en el lugar, y el tráfico en dirección sur se desvió mientras los investigadores trabajaban cerca de Fairfield Road. La importancia es inmediata para la seguridad y el tráfico locales, pero los hechos fundamentales aún no están claros. La policía dice que informarán al público más tarde hoy.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/police-responding-to-incident-at-elizabeth-east/106972018"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "june-inflation-eases-rate-hike-odds",
-      "headline": "La inflación de junio se enfría, aliviando la presión sobre las tasas de agosto",
-      "voiceScript": "La tasa de inflación anual de Australia cayó al 3,8 por ciento en junio, mientras que la medida media recortada del Banco de la Reserva se mantuvo en el 3,6 por ciento. El resultado más débil quitó algo de presión a los hogares y empujó a los mercados a reducir la posibilidad de un aumento de las tasas en agosto, a pesar de que la vivienda, los alquileres y otros servicios siguen siendo difíciles. Es importante porque el RBA se reunirá nuevamente dentro de quince días y el próximo paso determinará los costos de endeudamiento, el gasto y la confianza. La principal incertidumbre es si los shocks de oferta de combustible, vivienda y otros seguirán influyendo en las lecturas de inflación posteriores.",
-      "differences": [
-        "ABC News se centra en las cifras más frías del IPC y la reacción del mercado.",
-        "The Guardian Australia destaca el alivio para los titulares de hipotecas junto con una inflación de servicios aún persistente.",
-        "Australian Financial Review destaca el reinicio de las expectativas sobre los tipos y el repunte de las acciones.",
-        "AAP News se centra en las menores probabilidades de un aumento en agosto.",
-        "SBS News enmarca el resultado como una señal de bienvenida, al tiempo que advierte que persisten las presiones subyacentes."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/inflation-june-australia-2026-abs-interest-rates/106970830"
         },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/business/2026/jul/29/cpi-rate-inflation-rba-reserve-bank-australia-interest-rates"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/policy/economy/softer-inflation-gives-rba-room-to-hold-rates-20260729-p60jip"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/australian-shares-surge-as-inflation-eases-rio-rallies"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/podcast-episode/chalmers-inflation-drop-is-a-good-sign-evening-news-bulletin-29-july-2026/expibfrsb"
-        }
-      ],
-      "publishedAt": "2026-07-29T04:21:32.000Z",
-      "sourceCount": 5,
-      "language": "es"
-    },
-    {
-      "id": "pump-price-relief-ends-oil-risks",
-      "headline": "El alivio del combustible termina justo cuando la gasolina vuelve a subir",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-29T03:59:54Z",
-      "voiceScript": "El descuento temporal de combustible en Australia finalizará el 2 de agosto, y los conductores ya están viendo cómo la gasolina vuelve a alcanzar los 2 dólares el litro o más en muchas ciudades. La presión es importante porque el combustible alimenta directamente el transporte, los comestibles y la presión hipotecaria, por lo que un pequeño cambio puede llegar rápidamente a los presupuestos de los hogares. Los observadores del Tesoro y del mercado están vinculando la medida con los mayores precios mundiales del petróleo y tensiones más amplias en Oriente Medio. El siguiente paso es si los precios se estabilizan después de que finalice el recorte de impuestos especiales o si suben más si continúan las crisis en el extranjero.",
-      "differences": [
-        "ABC se centra en la fecha límite del impuesto especial y el impacto inmediato del efectivo en los conductores.",
-        "The Guardian vincula el aumento del petróleo con una presión más amplia en los hogares y el riesgo de tipos.",
-        "news.com.au destaca las advertencias del Tesoro y los precios de los surtidores ciudad por ciudad.",
-        "La AAP enmarca la historia en torno a la gasolina por encima de los 2 dólares y las perspectivas económicas más amplias."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/fuel-excise-discount-ends-iran-war-oil-prices/106971298"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/economy/australian-economy/australians-facing-fresh-fuel-nightmare-as-treasury-briefing-warns-price-pressures-may-intensify-as-middle-east-conflict-continues/news-story/4f124e67768d0d6d8271c4e5be95be68"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/higher-rates-and-pricey-petrol-as-economic-outlook-dims"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "shoalhaven-land-sale-sparks-backlash",
-      "headline": "El plan de venta de terrenos de Shoalhaven provoca una reacción violenta de los grupos comunitarios",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T03:54:34Z",
-      "voiceScript": "El plan del Ayuntamiento de Shoalhaven de vender terrenos por valor de unos 14 millones de dólares ha provocado fuertes objeciones por parte de grupos locales sin fines de lucro. La lucha se trata de más de una venta de activos: afecta las instalaciones comunitarias, el desarrollo futuro y la forma en que los ayuntamientos gestionan los terrenos públicos. Es importante porque una vez que se vende la tierra, es difícil revertir la decisión. El siguiente paso es si los concejales ralentizan el proceso, cambian el plan o lo impulsan.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/shoalhaven-council-land-sell-off/106968006"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "benji-marshall-vaping-denial",
-      "headline": "Benji Marshall niega informes de vapeo dentro del gimnasio de los Tigres",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T03:28:44Z",
-      "voiceScript": "El entrenador de los Wests Tigers, Benji Marshall, rechazó las acusaciones de que los jugadores estaban vapeando en el gimnasio del club. El tema es importante porque va directo a la disciplina, el profesionalismo y los estándares esperados dentro de un programa NRL. Una violación confirmada agregaría presión a una parte que ya está tratando de restablecer su cultura. El siguiente paso es si el club añade detalles, los mantiene internos o deja que la historia se desvanezca.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/wests-tigers-nrl-benji-marshall-adam-doueihi-vaping/106971632"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "datacentres-renewables-offset-rules",
-      "headline": "Los estados respaldan reglas que obligan a los centros de datos a compensar su uso de energía",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-29T03:19:00Z",
-      "voiceScript": "Los ministros federales y estatales acordaron reglas que harían que los grandes centros de datos inviertan en generación renovable adicional para que su demanda no haga subir los precios de la electricidad. Queensland y el Territorio del Norte son los que se resisten, mientras que el resto del país ha respaldado un marco nacional. La cuestión es importante porque el crecimiento de los centros de datos podría remodelar las facturas de energía, el uso del agua y el ritmo de los nuevos proyectos energéticos. Los ministros deben perfeccionar las reglas en septiembre y la industria advierte que el diseño final debe ser viable.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/queensland-northern-territory-reject-ai-datacentre-renewable-energy"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/new-plan-prevent-data-centres-driving-power-prices-up/j0li5asyx"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "canberra-elective-surgery-record",
-      "headline": "Canberra registra un recuento récord de cirugías electivas",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T03:13:47Z",
-      "voiceScript": "El sistema de salud de Canberra ha registrado un número récord de cirugías electivas, una señal de que parte de la presión sobre la lista de espera puede estar disminuyendo. Esto es importante porque cada operación adicional puede significar menos dolor, menos demoras y un regreso más rápido al trabajo para los pacientes. También le da al nuevo ministro de salud del territorio un número fuerte que defender. La próxima prueba es si los hospitales pueden mantener el ritmo sin crear nuevos cuellos de botella en otros lugares.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/act-elective-surgery-figures-new-health-minister/106966668"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "hunter-transmission-line-green-light",
-      "headline": "La línea de transmisión de Hunter recibe luz verde después de un importante desvío",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T03:06:26Z",
-      "voiceScript": "Un importante proyecto de línea de transmisión en Hunter obtuvo la aprobación después de que los planificadores alejaron la ruta de más hogares y hábitats sensibles de ranas. La decisión es importante porque las actualizaciones de la red son fundamentales para la transición energética, pero cada cambio también agrega costos, tiempo y fricciones comunitarias. Muestra lo difícil que es construir nueva infraestructura limitando al mismo tiempo los daños locales. El siguiente paso es la planificación de la construcción y si surgen más objeciones.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/hunter-transmission-project-approved-route-amended/106969890"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "qantas-worker-payout-delay",
-      "headline": "El tribunal critica el retraso en la compensación a los trabajadores de Qantas",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T02:58:44Z",
-      "voiceScript": "Un juez criticó la lentitud en la entrega de la compensación de 120 millones de dólares que Qantas acordó pagar a los trabajadores que despidió ilegalmente. La disputa ahora se centra menos en el tamaño del pago y más en cuánto tiempo debe esperar el personal afectado para obtener el dinero destinado a resolver una larga lucha legal. Esto es importante porque la compensación sólo funciona si llega a las personas con prontitud, especialmente después de años de procedimientos. A continuación, el tribunal seguirá presionando a los abogados que se encargan del pago y cualquier retraso adicional debería quedar más claro.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/judge-pans-maurice-blackburn-lawyers-re-qantas-worker-payouts/106970578"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "sa-bird-flu-sea-lions",
-      "headline": "La gripe aviar parece estar propagándose entre la fauna del sur de Australia",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-29T02:58:20Z",
-      "voiceScript": "Australia del Sur ahora enfrenta un problema mucho más amplio de gripe aviar H5, y las autoridades dicen que la transmisión local es muy probable y que aparecen casos sospechosos en todo el sureste del estado. La preocupación es que el virus pueda estar moviéndose a través de la vida silvestre en lugar de permanecer en aves aisladas, lo que dificulta la contención y aumenta los riesgos para los leones marinos y las aves de corral cercanas. Esto es importante porque la respuesta de bioseguridad se vuelve mucho más compleja una vez que la propagación se establece en la naturaleza. El siguiente paso es la confirmación en laboratorio y la vigilancia continua de la costa y los lugares de reproducción.",
-      "differences": [
-        "ABC se centra en la transmisión local y la respuesta de vigilancia.",
-        "The Guardian hace hincapié en los casos sospechosos en la costa de Limestone y en la propagación de la fauna.",
-        "La AAP destaca el riesgo para las colonias de leones marinos y la amenaza más amplia a la vida silvestre."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/h5-bird-flu-strain-very-likely-spreading-locally-in-sa/106970486"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/h5-bird-flu-suspected-new-cases-south-australia"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/extremely-likely-bird-flu-now-spreading-in-wildlife"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "high-thc-cannabis-prescribing-concerns",
-      "headline": "La prescripción de cannabis con alto contenido de THC genera nuevas preocupaciones sobre su seguridad",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T02:45:20Z",
-      "voiceScript": "Una revisión de la Universidad de Monash dice que los médicos australianos recetan con frecuencia productos de cannabis medicinal con niveles de THC muy superiores a los que se han probado en los ensayos. Algunos productos alcanzan el 88 por ciento de THC, mientras que la base de evidencia más sólida solo cubre productos con hasta un 22 por ciento, y ahora se insta a los reguladores a reforzar la supervisión. El problema es importante porque el dolor crónico, la ansiedad y la prescripción de telesalud están generando grandes volúmenes de uso, mientras que los daños reportados incluyen psicosis y náuseas intensas. El siguiente paso es si la TGA avanza hacia límites de concentración, un mejor etiquetado y un seguimiento más estricto.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/cannabis-prescription-australia-doctors"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "offset-account-errors",
-      "headline": "ASIC dice que los errores en las cuentas de compensación cuestan a los titulares de hipotecas 55 millones de dólares",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-29T02:20:00.000Z",
-      "voiceScript": "ASIC dice que los bancos pagaron más de 55 millones de dólares en compensación durante dos años después de que las cuentas de compensación no lograron reducir adecuadamente los intereses hipotecarios. El organismo de control revisó más de 200.000 préstamos hipotecarios y encontró errores como cuentas que no estaban vinculadas correctamente, lo que hacía que los prestatarios pagaran más de lo que deberían. Esto es importante porque las pérdidas pueden permanecer ocultas durante meses, e incluso los pequeños errores pueden acumularse en hipotecas grandes. El siguiente paso es que los bancos arreglen las cuentas, compensen a los clientes afectados y expliquen cuántos prestatarios se vieron afectados.",
-      "differences": [
-        "ABC News se centra en la revisión de ASIC en más de 200.000 préstamos.",
-        "The Guardian Australia enfatiza la magnitud del interés adicional y el proceso de quejas.",
-        "SBS News explica cómo los prestatarios pueden comprobar si una cuenta de compensación está vinculada correctamente.",
-        "7NEWS destaca cómo los errores pueden ser difíciles de detectar para los clientes."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/home-loan-borrowers-miss-out-on-millions-in-offset-savings-asic/106965180"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/banks-charged-mortgage-holders-55m-in-extra-interest-after-offset-account-errors-asic-finds"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/how-to-check-your-offset-account-is-working-properly-after-55-million-error-exposed/way17b2qi"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/australian-mortgage-holders-told-to-check-bank-accounts-after-costly-offset-failures-discovered-c-22646473"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "gosford-stabbing-appeal",
-      "headline": "La policía busca a un adolescente tras un apuñalamiento mortal en Gosford",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T02:08:23Z",
-      "voiceScript": "La policía está pidiendo a un chico de 15 años que se presente después de que un hombre fuera apuñalado mortalmente en la calle principal de Gosford. El caso ahora depende de la línea de tiempo desde el ataque nocturno hasta la apelación para que el niño se pusiera en contacto con los investigadores. Es importante porque la violencia en el centro de una ciudad concurrida puede propagar rápidamente el miedo y plantear preguntas sobre quién estuvo presente y por qué. A continuación, los investigadores intentarán identificar al niño y confirmar exactamente lo que sucedió antes de que se consideren los cargos.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/teen-appeal-after-gosford-stabbing/106969544"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "melbourne-steroid-trafficking",
-      "headline": "Pareja de Melbourne acusada de presunta red de tráfico de esteroides",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T01:47:11Z",
-      "voiceScript": "La policía dice que un hombre y una mujer en Melbourne fueron acusados ​​de una supuesta operación de tráfico de esteroides. El caso se centra en cómo se obtuvieron, trasladaron y presentaron las drogas, y si se utilizó una fachada médica falsa. Es importante porque el suministro de esteroides está estrictamente controlado y puede superponerse a preocupaciones más amplias relacionadas con el crimen organizado. El siguiente paso es el proceso judicial y cualquier hallazgo policial adicional.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/melbourne-man-and-woman-charged-with-trafficking-steroids/106970736"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "gold-coast-third-transplant",
-      "headline": "Enfermera de Gold Coast espera un tercer trasplante de riñón después de un raro trastorno",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T01:10:19Z",
-      "voiceScript": "Una enfermera de Gold Coast con un raro trastorno congénito está esperando un tercer trasplante de riñón después de años de reveses médicos. El caso muestra cómo pueden resultar necesarios trasplantes repetidos cuando la enfermedad renal continúa reapareciendo. Es importante porque la demanda de trasplantes sigue siendo alta y los pacientes pueden pasar años bajo atención especializada mientras esperan una compatibilidad. El siguiente paso es la búsqueda de un donante adecuado y la continuación del tratamiento.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/gold-coast-nurse-kidney-transplant-rare-congenital-disorder/106965788"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "cairns-hospital-police-shooting",
-      "headline": "El hospital de Cairns defiende la atención antes de que la policía le disparara a un hombre",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T01:06:42Z",
-      "voiceScript": "Un hospital de Cairns dice que el tratamiento que le dio a un hombre antes de que la policía le disparara cumplió con el estándar requerido. Las preguntas ahora se centran en el cronograma entre la atención hospitalaria, su condición posterior y la respuesta policial. Es importante porque los casos graves de fuerza a menudo dependen de si los riesgos para la salud se identificaron y manejaron a tiempo. Probablemente el siguiente paso sea una revisión más detallada de los registros médicos y policiales.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/cairns-hospital-defends-treatment-man-police-shooting/106970118"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "one-nation-qld-strike-off",
-      "headline": "El retraso en la presentación de Queensland pone en duda el registro de One Nation",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T00:52:34.000Z",
-      "voiceScript": "One Nation podría ser eliminado del registro de Queensland después de no cumplir con el plazo para presentar los estados financieros auditados. El estatus del partido ahora depende de si puede cumplir con las reglas de presentación de informes del estado y evitar su cancelación del registro. Es importante porque el registro afecta la logística electoral, el acceso a las boletas y la confianza pública en las finanzas de los partidos. El siguiente paso es una respuesta formal del partido y una decisión de las autoridades electorales.",
-      "differences": [],
-      "links": [
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/29/one-nation-faces-being-struck-off-in-queensland-after-failing-to-file-audited-financial-statements"
@@ -749,439 +872,46 @@
       "language": "es"
     },
     {
-      "id": "ndis-darwin-public-servant",
-      "headline": "Funcionario público de Darwin enfrenta presunto cargo de fraude del NDIS",
+      "id": "deepfake-school-photo-warning",
+      "headline": "Se advierte a las escuelas que las fotos publicadas pueden convertirse en deepfakes",
       "sourceCount": 1,
-      "publishedAt": "2026-07-28T23:40:23Z",
-      "voiceScript": "Un servidor público de Darwin ha sido acusado de un presunto plan de fraude multimillonario del NDIS, y la policía dice que el caso involucra una función del sector público y pagos vinculados al programa de discapacidad. La supuesta pérdida asciende a millones y ha provocado una investigación más amplia. Es importante porque el NDIS se encuentra en el centro de la confianza y el gasto públicos. El siguiente paso es el proceso judicial y cualquier acción policial adicional.",
+      "publishedAt": "2026-07-28T11:05:31Z",
+      "voiceScript": "Se advierte a las escuelas australianas que las fotos que comparten en línea pueden reutilizarse en ataques deepfake de inteligencia artificial. El riesgo no es teórico porque las imágenes ordinarias pueden convertirse en material susceptible de abuso. El desafío práctico es cómo las escuelas gestionan el intercambio en línea sin cortar la comunicación normal.",
       "differences": [],
       "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/nt-public-servant-genevine-ebelebe-charged-alleged-ndis-fraud/106969828"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "qld-boot-camp-scrutiny",
-      "headline": "El plan del campo de entrenamiento de Queensland está bajo escrutinio en materia de seguridad infantil",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-28T23:33:58Z",
-      "voiceScript": "El modelo de campo de entrenamiento sobre justicia juvenil propuesto por Queensland se enfrenta a un nuevo escrutinio sobre cómo se informaría y controlaría el daño a los niños. Los críticos dicen que el plan aún deja demasiadas salvaguardias poco claras, desde las líneas jerárquicas hasta la rendición de cuentas si algo sale mal. Esto es importante porque la política abordaría a los jóvenes vulnerables y al mismo tiempo intentaría reducir la delincuencia. El siguiente paso es que el gobierno establezca las reglas de funcionamiento con más detalle.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/qld-human-rights-commission-silent-about-youth-boot-camp/106962234"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "amateur-cricket-cheating-probe",
-      "headline": "Las acusaciones de trampas provocan una investigación en una liga de cricket amateur",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-28T23:29:56Z",
-      "voiceScript": "Una liga de cricket amateur está bajo investigación después de que un video se difundiera en línea y planteara afirmaciones de que el juego podría haber sido manipulado. Los funcionarios ahora tienen que aclarar qué sucedió, si algún resultado se vio afectado y qué sanciones podrían seguir. Es importante porque incluso el deporte local depende de la competencia justa y la confianza puede desaparecer rápidamente una vez que las imágenes se vuelven virales. El siguiente paso es una revisión de la evidencia y cualquier respuesta disciplinaria.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/cricket-video-goes-viral-as-slip-fielder-clicks/106969988"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "data-centre-energy-pushback",
-      "headline": "El impulso del centro de datos del primer ministro se topa con un retroceso en materia de energía y planificación",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-28T23:14:32Z",
-      "voiceScript": "El impulso del primer ministro hacia el centro de datos está encontrando resistencia por la demanda de energía, las aprobaciones de planificación y la presión sobre la infraestructura local. El debate ahora se centra en cuánta electricidad requerirán los proyectos y si la red y el proceso de consulta pueden hacer frente. Esto es importante porque los centros de datos se están convirtiendo en una prueba importante para las políticas tecnológicas, energéticas y de uso del suelo de Australia. El siguiente paso es un mayor escrutinio de los proyectos y sus supuestos de oferta.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/data-center-boom-powers-up-political-energy-debate/106929726"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/new-plan-prevent-data-centres-driving-power-prices-up/j0li5asyx"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "qld-bird-flu",
-      "headline": "La vigilancia de la gripe aviar en Queensland se intensifica alrededor de la isla Moreton",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-28T22:58:34Z",
-      "voiceScript": "La situación de la gripe aviar H5 en Queensland todavía se centra en la isla Moreton, donde se confirmó el primer caso sospechoso de aves marinas y ahora se está realizando un nuevo seguimiento para detectar una propagación más amplia. Las autoridades le dicen a la gente que evite las aves muertas o enfermas, al tiempo que repiten que las aves y los huevos siguen siendo seguros para el consumo. Es importante porque el estado se encuentra cerca de importantes hábitats de vida silvestre y zonas agrícolas, por lo que cualquier nueva detección se convertiría rápidamente en un problema de bioseguridad. El siguiente paso es continuar con las pruebas a lo largo de la costa y en poblaciones de aves cercanas.",
-      "differences": [
-        "ABC News se centra en el seguimiento más reciente y el riesgo de una mayor propagación.",
-        "SBS News mantiene a la vista los primeros consejos sobre detección y seguridad alimentaria de Queensland.",
-        "news.com.au destaca la presión sobre la vida silvestre y el sector avícola."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/bird-flu-queensland-suspected-case/106952884"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/h5-flu-qld-confirmed-moreton-island/106958114"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/bird-flu-queensland-first-case/fub12jlzo"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/health/health-problems/queensland-records-suspected-positive-h5-bird-flu-case-becoming-the-third-affected-state/news-story/de1957ba839f6464e5172b43e2cc2aae"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/queensland-farmers-on-alert-as-h5-bird-flu-reaches-state/106967942"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "sydney-m5-fan-fault",
-      "headline": "La M5 de Sídney se avería tras un fallo de ventilador durante el trayecto matutino",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-28T22:55:04Z",
-      "voiceScript": "Un fallo en un ventilador de la M5 de Sídney provocó importantes retrasos durante el trayecto matutino, y el tráfico se detuvo durante unos 10 kilómetros. El corredor es importante porque transporta tanto a viajeros como a mercancías a través de una de las rutas más transitadas de la ciudad, por lo que una falla puede extenderse mucho más allá de la zona de trabajo. El siguiente paso son las reparaciones y el retorno al flujo normal una vez que la sección afectada desaparezca.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/major-sydney-m5-traffic-delays-amid-repairs-fan/106969970"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "lachie-kennedy-silver",
-      "publishedAt": "2026-07-28T22:15:43Z",
-      "headline": "La plata de Lachie Kennedy pone fin a la sequía de medallas en los 100 metros en Australia",
-      "sourceCount": 4,
-      "voiceScript": "Lachie Kennedy corrió 9,85 segundos para llevarse la plata en la final masculina de 100 metros de Glasgow, rompiendo el récord australiano de larga data de Patrick Johnson y poniendo fin a una sequía de medallas que se remontaba a 1962. El resultado importa porque el sprint es uno de los eventos destacados del atletismo, y Australia ha pasado décadas tratando de convertir el potencial en un resultado final destacado. El siguiente paso es ver si Kennedy y el grupo de sprint en general pueden convertir este avance en más oportunidades de podio más adelante en la competencia.",
-      "differences": [
-        "ABC News se centra en el tiempo récord y la historia que rompió Kennedy.",
-        "The Guardian destaca la magnitud del avance en la final.",
-        "La AAP se centra en la meta, la sequía de medallas y la profundidad del sprint de Australia.",
-        "news.com.au se apoya en el drama racial y el contexto más amplio de los Juegos."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/commonwealth-games-glasgow-day-five-live-blog/106965170"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/sport/live/2026/jul/28/commonwealth-games-2026-athletics-weightlifting-gymnastics-day-five-live"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/record-falls-as-aussie-jets-power-into-100m-finals"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/sport/commonwealth-games/comm-games-day-5-live/live-coverage/c9a76a7413c93a8f685bce6cf672e03a"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "rba-rate-rise-warning",
-      "headline": "Los shocks de oferta mantienen sobre la mesa otro movimiento del RBA",
-      "sourceCount": 5,
-      "publishedAt": "2026-07-28T17:30:00Z",
-      "voiceScript": "La gobernadora del Banco de la Reserva, Michele Bullock, dijo que los shocks de oferta global siguen siendo un riesgo vivo para la inflación y que el banco central no puede asumir que las presiones sobre los precios desaparecerán sin problemas. La advertencia se produce mientras los funcionarios sopesan los nuevos datos del IPC, los mayores costos de la energía y una economía más lenta antes de la reunión de la junta directiva de agosto. Es importante porque los shocks importados pueden mantener los precios elevados incluso cuando la demanda interna se debilita, dejando al RBA con menos margen para relajarse. La próxima prueba es si la reciente lectura de inflación resulta lo suficientemente amplia como para permitir que las tasas se mantengan donde están.",
-      "differences": [
-        "ABC News se centra en la advertencia del RBA de que los shocks de oferta podrían mantener la inflación rígida.",
-        "Australian Financial Review destaca las perspectivas de mayor inflación y la posibilidad de otro movimiento.",
-        "news.com.au enfatiza la presión del costo de vida sobre los prestatarios y los hogares.",
-        "El australiano lo plantea como un riesgo de estanflación vinculado a una productividad débil y un crecimiento más lento.",
-        "AAP News se centra en el pronóstico del IPC y la perspectiva de media recortada."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/rba-governor-warns-world-facing-increased-supply-shocks/106965644"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/economy/interest-rates/reserve-bank-governor-signals-further-rate-hikes-to-tackle-high-cost-of-living/news-story/71532bf57e410fd9380e4d32ad2ffa9d"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/nation/politics/reserve-bank-governor-michele-bullock-warns-of-additional-rate-hikes-to-tame-inflation/news-story/1c0f2e4fbbb3dea0804166caaf0cf359"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/next-rba-rate-call-hinges-on-crucial-inflation-data"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/policy/economy/sticky-inflation-cooling-house-prices-inside-the-rba-s-rates-dilemma-20260729-p60jjr"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "qantas-project-sunrise-test-flight",
-      "headline": "El vuelo de prueba de Qantas atrae a millones a medida que se acerca el lanzamiento del Proyecto Sunrise",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-28T15:15:22Z",
-      "voiceScript": "Qantas completó un vuelo de prueba de larga distancia para su avión Project Sunrise, y millones de personas siguieron el viaje en línea mientras el avión se movía entre Australia y Toulouse. El A350-1000ULR se está preparando para servicios directos Sídney-Londres y Sídney-Nueva York, y el vuelo fue diseñado para comprobar el uso de combustible, los sistemas y la configuración operativa para rutas muy largas. Eso es importante porque muestra que la aerolínea está pasando de la planificación a la preparación en el mundo real para viajes de larga distancia. Las preguntas restantes son la certificación, el tiempo de entrega y si el cronograma de lanzamiento se cumple.",
-      "differences": [
-        "ABC News destaca a los 3,6 millones de personas que siguieron el vuelo en directo.",
-        "El australiano se centra en la duración del vuelo y en el ángulo del récord.",
-        "news.com.au enfatiza el Proyecto Sunrise y el despliegue de rutas futuras.",
-        "Australian Financial Review señala que Qantas todavía no tiene un calendario firme para los servicios directos a Melbourne."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/qantas-project-sunrise-test-flight/106969232"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/business/aviation/test-pilots-push-qantas-new-project-sunrise-jet-to-absolute-limits/news-story/002d2ff13421a28209b7203304ce27a3"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/travel/travel-updates/project-sunrise-first-test-flight-from-europe-to-australia-for-qantas-a3501000ulr/news-story/82c9522eb505e49dd1702a2c3ff788bc"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/companies/transport/qantas-leaves-melbourne-waiting-for-non-stop-london-flights-20260724-p60i77"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "angus-taylor-icac-donation-probe",
-      "headline": "La investigación de corrupción de Nueva Gales del Sur lleva a Angus Taylor a las cuestiones de los donantes",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-28T15:00:06Z",
-      "voiceScript": "Una investigación del ICAC sobre la recaudación de fondos de los liberales de Nueva Gales del Sur se ha acercado a Angus Taylor después de que la evidencia sugiriera que los miembros de los reformadores discutieron la posibilidad de solicitarle donaciones. La audiencia examina presuntos pagos ilícitos, acumulación de sucursales y acuerdos de consultoría falsos vinculados a una facción de extrema derecha del partido. Es importante porque la investigación ahora afecta al líder de la oposición federal y podría aumentar la presión sobre los liberales de Nueva Gales del Sur mientras continúa la investigación. La incógnita clave es si la evidencia conduce a conclusiones formales o principalmente a más daños políticos.",
-      "differences": [
-        "The Guardian dice que Taylor ha sido arrastrado a la audiencia y que las consecuencias podrían ser significativas.",
-        "La AAP se centra en la evidencia de que los miembros de Reformers planeaban solicitar una donación de 10.000 dólares a Taylor."
-      ],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/angus-taylor-centre-stage-in-icac-hearing-fall-out-could-be-profound-ntwnfb"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/disgusted-pub-mogul-disavows-liberals-donation-aims"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/taylor-denies-giving-money-to-group-at-centre-of-nsw-corruption-probe/106970262"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "pacific-aid-lead",
-      "headline": "Australia se adelanta a China en préstamos en el Pacífico",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-28T12:30:00Z",
-      "voiceScript": "Un nuevo mapa del Lowy Institute, publicado por ABC y Australian Financial Review, dice que Australia es ahora el mayor prestamista y patrocinador de infraestructura del Pacífico. Los datos más recientes apuntan a una competencia de larga data sobre financiamiento, acceso e influencia, en la que la inversión estatal china sigue activa pero ya no es líder. Eso es importante porque las cifras determinan cómo los gobiernos del Pacífico sopesan la deuda, el desarrollo y los vínculos estratégicos. El siguiente paso es si Canberra sigue ampliando su papel y cómo responden otras potencias.",
-      "differences": [
-        "ABC News se centra en el mapa del Lowy Institute y el creciente papel financiero de Australia.",
-        "Australian Financial Review lo enmarca como una competencia más amplia con China a través de la diplomacia del Pacífico."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/new-lowy-pacific-aid-map-australia-lending-investor/106967764"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/federal/australia-expands-pacific-aid-lead-in-contest-with-china-20260727-p60j0p"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "pauline-hanson-italy-trip",
-      "headline": "Crecen las dudas sobre quién financió el viaje de Pauline Hanson a Italia",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-28T09:40:56Z",
-      "voiceScript": "Pauline Hanson se enfrenta a un nuevo escrutinio después de que informes vincularan su viaje a Italia con Gina Rinehart. Hanson dice que los contribuyentes no pagaron, pero aún no se ha explicado claramente el costo total. La cuestión es importante porque trasciende la transparencia política, el apoyo privado a figuras públicas y la forma en que se divulgan los gastos de viaje. El siguiente paso es si surgen más documentos o declaraciones que demuestren quién cubrió los vuelos y cualquier otro costo.",
-      "differences": [
-        "ABC News: se centra en que Hanson se niega a identificar al pagador y las cuestiones de transparencia.",
-        "The Guardian Australia: destaca la afirmación de que Rinehart pagó los vuelos de Londres a Sicilia.",
-        "news.com.au: enfatiza la reunión de Sicilia y las consecuencias políticas.",
-        "7NEWS: lo presenta como Hanson defendiendo el viaje en un vídeo."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/hanson-reveals-rinehart-paid-for-italy-trip/106968518"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/pauline-hanson-gina-rinehart-flights-london-italy-dolce-gabbana-show-ntwnfb"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/culture/power-and-influence/pauline-hanson-and-billionaire-gina-rinehart-meet-up-at-white-lotus-hotel-in-sicily-hours-after-one-nation-declines-in-polls/news-story/cb8980251706ee1f2f4f925b4eaae505"
-        },
         {
           "source": "7NEWS",
-          "url": "https://7news.com.au/video/politics/pauline-hanson-defends-luxury-italy-trip-bc-6401421951112"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/gina-rinehart-paid-for-pauline-hanson-s-europe-flights"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/gina-rinehart-funded-flights-and-fashion-show-for-pauline-hanson/kgmh8psur"
+          "url": "https://7news.com.au/news/australian-schools-warned-photos-they-post-are-vulnerable-to-artificial-intelligence-deepfake-threat-c-22641762"
         }
       ],
       "language": "es"
     },
     {
-      "id": "missing-baby-port-macdonnell",
-      "headline": "Se reanuda la búsqueda de un bebé desaparecido en el sur de Australia tras una pausa nocturna",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-28T07:57:02Z",
-      "voiceScript": "La policía y los voluntarios han reanudado la búsqueda de un bebé desaparecido en el sur de Australia después de que una mujer y un niño pequeño fueran encontrados en el océano cerca de Port MacDonnell. La búsqueda se detuvo durante la noche porque el mal tiempo hizo que las condiciones fueran demasiado peligrosas. El caso es importante porque los equipos de rescate están corriendo contra el reloj y las condiciones del mar, mientras los investigadores intentan descubrir exactamente qué sucedió antes de que el niño desapareciera. La próxima actualización dependerá de si la búsqueda arroja algún rastro del bebé y de lo que la policía pueda confirmar sobre la cronología.",
-      "differences": [
-        "ABC News: se centra en la pausa y reinicio de la búsqueda debido al mal tiempo.",
-        "news.com.au: destaca la preocupación de la policía por el bebé después de que se encontraron los cuerpos.",
-        "7NEWS: destaca las severas condiciones costeras que ralentizan la búsqueda."
-      ],
+      "id": "emergency-alert-trial",
+      "headline": "La prueba de alerta de emergencia de Australia todavía ignora a demasiadas personas",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T09:19:43Z",
+      "voiceScript": "Una prueba del sistema de alerta de emergencia no llegó a todas las personas a las que debía llegar. Los resultados de la encuesta sugieren que es posible que la prueba nacional necesite otra ejecución antes del lanzamiento en octubre. La confiabilidad es la cuestión clave porque una alerta solo funciona si las personas realmente la reciben.",
+      "differences": [],
       "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/ocean-search-for-missing-baby-boy-suspended-at-port-macdonnell/106967786"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/south-australia/grave-concerns-for-missing-baby-after-bodies-of-mother-and-toddler-pulled-from-water/news-story/1c951b583abd6e2396dd1b2e8ef1c9cd"
-        },
         {
           "source": "7NEWS",
-          "url": "https://7news.com.au/news/urgent-plea-in-search-for-missing-baby-after-bodies-of-mother-and-toddler-found-off-port-macdonnell-coastline-c-22637064"
+          "url": "https://7news.com.au/news/ausalert-test-survey-finds-one-in-nine-australians-not-reached-during-trial-of-emergency-lifeline-c-22641479"
         }
       ],
       "language": "es"
     },
     {
-      "id": "wa-oil-refinery-study",
-      "headline": "Un estudio en Australia Occidental abre la puerta a una nueva refinería de petróleo",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-28T07:23:54Z",
-      "voiceScript": "Los gobiernos federal y de Australia Occidental estudiarán si se puede construir una nueva refinería de petróleo a gran escala cerca de Karratha, en Pilbara. La propuesta sería la primera refinería construida en Australia desde la década de 1960, y se está vendiendo como una medida para garantizar la seguridad del combustible en un momento de crisis petroleras mundiales. Las cifras clave son el estudio de viabilidad de 4 millones de dólares, la fuerte dependencia de Australia del combustible importado y la cuestión aún abierta de si un proyecto como este puede construirse a un precio suficientemente bajo para continuar. Por ahora, es una señal política, no un inicio de construcción.",
+      "id": "origin-data-breach",
+      "headline": "Origin dice que una violación de datos ha afectado a cerca de un millón de clientes",
+      "sourceCount": 7,
+      "publishedAt": "2026-07-28T04:37:33Z",
+      "voiceScript": "Origin se disculpó tras revelar una violación de datos que afectó a unos 900.000 clientes. La escala es lo suficientemente grande como para mantener la presión sobre la empresa en materia de divulgación y seguridad. El siguiente paso es la rapidez con la que se informa a los clientes y qué medidas de seguridad adicionales se implementan.",
       "differences": [
-        "ABC News: se centra en la ubicación de Karratha/Pilbara y el argumento de la resiliencia.",
-        "SBS News: destaca que ésta podría convertirse en la tercera refinería de Australia y destaca la dependencia de las importaciones.",
-        "The Guardian Australia: enmarca el plan en torno a la inflación y las crisis de combustible relacionadas con el conflicto de Oriente Medio."
+        "SBS se centra en las disculpas y la respuesta de los clientes, mientras que 7NEWS enfatiza la magnitud de la infracción y el número de personas afectadas.",
+        "El mismo incidente se presenta como una actualización del consumidor o como una falla de seguridad corporativa a gran escala."
       ],
       "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/podcast-episode/australia-announces-potential-new-oil-refinery-for-the-country-first-since-the-1960s/eow78smgv"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/third-oil-refinery-on-cards-to-help-shield-australia"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "kazem-hamad-iraq-life-sentence",
-      "headline": "Un exjefe criminal de Melbourne es condenado a cadena perpetua en Irak",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-28T06:40:00Z",
-      "voiceScript": "Kazem Hamad, que alguna vez fue una figura del crimen organizado de Melbourne, ha sido condenado a cadena perpetua por un tribunal iraquí por tráfico de drogas. Las autoridades iraquíes dicen que el caso involucra importaciones de drogas vinculadas tanto a Irak como a Australia, y su nombre ha estado conectado durante mucho tiempo con las guerras del tabaco en Melbourne. El fallo elimina a una figura importante de una historia criminal de larga data, pero aún puede generar una atención más amplia por parte de las fuerzas del orden en redes relacionadas. La principal incertidumbre ahora es si la condena desencadena más investigaciones o arrestos posteriores.",
-      "differences": [
-        "ABC News: agrega la acusación de que Hamad ayudó a importar drogas a Irak y Australia y señala vínculos con las guerras del tabaco en Melbourne.",
-        "news.com.au: presenta a Hamad como el hombre \"más buscado\" de Australia y enfatiza la cadena perpetua por trata."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/kazem-hamad-sentenced-to-life-in-iraq-jail/106968276"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/courts-law/australias-most-wanted-man-kazem-hamad-jailed-in-iraq-for-drug-trafficking/news-story/870fb08b15183fa3c972d38d5ca002f6"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "asx-bullock-reaction",
-      "publishedAt": "2026-07-28T06:23:00Z",
-      "headline": "El ASX sube después de que Bullock enfríe los temores de subida de tipos",
-      "sourceCount": 3,
-      "voiceScript": "El mercado de acciones de Australia terminó al alza después de que la gobernadora del Banco de la Reserva, Michele Bullock, dijera que una demanda más débil y un mercado inmobiliario más frío podrían ayudar a aliviar la presión inflacionaria. Los operadores redujeron las expectativas de un aumento de las tasas en agosto, y la recuperación del mercado fue liderada por sectores que generalmente se benefician cuando los temores sobre el endeudamiento disminuyen. Es importante porque el próximo movimiento del RBA determinará los costos hipotecarios, los préstamos comerciales y la confianza antes de la próxima lectura de inflación. El siguiente paso es la publicación del IPC y si confirma la desaceleración que los mercados están descontando.",
-      "differences": [
-        "ABC News se centra en el cierre del mercado y la liquidación tecnológica anterior.",
-        "AFR enfatiza el restablecimiento de las expectativas de tasas y los factores que mueven las acciones.",
-        "news.com.au destaca el impacto del discurso sobre los temores sobre el endeudamiento y el repunte."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/asx-markets-business-news-live-updates-tuesday-28-july/106965036"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/markets/equity-markets/asx-to-fall-oil-plunges-and-semiconductor-stocks-fell-anew-20260728-p60j29"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/markets/australian-markets/reserve-bank-governors-words-lift-asx-200-after-early-market-losses/news-story/ba0004246da2ecca17c99bec9e9568aa"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "origin-energy-breach-900k",
-      "headline": "La violación de origen pone en alerta a 900.000 clientes",
-      "sourceCount": 5,
-      "publishedAt": "2026-07-28T05:41:39Z",
-      "voiceScript": "Origin Energy dice que un incidente cibernético puede haber expuesto información de unos 900.000 clientes actuales y anteriores. La compañía dice que es posible que se haya accedido a nombres, direcciones, fechas de nacimiento, números de teléfono y algunos detalles de cuentas, pero no cree que se hayan tomado números completos de tarjetas o bancos. La historia importa por la magnitud de la infracción y el riesgo de estafas o phishing. Los investigadores todavía están comprobando cómo ocurrió la intrusión y cómo se manejaron las alertas tempranas.",
-      "differences": [
-        "ABC News: se centra en la escala confirmada y dice que no se cree que los datos bancarios ni de tarjetas de crédito estén incluidos.",
-        "The Guardian Australia: enfatiza que Origin fue advertido semanas antes de que se lo dijera al público.",
-        "news.com.au: destaca la estimación revisada de 900.000 y el riesgo de estafa para los clientes."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/origin-energy-data-breach-900k-customers-impacted/106961804"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/about-900000-origin-energy-customers-affected-by-hack-as-company-admits-it-was-warned-weeks-before-public-told"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/online/hacking/origin-energy-says-data-of-900000-australians-stolen-in-hack/news-story/2bd8900737cc8564afed4b5c4ba98a8f"
-        },
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/origin-data-breach-customers/8immypep2"
@@ -1189,207 +919,7 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/nearly-a-million-customers-caught-up-in-origin-data-breach-c-22639526"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "nsw-icac-perrottet-brothers",
-      "headline": "La audiencia ICAC de Nueva Gales del Sur se expande a cintas secretas y pagos liberales falsos",
-      "sourceCount": 5,
-      "publishedAt": "2026-07-28T03:31:07Z",
-      "voiceScript": "El organismo de control de la corrupción de Nueva Gales del Sur está investigando más a fondo las acusaciones de que figuras liberales utilizaron donaciones prohibidas, pagos de consultoría falsos y grabaciones encubiertas para dar forma a las preselecciones y al poder interno. La última audiencia ha ampliado el panorama de una única disputa por financiación a la forma en que el dinero, el reclutamiento de facciones y los mensajes privados pueden haberse utilizado juntos. Eso es importante porque tiene que ver con la transparencia política, las reglas de los donantes y si alguna de las conductas aún podría dar lugar a procesamientos. Los siguientes pasos son más pruebas de testigos, pruebas de documentos y cualquier referencia que haga el organismo de control.",
-      "differences": [
-        "ABC News se centra en el cronograma de la audiencia y a quién se llama.",
-        "The Guardian Australia destaca las grabaciones secretas y la red de facciones en torno a los reformadores.",
-        "AAP News enfatiza el daño que las donaciones contaminadas pueden causar al Partido Liberal.",
-        "Australian Financial Review se centra en los pagos falsos y el camino financiero.",
-        "news.com.au destaca el estilo de interceptación y reclutamiento de WhatsApp dentro de la facción."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/what-to-expect-from-icac-probe-into-nsw-liberal-party/106955220"
         },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/watchdog-probes-tainted-donations-in-blow-to-liberals"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/senior-politicians-supported-young-nsw-liberal-power-brokers-trying-to-shift-party-to-right-corruption-watchdog-hears-ntwnfb"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/nsw-liberals-icac-operation-rosny-secret-tape-recordings-ntwnfb"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/phone-taps-and-sham-payments-to-liberals-in-icac-bombshell-hearing-20260726-p60iny"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/courts-law/whatsapp-intercept-and-christian-recruitment-in-nsw-liberal-icac-probe/news-story/7fdf009da078e46f2f594550f31837f4"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/nsw-icac-operation-rosny-michael-ohara-reformer-liberals/106964276"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "the-castle-stage-play",
-      "publishedAt": "2026-07-28T03:12:51Z",
-      "sourceCount": 2,
-      "headline": "Working Dog convierte The Castle en un espectáculo para Melbourne",
-      "voiceScript": "El equipo original de Working Dog está convirtiendo The Castle en una obra de teatro, con un estreno en Melbourne previsto para 2027. La historia importa porque la película es una de las comedias más citadas de Australia y la versión teatral pondrá a prueba cómo su humor y calidez de clase trabajadora se traducen en vivo. El siguiente paso es el casting y si la producción mantiene el tono original mientras lo actualiza para una nueva audiencia.",
-      "differences": [
-        "ABC News destaca el lanzamiento del escenario y las famosas líneas de la película.",
-        "The Guardian Australia se centra en los creadores originales y el estreno en 2027."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/the-castle-stage-adaptation/106966540"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/stage/2026/jul/28/the-castle-stage-play-working-dog-film-rob-sitch-tom-gleisner-santo-cilauro-jane-kennedy"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "harvey-norman-latitude-penalty",
-      "publishedAt": "2026-07-28T03:06:34Z",
-      "sourceCount": 2,
-      "headline": "El tribunal castiga a Harvey Norman y Latitude con 55 millones de dólares por anuncios de tarjetas de crédito",
-      "voiceScript": "El Tribunal Federal ordenó a Harvey Norman y Latitude pagar un total combinado de 55 millones de dólares después de descubrir que su promoción sin intereses engañó a los clientes para que sacaran tarjetas de crédito y pagaran tarifas adicionales. La penalización muestra que los reguladores están dispuestos a atacar grandes campañas minoristas y financieras cuando el costo real está oculto en la letra pequeña. El siguiente paso es cómo las dos empresas absorben el fallo y si se reescriben ofertas similares en el comercio minorista.",
-      "differences": [
-        "ABC News se centra en el caso del regulador y el daño al cliente.",
-        "Australian Financial Review sitúa el fallo en el contexto más amplio del mercado minorista y."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/harvey-norman-and-latitude-penalised-over-interest-free-ads/106966304"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/markets/equity-markets/asx-to-fall-oil-plunges-and-semiconductor-stocks-fell-anew-20260728-p60j29"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "moira-deeming-victorian-liberals",
-      "headline": "Moira Deeming renuncia a los liberales victorianos tras su desuso",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-28T02:56:11Z",
-      "voiceScript": "Moira Deeming renunció al Partido Liberal Victoriano y se espera que se siente en el banco transversal después de que el partido decidió desautorizarla. La división es importante porque añade otro dolor de cabeza a la oposición victoriana justo después del cambio de liderazgo y reduce el espacio del partido para proyectar unidad antes de las elecciones de noviembre. El siguiente paso son las consecuencias formales dentro del partido y si los liberales pueden contener el daño.",
-      "differences": [
-        "ABC News se centra en la renuncia y las consecuencias inmediatas en la sala de fiestas.",
-        "The Guardian Australia vincula la medida con la reestructuración más amplia del liderazgo victoriano y la presión electoral.",
-        "news.com.au enfatiza su cambio a la banca transversal después del descontento y la división interna."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/mp-moira-deeming-resigns-liberal-party/106966506"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/28/jacinta-allan-victoria-labor-leadership-spill-ben-carroll-challenge-antisemitism-royal-commission-nsw-icac-inquiry-queensland-estimates-ntwnfb"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/victoria/moira-deeming-leaves-victoria-liberals-after-disendorsement/news-story/95677f4f378d11386c9a25b924ef7f23"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "sa-port-macdonnell-search",
-      "headline": "La búsqueda en Australia del Sur gira en torno a un bebé desaparecido después de que su madre y su niño fueran encontrados muertos",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-28T02:20:16Z",
-      "voiceScript": "La policía y los equipos de rescate en el área de Port MacDonnell, en el sur de Australia, ahora están buscando a un bebé desaparecido después de que una madre y un niño fueron recuperados del océano. El caso ha pasado de una búsqueda costera a una importante respuesta a un niño desaparecido, y los agentes dicen que tienen serias preocupaciones por la seguridad del niño. Importa porque combina una tragedia familiar, una difícil búsqueda costera y una investigación policial en vivo. El siguiente paso es si se encuentra al bebé y qué más revelan los investigadores sobre las circunstancias.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/emergency-search-underway-in-port-macdonnell-in-sa-south-east/106963058"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/baby-missing-after-mother-and-toddler-found-dead-off-coast-of-south-australia-ntwnfb"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/search-for-baby-after-bodies-of-mother-toddler-found"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/search-for-missing-baby-boy-continues-port-macdonnell/106966128"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/south-australia/grave-concerns-for-missing-baby-after-bodies-of-mother-and-toddler-pulled-from-water/news-story/1c951b583abd6e2396dd1b2e8ef1c9cd"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "europe-wildfires-australia-warning",
-      "headline": "La emergencia de incendios forestales en Europa está agudizando las dudas sobre la temporada de incendios en Australia",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-28T02:00:00Z",
-      "voiceScript": "Más de 300.000 personas se han visto obligadas a abandonar sus hogares en España y Francia mientras los incendios forestales arrasan el sur de Europa. Las autoridades francesas dicen que se han logrado avances, pero se espera otra ola de calor y el riesgo sigue siendo alto. La historia es importante para Australia porque se están comparando el comportamiento de los incendios, la planificación de emergencias y la respuesta a las olas de calor con las condiciones locales. La siguiente pregunta es si las agencias locales tratan la temporada europea como un anticipo de lo que podría suceder aquí.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC listen",
-          "url": "https://www.abc.net.au/listen/programs/worldtoday/is-europe-s-fire-crisis-a-sign-for-australia-/106966834"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/wildfires-europe-spain-france-heatwave-australian-travellers/hfjoiij4m"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "melbourne-rape-verdict",
-      "headline": "Un jurado de Victoria condena por violación a un hombre bien relacionado de Melbourne",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-28T01:58:48Z",
-      "voiceScript": "Un jurado del tribunal del condado de Victoria declaró culpable de violación y agresión sexual a un hombre de Melbourne con buenas conexiones después de un juicio por un incidente ocurrido en 2023. El caso es importante porque la fiscalía ha convertido un asunto reprimido durante mucho tiempo en una condena, y aún quedan por resolver las restricciones de identidad y la sentencia. El siguiente paso es la sentencia y cualquier decisión sobre la continuación de la represión. También muestra cuán largos y difíciles pueden ser los procesos por agresión sexual incluso cuando las pruebas finalmente se prueban ante un jurado.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/jury-verdict-in-melbourne-businessman-rape-case/106966126"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/well-connected-melbourne-man-guilty-ntwnfb"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/victoria/courts-law/highprofile-melbourne-man-guilty-of-raping-woman/news-story/725e8e790b4d2cab4d357669f89fe16c"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "origin-data-breach-ai-scams",
-      "headline": "La violación del origen se amplía a 900.000 clientes a medida que aumentan los riesgos de estafa",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-28T01:26:00Z",
-      "voiceScript": "Origin ahora dice que alrededor de 900.000 registros de clientes quedaron atrapados en la infracción, después de advertir inicialmente que el problema podría ser mayor. El material expuesto puede incluir nombres, direcciones, fechas de nacimiento, detalles de contacto y algunos números de cuenta, lo cual es suficiente para alimentar estafas incluso si los detalles completos del pago no fueran expuestos. Es importante porque la empresa presta servicios a millones de cuentas y la infracción ahora pasa de la investigación a las notificaciones a los clientes, el escrutinio de los reguladores y la prevención del fraude. El siguiente paso es el proceso de notificación final y cuántas personas pueden limitar las estafas posteriores.",
-      "differences": [],
-      "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-28/origin-energy-data-breach-900k-customers-impacted/106961804"
@@ -1399,749 +929,55 @@
           "url": "https://www.theguardian.com/australia-news/2026/jul/28/about-900000-origin-energy-customers-affected-by-hack-as-company-admits-it-was-warned-weeks-before-public-told"
         },
         {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/origin-data-breach-customers/8immypep2"
-        },
-        {
           "source": "news.com.au",
           "url": "https://www.news.com.au/technology/online/hacking/origin-energy-says-data-of-900000-australians-stolen-in-hack/news-story/2bd8900737cc8564afed4b5c4ba98a8f"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/energy/origin-energy-says-900-000-customers-details-leaked-in-data-breach-20260728-p60j98"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/nearly-a-million-customers-caught-in-origin-data-breach"
         }
       ],
       "language": "es"
     },
     {
-      "id": "actu-leadership-change",
-      "headline": "Los dos máximos dirigentes del ACTU dimiten",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-28T00:34:52Z",
-      "voiceScript": "La secretaria del Consejo Australiano de Sindicatos, Sally McManus, y la presidenta, Michele O'Neil, han anunciado que dimitirán, abriendo una transición de liderazgo en la cima del movimiento sindical. El momento es importante porque se produce justo después de la conferencia nacional del Partido Laborista, cuando se debate más intensamente la influencia de los sindicatos sobre los salarios, los horarios y las protecciones en el lugar de trabajo. El siguiente paso es elegir sucesores y ver si la relación del ACTU con el Partido Laborista cambia en algo.",
-      "differences": [
-        "ABC News: se centra en el proceso de traspaso de liderazgo y sucesión dentro del movimiento sindical.",
-        "Australian Financial Review: lo enmarca como un traspaso a una nueva generación que enfrenta nuevos desafíos.",
-        "El australiano: destaca su larga permanencia en el cargo y la escala de su influencia sobre los sindicatos."
-      ],
+      "id": "actu-leadership-handover",
+      "headline": "El ACTU se prepara para un traspaso de liderazgo",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-28T00:00:17Z",
+      "voiceScript": "Sally McManus y Michele O'Neil se hacen a un lado, abriendo el camino a una nueva generación de dirigentes sindicales. El cambio es importante porque el ACTU todavía da forma al debate sobre salarios, derechos laborales y estrategia industrial. Lo que vendrá después dependerá de quién asuma el control y de qué tan rápido se establezca la transición.",
+      "differences": [],
       "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/actu-leaders-sally-mcmanus-michele-o-neil-resign/106964206"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/work-and-careers/workplace/actu-leadership-to-step-down-make-way-for-new-generation-20260727-p60iv4"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/nation/top-union-leaders-sally-mcmanus-and-michele-oneil-announce-shock-resignations/news-story/b2cb98c940d7277ef363284b48d0e31c"
-        },
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/actu-leaders-sally-mcmanus-michele-oneil-step-aside-new-generation/r6x6bixff"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/28/sally-mcmanus-michele-oneil-resign-actu-union-leaders"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/actu-bosses-step-down-for-post-cfmeu-renaissance"
         }
       ],
       "language": "es"
     },
     {
-      "id": "antisemitism",
-      "headline": "La investigación sobre el antisemitismo pasa a la educación y la formación",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-27T19:44:47Z",
-      "voiceScript": "La comisión real de antisemitismo y cohesión social ha pasado a analizar qué deberían hacer la educación y la formación para reducir el odio. Los informes de ABC se centran en la educación sobre el Holocausto en las escuelas, mientras que la AAP destaca propuestas para una formación adicional en cohesión social para los servidores públicos. La historia importa porque la comisión está pasando de describir el problema a probar si las instituciones pueden prevenirlo. El siguiente paso es si esas ideas se convierten en recomendaciones formales.",
-      "differences": [
-        "ABC News se centra en la educación escolar sobre el Holocausto y las herramientas contra el odio en las aulas.",
-        "AAP News enfatiza la capacitación adicional en cohesión social para los servidores públicos."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/bondi-antisemitism-social-cohesion-royal-commission-education/106946500"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/push-for-public-sector-training-on-social-cohesion"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "energy",
-      "headline": "La presión de la guerra empuja a Australia a tomar nuevas medidas de seguridad del combustible",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-27T19:01:50Z",
-      "voiceScript": "El Tesoro advierte que las consecuencias económicas de la guerra en Medio Oriente podrían empeorar, y que los mayores precios del combustible alimentarían la inflación y el crecimiento. Esa advertencia ahora va acompañada de un impulso para reforzar la seguridad del combustible, incluida la posibilidad de una nueva refinería en Australia Occidental. La historia es importante porque vincula el conflicto en el extranjero con los costos de los hogares australianos, los precios de los insumos comerciales y la política energética del gobierno. El siguiente paso es si Canberra y WA convertirán el trabajo de viabilidad en un proyecto financiado o en un plan a más largo plazo.",
-      "differences": [
-        "ABC News se centra en la advertencia más amplia del Tesoro sobre el empeoramiento de los impactos económicos.",
-        "The Guardian Australia se centra en el trabajo de viabilidad de la refinería y la respuesta del gobierno en materia de seguridad del combustible.",
-        "AAP News enfatiza el riesgo de shock petrolero y cómo los mercados elevados podrían afectar más a Australia."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/middle-east-war-economic-impact-to-worsen-treasury-warns/106963778"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/oil-shock-could-be-worse-than-the-first-treasury-warns"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/economy/australian-economy/australians-facing-fresh-fuel-nightmare-as-treasury-briefing-warns-price-pressures-may-intensify-as-middle-east-conflict-continues/news-story/4f124e67768d0d6d8271c4e5be95be68"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "data-centre-pressure",
-      "headline": "El auge de los centros de datos en Australia aumenta la presión sobre la energía y la vivienda",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T18:44:42.000Z",
-      "voiceScript": "El sector de centros de datos de rápido crecimiento en Australia está creando una nueva tensión en el sistema eléctrico y en los trabajos de construcción relacionados. Informes recientes apuntan a una lucha política sobre cómo los centros deberían obtener energía limpia, mientras que los analistas advierten que la expansión podría absorber trabajadores y retrasar otros proyectos como el de vivienda. La cuestión es importante porque la demanda de centros de datos está aumentando más rápido que las actualizaciones de la red y la nueva generación, por lo que los gobiernos tal vez tengan que decidir si presionan con fuerza en materia de normas de energía limpia o las introducen gradualmente. La siguiente pregunta es qué parte de la demanda adicional se puede satisfacer sin aumentar los costos ni desacelerar otras construcciones.",
-      "differences": [
-        "ABC News se centra en el riesgo de que el rápido crecimiento de los centros de datos aumente la presión sobre el sistema eléctrico.",
-        "El australiano lo plantea como una disputa política entre AirTrunk y Andrew Forrest sobre normas de energía limpia.",
-        "news.com.au destaca el efecto indirecto en la oferta de vivienda y la mano de obra calificada."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-28/data-centre-explosion-could-spark-power-price-hikes/106963258"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/business/andrew-forrest-urges-china-cooperation-on-ai-as-airtrunk-delivers-energy-demand-to-labor/news-story/f190c469bb45288922f07b813c26832b"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/business/other-industries/how-australias-ai-data-centre-boom-puts-housing-and-energy-projects-at-risk/news-story/b6d7edc95e34d99e4e1f5a6d4b0b21c3"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "wa-oil-refinery",
-      "headline": "WA podría albergar la primera nueva refinería de Australia en décadas",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T10:30:00+10:00",
-      "voiceScript": "Los gobiernos federal y de Australia Occidental están financiando un estudio de viabilidad para una propuesta de refinería respaldada por Perdaman en WA. Si sigue adelante, sería la primera gran refinería nueva de Australia desde la década de 1960, en un momento en que las tensiones en Medio Oriente hacen subir los precios del petróleo y exponen cuán fuertemente el país todavía depende del combustible importado. Los próximos pasos son la selección del sitio, los términos de financiamiento y las aprobaciones ambientales, todo lo cual determinará si el proyecto puede mejorar la seguridad del combustible y la resiliencia del suministro.",
-      "differences": [
-        "ABC News: se centra en la propuesta de WA y el estudio de viabilidad respaldado por los gobiernos.",
-        "The Guardian Australia: destaca el ángulo de la inflación y la seguridad energética, señalando que Australia importa alrededor del 90% de sus combustibles líquidos.",
-        "Australian Financial Review: lo enmarca como la respuesta del primer ministro a una crisis de combustible, con la ubicación de WA aún indecisa."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/perdaman-oil-refinery-proposed-for-north-west-wa/106963530"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/federal/pm-launches-plan-for-new-oil-refinery-as-fuel-crisis-bites-20260727-p60iz2"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "sa-industrial-manslaughter",
-      "headline": "Fabricante del sur de Australia acusado en el primer caso de homicidio industrial",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-27T10:14:16Z",
-      "voiceScript": "Una empresa manufacturera de Adelaida y sus directores han sido acusados ​​del primer caso de homicidio industrial en el sur de Australia, relacionado con la muerte del trabajador de 28 años Lachlan Carslake en 2024. Los investigadores alegan que es posible que se haya omitido el bloqueo de seguridad de la máquina y que ya se habían planteado preocupaciones de seguridad antes del incidente fatal. El caso es importante porque es una de las primeras pruebas importantes de las leyes de homicidio industrial del sur de Australia y del nivel de responsabilidad que pueden enfrentar las empresas. El proceso judicial ahora determinará cómo se impugnan los cargos y si la acusación genera un escrutinio de seguridad más amplio en toda la industria local.",
-      "differences": [
-        "ABC News se centra en la decisión de acusación de SafeWork SA y las penas más duras según la nueva ley.",
-        "7NEWS brinda más detalles sobre la supuesta falla de la máquina y la secuencia de eventos antes de la muerte."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/industrial-manslaughter-charges-laid-against-adelaide-company/106963526"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/industrial-manslaughter-charges-laid-over-fatal-2024-adelaide-workplace-accident-c-22634952.amp"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "pauline",
-      "headline": "Pauline Hanson pierde apelación por hallazgo de discriminación de Faruqi",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-27T08:41:00Z",
-      "voiceScript": "Pauline Hanson perdió su apelación contra un tribunal federal que determinó que discriminó racialmente a Mehreen Faruqi. El caso se centra en el tuit de Hanson de 2022 en el que le decía a Faruqi que \"se marchara a Pakistán\", y el fallo mantiene viva una prueba importante de la línea entre el discurso político y el abuso racial. Es importante porque el tribunal de apelaciones ha respaldado el fallo anterior y Hanson aún puede presentar una impugnación ante el Tribunal Superior. El siguiente paso es si presenta esa apelación adicional y cómo se manejan las costas.",
-      "differences": [
-        "ABC News se centra en el proceso de apelación, el tweet original y la señal de Hanson de que puede llevar el caso más lejos.",
-        "The Guardian Australia enfatiza el despido unánime y el precedente más amplio sobre discurso de odio versus libertad de expresión."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/nsw-pauline-hanson-appeal-mehreen-faruqi-judgement/106962048"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "jewish-security-guns-inquiry",
-      "headline": "La Comisión Real escucha el debate sobre armar a la seguridad judía",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T07:59:50.000Z",
-      "voiceScript": "La comisión real sobre antisemitismo y cohesión social está sopesando si se debería permitir que los grupos de seguridad de la comunidad judía porten armas en eventos al aire libre. La policía de Nueva Gales del Sur dice que eso podría parecer favoritismo y empeorar las tensiones, mientras que los partidarios argumentan que el problema es el tiempo de respuesta y el riesgo en grandes reuniones al aire libre. Es importante porque el debate gira en torno al antisemitismo, los recursos de seguridad y dónde termina la responsabilidad policial. El siguiente paso es si las audiencias impulsarán al gobierno a adoptar reglas más claras.",
-      "differences": [
-        "ABC News: se centra en la comisión que cuestiona a un consultor de riesgos y seguridad sobre por qué la seguridad privada debería estar armada.",
-        "AAP News: destaca las preocupaciones de la policía sobre la apariencia de favoritismo y una división comunitaria más amplia.",
-        "The Guardian Australia: enfatiza la objeción del subcomisionado y el debate al aire libre sobre las armas CSG."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/bondi-antisemitism-royal-commission-arming-security-guards/106960940"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/government-egged-on-anti-semitism-says-jewish-leader"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/nsw-police-deputy-commissioner-says-letting-jewish-security-group-carry-guns-could-be-seen-as-favouritism-ntwnfb"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "ausalert-national-test",
-      "headline": "La prueba AusAlert deja a algunos teléfonos sin la alerta",
-      "sourceCount": 8,
-      "publishedAt": "2026-07-27T07:50:27Z",
-      "voiceScript": "La prueba AusAlert a nivel nacional de Australia terminó y el gobierno federal la calificó como un éxito en general, pero muchos residentes informaron que no recibieron la alerta o la recibieron demasiado tarde. El sistema está destinado a enviar alertas de emergencia más rápidamente a áreas específicas durante incendios forestales, inundaciones y otros eventos de rápida evolución; la tensión es que anula el modo silencioso y también puede generar preocupaciones de seguridad para las personas que huyen de la violencia doméstica. El siguiente paso es ver cómo los funcionarios explican las alertas perdidas y si ajustan la cobertura antes del lanzamiento completo.",
-      "differences": [
-        "ABC News: dice que el gobierno aún calificó la prueba como un éxito a pesar de que muchas personas dijeron que no habían recibido la alerta.",
-        "SBS News: se centra en la orientación de preparación y los riesgos de seguridad para los sobrevivientes de violencia doméstica.",
-        "7NEWS: destaca la reacción del público en vivo e informa que algunos dispositivos nunca recibieron la advertencia.",
-        "AAP News: lo enmarca como un simulacro nacional muy exitoso."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/ausalert-test-a-success-declares-minister/106963350"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/ausalert-emergency-warning-test-what-you-need-to-know-and-how-to-prepare/zghu8pk7o"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/everything-you-need-to-know-about-ausalert-warning-alarm-test/news-story/dac4abc3a73dc2b0ca2c872cf5361f16"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://www.aap.com.au/news/new-ausalert-warning-system-to-blast-out-national-siren"
-        },
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/emergency-alert-test-australia-what-to-expect-july-27-everything-to-know-20260709-p60dyd.html"
-        },
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/ausalert-test-coming-today-20260727-p60iq6.html"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/ausalert-national-alert-test-sound-emergency-warning-system-time-date"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/mixed-reaction-to-ausalert-emergency-message-system-as-test-fails-to-reach-people-c-22634152"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "qld-river-to-the-sea-challenge",
-      "headline": "La prohibición de Queensland de “del río al mar” enfrenta un desafío del Tribunal Superior",
-      "voiceScript": "La prohibición de Queensland de \"del río al mar\" está ahora siendo impugnada ante el Tribunal Superior por manifestantes que dicen que la ley cruza la línea entre la prevención del discurso de odio y el control del discurso. La disputa gira en torno a dónde traza el Estado el límite entre proteger a las comunidades, mantener el orden público y limitar la expresión política. Luego viene el proceso judicial en sí, incluido si se atiende la impugnación y si se restringe la ley.",
-      "differences": [
-        "ABC News: presenta la impugnación como una prueba jurídica directa y detalla la redacción en cuestión.",
-        "The Guardian Australia: destaca la lucha por la libertad de expresión sobre cómo se aplica la prohibición al lenguaje de protesta."
-      ],
-      "publishedAt": "2026-07-27T06:57:05Z",
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/qld-palestine-israel-hate-speech-laws-high-court-challenge/106964098"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/protesters-launch-high-court-challenge-to-queensland-ban-on-from-the-river-to-the-sea-ntwnfb"
-        }
-      ],
-      "sourceCount": 2,
-      "language": "es"
-    },
-    {
-      "id": "pauline-hanson-verdict",
-      "headline": "Pauline Hanson pierde apelación por discriminación racial",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-27T05:59:34.000Z",
-      "voiceScript": "El Tribunal Federal desestimó la apelación de Pauline Hanson contra la sentencia de discriminación racial por su publicación dirigida a Mehreen Faruqi, dejando en vigor el fallo original. El resultado es importante porque afecta la exposición legal de Hanson, su próximo paso en la apelación y la presión política más amplia sobre One Nation sobre raza y lenguaje migratorio. El caso también agudiza la línea entre el discurso político y la difamación racial. La siguiente pregunta es si Hanson pretende llevarlo al Tribunal Superior y cómo responden las partes.",
-      "differences": [
-        "The Guardian Australia: trata la decisión como una clara victoria para Faruqi y subraya el fallo legal contra el puesto de 2022."
-      ],
-      "links": [
-        {
-          "source": "9News",
-          "url": "https://www.nine.com.au/australia-news/pauline-hanson-racial-discrimination-court-case-appeal-verdict-mehreen-faruqi-20260727-p60isj.html"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/racism-verdict-latest-danger-to-pauline-hansons-surge"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "sa-bird-flu-spike",
-      "headline": "Australia del Sur registra siete nuevos casos sospechosos de gripe aviar H5",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-27T02:30:00Z",
-      "voiceScript": "Australia del Sur ha informado de siete casos adicionales sospechosos de gripe aviar H5, incluidos cinco relacionados con el mismo lugar. Todavía no hay evidencia de que el virus haya ingresado a las aves de corral comerciales, pero se han enviado muestras para mayor confirmación. La cuestión práctica no es el pánico; es que el seguimiento de las aves silvestres y las zonas costeras se está ampliando y las advertencias de bioseguridad pueden volverse más frecuentes. El siguiente paso es el resultado final de CSIRO y si más áreas costeras o de vida silvestre necesitan restricciones o medidas de limpieza.",
+      "id": "ato-tax-return-lodgement",
+      "headline": "La ATO les dice a millones de contribuyentes que presenten declaraciones ahora",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-27T21:43:43Z",
+      "voiceScript": "La ATO dice que ahora es el momento de que millones de contribuyentes australianos presenten sus declaraciones. La advertencia tiene como objetivo evitar retrasos y mantener la temporada de presentación de solicitudes. La pregunta práctica es si las personas tienen la información que necesitan antes de enviarla.",
       "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/seven-suspected-h5-bird-flu-cases-in-sa/106961794"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/science/animals/south-australia-records-spike-in-bird-flu-cases/news-story/6c0bd4e13b26f13737ea1390abef39b6"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://www.aap.com.au/news/seven-suspected-bird-flu-cases-found-in-native-species"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/27/ausalert-emergency-warning-test-antisemitism-royal-commission-nsw-icac-inquiry-politics-anthony-albanese-labor-angus-taylor-coalition-victoria-jacinta-allan-ntwnfb"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "adelaide-sikh-temple-fire",
-      "headline": "Templo sij de Adelaida destruido en un gran incendio",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-27T01:01:00Z",
-      "voiceScript": "El templo Gurudwara Dashmesh Darbar en los suburbios del norte de Adelaida resultó gravemente dañado por un incendio nocturno, y el techo se derrumbó después de que los equipos pasaron horas controlando el incendio. La pérdida afecta más que un edificio: perturba el culto, la salvaguardia de los textos sagrados y los servicios alimentarios comunitarios. Las prioridades inmediatas son confirmar la causa, evaluar los daños y organizar apoyo temporal para la comunidad sij local. La próxima actualización dependerá de las investigaciones de la policía y los bomberos, los planes de reconstrucción y la asistencia comunitaria.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/sikh-temple-destrpyed-in-fire-north-adelaide/106961130"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/sikh-temple-destroyed-by-massive-blaze-in-adelaide-c-22631800"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "car-strikes-train-bridge",
-      "headline": "Un coche choca contra un puente ferroviario y suspende la línea durante más de una hora",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-27T00:31:56Z",
-      "voiceScript": "Un automóvil chocó contra un puente de tren en Queensland, lo que obligó a la línea a detenerse durante más de una hora durante la hora punta de la mañana hasta que se completaran las comprobaciones de seguridad. El problema no es sólo el retraso, sino el impacto inmediato para los viajeros, el transporte de mercancías y la gestión de carreteras. Las siguientes preguntas son si el conductor resultó herido, qué causó el accidente y si será necesario realizar reparaciones en el lugar.",
-      "differences": [],
-      "links": [
-        {
-          "source": "Brisbane Times",
-          "url": "https://www.brisbanetimes.com.au/national/queensland/car-strikes-train-bridge-suspending-line-for-over-an-hour-20260727-p60ith.html"
-        },
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/queensland/car-strikes-train-bridge-suspending-line-for-over-an-hour-20260727-p60ith.html"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "one-nation-poll-surge-2026",
-      "headline": "One Nation sube en las encuestas mientras la Coalición sigue descartando un acuerdo",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-27T00:25:00.000Z",
-      "voiceScript": "Una encuesta de DemosAU sitúa a One Nation con un 30 por ciento de los votos en las primarias, lo que mantiene al partido en el centro de la política federal. La cobertura de seguimiento luego pasa a la línea pública de la Coalición: algunas figuras están dispuestas a hablar sobre aritmética postelectoral, mientras que el líder Angus Taylor sigue rechazando cualquier acuerdo formal con One Nation. Es importante porque las cifras podrían remodelar las negociaciones de preferencias y los escenarios de gobiernos minoritarios después de las próximas elecciones. La pregunta clave es si el aumento de las encuestas se mantiene y si la Coalición mantiene alineado su mensaje.",
-      "differences": [
-        "news.com.au se centra en las encuestas, la aritmética de escaños y la posibilidad de un parlamento sin mayoría; ABC se centra en el rechazo de Taylor a las especulaciones sobre la coalición."
-      ],
-      "links": [
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/work/leaders/one-nation-would-be-within-arms-reach-of-forming-government-with-coalition-new-poll-shows/news-story/84d1a28fb8484e38a69dfc58b8b58d67"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/federal-politics-live-blog-pm-dinner-july-27/106960978"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/politics/lets-make-a-deal-pauline-hansons-offer-to-angus-taylor/news-story/69232dadc3decb8ef17aa85ae5947281"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/politics/liberal-senator-andrew-bragg-leaves-door-open-to-one-nation-coalition-says-party-needs-to-be-pragmatic/news-story/817a4856550b5b5dc9b2982c1f77e054"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "tariffs-pushback",
-      "headline": "Australia rechaza medidas arancelarias de Trump",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T23:04:55Z",
-      "voiceScript": "Australia está nuevamente atrapada en una disputa arancelaria con Estados Unidos después de que nuevas medidas comerciales de Washington provocaron una respuesta de Canberra. Los aranceles no son sólo una cuestión diplomática; pueden trasladarse a los costos de los exportadores, los precios al consumidor, los pedidos comerciales y el espacio de negociación del gobierno. Para Australia, la prueba clave es si la disputa sigue siendo una medida política de corto plazo o se convierte en una fricción comercial más prolongada. La siguiente cuestión es si Estados Unidos suaviza su posición y con qué fuerza Australia responde.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/27/ausalert-emergency-warning-test-antisemitism-royal-commission-nsw-icac-inquiry-politics-anthony-albanese-labor-angus-taylor-coalition-victoria-jacinta-allan-ntwnfb"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/donald-trump-hit-australia-with-nonsense-12-5-per-cent-tarriffs/x4qy0tc68"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "albanese-dinner-scrutiny",
-      "headline": "Albanese se enfrenta a un nuevo escrutinio por una cena adinerada",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-26T21:10:28Z",
-      "voiceScript": "Anthony Albanese se enfrenta nuevamente a preguntas después de asistir a una rica cena en Point Piper. La cuestión no es la comida en sí, sino si el público puede ver suficiente transparencia y límites cuando el primer ministro se reúne con círculos empresariales y de donantes. Para el gobierno, historias como esta afectan la imagen política y pueden ampliar la distancia percibida entre los líderes nacionales y los hogares bajo presión del costo de vida. El siguiente punto es si la oposición sigue persiguiéndolo y si el gobierno publica más detalles.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/federal-politics-live-blog-pm-dinner-july-27/106960978"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/politics/i-attend-lots-of-dinners-prime-minister-anthony-albanese-quiz-over-point-piper-dinner/news-story/8e3b17291d8ae6becbae6377c2c0c41d"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/federal/pm-has-questions-to-answer-about-point-piper-dinner-say-coalition-20260727-p60isi"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "nsw-icac-powerbroker-uk",
-      "headline": "El ex poderoso agente liberal de Nueva Gales del Sur se encuentra en el Reino Unido mientras las acusaciones de ICAC atraen el escrutinio",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T15:00:17Z",
-      "voiceScript": "Un ex hombre de poder liberal de Nueva Gales del Sur se ha convertido en el centro de las acusaciones de ICAC, pero actualmente se encuentra en el Reino Unido y no se espera que aparezca en persona. La cuestión crítica es si el calendario y el método de la investigación se verán afectados. En las investigaciones de corrupción, la desaparición de un testigo no significa necesariamente que el caso haya terminado; también puede alargar el proceso. El siguiente paso es ver si el ICAC puede seguir adelante con las pruebas y los arreglos para las audiencias.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/former-nsw-liberal-powerbroker-at-heart-of-icac-allegations-now-living-in-uk-and-not-expected-to-appear-ntwnfb"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/watchdog-probes-tainted-donations-in-blow-to-liberals"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "vad-telehealth",
-      "headline": "Los laboristas respaldan las consultas de telesalud para la muerte asistida",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-26T15:00:00+10:00",
-      "voiceScript": "La conferencia nacional laborista ha respaldado el cambio de la plataforma del partido para permitir consultas de muerte asistida por teléfono y video. Anthony Albanese todavía se opone personalmente al cambio, advirtiendo que podría debilitar la evaluación cara a cara y las salvaguardias existentes contra el uso indebido. Los partidarios dicen que las personas en áreas regionales y aquellas con movilidad limitada a menudo tienen dificultades para llegar a una clínica, y la ley penal federal actual hace que los médicos sean cautelosos incluso a la hora de comunicarse. El siguiente paso es si el gabinete convierte la posición del partido en legislación y cómo cualquier reforma equilibra el acceso y la seguridad.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-26/albanese-opposed-telehealth-voluntary-assisted-dying/106959388"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/26/labor-pressure-telehealth-access-euthanasia-assisted-dying-anthony-albanese"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/podcast-episode/prime-minister-rejects-proposal-of-voluntary-assisted-dying-via-telehealth/di63vkdwy"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/health/labor-supports-telehealth-for-voluntary-assisted-dying-at-alp-conference-pm-anthony-albanese-doesnt/news-story/dada6e5d04342b946b33c9994fb028c5"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "census-explained",
-      "headline": "Censo 2026: quiénes deben participar y qué está en juego",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T12:39:35Z",
-      "voiceScript": "El censo de 2026 está previsto para el 11 de agosto y los funcionarios dicen que la mayoría de las personas que viven en Australia deben completarlo, incluidos algunos titulares de visas temporales. Las preguntas clave son la fecha límite, las posibles multas y cómo se utilizarán los datos para asignar escuelas, servicios de salud y otros recursos. Lo siguiente que hay que observar es si los recordatorios aumentan la tasa de respuesta, especialmente entre los hogares de inmigrantes y las personas que viven en zonas remotas.",
-      "differences": [
-        "7NEWS: detalla la fecha clave, cómo completarla y las posibles multas.",
-        "SBS News: destaca qué titulares de visas temporales deben participar y por qué es importante el recuento."
-      ],
       "links": [
         {
           "source": "7NEWS",
-          "url": "https://7news.com.au/news/2026-census-explained-key-date-how-to-fill-it-out-who-needs-to-take-part-and-potential-fines-c-22620171"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/2026-census-australia-key-date-what-s-included-and-why-it-matters/nvhfhqmdj"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "nsw-counselling-records-review",
-      "headline": "Nueva Gales del Sur abre una revisión de los registros de asesoramiento sobre agresión sexual solicitados a orden judicial",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T02:21:48.000Z",
-      "voiceScript": "Nueva Gales del Sur ha iniciado una revisión de un año de duración sobre cómo los registros de asesoramiento de supervivientes de agresión sexual pueden ser citados y expuestos ante los tribunales. La investigación, dirigida por la profesora Rita Shackel de la Universidad de Sydney, examinará con qué frecuencia sucede esto y si se necesitan protecciones legales más estrictas o privilegios absolutos. Es importante porque los sobrevivientes deberían poder buscar ayuda sin preocuparse de que las notas de terapia privadas se vuelvan en su contra en procedimientos legales. El próximo paso es si la revisión conduce a reglas más estrictas y una reforma más amplia.",
-      "differences": [],
-      "links": [
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/push-to-guard-victims-from-trauma-of-therapy-disclosure"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/real-life/news-life/nsw-government-announces-inquiry-into-counselling-records-of-sexual-assault-victimsurvivors/news-story/5d36d7880647898f1176ee589fd3d69f"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "qld-road-deaths",
-      "headline": "Tres muertos en dos accidentes en el sureste de Queensland",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-26T02:01:53.793Z",
-      "voiceScript": "Dos accidentes ocurridos en el sureste de Queensland la misma noche dejaron tres muertos y dos heridos graves. Las preguntas inmediatas son qué causó las colisiones, si la velocidad o la fatiga influyeron y con qué rapidez la policía puede confirmar la secuencia de los acontecimientos. Para la región, es otro recordatorio de que la seguridad vial sigue siendo un problema local grave. Luego viene la investigación y si se producen advertencias o cargos.",
-      "differences": [],
-      "links": [
-        {
-          "source": "9News",
-          "url": "https://www.nine.com.au/australia-news/qld/three-killed-in-horror-night-on-south-east-queensland-roads-20260726-p60ima.html"
-        },
-        {
-          "source": "Brisbane Times",
-          "url": "https://www.brisbanetimes.com.au/national/queensland/three-dead-in-two-crashes-across-south-east-overnight-20260726-p60ils.html"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "fuel-price-rise",
-      "headline": "Los precios del combustible están subiendo a medida que el recorte de impuestos especiales se acerca a su fin",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-25T14:19:00+10:00",
-      "voiceScript": "Los precios del combustible siguen subiendo y el gobierno federal ha dejado claro que no extenderá el recorte del impuesto al combustible más allá de su vencimiento el 2 de agosto. Con el aumento de los precios mundiales del petróleo y los trastornos geopolíticos que afectan la oferta, los precios de los surtidores en Sydney, Melbourne y otros lugares ya están subiendo. Los hogares y los viajeros lo sentirán primero. La siguiente pregunta es si los mayores costos del combustible influyen en la inflación y afectan la decisión sobre las tasas de interés del Banco de la Reserva en agosto.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/bowen-fuel-supply-solid-and-secure-as-prices-climb-again/106957876"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/australian-households-prospect-interest-rate-hike-petrol-prices-rising"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/not-a-one-off-spike-why-higher-petrol-prices-are-set-to-return/rejal0pte"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/money/costs/fuel-warning-for-aussies-as-oil-price-hits-40day-high/news-story/92134fa49f3b7043a584e6a312a8e293"
-        },
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/fuel-prices-to-go-up-as-excise-cut-ends-20260727-p60iq8.html"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://www.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "cluster-1",
-      "headline": "Dos personas baleadas durante enfrentamiento policial en Cairns",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-25T09:47:50.000Z",
-      "voiceScript": "Un enfrentamiento con un sospechoso armado en Cairns, Queensland, terminó con la policía abriendo fuego y disparando a un hombre y una mujer. Los detalles públicos aún están incompletos y las preguntas clave son quién era el sospechoso, cómo se desarrolló la escena y si los dos heridos se encuentran estables. El siguiente paso es que la policía explique claramente el cronograma y la decisión sobre el uso de la fuerza; de lo contrario, continuarán las dudas sobre si el tiroteo fue necesario.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/queensland-police-shoot-man-woman-cairns-altercation/106958468"
-        },
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/qld/two-people-including-innocent-bystander-shot-by-police-in-cairns-queensland-20260726-p60ikh.html"
-        },
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/man-shot-by-police-in-queensland-to-face-court-20260727-p60iq7.html"
-        },
-        {
-          "source": "Brisbane Times",
-          "url": "https://www.brisbanetimes.com.au/national/queensland/woman-caught-in-crossfire-as-police-shoot-armed-man-during-stand-off-20260726-p60il7.html"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "cluster-4",
-      "headline": "Husic critica la cultura laborista tras el fracaso del debate sobre Gaza",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-25T06:01:39.000Z",
-      "voiceScript": "En la conferencia nacional laborista, la presión de Ed Husic para llevar la cuestión de Gaza al pleno no prosperó, dejando al descubierto las divisiones internas. Luego, Husic criticó la cultura laborista por considerarla demasiado rígida, lo que demuestra que no se trata sólo de un lenguaje de política exterior. También afecta la disciplina del partido, el sentimiento de los votantes musulmanes y el margen de maniobra del gobierno en cuestiones de Oriente Medio. La siguiente pregunta es si la dirección da una explicación más clara y si Husic sigue presionando desde dentro del partido.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-25/ed-husic-pushes-for-gaza-debate-at-labor-conference/106957962"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/25/ed-husic-labor-gaza-genocide-claims-ntwnfb"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "cluster-5",
-      "headline": "El controvertido herbicida paraquat dejará de venderse en Australia",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-25T04:59:49.000Z",
-      "voiceScript": "La decisión de Syngenta de dejar de vender paraquat en Australia ha decidido efectivamente el futuro del controvertido herbicida aquí. La empresa apunta a una regulación más estricta, junto con presiones comerciales, de fabricación y logísticas. El contexto más amplio es que muchos países ya prohíben productos como este y las preocupaciones de seguridad nunca han desaparecido. La siguiente pregunta es si los agricultores tienen suficientes alternativas y si los reguladores endurecen las reglas sobre más sustancias químicas de alto riesgo.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/rural/2026-07-25/syngenta-stops-sales-of-paraquat-after-apvma-review/106956466"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/environment/2026/jul/25/herbicide-parkinsons-disease-paraquat-pulled-from-sale-australia-syngenta"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "us-tariff-australian-exports",
-      "headline": "Los nuevos aranceles estadounidenses afectan las exportaciones australianas",
-      "sourceCount": 5,
-      "publishedAt": "2026-07-24T13:31:00+10:00",
-      "voiceScript": "Estados Unidos ha impuesto un arancel del 12,5% a las exportaciones australianas, y la tasa temporal del 10% también expira, y Canberra inmediatamente lo calificó de golpe comercial injusto. Los exportadores y el clima negociador son los primeros en sentir el impacto. Puede que la carne vacuna, el oro y otros productos clave no sean los más afectados de inmediato, pero los costos y la incertidumbre están aumentando en toda la cadena de suministro. La siguiente pregunta es si Canberra sigue presionando a Washington y si la lógica arancelaria construida en torno al trabajo forzoso sigue expandiéndose.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/us-trump-administration-new-tariff-announcement/106938462"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/24/donald-trump-hits-australian-exports-to-us-with-new-higher-trade-tariff-over-claims-of-forced-labour"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/podcast-episode/australia-rejects-higher-us-tariffs/drpzxtsup"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/economy/australian-economy/anthony-albaneses-rejects-trumps-unjustified-slavery-tariff/news-story/979af50892a0cb89c9cc9f3ca3218314"
-        },
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/donald-trump-anthony-albanese-tariffs-20260726-p60in6.html"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "labor-conference-pay-package",
-      "headline": "La conferencia laboral impulsa los beneficios para los trabajadores jóvenes y un Tribunal de Trabajo Justo",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-24T10:00:00+10:00",
-      "voiceScript": "La conferencia nacional del Partido Laborista en Adelaide todavía está implementando una política en el lugar de trabajo, centrada en un nuevo Tribunal de Trabajo Justo, la expansión de Paid Prac para más profesiones de salud de primera línea y la discusión de los umbrales de jubilación para los trabajadores jóvenes. El gobierno quiere convertir las polémicas y costosas disputas laborales en un proceso más rápido y económico, al tiempo que alivia la presión monetaria sobre los estudiantes que realizan prácticas. Los críticos observarán los costos para los empleadores y el impacto presupuestario. La siguiente pregunta es si estos compromisos se convierten en legislación y financiación reales.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-23/federal-politics-live-blog-paid-prac/106947462"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/see-the-full-list-who-will-get-338-weekly-payments-under-prac-payment-expansion/j8vf90nhj"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/work/leaders/anthony-albanese-to-speak-at-alp-conference-as-beer-tax-debate-rages/live-coverage/43ba1e0bb2ec2e5eb33be9f30f299134"
-        }
-      ],
-      "language": "es"
-    },
-    {
-      "id": "vic-teachers-strike-2026",
-      "headline": "Los docentes de Victoria vuelven a hacer huelga por salarios y carga de trabajo",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-23T08:22:12.000Z",
-      "voiceScript": "Los profesores de las escuelas públicas de Victoria han vuelto a la huelga por las presiones salariales y de carga de trabajo que, según dicen, aún no se han solucionado. El sindicato dice que la oferta del gobierno de un aumento salarial de alrededor del 28 por ciento en cuatro años no resuelve la carga de clases, los requisitos de cumplimiento o la escasez de personal, por lo que los miembros rechazaron el acuerdo y continuaron la huelga. El gobierno sostiene que la propuesta convertiría a los profesores de Victoria entre los mejor pagados del país. Es importante porque la disputa afecta a los estudiantes, los padres y las operaciones escolares cotidianas, y muestra cuán escasa se ha vuelto la dotación de personal en todo el sistema educativo. El siguiente paso es si las dos partes pueden llegar a un acuerdo antes de que las conversaciones vuelvan a fracasar.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-23/victorian-teachers-on-strike-today-as-offer-is-rejected/106946678"
-        },
-        {
-          "source": "AAP News",
-          "url": "https://aapnews.aap.com.au/news/vote-deadline-on-teacher-pay-offer-as-strike-looms"
+          "url": "https://7news.com.au/news/ato-tells-millions-of-australian-taxpayers-now-is-the-time-to-lodge-returns-c-22636284"
         }
       ],
       "language": "es"
     }
   ],
-  "language": "es",
   "generatedFrom": "news.en.json",
   "translation": {
     "target": "es",
     "method": "machine-assisted translation via Google Translate public endpoint",
-    "updatedAt": "2026-07-29T11:45:47.252Z"
+    "updatedAt": "2026-07-30T05:51:58.841Z"
   }
 }
