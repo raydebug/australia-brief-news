@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T23:13:07.793Z",
+  "updatedAt": "2026-07-29T23:59:59.000Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -102,7 +102,7 @@
   ],
   "errors": [
     "The Australian still redirects to a cookie wall, Sky News Australia still serves a nocookies page, and news.com.au latest-news RSS is still HTML rather than a clean feed, so fallback extraction was needed.",
-    "AAP article detail pages were inconsistent from the homepage links, so AAP was left out of the final cluster set for this run.",
+    "AAP article pages were usable for matching coverage this run, but some recent pages still needed search-result fallback to resolve the canonical URL.",
     "A small number of stories remain single-source because no second recent Australia-focused report was available at collection time."
   ],
   "clusters": [
@@ -207,7 +207,7 @@
     {
       "id": "bird-flu-poultry-risk",
       "headline": "Poultry farmers are warning that bird flu may be moving through local flocks",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-07-29T20:51:08Z",
       "voiceScript": "Farmers say they are concerned bird flu could already be spreading locally. The focus is on biosecurity, testing speed and how fast an infection can be tracked down. If the spread is confirmed, producers could face tighter controls and fresh losses.",
       "differences": [],
@@ -215,6 +215,10 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/local-bird-flu-spread-concern-sa-poultry-farmer-biosecurity-robe/106971582"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/bird-flu-cases-climb-as-queensland-joins-tally"
         }
       ]
     },
@@ -333,7 +337,7 @@
     {
       "id": "victorian-labor-ben-carroll",
       "headline": "Ben Carroll's rise has triggered a fresh Victorian Labor reset",
-      "sourceCount": 4,
+      "sourceCount": 5,
       "publishedAt": "2026-07-29T19:17:29Z",
       "voiceScript": "Ben Carroll's promotion has deepened the shake-up inside Victorian Labor. Party insiders say the shift has weakened the Socialist Left and opened a new phase in the leadership contest. The next test is whether the change gives Labor a clearer path to the election or just more internal strain.",
       "differences": [
@@ -356,13 +360,17 @@
         {
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/politics/new-victoria-premier-carroll-set-to-make-changes-to-wfh-laws-20260729-p60jjg"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/leadership-showdown-as-labor-faces-calls-for-overhaul"
         }
       ]
     },
     {
       "id": "inflation-eases-chalmers-cautious",
       "headline": "Inflation has eased again, but Canberra is still sounding cautious",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-07-29T19:00:00Z",
       "voiceScript": "New inflation numbers point lower, and the treasurer is talking up the result. Even so, the broader message from Canberra is still caution rather than celebration. That matters because interest-rate expectations and household pressure both depend on whether the trend lasts.",
       "differences": [
@@ -381,6 +389,10 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/next-rba-rate-call-hinges-on-crucial-inflation-data"
         }
       ]
     },
@@ -475,7 +487,7 @@
     {
       "id": "fuel-discount-and-petrol-prices",
       "headline": "Drivers are bracing for higher fuel bills as the discount disappears",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-07-29T07:36:19Z",
       "voiceScript": "The fuel discount is ending, and drivers are being told to watch the dates as prices reset. Petrol has already moved above $2 a litre in some areas. The immediate pressure is on household budgets, but the wider cost-of-living effect could spread quickly.",
       "differences": [
@@ -494,6 +506,10 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-29/federal-politics-live-blog-hanson-donation-july-29/106969612"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         }
       ]
     },
@@ -514,7 +530,7 @@
     {
       "id": "wa-oil-refinery-criticism",
       "headline": "Western Australia's proposed oil refinery is facing growing criticism",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-07-29T06:15:55Z",
       "voiceScript": "Experts are questioning a proposed oil refinery in Western Australia and calling it outdated technology. They say the plan sits awkwardly beside the clean-energy transition. The real issue is whether the project is commercially sensible or already behind the curve.",
       "differences": [
@@ -529,6 +545,10 @@
         {
           "source": "SBS News",
           "url": "https://www.sbs.com.au/news/article/does-albaneses-idea-for-more-australian-oil-supplies-stack-up/gznqdz12z"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/third-oil-refinery-on-cards-to-help-shield-australia"
         }
       ]
     },
@@ -588,7 +608,7 @@
     {
       "id": "origin-data-breach",
       "headline": "Origin says a data breach has affected close to a million customers",
-      "sourceCount": 6,
+      "sourceCount": 7,
       "publishedAt": "2026-07-28T04:37:33Z",
       "voiceScript": "Origin has apologised after revealing a data breach that affected about 900,000 customers. The scale is large enough to keep pressure on the company over disclosure and security. The next step is how quickly customers are informed and what extra safeguards are put in place.",
       "differences": [
@@ -619,6 +639,10 @@
         {
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/companies/energy/origin-energy-says-900-000-customers-details-leaked-in-data-breach-20260728-p60j98"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/nearly-a-million-customers-caught-in-origin-data-breach"
         }
       ]
     },
