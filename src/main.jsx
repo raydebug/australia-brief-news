@@ -1053,6 +1053,19 @@ const PEOPLE_CONTEXT = [
     aliases: ["Benji Marshall", "本吉·马歇尔", "本吉·馬歇爾", "ベンジー・マーシャル", "벤지 마셜"],
     type: "public-figure",
     social: { label: "Instagram", url: "https://www.instagram.com/benji6marshall/" }
+  },
+  {
+    name: "Korey Boddington",
+    aliases: [
+      "Korey Boddington",
+      "科里·博丁顿",
+      "科里·博丁頓",
+      "コーリー・ボディントン",
+      "코리 보딩턴",
+      "කොරී බොඩිංටන්"
+    ],
+    type: "athlete",
+    social: { label: "Instagram", url: "https://www.instagram.com/koreyboddington/" }
   }
 ];
 
@@ -1342,7 +1355,7 @@ function PeopleContextList({ people, labels, language }) {
               <strong>{person.name}</strong>
               {person.social?.url && (
                 <a href={person.social.url} target="_blank" rel="noreferrer">
-                  {labels.socialProfile}
+                  {person.social.label || labels.socialProfile}
                   <ExternalLink size={14} />
                 </a>
               )}
@@ -1571,7 +1584,7 @@ function App() {
   const displayActive = active ? { ...active, language } : null;
   const activeDifferences = uniqueDifferences(displayActive);
   const activeCommentary = showCommentary ? getFourNewsCommentary(displayActive, language) : "";
-  const activePeople = showPeopleContext ? mentionedPeople(displayActive).filter((person) => person.type === "politician") : [];
+  const activePeople = showPeopleContext ? mentionedPeople(displayActive) : [];
   const activeSocialDiscussions = validSocialDiscussions(displayActive);
 
   useEffect(() => {
@@ -1771,9 +1784,7 @@ function App() {
             const displayCluster = { ...cluster, language };
             const speechState = speechButtonState(displayCluster);
             const commentary = showCommentary ? getFourNewsCommentary(displayCluster, language) : "";
-            const people = showPeopleContext
-              ? mentionedPeople(displayCluster).filter((person) => person.type === "politician")
-              : [];
+            const people = showPeopleContext ? mentionedPeople(displayCluster) : [];
             const socialDiscussions = validSocialDiscussions(displayCluster);
 
             return (
