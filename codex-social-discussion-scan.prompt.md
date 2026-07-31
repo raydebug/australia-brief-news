@@ -24,6 +24,14 @@ Rules:
 - `socialDiscussions` must be identical across every language file for the same cluster.
 - If no real discussion exists for a cluster, leave `socialDiscussions` empty or absent.
 - Do not invent metrics. If metrics are not visible, omit them and use a conservative `score`.
+- People context must not be silently ignored:
+  - For every newest or high-impact cluster you touch, extract named people from the headline, voice script, source differences, and source titles.
+  - If a named person is a politician, elected official, senior public office-holder, public company executive, athlete, artist, or otherwise news-relevant public figure, check whether they are already covered by `PEOPLE_CONTEXT` in `src/main.jsx`.
+  - If not covered, add them with aliases, `type`, a public official/profile/social URL when one can be verified, and concise multilingual background. For politicians, also add concise multilingual `positions`.
+  - Do not add private individuals, victims, minors, witnesses, ordinary staff, or people whose identity should not be amplified.
+  - If no reliable public social/profile URL is found, use the most authoritative official biography page. Do not fabricate social accounts.
+  - Non-political public office holders should get background only, not political positions.
+- Run `npm run audit:people` after data updates. Treat its output as a review queue: resolve obvious public figures and leave ordinary/private names alone.
 - After updating data, run `npm run build`.
 - If validation and build pass, commit and push with a concise message.
 - If there are no data changes, do not create an empty commit.

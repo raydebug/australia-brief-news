@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
+    "audit:people": "node scripts/audit-people-context.mjs",
     "validate:news": "node scripts/validate-news-data.mjs",
     "build": "npm run validate:news && vite build",
     "preview": "vite preview --host 0.0.0.0",
