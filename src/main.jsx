@@ -1105,6 +1105,32 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Sam Mostyn",
+    aliases: [
+      "Sam Mostyn",
+      "Samantha Mostyn",
+      "Samantha Joy Mostyn",
+      "萨姆·莫斯廷",
+      "萨曼莎·莫斯廷",
+      "薩姆·莫斯廷",
+      "サム・モスティン",
+      "샘 모스틴"
+    ],
+    type: "public-figure",
+    social: { label: "Official biography", url: "https://www.gg.gov.au/about-governor-general/governor-generals-biography" },
+    background: {
+      "zh-Hans": "澳大利亚第 28 任总督，2024 年 7 月就职，代表澳大利亚君主履行宪法和礼仪职责。任职前曾任企业董事、性别平等和气候议题倡导者，也是首位女性 AFL 委员。",
+      "zh-Hant": "澳洲第 28 任總督，2024 年 7 月就職，代表澳洲君主履行憲法和禮儀職責。任職前曾任企業董事、性別平等和氣候議題倡議者，也是首位女性 AFL 委員。",
+      en: "Australia's 28th Governor-General, sworn in in July 2024 to perform constitutional and ceremonial duties on behalf of the Australian monarch. Before the role she was a company director, gender-equality and climate advocate, and the first female AFL commissioner.",
+      es: "La 28.ª gobernadora general de Australia, juramentada en julio de 2024 para cumplir funciones constitucionales y ceremoniales en nombre del monarca australiano. Antes fue directora empresarial, defensora de igualdad de género y clima, y la primera comisionada mujer de la AFL.",
+      ja: "2024年7月に就任した第28代オーストラリア総督。豪州君主を代表して憲法上・儀礼上の職務を担います。就任前は企業取締役、ジェンダー平等と気候分野の提唱者で、AFL 初の女性コミッショナーでした。",
+      ko: "2024년 7월 취임한 호주 제28대 총독으로, 호주 군주를 대신해 헌법상 및 의전상 직무를 수행합니다. 취임 전에는 기업 이사, 성평등 및 기후 의제 옹호자였고 AFL 최초 여성 커미셔너였습니다.",
+      vi: "Toan quyen thu 28 cua Uc, nham chuc thang 7 nam 2024 de thuc hien vai tro hien dinh va nghi le thay mat quan chu Uc. Truoc do ba la giam doc doanh nghiep, nha van dong binh dang gioi va khi hau, va nu uy vien AFL dau tien.",
+      th: "Governor-General คนที่ 28 ของออสเตรเลีย เข้ารับตำแหน่งในเดือนกรกฎาคม 2024 เพื่อทำหน้าที่ตามรัฐธรรมนูญและพิธีการแทนพระมหากษัตริย์ออสเตรเลีย ก่อนหน้านี้เป็นกรรมการบริษัท ผู้สนับสนุนความเท่าเทียมทางเพศและภูมิอากาศ และเป็นกรรมาธิการหญิงคนแรกของ AFL",
+      si: "2024 ජූලි මාසයේ දිවුරුම් දුන් Australia හි 28 වැනි Governor-General. Australian monarch වෙනුවෙන් constitutional සහ ceremonial duties ඉටු කරයි. එයට පෙර company director, gender-equality/climate advocate සහ AFL හි පළමු female commissioner විය."
+    }
+  },
+  {
     name: "Benji Marshall",
     aliases: ["Benji Marshall", "本吉·马歇尔", "本吉·馬歇爾", "ベンジー・マーシャル", "벤지 마셜"],
     type: "public-figure",
@@ -1143,6 +1169,164 @@ const PEOPLE_CONTEXT = [
       vi: "VĐV para track cycling của Úc, nhà vô địch Paralympic Paris, từng lập kỷ lục thế giới và châu Đại Dương.",
       th: "นักปั่นพาราแทร็กของออสเตรเลีย แชมป์พาราลิมปิกปารีส และเจ้าของสถิติโลกกับโอเชียเนียในรายการพาราไซคลิง",
       si: "Australian para-track cyclist සහ Paris Paralympic champion; para-cycling events වල world/Oceania records තැබූ ක්‍රීඩකයෙකි."
+    }
+  },
+  {
+    name: "Tony Burke",
+    aliases: ["Tony Burke", "The Hon Tony Burke", "托尼·伯克", "トニー・バーク", "토니 버크"],
+    type: "politician",
+    social: { label: "Parliament profile", url: "https://www.aph.gov.au/T_Burke_MP" },
+    background: {
+      "zh-Hans": "澳洲工党联邦议员，代表新州 Watson，自 2004 年进入联邦议会，长期担任前座和内阁职务。",
+      "zh-Hant": "澳洲工黨聯邦議員，代表新州 Watson，自 2004 年進入聯邦議會，長期擔任前座和內閣職務。",
+      en: "Federal Labor MP for Watson in New South Wales since 2004, with long service on Labor's frontbench and in cabinet.",
+      es: "Diputado federal laborista por Watson, en Nueva Gales del Sur, desde 2004, con larga trayectoria en el frontbench y el gabinete laborista.",
+      ja: "2004年からニューサウスウェールズ州 Watson 選出の連邦労働党議員。労働党の前線・閣僚職を長く務めています。",
+      ko: "2004년부터 뉴사우스웨일스 Watson을 대표하는 연방 노동당 하원의원으로, 노동당 전면과 내각에서 오래 활동했습니다.",
+      vi: "Nghị sĩ Labor liên bang khu Watson ở NSW từ năm 2004, có thời gian dài trên frontbench và trong nội các Labor.",
+      th: "ส.ส. Labor รัฐบาลกลางเขต Watson ใน NSW ตั้งแต่ปี 2004 และทำงานใน frontbench กับคณะรัฐมนตรี Labor มายาวนาน",
+      si: "2004 සිට NSW Watson නියෝජනය කරන Federal Labor MP; Labor frontbench සහ cabinet භූමිකාවල දිගු කාලයක් කටයුතු කරයි."
+    },
+    positions: {
+      "zh-Hans": "主要负责内政、移民、公民身份、网络安全、艺术和众议院事务，常围绕国家安全、移民制度、文化政策和议会管理发声。",
+      "zh-Hant": "主要負責內政、移民、公民身份、網絡安全、藝術和眾議院事務，常圍繞國家安全、移民制度、文化政策和議會管理發聲。",
+      en: "His portfolio themes include home affairs, immigration, citizenship, cyber security, the arts and management of the House of Representatives.",
+      es: "Sus áreas incluyen interior, inmigración, ciudadanía, ciberseguridad, artes y gestión de la Cámara de Representantes.",
+      ja: "内務、移民、市民権、サイバーセキュリティ、芸術、下院運営を主な担当分野としています。",
+      ko: "내무, 이민, 시민권, 사이버 보안, 예술, 하원 운영을 주요 포트폴리오로 다룹니다.",
+      vi: "Các mảng chính gồm nội vụ, di trú, quốc tịch, an ninh mạng, nghệ thuật và điều phối Hạ viện.",
+      th: "ประเด็นหลักคือ home affairs, immigration, citizenship, cyber security, arts และการจัดการ House of Representatives",
+      si: "Home affairs, immigration, citizenship, cyber security, arts සහ House of Representatives management ඔහුගේ ප්‍රධාන portfolios වේ."
+    }
+  },
+  {
+    name: "Harriet Shing",
+    aliases: ["Harriet Shing", "Hon Harriet Shing", "哈丽雅特·欣", "ハリエット・シング", "해리엇 싱"],
+    type: "politician",
+    social: { label: "Parliament profile", url: "https://www.parliament.vic.gov.au/members/harriet-shing/" },
+    background: {
+      "zh-Hans": "维州工党政治人物，2014 年起代表 Eastern Victoria 进入维州上议院，曾任卫生、救护服务、水务、住房、平等和区域发展等部长职务。",
+      "zh-Hant": "維州工黨政治人物，2014 年起代表 Eastern Victoria 進入維州上議院，曾任衛生、救護服務、水務、住房、平等和區域發展等部長職務。",
+      en: "Victorian Labor politician and Legislative Council member for Eastern Victoria since 2014, with ministerial roles across health, ambulance services, water, housing, equality and regional development.",
+      es: "Política laborista de Victoria y miembro del Consejo Legislativo por Eastern Victoria desde 2014, con carteras de salud, ambulancias, agua, vivienda, igualdad y desarrollo regional.",
+      ja: "2014年から Eastern Victoria 選出のビクトリア州労働党上院議員。保健、救急、水、住宅、平等、地域開発などの閣僚職を担いました。",
+      ko: "2014년부터 Eastern Victoria를 대표하는 빅토리아주 노동당 상원의원으로, 보건, 구급, 물, 주택, 평등, 지역 개발 장관직을 맡았습니다.",
+      vi: "Chính trị gia Labor tại Victoria, nghị sĩ Legislative Council khu Eastern Victoria từ năm 2014, từng phụ trách y tế, xe cứu thương, nước, nhà ở, bình đẳng và phát triển vùng.",
+      th: "นักการเมือง Labor ของ Victoria เป็นสมาชิก Legislative Council เขต Eastern Victoria ตั้งแต่ปี 2014 เคยดูแล health, ambulance services, water, housing, equality และ regional development",
+      si: "2014 සිට Eastern Victoria නියෝජනය කරන Victorian Labor Legislative Council member; health, ambulance services, water, housing, equality සහ regional development portfolios දරා ඇත."
+    },
+    positions: {
+      "zh-Hans": "公开工作重点包括公共医疗、救护系统、水务管理、区域投资、住房供应和平等政策。",
+      "zh-Hant": "公開工作重點包括公共醫療、救護系統、水務管理、區域投資、住房供應和平等政策。",
+      en: "Her public priorities have included public health, ambulance services, water management, regional investment, housing supply and equality policy.",
+      es: "Sus prioridades públicas incluyen salud pública, ambulancias, gestión del agua, inversión regional, oferta de vivienda e igualdad.",
+      ja: "公衆衛生、救急サービス、水管理、地域投資、住宅供給、平等政策を重視してきました。",
+      ko: "공공 보건, 구급 서비스, 물 관리, 지역 투자, 주택 공급, 평등 정책을 중시해 왔습니다.",
+      vi: "Các ưu tiên gồm y tế công, cứu thương, quản lý nước, đầu tư vùng, nguồn cung nhà ở và chính sách bình đẳng.",
+      th: "ประเด็นสำคัญคือสาธารณสุข ระบบรถพยาบาล การจัดการน้ำ การลงทุนภูมิภาค อุปทานที่อยู่อาศัย และนโยบายความเท่าเทียม",
+      si: "Public health, ambulance services, water management, regional investment, housing supply සහ equality policy ඇයගේ priorities වේ."
+    }
+  },
+  {
+    name: "Jessica Hull",
+    aliases: ["Jessica Hull", "Jess Hull", "杰西卡·赫尔", "ジェシカ・ハル", "제시카 헐"],
+    type: "athlete",
+    social: { label: "Australian Athletics", url: "https://www.athletics.com.au/athlete/jessica-hull/" },
+    background: {
+      "zh-Hans": "澳洲中长跑运动员，奥运银牌得主和澳洲纪录保持者，主项包括 1500 米、3000 米和 5000 米。",
+      "zh-Hant": "澳洲中長跑運動員，奧運銀牌得主和澳洲紀錄保持者，主項包括 1500 米、3000 米和 5000 米。",
+      en: "Australian middle-distance runner, Olympic silver medallist and Australian record holder across events including 1500m, 3000m and 5000m.",
+      es: "Mediofondista australiana, medallista olímpica de plata y plusmarquista nacional en pruebas como 1500 m, 3000 m y 5000 m.",
+      ja: "オーストラリアの中距離選手。五輪銀メダリストで、1500m、3000m、5000m などの豪州記録保持者です。",
+      ko: "호주 중거리 육상 선수로 올림픽 은메달리스트이며 1500m, 3000m, 5000m 등에서 호주 기록을 보유했습니다.",
+      vi: "VĐV chạy trung bình của Úc, huy chương bạc Olympic và giữ kỷ lục Úc ở các cự ly như 1500m, 3000m và 5000m.",
+      th: "นักวิ่งระยะกลางของออสเตรเลีย เจ้าของเหรียญเงินโอลิมปิกและสถิติออสเตรเลียในรายการ 1500m, 3000m และ 5000m",
+      si: "Australian middle-distance runner; Olympic silver medallist සහ 1500m, 3000m, 5000m ඇතුළු events වල Australian record holder."
+    }
+  },
+  {
+    name: "Michelle Jenneke",
+    aliases: ["Michelle Jenneke", "米歇尔·詹内克", "ミシェル・ジェネキー", "미셸 제네키"],
+    type: "athlete",
+    social: { label: "Australian Athletics", url: "https://www.athletics.com.au/athlete/michelle-jenneke/" },
+    background: {
+      "zh-Hans": "澳洲 100 米栏运动员，多届奥运会和世锦赛代表，曾多次获得澳洲全国 100 米栏冠军。",
+      "zh-Hant": "澳洲 100 米欄運動員，多屆奧運會和世錦賽代表，曾多次獲得澳洲全國 100 米欄冠軍。",
+      en: "Australian 100m hurdler, multiple-time Olympian and world championships representative, and a multiple national 100m hurdles champion.",
+      es: "Vallista australiana de 100 m, olímpica y mundialista en varias ocasiones, y múltiple campeona nacional de 100 m vallas.",
+      ja: "オーストラリアの100mハードル選手。複数回の五輪・世界選手権代表で、国内100mハードル王者です。",
+      ko: "호주 100m 허들 선수로 여러 차례 올림픽과 세계선수권에 출전했고 전국 100m 허들 챔피언을 지냈습니다.",
+      vi: "VĐV 100m rào của Úc, nhiều lần dự Olympic và giải thế giới, nhiều lần vô địch quốc gia 100m rào.",
+      th: "นักวิ่งข้ามรั้ว 100 เมตรของออสเตรเลีย เป็นตัวแทนโอลิมปิกและชิงแชมป์โลกหลายครั้ง และแชมป์ประเทศหลายสมัย",
+      si: "Australian 100m hurdler; multiple Olympian/world championships representative සහ multiple national 100m hurdles champion."
+    }
+  },
+  {
+    name: "Ridge Barredo",
+    aliases: ["Ridge Barredo", "里奇·巴雷多", "リッジ・バレド", "리지 바레도"],
+    type: "athlete",
+    social: { label: "Instagram", url: "https://www.instagram.com/ridgebarredo/" },
+    background: {
+      "zh-Hans": "澳洲举重运动员，代表澳洲参加国际举重赛事，也因参加澳洲真人秀节目而有公众知名度。",
+      "zh-Hant": "澳洲舉重運動員，代表澳洲參加國際舉重賽事，也因參加澳洲真人秀節目而有公眾知名度。",
+      en: "Australian weightlifter who has represented Australia in international competition and is also publicly known from Australian reality television.",
+      es: "Halterófilo australiano que ha representado al país en competición internacional y también es conocido por la televisión de realidad australiana.",
+      ja: "国際大会で豪州を代表する重量挙げ選手。豪州のリアリティ番組出演でも知られています。",
+      ko: "국제 대회에서 호주를 대표한 역도 선수이며 호주 리얼리티 TV 출연으로도 알려져 있습니다.",
+      vi: "VĐV cử tạ Úc từng đại diện Australia thi đấu quốc tế, đồng thời được công chúng biết tới qua truyền hình thực tế Úc.",
+      th: "นักยกน้ำหนักออสเตรเลียที่เคยเป็นตัวแทนประเทศในการแข่งขันนานาชาติ และเป็นที่รู้จักจากรายการเรียลลิตี้ทีวีของออสเตรเลีย",
+      si: "Australian weightlifter; international competition වල Australia නියෝජනය කර ඇති අතර Australian reality television හරහාද public profile එකක් ඇත."
+    }
+  },
+  {
+    name: "Cameron McEntyre",
+    aliases: ["Cameron McEntyre", "卡梅伦·麦肯泰尔", "キャメロン・マッケンタイア", "캐머런 매킨타이어"],
+    type: "athlete",
+    social: { label: "Australian Athletics", url: "https://www.athletics.com.au/athlete/cameron-mcentyre/" },
+    background: {
+      "zh-Hans": "澳洲标枪运动员，代表澳洲参加奥运会和世界田径锦标赛，所属项目为男子标枪。",
+      "zh-Hant": "澳洲標槍運動員，代表澳洲參加奧運會和世界田徑錦標賽，所屬項目為男子標槍。",
+      en: "Australian javelin thrower who has represented Australia at the Olympic Games and World Athletics Championships.",
+      es: "Lanzador de jabalina australiano que ha representado a Australia en Juegos Olímpicos y campeonatos mundiales de atletismo.",
+      ja: "オーストラリアのやり投げ選手。五輪と世界陸上で豪州代表を務めています。",
+      ko: "호주 창던지기 선수로 올림픽과 세계육상선수권에서 호주를 대표했습니다.",
+      vi: "VĐV ném lao của Úc, từng đại diện Australia tại Olympic và Giải vô địch điền kinh thế giới.",
+      th: "นักขว้างแหลนออสเตรเลีย เคยเป็นตัวแทนประเทศในโอลิมปิกและ World Athletics Championships",
+      si: "Australian javelin thrower; Olympic Games සහ World Athletics Championships වල Australia නියෝජනය කර ඇත."
+    }
+  },
+  {
+    name: "Alex Ryvchin",
+    aliases: ["Alex Ryvchin", "Alexander Ryvchin", "亚历克斯·里夫钦", "アレックス・リブチン", "알렉스 리브친"],
+    type: "public-figure",
+    social: { label: "Instagram", url: "https://www.instagram.com/AlexRyvchin/" },
+    background: {
+      "zh-Hans": "澳洲作家、律师和公共倡议者，担任澳洲犹太人执行委员会联合首席执行官，经常就反犹主义、以色列和澳洲犹太社区事务发声。",
+      "zh-Hant": "澳洲作家、律師和公共倡議者，擔任澳洲猶太人執行委員會聯合行政總裁，經常就反猶主義、以色列和澳洲猶太社區事務發聲。",
+      en: "Australian author, lawyer and public advocate, serving as co-chief executive of the Executive Council of Australian Jewry and frequently commenting on antisemitism, Israel and Australian Jewish community affairs.",
+      es: "Autor, abogado y defensor público australiano, co-CEO del Executive Council of Australian Jewry, con frecuentes intervenciones sobre antisemitismo, Israel y la comunidad judía australiana.",
+      ja: "オーストラリアの作家、弁護士、公共的な提唱者。Executive Council of Australian Jewry の共同 CEO として、反ユダヤ主義、イスラエル、豪州ユダヤ人社会について発言しています。",
+      ko: "호주 작가, 변호사, 공공 옹호자로 Executive Council of Australian Jewry 공동 CEO를 맡고 있으며 반유대주의, 이스라엘, 호주 유대인 공동체 문제를 자주 논평합니다.",
+      vi: "Tác giả, luật sư và nhà vận động công chúng ở Úc, đồng CEO Executive Council of Australian Jewry, thường bình luận về bài Do Thái, Israel và cộng đồng Do Thái Úc.",
+      th: "นักเขียน ทนาย และผู้รณรงค์สาธารณะชาวออสเตรเลีย เป็น co-CEO ของ Executive Council of Australian Jewry และมักให้ความเห็นเรื่อง antisemitism, Israel และชุมชนยิวในออสเตรเลีย",
+      si: "Australian author, lawyer සහ public advocate; Executive Council of Australian Jewry හි co-chief executive ලෙස කටයුතු කර antisemitism, Israel සහ Australian Jewish community affairs ගැන නිතර අදහස් දක්වයි."
+    }
+  },
+  {
+    name: "Michael Zavros",
+    aliases: ["Michael Zavros", "迈克尔·扎夫罗斯", "マイケル・ザブロス", "마이클 자브로스"],
+    type: "artist",
+    social: { label: "Official biography", url: "https://www.michaelzavros.com/biography/" },
+    background: {
+      "zh-Hans": "澳洲当代艺术家，以绘画、素描和雕塑创作知名，作品在澳洲和海外主要美术馆展出，曾获 Doug Moran National Portrait Prize。",
+      "zh-Hant": "澳洲當代藝術家，以繪畫、素描和雕塑創作知名，作品在澳洲和海外主要美術館展出，曾獲 Doug Moran National Portrait Prize。",
+      en: "Australian contemporary artist known for painting, drawing and sculpture, with work shown in major Australian and international museums and a Doug Moran National Portrait Prize win.",
+      es: "Artista contemporáneo australiano conocido por pintura, dibujo y escultura, con obras en museos australianos e internacionales y ganador del Doug Moran National Portrait Prize.",
+      ja: "絵画、素描、彫刻で知られる豪州の現代美術家。国内外の主要美術館で展示され、Doug Moran National Portrait Prize を受賞しています。",
+      ko: "회화, 드로잉, 조각으로 알려진 호주 현대미술가이며 주요 국내외 미술관에서 전시했고 Doug Moran National Portrait Prize를 수상했습니다.",
+      vi: "Nghệ sĩ đương đại Úc, nổi tiếng với hội họa, ký họa và điêu khắc, có tác phẩm trưng bày tại các bảo tàng lớn ở Úc và quốc tế, từng thắng Doug Moran National Portrait Prize.",
+      th: "ศิลปินร่วมสมัยชาวออสเตรเลีย เป็นที่รู้จักจากงาน painting, drawing และ sculpture ผลงานจัดแสดงในพิพิธภัณฑ์สำคัญในออสเตรเลียและต่างประเทศ และเคยชนะ Doug Moran National Portrait Prize",
+      si: "Australian contemporary artist; painting, drawing සහ sculpture සඳහා ප්‍රසිද්ධය. Australian/international museums වල කෘති පෙන්වා ඇති අතර Doug Moran National Portrait Prize දිනා ඇත."
     }
   }
 ];
