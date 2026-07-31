@@ -819,6 +819,34 @@ function hasSpecificCommentary(commentary) {
 
 const PEOPLE_CONTEXT = [
   {
+    name: "Jess Wilson",
+    aliases: ["Jess Wilson", "Jessica Wilson", "Jessica Kate Wilson", "杰斯·威尔逊", "傑斯·威爾遜", "ジェス・ウィルソン", "제스 윌슨"],
+    type: "politician",
+    social: { label: "Official profile", url: "https://www.parliament.vic.gov.au/members/jess-wilson/" },
+    background: {
+      "zh-Hans": "维州自由党政治人物，Kew 选区州议员，2025 年起任维州反对党领袖和自由党领袖。进入议会前曾任商业委员会政策主管，也曾为联邦自由党财长 Josh Frydenberg 工作。",
+      "zh-Hant": "維州自由黨政治人物，Kew 選區州議員，2025 年起任維州反對黨領袖和自由黨領袖。進入議會前曾任商業委員會政策主管，也曾為聯邦自由黨財長 Josh Frydenberg 工作。",
+      en: "Victorian Liberal politician, MP for Kew and Leader of the Opposition and Liberal Party in Victoria since 2025. Before parliament she worked in policy at the Business Council of Australia and for federal Liberal treasurer Josh Frydenberg.",
+      es: "Política liberal de Victoria, diputada por Kew y líder de la oposición y del Partido Liberal en Victoria desde 2025. Antes del parlamento trabajó en políticas en el Business Council of Australia y para el tesorero federal liberal Josh Frydenberg.",
+      ja: "ビクトリア州自由党の政治家。Kew 選出州議員で、2025年から同州の野党党首・自由党党首です。議会入り前は Business Council of Australia の政策部門や連邦自由党財務相 Josh Frydenberg の下で働きました。",
+      ko: "빅토리아주 자유당 정치인으로 Kew 지역구 의원이며 2025년부터 빅토리아 야당 대표와 자유당 대표입니다. 의회 입성 전에는 Business Council of Australia 정책 업무와 연방 자유당 재무장관 Josh Frydenberg 보좌 업무를 했습니다.",
+      vi: "Chính trị gia Liberal tại Victoria, nghị sĩ bang khu Kew và là Leader of the Opposition cùng lãnh đạo Liberal Party ở Victoria từ năm 2025. Trước quốc hội, bà làm chính sách tại Business Council of Australia và cho bộ trưởng ngân khố liên bang Josh Frydenberg.",
+      th: "นักการเมือง Liberal ของรัฐวิกตอเรีย ส.ส. เขต Kew และเป็น Leader of the Opposition กับหัวหน้า Liberal Party ของรัฐตั้งแต่ปี 2025 ก่อนเข้าสภาทำงานด้านนโยบายที่ Business Council of Australia และให้ Josh Frydenberg รัฐมนตรีคลัง Liberal ระดับรัฐบาลกลาง",
+      si: "Victorian Liberal දේශපාලනඥයෙකු වන Jess Wilson Kew MP වන අතර 2025 සිට Victoria හි Leader of the Opposition සහ Liberal Party leader වේ. Parliament ට පෙර Business Council of Australia හි policy roles සහ federal Liberal treasurer Josh Frydenberg සමඟ කටයුතු කළාය."
+    },
+    positions: {
+      "zh-Hans": "主打“Fresh Start”，强调降低犯罪、财政纪律、商业投资和住房可负担性；在治安议题上支持扩大“Adult Crime, Adult Time”和更严的保释规则。",
+      "zh-Hant": "主打「Fresh Start」，強調降低犯罪、財政紀律、商業投資和住房可負擔性；在治安議題上支持擴大「Adult Crime, Adult Time」和更嚴的保釋規則。",
+      en: "She campaigns on a Fresh Start message focused on crime reduction, budget discipline, business investment and housing affordability; on law and order she backs expanded Adult Crime, Adult Time laws and tougher bail rules.",
+      es: "Hace campaña con el mensaje Fresh Start, centrado en reducir el delito, disciplina fiscal, inversión empresarial y vivienda asequible; en seguridad respalda ampliar Adult Crime, Adult Time y endurecer la fianza.",
+      ja: "Fresh Start を掲げ、犯罪抑止、財政規律、企業投資、住宅取得可能性を重視します。治安では Adult Crime, Adult Time の拡大と保釈規則の厳格化を支持しています。",
+      ko: "Fresh Start 메시지로 범죄 감소, 재정 규율, 기업 투자, 주거 affordability를 내세웁니다. 치안 분야에서는 Adult Crime, Adult Time 확대와 더 엄격한 보석 규정을 지지합니다.",
+      vi: "Bà vận động với thông điệp Fresh Start, tập trung giảm tội phạm, kỷ luật ngân sách, đầu tư doanh nghiệp và khả năng mua nhà; về law and order, bà ủng hộ mở rộng Adult Crime, Adult Time và siết quy định tại ngoại.",
+      th: "เธอหาเสียงด้วยข้อความ Fresh Start เน้นลดอาชญากรรม วินัยงบประมาณ การลงทุนธุรกิจ และ housing affordability ด้าน law and order สนับสนุนการขยาย Adult Crime, Adult Time และกฎประกันตัวที่เข้มขึ้น",
+      si: "ඇය Fresh Start message එකක් යටතේ crime reduction, budget discipline, business investment සහ housing affordability අවධාරණය කරයි; law and order සම්බන්ධයෙන් Adult Crime, Adult Time නීති පුළුල් කිරීම සහ tougher bail rules සහාය දක්වයි."
+    }
+  },
+  {
     name: "Ben Carroll",
     aliases: ["Ben Carroll", "本·卡罗尔", "本·卡羅爾", "ベン・キャロル", "벤 캐럴"],
     type: "politician",
