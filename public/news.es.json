@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T18:31:21.439Z",
+  "updatedAt": "2026-07-31T19:11:49.023Z",
   "generatedBy": "codex",
   "language": "es",
   "sources": [
@@ -107,6 +107,28 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "alan-jones-court-reporting",
+      "headline": "Alan Jones llega a juicio mientras se prueba el alcance de la cobertura",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-31T15:00:19Z",
+      "voiceScript": "Alan Jones afronta el inicio de un juicio largo en Sídney por acusaciones históricas de indecencia y contacto sexual sin consentimiento que involucran a varias personas denunciante. La disputa más reciente no es solo por los cargos, sino por hasta dónde pueden informar los medios después de que un juez relajó parte de las restricciones habituales de una sala cerrada. Importa porque el caso involucra a una de las figuras más influyentes de la radiodifusión australiana y se prolongará durante meses. El siguiente punto clave será cómo se desarrolla la prueba cuando arranque la vista completa.",
+      "differences": [
+        "The Guardian enfatiza el legado público de Jones y la magnitud del juicio.",
+        "news.com.au se centra en la pelea por la cobertura y en el intento de la defensa de frenar los reportes."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/alan-jones-wielded-huge-power-but-now-the-legacy-of-his-four-decade-career-will-be-decided-by-four-months-in-court"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/entertainment/tv/radio/jones-loses-bid-to-block-media-from-reporting-alleged-victims-evidence/news-story/e5f3eb835195b94de31d3265c099407b"
+        }
+      ],
+      "language": "es"
+    },
     {
       "id": "football-australia-fifa-plan",
       "headline": "Football Australia espera más detalles sobre el plan de inversión de la FIFA para el Mundial",
@@ -381,6 +403,21 @@
       ]
     },
     {
+      "id": "lgbtq-veterans-apology-adf",
+      "headline": "Los veteranos LGBTIQ+ piden una disculpa formal por la antigua discriminación en la ADF",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T05:48:54Z",
+      "voiceScript": "Un comité del Senado pide al gobierno federal que se disculpe con los veteranos y miembros del servicio LGBTIQ+ que fueron sancionados bajo las viejas normas de Defensa que prohibían al personal homosexual. David Gibson dice que el trato que él y otros recibieron dejó una vergüenza duradera, y el informe recomienda anotar los expedientes, entregar certificados de servicio honorable y reconocer formalmente el daño. Esto importa porque esas políticas no desaparecieron hasta 1990, así que sus efectos siguen presentes en veteranos que aún viven. Ahora el gobierno debe decidir si va más allá del proyecto de ley actual y acepta esas medidas de reparación.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/31/forced-out-of-adf-military-due-to-his-sexuality-david-says-an-apology-is-long-overdue-for-veterans-like-him-ntwnfb"
+        }
+      ],
+      "language": "es"
+    },
+    {
       "id": "mick-gatto-cfmeu-inquiry",
       "headline": "La investigación del CFMEU mantiene bajo presión los vínculos de Mick Gatto con empresas de mano de obra",
       "sourceCount": 3,
@@ -422,21 +459,6 @@
           "score": 8
         }
       ]
-    },
-    {
-      "id": "lgbtq-veterans-apology-adf",
-      "headline": "Los veteranos LGBTIQ+ piden una disculpa formal por la antigua discriminación en la ADF",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T05:48:54Z",
-      "voiceScript": "Un comité del Senado pide al gobierno federal que se disculpe con los veteranos y miembros del servicio LGBTIQ+ que fueron sancionados bajo las viejas normas de Defensa que prohibían al personal homosexual. David Gibson dice que el trato que él y otros recibieron dejó una vergüenza duradera, y el informe recomienda anotar los expedientes, entregar certificados de servicio honorable y reconocer formalmente el daño. Esto importa porque esas políticas no desaparecieron hasta 1990, así que sus efectos siguen presentes en veteranos que aún viven. Ahora el gobierno debe decidir si va más allá del proyecto de ley actual y acepta esas medidas de reparación.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/31/forced-out-of-adf-military-due-to-his-sexuality-david-says-an-apology-is-long-overdue-for-veterans-like-him-ntwnfb"
-        }
-      ],
-      "language": "es"
     },
     {
       "id": "luke-gosling-assault-charges",
@@ -976,6 +998,33 @@
       "language": "es"
     },
     {
+      "id": "optus-triple-zero-lawsuit",
+      "headline": "Optus vuelve a los tribunales por la caída de triple cero",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-30T20:51:35Z",
+      "voiceScript": "El regulador de telecomunicaciones de Australia ha iniciado una acción ante el Tribunal Federal contra Optus por la falla de red de 2025 que impidió que algunas llamadas de emergencia se conectaran. El caso busca determinar si la compañía incumplió su obligación de mantener operativo el servicio triple cero y de gestionar correctamente las llamadas fallidas. Importa porque la caída dejó al descubierto una grave falla de seguridad pública y ha mantenido la presión de reguladores, ministros y clientes. El siguiente paso será el proceso judicial, junto con las posibles sanciones y las correcciones de red que la empresa prometió.",
+      "differences": [
+        "AAP destaca la acción legal y las posibles multas.",
+        "SBS News centra el caso en las llamadas fallidas y el desafío del regulador.",
+        "news.com.au subraya las consecuencias más amplias de la caída mortal de 2025."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/optus-sued-by-watchdog-over-triple-zero-network-outage"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/acma-sues-optus-over-2025-netword-outage-and-failed-triple-zero-calls/t2ty0fm4v"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/regulator-launches-legal-action-against-optus-over-deadly-september-2025-triple0-outage/news-story/fa93f881710562afd04a86942d53367d"
+        }
+      ],
+      "language": "es"
+    },
+    {
       "id": "australia-el-nino-hotter-drier-spring",
       "headline": "El Niño acelera y deja a gran parte de Australia camino a una primavera más calurosa y seca",
       "sourceCount": 2,
@@ -1009,6 +1058,28 @@
           "score": 12
         }
       ]
+    },
+    {
+      "id": "blundy-brands-buyback",
+      "headline": "Blundy recompra Bonds y marcas afines por 700 millones",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T19:00:00Z",
+      "voiceScript": "Brett Blundy ha vuelto a poner bajo control australiano a Bras N Things, Bonds, Berlei y Sheridan en una operación valorada en 700 millones de dólares. Hanesbrands vendió estas marcas tras revisar su negocio local, y la compra devuelve a un inversor australiano un grupo de nombres muy conocidos del retail. Importa porque cambia la propiedad de algunas de las marcas de ropa y hogar más reconocidas del país. Ahora queda por ver cómo Blundy integra la cartera y qué hace con tiendas, cadenas de suministro y expansión futura.",
+      "differences": [
+        "AFR destaca el regreso de Blundy a marcas que él mismo ayudó a construir y subraya el tamaño de la operación.",
+        "7NEWS presenta el acuerdo como el regreso de marcas icónicas a manos australianas."
+      ],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/retail/billionaire-blundy-swoops-on-bras-n-things-bonds-in-700m-deal-20260730-p60k39"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/bonds-sheridan-and-berlei-return-to-australian-ownership-in-700m-brett-blundy-deal-c-22657837"
+        }
+      ],
+      "language": "es"
     },
     {
       "id": "hanson-isis-passport-bill",

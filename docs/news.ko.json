@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T18:31:21.439Z",
+  "updatedAt": "2026-07-31T19:11:49.017Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -107,6 +107,28 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "alan-jones-court-reporting",
+      "headline": "앨런 존스 재판에서 보도 범위도 쟁점이 됐다",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-31T15:00:19Z",
+      "voiceScript": "앨런 존스는 여러 고소인과 관련된 과거의 비동의 추행과 성적 접촉 혐의로 시드니에서 긴 재판을 앞두고 있다. 이번 쟁점은 법원이 일부 비공개 원칙을 완화한 뒤, 언론이 한 증인의 진술을 어디까지 보도할 수 있느냐는 점이다. 이 사건은 호주에서 가장 영향력 있는 방송인 가운데 한 명을 다루는 만큼 중요하고, 재판은 수개월 이어질 예정이라 법정 절차 자체도 공적인 관심사가 됐다. 다음 쟁점은 본심리에서 증거가 어떻게 전개되느냐다.",
+      "differences": [
+        "가디언은 존스의 공적 유산과 재판 규모를 부각한다.",
+        "news.com.au는 보도 제한 공방과 변호인단의 차단 시도를 더 앞세운다."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/alan-jones-wielded-huge-power-but-now-the-legacy-of-his-four-decade-career-will-be-decided-by-four-months-in-court"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/entertainment/tv/radio/jones-loses-bid-to-block-media-from-reporting-alleged-victims-evidence/news-story/e5f3eb835195b94de31d3265c099407b"
+        }
+      ],
+      "language": "ko"
+    },
     {
       "id": "football-australia-fifa-plan",
       "headline": "호주축구협회, FIFA의 월드컵 투자안 세부자료를 기다리다",
@@ -381,6 +403,21 @@
       ]
     },
     {
+      "id": "lgbtq-veterans-apology-adf",
+      "headline": "LGBTQ+ 참전·복무자들이 과거 ADF 차별에 대한 공식 사과를 요구한다",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T05:48:54Z",
+      "voiceScript": "상원 위원회는 옛 국방 규정 아래에서 처벌받은 LGBTQ+ 참전·복무자들에게 연방정부가 사과해야 한다고 촉구하고 있다. David Gibson은 자신과 다른 사람들이 겪은 처우가 오랜 수치심을 남겼다고 말했고, 보고서는 기록 주석 추가, 명예 복무 증명서 발급, 피해의 공식 인정을 권고했다. 이 정책이 1990년까지 유지됐기 때문에 아직 생존한 참전·복무자들에게도 영향이 남아 있다는 점이 중요하다. 이제 정부가 현행 법안보다 더 나아가 이런 회복 조치를 받아들일지 결정해야 한다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/31/forced-out-of-adf-military-due-to-his-sexuality-david-says-an-apology-is-long-overdue-for-veterans-like-him-ntwnfb"
+        }
+      ],
+      "language": "ko"
+    },
+    {
       "id": "mick-gatto-cfmeu-inquiry",
       "headline": "CFMEU 조사에서 Mick Gatto의 인력파견 연계 의혹이 계속 압박받는다",
       "sourceCount": 3,
@@ -422,21 +459,6 @@
           "score": 8
         }
       ]
-    },
-    {
-      "id": "lgbtq-veterans-apology-adf",
-      "headline": "LGBTQ+ 참전·복무자들이 과거 ADF 차별에 대한 공식 사과를 요구한다",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T05:48:54Z",
-      "voiceScript": "상원 위원회는 옛 국방 규정 아래에서 처벌받은 LGBTQ+ 참전·복무자들에게 연방정부가 사과해야 한다고 촉구하고 있다. David Gibson은 자신과 다른 사람들이 겪은 처우가 오랜 수치심을 남겼다고 말했고, 보고서는 기록 주석 추가, 명예 복무 증명서 발급, 피해의 공식 인정을 권고했다. 이 정책이 1990년까지 유지됐기 때문에 아직 생존한 참전·복무자들에게도 영향이 남아 있다는 점이 중요하다. 이제 정부가 현행 법안보다 더 나아가 이런 회복 조치를 받아들일지 결정해야 한다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/31/forced-out-of-adf-military-due-to-his-sexuality-david-says-an-apology-is-long-overdue-for-veterans-like-him-ntwnfb"
-        }
-      ],
-      "language": "ko"
     },
     {
       "id": "luke-gosling-assault-charges",
@@ -976,6 +998,33 @@
       "language": "ko"
     },
     {
+      "id": "optus-triple-zero-lawsuit",
+      "headline": "옵터스, 트리플 제로 장애로 다시 법정에 선다",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-30T20:51:35Z",
+      "voiceScript": "호주 통신 규제 당국은 2025년 네트워크 장애로 일부 긴급 전화가 연결되지 않았다며 옵터스를 상대로 연방법원 소송을 시작했다. 쟁점은 회사가 트리플 제로 서비스를 유지하고, 실패한 통화를 제대로 처리할 의무를 위반했는지 여부다. 이 사안이 중요한 이유는 이번 장애가 심각한 공공 안전 실패를 드러냈고, 규제 당국과 정부, 이용자 모두가 책임을 요구하고 있기 때문이다. 다음 단계는 법원 절차와 함께 벌금, 그리고 회사가 약속한 네트워크 개선이다.",
+      "differences": [
+        "AAP은 소송 자체와 부과될 수 있는 벌금을 더 부각한다.",
+        "SBS News는 실패한 통화와 규제 당국의 도전을 중심에 둔다.",
+        "news.com.au는 치명적이었던 2025년 장애의 더 큰 파장을 강조한다."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/optus-sued-by-watchdog-over-triple-zero-network-outage"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/acma-sues-optus-over-2025-netword-outage-and-failed-triple-zero-calls/t2ty0fm4v"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/regulator-launches-legal-action-against-optus-over-deadly-september-2025-triple0-outage/news-story/fa93f881710562afd04a86942d53367d"
+        }
+      ],
+      "language": "ko"
+    },
+    {
       "id": "australia-el-nino-hotter-drier-spring",
       "headline": "엘니뇨가 급격히 강해지며 호주 대부분이 더 덥고 건조한 봄을 맞을 전망",
       "sourceCount": 2,
@@ -1009,6 +1058,28 @@
           "score": 12
         }
       ]
+    },
+    {
+      "id": "blundy-brands-buyback",
+      "headline": "브런들리가 Bonds와 자매 브랜드를 7억 달러에 다시 사들였다",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T19:00:00Z",
+      "voiceScript": "브렛 브런들이 Bras N Things, Bonds, Berlei, Sheridan을 7억 달러 규모의 거래로 다시 호주 소유로 돌려놓았다. Hanesbrands는 자사 현지 사업을 검토한 뒤 이 브랜드들을 매각했고, 익숙한 소매 브랜드 묶음이 다시 한 호주 투자자의 손에 들어갔다. 이 거래가 중요한 이유는 호주에서 가장 잘 알려진 의류와 생활용품 브랜드의 주인이 바뀌기 때문이다. 앞으로의 쟁점은 브런들이 이 포트폴리오를 매장, 공급망, 그리고 향후 확장에 어떻게 활용하느냐다.",
+      "differences": [
+        "AFR은 브런들이 한때 키운 브랜드로 돌아간 점과 거래 규모를 강조한다.",
+        "7NEWS는 상징적인 호주 브랜드가 다시 국내 소유가 된 점을 부각한다."
+      ],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/retail/billionaire-blundy-swoops-on-bras-n-things-bonds-in-700m-deal-20260730-p60k39"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/bonds-sheridan-and-berlei-return-to-australian-ownership-in-700m-brett-blundy-deal-c-22657837"
+        }
+      ],
+      "language": "ko"
     },
     {
       "id": "hanson-isis-passport-bill",

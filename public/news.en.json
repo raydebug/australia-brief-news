@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T18:31:21.439Z",
+  "updatedAt": "2026-07-31T19:11:49.004Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -107,6 +107,28 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "alan-jones-court-reporting",
+      "headline": "Alan Jones goes to court as reporting limits are tested",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-31T15:00:19Z",
+      "voiceScript": "Alan Jones is facing the start of a long Sydney trial over historic indecent assault and sexual touching charges involving multiple complainants. The latest dispute is over what media outlets can report from one witness, after a judge relaxed part of the usual closed-court restrictions. It matters because the case involves one of Australia's most influential broadcasters and will run for months, making the courtroom rules part of the public record. The next key point is how the evidence develops once the full hearing gets under way.",
+      "differences": [
+        "The Guardian emphasises Jones's public legacy and the scale of the trial.",
+        "news.com.au focuses on the reporting fight and the defence team's push to block coverage."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/alan-jones-wielded-huge-power-but-now-the-legacy-of-his-four-decade-career-will-be-decided-by-four-months-in-court"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/entertainment/tv/radio/jones-loses-bid-to-block-media-from-reporting-alleged-victims-evidence/news-story/e5f3eb835195b94de31d3265c099407b"
+        }
+      ],
+      "language": "en"
+    },
     {
       "id": "football-australia-fifa-plan",
       "headline": "Football Australia waits on details of FIFA's World Cup investment plan",
@@ -381,6 +403,21 @@
       ]
     },
     {
+      "id": "lgbtq-veterans-apology-adf",
+      "headline": "LGBTQ+ veterans press for a formal apology over past ADF discrimination",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T05:48:54Z",
+      "voiceScript": "A Senate committee is urging the federal government to apologise to LGBTQ+ veterans and service members who were punished under old Defence rules that barred homosexual personnel. David Gibson says the treatment he and others faced left lasting shame, and the report recommends record annotations, honourable-service certificates and formal recognition of the harm. It matters because those policies were only dropped in 1990, so the effects are still being felt by living veterans. The government now has to decide whether to go beyond the current bill and accept those restorative steps.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/31/forced-out-of-adf-military-due-to-his-sexuality-david-says-an-apology-is-long-overdue-for-veterans-like-him-ntwnfb"
+        }
+      ],
+      "language": "en"
+    },
+    {
       "id": "mick-gatto-cfmeu-inquiry",
       "headline": "CFMEU inquiry keeps pressure on Mick Gatto's labour-hire links",
       "sourceCount": 3,
@@ -422,21 +459,6 @@
           "score": 8
         }
       ]
-    },
-    {
-      "id": "lgbtq-veterans-apology-adf",
-      "headline": "LGBTQ+ veterans press for a formal apology over past ADF discrimination",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T05:48:54Z",
-      "voiceScript": "A Senate committee is urging the federal government to apologise to LGBTQ+ veterans and service members who were punished under old Defence rules that barred homosexual personnel. David Gibson says the treatment he and others faced left lasting shame, and the report recommends record annotations, honourable-service certificates and formal recognition of the harm. It matters because those policies were only dropped in 1990, so the effects are still being felt by living veterans. The government now has to decide whether to go beyond the current bill and accept those restorative steps.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/31/forced-out-of-adf-military-due-to-his-sexuality-david-says-an-apology-is-long-overdue-for-veterans-like-him-ntwnfb"
-        }
-      ],
-      "language": "en"
     },
     {
       "id": "luke-gosling-assault-charges",
@@ -976,6 +998,33 @@
       "language": "en"
     },
     {
+      "id": "optus-triple-zero-lawsuit",
+      "headline": "Optus is back in court over the triple-zero outage",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-30T20:51:35Z",
+      "voiceScript": "Australia's telecom regulator has started Federal Court action against Optus over the 2025 network failure that stopped some emergency calls from connecting. The case is about whether the company breached its obligations to keep triple-zero service working and to deal properly with failed calls. It matters because the outage exposed a serious public-safety failure and left regulators, ministers and customers demanding accountability. The next step is the court process, along with any penalties and the company's promised network fixes.",
+      "differences": [
+        "AAP stresses the legal action and possible penalties for the outage.",
+        "SBS News centres the case on the failed calls and the regulator's challenge.",
+        "news.com.au highlights the wider fallout from the deadly 2025 outage."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/optus-sued-by-watchdog-over-triple-zero-network-outage"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/acma-sues-optus-over-2025-netword-outage-and-failed-triple-zero-calls/t2ty0fm4v"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/regulator-launches-legal-action-against-optus-over-deadly-september-2025-triple0-outage/news-story/fa93f881710562afd04a86942d53367d"
+        }
+      ],
+      "language": "en"
+    },
+    {
       "id": "australia-el-nino-hotter-drier-spring",
       "headline": "El Niño surge puts much of Australia on track for a hotter, drier spring",
       "sourceCount": 2,
@@ -1009,6 +1058,28 @@
           "score": 12
         }
       ]
+    },
+    {
+      "id": "blundy-brands-buyback",
+      "headline": "Blundy buys back Bonds and sister brands for $700 million",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T19:00:00Z",
+      "voiceScript": "Brett Blundy has bought Bras N Things, Bonds, Berlei and Sheridan back into Australian ownership in a $700 million deal. The brands were sold by Hanesbrands after a review of its local business, and the purchase puts a group of familiar retail names back under one Australian investor. It matters because the deal shifts control of some of the country's best-known clothing and home labels. The next question is how Blundy uses the portfolio across stores, supply chains and future expansion.",
+      "differences": [
+        "AFR frames the deal as Blundy returning to brands he once built and stresses the size of the transaction.",
+        "7NEWS focuses on the brands returning to local ownership and their national reach."
+      ],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/retail/billionaire-blundy-swoops-on-bras-n-things-bonds-in-700m-deal-20260730-p60k39"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/bonds-sheridan-and-berlei-return-to-australian-ownership-in-700m-brett-blundy-deal-c-22657837"
+        }
+      ],
+      "language": "en"
     },
     {
       "id": "hanson-isis-passport-bill",

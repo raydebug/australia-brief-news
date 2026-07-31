@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T18:31:21.439Z",
+  "updatedAt": "2026-07-31T19:11:49.011Z",
   "generatedBy": "codex",
   "language": "zh-Hant",
   "sources": [
@@ -107,6 +107,28 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "alan-jones-court-reporting",
+      "headline": "艾倫·瓊斯受審，媒體報導界線也被檢驗",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-31T15:00:19Z",
+      "voiceScript": "艾倫·瓊斯正面對雪梨一場漫長庭審，涉及多名投訴人的歷史猥褻與非禮指控。最新爭議不在指控本身，而在於法院預審後放寬了部分封閉庭審限制，媒體能報導多少證詞。此案之所以重要，是因為它牽涉澳洲最有影響力的廣播人物之一，而且審理會持續數月，庭審規則本身也成為公眾關注的一部分。接下來最關鍵的是正式開庭後，證據會如何展開。",
+      "differences": [
+        "《衛報》更強調瓊斯的公共遺產與庭審規模。",
+        "news.com.au 更聚焦報導權之爭，以及辯方試圖阻止報導。"
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/alan-jones-wielded-huge-power-but-now-the-legacy-of-his-four-decade-career-will-be-decided-by-four-months-in-court"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/entertainment/tv/radio/jones-loses-bid-to-block-media-from-reporting-alleged-victims-evidence/news-story/e5f3eb835195b94de31d3265c099407b"
+        }
+      ],
+      "language": "zh-Hant"
+    },
     {
       "id": "football-australia-fifa-plan",
       "headline": "澳洲足球協會等待國際足總世界盃投資計劃細節",
@@ -381,6 +403,21 @@
       ]
     },
     {
+      "id": "lgbtq-veterans-apology-adf",
+      "headline": "LGBTQ+ 退伍軍人要求就 ADF 過去的歧視正式道歉",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T05:48:54Z",
+      "voiceScript": "參議院一個委員會敦促聯邦政府，向那些曾因舊版國防規則而受罰的 LGBTQ+ 退伍軍人和服役人員道歉。David Gibson 說，他和其他人遭遇的待遇留下了長期羞辱感，報告建議在軍旅紀錄上註明歧視經歷、發放光榮退役證明，並正式承認傷害。之所以重要，是因為這些政策直到 1990 年才被取消，相關影響至今仍落在仍然在世的退伍軍人身上。接下來要看政府是否會超越現有法案，接受這些補救措施。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/31/forced-out-of-adf-military-due-to-his-sexuality-david-says-an-apology-is-long-overdue-for-veterans-like-him-ntwnfb"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
       "id": "mick-gatto-cfmeu-inquiry",
       "headline": "CFMEU 聽證持續向 Mick Gatto 的勞務外包關係施壓",
       "sourceCount": 3,
@@ -422,21 +459,6 @@
           "score": 8
         }
       ]
-    },
-    {
-      "id": "lgbtq-veterans-apology-adf",
-      "headline": "LGBTQ+ 退伍軍人要求就 ADF 過去的歧視正式道歉",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T05:48:54Z",
-      "voiceScript": "參議院一個委員會敦促聯邦政府，向那些曾因舊版國防規則而受罰的 LGBTQ+ 退伍軍人和服役人員道歉。David Gibson 說，他和其他人遭遇的待遇留下了長期羞辱感，報告建議在軍旅紀錄上註明歧視經歷、發放光榮退役證明，並正式承認傷害。之所以重要，是因為這些政策直到 1990 年才被取消，相關影響至今仍落在仍然在世的退伍軍人身上。接下來要看政府是否會超越現有法案，接受這些補救措施。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/31/forced-out-of-adf-military-due-to-his-sexuality-david-says-an-apology-is-long-overdue-for-veterans-like-him-ntwnfb"
-        }
-      ],
-      "language": "zh-Hant"
     },
     {
       "id": "luke-gosling-assault-charges",
@@ -976,6 +998,33 @@
       "language": "zh-Hant"
     },
     {
+      "id": "optus-triple-zero-lawsuit",
+      "headline": "Optus因三零求救中斷再度對簿公堂",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-30T20:51:35Z",
+      "voiceScript": "澳洲電信監管機構已就2025年的網絡故障對Optus提起聯邦法院訴訟，當時部分緊急來電一度無法接通。案件核心在於，該公司是否違反了維持三零服務運作，以及妥善處理失敗通話的責任。此事重要，因為這次故障暴露出嚴重的公共安全漏洞，也讓監管機構和政府持續追問責任。下一步將進入法院程序，同時關注罰款結果與公司承諾的網絡整改。",
+      "differences": [
+        "AAP 更強調訴訟本身以及可能面臨的罰款。",
+        "SBS News 聚焦失敗通話和監管機構提出的挑戰。",
+        "news.com.au 更突出這次致命故障帶來的更大後果。"
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/optus-sued-by-watchdog-over-triple-zero-network-outage"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/acma-sues-optus-over-2025-netword-outage-and-failed-triple-zero-calls/t2ty0fm4v"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/regulator-launches-legal-action-against-optus-over-deadly-september-2025-triple0-outage/news-story/fa93f881710562afd04a86942d53367d"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
       "id": "australia-el-nino-hotter-drier-spring",
       "headline": "厄爾尼諾快速增強，澳洲大部分地區面臨更熱更乾燥的春季",
       "sourceCount": 2,
@@ -1009,6 +1058,28 @@
           "score": 12
         }
       ]
+    },
+    {
+      "id": "blundy-brands-buyback",
+      "headline": "Blundy以7億澳元買回Bonds及相關品牌",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T19:00:00Z",
+      "voiceScript": "Brett Blundy已透過一筆7億澳元交易，把Bras N Things、Bonds、Berlei和Sheridan重新收回到澳洲控制之下。Hanesbrands在檢視本地業務後出售了這些品牌，而這筆買賣讓一組熟悉的零售品牌重新回到一位澳洲投資者手中。此事重要，因為它改變了澳洲一些最知名服裝和家居品牌的所有權。接下來要看Blundy會如何整合這些品牌，並運用門市、供應鏈與未來擴張機會。",
+      "differences": [
+        "AFR 更強調 Blundy 回到自己早年建立的品牌，以及交易規模。",
+        "7NEWS 更突出這些澳洲標誌性品牌回到本地所有權。"
+      ],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/retail/billionaire-blundy-swoops-on-bras-n-things-bonds-in-700m-deal-20260730-p60k39"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/bonds-sheridan-and-berlei-return-to-australian-ownership-in-700m-brett-blundy-deal-c-22657837"
+        }
+      ],
+      "language": "zh-Hant"
     },
     {
       "id": "hanson-isis-passport-bill",

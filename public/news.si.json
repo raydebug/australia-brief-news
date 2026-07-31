@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T18:31:21.439Z",
+  "updatedAt": "2026-07-31T19:11:49.014Z",
   "generatedBy": "codex",
   "language": "si",
   "sources": [
@@ -107,6 +107,28 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "alan-jones-court-reporting",
+      "headline": "ඇලන් ජෝන්ස්ගේ නඩුවේදී වාර්තා සීමාත් පරීක්ෂාවට ලක්වෙයි",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-31T15:00:19Z",
+      "voiceScript": "ඇලන් ජෝන්ස් සීඩ්නි නගරයේ දිගු නඩු විභාගයකට මුහුණ දෙමින් සිටී. එහි ප්‍රධාන චෝදනා වන්නේ පරණ කාලයේ අනුමත නොවූ ස්වභාවයේ පහරදීම හා ලිංගික ස්පර්ශය සම්බන්ධ චෝදනා කිහිපයක්ය. නවතම ගැටලුව වන්නේ සාමාන්‍ය රහස් නඩු සීමා වල කොටසක් විනිසුරුවරයා ලිහිල් කළ පසු එක් සාක්ෂිකරුවකුගේ ප්‍රකාශ කොපමණ දුරට මාධ්‍යයට වාර්තා කළ හැකිද යන්නයි. මෙම නඩුව වැදගත් වන්නේ ඔස්ට්‍රේලියාවේ බලවත්ම විකාශකයන්ගෙන් එක් අයෙකු සම්බන්ධ නිසාය, සහ නඩුව මාස ගණනක් දිගුවීමට ඉඩ ඇත. ඊළඟ අදියර වන්නේ සම්පූර්ණ විභාගය ආරම්භ වූ පසු සාක්ෂි කෙසේ ඉදිරියට යනවාද යන්නයි.",
+      "differences": [
+        "The Guardian has emphasised Jones's public legacy and the scale of the trial.",
+        "news.com.au has focused on the reporting dispute and the defence push to block coverage."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/alan-jones-wielded-huge-power-but-now-the-legacy-of-his-four-decade-career-will-be-decided-by-four-months-in-court"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/entertainment/tv/radio/jones-loses-bid-to-block-media-from-reporting-alleged-victims-evidence/news-story/e5f3eb835195b94de31d3265c099407b"
+        }
+      ],
+      "language": "si"
+    },
     {
       "id": "football-australia-fifa-plan",
       "headline": "පාපන්දු ඔස්ට්‍රේලියාව FIFAගේ ලෝක කුසලාන ආයෝජන සැලැස්ම ගැන තොරතුරු ඉල්ලයි",
@@ -381,6 +403,21 @@
       ]
     },
     {
+      "id": "lgbtq-veterans-apology-adf",
+      "headline": "LGBTQ+ පූර්ව සෙබලුන් ADF හි අතීත වෙනස්කම් සඳහා නිල සමාවක් ඉල්ලා සිටිති",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T05:48:54Z",
+      "voiceScript": "සෙනෙට් කමිටුවක් පරණ Defence නීති යටතේ දඩුවම් ලැබූ LGBTQ+ පූර්ව සෙබලුන් සහ සේවකයන්ට ෆෙඩරල් රජය සමාව ඉල්ලා සිටිය යුතු බව පවසයි. David Gibson කියන්නේ ඔහුටත් අනෙක් අයටත් සිදුවූ හැසිරීම දිගුකාලීන ලැජ්ජාවක් ඉතිරි කළා කියලා, සහ වාර්තාවෙන් සේවා වාර්තාවල වෙනස්කම් සටහන් කිරීම, honourable-service සහතික නිකුත් කිරීම, හා හානි නිල වශයෙන් පිළිගැනීම යෝජනා කරනවා. මේ නීති 1990 තෙක්ම තිබුණ නිසා ඒකේ බලපෑම තවමත් ජීවත්ව සිටින පූර්ව සෙබලුන්ට දැනෙනවා. දැන් රජය වත්මන් බිල්පත ඉක්මවා මේ ප්‍රතිසාධන පියවර පිළිගන්නවාද කියන එක බලන්න තියෙනවා.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/31/forced-out-of-adf-military-due-to-his-sexuality-david-says-an-apology-is-long-overdue-for-veterans-like-him-ntwnfb"
+        }
+      ],
+      "language": "si"
+    },
+    {
       "id": "mick-gatto-cfmeu-inquiry",
       "headline": "CFMEU විමර්ශනයෙන් Mick Gattoගේ ශ්‍රම-බඳවාගැනීම් සබඳතා මත පීඩනය තවදුරටත්",
       "sourceCount": 3,
@@ -422,21 +459,6 @@
           "score": 8
         }
       ]
-    },
-    {
-      "id": "lgbtq-veterans-apology-adf",
-      "headline": "LGBTQ+ පූර්ව සෙබලුන් ADF හි අතීත වෙනස්කම් සඳහා නිල සමාවක් ඉල්ලා සිටිති",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T05:48:54Z",
-      "voiceScript": "සෙනෙට් කමිටුවක් පරණ Defence නීති යටතේ දඩුවම් ලැබූ LGBTQ+ පූර්ව සෙබලුන් සහ සේවකයන්ට ෆෙඩරල් රජය සමාව ඉල්ලා සිටිය යුතු බව පවසයි. David Gibson කියන්නේ ඔහුටත් අනෙක් අයටත් සිදුවූ හැසිරීම දිගුකාලීන ලැජ්ජාවක් ඉතිරි කළා කියලා, සහ වාර්තාවෙන් සේවා වාර්තාවල වෙනස්කම් සටහන් කිරීම, honourable-service සහතික නිකුත් කිරීම, හා හානි නිල වශයෙන් පිළිගැනීම යෝජනා කරනවා. මේ නීති 1990 තෙක්ම තිබුණ නිසා ඒකේ බලපෑම තවමත් ජීවත්ව සිටින පූර්ව සෙබලුන්ට දැනෙනවා. දැන් රජය වත්මන් බිල්පත ඉක්මවා මේ ප්‍රතිසාධන පියවර පිළිගන්නවාද කියන එක බලන්න තියෙනවා.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/31/forced-out-of-adf-military-due-to-his-sexuality-david-says-an-apology-is-long-overdue-for-veterans-like-him-ntwnfb"
-        }
-      ],
-      "language": "si"
     },
     {
       "id": "luke-gosling-assault-charges",
@@ -976,6 +998,33 @@
       "language": "si"
     },
     {
+      "id": "optus-triple-zero-lawsuit",
+      "headline": "Optus ට්‍රිපල්-ශූන්‍ය බාධාව සම්බන්ධයෙන් නැවත අධිකරණයට",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-30T20:51:35Z",
+      "voiceScript": "2025 ජාල දෝෂයකින් හදිසි ඇමතුම් කිහිපයක් සම්බන්ධ වීමට නොහැකි වූ බව පවසමින් ඕස්ට්‍රේලියානු ටෙලිකොම් නියාමකයා Optus ට එරෙහිව ෆෙඩරල් අධිකරණයේ නඩුවක් ආරම්භ කර තිබේ. නඩුවේ මූලික කරුණ නම් ට්‍රිපල්-ශූන්‍ය සේවාව ක්‍රියාත්මක තබාගැනීමට සහ අසාර්ථක ඇමතුම් නිසි ලෙස හසුරුවීමට ඇති වගකීම් සමාගම කඩ කළාද යන්නයි. මෙය වැදගත් වන්නේ එම බාධාවෙන් මහජන ආරක්ෂාවට දැඩි හිඟයක් පෙන්වා දුන් බැවිනි, ඒ ගැන නියාමකයන්, ඇමතිවරුන් සහ පාරිභෝගිකයන් තවමත් පිළිතුරු ඉල්ලා සිටිති. දැන් ඊළඟ පියවර අධිකරණ ක්‍රියාවලිය සහ දඩ, සමඟ සමාගමේ ජාල සංශෝධන පොරොන්දුය.",
+      "differences": [
+        "AAP නඩු ක්‍රියාව සහ එල්ල විය හැකි දඩය වැඩි ලෙස ඉස්මතු කරයි.",
+        "SBS News අසාර්ථක ඇමතුම් සහ නියාමකයාගේ නව අභියෝගය මත කේන්ද්‍රගත වේ.",
+        "news.com.au මාරාන්තික 2025 බාධාවේ පුළුල් ප්‍රතිඵල ඉස්මතු කරයි."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/optus-sued-by-watchdog-over-triple-zero-network-outage"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/acma-sues-optus-over-2025-netword-outage-and-failed-triple-zero-calls/t2ty0fm4v"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/regulator-launches-legal-action-against-optus-over-deadly-september-2025-triple0-outage/news-story/fa93f881710562afd04a86942d53367d"
+        }
+      ],
+      "language": "si"
+    },
+    {
       "id": "australia-el-nino-hotter-drier-spring",
       "headline": "එල් නීනෝ වේගයෙන් ශක්තිමත් වීමත් සමඟ ඕස්ට්‍රේලියාවේ බොහෝ ප්‍රදේශ වියළි හා උණුසුම් වසන්තයකට මුහුණ දෙයි",
       "sourceCount": 2,
@@ -1009,6 +1058,28 @@
           "score": 12
         }
       ]
+    },
+    {
+      "id": "blundy-brands-buyback",
+      "headline": "Blundy ඩොලර් මිලියන 700කට Bonds සහ සහෝදර වෙළඳ නාම නැවත ගනී",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T19:00:00Z",
+      "voiceScript": "Brett Blundy ඩොලර් මිලියන 700ක ගනුදෙනුවකින් Bras N Things, Bonds, Berlei සහ Sheridan නැවත ඔස්ට්‍රේලියානු හිමිකමට ගෙන ඇත. Hanesbrands තම දේශීය ව්‍යාපාරය සමාලෝචනය කිරීමෙන් පසු මෙම වෙළඳ නාම විකිණූ අතර, ගනුදෙනුවෙන් හුරුපුරුදු සිල්ලර නාම කිහිපයක් නැවත එක් ඔස්ට්‍රේලියානු ආයෝජකයෙකු යටතට පත් කරයි. මෙය වැදගත් වන්නේ රටේ ප්‍රසිද්ධම ඇඳුම් සහ ගෘහස්ථ වෙළඳ නාම කිහිපයක හිමිකම මෙයින් වෙනස් වන නිසාය. ඉදිරියේදී Blundy මෙම කළඹ ගබඩා, සැපයුම් ජාල සහ අනාගත ව්‍යාප්තිය සඳහා කෙසේ භාවිතා කරන්නේදැයි බලන්නට ඇත.",
+      "differences": [
+        "AFR ගනුදෙනුවේ විශාලත්වයත්, Blundy කලින් ගොඩනගා තිබූ වෙළඳ නාම වෙත ඔහු නැවත පැමිණීමත් මතු කරයි.",
+        "7NEWS දේශීය හිමිකමට මෙම සංකේතාත්මක ඔස්ට්‍රේලියානු වෙළඳ නාම නැවත පැමිණීම මත අවධානය යොමු කරයි."
+      ],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/retail/billionaire-blundy-swoops-on-bras-n-things-bonds-in-700m-deal-20260730-p60k39"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/bonds-sheridan-and-berlei-return-to-australian-ownership-in-700m-brett-blundy-deal-c-22657837"
+        }
+      ],
+      "language": "si"
     },
     {
       "id": "hanson-isis-passport-bill",

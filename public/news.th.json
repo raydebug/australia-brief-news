@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T18:31:21.439Z",
+  "updatedAt": "2026-07-31T19:11:49.022Z",
   "generatedBy": "codex",
   "language": "th",
   "sources": [
@@ -107,6 +107,28 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "alan-jones-court-reporting",
+      "headline": "คดีของ Alan Jones กลายเป็นบททดสอบว่ารายงานข่าวได้แค่ไหน",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-31T15:00:19Z",
+      "voiceScript": "Alan Jones กำลังเผชิญการพิจารณาคดีระยะยาวในซิดนีย์จากข้อหาล่วงละเมิดทางเพศและการสัมผัสทางเพศโดยไม่ได้รับความยินยอมที่เกี่ยวข้องกับผู้ร้องหลายคน ประเด็นใหม่ไม่ได้อยู่แค่ข้อกล่าวหา แต่รวมถึงว่าศาลจะอนุญาตให้สื่อรายงานคำให้การของพยานได้มากน้อยเพียงใดหลังจากมีคำสั่งผ่อนคลายข้อจำกัดบางส่วน คดีนี้สำคัญเพราะเกี่ยวข้องกับผู้จัดรายการที่ทรงอิทธิพลที่สุดคนหนึ่งของออสเตรเลีย และคาดว่าจะยืดเยื้อเป็นเวลาหลายเดือน ขั้นตอนต่อไปคือการไต่สวนพยานหลักฐานเมื่อการพิจารณาคดีเต็มรูปแบบเริ่มขึ้น",
+      "differences": [
+        "The Guardian เน้นมรดกทางสาธารณะของ Jones และขนาดของคดี",
+        "news.com.au เน้นการต่อสู้เรื่องข้อจำกัดการรายงานข่าวและความพยายามของฝ่ายจำเลยที่จะสกัดข่าว"
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/alan-jones-wielded-huge-power-but-now-the-legacy-of-his-four-decade-career-will-be-decided-by-four-months-in-court"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/entertainment/tv/radio/jones-loses-bid-to-block-media-from-reporting-alleged-victims-evidence/news-story/e5f3eb835195b94de31d3265c099407b"
+        }
+      ],
+      "language": "th"
+    },
     {
       "id": "football-australia-fifa-plan",
       "headline": "สมาพันธ์ฟุตบอลออสเตรเลียรอรายละเอียดแผนการลงทุนของฟีฟา",
@@ -381,6 +403,21 @@
       ]
     },
     {
+      "id": "lgbtq-veterans-apology-adf",
+      "headline": "อดีตทหาร LGBTQ+ เรียกร้องคำขอโทษอย่างเป็นทางการต่อการเลือกปฏิบัติใน ADF ในอดีต",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T05:48:54Z",
+      "voiceScript": "คณะกรรมาธิการวุฒิสภากำลังเรียกร้องให้รัฐบาลกลางขอโทษอดีตทหารและผู้รับราชการ LGBTQ+ ที่เคยถูกลงโทษภายใต้กฎเก่า ๆ ของกองทัพซึ่งห้ามบุคคลรักเพศเดียวกันรับราชการ David Gibson กล่าวว่าการปฏิบัติที่เขาและคนอื่น ๆ ได้รับทิ้งความอับอายยาวนาน และรายงานเสนอให้บันทึกเหตุการณ์ลงในแฟ้มประวัติ ออกใบรับรองการรับราชการเกียรติยศ และยอมรับความเสียหายอย่างเป็นทางการ เรื่องนี้สำคัญเพราะนโยบายเหล่านั้นเพิ่งถูกยกเลิกในปี 1990 จึงยังส่งผลต่อผู้ที่ยังมีชีวิตอยู่ ขั้นต่อไปคือดูว่ารัฐบาลจะก้าวข้ามร่างกฎหมายปัจจุบันและยอมรับมาตรการเยียวยาเหล่านี้หรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/31/forced-out-of-adf-military-due-to-his-sexuality-david-says-an-apology-is-long-overdue-for-veterans-like-him-ntwnfb"
+        }
+      ],
+      "language": "th"
+    },
+    {
       "id": "mick-gatto-cfmeu-inquiry",
       "headline": "การไต่สวน CFMEU ยังคงกดดันความเชื่อมโยงของ Mick Gatto กับเครือข่ายจัดหาคนงาน",
       "sourceCount": 3,
@@ -422,21 +459,6 @@
           "score": 8
         }
       ]
-    },
-    {
-      "id": "lgbtq-veterans-apology-adf",
-      "headline": "อดีตทหาร LGBTQ+ เรียกร้องคำขอโทษอย่างเป็นทางการต่อการเลือกปฏิบัติใน ADF ในอดีต",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T05:48:54Z",
-      "voiceScript": "คณะกรรมาธิการวุฒิสภากำลังเรียกร้องให้รัฐบาลกลางขอโทษอดีตทหารและผู้รับราชการ LGBTQ+ ที่เคยถูกลงโทษภายใต้กฎเก่า ๆ ของกองทัพซึ่งห้ามบุคคลรักเพศเดียวกันรับราชการ David Gibson กล่าวว่าการปฏิบัติที่เขาและคนอื่น ๆ ได้รับทิ้งความอับอายยาวนาน และรายงานเสนอให้บันทึกเหตุการณ์ลงในแฟ้มประวัติ ออกใบรับรองการรับราชการเกียรติยศ และยอมรับความเสียหายอย่างเป็นทางการ เรื่องนี้สำคัญเพราะนโยบายเหล่านั้นเพิ่งถูกยกเลิกในปี 1990 จึงยังส่งผลต่อผู้ที่ยังมีชีวิตอยู่ ขั้นต่อไปคือดูว่ารัฐบาลจะก้าวข้ามร่างกฎหมายปัจจุบันและยอมรับมาตรการเยียวยาเหล่านี้หรือไม่",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/31/forced-out-of-adf-military-due-to-his-sexuality-david-says-an-apology-is-long-overdue-for-veterans-like-him-ntwnfb"
-        }
-      ],
-      "language": "th"
     },
     {
       "id": "luke-gosling-assault-charges",
@@ -976,6 +998,33 @@
       "language": "th"
     },
     {
+      "id": "optus-triple-zero-lawsuit",
+      "headline": "Optus ถูกส่งขึ้นศาลอีกครั้งจากเหตุขัดข้อง triple-zero",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-30T20:51:35Z",
+      "voiceScript": "หน่วยงานกำกับดูแลโทรคมนาคมของออสเตรเลียได้ยื่นฟ้อง Optus ต่อศาลรัฐบาลกลางจากเหตุขัดข้องเครือข่ายในปี 2025 ที่ทำให้สายฉุกเฉินบางส่วนต่อไม่ติด ประเด็นสำคัญคือบริษัทละเมิดหน้าที่ในการทำให้บริการ triple-zero ใช้งานได้ต่อเนื่อง และจัดการสายที่ล้มเหลวอย่างเหมาะสมหรือไม่ เรื่องนี้สำคัญเพราะความขัดข้องดังกล่าวเผยให้เห็นช่องโหว่ด้านความปลอดภัยสาธารณะอย่างร้ายแรง และทำให้หน่วยงานกำกับดูแล รัฐมนตรี และลูกค้าต้องการคำตอบต่อเนื่อง ขั้นต่อไปคือกระบวนการในศาล พร้อมทั้งค่าปรับที่อาจเกิดขึ้นและการปรับปรุงเครือข่ายที่บริษัทสัญญาไว้",
+      "differences": [
+        "AAP เน้นการดำเนินคดีและโทษปรับที่อาจตามมา",
+        "SBS News เน้นสายที่ต่อไม่ติดและการท้าทายของหน่วยงานกำกับดูแล",
+        "news.com.au เน้นผลกระทบวงกว้างจากเหตุขัดข้องที่มีผู้เสียชีวิตในปี 2025"
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/optus-sued-by-watchdog-over-triple-zero-network-outage"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/acma-sues-optus-over-2025-netword-outage-and-failed-triple-zero-calls/t2ty0fm4v"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/regulator-launches-legal-action-against-optus-over-deadly-september-2025-triple0-outage/news-story/fa93f881710562afd04a86942d53367d"
+        }
+      ],
+      "language": "th"
+    },
+    {
       "id": "australia-el-nino-hotter-drier-spring",
       "headline": "เอลนีโญที่เร่งตัวทำให้ออสเตรเลียส่วนใหญ่มีแนวโน้มเจอฤดูใบไม้ผลิที่ร้อนและแห้งกว่าเดิม",
       "sourceCount": 2,
@@ -1009,6 +1058,28 @@
           "score": 12
         }
       ]
+    },
+    {
+      "id": "blundy-brands-buyback",
+      "headline": "Blundy ซื้อ Bonds และแบรนด์พี่น้องกลับมาด้วยดีล 700 ล้านดอลลาร์",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T19:00:00Z",
+      "voiceScript": "Brett Blundy ได้ซื้อ Bras N Things, Bonds, Berlei และ Sheridan กลับมาอยู่ภายใต้การถือครองของออสเตรเลียอีกครั้งด้วยข้อตกลงมูลค่า 700 ล้านดอลลาร์ Hanesbrands ขายแบรนด์เหล่านี้หลังทบทวนธุรกิจในท้องถิ่น ทำให้ชื่อค้าปลีกที่คุ้นเคยกลับมาอยู่ภายใต้นักลงทุนออสเตรเลียรายเดียว เรื่องนี้สำคัญเพราะอำนาจควบคุมของแบรนด์เสื้อผ้าและสินค้าแต่งบ้านที่เป็นที่รู้จักมากที่สุดบางแบรนด์ของประเทศได้เปลี่ยนมือไป ตอนต่อไปคือการดูว่า Blundy จะใช้พอร์ตโฟลิโอนี้อย่างไรกับร้านค้า ซัพพลายเชน และการขยายในอนาคต",
+      "differences": [
+        "AFR เน้นว่า Blundy กลับมาหาแบรนด์ที่เขาเคยสร้าง และเน้นขนาดของดีล",
+        "7NEWS เน้นว่ แบรนด์ออสเตรเลียที่เป็นสัญลักษณ์เหล่านี้กลับมาอยู่ในมือคนในประเทศ"
+      ],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/retail/billionaire-blundy-swoops-on-bras-n-things-bonds-in-700m-deal-20260730-p60k39"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/bonds-sheridan-and-berlei-return-to-australian-ownership-in-700m-brett-blundy-deal-c-22657837"
+        }
+      ],
+      "language": "th"
     },
     {
       "id": "hanson-isis-passport-bill",
