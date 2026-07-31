@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T04:06:01Z",
+  "updatedAt": "2026-07-31T05:08:38Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -106,6 +106,85 @@
   ],
   "clusters": [
     {
+      "id": "revelle-balmain-inquest",
+      "headline": "レベル・バルメイン事件が検視官の新判断で再び注目される",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T04:26:34Z",
+      "voiceScript": "ニューサウスウェールズ州の副検視官は、1994年に行方不明になったレベル・バルメインさんについて、当時そのエスコート会社を運営していた人物たちが、何が起きたのかをより多く知っていた可能性があると示しました。これにより、長く続く審問は再び焦点がはっきりしました。何十年も結論が出ていない事件だけに、今回の判断は最終的な勧告にも影響し得ます。次は、検視官の正式な結論と、その後の追加対応があるかどうかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/revelle-balmain-inquest-finds-escort-bosses-knew/106977496"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "garma-festival-opens-arnhem-land",
+      "headline": "ガルマ祭がアーネムランドで開幕し、文化と政策が交差する",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-31T04:14:51Z",
+      "voiceScript": "ガルマ祭がオーストラリア北東部のアーネムランドで始まり、ヨルングの文化、地域リーダー、全国的な議論が同じ場所に集まりました。イベントは数日間続き、今も国内で最重要の先住民フォーラムの一つです。発言や会合が認知、公共サービス、資金配分の議論に結びつくことがあるため重要です。これから政策面でどこまで具体化するかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/garma-festival-julian-leeser-criticises-anthony-albanese/106981674"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/31/australia-news-live-working-with-children-check-garma-festival-anthony-albanese-labor-angus-taylor-coalition-one-nation-pauline-hanson-ntwnfb"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/garma-festival-2026-australia-explained/692xvu5au"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "nsw-reformers-icac-inquiry",
+      "headline": "NSW改革派めぐるICAC調査拡大、寄付と枝分かれ工作の疑惑を審理",
+      "sourceCount": 6,
+      "publishedAt": "2026-07-31T04:07:55Z",
+      "voiceScript": "ニューサウスウェールズ州のICACは、自由党改革派グループをめぐる寄付、党員勧誘、党内派閥工作の疑惑を続けて審理しています。証言ではアンガス・テイラーの名前も取り上げられましたが、彼は不適切な支払いを否定しています。注目されるのは、寄付規則と党運営の境界がどこで崩れたのかで、今後も証人が続きます。",
+      "differences": [
+        "ABCは証言内容を中心に、Guardianは内部文書と派閥政治を、SBSは全体像の解説を、The Australianはアンガス・テイラーの否定をそれぞれ強調しています。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/nsw-icac-rosny-hearings-robert-assaf-catholic-liberal/106975264"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/29/icac-hits-paydirt-as-reformers-shit-sheets-are-given-a-very-public-airing"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/operation-rosny-icac-reformers-explainer/74489b18k"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/politics/angus-taylor-wasnt-opposed-to-conservative-subfaction-at-centre-of-icac-branchstacking-probe/news-story/d22de6f4d3b161d6f583b452ce318381"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/no-payment-was-made-liberal-leader-denies-donation"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/shakedown-liberal-leader-angus-taylor-named-in-icac-hearing/news-story/4b49442ca010c1786f683dfa01c6df46"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/nsw-icac-rosny-reformers-funds-bucks-party-robert-assaf/106981294"
+        }
+      ],
+      "language": "ja"
+    },
+    {
       "id": "jewish-artist-doxxing-royal-commission",
       "headline": "漏えいした私的チャットが、ユダヤ系アーティストを仕事から追い詰めた経緯を委員会が聴取",
       "sourceCount": 1,
@@ -169,25 +248,6 @@
         {
           "source": "9News",
           "url": "https://www.9news.com.au/australia-news/petrol-prices-to-rise-immediately-after-tax-change-as-panic-buying-fears-grow-20260731-p60ka8.html"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "garma-festival-opens-arnhem-land",
-      "headline": "ガルマ祭がアーネムランドで開幕し、文化と政策が交差する",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-31T00:45:58Z",
-      "voiceScript": "ガルマ祭がオーストラリア北東部のアーネムランドで始まり、ヨルングの文化、地域リーダー、全国的な議論が同じ場所に集まりました。イベントは数日間続き、今も国内で最重要の先住民フォーラムの一つです。発言や会合が認知、公共サービス、資金配分の議論に結びつくことがあるため重要です。これから政策面でどこまで具体化するかが焦点です。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/31/australia-news-live-working-with-children-check-garma-festival-anthony-albanese-labor-angus-taylor-coalition-one-nation-pauline-hanson-ntwnfb"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/garma-festival-2026-australia-explained/692xvu5au"
         }
       ],
       "language": "ja"
@@ -816,43 +876,6 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/30/gina-rinehart-fitzroy-river-rowing-crocodiles-brisbane-olympics-2032"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "nsw-reformers-icac-inquiry",
-      "headline": "NSW改革派めぐるICAC調査拡大、寄付と枝分かれ工作の疑惑を審理",
-      "sourceCount": 6,
-      "publishedAt": "2026-07-30T07:08:53.000Z",
-      "voiceScript": "ニューサウスウェールズ州のICACは、自由党改革派グループをめぐる寄付、党員勧誘、党内派閥工作の疑惑を続けて審理しています。証言ではアンガス・テイラーの名前も取り上げられましたが、彼は不適切な支払いを否定しています。注目されるのは、寄付規則と党運営の境界がどこで崩れたのかで、今後も証人が続きます。",
-      "differences": [
-        "ABCは証言内容を中心に、Guardianは内部文書と派閥政治を、SBSは全体像の解説を、The Australianはアンガス・テイラーの否定をそれぞれ強調しています。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/nsw-icac-rosny-hearings-robert-assaf-catholic-liberal/106975264"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/29/icac-hits-paydirt-as-reformers-shit-sheets-are-given-a-very-public-airing"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/operation-rosny-icac-reformers-explainer/74489b18k"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/nation/politics/angus-taylor-wasnt-opposed-to-conservative-subfaction-at-centre-of-icac-branchstacking-probe/news-story/d22de6f4d3b161d6f583b452ce318381"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/no-payment-was-made-liberal-leader-denies-donation"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/politics/shakedown-liberal-leader-angus-taylor-named-in-icac-hearing/news-story/4b49442ca010c1786f683dfa01c6df46"
         }
       ],
       "language": "ja"
@@ -2185,33 +2208,6 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/26/labor-pressure-telehealth-access-euthanasia-assisted-dying-anthony-albanese"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "us-tariff-hike-australian-exports",
-      "headline": "オーストラリア輸出品に対する米国関税引き上げが迫る",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-24T04:00:00.000Z",
-      "voiceScript": "米国はオーストラリア輸出品への関税を10％から12.5％に引き上げる。キャンベラはこの措置を不当だとしており、業界団体はすでに圧力を受けている輸出企業の負担増を警告している。米国はオーストラリア製品にとって大きな市場であり、影響は小さくない。次はワシントンが方針を変えるのか、それともオーストラリアが免除や新たな販路を探すのかが焦点だ。",
-      "differences": [
-        "一方はアデレードでの閣僚発言と、政府がこの関税を不当だと訴える姿勢を中心に伝えている。",
-        "別の報道は、新しい税率がAESTの金曜午後に発効する点と、企業団体の反応を強調している。",
-        "もう一方は、引き上げ幅の大きさと輸出企業への圧力に焦点を当てている。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-24/trump-tariffs-bring-more-uncertainty-to-australian-shores/106954074"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/australia-disappointed-as-trump-hikes-export-tariffs"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/economy/australian-economy/donald-trump-confirms-new-125-per-cent-tariff-on-australian-exports/news-story/98ef76ee2a40e503e3c64d71387ed3bf"
         }
       ],
       "language": "ja"
