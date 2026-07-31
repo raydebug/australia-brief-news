@@ -1184,6 +1184,23 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Stuart Coupe",
+    aliases: ["Stuart Coupe", "斯图尔特·库普", "斯圖爾特·庫普", "スチュアート・クープ", "스튜어트 쿠프"],
+    type: "public-figure",
+    social: { label: "Publisher profile", url: "https://www.penguin.com.au/authors/stuart-coupe" },
+    background: {
+      "zh-Hans": "澳洲音乐记者、作者、广播人和公关人，长期参与本地摇滚和流行音乐报道，也写过 Michael Gudinski、Paul Kelly 和摇滚巡演产业相关书籍。",
+      "zh-Hant": "澳洲音樂記者、作者、廣播人和公關人，長期參與本地搖滾和流行音樂報導，也寫過 Michael Gudinski、Paul Kelly 和搖滾巡演產業相關書籍。",
+      en: "Australian music journalist, author, broadcaster and publicist with long involvement in local rock and pop coverage, including books on Michael Gudinski, Paul Kelly and the touring industry.",
+      es: "Periodista musical, autor, locutor y publicista australiano con larga trayectoria en rock y pop local, incluidos libros sobre Michael Gudinski, Paul Kelly y la industria de giras.",
+      ja: "豪州の音楽ジャーナリスト、著者、放送人、広報担当者。国内ロックとポップに長く関わり、Michael Gudinski、Paul Kelly、ツアー業界に関する本も書いています。",
+      ko: "호주 음악 저널리스트, 작가, 방송인, 홍보인으로 현지 록과 팝 보도에 오래 관여했고 Michael Gudinski, Paul Kelly, 투어 산업 관련 책을 썼습니다.",
+      vi: "Nhà báo âm nhạc, tác giả, phát thanh viên và publicist người Úc, gắn lâu với rock và pop trong nước, gồm sách về Michael Gudinski, Paul Kelly và ngành lưu diễn.",
+      th: "นักข่าวเพลง นักเขียน ผู้จัดรายการ และ publicist ชาวออสเตรเลีย ทำงานกับวงการ rock และ pop ท้องถิ่นมายาวนาน รวมถึงหนังสือเกี่ยวกับ Michael Gudinski, Paul Kelly และอุตสาหกรรมทัวร์",
+      si: "Australian music journalist, author, broadcaster සහ publicist; local rock/pop coverage සමඟ දිගු කාලයක් සම්බන්ධ වී Michael Gudinski, Paul Kelly සහ touring industry ගැන පොත් ලියා ඇත."
+    }
+  },
+  {
     name: "Lia Finocchiaro",
     aliases: ["Lia Finocchiaro", "Lia Emele Finocchiaro", "莉娅·菲诺基亚罗", "莉婭·菲諾基亞羅", "リア・フィノキアーロ", "리아 피노키아로"],
     type: "politician",
@@ -1252,6 +1269,23 @@ const PEOPLE_CONTEXT = [
       vi: "Cựu cầu thủ rugby league chuyên nghiệp và hiện là HLV NRL, gắn nhiều với Wests Tigers và đội tuyển New Zealand.",
       th: "อดีตนักรักบี้ลีกอาชีพและปัจจุบันเป็นโค้ช NRL เป็นที่รู้จักจาก Wests Tigers และทีมชาตินิวซีแลนด์",
       si: "Former professional rugby league player සහ current NRL coach; Wests Tigers සහ New Zealand representative rugby league සමඟ දැඩි සම්බන්ධය ඇත."
+    }
+  },
+  {
+    name: "Sam Walker",
+    aliases: ["Sam Walker", "Samuel Walker", "萨姆·沃克", "薩姆·沃克", "サム・ウォーカー", "샘 워커"],
+    type: "athlete",
+    social: { label: "Official profile", url: "https://www.roosters.com.au/teams/nrl-premiership/sydney-roosters/sam-walker/" },
+    background: {
+      "zh-Hans": "澳洲职业橄榄球联盟球员，司职 halfback，效力 Sydney Roosters，并代表过 Queensland 和 Prime Minister's XIII。",
+      "zh-Hant": "澳洲職業橄欖球聯盟球員，司職 halfback，效力 Sydney Roosters，並代表過 Queensland 和 Prime Minister's XIII。",
+      en: "Australian professional rugby league halfback for the Sydney Roosters, with representative appearances for Queensland and the Prime Minister's XIII.",
+      es: "Jugador australiano profesional de rugby league, halfback de Sydney Roosters, con apariciones representativas para Queensland y Prime Minister's XIII.",
+      ja: "Sydney Roosters 所属の豪州プロ・ラグビーリーグ halfback。Queensland と Prime Minister's XIII の代表経験があります。",
+      ko: "Sydney Roosters에서 뛰는 호주 프로 럭비리그 하프백으로 Queensland와 Prime Minister's XIII 대표 경험이 있습니다.",
+      vi: "Cầu thủ rugby league chuyên nghiệp của Úc, chơi halfback cho Sydney Roosters, từng đại diện Queensland và Prime Minister's XIII.",
+      th: "นักรักบี้ลีกอาชีพออสเตรเลีย ตำแหน่ง halfback ของ Sydney Roosters และเคยเล่นตัวแทน Queensland กับ Prime Minister's XIII",
+      si: "Sydney Roosters හි Australian professional rugby league halfback; Queensland සහ Prime Minister's XIII නියෝජනය කර ඇත."
     }
   },
   {
