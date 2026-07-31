@@ -976,6 +976,40 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Mick Gatto",
+    aliases: ["Mick Gatto", "Domenic Gatto", "米克·加托", "ミック・ガットー", "믹 개토"],
+    type: "public-figure",
+    social: { label: "Profile", url: "https://en.wikipedia.org/wiki/Mick_Gatto" },
+    background: {
+      "zh-Hans": "墨尔本商人、调解人和前拳击手，长期因墨尔本黑社会、建筑业劳资争议和公开调查中的指称而受到媒体关注。他否认多项不法指称，2005 年曾在谋杀案审判中获无罪。",
+      "zh-Hant": "墨爾本商人、調解人和前拳擊手，長期因墨爾本黑社會、建築業勞資爭議和公開調查中的指稱而受到媒體關注。他否認多項不法指稱，2005 年曾在謀殺案審判中獲無罪。",
+      en: "Melbourne businessman, mediator and former boxer who has long attracted media attention over Melbourne underworld links, construction-industry labour disputes and allegations raised in public inquiries. He denies many allegations of wrongdoing and was acquitted in a 2005 murder trial.",
+      es: "Empresario, mediador y exboxeador de Melbourne, conocido por la atención mediática sobre vínculos con el underworld local, disputas laborales en la construcción y acusaciones planteadas en investigaciones públicas. Niega muchas acusaciones y fue absuelto en un juicio por asesinato en 2005.",
+      ja: "メルボルンの実業家、調停人、元ボクサー。メルボルンの裏社会との関係、建設業界の労使紛争、公的調査での指摘を巡り長く報道されてきました。多くの不正疑惑を否定し、2005年の殺人裁判では無罪となりました。",
+      ko: "멜버른의 사업가, 중재인, 전직 복서입니다. 멜버른 범죄 세계와의 연계, 건설업 노사 분쟁, 공개 조사에서 제기된 의혹으로 오랫동안 언론의 주목을 받았습니다. 여러 위법 의혹을 부인해 왔고 2005년 살인 재판에서 무죄를 선고받았습니다.",
+      vi: "Doanh nhân, người hòa giải và cựu võ sĩ tại Melbourne, lâu nay được chú ý vì các liên hệ với underworld Melbourne, tranh chấp lao động ngành xây dựng và cáo buộc trong các cuộc điều tra công khai. Ông phủ nhận nhiều cáo buộc sai phạm và được tuyên trắng án trong một phiên tòa giết người năm 2005.",
+      th: "นักธุรกิจ คนกลางไกล่เกลี่ย และอดีตนักมวยในเมลเบิร์น เป็นที่สนใจจากสื่อมายาวนานเรื่องความเชื่อมโยงกับ underworld เมลเบิร์น ข้อพิพาทแรงงานก่อสร้าง และข้อกล่าวหาใน inquiry สาธารณะ เขาปฏิเสธข้อกล่าวหาหลายเรื่องและพ้นผิดในคดีฆาตกรรมปี 2005",
+      si: "Melbourne businessman, mediator සහ former boxer කෙනෙකි. Melbourne underworld links, construction-industry labour disputes සහ public inquiries වල allegations නිසා දිගු කලක් මාධ්‍ය අවධානයට ලක්ව ඇත. ඔහු wrongdoing allegations බොහොමයක් ප්‍රතික්ෂේප කරන අතර 2005 murder trial එකකින් නිදහස් විය."
+    }
+  },
+  {
+    name: "Geoffrey Watson",
+    aliases: ["Geoffrey Watson", "Geoffrey Watson SC", "杰弗里·沃森", "ジェフリー・ワトソン", "제프리 왓슨"],
+    type: "public-figure",
+    social: { label: "Official profile", url: "https://publicintegrity.org.au/person/geoffrey-watson/" },
+    background: {
+      "zh-Hans": "澳大利亚资深大律师和反腐倡议者，Centre for Public Integrity 创始董事之一，曾在多项公共调查中担任协助调查的律师，领域包括政治腐败和警务不当行为。",
+      "zh-Hant": "澳洲資深大律師和反腐倡議者，Centre for Public Integrity 創始董事之一，曾在多項公共調查中擔任協助調查的律師，領域包括政治腐敗和警務不當行為。",
+      en: "Australian senior counsel and anti-corruption advocate, a founding board director of the Centre for Public Integrity. He has served as counsel assisting in public inquiries into issues including political corruption and police misconduct.",
+      es: "Senior counsel australiano y defensor anticorrupción, director fundador del Centre for Public Integrity. Ha actuado como counsel assisting en investigaciones públicas sobre corrupción política y mala conducta policial.",
+      ja: "オーストラリアの上級法廷弁護士で反汚職活動家。Centre for Public Integrity の創設理事の一人です。政治腐敗や警察不正を含む公的調査で調査補佐の弁護士を務めてきました。",
+      ko: "호주의 선임 변호사이자 반부패 활동가로 Centre for Public Integrity 창립 이사 중 한 명입니다. 정치 부패와 경찰 비위 등을 다룬 공개 조사에서 조사 보조 변호사로 활동했습니다.",
+      vi: "Senior counsel và nhà vận động chống tham nhũng tại Úc, thành viên sáng lập hội đồng của Centre for Public Integrity. Ông từng là counsel assisting trong các cuộc điều tra công khai về tham nhũng chính trị và sai phạm cảnh sát.",
+      th: "Senior counsel และผู้ผลักดันงานต่อต้านคอร์รัปชันของออสเตรเลีย เป็น founding board director ของ Centre for Public Integrity เคยทำหน้าที่ counsel assisting ใน inquiry สาธารณะเกี่ยวกับคอร์รัปชันทางการเมืองและ misconduct ของตำรวจ",
+      si: "Australian senior counsel සහ anti-corruption advocate කෙනෙකි; Centre for Public Integrity හි founding board director කෙනෙකි. Political corruption සහ police misconduct ඇතුළු public inquiries වල counsel assisting ලෙස කටයුතු කර ඇත."
+    }
+  },
+  {
     name: "Angus Taylor",
     aliases: ["Angus Taylor", "安格斯·泰勒", "アンガス・テイラー", "앵거스 테일러"],
     type: "politician",
