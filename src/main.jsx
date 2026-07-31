@@ -1999,7 +1999,7 @@ function App() {
   const [speakingId, setSpeakingId] = useState(null);
   const [speechVoices, setSpeechVoices] = useState([]);
   const speechRunRef = useRef(0);
-  const clusterCardRefs = useRef(new Map());
+  const pendingScrollYRef = useRef(null);
 
   const labels = I18N[language];
   const selectedFont = FONT_OPTIONS.find((option) => option.code === font) || FONT_OPTIONS[0];
@@ -2107,15 +2107,10 @@ function App() {
     setInstallPrompt(null);
   }
 
-  function setClusterCardRef(id, node) {
-    if (node) {
-      clusterCardRefs.current.set(id, node);
-    } else {
-      clusterCardRefs.current.delete(id);
-    }
-  }
-
   function toggleClusterExpansion(id) {
+    if (window.matchMedia("(max-width: 760px)").matches) {
+      pendingScrollYRef.current = window.scrollY;
+    }
     setActiveId(id);
     setExpandedId((current) => (current === id ? null : id));
   }
@@ -2207,23 +2202,14 @@ function App() {
   }, [activeId, clusters]);
 
   useEffect(() => {
-    if (!expandedId || !window.matchMedia("(max-width: 760px)").matches) return undefined;
+    if (!expandedId || pendingScrollYRef.current == null || !window.matchMedia("(max-width: 760px)").matches) {
+      return undefined;
+    }
 
     let frame = window.requestAnimationFrame(() => {
       frame = window.requestAnimationFrame(() => {
-        const card = clusterCardRefs.current.get(expandedId);
-        if (!card) return;
-
-        const anchor = card.querySelector(".cluster-title-row") || card;
-        const rect = anchor.getBoundingClientRect();
-        const viewportHeight = window.visualViewport?.height || window.innerHeight;
-        const targetY = viewportHeight * 0.45;
-        const currentY = rect.top + rect.height / 2;
-        const delta = currentY - targetY;
-
-        if (Math.abs(delta) > 8) {
-          window.scrollBy({ top: delta, behavior: "smooth" });
-        }
+        window.scrollTo({ top: pendingScrollYRef.current, behavior: "auto" });
+        pendingScrollYRef.current = null;
       });
     });
 
@@ -2430,7 +2416,6 @@ function App() {
                   cluster.id === expandedId ? "expanded" : ""
                 }`}
                 key={cluster.id}
-                ref={(node) => setClusterCardRef(cluster.id, node)}
               >
               <div className="cluster-card-content">
                 <div className="cluster-title-row">
