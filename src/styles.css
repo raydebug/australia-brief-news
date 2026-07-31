@@ -487,6 +487,15 @@ p {
 .cluster-card h3 {
   font-size: var(--card-title-size);
   line-height: 1.25;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  min-width: 0;
+}
+
+.cluster-card h3 > span:first-child,
+.detail-top h2 > span:first-child {
+  min-width: 0;
 }
 
 .cluster-card p {
@@ -529,6 +538,54 @@ p {
   font-size: var(--detail-title-size);
   line-height: 1.12;
   max-width: 780px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.heat-indicator {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  min-width: 31px;
+  height: 22px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--panel-soft);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1;
+  flex: 0 0 auto;
+  margin-top: 1px;
+}
+
+.detail-top .heat-indicator {
+  margin-top: 8px;
+}
+
+.heat-1 {
+  color: #9a3412;
+  border-color: rgba(154, 52, 18, 0.34);
+  background: rgba(251, 146, 60, 0.14);
+}
+
+.heat-2 {
+  color: #b4232a;
+  border-color: rgba(180, 35, 42, 0.36);
+  background: rgba(248, 113, 113, 0.15);
+}
+
+.heat-3,
+.heat-4 {
+  color: #ffffff;
+  border-color: rgba(180, 35, 42, 0.5);
+  background: var(--accent);
+}
+
+.heat-4 {
+  box-shadow: 0 0 0 2px rgba(180, 35, 42, 0.16);
 }
 
 .eyebrow {

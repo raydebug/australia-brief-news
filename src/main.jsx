@@ -1320,6 +1320,27 @@ function validSocialDiscussions(cluster) {
     .slice(0, 5);
 }
 
+function socialHeat(cluster) {
+  const discussions = validSocialDiscussions(cluster);
+  const score = discussions.reduce((total, item) => total + Number(item.score || 0), 0);
+  const level = score >= 1800 ? 4 : score >= 800 ? 3 : score >= 250 ? 2 : score > 0 ? 1 : 0;
+  return { score, level, count: discussions.length };
+}
+
+function HeatIndicator({ cluster }) {
+  const heat = socialHeat(cluster);
+  const title = heat.count
+    ? `Social heat ${heat.level}/4, score ${heat.score}, ${heat.count} discussion links`
+    : "Social heat 0/4, no tracked discussion links yet";
+
+  return (
+    <span className={`heat-indicator heat-${heat.level}`} title={title} aria-label={title}>
+      <Flame size={13} />
+      <span>{heat.level}</span>
+    </span>
+  );
+}
+
 function compactNumber(value) {
   const number = Number(value || 0);
   if (!Number.isFinite(number) || number <= 0) return "";
@@ -1836,7 +1857,10 @@ function App() {
                       setExpandedId((current) => (current === cluster.id ? null : cluster.id));
                     }}
                   >
-                    <h3>{displayCluster.headline}</h3>
+                    <h3>
+                      <span>{displayCluster.headline}</span>
+                      <HeatIndicator cluster={displayCluster} />
+                    </h3>
                   </button>
                   <button
                     className={`icon-button compact card-speak-button ${speechState.active ? "active" : ""}`}
@@ -1935,7 +1959,10 @@ function App() {
           <>
             <div className="detail-top">
               <div>
-                <h2>{linkifyPeopleText(displayActive.headline, showPeopleContext)}</h2>
+                <h2>
+                  <span>{linkifyPeopleText(displayActive.headline, showPeopleContext)}</span>
+                  <HeatIndicator cluster={displayActive} />
+                </h2>
               </div>
               <button
                 className={`icon-button ${speechState.active ? "active" : ""}`}
