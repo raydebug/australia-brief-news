@@ -1004,6 +1004,51 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Tara Moriarty",
+    aliases: ["Tara Moriarty", "Tara Elizabeth Moriarty", "Agriculture Minister Tara Moriarty", "塔拉·莫里亚蒂", "塔拉·莫里亞蒂", "タラ・モリアーティ", "타라 모리아티"],
+    type: "politician",
+    social: { label: "Official profile", url: "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2250&ref=1845" },
+    background: {
+      "zh-Hans": "新州工党上议院议员，2023 年起任农业、区域新州和西部新州部长。进入议会前曾在工会和劳动党组织任职。",
+      "zh-Hant": "新州工黨上議院議員，2023 年起任農業、區域新州和西部新州部長。進入議會前曾在工會和工黨組織任職。",
+      en: "NSW Labor member of the Legislative Council and minister for agriculture, regional NSW and western NSW since 2023. Before parliament she held union and Labor Party organisational roles.",
+      es: "Miembro laborista del Consejo Legislativo de NSW y ministra de agricultura, NSW regional y NSW occidental desde 2023. Antes del parlamento ocupó cargos sindicales y organizativos en Labor.",
+      ja: "NSW 労働党の上院議員で、2023年から農業、地域 NSW、西部 NSW 担当相。議会入り前は労組と労働党組織で役職を務めました。",
+      ko: "NSW 노동당 상원의원이며 2023년부터 농업, 지역 NSW, 서부 NSW 장관입니다. 의회 전에는 노조와 노동당 조직에서 일했습니다.",
+      vi: "Thành viên Labor của Hội đồng Lập pháp NSW, bộ trưởng nông nghiệp, regional NSW và western NSW từ năm 2023. Trước quốc hội bà giữ các vai trò trong công đoàn và tổ chức Labor.",
+      th: "สมาชิก Labor ใน Legislative Council ของ NSW และรัฐมนตรีเกษตร regional NSW และ western NSW ตั้งแต่ปี 2023 ก่อนเข้าสภาเคยทำบทบาทในสหภาพและองค์กร Labor",
+      si: "NSW Labor Legislative Council member සහ 2023 සිට agriculture, regional NSW, western NSW minister. Parliament ට පෙර union සහ Labor Party organisational roles දැරීය."
+    },
+    positions: {
+      "zh-Hans": "主要围绕农业、生物安全、区域服务和西部新州经济发声；近期议题包括野猪控制、牲畜和农业产业安全。",
+      "zh-Hant": "主要圍繞農業、生物安全、區域服務和西部新州經濟發聲；近期議題包括野豬控制、牲畜和農業產業安全。",
+      en: "Her portfolio themes include agriculture, biosecurity, regional services and the western NSW economy; recent issues include feral-pig control, livestock and farm-industry security.",
+      es: "Sus temas de cartera incluyen agricultura, bioseguridad, servicios regionales y la economía del oeste de NSW; asuntos recientes incluyen control de cerdos salvajes, ganadería y seguridad agrícola.",
+      ja: "農業、バイオセキュリティ、地域サービス、西部 NSW 経済を担当し、近年は野生豚対策、畜産、農業産業の安全が焦点です。",
+      ko: "농업, 생물보안, 지역 서비스, 서부 NSW 경제가 주요 포트폴리오이며 최근에는 야생돼지 통제, 축산, 농업 안전을 다룹니다.",
+      vi: "Các chủ đề chính gồm nông nghiệp, an toàn sinh học, dịch vụ vùng và kinh tế western NSW; gần đây là kiểm soát lợn hoang, chăn nuôi và an ninh ngành nông nghiệp.",
+      th: "ประเด็นงานหลักคือเกษตร biosecurity บริการภูมิภาค และเศรษฐกิจ western NSW ประเด็นล่าสุดรวมถึงการควบคุมหมูป่า ปศุสัตว์ และความมั่นคงภาคเกษตร",
+      si: "ඇයගේ portfolio themes agriculture, biosecurity, regional services සහ western NSW economy වේ; recent issues feral-pig control, livestock සහ farm-industry security ඇතුළත් වේ."
+    }
+  },
+  {
+    name: "Gianni Infantino",
+    aliases: ["Gianni Infantino", "Giovanni Vincenzo Infantino", "詹尼·因凡蒂诺", "詹尼·因凡蒂諾", "ジャンニ・インファンティーノ", "잔니 인판티노"],
+    type: "public-figure",
+    social: { label: "FIFA profile", url: "https://inside.fifa.com/organisation/president" },
+    background: {
+      "zh-Hans": "瑞士、意大利和黎巴嫩籍足球行政人物，2016 年起任 FIFA 主席，曾任 UEFA 秘书长，也是国际奥委会委员。",
+      "zh-Hant": "瑞士、義大利和黎巴嫩籍足球行政人物，2016 年起任 FIFA 主席，曾任 UEFA 秘書長，也是國際奧委會委員。",
+      en: "Swiss, Italian and Lebanese football administrator, FIFA president since 2016, former UEFA secretary general and an International Olympic Committee member.",
+      es: "Administrador futbolístico suizo, italiano y libanés, presidente de FIFA desde 2016, ex secretario general de UEFA y miembro del Comité Olímpico Internacional.",
+      ja: "スイス、イタリア、レバノン国籍のサッカー運営者。2016年から FIFA 会長で、元 UEFA 事務局長、IOC 委員です。",
+      ko: "스위스·이탈리아·레바논 국적의 축구 행정가로 2016년부터 FIFA 회장입니다. UEFA 사무총장을 지냈고 IOC 위원이기도 합니다.",
+      vi: "Nhà quản lý bóng đá mang quốc tịch Thụy Sĩ, Ý và Lebanon, chủ tịch FIFA từ năm 2016, cựu tổng thư ký UEFA và thành viên Ủy ban Olympic Quốc tế.",
+      th: "ผู้บริหารฟุตบอลสัญชาติสวิส อิตาลี และเลบานอน เป็นประธาน FIFA ตั้งแต่ปี 2016 อดีตเลขาธิการ UEFA และสมาชิก IOC",
+      si: "Swiss, Italian සහ Lebanese football administrator; 2016 සිට FIFA president, former UEFA secretary general සහ International Olympic Committee member කෙනෙකි."
+    }
+  },
+  {
     name: "Fatima Payman",
     aliases: ["Fatima Payman", "法蒂玛·佩曼", "法蒂瑪·佩曼", "ファティマ・ペイマン", "파티마 페이먼"],
     type: "politician",
@@ -1119,6 +1164,23 @@ const PEOPLE_CONTEXT = [
       vi: "Doanh nhân bán lẻ và đầu tư người Úc, nhà sáng lập BBRC và là gương mặt nổi bật trên Rich List, gắn với các thương hiệu và thương vụ như Bras N Things, Lovisa, Sanity, Bonds và Sheridan.",
       th: "ผู้ประกอบการค้าปลีกและการลงทุนชาวออสเตรเลีย ผู้ก่อตั้ง BBRC และนักธุรกิจที่ติด Rich List ซึ่งเกี่ยวข้องกับแบรนด์และดีลอย่าง Bras N Things, Lovisa, Sanity, Bonds และ Sheridan",
       si: "Australian retail සහ investment entrepreneur, BBRC founder සහ Rich List business figure කෙනෙකි; Bras N Things, Lovisa, Sanity, Bonds සහ Sheridan වැනි brands/deals සමඟ සම්බන්ධය ඇත."
+    }
+  },
+  {
+    name: "Glenn A. Baker",
+    aliases: ["Glenn A. Baker", "Glenn A Baker", "Glenn Baker", "格伦·贝克", "格倫·貝克", "グレン・A・ベーカー", "글렌 A. 베이커"],
+    type: "public-figure",
+    social: { label: "Wikipedia profile", url: "https://en.wikipedia.org/wiki/Glenn_A._Baker" },
+    background: {
+      "zh-Hans": "澳洲音乐记者、广播人、作者和历史记录者，长期记录本地摇滚和流行音乐，也曾任 Billboard 澳洲版编辑并参与 Raven Records。",
+      "zh-Hant": "澳洲音樂記者、廣播人、作者和歷史記錄者，長期記錄本地搖滾和流行音樂，也曾任 Billboard 澳洲版編輯並參與 Raven Records。",
+      en: "Australian music journalist, broadcaster, author and historian who documented local rock and pop for decades, edited Billboard's Australian edition and was linked to Raven Records.",
+      es: "Periodista musical, locutor, autor e historiador australiano que documentó el rock y pop local durante décadas, editó la edición australiana de Billboard y estuvo vinculado a Raven Records.",
+      ja: "豪州の音楽ジャーナリスト、放送人、著者、歴史記録者。国内ロックとポップを長年記録し、Billboard 豪州版編集や Raven Records にも関わりました。",
+      ko: "호주의 음악 저널리스트, 방송인, 작가, 역사가로 수십 년간 현지 록과 팝을 기록했고 Billboard 호주판 편집과 Raven Records 활동으로도 알려졌습니다.",
+      vi: "Nhà báo âm nhạc, phát thanh viên, tác giả và sử gia người Úc, nhiều thập kỷ ghi chép rock và pop trong nước, từng biên tập Billboard bản Úc và gắn với Raven Records.",
+      th: "นักข่าวดนตรี ผู้จัดรายการ นักเขียน และนักประวัติศาสตร์ชาวออสเตรเลีย ผู้บันทึกเพลงร็อกและป๊อปท้องถิ่นมาหลายทศวรรษ เคยแก้ไข Billboard ฉบับออสเตรเลียและเกี่ยวข้องกับ Raven Records",
+      si: "Australian music journalist, broadcaster, author සහ historian; දශක ගණනාවක් local rock/pop ලේඛනගත කළ අතර Billboard Australian edition edit කර Raven Records සමඟ සම්බන්ධ විය."
     }
   },
   {
