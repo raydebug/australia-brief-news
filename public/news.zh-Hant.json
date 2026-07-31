@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T23:10:58.448Z",
+  "updatedAt": "2026-07-30T23:59:00.000Z",
   "generatedBy": "codex",
   "language": "zh-Hant",
   "sources": [
@@ -105,6 +105,72 @@
     "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "adelaide-cbd-burst-water-main",
+      "headline": "阿德萊德市中心水管爆裂導致停電",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T23:49:00.000Z",
+      "voiceScript": "阿德萊德市中心一處電力設施因水管爆裂被淹，導致商戶、醫院和學校停電。SA Water 維修人員正在格倫費爾街搶修，市中心的恢復工作同步進行。此事重要，因為單一公用設施故障就可能迅速擾亂密集城區。下一步要看供電何時恢復，以及電網是否會進一步檢查。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/burst-water-main-causes-disruptions-adelaide-cbd/106980254"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "glenn-a-baker-dies",
+      "headline": "澳洲音樂界重要聲音格倫·A·貝克去世，享年74歲",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T23:44:00.000Z",
+      "voiceScript": "澳洲音樂記者兼廣播人格倫·A·貝克去世，享年74歲。他長期記錄本地音樂圈，曾擔任《公告牌》雜誌主編20多年，也參與了澳洲電台 Triple J 早期的發展。此事重要，因為他不只是評論者，也是現代澳洲音樂歷史的一部分。接下來業界會如何紀念他，以及他的資料與檔案如何保存，仍待觀察。",
+      "differences": [
+        "一篇報道強調他在 Triple J 和早期 2JJ 發展中的位置，另一篇更突出他長期擔任《公告牌》主編以及更廣泛的音樂影響力。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/nsw-glenn-a-baker-dies/106980460"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/entertainment/celebrity-life/celebrity-deaths/beyond-sad-australian-rock-music-journalist-glenn-a-baker-dies-age-74/news-story/bbf3ef3cd69a89c3cba8a8a240162b17"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "nsw-south-west-rez-upgrade",
+      "headline": "新南威爾斯州下令為新建的西南再生能源區電力線再做升級",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T22:12:00.000Z",
+      "voiceScript": "新州將投入2.25億澳元，對剛完工不久的西南再生能源區輸電工程部分設施進行升級。該線路和變電站原本是為了輸送更多風電和太陽能，現在又要分階段提高容量。此事之所以重要，是因為額外成本可能轉嫁到電網費用，也說明大型能源項目的規劃壓力仍然很大。下一步要看監管機構是否批准這筆支出。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/south-west-rez-upgrade-underway/106961958"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "maryvale-paper-mill-job-cuts",
+      "headline": "馬里維爾紙漿廠因木材供應趨緊裁減84個職位",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T22:04:00.000Z",
+      "voiceScript": "澳洲紙業公司 Opal 表示，維多利亞州馬里維爾紙廠將裁減84個職位，原因是州政府未能提供足夠木材。該廠是拉特羅布谷的重要雇主，因此裁員不僅影響當地就業，也關係到區域製造業前景。此事重要，因為這家工廠本來就已承受多年壓力。下一步要看公司能否維持滿負荷運作，以及政策層面是否還有補救空間。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/maryvale-opal-australian-maryvale-paper-mill-job-cuts-84-timber/106980230"
+        }
+      ],
+      "language": "zh-Hant"
+    },
     {
       "id": "young-indigenous-creators-online-abuse",
       "headline": "年輕原住民創作者面臨網路虐待",
@@ -826,6 +892,38 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/queensland-ferry-strike-friday/106976596"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "football-australia-fifa-plan",
+      "headline": "澳洲足球協會等待國際足總世界盃投資計劃細節",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-30T04:15:00.000Z",
+      "voiceScript": "澳洲足球協會在表態前，先要求國際足總提供更多關於出售世界盃商業權益給私人投資者的細節。這個提案在澳洲和海外都引發反對，因為它可能改變足球的治理方式和資金結構。此事重要，因為國際足總給各會員的判斷時間很短，而這是一次重大的商業重組。下一步要看在最後期限前是否有足夠多的會員支持該計劃。",
+      "differences": [
+        "一篇報道聚焦澳洲足協需要先評估治理和商業影響。",
+        "另一篇更強調澳洲足協事前並不知情，以及國際足總設下的期限。",
+        "還有一篇突出更廣泛的反彈，尤其是澳洲人物的批評和透明度訴求。",
+        "另一些報道則更強調擬議出售的規模，以及歐洲方面的抵制威脅。"
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/sport/2026/jul/30/football-australia-position-fifa-world-cup-privatisation-plan"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/september-deadline-set-for-fifa-investment-scheme/106974480"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/infantino-sets-deadline-for-world-cup-investor-plan"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/football/world-cup/fifas-world-cup-selloff-plan-sparks-threat-of-european-nations-boycott/news-story/9982860bbad618e84c448a508a99984d"
         }
       ],
       "language": "zh-Hant"
@@ -1804,6 +1902,33 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/26/labor-pressure-telehealth-access-euthanasia-assisted-dying-anthony-albanese"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "us-tariff-hike-australian-exports",
+      "headline": "澳洲面臨更高的美國出口關稅",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
+      "voiceScript": "美國將把對澳洲出口商品的關稅從10%提高到12.5%。坎培拉認為這一決定毫無根據，企業團體則警告說，它會給本已承壓的出口商再添一層壓力。此事重要，因為美國是澳洲商品的重要市場。下一步要看華盛頓是否改弦更張，或者澳洲是否轉向爭取豁免和新買家。",
+      "differences": [
+        "一篇報道強調貿易部長在阿德萊德的表態，以及政府認為這項關稅毫無道理。",
+        "另一篇報道更突出新稅率的生效時間和商界的集體反應。",
+        "還有一篇更強調稅率上調的幅度，以及它給澳洲出口帶來的壓力。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/trump-tariffs-bring-more-uncertainty-to-australian-shores/106954074"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/australia-disappointed-as-trump-hikes-export-tariffs"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/australian-economy/donald-trump-confirms-new-125-per-cent-tariff-on-australian-exports/news-story/98ef76ee2a40e503e3c64d71387ed3bf"
         }
       ],
       "language": "zh-Hant"

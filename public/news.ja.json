@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T23:10:58.448Z",
+  "updatedAt": "2026-07-30T23:59:00.000Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -105,6 +105,72 @@
     "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "adelaide-cbd-burst-water-main",
+      "headline": "アデレード中心部で水道管破裂、停電が発生",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T23:49:00.000Z",
+      "voiceScript": "アデレード中心部で水道管が破裂し、近くの電力設備が浸水して、商店、病院、学校で停電が起きた。SA Water の作業員がグレンフェル通りで修理を進めながら、復旧作業も続いている。単一の公共インフラ障害が、密集した都心に大きな混乱をもたらし得ることを示す出来事だ。次は電力の復旧時期と追加点検の有無が焦点だ。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/burst-water-main-causes-disruptions-adelaide-cbd/106980254"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "glenn-a-baker-dies",
+      "headline": "オーストラリア音楽界を記録したグレン・A・ベイカー氏が74歳で死去",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T23:44:00.000Z",
+      "voiceScript": "オーストラリアの音楽ライターで放送人だったグレン・A・ベイカー氏が74歳で亡くなった。長年にわたり現地音楽シーンを記録し、ビルボード誌の編集にも20年以上携わり、Triple J の初期にも関わった。今回の訃報が重いのは、彼が単なる解説者ではなく現代オーストラリア音楽史の一部だったからだ。今後は業界がどう功績を記憶し、資料を残すかが焦点になる。",
+      "differences": [
+        "一方は Triple J と初期 2JJ への関わりを強調し、もう一方はビルボード誌での長い編集歴と幅広い影響力を前面に出している。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/nsw-glenn-a-baker-dies/106980460"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/entertainment/celebrity-life/celebrity-deaths/beyond-sad-australian-rock-music-journalist-glenn-a-baker-dies-age-74/news-story/bbf3ef3cd69a89c3cba8a8a240162b17"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "nsw-south-west-rez-upgrade",
+      "headline": "ニューサウスウェールズ州、新しい南西部送電網を追加改良へ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T22:12:00.000Z",
+      "voiceScript": "ニューサウスウェールズ州は、完成して間もない南西部再生可能エネルギー区域の送電プロジェクトの一部を改良するため、2億2500万豪ドルを投じる。送電線と変電所は、より多くの風力と太陽光を流すために整備されたが、今後は段階的に容量を引き上げる。追加費用が電気料金に回る可能性があり、大規模エネルギー事業の計画の難しさも示している。次は規制当局の承認が焦点だ。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/south-west-rez-upgrade-underway/106961958"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "maryvale-paper-mill-job-cuts",
+      "headline": "メアリーヴェールの製紙工場が木材不足で84人を削減",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T22:04:00.000Z",
+      "voiceScript": "オパール・オーストラリアン・ペーパーは、ビクトリア州メアリーヴェール工場で84人を削減すると発表した。州政府が十分な木材供給を確保できなかったことが理由だとしている。この工場はラトローブ・バレーの重要な雇用先で、削減は地域の雇用と製造業の将来に打撃となる。今後は工場がフル稼働を維持できるか、政策面の打開策があるかが焦点だ。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/maryvale-opal-australian-maryvale-paper-mill-job-cuts-84-timber/106980230"
+        }
+      ],
+      "language": "ja"
+    },
     {
       "id": "young-indigenous-creators-online-abuse",
       "headline": "先住民族の若手クリエイターがオンラインで虐待に直面",
@@ -826,6 +892,38 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/queensland-ferry-strike-friday/106976596"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "football-australia-fifa-plan",
+      "headline": "フットボール・オーストラリアがFIFAのW杯投資案の詳細待ち",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-30T04:15:00.000Z",
+      "voiceScript": "フットボール・オーストラリアは、ワールドカップの商業権の一部を民間投資家に売却する計画について、回答する前に詳細説明を求めている。この提案は、サッカーの統治や資金の流れを変える可能性があるため、国内外で反発を招いている。FIFAが各加盟国に短い判断期間しか与えていない点も重要だ。期限までに十分な支持が集まるかが次の焦点になる。",
+      "differences": [
+        "一方は、統治面と商業面の影響を見極める必要がある点を前面に出している。",
+        "別の報道は、フットボール・オーストラリアが事前に知らされていなかったことと、FIFAが設定した期限を強調している。",
+        "もう一方は、国内の批判や透明性を求める声など、広がる反発を強調している。",
+        "別の報道は、売却案の規模と欧州側のボイコットの脅しに焦点を当てている。"
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/sport/2026/jul/30/football-australia-position-fifa-world-cup-privatisation-plan"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/september-deadline-set-for-fifa-investment-scheme/106974480"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/infantino-sets-deadline-for-world-cup-investor-plan"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/football/world-cup/fifas-world-cup-selloff-plan-sparks-threat-of-european-nations-boycott/news-story/9982860bbad618e84c448a508a99984d"
         }
       ],
       "language": "ja"
@@ -1804,6 +1902,33 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/26/labor-pressure-telehealth-access-euthanasia-assisted-dying-anthony-albanese"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "us-tariff-hike-australian-exports",
+      "headline": "オーストラリア輸出品に対する米国関税引き上げが迫る",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
+      "voiceScript": "米国はオーストラリア輸出品への関税を10％から12.5％に引き上げる。キャンベラはこの措置を不当だとしており、業界団体はすでに圧力を受けている輸出企業の負担増を警告している。米国はオーストラリア製品にとって大きな市場であり、影響は小さくない。次はワシントンが方針を変えるのか、それともオーストラリアが免除や新たな販路を探すのかが焦点だ。",
+      "differences": [
+        "一方はアデレードでの閣僚発言と、政府がこの関税を不当だと訴える姿勢を中心に伝えている。",
+        "別の報道は、新しい税率がAESTの金曜午後に発効する点と、企業団体の反応を強調している。",
+        "もう一方は、引き上げ幅の大きさと輸出企業への圧力に焦点を当てている。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/trump-tariffs-bring-more-uncertainty-to-australian-shores/106954074"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/australia-disappointed-as-trump-hikes-export-tariffs"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/australian-economy/donald-trump-confirms-new-125-per-cent-tariff-on-australian-exports/news-story/98ef76ee2a40e503e3c64d71387ed3bf"
         }
       ],
       "language": "ja"

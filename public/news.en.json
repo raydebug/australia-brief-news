@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T23:10:58.448Z",
+  "updatedAt": "2026-07-30T23:59:00.000Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -105,6 +105,72 @@
     "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "adelaide-cbd-burst-water-main",
+      "headline": "Burst water main knocks out power in Adelaide's CBD",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T23:49:00.000Z",
+      "voiceScript": "A burst water main flooded an electrical substation in Adelaide's CBD and cut power to businesses, a hospital and a school. SA Water crews were repairing the break on Grenfell Street while restoration work continued across the centre of the city. It matters because a single utility failure can quickly disrupt a dense inner-city area. The next question is how quickly service returns and whether the damage leads to further checks on the network.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/burst-water-main-causes-disruptions-adelaide-cbd/106980254"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "glenn-a-baker-dies",
+      "headline": "Glenn A Baker, a key voice in Australian music, dies at 74",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T23:44:00.000Z",
+      "voiceScript": "Australian music writer and broadcaster Glenn A Baker has died aged 74. He spent decades documenting the local scene, edited Billboard for more than 20 years and helped shape the story of Triple J's early years. His death matters because he became part of the record of modern Australian music, not just a commentator on it. The next question is how the industry marks his legacy and preserves his archive.",
+      "differences": [
+        "ABC highlights Baker's role in the early 2JJ and Triple J story, while news.com.au focuses on his long Billboard editorship and wider music reputation."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/nsw-glenn-a-baker-dies/106980460"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/entertainment/celebrity-life/celebrity-deaths/beyond-sad-australian-rock-music-journalist-glenn-a-baker-dies-age-74/news-story/bbf3ef3cd69a89c3cba8a8a240162b17"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "nsw-south-west-rez-upgrade",
+      "headline": "NSW orders a fresh upgrade to its new South West power line",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T22:12:00.000Z",
+      "voiceScript": "NSW will spend $225 million to upgrade part of the new South West REZ transmission project only months after construction finished. The line and substation were built to move more wind and solar power, and the work will lift capacity in stages. It matters because the extra cost will be passed through the grid and raises questions about how major energy builds are planned. The next step is regulatory approval for the spending.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/south-west-rez-upgrade-underway/106961958"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "maryvale-paper-mill-job-cuts",
+      "headline": "Maryvale paper mill cuts 84 jobs as timber supply tightens",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T22:04:00.000Z",
+      "voiceScript": "Opal Australian Paper says it will cut 84 jobs at its Maryvale mill in Victoria after blaming the state government for failing to secure enough timber. The mill is a major employer in the Latrobe Valley, so the cut hits both regional jobs and the future of local manufacturing. It matters because the site has already been under pressure for years. The next question is whether the company can keep operating at full capacity and whether any policy fix is still possible.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/maryvale-opal-australian-maryvale-paper-mill-job-cuts-84-timber/106980230"
+        }
+      ],
+      "language": "en"
+    },
     {
       "id": "young-indigenous-creators-online-abuse",
       "headline": "Young Indigenous creators face abuse online",
@@ -826,6 +892,38 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/queensland-ferry-strike-friday/106976596"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "football-australia-fifa-plan",
+      "headline": "Football Australia waits on details of FIFA's World Cup investment plan",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-30T04:15:00.000Z",
+      "voiceScript": "Football Australia has asked FIFA for more detail before taking a position on a plan to sell part of the World Cup's commercial rights to private investors. The proposal has drawn pushback in Australia and overseas because it could reshape football's governance and funding. It matters because FIFA is asking members to judge a major commercial shift on a short timeline. The next step is whether enough national bodies back the plan before the deadline.",
+      "differences": [
+        "ABC focuses on Football Australia's need to assess the governance and commercial implications before responding.",
+        "AAP stresses that Football Australia was caught by surprise and notes the deadline FIFA has set for members.",
+        "Guardian Australia highlights the wider backlash, including criticism from Australian figures and calls for transparency.",
+        "news.com.au emphasises the scale of the proposed sale and the boycott threat from Europe."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/sport/2026/jul/30/football-australia-position-fifa-world-cup-privatisation-plan"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/september-deadline-set-for-fifa-investment-scheme/106974480"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/infantino-sets-deadline-for-world-cup-investor-plan"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/football/world-cup/fifas-world-cup-selloff-plan-sparks-threat-of-european-nations-boycott/news-story/9982860bbad618e84c448a508a99984d"
         }
       ],
       "language": "en"
@@ -1804,6 +1902,33 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/26/labor-pressure-telehealth-access-euthanasia-assisted-dying-anthony-albanese"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "us-tariff-hike-australian-exports",
+      "headline": "Australia braces for a higher US tariff on exports",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
+      "voiceScript": "The United States is set to lift its tariff on Australian exports from 10 per cent to 12.5 per cent. Canberra says the move is unjustified, while business groups warn it could add another hit to exporters already under pressure from weak margins and global trade uncertainty. It matters because the US is a major market for Australian goods. The next step is whether Washington reverses course or whether Australia seeks exemptions and new buyers.",
+      "differences": [
+        "ABC centres Don Farrell's Adelaide press conference and the government's argument that the tariff is unjustified.",
+        "AAP focuses on the new rate taking effect on Friday afternoon AEST and the wider reaction from business groups.",
+        "news.com.au highlights the size of the tariff increase and the pressure it puts on Australian exports."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/trump-tariffs-bring-more-uncertainty-to-australian-shores/106954074"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/australia-disappointed-as-trump-hikes-export-tariffs"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/australian-economy/donald-trump-confirms-new-125-per-cent-tariff-on-australian-exports/news-story/98ef76ee2a40e503e3c64d71387ed3bf"
         }
       ],
       "language": "en"

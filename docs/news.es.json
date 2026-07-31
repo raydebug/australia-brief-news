@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T23:10:58.448Z",
+  "updatedAt": "2026-07-30T23:59:00.000Z",
   "generatedBy": "codex",
   "language": "es",
   "sources": [
@@ -105,6 +105,72 @@
     "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "adelaide-cbd-burst-water-main",
+      "headline": "Una rotura de cañería corta la electricidad en el centro de Adelaida",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T23:49:00.000Z",
+      "voiceScript": "La rotura de una cañería en el centro de Adelaida inundó una instalación eléctrica cercana y dejó sin luz a comercios, un hospital y una escuela. Cuadrillas de SA Water trabajaban en Grenfell Street mientras seguían las tareas de recuperación en el corazón de la ciudad. La noticia importa porque una sola falla de infraestructura puede paralizar rápidamente una zona urbana muy densa. El siguiente paso es ver cuándo vuelve el suministro y si habrá nuevas inspecciones de la red.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/burst-water-main-causes-disruptions-adelaide-cbd/106980254"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "glenn-a-baker-dies",
+      "headline": "Muere a los 74 años Glenn A. Baker, figura clave de la música australiana",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T23:44:00.000Z",
+      "voiceScript": "El periodista y locutor musical australiano Glenn A. Baker murió a los 74 años. Durante décadas documentó la escena local, fue editor de Billboard durante más de 20 años y ayudó a contar los primeros años de Triple J. La noticia importa porque Baker no solo narró la historia de la música australiana moderna, también formó parte de ella. Ahora queda ver cómo la industria reconocerá su legado y conservará su archivo.",
+      "differences": [
+        "Una nota enfatiza su vínculo con Triple J y los primeros años de 2JJ, mientras que la otra destaca su larga etapa al frente de Billboard y su influencia más amplia."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/nsw-glenn-a-baker-dies/106980460"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/entertainment/celebrity-life/celebrity-deaths/beyond-sad-australian-rock-music-journalist-glenn-a-baker-dies-age-74/news-story/bbf3ef3cd69a89c3cba8a8a240162b17"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "nsw-south-west-rez-upgrade",
+      "headline": "NSW ordena una nueva mejora para su reciente línea eléctrica del suroeste",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T22:12:00.000Z",
+      "voiceScript": "Nueva Gales del Sur destinará 225 millones de dólares australianos para mejorar parte del proyecto de transmisión del área de energías renovables del suroeste, apenas unos meses después de terminada la obra. La línea y la subestación se construyeron para transportar más energía eólica y solar, y ahora se reforzarán por etapas. Es importante porque el costo extra puede trasladarse a las tarifas eléctricas y vuelve a poner bajo la lupa la planificación de grandes proyectos energéticos. El siguiente paso es la aprobación regulatoria del gasto.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/south-west-rez-upgrade-underway/106961958"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "maryvale-paper-mill-job-cuts",
+      "headline": "La papelera de Maryvale recorta 84 empleos por la escasez de madera",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T22:04:00.000Z",
+      "voiceScript": "Opal Australian Paper recortará 84 puestos en su planta de Maryvale, en Victoria, tras culpar al gobierno estatal por no asegurar suficiente madera. La fábrica es un empleador clave en Latrobe Valley, así que el ajuste golpea tanto al empleo local como al futuro de la industria manufacturera regional. La noticia importa porque la planta ya venía bajo presión desde hace años. Ahora queda ver si la empresa puede seguir operando a plena capacidad y si existe margen para una salida política.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/maryvale-opal-australian-maryvale-paper-mill-job-cuts-84-timber/106980230"
+        }
+      ],
+      "language": "es"
+    },
     {
       "id": "young-indigenous-creators-online-abuse",
       "headline": "Los jóvenes creadores indígenas enfrentan abusos en línea",
@@ -826,6 +892,38 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/queensland-ferry-strike-friday/106976596"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "football-australia-fifa-plan",
+      "headline": "Football Australia espera más detalles sobre el plan de inversión de la FIFA para el Mundial",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-30T04:15:00.000Z",
+      "voiceScript": "Football Australia pidió más información antes de fijar una postura sobre el plan para vender parte de los derechos comerciales del Mundial a inversores privados. La propuesta ha generado rechazo en Australia y en el exterior porque podría cambiar la gobernanza y la financiación del fútbol. Es importante porque FIFA está dando muy poco tiempo para evaluar un cambio comercial de gran alcance. El siguiente paso es ver si logra reunir suficiente apoyo antes del plazo límite.",
+      "differences": [
+        "Una nota se centra en que Football Australia necesita evaluar primero las implicaciones de gobernanza y de negocio.",
+        "Otra destaca que la asociación fue tomada por sorpresa y menciona el plazo fijado por FIFA.",
+        "Una tercera resalta el rechazo más amplio, incluidas críticas de figuras australianas y pedidos de transparencia.",
+        "La cuarta pone el acento en la escala de la venta propuesta y en la amenaza de boicot desde Europa."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/sport/2026/jul/30/football-australia-position-fifa-world-cup-privatisation-plan"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/september-deadline-set-for-fifa-investment-scheme/106974480"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/infantino-sets-deadline-for-world-cup-investor-plan"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/football/world-cup/fifas-world-cup-selloff-plan-sparks-threat-of-european-nations-boycott/news-story/9982860bbad618e84c448a508a99984d"
         }
       ],
       "language": "es"
@@ -1804,6 +1902,33 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/26/labor-pressure-telehealth-access-euthanasia-assisted-dying-anthony-albanese"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "us-tariff-hike-australian-exports",
+      "headline": "Australia se prepara para un arancel estadounidense más alto sobre sus exportaciones",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
+      "voiceScript": "Estados Unidos elevará su arancel sobre las exportaciones australianas del 10% al 12,5%. Canberra sostiene que la medida no tiene fundamento y los grupos empresariales advierten que sumará presión a unos exportadores que ya operan con márgenes ajustados y mucha incertidumbre comercial. Es importante porque Estados Unidos es un mercado clave para los bienes australianos. El siguiente paso es ver si Washington da marcha atrás o si Australia busca exenciones y nuevos compradores.",
+      "differences": [
+        "Una versión pone el foco en la intervención del ministro en Adelaida y en la postura del gobierno de que el arancel es injustificado.",
+        "Otra se centra en la entrada en vigor del nuevo tipo arancelario el viernes por la tarde, hora AEST, y en la respuesta empresarial.",
+        "La tercera subraya el tamaño del aumento y la presión que añade a los exportadores australianos."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/trump-tariffs-bring-more-uncertainty-to-australian-shores/106954074"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/australia-disappointed-as-trump-hikes-export-tariffs"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/australian-economy/donald-trump-confirms-new-125-per-cent-tariff-on-australian-exports/news-story/98ef76ee2a40e503e3c64d71387ed3bf"
         }
       ],
       "language": "es"

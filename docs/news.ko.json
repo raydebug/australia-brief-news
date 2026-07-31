@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T23:10:58.448Z",
+  "updatedAt": "2026-07-30T23:59:00.000Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -105,6 +105,72 @@
     "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "adelaide-cbd-burst-water-main",
+      "headline": "애들레이드 도심 수관 파열로 전력 공급이 끊겼다",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T23:49:00.000Z",
+      "voiceScript": "애들레이드 도심에서 수관이 터지며 전기 설비가 침수됐고, 상점과 병원, 학교에 정전이 발생했다. SA Water 직원들은 그렌펠 스트리트에서 수리 작업을 이어가며 복구를 진행하고 있다. 이 일은 도시 밀집 지역에서 단일 공공시설 고장이 얼마나 빠르게 큰 혼란으로 번질 수 있는지 보여준다. 이제 남은 문제는 복구 시점과 추가 점검 여부다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/burst-water-main-causes-disruptions-adelaide-cbd/106980254"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "glenn-a-baker-dies",
+      "headline": "호주 음악을 기록한 글렌 에이 베이커, 74세로 별세",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T23:44:00.000Z",
+      "voiceScript": "호주의 음악 기자이자 방송인이었던 글렌 에이 베이커가 74세로 세상을 떠났다. 그는 현지 음악계를 오랫동안 기록했고 빌보드 잡지 편집장을 20년 넘게 맡았으며 트리플 제이 초기에도 관여했다. 이번 소식이 중요한 이유는 그가 단순한 해설자가 아니라 현대 호주 음악사의 일부였기 때문이다. 앞으로 업계가 그의 공헌을 어떻게 기릴지, 자료를 어떻게 보존할지가 남았다.",
+      "differences": [
+        "한쪽은 트리플 제이와 초기 2JJ와의 연결을 강조하고, 다른 쪽은 빌보드에서의 긴 편집 경력과 폭넓은 영향력을 더 부각한다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/nsw-glenn-a-baker-dies/106980460"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/entertainment/celebrity-life/celebrity-deaths/beyond-sad-australian-rock-music-journalist-glenn-a-baker-dies-age-74/news-story/bbf3ef3cd69a89c3cba8a8a240162b17"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "nsw-south-west-rez-upgrade",
+      "headline": "뉴사우스웨일스주가 새 송전망을 추가로 업그레이드한다",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T22:12:00.000Z",
+      "voiceScript": "뉴사우스웨일스주는 막 완공된 남서부 재생에너지 구역 송전 사업의 일부를 다시 손보기 위해 2억2500만 호주달러를 투입한다. 이 노선과 변전소는 더 많은 풍력과 태양광 전력을 보내기 위해 지어졌고, 이제 단계적으로 용량을 더 높이게 된다. 추가 비용이 전기요금으로 이어질 수 있고 대형 에너지 사업의 계획 문제를 드러낸다는 점에서 중요하다. 이제 규제 당국의 승인 여부가 관건이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/south-west-rez-upgrade-underway/106961958"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "maryvale-paper-mill-job-cuts",
+      "headline": "메리베일 제지공장이 목재 부족으로 84명을 감원한다",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T22:04:00.000Z",
+      "voiceScript": "오팔 오스트레일리언 페이퍼는 빅토리아주 메리베일 제지공장에서 84개의 일자리를 줄이겠다고 밝혔다. 회사는 주정부가 충분한 목재 공급을 확보하지 못했다고 비판했다. 이 공장은 라트로브 밸리의 핵심 고용처여서 감원은 지역 일자리와 제조업 전망 모두에 타격이다. 앞으로는 공장이 정상 가동을 유지할 수 있는지, 정책적 보완이 가능한지가 쟁점이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/maryvale-opal-australian-maryvale-paper-mill-job-cuts-84-timber/106980230"
+        }
+      ],
+      "language": "ko"
+    },
     {
       "id": "young-indigenous-creators-online-abuse",
       "headline": "젊은 원주민 창작자들이 온라인에서 학대를 당하고 있습니다",
@@ -826,6 +892,38 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/queensland-ferry-strike-friday/106976596"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "football-australia-fifa-plan",
+      "headline": "호주축구협회, FIFA의 월드컵 투자안 세부자료를 기다리다",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-30T04:15:00.000Z",
+      "voiceScript": "호주축구협회는 FIFA가 월드컵의 상업권 일부를 민간 투자자에게 넘기려는 계획에 대해 먼저 더 많은 자료를 요구했다. 이 제안은 축구의 운영 방식과 자금 구조를 바꿀 수 있어 호주 안팎에서 반발을 샀다. FIFA가 각 회원국에 짧은 시간 안에 판단을 요구하고 있다는 점도 중요하다. 마지막 기한 전까지 충분한 지지가 모일지가 관전 포인트다.",
+      "differences": [
+        "한쪽은 협회가 먼저 통치와 상업적 영향을 평가해야 한다는 점을 강조한다.",
+        "다른 쪽은 협회가 사전에 통보받지 못했다는 점과 FIFA가 정한 기한을 부각한다.",
+        "또 다른 보도는 국내 비판과 투명성 요구 등 더 넓은 반발을 강조한다.",
+        "다른 기사들은 매각안의 규모와 유럽 쪽 보이콧 위협을 더 크게 다룬다."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/sport/2026/jul/30/football-australia-position-fifa-world-cup-privatisation-plan"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/september-deadline-set-for-fifa-investment-scheme/106974480"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/infantino-sets-deadline-for-world-cup-investor-plan"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/football/world-cup/fifas-world-cup-selloff-plan-sparks-threat-of-european-nations-boycott/news-story/9982860bbad618e84c448a508a99984d"
         }
       ],
       "language": "ko"
@@ -1804,6 +1902,33 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/26/labor-pressure-telehealth-access-euthanasia-assisted-dying-anthony-albanese"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "us-tariff-hike-australian-exports",
+      "headline": "호주 수출품에 대한 미국 관세 인상이 임박했다",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-24T04:00:00.000Z",
+      "voiceScript": "미국이 호주 수출품에 부과하는 관세를 10퍼센트에서 12.5퍼센트로 올릴 예정이다. 캔버라는 이 조치가 부당하다고 보고 있고, 기업단체들은 이미 압박받는 수출업자들에게 추가 부담이 될 수 있다고 경고한다. 미국은 호주 상품의 중요한 시장이어서 파급이 크다. 앞으로 워싱턴이 입장을 바꾸는지, 아니면 호주가 면제나 새 시장 확보에 나서는지가 관건이다.",
+      "differences": [
+        "한쪽은 아델레이드에서의 장관 발언과 정부의 부당하다는 주장에 초점을 둔다.",
+        "다른 쪽은 새 세율이 AEST 금요일 오후에 발효된다는 점과 기업 반응을 강조한다.",
+        "또 다른 보도는 인상 폭과 수출업자에 대한 압박을 더 크게 다룬다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-24/trump-tariffs-bring-more-uncertainty-to-australian-shores/106954074"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/australia-disappointed-as-trump-hikes-export-tariffs"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/australian-economy/donald-trump-confirms-new-125-per-cent-tariff-on-australian-exports/news-story/98ef76ee2a40e503e3c64d71387ed3bf"
         }
       ],
       "language": "ko"
