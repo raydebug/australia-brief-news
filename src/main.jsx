@@ -1046,13 +1046,35 @@ const PEOPLE_CONTEXT = [
     name: "Gina Rinehart",
     aliases: ["Gina Rinehart", "吉娜·莱因哈特", "吉娜·萊因哈特", "ジーナ・ラインハート", "지나 라인하트"],
     type: "public-figure",
-    social: { label: "Hancock Prospecting", url: "https://www.hancockprospecting.com.au/" }
+    social: { label: "Hancock Prospecting", url: "https://www.hancockprospecting.com.au/" },
+    background: {
+      "zh-Hans": "澳洲矿业企业家，Hancock Prospecting 执行主席，是澳洲最知名的商业人物之一。",
+      "zh-Hant": "澳洲礦業企業家，Hancock Prospecting 執行主席，是澳洲最知名的商業人物之一。",
+      en: "Australian mining entrepreneur and executive chair of Hancock Prospecting, one of the country's best-known business figures.",
+      es: "Empresaria minera australiana y presidenta ejecutiva de Hancock Prospecting, una de las figuras empresariales más conocidas del país.",
+      ja: "豪州の鉱業実業家で Hancock Prospecting の会長。国内で最も知られたビジネス人物の一人です。",
+      ko: "호주 광산 기업가이자 Hancock Prospecting 회장으로, 호주의 대표적 기업인 중 한 명입니다.",
+      vi: "Doanh nhân khai khoáng Úc, chủ tịch điều hành Hancock Prospecting, một trong những gương mặt kinh doanh nổi tiếng nhất nước.",
+      th: "นักธุรกิจเหมืองแร่ชาวออสเตรเลีย ประธานบริหาร Hancock Prospecting และเป็นหนึ่งในนักธุรกิจที่เป็นที่รู้จักที่สุดของประเทศ",
+      si: "Australian mining entrepreneur සහ Hancock Prospecting executive chair; රටේ ප්‍රසිද්ධ business figures අතර කෙනෙකි."
+    }
   },
   {
     name: "Benji Marshall",
     aliases: ["Benji Marshall", "本吉·马歇尔", "本吉·馬歇爾", "ベンジー・マーシャル", "벤지 마셜"],
     type: "public-figure",
-    social: { label: "Instagram", url: "https://www.instagram.com/benji6marshall/" }
+    social: { label: "Instagram", url: "https://www.instagram.com/benji6marshall/" },
+    background: {
+      "zh-Hans": "前职业橄榄球联盟球员、现任 NRL 教练，长期与 Wests Tigers 和新西兰国家队联系紧密。",
+      "zh-Hant": "前職業橄欖球聯盟球員、現任 NRL 教練，長期與 Wests Tigers 和紐西蘭國家隊聯繫緊密。",
+      en: "Former professional rugby league player and current NRL coach, strongly associated with Wests Tigers and New Zealand representative rugby league.",
+      es: "Exjugador profesional de rugby league y actual entrenador de NRL, muy asociado con Wests Tigers y la selección neozelandesa.",
+      ja: "元プロ・ラグビーリーグ選手で現 NRL コーチ。Wests Tigers とニュージーランド代表で知られています。",
+      ko: "전 프로 럭비리그 선수이자 현 NRL 코치로, Wests Tigers와 뉴질랜드 대표 경력으로 잘 알려져 있습니다.",
+      vi: "Cựu cầu thủ rugby league chuyên nghiệp và hiện là HLV NRL, gắn nhiều với Wests Tigers và đội tuyển New Zealand.",
+      th: "อดีตนักรักบี้ลีกอาชีพและปัจจุบันเป็นโค้ช NRL เป็นที่รู้จักจาก Wests Tigers และทีมชาตินิวซีแลนด์",
+      si: "Former professional rugby league player සහ current NRL coach; Wests Tigers සහ New Zealand representative rugby league සමඟ දැඩි සම්බන්ධය ඇත."
+    }
   },
   {
     name: "Korey Boddington",
@@ -1065,7 +1087,18 @@ const PEOPLE_CONTEXT = [
       "කොරී බොඩිංටන්"
     ],
     type: "athlete",
-    social: { label: "Instagram", url: "https://www.instagram.com/koreyboddington/" }
+    social: { label: "Instagram", url: "https://www.instagram.com/koreyboddington/" },
+    background: {
+      "zh-Hans": "澳洲残疾人场地自行车运动员，巴黎残奥会冠军，曾在世界锦标赛和大洋洲赛事中刷新纪录。",
+      "zh-Hant": "澳洲殘疾人場地自行車運動員，巴黎帕運冠軍，曾在世界錦標賽和大洋洲賽事中刷新紀錄。",
+      en: "Australian para-track cyclist and Paris Paralympic champion, with world and Oceania records in para-cycling events.",
+      es: "Paraciclista de pista australiano y campeón paralímpico en París, con récords mundiales y de Oceanía en pruebas de paraciclismo.",
+      ja: "豪州のパラ・トラックサイクリストでパリ・パラリンピック金メダリスト。世界記録やオセアニア記録も持つ選手です。",
+      ko: "호주 파라 트랙 사이클 선수이자 파리 패럴림픽 금메달리스트로, 세계 및 오세아니아 기록을 보유했습니다.",
+      vi: "VĐV para track cycling của Úc, nhà vô địch Paralympic Paris, từng lập kỷ lục thế giới và châu Đại Dương.",
+      th: "นักปั่นพาราแทร็กของออสเตรเลีย แชมป์พาราลิมปิกปารีส และเจ้าของสถิติโลกกับโอเชียเนียในรายการพาราไซคลิง",
+      si: "Australian para-track cyclist සහ Paris Paralympic champion; para-cycling events වල world/Oceania records තැබූ ක්‍රීඩකයෙකි."
+    }
   }
 ];
 
@@ -1347,7 +1380,7 @@ function PeopleContextList({ people, labels, language }) {
     <div className="people-list">
       {people.map((person) => {
         const background = localizedPersonValue(person, "background", language);
-        const positions = localizedPersonValue(person, "positions", language);
+        const positions = person.type === "politician" ? localizedPersonValue(person, "positions", language) : "";
 
         return (
           <section className="person-card" key={person.name}>
