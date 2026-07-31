@@ -903,6 +903,51 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Luke Gosling",
+    aliases: ["Luke Gosling", "卢克·戈斯林", "盧克·戈斯林", "ルーク・ゴスリング", "루크 고슬링"],
+    type: "politician",
+    social: { label: "X", url: "https://x.com/LukeGoslingMP" },
+    background: {
+      "zh-Hans": "澳洲工党联邦议员，代表北领地 Solomon 选区，自 2016 年进入联邦议会。进入政界前曾在澳洲陆军服役，包括突击队、伞兵和 NORFORCE 相关岗位，也做过国际援助和社区组织工作。",
+      "zh-Hant": "澳洲工黨聯邦議員，代表北領地 Solomon 選區，自 2016 年進入聯邦議會。進入政界前曾在澳洲陸軍服役，包括突擊隊、傘兵和 NORFORCE 相關崗位，也做過國際援助和社區組織工作。",
+      en: "Federal Labor MP for Solomon in the Northern Territory since 2016. Before politics he served in the Australian Army, including commando, parachute infantry and NORFORCE-related roles, and worked in international aid and community organisations.",
+      es: "Diputado federal laborista por Solomon, en el Territorio del Norte, desde 2016. Antes de la política sirvió en el ejército australiano, incluidos roles de comandos, infantería paracaidista y NORFORCE, y trabajó en ayuda internacional y organizaciones comunitarias.",
+      ja: "北部準州 Solomon 選出の連邦労働党議員で、2016年から連邦議会議員。政界入り前は豪陸軍でコマンドー、落下傘歩兵、NORFORCE 関連任務に就き、国際支援や地域団体でも活動しました。",
+      ko: "2016년부터 노던준주 Solomon 지역구를 대표하는 연방 노동당 하원의원입니다. 정계 전에는 호주 육군에서 특공대, 낙하산 보병, NORFORCE 관련 역할을 맡았고 국제 원조와 지역사회 조직에서도 일했습니다.",
+      vi: "Nghị sĩ Labor liên bang khu Solomon ở Lãnh thổ Bắc từ năm 2016. Trước khi vào chính trị, ông phục vụ trong quân đội Úc, gồm các vai trò commando, parachute infantry và NORFORCE, đồng thời làm việc trong viện trợ quốc tế và tổ chức cộng đồng.",
+      th: "ส.ส. Labor รัฐบาลกลางเขต Solomon ใน Northern Territory ตั้งแต่ปี 2016 ก่อนเข้าสู่การเมืองเคยรับราชการในกองทัพออสเตรเลีย รวมถึงบทบาท commando, parachute infantry และ NORFORCE และทำงานด้านความช่วยเหลือระหว่างประเทศกับองค์กรชุมชน",
+      si: "2016 සිට Northern Territory හි Solomon නියෝජනය කරන Federal Labor MP. දේශපාලනයට පෙර Australian Army හි commando, parachute infantry සහ NORFORCE සම්බන්ධ භූමිකාවල සේවය කළ අතර international aid සහ community organisations වලද කටයුතු කළේය."
+    },
+    positions: {
+      "zh-Hans": "主要围绕国防、退伍军人事务、北澳发展、达尔文和 Palmerston 基础设施、就业和偏远地区服务发声；政治定位属于工党北领地地方型议员，强调国防联系、社区服务和北部开发。",
+      "zh-Hant": "主要圍繞國防、退伍軍人事務、北澳發展、達爾文和 Palmerston 基礎設施、就業和偏遠地區服務發聲；政治定位屬於工黨北領地地方型議員，強調國防聯繫、社區服務和北部開發。",
+      en: "His public themes centre on defence, veterans' affairs, northern Australia, Darwin and Palmerston infrastructure, jobs and remote-area services. Politically, he fits the Northern Territory local Labor profile: defence-connected, community-service focused and pro-northern development.",
+      es: "Sus temas públicos se centran en defensa, veteranos, norte de Australia, infraestructura de Darwin y Palmerston, empleo y servicios en zonas remotas. Políticamente encaja en el perfil laborista local del Territorio del Norte: vinculado a defensa, servicio comunitario y desarrollo del norte.",
+      ja: "国防、退役軍人、北部豪州、Darwin と Palmerston のインフラ、雇用、遠隔地サービスを主な論点にしています。政治的には、国防との結びつき、地域奉仕、北部開発を重視する北部準州型の労働党議員です。",
+      ko: "국방, 보훈, 호주 북부, Darwin과 Palmerston 인프라, 일자리, 원격지 서비스를 주요 의제로 삼습니다. 정치적으로는 국방 연계, 지역사회 봉사, 북부 개발을 중시하는 노던준주 지역 노동당 의원에 가깝습니다.",
+      vi: "Các chủ đề chính là quốc phòng, cựu chiến binh, miền bắc Úc, hạ tầng Darwin và Palmerston, việc làm và dịch vụ vùng xa. Về chính trị, ông thuộc kiểu nghị sĩ Labor địa phương ở Lãnh thổ Bắc: gắn với quốc phòng, dịch vụ cộng đồng và phát triển miền bắc.",
+      th: "ประเด็นหลักคือกลาโหม ทหารผ่านศึก northern Australia โครงสร้างพื้นฐาน Darwin และ Palmerston งาน และบริการพื้นที่ห่างไกล ทางการเมืองเป็น Labor แบบท้องถิ่นของ Northern Territory ที่เน้นความเชื่อมโยงด้านกลาโหม งานชุมชน และการพัฒนาภาคเหนือ",
+      si: "ඔහුගේ public themes defence, veterans' affairs, northern Australia, Darwin/Palmerston infrastructure, jobs සහ remote-area services වටා වේ. Political profile එක Northern Territory local Labor: defence-connected, community-service focused සහ pro-northern development ලෙස දැක්විය හැක."
+    }
+  },
+  {
+    name: "David Connolly",
+    aliases: ["David Connolly", "大卫·康诺利", "大衛·康諾利", "デービッド・コノリー", "데이비드 코널리"],
+    type: "public-figure",
+    social: { label: "Official profile", url: "https://govhouse.nt.gov.au/the-administrator/about-the-administrator" },
+    background: {
+      "zh-Hans": "北领地第 24 任行政长官，2026 年 2 月宣誓就职，角色类似州督，代表王权且不参与政治程序。任职前长期在牧业、农业投资和乡村产业机构任职，曾任 NT Cattlemen's Association 主席。",
+      "zh-Hant": "北領地第 24 任行政長官，2026 年 2 月宣誓就職，角色類似州督，代表王權且不參與政治程序。任職前長期在牧業、農業投資和鄉村產業機構任職，曾任 NT Cattlemen's Association 主席。",
+      en: "The 24th Administrator of the Northern Territory, sworn in in February 2026. The role is similar to a state governor, represents the Crown and does not participate in the political process. Before appointment he worked across pastoral operations, agricultural investment and rural industry bodies, including as president of the NT Cattlemen's Association.",
+      es: "El 24.º Administrador del Territorio del Norte, juramentado en febrero de 2026. El cargo es similar al de un gobernador estatal, representa a la Corona y no participa en el proceso político. Antes trabajó en operaciones pastorales, inversión agrícola y entidades rurales, incluida la presidencia de la NT Cattlemen's Association.",
+      ja: "2026年2月に就任した第24代北部準州行政官。州総督に近い役割で、王権を代表し、政治過程には参加しません。就任前は牧畜、農業投資、農村産業団体で活動し、NT Cattlemen's Association 会長も務めました。",
+      ko: "2026년 2월 취임한 제24대 노던준주 행정관입니다. 주 총독과 비슷한 역할로 왕권을 대표하며 정치 과정에는 참여하지 않습니다. 임명 전에는 목축 운영, 농업 투자, 농촌 산업 단체에서 일했고 NT Cattlemen's Association 회장을 지냈습니다.",
+      vi: "Quản trị viên thứ 24 của Lãnh thổ Bắc, tuyên thệ tháng 2 năm 2026. Vai trò tương tự thống đốc bang, đại diện cho Crown và không tham gia tiến trình chính trị. Trước khi được bổ nhiệm, ông làm trong lĩnh vực pastoral operations, đầu tư nông nghiệp và các tổ chức ngành nông thôn, gồm cả chủ tịch NT Cattlemen's Association.",
+      th: "Administrator คนที่ 24 ของ Northern Territory สาบานตนในเดือนกุมภาพันธ์ 2026 บทบาทคล้ายผู้ว่าการรัฐ เป็นตัวแทน Crown และไม่เข้าร่วมกระบวนการการเมือง ก่อนรับตำแหน่งทำงานด้าน pastoral operations การลงทุนเกษตร และองค์กรอุตสาหกรรมชนบท รวมถึงเคยเป็นประธาน NT Cattlemen's Association",
+      si: "2026 පෙබරවාරි මාසයේ දිවුරුම් දුන් Northern Territory හි 24 වන Administrator. State governor ට සමාන භූමිකාවක් වන අතර Crown නියෝජනය කර political process එකට සහභාගී නොවේ. පත් කිරීමට පෙර pastoral operations, agricultural investment සහ rural industry bodies වල, NT Cattlemen's Association president ලෙසද, කටයුතු කළේය."
+    }
+  },
+  {
     name: "Pauline Hanson",
     aliases: ["Pauline Hanson", "保琳·汉森", "保琳·漢森", "ポーリン・ハンソン", "폴린 핸슨"],
     type: "politician",
