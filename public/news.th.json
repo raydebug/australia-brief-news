@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T13:03:48Z",
+  "updatedAt": "2026-07-31T14:08:23Z",
   "generatedBy": "codex",
   "language": "th",
   "sources": [
@@ -107,6 +107,38 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "football-australia-fifa-plan",
+      "headline": "สมาพันธ์ฟุตบอลออสเตรเลียรอรายละเอียดแผนการลงทุนของฟีฟา",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-31T10:51:51Z",
+      "voiceScript": "สมาพันธ์ฟุตบอลออสเตรเลียขอข้อมูลเพิ่มเติมก่อนจะตอบรับแผนขายสิทธิ์เชิงพาณิชย์บางส่วนของฟุตบอลโลกให้แก่นักลงทุนเอกชน แผนนี้ถูกวิจารณ์ทั้งในออสเตรเลียและต่างประเทศเพราะอาจเปลี่ยนวิธีบริหารและจัดหาเงินทุนของเกมลูกหนัง เรื่องนี้สำคัญเพราะฟีฟาให้เวลาเพียงสั้น ๆ แก่สมาชิกในการตัดสินใจ ขั้นต่อไปคือดูว่าจะมีเสียงสนับสนุนพอหรือไม่ก่อนถึงเส้นตาย",
+      "differences": [
+        "ข่าวหนึ่งเน้นว่าต้องประเมินผลด้านธรรมาภิบาลและเชิงพาณิชย์ก่อนตอบ",
+        "อีกข่าวเน้นว่าฝ่ายออสเตรเลียไม่เคยได้รับแจ้งล่วงหน้าและชี้ให้เห็นเส้นตายที่ฟีฟากำหนด",
+        "อีกชิ้นเน้นกระแสต้านที่กว้างกว่า รวมถึงเสียงวิจารณ์จากบุคคลในออสเตรเลียและการเรียกร้องความโปร่งใส",
+        "ข่าวอื่น ๆ เน้นขนาดของข้อเสนอและภัยคุกคามการบอยคอตจากยุโรป"
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/sport/2026/jul/30/football-australia-position-fifa-world-cup-privatisation-plan"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/fifa-sale-continue-despite-opposition-/106984546"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/infantino-sets-deadline-for-world-cup-investor-plan"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/football/world-cup/fifas-world-cup-selloff-plan-sparks-threat-of-european-nations-boycott/news-story/9982860bbad618e84c448a508a99984d"
+        }
+      ],
+      "language": "th"
+    },
     {
       "id": "garma-festival-opens-arnhem-land",
       "headline": "Garma เปิดฉากที่ Arnhem Land พร้อมคำมั่นเรื่องที่ดินและเชื้อเพลิง",
@@ -268,6 +300,25 @@
       "language": "th"
     },
     {
+      "id": "bonds-returns-to-australian-ownership",
+      "headline": "Bonds กลับมาอยู่ในมือออสเตรเลียในดีลค้าปลีก 700 ล้านดอลลาร์",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-31T05:19:07Z",
+      "voiceScript": "การซื้อของ Brett Blundy ทำให้ Bonds, Sheridan, Berlei และ Bras N Things กลับมาอยู่ภายใต้การถือครองของออสเตรเลียอีกครั้ง ข่าวนี้สำคัญเพราะแบรนด์เหล่านี้เป็นชื่อคุ้นเคยของผู้บริโภคทั่วประเทศและมีร้านค้าจำนวนมาก สิ่งที่ต้องจับตาต่อไปคือเจ้าของใหม่จะปรับโครงสร้างกลุ่มค้าปลีกอย่างไร และจะกระทบต่อการจ้างงานกับราคาแค่ไหน",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/bonds-sheridan-and-berlei-return-to-australian-ownership-in-700m-brett-blundy-deal-c-22657837"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/retail/billionaire-blundy-swoops-on-bras-n-things-bonds-in-700m-deal-20260730-p60k39"
+        }
+      ],
+      "language": "th"
+    },
+    {
       "id": "hsbc-retail-exit-australia",
       "headline": "HSBC เตรียมถอนตัวจากตลาดธนาคารรายย่อยของออสเตรเลีย",
       "sourceCount": 2,
@@ -424,6 +475,29 @@
       ]
     },
     {
+      "id": "australia-wildfire-support-france",
+      "headline": "ออสเตรเลียส่งกำลังช่วยฝรั่งเศสสู้ไฟป่าระดับสถิติ",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-31T00:22:08Z",
+      "voiceScript": "ออสเตรเลียกำลังส่งเครื่องบินและทีมผู้เชี่ยวชาญไปช่วยฝรั่งเศส ขณะที่ไฟป่ารุนแรงยังลุกลามในบางส่วนของฝรั่งเศสและสเปน ข่าวนี้สำคัญเพราะประสบการณ์รับมือไฟป่าของออสเตรเลียกำลังถูกนำไปใช้โดยตรงในสถานการณ์ไฟครั้งใหญ่ที่ยุโรปเผชิญอย่างรุนแรงกว่าปกติ สิ่งที่ต้องจับตาต่อไปคือกำลังเสริมจะช่วยควบคุมแนวไฟได้มากแค่ไหนก่อนอากาศร้อนกลับมาอีก",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australia-sends-firefighters-to-france-as-europe-enters-new-era-of-megafires-c-22654842"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/france-and-spain-wildfires/106964322"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/world/europe/firestorm-threatens-bordeaux-as-tour-de-france-slashed-20260726-p60ikg"
+        }
+      ],
+      "language": "th"
+    },
+    {
       "id": "glenn-a-baker-dies",
       "headline": "เกลน เอ เบเกอร์ นักข่าวดนตรีออสเตรเลีย เสียชีวิตในวัย 74 ปี",
       "sourceCount": 2,
@@ -558,6 +632,29 @@
           "score": 12
         }
       ]
+    },
+    {
+      "id": "hanson-isis-passport-bill",
+      "headline": "พอลลีน แฮนสันผลักดันร่างกฎหมายสกัดผู้เกี่ยวข้องกับ ISIS ด้วยการคุมหนังสือเดินทาง",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-30T18:59:47Z",
+      "voiceScript": "พอลลีน แฮนสันเสนอร่างกฎหมายที่จะให้อำนาจเจ้าหน้าที่ปฏิเสธ ระงับ หรือเพิกถอนหนังสือเดินทางของชาวออสเตรเลียที่ถูกตั้งข้อหาหรือถูกตัดสินว่ามีความผิดเกี่ยวกับคดีความมั่นคงและก่อการร้าย ข้อเสนอนี้ยังต้องการเพิ่มอำนาจเรื่องคำสั่งกันไม่ให้กลับเข้าเมืองและเงื่อนไขการประกันตัว ขณะที่โทนี เบิร์กมองว่าแผนนี้มีแนวโน้มจะชนขอบเขตตามรัฐธรรมนูญ เรื่องนี้สำคัญเพราะอยู่ตรงจุดตัดของความมั่นคงแห่งชาติ สิทธิความเป็นพลเมือง และการตรวจสอบของศาล คำถามต่อไปคือร่างกฎหมายจะผ่านการทดสอบทางกฎหมายได้หรือจะเหลือแค่สัญลักษณ์ทางการเมือง",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/labor-warns-one-nation-terror-laws-would-not-survive-high-court/106979386"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/politics/pauline-hanson-unveils-courtproof-plan-to-keep-isis-terrorists-and-supporters-out-of-australia/news-story/a34499386fee65d5f88db112afd8e643"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/nationals-senator-bridget-mckenzie-backs-pauline-hansons-isis-plan/news-story/0964cf38431344021e33c4d7e781ff6e"
+        }
+      ],
+      "language": "th"
     },
     {
       "id": "mostyn-warns-civic-gap-hurts-democracy",
@@ -981,38 +1078,6 @@
       "language": "th"
     },
     {
-      "id": "football-australia-fifa-plan",
-      "headline": "สมาพันธ์ฟุตบอลออสเตรเลียรอรายละเอียดแผนการลงทุนของฟีฟา",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-31T10:51:51Z",
-      "voiceScript": "สมาพันธ์ฟุตบอลออสเตรเลียขอข้อมูลเพิ่มเติมก่อนจะตอบรับแผนขายสิทธิ์เชิงพาณิชย์บางส่วนของฟุตบอลโลกให้แก่นักลงทุนเอกชน แผนนี้ถูกวิจารณ์ทั้งในออสเตรเลียและต่างประเทศเพราะอาจเปลี่ยนวิธีบริหารและจัดหาเงินทุนของเกมลูกหนัง เรื่องนี้สำคัญเพราะฟีฟาให้เวลาเพียงสั้น ๆ แก่สมาชิกในการตัดสินใจ ขั้นต่อไปคือดูว่าจะมีเสียงสนับสนุนพอหรือไม่ก่อนถึงเส้นตาย",
-      "differences": [
-        "ข่าวหนึ่งเน้นว่าต้องประเมินผลด้านธรรมาภิบาลและเชิงพาณิชย์ก่อนตอบ",
-        "อีกข่าวเน้นว่าฝ่ายออสเตรเลียไม่เคยได้รับแจ้งล่วงหน้าและชี้ให้เห็นเส้นตายที่ฟีฟากำหนด",
-        "อีกชิ้นเน้นกระแสต้านที่กว้างกว่า รวมถึงเสียงวิจารณ์จากบุคคลในออสเตรเลียและการเรียกร้องความโปร่งใส",
-        "ข่าวอื่น ๆ เน้นขนาดของข้อเสนอและภัยคุกคามการบอยคอตจากยุโรป"
-      ],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/sport/2026/jul/30/football-australia-position-fifa-world-cup-privatisation-plan"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/fifa-sale-continue-despite-opposition-/106984546"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/infantino-sets-deadline-for-world-cup-investor-plan"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/sport/football/world-cup/fifas-world-cup-selloff-plan-sparks-threat-of-european-nations-boycott/news-story/9982860bbad618e84c448a508a99984d"
-        }
-      ],
-      "language": "th"
-    },
-    {
       "id": "inflation-eases-chalmers-cautious",
       "headline": "ผู้กู้ยืมยังคงรู้สึกกดดันแม้ว่าอัตราเงินเฟ้อจะอ่อนตัวลงก็ตาม",
       "sourceCount": 6,
@@ -1165,25 +1230,6 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/artanddesign/2026/jul/30/archibald-prize-2026-portrait-of-jewish-leader-after-bondi-terror-attack-wins-peoples-choice-award"
-        }
-      ],
-      "language": "th"
-    },
-    {
-      "id": "hanson-isis-passport-bill",
-      "headline": "พอลลีน แฮนสันผลักดันร่างกฎหมายสกัดผู้เกี่ยวข้องกับ ISIS ด้วยการคุมหนังสือเดินทาง",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-30T01:10:00Z",
-      "voiceScript": "พอลลีน แฮนสันเสนอร่างกฎหมายที่จะให้อำนาจเจ้าหน้าที่ปฏิเสธ ระงับ หรือเพิกถอนหนังสือเดินทางของชาวออสเตรเลียที่ถูกตั้งข้อหาหรือถูกตัดสินว่ามีความผิดเกี่ยวกับคดีความมั่นคงและก่อการร้าย ข้อเสนอนี้ยังต้องการเพิ่มอำนาจเรื่องคำสั่งกันไม่ให้กลับเข้าเมืองและเงื่อนไขการประกันตัว ขณะที่โทนี เบิร์กมองว่าแผนนี้มีแนวโน้มจะชนขอบเขตตามรัฐธรรมนูญ เรื่องนี้สำคัญเพราะอยู่ตรงจุดตัดของความมั่นคงแห่งชาติ สิทธิความเป็นพลเมือง และการตรวจสอบของศาล คำถามต่อไปคือร่างกฎหมายจะผ่านการทดสอบทางกฎหมายได้หรือจะเหลือแค่สัญลักษณ์ทางการเมือง",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/federal-politics-live-blog-inflation-july-30/106974564"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/nation/politics/pauline-hanson-unveils-courtproof-plan-to-keep-isis-terrorists-and-supporters-out-of-australia/news-story/a34499386fee65d5f88db112afd8e643"
         }
       ],
       "language": "th"

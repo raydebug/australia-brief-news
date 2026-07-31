@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T13:03:48Z",
+  "updatedAt": "2026-07-31T14:08:23Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -107,6 +107,38 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "football-australia-fifa-plan",
+      "headline": "호주축구협회, FIFA의 월드컵 투자안 세부자료를 기다리다",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-31T10:51:51Z",
+      "voiceScript": "호주축구협회는 FIFA가 월드컵의 상업권 일부를 민간 투자자에게 넘기려는 계획에 대해 먼저 더 많은 자료를 요구했다. 이 제안은 축구의 운영 방식과 자금 구조를 바꿀 수 있어 호주 안팎에서 반발을 샀다. FIFA가 각 회원국에 짧은 시간 안에 판단을 요구하고 있다는 점도 중요하다. 마지막 기한 전까지 충분한 지지가 모일지가 관전 포인트다.",
+      "differences": [
+        "한쪽은 협회가 먼저 통치와 상업적 영향을 평가해야 한다는 점을 강조한다.",
+        "다른 쪽은 협회가 사전에 통보받지 못했다는 점과 FIFA가 정한 기한을 부각한다.",
+        "또 다른 보도는 국내 비판과 투명성 요구 등 더 넓은 반발을 강조한다.",
+        "다른 기사들은 매각안의 규모와 유럽 쪽 보이콧 위협을 더 크게 다룬다."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/sport/2026/jul/30/football-australia-position-fifa-world-cup-privatisation-plan"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/fifa-sale-continue-despite-opposition-/106984546"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/infantino-sets-deadline-for-world-cup-investor-plan"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/football/world-cup/fifas-world-cup-selloff-plan-sparks-threat-of-european-nations-boycott/news-story/9982860bbad618e84c448a508a99984d"
+        }
+      ],
+      "language": "ko"
+    },
     {
       "id": "garma-festival-opens-arnhem-land",
       "headline": "아넘랜드 Garma, 토지·연료 약속 속에 개막",
@@ -268,6 +300,25 @@
       "language": "ko"
     },
     {
+      "id": "bonds-returns-to-australian-ownership",
+      "headline": "Bonds, 7억 달러 거래로 호주 소유로 돌아오다",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-31T05:19:07Z",
+      "voiceScript": "브렛 블런디의 인수로 Bonds, Sheridan, Berlei, Bras N Things가 다시 호주 소유가 됐다. 이 거래가 중요한 이유는 이들 브랜드가 전국적으로 잘 알려진 대형 소비재 이름이고 매장도 많기 때문이다. 이제 새 주인이 이 소매 그룹을 어떻게 재편할지, 그리고 고용과 가격에 어떤 영향이 있을지가 관건이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/bonds-sheridan-and-berlei-return-to-australian-ownership-in-700m-brett-blundy-deal-c-22657837"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/retail/billionaire-blundy-swoops-on-bras-n-things-bonds-in-700m-deal-20260730-p60k39"
+        }
+      ],
+      "language": "ko"
+    },
+    {
       "id": "hsbc-retail-exit-australia",
       "headline": "에이치에스비씨가 호주 소매은행 시장에서 철수할 준비를 하고 있다",
       "sourceCount": 2,
@@ -424,6 +475,29 @@
       ]
     },
     {
+      "id": "australia-wildfire-support-france",
+      "headline": "호주, 기록적 산불 겪는 프랑스에 지원대 파견",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-31T00:22:08Z",
+      "voiceScript": "호주는 프랑스와 스페인 일부에서 이어지는 심각한 산불에 대응하도록 항공기와 전문 대응 인력을 보내고 있다. 이 소식이 중요한 이유는 호주의 산불 대응 경험이 이례적으로 심각한 유럽 화재 상황에 직접 쓰이고 있기 때문이다. 이제 관전 포인트는 더 더운 날씨가 돌아오기 전에 추가 지원이 불길을 얼마나 잡아내느냐이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australia-sends-firefighters-to-france-as-europe-enters-new-era-of-megafires-c-22654842"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/france-and-spain-wildfires/106964322"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/world/europe/firestorm-threatens-bordeaux-as-tour-de-france-slashed-20260726-p60ikg"
+        }
+      ],
+      "language": "ko"
+    },
+    {
       "id": "glenn-a-baker-dies",
       "headline": "호주 음악을 기록한 글렌 에이 베이커, 74세로 별세",
       "sourceCount": 2,
@@ -558,6 +632,29 @@
           "score": 12
         }
       ]
+    },
+    {
+      "id": "hanson-isis-passport-bill",
+      "headline": "폴린 핸슨, ISIS 관련 입국 차단 여권 법안 추진",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-30T18:59:47Z",
+      "voiceScript": "폴린 핸슨은 테러 범죄로 기소되거나 유죄 판결을 받은 호주 시민의 여권을 거부·정지·취소할 수 있게 하는 법안을 내놨다. 이 안에는 추방 명령과 보석 권한 강화도 포함돼 있으며, 토니 버크는 이 계획이 헌법적 한계에 부딪힐 가능성이 크다고 본다. 국가 안보, 시민권, 법원의 심사가 한꺼번에 걸려 있어 이 사안은 중요하다. 이제 관건은 이 법안이 법적 검토를 견딜 수 있는지, 아니면 정치적 상징에 그칠지다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/labor-warns-one-nation-terror-laws-would-not-survive-high-court/106979386"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/politics/pauline-hanson-unveils-courtproof-plan-to-keep-isis-terrorists-and-supporters-out-of-australia/news-story/a34499386fee65d5f88db112afd8e643"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/nationals-senator-bridget-mckenzie-backs-pauline-hansons-isis-plan/news-story/0964cf38431344021e33c4d7e781ff6e"
+        }
+      ],
+      "language": "ko"
     },
     {
       "id": "mostyn-warns-civic-gap-hurts-democracy",
@@ -981,38 +1078,6 @@
       "language": "ko"
     },
     {
-      "id": "football-australia-fifa-plan",
-      "headline": "호주축구협회, FIFA의 월드컵 투자안 세부자료를 기다리다",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-31T10:51:51Z",
-      "voiceScript": "호주축구협회는 FIFA가 월드컵의 상업권 일부를 민간 투자자에게 넘기려는 계획에 대해 먼저 더 많은 자료를 요구했다. 이 제안은 축구의 운영 방식과 자금 구조를 바꿀 수 있어 호주 안팎에서 반발을 샀다. FIFA가 각 회원국에 짧은 시간 안에 판단을 요구하고 있다는 점도 중요하다. 마지막 기한 전까지 충분한 지지가 모일지가 관전 포인트다.",
-      "differences": [
-        "한쪽은 협회가 먼저 통치와 상업적 영향을 평가해야 한다는 점을 강조한다.",
-        "다른 쪽은 협회가 사전에 통보받지 못했다는 점과 FIFA가 정한 기한을 부각한다.",
-        "또 다른 보도는 국내 비판과 투명성 요구 등 더 넓은 반발을 강조한다.",
-        "다른 기사들은 매각안의 규모와 유럽 쪽 보이콧 위협을 더 크게 다룬다."
-      ],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/sport/2026/jul/30/football-australia-position-fifa-world-cup-privatisation-plan"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/fifa-sale-continue-despite-opposition-/106984546"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/infantino-sets-deadline-for-world-cup-investor-plan"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/sport/football/world-cup/fifas-world-cup-selloff-plan-sparks-threat-of-european-nations-boycott/news-story/9982860bbad618e84c448a508a99984d"
-        }
-      ],
-      "language": "ko"
-    },
-    {
       "id": "inflation-eases-chalmers-cautious",
       "headline": "인플레이션 완화에도 불구하고 대출자들은 여전히 ​​압박감을 느끼고 있습니다.",
       "sourceCount": 6,
@@ -1165,25 +1230,6 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/artanddesign/2026/jul/30/archibald-prize-2026-portrait-of-jewish-leader-after-bondi-terror-attack-wins-peoples-choice-award"
-        }
-      ],
-      "language": "ko"
-    },
-    {
-      "id": "hanson-isis-passport-bill",
-      "headline": "폴린 핸슨, ISIS 관련 입국 차단 여권 법안 추진",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-30T01:10:00Z",
-      "voiceScript": "폴린 핸슨은 테러 범죄로 기소되거나 유죄 판결을 받은 호주 시민의 여권을 거부·정지·취소할 수 있게 하는 법안을 내놨다. 이 안에는 추방 명령과 보석 권한 강화도 포함돼 있으며, 토니 버크는 이 계획이 헌법적 한계에 부딪힐 가능성이 크다고 본다. 국가 안보, 시민권, 법원의 심사가 한꺼번에 걸려 있어 이 사안은 중요하다. 이제 관건은 이 법안이 법적 검토를 견딜 수 있는지, 아니면 정치적 상징에 그칠지다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/federal-politics-live-blog-inflation-july-30/106974564"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/nation/politics/pauline-hanson-unveils-courtproof-plan-to-keep-isis-terrorists-and-supporters-out-of-australia/news-story/a34499386fee65d5f88db112afd8e643"
         }
       ],
       "language": "ko"

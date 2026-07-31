@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T13:03:48Z",
+  "updatedAt": "2026-07-31T14:08:23Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -107,6 +107,38 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "football-australia-fifa-plan",
+      "headline": "フットボール・オーストラリアがFIFAのW杯投資案の詳細待ち",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-31T10:51:51Z",
+      "voiceScript": "フットボール・オーストラリアは、ワールドカップの商業権の一部を民間投資家に売却する計画について、回答する前に詳細説明を求めている。この提案は、サッカーの統治や資金の流れを変える可能性があるため、国内外で反発を招いている。FIFAが各加盟国に短い判断期間しか与えていない点も重要だ。期限までに十分な支持が集まるかが次の焦点になる。",
+      "differences": [
+        "一方は、統治面と商業面の影響を見極める必要がある点を前面に出している。",
+        "別の報道は、フットボール・オーストラリアが事前に知らされていなかったことと、FIFAが設定した期限を強調している。",
+        "もう一方は、国内の批判や透明性を求める声など、広がる反発を強調している。",
+        "別の報道は、売却案の規模と欧州側のボイコットの脅しに焦点を当てている。"
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/sport/2026/jul/30/football-australia-position-fifa-world-cup-privatisation-plan"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/fifa-sale-continue-despite-opposition-/106984546"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/infantino-sets-deadline-for-world-cup-investor-plan"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/football/world-cup/fifas-world-cup-selloff-plan-sparks-threat-of-european-nations-boycott/news-story/9982860bbad618e84c448a508a99984d"
+        }
+      ],
+      "language": "ja"
+    },
     {
       "id": "garma-festival-opens-arnhem-land",
       "headline": "アーネムランドのGarmaが土地と燃料の約束とともに開幕",
@@ -268,6 +300,25 @@
       "language": "ja"
     },
     {
+      "id": "bonds-returns-to-australian-ownership",
+      "headline": "Bondsが豪州資本に戻り、7億ドル規模の小売取引が成立",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-31T05:19:07Z",
+      "voiceScript": "Brett Blundyの買収で、Bonds、Sheridan、Berlei、Bras N Thingsが再びオーストラリア資本の下に入ります。これが重要なのは、これらが国内で広く知られた大手ブランドで、全国に多くの店舗を持つからです。次は、新しいオーナーがこの小売グループをどう再編し、雇用や価格にどんな影響が出るかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/bonds-sheridan-and-berlei-return-to-australian-ownership-in-700m-brett-blundy-deal-c-22657837"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/retail/billionaire-blundy-swoops-on-bras-n-things-bonds-in-700m-deal-20260730-p60k39"
+        }
+      ],
+      "language": "ja"
+    },
+    {
       "id": "hsbc-retail-exit-australia",
       "headline": "HSBCがオーストラリアの個人向け銀行市場から撤退へ",
       "sourceCount": 2,
@@ -424,6 +475,29 @@
       ]
     },
     {
+      "id": "australia-wildfire-support-france",
+      "headline": "オーストラリアが記録的山火事に苦しむフランスへ支援部隊を派遣",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-31T00:22:08Z",
+      "voiceScript": "オーストラリアは、フランスとスペインの一部で続く深刻な山火事に対応するため、航空機と専門部隊を送っています。これは重要で、オーストラリアの火災対応の経験が、異例の厳しさとなっている欧州の火災対応に直接生かされているからです。次の焦点は、さらに暑い条件が戻る前に、この支援で延焼をどこまで抑えられるかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australia-sends-firefighters-to-france-as-europe-enters-new-era-of-megafires-c-22654842"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/france-and-spain-wildfires/106964322"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/world/europe/firestorm-threatens-bordeaux-as-tour-de-france-slashed-20260726-p60ikg"
+        }
+      ],
+      "language": "ja"
+    },
+    {
       "id": "glenn-a-baker-dies",
       "headline": "オーストラリア音楽界を記録したグレン・A・ベイカー氏が74歳で死去",
       "sourceCount": 2,
@@ -558,6 +632,29 @@
           "score": 12
         }
       ]
+    },
+    {
+      "id": "hanson-isis-passport-bill",
+      "headline": "ポーリン・ハンソン氏がISIS対策のパスポート規制法案を推進",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-30T18:59:47Z",
+      "voiceScript": "ポーリン・ハンソン氏は、テロ関連の罪で起訴または有罪となったオーストラリア人について、当局がパスポートの拒否、停止、取り消しを行えるようにする法案を提示しました。提案には排除命令や保釈の権限強化も含まれており、トニー・バーク氏は憲法上の限界にぶつかる可能性が高いと述べています。国家安全保障、市民権の権利、司法審査が交わる場所にあるため、この話は重要です。今後は、法的審査に耐えられるかどうかが焦点になります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/labor-warns-one-nation-terror-laws-would-not-survive-high-court/106979386"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/politics/pauline-hanson-unveils-courtproof-plan-to-keep-isis-terrorists-and-supporters-out-of-australia/news-story/a34499386fee65d5f88db112afd8e643"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/nationals-senator-bridget-mckenzie-backs-pauline-hansons-isis-plan/news-story/0964cf38431344021e33c4d7e781ff6e"
+        }
+      ],
+      "language": "ja"
     },
     {
       "id": "mostyn-warns-civic-gap-hurts-democracy",
@@ -981,38 +1078,6 @@
       "language": "ja"
     },
     {
-      "id": "football-australia-fifa-plan",
-      "headline": "フットボール・オーストラリアがFIFAのW杯投資案の詳細待ち",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-31T10:51:51Z",
-      "voiceScript": "フットボール・オーストラリアは、ワールドカップの商業権の一部を民間投資家に売却する計画について、回答する前に詳細説明を求めている。この提案は、サッカーの統治や資金の流れを変える可能性があるため、国内外で反発を招いている。FIFAが各加盟国に短い判断期間しか与えていない点も重要だ。期限までに十分な支持が集まるかが次の焦点になる。",
-      "differences": [
-        "一方は、統治面と商業面の影響を見極める必要がある点を前面に出している。",
-        "別の報道は、フットボール・オーストラリアが事前に知らされていなかったことと、FIFAが設定した期限を強調している。",
-        "もう一方は、国内の批判や透明性を求める声など、広がる反発を強調している。",
-        "別の報道は、売却案の規模と欧州側のボイコットの脅しに焦点を当てている。"
-      ],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/sport/2026/jul/30/football-australia-position-fifa-world-cup-privatisation-plan"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/fifa-sale-continue-despite-opposition-/106984546"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/infantino-sets-deadline-for-world-cup-investor-plan"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/sport/football/world-cup/fifas-world-cup-selloff-plan-sparks-threat-of-european-nations-boycott/news-story/9982860bbad618e84c448a508a99984d"
-        }
-      ],
-      "language": "ja"
-    },
-    {
       "id": "inflation-eases-chalmers-cautious",
       "headline": "インフレが鈍化したにもかかわらず、借り手は依然として圧迫を感じている",
       "sourceCount": 6,
@@ -1165,25 +1230,6 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/artanddesign/2026/jul/30/archibald-prize-2026-portrait-of-jewish-leader-after-bondi-terror-attack-wins-peoples-choice-award"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "hanson-isis-passport-bill",
-      "headline": "ポーリン・ハンソン氏がISIS対策のパスポート規制法案を推進",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-30T01:10:00Z",
-      "voiceScript": "ポーリン・ハンソン氏は、テロ関連の罪で起訴または有罪となったオーストラリア人について、当局がパスポートの拒否、停止、取り消しを行えるようにする法案を提示しました。提案には排除命令や保釈の権限強化も含まれており、トニー・バーク氏は憲法上の限界にぶつかる可能性が高いと述べています。国家安全保障、市民権の権利、司法審査が交わる場所にあるため、この話は重要です。今後は、法的審査に耐えられるかどうかが焦点になります。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/federal-politics-live-blog-inflation-july-30/106974564"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/nation/politics/pauline-hanson-unveils-courtproof-plan-to-keep-isis-terrorists-and-supporters-out-of-australia/news-story/a34499386fee65d5f88db112afd8e643"
         }
       ],
       "language": "ja"

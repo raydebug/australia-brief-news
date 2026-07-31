@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T13:03:48Z",
+  "updatedAt": "2026-07-31T14:08:23Z",
   "generatedBy": "codex",
   "language": "si",
   "sources": [
@@ -107,6 +107,38 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "football-australia-fifa-plan",
+      "headline": "පාපන්දු ඔස්ට්‍රේලියාව FIFAගේ ලෝක කුසලාන ආයෝජන සැලැස්ම ගැන තොරතුරු ඉල්ලයි",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-31T10:51:51Z",
+      "voiceScript": "පාපන්දු ඔස්ට්‍රේලියාව ලෝක කුසලානයේ වාණිජ අයිතිවාසිකම් කොටසක් පෞද්ගලික ආයෝජකයන්ට විකුණන සැලැස්ම ගැන ප්‍රතිචාර දීමට පෙර වැඩි විස්තර ඉල්ලා ඇත. මෙම යෝජනාව පාපන්දු ක්‍රීඩාවේ පාලනය සහ මුදල් සකස් කිරීම වෙනස් කළ හැකි නිසා ඕස්ට්‍රේලියාවේත් විදේශයේත් විරෝධය ඇවිළී තිබේ. ජාත්‍යන්තර සම්මේලනය සාමාජිකයන්ට දෙන කාලය කෙටි බැවින් එය ද වැදගත්ය. නියමිත දිනට පෙර ප්‍රමාණවත් සහය ලැබේදැයි දැන් බලන්න වෙයි.",
+      "differences": [
+        "එක් වාර්තාවක් පාලන හා වාණිජ බලපෑම් ඇගයීමට මුලින් අවශ්‍ය බව අවධාරණය කරයි.",
+        "තවත් වාර්තාවක් සංගමයට පෙර දැනුම් නොදුන් බවත් FIFA නියම කළ අවසන් කාලයත් ඉස්මතු කරයි.",
+        "තවත් එකක් දේශීය විරෝධය, විනිවිදභාවය ඉල්ලීම් සහ පුළුල් පසුබැසීම අවධාරණය කරයි.",
+        "අනෙක් වාර්තා විකිණීමේ විශාලත්වය සහ යුරෝපීය වර්ජන තර්ජනය ඉස්මතු කරයි."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/sport/2026/jul/30/football-australia-position-fifa-world-cup-privatisation-plan"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/fifa-sale-continue-despite-opposition-/106984546"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/infantino-sets-deadline-for-world-cup-investor-plan"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/football/world-cup/fifas-world-cup-selloff-plan-sparks-threat-of-european-nations-boycott/news-story/9982860bbad618e84c448a508a99984d"
+        }
+      ],
+      "language": "si"
+    },
     {
       "id": "garma-festival-opens-arnhem-land",
       "headline": "Garma ආර්න්හෙම් ලෑන්ඩ්හි ඉඩම් හා ඉන්ධන පොරොන්දුවකින් ඇරඹේ",
@@ -268,6 +300,25 @@
       "language": "si"
     },
     {
+      "id": "bonds-returns-to-australian-ownership",
+      "headline": "Bonds ඕස්ට්‍රේලියානු අයිතියට නැවත පැමිණේ, ඩොලර් මිලියන 700 ක ගනුදෙනුවක්",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-31T05:19:07Z",
+      "voiceScript": "Brett Blundy කළ මිලදී ගැනීමෙන් Bonds, Sheridan, Berlei සහ Bras N Things නැවත ඕස්ට්‍රේලියානු අයිතියට පත් වේ. මෙම ගනුදෙනුව වැදගත් වන්නේ මෙම වෙළඳ නාම ගෘහස්ථව හොඳින් හඳුන්වා ඇති අතර රට පුරා ශාඛා බොහොමයක් ඇති බැවිනි. දැන් නරඹන්න ඕනේ, නව හිමිකරු කණ්ඩායම නැවත හැඩගස්වන්නේ කෙසේද සහ එය රැකියා හා මිල ගණන්වලට කෙසේ බලපානවාද කියලා.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/bonds-sheridan-and-berlei-return-to-australian-ownership-in-700m-brett-blundy-deal-c-22657837"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/retail/billionaire-blundy-swoops-on-bras-n-things-bonds-in-700m-deal-20260730-p60k39"
+        }
+      ],
+      "language": "si"
+    },
+    {
       "id": "hsbc-retail-exit-australia",
       "headline": "එච්එස්බීසී ඔස්ට්‍රේලියාවේ සිල්ලර බැංකු වෙළඳපොළෙන් ඉවත්වීමට සූදානම් වේ",
       "sourceCount": 2,
@@ -424,6 +475,29 @@
       ]
     },
     {
+      "id": "australia-wildfire-support-france",
+      "headline": "ඔස්ට්‍රේලියාව ප්‍රංශයේ වාර්තාගත ගිනිගැනීම්ට උදව් කිරීමට කණ්ඩායම් යවයි",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-31T00:22:08Z",
+      "voiceScript": "ඔස්ට්‍රේලියාව ගුවන් යානා සහ විශේෂඥ කණ්ඩායම් ප්‍රංශයට යවමින් පවතින්නේ, ප්‍රංශයේ සහ ස්පාඤ්ඤයේ කොටස්වල දැඩි ගිනිගැනීම් තවදුරටත් පැතිරෙන නිසාය. මෙය වැදගත් වන්නේ ඔස්ට්‍රේලියාවේ ගින්නන් අවම කිරීමේ අත්දැකීම් දැන් ඉතා දරුණු යුරෝපීය ගිනි අවදානමකදී භාවිතයට ගන්නා බැවිනි. ඊළඟට බලන්න ඕනේ, උෂ්ණත්වය තවත් ඉහළ යාමට පෙර මෙම අතිරේක සහාය ගිනි පාලනයට උපකාරී වෙයිද කියලා.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australia-sends-firefighters-to-france-as-europe-enters-new-era-of-megafires-c-22654842"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/france-and-spain-wildfires/106964322"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/world/europe/firestorm-threatens-bordeaux-as-tour-de-france-slashed-20260726-p60ikg"
+        }
+      ],
+      "language": "si"
+    },
+    {
       "id": "glenn-a-baker-dies",
       "headline": "ඕස්ට්‍රේලියානු සංගීතය ලියා තැබූ ග්ලෙන් ඒ බේකර් 74 දී මියයයි",
       "sourceCount": 2,
@@ -558,6 +632,29 @@
           "score": 12
         }
       ]
+    },
+    {
+      "id": "hanson-isis-passport-bill",
+      "headline": "පෝලින් හැන්සන් ISIS සම්බන්ධ පුද්ගලයන්ගේ ආපසු පැමිණීම වළක්වන ගමන් බලපත්‍ර බිල්පතක් ඉදිරිපත් කරයි",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-30T18:59:47Z",
+      "voiceScript": "පෝලින් හැන්සන් යෝජනා කරන්නේ ත්‍රස්තවාදී අපරාධවලට චෝදනා ලැබූ හෝ වරදකරුවන් වූ ඔස්ට්‍රේලියානු ජාතිකයන්ට ගමන් බලපත්‍රය ප්‍රතික්ෂේප කිරීමට, අත්හිටුවීමට හෝ ඉවත් කිරීමට බලධාරීන්ට හැකි වන පනතකි. එම යෝජනාවෙන් පිටුවහල් නියෝග සහ ඇප බලතල ද දැඩි කිරීමට ඉඩ සලසයි, නමුත් ටෝනි බර්ක් පවසන්නේ එය ව්‍යවස්ථාමය සීමා අසලටම යන බවයි. ජාතික ආරක්ෂාව, පුරවැසි අයිතිවාසිකම් සහ අධිකරණ පරීක්ෂාව එකම තලයකට ගෙන එන නිසා මෙම කතාව වැදගත් වේ. ඊළඟ ප්‍රශ්නය වන්නේ පනත නීතිමය පරීක්ෂාව පහු කරයිද, නැතහොත් දේශපාලන සංකේතයක් පමණක්ද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/labor-warns-one-nation-terror-laws-would-not-survive-high-court/106979386"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/politics/pauline-hanson-unveils-courtproof-plan-to-keep-isis-terrorists-and-supporters-out-of-australia/news-story/a34499386fee65d5f88db112afd8e643"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/nationals-senator-bridget-mckenzie-backs-pauline-hansons-isis-plan/news-story/0964cf38431344021e33c4d7e781ff6e"
+        }
+      ],
+      "language": "si"
     },
     {
       "id": "mostyn-warns-civic-gap-hurts-democracy",
@@ -981,38 +1078,6 @@
       "language": "si"
     },
     {
-      "id": "football-australia-fifa-plan",
-      "headline": "පාපන්දු ඔස්ට්‍රේලියාව FIFAගේ ලෝක කුසලාන ආයෝජන සැලැස්ම ගැන තොරතුරු ඉල්ලයි",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-31T10:51:51Z",
-      "voiceScript": "පාපන්දු ඔස්ට්‍රේලියාව ලෝක කුසලානයේ වාණිජ අයිතිවාසිකම් කොටසක් පෞද්ගලික ආයෝජකයන්ට විකුණන සැලැස්ම ගැන ප්‍රතිචාර දීමට පෙර වැඩි විස්තර ඉල්ලා ඇත. මෙම යෝජනාව පාපන්දු ක්‍රීඩාවේ පාලනය සහ මුදල් සකස් කිරීම වෙනස් කළ හැකි නිසා ඕස්ට්‍රේලියාවේත් විදේශයේත් විරෝධය ඇවිළී තිබේ. ජාත්‍යන්තර සම්මේලනය සාමාජිකයන්ට දෙන කාලය කෙටි බැවින් එය ද වැදගත්ය. නියමිත දිනට පෙර ප්‍රමාණවත් සහය ලැබේදැයි දැන් බලන්න වෙයි.",
-      "differences": [
-        "එක් වාර්තාවක් පාලන හා වාණිජ බලපෑම් ඇගයීමට මුලින් අවශ්‍ය බව අවධාරණය කරයි.",
-        "තවත් වාර්තාවක් සංගමයට පෙර දැනුම් නොදුන් බවත් FIFA නියම කළ අවසන් කාලයත් ඉස්මතු කරයි.",
-        "තවත් එකක් දේශීය විරෝධය, විනිවිදභාවය ඉල්ලීම් සහ පුළුල් පසුබැසීම අවධාරණය කරයි.",
-        "අනෙක් වාර්තා විකිණීමේ විශාලත්වය සහ යුරෝපීය වර්ජන තර්ජනය ඉස්මතු කරයි."
-      ],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/sport/2026/jul/30/football-australia-position-fifa-world-cup-privatisation-plan"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/fifa-sale-continue-despite-opposition-/106984546"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/infantino-sets-deadline-for-world-cup-investor-plan"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/sport/football/world-cup/fifas-world-cup-selloff-plan-sparks-threat-of-european-nations-boycott/news-story/9982860bbad618e84c448a508a99984d"
-        }
-      ],
-      "language": "si"
-    },
-    {
       "id": "inflation-eases-chalmers-cautious",
       "headline": "මෘදු උද්ධමනය තිබියදීත් ණය ගැතියන් තවමත් මිරිකීම දැනේ",
       "sourceCount": 6,
@@ -1165,25 +1230,6 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/artanddesign/2026/jul/30/archibald-prize-2026-portrait-of-jewish-leader-after-bondi-terror-attack-wins-peoples-choice-award"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "hanson-isis-passport-bill",
-      "headline": "පෝලින් හැන්සන් ISIS සම්බන්ධ පුද්ගලයන්ගේ ආපසු පැමිණීම වළක්වන ගමන් බලපත්‍ර බිල්පතක් ඉදිරිපත් කරයි",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-30T01:10:00Z",
-      "voiceScript": "පෝලින් හැන්සන් යෝජනා කරන්නේ ත්‍රස්තවාදී අපරාධවලට චෝදනා ලැබූ හෝ වරදකරුවන් වූ ඔස්ට්‍රේලියානු ජාතිකයන්ට ගමන් බලපත්‍රය ප්‍රතික්ෂේප කිරීමට, අත්හිටුවීමට හෝ ඉවත් කිරීමට බලධාරීන්ට හැකි වන පනතකි. එම යෝජනාවෙන් පිටුවහල් නියෝග සහ ඇප බලතල ද දැඩි කිරීමට ඉඩ සලසයි, නමුත් ටෝනි බර්ක් පවසන්නේ එය ව්‍යවස්ථාමය සීමා අසලටම යන බවයි. ජාතික ආරක්ෂාව, පුරවැසි අයිතිවාසිකම් සහ අධිකරණ පරීක්ෂාව එකම තලයකට ගෙන එන නිසා මෙම කතාව වැදගත් වේ. ඊළඟ ප්‍රශ්නය වන්නේ පනත නීතිමය පරීක්ෂාව පහු කරයිද, නැතහොත් දේශපාලන සංකේතයක් පමණක්ද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/federal-politics-live-blog-inflation-july-30/106974564"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/nation/politics/pauline-hanson-unveils-courtproof-plan-to-keep-isis-terrorists-and-supporters-out-of-australia/news-story/a34499386fee65d5f88db112afd8e643"
         }
       ],
       "language": "si"

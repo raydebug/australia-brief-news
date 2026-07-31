@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T13:03:48Z",
+  "updatedAt": "2026-07-31T14:08:23Z",
   "generatedBy": "codex",
   "language": "zh-Hant",
   "sources": [
@@ -107,6 +107,38 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "football-australia-fifa-plan",
+      "headline": "澳洲足球協會等待國際足總世界盃投資計劃細節",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-31T10:51:51Z",
+      "voiceScript": "澳洲足球協會在表態前，先要求國際足總提供更多關於出售世界盃商業權益給私人投資者的細節。這個提案在澳洲和海外都引發反對，因為它可能改變足球的治理方式和資金結構。此事重要，因為國際足總給各會員的判斷時間很短，而這是一次重大的商業重組。下一步要看在最後期限前是否有足夠多的會員支持該計劃。",
+      "differences": [
+        "一篇報道聚焦澳洲足協需要先評估治理和商業影響。",
+        "另一篇更強調澳洲足協事前並不知情，以及國際足總設下的期限。",
+        "還有一篇突出更廣泛的反彈，尤其是澳洲人物的批評和透明度訴求。",
+        "另一些報道則更強調擬議出售的規模，以及歐洲方面的抵制威脅。"
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/sport/2026/jul/30/football-australia-position-fifa-world-cup-privatisation-plan"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/fifa-sale-continue-despite-opposition-/106984546"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/infantino-sets-deadline-for-world-cup-investor-plan"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/football/world-cup/fifas-world-cup-selloff-plan-sparks-threat-of-european-nations-boycott/news-story/9982860bbad618e84c448a508a99984d"
+        }
+      ],
+      "language": "zh-Hant"
+    },
     {
       "id": "garma-festival-opens-arnhem-land",
       "headline": "Garma 在阿納姆地開幕，伴隨土地和燃料承諾",
@@ -268,6 +300,25 @@
       "language": "zh-Hant"
     },
     {
+      "id": "bonds-returns-to-australian-ownership",
+      "headline": "Bonds 重回澳洲所有權，7000 萬澳元交易落地",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-31T05:19:07Z",
+      "voiceScript": "Brett Blundy 的收購讓 Bonds、Sheridan、Berlei 和 Bras N Things 再次回到澳洲所有權之下，這筆交易金額達 7 億澳元。這則消息重要，因為這些品牌是家喻戶曉的零售名字，在全國擁有大量門市。接下來要看新東家如何重組這組零售資產，以及這會怎樣影響就業和價格。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/bonds-sheridan-and-berlei-return-to-australian-ownership-in-700m-brett-blundy-deal-c-22657837"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/retail/billionaire-blundy-swoops-on-bras-n-things-bonds-in-700m-deal-20260730-p60k39"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
       "id": "hsbc-retail-exit-australia",
       "headline": "匯豐準備退出澳洲零售銀行市場",
       "sourceCount": 2,
@@ -424,6 +475,29 @@
       ]
     },
     {
+      "id": "australia-wildfire-support-france",
+      "headline": "澳洲派出人員支援法國，應對創紀錄山火",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-31T00:22:08Z",
+      "voiceScript": "澳洲正派出飛機和專業救援人員，協助法國應對持續蔓延的極端山火。這則消息重要，因為它顯示澳洲南半球的防火經驗正在歐洲異常嚴峻的火情中被直接運用。接下來要看，新增支援能否在更熱天氣回歸前幫助控制火勢。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australia-sends-firefighters-to-france-as-europe-enters-new-era-of-megafires-c-22654842"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-28/france-and-spain-wildfires/106964322"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/world/europe/firestorm-threatens-bordeaux-as-tour-de-france-slashed-20260726-p60ikg"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
       "id": "glenn-a-baker-dies",
       "headline": "澳洲音樂界重要聲音格倫·A·貝克去世，享年74歲",
       "sourceCount": 2,
@@ -558,6 +632,29 @@
           "score": 12
         }
       ]
+    },
+    {
+      "id": "hanson-isis-passport-bill",
+      "headline": "波林·漢森推動可阻止 ISIS 相關人士回國的護照法案",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-30T18:59:47Z",
+      "voiceScript": "波林·漢森提出一項法案，想讓當局在澳洲人被控或被定罪涉及恐怖主義罪行時，可以拒絕、暫停或取消其護照。這個方案還想強化排除令與保釋限制，Tony Burke 認為這會立即碰上憲法界線。這個議題重要，是因為它把國家安全、公民權利和法院審查放在同一條線上。接下來要看法案能否通過法律檢驗，還是只停留在政治姿態。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/labor-warns-one-nation-terror-laws-would-not-survive-high-court/106979386"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/politics/pauline-hanson-unveils-courtproof-plan-to-keep-isis-terrorists-and-supporters-out-of-australia/news-story/a34499386fee65d5f88db112afd8e643"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/nationals-senator-bridget-mckenzie-backs-pauline-hansons-isis-plan/news-story/0964cf38431344021e33c4d7e781ff6e"
+        }
+      ],
+      "language": "zh-Hant"
     },
     {
       "id": "mostyn-warns-civic-gap-hurts-democracy",
@@ -981,38 +1078,6 @@
       "language": "zh-Hant"
     },
     {
-      "id": "football-australia-fifa-plan",
-      "headline": "澳洲足球協會等待國際足總世界盃投資計劃細節",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-31T10:51:51Z",
-      "voiceScript": "澳洲足球協會在表態前，先要求國際足總提供更多關於出售世界盃商業權益給私人投資者的細節。這個提案在澳洲和海外都引發反對，因為它可能改變足球的治理方式和資金結構。此事重要，因為國際足總給各會員的判斷時間很短，而這是一次重大的商業重組。下一步要看在最後期限前是否有足夠多的會員支持該計劃。",
-      "differences": [
-        "一篇報道聚焦澳洲足協需要先評估治理和商業影響。",
-        "另一篇更強調澳洲足協事前並不知情，以及國際足總設下的期限。",
-        "還有一篇突出更廣泛的反彈，尤其是澳洲人物的批評和透明度訴求。",
-        "另一些報道則更強調擬議出售的規模，以及歐洲方面的抵制威脅。"
-      ],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/sport/2026/jul/30/football-australia-position-fifa-world-cup-privatisation-plan"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/fifa-sale-continue-despite-opposition-/106984546"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/infantino-sets-deadline-for-world-cup-investor-plan"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/sport/football/world-cup/fifas-world-cup-selloff-plan-sparks-threat-of-european-nations-boycott/news-story/9982860bbad618e84c448a508a99984d"
-        }
-      ],
-      "language": "zh-Hant"
-    },
-    {
       "id": "inflation-eases-chalmers-cautious",
       "headline": "儘管通膨疲軟，借款人仍感受到壓力",
       "sourceCount": 6,
@@ -1165,25 +1230,6 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/artanddesign/2026/jul/30/archibald-prize-2026-portrait-of-jewish-leader-after-bondi-terror-attack-wins-peoples-choice-award"
-        }
-      ],
-      "language": "zh-Hant"
-    },
-    {
-      "id": "hanson-isis-passport-bill",
-      "headline": "波林·漢森推動可阻止 ISIS 相關人士回國的護照法案",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-30T01:10:00Z",
-      "voiceScript": "波林·漢森提出一項法案，想讓當局在澳洲人被控或被定罪涉及恐怖主義罪行時，可以拒絕、暫停或取消其護照。這個方案還想強化排除令與保釋限制，Tony Burke 認為這會立即碰上憲法界線。這個議題重要，是因為它把國家安全、公民權利和法院審查放在同一條線上。接下來要看法案能否通過法律檢驗，還是只停留在政治姿態。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/federal-politics-live-blog-inflation-july-30/106974564"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/nation/politics/pauline-hanson-unveils-courtproof-plan-to-keep-isis-terrorists-and-supporters-out-of-australia/news-story/a34499386fee65d5f88db112afd8e643"
         }
       ],
       "language": "zh-Hant"
