@@ -1004,6 +1004,51 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Jenny McAllister",
+    aliases: ["Jenny McAllister", "Jennifer McAllister", "Jennifer Ryll McAllister", "珍妮·麦卡利斯特", "珍妮·麥卡利斯特", "ジェニー・マカリスター", "제니 매캘리스터"],
+    type: "politician",
+    social: { label: "Official profile", url: "https://www.health.gov.au/ministers/senator-the-hon-jenny-mcallister?language=en" },
+    background: {
+      "zh-Hans": "澳洲工党参议员，2015 年起代表新州，现任国家残障保险计划部长。她曾任紧急事务和城市部长、气候变化与能源助理部长，也曾担任工党全国主席。",
+      "zh-Hant": "澳洲工黨參議員，2015 年起代表新州，現任國家殘障保險計畫部長。她曾任緊急事務和城市部長、氣候變遷與能源助理部長，也曾擔任工黨全國主席。",
+      en: "Australian Labor senator for New South Wales since 2015 and Minister for the National Disability Insurance Scheme. She previously held emergency management, cities, climate and energy roles and was national president of the Labor Party.",
+      es: "Senadora laborista por Nueva Gales del Sur desde 2015 y ministra del National Disability Insurance Scheme. Antes ocupó carteras de emergencias, ciudades, clima y energía, y fue presidenta nacional de Labor.",
+      ja: "2015年からニューサウスウェールズ州選出の労働党上院議員で、国家障害保険制度担当相。以前は緊急管理、都市、気候・エネルギー関連の職務を担い、労働党全国議長も務めました。",
+      ko: "2015년부터 뉴사우스웨일스주를 대표하는 노동당 상원의원이며 National Disability Insurance Scheme 장관입니다. 이전에는 재난관리, 도시, 기후·에너지 관련 직책을 맡았고 노동당 전국 의장을 지냈습니다.",
+      vi: "Thượng nghị sĩ Labor của New South Wales từ năm 2015 và là Bộ trưởng National Disability Insurance Scheme. Bà từng phụ trách emergency management, cities, climate and energy và là chủ tịch toàn quốc của Labor.",
+      th: "วุฒิสมาชิก Labor ของ New South Wales ตั้งแต่ปี 2015 และเป็นรัฐมนตรี National Disability Insurance Scheme เคยรับผิดชอบ emergency management, cities, climate and energy และเคยเป็นประธานระดับชาติของ Labor",
+      si: "2015 සිට New South Wales නියෝජනය කරන Australian Labor senator සහ National Disability Insurance Scheme minister. ඇය emergency management, cities, climate and energy roles දැරූ අතර Labor Party national president ලෙසද කටයුතු කළාය."
+    },
+    positions: {
+      "zh-Hans": "在 NDIS 议题上强调资金应流向高质量、合规的残障支持服务，支持加强注册、价格设置和反欺诈监管，同时把改革描述为保护参与者和计划可持续性。",
+      "zh-Hant": "在 NDIS 議題上強調資金應流向高品質、合規的殘障支持服務，支持加強註冊、價格設定和反詐欺監管，同時把改革描述為保護參與者和計畫可持續性。",
+      en: "On the NDIS she argues scheme funding should go to quality, compliant disability supports, backs stronger registration, pricing and anti-fraud oversight, and frames reform as protecting participants and scheme sustainability.",
+      es: "Sobre el NDIS sostiene que los fondos deben ir a apoyos de discapacidad de calidad y conformes a las reglas, respalda más registro, precios y control antifraude, y presenta la reforma como protección de participantes y sostenibilidad.",
+      ja: "NDIS では、資金は質が高く規則に沿った障害支援に使われるべきだとし、登録、価格設定、不正対策の強化を支持し、改革を参加者保護と制度の持続性として位置付けています。",
+      ko: "NDIS에 대해서는 재원이 양질의 규정 준수 장애 지원에 쓰여야 한다고 주장하며 등록, 가격 책정, 사기 방지 감독 강화를 지지하고 개혁을 참여자 보호와 제도 지속가능성으로 설명합니다.",
+      vi: "Về NDIS, bà nói tiền của chương trình phải vào các hỗ trợ khuyết tật chất lượng và đúng quy định, ủng hộ siết đăng ký, giá và chống gian lận, coi cải cách là bảo vệ người tham gia và tính bền vững.",
+      th: "ในเรื่อง NDIS เธอเน้นว่าเงินควรไปสู่บริการสนับสนุนคนพิการที่มีคุณภาพและถูกกฎ สนับสนุนการเข้มงวดเรื่อง registration, pricing และ anti-fraud oversight และอธิบายการปฏิรูปว่าเพื่อปกป้อง participants และความยั่งยืนของโครงการ",
+      si: "NDIS සම්බන්ධයෙන් funding quality, compliant disability supports වෙත යා යුතු බව කියා stronger registration, pricing සහ anti-fraud oversight සහාය දක්වයි; reform එක participants සහ scheme sustainability ආරක්ෂා කිරීම ලෙස ඉදිරිපත් කරයි."
+    }
+  },
+  {
+    name: "Rachael McCririck",
+    aliases: ["Rachael McCririck", "雷切尔·麦克里里克", "雷切爾·麥克里里克", "レイチェル・マクリリック", "레이철 맥크리릭"],
+    type: "public-figure",
+    social: { label: "Official profile", url: "https://www.abs.gov.au/about/our-organisation/organisation-chart/insights-and-statistics-group" },
+    background: {
+      "zh-Hans": "澳大利亚统计局价格分部项目经理，常以 ABS 价格统计负责人身份解释 CPI、通胀构成和价格变动数据。她此前也参与过澳储行经济研究。",
+      "zh-Hant": "澳洲統計局價格分部專案經理，常以 ABS 價格統計負責人身分解釋 CPI、通膨構成和價格變動資料。她此前也參與過澳儲行經濟研究。",
+      en: "Program manager for the Prices Branch at the Australian Bureau of Statistics, commonly quoted as the ABS head of price statistics on CPI, inflation composition and price movements. She has also co-authored Reserve Bank economic research.",
+      es: "Responsable de programa de la Prices Branch en la Australian Bureau of Statistics, citada habitualmente como jefa de estadísticas de precios del ABS sobre CPI, composición de inflación y cambios de precios. También ha coescrito investigación económica del Reserve Bank.",
+      ja: "オーストラリア統計局 Prices Branch のプログラムマネージャーで、CPI、インフレ構成、価格変動について ABS の価格統計責任者としてよく引用されます。Reserve Bank の経済研究にも共著があります。",
+      ko: "호주통계청 Prices Branch 프로그램 매니저로, CPI와 인플레이션 구성, 가격 변동에 대해 ABS 가격통계 책임자로 자주 인용됩니다. Reserve Bank 경제 연구 공동 저자이기도 합니다.",
+      vi: "Program manager của Prices Branch tại Australian Bureau of Statistics, thường được trích dẫn là người đứng đầu price statistics của ABS về CPI, cấu phần lạm phát và biến động giá. Bà cũng từng đồng tác giả nghiên cứu kinh tế của Reserve Bank.",
+      th: "Program manager ของ Prices Branch ที่ Australian Bureau of Statistics มักถูกอ้างในฐานะหัวหน้าสถิติราคา ABS เรื่อง CPI องค์ประกอบเงินเฟ้อ และการเปลี่ยนแปลงราคา และเคยร่วมเขียนงานวิจัยเศรษฐกิจของ Reserve Bank",
+      si: "Australian Bureau of Statistics හි Prices Branch program manager; CPI, inflation composition සහ price movements පිළිබඳ ABS head of price statistics ලෙස නිතර උපුටා දැක්වේ. Reserve Bank economic research ලිපිද सह-ලියා ඇත."
+    }
+  },
+  {
     name: "Tara Moriarty",
     aliases: ["Tara Moriarty", "Tara Elizabeth Moriarty", "Agriculture Minister Tara Moriarty", "塔拉·莫里亚蒂", "塔拉·莫里亞蒂", "タラ・モリアーティ", "타라 모리아티"],
     type: "politician",
