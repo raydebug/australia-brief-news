@@ -1229,6 +1229,23 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Alan Jones",
+    aliases: ["Alan Jones", "Alan Belford Jones", "艾伦·琼斯", "艾倫·瓊斯", "アラン・ジョーンズ", "앨런 존스"],
+    type: "public-figure",
+    social: { label: "Wikipedia profile", url: "https://en.wikipedia.org/wiki/Alan_Jones_(talkback_host)" },
+    background: {
+      "zh-Hans": "澳洲前电台和电视评论员、前 Wallabies 教练，长期主持悉尼 2GB 早餐节目，是澳洲最有影响力也最具争议的媒体人物之一。",
+      "zh-Hant": "澳洲前電台和電視評論員、前 Wallabies 教練，長期主持雪梨 2GB 早餐節目，是澳洲最有影響力也最具爭議的媒體人物之一。",
+      en: "Australian former radio and television commentator and former Wallabies coach, long associated with Sydney's 2GB breakfast program and one of the country's most influential and controversial media figures.",
+      es: "Excomentarista australiano de radio y televisión y exentrenador de los Wallabies, vinculado durante años al programa matinal de 2GB en Sídney y una de las figuras mediáticas más influyentes y polémicas del país.",
+      ja: "豪州の元ラジオ・テレビ評論家で元 Wallabies 監督。シドニー 2GB の朝番組で長く知られ、国内で最も影響力があり論争的なメディア人物の一人です。",
+      ko: "호주의 전 라디오·TV 논평가이자 전 Wallabies 감독입니다. 시드니 2GB 아침 프로그램으로 오래 알려졌고, 호주에서 가장 영향력 있고 논란 많은 미디어 인물 중 한 명입니다.",
+      vi: "Cựu bình luận viên phát thanh và truyền hình Úc, cựu HLV Wallabies, gắn lâu với chương trình buổi sáng của 2GB ở Sydney và là một trong những nhân vật truyền thông có ảnh hưởng và gây tranh cãi nhất nước.",
+      th: "อดีตผู้วิจารณ์วิทยุและโทรทัศน์ของออสเตรเลีย และอดีตโค้ช Wallabies เป็นที่รู้จักจากรายการเช้าของ 2GB ในซิดนีย์ และเป็นหนึ่งในบุคคลสื่อที่มีอิทธิพลและก่อข้อถกเถียงมากที่สุดของประเทศ",
+      si: "Australian former radio/television commentator සහ former Wallabies coach. Sydney 2GB breakfast program සමඟ දිගු කලක් සම්බන්ධ වූ අතර රටේ බලවත් සහ controversy ඇති media figures අතර කෙනෙකි."
+    }
+  },
+  {
     name: "Brett Blundy",
     aliases: ["Brett Blundy", "布雷特·布伦迪", "布雷特·布倫迪", "ブレット・ブランディ", "브렛 블런디"],
     type: "public-figure",
