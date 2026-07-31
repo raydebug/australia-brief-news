@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T08:17:37Z",
+  "updatedAt": "2026-07-31T09:05:01Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -103,24 +103,10 @@
   "errors": [
     "news.com.au latest-news RSS still renders HTML, so current-item discovery used page and search-result fallback.",
     "The Australian and Sky News Australia still require fallback extraction for current coverage.",
-    "AAP and 9News current-day story URLs were discovered from homepage listings; direct article fetches were inconsistent in this environment, so the canonical links from those listings were retained."
+    "AAP and 9News current-day story URLs were discovered from homepage listings; direct article fetches were inconsistent in this environment, so the canonical links from those listings were retained.",
+    "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
-    {
-      "id": "ndis-provider-scrutiny",
-      "language": "ja",
-      "headline": "NDIS事業者、参加者への誤請求で監視強化",
-      "voiceScript": "一部のNDIS事業者は、浮遊浴槽やゴルフレッスンのような項目まで請求するなど、不適切な請求慣行があったとしてACCCに送られました。大規模な制度では小さな漏れでも、納税者と利用者にとって大きな負担になり得るため、この問題は重要です。次の焦点は、規制当局が監視を強めつつ、正当な支援を止めずに資金を回収できるかどうかです。",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T07:52:13Z",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/ndis-service-providers-profiting-from-incorrect-billing/106981132"
-        }
-      ]
-    },
     {
       "id": "garma-festival-opens-arnhem-land",
       "headline": "アーネムランドのGarmaが土地と燃料の約束とともに開幕",
@@ -154,36 +140,6 @@
           "title": "Garma Festival 2026: NITV / SBS guide",
           "url": "https://www.reddit.com/r/australiantelevision/comments/1v5uakl/garma_festival_2026_nitv_sbs_guide/",
           "score": 30
-        }
-      ]
-    },
-    {
-      "id": "qld-weirs-cost-blowout",
-      "language": "ja",
-      "headline": "クイーンズランド州、割高な堰計画に疑問の声",
-      "voiceScript": "クイーンズランド州政府は、北バーネットと南バーネット地域に計画されている2つの堰について、選挙公約だった事業がコスト膨張の懸念に直面したことで、費用の説明を求められています。インフラの約束は、値札が想定より速く膨らむとすぐ政治的な負担になるため、この問題は重要です。次の焦点は、事業が進む前に政府がなお採算を合わせられるかどうかです。",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T07:44:37Z",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/queensland-overnment-questioned-budget-barlil-and-cooranga-weirs/106981428"
-        }
-      ]
-    },
-    {
-      "id": "layla-jeffery-funeral",
-      "language": "ja",
-      "headline": "西ビクトリアでレイラ・ジェフリーさんに最後の別れ",
-      "voiceScript": "西ビクトリアでは、今月初めに遺体が見つかった13歳のレイラ・ジェフリーさんを見送るため、数百人が集まりました。この事件が重要なのは、警察が殺人の疑いで捜査を続ける一方、地域が悲しむ家族や友人を支えようとしているからです。次の焦点は裁判手続きと、何が起きたのかを正確に明らかにする作業です。",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T07:43:20Z",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/layla-jeffery-funeral-donald-alleged-teenager-murder/106981708"
         }
       ]
     },
@@ -227,136 +183,6 @@
       ]
     },
     {
-      "id": "machete-attack-melbourne-clinic",
-      "language": "ja",
-      "headline": "メルボルンの若者向けメンタルヘルス職員、襲撃後に拠点外勤務へ",
-      "voiceScript": "メルボルン西部サンシャインの若者向けメンタルヘルス施設では、先週、覆面の男4人が患者を襲おうとした後、職員に拠点外での勤務が指示されました。安全への不安が、若者が最も支援を必要とするときに治療へのアクセスを止めてしまう恐れがあるため、この事件は重要です。次の焦点は、警察が襲撃者を特定できるか、そして施設を安全に再開できるかです。",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T07:36:42Z",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/sunshine-machete-youth-mental-health/106984140"
-        }
-      ]
-    },
-    {
-      "id": "gina-rinehart-abc-legal-threat",
-      "language": "ja",
-      "headline": "ジーナ・ラインハート氏、風刺映像をめぐりABCとの対立を激化",
-      "voiceScript": "ジーナ・ラインハート氏は、自身を茶化すジョークを含んだABCの「Race Around the World」企画をめぐり、法的措置を示唆しました。風刺、編集承認、そして削除や謝罪をどこまで求められるのかをめぐって、放送局への圧力が強まるため、この争いは重要です。次の焦点はABCの苦情処理と、法的脅しが正式な訴訟に発展するかどうかです。",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T07:19:40Z",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/media/2026/jul/31/gina-rinehart-threatens-abc-with-legal-action-over-race-around-the-world-program-ntwnfb"
-        }
-      ],
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/RaceAroundTheWorld",
-          "author": "skarajew",
-          "title": "Bolt: ABC racing to the bottom by airing vile attack on Gina Rinehart",
-          "url": "https://www.reddit.com/r/RaceAroundTheWorld/comments/1v40pll/bolt_abc_racing_to_the_bottom_by_airing_vile/",
-          "score": 15
-        }
-      ]
-    },
-    {
-      "id": "fazal-story-withdrawn",
-      "language": "ja",
-      "headline": "ABC、Mahmood Fazal氏の報道を精度懸念で再び撤回",
-      "voiceScript": "ABCは、精度への懸念が出たことを受け、解雇された記者Mahmood Fazal氏による3本目の報道を撤回しました。編集チェックと、感度の高い報道を連続して扱った際のABCの対応に、さらに疑問が広がるため、この動きは重要です。次の焦点は、追加の検証や訂正が続くのか、そしてABCが内部手順を見直すのかどうかです。",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T07:17:45Z",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/abc-withdraws-third-mahmood-fazal-story-over-accuracy-concerns/106984112"
-        }
-      ],
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/australia",
-          "author": "AztecGod",
-          "title": "Four Corners withdraws episodes by sacked reporter due to accuracy concerns",
-          "url": "https://www.reddit.com/r/australia/comments/1v4zeny/four_corners_withdraws_episodes_by_sacked/",
-          "comments": 75,
-          "upvotes": 618,
-          "score": 843
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/friendlyjordies",
-          "author": "The_Salt_Lord666",
-          "title": "ABC's Four Corners withdraws episodes by sacked reporter due to accuracy concerns",
-          "url": "https://www.reddit.com/r/friendlyjordies/comments/1v4x6mv/abcs_four_corners_withdraws_episodes_by_sacked/",
-          "score": 30
-        }
-      ]
-    },
-    {
-      "id": "private-health-overhaul-backlash",
-      "language": "ja",
-      "headline": "私的医療保険の変更で年金生活者の反発が拡大",
-      "voiceScript": "私的医療保険の変更に関する世論調査で、多くの年金生活者が強い不満を示し、業界関係者は想定以上に多くの人が行き場を失う可能性があると警告しています。固定収入で暮らす高齢者にとって、保険料は生活費そのものなので、この問題は重要です。次の焦点は、保険会社と政府が反発を和らげ、さらに多くの人が保障を見直す前に対応できるかどうかです。",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T06:08:00Z",
-      "differences": [],
-      "links": [
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/millions-of-pensioners-furious-after-private-health-changes-polling-shows-20260731-p60k9g.html"
-        }
-      ],
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/australia",
-          "author": "ColourfulMetaphors",
-          "title": "Government scraps private healthcare rebate bonus for over 65s",
-          "url": "https://www.reddit.com/r/australia/comments/1sse0vb/government_scraps_private_healthcare_rebate_bonus/",
-          "score": 40
-        }
-      ]
-    },
-    {
-      "id": "glp1-demand-rises",
-      "language": "ja",
-      "headline": "GLP-1需要がオーストラリアでさらに拡大",
-      "voiceScript": "オーストラリアでは約50万人がGLP-1薬を使っており、自費で治療を受ける人が増える中、月ごとの需要は急増しています。この規模が重要なのは、これらの薬が家計支出と民間医療市場の圧力点を変えているからです。次の焦点は、供給、入手しやすさ、負担可能性が需要に追いつけるかどうかです。",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T06:06:00Z",
-      "differences": [],
-      "links": [
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/half-a-million-australians-now-using-glp-1-drugs-as-private-prescriptions-soar-20260731-p60kc6.html"
-        }
-      ]
-    },
-    {
-      "id": "crushed-glass-soil-additive",
-      "headline": "農家が土壌改良材として粉砕ガラスを試す",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T05:55:42Z",
-      "voiceScript": "一部の農家は、粉砕ガラスをシリコンを多く含む土壌添加材に変え、作物の生育を助けながら廃瓶の新しい使い道を探っています。この発想は、肥料の一部をより安く、より循環的に置き換える手段として試されています。重要なのは、農業資材の費用と土壌の健全性が、今もオーストラリア全体で大きな負担だからです。次は、この方法が大規模でも別の条件でも安定して使えるかどうかです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/ground-glass-silicon-fertiliser-farm-productivity/106963488"
-        }
-      ],
-      "language": "ja"
-    },
-    {
       "id": "victorian-teachers-strike-warning",
       "headline": "ビクトリア州の教員、賃上げ交渉が停滞すれば再びストへ",
       "sourceCount": 2,
@@ -392,21 +218,6 @@
           "score": 95
         }
       ]
-    },
-    {
-      "id": "yipirinya-school-community-return",
-      "headline": "アリススプリングスの学校が地域管理に戻る",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T05:49:03Z",
-      "voiceScript": "アリススプリングスの先住民の独立校は、1年間の法定管理を経て、再び地域の管理下に戻りました。介入は学校の財政と運営を立て直すために行われたもので、今回の変更でその体制は終わります。地域による管理は教育の現場で重要であり、学校の将来はこれまで強い圧力にさらされていました。次は、地域主導の体制で入学者数と運営が安定するかです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/yipirinya-school-community-led-management/106980932"
-        }
-      ],
-      "language": "ja"
     },
     {
       "id": "luke-gosling-assault-charges",
@@ -543,94 +354,6 @@
       ]
     },
     {
-      "id": "isis-brides-deny-slavery-charges",
-      "headline": "ISISに関係した2人の女性が奴隷制関連の罪を否認",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T03:46:00Z",
-      "voiceScript": "イスラム国に関わった女性2人が、ビクトリア州で奴隷制関連の罪状について無罪を主張しました。検察側は、ISIS支配下にあった地域での行為が対象だとしており、事件はこれから審理に進みます。重要なのは、海外の過激派組織に結びつく犯罪容疑をオーストラリアの裁判所がどう扱うかを問う点です。今後は証拠の検討と、シリアでの滞在時の詳しい経緯が焦点になります。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/mother-daughter-isis-brides-plead-not-guilty-slavery-charges/106981900"
-        }
-      ],
-      "language": "ja",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/worldnews",
-          "title": "Three so-called ISIS brides expected to be charged after arriving back in Australia from Syria. Two of the women will be charged with slavery offences.",
-          "url": "https://www.reddit.com/r/worldnews/comments/1t67d5r/three_socalled_isis_brides_expected_to_be_charged/",
-          "comments": 178,
-          "upvotes": 2500,
-          "score": 3034
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/aussie",
-          "title": "'ISIS bride' charged with slavery offences is granted bail",
-          "url": "https://www.reddit.com/r/aussie/comments/1ug0f6j/isis_bride_charged_with_slavery_offences_is/",
-          "comments": 306,
-          "upvotes": 65,
-          "score": 983
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/aussie",
-          "author": "vd1975",
-          "title": "ISIS Brides Australia: Women face potential crimes-against-humanity charges over alleged Yazidi enslavement",
-          "url": "https://www.reddit.com/r/aussie/comments/1t648pt/isis_brides_australia_women_face_potential/",
-          "score": 90
-        }
-      ]
-    },
-    {
-      "id": "wagyu-cattle-theft-qld",
-      "headline": "クイーンズランドで20万豪ドル相当の和牛群が盗まれる",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T03:20:00Z",
-      "voiceScript": "警察は、クイーンズランド中部の農場から和牛交雑種142頭が盗まれた事件を捜査しています。妊娠中の雌牛や子牛も含まれており、被害額は20万豪ドルを超えます。離乳期の再計測でようやく不足が判明しました。家畜の盗難は地域の事業に深刻な打撃を与え、発見まで何か月もかかることがあるため重要です。次は、警察が手がかりを追って行方不明の牛を回収できるかです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/stolen-wagyu-cattle-central-queensland/106974888"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "jewish-artist-doxxing-royal-commission",
-      "headline": "漏えいした私的チャットが、ユダヤ系アーティストを仕事から追い詰めた経緯を委員会が聴取",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T03:04:00Z",
-      "voiceScript": "ユダヤ系オーストラリア人のアーティストは、私的メッセージの流出と、それに続く個人情報の暴露によって、仕事の機会を失い、周囲から孤立したと証言しました。ネット上の暴露が、職場やギャラリーへの参加、身の安全にまで影響する流れを、今回の証言は具体的に示しています。重要なのは、学校や芸術団体、政府が、私的情報が攻撃の道具に変わったときにどう対応すべきかを問う場になっていることです。今後は、委員会がより強い保護策と、暴露行為への対策を勧告するかが焦点です。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/nsw-royal-commission-jewish-creatives-evidence-group-chat-leak/106981292"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "nsw-feral-pig-threats",
-      "headline": "野生イノシシ対策への反発の中、NSW州の大臣に脅迫",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T02:44:52Z",
-      "voiceScript": "ニューサウスウェールズ州の野生イノシシ対策をめぐり、一部の土地所有者や批判者が反発する中、州の大臣に脅迫が寄せられました。争点は、イノシシの数を減らしながら、農地や水路、公共地への被害をどう抑えるかです。野生イノシシは深刻な害獣ですが、対策は地方コミュニティで一気に政治問題になりやすいので、この話は重要です。今後は、警察と政府が脅迫への対応を進めつつ、計画を見直すかどうかを判断します。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/nsw-minister-threatened-over-feral-pig-program/106980250"
-        }
-      ],
-      "language": "ja"
-    },
-    {
       "id": "hanson-hate-speech-finding",
       "headline": "苦情審査の結果、ハンソン氏の「良いムスリムはいない」発言は起訴対象外と判断",
       "sourceCount": 3,
@@ -661,75 +384,6 @@
           "score": 120
         }
       ]
-    },
-    {
-      "id": "petrol-price-rise-tax-change",
-      "headline": "税制変更でガソリン価格が上昇する見通し",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T00:52:54.362Z",
-      "voiceScript": "税制変更を受けて、ガソリン価格は上がる見通しです。この知らせは、早めに給油しようとする動きを呼びそうだと受け止められています。家計はすでに高い生活費に向き合っており、物流や日用品にも波及する可能性があります。次に注目されるのは、値上がり幅がどこまで広がるかと、給油行動が変わるかどうかです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/petrol-prices-to-rise-immediately-after-tax-change-as-panic-buying-fears-grow-20260731-p60ka8.html"
-        }
-      ],
-      "language": "ja",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/australia",
-          "title": "Fuel price expected to rise after government excise cuts end",
-          "url": "https://www.reddit.com/r/australia/comments/1tx542v/fuel_price_expected_to_rise_after_governments/",
-          "score": 140
-        }
-      ]
-    },
-    {
-      "id": "korey-boddington-commonwealth-games-classification",
-      "headline": "分類判断でコーリー・ボディントンのコモンウェルスゲームズ出場が消えた",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T00:45:29Z",
-      "voiceScript": "コーリー・ボディントンは、分類判断によってコモンウェルスゲームズ出場の道を断たれました。パラ・サイクリングで残されていた選考の可能性はここで止まりました。分類は選手のシーズン全体を一つの判断で変えてしまうため、重い意味があります。今後は再審査の有無と、オーストラリア代表がどう組み直されるかが注目点です。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/korey-boddington-classified-out-commonwealth-games-para-cycling/106669880"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "glendenning-police-chase-fence-crash",
-      "headline": "グレンデニングの追跡は車がフェンスを突き破って終わった",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T00:42:29.807Z",
-      "voiceScript": "グレンデニングでの警察追跡は、車がフェンスを突き破り、運転手と同乗者が逃走を試みたところで終わりました。CCTVには衝突と現場からの逃走が映っています。追跡が外れると、静かな住宅街が数秒で危険な公共安全事案になるため重要です。警察は現在、運転手の行方を追い、今後の起訴内容を検討しています。",
-      "differences": [],
-      "links": [
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/nsw/driver-on-the-run-after-car-smashes-through-fence-during-glendenning-sydney-police-chase-20260731-p60k86.html"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "adelaide-cbd-burst-water-main",
-      "headline": "アデレード中心部で水道管破裂、停電が発生",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T23:49:00.000Z",
-      "voiceScript": "アデレード中心部で水道管が破裂し、近くの電力設備が浸水して、商店、病院、学校で停電が起きた。SA Water の作業員がグレンフェル通りで修理を進めながら、復旧作業も続いている。単一の公共インフラ障害が、密集した都心に大きな混乱をもたらし得ることを示す出来事だ。次は電力の復旧時期と追加点検の有無が焦点だ。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/burst-water-main-causes-disruptions-adelaide-cbd/106980254"
-        }
-      ],
-      "language": "ja"
     },
     {
       "id": "glenn-a-baker-dies",
@@ -798,51 +452,6 @@
       "language": "ja"
     },
     {
-      "id": "nsw-south-west-rez-upgrade",
-      "headline": "ニューサウスウェールズ州、新しい南西部送電網を追加改良へ",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T22:12:00.000Z",
-      "voiceScript": "ニューサウスウェールズ州は、完成して間もない南西部再生可能エネルギー区域の送電プロジェクトの一部を改良するため、2億2500万豪ドルを投じる。送電線と変電所は、より多くの風力と太陽光を流すために整備されたが、今後は段階的に容量を引き上げる。追加費用が電気料金に回る可能性があり、大規模エネルギー事業の計画の難しさも示している。次は規制当局の承認が焦点だ。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/south-west-rez-upgrade-underway/106961958"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "maryvale-paper-mill-job-cuts",
-      "headline": "メアリーヴェールの製紙工場が木材不足で84人を削減",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T22:04:00.000Z",
-      "voiceScript": "オパール・オーストラリアン・ペーパーは、ビクトリア州メアリーヴェール工場で84人を削減すると発表した。州政府が十分な木材供給を確保できなかったことが理由だとしている。この工場はラトローブ・バレーの重要な雇用先で、削減は地域の雇用と製造業の将来に打撃となる。今後は工場がフル稼働を維持できるか、政策面の打開策があるかが焦点だ。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/maryvale-opal-australian-maryvale-paper-mill-job-cuts-84-timber/106980230"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "young-indigenous-creators-online-abuse",
-      "headline": "先住民族の若手クリエイターがオンラインで虐待に直面",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T22:01:24.000Z",
-      "voiceScript": "釣り、料理、その他の日常的なトピックについて投稿する先住民族の若いクリエイターが、オンラインで人種差別的な虐待を受けています。ソーシャルプラットフォームの対応が遅く、嫌がらせによって人々が公の場での会話から遠ざけられる可能性があるため、この問題は重要だ。次の問題は、企業がこれを節度の失敗として扱うのか、それともより広範な安全上の問題として扱うのかということである。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/indigenous-content-creators-social-media-racism/106967658"
-        }
-      ],
-      "language": "ja"
-    },
-    {
       "id": "bhp-port-hedland-second-stoppage",
       "headline": "BHPはポートヘッドランドで再び終日営業停止に直面する",
       "sourceCount": 2,
@@ -888,126 +497,6 @@
       ]
     },
     {
-      "id": "qld-domestic-violence-system-gaps",
-      "headline": "クイーンズランド州の家庭内暴力大臣、受け継がれた制度のギャップを非難",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T21:35:25.000Z",
-      "voiceScript": "クイーンズランド州の家庭内暴力大臣は、支援制度における現在の問題は前政権から引き継がれたものであると述べた。最前線のサービスは依然として緊張状態にあり、生存者は迅速に助けを求められる必要があるため、聴覚は重要です。次のステップは、政府がさらなる資金、人員配置、改革によって批判を支持するかどうかだ。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/amanda-camm-budget-estimates/106978124"
-        }
-      ],
-      "language": "ja",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/brisbane",
-          "author": "patslogcabindigest",
-          "title": "Domestic violence crisis spirals as Queensland LNP government slashes tens of millions in funding",
-          "url": "https://www.reddit.com/r/brisbane/comments/1uu8lgr/domestic_violence_crisis_spirals_as_queensland/",
-          "score": 45
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/AustralianPolitics",
-          "author": "patslogcabindigest",
-          "title": "Domestic violence crisis spirals as Queensland government slashes tens of millions in funding",
-          "url": "https://www.reddit.com/r/AustralianPolitics/comments/1uu8m3w/domestic_violence_crisis_spirals_as_queensland/",
-          "score": 30
-        }
-      ]
-    },
-    {
-      "id": "qld-dv-funding-row",
-      "headline": "クイーンズランド州のDV支援予算をめぐる争いが拡大",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T21:35:00Z",
-      "voiceScript": "クイーンズランド州の家庭・DV担当相 Amanda Camm 氏は、前線支援の予算をめぐる批判が一部の女性をさらに支援申請から遠ざけていると説明しました。背景には、DV予防予算から4000万豪ドルが削減されたとの報道があります。被害者の一部は、自分の葬儀まで考えているとまで訴えているといいます。支援を受けるかどうかは、制度への信頼に大きく左右されるため、この問題は重い意味を持ちます。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/amanda-camm-budget-estimates/106978124"
-        }
-      ],
-      "language": "ja",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/brisbane",
-          "author": "patslogcabindigest",
-          "title": "Domestic violence crisis spirals as Queensland LNP government slashes tens of millions in funding",
-          "url": "https://www.reddit.com/r/brisbane/comments/1uu8lgr/domestic_violence_crisis_spirals_as_queensland/",
-          "score": 45
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/AustralianPolitics",
-          "author": "patslogcabindigest",
-          "title": "Domestic violence crisis spirals as Queensland government slashes tens of millions in funding",
-          "url": "https://www.reddit.com/r/AustralianPolitics/comments/1uu8m3w/domestic_violence_crisis_spirals_as_queensland/",
-          "score": 30
-        }
-      ]
-    },
-    {
-      "id": "noosa-beach-wedding-fees",
-      "headline": "ヌーサビーチでの結婚式の許可証が大幅に高価になっている",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T21:15:58.000Z",
-      "voiceScript": "ヌーサのビーチで結婚したいカップルは、市議会の許可料が大幅に高額になることに直面している。この休暇の街は結婚式の人気のスポットであるため、これが重要なのは、費用が高くなることでカップルが他の場所に移動し、公共スペースへのアクセスに関する議論が再び始まる可能性があるためです。市議会は現在、この増加を擁護するか、削減を求める圧力に直面する必要がある。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/couples-claim-council-charging-noosa-tax-for-beach-weddings/106948582"
-        }
-      ],
-      "language": "ja",
-      "socialDiscussions": [
-        {
-          "platform": "Facebook",
-          "account": "Noosa News",
-          "title": "A Noosa celebrant says exorbitant booking costs for ceremonies in pretty public spots is sending couples to other pieces of paradise",
-          "url": "https://www.facebook.com/NoosaNews/posts/-a-noosa-celebrant-says-exorbitant-booking-costs-for-ceremonies-in-pretty-public/1665570528904224/",
-          "score": 20
-        }
-      ]
-    },
-    {
-      "id": "arnhem-land-ancestral-remains-return",
-      "headline": "アボリジニの祖先が数十年ぶりにアーネムランドに帰還",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T21:15:25.000Z",
-      "voiceScript": "9人のアボリジニの祖先の遺骨が、数十年にわたって国外に送られた後、アーネム・ランドに送還された。地域社会は先祖を故郷に持ち帰り、神聖な遺跡に対する文化的権威を回復することを長年推進してきたため、返還は重要である。次のステップは、さらに多くの機関がさらなる送還を行うかどうかです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/yol%C5%8Bu-remains-repatriated-in-arnhem-land-nt/106967058"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "ndis-ban-service-crackdown",
-      "headline": "労働党は禁止されているNDIS請求を取り締まる動きを見せている",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T21:07:44.000Z",
-      "voiceScript": "連邦政府は、この制度で許可されていないサービスの料金を請求する NDIS プロバイダーを取り締まると発表した。怪しげな主張によって障害者支援から資金が流出し、参加者の立場がさらに悪化する可能性があるため、この動きは重要だ。次の問題は、規制当局が正当な治療を遅らせることなく、どれだけ迅速に検査を強化できるかだ。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/federal-politics-live-blog-ndis-july-31/106980178"
-        }
-      ],
-      "language": "ja"
-    },
-    {
       "id": "vic-adult-crime-expansion",
       "headline": "ビクトリア野党、少年犯罪への厳罰拡大を公約",
       "sourceCount": 2,
@@ -1024,51 +513,6 @@
         {
           "source": "9News",
           "url": "https://www.9news.com.au/victoria"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "victoria-youth-crime-expansion",
-      "headline": "ビクトリア州野党、少年犯罪の厳罰化を拡大へ",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T21:04:00Z",
-      "voiceScript": "ビクトリア州の野党は、車両窃盗や未遂のカージャック、暴動、生命を危険にさらす無謀行為を、大人向けの量刑対象に加えたい考えです。対象は14歳以上で、州選挙を前にした治安対策の公約です。青少年犯罪が州政の大きな争点になっているため、政治的な意味合いは大きいです。今後は、有権者や法曹界がこの厳罰路線を受け入れるかが焦点になります。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/vic-opposition-adult-crime-adult-time-policy/106980158"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "albury-coroner-care-inquest",
-      "headline": "検視官はオルベリー死亡事件の病院でのケアを調査する",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T21:00:55.000Z",
-      "voiceScript": "ニューサウスウェールズ州の冠状死の死因審問は、オルベリーの女性が肺塞栓症で亡くなる前に受けた病院でのケアを調査している。この事件が重要なのは、地域の医療サービスと、臨床医がまれではあるが重篤な合併症をいかに迅速に発見するかにプレッシャーを与えるためである。検死審問では今後、スケジュール、治療の決定、そして結果を変える何かがあったかどうかが検証される予定だ。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/kate-manley-coronial-inquest-albury-wodonga-health/106972398"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "albury-inquest-care-review",
-      "headline": "アルバリーの審問、患者死亡前の対応を検証",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T21:00:00Z",
-      "voiceScript": "アルバリーで開かれている検視審問では、Kate Manleyさんが亡くなる前に病院で受けた対応が検証されています。彼女は任意ではない入院患者で、その後、肺塞栓症とみられる原因で死亡しました。重要なのは、精神医療の患者にも他の患者と同じ医療上の安全確保が必要だからです。審問は今後2週間続く見込みです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/kate-manley-coronial-inquest-albury-wodonga-health/106972398"
         }
       ],
       "language": "ja"
@@ -1106,30 +550,6 @@
           "title": "We are waiting with bated breath: Super El Niño forecast could make 2027 hottest year on record, BoM says",
           "url": "https://www.reddit.com/r/australia/comments/1uyg7wy/we_are_waiting_with_bated_breath_super_el_ni%C3%B1o/",
           "score": 70
-        }
-      ]
-    },
-    {
-      "id": "sam-mostyn-civics-warning",
-      "headline": "サム・モストイン氏が市民知識の弱さは民主主義への圧力だと警告",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T15:00:19Z",
-      "voiceScript": "総督サム・モストイン氏は、オーストラリアで民主制度の仕組みに関する理解が弱くなっており、それが深刻な問題になりつつあると述べています。問題は学校だけではなく、大人にも制度と責任をより明確に理解する必要があるという指摘です。公共機関への信頼がすでに圧力を受けているため、この警告は重要です。次は、政府が市民教育と対話を長期課題として扱うかどうかです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/31/governor-general-warns-of-growing-catastrophe-that-threatens-to-undermine-democracy-in-australia-ntwnfb"
-        }
-      ],
-      "language": "ja",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/australia",
-          "title": "Governor general warns of 'growing catastrophe' that threatens to undermine democracy in Australia",
-          "url": "https://www.reddit.com/r/australia/comments/1vb4jsb/governor_general_warns_of_growing_catastrophe/",
-          "score": 40
         }
       ]
     },
@@ -1273,36 +693,6 @@
       "language": "ja"
     },
     {
-      "id": "cfmeu-setka-threats",
-      "headline": "CFMEU管理者、セツカ氏の脅しを軽く見ないよう呼びかけ",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T10:10:09.000Z",
-      "voiceScript": "CFMEU管理者のマイケル・クロスビー氏は、ジョン・セツカ氏に関係する脅しは深刻だと述べました。最近のインタビューでは、元ビクトリア州首相ジャシンタ・アラン氏の説明にも疑問を投げかけ、王立委員会が万能ではないとも語っています。工事労組は依然として管理下にあり、セツカ氏をめぐる対立はなお収束していません。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/cfmeu-adminstrator-on-setka-threats-royal-commission/106979150"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "mount-gambier-toy-library-statement",
-      "headline": "マウントガンビアの玩具図書館、ヘレナ・ライトさんと子どもたちを悼む",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T09:37:41.000Z",
-      "voiceScript": "マウントガンビアの玩具図書館が声明を出し、ヘレナ・ライトさんと子どもたちの死に深い哀悼を示しました。地域にとっては、家族の悲劇がどれほど大きな衝撃を与えたかを伝える出来事です。今後は、地域支援や警察・検視の続報が出る見通しです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/mount-gambier-toy-library-issues-helena-wright-statement/106979294"
-        }
-      ],
-      "language": "ja"
-    },
-    {
       "id": "yindjibarndi-fortescue-appeal",
       "headline": "Yindjibarndi が Fortescue への控訴を進める",
       "sourceCount": 3,
@@ -1348,36 +738,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/travel/travel-updates/incidents/huge-71-magnitude-earthquake-hits-japan-sparking-tsunami-warning/news-story/71443378feb72446553f03f8b087466c"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "nauru-naoero",
-      "headline": "ナウルが国名を「ナオエロ」に改める",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T08:15:04Z",
-      "voiceScript": "ナウル政府は、先住の呼び名であるナオエロを正式な国名として使う方針を示した。国の略称も更新されるが、憲法上の手続きはまだ残っている。植民地時代の名残から距離を置き、国のアイデンティティを前面に出す動きとして重要だ。今後は残る承認手続きと、国民がどう受け止めるかが焦点になる。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/nauru-officially-changes-name-to-naoero/106978670"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "adelaide-knife-attack-attempted-murder",
-      "headline": "アデレードの刃物事件で殺人未遂容疑",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T08:00:39.000Z",
-      "voiceScript": "南オーストラリア州アデレードで起きた路上の衝突で警察官を刺したとされる男が、殺人未遂で起訴されました。男は警察に撃たれたあとも入院しており、負傷した警察官も回復を続けています。重要なのは、路上の事件がすぐに公共の安全と責任の問題へ広がったことです。今後は診断の確認、正式な事情聴取、そして裁判手続きが進みます。",
-      "differences": [],
-      "links": [
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/attempted-murder-charge-for-man-after-officer-stabbed"
         }
       ],
       "language": "ja"
@@ -1436,51 +796,6 @@
       ]
     },
     {
-      "id": "darwin-doctor-child-abuse-bail",
-      "headline": "ダーウィンの医師、児童虐待疑惑で拘束継続に異議",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T07:49:22Z",
-      "voiceScript": "ダーウィンの医師が、警察が自宅捜索で最大100万件の児童虐待画像や動画を押収したとされる件で、保釈判断に異議を申し立てている。問題は資料の規模だけでなく、裁判が進む間に身柄を拘束し続ける必要があるのかという点だ。次は保釈審査の審理と、その後の刑事手続きになる。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/darwin-doctor-child-abuse-material-bail-supreme-court/106977238"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "south-australia-helium-production-restart",
-      "headline": "南オーストラリアで国内のヘリウム生産が再開",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T07:39:06Z",
-      "voiceScript": "南オーストラリアで、2023年以来となるオーストラリア国内のヘリウム生産が再開された。ヘリウムは医療機器や半導体の供給網で欠かせず、これまで国内供給が止まっていたことを考えると意味は大きい。今後の焦点は、新しい生産が安定して拡大し、商業ベースで続けられるかどうかだ。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/australian-helium-production-hopes-after-sa-extraction/106975642"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "lismore-flood-defences-support",
-      "headline": "リズモアの事業者が洪水対策の強化を後押し",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T07:38:18Z",
-      "voiceScript": "リズモアの事業者は、貯水池のような工学的対策を含め、町を洪水から守るための強い防災工事を求めている。国の科学機関の評価では、こうした対策で将来の浸水をかなり抑えられる可能性があり、2022年の洪水被害は復旧費を約10億豪ドル規模に押し上げた。次の焦点は、各政府が長期防護として資金を出すかどうかだ。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/lismore-businesses-call-for-an-opportunity-to-save-their-city/106975576"
-        }
-      ],
-      "language": "ja"
-    },
-    {
       "id": "rockhampton-olympic-rowing-lobbying",
       "headline": "ロックハンプトンが五輪ローイング会場として押し上げられた",
       "sourceCount": 2,
@@ -1498,66 +813,6 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/30/gina-rinehart-fitzroy-river-rowing-crocodiles-brisbane-olympics-2032"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "antisemitism-education-push",
-      "headline": "反ユダヤ主義対策の特使が教育全体での研修を求める",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T07:04:52.000Z",
-      "voiceScript": "オーストラリアの反ユダヤ主義対策特使は、対応は一つの教室や一つのキャンパスで終わるべきではなく、早い段階から大学まで続く必要があると述べています。ジリアン・シーガル氏は、研修やカリキュラム、職員支援を反ヘイト対応の一部にするよう求めています。ロイヤル・コミッションは学校や大学からの証言を聞き続けており、争点は個別の事件対応から予防策へ移るかどうかです。次の焦点は、政府と教育機関が勧告を実行に移すかどうかです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/anti-semitism-envoy-to-return-to-royal-commission"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "south-australian-nurses-reject-pay-offer",
-      "headline": "南オーストラリア州の看護師が新賃上げ案を拒否",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T06:57:00Z",
-      "voiceScript": "南オーストラリア州の公務部門の看護師と助産師は、州政府の最新の賃上げ案を退けました。争いは州の労働審判所に持ち込まれ、病院やケア現場の人手不足が続く中で、次の判断が現場に大きく影響します。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/public-sector-nurses-and-midwives-reject-sa-government-offer/106975694"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "andrew-hastie-wa-defamation-trial",
-      "headline": "アンドリュー・ハスティー氏が西豪州の名誉毀損裁判に出廷",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T06:26:56Z",
-      "voiceScript": "連邦議員アンドリュー・ハスティー氏は、西オーストラリア州の実業家グレッグ・ポーランド氏が本人と元フェアファクス記者2人を相手に起こした名誉毀損訴訟で法廷に立ちました。争点は、過去の行為についてどこまで公に言えるのか、またその発言が名誉を傷つけたのかどうかで、裁判所は現在証拠を検討しています。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/liberal-mp-andrew-hastie-takes-stand-wa-today-defamation-trial/106976242"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "first-nations-social-media-racism",
-      "headline": "先住民指導者、ネット上の人種差別が若者を傷つけていると警告",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T06:25:22Z",
-      "voiceScript": "先住民の指導者たちは、ケアンズで開かれた連邦調査で、SNS上の人種差別的な中傷が精神面に悪影響を与え、文化を発信しにくくしていると訴えました。この公聴会が重要なのは、ネット上の攻撃が現実の被害につながることを示し、プラットフォームに事後対応以上の責任を求める点にあります。オーストラリア総合診療医協会は人種差別を公衆衛生上の緊急事態と呼び、調査は今後も各地で続きます。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/racist-social-media-comments-slammed-at-federal-gov-hearing/106977480"
         }
       ],
       "language": "ja"
@@ -1660,51 +915,6 @@
       "language": "ja"
     },
     {
-      "id": "cult-inquiry-email-breach",
-      "headline": "カルト調査のメール誤送信で生存者に不安",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T06:00:00Z",
-      "voiceScript": "ビクトリア州議会のカルト・フリンジ集団に関する調査が、最終報告書を送る際に、数百件のメールアドレスを見える形で誤送信しました。匿名で証言した生存者たちは、逃れてきた相手に自分たちが知られてしまう可能性があると心配しています。重要なのは、報告書自体が集団支配に対するより強い対策を提案していることです。今は、議会がこのミスを修復し、信頼を取り戻せるかが問題です。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/email-inadvertently-shares-identities-of-cult-survivors-victoria/106975620"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "tasmanian-ambulance-fire-hospital",
-      "headline": "タスマニアの病院前で救急車が火災で全焼",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T05:40:17Z",
-      "voiceScript": "タスマニア州のウエストコースト地区病院の外に停められていた救急車が火災で全焼した。けが人はおらず、当局はこの火災を事故とみている。遠隔地の救急車1台が一時的に使えなくなった点が重要で、今後は追加の安全対策が必要かどうかを確認する必要がある。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/ambulance-destroyed-by-fire-at-tasmanian-hospital/106977278"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "peterborough-rate-hike-missing-funds",
-      "headline": "南オーストラリアの自治体が高い税率と資金返済問題に直面",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T05:20:45Z",
-      "voiceScript": "ピーターバラ地区評議会は、南オーストラリア州でも高い税率を課している一方で、下水基金から移された数百万豪ドルをどう返済するかが不透明なままだ。小さな自治体の財政にとって重い問題であり、最終的に住民負担が増えるのかが焦点となる。今後は、評議会と州当局が返済策を示せるかが重要だ。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/peterborough-district-council-rate-hike-missing-wastewater-fund/106970836"
-        }
-      ],
-      "language": "ja"
-    },
-    {
       "id": "victorian-ministers-resign-after-shake-up",
       "headline": "ビクトリア州の上級閣僚2人が再編後に辞任",
       "sourceCount": 2,
@@ -1756,36 +966,6 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/30/nsw-to-send-paramedics-not-police-to-some-mental-health-emergencies-after-multiple-deaths"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "housing-approvals-target-gap",
-      "headline": "6月の住宅承認は回復も、目標にはまだ届かず",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T05:02:41.000Z",
-      "voiceScript": "建築承認件数は6月に持ち直し、通年でも前年度を上回りましたが、オーストラリアは全国住宅目標に必要なペースにはまだ届いていません。ABSの数字が重要なのは、承認が将来の供給を示す最初の手がかりだからです。ただし、住宅は資金調達、着工、完成まで時間がかかります。次の焦点は、高層系の承認増が年後半まで続くかどうかです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/housing-approvals-rebound-but-still-behind-targets"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "brisbane-citycat-peak-hour-strike",
-      "headline": "ブリスベンのフェリーが朝のピーク時間に運休",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T04:58:41Z",
-      "voiceScript": "ブリスベンのフェリーは、労働者による保護された争議行為のため、金曜の朝に2時間運休する。予定では8時から10時まで全便が止まり、その後に順次再開する。通勤の主要動線に影響するため重要で、争議が週末前にさらに広がるのか、それとも収束するのかが次の焦点だ。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/queensland-ferry-strike-friday/106976596"
         }
       ],
       "language": "ja"
@@ -1881,36 +1061,6 @@
       "language": "ja"
     },
     {
-      "id": "victorian-government-school-abuse-apology",
-      "headline": "ビクトリア州政府、学校性虐待の生存者に謝罪",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T03:26:00Z",
-      "voiceScript": "ビクトリア州政府は、州立学校での性的虐待の生存者に正式に謝罪しました。州首相は、守られるべき子どもたちを制度が裏切ったと述べています。長年の調査では、監督の弱さや苦情対応の不備が指摘されてきました。重要なのは、謝罪が学校と子どもの安全制度の具体的な改革につながるかどうかです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/apology-to-victims-of-abuse-in-school-victoria/106974880"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "brisbane-citycat-peak-disruption",
-      "headline": "ブリスベン CityCat の乗客はピーク時の混乱に直面",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T02:57:02.000Z",
-      "voiceScript": "労働者が争議行為を起こすため、ブリスベンのCityCatサービスは朝のラッシュ時に中断される見通しだ。フェリーは市の通勤ネットワークの重要な部分を占めており、ピーク時の欠航は川系全体に遅れを広げる可能性があるため、混乱は重要だ。次の問題は、紛争がさらに多くのサービスに影響を与えたり、より長い停止に拡大したりする前に解決されるかどうかである。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/queensland/ferry-workers-to-strike-during-friday-peak-hours-20260730-p60k01.html"
-        }
-      ],
-      "language": "ja"
-    },
-    {
       "id": "optus-federal-court-outage",
       "headline": "ACMA、2025年のトリプルゼロ障害を巡りオプタスを訴訟に起こす",
       "voiceScript": "オーストラリアの通信規制当局は、緊急電話が接続できなくなった2025年のトリプルゼロ障害をめぐり、オプタスを連邦裁判所に提訴した。この訴訟では、この失敗は複数の管轄区域にわたる緊急通報義務に違反しており、通信会社は非常に多額の罰金を科せられる可能性があると述べている。また、ネットワークのアップグレードやその他の技術的変更によってトリプルゼロが危険にさらされる可能性がないことを証明するよう、業界に圧力をかけ続けています。次のステップは、オプタスの弁護と法廷の日程です。",
@@ -1953,36 +1103,6 @@
         {
           "source": "The Sydney Morning Herald",
           "url": "https://www.smh.com.au/national/national-watchdog-sues-optus-20260731-p60k7j.html"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "ben-carroll-srl-review",
-      "headline": "ベン・キャロルが郊外鉄道レビューへの扉を開く",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T02:11:34Z",
-      "voiceScript": "ビクトリア州の新首相は、郊外鉄道ループの資金を他のプロジェクトに移す可能性を排除していないと述べ、約束された在宅勤務法の変更も示唆している。この動きは、新たなリーダーシップ段階の開始時に州最大のインフラ投資の1つが再検討されることになるため、重要である。未解決の問題は、彼が議論に決着をつけるのか、それとも契約、コスト、優先事項をめぐって新たな争いを起こすのかということだ。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/30/ben-carroll-victoria-suburban-rail-loop-funds-srl-wfh-laws"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "teacher-free-palestine-sticker-inquiry",
-      "headline": "王立委員会、教師の「パレスチナ自由」ステッカーをめぐる訴えを審理",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T02:05:55Z",
-      "voiceScript": "反ユダヤ主義の調査では、学校の緊張を調査している間に教師が「パレスチナ解放」のステッカーが貼られたラップトップを使用したという主張が寄せられた。この問題が重要なのは、この問題が教室の基準、反ユダヤ主義、学校が政治的シンボルにどのような線を引くかといった広範な議論の中にあるからだ。次のステップは、捜査が証拠を比較検討し、この事件が政策上のギャップの拡大を示しているかどうかを判断することである。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/antisemitism-hate-speech-in-schools-royal-commission/106975202"
         }
       ],
       "language": "ja"
@@ -2252,156 +1372,6 @@
       "language": "ja"
     },
     {
-      "id": "aussie-swimming-record-night",
-      "headline": "オーストラリアの水泳選手はフィールドを驚かせる新しい方法を見つけ続けている",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T21:59:33Z",
-      "voiceScript": "予期せぬ供給源が、オーストラリアの水泳にとって新たな記録樹立の夜の原動力となった。この結果は、ドルフィンズのプログラムの深さと、新しい名前が依然として注目を集めている様子を強調しています。次の問題は、その勢いが今後のより大きな大会にも持続するかどうかだ。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/kai-taylor-swimming-commonwealth-games-kyle-chalmers/106974426"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "prisoner-detained-release-date",
-      "headline": "南オーストラリア州の拘留検査、期限までに囚人を釈放できなかった",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T21:59:04Z",
-      "voiceScript": "オンブズマンは、南オーストラリア州の矯正局が、釈放されるはずだった囚人を数か月間拘留し続けていたことを発見した。この訴訟は、複雑な法的紛争ではなく、釈放チェックにおける基本的な欠陥を指摘している。当面の問題は、同じ間違いが再び起こらないようにするために、どれだけの安全策を変更する必要があるかということです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/sa-correctional-services-detains-prisoner-after-release-date/106970996"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "wa-mental-health-failure-family-moves",
-      "headline": "ワシントン州の家族は、メンタルヘルスケアが弱かったため州を離れることになったと語る",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T21:56:29Z",
-      "voiceScript": "ある家族は、西オーストラリア州の精神保健制度のギャップが州を越えるほど深刻だったと語る。彼らは、ケアとサポートが最も必要なときに繰り返された失敗について説明しています。家族たちは今も助けを求めて他所を探すことを余儀なくされているため、この話は国家制度にさらなる圧力を加えている。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/family-moves-interstate-poor-mental-health-services-south-west/106973160"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "victoria-roads-repair-bill",
-      "headline": "ビクトリア州は道路の故障が続いており、多額の修繕費に直面している",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T21:36:17Z",
-      "voiceScript": "ビクトリア州の道路網は劣化しており、新たな分析によると、修復費用が多額になることが示唆されています。問題はもはや表面の損傷だけではありません。政府がどれだけ迅速に修正に資金を提供するかが重要です。そのお金がコミットされるまで、ドライバーはより悪路や低速走行で代償を払い続けることになります。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/how-much-it-would-cost-to-repair-victoria-crumbling-roads/106836750"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "stolen-car-teen-crash",
-      "headline": "盗まれた車が衝突し、10代の少女2人が負傷",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T21:09:36Z",
-      "voiceScript": "盗難車が衝突し、14歳の少女2人が負傷した。警察は衝突事故と盗難事件の両方で捜査を進めている。これは、若者が巻き込まれた場合、盗難車犯罪がいかに危険なものになるかを改めて思い起こさせます。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/teenage-girls-injured-in-langwarrin-crash/106974580"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "country-footy-family-debut",
-      "headline": "母と娘が珍しい共同でカントリーフットボールクラブにデビュー",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T20:43:30Z",
-      "voiceScript": "母と娘が一緒にカントリーフットボールクラブでデビューした。これは地元のスポーツに関する小さな話ですが、コミュニティクラブが依然として家族の絆にどれだけ依存しているかを示すものであるため、重要です。この瞬間はまた、参加が最終スコアと同じくらい重要であることを思い出させます。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/moranbah-miners-rugby-league-club-family-debut/106947758"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "rent-housing-subsidy-ends",
-      "headline": "高齢のがん患者は住宅支援終了後、家賃の高騰に直面している",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T20:38:50Z",
-      "voiceScript": "80歳のがん患者は、住宅補助金が終了した後、家賃が急激に上昇するのを目の当たりにした。この増額では、すでに限界に達している予算にはほとんど余裕がありません。これは、小さな政策の変更が、重大な健康ニーズを持つ人々にいかに大きな打撃を与えるかを示す率直な例です。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/affordable-housing-scheme-nras-ends/106954782"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "taronga-rare-snail",
-      "headline": "タロンガ動物園が珍しいカタツムリを繁殖させて瀬戸際から復活させた",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T20:37:36Z",
-      "voiceScript": "タロンガ動物園は、絶滅したと思われていた珍しいカタツムリを繁殖させた。この結果は、絶滅の危機に瀕している種が飼育下繁殖によってどのように時間を稼ぐことができるかを示しています。自然保護活動家らは今後、動物園を出ても個体群が生きていけるかどうかを知りたいと考えているだろう。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/nsw-rare-snails-thought-extinct-new-home-norfolk-island/106970802"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "elder-abuse-prevention",
-      "headline": "擁護者らはオーストラリアの高齢者に対する虐待に対するより厳しい措置を求めている",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T20:35:40Z",
-      "voiceScript": "活動家らは、高齢者虐待を巡る公の場での会話はまだ変える必要があると主張する。彼らは問題をより強く認識し、問題が報告された場合にはより明確な対応を望んでいます。現在の議論は、現在の安全対策が十分なのか、それともまだ無視するには簡単すぎるのかということだ。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/criminalising-elder-abuse-to-protect-older-australians/106963190"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "varroa-mite-treatment-access",
-      "headline": "養蜂家はバロアダニ治療法をより早く利用できるよう求めています",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T20:28:07Z",
-      "voiceScript": "養蜂家らは、バロアダニに対する現在の治療法はあまりにも限られていると述べている。彼らは、害虫が巣箱や受粉作業にさらなる被害をもたらす前に、より優れたツールを利用したいと考えています。この問題は、より広範な食物連鎖全体にわたる農業に影響を与えるため、蜂蜜をはるかに超えて重要です。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/beekeepers-access-organic-varroa-mite-treatments-agriculture-bee/106952974"
-        }
-      ],
-      "language": "ja"
-    },
-    {
       "id": "optus-triple-zero-court-action",
       "headline": "Optus、000通話障害で提訴される",
       "sourceCount": 2,
@@ -2418,96 +1388,6 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/australia?page=1"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "landfill-fire-closure",
-      "headline": "メルボルンの埋立地、火災による被害が数年続いて閉鎖へ",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T20:03:09Z",
-      "voiceScript": "メルボルン郊外の埋立地は、数年前に長期にわたる問題を引き起こした火災の後、閉鎖される予定だ。閉鎖により地元の迷惑行為は解消されるが、廃棄物が次にどこへ行くのかという疑問も生じる。住民は現場の状況とその後の計画を注意深く見守っていくことになる。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/kealba-landfill-in-western-melbourne-to-close/106969042"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "queensland-disability-council-vacancies",
-      "headline": "クイーンズランド州では1年経った今でも障害者評議会に欠員が残っている",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T19:35:28Z",
-      "voiceScript": "クイーンズランド州障害者議会のいくつかの議席は、ほぼ1年経った今でも埋まっていない。そのため、政策決定が引き続き進められる一方で、正式な表明にはギャップが残る。この遅れは、会議の席での意見の必要性に任命手続きが追いついていないことを示唆している。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/qld-disability-council-queensland-vacancy/106970710"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "neil-the-seal-costs",
-      "headline": "タスマニア州はアザラシのニールを管理するためのより明確な法案を制定した",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T19:29:01Z",
-      "voiceScript": "当局はニール・ザ・アザラシに関連した損害賠償請求書と管理費を発表した。この数字は、ウイルスに関する話題を具体的な公的支出に変えます。彼らはまた、有名な動物の管理は、人気コンテストと同じくらい物流上の問題になる可能性があることを示しています。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/neil-the-seal-damage-costs-revealed-tasmania/106970512"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "endangered-bat-decline",
-      "headline": "絶滅危惧種のオーストラリアのコウモリが再び個体数の急激な減少に見舞われた",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T15:00:37Z",
-      "voiceScript": "科学者らは、絶滅の危機に瀕しているオーストラリアのコウモリの個体数が激減しているが、その原因はまだ明らかになっていないと述べている。ある地域では最大16％も減少した。管理者たちは何が問題を引き起こしているのかまだ分かっていないため、この不確実性が保護問題の緊急性を高めている。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/environment/2026/jul/30/southern-bent-wing-bat-population-decline"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "chicken-labels-mean",
-      "headline": "オーストラリアのスーパーマーケットの鶏肉のラベルが買い物客のために解読されている",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T15:00:36Z",
-      "voiceScript": "買い物客は、オーストラリアの鶏肉製品について、放し飼い、オーガニック、ホルモン不使用などのラベルが実際に何を意味するのかを知らされています。懸念されるのは、その文言が基礎となる標準よりも明確に見える可能性があることです。消費者にとって問題は、ラベルがチェックアウト時の期待と一致するかどうかです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/food/2026/jul/30/free-range-organic-and-hormone-free-what-do-australian-supermarket-chicken-labels-mean"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "matt-richardson-commonwealth-games-crash",
-      "headline": "リチャードソンの転倒で英連邦大会は終わった",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T13:23:00Z",
-      "voiceScript": "マット・リチャードソンはケイリンで落車し、英連邦大会の残りのトラック種目から外れた。グラスゴーでの転倒は、オーストラリアにとって大きなメダル候補を失う意味を持つ。彼は今大会の短距離で上位進出が期待されていたため、影響は小さくない。次はけがの確認と、チームがメダル計画をどう組み替えるかだ。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/matt-richardson-out-of-commonwealth-games/106974084"
         }
       ],
       "language": "ja"
@@ -2534,21 +1414,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/work/at-work/labor-to-expand-paid-prac-for-frontline-health-workers/news-story/7e2607b80c1f4bbd7420e3cfd4d2d6cb"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "sunshine-coast-holiday-club-liquidation",
-      "headline": "サンシャインコーストのホリデークラブが潰れ、会員が返金を求めている",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T08:18:53Z",
-      "voiceScript": "サンシャインコーストのホリデーポイント制度であるリゾートクラブが清算に入った。前払いした会員たちは現在、後で使う予定だったお金と予約を回収しようとしている。今回の破綻は、前払い旅行スキームのリスクについての新たな警告となっている。",
-      "differences": [],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/travel/sunshine-coast-holiday-company-the-resort-club-enters-liquidation-after-one-star-reviews-and-refund-complaints-c-22646161"
         }
       ],
       "language": "ja"
@@ -2606,21 +1471,6 @@
       "language": "ja"
     },
     {
-      "id": "qantas-long-haul-plane",
-      "headline": "カンタス航空の長距離ジェット計画はオーストラリア人の飛行方法を変える可能性がある",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T06:48:46Z",
-      "voiceScript": "カンタス航空は、非常に長い旅行における途中降機の必要性を減らすことができる記録的な航空機プロジェクトを推進しています。同社はオーストラリアからの直行便をより現実的なものにしたいと考えている。テストは、飛行機と経済の両方が大規模に機能できるかどうかです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/project-sunrise-why-stopovers-will-survive/hj6549f5h"
-        }
-      ],
-      "language": "ja"
-    },
-    {
       "id": "wa-oil-refinery-criticism",
       "headline": "西オーストラリア州に提案されている製油所への批判が高まっている",
       "sourceCount": 3,
@@ -2673,21 +1523,6 @@
       "language": "ja"
     },
     {
-      "id": "deepfake-school-photo-warning",
-      "headline": "投稿された写真がディープフェイクに変えられる可能性があると学校に警告",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-28T11:05:31Z",
-      "voiceScript": "オーストラリアの学校は、オンラインで共有している写真が人工知能によるディープフェイク攻撃に再利用される可能性があると警告されている。通常の画像が悪用の素材になる可能性があるため、このリスクは理論上のものではありません。実際的な課題は、学校が通常のコミュニケーションを遮断することなくオンライン共有を管理する方法です。",
-      "differences": [],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/australian-schools-warned-photos-they-post-are-vulnerable-to-artificial-intelligence-deepfake-threat-c-22641762"
-        }
-      ],
-      "language": "ja"
-    },
-    {
       "id": "emergency-alert-trial",
       "headline": "豪州の緊急警報試験で届かない端末があることが分かった",
       "sourceCount": 4,
@@ -2717,21 +1552,6 @@
         }
       ],
       "language": "ja"
-    },
-    {
-      "id": "stax-collapse",
-      "language": "ja",
-      "headline": "Staxの清算で、未発送注文を追う顧客が残った",
-      "publishedAt": "2026-07-28T06:28:17.000Z",
-      "voiceScript": "アクティブウェアブランドのStaxは清算手続きに入り、清算人の報告で財務状況が明らかになりました。報告によると、未履行の注文は約170万豪ドル分あり、顧客と債権者はどこまで回収できるかを待っています。前払いした消費者の損失につながるため、この破綻は単なる企業倒産以上の意味を持ちます。今後は清算手続きの進展と、債権者への最終配当が焦点です。",
-      "differences": [],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/stax-collapse-australian-activewear-brand-leaves-thousands-of-customers-with-17m-in-unfulfilled-orders-c-22640675"
-        }
-      ],
-      "sourceCount": 1
     },
     {
       "id": "origin-data-breach-900k-customers",
@@ -2792,36 +1612,6 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/nearly-a-million-customers-caught-in-origin-data-breach"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "actu-leadership-handover",
-      "headline": "ACTUはリーダーシップの引き継ぎを準備中",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-28T00:00:17Z",
-      "voiceScript": "サリー・マクマナスとミシェル・オニールは退陣し、新世代の組合指導者への道を開く。 ACTUが依然として賃金、職場の権利、産業戦略に関する議論を形成しているため、この変化は重要である。次に何が起こるかは、誰が引き継ぐのか、そして移行がどれだけ早く完了するかによって決まります。",
-      "differences": [],
-      "links": [
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/actu-leaders-sally-mcmanus-michele-oneil-step-aside-new-generation/r6x6bixff"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "ato-tax-return-lodgement",
-      "headline": "ATOは数百万人の納税者に今すぐ申告をするよう呼びかけている",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-27T21:43:43Z",
-      "voiceScript": "ATOは、今こそオーストラリアの数百万人の納税者が申告を行う時期であると述べている。この警告は遅延を防ぎ、出願シーズンを順調に進めることを目的としている。実際的な問題は、人々が送信する前に必要な情報を持っているかどうかです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/ato-tells-millions-of-australian-taxpayers-now-is-the-time-to-lodge-returns-c-22636284"
         }
       ],
       "language": "ja"

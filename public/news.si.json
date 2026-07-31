@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T08:17:37Z",
+  "updatedAt": "2026-07-31T09:05:01Z",
   "generatedBy": "codex",
   "language": "si",
   "sources": [
@@ -103,24 +103,10 @@
   "errors": [
     "news.com.au latest-news RSS still renders HTML, so current-item discovery used page and search-result fallback.",
     "The Australian and Sky News Australia still require fallback extraction for current coverage.",
-    "AAP and 9News current-day story URLs were discovered from homepage listings; direct article fetches were inconsistent in this environment, so the canonical links from those listings were retained."
+    "AAP and 9News current-day story URLs were discovered from homepage listings; direct article fetches were inconsistent in this environment, so the canonical links from those listings were retained.",
+    "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
-    {
-      "id": "ndis-provider-scrutiny",
-      "language": "si",
-      "headline": "වැරදි NDIS බිල්කරණය හේතුවෙන් සේවාවන් පරීක්ෂාවට ලක් වේ",
-      "voiceScript": "සමහර NDIS සේවා සපයන්නන් ACCC වෙත යොමු කර තිබේ. රජය පවසන්නේ දහස් ගණනක් අය සැකසහිත බිල්කරණ ක්‍රම භාවිත කර ඇති අතර, float tanks සහ golf lessons වැනි දේවල්ද ගාස්තු කර ඇති බවයි. මෙය වැදගත් වන්නේ විශාල යෝජනා ක්‍රමයක කුඩා පලායෑම් පවා බදු ගෙවන්නන්ට සහ සහභාගීවන්නන්ට විශාල වියදමක් බවට ඉක්මනින් පත්විය හැකි නිසාය. ඊළඟ පියවර වන්නේ නියාමකයන් පරීක්ෂණ තවත් තද කර, නීත්‍යානුකූල සහාය කපා නොහරිමින් මුදල් ආපසු ලබාගැනීමද යන්නයි.",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T07:52:13Z",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/ndis-service-providers-profiting-from-incorrect-billing/106981132"
-        }
-      ]
-    },
     {
       "id": "garma-festival-opens-arnhem-land",
       "headline": "Garma ආර්න්හෙම් ලෑන්ඩ්හි ඉඩම් හා ඉන්ධන පොරොන්දුවකින් ඇරඹේ",
@@ -154,36 +140,6 @@
           "title": "Garma Festival 2026: NITV / SBS guide",
           "url": "https://www.reddit.com/r/australiantelevision/comments/1v5uakl/garma_festival_2026_nitv_sbs_guide/",
           "score": 30
-        }
-      ]
-    },
-    {
-      "id": "qld-weirs-cost-blowout",
-      "language": "si",
-      "headline": "ක්වීන්ස්ලෑන්ඩ් හි වියදම් කෙරුණු weirs සැලැස්ම ගැන ප්‍රශ්න",
-      "voiceScript": "උතුරු බර්නට් සහ දකුණු බර්නට් ප්‍රදේශවල යෝජිත weirs දෙකක් සඳහා මිල වැඩිවීමේ චෝදනා පසුබැසී, ක්වීන්ස්ලෑන්ඩ් රජයට ඒ සඳහා වැය වන්නේ කීයක්දැයි පැහැදිලි කිරීමට සිදු වී ඇත. මෙය වැදගත් වන්නේ යටිතල පහසුකම් පොරොන්දු, මිල ගණන් ඉහළ යන විට ඉක්මනින්ම දේශපාලන බරක් විය හැකි නිසාය. ඊළඟ පියවර වන්නේ ව්‍යාපෘති ඉදිරියට යාමට පෙර ගණන් තවමත් ගැළපෙන්නේද යන්නයි.",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T07:44:37Z",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/queensland-overnment-questioned-budget-barlil-and-cooranga-weirs/106981428"
-        }
-      ]
-    },
-    {
-      "id": "layla-jeffery-funeral",
-      "language": "si",
-      "headline": "Layla Jefferyට බටහිර වික්ටෝරියාවේදී අවසන් ගෞරව",
-      "voiceScript": "13 හැවිරිදි Layla Jeffery සඳහා බටහිර වික්ටෝරියාවේ දී සිය ගණනක් දෙනා එක්රැස් වී අවසන් ගෞරව දැක්වූහ. මෙම මාසයේ මුලදී ඇගේ දේහ කොටස් සොයාගෙන තිබුණි. මෙය වැදගත් වන්නේ පොලිසිය තවමත් ඝාතන සැකයක් සහිත පරීක්ෂණයක් හසුරුවමින් සිටින අතර, ප්‍රජාව ශෝකයට පත් පවුලට සහ මිතුරන්ට සහාය දීමට උත්සාහ කරන නිසාය. ඊළඟ අදියර වන්නේ අධිකරණ ක්‍රියාවලිය සහ ඇත්තටම සිදු වූ දේ තහවුරු කර ගැනීමේ උත්සාහයයි.",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T07:43:20Z",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/layla-jeffery-funeral-donald-alleged-teenager-murder/106981708"
         }
       ]
     },
@@ -227,136 +183,6 @@
       ]
     },
     {
-      "id": "machete-attack-melbourne-clinic",
-      "language": "si",
-      "headline": "මැචේට් ප්‍රහාරයෙන් පසු මෙල්බර්න් තරුණ මානසික සෞඛ්‍ය කාර්ය මණ්ඩලය පිටතට යවයි",
-      "voiceScript": "මෙල්බර්න් බටහිර සන්ෂයින් හි තරුණ මානසික සෞඛ්‍ය සායනයක කාර්ය මණ්ඩලයට පසුගිය සතියේ මුහුණු ආවරණ පැළඳ සිටි පිරිමි සිව්දෙනකු මධ්‍යස්ථානයේ රෝගීන්ට පහර දීමට උත්සාහ කිරීමෙන් පසු පිටත සිට වැඩ කිරීමට පවසා ඇත. මෙය වැදගත් වන්නේ ආරක්ෂාව පිළිබඳ බිය නිසා තරුණයන්ට අවශ්‍යම අවස්ථාවේ ප්‍රතිකාර ලබාගැනීම අඩාල විය හැකි නිසාය. ඊළඟ ප්‍රශ්නය වන්නේ පොලිසියට පහරදුන් අය හඳුනාගැනීමට හැකිද, සායනය ආරක්ෂිතව නැවත විවෘත කළ හැකිද යන්නයි.",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T07:36:42Z",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/sunshine-machete-youth-mental-health/106984140"
-        }
-      ]
-    },
-    {
-      "id": "gina-rinehart-abc-legal-threat",
-      "language": "si",
-      "headline": "Gina Rinehart讽刺 වීඩියෝව හේතුවෙන් ABC සමඟ ගැටුම තවත් තද කරයි",
-      "voiceScript": "Gina Rinehart තමන් ගැන කළ විහිළුවක් ඇතුළත් ABCයේ Race Around the World කොටසක් නිසා නීතිමය පියවර ගැනීමට තර්ජනය කර තිබේ. මේ ගැටුම වැදගත් වන්නේ උපහාසය, සංස්කරණ අනුමැතිය සහ ඉවත් කිරීමක් හෝ සමාවක් ඉල්ලීමක් කොතරම් දුරට තල්ලු කළ හැකිද යන්න පිළිබඳව විකාශකයා මත පීඩනයක් ඇති කරන නිසාය. ඊළඟ පියවර වන්නේ ABCයේ පැමිණිලි ක්‍රියාවලිය සහ මේ තර්ජනය නිල නඩුවක් දක්වා යයිද යන්නයි.",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T07:19:40Z",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/media/2026/jul/31/gina-rinehart-threatens-abc-with-legal-action-over-race-around-the-world-program-ntwnfb"
-        }
-      ],
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/RaceAroundTheWorld",
-          "author": "skarajew",
-          "title": "Bolt: ABC racing to the bottom by airing vile attack on Gina Rinehart",
-          "url": "https://www.reddit.com/r/RaceAroundTheWorld/comments/1v40pll/bolt_abc_racing_to_the_bottom_by_airing_vile/",
-          "score": 15
-        }
-      ]
-    },
-    {
-      "id": "fazal-story-withdrawn",
-      "language": "si",
-      "headline": "ABC නිවැරදි බව පිළිබඳ සැක හේතුවෙන් තවත් Mahmood Fazal වාර්තාවක් ඉවත් කරයි",
-      "voiceScript": "නිරවද්‍යතාව පිළිබඳ ගැටලු මතුවීමෙන් පසු ABC විසින් රැකියාවෙන් ඉවත් කළ වාර්තාකරු Mahmood Fazalගේ තුන්වන කතාවද ඉවත් කර තිබේ. මෙය වැදගත් වන්නේ සංස්කරණ පරීක්ෂා සහ සංවේදී වාර්තා මාලාවක් ABC විසින් හසුරුවා ඇති ආකාරය පිළිබඳ ප්‍රශ්න තවත් දැඩි කරන බැවිනි. ඊළඟ පියවර වන්නේ තවත් සමාලෝචන හෝ නිවැරදි කිරීම් සිදුවේද සහ ABC තම අභ්‍යන්තර ක්‍රියාවලිය වෙනස් කරයිද යන්නයි.",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T07:17:45Z",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/abc-withdraws-third-mahmood-fazal-story-over-accuracy-concerns/106984112"
-        }
-      ],
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/australia",
-          "author": "AztecGod",
-          "title": "Four Corners withdraws episodes by sacked reporter due to accuracy concerns",
-          "url": "https://www.reddit.com/r/australia/comments/1v4zeny/four_corners_withdraws_episodes_by_sacked/",
-          "comments": 75,
-          "upvotes": 618,
-          "score": 843
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/friendlyjordies",
-          "author": "The_Salt_Lord666",
-          "title": "ABC's Four Corners withdraws episodes by sacked reporter due to accuracy concerns",
-          "url": "https://www.reddit.com/r/friendlyjordies/comments/1v4x6mv/abcs_four_corners_withdraws_episodes_by_sacked/",
-          "score": 30
-        }
-      ]
-    },
-    {
-      "id": "private-health-overhaul-backlash",
-      "language": "si",
-      "headline": "පුද්ගලික සෞඛ්‍ය වෙනස්කම් හේතුවෙන් පෙන්ෂන්ලාභීන්ගේ විරෝධය වැඩිවේ",
-      "voiceScript": "පුද්ගලික සෞඛ්‍ය ආවරණ වෙනස්කම් පිළිබඳ මත විමසුමක් නිසා බොහෝ පෙන්ෂන්ලාභීන් කෝපයට පත්ව ඇතැයි කියන අතර, කර්මාන්ත විශේෂඥයෝ අනතුරු අඟවන්නේ මෙම පියවරෙන් අපේක්ෂිතයට වඩා වැඩි පිරිසක් අසීරුතාවයට පත් විය හැකි බවයි. මෙය වැදගත් වන්නේ ස්ථාවර ආදායම් ලබන වැඩිහිටියන්ට සෞඛ්‍ය රක්ෂණ වියදම් ජීවන වියදම් සටනේම කොටසක් වන නිසාය. ඊළඟ පියවර වන්නේ තව වැඩි පිරිසක් තම ආවරණය නැවත සිතා බැලීමට පෙර රක්ෂණකරුවන් සහ රජය මෙයට සැනසුම් ලබා දිය හැකිද යන්නයි.",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T06:08:00Z",
-      "differences": [],
-      "links": [
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/millions-of-pensioners-furious-after-private-health-changes-polling-shows-20260731-p60k9g.html"
-        }
-      ],
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/australia",
-          "author": "ColourfulMetaphors",
-          "title": "Government scraps private healthcare rebate bonus for over 65s",
-          "url": "https://www.reddit.com/r/australia/comments/1sse0vb/government_scraps_private_healthcare_rebate_bonus/",
-          "score": 40
-        }
-      ]
-    },
-    {
-      "id": "glp1-demand-rises",
-      "language": "si",
-      "headline": "GLP-1 ඖෂධ සඳහා ඉල්ලුම ඔස්ට්‍රේලියාව පුරා ඉහළ යයි",
-      "voiceScript": "ඔස්ට්‍රේලියාවේ මිනිසුන් ලක්ෂ පහකට ආසන්න පිරිසක් දැන් GLP-1 ඖෂධ භාවිත කරමින් සිටින අතර, තවදුරටත් බොහෝ දෙනා තම මුදලින්ම ප්‍රතිකාර ගන්නා නිසා මාසික ඉල්ලුම තදින් ඉහළ ගොස් ඇත. මෙහි පරිමාණය වැදගත් වන්නේ මෙම ඖෂධ ගෘහස්ථ වියදම් සහ පුද්ගලික සෞඛ්‍ය වෙළඳපොළේ පීඩන ස්ථාන දෙකම වෙනස් කරන බැවිනි. ඊළඟ ප්‍රශ්නය වන්නේ සැපයුම, ප්‍රවේශය සහ දැරිය හැකි බව ඉල්ලුම සමඟ ගැළපේද යන්නයි.",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T06:06:00Z",
-      "differences": [],
-      "links": [
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/half-a-million-australians-now-using-glp-1-drugs-as-private-prescriptions-soar-20260731-p60kc6.html"
-        }
-      ]
-    },
-    {
-      "id": "crushed-glass-soil-additive",
-      "headline": "කුඩු කළ කාච පසට එක්කළ අතිකාරකයක් ලෙස ගොවීහු අත්හදා බලති",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T05:55:42Z",
-      "voiceScript": "සමහර ගොවීන් කුඩු කළ කාච සිලිකන් බහුල පස-අතිකාරකයක් ලෙස පරීක්ෂා කරමින් සිටින අතර, ඔවුන් කියන්නේ එය බෝග වර්ධනයටත් කසළ බෝතල් සඳහා නව භාවිතයකටත් උපකාරී බවයි. මේ අදහස පොහොර මිශ්‍රණයේ කොටසකට අඩු වියදම් සහ වඩා වටාකාර විකල්පයක් ලෙස අත්හදා බැලෙමින් පවතී. මෙය වැදගත් වන්නේ ගොවි ආදාන වියදම් සහ පසේ සෞඛ්‍යය ඕස්ට්‍රේලියාව පුරා තවමත් දැඩි පීඩනයක් වන බැවිනි. ඊළඟ පියවර වන්නේ මෙම ක්‍රමය විශාල පරිමාණයකින් සහ වෙනස් තත්ත්වයන් යටතේ ද ස්ථිරව ක්‍රියාකරනවාද යන්න බැලීමයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/ground-glass-silicon-fertiliser-farm-productivity/106963488"
-        }
-      ],
-      "language": "si"
-    },
-    {
       "id": "victorian-teachers-strike-warning",
       "headline": "වික්ටෝරියා ගුරුන් වැටුප් සාකච්ඡා නතර වුවහොත් නැවත වර්ජනය කරන බවට අනතුරු අඟවති",
       "sourceCount": 2,
@@ -392,21 +218,6 @@
           "score": 95
         }
       ]
-    },
-    {
-      "id": "yipirinya-school-community-return",
-      "headline": "ඇලිස් ස්ප්‍රින්ග්ස්හි ස්වදේශීය පාසල නැවත ප්‍රජා කළමනාකරණයට",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T05:49:03Z",
-      "voiceScript": "ඇලිස් ස්ප්‍රින්ග්ස්හි ස්වදේශීය පාසලක් වසරක නීතිමය පාලනයෙන් පසු නැවත ප්‍රජා කළමනාකරණයට පැමිණ ඇත. එම介入ය පාසලේ මුදල් හා පරිපාලනය ස්ථිර කිරීමට ගෙනා අතර, මේ වෙනසෙන් එය නිමාවට පත්වේ. මෙය වැදගත් වන්නේ ප්‍රජා අධීක්ෂණය අධ්‍යාපන පාලනයේ ප්‍රධාන කොටසක් වන අතර පාසලේ අනාගතය මෙයට පෙර දැඩි පීඩනයට ලක්ව තිබූ නිසාය. ඊළඟ පියවර වන්නේ ප්‍රජා නායකත්වයට නැවත පැමිණීමෙන් බඳවාගැනීම් සහ දෛනික කටයුතු ස්ථාවර වේද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/yipirinya-school-community-led-management/106980932"
-        }
-      ],
-      "language": "si"
     },
     {
       "id": "luke-gosling-assault-charges",
@@ -543,94 +354,6 @@
       ]
     },
     {
-      "id": "isis-brides-deny-slavery-charges",
-      "headline": "ඉස්ලාමීය රාජ්‍යයට සම්බන්ධ දාසකම් චෝදනාවලට කාන්තාවන් දෙදෙනෙක් වරද නොකියයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T03:46:00Z",
-      "voiceScript": "ඉස්ලාමීය රාජ්‍යයට සම්බන්ධ කාන්තාවන් දෙදෙනෙක් වික්ටෝරියාහි දාසකම් චෝදනාවලට වරද නැතැයි කියා ඇත. නඩු පාර්ශවය පවසන්නේ මේ චෝදනා ඔවුන් ISIS පාලනය කළ ප්‍රදේශයක සිටි කාලයේ කළ ක්‍රියා සම්බන්ධ බවයි, සහ නඩුව දැන් විභාගයට යයි. මෙය වැදගත් වන්නේ විදේශීය අන්තවාදී කණ්ඩායම් සමඟ සම්බන්ධ අපරාධ චෝදනා ඕස්ට්‍රේලියානු අධිකරණය කෙසේ සලකනවාද කියා පරීක්ෂා කරන නිසායි. ඊළඟ පියවර සාක්ෂි ඉදිරිපත් කිරීම සහ සිරියාවේ ඔවුන්ගේ කාලය ගැන තවත් තොරතුරු ලැබීමයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/mother-daughter-isis-brides-plead-not-guilty-slavery-charges/106981900"
-        }
-      ],
-      "language": "si",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/worldnews",
-          "title": "Three so-called ISIS brides expected to be charged after arriving back in Australia from Syria. Two of the women will be charged with slavery offences.",
-          "url": "https://www.reddit.com/r/worldnews/comments/1t67d5r/three_socalled_isis_brides_expected_to_be_charged/",
-          "comments": 178,
-          "upvotes": 2500,
-          "score": 3034
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/aussie",
-          "title": "'ISIS bride' charged with slavery offences is granted bail",
-          "url": "https://www.reddit.com/r/aussie/comments/1ug0f6j/isis_bride_charged_with_slavery_offences_is/",
-          "comments": 306,
-          "upvotes": 65,
-          "score": 983
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/aussie",
-          "author": "vd1975",
-          "title": "ISIS Brides Australia: Women face potential crimes-against-humanity charges over alleged Yazidi enslavement",
-          "url": "https://www.reddit.com/r/aussie/comments/1t648pt/isis_brides_australia_women_face_potential/",
-          "score": 90
-        }
-      ]
-    },
-    {
-      "id": "wagyu-cattle-theft-qld",
-      "headline": "ක්වීන්ස්ලෑන්ඩ්හි සොරකම් කළ වාග්යු ගව රැළක වටිනාකම ඩොලර් 200,000ක්",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T03:20:00Z",
-      "voiceScript": "මධ්‍යම ක්වීන්ස්ලෑන්ඩ්හි ගොවිපළකින් වාග්යු සංකර ගවයන් 142 ක් සොරකම් කර ඇති බවට පොලිසිය පරීක්ෂණ ආරම්භ කර ඇත. ඒ අතර ගැබිනි ගවයන් සහ කුඩා පැටවුන්ද තිබුණි. මෙම රැළේ වටිනාකම ඩොලර් 200,000 කට වැඩිය; වෙන් කිරීමේ කාලයේ නැවත නැවත ගණන් කළ පසුවයි අලාභය හඳුනාගෙන තිබුණේ. මෙය වැදගත් වන්නේ ගව සොරකම ප්‍රදේශීය ව්‍යාපාරවලට දැඩි පාඩුවක් දෙන අතර එය හඳුනාගැනීමට මාස ගණනක් ගත විය හැකි නිසාය. ඊළඟ පියවර වන්නේ පොලිසිය ඉඟි අනුගමනය කර අතුරුදහන් වූ ගවයන් නැවත සොයා ගැනීමට උත්සාහ කිරීමයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/stolen-wagyu-cattle-central-queensland/106974888"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "jewish-artist-doxxing-royal-commission",
-      "headline": "රහසිගත කණ්ඩායම් පණිවිඩ හෙළිවීමෙන් යුදෙව් කලාකාරිනියක් තල්ලු වූ ආකාරය රාජකීය කොමිසම සලකා බලයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T03:04:00Z",
-      "voiceScript": "ඕස්ට්‍රේලියානු යුදෙව් කලාකාරිනියක් කියා සිටියේ රහසිගත පණිවිඩයක් සහ පසුව සිදු වූ පුද්ගලික තොරතුරු හෙළිදරව් කිරීම නිසා ඇයට වැඩ අවස්ථා අහිමි වී, සමාජයෙන් දුරස් වීමට සිදුවූ බවයි. මෙය ඔන්ලයින් හෙළිදරව් කිරීම සහ වෛරී ප්‍රතිචාර කෙටි කාලයකින්ම රැකියා, ගැලරි සහ පෞද්ගලික ආරක්ෂාවට බලපාන ආකාරය තවත් පැහැදිලි කරයි. මේ විමර්ශනය කතා කරන්නේ පාසල්, කලා ආයතන සහ රජය පුද්ගලික තොරතුරු ආයුධයක් වශයෙන් භාවිතා කරන විට මොනවා කළ යුතුද යන්න ගැනයි. ඉදිරියට බලන්න තියෙන්නේ තවත් දැඩි ආරක්ෂණ සහ හෙළිදරව් කිරීම් වැළැක්වීමේ පියවර එනවාද කියලයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/nsw-royal-commission-jewish-creatives-evidence-group-chat-leak/106981292"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "nsw-feral-pig-threats",
-      "headline": "වල් ඌරු පාලන සැලැස්ම ගැන විරෝධය අතරතුර NSW ඇමතිවරයෙකුට තර්ජන",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T02:44:52Z",
-      "voiceScript": "New South Wales හි වල් ඌරු පාලන සැලැස්මට 일부 ගොවිජන සහ විවේචකයන්ගේ විරෝධය මැද, එක් ප්‍රාන්ත ඇමතිවරයෙකුට තර්ජන එල්ල වී තිබේ. මේ ගැන කතා වන්නේ ඌරු ගණන අඩු කරන අතරම ගොවිබිම්, ජලමාර්ග සහ පොදු භූමි වලට වන හානිය අඩු කරන්නේ කෙසේද යන්නයි. මෙය වැදගත් වන්නේ වල් ඌරන් ප්‍රධාන පළිබෝධයක් නිසාත්, ග්‍රාමීය ප්‍රජාවල පාලන පියවර ඉක්මනින්ම උණුසුම් විය හැකි නිසාත්ය. දැන් පොලිසියටත් රජයටත් තර්ජන සම්බන්ධයෙන් කටයුතු කරමින්, සැලැස්ම වෙනස් කළ යුතුදැයි තීරණය කිරීමට සිදුවේ.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/nsw-minister-threatened-over-feral-pig-program/106980250"
-        }
-      ],
-      "language": "si"
-    },
-    {
       "id": "hanson-hate-speech-finding",
       "headline": "පැමිණිලි සමාලෝචනයෙන් පසු හැන්සන්ගේ “හොඳ මුස්ලිම් නැහැ” ප්‍රකාශයට නඩු නැති බව පොලිසිය කියයි",
       "sourceCount": 3,
@@ -661,75 +384,6 @@
           "score": 120
         }
       ]
-    },
-    {
-      "id": "petrol-price-rise-tax-change",
-      "headline": "බදු වෙනසක් නිසා පෙට්රල් මිල ඉහළ යාමට ඉඩ ඇත",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T00:52:54.362Z",
-      "voiceScript": "බදු වෙනසක් නිසා පිරවුම්හලවල පෙට්රල් මිල ඉහළ යාමට ඉඩ ඇති බවට අනතුරු ඇඟවී ඇත. එය තවමත් ඉහළ ජීවන වියදම් සමඟ අරගල කරන ගෘහස්ථ වියදම් මත අමතර පීඩනයක් ගෙන එයි. ඉන්ධන මිල ඉක්මනින්ම පුළුල් ජීවන වියදම් තත්ත්වයට බලපාන නිසා මෙය වැදගත් වේ. දැන් බලන්න තියෙන්නේ වැඩිවීම කෙතරම්ද, සහ රියදුරන් කලින් ඉන්ධන පිරවීමට යොමුවෙයිද කියලා.",
-      "differences": [],
-      "links": [
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/petrol-prices-to-rise-immediately-after-tax-change-as-panic-buying-fears-grow-20260731-p60ka8.html"
-        }
-      ],
-      "language": "si",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/australia",
-          "title": "Fuel price expected to rise after government excise cuts end",
-          "url": "https://www.reddit.com/r/australia/comments/1tx542v/fuel_price_expected_to_rise_after_governments/",
-          "score": 140
-        }
-      ]
-    },
-    {
-      "id": "korey-boddington-commonwealth-games-classification",
-      "headline": "වර්ගීකරණ තීන්දුවෙන් කොරී බොඩිංටන්ගේ Commonwealth Games බලාපොරොත්තුව අවසන් විය",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T00:45:29Z",
-      "voiceScript": "වර්ගීකරණ තීන්දුවක් හේතුවෙන් කොරී බොඩිංටන්ට Commonwealth Games තරඟයට යාමේ අවස්ථාව අහිමි විය. එම තීන්දුව ඔහුගේ පරා-සයිකල් ගමන තාවකාලිකව වසා දැමීය. මෙහි වැදගත්කම නම් එක් තීන්දුවකින් ක්‍රීඩකයෙකුගේ සමස්ත සමයම වෙනස් විය හැකි බවයි. ඉදිරියේදී ඔහු නැවත සමාලෝචනයක් ඉල්ලා සිටිනවාද සහ ඔස්ට්‍රේලියා කණ්ඩායම තම සැලසුම් කෙසේ වෙනස් කරයිද යන්න බලන්න වෙයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/korey-boddington-classified-out-commonwealth-games-para-cycling/106669880"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "glendenning-police-chase-fence-crash",
-      "headline": "ග්ලෙන්ඩෙනින්හි පොලිස් හඹායෑම වාහනයක් වැට පසු කර ගමන අවසන් කළේය",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T00:42:29.807Z",
-      "voiceScript": "ග්ලෙන්ඩෙනින්හි පොලිස් හඹායෑමක් අවසන්වූයේ මෝටර් රථයක් වැට බිඳ පලා යාමට උත්සාහ කරද්දීය. රියදුරු සහ සගයෙකු පලා යෑමට ද උත්සාහ කළ බව CCTV දර්ශනවලින් පෙනේ. මෙය වැදගත් වන්නේ හඹායෑමක් තත්පර කිහිපයකින්ම නිහඬ පදිංචි ප්‍රදේශයක් මහජන ආරක්ෂක අවදානමකට පත් කළ හැකි නිසාය. පොලිසිය දැන් රියදුරු සොයමින්, අධිකරණයට ගෙන යා හැකි චෝදනා තීරණය කරමින් සිටී.",
-      "differences": [],
-      "links": [
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/australia-news/nsw/driver-on-the-run-after-car-smashes-through-fence-during-glendenning-sydney-police-chase-20260731-p60k86.html"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "adelaide-cbd-burst-water-main",
-      "headline": "ඇඩිලේඩ් නගර මධ්‍යයේ ජල නල බිඳී විදුලිය බිඳ වැටේ",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T23:49:00.000Z",
-      "voiceScript": "ඇඩිලේඩ් නගර මධ්‍යයේ ජල නලයක් බිඳී එයට අසල තිබූ විදුලි උපකරණ සංකීර්ණයක් ජලයෙන් යටවී ඇත. එහි ප්‍රතිඵලයෙන් ව්‍යාපාර, රෝහලක් සහ පාසලක් බලරහිත වී තිබේ. SA Water කණ්ඩායම් ග්‍රෙන්ෆෙල් වීදියේ අලුත්වැඩියාව කරමින් සිටී. මෙය වැදගත් වන්නේ නගරයක මධ්‍ය කොටසක එක් යටිතල පහසුකම් අසාර්ථක වීමෙන්ම විශාල අවුල් මතුවිය හැකි බව පෙන්වන නිසාය.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/burst-water-main-causes-disruptions-adelaide-cbd/106980254"
-        }
-      ],
-      "language": "si"
     },
     {
       "id": "glenn-a-baker-dies",
@@ -798,51 +452,6 @@
       "language": "si"
     },
     {
-      "id": "nsw-south-west-rez-upgrade",
-      "headline": "නිව් සවුත් වේල්ස් නව සම්ප්‍රේෂණ මාර්ගය තවත් උසස් කරයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T22:12:00.000Z",
-      "voiceScript": "නිව් සවුත් වේල්ස් රජය නව සවුත් වෙස්ට් පුනර්ජනනීය බලශක්ති කලාපයේ සම්ප්‍රේෂණ ව්‍යාපෘතියේ කොටසක් යළි උසස් කිරීම සඳහා ඩොලර් මිලියන 225ක් වැය කරයි. මාර්ගයත් උප ස්ථානයත් වැඩි සුළං සහ සූර්ය බලය රැගෙන යාමට සැලසුම් කර තිබූ අතර දැන් එය අදියරෙන් අදියර වශයෙන් තවදුරටත් ශක්තිමත් කරනු ඇත. මෙය වැදගත් වන්නේ අමතර වියදම විදුලි බිලට බලපෑ හැකි අතර දැවැන්ත බලශක්ති ව්‍යාපෘති සැලසුම් කරන ආකාරය පිළිබඳ ගැටලු ඉස්මතු කරන නිසාය. දැන් බලා සිටිය යුත්තේ නියාමක අනුමැතියය.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/south-west-rez-upgrade-underway/106961958"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "maryvale-paper-mill-job-cuts",
-      "headline": "මෙරේවේල් කඩදාසි මෝලේ රැකියා 84ක් කපා හරී",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T22:04:00.000Z",
-      "voiceScript": "ඔපල් ඕස්ට්‍රේලියානු කඩදාසි සමාගම වික්ටෝරියා හි මෙරේවේල් මෝලෙන් රැකියා 84ක් අඩු කරන බව කියයි. සමාගම පවසන්නේ ප්‍රමාණවත් දැව සැපයුම සහතික කිරීමට රාජ්‍ය පාලනය අසමත් වූ බවය. මෙම මෝල ලැට්‍රෝබ් වැලි කලාපයේ ප්‍රධාන රැකියා මූලාශ්‍රයක් බැවින් කප්පාදුව ප්‍රදේශීය රැකියා සහ නිෂ්පාදන අනාගතයට තද බලපෑමක් එල්ල කරයි. දැන් බලන්න ඉතිරි ධාරිතාව රඳවා ගත හැකිද සහ ප්‍රතිපත්තිමය විසඳුමක් තිබේද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/maryvale-opal-australian-maryvale-paper-mill-job-cuts-84-timber/106980230"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "young-indigenous-creators-online-abuse",
-      "headline": "තරුණ ආදිවාසී නිර්මාපකයින් අන්තර්ජාලය හරහා අපයෝජනයන්ට මුහුණ දෙයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T22:01:24.000Z",
-      "voiceScript": "මසුන් ඇල්ලීම, ඉවුම් පිහුම් සහ අනෙකුත් එදිනෙදා මාතෘකා ගැන පළ කරන යන්ග් ෆස්ට් නේෂන්ස් නිර්මාපකයින් අන්තර්ජාලය හරහා ජාතිවාදී අපයෝජනයට ලක් වේ. ප්‍රශ්නය වැදගත් වන්නේ සමාජ වේදිකා ක්‍රියා කිරීමට ප්‍රමාද වන නිසාත්, හිරිහැර කිරීම නිසා මිනිසුන් ප්‍රසිද්ධ සංවාදයෙන් ඉවතට තල්ලු කළ හැකි බැවිනි. මීළඟ ප්‍රශ්නය වන්නේ සමාගම් මෙය සලකන්නේ මධ්‍යස්ථ අසාර්ථක වීමක් ලෙසද නැතහොත් පුළුල් ආරක්ෂණ ගැටලුවක් ලෙසද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/indigenous-content-creators-social-media-racism/106967658"
-        }
-      ],
-      "language": "si"
-    },
-    {
       "id": "bhp-port-hedland-second-stoppage",
       "headline": "BHP පෝට් හෙඩ්ලන්ඩ් හි තවත් පූර්ණ-දින නැවතුමකට මුහුණ දෙයි",
       "sourceCount": 2,
@@ -888,126 +497,6 @@
       ]
     },
     {
-      "id": "qld-domestic-violence-system-gaps",
-      "headline": "ක්වීන්ස්ලන්ත ගෘහස්ත ප්‍රචණ්ඩත්වය පිළිබඳ අමාත්‍යවරයා ප්‍රවේණිගත පද්ධති හිඩැස්වලට දොස් පවරයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T21:35:25.000Z",
-      "voiceScript": "ක්වීන්ස්ලන්ත ගෘහස්ථ ප්‍රචණ්ඩත්වය පිළිබඳ අමාත්‍යවරයා පවසන්නේ ආධාරක පද්ධතියේ වත්මන් ගැටළු පසුගිය රජයෙන් උරුම වූ බවයි. ශ්‍රවණය වැදගත් වන්නේ පෙරටුගාමී සේවාවන් තවමත් ආතතියට ලක්ව ඇති නිසා සහ දිවි ගලවා ගත් අයට උපකාර සඳහා වේගවත් ප්‍රවේශයක් අවශ්‍ය වන බැවිනි. ඊළඟ පියවර වන්නේ රජය වැඩි අරමුදල්, කාර්ය මණ්ඩල සහ ප්‍රතිසංස්කරණ සමඟ විවේචනවලට පිටුබලය දෙනවාද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/amanda-camm-budget-estimates/106978124"
-        }
-      ],
-      "language": "si",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/brisbane",
-          "author": "patslogcabindigest",
-          "title": "Domestic violence crisis spirals as Queensland LNP government slashes tens of millions in funding",
-          "url": "https://www.reddit.com/r/brisbane/comments/1uu8lgr/domestic_violence_crisis_spirals_as_queensland/",
-          "score": 45
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/AustralianPolitics",
-          "author": "patslogcabindigest",
-          "title": "Domestic violence crisis spirals as Queensland government slashes tens of millions in funding",
-          "url": "https://www.reddit.com/r/AustralianPolitics/comments/1uu8m3w/domestic_violence_crisis_spirals_as_queensland/",
-          "score": 30
-        }
-      ]
-    },
-    {
-      "id": "qld-dv-funding-row",
-      "headline": "ක්වින්ස්ලෑන්ඩ් හි පවුල් හා ගෘහස්ථ ප්‍රචණ්ඩත්ව අරමුදල් වාදය උණුසුම් වෙයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T21:35:00Z",
-      "voiceScript": "ක්වින්ස්ලෑන්ඩ් හි පවුල් හා ගෘහස්ථ ප්‍රචණ්ඩත්වය භාර ඇමතිනි Amanda Camm කියන්නේ ඉදිරි සේවා අරමුදල් ගැන ඇති වාදය නිසා සමහර කාන්තාවන් උදව් ඉල්ලීමටවත් බිය වන බවයි. මේ වාදය පැමිණෙන්නේ ප්‍රතිරෝධක අරමුදලෙන් ඩොලර් මිලියන 40ක් කපා හැරූ බවට වූ වාර්තා පසුබිමකය. ඇය තවදුරටත් කියා සිටියේ සමහර පීඩිතයන් තම අවමංගල්‍ය ගැන පවා සැලසුම් කරමින් සිටින බවයි. මෙය වැදගත් වන්නේ උදව් ඉල්ලීමට ඇති විශ්වාසය සේවා පද්ධතිය මතම රඳා පවතින නිසාය.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/amanda-camm-budget-estimates/106978124"
-        }
-      ],
-      "language": "si",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/brisbane",
-          "author": "patslogcabindigest",
-          "title": "Domestic violence crisis spirals as Queensland LNP government slashes tens of millions in funding",
-          "url": "https://www.reddit.com/r/brisbane/comments/1uu8lgr/domestic_violence_crisis_spirals_as_queensland/",
-          "score": 45
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/AustralianPolitics",
-          "author": "patslogcabindigest",
-          "title": "Domestic violence crisis spirals as Queensland government slashes tens of millions in funding",
-          "url": "https://www.reddit.com/r/AustralianPolitics/comments/1uu8m3w/domestic_violence_crisis_spirals_as_queensland/",
-          "score": 30
-        }
-      ]
-    },
-    {
-      "id": "noosa-beach-wedding-fees",
-      "headline": "නූසා වෙරළ මංගල බලපත්‍ර මිලෙන් වැඩි වෙමින් පවතී",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T21:15:58.000Z",
-      "voiceScript": "නූසාගේ වෙරළ තීරයේ විවාහ වීමට කැමති ජෝඩුවලට සභා බලපත්‍ර ගාස්තු තියුනු ලෙස ඉහළ ය. නිවාඩු නගරය ජනප්‍රිය මංගල ස්ථානයක් වන නිසා එය වැදගත් වේ, එබැවින් ඉහළ පිරිවැය ජෝඩු වෙනත් තැනකට තල්ලු කර පොදු අවකාශයන්ට ප්‍රවේශය පිළිබඳ විවාදය නැවත විවෘත කළ හැකිය. කවුන්සිලයට දැන් සිදු වී ඇත්තේ වැඩිවීම ආරක්ෂා කිරීමට හෝ එය නැවත කප්පාදු කිරීමට පීඩනයට මුහුණ දීමට ය.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/couples-claim-council-charging-noosa-tax-for-beach-weddings/106948582"
-        }
-      ],
-      "language": "si",
-      "socialDiscussions": [
-        {
-          "platform": "Facebook",
-          "account": "Noosa News",
-          "title": "A Noosa celebrant says exorbitant booking costs for ceremonies in pretty public spots is sending couples to other pieces of paradise",
-          "url": "https://www.facebook.com/NoosaNews/posts/-a-noosa-celebrant-says-exorbitant-booking-costs-for-ceremonies-in-pretty-public/1665570528904224/",
-          "score": 20
-        }
-      ]
-    },
-    {
-      "id": "arnhem-land-ancestral-remains-return",
-      "headline": "ආදිවාසී මුතුන් මිත්තන් දශක ගණනාවකට පසු ආන්හෙම් දේශයට ආපසු පැමිණේ",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T21:15:25.000Z",
-      "voiceScript": "ආදිවාසී මුතුන් මිත්තන් නව දෙනෙකුගේ දේහයන් රටින් පිටත දශක ගණනාවකට පසු ආන්හෙම් දේශයට ආපසු හරවා යවා ඇත. ආපසු පැමිණීම වැදගත් වන්නේ මුතුන් මිත්තන් නිවසට ගෙන ඒමට සහ පූජනීය දේහය පිළිබඳ සංස්කෘතික අධිකාරිය ප්‍රතිස්ථාපනය කිරීමට ප්‍රජාවන් දිගු කලක් තිස්සේ තල්ලු කර ඇති බැවිනි. මීළඟ පියවර වන්නේ තවත් ආයතන තවදුරටත් නැවත මෙරටට පැමිණීමත් සමඟ අනුගමනය කරනවාද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/yol%C5%8Bu-remains-repatriated-in-arnhem-land-nt/106967058"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "ndis-ban-service-crackdown",
-      "headline": "තහනම් එන්ඩීඅයිඑස් හිමිකම් සීමා කිරීමට කම්කරු පියවර ගනී",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T21:07:44.000Z",
-      "voiceScript": "ෆෙඩරල් රජය පවසන්නේ යෝජනා ක්‍රමය යටතේ අවසර නොලබන සේවාවන් සඳහා NDIS සපයන්නන් බිල්පත් කිරීම මර්දනය කරන බවයි. මෙම පියවර වැදගත් වන්නේ ඩොජි කියාපෑම ආබාධිත ආධාරවලින් මුදල් ඉවතට ගන්නා නිසා සහ සහභාගිවන්නන් වඩාත් නරක අතට හැරිය හැකි බැවිනි. ඊළඟ ප්‍රශ්නය වන්නේ නියාමකයාට නීත්‍යානුකූල සත්කාර ප්‍රමාද නොකර චෙක්පත් කෙතරම් වේගවත් කළ හැකිද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/federal-politics-live-blog-ndis-july-31/106980178"
-        }
-      ],
-      "language": "si"
-    },
-    {
       "id": "vic-adult-crime-expansion",
       "headline": "වික්ටෝරියා විපක්ෂය යෞවන අපරාධ සඳහා දැඩි දඬුවම් පළල් කරයි",
       "sourceCount": 2,
@@ -1024,51 +513,6 @@
         {
           "source": "9News",
           "url": "https://www.9news.com.au/victoria"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "victoria-youth-crime-expansion",
-      "headline": "විකටෝරියා විපක්ෂය නවයෞවනයන්ට දැඩි දඬුවම් නීති පුළුල් කරයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T21:04:00Z",
-      "voiceScript": "විකටෝරියා විපක්ෂය වයස අවුරුදු 14ට වැඩි නවයෞවනයන්ටත් වැඩිහිටි දඬුවම් ලබාදෙන නීති වඩාත් පුළුල් කිරීමට යෝජනා කරයි. මෝටර් රථ සොරකම්, අසම්පූර්ණ carjacking, ප්‍රචණ්ඩ කැරලි සහ ජීවිතයට අවදානමක් ඇති නොසැලකිලිමත් ක්‍රියා එයට එකතු කිරීමට ඔවුන් යෝජනා කරයි. මෙය වැදගත් වන්නේ නවයෞවන අපරාධ දේශපාලන වශයෙන් විශාල කාරණයක් වී ඇති නිසාය. ඡන්දදායකයෝ සහ නීතිඥයන් මේකට එකඟ වෙයිද කියලා දැන් බලන්න තියෙන්නේ.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/vic-opposition-adult-crime-adult-time-policy/106980158"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "albury-coroner-care-inquest",
-      "headline": "මරණ පරීක්ෂක ඇල්බරි මරණයකදී රෝහල් ප්‍රතිකාර පරීක්ෂා කරනු ඇත",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T21:00:55.000Z",
-      "voiceScript": "NSW කිරීටක පරීක්ෂණයක් ඇල්බරි කාන්තාවක් පෙනහළු එම්බෝලිස්මයකින් මිය යාමට පෙර ලබා දුන් රෝහල් ප්‍රතිකාර සමාලෝචනය කරයි. මෙම නඩුව වැදගත් වන්නේ එය දේශීය සෞඛ්‍ය සේවාවන්ට පීඩනයක් එල්ල කරන නිසා සහ වෛද්‍යවරුන් දුර්ලභ නමුත් බරපතල සංකූලතා හඳුනා ගන්නේ කෙසේද යන්නයි. මරණ පරීක්ෂණය දැන් කාල නියමය, ප්‍රතිකාර තීරණ සහ ප්‍රතිඵලය වෙනස් කළ හැකි දෙයක්ද යන්න පරීක්ෂා කරනු ඇත.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/kate-manley-coronial-inquest-albury-wodonga-health/106972398"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "albury-inquest-care-review",
-      "headline": "ඇල්බරි විමර්ශනය රෝගියා මිය යාමට පෙර ලබාදුන් රැකවරණය පරීක්ෂා කරයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T21:00:00Z",
-      "voiceScript": "ඇල්බරිහිදී පවත්වන කොරෝනර් විමර්ශනයක් Kate Manley මිය යාමට පෙර ඇයට රෝහලේදී ලැබුණු සත්කාරය සමාලෝචනය කරයි. ඇය බලහත්කාරයෙන් ඇතුළත් කළ රෝගියකු වූ අතර පසුව සැක කෙරෙන pulmonary embolism එකක් නිසා මිය ගියා. මෙය වැදගත් වන්නේ මානසික සෞඛ්‍ය රෝගීන්ටත් අනෙක් අය මෙන්ම පූර්ණ වෛද්‍ය ආරක්ෂාව ලැබිය යුතු නිසාය. විමර්ශනය තවත් සති දෙකක් පමණ දිගටම চলবে.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/kate-manley-coronial-inquest-albury-wodonga-health/106972398"
         }
       ],
       "language": "si"
@@ -1106,30 +550,6 @@
           "title": "We are waiting with bated breath: Super El Niño forecast could make 2027 hottest year on record, BoM says",
           "url": "https://www.reddit.com/r/australia/comments/1uyg7wy/we_are_waiting_with_bated_breath_super_el_ni%C3%B1o/",
           "score": 70
-        }
-      ]
-    },
-    {
-      "id": "sam-mostyn-civics-warning",
-      "headline": "සෑම් මොස්ටින් ප්‍රජා දැනුම දුර්වල වීම ගැන අවවාද කරයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T15:00:19Z",
-      "voiceScript": "ගවර්නර්-ජෙනරල් සෑම් මොස්ටින් කියන්නේ ඕස්ට්‍රේලියාවේ ප්‍රජාතන්ත්‍රය ක්‍රියා කරන ආකාරය ගැන ඇති අවබෝධ හිඟය බරපතළ ගැටලුවක් වෙමින් පවතින බවයි. ඇය පාසල්වලට පමණක් නොව වැඩිහිටියන්ටත් ආයතන සහ වගකීම් පිළිබඳ වඩා පැහැදිලි දැනුමක් අවශ්‍ය බව කියයි. මහජන ආයතන පිළිබඳ විශ්වාසය දැනටමත් පීඩනයට ලක්ව ඇති නිසා මෙම අවවාදය වැදගත් වේ. ඊළඟ පියවර ප්‍රජා අධ්‍යාපනය සහ මහජන සම්බන්ධතාවය දිගුකාලීන ප්‍රමුඛතාවයක් කරන්නේද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/31/governor-general-warns-of-growing-catastrophe-that-threatens-to-undermine-democracy-in-australia-ntwnfb"
-        }
-      ],
-      "language": "si",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/australia",
-          "title": "Governor general warns of 'growing catastrophe' that threatens to undermine democracy in Australia",
-          "url": "https://www.reddit.com/r/australia/comments/1vb4jsb/governor_general_warns_of_growing_catastrophe/",
-          "score": 40
         }
       ]
     },
@@ -1273,36 +693,6 @@
       "language": "si"
     },
     {
-      "id": "cfmeu-setka-threats",
-      "headline": "සෙට්කාගේ තර්ජන නොසලකා හරින්නේ නැතැයි CFMEU ප්‍රතිසංස්කරණ ප්‍රධානියා කියයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T10:10:09.000Z",
-      "voiceScript": "CFMEU පරිපාලක මයිකල් ක්‍රොස්බි කියන්නේ හිටපු සංගම් නායක ජෝන් සෙට්කා කළ තර්ජන ඔහු බරපතල ලෙස සලකන බවයි. සංගමය පරිපාලන භාරයට ගත් පසුත් නැවත ගොඩනැගීමට උත්සාහ කරමින් සිටින බවත්, එම තර්ජන සංස්කෘතිය වෙනස් කිරීමේ වැඩපිළිවෙල තවමත් අතිශයින් සංවේදී බවත් ඔහු පෙන්වා දෙයි. මේ කතාව වැදගත් වන්නේ, CFMEU පිරිසිදු කිරීමේ ක්‍රියාවලිය තවමත් කොතරම් අස්ථිරද යන්න එයින් පෙන්වෙන නිසායි. ඉදිරියේදී පොලිස් හෝ අධිකරණ පියවරක් ගන්නා බවද බලන්න සිදුවේ.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/cfmeu-adminstrator-on-setka-threats-royal-commission/106979150"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "mount-gambier-toy-library-statement",
-      "headline": "මවුන්ට් ගැම්බියර් සෙල්ලම් පුස්තකාලය හෙලේනා රයිට් සහ දරුවන් අනුස්මරණය කරයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T09:37:41.000Z",
-      "voiceScript": "මවුන්ට් ගැම්බියර්හි සෙල්ලම් පුස්තකාලයක් හෙලේනා රයිට් සහ ඇගේ දරුවන්ගේ මරණය ගැන ප්‍රකාශයක් නිකුත් කරමින් ගැඹුරු ශෝකය පළ කර ඇත. මෙම පුවත වැදගත් වන්නේ පවුල් දුර්භාග්‍යයක් ප්‍රාදේශීය ප්‍රජාවට කොතරම් බලපානවාදැයි පෙන්වන නිසාය. ඉදිරියේදී ප්‍රජා සහය හෝ පොලිසිය සහ මරණ පරීක්ෂණ ක්‍රියාවලියෙන් තවත් යාවත්කාලීන පැමිණිය හැක.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/mount-gambier-toy-library-issues-helena-wright-statement/106979294"
-        }
-      ],
-      "language": "si"
-    },
-    {
       "id": "yindjibarndi-fortescue-appeal",
       "headline": "Yindjibarndi Fortescue විරුද්ධ අභියාචනය ඉදිරියට ගෙන යයි",
       "sourceCount": 3,
@@ -1348,36 +738,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/travel/travel-updates/incidents/huge-71-magnitude-earthquake-hits-japan-sparking-tsunami-warning/news-story/71443378feb72446553f03f8b087466c"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "nauru-naoero",
-      "headline": "නාවුරු නාඕඑරෝ නමින් නිල නාමය තහවුරු කිරීමට යයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T08:15:04Z",
-      "voiceScript": "නාවුරු රජය නාඕඑරෝ යන දේශීය නාමය නැවත භාවිතා කරමින් එය රටේ නිල නාමය ලෙස තහවුරු කිරීමට කටයුතු කරන බව නිවේදනය කර තිබේ. රටේ සංකේත කේතයද යාවත්කාලීන කර ඇති අතර, ව්‍යවස්ථාමය පියවර කිහිපයක් තවමත් ඉතිරිව ඇත. මෙය වැදගත් වන්නේ යටත්විජිත යුගයේ නම්කිරීමෙන් ඉවත්ව දිවයිනේ ස්වදේශීය හැඳුනුම නැවත ඉදිරියට ගෙන ඒම නිසාය. ඉදිරි පියවර වන්නේ ඉතිරි නීතිමය අනුමැතීන් සහ ජනමත ක්‍රියාවලියයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/nauru-officially-changes-name-to-naoero/106978670"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "adelaide-knife-attack-attempted-murder",
-      "headline": "ඇඩිලේඩ් පිහි ප්‍රහාරයෙන් මිනීමැරීමට උත්සාහ චෝදනාවක්",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T08:00:39.000Z",
-      "voiceScript": "දකුණු ඔස්ට්‍රේලියාවේ ඇඩිලේඩ් නගරයේ මාර්ග අසළ ඇති වූ ගැටුමකදී පොලිස් නිලධාරියෙකුගේ ගලට පිහියෙන් ඇනූ බවට චෝදනා ලැබූ පුද්ගලයාට මිනීමැරීමට උත්සාහ කිරීමේ චෝදනා ගොනු කර ඇත. ඔහුට පොලිසිය වෙඩි තැබූ අතර ඔහු තවමත් රෝහලේ සිටින අතර තුවාල ලැබූ නිලධාරිනියද සුවය ලබමින් සිටී. මෙය වැදගත් වන්නේ වීදි ගැටුමක් ඉක්මනින්ම මහජන ආරක්ෂාව සහ වගකීම් ප්‍රශ්නයක් බවට පත්වූ නිසාය. ඉදිරි පියවර වන්නේ වෛද්‍ය තහවුරු කිරීම, නිල ප්‍රශ්න කිරීම සහ අධිකරණ ක්‍රියාවලියයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/attempted-murder-charge-for-man-after-officer-stabbed"
         }
       ],
       "language": "si"
@@ -1436,51 +796,6 @@
       ]
     },
     {
-      "id": "darwin-doctor-child-abuse-bail",
-      "headline": "ළමා අපයෝජන චෝදනා මත ඩාර්වින් වෛද්‍යවරයකු රඳවා තබාගැනීමට විරුද්ධ වෙයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T07:49:22Z",
-      "voiceScript": "ඩාර්වින්හි වෛද්‍යවරයකු, පොලිසිය ඔහුගේ නිවස සොයා බලන අතරතුර ළමා අපයෝජන රූප සහ වීඩියෝ ලක්ෂ 10ක් දක්වා සොයාගෙන ඇතැයි කියන සිද්ධියකින් පසුව, බේල් තීන්දුවට අභියෝග කරමින් සිටී. මෙම නඩුව වැදගත් වන්නේ චෝදනා ලැබූ ද්‍රව්‍ය ප්‍රමාණය ඉතා විශාල වීමත්, නඩු කටයුතු ඉදිරියට යන අතරතුර ඔහු රඳවා තබාගැනීමට අවශ්‍යද යන්න අධිකරණය තීරණය කළ යුතු වීමත් නිසාය. ඊළඟ පියවර වන්නේ බේල් අභියාචනය සහ ඉදිරි විභාගයන්ය.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/darwin-doctor-child-abuse-material-bail-supreme-court/106977238"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "south-australia-helium-production-restart",
-      "headline": "දකුණු ඕස්ට්‍රේලියාවේ දේශීය හීලියම් නිෂ්පාදනය නැවත ආරම්භ වෙයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T07:39:06Z",
-      "voiceScript": "දකුණු ඕස්ට්‍රේලියාවේදී 2023 න් පසු පළමු වරට ඔස්ට්‍රේලියාවේදී හීලියම් නිෂ්පාදනය නැවත ආරම්භ වී තිබේ. මෙය වැදගත් වන්නේ හීලියම් වෛද්‍ය සහ අර්ධසන්නායක සැපයුම් දාමවල අත්‍යවශ්‍ය වායුවක් වීම නිසාය, සහ මෙරටට විදේශ සැපයුම මත අඩු රඳාපැවැත්මක් ලබාදෙන නිසාය. දැන් ප්‍රධාන ප්‍රශ්නය වන්නේ නව නිෂ්පාදනය ස්ථාවරව වැඩි කර වාණිජ ලෙස පවත්වා ගත හැකිද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/australian-helium-production-hopes-after-sa-extraction/106975642"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "lismore-flood-defences-support",
-      "headline": "ලිස්මෝර් ව්‍යාපාරිකයෝ ශක්තිමත් ගංවතුර ආරක්ෂණ වැඩ ඉල්ලති",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T07:38:18Z",
-      "voiceScript": "ලිස්මෝර්හි ව්‍යාපාරික නායකයෝ, ජලය රඳවා තබන බඳුන් ඇතුළු ඉංජිනේරු වැඩවලින් ගංවතුර අවදානම අඩු කිරීමට සහය දක්වති. ජාතික විද්‍යා ආයතනයේ ඇගයීමක් අනුව එවැනි වැඩවලින් අනාගත ගංවතුර පීඩනය අඩු කළ හැකි අතර, 2022 ව්‍යසනයෙන් නැවත ගොඩනැගීමට අවශ්‍ය වියදම දළ වශයෙන් ඔස්ට්‍රේලියානු ඩොලර් බිලියනයකට ආසන්න වී තිබේ. ඊළඟ පියවර වන්නේ රජයන් ඒ සඳහා මුදල් දෙනවාද, දිගුකාලීන ආරක්ෂාවක් ලෙස සලකනවාද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/lismore-businesses-call-for-an-opportunity-to-save-their-city/106975576"
-        }
-      ],
-      "language": "si"
-    },
-    {
       "id": "rockhampton-olympic-rowing-lobbying",
       "headline": "ඔලිම්පික් ඔරු තරග රොක්හැම්ප්ටන් දෙසට තල්ලු විය",
       "sourceCount": 2,
@@ -1498,66 +813,6 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/30/gina-rinehart-fitzroy-river-rowing-crocodiles-brisbane-olympics-2032"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "antisemitism-education-push",
-      "headline": "ඕස්ට්‍රේලියාවේ යුදෙව් විරෝධී නියෝජිතයා අධ්‍යාපනය පුරා පුහුණුව ඉල්ලා සිටී",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T07:04:52.000Z",
-      "voiceScript": "යුදෙව් විරෝධය පිළිබඳ ඕස්ට්‍රේලියාවේ විශේෂ නියෝජිතයා කියන්නේ ප්‍රතිචාරය එක් පන්තියකින් හෝ එක් කැම්පස් එකකින් නතර නොවී මුල් අදියරෙන්ම විශ්වවිද්‍යාලය දක්වා දිගු විය යුතු බවයි. ජිලියන් සෙගල් ශික්ෂණය, පාඨමාලා සකස් කිරීම සහ කාර්ය මණ්ඩල සහාය වෛර විරෝධී ප්‍රතිචාරයේ කොටසක් විය යුතු බව පවසයි, ඒ අතර රෝයල් කොමිෂන් සභාව පාසල් හා විශ්වවිද්‍යාල වලින් සාක්ෂි ඇසීම දිගටම කරගෙන යයි. මෙහි අරුත වන්නේ සිදුවීම්වලට පමණක් ප්‍රතිචාර දීමෙන් වඩා පුළුල් වැළැක්වීමේ සැලැස්මකට යාමයි. ඉදිරි පරීක්ෂණය වන්නේ ආණ්ඩු සහ අධ්‍යාපන ආයතන එම උපදෙස් ක්‍රියාවට නංවන්නේද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/anti-semitism-envoy-to-return-to-royal-commission"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "south-australian-nurses-reject-pay-offer",
-      "headline": "දකුණු ඕස්ට්‍රේලියා නර්ස්වරු වැටුප් යෝජනාව ප්‍රතික්ෂේප කරති",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T06:57:00Z",
-      "voiceScript": "දකුණු ඕස්ට්‍රේලියාවේ රාජ්‍ය සේවයේ නර්ස්වරු සහ මැදවයින් රජයේ නවතම වැටුප් යෝජනාව ප්‍රතික්ෂේප කර ඇත. දැන් මෙම ගැටලුව රාජ්‍ය රැකියා නියෝජිත අධිකරණයට යන අතර, රෝහල් සහ සත්කාර සේවාවල සේවක පීඩනය තවමත් උග්‍රව පවතී. ඉදිරි තීරණය ඊළඟට කුමක් සිදුවේද යන්න තීරණය කරනු ඇත.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/public-sector-nurses-and-midwives-reject-sa-government-offer/106975694"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "andrew-hastie-wa-defamation-trial",
-      "headline": "අන්ඩ්‍රූ හැස්ටි බටහිර ඕස්ට්‍රේලියා අපහාස නඩුවේ අධිකරණයට",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T06:26:56Z",
-      "voiceScript": "ෆෙඩරල් මන්ත්‍රී අන්ඩ්‍රූ හැස්ටි බටහිර ඕස්ට්‍රේලියා ව්‍යාපාරික ග්‍රෙග් පොලන්ඩ් ඔහුට සහ හිටපු ෆෙයාර්ෆැක්ස් පුවත්පත්කරු දෙදෙනකුට එරෙහිව ගෙනා අපහාස නඩුවේ අධිකරණයට පෙනී සිටියේය. මෙහි වැදගත්කම වන්නේ පසුගිය හැසිරීම් පිළිබඳ ප්‍රසිද්ධ ප්‍රකාශවල සීමාව සහ ඒවා නාමහානියක් කළේදැයි අධිකරණය තීරණය කරන නිසාය. සාක්ෂි විමසීම තවදුරටත් පැවැත්වේ.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/liberal-mp-andrew-hastie-takes-stand-wa-today-defamation-trial/106976242"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "first-nations-social-media-racism",
-      "headline": "අන්තර්ජාල වර්ගවාදය තරුණයන්ට හානි කරන බව ප්‍රථම ජාතික නායකයෝ අනතුරු අඟවති",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T06:25:22Z",
-      "voiceScript": "කයින්ස්හි පැවති ෆෙඩරල් විමර්ශනයකට ප්‍රථම ජාතික නායකයෝ පැවසුවේ සමාජ මාධ්‍යවල වර්ගවාදී අපහාස මානසික සෞඛ්‍යයට බලපාන අතර සංස්කෘතිය බෙදාගැනීම ද අපහසු කරන බවයි. මෙම විභාගය වැදගත් වන්නේ ඩිජිටල් අපහාසය සැබෑ ජීවිත හානි සමඟ සෘජුව සම්බන්ධ කරන නිසාත්, වේදිකා ගැටලුව පසුපසින් පමණක් විසඳා නොහැකි බව පෙන්වන නිසාත්ය. Royal Australian College of General Practitioners විසින් වර්ගවාදය සෞඛ්‍ය අර්බුදයක් ලෙස හැඳින්වූ අතර විමර්ශනය ඉදිරි නගරවල දිගටම පැවැත්වේ.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/racist-social-media-comments-slammed-at-federal-gov-hearing/106977480"
         }
       ],
       "language": "si"
@@ -1660,51 +915,6 @@
       "language": "si"
     },
     {
-      "id": "cult-inquiry-email-breach",
-      "headline": "කල්ට් විමර්ශන ඊමේල් වැරදීමෙන් දිවි බේරාගත් අයට අවදානමක්",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T06:00:00Z",
-      "voiceScript": "විකටෝරියා පාර්ලිමේන්තු විමර්ශනයක් කල්ට් හා අන්තවාදී කණ්ඩායම් ගැන අවසන් වාර්තාව නිකුත් කරන විට ඊමේල් ලිපින සියගණනකට අහම්බෙන් යවා තිබේ. නාම රහිතව සාක්ෂි දුන් දිවි බේරාගත් අය කියන්නේ මෙය ඔවුන්ට පලා ආ මිනිසුන් ඉදිරියේම ඉදිරිපත් වීමක් වගේ දැනෙන බවයි. මෙය වැදගත් වන්නේ වාර්තාව කණ්ඩායම් පාලනයට එරෙහි වඩා දැඩි ක්‍රියාමාර්ගත් නිර්දේශ කරන නිසායි. දැන් පාර්ලිමේන්තුවට වැරැද්ද නිවැරදි කර විශ්වාසය නැවත ගොඩනගන්න වෙනවා.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/email-inadvertently-shares-identities-of-cult-survivors-victoria/106975620"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "tasmanian-ambulance-fire-hospital",
-      "headline": "ටස්මේනියාවේ රෝහල පිටත ගින්නකින් ගිලන් රථයක් විනාශ වෙයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T05:40:17Z",
-      "voiceScript": "බටහිර වෙරළ දිස්ත්‍රික් රෝහල පිටත නවතා තිබූ ගිලන් රථයක් ගින්නෙන් සම්පූර්ණයෙන්ම විනාශ වී ඇත. කිසිවෙකුට හානියක් වී නැති අතර, බලධාරීන් මෙම ගින්න අනතුරක් ලෙස සලකති. දුරස්ථ ප්‍රදේශයක හදිසි ප්‍රතිචාර වාහනයක් තාවකාලිකව සේවයෙන් ඉවත් වීම නිසා මෙය වැදගත් වන අතර, තවත් ආරක්ෂක වෙනස්කම් අවශ්‍යද යන්න පසුව පරීක්ෂා කළ යුතුය.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/ambulance-destroyed-by-fire-at-tasmanian-hospital/106977278"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "peterborough-rate-hike-missing-funds",
-      "headline": "දකුණු ඕස්ට්‍රේලියානු සභාවට ඉහළම අනුපාත සහ මුදල් හිඟ ගැටලුව",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T05:20:45Z",
-      "voiceScript": "පීටර්බරෝ දිස්ත්‍රික් සභාව දැඩි මූල්‍ය පීඩනයකට මුහුණ දී ඇත. එය දකුණු ඕස්ට්‍රේලියාවේ ඉහළම අනුපාත අය කරන සභාවන්ගෙන් එකක් වුවද, මලාපවහන අරමුදලකින් වෙනත් තැනකට යොමු කළ මිලියන ගණනක මුදල් නැවත ගෙවන්නේ කෙසේදැයි පැහැදිලි නැත. මෙහි වැදගත්කම වන්නේ, අවසානයේ බර වැටෙන්නේ බදු ගෙවන්නන්ට ද, නැත්නම් සභාවට මේ හිඟය පුරවන්න මඟක් හමුවෙයිද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/peterborough-district-council-rate-hike-missing-wastewater-fund/106970836"
-        }
-      ],
-      "language": "si"
-    },
-    {
       "id": "victorian-ministers-resign-after-shake-up",
       "headline": "වික්ටෝරියා කැබිනට්හි ජ්‍යෙෂ්ඨ අමාත්‍යවරු දෙදෙනෙක් ඉවත්වෙති",
       "sourceCount": 2,
@@ -1756,36 +966,6 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/30/nsw-to-send-paramedics-not-police-to-some-mental-health-emergencies-after-multiple-deaths"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "housing-approvals-target-gap",
-      "headline": "ජූනි අනුමත කිරීම් ඉහළ ගියත් නිවාස ඉලක්ක තවම දුරින්",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T05:02:41.000Z",
-      "voiceScript": "ජූනි මාසයේ ගොඩනැගිලි අනුමත කිරීම් ඉහළ ගොස්, මුල්‍ය වසර අවසානයේ පසුගිය වසරට වඩා වැඩි වුණත්, ජාතික නිවාස ඉලක්කයට ළඟාවීමට අවශ්‍ය වේගයට ඔස්ට්‍රේලියාව තවමත් පසුපසින් සිටී. ABS දත්ත වැදගත් වන්නේ අනාගත සැපයුමේ මුල් සංඥාව අනුමත කිරීම් වන නිසාය, නමුත් නිවාස වෙළඳපොළට පැමිණීමට තවමත් මුදල් සැපයීම, ඉදිකිරීම් සහ කාලය අවශ්‍යයි. ඉදිරි ප්‍රශ්නය වන්නේ ඉහළ ඝනත්ව ව්‍යාපෘතිවල ඉහළ යාම තවදුරටත් පවත්වාගත හැකිද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/housing-approvals-rebound-but-still-behind-targets"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "brisbane-citycat-peak-hour-strike",
-      "headline": "බ්‍රිස්බේන් CityCat යාත්‍රා උදෑසන උච්ච වේලාවේ නතර වේ",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T04:58:41Z",
-      "voiceScript": "කම්කරුවන්ගේ ආරක්ෂිත කාර්මික ක්‍රියාමාර්ගයක් හේතුවෙන් බ්‍රිස්බේන් නගර පාරු සේවාව සිකුරාදා උදෑසන පැය දෙකකට නතර වනු ඇත. සැලසුම අනුව 8 සිට 10 දක්වා සියලු යාත්‍රා සේවා නවතී, ඉන්පසු සේවා ක්‍රමයෙන් යථා තත්ත්වයට පත්වෙයි. මෙය වැදගත් වන්නේ, එය වැඩට යන ප්‍රධාන ප්‍රවාහන මාර්ගයකට බාධාවක් වීම නිසාය. ඊළඟ පියවර වන්නේ, ආරවුල සති අන්තයට පෙර තදබද වීද හෝ විසඳුමකට යාවිද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/queensland-ferry-strike-friday/106976596"
         }
       ],
       "language": "si"
@@ -1881,36 +1061,6 @@
       "language": "si"
     },
     {
-      "id": "victorian-government-school-abuse-apology",
-      "headline": "වික්ටෝරියා රජය පාසල් අපයෝජන බේරිච්චවුන්ට සමාව ඉල්ලයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T03:26:00Z",
-      "voiceScript": "විකටෝරියා රජය රාජ්‍ය පාසල්වල ලිංගික අපයෝජනයෙන් දිවි බේරාගත් අයගෙන් නිල වශයෙන් සමාව ඉල්ලා ඇත. ප්‍රධාන ඇමති Ben Carroll කියන්නේ ආරක්ෂිත විය යුතු දරුවන්ට පද්ධතිය අසාර්ථක වුණා කියලායි. වසර ගණනාවක විමර්ශන සහ සමාලෝචනවලින් දුර්වල අධීක්ෂණය සහ පැමිණිලි සම්බන්ධ වැරදි ඉස්මතු වුණා. දැන් බලන්න තියෙන්නේ මේ සමාව ප්‍රායෝගික ප්‍රතිසංස්කරණවලට පරිවර්තනය වෙනවාද කියලා.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/apology-to-victims-of-abuse-in-school-victoria/106974880"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "brisbane-citycat-peak-disruption",
-      "headline": "Brisbane CityCat මගීන් උපරිම පැය බාධාවකට මුහුණ දෙයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T02:57:02.000Z",
-      "voiceScript": "කම්කරුවන් කාර්මික ක්‍රියාමාර්ග ගන්නා බැවින් බ්‍රිස්බේන් හි සිටි කැට් සේවාවන් උදෑසන කාර්යබහුල කාලය තුළ කඩාකප්පල් වීමට නියමිතය. පාරු නගරයේ මගී ජාලයේ ප්‍රධාන කොටසක් වන අතර උපරිම පැය අවලංගු කිරීම් ගංගා පද්ධතිය හරහා ප්‍රමාදයන් පැතිර යා හැකි බැවින් බාධා කිරීම් වැදගත් වේ. මීළඟ ප්‍රශ්නය වන්නේ ආරවුල වැඩි සේවාවන්ට පැමිණීමට පෙර විසඳා තිබේද නැතහොත් දිගු නැවතුමක් දක්වා ව්‍යාප්ත වේද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Sydney Morning Herald",
-          "url": "https://www.smh.com.au/national/queensland/ferry-workers-to-strike-during-friday-peak-hours-20260730-p60k01.html"
-        }
-      ],
-      "language": "si"
-    },
-    {
       "id": "optus-federal-court-outage",
       "headline": "2025 ත්‍රිත්ව-ශුන්‍ය ඇනහිටීම සම්බන්ධයෙන් ACMA Optus අධිකරණයට ඉදිරිපත් කරයි",
       "voiceScript": "හදිසි ඇමතුම් සම්බන්ධ කිරීමට නොහැකි වූ 2025 ත්‍රිත්ව ශුන්‍ය ඇනහිටීම සම්බන්ධයෙන් ඕස්ට්‍රේලියාවේ සන්නිවේදන නියාමකයා ඔප්ටස් ෆෙඩරල් අධිකරණයට ගෙන ගොස් ඇත. මෙම අසාර්ථකත්වය බහුවිධ අධිකරණ බල ප්‍රදේශ හරහා හදිසි ඇමතුම් වගකීම් කඩ කළ බවත් ටෙලිකොම් සමාගමට ඉතා විශාල දඬුවම්වලට මුහුණ දීමට සිදු විය හැකි බවත් නඩුව පවසයි. ජාල උත්ශ්‍රේණි කිරීම් සහ අනෙකුත් තාක්ෂණික වෙනස්කම් ත්‍රිත්ව ශුන්‍ය අවදානමට ලක් කළ නොහැකි බව ඔප්පු කිරීමට එය කර්මාන්තයට බලපෑම් කරයි. ඊළඟ පියවර වන්නේ ඔප්ටස්ගේ ආරක්ෂාව සහ උසාවි කාලසටහනයි.",
@@ -1953,36 +1103,6 @@
         {
           "source": "The Sydney Morning Herald",
           "url": "https://www.smh.com.au/national/national-watchdog-sues-optus-20260731-p60k7j.html"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "ben-carroll-srl-review",
-      "headline": "බෙන් කැරොල් උප නාගරික දුම්රිය ලූප් සමාලෝචනයකට දොර විවර කරයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T02:11:34Z",
-      "voiceScript": "වික්ටෝරියා හි නව අග්‍රාමාත්‍යවරයා පවසන්නේ ඔහු උප නාගරික දුම්රිය ලූප් අරමුදල් වෙනත් ව්‍යාපෘතිවලට මාරු කිරීම ප්‍රතික්ෂේප නොකරන බවත්, ඔහු පොරොන්දු වූ නිවසේ සිට වැඩ කිරීමේ නීතියකට වෙනස්කම් ද සංඥා කරන බවත්ය. මෙම පියවර වැදගත් වන්නේ එය නව නායකත්ව අවධියක ආරම්භයේ දී රාජ්‍යයේ විශාලතම යටිතල පහසුකම් ඔට්ටුවක් නැවත සමාලෝචනයට ලක් කරන බැවිනි. විවෘත ප්‍රශ්නය වන්නේ ඔහු විවාදය සමථයකට පත් කරන්නේද නැතහොත් කොන්ත්‍රාත්තු, වියදම් සහ ප්‍රමුඛතා සම්බන්ධයෙන් නැවුම් අරගලයක් ඇති කරන්නේද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/30/ben-carroll-victoria-suburban-rail-loop-funds-srl-wfh-laws"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "teacher-free-palestine-sticker-inquiry",
-      "headline": "රාජකීය කොමිසම ගුරුවරයෙකුගේ 'නිදහස් පලස්තීනය' ස්ටිකරය සම්බන්ධයෙන් හිමිකම් කියයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-30T02:05:55Z",
-      "voiceScript": "පාසල් ආතතීන් පරීක්ෂා කරන අතරතුර ගුරුවරයෙකු \"නිදහස් පලස්තීනය\" ස්ටිකරයක් සහිත ලැප්ටොප් පරිගණකයක් භාවිතා කළ බවට ප්‍රකාශයක් යුදෙව් විරෝධී පරීක්ෂණයකින් අසන්නට ලැබුණි. ප්‍රශ්නය වැදගත් වන්නේ එය පන්තිකාමර ප්‍රමිතීන්, යුදෙව් විරෝධය සහ පාසල් දේශපාලන සංකේත මත රේඛාව අඳින්නේ කොතැනද යන්න පිළිබඳ පුළුල් විවාදයක් තුළ පිහිටා ඇති බැවිනි. මීළඟ පියවර වනුයේ විමර්ශනය සාක්ෂි කිරා මැන බැලීම සහ නඩුව පුළුල් ප්‍රතිපත්තිමය හිඩැස්වලට යොමු වන්නේද යන්න තීරණය කිරීමයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/antisemitism-hate-speech-in-schools-royal-commission/106975202"
         }
       ],
       "language": "si"
@@ -2252,156 +1372,6 @@
       "language": "si"
     },
     {
-      "id": "aussie-swimming-record-night",
-      "headline": "ඕස්ට්‍රේලියානු පිහිනුම් ක්‍රීඩකයින් ක්ෂේත්‍රය පුදුම කිරීමට නව ක්‍රම සොයමින් සිටිති",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T21:59:33Z",
-      "voiceScript": "අනපේක්ෂිත මූලාශ්‍රයක් ඕස්ට්‍රේලියානු පිහිනුම් සඳහා තවත් වාර්තාගත රාත්‍රියක් සවිබල ගැන්වීය. ප්‍රතිඵලය ඩොල්ෆින් වැඩසටහනේ ගැඹුර සහ නව නම් තවමත් දර්ශනයට තල්ලු වන ආකාරය අවධාරණය කරයි. මීළඟ ප්‍රශ්නය වනුයේ එම ගම්‍යතාව ඉදිරි විශාල හමුවීම්වලට රැඳෙන්නේද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/kai-taylor-swimming-commonwealth-games-kyle-chalmers/106974426"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "prisoner-detained-release-date",
-      "headline": "දකුණු ඕස්ට්‍රේලියානු භාරකාර චෙක්පත් නියමිත වේලාවට සිරකරුවෙකු නිදහස් කිරීමට අසමත් විය",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T21:59:04Z",
-      "voiceScript": "දකුණු ඕස්ට්‍රේලියානු විශෝධන සේවා එම පුද්ගලයා නිදහස් කළ යුතුව තිබූ සිරකරුවෙකු මාස ​​කිහිපයක් අත්අඩංගුවේ තබා ගත් බව ඔම්බුඩ්ස්මන්වරයා සොයාගෙන ඇත. මෙම නඩුව සංකීර්ණ නීතිමය ආරවුලකට වඩා චෙක්පත් මුදා හැරීමේ මූලික අසමත් වීමක් පෙන්නුම් කරයි. ක්ෂනික ප්‍රශ්නය වන්නේ එම වරද නැවත සිදු නොවීමට කොපමණ ආරක්‍ෂාව වෙනස් කළ යුතුද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/sa-correctional-services-detains-prisoner-after-release-date/106970996"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "wa-mental-health-failure-family-moves",
-      "headline": "ඩබ්ලිව්ඒ පවුලක් පවසන්නේ දුර්වල මානසික සෞඛ්‍ය රැකවරණය ඔවුන්ට ප්‍රාන්තයෙන් ඉවත් වීමට බල කළ බවයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T21:56:29Z",
-      "voiceScript": "බටහිර ඕස්ට්‍රේලියාවේ මානසික සෞඛ්‍ය පද්ධතියේ හිඩැස් ඔවුන් අන්තර් රාජ්‍යයට තල්ලු කිරීමට තරම් බරපතල බව පවුලක් පවසයි. ඔවුන් රැකබලා ගැනීමේදී සහ ඔවුන්ට වඩාත්ම අවශ්‍ය වූ විට නැවත නැවත අසාර්ථක වීම විස්තර කරයි. මෙම කතාව රාජ්‍ය පද්ධතියට පීඩනයක් එක් කරන්නේ පවුල්වලට තවමත් උපකාර සඳහා වෙනත් තැනක බැලීමට බල කෙරෙන බැවිනි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/family-moves-interstate-poor-mental-health-services-south-west/106973160"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "victoria-roads-repair-bill",
-      "headline": "වික්ටෝරියා පාරවල් දිගින් දිගටම කැඩී යාම නිසා විශාල අලුත්වැඩියා බිලකට මුහුණ දීමට සිදුවේ",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T21:36:17Z",
-      "voiceScript": "වික්ටෝරියා හි මාර්ග ජාලය නරක අතට හැරෙමින් පවතින අතර නැවුම් විශ්ලේෂණයන් යෝජනා කරන්නේ අලුත්වැඩියා කිරීමේ පිරිවැය සැලකිය යුතු වනු ඇති බවයි. ගැටලුව තවදුරටත් මතුපිට හානි පමණක් නොවේ; එය නිවැරදි කිරීම සඳහා අරමුදල් සැපයීමට රජය කෙතරම් ඉක්මනින් කැමතිද යන්නයි. එම මුදල් කැප කරන තුරු, රියදුරන් රළු මාර්ගවල සහ මන්දගාමී ගමන්වල මිල ගෙවනු ඇත.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/how-much-it-would-cost-to-repair-victoria-crumbling-roads/106836750"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "stolen-car-teen-crash",
-      "headline": "සොරකම් කළ මෝටර් රථයක් කඩා වැටීමෙන් නව යොවුන් වියේ ගැහැණු ළමයින් දෙදෙනෙකු තුවාල ලබා ඇත",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T21:09:36Z",
-      "voiceScript": "සොරකම් කළ මෝටර් රථයක් අනතුරට ලක්වීමෙන් 14 හැවිරිදි දැරියන් දෙදෙනෙකු තුවාල ලබා තිබේ. ගැටුම සහ සොරකම යන දෙකම සම්බන්ධයෙන් පොලිසිය පරීක්ෂණ පවත්වයි. යෞවනයන් සම්බන්ධ වූ විට සොරකම් කරන වාහන වරදක් සිදු වන ආකාරය පිළිබඳ තවත් මතක් කිරීමකි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/teenage-girls-injured-in-langwarrin-crash/106974580"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "country-footy-family-debut",
-      "headline": "මවක් සහ දියණියක් රටක පාපන්දු සමාජයක් සඳහා දුර්ලභ ඒකාබද්ධ මංගල දර්ශනයක් කළහ",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T20:43:30Z",
-      "voiceScript": "රටක පාපන්දු සමාජයක් සඳහා මවක් සහ දියණියක් එකට එක්ව තිබේ. එය කුඩා දේශීය ක්‍රීඩා කතාවකි, නමුත් එය වැදගත් වන්නේ ප්‍රජා සමාජ තවමත් පවුල් සබඳතා මත රඳා පවතින ආකාරය පෙන්නුම් කරන බැවිනි. සහභාගීත්වය අවසාන ලකුණු තරම්ම වැදගත් විය හැකි බව ද මොහොත අපට මතක් කර දෙයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/moranbah-miners-rugby-league-club-family-debut/106947758"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "rent-housing-subsidy-ends",
-      "headline": "වැඩිහිටි පිළිකා රෝගියෙකු නිවාස ආධාරය අවසන් වීමෙන් පසු දැඩි කුලී වැඩිවීමකට මුහුණ දෙයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T20:38:50Z",
-      "voiceScript": "80 හැවිරිදි පිළිකා රෝගියෙකුගේ නිවාස සහනාධාරය අවසන් වීමෙන් පසු කුලිය තියුනු ලෙස ඉහළ ගොස් තිබේ. වැඩිවීම දැනටමත් දිගු කර ඇති අයවැය තුළ කුඩා ඉඩක් ඉතිරි කරයි. කුඩා ප්‍රතිපත්තිමය වෙනස්කම් ප්‍රධාන සෞඛ්‍ය අවශ්‍යතා ඇති පුද්ගලයින්ට දැඩි ලෙස බලපාන ආකාරය පිළිබඳ මොට උදාහරණයකි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/affordable-housing-scheme-nras-ends/106954782"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "taronga-rare-snail",
-      "headline": "Taronga සත්වෝද්‍යානය අද්දර සිට දුර්ලභ ගොළුබෙල්ලෙකු බෝ කර ඇත",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T20:37:36Z",
-      "voiceScript": "ටරොංගා සත්වෝද්‍යානය අතරමං වී ඇතැයි සිතූ දුර්ලභ ගොළුබෙල්ලෙකු බෝ කර ඇත. වඳවීමේ අද්දර සිටින විශේෂ සඳහා වහල් අභිජනනය සඳහා කාලය මිලදී ගත හැකි ආකාරය ප්‍රතිඵලය පෙන්වයි. සත්වෝද්‍යානයෙන් ඔබ්බට ජනගහනයට ජීවත් විය හැකිද යන්න සංරක්ෂණවාදීන්ට දැන ගැනීමට දැන් අවශ්‍ය වනු ඇත.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/nsw-rare-snails-thought-extinct-new-home-norfolk-island/106970802"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "elder-abuse-prevention",
-      "headline": "වැඩිහිටි ඕස්ට්‍රේලියානුවන් අපයෝජනය කිරීම සම්බන්ධයෙන් දැඩි ක්‍රියාමාර්ගයක් ගැනීමට නීතීඥයින් බල කරති",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T20:35:40Z",
-      "voiceScript": "ප්‍රචාරකයින් පවසන්නේ වැඩිහිටි අපයෝජනය පිළිබඳ පොදු සංවාදය තවමත් වෙනස් විය යුතු බවයි. ඔවුන්ට අවශ්‍ය වන්නේ ගැටලුව වඩාත් ශක්තිමත් ලෙස හඳුනා ගැනීම සහ එය වාර්තා වූ විට පැහැදිලි ප්‍රතිචාර දැක්වීමයි. දැන් විවාදයට ලක්ව ඇත්තේ දැනට පවතින ආරක්‍ෂාව ප්‍රමාණවත්ද නැතිනම් තවමත් නොසලකා හැරීමට පහසුද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/criminalising-elder-abuse-to-protect-older-australians/106963190"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "varroa-mite-treatment-access",
-      "headline": "මීමැසි පාලකයන් varroa මයිටා ප්‍රතිකාර සඳහා වේගවත් ප්‍රවේශයක් ඉල්ලා සිටී",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T20:28:07Z",
-      "voiceScript": "මීමැසි පාලකයන් පවසන්නේ වර්රෝවා මයිටා සඳහා දැනට පවතින ප්‍රතිකාර විකල්පයන් ඉතා සීමිත බවයි. පළිබෝධකයන් වද වලට සහ පරාගණ වැඩවලට වැඩි හානියක් සිදු කිරීමට පෙර වඩා හොඳ මෙවලම් වෙත ප්‍රවේශ වීමට ඔවුන්ට අවශ්‍ය වේ. මෙම ප්‍රශ්නය මී පැණි ඉක්මවා වැදගත් වන්නේ එය පුළුල් ආහාර දාමය හරහා කෘෂිකර්මාන්තයට බලපාන බැවිනි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/beekeepers-access-organic-varroa-mite-treatments-agriculture-bee/106952974"
-        }
-      ],
-      "language": "si"
-    },
-    {
       "id": "optus-triple-zero-court-action",
       "headline": "ට්‍රිපල්-සිරෝ බිඳවැටීම මත Optus අධිකරණයට",
       "sourceCount": 2,
@@ -2418,96 +1388,6 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/australia?page=1"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "landfill-fire-closure",
-      "headline": "මෙල්බර්න් කසළ රඳවනයක් වසා දැමීමට නියමිතව ඇත්තේ ගින්නකින් කල්පවතින හානියක් ඇති කර වසර ගණනාවකට පසුවය",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T20:03:09Z",
-      "voiceScript": "වසර ගණනාවකට පෙර දිගුකාලීන ගැටළු ඇති වූ ගින්නකින් පසු මෙල්බර්න් හි තදාසන්න කසළ රඳවනයක් වසා දැමීමට නියමිතය. වසා දැමීම දේශීය කරදරයක් අවසන් කරයි, නමුත් එය ඊළඟට අපද්‍රව්‍ය යන්නේ කොතැනටද යන්න පිළිබඳ ප්‍රශ්න ද මතු කරයි. නිවැසියන් වෙබ් අඩවිය සහ පසු විපරම් සැලැස්ම සමීපව නිරීක්ෂණය කරනු ඇත.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/kealba-landfill-in-western-melbourne-to-close/106969042"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "queensland-disability-council-vacancies",
-      "headline": "වසරකට පසුවත් ක්වීන්ස්ලන්තයේ ආබාධිත කවුන්සිලයේ පුරප්පාඩු තිබේ",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T19:35:28Z",
-      "voiceScript": "ක්වීන්ස්ලන්ත ආබාධිත කවුන්සිලයේ ආසන කිහිපයක් වසරකට පමණ පසුව පුරවා නැත. එය ප්‍රතිපත්තිමය තීරණ ඉදිරියට ගෙන යන අතරම විධිමත් නියෝජනයේ හිඩැසක් ඉතිරි කරයි. ප්‍රමාදය යෝජනා කරන්නේ පත්වීම් ක්‍රියාවලිය මේසයේ හඬවල් අවශ්‍යතාවයට හසු වී නැති බවයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/qld-disability-council-queensland-vacancy/106970710"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "neil-the-seal-costs",
-      "headline": "නීල් මුද්‍රාව කළමනාකරණය කිරීම සඳහා ටැස්මේනියාවට දැන් පැහැදිලි බිල්පතක් තිබේ",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T19:29:01Z",
-      "voiceScript": "නීල් මුද්‍රාවට සම්බන්ධ හානි බිල්පත සහ කළමනාකරණ වියදම් බලධාරීන් විසින් නිකුත් කර ඇත. සංඛ්‍යා වෛරස් වනජීවී කතාවක් සංයුක්ත මහජන වියදමක් බවට පත් කරයි. ජනප්‍රිය සතෙකු කළමනාකරණය කිරීම ජනප්‍රිය තරඟයක් තරම්ම ප්‍රවාහන ගැටළුවක් විය හැකි බව ඔවුන් පෙන්වා දෙයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/neil-the-seal-damage-costs-revealed-tasmania/106970512"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "endangered-bat-decline",
-      "headline": "වඳවීමේ තර්ජනයට ලක්ව ඇති ඕස්ට්‍රේලියානු පිත්තෙකු තවත් තියුනු ජනගහන පහත වැටීමකට ලක්ව තිබේ",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T15:00:37Z",
-      "voiceScript": "විද්‍යාඥයින් පවසන්නේ වඳවීමේ තර්ජනයට ලක්ව ඇති ඕස්ට්‍රේලියානු පිත්තෙකුගේ ගහනය තියුනු ලෙස පහත වැටී ඇති අතර එයට හේතුව තවමත් අපැහැදිලි බවයි. එක් ප්රදේශයක, පහත වැටීම සියයට 16 ක් තරම් වේ. එම අවිනිශ්චිතතාවය සංරක්ෂණ ගැටලුව වඩාත් හදිසි කරයි, මන්ද කළමනාකරුවන් තවමත් එය මෙහෙයවන්නේ කුමක් දැයි නොදන්නා බැවිනි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/environment/2026/jul/30/southern-bent-wing-bat-population-decline"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "chicken-labels-mean",
-      "headline": "ඕස්ට්‍රේලියානු සුපිරි වෙළඳසැල් කුකුල් මස් ලේබල් සාප්පු යන්නන් සඳහා විකේතනය වෙමින් පවතී",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T15:00:36Z",
-      "voiceScript": "ඕස්ට්‍රේලියානු කුකුල් මස් නිෂ්පාදනවල ඇත්ත වශයෙන්ම අදහස් කරන්නේ නිදහස් පරාසය, කාබනික සහ හෝර්මෝන-නිදහස් වැනි ලේබල් මොනවාදැයි සාප්පු හිමියන්ට පවසා ඇත. කනස්සල්ලට කරුණ නම්, යටින් පවතින ප්‍රමිතීන්ට වඩා වචන පැහැදිලිව පෙනෙන්නට තිබීමයි. පාරිභෝගිකයින් සඳහා, ගැටළුව වන්නේ ලේබලය පිටවීමේදී අපේක්ෂාවට ගැලපේද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/food/2026/jul/30/free-range-organic-and-hormone-free-what-do-australian-supermarket-chicken-labels-mean"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "matt-richardson-commonwealth-games-crash",
-      "headline": "ඔස්ට්‍රේලියානු පාපැදි ශූරයාගේ වැටීමෙන් ගමන අවසන් විය",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T13:23:00Z",
-      "voiceScript": "ඔස්ට්‍රේලියානු පාපැදි ක්‍රීඩක මැට් රිචඩ්සන් කීරින් තරඟයේදී වැටී, කොමන්වෙල්ත් ක්‍රීඩා තරඟාවලියේ ඉතිරි වැඩසටහනෙන් ඉවත් කර ඇත. ග්ලාස්ගෝවේ සිදුවූ මෙම වැටීම ඔස්ට්‍රේලියාවේ ප්‍රධාන උත්සහයන්ගෙන් එකක් අහිමි කරයි. මෙය වැදගත් වන්නේ ඔහු මැදිරි පැදීමේ රන් පදක්කම් බලාපොරොත්තු අතර සිටි නිසාය. ඉදිරි පියවර වන්නේ වෛද්‍ය පරීක්ෂණ සහ කණ්ඩායමේ තරඟ සැලැස්ම සකස් කර ගැනීමයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/matt-richardson-out-of-commonwealth-games/106974084"
         }
       ],
       "language": "si"
@@ -2534,21 +1414,6 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/work/at-work/labor-to-expand-paid-prac-for-frontline-health-workers/news-story/7e2607b80c1f4bbd7420e3cfd4d2d6cb"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "sunshine-coast-holiday-club-liquidation",
-      "headline": "සන්ෂයින් කෝස්ට් නිවාඩු සමාජයක් කඩා වැටී ඇති අතර සාමාජිකයින්ට මුදල් ආපසු ගෙවීමට අවශ්‍ය වේ",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T08:18:53Z",
-      "voiceScript": "සන්ෂයින් කෝස්ට් නිවාඩු ලකුණු යෝජනා ක්‍රමයක් වන රිසෝට් ක්ලබ් ඈවර කිරීමට ගොස් ඇත. කලින් ගෙවූ සාමාජිකයින් දැන් ඔවුන් පසුව භාවිතා කිරීමට බලාපොරොත්තු වූ මුදල් සහ වෙන් කිරීම් අයකර ගැනීමට උත්සාහ කරයි. කඩාවැටීම පෙරගෙවුම් සංචාරක යෝජනා ක්‍රමවල අවදානම් පිළිබඳ තවත් අනතුරු ඇඟවීමකි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/travel/sunshine-coast-holiday-company-the-resort-club-enters-liquidation-after-one-star-reviews-and-refund-complaints-c-22646161"
         }
       ],
       "language": "si"
@@ -2606,21 +1471,6 @@
       "language": "si"
     },
     {
-      "id": "qantas-long-haul-plane",
-      "headline": "Qantas හි දිගු දුර ජෙට් සැලැස්ම ඕස්ට්‍රේලියානුවන් පියාසර කරන ආකාරය වෙනස් කළ හැකිය",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-29T06:48:46Z",
-      "voiceScript": "Qantas ඉතා දිගු චාරිකා සඳහා නැවතුම් සඳහා අවශ්යතාවය අඩු කළ හැකි වාර්තා පිහිටුවීමේ ගුවන් යානා ව්යාපෘතිය සමඟ ඉදිරියට තල්ලු කරයි. ගුවන් සමාගමට ඕස්ට්‍රේලියාවේ සිට සෘජු ගමන් වඩාත් ප්‍රායෝගික වීමට අවශ්‍යයි. පරීක්ෂණය වන්නේ ගුවන් යානය සහ ආර්ථිකය යන දෙකම පරිමාණයෙන් වැඩ කළ හැකිද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/project-sunrise-why-stopovers-will-survive/hj6549f5h"
-        }
-      ],
-      "language": "si"
-    },
-    {
       "id": "wa-oil-refinery-criticism",
       "headline": "බටහිර ඔස්ට්‍රේලියාවේ යෝජිත තෙල් පිරිපහදුව වැඩෙන විවේචනවලට මුහුණ දෙමින් සිටී",
       "sourceCount": 3,
@@ -2673,21 +1523,6 @@
       "language": "si"
     },
     {
-      "id": "deepfake-school-photo-warning",
-      "headline": "පළ කරන ඡායාරූප ගැඹුරු ව්‍යාජ බවට පත් කළ හැකි බවට පාසල්වලට අනතුරු අඟවා ඇත",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-28T11:05:31Z",
-      "voiceScript": "ඔස්ට්‍රේලියානු පාසල් ඔවුන් අන්තර්ජාලය හරහා බෙදාගන්නා ඡායාරූප කෘතිම බුද්ධි ගැඹුරු ව්‍යාජ ප්‍රහාර සඳහා නැවත භාවිතා කළ හැකි බවට අනතුරු අඟවා ඇත. සාමාන්‍ය රූප අපයෝජනය සඳහා ද්‍රව්‍ය බවට පත් කළ හැකි බැවින් අවදානම න්‍යායාත්මක නොවේ. ප්‍රායෝගික අභියෝගය වන්නේ සාමාන්‍ය සන්නිවේදනය කපා හැරීමකින් තොරව පාසල් මාර්ගගත බෙදාගැනීම කළමනාකරණය කරන්නේ කෙසේද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/australian-schools-warned-photos-they-post-are-vulnerable-to-artificial-intelligence-deepfake-threat-c-22641762"
-        }
-      ],
-      "language": "si"
-    },
-    {
       "id": "emergency-alert-trial",
       "headline": "ඕස්ට්‍රේලියාවේ හදිසි අනතුරු ඇඟවීමේ පරීක්ෂණය ආවරණ හිස්තැන් පෙන්වයි",
       "sourceCount": 4,
@@ -2717,21 +1552,6 @@
         }
       ],
       "language": "si"
-    },
-    {
-      "id": "stax-collapse",
-      "language": "si",
-      "headline": "Stax ව්‍යාපාරය බිඳ වැටෙයි, නොගෙවූ ඇණවුම් පිටුපසයි",
-      "publishedAt": "2026-07-28T06:28:17.000Z",
-      "voiceScript": "ක්‍රීඩා ඇඳුම් සන්නාමය වන Stax තුරන් කිරීමේ ක්‍රියාවලියට ඇතුළු වී ඇති අතර, liquidators වාර්තාවකින් එහි මූල්‍ය තත්ත්වය හෙළි කර ඇත. වාර්තාව අනුව සම්පූර්ණ නොකළ ඇණවුම්වල වටිනාකම ආසන්න වශයෙන් ඩොලර් මිලියන 1.7ක් වන අතර, එබැවින් ගනුදෙනුකරුවන් සහ ණයහිමියෝ නැවත ලබාගත හැක්කේ කොපමණදැයි බලා සිටිති. මෙය වැදගත් වන්නේ පෙර ගෙවීම් කළ පාරිභෝගිකයන්ට සෘජු පාඩුවක් ඇති කරන වෙළඳපොළ බිඳවැටීමක් නිසාය. ඉදිරි පියවර වන්නේ තුරන් කිරීමේ ක්‍රියාවලිය සහ ණයහිමියන්ට ලැබෙන අවසාන බෙදාහැරීමයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/stax-collapse-australian-activewear-brand-leaves-thousands-of-customers-with-17m-in-unfulfilled-orders-c-22640675"
-        }
-      ],
-      "sourceCount": 1
     },
     {
       "id": "origin-data-breach-900k-customers",
@@ -2792,36 +1612,6 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/nearly-a-million-customers-caught-in-origin-data-breach"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "actu-leadership-handover",
-      "headline": "ACTU නායකත්වය භාර දීමක් සඳහා සූදානම් වෙමින් සිටී",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-28T00:00:17Z",
-      "voiceScript": "Sally McManus සහ Michele O'Neil නව පරපුරේ වෘත්තීය සමිති නායකත්වයකට මග විවර කරමින් පසෙකට වී සිටිති. ACTU තවමත් වැටුප්, සේවා ස්ථාන අයිතිවාසිකම් සහ කාර්මික මූලෝපාය පිළිබඳ විවාදය හැඩගස්වන බැවින් වෙනස වැදගත් වේ. ඊළඟට කුමක් සිදුවේද යන්න රඳා පවතින්නේ කවුරුන් භාර ගන්නේද යන්න සහ සංක්‍රාන්තිය කෙතරම් ඉක්මනින් සමථයකට පත් වන්නේද යන්න මතය.",
-      "differences": [],
-      "links": [
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/actu-leaders-sally-mcmanus-michele-oneil-step-aside-new-generation/r6x6bixff"
-        }
-      ],
-      "language": "si"
-    },
-    {
-      "id": "ato-tax-return-lodgement",
-      "headline": "ATO මිලියන ගණනක් බදු ගෙවන්නන්ට දැන් ප්‍රතිලාභ ලබා දෙන ලෙස පවසයි",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-27T21:43:43Z",
-      "voiceScript": "ATO පවසන්නේ මිලියන සංඛ්‍යාත ඕස්ට්‍රේලියානු බදු ගෙවන්නන්ට ඔවුන්ගේ ප්‍රතිලාභ ගොනු කිරීමට දැන් කාලය පැමිණ ඇති බවයි. අනතුරු ඇඟවීමේ අරමුණ වන්නේ ප්‍රමාදයන් වැලැක්වීම සහ ගොනු කිරීමේ වාරය චලනය වෙමින් තබා ගැනීමයි. ප්‍රායෝගික ප්‍රශ්නය වන්නේ ඉදිරිපත් කිරීමට පෙර මිනිසුන්ට අවශ්‍ය තොරතුරු තිබේද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/ato-tells-millions-of-australian-taxpayers-now-is-the-time-to-lodge-returns-c-22636284"
         }
       ],
       "language": "si"
