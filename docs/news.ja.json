@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T02:20:16Z",
+  "updatedAt": "2026-07-31T03:12:01Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -105,6 +105,44 @@
     "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "nsw-feral-pig-threats",
+      "headline": "野生イノシシ対策への反発の中、NSW州の大臣に脅迫",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T02:44:52Z",
+      "voiceScript": "ニューサウスウェールズ州の野生イノシシ対策をめぐり、一部の土地所有者や批判者が反発する中、州の大臣に脅迫が寄せられました。争点は、イノシシの数を減らしながら、農地や水路、公共地への被害をどう抑えるかです。野生イノシシは深刻な害獣ですが、対策は地方コミュニティで一気に政治問題になりやすいので、この話は重要です。今後は、警察と政府が脅迫への対応を進めつつ、計画を見直すかどうかを判断します。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/nsw-minister-threatened-over-feral-pig-program/106980250"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "hanson-hate-speech-finding",
+      "headline": "苦情審査の結果、ハンソン氏の「良いムスリムはいない」発言は起訴対象外と判断",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-31T02:41:25Z",
+      "voiceScript": "オーストラリアの警察は、ポーリン・ハンソン氏の「良いムスリムはいない」という発言について、ヘイトスピーチとして起訴する基準には当たらないと判断しました。審査は、Sky News のインタビューでの発言と、その後に寄せられた苦情を中心に行われました。宗教と移民が政治論争に入るとき、言論に関する法律がどこまで及ぶのかを試す事案として重要です。今後、追加の法的措置や議会対応があるかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/pauline-hanson-one-nation-hate-speech-police/106981544"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/31/pauline-hanson-muslim-comments-afp-australian-federal-police-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/pauline-hanson-no-good-muslim-claim-not-hate-speech-afp-say/news-story/b457010a9c938f20986adf78da6c8ae1"
+        }
+      ],
+      "language": "ja"
+    },
     {
       "id": "petrol-price-rise-tax-change",
       "headline": "税制変更でガソリン価格が上昇する見通し",
@@ -654,6 +692,29 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/attempted-murder-charge-for-man-after-officer-stabbed"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "zoladex-free-supply-reversal",
+      "headline": "患者の反発を受け、アストラゼネカがZoladex供給停止方針を撤回",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-30T07:54:07Z",
+      "voiceScript": "アストラゼネカは、患者と医療関係者からの強い反発を受け、オーストラリアでのZoladex供給停止方針を撤回しました。この薬は乳がんと子宮内膜症の治療に使われ、対象となる患者は無料で受け続けられると会社は説明しています。PBSに結びついた薬の供給が変わると、治療と費用の問題に直結するため重要です。次の焦点は、新しい方針がどれだけ続くか、そして高用量版も対象になるかどうかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/zoladex-pbs-astrazeneca-breast-cancer-endometriosis/106969942"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/astrazeneca-reverses-decision-on-cancer-drug-zoladex/aidbxzky4"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/health/health-problems/astrazeneca-reverses-decision-to-pull-lifesaving-cancer-and-endometriosis-drug-zoladex/news-story/079de6b925ba40c94ea186fc70b6122d"
         }
       ],
       "language": "ja"

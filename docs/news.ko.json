@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T02:20:16Z",
+  "updatedAt": "2026-07-31T03:12:01Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -105,6 +105,44 @@
     "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "nsw-feral-pig-threats",
+      "headline": "야생 멧돼지 대책 반발 속에 NSW 장관이 협박을 받았다",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T02:44:52Z",
+      "voiceScript": "뉴사우스웨일스주의 야생 멧돼지 대책을 둘러싸고 일부 토지 소유자와 비판이 거세지는 가운데, 주 장관에게 협박이 전달됐다. 쟁점은 멧돼지 수를 줄이면서 농장과 수로, 공공 토지의 피해를 어떻게 줄일지다. 야생 멧돼지는 큰 해충이지만, 관리 대책은 지역사회에서 금세 정치 쟁점이 되기 쉬워 이 사안이 중요하다. 이제 경찰과 정부는 협박에 대응하면서, 계획을 바꿀지 여부를 판단해야 한다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/nsw-minister-threatened-over-feral-pig-program/106980250"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "hanson-hate-speech-finding",
+      "headline": "민원 검토 뒤 경찰이 한슨의 “좋은 무슬림은 없다” 발언을 기소 사안이 아니라고 판단했다",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-31T02:41:25Z",
+      "voiceScript": "호주 경찰은 폴린 한슨의 “좋은 무슬림은 없다”는 발언이 혐오 발언 사건으로 기소될 수준은 아니라고 판단했다. 이번 검토는 Sky News 인터뷰에서 나온 발언과 그 뒤에 제기된 민원을 중심으로 이뤄졌다. 종교와 이민이 정치 논쟁에 들어올 때 표현 규제가 어디까지 적용되는지 시험하는 사례라서 중요하다. 앞으로 추가 법적 조치나 의회 차원의 대응이 나올지가 관건이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/pauline-hanson-one-nation-hate-speech-police/106981544"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/31/pauline-hanson-muslim-comments-afp-australian-federal-police-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/pauline-hanson-no-good-muslim-claim-not-hate-speech-afp-say/news-story/b457010a9c938f20986adf78da6c8ae1"
+        }
+      ],
+      "language": "ko"
+    },
     {
       "id": "petrol-price-rise-tax-change",
       "headline": "세금 변화로 휘발유 가격이 오를 전망이다",
@@ -654,6 +692,29 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/attempted-murder-charge-for-man-after-officer-stabbed"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "zoladex-free-supply-reversal",
+      "headline": "환자 반발 끝에 아스트라제네카가 졸라덱스 공급 중단 방침을 철회했다",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-30T07:54:07Z",
+      "voiceScript": "아스트라제네카는 환자와 의료진의 강한 반발 이후 호주에서 졸라덱스 공급을 중단하겠다는 계획을 철회했다. 이 약은 유방암과 자궁내막증 치료에 쓰이며, 대상 환자는 계속 무료로 받을 수 있다고 회사는 밝혔다. PBS와 연결된 약 공급이 바뀌면 치료와 비용 문제가 바로 생길 수 있어 이 사안이 중요하다. 이제 남은 쟁점은 새 조치가 얼마나 지속되는지, 그리고 고용량 제품도 포함될지다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/zoladex-pbs-astrazeneca-breast-cancer-endometriosis/106969942"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/astrazeneca-reverses-decision-on-cancer-drug-zoladex/aidbxzky4"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/health/health-problems/astrazeneca-reverses-decision-to-pull-lifesaving-cancer-and-endometriosis-drug-zoladex/news-story/079de6b925ba40c94ea186fc70b6122d"
         }
       ],
       "language": "ko"
