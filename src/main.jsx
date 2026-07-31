@@ -1105,6 +1105,23 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Brett Blundy",
+    aliases: ["Brett Blundy", "布雷特·布伦迪", "布雷特·布倫迪", "ブレット・ブランディ", "브렛 블런디"],
+    type: "public-figure",
+    social: { label: "Forbes profile", url: "https://www.forbes.com/profile/brett-blundy/" },
+    background: {
+      "zh-Hans": "澳洲零售和投资企业家，BBRC 创始人，与 Bras N Things、Lovisa、Sanity、Bonds 和 Sheridan 等消费品牌交易相关，是澳洲富豪榜上的知名商业人物。",
+      "zh-Hant": "澳洲零售和投資企業家，BBRC 創辦人，與 Bras N Things、Lovisa、Sanity、Bonds 和 Sheridan 等消費品牌交易相關，是澳洲富豪榜上的知名商業人物。",
+      en: "Australian retail and investment entrepreneur, founder of BBRC and a prominent Rich List business figure linked to brands and deals including Bras N Things, Lovisa, Sanity, Bonds and Sheridan.",
+      es: "Empresario australiano de retail e inversión, fundador de BBRC y figura destacada de las listas de riqueza, vinculado a marcas y operaciones como Bras N Things, Lovisa, Sanity, Bonds y Sheridan.",
+      ja: "豪州の小売・投資起業家。BBRC 創業者で、Bras N Things、Lovisa、Sanity、Bonds、Sheridan などのブランドや取引に関わる富豪リスト常連の実業家です。",
+      ko: "호주의 소매 및 투자 기업가로 BBRC 창업자입니다. Bras N Things, Lovisa, Sanity, Bonds, Sheridan 등 브랜드와 거래로 알려진 부호 명단의 주요 기업인입니다.",
+      vi: "Doanh nhân bán lẻ và đầu tư người Úc, nhà sáng lập BBRC và là gương mặt nổi bật trên Rich List, gắn với các thương hiệu và thương vụ như Bras N Things, Lovisa, Sanity, Bonds và Sheridan.",
+      th: "ผู้ประกอบการค้าปลีกและการลงทุนชาวออสเตรเลีย ผู้ก่อตั้ง BBRC และนักธุรกิจที่ติด Rich List ซึ่งเกี่ยวข้องกับแบรนด์และดีลอย่าง Bras N Things, Lovisa, Sanity, Bonds และ Sheridan",
+      si: "Australian retail සහ investment entrepreneur, BBRC founder සහ Rich List business figure කෙනෙකි; Bras N Things, Lovisa, Sanity, Bonds සහ Sheridan වැනි brands/deals සමඟ සම්බන්ධය ඇත."
+    }
+  },
+  {
     name: "Lia Finocchiaro",
     aliases: ["Lia Finocchiaro", "Lia Emele Finocchiaro", "莉娅·菲诺基亚罗", "莉婭·菲諾基亞羅", "リア・フィノキアーロ", "리아 피노키아로"],
     type: "politician",
