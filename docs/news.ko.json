@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T19:11:49.017Z",
+  "updatedAt": "2026-07-31T20:16:06.823Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -108,6 +108,43 @@
   ],
   "clusters": [
     {
+      "id": "northern-prawn-fishery-record-low-trawler-count",
+      "headline": "북부 새우 어장이 열렸지만 출항 트롤선 수는 최저치",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T19:05:09Z",
+      "voiceScript": "호주 북부 새우 어장이 시작됐지만 북부 새우 어장으로 나선 트롤선은 27척뿐으로, 지난해 활동한 선단의 절반 수준입니다. 이 변화는 극북 지역의 일자리와 공급망, 항만 활동에 영향을 주는 동시에 연료비와 운영비가 업계를 압박하고 있음을 보여줍니다. 이제 관건은 더 적은 배가 남은 시즌에서 더 나은 어획을 낼지, 아니면 전체 물량이 줄어들지입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/record-low-number-of-trawlers-sail-for-npf-tiger-prawn-season/106979310"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "marine-parks-norfolk-lord-howe-expansion",
+      "headline": "호주가 노퍽섬과 로드하우섬 주변 해양보호구역 확대에 나선다",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-31T15:00:20Z",
+      "voiceScript": "연방정부는 노퍽섬과 로드하우섬 주변 해양보호구역을 약 67만 제곱킬로미터 넓히고 일부 구역을 더 강한 보호 등급으로 올리는 방안을 내놨습니다. 이 계획은 해당 해역의 어업과 해저 채굴, 다른 채취 활동을 막게 되며, 희귀종 서식지와 관광, 해안 생태계를 지키는 것이 핵심 이유입니다. 앞으로는 협의 과정이 관건이며, 수산업과 지역 이해관계의 반발 속에서 계획이 얼마나 유지될지가 지켜봐야 합니다.",
+      "differences": [
+        "한 보도는 연방정부의 환경 발표와 새로 추가되는 보호 해역의 규모를 강조합니다.",
+        "다른 보도는 이를 정치와 환경을 함께 다루는 더 큰 흐름 속에 놓고, 보전 단체들의 지지도 언급합니다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/federal-politics-live-blog-ndis-july-31/106980178"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/31/australia-news-live-working-with-children-check-garma-festival-anthony-albanese-labor-angus-taylor-coalition-one-nation-pauline-hanson-ntwnfb"
+        }
+      ],
+      "language": "ko"
+    },
+    {
       "id": "alan-jones-court-reporting",
       "headline": "앨런 존스 재판에서 보도 범위도 쟁점이 됐다",
       "sourceCount": 2,
@@ -137,6 +174,21 @@
           "score": 5
         }
       ]
+    },
+    {
+      "id": "nsw-ombudsman-sewage-flood-compensation",
+      "headline": "반복된 하수 역류 뒤 NSW 세입자에게 전액 보상이 필요하다고 옴부즈맨",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T15:00:18Z",
+      "voiceScript": "뉴사우스웨일스 공공주택 세입자가 하수 역류를 여러 차례 겪은 뒤 NSW 주택기관의 대응이 부적절했다는 판단이 나오면서 전액 보상을 받게 됐습니다. 조사 결과 세간이 오염된 상태로 오래 방치됐고, 이후에도 제대로 세척되거나 돌려받지 못해 단순한 유지보수 문제가 취약한 세입자에게 더 큰 손실로 번졌습니다. 공공주택 기관은 주거가 안전하지 않게 되면 신속하고 책임 있게 대응해야 한다는 점에서 이 사안의 의미가 큽니다. NSW 주택기관은 권고를 받아들였지만, 보상과 절차 개선이 얼마나 빨리 이뤄질지가 이제 관건입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/nsw-should-compensate-elderly-woman-whose-public-housing-was-inundated-with-sewage-ombudsman-finds-ntwnfb"
+        }
+      ],
+      "language": "ko"
     },
     {
       "id": "football-australia-fifa-plan",
@@ -1007,49 +1059,6 @@
       "language": "ko"
     },
     {
-      "id": "optus-triple-zero-lawsuit",
-      "headline": "옵터스, 트리플 제로 장애로 다시 법정에 선다",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-30T20:51:35Z",
-      "voiceScript": "호주 통신 규제 당국은 2025년 네트워크 장애로 일부 긴급 전화가 연결되지 않았다며 옵터스를 상대로 연방법원 소송을 시작했다. 쟁점은 회사가 트리플 제로 서비스를 유지하고, 실패한 통화를 제대로 처리할 의무를 위반했는지 여부다. 이 사안이 중요한 이유는 이번 장애가 심각한 공공 안전 실패를 드러냈고, 규제 당국과 정부, 이용자 모두가 책임을 요구하고 있기 때문이다. 다음 단계는 법원 절차와 함께 벌금, 그리고 회사가 약속한 네트워크 개선이다.",
-      "differences": [
-        "AAP은 소송 자체와 부과될 수 있는 벌금을 더 부각한다.",
-        "SBS News는 실패한 통화와 규제 당국의 도전을 중심에 둔다.",
-        "news.com.au는 치명적이었던 2025년 장애의 더 큰 파장을 강조한다."
-      ],
-      "links": [
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/optus-sued-by-watchdog-over-triple-zero-network-outage"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/acma-sues-optus-over-2025-netword-outage-and-failed-triple-zero-calls/t2ty0fm4v"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/regulator-launches-legal-action-against-optus-over-deadly-september-2025-triple0-outage/news-story/fa93f881710562afd04a86942d53367d"
-        }
-      ],
-      "language": "ko",
-      "socialDiscussions": [
-        {
-          "platform": "YouTube",
-          "account": "SBS News",
-          "title": "Optus sued over Triple Zero outage | US interest rates on hold",
-          "url": "https://www.youtube.com/watch?v=OEtzOrre1oM",
-          "score": 5
-        },
-        {
-          "platform": "X",
-          "account": "InnovationAus",
-          "title": "Optus faces $250m fine in court battle over Triple Zero outage",
-          "url": "https://x.com/Innov_Aus/status/2082636762182984037",
-          "score": 4
-        }
-      ]
-    },
-    {
       "id": "australia-el-nino-hotter-drier-spring",
       "headline": "엘니뇨가 급격히 강해지며 호주 대부분이 더 덥고 건조한 봄을 맞을 전망",
       "sourceCount": 2,
@@ -1211,27 +1220,6 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/married-at-first-sight-star-s-games-date-falls-flat"
-        }
-      ],
-      "language": "ko"
-    },
-    {
-      "id": "glasgow-wind-hurdles",
-      "headline": "글래스고의 강풍 속에서도 호주 선수들은 메달 경쟁을 이어간다",
-      "voiceScript": "글래스고에서는 호주 선수들이 하루 종일 강한 바람과 싸웠다. 이런 조건은 허들 리듬을 무너뜨릴 수 있고, 작은 조정 하나도 매우 중요해진다. Michelle Jenneke 와 Cameron McEntyre 가 환경에 적응하려 애쓰는 가운데, Jessica Hull 은 여자 마일 결승에 올라 호주의 메달 기대를 이어 갔다. 날씨가 경기 계획을 바꾸는 힘은 컨디션 못지않게 크기 때문에 이 소식은 중요하다. 다음은 저녁 결승전이며, 기술과 전술이 결과를 가를 것이다.",
-      "differences": [
-        "ABC 는 허들 경기와 바람의 영향에 집중하고, AAP 는 Jessica Hull 의 진출과 호주 트랙 캠페인 전체를 더 넓게 다룬다."
-      ],
-      "sourceCount": 2,
-      "publishedAt": "2026-07-30T13:12:00.000Z",
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/michelle-jenneke-glasgow-commonwealth-games-cam-mcentyre-wind/106979514"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/hull-safely-through-to-lead-aussie-women-s-mile-charge"
         }
       ],
       "language": "ko"
@@ -2249,35 +2237,6 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/jul/27/pauline-hanson-mehreen-faruqi-racial-discrimination-act-finding-ntwnfb"
-        }
-      ],
-      "language": "ko"
-    },
-    {
-      "id": "ausalert-coverage-gap-test",
-      "headline": "전국 경보 시험에서 도달 공백 드러나",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-27T02:02:00Z",
-      "voiceScript": "호주의 새 AusAlert 시스템이 전국 시험을 거쳤고, 호환 기기 대부분에는 경보가 전달됐지만 전부는 아니었다. 공식 설명과 7NEWS 보도에 따르면 대상 기지국의 약 94%가 송출에 성공했지만, 경보를 받지 못한 휴대전화도 있었다. 이 시스템은 산불과 홍수 같은 비상 상황에서 빠르게 알리기 위한 것이어서 중요하다. 10월 정식 도입 전 추가 조정이나 재시험이 필요한지가 다음 쟁점이다.",
-      "differences": [
-        "Guardian은 숨겨둔 휴대전화와 가정폭력 위험을 강조하고, 방송형 보도는 경보음과 기기 호환성에 더 초점을 맞춥니다."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-27/experts-answers-your-questions-ahead-of-aus-alert-test/106953128"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/ausalert-test-survey-finds-one-in-nine-australians-not-reached-during-trial-of-emergency-lifeline-c-22641479"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/27/ausalert-national-alert-test-sound-emergency-warning-system-time-date"
-        },
-        {
-          "source": "9News",
-          "url": "https://www.9news.com.au/today"
         }
       ],
       "language": "ko"
