@@ -6,6 +6,7 @@ import {
   Download,
   ExternalLink,
   Filter,
+  Flame,
   MessageSquareText,
   Radio,
   RefreshCw,
@@ -228,6 +229,12 @@ const I18N = {
     socialProfile: "主要账号",
     background: "背景",
     politicalPositions: "主要言论",
+    socialDiscussions: "热门讨论",
+    socialDiscussionMeta: "热度",
+    socialComments: "评论",
+    socialShares: "分享",
+    socialLikes: "点赞",
+    socialScore: "分数",
     install: "安装到设备",
     sources: "来源",
     noticeTitle: "内容说明",
@@ -262,6 +269,12 @@ const I18N = {
     socialProfile: "主要帳號",
     background: "背景",
     politicalPositions: "主要言論",
+    socialDiscussions: "熱門討論",
+    socialDiscussionMeta: "熱度",
+    socialComments: "評論",
+    socialShares: "分享",
+    socialLikes: "按讚",
+    socialScore: "分數",
     install: "安裝到裝置",
     sources: "來源",
     noticeTitle: "內容說明",
@@ -296,6 +309,12 @@ const I18N = {
     socialProfile: "ප්‍රධාන ගිණුම",
     background: "පසුබිම",
     politicalPositions: "ප්‍රධාන අදහස්",
+    socialDiscussions: "ජනප්‍රිය සාකච්ඡා",
+    socialDiscussionMeta: "උණුසුම",
+    socialComments: "අදහස්",
+    socialShares: "බෙදාගැනීම්",
+    socialLikes: "කැමැත්ත",
+    socialScore: "ලකුණු",
     install: "ස්ථාපනය",
     sources: "මූලාශ්‍ර",
     noticeTitle: "අන්තර්ගත සටහන",
@@ -330,6 +349,12 @@ const I18N = {
     socialProfile: "Main account",
     background: "Background",
     politicalPositions: "Main positions",
+    socialDiscussions: "Hot discussions",
+    socialDiscussionMeta: "Engagement",
+    socialComments: "comments",
+    socialShares: "shares",
+    socialLikes: "likes",
+    socialScore: "score",
     install: "Install",
     sources: "Sources",
     noticeTitle: "Content note",
@@ -364,6 +389,12 @@ const I18N = {
     socialProfile: "Cuenta principal",
     background: "Contexto",
     politicalPositions: "Posturas principales",
+    socialDiscussions: "Debates populares",
+    socialDiscussionMeta: "Interacción",
+    socialComments: "comentarios",
+    socialShares: "compartidos",
+    socialLikes: "me gusta",
+    socialScore: "puntuación",
     install: "Instalar",
     sources: "Fuentes",
     noticeTitle: "Nota de contenido",
@@ -398,6 +429,12 @@ const I18N = {
     socialProfile: "主なアカウント",
     background: "背景",
     politicalPositions: "主な主張",
+    socialDiscussions: "話題の議論",
+    socialDiscussionMeta: "反応",
+    socialComments: "コメント",
+    socialShares: "共有",
+    socialLikes: "いいね",
+    socialScore: "スコア",
     install: "インストール",
     sources: "ソース",
     noticeTitle: "コンテンツ注記",
@@ -432,6 +469,12 @@ const I18N = {
     socialProfile: "주요 계정",
     background: "배경",
     politicalPositions: "주요 입장",
+    socialDiscussions: "인기 토론",
+    socialDiscussionMeta: "반응",
+    socialComments: "댓글",
+    socialShares: "공유",
+    socialLikes: "좋아요",
+    socialScore: "점수",
     install: "설치",
     sources: "출처",
     noticeTitle: "콘텐츠 안내",
@@ -466,6 +509,12 @@ const I18N = {
     socialProfile: "Tài khoản chính",
     background: "Bối cảnh",
     politicalPositions: "Lập trường chính",
+    socialDiscussions: "Thảo luận nổi bật",
+    socialDiscussionMeta: "Tương tác",
+    socialComments: "bình luận",
+    socialShares: "chia sẻ",
+    socialLikes: "thích",
+    socialScore: "điểm",
     install: "Cài đặt",
     sources: "Nguồn",
     noticeTitle: "Ghi chú nội dung",
@@ -500,6 +549,12 @@ const I18N = {
     socialProfile: "บัญชีหลัก",
     background: "พื้นหลัง",
     politicalPositions: "จุดยืนหลัก",
+    socialDiscussions: "ประเด็นที่คุยกันมาก",
+    socialDiscussionMeta: "การมีส่วนร่วม",
+    socialComments: "ความคิดเห็น",
+    socialShares: "แชร์",
+    socialLikes: "ถูกใจ",
+    socialScore: "คะแนน",
     install: "ติดตั้ง",
     sources: "แหล่งข่าว",
     noticeTitle: "หมายเหตุเนื้อหา",
@@ -1529,6 +1584,68 @@ function SourceLogo({ name }) {
   );
 }
 
+function validSocialDiscussions(cluster) {
+  return (cluster?.socialDiscussions || [])
+    .filter((item) => item?.platform && item?.title && item?.url)
+    .sort((a, b) => Number(b.score || 0) - Number(a.score || 0))
+    .slice(0, 5);
+}
+
+function compactNumber(value) {
+  const number = Number(value || 0);
+  if (!Number.isFinite(number) || number <= 0) return "";
+  if (number >= 1000000) return `${(number / 1000000).toFixed(number >= 10000000 ? 0 : 1)}M`;
+  if (number >= 1000) return `${(number / 1000).toFixed(number >= 10000 ? 0 : 1)}k`;
+  return String(number);
+}
+
+function discussionMeta(item, labels) {
+  const parts = [
+    compactNumber(item.comments) && `${compactNumber(item.comments)} ${labels.socialComments}`,
+    compactNumber(item.shares || item.reposts) && `${compactNumber(item.shares || item.reposts)} ${labels.socialShares}`,
+    compactNumber(item.likes || item.upvotes) && `${compactNumber(item.likes || item.upvotes)} ${labels.socialLikes}`
+  ].filter(Boolean);
+
+  if (!parts.length && item.score) parts.push(`${labels.socialScore} ${compactNumber(item.score)}`);
+  return parts.length ? `${labels.socialDiscussionMeta}: ${parts.join(" · ")}` : item.postedAt || "";
+}
+
+function SocialDiscussionList({ discussions, labels }) {
+  if (!discussions.length) return null;
+
+  return (
+    <article className="social-panel">
+      <div className="social-heading">
+        <Flame size={17} />
+        <strong>{labels.socialDiscussions}</strong>
+      </div>
+      <div className="social-discussion-list">
+        {discussions.map((item) => (
+          <SocialDiscussionLink item={item} labels={labels} key={`${item.platform}-${item.url}`} />
+        ))}
+      </div>
+    </article>
+  );
+}
+
+function SocialDiscussionLink({ item, labels }) {
+  const meta = discussionMeta(item, labels);
+  const owner = item.community || item.account || item.author;
+
+  return (
+    <a href={item.url} target="_blank" rel="noreferrer">
+      <span className="social-platform">{item.platform}</span>
+      <span className="social-title">{item.title}</span>
+      <span className="social-meta">
+        {owner}
+        {owner && meta ? " · " : ""}
+        {meta}
+      </span>
+      <ExternalLink size={14} />
+    </a>
+  );
+}
+
 function PeopleContextList({ people, labels, language }) {
   return (
     <div className="people-list">
@@ -1772,6 +1889,7 @@ function App() {
   const activeDifferences = uniqueDifferences(displayActive);
   const activeCommentary = showCommentary ? getFourNewsCommentary(displayActive, language) : "";
   const activePeople = showPeopleContext ? mentionedPeople(displayActive).filter((person) => person.type === "politician") : [];
+  const activeSocialDiscussions = validSocialDiscussions(displayActive);
 
   useEffect(() => {
     if (activeId && clusters.length && !clusters.some((cluster) => cluster.id === activeId)) {
@@ -1973,6 +2091,7 @@ function App() {
             const people = showPeopleContext
               ? mentionedPeople(displayCluster).filter((person) => person.type === "politician")
               : [];
+            const socialDiscussions = validSocialDiscussions(displayCluster);
 
             return (
               <article
@@ -2051,6 +2170,10 @@ function App() {
                     </div>
                   )}
 
+                  {socialDiscussions.length > 0 && (
+                    <SocialDiscussionList discussions={socialDiscussions} labels={labels} />
+                  )}
+
                   <div className="mobile-section">
                     <div className="link-list">
                       {displayCluster.links.map((link) => (
@@ -2122,6 +2245,8 @@ function App() {
                 <PeopleContextList people={activePeople} labels={labels} language={language} />
               </article>
             )}
+
+            <SocialDiscussionList discussions={activeSocialDiscussions} labels={labels} />
 
             <div className={`detail-grid ${activeDifferences.length === 0 ? "single-column" : ""}`}>
               {activeDifferences.length > 0 && (
