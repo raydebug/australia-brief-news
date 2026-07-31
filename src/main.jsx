@@ -976,6 +976,40 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Jillian Segal",
+    aliases: ["Jillian Segal", "Jillian Shirley Segal", "Jillian Segal AO", "吉莉安·西格尔", "吉莉安·西格爾", "ジリアン・シーガル", "질리언 시걸"],
+    type: "public-figure",
+    social: { label: "Official profile", url: "https://www.aseca.gov.au/about" },
+    background: {
+      "zh-Hans": "澳大利亚律师、企业董事和社区领袖，2024 年被任命为澳大利亚首任打击反犹太主义特别特使。她曾任澳大利亚证券与投资委员会副主席、澳大利亚犹太人执行委员会主席，并长期参与企业和非营利机构治理。",
+      "zh-Hant": "澳洲律師、企業董事和社區領袖，2024 年被任命為澳洲首任打擊反猶太主義特別特使。她曾任澳洲證券與投資委員會副主席、澳洲猶太人執行委員會主席，並長期參與企業和非營利機構治理。",
+      en: "Australian lawyer, company director and community leader appointed in 2024 as Australia's first Special Envoy to Combat Antisemitism. She previously served as deputy chair of ASIC, president of the Executive Council of Australian Jewry and on corporate and non-profit boards.",
+      es: "Abogada, directora empresarial y líder comunitaria australiana, nombrada en 2024 primera Special Envoy to Combat Antisemitism de Australia. Antes fue vicepresidenta de ASIC, presidenta del Executive Council of Australian Jewry y miembro de consejos corporativos y sin ánimo de lucro.",
+      ja: "オーストラリアの弁護士、企業取締役、コミュニティ指導者。2024年に同国初の反ユダヤ主義対策特使に任命されました。ASIC 副委員長、Executive Council of Australian Jewry 会長、企業・非営利団体の理事を務めました。",
+      ko: "호주의 변호사, 기업 이사, 커뮤니티 리더로 2024년 호주 최초의 반유대주의 대응 특별특사로 임명됐습니다. ASIC 부의장, Executive Council of Australian Jewry 회장, 기업 및 비영리 이사회 직책을 지냈습니다.",
+      vi: "Luật sư, giám đốc doanh nghiệp và lãnh đạo cộng đồng tại Úc, được bổ nhiệm năm 2024 làm Special Envoy to Combat Antisemitism đầu tiên của Australia. Bà từng là phó chủ tịch ASIC, chủ tịch Executive Council of Australian Jewry và tham gia các hội đồng doanh nghiệp, phi lợi nhuận.",
+      th: "นักกฎหมาย กรรมการบริษัท และผู้นำชุมชนของออสเตรเลีย ได้รับแต่งตั้งในปี 2024 เป็น Special Envoy to Combat Antisemitism คนแรกของประเทศ เคยเป็นรองประธาน ASIC ประธาน Executive Council of Australian Jewry และกรรมการองค์กรธุรกิจกับไม่แสวงกำไร",
+      si: "Australian lawyer, company director සහ community leader කෙනෙකි. 2024 දී Australia හි පළමු Special Envoy to Combat Antisemitism ලෙස පත් විය. ඇය ASIC deputy chair, Executive Council of Australian Jewry president සහ corporate/non-profit boards වල සේවය කර ඇත."
+    }
+  },
+  {
+    name: "Nina Sanadze",
+    aliases: ["Nina Sanadze", "尼娜·萨纳泽", "尼娜·薩納澤", "ニナ・サナゼ", "니나 사나제"],
+    type: "public-figure",
+    social: { label: "Official website", url: "https://ninasanadze.com/bio/" },
+    background: {
+      "zh-Hans": "苏联出生、现居墨尔本的视觉艺术家和雕塑家，作品常围绕纪念碑、档案、冲突记忆与和平建设。她曾获 2021 年 churchie emerging art prize 主要奖项，并在澳大利亚艺术机构展出。",
+      "zh-Hant": "蘇聯出生、現居墨爾本的視覺藝術家和雕塑家，作品常圍繞紀念碑、檔案、衝突記憶與和平建設。她曾獲 2021 年 churchie emerging art prize 主要獎項，並在澳洲藝術機構展出。",
+      en: "Soviet-born, Melbourne-based visual artist and sculptor whose work often deals with monuments, archives, conflict memory and peacebuilding. She won the major 2021 churchie emerging art prize and has exhibited with Australian arts institutions.",
+      es: "Artista visual y escultora nacida en la Unión Soviética y radicada en Melbourne, cuya obra aborda monumentos, archivos, memoria del conflicto y construcción de paz. Ganó el premio principal churchie emerging art prize 2021 y ha expuesto en instituciones artísticas australianas.",
+      ja: "ソビエト生まれ、メルボルン拠点の視覚芸術家・彫刻家。記念碑、アーカイブ、紛争の記憶、平和構築を扱う作品で知られます。2021年の churchie emerging art prize 主要賞を受賞し、豪州の芸術機関で展示しています。",
+      ko: "소련 출생으로 멜버른에서 활동하는 시각예술가이자 조각가입니다. 기념비, 아카이브, 분쟁 기억, 평화 구축을 다루는 작업을 해왔습니다. 2021년 churchie emerging art prize 주요상을 받았고 호주 예술기관에서 전시했습니다.",
+      vi: "Nghệ sĩ thị giác và nhà điêu khắc sinh ở Liên Xô, sống tại Melbourne, với tác phẩm thường xoay quanh tượng đài, lưu trữ, ký ức xung đột và xây dựng hòa bình. Bà đoạt giải chính churchie emerging art prize 2021 và đã triển lãm tại các tổ chức nghệ thuật Úc.",
+      th: "ศิลปินทัศนศิลป์และประติมากรที่เกิดในสหภาพโซเวียตและทำงานในเมลเบิร์น ผลงานมักเกี่ยวกับอนุสาวรีย์ เอกสารจดหมายเหตุ ความทรงจำจากความขัดแย้ง และ peacebuilding เธอชนะรางวัลหลัก churchie emerging art prize ปี 2021 และจัดแสดงกับสถาบันศิลปะในออสเตรเลีย",
+      si: "Soviet-born, Melbourne-based visual artist සහ sculptor කෙනෙකි. ඇගේ කෘති monuments, archives, conflict memory සහ peacebuilding වටා බොහෝවිට වේ. 2021 churchie emerging art prize major award දිනාගෙන Australian arts institutions සමඟ ප්‍රදර්ශනය කර ඇත."
+    }
+  },
+  {
     name: "Pauline Hanson",
     aliases: ["Pauline Hanson", "保琳·汉森", "保琳·漢森", "ポーリン・ハンソン", "폴린 핸슨"],
     type: "politician",
