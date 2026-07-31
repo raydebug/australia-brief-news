@@ -1105,6 +1105,34 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Lia Finocchiaro",
+    aliases: ["Lia Finocchiaro", "Lia Emele Finocchiaro", "莉娅·菲诺基亚罗", "莉婭·菲諾基亞羅", "リア・フィノキアーロ", "리아 피노키아로"],
+    type: "politician",
+    social: { label: "Official profile", url: "https://parliament.nt.gov.au/members/by-name/lia-finocchiaro" },
+    background: {
+      "zh-Hans": "北领地 Country Liberal Party 政治人物，Spillett 选区 MLA，2024 年起任北领地首席部长。进入政界前曾从事法律工作，是北领地首位非工党女性首席部长。",
+      "zh-Hant": "北領地 Country Liberal Party 政治人物，Spillett 選區 MLA，2024 年起任北領地首席部長。進入政界前曾從事法律工作，是北領地首位非工黨女性首席部長。",
+      en: "Country Liberal Party politician, MLA for Spillett and Chief Minister of the Northern Territory since 2024. Before politics she worked in law and became the Territory's first non-Labor woman chief minister.",
+      es: "Política del Country Liberal Party, MLA por Spillett y jefa de Gobierno del Territorio del Norte desde 2024. Antes trabajó en derecho y es la primera mujer no laborista en ocupar ese cargo en el Territorio.",
+      ja: "北部準州 Country Liberal Party の政治家。Spillett 選出 MLA で、2024年から北部準州首席大臣。政界入り前は法律分野で働き、同準州初の非労働党女性首席大臣です。",
+      ko: "노던준주 Country Liberal Party 정치인으로 Spillett 지역구 MLA이며 2024년부터 노던준주 수석장관입니다. 정계 전에는 법률 분야에서 일했고 준주 최초의 비노동당 여성 수석장관이 됐습니다.",
+      vi: "Chính trị gia Country Liberal Party, MLA khu Spillett và Chief Minister của Northern Territory từ năm 2024. Trước chính trị bà làm trong ngành luật và là nữ chief minister không thuộc Labor đầu tiên của Territory.",
+      th: "นักการเมือง Country Liberal Party ของ Northern Territory, MLA เขต Spillett และ Chief Minister ตั้งแต่ปี 2024 ก่อนเข้าสู่การเมืองทำงานด้านกฎหมาย และเป็นผู้หญิงนอก Labor คนแรกที่เป็น chief minister ของ Territory",
+      si: "Country Liberal Party දේශපාලනඥයෙකු වන Lia Finocchiaro Spillett MLA සහ 2024 සිට Northern Territory Chief Minister වේ. දේශපාලනයට පෙර law ක්ෂේත්‍රයේ කටයුතු කළ අතර Territory හි පළමු non-Labor woman chief minister විය."
+    },
+    positions: {
+      "zh-Hans": "主要强调治安、警务和刑责年龄改革、北澳产业与国防发展、审批提速和经济投资；在原住民事务和传统土地承认议题上经常面对争议。",
+      "zh-Hant": "主要強調治安、警務和刑責年齡改革、北澳產業與國防發展、審批提速和經濟投資；在原住民事務和傳統土地承認議題上經常面對爭議。",
+      en: "Her main themes include law and order, policing and age-of-criminal-responsibility reform, northern industry and defence development, faster approvals and investment; Indigenous affairs and acknowledgements of Country often test her government.",
+      es: "Sus temas centrales incluyen seguridad, policía y edad de responsabilidad penal, desarrollo industrial y de defensa del norte, aprobaciones más rápidas e inversión; asuntos indígenas y acknowledgements of Country suelen poner a prueba a su gobierno.",
+      ja: "治安、警察、刑事責任年齢改革、北部産業と防衛開発、承認手続きの迅速化、投資を重視します。先住民政策と土地承認を巡る問題が政権の課題です。",
+      ko: "법질서, 치안, 형사책임연령 개혁, 북부 산업과 국방 개발, 인허가 신속화와 투자를 강조합니다. 원주민 문제와 Country 인정 발언은 정부를 자주 시험합니다.",
+      vi: "Bà nhấn mạnh law and order, policing, cải cách tuổi chịu trách nhiệm hình sự, phát triển công nghiệp và quốc phòng miền bắc, đẩy nhanh phê duyệt và đầu tư; vấn đề Indigenous và acknowledgements of Country thường gây áp lực cho chính phủ.",
+      th: "ประเด็นหลักคือ law and order ตำรวจ การปฏิรูปอายุความรับผิดทางอาญา อุตสาหกรรมและกลาโหมภาคเหนือ การเร่งอนุมัติ และการลงทุน ส่วนประเด็น Indigenous affairs และ acknowledgements of Country มักทดสอบรัฐบาลของเธอ",
+      si: "ඇය law and order, policing, age-of-criminal-responsibility reform, northern industry/defence development, faster approvals සහ investment අවධාරණය කරයි; Indigenous affairs සහ acknowledgements of Country රජයට නිතර පීඩනයක් වේ."
+    }
+  },
+  {
     name: "Sam Mostyn",
     aliases: [
       "Sam Mostyn",
@@ -1259,6 +1287,23 @@ const PEOPLE_CONTEXT = [
       vi: "VĐV 100m rào của Úc, nhiều lần dự Olympic và giải thế giới, nhiều lần vô địch quốc gia 100m rào.",
       th: "นักวิ่งข้ามรั้ว 100 เมตรของออสเตรเลีย เป็นตัวแทนโอลิมปิกและชิงแชมป์โลกหลายครั้ง และแชมป์ประเทศหลายสมัย",
       si: "Australian 100m hurdler; multiple Olympian/world championships representative සහ multiple national 100m hurdles champion."
+    }
+  },
+  {
+    name: "Glenn A. Baker",
+    aliases: ["Glenn A. Baker", "Glenn A Baker", "Glenn Baker", "格伦·A·贝克", "格倫·A·貝克", "グレン・A・ベイカー", "글렌 A. 베이커"],
+    type: "artist",
+    social: { label: "National Portrait Gallery", url: "https://www.portrait.gov.au/portraits/2018.117/glenn-a-baker" },
+    background: {
+      "zh-Hans": "澳洲音乐记者、作家和广播人，长期记录摇滚和流行音乐，曾任 Billboard 澳大利亚编辑 20 多年，并共同创办 Raven Records。",
+      "zh-Hant": "澳洲音樂記者、作家和廣播人，長期記錄搖滾和流行音樂，曾任 Billboard 澳洲編輯 20 多年，並共同創辦 Raven Records。",
+      en: "Australian music journalist, author and broadcaster who chronicled rock and pop music, served for more than 20 years as Billboard's Australian editor and co-founded Raven Records.",
+      es: "Periodista musical, autor y locutor australiano que documentó el rock y el pop, fue editor australiano de Billboard durante más de 20 años y cofundó Raven Records.",
+      ja: "豪州の音楽ジャーナリスト、作家、放送人。ロックとポップを長年記録し、Billboard 豪州編集者を20年以上務め、Raven Records を共同設立しました。",
+      ko: "호주 음악 저널리스트, 작가, 방송인으로 록과 팝 음악을 기록했고 Billboard 호주 편집자로 20년 넘게 일했으며 Raven Records를 공동 설립했습니다.",
+      vi: "Nhà báo âm nhạc, tác giả và phát thanh viên Úc, người ghi chép về rock và pop, làm biên tập viên Australia của Billboard hơn 20 năm và đồng sáng lập Raven Records.",
+      th: "นักข่าวเพลง นักเขียน และผู้จัดรายการชาวออสเตรเลีย ผู้บันทึกวงการ rock และ pop เป็นบรรณาธิการ Billboard Australia กว่า 20 ปี และร่วมก่อตั้ง Raven Records",
+      si: "Australian music journalist, author සහ broadcaster; rock/pop music chronicler කෙනෙකු වූ ඔහු Billboard Australian editor ලෙස වසර 20කට වැඩි කාලයක් කටයුතු කර Raven Records co-founded කළේය."
     }
   },
   {
