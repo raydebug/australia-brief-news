@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T07:16:12Z",
+  "updatedAt": "2026-07-31T08:17:37Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -102,9 +102,205 @@
   ],
   "errors": [
     "news.com.au latest-news RSS still renders HTML, so current-item discovery used page and search-result fallback.",
-    "The Australian and Sky News Australia still require fallback extraction for current coverage."
+    "The Australian and Sky News Australia still require fallback extraction for current coverage.",
+    "AAP and 9News current-day story URLs were discovered from homepage listings; direct article fetches were inconsistent in this environment, so the canonical links from those listings were retained."
   ],
   "clusters": [
+    {
+      "id": "ndis-provider-scrutiny",
+      "language": "en",
+      "headline": "NDIS providers face scrutiny over incorrect participant billing",
+      "voiceScript": "Some NDIS service providers have been referred to the ACCC after the government said thousands had been using questionable billing practices, including charging for items such as float tanks and golf lessons. The issue matters because small leaks across a large scheme can quickly turn into major costs for taxpayers and participants. The next step is whether regulators tighten oversight and recover money without cutting off legitimate support.",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T07:52:13Z",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/ndis-service-providers-profiting-from-incorrect-billing/106981132"
+        }
+      ]
+    },
+    {
+      "id": "garma-festival-opens-arnhem-land",
+      "headline": "Garma opens with land and fuel pledge in Arnhem Land",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-31T07:47:45Z",
+      "voiceScript": "The Garma festival has opened in north-east Arnhem Land, where the Northern Territory chief minister used her first address to promise land and fuel security after Rio Tinto's planned departure from Gove. The gathering matters because Garma often feeds into national debate on Indigenous policy, remote services and economic development. The next question is which commitments turn into practical action once the speeches end.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/lia-finocchiaro-rio-tinto-gove-peninsula-garma-mining/106980606"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/31/australia-news-live-working-with-children-check-garma-festival-anthony-albanese-labor-angus-taylor-coalition-one-nation-pauline-hanson-ntwnfb"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/garma-festival-2026-australia-explained/692xvu5au"
+        },
+        {
+          "source": "AAP",
+          "url": "https://www.aap.com.au/news/bluey-big-ideas-and-bukmak-all-in-as-garma-lights-up"
+        }
+      ],
+      "language": "en",
+      "socialDiscussions": [
+        {
+          "platform": "Reddit",
+          "community": "r/australiantelevision",
+          "title": "Garma Festival 2026: NITV / SBS guide",
+          "url": "https://www.reddit.com/r/australiantelevision/comments/1v5uakl/garma_festival_2026_nitv_sbs_guide/",
+          "score": 30
+        }
+      ]
+    },
+    {
+      "id": "qld-weirs-cost-blowout",
+      "language": "en",
+      "headline": "Queensland faces questions over a costly weirs plan",
+      "voiceScript": "Queensland's government is being asked to justify the price of two proposed weirs in the North Burnett and South Burnett regions after an election promise ran into cost blowout concerns. The issue matters because infrastructure pledges can quickly become political liabilities when the price tag rises faster than expected. The next step is whether the government can still make the numbers stack up before the projects move ahead.",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T07:44:37Z",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/queensland-overnment-questioned-budget-barlil-and-cooranga-weirs/106981428"
+        }
+      ]
+    },
+    {
+      "id": "layla-jeffery-funeral",
+      "language": "en",
+      "headline": "Mourners farewell Layla Jeffery in western Victoria",
+      "voiceScript": "Hundreds of mourners gathered in western Victoria to farewell 13-year-old Layla Jeffery after her remains were found earlier this month. The case matters because police are still dealing with an alleged murder investigation while the community tries to support grieving family and friends. The next step is the court process and the ongoing effort to establish exactly what happened.",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T07:43:20Z",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/layla-jeffery-funeral-donald-alleged-teenager-murder/106981708"
+        }
+      ]
+    },
+    {
+      "id": "revelle-balmain-inquest",
+      "headline": "Revelle Balmain inquest sharpens focus on escort agency bosses",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-31T07:42:00Z",
+      "voiceScript": "A New South Wales deputy state coroner has found evidence that the people running Revelle Balmain's escort agency knew more about what happened to her after she vanished in 1994. The latest findings keep the long-running case in the spotlight and send the matter back toward further police review. It matters because the disappearance has remained unresolved for decades and the coroner's conclusions could shape the next stage of the investigation.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/revelle-balmain-inquest-finds-escort-bosses-knew/106977496"
+        },
+        {
+          "source": "AAP",
+          "url": "https://www.aap.com.au/news/bosses-of-sex-worker-involved-in-notorious-cold-case"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/revelle-balmain-missing-sex-worker-bosses-20260731-p60kd8.html"
+        }
+      ],
+      "language": "en",
+      "socialDiscussions": [
+        {
+          "platform": "Websleuths",
+          "community": "Websleuths missing persons forum",
+          "title": "Australia - Revelle Balmain, 22, Kingsford NSW, 5 Nov 1994",
+          "url": "https://websleuths.com/threads/australia-revelle-balmain-22-kingsford-nsw-5-nov-1994.246010/",
+          "score": 80
+        },
+        {
+          "platform": "Reddit",
+          "community": "r/UnresolvedMysteries",
+          "title": "The 1994 disappearance of Revelle Balmain",
+          "url": "https://www.reddit.com/r/UnresolvedMysteries/comments/o1nzxo/the_1994_disappearance_of_revelle_balmain/",
+          "score": 50
+        }
+      ]
+    },
+    {
+      "id": "machete-attack-melbourne-clinic",
+      "language": "en",
+      "headline": "Melbourne youth mental health workers move off-site after machete attack",
+      "voiceScript": "Staff at a youth mental health clinic in Sunshine have been told to work off-site after four masked men tried to assault patients at the centre in Melbourne's west last week. The attack matters because safety fears can shut down access to care just when young people need it most. The next question is whether police can identify the attackers and whether the clinic can safely reopen.",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T07:36:42Z",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/sunshine-machete-youth-mental-health/106984140"
+        }
+      ]
+    },
+    {
+      "id": "gina-rinehart-abc-legal-threat",
+      "language": "en",
+      "headline": "Gina Rinehart escalates her dispute with the ABC over a satirical film",
+      "voiceScript": "Gina Rinehart has threatened legal action against the ABC over a Race Around the World segment that included a joke about her. The dispute matters because it puts pressure on the broadcaster over satire, editorial approval and how far a complainant can push for removal and apology. The next step is the ABC complaints process and whether the threat turns into a formal case.",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T07:19:40Z",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/media/2026/jul/31/gina-rinehart-threatens-abc-with-legal-action-over-race-around-the-world-program-ntwnfb"
+        }
+      ]
+    },
+    {
+      "id": "fazal-story-withdrawn",
+      "language": "en",
+      "headline": "ABC pulls another Mahmood Fazal report over accuracy concerns",
+      "voiceScript": "The ABC has withdrawn a third story by sacked reporter Mahmood Fazal after accuracy concerns were raised. The move matters because it deepens questions about editorial checks and how the broadcaster handled a string of sensitive reports. The next step is whether more reviews or corrections follow and whether the ABC changes its internal process.",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T07:17:45Z",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/abc-withdraws-third-mahmood-fazal-story-over-accuracy-concerns/106984112"
+        }
+      ]
+    },
+    {
+      "id": "private-health-overhaul-backlash",
+      "language": "en",
+      "headline": "Pensioner backlash grows over private health changes",
+      "voiceScript": "Polling on private health changes has left many pensioners furious, with industry experts warning the move could leave more people than expected in the lurch. The issue matters because health insurance costs sit right inside the cost-of-living fight for older Australians on fixed incomes. The next step is whether insurers and government can soften the backlash before more people rethink their cover.",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T06:08:00Z",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/millions-of-pensioners-furious-after-private-health-changes-polling-shows-20260731-p60k9g.html"
+        }
+      ]
+    },
+    {
+      "id": "glp1-demand-rises",
+      "language": "en",
+      "headline": "GLP-1 demand keeps climbing across Australia",
+      "voiceScript": "About half a million Australians are now using GLP-1 medicines, and monthly demand has risen sharply as more people pay out of pocket for treatment. The scale matters because these drugs are changing household spending and the pressure points in the private health market. The next question is whether supply, access and affordability can keep up with demand.",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T06:06:00Z",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/half-a-million-australians-now-using-glp-1-drugs-as-private-prescriptions-soar-20260731-p60kc6.html"
+        }
+      ]
+    },
     {
       "id": "crushed-glass-soil-additive",
       "headline": "Farmers trial crushed glass as a soil additive",
@@ -252,69 +448,6 @@
           "title": "HSBC set to offload $30b-plus Australian loan book to US credit giant",
           "url": "https://www.reddit.com/r/AusFinance/comments/1v7pplu/hsbc_set_to_offload_30bplus_australian_loan_book/",
           "score": 45
-        }
-      ]
-    },
-    {
-      "id": "revelle-balmain-inquest",
-      "headline": "Coroner findings put the Revelle Balmain case back under the spotlight",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T04:26:34Z",
-      "voiceScript": "A New South Wales deputy state coroner has said the evidence points to people running the escort agency knowing more about what happened to Revelle Balmain, who disappeared in 1994. The finding gives the long-running inquest a sharper focus and keeps pressure on the unanswered questions around her disappearance. It matters because the case has remained unresolved for decades and the latest findings could shape any final recommendations. The next step is the coroner's formal conclusions and whether they trigger more follow-up.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/revelle-balmain-inquest-finds-escort-bosses-knew/106977496"
-        }
-      ],
-      "language": "en",
-      "socialDiscussions": [
-        {
-          "platform": "Websleuths",
-          "community": "Websleuths missing persons forum",
-          "title": "Australia - Revelle Balmain, 22, Kingsford NSW, 5 Nov 1994",
-          "url": "https://websleuths.com/threads/australia-revelle-balmain-22-kingsford-nsw-5-nov-1994.246010/",
-          "score": 80
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/UnresolvedMysteries",
-          "title": "The 1994 disappearance of Revelle Balmain",
-          "url": "https://www.reddit.com/r/UnresolvedMysteries/comments/o1nzxo/the_1994_disappearance_of_revelle_balmain/",
-          "score": 50
-        }
-      ]
-    },
-    {
-      "id": "garma-festival-opens-arnhem-land",
-      "headline": "Garma festival opens in Arnhem Land with culture and policy in focus",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-31T04:14:51Z",
-      "voiceScript": "The Garma festival has opened in northeast Arnhem Land, bringing Yolŋu culture, community leadership and national debate into the same gathering. The event runs for several days and remains one of the country's most important Indigenous forums. It matters because speeches and meetings there often feed into national discussion on recognition, services and funding. The main unknown is what policy detail, if any, emerges as the festival unfolds.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/garma-festival-julian-leeser-criticises-anthony-albanese/106981674"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/31/australia-news-live-working-with-children-check-garma-festival-anthony-albanese-labor-angus-taylor-coalition-one-nation-pauline-hanson-ntwnfb"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/garma-festival-2026-australia-explained/692xvu5au"
-        }
-      ],
-      "language": "en",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/australiantelevision",
-          "title": "Garma Festival 2026: NITV / SBS guide",
-          "url": "https://www.reddit.com/r/australiantelevision/comments/1v5uakl/garma_festival_2026_nitv_sbs_guide/",
-          "score": 30
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T07:16:12Z",
+  "updatedAt": "2026-07-31T08:17:37Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -102,9 +102,205 @@
   ],
   "errors": [
     "news.com.au latest-news RSS still renders HTML, so current-item discovery used page and search-result fallback.",
-    "The Australian and Sky News Australia still require fallback extraction for current coverage."
+    "The Australian and Sky News Australia still require fallback extraction for current coverage.",
+    "AAP and 9News current-day story URLs were discovered from homepage listings; direct article fetches were inconsistent in this environment, so the canonical links from those listings were retained."
   ],
   "clusters": [
+    {
+      "id": "ndis-provider-scrutiny",
+      "language": "ja",
+      "headline": "NDIS事業者、参加者への誤請求で監視強化",
+      "voiceScript": "一部のNDIS事業者は、浮遊浴槽やゴルフレッスンのような項目まで請求するなど、不適切な請求慣行があったとしてACCCに送られました。大規模な制度では小さな漏れでも、納税者と利用者にとって大きな負担になり得るため、この問題は重要です。次の焦点は、規制当局が監視を強めつつ、正当な支援を止めずに資金を回収できるかどうかです。",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T07:52:13Z",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/ndis-service-providers-profiting-from-incorrect-billing/106981132"
+        }
+      ]
+    },
+    {
+      "id": "garma-festival-opens-arnhem-land",
+      "headline": "アーネムランドのGarmaが土地と燃料の約束とともに開幕",
+      "sourceCount": 4,
+      "publishedAt": "2026-07-31T07:47:45Z",
+      "voiceScript": "Garmaフェスティバルがアーネムランド北東部で開幕し、ノーザンテリトリー首席大臣は最初の演説で、GoveからRio Tintoが撤退する計画を受けて土地と燃料の確保を約束しました。Garmaは先住民政策、遠隔地サービス、経済開発をめぐる全国的な議論に影響を与えるため、この集まりは重要です。演説が終わったあと、どの約束が実際の措置になるのかが次の焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/lia-finocchiaro-rio-tinto-gove-peninsula-garma-mining/106980606"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/31/australia-news-live-working-with-children-check-garma-festival-anthony-albanese-labor-angus-taylor-coalition-one-nation-pauline-hanson-ntwnfb"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/garma-festival-2026-australia-explained/692xvu5au"
+        },
+        {
+          "source": "AAP",
+          "url": "https://www.aap.com.au/news/bluey-big-ideas-and-bukmak-all-in-as-garma-lights-up"
+        }
+      ],
+      "language": "ja",
+      "socialDiscussions": [
+        {
+          "platform": "Reddit",
+          "community": "r/australiantelevision",
+          "title": "Garma Festival 2026: NITV / SBS guide",
+          "url": "https://www.reddit.com/r/australiantelevision/comments/1v5uakl/garma_festival_2026_nitv_sbs_guide/",
+          "score": 30
+        }
+      ]
+    },
+    {
+      "id": "qld-weirs-cost-blowout",
+      "language": "ja",
+      "headline": "クイーンズランド州、割高な堰計画に疑問の声",
+      "voiceScript": "クイーンズランド州政府は、北バーネットと南バーネット地域に計画されている2つの堰について、選挙公約だった事業がコスト膨張の懸念に直面したことで、費用の説明を求められています。インフラの約束は、値札が想定より速く膨らむとすぐ政治的な負担になるため、この問題は重要です。次の焦点は、事業が進む前に政府がなお採算を合わせられるかどうかです。",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T07:44:37Z",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/queensland-overnment-questioned-budget-barlil-and-cooranga-weirs/106981428"
+        }
+      ]
+    },
+    {
+      "id": "layla-jeffery-funeral",
+      "language": "ja",
+      "headline": "西ビクトリアでレイラ・ジェフリーさんに最後の別れ",
+      "voiceScript": "西ビクトリアでは、今月初めに遺体が見つかった13歳のレイラ・ジェフリーさんを見送るため、数百人が集まりました。この事件が重要なのは、警察が殺人の疑いで捜査を続ける一方、地域が悲しむ家族や友人を支えようとしているからです。次の焦点は裁判手続きと、何が起きたのかを正確に明らかにする作業です。",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T07:43:20Z",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/layla-jeffery-funeral-donald-alleged-teenager-murder/106981708"
+        }
+      ]
+    },
+    {
+      "id": "revelle-balmain-inquest",
+      "headline": "レヴェル・バルメイン事件の審理で紹介業者幹部に焦点",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-31T07:42:00Z",
+      "voiceScript": "ニューサウスウェールズ州の副検視官は、1994年に失踪したレヴェル・バルメインについて、彼女のエスコート業者を運営していた側が何が起きたのかをより多く知っていた証拠があると判断しました。今回の結果で、この長く続く事件は再び注目され、警察の再検討へと戻っています。失踪から何十年も答えが出ていないため、この検視結果が捜査の次の段階を左右する可能性があります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/revelle-balmain-inquest-finds-escort-bosses-knew/106977496"
+        },
+        {
+          "source": "AAP",
+          "url": "https://www.aap.com.au/news/bosses-of-sex-worker-involved-in-notorious-cold-case"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/revelle-balmain-missing-sex-worker-bosses-20260731-p60kd8.html"
+        }
+      ],
+      "language": "ja",
+      "socialDiscussions": [
+        {
+          "platform": "Websleuths",
+          "community": "Websleuths missing persons forum",
+          "title": "Australia - Revelle Balmain, 22, Kingsford NSW, 5 Nov 1994",
+          "url": "https://websleuths.com/threads/australia-revelle-balmain-22-kingsford-nsw-5-nov-1994.246010/",
+          "score": 80
+        },
+        {
+          "platform": "Reddit",
+          "community": "r/UnresolvedMysteries",
+          "title": "The 1994 disappearance of Revelle Balmain",
+          "url": "https://www.reddit.com/r/UnresolvedMysteries/comments/o1nzxo/the_1994_disappearance_of_revelle_balmain/",
+          "score": 50
+        }
+      ]
+    },
+    {
+      "id": "machete-attack-melbourne-clinic",
+      "language": "ja",
+      "headline": "メルボルンの若者向けメンタルヘルス職員、襲撃後に拠点外勤務へ",
+      "voiceScript": "メルボルン西部サンシャインの若者向けメンタルヘルス施設では、先週、覆面の男4人が患者を襲おうとした後、職員に拠点外での勤務が指示されました。安全への不安が、若者が最も支援を必要とするときに治療へのアクセスを止めてしまう恐れがあるため、この事件は重要です。次の焦点は、警察が襲撃者を特定できるか、そして施設を安全に再開できるかです。",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T07:36:42Z",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/sunshine-machete-youth-mental-health/106984140"
+        }
+      ]
+    },
+    {
+      "id": "gina-rinehart-abc-legal-threat",
+      "language": "ja",
+      "headline": "ジーナ・ラインハート氏、風刺映像をめぐりABCとの対立を激化",
+      "voiceScript": "ジーナ・ラインハート氏は、自身を茶化すジョークを含んだABCの「Race Around the World」企画をめぐり、法的措置を示唆しました。風刺、編集承認、そして削除や謝罪をどこまで求められるのかをめぐって、放送局への圧力が強まるため、この争いは重要です。次の焦点はABCの苦情処理と、法的脅しが正式な訴訟に発展するかどうかです。",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T07:19:40Z",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/media/2026/jul/31/gina-rinehart-threatens-abc-with-legal-action-over-race-around-the-world-program-ntwnfb"
+        }
+      ]
+    },
+    {
+      "id": "fazal-story-withdrawn",
+      "language": "ja",
+      "headline": "ABC、Mahmood Fazal氏の報道を精度懸念で再び撤回",
+      "voiceScript": "ABCは、精度への懸念が出たことを受け、解雇された記者Mahmood Fazal氏による3本目の報道を撤回しました。編集チェックと、感度の高い報道を連続して扱った際のABCの対応に、さらに疑問が広がるため、この動きは重要です。次の焦点は、追加の検証や訂正が続くのか、そしてABCが内部手順を見直すのかどうかです。",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T07:17:45Z",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/abc-withdraws-third-mahmood-fazal-story-over-accuracy-concerns/106984112"
+        }
+      ]
+    },
+    {
+      "id": "private-health-overhaul-backlash",
+      "language": "ja",
+      "headline": "私的医療保険の変更で年金生活者の反発が拡大",
+      "voiceScript": "私的医療保険の変更に関する世論調査で、多くの年金生活者が強い不満を示し、業界関係者は想定以上に多くの人が行き場を失う可能性があると警告しています。固定収入で暮らす高齢者にとって、保険料は生活費そのものなので、この問題は重要です。次の焦点は、保険会社と政府が反発を和らげ、さらに多くの人が保障を見直す前に対応できるかどうかです。",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T06:08:00Z",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/millions-of-pensioners-furious-after-private-health-changes-polling-shows-20260731-p60k9g.html"
+        }
+      ]
+    },
+    {
+      "id": "glp1-demand-rises",
+      "language": "ja",
+      "headline": "GLP-1需要がオーストラリアでさらに拡大",
+      "voiceScript": "オーストラリアでは約50万人がGLP-1薬を使っており、自費で治療を受ける人が増える中、月ごとの需要は急増しています。この規模が重要なのは、これらの薬が家計支出と民間医療市場の圧力点を変えているからです。次の焦点は、供給、入手しやすさ、負担可能性が需要に追いつけるかどうかです。",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T06:06:00Z",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/half-a-million-australians-now-using-glp-1-drugs-as-private-prescriptions-soar-20260731-p60kc6.html"
+        }
+      ]
+    },
     {
       "id": "crushed-glass-soil-additive",
       "headline": "農家が土壌改良材として粉砕ガラスを試す",
@@ -252,69 +448,6 @@
           "title": "HSBC set to offload $30b-plus Australian loan book to US credit giant",
           "url": "https://www.reddit.com/r/AusFinance/comments/1v7pplu/hsbc_set_to_offload_30bplus_australian_loan_book/",
           "score": 45
-        }
-      ]
-    },
-    {
-      "id": "revelle-balmain-inquest",
-      "headline": "レベル・バルメイン事件が検視官の新判断で再び注目される",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T04:26:34Z",
-      "voiceScript": "ニューサウスウェールズ州の副検視官は、1994年に行方不明になったレベル・バルメインさんについて、当時そのエスコート会社を運営していた人物たちが、何が起きたのかをより多く知っていた可能性があると示しました。これにより、長く続く審問は再び焦点がはっきりしました。何十年も結論が出ていない事件だけに、今回の判断は最終的な勧告にも影響し得ます。次は、検視官の正式な結論と、その後の追加対応があるかどうかです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/revelle-balmain-inquest-finds-escort-bosses-knew/106977496"
-        }
-      ],
-      "language": "ja",
-      "socialDiscussions": [
-        {
-          "platform": "Websleuths",
-          "community": "Websleuths missing persons forum",
-          "title": "Australia - Revelle Balmain, 22, Kingsford NSW, 5 Nov 1994",
-          "url": "https://websleuths.com/threads/australia-revelle-balmain-22-kingsford-nsw-5-nov-1994.246010/",
-          "score": 80
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/UnresolvedMysteries",
-          "title": "The 1994 disappearance of Revelle Balmain",
-          "url": "https://www.reddit.com/r/UnresolvedMysteries/comments/o1nzxo/the_1994_disappearance_of_revelle_balmain/",
-          "score": 50
-        }
-      ]
-    },
-    {
-      "id": "garma-festival-opens-arnhem-land",
-      "headline": "ガルマ祭がアーネムランドで開幕し、文化と政策が交差する",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-31T04:14:51Z",
-      "voiceScript": "ガルマ祭がオーストラリア北東部のアーネムランドで始まり、ヨルングの文化、地域リーダー、全国的な議論が同じ場所に集まりました。イベントは数日間続き、今も国内で最重要の先住民フォーラムの一つです。発言や会合が認知、公共サービス、資金配分の議論に結びつくことがあるため重要です。これから政策面でどこまで具体化するかが焦点です。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/garma-festival-julian-leeser-criticises-anthony-albanese/106981674"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/31/australia-news-live-working-with-children-check-garma-festival-anthony-albanese-labor-angus-taylor-coalition-one-nation-pauline-hanson-ntwnfb"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/garma-festival-2026-australia-explained/692xvu5au"
-        }
-      ],
-      "language": "ja",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/australiantelevision",
-          "title": "Garma Festival 2026: NITV / SBS guide",
-          "url": "https://www.reddit.com/r/australiantelevision/comments/1v5uakl/garma_festival_2026_nitv_sbs_guide/",
-          "score": 30
         }
       ]
     },
