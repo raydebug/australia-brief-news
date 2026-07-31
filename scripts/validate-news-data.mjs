@@ -66,6 +66,51 @@ function validateSocialDiscussions(cluster) {
   return errors;
 }
 
+function localizedCommentary(cluster, language) {
+  const commentary = cluster?.fourNewsCommentary;
+  if (typeof commentary === "string") return commentary;
+  return commentary?.[language] || commentary?.en || "";
+}
+
+function validateFourNewsCommentary(cluster, language) {
+  const commentary = normalize(localizedCommentary(cluster, language));
+  if (!commentary) return [];
+
+  const lower = commentary.toLowerCase();
+  const aiMentions = lower.match(/\bai\b|\bia\b|人工智能|算法|演算法|アルゴリズム|알고리즘/g) || [];
+  const genericSignals = [
+    "这类问题",
+    "這類問題",
+    "这类社会问题",
+    "這類社會問題",
+    "这条新闻真正值得追",
+    "這條新聞真正值得追",
+    "对照其他发达国家",
+    "對照其他發達國家",
+    "developed countries",
+    "developed-country experience",
+    "ai should act as radar",
+    "ai 的位置",
+    "ai は裁判官ではなくレーダー",
+    "ai는 판사가 아니라 레이더",
+    "new zealand wellbeing budget",
+    "phoenix payroll system",
+    "public-it failures"
+  ];
+
+  const errors = [];
+  if (aiMentions.length > 1) {
+    errors.push({ type: "four-news-commentary-too-many-ai-mentions", id: cluster.id, language, count: aiMentions.length });
+  }
+
+  const genericSignal = genericSignals.find((signal) => lower.includes(signal.toLowerCase()));
+  if (genericSignal) {
+    errors.push({ type: "four-news-commentary-generic-template", id: cluster.id, language, signal: genericSignal });
+  }
+
+  return errors;
+}
+
 const english = readJson("public/news.en.json");
 const englishDocs = readJson("docs/news.en.json");
 
@@ -95,6 +140,16 @@ english.clusters.forEach((cluster, index) => {
   const socialDocs = JSON.stringify(englishDocs.clusters[index]?.socialDiscussions || []);
   if (socialPublic !== socialDocs) {
     fail("public/docs English social discussions mismatch", { id: cluster.id });
+  }
+
+  const commentaryErrors = validateFourNewsCommentary(cluster, "en");
+  if (commentaryErrors.length) {
+    fail("public English 4News commentary invalid", { examples: commentaryErrors.slice(0, 10) });
+  }
+
+  const commentaryDocsErrors = validateFourNewsCommentary(englishDocs.clusters[index] || {}, "en");
+  if (commentaryDocsErrors.length) {
+    fail("docs English 4News commentary invalid", { examples: commentaryDocsErrors.slice(0, 10) });
   }
 });
 
@@ -140,6 +195,7 @@ for (const config of languages) {
       }
 
       errors.push(...validateSocialDiscussions(translated));
+      errors.push(...validateFourNewsCommentary(translated, config.code));
 
       const translatedSocial = JSON.stringify(translated.socialDiscussions || []);
       const sourceSocial = JSON.stringify(source.socialDiscussions || []);
