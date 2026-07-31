@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T03:12:01Z",
+  "updatedAt": "2026-07-31T04:06:01Z",
   "generatedBy": "codex",
   "language": "zh-Hant",
   "sources": [
@@ -105,6 +105,21 @@
     "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "jewish-artist-doxxing-royal-commission",
+      "headline": "皇家委員會聽證會揭示外洩群聊如何把一名猶太藝術家推向邊緣",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T03:04:00Z",
+      "voiceScript": "一名澳洲猶太藝術家向反猶主義皇家委員會表示，私密資訊外洩和隨後的大範圍人肉曝光，讓她失去了工作機會，也和外界逐漸疏遠。她的證詞把網路曝光如何迅速演變成職業和人身壓力講得更具體。這件事重要，因為調查正在判斷，學校、藝術機構和政府應當如何應對私人資訊被武器化。下一步要看委員會是否提出更強的資料保護和反人肉措施。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/nsw-royal-commission-jewish-creatives-evidence-group-chat-leak/106981292"
+        }
+      ],
+      "language": "zh-Hant"
+    },
     {
       "id": "nsw-feral-pig-threats",
       "headline": "新州野豬治理計畫引發反彈後，部長收到威脅",
@@ -437,6 +452,25 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-31/kate-manley-coronial-inquest-albury-wodonga-health/106972398"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "australia-el-nino-hotter-drier-spring",
+      "headline": "厄爾尼諾快速增強，澳洲大部分地區面臨更熱更乾燥的春季",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T19:55:00Z",
+      "voiceScript": "最新氣候展望顯示，澳大利亞東部和南部大範圍降雨將低於平均水平，而從8月到春季，氣溫大概率高於常年。氣象人士說，太平洋升溫速度很快，已經把紀錄級高溫、更強火險和農田、水資源壓力的風險推高。這個消息重要，因為春季前的乾燥階段，往往最容易迅速轉入山火天氣。未來仍有不確定性，尤其取決於熱帶和西部地區會下多少雨。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/nsw-el-nino-weather-extreme-heat-australia/106973840"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/environment/bureau-warns-australia-faces-warmer-drier-august-to-october-as-el-nino-strengthens/news-story/9e19b9a7ab69c0260856f0aa8e2315ed"
         }
       ],
       "language": "zh-Hant"
@@ -2182,5 +2216,6 @@
       ],
       "language": "zh-Hant"
     }
-  ]
+  ],
+  "links": []
 }

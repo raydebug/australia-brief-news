@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T03:12:01Z",
+  "updatedAt": "2026-07-31T04:06:01Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -105,6 +105,21 @@
     "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "jewish-artist-doxxing-royal-commission",
+      "headline": "漏えいした私的チャットが、ユダヤ系アーティストを仕事から追い詰めた経緯を委員会が聴取",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T03:04:00Z",
+      "voiceScript": "ユダヤ系オーストラリア人のアーティストは、私的メッセージの流出と、それに続く個人情報の暴露によって、仕事の機会を失い、周囲から孤立したと証言しました。ネット上の暴露が、職場やギャラリーへの参加、身の安全にまで影響する流れを、今回の証言は具体的に示しています。重要なのは、学校や芸術団体、政府が、私的情報が攻撃の道具に変わったときにどう対応すべきかを問う場になっていることです。今後は、委員会がより強い保護策と、暴露行為への対策を勧告するかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/nsw-royal-commission-jewish-creatives-evidence-group-chat-leak/106981292"
+        }
+      ],
+      "language": "ja"
+    },
     {
       "id": "nsw-feral-pig-threats",
       "headline": "野生イノシシ対策への反発の中、NSW州の大臣に脅迫",
@@ -437,6 +452,25 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-31/kate-manley-coronial-inquest-albury-wodonga-health/106972398"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "australia-el-nino-hotter-drier-spring",
+      "headline": "エルニーニョの急速な強まりで、オーストラリアはより暑く乾燥した春に向かう",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T19:55:00Z",
+      "voiceScript": "最新の気候見通しでは、8月から春にかけてオーストラリア東部と南部の広い範囲で雨が平年を下回り、気温は平年を上回る見込みです。太平洋の海面水温が急速に上昇しており、記録的な高温や山火事リスクの上昇、農業と水供給への圧力が強まっています。この見通しが重要なのは、春に向けて乾いた土地が一気に火災危険へ変わりやすいからです。なお、熱帯や西部でどれだけ雨が降るかにはまだ不確実性があります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/nsw-el-nino-weather-extreme-heat-australia/106973840"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/environment/bureau-warns-australia-faces-warmer-drier-august-to-october-as-el-nino-strengthens/news-story/9e19b9a7ab69c0260856f0aa8e2315ed"
         }
       ],
       "language": "ja"
@@ -2182,5 +2216,6 @@
       ],
       "language": "ja"
     }
-  ]
+  ],
+  "links": []
 }

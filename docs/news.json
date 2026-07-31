@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T03:12:01Z",
+  "updatedAt": "2026-07-31T04:06:01Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -105,6 +105,21 @@
     "The Australian and Sky News Australia still require fallback extraction for current coverage."
   ],
   "clusters": [
+    {
+      "id": "jewish-artist-doxxing-royal-commission",
+      "headline": "皇家委员会听证会揭示泄露群聊如何把一名犹太艺术家推向边缘",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T03:04:00Z",
+      "voiceScript": "一名澳大利亚犹太艺术家向反犹主义皇家委员会表示，私密信息外泄和随后的大范围人肉曝光，让她失去了工作机会，也和外界逐渐疏远。她的证词把网络曝光如何迅速演变成职业和人身压力讲得更具体。此事重要，因为调查正在判断，学校、艺术机构和政府应当如何应对私人信息被武器化。下一步要看委员会是否提出更强的数据保护和反人肉措施。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/nsw-royal-commission-jewish-creatives-evidence-group-chat-leak/106981292"
+        }
+      ],
+      "language": "zh-Hans"
+    },
     {
       "id": "nsw-feral-pig-threats",
       "headline": "新州野猪治理计划引发反弹后，部长收到威胁",
@@ -437,6 +452,25 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-31/kate-manley-coronial-inquest-albury-wodonga-health/106972398"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
+      "id": "australia-el-nino-hotter-drier-spring",
+      "headline": "厄尔尼诺快速增强，澳洲大部份地区面临更热更干燥的春季",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-30T19:55:00Z",
+      "voiceScript": "最新气候展望显示，澳大利亚东部和南部大范围降雨将低于平均水平，而从8月到春季，气温大概率高于常年。气象人士说，太平洋升温速度很快，已经把纪录级高温、更强火险和农田、水资源压力的风险推高。这个消息重要，因为春季前的干燥阶段，往往最容易迅速转入山火天气。未来仍有不确定性，尤其取决于热带和西部地区会下多少雨。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/nsw-el-nino-weather-extreme-heat-australia/106973840"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/environment/bureau-warns-australia-faces-warmer-drier-august-to-october-as-el-nino-strengthens/news-story/9e19b9a7ab69c0260856f0aa8e2315ed"
         }
       ],
       "language": "zh-Hans"
@@ -2182,5 +2216,6 @@
       ],
       "language": "zh-Hans"
     }
-  ]
+  ],
+  "links": []
 }
