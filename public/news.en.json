@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T03:08:43Z",
+  "updatedAt": "2026-08-01T05:14:34Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -108,9 +108,43 @@
   ],
   "clusters": [
     {
+      "id": "nz-greyhound-ban-charter-flights",
+      "headline": "Greyhounds begin arriving in Australia as New Zealand's racing ban starts",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T04:48:33Z",
+      "voiceScript": "New Zealand has started winding down greyhound racing, and dogs from the industry are now being moved into Australia for rehoming and care. That matters because rescue groups here will have to absorb more animals while the sport shrinks across the Tasman. The immediate test is how many dogs need homes and whether welfare groups have enough capacity before the ban fully takes hold.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/nz-greyhound-racing-ban-charter-flights/106985844"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "sa-police-officer-stabbing-hospital",
+      "headline": "South Australian officer leaves hospital after alleged stabbing",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-01T03:49:14Z",
+      "voiceScript": "A South Australian police officer has left hospital after an alleged stabbing in Adelaide's north. Police say the suspect was shot in the leg during the response and now faces a serious criminal investigation. The case matters because it shows how quickly frontline policing can turn violent, and because investigators still need to test the evidence, witness accounts and court process. The next update will come from the charging and court path.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/sa-injured-officer-in-alleged-stabbing-leaves-hospital/106985836"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/south-australia/man-27-shot-by-police-after-allegedly-stabbing-female-officer-in-the-neck-in-the-leg-in-adelaides-north/news-story/4297379da7ab461a40a23dd33b1c344f"
+        }
+      ],
+      "language": "en"
+    },
+    {
       "id": "nsw-central-coast-murder-charge",
       "headline": "Teen arrest follows NSW Central Coast murder charge",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-08-01T02:50:23Z",
       "voiceScript": "Police have charged a 15-year-old over the alleged murder of a man on the NSW Central Coast. The case matters because it is both a homicide investigation and a juvenile court matter, so the evidence and any bail decision will be closely tested. Investigators still need to piece together the full sequence of events before the matter moves further through court.",
       "differences": [],
@@ -118,6 +152,10 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-01/nsw-central-coast-boy-charged-with-murder-of-man-gosford/106985600"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/nsw/teenager-charged-with-murder-after-stabbing-on-nsw-central-coast-20260801-p60kjn.html"
         }
       ],
       "language": "en",
@@ -137,6 +175,118 @@
           "title": "Police are investigating the fatal stabbing of a young man in Gosford on the NSW Central Coast",
           "url": "https://www.facebook.com/7NEWSsydney/posts/police-are-investigating-the-fatal-stabbing-of-a-young-man-in-gosford-on-the-nsw/1511413457682924/",
           "postedAt": "2026-07-29",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": "fuel-discount-and-petrol-prices",
+      "headline": "Petrol prices are set to rise again as fuel relief ends",
+      "sourceCount": 5,
+      "publishedAt": "2026-08-01T02:22:49Z",
+      "voiceScript": "The temporary fuel discount is ending on August 3, and drivers are being warned that petrol prices will keep climbing, with some cities already above $2 a litre. That matters because the change will hit household budgets and freight costs just as inflation is still being watched closely. The next question is how quickly retailers pass through the new excise rate and whether officials can stop any sharp price gouging.",
+      "differences": [
+        "Guardian coverage treats the move as part of a live fuel-price spike, while SBS focuses on the discount ending and what drivers should do next.",
+        "Both reports point to the same price pressure, but they frame the immediate pain differently."
+      ],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/fuel-excise-ends-sunday-what-to-do/spv7v7xap"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/federal-politics-live-blog-hanson-donation-july-29/106969612"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/petrol-prices-on-track-to-top-2-a-litre-as-bowen-sounds-death-knell-for-fuel-excise-relief"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/fuel-prices-on-the-up-as-pm-backs-end-to-discount"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/aussie-drivers-brace-for-petrol-price-hike-as-fuel-excise-cut-ends-sunday/news-story/a2b2357459fce1250f7233309737b4b7"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "victoria-bird-flu-first-detection",
+      "headline": "Victoria widens bird flu checks after more suspected H5N1 cases",
+      "voiceScript": "Victoria's bird flu response is widening after more suspected H5N1 cases turned up in wildlife. Authorities are expanding testing and biosecurity checks around affected sites to see how far the virus has spread. The risk to people remains low, but the issue matters for wildlife health, poultry planning and any further restrictions if the outbreak grows. The next step is confirmation testing and surveillance for new cases.",
+      "differences": [],
+      "sourceCount": 7,
+      "publishedAt": "2026-08-01T02:19:01Z",
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/victoria-bird-flu-h5n1-detection/106839886"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/jul/30/bird-flu-australia-h5n1-how-will-it-affect-wildlife"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/environment/victoria-reports-first-ever-bird-flu-case-as-south-australia-braces-after-local-transmission/news-story/ce3d799f66276499e144f2f328fd314a"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/more-bird-flu-detections-spark-wildlife-fears"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/victoria-records-its-first-case-of-h5-bird-flu-c-22650311.amp"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/victoria/first-detection-of-deadly-h5n1-bird-flu-confirmed-in-victoria-20260730-p60k0l.html"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/bird-flu-update-six-new-suspected-h5n1-cases-in-victoria/106985584"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/suspected-bird-flu-case-in-seagull-a-watershed-moment"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/vic/second-suspected-case-of-bird-flu-detected-in-victoria-day-after-confirmed-outbreak-20260731-p60kba.html"
+        }
+      ],
+      "language": "en",
+      "socialDiscussions": [
+        {
+          "platform": "Reddit",
+          "community": "r/melbourne",
+          "title": "Deadly H5N1 bird flu strain detected in Victoria for first time",
+          "url": "https://www.reddit.com/r/melbourne/comments/1vafr1t/deadly_h5n1_bird_flu_strain_detected_in_victoria/",
+          "score": 15
+        },
+        {
+          "platform": "YouTube",
+          "account": "7NEWS Australia",
+          "title": "Victoria records its first case of H5 bird flu",
+          "url": "https://www.youtube.com/watch?v=LCPXImRAXnI",
+          "score": 8
+        },
+        {
+          "platform": "Reddit",
+          "community": "r/AustralianBirds",
+          "title": "H5N1 Bird Flu in Australia",
+          "url": "https://www.reddit.com/r/AustralianBirds/comments/1uhepil/h5n1_bird_flu_in_australia/",
           "score": 6
         }
       ]
@@ -790,21 +940,6 @@
       "language": "en"
     },
     {
-      "id": "nsw-public-housing-sewage-compensation",
-      "headline": "NSW ordered to compensate tenant after sewage floods a public home",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T15:00:00Z",
-      "voiceScript": "The NSW Ombudsman says a long-term public housing tenant should be fully compensated after repeated sewage overflows ruined her home and belongings. It matters because it shows how poor maintenance and slow complaint handling can make a housing problem much worse for a vulnerable renter. Homes NSW has accepted the findings, and the question now is how fast it fixes the repair process.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/01/nsw-should-compensate-elderly-woman-whose-public-housing-was-inundated-with-sewage-ombudsman-finds-ntwnfb"
-        }
-      ],
-      "language": "en"
-    },
-    {
       "id": "football-australia-fifa-plan",
       "headline": "Football Australia waits on details of FIFA's World Cup investment plan",
       "sourceCount": 4,
@@ -870,34 +1005,6 @@
           "title": "[Asian Football Confederation] AFC stands in solidarity with UEFA and CONCACAF",
           "url": "https://www.reddit.com/r/soccer/comments/1vbkoma/asian_football_confederation_afc_stands_in/",
           "score": 10
-        }
-      ]
-    },
-    {
-      "id": "fuel-price-jump-weekend",
-      "headline": "Motorists brace for another fuel price jump after the weekend",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T10:25:16Z",
-      "voiceScript": "Australian drivers are facing another jump in fuel prices after the weekend. That matters because petrol costs feed straight into household budgets and transport inflation. The next thing to watch is how long the spike lasts and whether it spreads beyond the first round of price rises.",
-      "differences": [],
-      "links": [
-        {
-          "source": "Yahoo News Australia",
-          "url": "https://au.news.yahoo.com/why-aussies-facing-another-fuel-102516125.html"
-        }
-      ],
-      "language": "en",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/AusFinance",
-          "author": "Temporary_Mistake715",
-          "title": "Petrol back above $2 a litre in some areas - as it happened | Australia news",
-          "url": "https://www.reddit.com/r/AusFinance/comments/1v9s53j/petrol_back_above_2_a_litre_in_some_areas_as_it/",
-          "postedAt": "2026-07-29T10:23:04Z",
-          "comments": 85,
-          "upvotes": 175,
-          "score": 430
         }
       ]
     },
@@ -1113,7 +1220,7 @@
     {
       "id": "victorian-teachers-strike-date-2026",
       "headline": "Victorian teachers set another strike date as pay talks stall",
-      "sourceCount": 4,
+      "sourceCount": 3,
       "publishedAt": "2026-07-31T05:52:00Z",
       "voiceScript": "Victorian public school teachers have set August 19 as the date for another 24-hour stoppage if the government does not return with a better pay offer. The dispute matters because it is now disrupting families and school planning across the state, and it comes after repeated industrial action this year. The next step depends on whether the new premier's team reopens negotiations in time to avert another shutdown.",
       "differences": [
@@ -1127,7 +1234,7 @@
           "url": "https://www.abc.net.au/news/2026-07-31/education-union-threatens-third-victorian-teacher-strike-august/106982846"
         },
         {
-          "source": "AAP News",
+          "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/teachers-to-strike-for-third-time-as-talks-stall"
         },
         {
@@ -1614,54 +1721,6 @@
       ]
     },
     {
-      "id": "hanson-hate-speech-finding",
-      "headline": "Police clear Pauline Hanson over the \"good Muslims\" complaint review",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-31T02:41:25Z",
-      "voiceScript": "Australian police have decided Pauline Hanson's comments about there being no \"good Muslims\" do not cross the line into a hate-speech case. The review centres on remarks linked to a Sky News interview and the complaints that followed. It matters because the case tests how far Australia's speech laws can reach when religion and migration are part of political debate. The next step is whether any further legal or parliamentary action follows.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/pauline-hanson-one-nation-hate-speech-police/106981544"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/31/pauline-hanson-muslim-comments-afp-australian-federal-police-ntwnfb"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/politics/pauline-hanson-no-good-muslim-claim-not-hate-speech-afp-say/news-story/b457010a9c938f20986adf78da6c8ae1"
-        }
-      ],
-      "language": "en",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/australia",
-          "title": "Pauline Hanson's no 'good Muslims' comment don't breach hate speech laws, Australian federal police finds",
-          "url": "https://www.reddit.com/r/australia/comments/1vbkjri/pauline_hansons_no_good_muslims_comment_dont/",
-          "score": 1102,
-          "comments": 191,
-          "upvotes": 529
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/aussie",
-          "title": "Pauline Hanson's no 'good Muslims' comment don't breach hate speech laws, Australian federal police finds",
-          "url": "https://www.reddit.com/r/aussie/comments/1vbl9ng/pauline_hansons_no_good_muslims_comment_dont/",
-          "score": 20
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/AustralianPolitics",
-          "title": "Pauline Hanson's no 'good Muslims' comment don't breach hate speech laws, Australian federal police finds",
-          "url": "https://www.reddit.com/r/AustralianPolitics/comments/1vblbyl/pauline_hansons_no_good_muslims_comment_dont/",
-          "score": 15
-        }
-      ]
-    },
-    {
       "id": "australia-wildfire-support-france",
       "headline": "Australia sends crews to help France battle record wildfires",
       "sourceCount": 3,
@@ -1871,28 +1930,6 @@
           "score": 12
         }
       ]
-    },
-    {
-      "id": "blundy-brands-buyback",
-      "headline": "Blundy buys back Bonds and sister brands for $700 million",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-30T19:00:00Z",
-      "voiceScript": "Brett Blundy has bought Bras N Things, Bonds, Berlei and Sheridan back into Australian ownership in a $700 million deal. The brands were sold by Hanesbrands after a review of its local business, and the purchase puts a group of familiar retail names back under one Australian investor. It matters because the deal shifts control of some of the country's best-known clothing and home labels. The next question is how Blundy uses the portfolio across stores, supply chains and future expansion.",
-      "differences": [
-        "AFR frames the deal as Blundy returning to brands he once built and stresses the size of the transaction.",
-        "7NEWS focuses on the brands returning to local ownership and their national reach."
-      ],
-      "links": [
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/companies/retail/billionaire-blundy-swoops-on-bras-n-things-bonds-in-700m-deal-20260730-p60k39"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/bonds-sheridan-and-berlei-return-to-australian-ownership-in-700m-brett-blundy-deal-c-22657837"
-        }
-      ],
-      "language": "en"
     },
     {
       "id": "hanson-isis-passport-bill",
@@ -2330,72 +2367,6 @@
         }
       ],
       "language": "en"
-    },
-    {
-      "id": "victoria-bird-flu-first-detection",
-      "headline": "Victoria records its first H5N1 bird flu detection",
-      "voiceScript": "Victoria has confirmed its first H5N1 bird flu detection after a greater crested tern in the state's south-west tested positive. The case sits inside a wider wildlife outbreak already affecting other states, so authorities are widening surveillance and biosecurity checks around seabird colonies and threatened species. The public-health risk remains low for now, but the finding matters because more spread would raise pressure on wildlife protection and poultry planning. More testing will show whether this is a single detection or part of a broader local chain.",
-      "differences": [],
-      "sourceCount": 6,
-      "publishedAt": "2026-07-30T06:23:38.000Z",
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/victoria-bird-flu-h5n1-detection/106839886"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/world/2026/jul/30/bird-flu-australia-h5n1-how-will-it-affect-wildlife"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/environment/victoria-reports-first-ever-bird-flu-case-as-south-australia-braces-after-local-transmission/news-story/ce3d799f66276499e144f2f328fd314a"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/more-bird-flu-detections-spark-wildlife-fears"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/victoria-records-its-first-case-of-h5-bird-flu-c-22650311.amp"
-        },
-        {
-          "source": "The Age",
-          "url": "https://www.theage.com.au/national/victoria/first-detection-of-deadly-h5n1-bird-flu-confirmed-in-victoria-20260730-p60k0l.html"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-01/bird-flu-update-six-new-suspected-h5n1-cases-in-victoria/106985584"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/suspected-bird-flu-case-in-seagull-a-watershed-moment"
-        }
-      ],
-      "language": "en",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/melbourne",
-          "title": "Deadly H5N1 bird flu strain detected in Victoria for first time",
-          "url": "https://www.reddit.com/r/melbourne/comments/1vafr1t/deadly_h5n1_bird_flu_strain_detected_in_victoria/",
-          "score": 15
-        },
-        {
-          "platform": "YouTube",
-          "account": "7NEWS Australia",
-          "title": "Victoria records its first case of H5 bird flu",
-          "url": "https://www.youtube.com/watch?v=LCPXImRAXnI",
-          "score": 8
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/AustralianBirds",
-          "title": "H5N1 Bird Flu in Australia",
-          "url": "https://www.reddit.com/r/AustralianBirds/comments/1uhepil/h5n1_bird_flu_in_australia/",
-          "score": 6
-        }
-      ]
     },
     {
       "id": "victoria-bunnings-dog-attack",
@@ -2925,44 +2896,6 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/australians-mortgage-holders-told-to-check-bank-accounts-after-costly-offset-failures-discovered-c-22646473"
-        }
-      ],
-      "language": "en"
-    },
-    {
-      "id": "fuel-discount-and-petrol-prices",
-      "headline": "Drivers are bracing for higher fuel bills as the discount disappears",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-29T07:36:19Z",
-      "voiceScript": "The fuel discount is ending, and drivers are being told to watch the dates as prices reset. Petrol has already moved above $2 a litre in some areas. The immediate pressure is on household budgets, but the wider cost-of-living effect could spread quickly.",
-      "differences": [
-        "Guardian coverage treats the move as part of a live fuel-price spike, while SBS focuses on the discount ending and what drivers should do next.",
-        "Both reports point to the same price pressure, but they frame the immediate pain differently."
-      ],
-      "links": [
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/fuel-excise-ends-sunday-what-to-do/spv7v7xap"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/federal-politics-live-blog-hanson-donation-july-29/106969612"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/01/petrol-prices-on-track-to-top-2-a-litre-as-bowen-sounds-death-knell-for-fuel-excise-relief"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/fuel-prices-on-the-up-as-pm-backs-end-to-discount"
         }
       ],
       "language": "en"

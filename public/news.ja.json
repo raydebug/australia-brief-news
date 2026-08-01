@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T03:08:43Z",
+  "updatedAt": "2026-08-01T05:14:34Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -108,9 +108,43 @@
   ],
   "clusters": [
     {
+      "id": "nz-greyhound-ban-charter-flights",
+      "headline": "NZ の競走停止で、グレーハウンドが豪州へ移送され始める",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T04:48:33Z",
+      "voiceScript": "ニュージーランドではグレーハウンド競走の縮小が始まり、業界の犬たちがオーストラリアへ移されて再訓練・再飼育されています。これは、こちらの救護団体がより多くの犬を受け入れる必要がある一方、タスマン海をまたぐ競走産業がさらに縮小することを意味します。目下の焦点は、どれだけの犬に新しい家が必要か、そして禁令が完全に効力を持つ前に福祉団体が対応できるかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/nz-greyhound-racing-ban-charter-flights/106985844"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "sa-police-officer-stabbing-hospital",
+      "headline": "南オーストラリア州警官、刺傷疑いの後に退院",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-01T03:49:14Z",
+      "voiceScript": "南オーストラリア州の警察官が、アデレード北部での刺傷疑い事件の後に退院しました。警察によると、対応の最中に容疑者は脚を撃たれ、現在は重大な刑事捜査の対象になっています。現場の危険がいかに急速に暴力へ変わりうるかを示す事件であり、今後も証拠、目撃証言、裁判手続きの確認が必要です。次は、正式な起訴と裁判の流れです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/sa-injured-officer-in-alleged-stabbing-leaves-hospital/106985836"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/south-australia/man-27-shot-by-police-after-allegedly-stabbing-female-officer-in-the-neck-in-the-leg-in-adelaides-north/news-story/4297379da7ab461a40a23dd33b1c344f"
+        }
+      ],
+      "language": "ja"
+    },
+    {
       "id": "nsw-central-coast-murder-charge",
       "headline": "NSW中部海岸の殺人容疑で15歳少年を起訴",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-08-01T02:50:23Z",
       "voiceScript": "ニューサウスウェールズ州中部海岸で男性が死亡した事件について、警察は15歳の少年を殺人容疑で起訴しました。これは殺人捜査であると同時に未成年者の事件でもあり、証拠の確認や保釈判断が今後の焦点になります。捜査当局は、事件の流れをまだ整理している段階で、裁判に進む前に事実関係をさらに詰める必要があります。",
       "differences": [],
@@ -118,6 +152,10 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-01/nsw-central-coast-boy-charged-with-murder-of-man-gosford/106985600"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/nsw/teenager-charged-with-murder-after-stabbing-on-nsw-central-coast-20260801-p60kjn.html"
         }
       ],
       "language": "ja",
@@ -137,6 +175,118 @@
           "title": "Police are investigating the fatal stabbing of a young man in Gosford on the NSW Central Coast",
           "url": "https://www.facebook.com/7NEWSsydney/posts/police-are-investigating-the-fatal-stabbing-of-a-young-man-in-gosford-on-the-nsw/1511413457682924/",
           "postedAt": "2026-07-29",
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": "fuel-discount-and-petrol-prices",
+      "headline": "燃料支援の終了で、ガソリン価格は再び上がる見通し",
+      "sourceCount": 5,
+      "publishedAt": "2026-08-01T02:22:49Z",
+      "voiceScript": "一時的な燃料値下げは8月3日に終了し、ガソリン価格はさらに上がると警告されています。すでに一部の都市では1リットル2ドルを超えています。これは家計と物流コストの両方に響くうえ、インフレの動きもまだ注視されているからです。次は、小売店が新しい税率をどれだけ早く価格に反映するか、そして当局が急激な便乗値上げを抑えられるかです。",
+      "differences": [
+        "ガーディアンの報道ではこの動きを燃料価格高騰の一環として扱っているが、SBSは割引終了とドライバーが次に何をすべきかに焦点を当てている。",
+        "どちらのレポートも同じ価格圧力を指摘しているが、差し迫った痛みの枠組みが異なっている。"
+      ],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/fuel-excise-ends-sunday-what-to-do/spv7v7xap"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-29/federal-politics-live-blog-hanson-donation-july-29/106969612"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/petrol-prices-on-track-to-top-2-a-litre-as-bowen-sounds-death-knell-for-fuel-excise-relief"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/fuel-prices-on-the-up-as-pm-backs-end-to-discount"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/money/costs/aussie-drivers-brace-for-petrol-price-hike-as-fuel-excise-cut-ends-sunday/news-story/a2b2357459fce1250f7233309737b4b7"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "victoria-bird-flu-first-detection",
+      "headline": "ビクトリア州、H5N1の疑い例増加で鳥インフル監視を拡大",
+      "voiceScript": "ビクトリア州では、野生動物でさらにH5N1の疑い例が見つかり、鳥インフル対策が広がっています。当局は感染がどこまで広がったのかを確認するため、発生地点周辺で検査とバイオセキュリティ対策を強化しています。人へのリスクは現時点で低いものの、野生動物の保護や家禽の管理、流行が広がった場合の追加措置に関わる重要な問題です。次の焦点は確定検査と継続監視です。",
+      "differences": [],
+      "sourceCount": 7,
+      "publishedAt": "2026-08-01T02:19:01Z",
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-30/victoria-bird-flu-h5n1-detection/106839886"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/jul/30/bird-flu-australia-h5n1-how-will-it-affect-wildlife"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/environment/victoria-reports-first-ever-bird-flu-case-as-south-australia-braces-after-local-transmission/news-story/ce3d799f66276499e144f2f328fd314a"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/more-bird-flu-detections-spark-wildlife-fears"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/victoria-records-its-first-case-of-h5-bird-flu-c-22650311.amp"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/victoria/first-detection-of-deadly-h5n1-bird-flu-confirmed-in-victoria-20260730-p60k0l.html"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/bird-flu-update-six-new-suspected-h5n1-cases-in-victoria/106985584"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/suspected-bird-flu-case-in-seagull-a-watershed-moment"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/vic/second-suspected-case-of-bird-flu-detected-in-victoria-day-after-confirmed-outbreak-20260731-p60kba.html"
+        }
+      ],
+      "language": "ja",
+      "socialDiscussions": [
+        {
+          "platform": "Reddit",
+          "community": "r/melbourne",
+          "title": "Deadly H5N1 bird flu strain detected in Victoria for first time",
+          "url": "https://www.reddit.com/r/melbourne/comments/1vafr1t/deadly_h5n1_bird_flu_strain_detected_in_victoria/",
+          "score": 15
+        },
+        {
+          "platform": "YouTube",
+          "account": "7NEWS Australia",
+          "title": "Victoria records its first case of H5 bird flu",
+          "url": "https://www.youtube.com/watch?v=LCPXImRAXnI",
+          "score": 8
+        },
+        {
+          "platform": "Reddit",
+          "community": "r/AustralianBirds",
+          "title": "H5N1 Bird Flu in Australia",
+          "url": "https://www.reddit.com/r/AustralianBirds/comments/1uhepil/h5n1_bird_flu_in_australia/",
           "score": 6
         }
       ]
@@ -790,21 +940,6 @@
       "language": "ja"
     },
     {
-      "id": "nsw-public-housing-sewage-compensation",
-      "headline": "NSWで下水被害に遭った公営住宅の入居者に補償へ",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T15:00:00Z",
-      "voiceScript": "ニューサウスウェールズ州のオンブズマンは、たび重なる下水逆流で自宅と持ち物が台無しになった長期の公営住宅入居者に、全額補償を行うべきだとしています。これは、維持管理の不備と苦情対応の遅さが、脆弱な入居者にとって住宅問題をさらに深刻にすることを示しているため重要です。Homes NSW は勧告を受け入れており、今後は修繕の仕組みをどれだけ早く改善できるかが焦点です。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/01/nsw-should-compensate-elderly-woman-whose-public-housing-was-inundated-with-sewage-ombudsman-finds-ntwnfb"
-        }
-      ],
-      "language": "ja"
-    },
-    {
       "id": "football-australia-fifa-plan",
       "headline": "フットボール・オーストラリアがFIFAのW杯投資案の詳細待ち",
       "sourceCount": 4,
@@ -870,34 +1005,6 @@
           "title": "[Asian Football Confederation] AFC stands in solidarity with UEFA and CONCACAF",
           "url": "https://www.reddit.com/r/soccer/comments/1vbkoma/asian_football_confederation_afc_stands_in/",
           "score": 10
-        }
-      ]
-    },
-    {
-      "id": "fuel-price-jump-weekend",
-      "headline": "週末明けにオーストラリアの燃料価格が再び上昇へ",
-      "sourceCount": 1,
-      "publishedAt": "2026-07-31T10:25:16Z",
-      "voiceScript": "オーストラリアのドライバーは、週末明けに燃料価格の再上昇に直面しています。燃料代は家計と物流コストに直結するため、この動きは物価全体にも影響します。今後は値上がりがどれだけ続くか、そして大都市以外にも広がるかが注目点です。",
-      "differences": [],
-      "links": [
-        {
-          "source": "Yahoo News Australia",
-          "url": "https://au.news.yahoo.com/why-aussies-facing-another-fuel-102516125.html"
-        }
-      ],
-      "language": "ja",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/AusFinance",
-          "author": "Temporary_Mistake715",
-          "title": "Petrol back above $2 a litre in some areas - as it happened | Australia news",
-          "url": "https://www.reddit.com/r/AusFinance/comments/1v9s53j/petrol_back_above_2_a_litre_in_some_areas_as_it/",
-          "postedAt": "2026-07-29T10:23:04Z",
-          "comments": 85,
-          "upvotes": 175,
-          "score": 430
         }
       ]
     },
@@ -1113,7 +1220,7 @@
     {
       "id": "victorian-teachers-strike-date-2026",
       "headline": "ビクトリア州の教師、交渉停滞で再びスト予定を設定",
-      "sourceCount": 4,
+      "sourceCount": 3,
       "publishedAt": "2026-07-31T05:52:00Z",
       "voiceScript": "ビクトリア州の公立学校教師は、政府がより良い賃上げ案を出さなければ、8月19日に再び24時間のストを行う予定です。今回の争議は、今年すでに何度も起きた労使対立が家庭や学校運営に影響を広げていることから重要です。次の焦点は、新しい州政府チームが間に合ううちに交渉を再開するかどうかです。",
       "differences": [
@@ -1127,7 +1234,7 @@
           "url": "https://www.abc.net.au/news/2026-07-31/education-union-threatens-third-victorian-teacher-strike-august/106982846"
         },
         {
-          "source": "AAP News",
+          "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/teachers-to-strike-for-third-time-as-talks-stall"
         },
         {
@@ -1614,54 +1721,6 @@
       ]
     },
     {
-      "id": "hanson-hate-speech-finding",
-      "headline": "苦情審査の結果、ハンソン氏の「良いムスリムはいない」発言は起訴対象外と判断",
-      "sourceCount": 3,
-      "publishedAt": "2026-07-31T02:41:25Z",
-      "voiceScript": "オーストラリアの警察は、ポーリン・ハンソン氏の「良いムスリムはいない」という発言について、ヘイトスピーチとして起訴する基準には当たらないと判断しました。審査は、Sky News のインタビューでの発言と、その後に寄せられた苦情を中心に行われました。宗教と移民が政治論争に入るとき、言論に関する法律がどこまで及ぶのかを試す事案として重要です。今後、追加の法的措置や議会対応があるかが焦点です。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/pauline-hanson-one-nation-hate-speech-police/106981544"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/31/pauline-hanson-muslim-comments-afp-australian-federal-police-ntwnfb"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/politics/pauline-hanson-no-good-muslim-claim-not-hate-speech-afp-say/news-story/b457010a9c938f20986adf78da6c8ae1"
-        }
-      ],
-      "language": "ja",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/australia",
-          "title": "Pauline Hanson's no 'good Muslims' comment don't breach hate speech laws, Australian federal police finds",
-          "url": "https://www.reddit.com/r/australia/comments/1vbkjri/pauline_hansons_no_good_muslims_comment_dont/",
-          "score": 1102,
-          "comments": 191,
-          "upvotes": 529
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/aussie",
-          "title": "Pauline Hanson's no 'good Muslims' comment don't breach hate speech laws, Australian federal police finds",
-          "url": "https://www.reddit.com/r/aussie/comments/1vbl9ng/pauline_hansons_no_good_muslims_comment_dont/",
-          "score": 20
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/AustralianPolitics",
-          "title": "Pauline Hanson's no 'good Muslims' comment don't breach hate speech laws, Australian federal police finds",
-          "url": "https://www.reddit.com/r/AustralianPolitics/comments/1vblbyl/pauline_hansons_no_good_muslims_comment_dont/",
-          "score": 15
-        }
-      ]
-    },
-    {
       "id": "australia-wildfire-support-france",
       "headline": "オーストラリアが記録的山火事に苦しむフランスへ支援部隊を派遣",
       "sourceCount": 3,
@@ -1871,28 +1930,6 @@
           "score": 12
         }
       ]
-    },
-    {
-      "id": "blundy-brands-buyback",
-      "headline": "ブランディがBondsなどを7億豪ドルで買い戻す",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-30T19:00:00Z",
-      "voiceScript": "ブレット・ブランディ氏は、Bras N Things、Bonds、Berlei、Sheridanを7億豪ドルの取引で再びオーストラリアの所有に戻した。Hanesbrandsは現地事業を見直したうえでこれらのブランドを売却し、なじみ深い小売ブランド群が再び1人の豪州投資家の下に戻る形になった。この取引が重要なのは、国内でもよく知られた衣料品・ホーム関連ブランドの持ち主が変わるからだ。今後の焦点は、ブランディ氏がこのポートフォリオを店舗、供給網、将来の拡大にどう使うかだ。",
-      "differences": [
-        "AFRは、ブランディ氏がかつて育てたブランドへ戻ったことと、取引規模を強調している。",
-        "7NEWSは、象徴的な豪州ブランドが地元の所有に戻る点を前面に出している。"
-      ],
-      "links": [
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/companies/retail/billionaire-blundy-swoops-on-bras-n-things-bonds-in-700m-deal-20260730-p60k39"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/bonds-sheridan-and-berlei-return-to-australian-ownership-in-700m-brett-blundy-deal-c-22657837"
-        }
-      ],
-      "language": "ja"
     },
     {
       "id": "hanson-isis-passport-bill",
@@ -2330,72 +2367,6 @@
         }
       ],
       "language": "ja"
-    },
-    {
-      "id": "victoria-bird-flu-first-detection",
-      "headline": "ビクトリア州で初めてH5N1型鳥インフルエンザが検出されたことを記録",
-      "voiceScript": "ビクトリア州は、州南西部のカンムリアジサシが陽性反応を示したことを受け、初めてH5N1型鳥インフルエンザの検出を確認した。この事件は、すでに他州に影響を及ぼしている野生生物の蔓延の範囲内で発生しているため、当局は海鳥のコロニーや絶滅危惧種の監視とバイオセキュリティ検査を拡大している。公衆衛生上のリスクは今のところ低いままだが、さらなる蔓延は野生動物の保護と家禽計画への圧力を高めることになるため、この発見は重要である。これが単一の検出なのか、それともより広範なローカル チェーンの一部なのかは、さらなるテストで明らかになるでしょう。",
-      "differences": [],
-      "sourceCount": 6,
-      "publishedAt": "2026-07-30T06:23:38.000Z",
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-30/victoria-bird-flu-h5n1-detection/106839886"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/world/2026/jul/30/bird-flu-australia-h5n1-how-will-it-affect-wildlife"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/environment/victoria-reports-first-ever-bird-flu-case-as-south-australia-braces-after-local-transmission/news-story/ce3d799f66276499e144f2f328fd314a"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/more-bird-flu-detections-spark-wildlife-fears"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/victoria-records-its-first-case-of-h5-bird-flu-c-22650311.amp"
-        },
-        {
-          "source": "The Age",
-          "url": "https://www.theage.com.au/national/victoria/first-detection-of-deadly-h5n1-bird-flu-confirmed-in-victoria-20260730-p60k0l.html"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-01/bird-flu-update-six-new-suspected-h5n1-cases-in-victoria/106985584"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/suspected-bird-flu-case-in-seagull-a-watershed-moment"
-        }
-      ],
-      "language": "ja",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/melbourne",
-          "title": "Deadly H5N1 bird flu strain detected in Victoria for first time",
-          "url": "https://www.reddit.com/r/melbourne/comments/1vafr1t/deadly_h5n1_bird_flu_strain_detected_in_victoria/",
-          "score": 15
-        },
-        {
-          "platform": "YouTube",
-          "account": "7NEWS Australia",
-          "title": "Victoria records its first case of H5 bird flu",
-          "url": "https://www.youtube.com/watch?v=LCPXImRAXnI",
-          "score": 8
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/AustralianBirds",
-          "title": "H5N1 Bird Flu in Australia",
-          "url": "https://www.reddit.com/r/AustralianBirds/comments/1uhepil/h5n1_bird_flu_in_australia/",
-          "score": 6
-        }
-      ]
     },
     {
       "id": "victoria-bunnings-dog-attack",
@@ -2925,44 +2896,6 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/australians-mortgage-holders-told-to-check-bank-accounts-after-costly-offset-failures-discovered-c-22646473"
-        }
-      ],
-      "language": "ja"
-    },
-    {
-      "id": "fuel-discount-and-petrol-prices",
-      "headline": "割引がなくなるため、ドライバーはガソリン代の高騰に備えている",
-      "sourceCount": 4,
-      "publishedAt": "2026-07-29T07:36:19Z",
-      "voiceScript": "燃料割引は終了しており、ドライバーは価格がリセットされる日付に注意するよう呼び掛けられている。一部の地域ではガソリン価格がすでに1リットルあたり2ドルを超えている。差し迫った圧力は家計にあるが、生活費への影響は急速に広がる可能性がある。",
-      "differences": [
-        "ガーディアンの報道ではこの動きを燃料価格高騰の一環として扱っているが、SBSは割引終了とドライバーが次に何をすべきかに焦点を当てている。",
-        "どちらのレポートも同じ価格圧力を指摘しているが、差し迫った痛みの枠組みが異なっている。"
-      ],
-      "links": [
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/fuel-excise-ends-sunday-what-to-do/spv7v7xap"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/29/ben-carroll-victoria-premier-jacinta-allan-labor-abs-inflation-data-nsw-icac-inquiry-antisemitism-royal-commission-ntwnfb"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-29/federal-politics-live-blog-hanson-donation-july-29/106969612"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/01/petrol-prices-on-track-to-top-2-a-litre-as-bowen-sounds-death-knell-for-fuel-excise-relief"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/fuel-prices-on-the-up-as-pm-backs-end-to-discount"
         }
       ],
       "language": "ja"
