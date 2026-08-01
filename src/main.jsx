@@ -959,6 +959,107 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Chris Bowen",
+    aliases: ["Chris Bowen", "Christopher Bowen", "克里斯·鲍恩", "克里斯·鮑恩", "クリス・ボーエン", "크리스 보언"],
+    type: "politician",
+    social: { label: "Official profile", url: "https://minister.dcceew.gov.au/bowen" },
+    background: {
+      "zh-Hans": "澳洲工党联邦议员，代表 NSW 的 McMahon 选区，2022 年起任联邦气候变化和能源部长。此前曾任影子财长、移民部长和多项经济相关职务。",
+      "zh-Hant": "澳洲工黨聯邦議員，代表 NSW 的 McMahon 選區，2022 年起任聯邦氣候變化和能源部長。此前曾任影子財長、移民部長和多項經濟相關職務。",
+      en: "Federal Labor MP for McMahon in NSW and Minister for Climate Change and Energy since 2022. He previously served as shadow treasurer, immigration minister and in several economic portfolios.",
+      es: "Diputado federal laborista por McMahon, NSW, y ministro de Cambio Climático y Energía desde 2022. Antes fue tesorero en la sombra, ministro de Inmigración y ocupó varias carteras económicas.",
+      ja: "NSW 州 McMahon 選出の連邦労働党議員で、2022年から気候変動・エネルギー相です。以前は影の財務相、移民相、複数の経済関連職を務めました。",
+      ko: "NSW McMahon 지역구의 연방 노동당 하원의원이며 2022년부터 기후변화·에너지 장관입니다. 이전에는 예비 재무장관, 이민장관, 여러 경제 관련 직책을 맡았습니다.",
+      vi: "Nghị sĩ Labor liên bang khu McMahon ở NSW và là Bộ trưởng Biến đổi khí hậu và Năng lượng từ năm 2022. Trước đó ông từng là shadow treasurer, bộ trưởng di trú và giữ nhiều vị trí kinh tế.",
+      th: "ส.ส. Labor รัฐบาลกลางเขต McMahon ใน NSW และเป็นรัฐมนตรี Climate Change and Energy ตั้งแต่ปี 2022 ก่อนหน้านี้เคยเป็น shadow treasurer รัฐมนตรีตรวจคนเข้าเมือง และดำรงตำแหน่งด้านเศรษฐกิจหลายบทบาท",
+      si: "NSW හි McMahon නියෝජනය කරන Federal Labor MP වන අතර 2022 සිට Minister for Climate Change and Energy වේ. මීට පෙර shadow treasurer, immigration minister සහ economic portfolios කිහිපයක සේවය කළේය."
+    },
+    positions: {
+      "zh-Hans": "主要推动减排、电网和可再生能源扩张、家庭电池补贴、燃料安全和能源价格政策；批评者常把电价、煤气可靠性和气候目标执行压力归到其职责范围。",
+      "zh-Hant": "主要推動減排、電網和可再生能源擴張、家庭電池補貼、燃料安全和能源價格政策；批評者常把電價、煤氣可靠性和氣候目標執行壓力歸到其職責範圍。",
+      en: "His portfolio focuses on emissions reduction, grid and renewable expansion, household battery support, fuel security and energy prices. Critics often tie power bills, gas reliability and delivery of climate targets to his role.",
+      es: "Su cartera se centra en reducción de emisiones, red eléctrica y renovables, apoyo a baterías domésticas, seguridad de combustibles y precios energéticos. Sus críticos suelen vincular su cargo con facturas eléctricas, fiabilidad del gas y cumplimiento de metas climáticas.",
+      ja: "排出削減、送電網と再エネ拡大、家庭用蓄電池支援、燃料安全保障、エネルギー価格を所管します。電気料金、ガス供給信頼性、気候目標の実行が批判の焦点になりがちです。",
+      ko: "배출 감축, 전력망과 재생에너지 확대, 가정용 배터리 지원, 연료 안보와 에너지 가격을 담당합니다. 전기요금, 가스 신뢰성, 기후 목표 이행이 그의 책임과 연결돼 비판받곤 합니다.",
+      vi: "Danh mục của ông tập trung vào giảm phát thải, mở rộng lưới điện và năng lượng tái tạo, hỗ trợ pin gia đình, an ninh nhiên liệu và giá năng lượng. Các chỉ trích thường gắn hóa đơn điện, độ tin cậy khí đốt và việc đạt mục tiêu khí hậu với vai trò của ông.",
+      th: "งานหลักคือการลดการปล่อยก๊าซ การขยายกริดและพลังงานหมุนเวียน การสนับสนุนแบตเตอรี่บ้าน ความมั่นคงเชื้อเพลิง และราคาไฟฟ้า นักวิจารณ์มักโยงค่าไฟ ความน่าเชื่อถือของก๊าซ และการทำตามเป้าหมายภูมิอากาศกับบทบาทของเขา",
+      si: "ඔහුගේ portfolio එක emissions reduction, grid/renewable expansion, household battery support, fuel security සහ energy prices වටා වේ. Power bills, gas reliability සහ climate targets delivery ඔහුගේ role එකට සම්බන්ධ කරමින් විවේචන එල්ල වේ."
+    }
+  },
+  {
+    name: "Peter Malinauskas",
+    aliases: ["Peter Malinauskas", "Peter Bryden Malinauskas", "彼得·马利瑙斯卡斯", "彼得·馬利瑙斯卡斯", "ピーター・マリナウスカス", "피터 말리나우스카스"],
+    type: "politician",
+    social: { label: "Official profile", url: "https://premier.sa.gov.au/the-team/peter-malinauskas-mp" },
+    background: {
+      "zh-Hans": "南澳工党政治人物，Croydon 州议员，2018 年起任南澳工党领袖，2022 年起任南澳州长。进入议会前曾在工会运动中任职。",
+      "zh-Hant": "南澳工黨政治人物，Croydon 州議員，2018 年起任南澳工黨領袖，2022 年起任南澳州長。進入議會前曾在工會運動中任職。",
+      en: "South Australian Labor politician, MP for Croydon, state Labor leader since 2018 and Premier of South Australia since 2022. Before parliament he worked in the union movement.",
+      es: "Político laborista de Australia Meridional, diputado por Croydon, líder laborista estatal desde 2018 y premier de Australia Meridional desde 2022. Antes del parlamento trabajó en el movimiento sindical.",
+      ja: "南オーストラリア州労働党の政治家。Croydon 選出州議員で、2018年から州労働党党首、2022年から州首相です。議会入り前は労組運動で活動しました。",
+      ko: "남호주 노동당 정치인으로 Croydon 주의원이며 2018년부터 주 노동당 대표, 2022년부터 남호주 주총리입니다. 의회 입성 전에는 노조 운동에서 일했습니다.",
+      vi: "Chính trị gia Labor tại Nam Úc, nghị sĩ bang khu Croydon, lãnh đạo Labor bang từ năm 2018 và Premier of South Australia từ năm 2022. Trước quốc hội, ông làm trong phong trào công đoàn.",
+      th: "นักการเมือง Labor ของรัฐเซาท์ออสเตรเลีย ส.ส. เขต Croydon เป็นผู้นำ Labor ของรัฐตั้งแต่ปี 2018 และ Premier of South Australia ตั้งแต่ปี 2022 ก่อนเข้าสภาทำงานในขบวนการสหภาพ",
+      si: "South Australian Labor දේශපාලනඥයෙකු වන ඔහු Croydon MP, 2018 සිට state Labor leader සහ 2022 සිට Premier of South Australia වේ. Parliament ට පෙර union movement එකේ කටයුතු කළේය."
+    },
+    positions: {
+      "zh-Hans": "主要强调医疗能力、AUKUS 和国防产业、能源转型、制造业和州经济增长；在青少年社交媒体限制和公共安全议题上也采取积极干预路线。",
+      "zh-Hant": "主要強調醫療能力、AUKUS 和國防產業、能源轉型、製造業和州經濟增長；在青少年社交媒體限制和公共安全議題上也採取積極干預路線。",
+      en: "His agenda emphasises health capacity, AUKUS and defence industry, energy transition, manufacturing and state growth. He has also taken an interventionist line on youth social-media restrictions and public safety.",
+      es: "Su agenda enfatiza capacidad sanitaria, AUKUS e industria de defensa, transición energética, manufactura y crecimiento estatal. También ha adoptado una línea intervencionista sobre restricciones de redes sociales para menores y seguridad pública.",
+      ja: "医療体制、AUKUS と防衛産業、エネルギー転換、製造業、州経済成長を重視します。未成年のSNS制限や公共安全でも積極介入型の姿勢を取っています。",
+      ko: "보건 역량, AUKUS와 방위산업, 에너지 전환, 제조업, 주 경제 성장을 강조합니다. 청소년 소셜미디어 제한과 공공안전에도 적극 개입 노선을 보입니다.",
+      vi: "Chương trình của ông nhấn mạnh năng lực y tế, AUKUS và công nghiệp quốc phòng, chuyển đổi năng lượng, sản xuất và tăng trưởng bang. Ông cũng can thiệp mạnh về hạn chế mạng xã hội cho trẻ em và an toàn công cộng.",
+      th: "วาระหลักคือศักยภาพระบบสุขภาพ AUKUS และอุตสาหกรรมกลาโหม การเปลี่ยนผ่านพลังงาน การผลิต และการเติบโตของรัฐ เขายังใช้แนวทางแทรกแซงมากขึ้นเรื่องข้อจำกัดโซเชียลมีเดียของเยาวชนและความปลอดภัยสาธารณะ",
+      si: "ඔහුගේ agenda එක health capacity, AUKUS/defence industry, energy transition, manufacturing සහ state growth අවධාරණය කරයි. Youth social-media restrictions සහ public safety සම්බන්ධයෙන්ද interventionist line එකක් ගනී."
+    }
+  },
+  {
+    name: "Grant Stevens",
+    aliases: ["Grant Stevens", "Grantley Stevens", "Grantley John Stevens", "格兰特·史蒂文斯", "グラント・スティーブンス", "그랜트 스티븐스"],
+    type: "public-figure",
+    social: { label: "Official profile", url: "https://www.police.sa.gov.au/about-us/annual-reporting/annual-report-preparation-2019/overview-about-the-agency" },
+    background: {
+      "zh-Hans": "南澳警察总监，2015 年起领导 South Australia Police。其职责包括全州警务、重大公共安全事件协调和警队治理；新冠期间曾担任南澳州紧急协调员。",
+      "zh-Hant": "南澳警察總監，2015 年起領導 South Australia Police。其職責包括全州警務、重大公共安全事件協調和警隊治理；新冠期間曾擔任南澳州緊急協調員。",
+      en: "Commissioner of South Australia Police since 2015. His role covers statewide policing, major public-safety coordination and police governance; during COVID he served as South Australia's state emergency coordinator.",
+      es: "Comisionado de South Australia Police desde 2015. Su cargo abarca policía estatal, coordinación de grandes incidentes de seguridad pública y gobernanza policial; durante la COVID fue coordinador estatal de emergencias de Australia Meridional.",
+      ja: "2015年から South Australia Police の警察長官です。州全体の警務、重大な公共安全事案の調整、警察組織の統治を担い、COVID 期には南オーストラリア州の緊急調整官も務めました。",
+      ko: "2015년부터 South Australia Police 청장입니다. 주 전역 치안, 주요 공공안전 조정, 경찰 거버넌스를 담당하며 코로나19 기간에는 남호주 주 비상조정관을 맡았습니다.",
+      vi: "Ủy viên South Australia Police từ năm 2015. Vai trò bao gồm cảnh sát toàn bang, điều phối các sự kiện an toàn công cộng lớn và quản trị lực lượng; trong COVID, ông là state emergency coordinator của Nam Úc.",
+      th: "Commissioner ของ South Australia Police ตั้งแต่ปี 2015 รับผิดชอบงานตำรวจทั้งรัฐ การประสานเหตุความปลอดภัยสาธารณะขนาดใหญ่ และ governance ของตำรวจ ช่วง COVID เคยเป็น state emergency coordinator ของ South Australia",
+      si: "2015 සිට South Australia Police Commissioner. Statewide policing, major public-safety coordination සහ police governance ඔහුගේ role එකට අයත් අතර COVID කාලයේ South Australia state emergency coordinator ලෙසද කටයුතු කළේය."
+    }
+  },
+  {
+    name: "Winston Peters",
+    aliases: ["Winston Peters", "Winston Raymond Peters", "温斯顿·彼得斯", "溫斯頓·彼得斯", "ウィンストン・ピーターズ", "윈스턴 피터스"],
+    type: "politician",
+    social: { label: "Official profile", url: "https://www.beehive.govt.nz/minister/biography/winston-peters-0" },
+    background: {
+      "zh-Hans": "新西兰 First 党创始人和长期国会议员，现任新西兰外交部长、赛马部长和铁路部长，曾三度担任副总理。",
+      "zh-Hant": "紐西蘭 First 黨創辦人和長期國會議員，現任紐西蘭外交部長、賽馬部長和鐵路部長，曾三度擔任副總理。",
+      en: "Founder of New Zealand First and long-serving New Zealand MP. He is Minister of Foreign Affairs, Minister for Racing and Minister for Rail, and has served three periods as deputy prime minister.",
+      es: "Fundador de New Zealand First y diputado neozelandés de larga trayectoria. Es ministro de Exteriores, ministro de Racing y ministro de Rail, y ha sido viceprimer ministro en tres periodos.",
+      ja: "New Zealand First の創設者で、長年のニュージーランド国会議員です。外相、競馬相、鉄道相を務め、副首相も3期務めました。",
+      ko: "New Zealand First 창립자이자 뉴질랜드의 장기 국회의원입니다. 외교장관, 경마장관, 철도장관이며 세 차례 부총리를 지냈습니다.",
+      vi: "Nhà sáng lập New Zealand First và nghị sĩ New Zealand lâu năm. Ông là Bộ trưởng Ngoại giao, Bộ trưởng Racing và Bộ trưởng Rail, từng ba giai đoạn làm phó thủ tướng.",
+      th: "ผู้ก่อตั้ง New Zealand First และ ส.ส. นิวซีแลนด์มายาวนาน ปัจจุบันเป็นรัฐมนตรีต่างประเทศ รัฐมนตรี Racing และรัฐมนตรี Rail และเคยเป็นรองนายกรัฐมนตรีสามช่วง",
+      si: "New Zealand First founder සහ දිගුකාලීන New Zealand MP. ඔහු Minister of Foreign Affairs, Minister for Racing සහ Minister for Rail වන අතර deputy prime minister ලෙස කාල තුනක සේවය කළේය."
+    },
+    positions: {
+      "zh-Hans": "其政治路线强调民族主义、移民控制、地区和老年选民利益、赛马业改革以及对外资和大型企业权力的怀疑；在灰狗赛关闭中负责赛马部长职责。",
+      "zh-Hant": "其政治路線強調民族主義、移民控制、地區和老年選民利益、賽馬業改革以及對外資和大型企業權力的懷疑；在灰狗賽關閉中負責賽馬部長職責。",
+      en: "His politics stress nationalism, tighter immigration, regional and older-voter interests, racing-industry reform and scepticism toward foreign ownership and large corporate power; he holds the racing portfolio during the greyhound-racing shutdown.",
+      es: "Su política enfatiza nacionalismo, inmigración más estricta, intereses regionales y de votantes mayores, reforma de la industria de carreras y escepticismo ante propiedad extranjera y grandes empresas; lleva la cartera de racing durante el cierre de las carreras de galgos.",
+      ja: "ナショナリズム、移民規制、地方・高齢有権者の利益、競馬産業改革、外国資本や大企業権力への懐疑を重視します。グレイハウンド競走廃止期には競馬相を務めています。",
+      ko: "민족주의, 엄격한 이민, 지역과 고령 유권자 이익, 경마 산업 개혁, 외국인 소유와 대기업 권력에 대한 회의론을 강조합니다. 그레이하운드 경주 폐쇄 기간 경마 포트폴리오를 맡고 있습니다.",
+      vi: "Chính trị của ông nhấn mạnh chủ nghĩa dân tộc, siết nhập cư, lợi ích vùng và cử tri lớn tuổi, cải cách ngành racing và hoài nghi sở hữu nước ngoài cùng quyền lực doanh nghiệp lớn; ông giữ danh mục racing trong quá trình đóng cửa đua greyhound.",
+      th: "แนวทางการเมืองเน้นชาตินิยม การคุมคนเข้าเมือง ผลประโยชน์ภูมิภาคและผู้สูงวัย การปฏิรูปอุตสาหกรรม racing และความระแวงต่อทุนต่างชาติและอำนาจบริษัทใหญ่ เขาถือ portfolio racing ระหว่างการปิด greyhound racing",
+      si: "ඔහුගේ politics nationalism, tighter immigration, regional/older-voter interests, racing-industry reform සහ foreign ownership/large corporate power පිළිබඳ scepticism අවධාරණය කරයි; greyhound-racing shutdown කාලයේ racing portfolio ඔහුට අයත් වේ."
+    }
+  },
+  {
     name: "Luke Gosling",
     aliases: ["Luke Gosling", "卢克·戈斯林", "盧克·戈斯林", "ルーク・ゴスリング", "루크 고슬링"],
     type: "politician",
