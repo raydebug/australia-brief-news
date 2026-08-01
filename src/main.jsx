@@ -903,6 +903,34 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Jaclyn Symes",
+    aliases: ["Jaclyn Symes", "Jaclyn Louise Symes", "杰奎琳·赛姆斯", "傑奎琳·賽姆斯", "ジャクリン・サイムズ", "재클린 사임스"],
+    type: "politician",
+    social: { label: "Official profile", url: "https://www.parliament.vic.gov.au/members/jaclyn-symes/" },
+    background: {
+      "zh-Hans": "维州工党政治人物，代表 Northern Victoria 的上议院议员，2024 年起任维州财长和工业关系部长，2026 年起兼任 Development Victoria and Precincts 部长。",
+      "zh-Hant": "維州工黨政治人物，代表 Northern Victoria 的上議院議員，2024 年起任維州財長和工業關係部長，2026 年起兼任 Development Victoria and Precincts 部長。",
+      en: "Victorian Labor politician and Legislative Council member for Northern Victoria. She has served as Victorian Treasurer and Minister for Industrial Relations since 2024, and as Minister for Development Victoria and Precincts since 2026.",
+      es: "Política laborista de Victoria y miembro del Legislative Council por Northern Victoria. Es tesorera de Victoria y ministra de Relaciones Industriales desde 2024, y ministra de Development Victoria and Precincts desde 2026.",
+      ja: "ビクトリア州労働党の政治家で、Northern Victoria 選出の上院議員です。2024年から州財務相・労使関係相、2026年から Development Victoria and Precincts 相も務めています。",
+      ko: "빅토리아주 노동당 정치인이며 Northern Victoria를 대표하는 Legislative Council 의원입니다. 2024년부터 빅토리아 재무장관과 산업관계 장관, 2026년부터 Development Victoria and Precincts 장관을 맡고 있습니다.",
+      vi: "Chính trị gia Labor tại Victoria và thành viên Legislative Council đại diện Northern Victoria. Bà là Treasurer của Victoria và Minister for Industrial Relations từ năm 2024, đồng thời là Minister for Development Victoria and Precincts từ năm 2026.",
+      th: "นักการเมือง Labor ของรัฐวิกตอเรีย และสมาชิก Legislative Council เขต Northern Victoria ดำรงตำแหน่ง Treasurer และ Minister for Industrial Relations ของรัฐตั้งแต่ปี 2024 และ Minister for Development Victoria and Precincts ตั้งแต่ปี 2026",
+      si: "Victorian Labor දේශපාලනඥයෙකු සහ Northern Victoria නියෝජනය කරන Legislative Council member. 2024 සිට Victorian Treasurer සහ Minister for Industrial Relations ලෙසත්, 2026 සිට Minister for Development Victoria and Precincts ලෙසත් කටයුතු කරයි."
+    },
+    positions: {
+      "zh-Hans": "主要负责州预算、工业关系和重大开发机构议题；在灵活工作上支持把可远程岗位每周两天在家工作的权利写入维州法律。",
+      "zh-Hant": "主要負責州預算、工業關係和重大開發機構議題；在彈性工作上支持把可遠端職位每週兩天在家工作的權利寫入維州法律。",
+      en: "Her portfolio focus is state finances, industrial relations and major development bodies. On flexible work she backs putting a two-day work-from-home right for eligible roles into Victorian law.",
+      es: "Sus áreas son las finanzas estatales, relaciones industriales y grandes organismos de desarrollo. En trabajo flexible respalda convertir en ley victoriana el derecho a trabajar desde casa dos días para puestos elegibles.",
+      ja: "州財政、労使関係、大型開発機関を所管します。柔軟な働き方では、対象職種に週2日の在宅勤務権を州法に盛り込む立場です。",
+      ko: "주 재정, 산업관계, 주요 개발 기관을 담당합니다. 유연근무에서는 해당 직무의 주 2일 재택근무 권리를 빅토리아 법에 담는 것을 지지합니다.",
+      vi: "Trọng tâm của bà là tài chính bang, industrial relations và các cơ quan phát triển lớn. Về làm việc linh hoạt, bà ủng hộ đưa quyền làm việc tại nhà hai ngày mỗi tuần cho vị trí phù hợp vào luật Victoria.",
+      th: "งานหลักคือการคลังรัฐ industrial relations และหน่วยงานพัฒนาขนาดใหญ่ ด้านการทำงานยืดหยุ่น เธอสนับสนุนการใส่สิทธิทำงานจากบ้านสองวันต่อสัปดาห์สำหรับงานที่เข้าเกณฑ์ไว้ในกฎหมายรัฐวิกตอเรีย",
+      si: "ඇයගේ portfolio focus එක state finances, industrial relations සහ major development bodies වේ. Flexible work සම්බන්ධයෙන් eligible roles සඳහා සතියකට දින දෙකක් work-from-home right එක Victorian law තුළට ගෙන ඒමට සහාය දක්වයි."
+    }
+  },
+  {
     name: "Anthony Albanese",
     aliases: ["Anthony Albanese", "Albanese", "安东尼·阿尔巴尼斯", "阿尔巴尼斯", "安東尼·阿爾巴尼斯", "阿爾巴尼斯", "アンソニー・アルバニージー", "앨버니지"],
     type: "politician",
@@ -973,6 +1001,34 @@ const PEOPLE_CONTEXT = [
       vi: "Quản trị viên thứ 24 của Lãnh thổ Bắc, tuyên thệ tháng 2 năm 2026. Vai trò tương tự thống đốc bang, đại diện cho Crown và không tham gia tiến trình chính trị. Trước khi được bổ nhiệm, ông làm trong lĩnh vực pastoral operations, đầu tư nông nghiệp và các tổ chức ngành nông thôn, gồm cả chủ tịch NT Cattlemen's Association.",
       th: "Administrator คนที่ 24 ของ Northern Territory สาบานตนในเดือนกุมภาพันธ์ 2026 บทบาทคล้ายผู้ว่าการรัฐ เป็นตัวแทน Crown และไม่เข้าร่วมกระบวนการการเมือง ก่อนรับตำแหน่งทำงานด้าน pastoral operations การลงทุนเกษตร และองค์กรอุตสาหกรรมชนบท รวมถึงเคยเป็นประธาน NT Cattlemen's Association",
       si: "2026 පෙබරවාරි මාසයේ දිවුරුම් දුන් Northern Territory හි 24 වන Administrator. State governor ට සමාන භූමිකාවක් වන අතර Crown නියෝජනය කර political process එකට සහභාගී නොවේ. පත් කිරීමට පෙර pastoral operations, agricultural investment සහ rural industry bodies වල, NT Cattlemen's Association president ලෙසද, කටයුතු කළේය."
+    }
+  },
+  {
+    name: "David Gibson",
+    aliases: ["David Gibson", "David Francis Gibson", "大卫·吉布森", "大衛·吉布森", "デービッド・ギブソン", "데이비드 깁슨"],
+    type: "politician",
+    social: { label: "Official profile", url: "https://www.parliament.qld.gov.au/Members/Former-Members/Former-Members-Register/Former-Member-Details?id=56257014" },
+    background: {
+      "zh-Hans": "澳大利亚前陆军军官和前昆州 LNP 政治人物，2006 年至 2015 年任 Gympie 州议员，曾短暂担任昆州警察和社区安全部长。离开政界后从事聋人服务、照护和 LGBTI 长者权益倡导，现任 GRAI 主席。",
+      "zh-Hant": "澳洲前陸軍軍官和前昆州 LNP 政治人物，2006 年至 2015 年任 Gympie 州議員，曾短暫擔任昆州警察和社區安全部長。離開政界後從事聾人服務、照護和 LGBTI 長者權益倡議，現任 GRAI 主席。",
+      en: "Former Australian Army officer and Queensland LNP politician, MP for Gympie from 2006 to 2015 and briefly Queensland minister for police and community safety. Since leaving parliament he has worked in deaf services, care and LGBTI ageing advocacy, and chairs GRAI.",
+      es: "Exoficial del ejército australiano y ex político LNP de Queensland, diputado por Gympie entre 2006 y 2015 y brevemente ministro estatal de Policía y Seguridad Comunitaria. Tras dejar el parlamento ha trabajado en servicios para personas sordas, cuidados y defensa de mayores LGBTI, y preside GRAI.",
+      ja: "元豪陸軍将校で、クイーンズランド州 LNP の元政治家。2006年から2015年まで Gympie 選出州議員で、一時は州警察・地域安全相も務めました。政界引退後はろう者サービス、介護、LGBTI 高齢者支援に携わり、GRAI の議長です。",
+      ko: "전 호주 육군 장교이자 퀸즐랜드 LNP 정치인으로 2006년부터 2015년까지 Gympie 주의원이었고 한때 퀸즐랜드 경찰·지역사회안전 장관을 지냈습니다. 의회 퇴임 후 청각장애인 서비스, 돌봄, LGBTI 노년층 권익 활동을 해 왔으며 GRAI 의장입니다.",
+      vi: "Cựu sĩ quan Australian Army và cựu chính trị gia LNP tại Queensland, nghị sĩ bang khu Gympie từ 2006 đến 2015 và từng ngắn hạn làm bộ trưởng cảnh sát và an toàn cộng đồng Queensland. Sau quốc hội, ông làm trong dịch vụ người điếc, chăm sóc và vận động quyền lợi người cao tuổi LGBTI, hiện là chủ tịch GRAI.",
+      th: "อดีตนายทหาร Australian Army และอดีตนักการเมือง LNP ของ Queensland เป็น ส.ส. รัฐเขต Gympie ระหว่างปี 2006-2015 และเคยเป็นรัฐมนตรีตำรวจและความปลอดภัยชุมชนช่วงสั้น ๆ หลังออกจากสภาทำงานด้านบริการคนหูหนวก การดูแล และการรณรงค์เพื่อผู้สูงอายุ LGBTI ปัจจุบันเป็นประธาน GRAI",
+      si: "හිටපු Australian Army officer සහ Queensland LNP දේශපාලනඥයෙකු වූ ඔහු 2006-2015 අතර Gympie MP වූ අතර කෙටි කලක් Queensland minister for police and community safety විය. Parliament හැර ගිය පසු deaf services, care සහ LGBTI ageing advocacy වල කටයුතු කරමින් GRAI chair ලෙස සිටී."
+    },
+    positions: {
+      "zh-Hans": "在政界时属于昆州 LNP 的温和派声音，曾公开支持 LGBTIQ 权利和残障包容；近年主要倡导历史性国防歧视补救、LGBTI 长者服务和照护政策。",
+      "zh-Hant": "在政界時屬於昆州 LNP 的溫和派聲音，曾公開支持 LGBTIQ 權利和身心障礙包容；近年主要倡議歷史性國防歧視補救、LGBTI 長者服務和照護政策。",
+      en: "In politics he was a moderate Queensland LNP voice who publicly backed LGBTIQ rights and disability inclusion; his recent advocacy focuses on redress for historic defence discrimination, LGBTI ageing services and care policy.",
+      es: "En política fue una voz moderada del LNP de Queensland que apoyó públicamente derechos LGBTIQ e inclusión de la discapacidad; su activismo reciente se centra en reparación por discriminación histórica en Defensa, servicios para mayores LGBTI y política de cuidados.",
+      ja: "政界ではクイーンズランド LNP の穏健派として、LGBTIQ の権利や障害者包摂を支持しました。近年は国防分野の過去の差別への補償、LGBTI 高齢者サービス、介護政策を訴えています。",
+      ko: "정치권에서는 퀸즐랜드 LNP 내 온건파로 LGBTIQ 권리와 장애 포용을 공개 지지했습니다. 최근에는 과거 국방 차별 구제, LGBTI 노년층 서비스, 돌봄 정책을 중심으로 활동합니다.",
+      vi: "Trong chính trị, ông là tiếng nói ôn hòa trong LNP Queensland, công khai ủng hộ quyền LGBTIQ và disability inclusion; vận động gần đây tập trung vào bồi hoàn cho phân biệt đối xử lịch sử trong quốc phòng, dịch vụ người cao tuổi LGBTI và chính sách chăm sóc.",
+      th: "ในทางการเมืองเขาเป็นเสียงสายกลางใน LNP Queensland ที่สนับสนุนสิทธิ LGBTIQ และ disability inclusion อย่างเปิดเผย งานรณรงค์ช่วงหลังเน้นการเยียวยาการเลือกปฏิบัติในกลาโหมในอดีต บริการผู้สูงอายุ LGBTI และนโยบาย care",
+      si: "දේශපාලනයේදී ඔහු Queensland LNP moderate voice එකක් ලෙස LGBTIQ rights සහ disability inclusion මහජනව සහාය දුන්නේය; මෑත advocacy එක historic defence discrimination redress, LGBTI ageing services සහ care policy වටා ය."
     }
   },
   {
