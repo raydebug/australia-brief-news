@@ -819,6 +819,23 @@ function hasSpecificCommentary(commentary) {
 
 const PEOPLE_CONTEXT = [
   {
+    name: "Djawa Yunupiŋu",
+    aliases: ["Djawa Yunupiŋu", "Djawa Yunupingu", "Djawa Yunupi\u014bu", "Djawa Yunupi", "贾瓦·尤努平古", "賈瓦·尤努平古", "ジャワ・ユヌピング", "자와 유누핑구"],
+    type: "public-figure",
+    social: { label: "Official profile", url: "https://yyf.com.au/about-yyf/our-people/" },
+    background: {
+      "zh-Hans": "Gumatj 领袖、Yothu Yindi Foundation 主席，也是 Garma Festival 相关公共事务中的重要 Yolŋu 发声者。其工作重点包括 Yolŋu 文化发展、教育、土地治理和 Garma 论坛。",
+      "zh-Hant": "Gumatj 領袖、Yothu Yindi Foundation 主席，也是 Garma Festival 相關公共事務中的重要 Yolŋu 發聲者。其工作重點包括 Yolŋu 文化發展、教育、土地治理和 Garma 論壇。",
+      en: "Gumatj leader and chair of the Yothu Yindi Foundation, and a prominent Yolŋu voice in public debate around Garma Festival. His work is tied to Yolŋu cultural development, education, land governance and the Garma forum.",
+      es: "Líder Gumatj y presidente de la Yothu Yindi Foundation, además de una voz Yolŋu destacada en el debate público en torno al Garma Festival. Su labor se vincula con desarrollo cultural Yolŋu, educación, gobernanza de tierras y el foro Garma.",
+      ja: "Gumatj のリーダーで Yothu Yindi Foundation の議長。Garma Festival をめぐる公共議論で重要な Yolŋu の発信者です。活動は Yolŋu の文化発展、教育、土地ガバナンス、Garma フォーラムに関わります。",
+      ko: "Gumatj 지도자이자 Yothu Yindi Foundation 의장으로, Garma Festival을 둘러싼 공적 논의에서 중요한 Yolŋu 목소리입니다. 그의 활동은 Yolŋu 문화 발전, 교육, 토지 거버넌스와 Garma 포럼에 연결돼 있습니다.",
+      vi: "Lãnh đạo Gumatj và chủ tịch Yothu Yindi Foundation, đồng thời là tiếng nói Yolŋu nổi bật trong tranh luận công chúng quanh Garma Festival. Công việc của ông gắn với phát triển văn hóa Yolŋu, giáo dục, quản trị đất đai và diễn đàn Garma.",
+      th: "ผู้นำ Gumatj และประธาน Yothu Yindi Foundation เป็นเสียง Yolŋu สำคัญในการถกเถียงสาธารณะเกี่ยวกับ Garma Festival งานของเขาเกี่ยวข้องกับการพัฒนาวัฒนธรรม Yolŋu การศึกษา การกำกับดูแลที่ดิน และเวที Garma",
+      si: "Gumatj leader සහ Yothu Yindi Foundation chair වන Djawa Yunupiŋu, Garma Festival වටා ඇති public debate තුළ වැදගත් Yolŋu හඬකි. ඔහුගේ වැඩ Yolŋu cultural development, education, land governance සහ Garma forum සමඟ බැඳී ඇත."
+    }
+  },
+  {
     name: "Jess Wilson",
     aliases: ["Jess Wilson", "Jessica Wilson", "Jessica Kate Wilson", "杰斯·威尔逊", "傑斯·威爾遜", "ジェス・ウィルソン", "제스 윌슨"],
     type: "politician",
