@@ -836,6 +836,23 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Noel Pearson",
+    aliases: ["Noel Pearson", "诺埃尔·皮尔森", "諾埃爾·皮爾森", "ノエル・ピアソン", "노엘 피어슨"],
+    type: "public-figure",
+    social: { label: "Official profile", url: "https://www.fortescue.com/about-fortescue/board-and-leadership-team" },
+    background: {
+      "zh-Hans": "来自昆士兰 Cape York 的 Guugu Yimithirr 人，律师、作家和 Indigenous policy advocate，曾参与土地权、福利改革、教育和宪法承认辩论，也是 Fortescue 非执行董事。",
+      "zh-Hant": "來自昆士蘭 Cape York 的 Guugu Yimithirr 人，律師、作家和 Indigenous policy advocate，曾參與土地權、福利改革、教育和憲法承認辯論，也是 Fortescue 非執行董事。",
+      en: "Guugu Yimithirr man from Cape York, lawyer, writer and Indigenous policy advocate whose public work spans land rights, welfare reform, education and constitutional recognition. He is also a Fortescue non-executive director.",
+      es: "Hombre Guugu Yimithirr de Cape York, abogado, escritor y defensor de políticas indígenas. Su trabajo público abarca derechos de tierra, reforma del bienestar, educación y reconocimiento constitucional. También es director no ejecutivo de Fortescue.",
+      ja: "Cape York 出身の Guugu Yimithirr の人物で、弁護士、作家、Indigenous policy advocate です。土地権、福祉改革、教育、憲法承認をめぐる公共議論で知られ、Fortescue の非常勤取締役でもあります。",
+      ko: "Cape York 출신 Guugu Yimithirr 인물로 변호사, 작가, Indigenous policy advocate입니다. 토지권, 복지 개혁, 교육, 헌법상 인정 논의에서 활동해 왔고 Fortescue 비상임 이사이기도 합니다.",
+      vi: "Người Guugu Yimithirr từ Cape York, luật sư, tác giả và nhà vận động chính sách Indigenous. Công việc công chúng của ông trải rộng từ quyền đất đai, cải cách phúc lợi, giáo dục đến công nhận hiến pháp. Ông cũng là non-executive director của Fortescue.",
+      th: "ชาย Guugu Yimithirr จาก Cape York เป็นทนาย นักเขียน และ Indigenous policy advocate งานสาธารณะของเขาครอบคลุมสิทธิที่ดิน การปฏิรูปสวัสดิการ การศึกษา และ constitutional recognition และเขายังเป็น non-executive director ของ Fortescue",
+      si: "Cape York හි Guugu Yimithirr පුද්ගලයෙකු වන Noel Pearson lawyer, writer සහ Indigenous policy advocate කෙනෙකි. Land rights, welfare reform, education සහ constitutional recognition පිළිබඳ public work සඳහා ඔහු ප්‍රසිද්ධ වන අතර Fortescue non-executive director කෙනෙකි."
+    }
+  },
+  {
     name: "Jemima Montag",
     aliases: ["Jemima Montag", "杰迈玛·蒙塔格", "傑邁瑪·蒙塔格", "ジェミマ・モンタグ", "제미마 몬태그"],
     type: "athlete",
