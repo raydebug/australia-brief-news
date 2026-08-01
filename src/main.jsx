@@ -1931,6 +1931,40 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Nick Watson",
+    aliases: ["Nick Watson", "Nicholas Watson", "The Wizard", "Watto", "Wiz", "尼克·沃森", "尼克·華森", "ニック・ワトソン", "닉 왓슨"],
+    type: "athlete",
+    social: { label: "Official profile", url: "https://www.hawthornfc.com.au/players/5592/nick-watson" },
+    background: {
+      "zh-Hans": "澳大利亚规则足球运动员，效力 AFL 的 Hawthorn，司职中小型前锋。2023 年以第 5 顺位被选中，因速度、进球能力和“The Wizard”外号受到 Hawthorn 球迷关注。",
+      "zh-Hant": "澳洲規則足球運動員，效力 AFL 的 Hawthorn，司職中小型前鋒。2023 年以第 5 順位被選中，因速度、進球能力和「The Wizard」外號受到 Hawthorn 球迷關注。",
+      en: "Australian rules footballer for Hawthorn in the AFL, playing as a medium forward. Drafted at pick 5 in 2023, he is known to Hawks supporters for speed, goal sense and the nickname The Wizard.",
+      es: "Jugador de fútbol australiano de Hawthorn en la AFL, como medium forward. Elegido con el pick 5 en 2023, es conocido entre la afición de los Hawks por su velocidad, olfato goleador y el apodo The Wizard.",
+      ja: "AFL の Hawthorn に所属するオーストラリアンルールズ選手で、medium forward としてプレーします。2023年ドラフト5位指名で、スピード、得点感覚、The Wizard の愛称で Hawks ファンに知られています。",
+      ko: "AFL Hawthorn에서 미디엄 포워드로 뛰는 호주식 풋볼 선수입니다. 2023년 드래프트 5순위로 지명됐고 속도, 득점 감각, The Wizard라는 별명으로 Hawks 팬들에게 알려져 있습니다.",
+      vi: "Cầu thủ Australian rules football của Hawthorn tại AFL, chơi medium forward. Được chọn pick 5 năm 2023, anh được cổ động viên Hawks biết đến nhờ tốc độ, cảm giác ghi bàn và biệt danh The Wizard.",
+      th: "นัก Australian rules football ของ Hawthorn ใน AFL เล่นตำแหน่ง medium forward ถูกดราฟต์ pick 5 ในปี 2023 และเป็นที่รู้จักในหมู่แฟน Hawks จากความเร็ว เซนส์การทำประตู และฉายา The Wizard",
+      si: "AFL හි Hawthorn වෙනුවෙන් medium forward ලෙස ක්‍රීඩා කරන Australian rules footballer කෙනෙකි. 2023 දී pick 5 ලෙස තෝරා ගත් අතර speed, goal sense සහ The Wizard nickname නිසා Hawks supporters අතර ප්‍රසිද්ධය."
+    }
+  },
+  {
+    name: "Mabior Chol",
+    aliases: ["Mabior Chol", "Mabior", "马比奥尔·乔尔", "馬比奧爾·喬爾", "マビア・チョル", "마비오르 촐"],
+    type: "athlete",
+    social: { label: "Official profile", url: "https://www.hawthornfc.com.au/players/1125/mabior-chol" },
+    background: {
+      "zh-Hans": "AFL 职业澳式足球运动员，现效力 Hawthorn，司职高大前锋和替补 ruck。此前效力 Richmond 和 Gold Coast，并曾获得 Gold Coast 与 Hawthorn 队内赛季进球王。",
+      "zh-Hant": "AFL 職業澳式足球運動員，現效力 Hawthorn，司職高大前鋒和替補 ruck。此前效力 Richmond 和 Gold Coast，並曾獲得 Gold Coast 與 Hawthorn 隊內賽季進球王。",
+      en: "Professional AFL footballer now with Hawthorn, playing as a tall forward and relief ruck. He previously played for Richmond and Gold Coast and has been a season leading goalkicker at both Gold Coast and Hawthorn.",
+      es: "Futbolista profesional de AFL, ahora en Hawthorn, como tall forward y relief ruck. Antes jugó para Richmond y Gold Coast, y fue máximo goleador de temporada tanto en Gold Coast como en Hawthorn.",
+      ja: "Hawthorn に所属するプロ AFL 選手で、tall forward と relief ruck を務めます。以前は Richmond と Gold Coast でプレーし、Gold Coast と Hawthorn の双方でシーズン最多得点者になりました。",
+      ko: "현재 Hawthorn 소속의 프로 AFL 선수로 tall forward와 relief ruck 역할을 합니다. Richmond와 Gold Coast에서 뛰었고 Gold Coast와 Hawthorn 모두에서 시즌 팀 내 최다 골을 기록했습니다.",
+      vi: "Cầu thủ AFL chuyên nghiệp hiện chơi cho Hawthorn, ở vai trò tall forward và relief ruck. Anh từng chơi cho Richmond và Gold Coast, và từng là cây ghi bàn nhiều nhất mùa của cả Gold Coast lẫn Hawthorn.",
+      th: "นัก AFL อาชีพของ Hawthorn เล่นเป็น tall forward และ relief ruck ก่อนหน้านี้เล่นให้ Richmond และ Gold Coast และเคยเป็นผู้ทำประตูสูงสุดประจำฤดูกาลของทั้ง Gold Coast และ Hawthorn",
+      si: "දැනට Hawthorn වෙනුවෙන් tall forward සහ relief ruck ලෙස ක්‍රීඩා කරන professional AFL footballer කෙනෙකි. ඔහු Richmond සහ Gold Coast සඳහාද ක්‍රීඩා කර ඇති අතර Gold Coast සහ Hawthorn දෙකෙහිම season leading goalkicker වී ඇත."
+    }
+  },
+  {
     name: "Matt Payne",
     aliases: ["Matt Payne", "Matthew Payne", "Matthew Allen Payne", "马特·佩恩", "馬特·佩恩", "マット・ペイン", "맷 페인"],
     type: "athlete",
