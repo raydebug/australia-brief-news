@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T20:09:25.200Z",
+  "updatedAt": "2026-08-01T21:16:45.870Z",
   "generatedBy": "codex",
   "language": "es",
   "sources": [
@@ -109,6 +109,22 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "lockyer-valley-quarry-withdrawal",
+      "headline": "Se retiran los planes de la cantera en Lockyer Valley tras la presión de los agricultores",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T20:47:05.000Z",
+      "voiceScript": "Una propuesta de cantera de arenisca en Lockyer Valley, Queensland, fue retirada tras la fuerte presión de los agricultores locales. La decisión cierra una disputa por el uso del suelo en una zona agrícola clave, donde los vecinos advertían que el proyecto amenazaba las tierras de cultivo y el paisaje de la región. Importa porque pone en la misma mesa los proyectos de recursos, la producción de alimentos y el consentimiento local. El siguiente paso es ver si la empresa presenta un plan revisado o se retira por completo.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/lockyer-valley-sandstone-quarry-application-withdrawn/106976660"
+        }
+      ],
+      "language": "es",
+      "socialDiscussions": []
+    },
     {
       "id": "diamonds-shock-loss-jamaica",
       "headline": "Jamaica frena a las Diamonds y acaba con su defensa del oro",
@@ -448,6 +464,26 @@
       ]
     },
     {
+      "id": "hawthorn-launceston-farewell",
+      "headline": "La despedida de Hawthorn en Launceston suma un capítulo más a su historia con Tasmania",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-01T07:27:52.000Z",
+      "voiceScript": "Hawthorn cerró otra visita a Launceston con una victoria sobre North Melbourne y sigue en la pelea por la final. Nick Watson marcó cinco goles y Mabior Chol aportó la ventaja decisiva al final, en un partido que también marcó otro capítulo de la larga relación del club con Tasmania. Importa porque el vínculo de Hawthorn con Launceston ha ayudado a definir su identidad durante décadas y ahora entra en una etapa de cambio. La atención pasa al tramo final de la temporada y a cómo se reajustará esa relación después del próximo año.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/hawthorn-hawks-launceston-york-park/106985530"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/high-flying-hawks-do-enough-to-beat-gritty-kangaroos"
+        }
+      ],
+      "language": "es",
+      "socialDiscussions": []
+    },
+    {
       "id": "bird-flu-native-birds-alarm",
       "headline": "La muerte de aves silvestres eleva la alarma por la gripe aviar en Australia",
       "sourceCount": 3,
@@ -603,6 +639,80 @@
       ]
     },
     {
+      "id": "football-australia-fifa-plan",
+      "headline": "Australia y la AFC fuerzan a FIFA a retirar su plan para vender el Mundial",
+      "sourceCount": 5,
+      "publishedAt": "2026-08-01T05:17:00Z",
+      "voiceScript": "FIFA abandonó su plan de vender una parte de los derechos comerciales del Mundial tras una amplia oleada de rechazo de las federaciones. Football Australia y la AFC celebraron la marcha atrás y dijeron que la propuesta necesitaba consulta real, una gobernanza transparente y más tiempo para que los miembros la evaluaran. El plan importaba porque habría cambiado cómo se recauda dinero y cómo se reparte la influencia en el torneo más importante del fútbol. El siguiente paso es revisar cómo toma FIFA sus grandes decisiones comerciales y si ideas parecidas vuelven más adelante.",
+      "differences": [
+        "ABC centra la reacción favorable de Football Australia y los principios de gobernanza que no debían acelerarse.",
+        "AAP destaca la ira de UEFA, la retirada de la propuesta y el apoyo de Australia y la AFC.",
+        "Guardian Australia pone el foco en el coste político para la autoridad de Infantino y su liderazgo futuro.",
+        "news.com.au subraya la escala del acuerdo y la amenaza de boicot que ayudó a forzar la retirada.",
+        "SBS remarca que el rechazo hizo políticamente inviable el proyecto."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/sport/2026/jul/30/football-australia-position-fifa-world-cup-privatisation-plan"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/fifa-sale-continue-despite-opposition-/106984546"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/infantino-sets-deadline-for-world-cup-investor-plan"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/football/world-cup/fifas-world-cup-selloff-plan-sparks-threat-of-european-nations-boycott/news-story/9982860bbad618e84c448a508a99984d"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/fifa-abandons-world-cup-privatisation-plan-after-fierce-backlash/bgzvz1rid"
+        }
+      ],
+      "language": "es",
+      "socialDiscussions": [
+        {
+          "platform": "Reddit",
+          "community": "r/Aleague",
+          "title": "Football Australia responds to Infantino's plan to sell off the World Cup to private investors",
+          "url": "https://www.reddit.com/r/Aleague/comments/1vahcdz/football_australia_responds_to_infantinos_plan_to/",
+          "score": 20
+        },
+        {
+          "platform": "Reddit",
+          "community": "r/aussie",
+          "title": "Football Australia considering taking a $40 million dollar payout to sell FIFA world cup",
+          "url": "https://www.reddit.com/r/aussie/comments/1vboc09/football_australia_considering_taking_a_40/",
+          "score": 18
+        },
+        {
+          "platform": "Reddit",
+          "community": "r/soccer",
+          "title": "Fifa says 'nobody selling football' as it presses ahead with private investment plan",
+          "url": "https://www.reddit.com/r/soccer/comments/1vbhcpb/fifa_says_nobody_selling_football_as_it_presses/",
+          "score": 15
+        },
+        {
+          "platform": "Reddit",
+          "community": "r/Aleague",
+          "title": "AFC stands in solidarity with UEFA and CONCACAF to protect the World Cup from private investment",
+          "url": "https://www.reddit.com/r/Aleague/comments/1vbkqm5/afc_stands_in_solidarity_with_uefa_and_concacaf/",
+          "score": 12
+        },
+        {
+          "platform": "Reddit",
+          "community": "r/soccer",
+          "title": "[Asian Football Confederation] AFC stands in solidarity with UEFA and CONCACAF",
+          "url": "https://www.reddit.com/r/soccer/comments/1vbkoma/asian_football_confederation_afc_stands_in/",
+          "score": 10
+        }
+      ]
+    },
+    {
       "id": "nz-greyhound-ban-charter-flights",
       "headline": "Los galgos empiezan a llegar a Australia cuando Nueva Zelanda activa la prohibición de las carreras",
       "sourceCount": 1,
@@ -725,6 +835,22 @@
           "score": 25
         }
       ]
+    },
+    {
+      "id": "wa-dry-july-weather-wrap",
+      "headline": "Australia Occidental cierra un julio seco con un repaso fotográfico del tiempo",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T04:04:58.000Z",
+      "voiceScript": "Gran parte de Australia Occidental acaba de pasar un julio claramente seco, con poca lluvia y escenas invernales muy marcadas. La historia importa porque un invierno seco puede afectar a las granjas, la planificación del agua y la preparación ante incendios al acercarse la primavera. El dato clave es que la sequedad fue lo bastante amplia como para destacar frente al patrón estacional normal. La próxima pregunta es si agosto traerá suficiente lluvia para cambiar el panorama.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/wa-july-weather-wrap-reveals-dry-month-in-parts-of-state/106973660"
+        }
+      ],
+      "language": "es",
+      "socialDiscussions": []
     },
     {
       "id": "sa-police-officer-stabbing-hospital",
@@ -2016,78 +2142,28 @@
       "language": "es"
     },
     {
-      "id": "football-australia-fifa-plan",
-      "headline": "Australia y la AFC fuerzan a FIFA a retirar su plan para vender el Mundial",
-      "sourceCount": 5,
-      "publishedAt": "2026-08-01T05:17:00Z",
-      "voiceScript": "FIFA abandonó su plan de vender una parte de los derechos comerciales del Mundial tras una amplia oleada de rechazo de las federaciones. Football Australia y la AFC celebraron la marcha atrás y dijeron que la propuesta necesitaba consulta real, una gobernanza transparente y más tiempo para que los miembros la evaluaran. El plan importaba porque habría cambiado cómo se recauda dinero y cómo se reparte la influencia en el torneo más importante del fútbol. El siguiente paso es revisar cómo toma FIFA sus grandes decisiones comerciales y si ideas parecidas vuelven más adelante.",
-      "differences": [
-        "ABC centra la reacción favorable de Football Australia y los principios de gobernanza que no debían acelerarse.",
-        "AAP destaca la ira de UEFA, la retirada de la propuesta y el apoyo de Australia y la AFC.",
-        "Guardian Australia pone el foco en el coste político para la autoridad de Infantino y su liderazgo futuro.",
-        "news.com.au subraya la escala del acuerdo y la amenaza de boicot que ayudó a forzar la retirada.",
-        "SBS remarca que el rechazo hizo políticamente inviable el proyecto."
-      ],
+      "id": "fuel-excise-price-jump",
+      "headline": "Los conductores se preparan para un alza en la gasolina al terminar el alivio fiscal",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-31T10:22:00.000Z",
+      "voiceScript": "El alivio temporal del impuesto especial sobre los combustibles en Australia está llegando a su fin, y se espera que la gasolina y el diésel suban de forma gradual a medida que los comercios trasladen el cambio tributario. Como la rebaja ya se había ido reduciendo por etapas, esta vez el ajuste se parece más a una transmisión lenta en el surtidor que a un salto brusco. Es importante porque el precio del combustible afecta el presupuesto de los hogares, el transporte de mercancías y las perspectivas de inflación. Lo que viene ahora es ver con qué rapidez se nota la suba y si vuelve a hablarse de apoyo extra si el mercado petrolero se mueve otra vez.",
+      "differences": [],
       "links": [
         {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/sport/2026/jul/30/football-australia-position-fifa-world-cup-privatisation-plan"
-        },
-        {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/fifa-sale-continue-despite-opposition-/106984546"
+          "url": "https://www.abc.net.au/news/2026-07-29/federal-politics-live-blog-hanson-donation-july-29/106969612"
         },
         {
           "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/infantino-sets-deadline-for-world-cup-investor-plan"
+          "url": "https://aapnews.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         },
         {
           "source": "news.com.au",
-          "url": "https://www.news.com.au/sport/football/world-cup/fifas-world-cup-selloff-plan-sparks-threat-of-european-nations-boycott/news-story/9982860bbad618e84c448a508a99984d"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/fifa-abandons-world-cup-privatisation-plan-after-fierce-backlash/bgzvz1rid"
+          "url": "https://www.news.com.au/technology/motoring/on-the-road/aussie-drivers-brace-for-petrol-price-hike-as-fuel-excise-cut-ends-sunday/news-story/a2b2357459fce1250f7233309737b4b7"
         }
       ],
       "language": "es",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/Aleague",
-          "title": "Football Australia responds to Infantino's plan to sell off the World Cup to private investors",
-          "url": "https://www.reddit.com/r/Aleague/comments/1vahcdz/football_australia_responds_to_infantinos_plan_to/",
-          "score": 20
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/aussie",
-          "title": "Football Australia considering taking a $40 million dollar payout to sell FIFA world cup",
-          "url": "https://www.reddit.com/r/aussie/comments/1vboc09/football_australia_considering_taking_a_40/",
-          "score": 18
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/soccer",
-          "title": "Fifa says 'nobody selling football' as it presses ahead with private investment plan",
-          "url": "https://www.reddit.com/r/soccer/comments/1vbhcpb/fifa_says_nobody_selling_football_as_it_presses/",
-          "score": 15
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/Aleague",
-          "title": "AFC stands in solidarity with UEFA and CONCACAF to protect the World Cup from private investment",
-          "url": "https://www.reddit.com/r/Aleague/comments/1vbkqm5/afc_stands_in_solidarity_with_uefa_and_concacaf/",
-          "score": 12
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/soccer",
-          "title": "[Asian Football Confederation] AFC stands in solidarity with UEFA and CONCACAF",
-          "url": "https://www.reddit.com/r/soccer/comments/1vbkoma/asian_football_confederation_afc_stands_in/",
-          "score": 10
-        }
-      ]
+      "socialDiscussions": []
     },
     {
       "id": "census-scam-warning-2026",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T20:09:25.195Z",
+  "updatedAt": "2026-08-01T21:16:45.870Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -109,6 +109,22 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "lockyer-valley-quarry-withdrawal",
+      "headline": "ロッキヤー・バレーの採石計画、農家の反発で撤回",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T20:47:05.000Z",
+      "voiceScript": "クイーンズランド州ロッキヤー・バレーの砂岩採石計画が、地元農家の強い反発を受けて撤回されました。これで、農地と景観への影響をめぐる土地利用の対立はいったん区切りを迎えます。資源開発、食料生産、地域の同意が同時に問われる案件だっただけに、意味は小さくありません。今後は、会社が計画を見直して再提出するのか、それとも完全に手を引くのかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/lockyer-valley-sandstone-quarry-application-withdrawn/106976660"
+        }
+      ],
+      "language": "ja",
+      "socialDiscussions": []
+    },
     {
       "id": "diamonds-shock-loss-jamaica",
       "headline": "ジャマイカが豪州のネットボール金防衛を1点差で止める",
@@ -448,6 +464,26 @@
       ]
     },
     {
+      "id": "hawthorn-launceston-farewell",
+      "headline": "ホークスのロンスセストン最終戦が、タスマニアとの関係にもう一つ章を加えた",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-01T07:27:52.000Z",
+      "voiceScript": "ホークスはロンスセストンでノース・メルボルンを下し、まだ決勝争いに踏みとどまりました。ニック・ワトソンが5ゴール、マビオール・チョルが終盤に大きな追加点を挙げ、試合はクラブとタスマニアの長い結びつきの節目にもなりました。長年続いたロンスセストンでの存在感が、これから形を変えるためです。次は、残りのシーズンをどう戦い、来季以降の関係をどう組み直すかが注目点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/hawthorn-hawks-launceston-york-park/106985530"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/high-flying-hawks-do-enough-to-beat-gritty-kangaroos"
+        }
+      ],
+      "language": "ja",
+      "socialDiscussions": []
+    },
+    {
       "id": "bird-flu-native-birds-alarm",
       "headline": "オーストラリアの鳥インフル警戒が新たな段階に",
       "sourceCount": 3,
@@ -615,6 +651,80 @@
       ]
     },
     {
+      "id": "football-australia-fifa-plan",
+      "headline": "豪州とAFCの反発を受け、FIFAがW杯売却案を撤回",
+      "sourceCount": 5,
+      "publishedAt": "2026-08-01T05:17:00Z",
+      "voiceScript": "FIFAは、ワールドカップの商業権の一部を売却する計画を、多くのサッカー団体からの強い反発を受けて取り下げた。Football Australia と AFC は、この撤回を歓迎し、提案には十分な協議、透明な運営、加盟国が判断するための時間が必要だと訴えた。争点だったのは、大会の資金の集め方と、世界最大の大会をめぐる影響力の配分が大きく変わることだった。今後は、FIFA が大きな商業判断をどう扱うか、同様の案が再び出るかが焦点になる。",
+      "differences": [
+        "ABC は、Football Australia の歓迎と、急がれるべきではない統治原則を中心に伝えている。",
+        "AAP は、UEFA の反発、提案撤回、そして豪州と AFC の支持を強調している。",
+        "Guardian Australia は、インファンティーノの権威と今後の指導力への波紋を重視している。",
+        "news.com.au は、提案の規模と、撤回を後押ししたボイコットの脅しを前面に出している。",
+        "SBS は、強い反発で計画が政治的に成り立たなくなった点を強調している。"
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/sport/2026/jul/30/football-australia-position-fifa-world-cup-privatisation-plan"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/fifa-sale-continue-despite-opposition-/106984546"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/infantino-sets-deadline-for-world-cup-investor-plan"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/football/world-cup/fifas-world-cup-selloff-plan-sparks-threat-of-european-nations-boycott/news-story/9982860bbad618e84c448a508a99984d"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/fifa-abandons-world-cup-privatisation-plan-after-fierce-backlash/bgzvz1rid"
+        }
+      ],
+      "language": "ja",
+      "socialDiscussions": [
+        {
+          "platform": "Reddit",
+          "community": "r/Aleague",
+          "title": "Football Australia responds to Infantino's plan to sell off the World Cup to private investors",
+          "url": "https://www.reddit.com/r/Aleague/comments/1vahcdz/football_australia_responds_to_infantinos_plan_to/",
+          "score": 20
+        },
+        {
+          "platform": "Reddit",
+          "community": "r/aussie",
+          "title": "Football Australia considering taking a $40 million dollar payout to sell FIFA world cup",
+          "url": "https://www.reddit.com/r/aussie/comments/1vboc09/football_australia_considering_taking_a_40/",
+          "score": 18
+        },
+        {
+          "platform": "Reddit",
+          "community": "r/soccer",
+          "title": "Fifa says 'nobody selling football' as it presses ahead with private investment plan",
+          "url": "https://www.reddit.com/r/soccer/comments/1vbhcpb/fifa_says_nobody_selling_football_as_it_presses/",
+          "score": 15
+        },
+        {
+          "platform": "Reddit",
+          "community": "r/Aleague",
+          "title": "AFC stands in solidarity with UEFA and CONCACAF to protect the World Cup from private investment",
+          "url": "https://www.reddit.com/r/Aleague/comments/1vbkqm5/afc_stands_in_solidarity_with_uefa_and_concacaf/",
+          "score": 12
+        },
+        {
+          "platform": "Reddit",
+          "community": "r/soccer",
+          "title": "[Asian Football Confederation] AFC stands in solidarity with UEFA and CONCACAF",
+          "url": "https://www.reddit.com/r/soccer/comments/1vbkoma/asian_football_confederation_afc_stands_in/",
+          "score": 10
+        }
+      ]
+    },
+    {
       "id": "nz-greyhound-ban-charter-flights",
       "headline": "NZ の競走停止で、グレーハウンドが豪州へ移送され始める",
       "sourceCount": 1,
@@ -737,6 +847,22 @@
           "score": 25
         }
       ]
+    },
+    {
+      "id": "wa-dry-july-weather-wrap",
+      "headline": "西オーストラリアの乾いた7月を、天気写真で振り返る",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T04:04:58.000Z",
+      "voiceScript": "西オーストラリアの広い範囲で、かなり乾いた7月が続きました。写真で振り返ると、雨の少なさと冬らしい空の表情がはっきり分かります。冬の乾燥は、農業、水の計画、そして春に向けた山火事対策に影響するため重要です。次の焦点は、8月に十分な雨が降って、この見通しが変わるかどうかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/wa-july-weather-wrap-reveals-dry-month-in-parts-of-state/106973660"
+        }
+      ],
+      "language": "ja",
+      "socialDiscussions": []
     },
     {
       "id": "sa-police-officer-stabbing-hospital",
@@ -1433,7 +1559,8 @@
           "url": "https://au.news.yahoo.com/rare-new-carrot-species-found-growing-on-rocky-edge-of-aussie-national-park-233527736.html"
         }
       ],
-      "language": "ja"
+      "language": "ja",
+      "socialDiscussions": []
     },
     {
       "id": "qld-airtrain-price-dispute",
@@ -1599,7 +1726,8 @@
           "url": "https://www.aap.com.au/news/vibe-check-for-outback-town-as-corporate-suits-descend"
         }
       ],
-      "language": "ja"
+      "language": "ja",
+      "socialDiscussions": []
     },
     {
       "id": "wa-outback-mining-forum",
@@ -1614,7 +1742,8 @@
           "url": "https://aapnews.aap.com.au/news/vibe-check-for-outback-town-as-corporate-suits-descend"
         }
       ],
-      "language": "ja"
+      "language": "ja",
+      "socialDiscussions": []
     },
     {
       "id": "debt-helpline-record-demand",
@@ -1974,7 +2103,8 @@
           "url": "https://www.theguardian.com/australia-news/2026/aug/01/nsw-should-compensate-elderly-woman-whose-public-housing-was-inundated-with-sewage-ombudsman-finds-ntwnfb"
         }
       ],
-      "language": "ja"
+      "language": "ja",
+      "socialDiscussions": []
     },
     {
       "id": "bonds-sheridan-return-australian-ownership",
@@ -2001,81 +2131,32 @@
           "url": "https://www.theaustralian.com.au/business/dataroom/gildan-activewear-confirms-sale-of-bras-n-things-owner-hanesbrands-australia-to-brett-blundy/news-story/a3e1b58bd73b7ab9b8d4ecd8c87a7aeb"
         }
       ],
-      "language": "ja"
+      "language": "ja",
+      "socialDiscussions": []
     },
     {
-      "id": "football-australia-fifa-plan",
-      "headline": "豪州とAFCの反発を受け、FIFAがW杯売却案を撤回",
-      "sourceCount": 5,
-      "publishedAt": "2026-08-01T05:17:00Z",
-      "voiceScript": "FIFAは、ワールドカップの商業権の一部を売却する計画を、多くのサッカー団体からの強い反発を受けて取り下げた。Football Australia と AFC は、この撤回を歓迎し、提案には十分な協議、透明な運営、加盟国が判断するための時間が必要だと訴えた。争点だったのは、大会の資金の集め方と、世界最大の大会をめぐる影響力の配分が大きく変わることだった。今後は、FIFA が大きな商業判断をどう扱うか、同様の案が再び出るかが焦点になる。",
-      "differences": [
-        "ABC は、Football Australia の歓迎と、急がれるべきではない統治原則を中心に伝えている。",
-        "AAP は、UEFA の反発、提案撤回、そして豪州と AFC の支持を強調している。",
-        "Guardian Australia は、インファンティーノの権威と今後の指導力への波紋を重視している。",
-        "news.com.au は、提案の規模と、撤回を後押ししたボイコットの脅しを前面に出している。",
-        "SBS は、強い反発で計画が政治的に成り立たなくなった点を強調している。"
-      ],
+      "id": "fuel-excise-price-jump",
+      "headline": "燃料減税の終了で、給油価格の上昇に備える",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-31T10:22:00.000Z",
+      "voiceScript": "オーストラリアでは一時的な燃料税の減免が終わり、税率の変更が少しずつ小売価格に反映される見通しです。今回の引き下げは段階的に進んできたため、給油所の価格は一気に跳ねるというより、数日かけてじわじわ上がる可能性があります。家計だけでなく、物流や輸送費、インフレ見通しにも影響するため重要です。今後は、各地域でいつ値上がりが目に見える形になるのか、そして原油市場が再び動いた場合に追加の支援が議論されるのかが焦点です。",
+      "differences": [],
       "links": [
         {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/sport/2026/jul/30/football-australia-position-fifa-world-cup-privatisation-plan"
-        },
-        {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/fifa-sale-continue-despite-opposition-/106984546"
+          "url": "https://www.abc.net.au/news/2026-07-29/federal-politics-live-blog-hanson-donation-july-29/106969612"
         },
         {
           "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/infantino-sets-deadline-for-world-cup-investor-plan"
+          "url": "https://aapnews.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
         },
         {
           "source": "news.com.au",
-          "url": "https://www.news.com.au/sport/football/world-cup/fifas-world-cup-selloff-plan-sparks-threat-of-european-nations-boycott/news-story/9982860bbad618e84c448a508a99984d"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/fifa-abandons-world-cup-privatisation-plan-after-fierce-backlash/bgzvz1rid"
+          "url": "https://www.news.com.au/technology/motoring/on-the-road/aussie-drivers-brace-for-petrol-price-hike-as-fuel-excise-cut-ends-sunday/news-story/a2b2357459fce1250f7233309737b4b7"
         }
       ],
       "language": "ja",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/Aleague",
-          "title": "Football Australia responds to Infantino's plan to sell off the World Cup to private investors",
-          "url": "https://www.reddit.com/r/Aleague/comments/1vahcdz/football_australia_responds_to_infantinos_plan_to/",
-          "score": 20
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/aussie",
-          "title": "Football Australia considering taking a $40 million dollar payout to sell FIFA world cup",
-          "url": "https://www.reddit.com/r/aussie/comments/1vboc09/football_australia_considering_taking_a_40/",
-          "score": 18
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/soccer",
-          "title": "Fifa says 'nobody selling football' as it presses ahead with private investment plan",
-          "url": "https://www.reddit.com/r/soccer/comments/1vbhcpb/fifa_says_nobody_selling_football_as_it_presses/",
-          "score": 15
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/Aleague",
-          "title": "AFC stands in solidarity with UEFA and CONCACAF to protect the World Cup from private investment",
-          "url": "https://www.reddit.com/r/Aleague/comments/1vbkqm5/afc_stands_in_solidarity_with_uefa_and_concacaf/",
-          "score": 12
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/soccer",
-          "title": "[Asian Football Confederation] AFC stands in solidarity with UEFA and CONCACAF",
-          "url": "https://www.reddit.com/r/soccer/comments/1vbkoma/asian_football_confederation_afc_stands_in/",
-          "score": 10
-        }
-      ]
+      "socialDiscussions": []
     },
     {
       "id": "census-scam-warning-2026",
