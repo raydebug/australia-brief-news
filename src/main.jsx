@@ -987,6 +987,34 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Sam Rae",
+    aliases: ["Sam Rae", "Samuel Rae", "Sam Rae MP", "萨姆·雷", "薩姆·雷", "サム・レイ", "샘 레이"],
+    type: "politician",
+    social: { label: "Official profile", url: "https://www.health.gov.au/ministers/the-hon-sam-rae-mp" },
+    background: {
+      "zh-Hans": "澳大利亚工党政治人物，2022 年起代表维州 Hawke 选区进入联邦众议院，2025 年起任老年护理和老年人事务部长。进入联邦议会前曾任维州工党州秘书。",
+      "zh-Hant": "澳洲工黨政治人物，2022 年起代表維州 Hawke 選區進入聯邦眾議院，2025 年起任老年護理和老年人事務部長。進入聯邦議會前曾任維州工黨州秘書。",
+      en: "Australian Labor politician, federal MP for Hawke in Victoria since 2022 and Minister for Aged Care and Seniors since 2025. Before federal parliament he served as Victorian Labor state secretary.",
+      es: "Político laborista australiano, diputado federal por Hawke en Victoria desde 2022 y ministro de Aged Care and Seniors desde 2025. Antes del parlamento federal fue secretario estatal de Labor en Victoria.",
+      ja: "オーストラリア労働党の政治家。2022年からビクトリア州 Hawke 選出の連邦下院議員で、2025年から高齢者ケア・高齢者担当相です。連邦議会入り前はビクトリア州労働党の州書記を務めました。",
+      ko: "호주 노동당 정치인으로 2022년부터 빅토리아 Hawke 지역구 연방 하원의원이며 2025년부터 노인돌봄·노인 담당 장관입니다. 연방 의회 입성 전에는 빅토리아 노동당 주 서기를 지냈습니다.",
+      vi: "Chính trị gia Labor Úc, nghị sĩ liên bang khu Hawke ở Victoria từ năm 2022 và là Minister for Aged Care and Seniors từ năm 2025. Trước quốc hội liên bang, ông là secretary của Labor bang Victoria.",
+      th: "นักการเมือง Labor ของออสเตรเลีย เป็น ส.ส. รัฐบาลกลางเขต Hawke ในรัฐวิกตอเรียตั้งแต่ปี 2022 และเป็น Minister for Aged Care and Seniors ตั้งแต่ปี 2025 ก่อนเข้าสภากลางเคยเป็นเลขาธิการ Labor รัฐวิกตอเรีย",
+      si: "Australian Labor දේශපාලනඥයෙකු වන Sam Rae 2022 සිට Victoria හි Hawke federal MP වන අතර 2025 සිට Minister for Aged Care and Seniors වේ. Federal parliament ට පෙර Victorian Labor state secretary ලෙස කටයුතු කළේය."
+    },
+    positions: {
+      "zh-Hans": "主要负责老年护理工资、服务质量和老年人支持政策；支持通过联邦资金落实 Fair Work Commission 的老年护理工资决定，以改善招聘、留任和照护质量。",
+      "zh-Hant": "主要負責老年護理工資、服務品質和老年人支持政策；支持透過聯邦資金落實 Fair Work Commission 的老年護理工資決定，以改善招聘、留任和照護品質。",
+      en: "His portfolio focus is aged-care wages, service quality and support for older Australians. He backs federal funding for Fair Work Commission aged-care wage decisions to improve recruitment, retention and care quality.",
+      es: "Su área se centra en salarios de aged care, calidad del servicio y apoyo a personas mayores. Respalda financiación federal para aplicar decisiones salariales de la Fair Work Commission en aged care y mejorar contratación, retención y calidad.",
+      ja: "所管は高齢者ケアの賃金、サービス品質、高齢者支援です。採用、定着、ケア品質を改善するため、Fair Work Commission の高齢者ケア賃金決定への連邦資金投入を支持しています。",
+      ko: "주요 담당 분야는 노인돌봄 임금, 서비스 품질, 노인 지원입니다. 채용, 인력 유지, 돌봄 품질 개선을 위해 Fair Work Commission의 노인돌봄 임금 결정에 연방 재정을 투입하는 것을 지지합니다.",
+      vi: "Trọng tâm của ông là lương aged care, chất lượng dịch vụ và hỗ trợ người cao tuổi. Ông ủng hộ tài trợ liên bang cho các quyết định lương aged care của Fair Work Commission để cải thiện tuyển dụng, giữ chân nhân viên và chất lượng chăm sóc.",
+      th: "งานหลักคือค่าจ้าง aged care คุณภาพบริการ และการสนับสนุนผู้สูงอายุ เขาสนับสนุนเงินรัฐบาลกลางสำหรับคำตัดสินค่าจ้าง aged care ของ Fair Work Commission เพื่อช่วยการจ้างงาน การรักษาบุคลากร และคุณภาพการดูแล",
+      si: "ඔහුගේ portfolio focus එක aged-care wages, service quality සහ older Australians සඳහා support වේ. Recruitment, retention සහ care quality වැඩිදියුණු කිරීමට Fair Work Commission aged-care wage decisions සඳහා federal funding ලබාදීමට ඔහු සහාය දක්වයි."
+    }
+  },
+  {
     name: "Jennifer Howard",
     aliases: ["Jennifer Howard", "Jennifer Ruth Howard", "Jennifer Howard MP", "詹妮弗·霍华德", "詹妮弗·霍華德", "ジェニファー・ハワード", "제니퍼 하워드"],
     type: "politician",
