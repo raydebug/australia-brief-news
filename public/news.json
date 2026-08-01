@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T02:13:47Z",
+  "updatedAt": "2026-08-01T03:08:43Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -107,6 +107,36 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "nsw-central-coast-murder-charge",
+      "headline": "新州中央海岸谋杀案后，一名少年被起诉",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T02:50:23Z",
+      "voiceScript": "警方已指控一名15岁少年涉嫌在新州中央海岸杀害一名男子。这个案件重要，因为它既是凶杀调查，也是未成年人司法案件，证据和保释决定都会被严格检验。调查人员仍在拼出完整经过，案件接下来还会继续进入法院程序。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/nsw-central-coast-boy-charged-with-murder-of-man-gosford/106985600"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
+      "id": "wa-flu-jab-target",
+      "headline": "西澳流感疫苗活动恐难达标",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T01:52:16Z",
+      "voiceScript": "西澳的流感疫苗接种目标现在看起来难以达成，因为免费接种正在收尾。这个变化重要，因为接种率偏低会让更多人在冬季持续流行的疾病面前暴露风险，尤其是年长者和有健康问题的人。接下来要看卫生部门是否再加一轮推动，还是承认这次宣传来得太晚，难以扭转数字。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/wa-set-to-fall-short-of-immunisation-targets/106984278"
+        }
+      ],
+      "language": "zh-Hans"
+    },
     {
       "id": "vic-wfh-two-days-law",
       "headline": "维州拟把每周两天居家办公写入法律",
@@ -456,6 +486,21 @@
         {
           "source": "AAP",
           "url": "https://www.aap.com.au/news/vibe-check-for-outback-town-as-corporate-suits-descend"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
+      "id": "wa-outback-mining-forum",
+      "headline": "矿业论坛让西澳内陆小镇再受关注",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T21:30:00Z",
+      "voiceScript": "随着一场论坛开幕，西澳一座内陆小镇将迎来大批矿业高管、投资者和当地相关方。这个消息重要，因为类似活动会影响就业、矿产收益分成，以及社区如何看待矿山关闭或扩张。关键问题是，眼前的热度能否在论坛结束后转化为持续投入和长期工作。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/vibe-check-for-outback-town-as-corporate-suits-descend"
         }
       ],
       "language": "zh-Hans"
@@ -864,6 +909,10 @@
         {
           "source": "AAP",
           "url": "https://www.aap.com.au/news/bluey-big-ideas-and-bukmak-all-in-as-garma-lights-up"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bluey-travels-to-garma-to-meet-yolnu/lzt9lu2oj"
         }
       ],
       "language": "zh-Hans",
@@ -2233,6 +2282,14 @@
         {
           "source": "The Age",
           "url": "https://www.theage.com.au/national/victoria/first-detection-of-deadly-h5n1-bird-flu-confirmed-in-victoria-20260730-p60k0l.html"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/bird-flu-update-six-new-suspected-h5n1-cases-in-victoria/106985584"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/suspected-bird-flu-case-in-seagull-a-watershed-moment"
         }
       ],
       "language": "zh-Hans",
@@ -2818,6 +2875,14 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/petrol-prices-on-track-to-top-2-a-litre-as-bowen-sounds-death-knell-for-fuel-excise-relief"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/fuel-prices-on-the-up-as-pm-backs-end-to-discount"
         }
       ],
       "language": "zh-Hans"

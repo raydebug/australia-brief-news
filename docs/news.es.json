@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T02:16:07Z",
+  "updatedAt": "2026-08-01T03:08:43Z",
   "generatedBy": "codex",
   "language": "es",
   "sources": [
@@ -107,6 +107,36 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "nsw-central-coast-murder-charge",
+      "headline": "Arrestan a un adolescente tras un cargo de homicidio en la Costa Central de NSW",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T02:50:23Z",
+      "voiceScript": "La policía ha acusado a un joven de 15 años por la presunta muerte de un hombre en la Costa Central de Nueva Gales del Sur. El caso importa porque es a la vez una investigación por homicidio y un asunto de menores, así que las pruebas y cualquier decisión sobre fianza serán examinadas con detalle. Los investigadores aún deben reconstruir toda la secuencia de los hechos antes de que el caso avance en los tribunales.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/nsw-central-coast-boy-charged-with-murder-of-man-gosford/106985600"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "wa-flu-jab-target",
+      "headline": "La campaña de vacunas contra la gripe en WA apunta a quedarse corta",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T01:52:16Z",
+      "voiceScript": "En Australia Occidental, la meta de vacunación contra la gripe parece difícil de alcanzar mientras terminan las dosis gratuitas. Esto importa porque una menor cobertura deja a más personas expuestas durante el invierno, sobre todo a mayores y a quienes tienen riesgos de salud. Lo siguiente será ver si las autoridades sanitarias lanzan otro empujón o aceptan que la campaña llegó demasiado tarde para cambiar las cifras.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/wa-set-to-fall-short-of-immunisation-targets/106984278"
+        }
+      ],
+      "language": "es"
+    },
     {
       "id": "vic-wfh-two-days-law",
       "headline": "Victoria avanza para garantizar dos días de teletrabajo",
@@ -459,6 +489,21 @@
       "headline": "Una feria minera lleva una avalancha empresarial a una remota ciudad del oro",
       "voiceScript": "Una feria minera está llevando una oleada de visitantes corporativos a la capital australiana del oro, y los vecinos ya se preparan para un cambio brusco de ritmo. La historia importa porque los grandes eventos sectoriales pueden aumentar el gasto y la atención, pero también ponen presión sobre los servicios y la rutina de las ciudades pequeñas. La pregunta inmediata es cómo afrontará la localidad la llegada de tanta gente cuando la feria empiece.",
       "differences": []
+    },
+    {
+      "id": "wa-outback-mining-forum",
+      "headline": "Un foro minero vuelve a poner a un pueblo remoto de WA en el mapa",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T21:30:00Z",
+      "voiceScript": "Un pueblo remoto de Australia Occidental se prepara para recibir a directivos mineros, inversores y actores locales cuando se abre un foro del sector. Esto importa porque eventos así pueden influir en el empleo, las regalías y en cómo la comunidad habla de cierres o ampliaciones de minas. La gran pregunta es si el interés de estos días se convierte en gasto y trabajo duraderos cuando el foro termine.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/vibe-check-for-outback-town-as-corporate-suits-descend"
+        }
+      ],
+      "language": "es"
     },
     {
       "id": "debt-helpline-record-demand",
@@ -864,6 +909,10 @@
         {
           "source": "AAP",
           "url": "https://www.aap.com.au/news/bluey-big-ideas-and-bukmak-all-in-as-garma-lights-up"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bluey-travels-to-garma-to-meet-yolnu/lzt9lu2oj"
         }
       ],
       "language": "es",
@@ -1194,7 +1243,7 @@
     {
       "id": "australia-2026-census-attention",
       "headline": "El censo de 2026 en Australia concentra atención antes del 11 de agosto",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-07-31T05:31:00Z",
       "voiceScript": "El próximo censo de Australia se completará el 11 de agosto y recopilará datos actualizados sobre la estructura del hogar, los antepasados y la identidad. Es importante porque ayuda a planificar salud, educación, vivienda e infraestructura, y este año suma nuevas preguntas sobre género y orientación sexual. La incógnita ahora es la participación: las autoridades quieren que el formulario se complete bien y a tiempo, mientras el debate sobre la redacción seguirá hasta la noche del censo.",
       "differences": [
@@ -1214,6 +1263,10 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/culture/trends/three-big-changes-coming-to-the-2026-census-with-one-expected-to-raise-eyebrows-in-many-households/news-story/88ffc94b60bd8c14463145fae9f9355d"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/fully-visible-sexuality-gender-questions-in-census"
         }
       ],
       "language": "es",
@@ -1326,7 +1379,7 @@
     {
       "id": "hsbc-retail-exit-australia",
       "headline": "HSBC se prepara para salir del mercado bancario minorista australiano",
-      "sourceCount": 2,
+      "sourceCount": 4,
       "publishedAt": "2026-07-31T05:00:55Z",
       "voiceScript": "HSBC reducirá su negocio bancario minorista en Australia, cerrará 19 sucursales y dejará de ofrecer productos para consumidores durante los próximos 18 meses. El banco también vende su cartera de préstamos hipotecarios y personales a Blackstone, mientras mantiene sus operaciones privadas e institucionales en el país. Importa porque una presencia minorista extranjera de larga data está saliendo de un mercado dominado por los grandes bancos locales. La principal incógnita es cómo se trasladarán clientes y empleados al nuevo esquema.",
       "differences": [],
@@ -1338,6 +1391,14 @@
         {
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/companies/financial-services/blackstone-snaps-up-36b-of-hsbc-australian-home-and-personal-loans-20260731-p60k94"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/asx-markets-business-live-news-31-july-2026/104556762"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/business/banking/hsbc-closes-australian-retail-banking-business/news-story/571c324f55c9b5988cdd74c5bffa632b"
         }
       ],
       "language": "es",
@@ -1571,7 +1632,7 @@
     {
       "id": "asx-opens-higher-on-global-rally",
       "headline": "Las bolsas australianas abren al alza por el repunte global",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-07-30T23:42:00Z",
       "voiceScript": "Las acciones de Estados Unidos subieron durante la noche y el mercado australiano abrió también en terreno positivo el viernes por la mañana. La tensión en Oriente Medio sigue presente, pero el impulso comprador dominó el arranque. Esto importa porque la bolsa australiana aún depende mucho del ánimo que llega desde el exterior. La próxima prueba será si la subida resiste cuando empiecen a pesar los resultados empresariales y los datos locales.",
       "differences": [
@@ -1585,6 +1646,10 @@
         {
           "source": "Australian Financial Review",
           "url": "https://www.afr.com/markets/equity-markets/microsoft-s-soars-and-revives-the-beleaguered-ai-trade-20260731-p60k70"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/a-new-era-miner-banks-profit-on-metals-for-tech-age"
         }
       ],
       "language": "es"
@@ -1691,7 +1756,7 @@
     {
       "id": "australia-el-nino-hotter-drier-spring",
       "headline": "El Niño acelera y deja a gran parte de Australia camino a una primavera más calurosa y seca",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-07-30T19:55:00Z",
       "voiceScript": "La última previsión climática apunta a menos lluvias de lo normal en gran parte del este y del sur de Australia, junto con temperaturas por encima del promedio desde agosto hasta la primavera. Los meteorólogos dicen que el Pacífico se ha calentado con tanta rapidez que aumenta el riesgo de calor récord, de condiciones más propicias para incendios y de más presión sobre el campo y el agua. La noticia importa porque la transición hacia la primavera es cuando los paisajes secos pueden pasar con rapidez a un escenario de incendios. Aun así, sigue habiendo incertidumbre, sobre todo sobre cuánta lluvia caerá en las zonas tropicales y del oeste.",
       "differences": [],
@@ -1703,6 +1768,10 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/technology/environment/bureau-warns-australia-faces-warmer-drier-august-to-october-as-el-nino-strengthens/news-story/9e19b9a7ab69c0260856f0aa8e2315ed"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/fire-agencies-on-front-foot-as-dry-warm-weather-looms"
         }
       ],
       "language": "es",
@@ -2213,6 +2282,14 @@
         {
           "source": "The Age",
           "url": "https://www.theage.com.au/national/victoria/first-detection-of-deadly-h5n1-bird-flu-confirmed-in-victoria-20260730-p60k0l.html"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/bird-flu-update-six-new-suspected-h5n1-cases-in-victoria/106985584"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/suspected-bird-flu-case-in-seagull-a-watershed-moment"
         }
       ],
       "language": "es",
@@ -2798,6 +2875,14 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/petrol-prices-on-track-to-top-2-a-litre-as-bowen-sounds-death-knell-for-fuel-excise-relief"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/fuel-prices-on-the-up-as-pm-backs-end-to-discount"
         }
       ],
       "language": "es"

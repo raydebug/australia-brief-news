@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T02:13:47Z",
+  "updatedAt": "2026-08-01T03:08:43Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -107,6 +107,36 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "nsw-central-coast-murder-charge",
+      "headline": "Teen arrest follows NSW Central Coast murder charge",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T02:50:23Z",
+      "voiceScript": "Police have charged a 15-year-old over the alleged murder of a man on the NSW Central Coast. The case matters because it is both a homicide investigation and a juvenile court matter, so the evidence and any bail decision will be closely tested. Investigators still need to piece together the full sequence of events before the matter moves further through court.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/nsw-central-coast-boy-charged-with-murder-of-man-gosford/106985600"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "wa-flu-jab-target",
+      "headline": "WA flu jab campaign looks set to miss its target",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T01:52:16Z",
+      "voiceScript": "Western Australia is now expected to fall short of its flu vaccination target as free jabs wind down. That matters because lower uptake leaves more people exposed as winter illness keeps circulating, especially older residents and people with health risks. The next question is whether health officials add another push or accept that the campaign has already peaked too late to move the numbers.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/wa-set-to-fall-short-of-immunisation-targets/106984278"
+        }
+      ],
+      "language": "en"
+    },
     {
       "id": "vic-wfh-two-days-law",
       "headline": "Victoria moves to lock in two days of work from home",
@@ -456,6 +486,21 @@
         {
           "source": "AAP",
           "url": "https://www.aap.com.au/news/vibe-check-for-outback-town-as-corporate-suits-descend"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "wa-outback-mining-forum",
+      "headline": "Mining forum puts a WA outback town back in the spotlight",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T21:30:00Z",
+      "voiceScript": "A Western Australian outback town is about to host a surge of mining executives, investors and local stakeholders as a forum opens. The story matters because events like this can influence jobs, royalties and the way communities talk about mine closures or expansion. The key question is whether the short-term buzz turns into lasting spending and work once the forum ends.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/vibe-check-for-outback-town-as-corporate-suits-descend"
         }
       ],
       "language": "en"
@@ -864,6 +909,10 @@
         {
           "source": "AAP",
           "url": "https://www.aap.com.au/news/bluey-big-ideas-and-bukmak-all-in-as-garma-lights-up"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bluey-travels-to-garma-to-meet-yolnu/lzt9lu2oj"
         }
       ],
       "language": "en",
@@ -2233,6 +2282,14 @@
         {
           "source": "The Age",
           "url": "https://www.theage.com.au/national/victoria/first-detection-of-deadly-h5n1-bird-flu-confirmed-in-victoria-20260730-p60k0l.html"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/bird-flu-update-six-new-suspected-h5n1-cases-in-victoria/106985584"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/suspected-bird-flu-case-in-seagull-a-watershed-moment"
         }
       ],
       "language": "en",
@@ -2818,6 +2875,14 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/petrol-prices-on-track-to-top-2-a-litre-as-bowen-sounds-death-knell-for-fuel-excise-relief"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/fuel-prices-on-the-up-as-pm-backs-end-to-discount"
         }
       ],
       "language": "en"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T02:13:47Z",
+  "updatedAt": "2026-08-01T03:08:43Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -107,6 +107,36 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "nsw-central-coast-murder-charge",
+      "headline": "NSW 센트럴코스트 살인 사건, 10대 기소",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T02:50:23Z",
+      "voiceScript": "뉴사우스웨일스주 센트럴코스트에서 한 남성이 숨진 사건과 관련해 경찰이 15세 소년을 살인 혐의로 기소했습니다. 이 사건은 살인 수사인 동시에 미성년자 사건이어서, 증거 검증과 보석 여부가 앞으로의 핵심이 됩니다. 수사팀은 아직 사건의 전체 흐름을 정리하는 단계이며, 재판으로 넘어가기 전에 사실관계를 더 확인해야 합니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/nsw-central-coast-boy-charged-with-murder-of-man-gosford/106985600"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "wa-flu-jab-target",
+      "headline": "서호주 무료 독감 예방접종은 목표 달성이 어려워 보인다",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T01:52:16Z",
+      "voiceScript": "무료 접종이 끝나가는 가운데 서호주에서는 독감 예방접종 목표를 채우기 어려울 것으로 보입니다. 접종률이 낮으면 겨울철 유행이 이어질 때 특히 고령층과 건강 위험이 있는 사람들의 노출이 커지기 때문에 이 소식은 중요합니다. 앞으로 보건 당국이 추가 홍보를 할지, 아니면 이번 캠페인이 숫자를 바꾸기엔 너무 늦었다고 볼지가 관건입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/wa-set-to-fall-short-of-immunisation-targets/106984278"
+        }
+      ],
+      "language": "ko"
+    },
     {
       "id": "vic-wfh-two-days-law",
       "headline": "빅토리아주, 주 2일 재택근무 권리 추진",
@@ -456,6 +486,21 @@
         {
           "source": "AAP",
           "url": "https://www.aap.com.au/news/vibe-check-for-outback-town-as-corporate-suits-descend"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "wa-outback-mining-forum",
+      "headline": "광산 포럼이 서호주 외딴 마을을 다시 주목하게 한다",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T21:30:00Z",
+      "voiceScript": "서호주의 한 외딴 마을이 포럼 개막과 함께 광산업 경영진, 투자자, 지역 관계자들을 맞이할 예정입니다. 이런 행사는 일자리와 로열티, 그리고 광산 폐쇄나 확장에 대한 지역사회의 논의를 바꿀 수 있어 중요합니다. 이번에 모인 관심이 행사 이후에도 투자와 지속적인 일자리로 이어질지가 다음 관전 포인트입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/vibe-check-for-outback-town-as-corporate-suits-descend"
         }
       ],
       "language": "ko"
@@ -864,6 +909,10 @@
         {
           "source": "AAP",
           "url": "https://www.aap.com.au/news/bluey-big-ideas-and-bukmak-all-in-as-garma-lights-up"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bluey-travels-to-garma-to-meet-yolnu/lzt9lu2oj"
         }
       ],
       "language": "ko",
@@ -2233,6 +2282,14 @@
         {
           "source": "The Age",
           "url": "https://www.theage.com.au/national/victoria/first-detection-of-deadly-h5n1-bird-flu-confirmed-in-victoria-20260730-p60k0l.html"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/bird-flu-update-six-new-suspected-h5n1-cases-in-victoria/106985584"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/suspected-bird-flu-case-in-seagull-a-watershed-moment"
         }
       ],
       "language": "ko",
@@ -2818,6 +2875,14 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/petrol-prices-on-track-to-top-2-a-litre-as-bowen-sounds-death-knell-for-fuel-excise-relief"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/fuel-prices-on-the-up-as-pm-backs-end-to-discount"
         }
       ],
       "language": "ko"

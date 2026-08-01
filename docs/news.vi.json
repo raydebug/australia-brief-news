@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T02:13:47Z",
+  "updatedAt": "2026-08-01T03:08:43Z",
   "generatedBy": "codex",
   "language": "vi",
   "sources": [
@@ -107,6 +107,36 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "nsw-central-coast-murder-charge",
+      "headline": "Bắt giữ thiếu niên sau cáo buộc giết người ở Central Coast của NSW",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T02:50:23Z",
+      "voiceScript": "Cảnh sát đã buộc tội một thiếu niên 15 tuổi liên quan đến cáo buộc giết một người đàn ông ở Central Coast của bang New South Wales. Vụ việc quan trọng vì đây vừa là điều tra giết người vừa là hồ sơ liên quan đến người chưa thành niên, nên chứng cứ và quyết định tại ngoại sẽ bị xem xét rất kỹ. Nhóm điều tra vẫn cần ghép lại toàn bộ diễn biến trước khi vụ án đi tiếp vào tòa.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/nsw-central-coast-boy-charged-with-murder-of-man-gosford/106985600"
+        }
+      ],
+      "language": "vi"
+    },
+    {
+      "id": "wa-flu-jab-target",
+      "headline": "Chiến dịch tiêm cúm miễn phí ở WA có nguy cơ không đạt mục tiêu",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T01:52:16Z",
+      "voiceScript": "Tại Western Australia, mục tiêu tiêm vắc-xin cúm đang có nguy cơ không đạt khi các mũi tiêm miễn phí sắp kết thúc. Điều này quan trọng vì tỷ lệ tiêm thấp sẽ khiến nhiều người dễ bị phơi nhiễm hơn trong mùa đông, nhất là người lớn tuổi và người có nguy cơ sức khỏe. Bước tiếp theo là xem cơ quan y tế có tăng thêm chiến dịch vận động hay chấp nhận rằng chương trình đã quá muộn để cải thiện con số hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/wa-set-to-fall-short-of-immunisation-targets/106984278"
+        }
+      ],
+      "language": "vi"
+    },
     {
       "id": "vic-wfh-two-days-law",
       "headline": "Victoria tiến tới quyền làm việc tại nhà 2 ngày mỗi tuần",
@@ -456,6 +486,21 @@
         {
           "source": "AAP",
           "url": "https://www.aap.com.au/news/vibe-check-for-outback-town-as-corporate-suits-descend"
+        }
+      ],
+      "language": "vi"
+    },
+    {
+      "id": "wa-outback-mining-forum",
+      "headline": "Diễn đàn khai mạc đưa một thị trấn hẻo lánh ở WA trở lại tâm điểm",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T21:30:00Z",
+      "voiceScript": "Một thị trấn hẻo lánh ở Western Australia sắp đón lượng lớn lãnh đạo ngành khai khoáng, nhà đầu tư và các bên liên quan địa phương khi một diễn đàn bắt đầu. Tin này quan trọng vì những sự kiện như vậy có thể ảnh hưởng đến việc làm, tiền bản quyền tài nguyên và cách cộng đồng bàn về việc đóng hoặc mở rộng mỏ. Câu hỏi then chốt là sự chú ý ngắn hạn có biến thành chi tiêu và công việc lâu dài sau khi diễn đàn kết thúc hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/vibe-check-for-outback-town-as-corporate-suits-descend"
         }
       ],
       "language": "vi"
@@ -864,6 +909,10 @@
         {
           "source": "AAP",
           "url": "https://www.aap.com.au/news/bluey-big-ideas-and-bukmak-all-in-as-garma-lights-up"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bluey-travels-to-garma-to-meet-yolnu/lzt9lu2oj"
         }
       ],
       "language": "vi",
@@ -2233,6 +2282,14 @@
         {
           "source": "The Age",
           "url": "https://www.theage.com.au/national/victoria/first-detection-of-deadly-h5n1-bird-flu-confirmed-in-victoria-20260730-p60k0l.html"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/bird-flu-update-six-new-suspected-h5n1-cases-in-victoria/106985584"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/suspected-bird-flu-case-in-seagull-a-watershed-moment"
         }
       ],
       "language": "vi",
@@ -2818,6 +2875,14 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/petrol-prices-on-track-to-top-2-a-litre-as-bowen-sounds-death-knell-for-fuel-excise-relief"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/fuel-prices-on-the-up-as-pm-backs-end-to-discount"
         }
       ],
       "language": "vi"

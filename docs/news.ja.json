@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T02:13:47Z",
+  "updatedAt": "2026-08-01T03:08:43Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -107,6 +107,36 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "nsw-central-coast-murder-charge",
+      "headline": "NSW中部海岸の殺人容疑で15歳少年を起訴",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T02:50:23Z",
+      "voiceScript": "ニューサウスウェールズ州中部海岸で男性が死亡した事件について、警察は15歳の少年を殺人容疑で起訴しました。これは殺人捜査であると同時に未成年者の事件でもあり、証拠の確認や保釈判断が今後の焦点になります。捜査当局は、事件の流れをまだ整理している段階で、裁判に進む前に事実関係をさらに詰める必要があります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/nsw-central-coast-boy-charged-with-murder-of-man-gosford/106985600"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "wa-flu-jab-target",
+      "headline": "西オーストラリア州の無料インフル接種は目標未達の見通し",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T01:52:16Z",
+      "voiceScript": "西オーストラリア州では、無料接種の終了が近づくなか、インフルエンザワクチンの目標達成が難しくなっています。接種率が低いままだと、冬の流行が続く時期に高齢者や持病のある人のリスクが高まるため、この動きは重要です。次に注目されるのは、保健当局が追加の呼びかけを行うのか、それとも数字の改善は難しいと判断するのかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/wa-set-to-fall-short-of-immunisation-targets/106984278"
+        }
+      ],
+      "language": "ja"
+    },
     {
       "id": "vic-wfh-two-days-law",
       "headline": "ビクトリア州、週2日の在宅勤務を法制化へ",
@@ -456,6 +486,21 @@
         {
           "source": "AAP",
           "url": "https://www.aap.com.au/news/vibe-check-for-outback-town-as-corporate-suits-descend"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "wa-outback-mining-forum",
+      "headline": "鉱業フォーラムでWAの地方都市に再び注目",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T21:30:00Z",
+      "voiceScript": "西オーストラリア州の地方都市が、フォーラム開催で鉱業会社の幹部や投資家、地域関係者を迎えようとしています。こうした催しは雇用やロイヤルティ、鉱山の閉鎖や拡張をめぐる議論に影響するため重要です。短期的な盛り上がりが、終了後も投資や雇用として残るかが次の焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/vibe-check-for-outback-town-as-corporate-suits-descend"
         }
       ],
       "language": "ja"
@@ -864,6 +909,10 @@
         {
           "source": "AAP",
           "url": "https://www.aap.com.au/news/bluey-big-ideas-and-bukmak-all-in-as-garma-lights-up"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/bluey-travels-to-garma-to-meet-yolnu/lzt9lu2oj"
         }
       ],
       "language": "ja",
@@ -2233,6 +2282,14 @@
         {
           "source": "The Age",
           "url": "https://www.theage.com.au/national/victoria/first-detection-of-deadly-h5n1-bird-flu-confirmed-in-victoria-20260730-p60k0l.html"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/bird-flu-update-six-new-suspected-h5n1-cases-in-victoria/106985584"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/suspected-bird-flu-case-in-seagull-a-watershed-moment"
         }
       ],
       "language": "ja",
@@ -2818,6 +2875,14 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/drivers-warned-not-to-expect-extended-fuel-excise-cut"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/petrol-prices-on-track-to-top-2-a-litre-as-bowen-sounds-death-knell-for-fuel-excise-relief"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/fuel-prices-on-the-up-as-pm-backs-end-to-discount"
         }
       ],
       "language": "ja"
