@@ -2461,22 +2461,39 @@ function SourceLogo({ name }) {
   );
 }
 
-function validSocialDiscussions(cluster) {
-  return (cluster?.socialDiscussions || [])
+function socialDiscussionSet(cluster, language) {
+  const localized = cluster?.localizedSocialDiscussions || cluster?.socialDiscussionsByLanguage;
+  const raw = cluster?.socialDiscussions;
+
+  if (localized?.[language]?.length) return localized[language];
+  if (localized?.en?.length) return localized.en;
+
+  if (raw && !Array.isArray(raw) && typeof raw === "object") {
+    if (raw[language]?.length) return raw[language];
+    if (raw.en?.length) return raw.en;
+    if (raw.default?.length) return raw.default;
+    return [];
+  }
+
+  return Array.isArray(raw) ? raw : [];
+}
+
+function validSocialDiscussions(cluster, language = cluster?.language || "en") {
+  return socialDiscussionSet(cluster, language)
     .filter((item) => item?.platform && item?.title && item?.url)
     .sort((a, b) => Number(b.score || 0) - Number(a.score || 0))
     .slice(0, 5);
 }
 
-function socialHeat(cluster) {
-  const discussions = validSocialDiscussions(cluster);
+function socialHeat(cluster, language = cluster?.language || "en") {
+  const discussions = validSocialDiscussions(cluster, language);
   const score = discussions.reduce((total, item) => total + Number(item.score || 0), 0);
   const level = score >= 1800 ? 4 : score >= 800 ? 3 : score >= 250 ? 2 : score > 0 ? 1 : 0;
   return { score, level, count: discussions.length };
 }
 
-function HeatIndicator({ cluster }) {
-  const heat = socialHeat(cluster);
+function HeatIndicator({ cluster, language }) {
+  const heat = socialHeat(cluster, language);
   const title = heat.count
     ? `Social heat ${heat.level}/4, score ${heat.score}, ${heat.count} discussion links`
     : "Social heat 0/4, no tracked discussion links yet";
@@ -2796,7 +2813,7 @@ function App() {
   const activeDifferences = uniqueDifferences(displayActive);
   const activeCommentary = showCommentary ? getFourNewsCommentary(displayActive, language) : "";
   const activePeople = showPeopleContext ? mentionedPeople(displayActive) : [];
-  const activeSocialDiscussions = validSocialDiscussions(displayActive);
+  const activeSocialDiscussions = validSocialDiscussions(displayActive, language);
 
   useEffect(() => {
     if (activeId && clusters.length && !clusters.some((cluster) => cluster.id === activeId)) {
@@ -3017,7 +3034,7 @@ function App() {
             const speechState = speechButtonState(displayCluster);
             const commentary = showCommentary ? getFourNewsCommentary(displayCluster, language) : "";
             const people = showPeopleContext ? mentionedPeople(displayCluster) : [];
-            const socialDiscussions = validSocialDiscussions(displayCluster);
+            const socialDiscussions = validSocialDiscussions(displayCluster, language);
 
             return (
               <article
@@ -3034,7 +3051,7 @@ function App() {
                   >
                     <h3>
                       <span>{displayCluster.headline}</span>
-                      <HeatIndicator cluster={displayCluster} />
+                      <HeatIndicator cluster={displayCluster} language={language} />
                     </h3>
                   </button>
                   <button
@@ -3133,7 +3150,7 @@ function App() {
               <div>
                 <h2>
                   <span>{linkifyPeopleText(displayActive.headline, showPeopleContext)}</span>
-                  <HeatIndicator cluster={displayActive} />
+                  <HeatIndicator cluster={displayActive} language={language} />
                 </h2>
               </div>
               <button

@@ -52,7 +52,7 @@ npm run build
 
 ### 社交媒体讨论后补
 
-每条新闻簇可以带一个可选字段 `socialDiscussions`，用于列出已经出现的公开热门讨论贴。没有真实讨论时不要显示占位内容，也不要放普通搜索结果入口。
+每条新闻簇可以带一个可选字段 `socialDiscussions`，用于列出已经出现的公开热门讨论贴。没有真实讨论时不要显示占位内容，也不要放普通搜索结果入口。社媒讨论可以按语言分别维护；页面会优先显示当前界面语言的讨论链接，没有时回退到英文或通用链接。
 
 字段结构：
 
@@ -72,15 +72,26 @@ npm run build
 ]
 ```
 
+也可以使用按语言分组的结构：
+
+```json
+"socialDiscussions": {
+  "en": [{ "platform": "Reddit", "title": "English discussion", "url": "https://...", "score": 120 }],
+  "zh-Hans": [{ "platform": "YouTube", "title": "中文讨论", "url": "https://...", "score": 80 }]
+}
+```
+
+兼容字段 `localizedSocialDiscussions` 和 `socialDiscussionsByLanguage` 也按同样结构读取。
+
 生成规则：
 
 - 社交讨论通常滞后于新闻发布，定时任务应把它作为后补字段，而不是新闻首次生成时一次性定稿。
 - 对新新闻执行错时扫描：入库时快速扫一次，约 2 小时、6 小时、24 小时后各补扫一次；之后只在最近两周保留期内低频刷新。
 - 只列公开可访问、能直接打开的讨论贴；不要抓取私密群组、登录后才可见的内容或 Meta 明确限制自动化访问的页面。
-- 优先平台：Reddit、公开 X 帖、公开 YouTube 视频评论入口、公开 Facebook Page 帖。Facebook Groups、Instagram、TikTok 只有在公开且合规可访问时才记录。
+- 搜索范围应覆盖当前支持语言。英文优先 Reddit、公开 X 帖、公开 YouTube 视频评论入口、公开 Facebook Page 帖；中文可补充公开 YouTube、Facebook Page、X、Threads、Reddit 中文讨论；日语、韩语、越南语、泰语、西班牙语、僧伽罗语也应优先找对应语言的公开帖子或评论入口。Facebook Groups、Instagram、TikTok 只有在公开且合规可访问时才记录。
 - 热度按互动速度和总量综合判断，不只看点赞总数。建议基础分：`comments * 3 + shares/reposts * 2 + likes/upvotes`，再按发布时间衰减。
 - 每条新闻最多保留 5 个代表性讨论，按 `score` 降序。
-- `socialDiscussions` 是跨语言共享字段，所有 `news.{lang}.json` 必须与英文主文件保持一致。
+- 不同语言可以有不同的 `socialDiscussions`。同一语言的 `public/news.{lang}.json` 和 `docs/news.{lang}.json` 必须保持一致；`public/news.json` 作为旧入口，跟随简体中文。
 
 当前语言文件：
 

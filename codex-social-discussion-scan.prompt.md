@@ -9,7 +9,9 @@ Rules:
 - Only add `socialDiscussions` entries that are real public posts or public discussion pages directly related to the news cluster.
 - Do not add generic search-result URLs.
 - Do not add login-only, private group, private profile, or inaccessible posts.
+- Search across all currently supported languages, not only English. Prefer discussion links matching each language file when available.
 - Prefer Reddit posts, public X posts, public YouTube video pages where the public comment thread is relevant, and public Facebook Page posts.
+- For Chinese, Japanese, Korean, Vietnamese, Thai, Sinhala, and Spanish runs, include public discussion posts or comment-entry pages in that language when directly related to the same news cluster.
 - Facebook Groups, Instagram, and TikTok are allowed only if the post is public and directly accessible without logging in.
 - For each entry include:
   - `platform`
@@ -20,8 +22,19 @@ Rules:
   - visible metrics such as `comments`, `likes`, `shares`, `reposts`, `upvotes`
   - `score`
 - Score formula: `comments * 3 + shares/reposts * 2 + likes/upvotes`, adjusted down if the match is indirect.
-- Keep at most 5 discussions per news cluster, sorted by score descending.
-- `socialDiscussions` must be identical across every language file for the same cluster.
+- Keep at most 5 discussions per language per news cluster, sorted by score descending.
+- `socialDiscussions` may differ by language. Prefer this structure when language-specific links exist:
+  - `socialDiscussions.en`
+  - `socialDiscussions.zh-Hans`
+  - `socialDiscussions.zh-Hant`
+  - `socialDiscussions.si`
+  - `socialDiscussions.ja`
+  - `socialDiscussions.ko`
+  - `socialDiscussions.vi`
+  - `socialDiscussions.th`
+  - `socialDiscussions.es`
+- If a cluster only has language-neutral or English discussion links, keeping the legacy array form is allowed.
+- Keep `public/news.{lang}.json` and `docs/news.{lang}.json` identical for the same language. Keep `public/news.json` and `docs/news.json` aligned with Simplified Chinese.
 - If no real discussion exists for a cluster, leave `socialDiscussions` empty or absent.
 - Do not invent metrics. If metrics are not visible, omit them and use a conservative `score`.
 - People context must not be silently ignored:

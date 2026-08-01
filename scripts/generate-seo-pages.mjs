@@ -43,8 +43,25 @@ function sourceList(cluster) {
     .join("\n");
 }
 
+function socialDiscussionSet(cluster, language = "en") {
+  const localized = cluster.localizedSocialDiscussions || cluster.socialDiscussionsByLanguage;
+  const raw = cluster.socialDiscussions;
+
+  if (localized?.[language]?.length) return localized[language];
+  if (localized?.en?.length) return localized.en;
+
+  if (raw && !Array.isArray(raw) && typeof raw === "object") {
+    if (raw[language]?.length) return raw[language];
+    if (raw.en?.length) return raw.en;
+    if (raw.default?.length) return raw.default;
+    return [];
+  }
+
+  return Array.isArray(raw) ? raw : [];
+}
+
 function discussionList(cluster) {
-  const items = (cluster.socialDiscussions || []).slice(0, 5);
+  const items = socialDiscussionSet(cluster, "en").slice(0, 5);
   if (!items.length) return "";
   return `
       <section>
