@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T01:17:11Z",
+  "updatedAt": "2026-08-01T02:13:47Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -107,6 +107,21 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "vic-wfh-two-days-law",
+      "headline": "ビクトリア州、週2日の在宅勤務を法制化へ",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T01:01:30Z",
+      "voiceScript": "ビクトリア州は、週に2日は在宅勤務できる権利を法的に保障する方向で動いています。柔軟な働き方が州の雇用や通勤、家庭の予定に広く影響するため、この動きは重要です。中小企業への負担を懸念する声もあり、今後は法案の詰めと政治的な反発への対応が焦点になります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/vic/victorian-government-touts-major-change-to-work-from-home-rules-20260801-p60kj6.html"
+        }
+      ],
+      "language": "ja"
+    },
     {
       "id": "nsw-black-truffle-dogs",
       "headline": "NSWの生産者が高値の黒トリュフ探しに愛犬を投入",
@@ -221,6 +236,51 @@
           "score": 4
         }
       ]
+    },
+    {
+      "id": "wa-rare-species-national-park",
+      "headline": "西オーストラリアの国立公園で希少種を確認",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:35:27Z",
+      "voiceScript": "西オーストラリアの国立公園で希少な生物が見つかり、限られた生息地をどう守るかが改めて問われています。新しい発見は保全の優先順位や土地管理に影響するため、意味のあるニュースです。今後は、その種がどこまで広がっているのか、追加の保護が必要かどうかが焦点になります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/rare-new-carrot-species-found-growing-on-rocky-edge-of-aussie-national-park-233527736.html"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "qld-airtrain-price-dispute",
+      "headline": "クイーンズランド州の運賃見直しでエアトレインが提訴へ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:22:38Z",
+      "voiceScript": "エアトレインは、州政府の価格変更で売上が約600万豪ドル減ったとして、法廷で争う構えです。空港鉄道は公共交通政策と民間事業の収益がぶつかる場所であり、この争いはそのバランスを左右します。今後は裁判の日程と、判決前に双方が条件を見直すかどうかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/airtrain-to-take-queensland-government-to-court-over-price-changes-20260801-p60kix.html"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "au-heavy-vehicle-fines",
+      "headline": "オーストラリアの大型トラック罰金が新ルールで大幅上昇",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:00:00Z",
+      "voiceScript": "報道によると、新しい道路法で一部の大型車違反への罰金は26,610豪ドルまで引き上げられます。安全は罰金だけでなく、休憩施設や訓練、運行計画にも左右されるため、運輸業界は影響を注視しています。次は、改革が事故減少につながるのか、それとも物流コストを押し上げるだけなのかが論点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/truckies-face-26000-fines-from-today-in-major-road-laws-overhaul-significant-penalties-010000952.html"
+        }
+      ],
+      "language": "ja"
     },
     {
       "id": "nt-pollution-rules-santos-inpex",
@@ -620,6 +680,21 @@
           "score": 10
         }
       ]
+    },
+    {
+      "id": "fuel-price-jump-weekend",
+      "headline": "週末明けにオーストラリアの燃料価格が再び上昇へ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T10:25:16Z",
+      "voiceScript": "オーストラリアのドライバーは、週末明けに燃料価格の再上昇に直面しています。燃料代は家計と物流コストに直結するため、この動きは物価全体にも影響します。今後は値上がりがどれだけ続くか、そして大都市以外にも広がるかが注目点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/why-aussies-facing-another-fuel-102516125.html"
+        }
+      ],
+      "language": "ja"
     },
     {
       "id": "antisemitism-royal-commission",

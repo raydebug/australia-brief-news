@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T01:17:11Z",
+  "updatedAt": "2026-08-01T02:13:47Z",
   "generatedBy": "codex",
   "language": "si",
   "sources": [
@@ -107,6 +107,21 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "vic-wfh-two-days-law",
+      "headline": "වික්ටෝරියා සතියකට දින දෙකක් නිවසෙන් වැඩ කිරීමේ අයිතිය නීතිගත කිරීමට ඉදිරියට යයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T01:01:30Z",
+      "voiceScript": "වික්ටෝරියා ප්‍රාන්තය සේවකයන්ට සතියකට දින දෙකක් දුරස්ථව වැඩ කිරීමේ නීතිමය අයිතිය ලබාදීමට ඉදිරියට යන බව වාර්තා වේ. මෙය වැදගත් වන්නේ කාර්යාල ඉල්ලුම, පවුල් ජීවිතය සහ බඳවා ගැනීම් යන දේවල් මත බලපෑම් ඇති කළ හැකි නිසාය. කුඩා ව්‍යාපාරවලට අමතර පීඩනයක් ගැන දැනටමත් අනතුරු අඟවා ඇති බැවින්, ඊළඟට බලන්න තියෙන්නේ නීති කෙටුම්පත දේශපාලන හා නීතිමය විරෝධය හමුවේ ඉදිරියට යන්නේද කියලා.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/vic/victorian-government-touts-major-change-to-work-from-home-rules-20260801-p60kj6.html"
+        }
+      ],
+      "language": "si"
+    },
     {
       "id": "nsw-black-truffle-dogs",
       "headline": "නව දකුණු වේල්ස් ගොවීන් මිලක් වටිනා ට්‍රෆල් සෙවීමට බල්ලන් පුහුණු කරයි",
@@ -221,6 +236,51 @@
           "score": 4
         }
       ]
+    },
+    {
+      "id": "wa-rare-species-national-park",
+      "headline": "බටහිර ඔස්ට්‍රේලියා ජාතික උද්‍යානයක දුර්ලභ ජීවියෙක් හමු වෙයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:35:27Z",
+      "voiceScript": "බටහිර ඔස්ට්‍රේලියා ජාතික උද්‍යානයක දුර්ලභ ජීවියෙක් හමුවෙලා තිබෙනවා. මේ වගේ සොයාගැනීම් වැදගත් වන්නේ කුඩා වාසස්ථාන ආරක්ෂා කිරීමේ ප්‍රමුඛතා වෙනස් කළ හැකි නිසාය. ඉදිරියේදී ඒ ජීවියා කොතරම් පැතිරිලා තියෙනවාද, අමතර ආරක්ෂාවක් අවශ්‍යද කියලා තහවුරු කරගන්න වෙනවා.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/rare-new-carrot-species-found-growing-on-rocky-edge-of-aussie-national-park-233527736.html"
+        }
+      ],
+      "language": "si"
+    },
+    {
+      "id": "qld-airtrain-price-dispute",
+      "headline": "ක්වීන්ස්ලන්ත ගාස්තු ගැටුම සම්බන්ධයෙන් එයර්ට්‍රේන් අධිකරණයට යයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:22:38Z",
+      "voiceScript": "ක්වීන්ස්ලන්ත රජයේ ගාස්තු වෙනස්කම් නිසා තම ආදායම ඔස්ට්‍රේලියානු ඩොලර් මිලියන 6ක් පමණ අඩු වූ බව එයර්ට්‍රේන් කියයි, ඒ නිසා එය මේ ගැටුම අධිකරණයට ගෙන යනවා. මෙය වැදගත් වන්නේ ගුවන් තොටුපළ දුම්රිය සේවාව පොදු ප්‍රවාහන ප්‍රතිපත්ති සහ පෞද්ගලික ක්‍රියාකරුවෙකුගේ මුදල් තත්වය අතර සන්ධිස්ථානයක් වන නිසාය. ඉදිරියේදී අධිකරණ කාලසටහන සහ තීන්දුවට පෙර දෙපාර්ශ්වය ස්ථාවරය වෙනස් කරනවාද කියලා බලන්න තියෙනවා.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/airtrain-to-take-queensland-government-to-court-over-price-changes-20260801-p60kix.html"
+        }
+      ],
+      "language": "si"
+    },
+    {
+      "id": "au-heavy-vehicle-fines",
+      "headline": "ඔස්ට්‍රේලියාවේ බර ට්‍රක් දඩ නව නීති යටතේ දැඩිව වැඩිවේ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:00:00Z",
+      "voiceScript": "නව මාර්ග නීති අනුව බර වාහනවල සමහර උල්ලංඝන සඳහා දඩය ඔස්ට්‍රේලියානු ඩොලර් 26,610 දක්වා ඉහළ යා හැකි බව වාර්තා වේ. ආරක්ෂාව සම්බන්ධයෙන් විවේචකයන් කියන්නේ දඩවලට අමතරව විවේක ස්ථාන, පුහුණුව සහ රියදුරු කාලසටහන් ද වැදගත් කියලා. ඊළඟට බලන්න තියෙන්නේ මේ වෙනස්කම් අනතුරු අඩු කරනවාද නැත්නම් භාණ්ඩ ප්‍රවාහන වියදම් පමණක් වැඩි කරනවාද කියලා.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/truckies-face-26000-fines-from-today-in-major-road-laws-overhaul-significant-penalties-010000952.html"
+        }
+      ],
+      "language": "si"
     },
     {
       "id": "nt-pollution-rules-santos-inpex",
@@ -620,6 +680,21 @@
           "score": 10
         }
       ]
+    },
+    {
+      "id": "fuel-price-jump-weekend",
+      "headline": "සති අන්තයෙන් පසු ඔස්ට්‍රේලියානු රියදුරන්ට ඉන්ධන මිල නැවත ඉහළ යයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T10:25:16Z",
+      "voiceScript": "සති අන්තයෙන් පසු ඔස්ට්‍රේලියානු රියදුරන්ට ඉන්ධන මිල නැවත ඉහළ යනවා. ඉන්ධන වියදම ගෘහස්ථ බජට් එකට සහ ප්‍රවාහන වියදම්වලට සෘජුව බලපාන නිසා මෙය වැදගත්ය. ඊළඟට බලන්න තියෙන්නේ මෙම ඉහළ යාම කොච්චර කාලයක් පවතිනවාද, සහ තවත් නගරවලට පැතිරෙනවාද කියලා.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/why-aussies-facing-another-fuel-102516125.html"
+        }
+      ],
+      "language": "si"
     },
     {
       "id": "antisemitism-royal-commission",

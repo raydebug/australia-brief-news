@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T01:17:11Z",
+  "updatedAt": "2026-08-01T02:13:47Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -107,6 +107,21 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "vic-wfh-two-days-law",
+      "headline": "维州拟把每周两天居家办公写入法律",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T01:01:30Z",
+      "voiceScript": "维多利亚州正推进一项计划，要让员工每周至少两天在家办公成为法定权利。这个变化重要，因为它会影响办公室需求、家庭安排和招聘方式。雇主团体已经担心小企业承压，下一步要看草案能否顶住政治和法律层面的反对。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/vic/victorian-government-touts-major-change-to-work-from-home-rules-20260801-p60kj6.html"
+        }
+      ],
+      "language": "zh-Hans"
+    },
     {
       "id": "nsw-black-truffle-dogs",
       "headline": "新州种植者训练家犬寻找更值钱的黑松露",
@@ -221,6 +236,51 @@
           "score": 4
         }
       ]
+    },
+    {
+      "id": "wa-rare-species-national-park",
+      "headline": "西澳国家公园发现罕见物种",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:35:27Z",
+      "voiceScript": "西澳一座国家公园里发现了罕见物种，也让外界重新关注小型栖息地的保护。这个发现重要，因为新的物种记录会影响保育优先级和土地管理方式。下一步要确认它到底分布多广，以及是否需要额外保护。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/rare-new-carrot-species-found-growing-on-rocky-edge-of-aussie-national-park-233527736.html"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
+      "id": "qld-airtrain-price-dispute",
+      "headline": "布里斯班机场铁路公司就昆州票价争议起诉",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:22:38Z",
+      "voiceScript": "布里斯班机场铁路公司说，昆州政府调整票价后，公司收入大约少了 600 万澳元，现在把争议带上法庭。这个案子重要，因为机场铁路同时牵涉公共交通政策和私营运营方的财务。接下来要看法院时间表，以及双方会不会在判决前改口。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/airtrain-to-take-queensland-government-to-court-over-price-changes-20260801-p60kix.html"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
+      "id": "au-heavy-vehicle-fines",
+      "headline": "澳洲重型卡车罚款在新交规下大幅上调",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:00:00Z",
+      "voiceScript": "新道路法规会把部分重型车辆罚款提高到 26,610 澳元。这个问题重要，因为运输业认为，路边休息区、培训和排班和罚款一样影响安全。接下来要看这些改革究竟能减少事故，还是只是增加货运企业和司机的成本。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/truckies-face-26000-fines-from-today-in-major-road-laws-overhaul-significant-penalties-010000952.html"
+        }
+      ],
+      "language": "zh-Hans"
     },
     {
       "id": "nt-pollution-rules-santos-inpex",
@@ -620,6 +680,21 @@
           "score": 10
         }
       ]
+    },
+    {
+      "id": "fuel-price-jump-weekend",
+      "headline": "周末后澳洲司机又要面对油价上涨",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T10:25:16Z",
+      "voiceScript": "澳洲司机在周末后又会遇到一波油价上调。这个消息重要，因为汽油成本会直接压到家庭预算和运输通胀。接下来要看这轮涨价会持续多久，以及是否会扩散到更多城市。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/why-aussies-facing-another-fuel-102516125.html"
+        }
+      ],
+      "language": "zh-Hans"
     },
     {
       "id": "antisemitism-royal-commission",

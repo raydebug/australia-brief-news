@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T01:17:11Z",
+  "updatedAt": "2026-08-01T02:13:47Z",
   "generatedBy": "codex",
   "language": "vi",
   "sources": [
@@ -107,6 +107,21 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "vic-wfh-two-days-law",
+      "headline": "Victoria tiến tới quyền làm việc tại nhà 2 ngày mỗi tuần",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T01:01:30Z",
+      "voiceScript": "Victoria đang hướng tới việc bảo đảm bằng luật quyền làm việc từ xa hai ngày mỗi tuần cho người lao động. Điều này quan trọng vì nó có thể định hình lại nhu cầu văn phòng, lịch sinh hoạt gia đình và cách doanh nghiệp tuyển dụng. Các nhóm doanh nghiệp nhỏ đã lo ngại áp lực tăng lên, nên bước tiếp theo là xem dự luật có vượt qua phản ứng chính trị và pháp lý hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/vic/victorian-government-touts-major-change-to-work-from-home-rules-20260801-p60kj6.html"
+        }
+      ],
+      "language": "vi"
+    },
     {
       "id": "nsw-black-truffle-dogs",
       "headline": "Nông dân New South Wales huấn luyện chó nhà đi tìm nấm truffle đen",
@@ -221,6 +236,51 @@
           "score": 4
         }
       ]
+    },
+    {
+      "id": "wa-rare-species-national-park",
+      "headline": "Phát hiện loài hiếm trong một công viên quốc gia ở Tây Úc",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:35:27Z",
+      "voiceScript": "Một loài hiếm vừa được ghi nhận trong một công viên quốc gia ở Tây Úc, làm nổi bật lại câu chuyện bảo vệ các sinh cảnh nhỏ. Phát hiện này quan trọng vì mỗi ghi nhận mới có thể thay đổi ưu tiên bảo tồn và cách quản lý đất đai. Bước tiếp theo là xác định loài này phân bố rộng đến đâu và có cần bảo vệ thêm hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/rare-new-carrot-species-found-growing-on-rocky-edge-of-aussie-national-park-233527736.html"
+        }
+      ],
+      "language": "vi"
+    },
+    {
+      "id": "qld-airtrain-price-dispute",
+      "headline": "Tranh chấp giá vé đường sắt sân bay ở Queensland ra tòa",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:22:38Z",
+      "voiceScript": "Công ty tàu sân bay cho biết việc Queensland thay đổi giá đã làm doanh thu của họ giảm khoảng 6 triệu đô la Úc, và họ sẽ đưa vụ việc ra tòa. Tranh chấp này quan trọng vì tuyến tàu sân bay nằm giữa chính sách giao thông công cộng và tài chính của một đơn vị vận hành tư nhân. Sắp tới, lịch xét xử và việc hai bên có nhượng bộ trước phán quyết hay không sẽ rất đáng chú ý.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/airtrain-to-take-queensland-government-to-court-over-price-changes-20260801-p60kix.html"
+        }
+      ],
+      "language": "vi"
+    },
+    {
+      "id": "au-heavy-vehicle-fines",
+      "headline": "Phạt xe tải hạng nặng ở Úc tăng mạnh theo luật đường bộ mới",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:00:00Z",
+      "voiceScript": "Theo báo cáo, luật đường bộ mới sẽ nâng một số mức phạt đối với xe tải hạng nặng lên tới 26.610 đô la Úc. Điều này quan trọng vì giới vận tải cho rằng an toàn còn phụ thuộc vào điểm nghỉ, đào tạo và lịch chạy xe, chứ không chỉ tiền phạt. Câu hỏi tiếp theo là liệu thay đổi này có giảm tai nạn hay chỉ làm chi phí logistics tăng lên.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/truckies-face-26000-fines-from-today-in-major-road-laws-overhaul-significant-penalties-010000952.html"
+        }
+      ],
+      "language": "vi"
     },
     {
       "id": "nt-pollution-rules-santos-inpex",
@@ -620,6 +680,21 @@
           "score": 10
         }
       ]
+    },
+    {
+      "id": "fuel-price-jump-weekend",
+      "headline": "Giá xăng ở Úc lại tăng sau cuối tuần",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T10:25:16Z",
+      "voiceScript": "Người lái xe ở Úc đang đối mặt với một đợt tăng giá xăng nữa sau cuối tuần. Điều này quan trọng vì giá nhiên liệu tác động trực tiếp đến chi tiêu hộ gia đình và chi phí vận tải, từ đó lan sang lạm phát. Tiếp theo cần theo dõi đợt tăng này kéo dài bao lâu và có lan ra nhiều thành phố khác hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/why-aussies-facing-another-fuel-102516125.html"
+        }
+      ],
+      "language": "vi"
     },
     {
       "id": "antisemitism-royal-commission",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T01:17:11Z",
+  "updatedAt": "2026-08-01T02:13:47Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -107,6 +107,21 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "vic-wfh-two-days-law",
+      "headline": "빅토리아주, 주 2일 재택근무 권리 추진",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T01:01:30Z",
+      "voiceScript": "빅토리아주가 직원에게 주 2회 재택근무를 할 권리를 법으로 보장하려 하고 있습니다. 이 변화는 출퇴근과 가족 일정, 채용 방식에까지 영향을 줄 수 있어 중요합니다. 중소기업 부담을 걱정하는 목소리도 있어, 앞으로는 법안과 정치권 반응이 핵심이 됩니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/vic/victorian-government-touts-major-change-to-work-from-home-rules-20260801-p60kj6.html"
+        }
+      ],
+      "language": "ko"
+    },
     {
       "id": "nsw-black-truffle-dogs",
       "headline": "NSW 농가, 더 비싼 트러플을 찾게 하려고 반려견 훈련",
@@ -221,6 +236,51 @@
           "score": 4
         }
       ]
+    },
+    {
+      "id": "wa-rare-species-national-park",
+      "headline": "서호주 국립공원에서 희귀 생물 확인",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:35:27Z",
+      "voiceScript": "서호주의 한 국립공원에서 희귀 생물이 발견되며 작은 서식지를 어떻게 지킬지가 다시 주목받고 있습니다. 새로운 발견은 보전 우선순위와 토지 관리 방식에 영향을 줄 수 있어 의미가 큽니다. 다음에는 그 종의 분포 범위와 추가 보호 필요 여부를 확인해야 합니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/rare-new-carrot-species-found-growing-on-rocky-edge-of-aussie-national-park-233527736.html"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "qld-airtrain-price-dispute",
+      "headline": "퀸즐랜드 항공철도 요금 분쟁, 법정으로 간다",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:22:38Z",
+      "voiceScript": "에어트레인은 주 정부의 요금 변경으로 매출이 약 600만 호주달러 줄었다며 법원에 문제를 제기합니다. 공항 철도는 공공교통 정책과 민간 운영사의 수익이 맞부딪히는 지점이라 이번 분쟁의 의미가 큽니다. 앞으로는 재판 일정과 양측이 판결 전에 입장을 바꿀지 여부가 관전 포인트입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/airtrain-to-take-queensland-government-to-court-over-price-changes-20260801-p60kix.html"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "au-heavy-vehicle-fines",
+      "headline": "호주 대형 트럭 벌금, 새 도로 규정으로 크게 오른다",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:00:00Z",
+      "voiceScript": "보도에 따르면 새 도로 규정으로 일부 대형 차량 벌금이 26,610호주달러까지 올라갑니다. 운송업계는 안전이 벌금만이 아니라 휴게 시설, 교육, 배차 계획에도 달려 있다고 보고 있습니다. 앞으로는 이런 변화가 사고를 줄일지, 아니면 물류 비용만 키울지가 쟁점입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/truckies-face-26000-fines-from-today-in-major-road-laws-overhaul-significant-penalties-010000952.html"
+        }
+      ],
+      "language": "ko"
     },
     {
       "id": "nt-pollution-rules-santos-inpex",
@@ -620,6 +680,21 @@
           "score": 10
         }
       ]
+    },
+    {
+      "id": "fuel-price-jump-weekend",
+      "headline": "주말 뒤 호주 연료값 또 오를 전망",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T10:25:16Z",
+      "voiceScript": "호주 운전자들은 주말 뒤 또 한 번의 연료값 상승을 맞게 될 전망입니다. 휘발유 가격은 가계와 물류비에 바로 영향을 주기 때문에 물가에도 파급됩니다. 앞으로는 이번 상승이 얼마나 오래 가는지, 그리고 더 많은 도시로 번질지가 관건입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/why-aussies-facing-another-fuel-102516125.html"
+        }
+      ],
+      "language": "ko"
     },
     {
       "id": "antisemitism-royal-commission",

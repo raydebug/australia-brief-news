@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T01:17:11Z",
+  "updatedAt": "2026-08-01T02:13:47Z",
   "generatedBy": "codex",
   "language": "th",
   "sources": [
@@ -107,6 +107,21 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "vic-wfh-two-days-law",
+      "headline": "วิกตอเรียเดินหน้ารับรองสิทธิทำงานจากบ้านสัปดาห์ละ 2 วัน",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T01:01:30Z",
+      "voiceScript": "รัฐวิกตอเรียกำลังเดินหน้าให้สิทธิพนักงานทำงานจากบ้านได้อย่างน้อยสัปดาห์ละ 2 วันตามกฎหมาย เรื่องนี้สำคัญเพราะจะกระทบทั้งรูปแบบการทำงาน การเดินทาง และชีวิตครอบครัวของคนจำนวนมาก กลุ่มธุรกิจขนาดเล็กกังวลเรื่องภาระที่เพิ่มขึ้น ต่อจากนี้ต้องดูว่าร่างกฎหมายจะผ่านแรงต้านทางการเมืองและกฎหมายได้หรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/vic/victorian-government-touts-major-change-to-work-from-home-rules-20260801-p60kj6.html"
+        }
+      ],
+      "language": "th"
+    },
     {
       "id": "nsw-black-truffle-dogs",
       "headline": "เกษตรกรนิวเซาท์เวลส์ฝึกสุนัขบ้านช่วยหาทรัฟเฟิลดำ",
@@ -221,6 +236,51 @@
           "score": 4
         }
       ]
+    },
+    {
+      "id": "wa-rare-species-national-park",
+      "headline": "พบสัตว์หายากในอุทยานแห่งชาติแห่งหนึ่งในเวสเทิร์นออสเตรเลีย",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:35:27Z",
+      "voiceScript": "มีการพบสัตว์หายากในอุทยานแห่งชาติแห่งหนึ่งในเวสเทิร์นออสเตรเลีย ทำให้ประเด็นการคุ้มครองถิ่นอาศัยขนาดเล็กกลับมาได้รับความสนใจ การค้นพบแบบนี้สำคัญเพราะอาจเปลี่ยนลำดับความสำคัญด้านการอนุรักษ์และการจัดการพื้นที่ ต่อจากนี้ต้องตรวจให้ชัดว่าสัตว์ชนิดนี้กระจายตัวกว้างแค่ไหน และต้องได้รับการคุ้มครองเพิ่มหรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/rare-new-carrot-species-found-growing-on-rocky-edge-of-aussie-national-park-233527736.html"
+        }
+      ],
+      "language": "th"
+    },
+    {
+      "id": "qld-airtrain-price-dispute",
+      "headline": "ข้อพิพาทค่าโดยสารรถไฟสนามบินในควีนส์แลนด์ขึ้นศาล",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:22:38Z",
+      "voiceScript": "ผู้ให้บริการรถไฟสนามบินระบุว่าการเปลี่ยนแปลงค่าโดยสารของรัฐบาลควีนส์แลนด์ทำให้รายได้ลดลงราว 6 ล้านดอลลาร์ออสเตรเลีย และกำลังนำเรื่องขึ้นศาล ข้อพิพาทนี้สำคัญเพราะรถไฟสนามบินอยู่ตรงกลางระหว่างนโยบายขนส่งสาธารณะกับฐานะการเงินของผู้ประกอบการเอกชน ขั้นต่อไปคือกำหนดวันพิจารณาคดีและดูว่าทั้งสองฝ่ายจะยอมปรับท่าทีหรือไม่ก่อนศาลตัดสิน",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/airtrain-to-take-queensland-government-to-court-over-price-changes-20260801-p60kix.html"
+        }
+      ],
+      "language": "th"
+    },
+    {
+      "id": "au-heavy-vehicle-fines",
+      "headline": "ค่าปรับรถบรรทุกหนักในออสเตรเลียพุ่งสูงตามกฎจราจรใหม่",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:00:00Z",
+      "voiceScript": "มีรายงานว่ากฎจราจรใหม่จะดันค่าปรับบางข้อหาของรถบรรทุกหนักขึ้นไปถึง 26,610 ดอลลาร์ออสเตรเลีย เรื่องนี้สำคัญเพราะฝั่งขนส่งมองว่าความปลอดภัยไม่ได้ขึ้นกับค่าปรับอย่างเดียว แต่ยังขึ้นกับจุดพัก การฝึกอบรม และตารางวิ่งรถด้วย ต่อไปต้องดูว่ามาตรการนี้จะช่วยลดอุบัติเหตุจริงหรือแค่เพิ่มต้นทุนให้ธุรกิจขนส่ง",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/truckies-face-26000-fines-from-today-in-major-road-laws-overhaul-significant-penalties-010000952.html"
+        }
+      ],
+      "language": "th"
     },
     {
       "id": "nt-pollution-rules-santos-inpex",
@@ -620,6 +680,21 @@
           "score": 10
         }
       ]
+    },
+    {
+      "id": "fuel-price-jump-weekend",
+      "headline": "คนขับในออสเตรเลียเตรียมเจอราคาน้ำมันขึ้นอีกหลังสุดสัปดาห์",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T10:25:16Z",
+      "voiceScript": "ผู้ขับรถในออสเตรเลียกำลังเผชิญราคาน้ำมันที่อาจปรับขึ้นอีกหลังสุดสัปดาห์ เรื่องนี้สำคัญเพราะค่าน้ำมันกระทบค่าใช้จ่ายในครัวเรือนและต้นทุนขนส่งโดยตรง และอาจส่งผลต่อเงินเฟ้อในวงกว้าง ขั้นต่อไปต้องจับตาว่าราคาจะยืนสูงนานแค่ไหน และจะลามไปหลายเมืองหรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/why-aussies-facing-another-fuel-102516125.html"
+        }
+      ],
+      "language": "th"
     },
     {
       "id": "antisemitism-royal-commission",

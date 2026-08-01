@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T01:20:03Z",
+  "updatedAt": "2026-08-01T02:16:07Z",
   "generatedBy": "codex",
   "language": "es",
   "sources": [
@@ -107,6 +107,21 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "vic-wfh-two-days-law",
+      "headline": "Victoria avanza para garantizar dos días de teletrabajo",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T01:01:30Z",
+      "voiceScript": "Victoria avanza para reconocer por ley el derecho de los empleados a trabajar desde casa dos días por semana. El cambio importa porque puede marcar el piso de la flexibilidad laboral en el estado y afectar la demanda de oficinas, las rutinas familiares y la contratación. Los grupos empresariales ya advierten presión extra para las empresas pequeñas, así que ahora falta ver si el borrador resiste la oposición política y legal.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/vic/victorian-government-touts-major-change-to-work-from-home-rules-20260801-p60kj6.html"
+        }
+      ],
+      "language": "es"
+    },
     {
       "id": "nsw-black-truffle-dogs",
       "publishedAt": "2026-08-01T00:27:09Z",
@@ -221,6 +236,51 @@
           "score": 4
         }
       ]
+    },
+    {
+      "id": "wa-rare-species-national-park",
+      "headline": "Un parque nacional de Australia Occidental vuelve al foco tras hallar una especie rara",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:35:27Z",
+      "voiceScript": "Se ha identificado una especie rara en un parque nacional de Australia Occidental, lo que vuelve a poner atención sobre la protección de hábitats pequeños. El hallazgo importa porque los nuevos registros pueden cambiar las prioridades de conservación y la gestión del territorio. El siguiente paso es confirmar qué tan extendida está la especie y si necesita protección adicional.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/rare-new-carrot-species-found-growing-on-rocky-edge-of-aussie-national-park-233527736.html"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "qld-airtrain-price-dispute",
+      "headline": "Airtrain lleva a juicio la disputa tarifaria del ferrocarril en Queensland",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:22:38Z",
+      "voiceScript": "Airtrain dice que los cambios tarifarios del gobierno de Queensland le recortaron unos 6 millones de dólares australianos de ingresos, y llevará la disputa a los tribunales. El caso importa porque el tren del aeropuerto queda atrapado entre la política de transporte público y las finanzas de un operador privado. Lo próximo será ver el calendario judicial y si alguna de las partes modifica su posición antes del fallo.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/airtrain-to-take-queensland-government-to-court-over-price-changes-20260801-p60kix.html"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "au-heavy-vehicle-fines",
+      "headline": "Las multas a camiones pesados suben con fuerza en las nuevas normas viales de Australia",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:00:00Z",
+      "voiceScript": "Las nuevas normas viales elevarían algunas sanciones para vehículos pesados hasta 26.610 dólares australianos. El tema importa porque el sector del transporte sostiene que la seguridad depende tanto de los descansos, la formación y la planificación como de las multas. La gran pregunta es si el cambio reducirá accidentes o solo encarecerá la actividad de las empresas de carga y de los conductores.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/truckies-face-26000-fines-from-today-in-major-road-laws-overhaul-significant-penalties-010000952.html"
+        }
+      ],
+      "language": "es"
     },
     {
       "id": "nt-pollution-rules-santos-inpex",
@@ -620,6 +680,21 @@
           "score": 10
         }
       ]
+    },
+    {
+      "id": "fuel-price-jump-weekend",
+      "headline": "Los conductores en Australia se preparan para otra subida del precio del combustible",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T10:25:16Z",
+      "voiceScript": "Los conductores australianos afrontan otra subida del precio del combustible después del fin de semana. Esto importa porque la gasolina golpea directamente los presupuestos familiares y los costes del transporte, con efecto en la inflación. Ahora habrá que ver cuánto dura el repunte y si se extiende a más ciudades.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Yahoo News Australia",
+          "url": "https://au.news.yahoo.com/why-aussies-facing-another-fuel-102516125.html"
+        }
+      ],
+      "language": "es"
     },
     {
       "id": "antisemitism-royal-commission",
