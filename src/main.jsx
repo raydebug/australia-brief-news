@@ -2202,6 +2202,12 @@ function App() {
   }, [activeId, clusters]);
 
   useEffect(() => {
+    if (toolsOpen && window.matchMedia("(max-width: 760px)").matches) {
+      setSourcesOpen(true);
+    }
+  }, [toolsOpen]);
+
+  useEffect(() => {
     if (!expandedId || pendingScrollYRef.current == null || !window.matchMedia("(max-width: 760px)").matches) {
       return undefined;
     }

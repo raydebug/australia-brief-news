@@ -990,7 +990,8 @@ p {
   }
 
   .sidebar-tools.open {
-    max-height: 620px;
+    max-height: none;
+    overflow: visible;
     opacity: 1;
     pointer-events: auto;
   }
