@@ -959,6 +959,34 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Anika Wells",
+    aliases: ["Anika Wells", "Anika Shay Wells", "安妮卡·韦尔斯", "安妮卡·韋爾斯", "アニカ・ウェルズ", "아니카 웰스"],
+    type: "politician",
+    social: { label: "Official profile", url: "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=264121" },
+    background: {
+      "zh-Hans": "澳大利亚工党政治人物，2019 年起代表昆州 Lilley 选区进入联邦众议院，2025 年起任通信部长和体育部长。进入议会前曾从事法律和政策顾问工作。",
+      "zh-Hant": "澳洲工黨政治人物，2019 年起代表昆州 Lilley 選區進入聯邦眾議院，2025 年起任通訊部長和體育部長。進入議會前曾從事法律和政策顧問工作。",
+      en: "Australian Labor politician, federal MP for Lilley in Queensland since 2019, and Minister for Communications and Minister for Sport since 2025. Before parliament she worked in law and policy advice.",
+      es: "Política laborista australiana, diputada federal por Lilley en Queensland desde 2019 y ministra de Comunicaciones y Deporte desde 2025. Antes del parlamento trabajó en derecho y asesoría política.",
+      ja: "オーストラリア労働党の政治家。2019年からクイーンズランド州 Lilley 選出の連邦下院議員で、2025年から通信相・スポーツ相です。議会入り前は法律と政策助言の仕事をしていました。",
+      ko: "호주 노동당 정치인으로 2019년부터 퀸즐랜드 Lilley 연방 하원의원이며 2025년부터 통신부 장관과 스포츠 장관을 맡고 있습니다. 의회 입성 전에는 법률과 정책 자문 업무를 했습니다.",
+      vi: "Chính trị gia Labor Úc, nghị sĩ liên bang khu Lilley ở Queensland từ năm 2019, và là Minister for Communications cùng Minister for Sport từ năm 2025. Trước quốc hội, bà làm trong lĩnh vực luật và cố vấn chính sách.",
+      th: "นักการเมือง Labor ของออสเตรเลีย เป็น ส.ส. รัฐบาลกลางเขต Lilley ในควีนส์แลนด์ตั้งแต่ปี 2019 และเป็น Minister for Communications กับ Minister for Sport ตั้งแต่ปี 2025 ก่อนเข้าสภาทำงานด้านกฎหมายและคำปรึกษานโยบาย",
+      si: "Australian Labor දේශපාලනඥයෙකු වන Anika Wells 2019 සිට Queensland හි Lilley federal MP වන අතර 2025 සිට Minister for Communications සහ Minister for Sport වේ. Parliament ට පෙර law සහ policy advice ක්ෂේත්‍රවල කටයුතු කළාය."
+    },
+    positions: {
+      "zh-Hans": "在通信政策上负责落实未成年人社交媒体年龄限制和平台年龄验证规则；同时在体育事务上负责联邦体育投资和重大赛事政策。",
+      "zh-Hant": "在通訊政策上負責落實未成年人社群媒體年齡限制和平台年齡驗證規則；同時在體育事務上負責聯邦體育投資和重大賽事政策。",
+      en: "In communications she is responsible for implementing under-16 social-media age restrictions and platform age-assurance rules; in sport she oversees federal sport investment and major-event policy.",
+      es: "En comunicaciones es responsable de aplicar las restricciones de edad para redes sociales de menores de 16 años y reglas de verificación de edad; en deporte supervisa inversión federal y política de grandes eventos.",
+      ja: "通信分野では16歳未満のソーシャルメディア年齢制限とプラットフォームの年齢確認ルールの実施を担当します。スポーツでは連邦のスポーツ投資と大型大会政策を所管します。",
+      ko: "통신 분야에서는 16세 미만 소셜미디어 연령 제한과 플랫폼 연령 확인 규칙 이행을 담당합니다. 스포츠 분야에서는 연방 스포츠 투자와 주요 행사 정책을 관장합니다.",
+      vi: "Trong truyền thông, bà phụ trách triển khai giới hạn tuổi mạng xã hội dưới 16 và quy định age assurance của nền tảng; trong thể thao, bà giám sát đầu tư thể thao liên bang và chính sách sự kiện lớn.",
+      th: "ด้าน communications เธอรับผิดชอบการบังคับใช้ข้อจำกัดอายุ social media สำหรับผู้ต่ำกว่า 16 ปีและกฎ age assurance ของแพลตฟอร์ม ส่วนด้าน sport ดูแลการลงทุนกีฬาระดับรัฐบาลกลางและนโยบายอีเวนต์ใหญ่",
+      si: "Communications ක්ෂේත්‍රයේ ඇය under-16 social-media age restrictions සහ platform age-assurance rules ක්‍රියාත්මක කිරීම භාරව සිටී; sport ක්ෂේත්‍රයේ federal sport investment සහ major-event policy අධීක්ෂණය කරයි."
+    }
+  },
+  {
     name: "Chris Bowen",
     aliases: ["Chris Bowen", "Christopher Bowen", "克里斯·鲍恩", "克里斯·鮑恩", "クリス・ボーエン", "크리스 보언"],
     type: "politician",
