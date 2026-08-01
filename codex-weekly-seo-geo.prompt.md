@@ -24,17 +24,19 @@ Weekly checklist:
 5. Check `public/sitemap.xml` includes all public static pages and is not listing internal build assets.
 6. Check `public/robots.txt` allows important pages and points to the sitemap.
 7. Check `public/llms.txt` describes the site accurately, links machine-readable news data, and avoids overclaiming.
-8. If policy or trust pages need minor updates for clarity, update both `public/` source files and ensure the build copies them to `docs/`.
-9. If new language files are added, update `hreflang`, `llms.txt`, and relevant metadata.
-10. Run `npm run audit:people` to identify public-figure coverage gaps that may affect entity understanding. Do not add private individuals.
-11. Run `npm run build`.
-12. If validation and build pass and changes are meaningful, commit and push with a concise message.
+8. Check that `npm run generate:seo` creates crawlable `/briefs/*.html` pages for current English news clusters and that these pages are listed in `public/sitemap.xml`.
+9. If policy or trust pages need minor updates for clarity, update both `public/` source files and ensure the build copies them to `docs/`.
+10. If new language files are added, update `hreflang`, `llms.txt`, and relevant metadata.
+11. Run `npm run audit:people` to identify public-figure coverage gaps that may affect entity understanding. Do not add private individuals.
+12. Run `npm run build`.
+13. If validation and build pass and changes are meaningful, commit and push with a concise message.
 
 Suggested output changes when justified:
 - `index.html` meta description, Open Graph, Twitter card, canonical/hreflang, or JSON-LD.
 - `public/robots.txt`
 - `public/sitemap.xml`
 - `public/llms.txt`
+- `scripts/generate-seo-pages.mjs` and generated `/briefs/*.html` pages when they improve crawlability.
 - `public/about.html`, `public/editorial-policy.html`, `public/corrections.html`
 - `README.md` rules for future SEO/GEO maintenance.
 

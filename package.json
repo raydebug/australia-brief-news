@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "audit:people": "node scripts/audit-people-context.mjs",
+    "generate:seo": "node scripts/generate-seo-pages.mjs",
     "validate:news": "node scripts/validate-news-data.mjs",
-    "build": "npm run validate:news && vite build",
+    "build": "npm run validate:news && npm run generate:seo && vite build",
     "preview": "vite preview --host 0.0.0.0",
     "cap:sync": "npm run build && npx cap sync"
   },
