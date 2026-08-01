@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T08:03:10Z",
+  "updatedAt": "2026-08-01T09:10:48Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -109,6 +109,21 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "perth-supercars-round-opener",
+      "headline": "페인이 퍼스 개막전에서 우승하며 슈퍼카스 선두를 벌렸다",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T08:21:03Z",
+      "voiceScript": "매트 페인이 퍼스의 Wanneroo Raceway에서 열린 Perth Super 440 개막전에서 우승했다. 막판 세이프티카로 선두권이 다시 붙은 가운데 브로디 코스키는 카이 앨런과의 접촉 뒤 스핀했다. 페인은 라이언 우드와 안톤 데 파스쿠알레를 제치고 시즌 4승째를 챙기며 2026년 챔피언십 선두를 118점으로 넓혔다. 남은 주말 경기에서 다른 드라이버들이 얼마나 따라붙을 수 있을지가 관전 포인트다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/kostecki-spins-out-as-matt-payne-extends-supercars-lead"
+        }
+      ],
+      "language": "ko"
+    },
     {
       "id": "sa-bird-flu-tern-deaths",
       "headline": "남호주에서 제비갈매기 집단 폐사, 조류인플루엔자 확산 우려 커져",
@@ -524,6 +539,27 @@
           "score": 6
         }
       ]
+    },
+    {
+      "id": "aged-care-nurses-final-pay-rise",
+      "headline": "노인 돌봄 간호사, 마지막 예정 임금 인상 받는다",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-01T01:59:39Z",
+      "voiceScript": "노인 돌봄 분야 간호사들은 오늘부터 시작되는 첫 온전한 급여 기간에 마지막 예정 임금 인상을 받게 됩니다. 등록 간호사에게는 연 8천 호주달러가 더해지고, 업계의 인력 부족이 계속되는 상황에서 채용과 이직 방지에 중요한 조치입니다. 정부는 2022년 이후 이어진 인상으로 일부 간호사의 연봉이 최대 3만6천 호주달러까지 올랐다고 밝혔습니다. 이제 남은 질문은 이 돈이 인력난을 얼마나 빨리 완화하느냐입니다.",
+      "differences": [
+        "AAP는 Fair Work Commission 임금 결정의 마지막 단계와 2022년 이후의 누적 인상을 강조하고, The Canberra Times는 인력 부족과 오늘부터 시작되는 첫 온전한 급여 기간을 더 앞세웁니다."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage"
+        },
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9321855/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage/"
+        }
+      ],
+      "language": "ko"
     },
     {
       "id": "wa-flu-jab-target",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T07:05:06Z",
+  "updatedAt": "2026-08-01T09:10:48Z",
   "generatedBy": "codex",
   "language": "es",
   "sources": [
@@ -109,6 +109,21 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "perth-supercars-round-opener",
+      "headline": "Payne abre la ronda de Perth con una victoria en Supercars",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T08:21:03Z",
+      "voiceScript": "Matt Payne ganó la carrera inaugural del Perth Super 440 en Wanneroo Raceway después de que un coche de seguridad al final apretara el grupo de cabeza. Brodie Kostecki perdió la carrera tras un trompo en un duelo con Kai Allen, mientras Ryan Wood y Anton De Pasquale completaron el podio detrás de Payne. El resultado deja a Payne con una ventaja de 118 puntos en el campeonato y asegura a Ford el título de fabricantes de 2026. La incógnita ahora es si el resto del fin de semana le permite a alguien recortar terreno.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/kostecki-spins-out-as-matt-payne-extends-supercars-lead"
+        }
+      ],
+      "language": "es"
+    },
     {
       "id": "sa-bird-flu-tern-deaths",
       "headline": "Las muertes de charranes en Australia Meridional agravan la alerta por gripe aviar",
@@ -524,6 +539,27 @@
           "score": 6
         }
       ]
+    },
+    {
+      "id": "aged-care-nurses-final-pay-rise",
+      "headline": "Las enfermeras de geriatría reciben su último aumento previsto",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-01T01:59:39Z",
+      "voiceScript": "Las enfermeras de atención a mayores en Australia recibirán el último aumento salarial previsto en su primera nómina completa desde hoy, y las enfermeras registradas sumarán 8.000 dólares australianos al año. El cambio importa porque el sector sigue corto de personal y la demanda de cuidados continúa creciendo. El gobierno dice que, desde 2022, algunas enfermeras han acumulado subidas de hasta 36.000 dólares al año. La pregunta ahora es si este dinero alcanzará para aliviar la escasez con suficiente rapidez.",
+      "differences": [
+        "AAP pone el foco en la última fase de la decisión salarial de Fair Work Commission y en el aumento acumulado desde 2022; The Canberra Times destaca la escasez de personal y la primera nómina completa desde hoy."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage"
+        },
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9321855/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage/"
+        }
+      ],
+      "language": "es"
     },
     {
       "id": "wa-flu-jab-target",

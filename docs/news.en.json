@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T08:03:10Z",
+  "updatedAt": "2026-08-01T09:10:48Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -109,6 +109,21 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "perth-supercars-round-opener",
+      "headline": "Payne stretches his Supercars lead with a Perth win",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T08:21:03Z",
+      "voiceScript": "Matt Payne won the opening race of the Perth Super 440 at Wanneroo Raceway after a late safety car tightened the field. Brodie Kostecki's race unravelled when he spun out in a battle with Kai Allen, while Ryan Wood and Anton De Pasquale finished behind Payne on the podium. The result lifts Payne to a 118-point championship lead and secures Ford the manufacturers' title for 2026. The rest of the weekend will show whether anyone can claw back ground.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/kostecki-spins-out-as-matt-payne-extends-supercars-lead"
+        }
+      ],
+      "language": "en"
+    },
     {
       "id": "sa-bird-flu-tern-deaths",
       "headline": "South Australian tern deaths point to a worsening bird flu outbreak",
@@ -524,6 +539,27 @@
           "score": 6
         }
       ]
+    },
+    {
+      "id": "aged-care-nurses-final-pay-rise",
+      "headline": "Aged-care nurses receive their final scheduled pay bump",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-01T01:59:39Z",
+      "voiceScript": "Aged-care nurses are getting the final scheduled award increase in their first full pay period from today, with enrolled nurses set to gain an extra $8,000 a year. The rise matters because the sector is still struggling to recruit and keep staff even as demand for care keeps growing. The government says the wage campaign has now lifted some nurses' pay by up to $36,000 since 2022. The next test is whether the extra money eases the shortage quickly enough to improve care.",
+      "differences": [
+        "AAP centres the Fair Work Commission pay case and the total pay gains since 2022, while The Canberra Times stresses the staffing shortage and that the increase lands in the first full pay period from today."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage"
+        },
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9321855/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage/"
+        }
+      ],
+      "language": "en"
     },
     {
       "id": "wa-flu-jab-target",

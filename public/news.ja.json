@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T08:03:10Z",
+  "updatedAt": "2026-08-01T09:10:48Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -109,6 +109,21 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "perth-supercars-round-opener",
+      "headline": "ペインがパース開幕戦を制し、スーパーカーシリーズで差を広げた",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T08:21:03Z",
+      "voiceScript": "マット・ペインが Wanneroo Raceway で行われた Perth Super 440 の開幕戦を制しました。終盤にセーフティカーが入って集団が詰まり、ブロディ・コスキーはカイ・アレンとの競り合いのあとにスピンしています。ペインはライアン・ウッドとアントン・デ・パスクアーレを抑えて勝ち、2026年の選手権で118ポイント差までリードを広げました。残る週末で、他のドライバーがどこまで差を詰められるかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/kostecki-spins-out-as-matt-payne-extends-supercars-lead"
+        }
+      ],
+      "language": "ja"
+    },
     {
       "id": "sa-bird-flu-tern-deaths",
       "headline": "南オーストラリアでオオアジサシの大量死が相次ぎ、鳥インフル拡大への警戒が強まる",
@@ -524,6 +539,27 @@
           "score": 6
         }
       ]
+    },
+    {
+      "id": "aged-care-nurses-final-pay-rise",
+      "headline": "高齢者介護看護師に最後の予定賃上げ",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-01T01:59:39Z",
+      "voiceScript": "高齢者介護分野の看護師には、今日から始まる最初の完全な給与期間で、予定されていた最後の賃上げが反映されます。准看護師は年8,000豪ドルの上積みとなり、採用と定着が難しい人手不足の現場には大きな意味があります。政府は、2022年以降の一連の引き上げで、一部の看護師の賃金が最大3万6,000豪ドル増えたと説明しています。次の焦点は、この上積みで不足がどこまで早く和らぐかです。",
+      "differences": [
+        "AAP は Fair Work Commission の賃上げ決定と2022年以降の累計増額を前面に出し、The Canberra Times は人手不足と今日から始まる最初の完全な給与期間を強調しています。"
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage"
+        },
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9321855/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage/"
+        }
+      ],
+      "language": "ja"
     },
     {
       "id": "wa-flu-jab-target",

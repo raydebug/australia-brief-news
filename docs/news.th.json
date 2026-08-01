@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T08:03:10Z",
+  "updatedAt": "2026-08-01T09:10:48Z",
   "generatedBy": "codex",
   "language": "th",
   "sources": [
@@ -109,6 +109,21 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "perth-supercars-round-opener",
+      "headline": "เพย์นชนะสนามเปิดที่เพิร์ทและทิ้งห่างคะแนนนำต่อไป",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T08:21:03Z",
+      "voiceScript": "แมตต์ เพย์นคว้าชัยในรอบเปิดสนาม Perth Super 440 ที่ Wanneroo Raceway หลังช่วงท้ายมีเซฟตี้คาร์ทำให้กลุ่มผู้นำกลับมาเบียดกันอีกครั้ง โบรดี โคสกีเสียจังหวะและหมุนออกหลังปะทะกับไค อัลเลน ขณะที่ไรอัน วูดและแอนตัน เดอ ปาสกวาเลตามขึ้นโพเดียมต่อจากเพย์น ผลลัพธ์นี้ทำให้เพย์นนำบนตารางคะแนนห่าง 118 คะแนน และทำให้ฟอร์ดการันตีแชมป์ผู้ผลิตปี 2026 แล้ว คำถามต่อไปคือคนอื่นจะไล่กลับมาได้แค่ไหนในช่วงที่เหลือของสุดสัปดาห์",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/kostecki-spins-out-as-matt-payne-extends-supercars-lead"
+        }
+      ],
+      "language": "th"
+    },
     {
       "id": "sa-bird-flu-tern-deaths",
       "headline": "การตายของนกนางนวลแกลบหงอนใหญ่ในออสเตรเลียใต้ทำให้ความกังวลเรื่องไข้หวัดนกยิ่งรุนแรง",
@@ -524,6 +539,27 @@
           "score": 6
         }
       ]
+    },
+    {
+      "id": "aged-care-nurses-final-pay-rise",
+      "headline": "พยาบาลดูแลผู้สูงอายุได้ขึ้นค่าจ้างงวดสุดท้ายตามกำหนด",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-01T01:59:39Z",
+      "voiceScript": "พยาบาลดูแลผู้สูงอายุในออสเตรเลียจะได้รับการปรับค่าจ้างงวดสุดท้ายตามรอบที่กำหนดในงวดเงินเดือนเต็มงวดแรกนับจากวันนี้ โดยพยาบาลที่ขึ้นทะเบียนจะได้เพิ่มปีละ 8,000 ดอลลาร์ออสเตรเลีย มาตรการนี้สำคัญเพราะภาคส่วนยังขาดคนทำงาน ขณะที่ความต้องการดูแลยังเพิ่มขึ้นต่อเนื่อง รัฐบาลระบุว่าตั้งแต่ปี 2022 ค่าจ้างของพยาบาลบางส่วนเพิ่มขึ้นรวมสูงสุดถึง 36,000 ดอลลาร์ต่อปี คำถามต่อไปคือเงินเพิ่มครั้งนี้จะช่วยคลี่คลายปัญหาขาดแคลนได้เร็วแค่ไหน",
+      "differences": [
+        "AAP เน้นว่าการขึ้นค่าจ้างครั้งนี้เป็นขั้นสุดท้ายของคดีค่าจ้างที่ Fair Work Commission และชี้ให้เห็นยอดเพิ่มสะสมตั้งแต่ปี 2022 ส่วน The Canberra Times เน้นภาวะขาดแคลนบุคลากรและงวดเงินเดือนเต็มงวดแรกที่เริ่มตั้งแต่วันนี้"
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage"
+        },
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9321855/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage/"
+        }
+      ],
+      "language": "th"
     },
     {
       "id": "wa-flu-jab-target",

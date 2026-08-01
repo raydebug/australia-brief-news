@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T08:03:10Z",
+  "updatedAt": "2026-08-01T09:10:48Z",
   "generatedBy": "codex",
   "language": "zh-Hant",
   "sources": [
@@ -109,6 +109,21 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "perth-supercars-round-opener",
+      "headline": "佩恩在伯斯首回合奪冠並拉開超級跑車系列賽差距",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T08:21:03Z",
+      "voiceScript": "馬特·佩恩在 Wanneroo Raceway 舉行的 Perth Super 440 揭幕戰中奪下勝利，賽末一次安全車讓集團重新貼近。布羅迪·科斯基在與 Kai Allen 的纏鬥中打滑衝出賽道，佩恩則穩住領先，和 Ryan Wood、Anton De Pasquale 一起登上頒獎台。這場結果讓佩恩在年度積分榜上領先 118 分，也替福特鎖定 2026 年製造商冠軍。接下來要看的，是週末其餘賽程裡其他車手能不能追回差距。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/kostecki-spins-out-as-matt-payne-extends-supercars-lead"
+        }
+      ],
+      "language": "zh-Hant"
+    },
     {
       "id": "sa-bird-flu-tern-deaths",
       "headline": "南澳燕鷗死亡引發禽流感加劇擔憂",
@@ -524,6 +539,27 @@
           "score": 6
         }
       ]
+    },
+    {
+      "id": "aged-care-nurses-final-pay-rise",
+      "headline": "長者照護護士迎來最後一輪定期加薪",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-01T01:59:39Z",
+      "voiceScript": "長者照護護士在今天開始的首個完整薪期內，將拿到最後一輪法定加薪，註冊護士每年最多可增加 8000 澳元。這項調整很重要，因為長者照護產業仍然面臨招人和留人的壓力，而照護需求還在持續上升。政府表示，自 2022 年以來，部分護士的薪酬累計已經提高到多達 3.6 萬澳元。接下來要觀察的，是這筆加薪能否足夠快地紓解人手短缺並改善照護品質。",
+      "differences": [
+        "AAP 著重 Fair Work Commission 工資案的最後一步與累計加薪；《堪培拉時報》則更強調人手短缺，以及這次加薪從今天起的首個完整薪期生效。"
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage"
+        },
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9321855/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage/"
+        }
+      ],
+      "language": "zh-Hant"
     },
     {
       "id": "wa-flu-jab-target",

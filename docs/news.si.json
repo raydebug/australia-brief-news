@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T08:03:10Z",
+  "updatedAt": "2026-08-01T09:10:48Z",
   "generatedBy": "codex",
   "language": "si",
   "sources": [
@@ -109,6 +109,21 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "perth-supercars-round-opener",
+      "headline": "පේන් පර්ත් තරඟයෙන් ජයගෙන සුපර්කාර්ස් ඉදිරිය තවත් වැඩි කරයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T08:21:03Z",
+      "voiceScript": "මැට් පේන් වැනරූ රේස්වේහි පැවති Perth Super 440 ආරම්භක තරඟය ජයගත්තා. අවසන් අදියරේ ආරක්ෂක රථයක් පිටවීම නිසා තරඟය තද වුණා, ඒ අතර බ්‍රෝඩී කොස්කි කායි ඇලන් සමඟ තිබූ සටනකින් පසුව ස්පින් වුණා. පේන් රයන් වුඩ් සහ ඇන්ටන් ද පැස්කුවාලේ පසුකර ගනිමින් 2026 ශූරතාවලියේ ලකුණු 118ක ඉදිරියක් ගොඩනැගුවා, එමෙන්ම ෆෝර්ඩ් නිෂ්පාදක ශූරතාවත් සුරක්ෂිත කළා. ඉතිරි සතිඅන්ත තරඟවලදී අනෙකුත් රියදුරන්ට එම පරතරය අඩු කළ හැකිදැයි දැන් බලන්න තියෙන්නේ.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/kostecki-spins-out-as-matt-payne-extends-supercars-lead"
+        }
+      ],
+      "language": "si"
+    },
     {
       "id": "sa-bird-flu-tern-deaths",
       "headline": "දකුණු ඔස්ට්‍රේලියාවේ තර්න් මරණ කුරුළු ඉන්ෆ්ලුවෙන්සා ව්‍යාප්තිය ගැන භීතිය වැඩි කරයි",
@@ -524,6 +539,27 @@
           "score": 6
         }
       ]
+    },
+    {
+      "id": "aged-care-nurses-final-pay-rise",
+      "headline": "වයස්ගත සත්කාර නර්ස්වරුන්ට නියමිත අවසන් වැටුප් වැඩිවීම ලැබේ",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-01T01:59:39Z",
+      "voiceScript": "වයස්ගත සත්කාර ක්ෂේත්‍රයේ නර්ස්වරුන්ට අද සිට ආරම්භ වන පළමු සම්පූර්ණ වැටුප් කාලය තුළ අවසන් නියමිත වැටුප් වැඩිවීම ලැබේ. ලියාපදිංචි නර්ස්වරුන්ට වසරකට අතිරේක ඕස්ට්‍රේලියානු ඩොලර් 8,000ක් ලැබෙන අතර, සේවක හිඟය දිගටම පවතින නිසා බඳවාගැනීම් සහ රඳවා තබාගැනීම් සඳහා මෙය වැදගත් වේ. 2022 සිට කර ඇති වැඩි කිරීම් සමඟ සමහර නර්ස්වරුන්ගේ වැටුප් වසරකට ඩොලර් 36,000ක් දක්වා ඉහළ ගොස් ඇති බව රජය කියයි. දැන් ප්‍රශ්නය වන්නේ මෙම වැඩිවීම හිඟය කොතරම් වේගයෙන් අඩු කරයිද යන්නයි.",
+      "differences": [
+        "AAP අවධානය යොමු කරන්නේ Fair Work Commission වැටුප් නඩුවේ අවසාන පියවර සහ 2022 සිට ලැබුණු එකතුවටය; The Canberra Times මූලික වශයෙන් දැක්වෙන්නේ සේවක හිඟය සහ අද සිට ඇති පළමු සම්පූර්ණ වැටුප් කාලයයි."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage"
+        },
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9321855/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage/"
+        }
+      ],
+      "language": "si"
     },
     {
       "id": "wa-flu-jab-target",

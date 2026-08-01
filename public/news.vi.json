@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T08:03:10Z",
+  "updatedAt": "2026-08-01T09:10:48Z",
   "generatedBy": "codex",
   "language": "vi",
   "sources": [
@@ -109,6 +109,21 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "perth-supercars-round-opener",
+      "headline": "Payne thắng chặng mở màn ở Perth và nới rộng khoảng cách dẫn đầu",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T08:21:03Z",
+      "voiceScript": "Matt Payne đã thắng chặng mở màn của Perth Super 440 tại Wanneroo Raceway sau khi xe an toàn xuất hiện muộn khiến nhóm đầu bám sát nhau hơn. Brodie Kostecki bị xoay xe sau pha tranh chấp với Kai Allen, còn Ryan Wood và Anton De Pasquale lần lượt hoàn tất bục podium phía sau Payne. Kết quả này giúp Payne nâng cách biệt trên bảng điểm lên 118 điểm và giúp Ford sớm chắc suất vô địch nhà sản xuất năm 2026. Phần còn lại của cuối tuần sẽ cho thấy liệu các tay lái khác có kịp thu hẹp khoảng cách hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/kostecki-spins-out-as-matt-payne-extends-supercars-lead"
+        }
+      ],
+      "language": "vi"
+    },
     {
       "id": "sa-bird-flu-tern-deaths",
       "headline": "Cái chết của nhiều chim nhạn ở Nam Úc làm dấy lên lo ngại cúm gia cầm lan rộng",
@@ -524,6 +539,27 @@
           "score": 6
         }
       ]
+    },
+    {
+      "id": "aged-care-nurses-final-pay-rise",
+      "headline": "Y tá chăm sóc người cao tuổi nhận đợt tăng lương cuối cùng",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-01T01:59:39Z",
+      "voiceScript": "Các y tá chăm sóc người cao tuổi ở Australia sẽ nhận đợt tăng lương cuối cùng theo thang bậc mới ngay trong kỳ lương đầy đủ đầu tiên tính từ hôm nay; riêng y tá đăng ký có thêm 8.000 đô la Australia mỗi năm. Động thái này đáng chú ý vì ngành chăm sóc người cao tuổi vẫn thiếu nhân lực trong khi nhu cầu chăm sóc tiếp tục tăng. Chính phủ cho biết từ năm 2022 đến nay, một số y tá đã được tăng tổng cộng tới 36.000 đô la mỗi năm. Câu hỏi tiếp theo là mức lương mới có đủ để hạ nhiệt tình trạng thiếu người nhanh hay không.",
+      "differences": [
+        "AAP tập trung vào bước cuối của vụ việc tiền lương tại Fair Work Commission và tổng mức tăng từ năm 2022; The Canberra Times nhấn mạnh tình trạng thiếu nhân lực và kỳ lương đầy đủ đầu tiên tính từ hôm nay."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage"
+        },
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9321855/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage/"
+        }
+      ],
+      "language": "vi"
     },
     {
       "id": "wa-flu-jab-target",
