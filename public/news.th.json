@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T06:16:37Z",
+  "updatedAt": "2026-08-01T07:05:06Z",
   "generatedBy": "codex",
   "language": "th",
   "sources": [
@@ -109,6 +109,46 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "sa-bird-flu-tern-deaths",
+      "headline": "การตายของนกนางนวลแกลบหงอนใหญ่ในออสเตรเลียใต้ทำให้ความกังวลเรื่องไข้หวัดนกยิ่งรุนแรง",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-01T06:12:27Z",
+      "voiceScript": "ที่บอวดินร็อกส์ในออสเตรเลียใต้ เจ้าหน้าที่กำลังตรวจตัวอย่างหลังพบนกนางนวลแกลบหงอนใหญ่จำนวนหนึ่งตายและป่วย เพื่อยืนยันชนิดของไวรัส เรื่องนี้สำคัญเพราะไข้หวัดนกไม่ได้หยุดอยู่แค่ระยะเตือนเบื้องต้น แต่เริ่มปรากฏในสัตว์ป่าพื้นถิ่น ซึ่งเพิ่มความเสี่ยงต่ออาณานิคมนกทะเลและชนิดพันธุ์อื่น ๆ ขั้นต่อไปคือรอผลแล็บและเฝ้าดูว่าจะมีการแพร่ต่ออีกหรือไม่",
+      "differences": [
+        "รายงานหนึ่งบอกว่ากำลังเก็บตัวอย่างที่บอวดินร็อกส์; อีกฉบับมองว่านี่เป็นเหตุการตายจำนวนมากที่น่าสงสัยครั้งแรกของออสเตรเลีย; ส่วนอีกฉบับระบุว่าจำนวนผลตรวจยืนยันทะลุ 50 แล้วและเตือนว่าการแพร่ในสัตว์ป่าอาจขยายต่อไปได้"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/h5-bird-flu-testing-underway-for-mass-mortality-of-terns/106985980"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/aug/01/first-australian-mass-mortality-event-suspected-as-deadly-bird-flu-virus-rapidly-escalates-among-native-birds"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/suspected-bird-flu-case-in-seagull-a-watershed-moment"
+        }
+      ],
+      "language": "th"
+    },
+    {
+      "id": "canberra-food-garden-waste-delay",
+      "headline": "แผนเก็บขยะเศษอาหารและขยะสวนของแคนเบอร์ราล่าช้าอีกครั้ง",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T05:31:19Z",
+      "voiceScript": "เขตเมืองหลวงออสเตรเลียระบุว่าแผนขยายการเก็บขยะเศษอาหารและขยะสวนทั่วแคนเบอร์ราจะใช้เวลานานกว่าที่ตั้งไว้ และการเปิดใช้เต็มรูปแบบถูกเลื่อนไปถึงปี 2030 เรื่องนี้สำคัญเพราะโครงการตั้งใจจะลดขยะอินทรีย์ที่ไปฝังกลบและนำไปทำปุ๋ยหมัก แต่โครงสร้างพื้นฐานและตารางดำเนินงานก็ล่าช้ามาหลายรอบแล้ว ตอนนี้คำถามคือแคนเบอร์ราจะยังได้ผลด้านสิ่งแวดล้อมโดยไม่ถูกเลื่อนออกไปอีกหรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/act-food-and-garden-organics-collection-scheme-expansion-delayed/106985782"
+        }
+      ],
+      "language": "th"
+    },
     {
       "id": "nz-greyhound-ban-charter-flights",
       "headline": "เกรย์ฮาวด์เริ่มถูกส่งเข้าออสเตรเลีย หลังนิวซีแลนด์เริ่มแบนการแข่ง",

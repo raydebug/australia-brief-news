@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T06:16:37Z",
+  "updatedAt": "2026-08-01T07:05:06Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -109,6 +109,46 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "sa-bird-flu-tern-deaths",
+      "headline": "南オーストラリアでオオアジサシの大量死が相次ぎ、鳥インフル拡大への警戒が強まる",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-01T06:12:27Z",
+      "voiceScript": "南オーストラリアでは、バウディン・ロックスで死んだり弱ったりしたオオアジサシが見つかり、感染型を確かめる検査が進んでいます。重要なのは、鳥インフルが初期段階の警戒域を越えて、在来の野生生物の中で広がり始めている可能性があることです。今後は検査結果の確定と、ほかの地域への広がりがないかの監視が焦点になります。",
+      "differences": [
+        "ある報道はバウディン・ロックスで検査が進んでいると伝え、別の報道はオーストラリア初の疑いある大量死事案と位置づけ、さらに別の報道は検出数が50を超え、野生生物への広がりに警鐘を鳴らしています。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/h5-bird-flu-testing-underway-for-mass-mortality-of-terns/106985980"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/aug/01/first-australian-mass-mortality-event-suspected-as-deadly-bird-flu-virus-rapidly-escalates-among-native-birds"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/suspected-bird-flu-case-in-seagull-a-watershed-moment"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "canberra-food-garden-waste-delay",
+      "headline": "キャンベラの生ごみと庭ごみの回収拡大が再び遅れる",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T05:31:19Z",
+      "voiceScript": "オーストラリア首都特別地域政府は、キャンベラ全域への生ごみと庭ごみの回収拡大が当初予定より遅れ、全面展開は2030年にずれ込むとしています。これは、有機ごみを埋立地に送らず堆肥化するための計画だったのに、必要な設備整備と導入日程が何度も後ろ倒しになっているためです。今後の焦点は、これ以上の遅れなく環境面の効果を実現できるかどうかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/act-food-and-garden-organics-collection-scheme-expansion-delayed/106985782"
+        }
+      ],
+      "language": "ja"
+    },
     {
       "id": "nz-greyhound-ban-charter-flights",
       "headline": "NZ の競走停止で、グレーハウンドが豪州へ移送され始める",

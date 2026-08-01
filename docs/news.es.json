@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T06:16:37Z",
+  "updatedAt": "2026-08-01T07:05:06Z",
   "generatedBy": "codex",
   "language": "es",
   "sources": [
@@ -109,6 +109,46 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "sa-bird-flu-tern-deaths",
+      "headline": "Las muertes de charranes en Australia Meridional agravan la alerta por gripe aviar",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-01T06:12:27Z",
+      "voiceScript": "En Baudin Rocks, Australia Meridional, las autoridades están analizando charranes crestados muertos y enfermos para confirmar la cepa del virus. Esto importa porque la gripe aviar ya no parece estar sólo en una fase temprana de alerta, sino que empieza a aparecer en fauna silvestre nativa, lo que eleva el riesgo para las colonias de aves marinas y otras especies. El siguiente paso es la confirmación de laboratorio y vigilar si hay más casos.",
+      "differences": [
+        "Un informe dice que los análisis siguen en Baudin Rocks; otro lo presenta como el primer episodio sospechado de mortandad masiva en Australia; un tercero afirma que las detecciones ya superan 50 y advierte sobre una mayor propagación en la fauna silvestre."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/h5-bird-flu-testing-underway-for-mass-mortality-of-terns/106985980"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/aug/01/first-australian-mass-mortality-event-suspected-as-deadly-bird-flu-virus-rapidly-escalates-among-native-birds"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/suspected-bird-flu-case-in-seagull-a-watershed-moment"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "canberra-food-garden-waste-delay",
+      "headline": "Canberra vuelve a retrasar la ampliación de la recogida de residuos orgánicos",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T05:31:19Z",
+      "voiceScript": "El Territorio de la Capital Australiana dice que la ampliación de la recogida de restos de comida y de jardín en toda Canberra tardará más de lo previsto, y que el despliegue completo se ha movido a 2030. Esto importa porque el programa buscaba sacar los residuos orgánicos del vertedero y convertirlos en compost, pero la infraestructura y el calendario de implantación ya se han retrasado varias veces. La pregunta ahora es si Canberra todavía puede entregar esos beneficios ambientales sin otro gran aplazamiento.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/act-food-and-garden-organics-collection-scheme-expansion-delayed/106985782"
+        }
+      ],
+      "language": "es"
+    },
     {
       "id": "nz-greyhound-ban-charter-flights",
       "headline": "Los galgos empiezan a llegar a Australia cuando Nueva Zelanda activa la prohibición de las carreras",

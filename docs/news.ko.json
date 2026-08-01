@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T06:16:37Z",
+  "updatedAt": "2026-08-01T07:05:06Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -109,6 +109,46 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "sa-bird-flu-tern-deaths",
+      "headline": "남호주에서 제비갈매기 집단 폐사, 조류인플루엔자 확산 우려 커져",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-01T06:12:27Z",
+      "voiceScript": "남호주 바우딘 록스에서 죽거나 병든 제비갈매기가 확인되면서, 당국이 바이러스 유형을 확인하려고 검사를 진행하고 있습니다. 이 일이 중요한 이유는 조류인플루엔자가 초기 경보 단계에 머무는 것이 아니라 토종 야생동물 안에서 퍼지기 시작했을 가능성을 보여 주기 때문입니다. 앞으로는 검사 결과 확정과 다른 지역으로의 추가 확산 여부를 지켜보는 일이 핵심입니다.",
+      "differences": [
+        "한 보도는 바우딘 록스에서 검사가 진행 중이라고 전하고, 다른 보도는 이 사건을 호주 최초의 의심 집단 폐사로 다루며, 또 다른 보도는 확인된 수가 50건을 넘었다고 말하면서 야생동물 확산을 경고합니다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/h5-bird-flu-testing-underway-for-mass-mortality-of-terns/106985980"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/aug/01/first-australian-mass-mortality-event-suspected-as-deadly-bird-flu-virus-rapidly-escalates-among-native-birds"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/suspected-bird-flu-case-in-seagull-a-watershed-moment"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "canberra-food-garden-waste-delay",
+      "headline": "캔버라의 음식물·정원 폐기물 수거 확대가 또 미뤄졌다",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T05:31:19Z",
+      "voiceScript": "오스트레일리아 수도특별구는 캔버라 전역으로 음식물과 정원 폐기물 수거를 확대하는 일정이 당초보다 늦어졌고, 전면 시행 시점은 2030년으로 밀렸다고 밝혔습니다. 이 계획은 유기물을 매립지에서 줄여 퇴비로 돌리기 위한 것이었지만, 필요한 인프라와 도입 일정이 여러 번 뒤로 미뤄졌습니다. 이제 관건은 추가 지연 없이 환경 효과를 실제로 내놓을 수 있느냐입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/act-food-and-garden-organics-collection-scheme-expansion-delayed/106985782"
+        }
+      ],
+      "language": "ko"
+    },
     {
       "id": "nz-greyhound-ban-charter-flights",
       "headline": "뉴질랜드 경주 중단으로 그레이하운드가 호주로 옮겨지기 시작",

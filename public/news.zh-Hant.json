@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T06:16:37Z",
+  "updatedAt": "2026-08-01T07:05:06Z",
   "generatedBy": "codex",
   "language": "zh-Hant",
   "sources": [
@@ -109,6 +109,46 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "sa-bird-flu-tern-deaths",
+      "headline": "南澳燕鷗死亡引發禽流感加劇擔憂",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-01T06:12:27Z",
+      "voiceScript": "南澳在巴丁岩發現多隻死亡和患病的大鳳頭燕鷗後，已展開檢測，以確認病毒類型。這個進展重要，因為病毒正從早期預警階段走向本地野生動物，海鳥群落和其他物種面臨的風險也在上升。下一步是實驗室確認結果，並持續監測是否還有新的傳播跡象。",
+      "differences": [
+        "一份報導說巴丁岩正在取樣檢測；另一份把這件事描述為澳洲首個疑似大規模死亡事件；還有一份說檢測結果已超過50例，並警告野生動物傳播範圍可能繼續擴大。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/h5-bird-flu-testing-underway-for-mass-mortality-of-terns/106985980"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/aug/01/first-australian-mass-mortality-event-suspected-as-deadly-bird-flu-virus-rapidly-escalates-among-native-birds"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/suspected-bird-flu-case-in-seagull-a-watershed-moment"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "canberra-food-garden-waste-delay",
+      "headline": "堪培拉廚餘和園林垃圾回收計畫再次延後",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T05:31:19Z",
+      "voiceScript": "澳洲首都領地表示，原本更快推進的廚餘和園林垃圾回收計畫現在還要再拖一段時間，全城鋪開被推遲到2030年。這個變化重要，因為該計畫本來是為了把有機垃圾從掩埋場轉出去並製成堆肥，但基礎設施和推廣節奏都已多次延後。現在的問題是，堪培拉還能否在不再拖延的情況下兌現這些環境效益。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/act-food-and-garden-organics-collection-scheme-expansion-delayed/106985782"
+        }
+      ],
+      "language": "zh-Hant"
+    },
     {
       "id": "nz-greyhound-ban-charter-flights",
       "headline": "紐西蘭賽狗禁令啟動，更多灰狗開始運往澳洲",

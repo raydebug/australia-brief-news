@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T06:16:37Z",
+  "updatedAt": "2026-08-01T07:05:06Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -109,6 +109,46 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "sa-bird-flu-tern-deaths",
+      "headline": "南澳燕鸥死亡引发禽流感加剧担忧",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-01T06:12:27Z",
+      "voiceScript": "南澳在巴丁岩发现多只死亡和患病的大凤头燕鸥后，已展开检测，以确认病毒类型。这个进展重要，因为病毒正从早期预警阶段走向本地野生动物，海鸟群落和其他物种面临的风险也在上升。下一步是实验室确认结果，并持续监测是否还有新的传播迹象。",
+      "differences": [
+        "一份报道说巴丁岩正在取样检测；另一份把这件事描述为澳洲首个疑似大规模死亡事件；还有一份说检测结果已超过50例，并警告野生动物传播范围可能继续扩大。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/h5-bird-flu-testing-underway-for-mass-mortality-of-terns/106985980"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/aug/01/first-australian-mass-mortality-event-suspected-as-deadly-bird-flu-virus-rapidly-escalates-among-native-birds"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/suspected-bird-flu-case-in-seagull-a-watershed-moment"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
+      "id": "canberra-food-garden-waste-delay",
+      "headline": "堪培拉厨余和园林垃圾回收计划再次延后",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T05:31:19Z",
+      "voiceScript": "澳大利亚首都领地表示，原本更快推进的厨余和园林垃圾回收计划现在还要再拖一段时间，全城铺开被推迟到2030年。这个变化重要，因为该计划本来是为了把有机垃圾从填埋场转出去并制成堆肥，但基础设施和推广节奏都已多次延后。现在的问题是，堪培拉还能否在不再拖延的情况下兑现这些环境效益。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/act-food-and-garden-organics-collection-scheme-expansion-delayed/106985782"
+        }
+      ],
+      "language": "zh-Hans"
+    },
     {
       "id": "nz-greyhound-ban-charter-flights",
       "headline": "新西兰赛狗禁令启动，更多灰狗开始运往澳洲",
