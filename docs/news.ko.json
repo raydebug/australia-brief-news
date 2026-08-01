@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T05:14:34Z",
+  "updatedAt": "2026-08-01T06:16:37Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -104,7 +104,9 @@
     "news.com.au latest-news RSS still renders HTML, so current-item discovery used page and search-result fallback.",
     "The Australian and Sky News Australia still require fallback extraction for current coverage.",
     "AAP and 9News current-day story URLs were discovered from homepage listings; direct article fetches were inconsistent in this environment, so the canonical links from those listings were retained.",
-    "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
+    "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks.",
+    "7NEWS current Australia coverage was harvested from the live listing page because direct article metadata was inconsistent.",
+    "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
     {
@@ -147,6 +149,36 @@
           "score": 6
         }
       ]
+    },
+    {
+      "id": "sydney-house-illegal-weapons-haul",
+      "headline": "시드니 주택에서 불법 의심 무기 여러 점이 발견됐다",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T04:07:58Z",
+      "voiceScript": "경찰은 시드니 서부의 한 주택에서 불법 의심 물품을 포함한 무기 여러 점을 찾아냈다고 밝혔다. 이런 사건은 단순한 가택 수색이 아니라 더 큰 유통 경로를 드러낼 수 있다는 점에서 중요하다. 앞으로는 이 물품들이 다른 위법 행위나 추가 기소와 연결되는지가 관건이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/ornamental-axes-among-alleged-illegal-weapons-haul-found-in-sydney-s-west-20260801-p60kjy.html"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "under-16s-social-media-ban-bypass",
+      "headline": "16세 미만 상당수가 금지 이후에도 소셜미디어를 쓰고 있다",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T04:07:58Z",
+      "voiceScript": "새 수치에 따르면 호주에서 16세 미만 소셜미디어 제한이 시작된 뒤에도 적지 않은 청소년이 여전히 플랫폼을 쓰고 있다. 이 정책은 어린 이용자에게 가는 부담과 피해를 줄이려는 것이었지만, 벌써 우회 수단이 문제로 떠오르고 있다. 앞으로는 연령 확인과 플랫폼 통제가 그 빈틈을 얼마나 메울 수 있는지가 관건이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/more-than-two-in-five-kids-still-using-social-media-despite-ban-20260801-p60kjp.html"
+        }
+      ],
+      "language": "ko"
     },
     {
       "id": "sa-police-officer-stabbing-hospital",
@@ -206,6 +238,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/nsw/teenager-charged-with-murder-after-stabbing-on-nsw-central-coast-20260801-p60kjn.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/teenager-charged-with-murder-after-stabbing-on-nsw-central-coast-20260801-p60kjn.html"
         }
       ],
       "language": "ko",
@@ -325,6 +361,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/vic/second-suspected-case-of-bird-flu-detected-in-victoria-day-after-confirmed-outbreak-20260731-p60kba.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/second-suspected-case-of-bird-flu-detected-in-victoria-day-after-confirmed-outbreak-20260731-p60kba.html"
         }
       ],
       "language": "ko",
@@ -378,6 +418,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/vic/victorian-government-touts-major-change-to-work-from-home-rules-20260801-p60kj6.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/victorian-government-touts-major-change-to-work-from-home-rules-20260801-p60kj6.html"
         }
       ],
       "language": "ko",
@@ -598,6 +642,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/qld/airtrain-to-take-queensland-government-to-court-over-price-changes-20260801-p60kix.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/qld/airtrain-to-take-queensland-government-to-court-over-price-changes-20260801-p60kix.html"
         }
       ],
       "language": "ko",
@@ -817,6 +865,21 @@
           "score": 5
         }
       ]
+    },
+    {
+      "id": "gta-online-casino-ban",
+      "headline": "호주 이용자들은 GTA 온라인 카지노 미니게임을 더 이상 쓸 수 없다",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T21:15:38Z",
+      "voiceScript": "호주 이용자들 사이에서 GTA 온라인의 카지노형 미니게임이 열리지 않는다는 이야기가 나오고 있다. 이번 변화는 게임 전체 중단이 아니라 도박 규정에 맞추기 위한 특정 기능 제한으로 보인다. 이제 관건은 이 조치가 호주에만 적용되는 임시 대응인지, 아니면 더 넓은 업데이트의 일부인지다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/grand-theft-auto-online-gamers-in-australia-blocked-from-gambling-in-virtual-casino-c-22659247"
+        }
+      ],
+      "language": "ko"
     },
     {
       "id": "wyoming-australian-hiker-found-dead",
@@ -1956,7 +2019,7 @@
     {
       "id": "australia-el-nino-hotter-drier-spring",
       "headline": "엘니뇨가 급격히 강해지며 호주 대부분이 더 덥고 건조한 봄을 맞을 전망",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-07-30T19:55:00Z",
       "voiceScript": "최신 기후 전망은 8월부터 봄까지 호주 동부와 남부의 넓은 지역에서 비가 평년보다 적고 기온은 평년보다 높을 가능성이 크다고 보여줍니다. 태평양 해수면이 빠르게 따뜻해지면서 기록적 고온, 더 강한 산불 위험, 농업과 물 공급에 대한 압박이 커지고 있습니다. 이 소식이 중요한 이유는 건조한 대지가 봄으로 접어들며 빠르게 산불 조건으로 바뀔 수 있기 때문입니다. 다만 열대와 서부 지역의 강수량은 아직 불확실성이 남아 있습니다.",
       "differences": [],
@@ -1972,6 +2035,10 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/fire-agencies-on-front-foot-as-dry-warm-weather-looms"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/weather-forecast-summer-australia-el-nino-20260801-p60kk9.html"
         }
       ],
       "language": "ko",
@@ -2183,7 +2250,7 @@
     {
       "id": "kiama-library-old-book",
       "headline": "키아마 도서관에 약 150년 만에 책이 돌아왔다",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-07-30T10:59:19.000Z",
       "voiceScript": "키아마 도서관에서 약 150년 전 빌려 간 책이 주택 보수 작업 중 벽으로 막힌 벽난로 안에서 발견돼 반환됐다. ABC 는 이 책이 앞으로 특별 소장품으로 옮겨진다고 전했고, Guardian 은 반납이 얼마나 이례적인지에 초점을 맞췄다. 이 이야기는 지역의 작은 발견이 문화유산 보존 작업으로 바뀐 사례라는 점에서 의미가 있다. 이제 남은 일은 이 책을 다시 대출용이 아니라 보존용으로 안전하게 지키는 것이다.",
       "differences": [
@@ -2197,6 +2264,10 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/library-book-returned-after-150-years-kiama-library/106970186"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/a-150-year-overdue-book-resurfaces-in-a-kiama-library-after-being-found-bricked-in-a-fireplace-c-22654926"
         }
       ],
       "language": "ko",
@@ -2679,6 +2750,10 @@
         {
           "source": "The Sydney Morning Herald",
           "url": "https://www.smh.com.au/national/national-watchdog-sues-optus-20260731-p60k7j.html"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/acma-launches-legal-action-against-optus-over-2025-outage-linked-to-emergency-call-failures-and-deaths-c-22650848"
         }
       ],
       "language": "ko",
@@ -2935,6 +3010,21 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/work/at-work/labor-to-expand-paid-prac-for-frontline-health-workers/news-story/7e2607b80c1f4bbd7420e3cfd4d2d6cb"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "sunshine-coast-holiday-club-liquidation",
+      "headline": "선샤인코스트 휴가 업체가 환불 민원 속에 청산 절차에 들어갔다",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:18:53Z",
+      "voiceScript": "선샤인코스트의 한 휴가 업체가 환불과 서비스 관련 민원이 쌓이면서 청산 절차에 들어갔다. 선결제한 고객들에게는 이미 낸 돈을 얼마나 돌려받을 수 있는지가 가장 큰 문제다. 앞으로는 청산인이 자산과 부채, 고객과 채권자의 청구를 정리하게 된다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/travel/sunshine-coast-holiday-company-the-resort-club-enters-liquidation-after-one-star-reviews-and-refund-complaints-c-22646161"
         }
       ],
       "language": "ko"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T05:14:34Z",
+  "updatedAt": "2026-08-01T06:16:37Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -104,7 +104,9 @@
     "news.com.au latest-news RSS still renders HTML, so current-item discovery used page and search-result fallback.",
     "The Australian and Sky News Australia still require fallback extraction for current coverage.",
     "AAP and 9News current-day story URLs were discovered from homepage listings; direct article fetches were inconsistent in this environment, so the canonical links from those listings were retained.",
-    "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
+    "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks.",
+    "7NEWS current Australia coverage was harvested from the live listing page because direct article metadata was inconsistent.",
+    "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
     {
@@ -147,6 +149,36 @@
           "score": 6
         }
       ]
+    },
+    {
+      "id": "sydney-house-illegal-weapons-haul",
+      "headline": "Police uncover an alleged weapons stash in a Sydney home",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T04:07:58Z",
+      "voiceScript": "Police say they found a cache of weapons inside a home in Sydney's west, including items they say should not have been there. That matters because cases like this can point to wider supply lines, not just one isolated search result. The next stage will be whether investigators link the items to any broader offending or further charges.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/ornamental-axes-among-alleged-illegal-weapons-haul-found-in-sydney-s-west-20260801-p60kjy.html"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "under-16s-social-media-ban-bypass",
+      "headline": "Many under-16s are still using social media despite Australia's ban",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T04:07:58Z",
+      "voiceScript": "New figures suggest a large share of under-16s are still getting onto social platforms even after Australia's ban took effect. That matters because the policy was meant to reduce harm and pressure on younger users, but enforcement is already running into workarounds. The next test is whether age checks and platform controls can close the gap.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/more-than-two-in-five-kids-still-using-social-media-despite-ban-20260801-p60kjp.html"
+        }
+      ],
+      "language": "en"
     },
     {
       "id": "sa-police-officer-stabbing-hospital",
@@ -206,6 +238,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/nsw/teenager-charged-with-murder-after-stabbing-on-nsw-central-coast-20260801-p60kjn.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/teenager-charged-with-murder-after-stabbing-on-nsw-central-coast-20260801-p60kjn.html"
         }
       ],
       "language": "en",
@@ -325,6 +361,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/vic/second-suspected-case-of-bird-flu-detected-in-victoria-day-after-confirmed-outbreak-20260731-p60kba.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/second-suspected-case-of-bird-flu-detected-in-victoria-day-after-confirmed-outbreak-20260731-p60kba.html"
         }
       ],
       "language": "en",
@@ -378,6 +418,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/vic/victorian-government-touts-major-change-to-work-from-home-rules-20260801-p60kj6.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/victorian-government-touts-major-change-to-work-from-home-rules-20260801-p60kj6.html"
         }
       ],
       "language": "en",
@@ -598,6 +642,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/qld/airtrain-to-take-queensland-government-to-court-over-price-changes-20260801-p60kix.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/qld/airtrain-to-take-queensland-government-to-court-over-price-changes-20260801-p60kix.html"
         }
       ],
       "language": "en",
@@ -817,6 +865,21 @@
           "score": 5
         }
       ]
+    },
+    {
+      "id": "gta-online-casino-ban",
+      "headline": "Australian players lose access to GTA Online casino mini-games",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T21:15:38Z",
+      "voiceScript": "Players in Australia are finding that the casino-style mini-games inside GTA Online no longer open for them. The change appears to be driven by gambling compliance rather than a full game shutdown, so only a specific feature is affected. The next question is whether this becomes a permanent local restriction or part of a wider platform update.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/grand-theft-auto-online-gamers-in-australia-blocked-from-gambling-in-virtual-casino-c-22659247"
+        }
+      ],
+      "language": "en"
     },
     {
       "id": "wyoming-australian-hiker-found-dead",
@@ -1956,7 +2019,7 @@
     {
       "id": "australia-el-nino-hotter-drier-spring",
       "headline": "El Niño surge puts much of Australia on track for a hotter, drier spring",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-07-30T19:55:00Z",
       "voiceScript": "The latest Bureau outlook points to below-average rain across much of eastern and southern Australia and above-average heat from August into spring. Meteorologists say the Pacific has warmed fast enough to raise the risk of record warmth, stronger fire conditions and more pressure on farms and water supplies. The story matters because the run into spring is when dry landscapes can shift quickly into bushfire weather. The forecast still has uncertainty, especially around how much rain falls in the tropics and western regions.",
       "differences": [],
@@ -1972,6 +2035,10 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/fire-agencies-on-front-foot-as-dry-warm-weather-looms"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/weather-forecast-summer-australia-el-nino-20260801-p60kk9.html"
         }
       ],
       "language": "en",
@@ -2183,7 +2250,7 @@
     {
       "id": "kiama-library-old-book",
       "headline": "Kiama library gets a book back after about 150 years",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-07-30T10:59:19.000Z",
       "voiceScript": "A book borrowed from Kiama Library roughly 150 years ago has been returned after it was found inside a bricked-up fireplace during home renovations. ABC adds that the volume will now be moved into a special collection, while the Guardian report focused on how extraordinary the overdue return is. The story matters because it turns a local curiosity into a conservation job, and the next step is preserving the book for public access rather than lending it out again.",
       "differences": [
@@ -2197,6 +2264,10 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/library-book-returned-after-150-years-kiama-library/106970186"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/a-150-year-overdue-book-resurfaces-in-a-kiama-library-after-being-found-bricked-in-a-fireplace-c-22654926"
         }
       ],
       "language": "en",
@@ -2679,6 +2750,10 @@
         {
           "source": "The Sydney Morning Herald",
           "url": "https://www.smh.com.au/national/national-watchdog-sues-optus-20260731-p60k7j.html"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/acma-launches-legal-action-against-optus-over-2025-outage-linked-to-emergency-call-failures-and-deaths-c-22650848"
         }
       ],
       "language": "en",
@@ -2935,6 +3010,21 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/work/at-work/labor-to-expand-paid-prac-for-frontline-health-workers/news-story/7e2607b80c1f4bbd7420e3cfd4d2d6cb"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "sunshine-coast-holiday-club-liquidation",
+      "headline": "Sunshine Coast holiday club collapses after refund complaints mount",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:18:53Z",
+      "voiceScript": "A Sunshine Coast holiday business has entered liquidation after customer complaints about refunds and service continued to build. That matters because people who paid in advance now face a longer wait to see whether any money can be recovered. The liquidator will now work through assets, debts and any claims from customers and creditors.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/travel/sunshine-coast-holiday-company-the-resort-club-enters-liquidation-after-one-star-reviews-and-refund-complaints-c-22646161"
         }
       ],
       "language": "en"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T05:14:34Z",
+  "updatedAt": "2026-08-01T06:16:37Z",
   "generatedBy": "codex",
   "language": "vi",
   "sources": [
@@ -104,7 +104,9 @@
     "news.com.au latest-news RSS still renders HTML, so current-item discovery used page and search-result fallback.",
     "The Australian and Sky News Australia still require fallback extraction for current coverage.",
     "AAP and 9News current-day story URLs were discovered from homepage listings; direct article fetches were inconsistent in this environment, so the canonical links from those listings were retained.",
-    "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
+    "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks.",
+    "7NEWS current Australia coverage was harvested from the live listing page because direct article metadata was inconsistent.",
+    "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
     {
@@ -147,6 +149,36 @@
           "score": 6
         }
       ]
+    },
+    {
+      "id": "sydney-house-illegal-weapons-haul",
+      "headline": "Cảnh sát phát hiện nhiều vũ khí bị nghi là bất hợp pháp trong một ngôi nhà ở thành phố này",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T04:07:58Z",
+      "voiceScript": "Cảnh sát cho biết họ đã tìm thấy nhiều vũ khí cùng các món đồ bị nghi là không hợp lệ trong một ngôi nhà ở phía tây thành phố này. Điều này quan trọng vì nó có thể cho thấy một đường dây rộng hơn chứ không chỉ là một cuộc khám xét đơn lẻ. Bước tiếp theo là xem những món đồ này có liên quan đến hành vi phạm tội nào khác hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/ornamental-axes-among-alleged-illegal-weapons-haul-found-in-sydney-s-west-20260801-p60kjy.html"
+        }
+      ],
+      "language": "vi"
+    },
+    {
+      "id": "under-16s-social-media-ban-bypass",
+      "headline": "Nhiều người dưới 16 tuổi vẫn dùng mạng xã hội dù lệnh cấm đã có hiệu lực",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T04:07:58Z",
+      "voiceScript": "Số liệu mới cho thấy nhiều người dưới 16 tuổi ở Úc vẫn tiếp cận mạng xã hội dù lệnh cấm đã có hiệu lực. Điều này quan trọng vì chính sách ban đầu nhằm giảm tác động xấu và áp lực lên người dùng trẻ hơn, nhưng việc thực thi đã gặp cách lách luật. Câu hỏi tiếp theo là kiểm tra độ tuổi và biện pháp của nền tảng có thể lấp được khoảng trống đó hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/more-than-two-in-five-kids-still-using-social-media-despite-ban-20260801-p60kjp.html"
+        }
+      ],
+      "language": "vi"
     },
     {
       "id": "sa-police-officer-stabbing-hospital",
@@ -206,6 +238,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/nsw/teenager-charged-with-murder-after-stabbing-on-nsw-central-coast-20260801-p60kjn.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/teenager-charged-with-murder-after-stabbing-on-nsw-central-coast-20260801-p60kjn.html"
         }
       ],
       "language": "vi",
@@ -325,6 +361,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/vic/second-suspected-case-of-bird-flu-detected-in-victoria-day-after-confirmed-outbreak-20260731-p60kba.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/second-suspected-case-of-bird-flu-detected-in-victoria-day-after-confirmed-outbreak-20260731-p60kba.html"
         }
       ],
       "language": "vi",
@@ -378,6 +418,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/vic/victorian-government-touts-major-change-to-work-from-home-rules-20260801-p60kj6.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/victorian-government-touts-major-change-to-work-from-home-rules-20260801-p60kj6.html"
         }
       ],
       "language": "vi",
@@ -598,6 +642,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/qld/airtrain-to-take-queensland-government-to-court-over-price-changes-20260801-p60kix.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/qld/airtrain-to-take-queensland-government-to-court-over-price-changes-20260801-p60kix.html"
         }
       ],
       "language": "vi",
@@ -817,6 +865,21 @@
           "score": 5
         }
       ]
+    },
+    {
+      "id": "gta-online-casino-ban",
+      "headline": "Người chơi ở Úc không còn vào được các trò casino trong trò chơi trực tuyến này",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T21:15:38Z",
+      "voiceScript": "Người chơi ở Úc đang thấy các trò casino trong trò chơi trực tuyến này không còn mở được. Thay đổi này có vẻ nhằm đáp ứng quy định về cờ bạc hơn là chặn cả trò chơi, nên chỉ một tính năng cụ thể bị ảnh hưởng. Câu hỏi tiếp theo là đây có phải là giới hạn lâu dài cho riêng thị trường Úc hay chỉ là một lần điều chỉnh tuân thủ.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/grand-theft-auto-online-gamers-in-australia-blocked-from-gambling-in-virtual-casino-c-22659247"
+        }
+      ],
+      "language": "vi"
     },
     {
       "id": "wyoming-australian-hiker-found-dead",
@@ -1956,7 +2019,7 @@
     {
       "id": "australia-el-nino-hotter-drier-spring",
       "headline": "Đợt El Niño tăng tốc đẩy phần lớn nước Úc vào mùa xuân nóng hơn và khô hơn",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-07-30T19:55:00Z",
       "voiceScript": "Dự báo khí hậu mới nhất cho thấy từ tháng 8 đến mùa xuân, nhiều khu vực ở miền đông và miền nam Úc sẽ có lượng mưa thấp hơn mức trung bình, trong khi nhiệt độ có xu hướng cao hơn bình thường. Các nhà khí tượng nói Thái Bình Dương đang ấm lên rất nhanh, làm tăng nguy cơ nắng nóng kỷ lục, điều kiện cháy rừng nghiêm trọng hơn và áp lực lên nông trại cùng nguồn nước. Tin này quan trọng vì giai đoạn trước mùa xuân là lúc đất khô có thể nhanh chóng chuyển thành thời tiết cháy rừng. Dự báo vẫn còn bất định, nhất là ở các vùng nhiệt đới và phía tây.",
       "differences": [],
@@ -1972,6 +2035,10 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/fire-agencies-on-front-foot-as-dry-warm-weather-looms"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/weather-forecast-summer-australia-el-nino-20260801-p60kk9.html"
         }
       ],
       "language": "vi",
@@ -2183,7 +2250,7 @@
     {
       "id": "kiama-library-old-book",
       "headline": "Thư viện Kiama nhận lại cuốn sách sau khoảng 150 năm",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-07-30T10:59:19.000Z",
       "voiceScript": "Một cuốn sách từng được mượn từ Thư viện Kiama cách đây khoảng 150 năm đã được trả lại sau khi được phát hiện trong một lò sưởi bị bịt kín khi chủ nhà sửa chữa. ABC cho biết cuốn sách sẽ được đưa vào bộ sưu tập đặc biệt, còn Guardian nhấn mạnh mức độ hiếm có của việc trả muộn đến vậy. Câu chuyện này quan trọng vì một món đồ tư liệu địa phương bình thường đã trở thành việc bảo tồn di sản. Việc tiếp theo là giữ gìn cuốn sách để công chúng có thể tiếp tục tiếp cận, thay vì cho mượn lại.",
       "differences": [
@@ -2197,6 +2264,10 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/library-book-returned-after-150-years-kiama-library/106970186"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/a-150-year-overdue-book-resurfaces-in-a-kiama-library-after-being-found-bricked-in-a-fireplace-c-22654926"
         }
       ],
       "language": "vi",
@@ -2679,6 +2750,10 @@
         {
           "source": "The Sydney Morning Herald",
           "url": "https://www.smh.com.au/national/national-watchdog-sues-optus-20260731-p60k7j.html"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/acma-launches-legal-action-against-optus-over-2025-outage-linked-to-emergency-call-failures-and-deaths-c-22650848"
         }
       ],
       "language": "vi",
@@ -2935,6 +3010,21 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/work/at-work/labor-to-expand-paid-prac-for-frontline-health-workers/news-story/7e2607b80c1f4bbd7420e3cfd4d2d6cb"
+        }
+      ],
+      "language": "vi"
+    },
+    {
+      "id": "sunshine-coast-holiday-club-liquidation",
+      "headline": "Một công ty nghỉ dưỡng ở một vùng ven biển phía đông bắc nước Úc bước vào quá trình thanh lý",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:18:53Z",
+      "voiceScript": "Một doanh nghiệp nghỉ dưỡng ở một vùng ven biển phía đông bắc nước Úc đã bước vào quá trình thanh lý sau khi các khiếu nại về hoàn tiền và dịch vụ ngày càng tăng. Với những người đã trả trước, câu hỏi lớn là còn có thể thu hồi được bao nhiêu tiền. Tiếp theo, người thanh lý sẽ phải kiểm tra tài sản, nợ và các yêu cầu từ khách hàng lẫn chủ nợ.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/travel/sunshine-coast-holiday-company-the-resort-club-enters-liquidation-after-one-star-reviews-and-refund-complaints-c-22646161"
         }
       ],
       "language": "vi"

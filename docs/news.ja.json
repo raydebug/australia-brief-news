@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T05:14:34Z",
+  "updatedAt": "2026-08-01T06:16:37Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -104,7 +104,9 @@
     "news.com.au latest-news RSS still renders HTML, so current-item discovery used page and search-result fallback.",
     "The Australian and Sky News Australia still require fallback extraction for current coverage.",
     "AAP and 9News current-day story URLs were discovered from homepage listings; direct article fetches were inconsistent in this environment, so the canonical links from those listings were retained.",
-    "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
+    "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks.",
+    "7NEWS current Australia coverage was harvested from the live listing page because direct article metadata was inconsistent.",
+    "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
     {
@@ -147,6 +149,36 @@
           "score": 6
         }
       ]
+    },
+    {
+      "id": "sydney-house-illegal-weapons-haul",
+      "headline": "シドニーの住宅で違法の疑いがある武器が大量に見つかった",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T04:07:58Z",
+      "voiceScript": "警察は、シドニー西部の住宅で違法の疑いがある品を含む武器のまとまりを押収したとしています。こうした事案は、単独の家宅捜索にとどまらず、流通経路の広がりを示すことがあります。今後は、それらの品が別の違反行為や追加の起訴につながるかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/ornamental-axes-among-alleged-illegal-weapons-haul-found-in-sydney-s-west-20260801-p60kjy.html"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "under-16s-social-media-ban-bypass",
+      "headline": "16歳未満の多くが、禁止後もSNSを使い続けている",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T04:07:58Z",
+      "voiceScript": "新しい数字では、オーストラリアで16歳未満のSNS利用を制限する措置が始まった後も、多くの若者が引き続きアクセスしているようです。政策の狙いは若い利用者への負担を減らすことでしたが、すでに抜け道が問題になっています。今後は年齢確認と各プラットフォームの対策で、どこまで穴をふさげるかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/more-than-two-in-five-kids-still-using-social-media-despite-ban-20260801-p60kjp.html"
+        }
+      ],
+      "language": "ja"
     },
     {
       "id": "sa-police-officer-stabbing-hospital",
@@ -206,6 +238,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/nsw/teenager-charged-with-murder-after-stabbing-on-nsw-central-coast-20260801-p60kjn.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/teenager-charged-with-murder-after-stabbing-on-nsw-central-coast-20260801-p60kjn.html"
         }
       ],
       "language": "ja",
@@ -325,6 +361,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/vic/second-suspected-case-of-bird-flu-detected-in-victoria-day-after-confirmed-outbreak-20260731-p60kba.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/second-suspected-case-of-bird-flu-detected-in-victoria-day-after-confirmed-outbreak-20260731-p60kba.html"
         }
       ],
       "language": "ja",
@@ -378,6 +418,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/vic/victorian-government-touts-major-change-to-work-from-home-rules-20260801-p60kj6.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/victorian-government-touts-major-change-to-work-from-home-rules-20260801-p60kj6.html"
         }
       ],
       "language": "ja",
@@ -598,6 +642,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/qld/airtrain-to-take-queensland-government-to-court-over-price-changes-20260801-p60kix.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/qld/airtrain-to-take-queensland-government-to-court-over-price-changes-20260801-p60kix.html"
         }
       ],
       "language": "ja",
@@ -817,6 +865,21 @@
           "score": 5
         }
       ]
+    },
+    {
+      "id": "gta-online-casino-ban",
+      "headline": "オーストラリアの利用者はGTAオンラインのカジノ機能を使えなくなった",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T21:15:38Z",
+      "voiceScript": "オーストラリアの利用者では、GTAオンラインのカジノ風ミニゲームが使えなくなっているようです。これはゲーム全体の停止ではなく、賭博ルールへの対応として特定機能だけが制限された可能性が高いです。今後の焦点は、この制限が恒久化するのか、それともオーストラリア向けの調整にとどまるのかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/grand-theft-auto-online-gamers-in-australia-blocked-from-gambling-in-virtual-casino-c-22659247"
+        }
+      ],
+      "language": "ja"
     },
     {
       "id": "wyoming-australian-hiker-found-dead",
@@ -1956,7 +2019,7 @@
     {
       "id": "australia-el-nino-hotter-drier-spring",
       "headline": "エルニーニョの急速な強まりで、オーストラリアはより暑く乾燥した春に向かう",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-07-30T19:55:00Z",
       "voiceScript": "最新の気候見通しでは、8月から春にかけてオーストラリア東部と南部の広い範囲で雨が平年を下回り、気温は平年を上回る見込みです。太平洋の海面水温が急速に上昇しており、記録的な高温や山火事リスクの上昇、農業と水供給への圧力が強まっています。この見通しが重要なのは、春に向けて乾いた土地が一気に火災危険へ変わりやすいからです。なお、熱帯や西部でどれだけ雨が降るかにはまだ不確実性があります。",
       "differences": [],
@@ -1972,6 +2035,10 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/fire-agencies-on-front-foot-as-dry-warm-weather-looms"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/weather-forecast-summer-australia-el-nino-20260801-p60kk9.html"
         }
       ],
       "language": "ja",
@@ -2183,7 +2250,7 @@
     {
       "id": "kiama-library-old-book",
       "headline": "キアマ図書館に約150年ぶりに本が戻る",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-07-30T10:59:19.000Z",
       "voiceScript": "キアマ図書館で約150年前に借りられた本が、住宅の改修中に壁で塞がれた暖炉の中から見つかり、返却されました。ABC はこの本が今後特別コレクションに移されると伝え、Guardian は返却までの長さの異例さを強調しています。これは、地域のちょっとした発見が文化財の保存作業に変わる話です。次は、この本を貸し出しではなく保管用としてどう守るかが焦点です。",
       "differences": [
@@ -2197,6 +2264,10 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/library-book-returned-after-150-years-kiama-library/106970186"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/a-150-year-overdue-book-resurfaces-in-a-kiama-library-after-being-found-bricked-in-a-fireplace-c-22654926"
         }
       ],
       "language": "ja",
@@ -2679,6 +2750,10 @@
         {
           "source": "The Sydney Morning Herald",
           "url": "https://www.smh.com.au/national/national-watchdog-sues-optus-20260731-p60k7j.html"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/acma-launches-legal-action-against-optus-over-2025-outage-linked-to-emergency-call-failures-and-deaths-c-22650848"
         }
       ],
       "language": "ja",
@@ -2935,6 +3010,21 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/work/at-work/labor-to-expand-paid-prac-for-frontline-health-workers/news-story/7e2607b80c1f4bbd7420e3cfd4d2d6cb"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "sunshine-coast-holiday-club-liquidation",
+      "headline": "サンシャインコーストの休暇会社が返金苦情の増加で清算へ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:18:53Z",
+      "voiceScript": "サンシャインコーストの休暇関連会社が、返金やサービスをめぐる苦情の増加を受けて清算手続きに入りました。前払いしていた利用者にとっては、支払ったお金をどこまで回収できるかが大きな焦点です。今後は清算人が資産、負債、顧客と債権者の請求を整理していきます。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/travel/sunshine-coast-holiday-company-the-resort-club-enters-liquidation-after-one-star-reviews-and-refund-complaints-c-22646161"
         }
       ],
       "language": "ja"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T05:14:34Z",
+  "updatedAt": "2026-08-01T06:16:37Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -104,7 +104,9 @@
     "news.com.au latest-news RSS still renders HTML, so current-item discovery used page and search-result fallback.",
     "The Australian and Sky News Australia still require fallback extraction for current coverage.",
     "AAP and 9News current-day story URLs were discovered from homepage listings; direct article fetches were inconsistent in this environment, so the canonical links from those listings were retained.",
-    "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
+    "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks.",
+    "7NEWS current Australia coverage was harvested from the live listing page because direct article metadata was inconsistent.",
+    "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
     {
@@ -147,6 +149,36 @@
           "score": 6
         }
       ]
+    },
+    {
+      "id": "sydney-house-illegal-weapons-haul",
+      "headline": "悉尼一处住宅被查出一批疑似非法武器",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T04:07:58Z",
+      "voiceScript": "警方称，他们在悉尼西部一处住宅内查获了一批武器，其中一些被认为不该出现在那里。这个发现之所以重要，是因为它可能指向更大的流通链条，而不只是一次单独搜查。接下来要看调查是否会把这些物品和更广泛的违法行为联系起来。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/ornamental-axes-among-alleged-illegal-weapons-haul-found-in-sydney-s-west-20260801-p60kjy.html"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
+      "id": "under-16s-social-media-ban-bypass",
+      "headline": "尽管禁令已生效，仍有许多未满16岁的澳洲青少年在用社交媒体",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T04:07:58Z",
+      "voiceScript": "最新数字显示，澳洲16岁以下的社交媒体限制已经实施，但仍有相当一部分青少年在继续使用平台。这个问题之所以重要，是因为政策原本想减少对年轻人的伤害和压力，但执行层面已经出现绕行办法。接下来要看年龄验证和平台控制能不能真正补上缺口。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/more-than-two-in-five-kids-still-using-social-media-despite-ban-20260801-p60kjp.html"
+        }
+      ],
+      "language": "zh-Hans"
     },
     {
       "id": "sa-police-officer-stabbing-hospital",
@@ -206,6 +238,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/nsw/teenager-charged-with-murder-after-stabbing-on-nsw-central-coast-20260801-p60kjn.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/teenager-charged-with-murder-after-stabbing-on-nsw-central-coast-20260801-p60kjn.html"
         }
       ],
       "language": "zh-Hans",
@@ -325,6 +361,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/vic/second-suspected-case-of-bird-flu-detected-in-victoria-day-after-confirmed-outbreak-20260731-p60kba.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/second-suspected-case-of-bird-flu-detected-in-victoria-day-after-confirmed-outbreak-20260731-p60kba.html"
         }
       ],
       "language": "zh-Hans",
@@ -378,6 +418,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/vic/victorian-government-touts-major-change-to-work-from-home-rules-20260801-p60kj6.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/victorian-government-touts-major-change-to-work-from-home-rules-20260801-p60kj6.html"
         }
       ],
       "language": "zh-Hans",
@@ -598,6 +642,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/qld/airtrain-to-take-queensland-government-to-court-over-price-changes-20260801-p60kix.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/qld/airtrain-to-take-queensland-government-to-court-over-price-changes-20260801-p60kix.html"
         }
       ],
       "language": "zh-Hans",
@@ -817,6 +865,21 @@
           "score": 5
         }
       ]
+    },
+    {
+      "id": "gta-online-casino-ban",
+      "headline": "澳洲玩家无法再进入 GTA Online 的赌场小游戏",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T21:15:38Z",
+      "voiceScript": "澳大利亚玩家发现，GTA Online 里的赌场式小游戏已经无法打开。这个变化看起来更像是为了符合博彩监管要求，而不是整款游戏被下架，因此受影响的是一个特定功能。接下来要看，这种限制会不会长期保留，还是只是一次面向澳洲的合规调整。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/grand-theft-auto-online-gamers-in-australia-blocked-from-gambling-in-virtual-casino-c-22659247"
+        }
+      ],
+      "language": "zh-Hans"
     },
     {
       "id": "wyoming-australian-hiker-found-dead",
@@ -1956,7 +2019,7 @@
     {
       "id": "australia-el-nino-hotter-drier-spring",
       "headline": "厄尔尼诺快速增强，澳洲大部份地区面临更热更干燥的春季",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-07-30T19:55:00Z",
       "voiceScript": "最新气候展望显示，澳大利亚东部和南部大范围降雨将低于平均水平，而从8月到春季，气温大概率高于常年。气象人士说，太平洋升温速度很快，已经把纪录级高温、更强火险和农田、水资源压力的风险推高。这个消息重要，因为春季前的干燥阶段，往往最容易迅速转入山火天气。未来仍有不确定性，尤其取决于热带和西部地区会下多少雨。",
       "differences": [],
@@ -1972,6 +2035,10 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/fire-agencies-on-front-foot-as-dry-warm-weather-looms"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/weather-forecast-summer-australia-el-nino-20260801-p60kk9.html"
         }
       ],
       "language": "zh-Hans",
@@ -2183,7 +2250,7 @@
     {
       "id": "kiama-library-old-book",
       "headline": "基亚马图书馆的一本旧书在约150年后回到手中",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-07-30T10:59:19.000Z",
       "voiceScript": "一本大约150年前从基亚马图书馆借出的书，在一次房屋翻修中被发现藏在砌死的壁炉里后，终于被归还。ABC 补充说，这本书接下来会进入特别馆藏，而《卫报》则强调这次逾期归还的时间之久令人惊讶。这个故事的意义在于，原本只是地方趣闻，如今变成了一项文物保护工作；下一步是妥善保存，让公众能继续看到它，而不是再次外借。",
       "differences": [
@@ -2197,6 +2264,10 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/library-book-returned-after-150-years-kiama-library/106970186"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/a-150-year-overdue-book-resurfaces-in-a-kiama-library-after-being-found-bricked-in-a-fireplace-c-22654926"
         }
       ],
       "language": "zh-Hans",
@@ -2679,6 +2750,10 @@
         {
           "source": "The Sydney Morning Herald",
           "url": "https://www.smh.com.au/national/national-watchdog-sues-optus-20260731-p60k7j.html"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/acma-launches-legal-action-against-optus-over-2025-outage-linked-to-emergency-call-failures-and-deaths-c-22650848"
         }
       ],
       "language": "zh-Hans",
@@ -2935,6 +3010,21 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/work/at-work/labor-to-expand-paid-prac-for-frontline-health-workers/news-story/7e2607b80c1f4bbd7420e3cfd4d2d6cb"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
+      "id": "sunshine-coast-holiday-club-liquidation",
+      "headline": "阳光海岸一家度假俱乐部因退款投诉增加而进入清算",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:18:53Z",
+      "voiceScript": "昆士兰阳光海岸一家度假业务已经进入清算程序，围绕退款和服务的投诉不断累积。对已经预付费用的顾客来说，关键问题是还能追回多少款项。接下来要看清算人如何处理资产、债务以及客户和债权人的索赔。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/travel/sunshine-coast-holiday-company-the-resort-club-enters-liquidation-after-one-star-reviews-and-refund-complaints-c-22646161"
         }
       ],
       "language": "zh-Hans"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T05:16:33Z",
+  "updatedAt": "2026-08-01T06:16:37Z",
   "generatedBy": "codex",
   "language": "es",
   "sources": [
@@ -104,7 +104,9 @@
     "news.com.au latest-news RSS still renders HTML, so current-item discovery used page and search-result fallback.",
     "The Australian and Sky News Australia still require fallback extraction for current coverage.",
     "AAP and 9News current-day story URLs were discovered from homepage listings; direct article fetches were inconsistent in this environment, so the canonical links from those listings were retained.",
-    "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
+    "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks.",
+    "7NEWS current Australia coverage was harvested from the live listing page because direct article metadata was inconsistent.",
+    "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
     {
@@ -147,6 +149,36 @@
           "score": 6
         }
       ]
+    },
+    {
+      "id": "sydney-house-illegal-weapons-haul",
+      "headline": "La policía encuentra un alijo de armas presuntamente ilegales en una casa de Sídney",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T04:07:58Z",
+      "voiceScript": "La policía dice que halló varias armas, incluidos objetos que considera indebidos, en una vivienda del oeste de Sídney. Este caso importa porque puede apuntar a una cadena de suministro más amplia y no solo a un registro aislado. El siguiente paso será ver si los investigadores vinculan esos objetos con otros delitos o con más cargos.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/ornamental-axes-among-alleged-illegal-weapons-haul-found-in-sydney-s-west-20260801-p60kjy.html"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "under-16s-social-media-ban-bypass",
+      "headline": "Muchos menores de 16 años siguen usando redes sociales pese a la prohibición en Australia",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T04:07:58Z",
+      "voiceScript": "Las nuevas cifras sugieren que una gran parte de los menores de 16 años sigue entrando en las plataformas sociales incluso después de que entrara en vigor la prohibición en Australia. Esto importa porque la medida buscaba reducir el daño y la presión sobre los usuarios más jóvenes, pero la aplicación ya se está topando con formas de esquivarla. La siguiente prueba será ver si los controles de edad y de las plataformas pueden cerrar esa brecha.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/more-than-two-in-five-kids-still-using-social-media-despite-ban-20260801-p60kjp.html"
+        }
+      ],
+      "language": "es"
     },
     {
       "id": "sa-police-officer-stabbing-hospital",
@@ -206,6 +238,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/nsw/teenager-charged-with-murder-after-stabbing-on-nsw-central-coast-20260801-p60kjn.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/teenager-charged-with-murder-after-stabbing-on-nsw-central-coast-20260801-p60kjn.html"
         }
       ],
       "language": "es",
@@ -325,6 +361,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/vic/second-suspected-case-of-bird-flu-detected-in-victoria-day-after-confirmed-outbreak-20260731-p60kba.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/second-suspected-case-of-bird-flu-detected-in-victoria-day-after-confirmed-outbreak-20260731-p60kba.html"
         }
       ],
       "language": "es",
@@ -378,6 +418,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/vic/victorian-government-touts-major-change-to-work-from-home-rules-20260801-p60kj6.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/victorian-government-touts-major-change-to-work-from-home-rules-20260801-p60kj6.html"
         }
       ],
       "language": "es",
@@ -598,6 +642,10 @@
         {
           "source": "9News",
           "url": "https://www.nine.com.au/australia-news/qld/airtrain-to-take-queensland-government-to-court-over-price-changes-20260801-p60kix.html"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/qld/airtrain-to-take-queensland-government-to-court-over-price-changes-20260801-p60kix.html"
         }
       ],
       "language": "es",
@@ -817,6 +865,21 @@
           "score": 5
         }
       ]
+    },
+    {
+      "id": "gta-online-casino-ban",
+      "headline": "Los jugadores australianos pierden acceso a los minijuegos de casino de GTA Online",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T21:15:38Z",
+      "voiceScript": "Los jugadores en Australia están viendo que los minijuegos de estilo casino de GTA Online ya no se abren para ellos. El cambio parece responder al cumplimiento de las normas sobre apuestas y no al cierre completo del juego, así que afecta solo a una función concreta. La duda ahora es si la restricción será permanente para Australia o parte de una actualización más amplia de la plataforma.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/grand-theft-auto-online-gamers-in-australia-blocked-from-gambling-in-virtual-casino-c-22659247"
+        }
+      ],
+      "language": "es"
     },
     {
       "id": "wyoming-australian-hiker-found-dead",
@@ -1956,7 +2019,7 @@
     {
       "id": "australia-el-nino-hotter-drier-spring",
       "headline": "El Niño acelera y deja a gran parte de Australia camino a una primavera más calurosa y seca",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-07-30T19:55:00Z",
       "voiceScript": "La última previsión climática apunta a menos lluvias de lo normal en gran parte del este y del sur de Australia, junto con temperaturas por encima del promedio desde agosto hasta la primavera. Los meteorólogos dicen que el Pacífico se ha calentado con tanta rapidez que aumenta el riesgo de calor récord, de condiciones más propicias para incendios y de más presión sobre el campo y el agua. La noticia importa porque la transición hacia la primavera es cuando los paisajes secos pueden pasar con rapidez a un escenario de incendios. Aun así, sigue habiendo incertidumbre, sobre todo sobre cuánta lluvia caerá en las zonas tropicales y del oeste.",
       "differences": [],
@@ -1972,6 +2035,10 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/fire-agencies-on-front-foot-as-dry-warm-weather-looms"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/weather-forecast-summer-australia-el-nino-20260801-p60kk9.html"
         }
       ],
       "language": "es",
@@ -2183,7 +2250,7 @@
     {
       "id": "kiama-library-old-book",
       "headline": "La biblioteca de Kiama recupera un libro tras unos 150 años",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-07-30T10:59:19.000Z",
       "voiceScript": "Un libro prestado hace unos 150 años a la biblioteca de Kiama fue devuelto después de aparecer en una chimenea tapiada durante una reforma. ABC añade que el volumen pasará a una colección especial, mientras que The Guardian destacó lo extraordinario de la devolución fuera de plazo. La historia importa porque una curiosidad local se convierte ahora en una tarea de conservación; el siguiente paso es proteger el libro para su consulta pública y no volver a prestarlo.",
       "differences": [
@@ -2197,6 +2264,10 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/library-book-returned-after-150-years-kiama-library/106970186"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/a-150-year-overdue-book-resurfaces-in-a-kiama-library-after-being-found-bricked-in-a-fireplace-c-22654926"
         }
       ],
       "language": "es",
@@ -2679,6 +2750,10 @@
         {
           "source": "The Sydney Morning Herald",
           "url": "https://www.smh.com.au/national/national-watchdog-sues-optus-20260731-p60k7j.html"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/acma-launches-legal-action-against-optus-over-2025-outage-linked-to-emergency-call-failures-and-deaths-c-22650848"
         }
       ],
       "language": "es",
@@ -2935,6 +3010,21 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/finance/work/at-work/labor-to-expand-paid-prac-for-frontline-health-workers/news-story/7e2607b80c1f4bbd7420e3cfd4d2d6cb"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "sunshine-coast-holiday-club-liquidation",
+      "headline": "Un club vacacional de la costa de Queensland entra en liquidación tras aumentar las quejas por reembolsos",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-29T08:18:53Z",
+      "voiceScript": "Una empresa vacacional de la costa de Queensland ha entrado en liquidación después de que crecieran las quejas de clientes sobre reembolsos y servicio. Para quienes pagaron por adelantado, la gran pregunta es cuánto dinero podrán recuperar. Ahora el liquidador deberá revisar activos, deudas y reclamaciones de clientes y acreedores.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/travel/sunshine-coast-holiday-company-the-resort-club-enters-liquidation-after-one-star-reviews-and-refund-complaints-c-22646161"
         }
       ],
       "language": "es"
