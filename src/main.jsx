@@ -887,6 +887,23 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Sophie Dwyer",
+    aliases: ["Sophie Dwyer", "Soph Dwyer", "索菲·德怀尔", "索菲·德懷爾", "ソフィー・ドワイヤー", "소피 드와이어"],
+    type: "athlete",
+    social: { label: "Official profile", url: "https://netball.com.au/player/sophie-dwyer" },
+    background: {
+      "zh-Hans": "澳大利亚无挡板篮球运动员，司职 GS/GA，效力 GIANTS Netball，并代表 Australian Diamonds。她 2022 年完成国家队首秀，是 Diamonds 第 187 号球员。",
+      "zh-Hant": "澳洲無擋板籃球運動員，司職 GS/GA，效力 GIANTS Netball，並代表 Australian Diamonds。她 2022 年完成國家隊首秀，是 Diamonds 第 187 號球員。",
+      en: "Australian netballer who plays GS/GA for GIANTS Netball and the Australian Diamonds. She made her national debut in 2022 and is Diamond number 187.",
+      es: "Jugadora australiana de netball, GS/GA de GIANTS Netball y de las Australian Diamonds. Debutó con la selección en 2022 y es la Diamond número 187.",
+      ja: "GIANTS Netball と Australian Diamonds で GS/GA を務めるオーストラリアのネットボール選手。2022年に代表デビューし、Diamond number 187 です。",
+      ko: "GIANTS Netball과 Australian Diamonds에서 GS/GA로 뛰는 호주 네트볼 선수입니다. 2022년 국가대표로 데뷔했고 Diamond number 187입니다.",
+      vi: "Vận động viên netball Australia chơi GS/GA cho GIANTS Netball và Australian Diamonds. Cô ra mắt đội tuyển quốc gia năm 2022 và là Diamond số 187.",
+      th: "นัก netball ออสเตรเลีย ตำแหน่ง GS/GA ให้ GIANTS Netball และ Australian Diamonds เปิดตัวทีมชาติในปี 2022 และเป็น Diamond หมายเลข 187",
+      si: "GIANTS Netball සහ Australian Diamonds සඳහා GS/GA ලෙස ක්‍රීඩා කරන Australian netballer කෙනෙකි. 2022 දී national debut කළ ඇය Diamond number 187 වේ."
+    }
+  },
+  {
     name: "Jess Wilson",
     aliases: ["Jess Wilson", "Jessica Wilson", "Jessica Kate Wilson", "杰斯·威尔逊", "傑斯·威爾遜", "ジェス・ウィルソン", "제스 윌슨"],
     type: "politician",
