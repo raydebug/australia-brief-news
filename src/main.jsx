@@ -1649,6 +1649,91 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Matt Payne",
+    aliases: ["Matt Payne", "Matthew Payne", "Matthew Allen Payne", "马特·佩恩", "馬特·佩恩", "マット・ペイン", "맷 페인"],
+    type: "athlete",
+    social: { label: "Supercars profile", url: "https://www.supercars.com/drivers/matthew-payne" },
+    background: {
+      "zh-Hans": "新西兰赛车手，效力 Supercars 的 Penrite Racing/Grove Racing，驾驶 19 号 Ford Mustang，并在 2025 年赢得 Bathurst 1000。",
+      "zh-Hant": "紐西蘭賽車手，效力 Supercars 的 Penrite Racing/Grove Racing，駕駛 19 號 Ford Mustang，並在 2025 年贏得 Bathurst 1000。",
+      en: "New Zealand racing driver in Supercars with Penrite Racing/Grove Racing, driving the No. 19 Ford Mustang and winner of the 2025 Bathurst 1000.",
+      es: "Piloto neozelandés de Supercars con Penrite Racing/Grove Racing, al volante del Ford Mustang número 19 y ganador del Bathurst 1000 de 2025.",
+      ja: "Supercars の Penrite Racing/Grove Racing に所属するニュージーランド人レーシングドライバー。19号車 Ford Mustang を走らせ、2025年 Bathurst 1000 を制しました。",
+      ko: "Supercars Penrite Racing/Grove Racing 소속 뉴질랜드 레이싱 드라이버로 19번 Ford Mustang을 몰며 2025 Bathurst 1000 우승자입니다.",
+      vi: "Tay đua New Zealand ở Supercars cho Penrite Racing/Grove Racing, lái Ford Mustang số 19 và vô địch Bathurst 1000 năm 2025.",
+      th: "นักแข่งรถชาวนิวซีแลนด์ใน Supercars สังกัด Penrite Racing/Grove Racing ขับ Ford Mustang หมายเลข 19 และเป็นผู้ชนะ Bathurst 1000 ปี 2025",
+      si: "Supercars හි Penrite Racing/Grove Racing වෙනුවෙන් No. 19 Ford Mustang ධාවනය කරන New Zealand racing driver; 2025 Bathurst 1000 ජයග්‍රාහකයෙකි."
+    }
+  },
+  {
+    name: "Brodie Kostecki",
+    aliases: ["Brodie Kostecki", "Brodie Paul Kostecki", "布罗迪·科斯特基", "布羅迪·科斯特基", "ブロディ・コステッキ", "브로디 코스테키"],
+    type: "athlete",
+    social: { label: "Supercars profile", url: "https://www.supercars.com/drivers/brodie-kostecki" },
+    background: {
+      "zh-Hans": "西澳出身的职业赛车手，Supercars 2023 年总冠军和 2024 年 Bathurst 1000 冠军，现与 Shell V-Power Racing Team/Dick Johnson Racing 相关。",
+      "zh-Hant": "西澳出身的職業賽車手，Supercars 2023 年總冠軍和 2024 年 Bathurst 1000 冠軍，現與 Shell V-Power Racing Team/Dick Johnson Racing 相關。",
+      en: "Western Australian professional racing driver, 2023 Supercars champion and 2024 Bathurst 1000 winner, now associated with Shell V-Power Racing Team/Dick Johnson Racing.",
+      es: "Piloto profesional de Australia Occidental, campeón de Supercars 2023 y ganador del Bathurst 1000 de 2024, vinculado a Shell V-Power Racing Team/Dick Johnson Racing.",
+      ja: "西オーストラリア出身のプロレーシングドライバー。2023年 Supercars 王者、2024年 Bathurst 1000 優勝者で、Shell V-Power Racing Team/Dick Johnson Racing と関係します。",
+      ko: "서호주 출신 프로 레이싱 드라이버로 2023 Supercars 챔피언이자 2024 Bathurst 1000 우승자이며 Shell V-Power Racing Team/Dick Johnson Racing과 관련돼 있습니다.",
+      vi: "Tay đua chuyên nghiệp người Tây Úc, vô địch Supercars 2023 và thắng Bathurst 1000 năm 2024, hiện gắn với Shell V-Power Racing Team/Dick Johnson Racing.",
+      th: "นักแข่งรถอาชีพจาก Western Australia แชมป์ Supercars ปี 2023 และผู้ชนะ Bathurst 1000 ปี 2024 ปัจจุบันเกี่ยวข้องกับ Shell V-Power Racing Team/Dick Johnson Racing",
+      si: "Western Australian professional racing driver; 2023 Supercars champion සහ 2024 Bathurst 1000 winner, Shell V-Power Racing Team/Dick Johnson Racing සමඟ සම්බන්ධය ඇත."
+    }
+  },
+  {
+    name: "Kai Allen",
+    aliases: ["Kai Allen", "凯·艾伦", "凱·艾倫", "カイ・アレン", "카이 앨런"],
+    type: "athlete",
+    social: { label: "Supercars profile", url: "https://www.supercars.com/drivers/kai-allen" },
+    background: {
+      "zh-Hans": "南澳 Mount Gambier 出身的赛车手，Supercars 车手，曾获 Super2 冠军，效力 Penrite Racing/Grove Racing。",
+      "zh-Hant": "南澳 Mount Gambier 出身的賽車手，Supercars 車手，曾獲 Super2 冠軍，效力 Penrite Racing/Grove Racing。",
+      en: "Racing driver from Mount Gambier, South Australia, a Supercars driver and former Super2 champion with Penrite Racing/Grove Racing.",
+      es: "Piloto de Mount Gambier, Australia Meridional, piloto de Supercars y ex campeón de Super2 con Penrite Racing/Grove Racing.",
+      ja: "南オーストラリア州 Mount Gambier 出身のレーシングドライバー。Supercars 参戦中で、Super2 元王者、Penrite Racing/Grove Racing 所属です。",
+      ko: "남호주 Mount Gambier 출신 레이싱 드라이버로 Supercars 선수이며 Penrite Racing/Grove Racing 소속 전 Super2 챔피언입니다.",
+      vi: "Tay đua từ Mount Gambier, Nam Úc, đang đua Supercars và từng vô địch Super2 với Penrite Racing/Grove Racing.",
+      th: "นักแข่งรถจาก Mount Gambier รัฐเซาท์ออสเตรเลีย เป็นนักแข่ง Supercars และอดีตแชมป์ Super2 ของ Penrite Racing/Grove Racing",
+      si: "South Australia Mount Gambier හි racing driver; Supercars driver සහ Penrite Racing/Grove Racing හි former Super2 champion."
+    }
+  },
+  {
+    name: "Ryan Wood",
+    aliases: ["Ryan Wood", "瑞安·伍德", "萊恩·伍德", "ライアン・ウッド", "라이언 우드"],
+    type: "athlete",
+    social: { label: "Supercars profile", url: "https://www.supercars.com/drivers/ryan-wood" },
+    background: {
+      "zh-Hans": "新西兰赛车手，效力 Supercars 的 Walkinshaw TWG Racing，曾在澳洲保时捷和 Super2 阶梯赛事中表现突出。",
+      "zh-Hant": "紐西蘭賽車手，效力 Supercars 的 Walkinshaw TWG Racing，曾在澳洲保時捷和 Super2 階梯賽事中表現突出。",
+      en: "New Zealand racing driver in Supercars with Walkinshaw TWG Racing, after standout Porsche and Super2 ladder results in Australia.",
+      es: "Piloto neozelandés de Supercars con Walkinshaw TWG Racing, tras destacar en Porsche y Super2 en Australia.",
+      ja: "Supercars の Walkinshaw TWG Racing に所属するニュージーランド人レーシングドライバー。豪州の Porsche と Super2 系列で実績を上げました。",
+      ko: "Walkinshaw TWG Racing 소속 Supercars 뉴질랜드 레이싱 드라이버로 호주 Porsche 및 Super2 단계에서 두각을 보였습니다.",
+      vi: "Tay đua New Zealand ở Supercars cho Walkinshaw TWG Racing, sau các kết quả nổi bật ở Porsche và Super2 tại Úc.",
+      th: "นักแข่งรถชาวนิวซีแลนด์ใน Supercars สังกัด Walkinshaw TWG Racing หลังทำผลงานเด่นในสาย Porsche และ Super2 ที่ออสเตรเลีย",
+      si: "Supercars හි Walkinshaw TWG Racing සමඟ New Zealand racing driver; Australia හි Porsche සහ Super2 ladder results වලින් ඉදිරියට ආවෙකි."
+    }
+  },
+  {
+    name: "Anton De Pasquale",
+    aliases: ["Anton De Pasquale", "Anton de Pasquale", "安东·德帕斯夸莱", "安東·德帕斯夸萊", "アントン・デ・パスクアーレ", "안톤 데 파스콸레"],
+    type: "athlete",
+    social: { label: "Supercars profile", url: "https://www.supercars.com/drivers/anton-de-pasquale" },
+    background: {
+      "zh-Hans": "墨尔本出身的 Supercars 赛车手，效力 Team 18，早年赢得 Australian Formula Ford Championship，之后转入 Super2 和 Supercars。",
+      "zh-Hant": "墨爾本出身的 Supercars 賽車手，效力 Team 18，早年贏得 Australian Formula Ford Championship，之後轉入 Super2 和 Supercars。",
+      en: "Melbourne-born Supercars driver for Team 18, a former Australian Formula Ford champion who moved through Super2 into the main Supercars field.",
+      es: "Piloto de Supercars nacido en Melbourne para Team 18, ex campeón australiano de Formula Ford que pasó por Super2 antes de llegar a Supercars.",
+      ja: "メルボルン出身の Team 18 所属 Supercars ドライバー。Australian Formula Ford 元王者で、Super2 を経てメインカテゴリーに進みました。",
+      ko: "멜버른 출신 Team 18 Supercars 드라이버로 Australian Formula Ford 챔피언을 지낸 뒤 Super2를 거쳐 메인 Supercars 무대로 올라왔습니다.",
+      vi: "Tay đua Supercars sinh ở Melbourne của Team 18, cựu vô địch Australian Formula Ford, đi qua Super2 trước khi lên hạng chính Supercars.",
+      th: "นักแข่ง Supercars จากเมลเบิร์นของ Team 18 อดีตแชมป์ Australian Formula Ford ที่ไต่จาก Super2 เข้าสู่สนามหลักของ Supercars",
+      si: "Melbourne-born Team 18 Supercars driver; former Australian Formula Ford champion, Super2 හරහා main Supercars field වෙත පැමිණියේය."
+    }
+  },
+  {
     name: "Korey Boddington",
     aliases: [
       "Korey Boddington",
