@@ -987,6 +987,79 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Jennifer Howard",
+    aliases: ["Jennifer Howard", "Jennifer Ruth Howard", "Jennifer Howard MP", "詹妮弗·霍华德", "詹妮弗·霍華德", "ジェニファー・ハワード", "제니퍼 하워드"],
+    type: "politician",
+    social: { label: "Official profile", url: "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List/Member-Details?id=1748033050" },
+    background: {
+      "zh-Hans": "昆州工党政治人物，2015 年起任 Ipswich 选区州议员。进入议会前曾经营本地小生意，并长期参与 Ipswich 社区组织。",
+      "zh-Hant": "昆州工黨政治人物，2015 年起任 Ipswich 選區州議員。進入議會前曾經營本地小生意，並長期參與 Ipswich 社區組織。",
+      en: "Queensland Labor politician and state MP for Ipswich since 2015. Before parliament she ran a local small business and was active in Ipswich community organisations.",
+      es: "Política laborista de Queensland y diputada estatal por Ipswich desde 2015. Antes del parlamento gestionó un pequeño negocio local y participó en organizaciones comunitarias de Ipswich.",
+      ja: "クイーンズランド州労働党の政治家で、2015年から Ipswich 選出州議員です。議会入り前は地元の小規模事業を営み、Ipswich の地域団体で活動していました。",
+      ko: "퀸즐랜드 노동당 정치인으로 2015년부터 Ipswich 주의원입니다. 의회 입성 전에는 지역 소규모 사업을 운영했고 Ipswich 지역사회 단체에서 활동했습니다.",
+      vi: "Chính trị gia Labor tại Queensland và nghị sĩ bang khu Ipswich từ năm 2015. Trước quốc hội, bà điều hành một doanh nghiệp nhỏ địa phương và hoạt động trong các tổ chức cộng đồng Ipswich.",
+      th: "นักการเมือง Labor ของ Queensland และ ส.ส. รัฐเขต Ipswich ตั้งแต่ปี 2015 ก่อนเข้าสภาเคยทำธุรกิจขนาดเล็กในพื้นที่และทำงานกับองค์กรชุมชนใน Ipswich",
+      si: "2015 සිට Ipswich සඳහා Queensland Labor state MP වන Jennifer Howard, parliament ට පෙර දේශීය small business එකක් පවත්වා Ipswich community organisations වල ක්‍රියාකාරීව සිටියාය."
+    },
+    positions: {
+      "zh-Hans": "她代表 Ipswich 地区议题，并在社区、心理健康和动物福利上较活跃；近期推动昆州逐步结束灰狗赛，并主张把 The Q 场地转作 2032 奥运相关体育用途。",
+      "zh-Hant": "她代表 Ipswich 地區議題，並在社區、心理健康和動物福利上較活躍；近期推動昆州逐步結束灰狗賽，並主張把 The Q 場地轉作 2032 奧運相關體育用途。",
+      en: "She focuses on Ipswich local issues, communities, mental health and animal welfare. Recently she has pushed Queensland to phase out greyhound racing and convert The Q site toward 2032 Olympics-related athletics use.",
+      es: "Se centra en asuntos locales de Ipswich, comunidades, salud mental y bienestar animal. Recientemente ha impulsado que Queensland elimine gradualmente las carreras de galgos y convierta The Q para usos atléticos ligados a los Juegos de 2032.",
+      ja: "Ipswich の地域課題、コミュニティ、メンタルヘルス、動物福祉に重点を置きます。最近はクイーンズランド州でグレイハウンド競走を段階的に廃止し、The Q を2032年五輪関連の陸上施設へ転用するよう求めています。",
+      ko: "Ipswich 지역 현안, 지역사회, 정신건강, 동물복지에 중점을 둡니다. 최근에는 퀸즐랜드가 그레이하운드 경주를 단계적으로 폐지하고 The Q 부지를 2032 올림픽 관련 육상 용도로 전환해야 한다고 주장했습니다.",
+      vi: "Bà tập trung vào vấn đề địa phương Ipswich, cộng đồng, sức khỏe tâm thần và phúc lợi động vật. Gần đây bà thúc đẩy Queensland loại bỏ dần đua greyhound và chuyển The Q sang mục đích điền kinh liên quan Olympic 2032.",
+      th: "เธอเน้นประเด็นท้องถิ่น Ipswich ชุมชน สุขภาพจิต และสวัสดิภาพสัตว์ ช่วงหลังผลักดันให้ Queensland ค่อย ๆ ยุติ greyhound racing และเปลี่ยนพื้นที่ The Q ไปใช้ด้านกรีฑาที่เกี่ยวข้องกับโอลิมปิก 2032",
+      si: "ඇය Ipswich local issues, communities, mental health සහ animal welfare මත අවධානය යොමු කරයි. මෑතකදී Queensland greyhound racing phase out කිරීම සහ The Q site එක 2032 Olympics සම්බන්ධ athletics භාවිතයට හැරවීම ඇය තල්ලු කරයි."
+    }
+  },
+  {
+    name: "Julian Leeser",
+    aliases: ["Julian Leeser", "Julian Martin Leeser", "Julian Leeser MP", "朱利安·利瑟", "朱利安·利瑟", "ジュリアン・リーザー", "줄리언 리서"],
+    type: "politician",
+    social: { label: "Official profile", url: "https://www.aph.gov.au/J_Leeser_MP" },
+    background: {
+      "zh-Hans": "澳大利亚自由党联邦议员，2016 年起代表 NSW 的 Berowra 选区。2026 年任反对党教育和原住民事务影子部长。",
+      "zh-Hant": "澳洲自由黨聯邦議員，2016 年起代表 NSW 的 Berowra 選區。2026 年任反對黨教育和原住民事務影子部長。",
+      en: "Federal Liberal MP for Berowra in NSW since 2016. In 2026 he serves as Shadow Minister for Education and Shadow Minister for Indigenous Australians.",
+      es: "Diputado federal liberal por Berowra, NSW, desde 2016. En 2026 es ministro en la sombra de Educación y de Asuntos Indígenas.",
+      ja: "NSW 州 Berowra 選出の連邦自由党議員で、2016年から下院議員です。2026年時点で教育担当および先住民担当の影の大臣です。",
+      ko: "2016년부터 NSW Berowra를 대표하는 연방 자유당 하원의원입니다. 2026년에는 예비 교육장관과 예비 원주민호주인 장관을 맡고 있습니다.",
+      vi: "Nghị sĩ Liberal liên bang khu Berowra ở NSW từ năm 2016. Năm 2026, ông là Shadow Minister for Education và Shadow Minister for Indigenous Australians.",
+      th: "ส.ส. Liberal รัฐบาลกลางเขต Berowra ใน NSW ตั้งแต่ปี 2016 ในปี 2026 เป็น Shadow Minister for Education และ Shadow Minister for Indigenous Australians",
+      si: "2016 සිට NSW හි Berowra නියෝජනය කරන Federal Liberal MP. 2026 දී ඔහු Shadow Minister for Education සහ Shadow Minister for Indigenous Australians වේ."
+    },
+    positions: {
+      "zh-Hans": "他主张自由党温和保守路线，关注教育、宪政和原住民事务；曾因支持原住民 Voice 公投从影子内阁辞职，之后继续推动后公投阶段的原住民政策重设。",
+      "zh-Hant": "他主張自由黨溫和保守路線，關注教育、憲政和原住民事務；曾因支持原住民 Voice 公投從影子內閣辭職，之後繼續推動後公投階段的原住民政策重設。",
+      en: "He is a moderate conservative Liberal focused on education, constitutional issues and Indigenous affairs. He resigned from shadow cabinet over support for the Voice referendum, then continued pressing for a post-referendum Indigenous policy reset.",
+      es: "Es un liberal conservador moderado centrado en educación, asuntos constitucionales y asuntos indígenas. Renunció al gabinete en la sombra por apoyar el referéndum de la Voice y luego siguió impulsando un reinicio de política indígena tras el referéndum.",
+      ja: "教育、憲法問題、先住民政策を重視する穏健保守系の自由党議員です。Voice 国民投票支持を理由に影の内閣を辞任し、その後も国民投票後の先住民政策の立て直しを訴えています。",
+      ko: "교육, 헌정 문제, 원주민 정책에 초점을 둔 온건 보수 성향의 자유당 의원입니다. Voice 국민투표 지지를 이유로 예비내각에서 사임했고, 이후 국민투표 이후 원주민 정책 재정비를 계속 주장했습니다.",
+      vi: "Ông là nghị sĩ Liberal bảo thủ ôn hòa, tập trung vào giáo dục, vấn đề hiến pháp và Indigenous affairs. Ông rời shadow cabinet vì ủng hộ trưng cầu Voice, rồi tiếp tục thúc đẩy tái định hình chính sách Indigenous sau trưng cầu.",
+      th: "เขาเป็น Liberal สายอนุรักษนิยมปานกลางที่เน้นการศึกษา ประเด็นรัฐธรรมนูญ และ Indigenous affairs เขาลาออกจาก shadow cabinet เพราะสนับสนุนประชามติ Voice และต่อมายังผลักดันการรีเซ็ตนโยบาย Indigenous หลังประชามติ",
+      si: "ඔහු education, constitutional issues සහ Indigenous affairs මත අවධානය යොමු කරන moderate conservative Liberal MP. Voice referendum සහාය දීම නිසා shadow cabinet එකෙන් ඉල්ලා අස්වූ අතර පසුව post-referendum Indigenous policy reset එකක් තල්ලු කළේය."
+    }
+  },
+  {
+    name: "Yung Filly",
+    aliases: ["Yung Filly", "Andres Felipe Valencia Barrientos", "Andrés Felipe Valencia Barrientos", "扬·菲利", "ヤング・フィリー", "영 필리"],
+    type: "artist",
+    social: { label: "YouTube", url: "https://www.youtube.com/channel/UCq3xWfTdDRjgyd7_WOK94Fg" },
+    background: {
+      "zh-Hans": "本名 Andres Felipe Valencia Barrientos，英国 YouTuber、主持人和说唱歌手，出生于哥伦比亚，在英国长大。曾与 Beta Squad、BBC 和多档网络节目合作，2024 年澳洲巡演后卷入西澳刑事案件。",
+      "zh-Hant": "本名 Andres Felipe Valencia Barrientos，英國 YouTuber、主持人和饒舌歌手，出生於哥倫比亞，在英國長大。曾與 Beta Squad、BBC 和多檔網路節目合作，2024 年澳洲巡演後捲入西澳刑事案件。",
+      en: "Real name Andres Felipe Valencia Barrientos, a British YouTuber, presenter and rapper who was born in Colombia and grew up in the UK. He has worked with Beta Squad, the BBC and online entertainment shows, and became involved in a WA criminal case after a 2024 Australian tour.",
+      es: "Nombre real Andres Felipe Valencia Barrientos, YouTuber, presentador y rapero británico nacido en Colombia y criado en Reino Unido. Ha trabajado con Beta Squad, la BBC y programas de entretenimiento online, y quedó involucrado en un caso penal de WA tras una gira australiana en 2024.",
+      ja: "本名 Andres Felipe Valencia Barrientos。コロンビア生まれで英国育ちの英国 YouTuber、司会者、ラッパーです。Beta Squad、BBC、オンライン番組で活動し、2024年の豪州ツアー後に西オーストラリア州の刑事事件に関与しました。",
+      ko: "본명은 Andres Felipe Valencia Barrientos이며 콜롬비아에서 태어나 영국에서 성장한 영국 유튜버, 진행자, 래퍼입니다. Beta Squad, BBC, 온라인 엔터테인먼트 프로그램과 작업했고 2024년 호주 투어 뒤 WA 형사 사건에 연루됐습니다.",
+      vi: "Tên thật Andres Felipe Valencia Barrientos, YouTuber, người dẫn chương trình và rapper người Anh, sinh tại Colombia và lớn lên ở Anh. Anh từng làm với Beta Squad, BBC và các chương trình giải trí online, và vướng một vụ án hình sự tại WA sau tour Úc năm 2024.",
+      th: "ชื่อจริง Andres Felipe Valencia Barrientos เป็น YouTuber พิธีกร และแรปเปอร์ชาวอังกฤษ เกิดในโคลอมเบียและเติบโตในสหราชอาณาจักร เคยทำงานกับ Beta Squad, BBC และรายการบันเทิงออนไลน์ และเกี่ยวข้องกับคดีอาญาใน WA หลังทัวร์ออสเตรเลียปี 2024",
+      si: "සැබෑ නම Andres Felipe Valencia Barrientos. Colombia හි උපත ලබා UK හි වැඩුණු British YouTuber, presenter සහ rapper. Beta Squad, BBC සහ online entertainment shows සමඟ කටයුතු කර ඇති අතර 2024 Australian tour එකෙන් පසු WA criminal case එකකට සම්බන්ධ විය."
+    }
+  },
+  {
     name: "Chris Bowen",
     aliases: ["Chris Bowen", "Christopher Bowen", "克里斯·鲍恩", "克里斯·鮑恩", "クリス・ボーエン", "크리스 보언"],
     type: "politician",
