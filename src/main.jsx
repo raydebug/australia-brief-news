@@ -904,6 +904,74 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Abbey Caldwell",
+    aliases: ["Abbey Caldwell", "阿比·考德威尔", "阿比·考德威爾", "アビー・コールドウェル", "애비 콜드웰"],
+    type: "athlete",
+    social: { label: "Official profile", url: "https://www.athletics.com.au/athlete/abbey-caldwell/" },
+    background: {
+      "zh-Hans": "澳大利亚中距离跑运动员，主攻 800 米、1500 米和一英里，曾获英联邦运动会奖牌，并保持大洋洲 1000 米纪录。",
+      "zh-Hant": "澳洲中距離跑運動員，主攻 800 米、1500 米和一英里，曾獲英聯邦運動會獎牌，並保持大洋洲 1000 米紀錄。",
+      en: "Australian middle-distance runner across 800m, 1500m and the mile. She is a Commonwealth Games medallist and Oceania 1000m record holder.",
+      es: "Mediofondista australiana en 800 m, 1500 m y milla. Es medallista de Commonwealth Games y plusmarquista de Oceanía en 1000 m.",
+      ja: "800m、1500m、1マイルを走るオーストラリアの中距離選手。Commonwealth Games のメダリストで、1000mのオセアニア記録保持者です。",
+      ko: "800m, 1500m, 마일에 출전하는 호주 중거리 육상 선수입니다. Commonwealth Games 메달리스트이자 오세아니아 1000m 기록 보유자입니다.",
+      vi: "Vận động viên chạy cự ly trung bình Australia ở 800 m, 1500 m và mile. Cô từng giành huy chương Commonwealth Games và giữ kỷ lục châu Đại Dương 1000 m.",
+      th: "นักวิ่งระยะกลางของออสเตรเลียใน 800 ม., 1500 ม. และ mile เป็นผู้ได้เหรียญ Commonwealth Games และเจ้าของสถิติโอเชียเนีย 1000 ม.",
+      si: "800m, 1500m සහ mile events වල තරඟ කරන Australian middle-distance runner කෙනෙකි. ඇය Commonwealth Games medallist කෙනෙකු සහ Oceania 1000m record holder කෙනෙකි."
+    }
+  },
+  {
+    name: "Kurtis Marschall",
+    aliases: ["Kurtis Marschall", "科蒂斯·马歇尔", "科蒂斯·馬歇爾", "カーティス・マーシャル", "커티스 마셜"],
+    type: "athlete",
+    social: { label: "Official profile", url: "https://www.athletics.com.au/athlete/kurtis-marschall/" },
+    background: {
+      "zh-Hans": "澳大利亚撑竿跳高运动员、奥运选手和世界锦标赛奖牌得主，曾多次获得英联邦运动会金牌。",
+      "zh-Hant": "澳洲撐竿跳高運動員、奧運選手和世界錦標賽獎牌得主，曾多次獲得英聯邦運動會金牌。",
+      en: "Australian pole vaulter, Olympian and World Championships medallist, with multiple Commonwealth Games gold medals.",
+      es: "Pertiguista australiano, olímpico y medallista en campeonatos mundiales, con varios oros en Commonwealth Games.",
+      ja: "オーストラリアの棒高跳び選手。五輪代表で世界選手権メダリスト、Commonwealth Games で複数の金メダルを獲得しています。",
+      ko: "호주 장대높이뛰기 선수로 올림픽에 출전했고 세계선수권 메달을 보유했습니다. Commonwealth Games 금메달도 여러 차례 획득했습니다.",
+      vi: "Vận động viên nhảy sào Australia, Olympian và từng giành huy chương World Championships, với nhiều huy chương vàng Commonwealth Games.",
+      th: "นักกระโดดค้ำถ่อออสเตรเลีย เป็น Olympian และผู้ได้เหรียญ World Championships พร้อมเหรียญทอง Commonwealth Games หลายรายการ",
+      si: "Australian pole vaulter, Olympian සහ World Championships medallist කෙනෙකි. Commonwealth Games gold medals කිහිපයක්ද ඔහු දිනා ඇත."
+    }
+  },
+  {
+    name: "Matt Denny",
+    aliases: ["Matt Denny", "Matthew Denny", "马特·丹尼", "馬特·丹尼", "マット・デニー", "매트 데니"],
+    type: "athlete",
+    social: { label: "Official profile", url: "https://worldathletics.org/athletes/australia/matthew-denny-14436890" },
+    background: {
+      "zh-Hans": "澳大利亚铁饼运动员、奥运选手、钻石联赛总决赛冠军和英联邦运动会冠军，也曾参加链球项目。",
+      "zh-Hant": "澳洲鐵餅運動員、奧運選手、鑽石聯賽總決賽冠軍和英聯邦運動會冠軍，也曾參加鏈球項目。",
+      en: "Australian discus thrower, Olympian, Diamond League Final winner and Commonwealth Games champion, who has also competed in hammer throw.",
+      es: "Lanzador de disco australiano, olímpico, ganador de la final de la Diamond League y campeón de Commonwealth Games, que también ha competido en martillo.",
+      ja: "オーストラリアの円盤投げ選手。五輪代表、Diamond League Final 優勝者、Commonwealth Games 王者で、ハンマー投げにも出場してきました。",
+      ko: "호주 원반던지기 선수로 올림픽에 출전했고 Diamond League Final 우승자이자 Commonwealth Games 챔피언입니다. 해머던지기에도 출전했습니다.",
+      vi: "Vận động viên ném đĩa Australia, Olympian, vô địch Diamond League Final và Commonwealth Games, từng thi đấu cả ném búa.",
+      th: "นักขว้างจักรออสเตรเลีย เป็น Olympian ผู้ชนะ Diamond League Final และแชมป์ Commonwealth Games และเคยแข่งขว้างค้อนด้วย",
+      si: "Australian discus thrower, Olympian, Diamond League Final winner සහ Commonwealth Games champion කෙනෙකි. Hammer throw වලද ඔහු තරඟ කර ඇත."
+    }
+  },
+  {
+    name: "Lachlan Kennedy",
+    aliases: ["Lachlan Kennedy", "Lachie Kennedy", "拉克兰·肯尼迪", "拉克蘭·肯尼迪", "ラクラン・ケネディ", "라클런 케네디"],
+    type: "athlete",
+    social: { label: "Official profile", url: "https://www.athletics.com.au/athlete/lachlan-kennedy/" },
+    background: {
+      "zh-Hans": "澳大利亚短跑运动员，参加 60 米、100 米、200 米和 4x100 米接力，曾代表澳大利亚参加奥运会并获得世界室内锦标赛奖牌。",
+      "zh-Hant": "澳洲短跑運動員，參加 60 米、100 米、200 米和 4x100 米接力，曾代表澳洲參加奧運會並獲得世界室內錦標賽獎牌。",
+      en: "Australian sprinter across 60m, 100m, 200m and the 4x100m relay. He has represented Australia at the Olympics and won a World Indoor Championships medal.",
+      es: "Velocista australiano en 60 m, 100 m, 200 m y relevo 4x100 m. Ha representado a Australia en los Juegos Olímpicos y ganó una medalla en World Indoor Championships.",
+      ja: "60m、100m、200m、4x100mリレーに出場するオーストラリアの短距離選手。五輪で同国を代表し、World Indoor Championships でメダルを獲得しています。",
+      ko: "60m, 100m, 200m, 4x100m 계주에 출전하는 호주 단거리 선수입니다. 올림픽에서 호주를 대표했고 World Indoor Championships 메달을 획득했습니다.",
+      vi: "Vận động viên chạy nước rút Australia ở 60 m, 100 m, 200 m và tiếp sức 4x100 m. Anh từng đại diện Australia tại Olympic và giành huy chương World Indoor Championships.",
+      th: "นักวิ่งสปรินต์ออสเตรเลียใน 60 ม., 100 ม., 200 ม. และผลัด 4x100 ม. เคยแทนออสเตรเลียใน Olympic และได้เหรียญ World Indoor Championships",
+      si: "60m, 100m, 200m සහ 4x100m relay වල තරඟ කරන Australian sprinter කෙනෙකි. Olympics හි Australia නියෝජනය කර World Indoor Championships medal එකක් දිනා ඇත."
+    }
+  },
+  {
     name: "Sophie Dwyer",
     aliases: ["Sophie Dwyer", "Soph Dwyer", "索菲·德怀尔", "索菲·德懷爾", "ソフィー・ドワイヤー", "소피 드와이어"],
     type: "athlete",
