@@ -1010,6 +1010,23 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Jeanne Day",
+    aliases: ["Jeanne Day", "Jane Day", "珍妮·戴", "珍妮·戴伊", "ジャンヌ・デイ", "잔 데이"],
+    type: "public-figure",
+    social: { label: "ABC feature", url: "https://www.abc.net.au/news/2026-08-01/stowaway-school-teacher-jeanne-day-disguised-as-boy-tall-ship-sa/106707878" },
+    background: {
+      "zh-Hans": "南澳 Balaklava 音乐教师。1928 年，她在 Port Lincoln 剪短头发、女扮男装，偷渡登上 Herzogin Cecilie 帆船前往英国；她的故事后来成为女性进入航海行业限制的历史案例。",
+      "zh-Hant": "南澳 Balaklava 音樂教師。1928 年，她在 Port Lincoln 剪短頭髮、女扮男裝，偷渡登上 Herzogin Cecilie 帆船前往英國；她的故事後來成為女性進入航海行業限制的歷史案例。",
+      en: "South Australian music teacher from Balaklava who disguised herself as a boy and stowed away on the Herzogin Cecilie at Port Lincoln in 1928. Her story became a historical example of the barriers women faced in seafaring work.",
+      es: "Profesora de música de Balaklava, Australia Meridional, que en 1928 se disfrazó de chico y se coló como polizona en el Herzogin Cecilie en Port Lincoln. Su historia se recuerda como ejemplo histórico de las barreras para las mujeres en la navegación.",
+      ja: "南オーストラリア州 Balaklava 出身の音楽教師。1928年、Port Lincoln で少年に変装して Herzogin Cecilie に密航し、女性が船員になることを阻まれていた時代を示す歴史的事例となりました。",
+      ko: "남호주 Balaklava 출신 음악 교사입니다. 1928년 Port Lincoln에서 남성으로 변장해 Herzogin Cecilie호에 밀항했으며, 여성의 해상 노동 진입 장벽을 보여주는 역사적 사례로 남았습니다.",
+      vi: "Giáo viên âm nhạc từ Balaklava, Nam Úc. Năm 1928, bà cải trang thành nam giới và trốn lên tàu Herzogin Cecilie ở Port Lincoln, trở thành một ví dụ lịch sử về rào cản phụ nữ gặp phải trong nghề đi biển.",
+      th: "ครูดนตรีจาก Balaklava ในรัฐเซาท์ออสเตรเลีย ปี 1928 เธอปลอมตัวเป็นเด็กผู้ชายและแอบขึ้นเรือ Herzogin Cecilie ที่ Port Lincoln เรื่องของเธอกลายเป็นตัวอย่างทางประวัติศาสตร์ของข้อจำกัดที่ผู้หญิงเผชิญในงานเดินเรือ",
+      si: "South Australia හි Balaklava සිටි music teacher කෙනෙකි. 1928 දී Port Lincoln හිදී ඇය පිරිමි ළමයෙකු ලෙස වේශභූෂා කර Herzogin Cecilie නෞකාවට stow away විය. ඇගේ කතාව කාන්තාවන්ට seafaring work වෙත යාමේ බාධා පෙන්වන historical example එකක් විය."
+    }
+  },
+  {
     name: "Pauline Hanson",
     aliases: ["Pauline Hanson", "保琳·汉森", "保琳·漢森", "ポーリン・ハンソン", "폴린 핸슨"],
     type: "politician",
