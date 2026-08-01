@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T09:10:48Z",
+  "updatedAt": "2026-08-01T10:08:37.244Z",
   "generatedBy": "codex",
   "language": "zh-Hant",
   "sources": [
@@ -109,6 +109,31 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "aflw-australia-ireland-international",
+      "headline": "澳洲在里程碑式AFLW國際賽中擊敗愛爾蘭",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-01T09:43:39Z",
+      "voiceScript": "澳洲女足澳式橄欖球隊在北悉尼橢圓球場首次進行女子澳式橄欖球國際賽，以50分差擊敗愛爾蘭。比賽座無虛席，節奏快、對抗強，也為女子澳式橄欖球提供了少見的獨立展示舞台。這個結果的重要性在於，它說明女子代表賽事有真實需求，也讓管理方看到這種賽制是否值得繼續舉辦，甚至移到更大的場地。接下來要看，這場比賽會不會變成固定賽事，還是只辦這一次。",
+      "differences": [
+        "一篇報導聚焦比分和現場氣氛，另一篇強調以球迷數據支持在北悉尼橢圓球場辦賽，第三篇則批評賣光門票卻沒有改到更大的場地。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/australia-beats-ireland-in-aflw-with-thrills-and-spills-at-north/106986172"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/what-the-fans-want-aflw-defends-historic-match-venue"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/afl/aflw/afl-slammed-for-holding-back-womens-game-after-rejecting-calls-to-move-sold-out-clash/news-story/195fdb72b6ff9484ad6c58903cedb023"
+        }
+      ],
+      "language": "zh-Hant"
+    },
     {
       "id": "perth-supercars-round-opener",
       "headline": "佩恩在伯斯首回合奪冠並拉開超級跑車系列賽差距",
