@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T22:07:03.946Z",
+  "updatedAt": "2026-08-01T23:20:22.092Z",
   "generatedBy": "codex",
   "language": "es",
   "sources": [
@@ -109,6 +109,78 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "tasmanian-farm-contamination-limbo",
+      "headline": "La contaminación deja en el limbo a una granja tasmana de cinco generaciones",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T22:31:35.000Z",
+      "voiceScript": "Una granja de cinco generaciones cerca de Launceston sigue esperando respuestas después de que se detectaran problemas de contaminación en sus vías de agua. ABC dice que una regulación ambiental débil dejó a la familia con pocas opciones reales mientras intenta mantener la explotación en marcha y proteger la tierra. Importa porque la contaminación heredada puede paralizar el trabajo agrícola durante años y trasladar el coste a un solo productor rural. La siguiente pregunta es si los reguladores o quien provocó el daño mueven ficha con suficiente rapidez.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/launceston-airport-sewage-farm-contamination-pfas/106914044"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "melbourne-stolen-car-injury",
+      "headline": "Un intento de frenar un robo deja a un hombre de Melbourne luchando por su vida",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-01T22:07:27.000Z",
+      "voiceScript": "Un hombre de Melbourne está en estado crítico después de que su propio coche lo golpeara cuando intentaba impedir que se lo robaran. La policía dice que el incidente ocurrió en Heidelberg West y que la víctima fue llevada al hospital con lesiones graves. Es importante porque un robo de coche rutinario puede convertirse en una agresión violenta en segundos, dejando a familias y agentes con algo mucho más serio que un simple delito contra la propiedad. Los investigadores siguen buscando a la persona que huyó con el vehículo.",
+      "differences": [
+        "ABC News lo describe como un hombre de unos sesenta años y sitúa el hecho en el noreste de Melbourne.",
+        "7NEWS dice que la agresión ocurrió en Heidelberg West alrededor de las 7:30 p. m. del sábado.",
+        "9News informa que la víctima tiene 68 años y que aún no hay arrestos."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/victoria-melbourne-man-critically-injured-car-theft/106987120"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/man-suffers-life-threatening-injuries-trying-to-stop-car-thief-in-heidelberg-west-c-22662296.amp"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/vic/melbourne-crime-man-run-over-with-own-stolen-car-heidelberg-west-20260802-p60km8.html"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "sydney-post-birth-uti-death",
+      "headline": "Un forense en Sídney concluye que una infección posparto evitable causó la muerte de Gia Lam",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T21:22:11.000Z",
+      "voiceScript": "Una investigación forense en Sídney concluyó que la muerte de Gia Lam tres días después de dar a luz podía haberse evitado, porque no se detectó una infección urinaria. El caso importa porque muestra cómo una infección común puede volverse mortal si las señales de alarma no se reconocen y no se explican con claridad tras el parto. La familia de Lam ya está hablando en público, y ahora crece la presión sobre hospitales para mejorar los controles posparto, la traducción y el seguimiento. El siguiente paso es ver si la investigación acaba en cambios concretos en la atención materna.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/young-mother-died-missed-uti-infection-sepsis/106950668"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "wagga-rough-sleepers-support",
+      "headline": "Vecinos de Wagga sostienen a personas sin hogar mientras la presión sobre la vivienda continúa",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T20:00:04.000Z",
+      "voiceScript": "En Wagga Wagga, los vecinos están ayudando a personas sin hogar mientras la respuesta oficial se queda atrás frente a la crisis de vivienda. The Guardian dice que la gente comparte comida, transporte y apoyo sanitario mientras quienes están en Wilks Park reciben presión para marcharse sin tener a dónde ir. Importa porque un campamento muestra cómo la falta de alquileres y de alojamiento de emergencia convierte la falta de vivienda en una crisis para toda la comunidad. La gran pregunta es si el ayuntamiento y el gobierno estatal podrán ofrecer alojamiento seguro antes de que empiece la expulsión.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/ng-interactive/2026/aug/02/at-waggas-camp-for-rough-sleepers-locals-step-in-to-help-as-authorities-flounder-ntwnfb"
+        }
+      ],
+      "language": "es"
+    },
     {
       "id": "australia-record-commonwealth-games-athletics-session",
       "headline": "Australia firma una jornada récord de atletismo en los Juegos de la Commonwealth",

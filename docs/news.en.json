@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T22:07:03.946Z",
+  "updatedAt": "2026-08-01T23:20:22.092Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -109,6 +109,78 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "tasmanian-farm-contamination-limbo",
+      "headline": "Contamination leaves a fifth-generation Tasmanian farm in limbo",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T22:31:35.000Z",
+      "voiceScript": "A fifth-generation farm near Launceston is stuck waiting for answers after contamination issues were found in its waterways. The ABC says poor environmental regulation has left the family with few practical options while they try to keep the farm running and protect the land. It matters because legacy pollution can freeze normal farming work for years and shift the cost onto one rural family. The next step is whether regulators or the polluter move quickly enough to give the farm a clear path forward.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/launceston-airport-sewage-farm-contamination-pfas/106914044"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "melbourne-stolen-car-injury",
+      "headline": "A stolen-car attempt leaves a Melbourne man fighting for his life",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-01T22:07:27.000Z",
+      "voiceScript": "A Melbourne man is in a life-threatening condition after he was hit by his own car while trying to stop it being stolen. Police say the incident happened in Heidelberg West, and the victim was taken to hospital with serious injuries. It matters because a routine car theft can become a violent attack in seconds, leaving families and police dealing with far more than a property crime. Investigators are still looking for the person who drove off.",
+      "differences": [
+        "ABC News describes him as a man in his 60s and places the incident in Melbourne's north-east.",
+        "7NEWS says the attack happened in Heidelberg West around 7.30pm on Saturday and that the man was struck by his own vehicle.",
+        "9News reports the victim is 68 and says no arrests have been made."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/victoria-melbourne-man-critically-injured-car-theft/106987120"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/man-suffers-life-threatening-injuries-trying-to-stop-car-thief-in-heidelberg-west-c-22662296.amp"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/vic/melbourne-crime-man-run-over-with-own-stolen-car-heidelberg-west-20260802-p60km8.html"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "sydney-post-birth-uti-death",
+      "headline": "A Sydney coroner says a preventable post-birth infection killed Gia Lam",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T21:22:11.000Z",
+      "voiceScript": "A coronial finding in Sydney says Gia Lam's death three days after giving birth was preventable after a urinary tract infection was missed. The case matters because it shows how a common infection can become fatal if warning signs are not caught and explained clearly after childbirth. Lam's family is now speaking publicly, and the findings put pressure on hospitals to improve postpartum checks, interpreter access and follow-up. The next step is whether the inquest leads to practical changes in maternity care.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/young-mother-died-missed-uti-infection-sepsis/106950668"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "wagga-rough-sleepers-support",
+      "headline": "Wagga locals are propping up rough sleepers as housing pressure drags on",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T20:00:04.000Z",
+      "voiceScript": "In Wagga Wagga, locals are stepping in to help rough sleepers while official responses lag behind the housing crisis. The Guardian says residents are sharing food, transport and health support as people at Wilks Park face pressure to move on without anywhere stable to go. It matters because the camp shows how homelessness becomes a community emergency when there are too few rentals and too little crisis accommodation. The next question is whether the council and state government can move people into safe housing before enforcement starts.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/ng-interactive/2026/aug/02/at-waggas-camp-for-rough-sleepers-locals-step-in-to-help-as-authorities-flounder-ntwnfb"
+        }
+      ],
+      "language": "en"
+    },
     {
       "id": "australia-record-commonwealth-games-athletics-session",
       "headline": "Australia posts a record Commonwealth Games athletics session",

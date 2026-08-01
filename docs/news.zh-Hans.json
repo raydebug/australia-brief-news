@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T22:07:03.946Z",
+  "updatedAt": "2026-08-01T23:20:22.092Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -109,6 +109,78 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "tasmanian-farm-contamination-limbo",
+      "headline": "污染让塔州第五代农场陷入僵局",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T22:31:35.000Z",
+      "voiceScript": "拉恩塞斯顿附近一处第五代农场，因为水道里发现污染问题而只能继续等待答案。ABC说，薄弱的环境监管让这个家庭几乎没有现实选择，只能一边维持农场运转，一边设法保护土地。重要的是，历史污染可能让正常农活卡住好几年，还把成本压到单一农户身上。接下来要看监管方或污染责任方能否尽快给出明确处理路径。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/launceston-airport-sewage-farm-contamination-pfas/106914044"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
+      "id": "melbourne-stolen-car-injury",
+      "headline": "一名墨尔本男子在试图阻止车辆被偷后伤势危殆",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-01T22:07:27.000Z",
+      "voiceScript": "一名墨尔本男子在试图阻止自己的车被偷时，被自己的车辆撞伤，目前生命垂危。警方说，事件发生在 Heidelberg West，伤者被送医时已身受重伤。重要的是，普通的偷车案可以在几秒内变成暴力袭击，把家庭和警方都拖进更严重的刑事案件。调查人员仍在追查开走车辆的人。",
+      "differences": [
+        "ABC News说他是六十多岁的男子，并把地点写在墨尔本东北部。",
+        "7NEWS说事件发生在 Heidelberg West，时间大约是周六晚上7点30分。",
+        "9News说受害者是68岁，并指出目前还没有人被捕。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/victoria-melbourne-man-critically-injured-car-theft/106987120"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/man-suffers-life-threatening-injuries-trying-to-stop-car-thief-in-heidelberg-west-c-22662296.amp"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/vic/melbourne-crime-man-run-over-with-own-stolen-car-heidelberg-west-20260802-p60km8.html"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
+      "id": "sydney-post-birth-uti-death",
+      "headline": "悉尼验尸官称，一场本可避免的产后感染夺走了 Gia Lam 的生命",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T21:22:11.000Z",
+      "voiceScript": "悉尼的验尸结论说，Gia Lam 在产后三天去世，本来可以避免，原因是她的尿路感染没有被发现。这个案子重要，因为它说明一种常见感染如果警示信号没有被及时识别和解释，就可能迅速致命。Lam 的家属现在公开发声，这也给医院带来压力，要求改善产后检查、口译支持和后续跟进。接下来要看调查是否会转化成实质性的产科改进。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/young-mother-died-missed-uti-infection-sepsis/106950668"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
+      "id": "wagga-rough-sleepers-support",
+      "headline": "Wagga 的露宿者在住房压力下靠社区支撑",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T20:00:04.000Z",
+      "voiceScript": "在 Wagga Wagga，官方应对住房危机的速度落后，社区居民只好先去帮助露宿者。Guardian说，Wilks Park 的居民在被要求离开前，正靠当地人提供食物、交通和医疗协助。重要的是，这个营地显示，当租房太少、临时收容也不足时，游民问题会迅速变成整个社区的危机。接下来要看议会和州政府能否在执法前把人安置到安全住房里。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/ng-interactive/2026/aug/02/at-waggas-camp-for-rough-sleepers-locals-step-in-to-help-as-authorities-flounder-ntwnfb"
+        }
+      ],
+      "language": "zh-Hans"
+    },
     {
       "id": "australia-record-commonwealth-games-athletics-session",
       "headline": "澳洲在英联邦运动会田径赛场打出创纪录的一晚",

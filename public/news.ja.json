@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T22:07:03.946Z",
+  "updatedAt": "2026-08-01T23:20:22.092Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -109,6 +109,78 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "tasmanian-farm-contamination-limbo",
+      "headline": "汚染でタスマニアの五代続く農場が足止め",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T22:31:35.000Z",
+      "voiceScript": "ローンセストン近くの五代続きの農場が、水路で汚染問題が見つかって以降、答えを待ち続けています。ABCによると、環境規制の不備でこの家族には現実的な選択肢がほとんどなく、農場を回しながら土地を守るしかありません。これは、昔の汚染が農作業そのものを何年も止め、負担を一つの農家に押しつけることを示しているからです。今後は、規制当局か汚染の原因側が、前に進む道を早く示せるかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/launceston-airport-sewage-farm-contamination-pfas/106914044"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "melbourne-stolen-car-injury",
+      "headline": "車の盗難を止めようとしたメルボルンの男性が重体に",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-01T22:07:27.000Z",
+      "voiceScript": "メルボルンで、車が盗まれそうになったのを止めようとした男性が自分の車にはねられ、重体となっています。警察によると現場は Heidelberg West で、男性は重いけがをして病院に運ばれました。これは、ふつうの車両盗難が数秒で暴力事件に変わり、財産被害以上の問題になることを示しています。捜査当局は逃走した人物を追っています。",
+      "differences": [
+        "ABC News は男性を60代とし、現場をメルボルン北東部としています。",
+        "7NEWS は Heidelberg West で土曜の午後7時30分ごろの出来事だと伝えています。",
+        "9News は被害者を68歳とし、逮捕者はまだいないと報じています。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/victoria-melbourne-man-critically-injured-car-theft/106987120"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/man-suffers-life-threatening-injuries-trying-to-stop-car-thief-in-heidelberg-west-c-22662296.amp"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/vic/melbourne-crime-man-run-over-with-own-stolen-car-heidelberg-west-20260802-p60km8.html"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "sydney-post-birth-uti-death",
+      "headline": "シドニーの検視官、予防できた産後感染が Gia Lam さんの命を奪ったと判断",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T21:22:11.000Z",
+      "voiceScript": "シドニーの検視結果は、Gia Lam さんが出産3日後に亡くなったのは、尿路感染が見逃されたためで、本来は防げたと示しました。この件が重要なのは、よくある感染でも、出産後に警告サインを見逃し、きちんと説明しなければ急速に命取りになりうるからです。Lam さんの家族は今、公の場で声を上げており、産後の確認、通訳支援、フォローアップの改善が病院に求められています。次は、この調査が実際の産科医療の改善につながるかどうかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/young-mother-died-missed-uti-infection-sepsis/106950668"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "wagga-rough-sleepers-support",
+      "headline": "Wagga の路上生活者を地域が支え、住宅難が長引く",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T20:00:04.000Z",
+      "voiceScript": "Wagga Wagga では、住宅危機への公的対応が遅れる中、地域の人々が路上生活者を支えています。Guardian は、Wilks Park の人たちが退去を迫られる一方で、住民が食事や移動、医療支援を分け合っていると伝えました。これは、賃貸住宅も緊急宿泊先も足りないと、ホームレス問題がすぐに地域全体の危機になることを示しています。次の焦点は、立ち退きが始まる前に安全な住まいを確保できるかどうかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/ng-interactive/2026/aug/02/at-waggas-camp-for-rough-sleepers-locals-step-in-to-help-as-authorities-flounder-ntwnfb"
+        }
+      ],
+      "language": "ja"
+    },
     {
       "id": "australia-record-commonwealth-games-athletics-session",
       "headline": "オーストラリアがコモンウェルス大会の陸上で記録的な一日",
