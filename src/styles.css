@@ -940,7 +940,13 @@ p {
     z-index: 10;
     gap: 12px;
     border-bottom: 1px solid var(--line);
+    max-height: 100vh;
+    max-height: 100dvh;
     padding-top: max(16px, env(safe-area-inset-top));
+    padding-bottom: max(18px, env(safe-area-inset-bottom));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
   }
 
   .brand-row h1 {

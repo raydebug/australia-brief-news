@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T23:59:59.000Z",
+  "updatedAt": "2026-08-01T01:17:11Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -107,6 +107,85 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "nsw-black-truffle-dogs",
+      "headline": "NSWの生産者が高値の黒トリュフ探しに愛犬を投入",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T00:27:09Z",
+      "voiceScript": "ニューサウスウェールズ州のトリュフ農家が、収穫需要の高まりに合わせて家庭犬を黒トリュフ探しに訓練しています。トリュフは見つけるのが難しく高価なため、犬の力で小さな地方産業の生産性を上げられる点が重要です。今後の焦点は、今季の収穫量がどれくらいになるのか、そしてこの価値を安定した事業につなげられる農家が増えるのかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/pet-dogs-nsw-taught-to-sniff-out-black-truffles/106966408"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "perth-mint-largest-gold-bar",
+      "headline": "パース・ミントが521キロの金塊を公開し世界記録を主張",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T00:22:06Z",
+      "voiceScript": "パース・ミントは521.2キログラムの金塊を製造し、世界最大だとしています。この話題が重要なのは、西オーストラリアの金産業の規模と、同州が高純度の地金精製で果たす役割を示しているからです。記録自体は明快ですが、今後は金価格の上昇が生産や投資意欲をさらに押し上げるのかが焦点になります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/worlds-largest-gold-bar-unveiled-by-perth-mint/106981842"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "wa-oil-refinery-feasibility-study",
+      "headline": "西オーストラリアの新製油所計画が燃料安全保障の検証へ",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-01T00:06:41Z",
+      "voiceScript": "連邦政府と西オーストラリア州政府は、西豪州で新たな製油所を建設するための実現可能性調査を進めています。国内の精製能力が大きく縮小したことで、世界の燃料市場が逼迫するとオーストラリアは影響を受けやすくなるため、この計画は重要です。今後は、費用に見合うのか、どれだけ輸入原料が必要か、そして燃料の安全保障を本当に高められるのかが検証されます。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/perdaman-history-under-national-spotlight-amid-oil-refinery-push/106966280"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "adani-queensland-no-company-tax",
+      "headline": "アダニのクイーンズランド州の鉱山、収入は急増も法人税はゼロ",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T00:00:37Z",
+      "voiceScript": "アダニのクイーンズランド州にあるカーマイケル炭鉱は、年間収入がほぼ10億豪ドルに達した一方で、法人税は支払っていません。これは、この鉱山が雇用と税収を生むと売り込まれてきたにもかかわらず、費用や控除で課税所得が消える実態を示しているから重要です。今後の焦点は、批判派が税制改革を求めるのか、それとも会社が現行ルールの中で操業を続けるのかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/business/2026/aug/01/adani-to-pay-no-company-tax-despite-1bn-revenue-from-queensland-coalmine"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "adelaide-death-in-custody-vigil",
+      "headline": "アデレードで23歳の男性の死を受けて追悼の集い",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:52:33Z",
+      "voiceScript": "アデレードで警察の拘束中に亡くなった23歳の先住民男性を悼み、家族や友人が追悼の集いを開きました。拘束中の死亡は先住民コミュニティに深い不信と悲しみを残し、警察や検視官、政府の対応が問われるため重要です。今後の焦点は、捜査で逮捕の経緯と男性の最後の数時間について何が明らかになるかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/vigil-for-aboriginal-man-who-died-in-police-custody-adelaide/106983170"
+        }
+      ],
+      "language": "ja"
+    },
     {
       "id": "nt-pollution-rules-santos-inpex",
       "headline": "ダーウィンのガス施設、排出調査後により厳しい規制へ",
@@ -246,6 +325,21 @@
       ]
     },
     {
+      "id": "wyoming-australian-hiker-found-dead",
+      "headline": "ワイオミングで行方不明の豪州人ハイカー、遺体で発見",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T21:06:00Z",
+      "voiceScript": "コンチネンタル・ディバイド・トレイルで行方不明になっていた28歳のオーストラリア人ハイカーが、ワイオミングで遺体で見つかりました。長い捜索に終止符が打たれたうえ、経験豊富な登山者でも山岳地帯では一気に致命的な状況になり得ることを示しており、重要な出来事です。捜査当局は急な尾根から転落した可能性が高いとみていますが、詳しい経緯はまだ調査中です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/us-news/2026/jul/31/australian-hiker-wyoming"
+        }
+      ],
+      "language": "ja"
+    },
+    {
       "id": "jeanne-day-secret-voyage-resurfaces",
       "headline": "ポートリンカーンからの秘密の航海、ジーン・デイの物語が再び注目される",
       "sourceCount": 1,
@@ -378,6 +472,21 @@
       "sourceCount": 1,
       "publishedAt": "2026-07-31T15:00:18Z",
       "voiceScript": "ニューサウスウェールズ州の公営住宅で下水が繰り返しあふれた問題について、監察官は NSW 住宅当局の対応が不適切だったとして、入居者に全額補償を行うべきだとしました。調査では、持ち物が汚染されたまま長く放置され、その後も適切な清掃や返却がされなかったため、単なる修繕不良が脆弱な入居者にとって大きな損失になったと指摘しています。公営住宅の現場では、家が安全でなくなった時に迅速かつ説明責任のある対応が求められます。NSW 住宅当局は勧告を受け入れましたが、補償と手続き改善がどれだけ早く実行されるかが次の焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/nsw-should-compensate-elderly-woman-whose-public-housing-was-inundated-with-sewage-ombudsman-finds-ntwnfb"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "nsw-public-housing-sewage-compensation",
+      "headline": "NSWで下水被害に遭った公営住宅の入居者に補償へ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T15:00:00Z",
+      "voiceScript": "ニューサウスウェールズ州のオンブズマンは、たび重なる下水逆流で自宅と持ち物が台無しになった長期の公営住宅入居者に、全額補償を行うべきだとしています。これは、維持管理の不備と苦情対応の遅さが、脆弱な入居者にとって住宅問題をさらに深刻にすることを示しているため重要です。Homes NSW は勧告を受け入れており、今後は修繕の仕組みをどれだけ早く改善できるかが焦点です。",
       "differences": [],
       "links": [
         {
@@ -707,6 +816,29 @@
           "score": 8
         }
       ]
+    },
+    {
+      "id": "hanson-afp-no-hate-charge",
+      "headline": "ハンソン氏のムスリム発言でヘイト起訴は見送り",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-31T05:49:52Z",
+      "voiceScript": "警察は、ポーリン・ハンソン氏のムスリムに関する発言はヘイトスピーチとして立件する基準に達しないと判断しました。これは、ワンネーション党首を移民や社会の結束をめぐる議論の中心にとどめるため重要で、発言にはムスリム団体の抗議や与野党からの批判が集まっていました。今後の焦点は、この判断で騒動が収まるのか、それとも再び政治的な攻撃が強まるのかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/pauline-hanson-one-nation-hate-speech-police/106981544"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/pauline-hanson-afp-probe-no-good-muslims-comments/ycfkdjc2g"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/31/pauline-hanson-muslim-comments-afp-australian-federal-police-ntwnfb"
+        }
+      ],
+      "language": "ja"
     },
     {
       "id": "lgbtq-veterans-apology-adf",

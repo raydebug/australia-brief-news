@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T23:59:59.000Z",
+  "updatedAt": "2026-08-01T01:17:11Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -107,6 +107,85 @@
     "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks."
   ],
   "clusters": [
+    {
+      "id": "nsw-black-truffle-dogs",
+      "headline": "NSW growers train pet dogs to hunt a more valuable truffle crop",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T00:27:09Z",
+      "voiceScript": "Truffle growers in New South Wales are training family dogs to help locate black truffles as harvest demand rises. That matters because truffles are expensive to find and the dogs can make a small rural industry more productive. The open question is how much the crop will yield this season and whether more growers can turn the value of the harvest into a steadier business.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/pet-dogs-nsw-taught-to-sniff-out-black-truffles/106966408"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "perth-mint-largest-gold-bar",
+      "headline": "Perth Mint unveils a 521-kilo gold bar and claims a world record",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T00:22:06Z",
+      "voiceScript": "The Perth Mint has produced a 521.2-kilogram gold bar and says it is the largest in the world. The bar matters because it highlights the scale of Western Australia’s gold industry and the mint’s role in refining high-purity bullion for global buyers. The record is straightforward, but the bigger question is whether strong gold prices keep pushing more production and investor interest through the state.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/worlds-largest-gold-bar-unveiled-by-perth-mint/106981842"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "wa-oil-refinery-feasibility-study",
+      "headline": "WA refinery plan moves ahead as governments examine fuel security",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-01T00:06:41Z",
+      "voiceScript": "The federal and Western Australian governments are moving ahead with a feasibility study for a new oil refinery in WA. The proposal matters because Australia has lost most of its domestic refining capacity, which leaves the country exposed when global fuel markets tighten. The study will now test whether the project is affordable, what it would need to import, and whether it can meaningfully improve fuel security.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/perdaman-history-under-national-spotlight-amid-oil-refinery-push/106966280"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/27/potential-for-first-australian-oil-refinery-in-60-years-as-treasurer-braces-for-inflation-from-middle-east-war"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "adani-queensland-no-company-tax",
+      "headline": "Adani's Queensland mine posts big revenue but still pays no company tax",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T00:00:37Z",
+      "voiceScript": "Adani’s Carmichael mine in Queensland has reported almost $1 billion in revenue but no company tax for the year. That matters because the mine was sold politically as a major jobs and revenue generator, yet the accounts show how costs and deductions can wipe out taxable profit. The next issue is whether critics push for tax changes or whether the company keeps operating within the current rules.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/business/2026/aug/01/adani-to-pay-no-company-tax-despite-1bn-revenue-from-queensland-coalmine"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "adelaide-death-in-custody-vigil",
+      "headline": "Mourners gather in Adelaide after a 23-year-old dies in police custody",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T23:52:33Z",
+      "voiceScript": "Family and friends have held a vigil for a 23-year-old Aboriginal man who died in police custody in Adelaide. The story matters because deaths in custody remain a deep source of distrust and grief for Aboriginal communities, and it quickly becomes a test of how police, coroners and governments respond. The immediate question is what investigators find about the arrest and the man’s final hours.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/vigil-for-aboriginal-man-who-died-in-police-custody-adelaide/106983170"
+        }
+      ],
+      "language": "en"
+    },
     {
       "id": "nt-pollution-rules-santos-inpex",
       "headline": "Darwin gas plants face tougher pollution rules after emissions review",
@@ -246,6 +325,21 @@
       ]
     },
     {
+      "id": "wyoming-australian-hiker-found-dead",
+      "headline": "Australian hiker found dead after a search in Wyoming",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T21:06:00Z",
+      "voiceScript": "A 28-year-old Australian hiker has been found dead in Wyoming after going missing on the Continental Divide Trail. The case matters because it ends a long search and highlights how quickly mountain conditions can turn deadly even for experienced trekkers. Authorities think he likely fell on a steep ridgeline, but the exact sequence of events still rests on the investigation.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/us-news/2026/jul/31/australian-hiker-wyoming"
+        }
+      ],
+      "language": "en"
+    },
+    {
       "id": "jeanne-day-secret-voyage-resurfaces",
       "headline": "Jeanne Day's secret voyage from Port Lincoln comes back into view",
       "sourceCount": 1,
@@ -378,6 +472,21 @@
       "sourceCount": 1,
       "publishedAt": "2026-07-31T15:00:18Z",
       "voiceScript": "A New South Wales public housing tenant who lived through repeated sewage overflows is now set for compensation after an ombudsman found Homes NSW handled the case poorly. The findings say her belongings were left contaminated and then moved without proper cleaning or return, turning a maintenance failure into a wider loss for a vulnerable renter. It matters because public housing agencies are supposed to respond quickly and accountably when homes become unsafe. Homes NSW has accepted the recommendations, but the question now is how fast compensation and process changes actually follow.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/nsw-should-compensate-elderly-woman-whose-public-housing-was-inundated-with-sewage-ombudsman-finds-ntwnfb"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "nsw-public-housing-sewage-compensation",
+      "headline": "NSW ordered to compensate tenant after sewage floods a public home",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T15:00:00Z",
+      "voiceScript": "The NSW Ombudsman says a long-term public housing tenant should be fully compensated after repeated sewage overflows ruined her home and belongings. It matters because it shows how poor maintenance and slow complaint handling can make a housing problem much worse for a vulnerable renter. Homes NSW has accepted the findings, and the question now is how fast it fixes the repair process.",
       "differences": [],
       "links": [
         {
@@ -707,6 +816,29 @@
           "score": 8
         }
       ]
+    },
+    {
+      "id": "hanson-afp-no-hate-charge",
+      "headline": "Police rule out hate charge over Hanson comments",
+      "sourceCount": 3,
+      "publishedAt": "2026-07-31T05:49:52Z",
+      "voiceScript": "Police have decided Pauline Hanson's remarks about Muslims do not meet the threshold for a hate-speech case. The decision matters because it keeps the One Nation leader at the centre of the migration and social cohesion debate, and the comments drew complaints from Muslim groups and criticism from across politics. The open question is whether the finding ends the issue or fuels another round of political attacks.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-07-31/pauline-hanson-one-nation-hate-speech-police/106981544"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/pauline-hanson-afp-probe-no-good-muslims-comments/ycfkdjc2g"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/31/pauline-hanson-muslim-comments-afp-australian-federal-police-ntwnfb"
+        }
+      ],
+      "language": "en"
     },
     {
       "id": "lgbtq-veterans-apology-adf",
