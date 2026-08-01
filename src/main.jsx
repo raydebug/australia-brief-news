@@ -1516,6 +1516,85 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Jim Chalmers",
+    aliases: ["Jim Chalmers", "James Chalmers", "James Edward Chalmers", "吉姆·查尔默斯", "吉姆·查默斯", "ジム・チャーマーズ", "짐 차머스"],
+    type: "politician",
+    social: { label: "Official profile", url: "https://www.aph.gov.au/j_chalmers_mp" },
+    background: {
+      "zh-Hans": "澳大利亚工党政治人物，Rankin 选区联邦议员，2022 年起任澳大利亚财政部长。进入财政部前曾任影子财长、影子财政部长和工党前排议员。",
+      "zh-Hant": "澳洲工黨政治人物，Rankin 選區聯邦議員，2022 年起任澳洲財政部長。進入財政部前曾任影子財長、影子財政部長和工黨前排議員。",
+      en: "Australian Labor politician, federal MP for Rankin and Treasurer of Australia since 2022. Before becoming treasurer he served as shadow treasurer, shadow finance minister and a Labor frontbencher.",
+      es: "Político laborista australiano, diputado federal por Rankin y tesorero de Australia desde 2022. Antes fue shadow treasurer, shadow finance minister y frontbencher laborista.",
+      ja: "オーストラリア労働党の政治家。Rankin 選出連邦議員で、2022年から財務相です。以前は影の財務相、影の財政相、労働党の前列議員を務めました。",
+      ko: "호주 노동당 정치인으로 Rankin 연방 하원의원이며 2022년부터 호주 재무장관입니다. 이전에는 예비 재무장관, 예비 재정장관, 노동당 전면 의원을 지냈습니다.",
+      vi: "Chính trị gia Labor, nghị sĩ liên bang khu Rankin và là Treasurer of Australia từ năm 2022. Trước đó ông là shadow treasurer, shadow finance minister và frontbencher của Labor.",
+      th: "นักการเมือง Labor ของออสเตรเลีย ส.ส. รัฐบาลกลางเขต Rankin และเป็น Treasurer of Australia ตั้งแต่ปี 2022 ก่อนหน้านั้นเป็น shadow treasurer, shadow finance minister และ frontbencher ของ Labor",
+      si: "Australian Labor දේශපාලනඥයෙකු වන Jim Chalmers Rankin federal MP සහ 2022 සිට Treasurer of Australia වේ. Treasurer වීමට පෙර shadow treasurer, shadow finance minister සහ Labor frontbencher ලෙස කටයුතු කළේය."
+    },
+    positions: {
+      "zh-Hans": "主要围绕通胀、预算修复、生产率、税制和生活成本政策发声；通常把财政纪律与定向生活成本补助、住房和清洁能源投资相结合。",
+      "zh-Hant": "主要圍繞通膨、預算修復、生產率、稅制和生活成本政策發聲；通常把財政紀律與定向生活成本補助、住房和清潔能源投資相結合。",
+      en: "His main themes are inflation, budget repair, productivity, tax and cost-of-living policy; he usually pairs fiscal restraint with targeted cost-of-living relief, housing and clean-energy investment.",
+      es: "Sus temas centrales son inflación, reparación presupuestaria, productividad, impuestos y coste de vida; suele combinar disciplina fiscal con ayudas focalizadas, vivienda e inversión en energía limpia.",
+      ja: "インフレ、財政修復、生産性、税制、生活費政策を主な課題とし、財政規律と対象を絞った生活費支援、住宅、クリーンエネルギー投資を組み合わせます。",
+      ko: "주요 의제는 인플레이션, 예산 복원, 생산성, 세제, 생활비 정책입니다. 재정 절제와 선별적 생활비 지원, 주택, 청정에너지 투자를 함께 내세웁니다.",
+      vi: "Các chủ đề chính của ông là lạm phát, sửa chữa ngân sách, năng suất, thuế và chi phí sinh hoạt; ông thường kết hợp kỷ luật tài khóa với hỗ trợ chi phí sinh hoạt có mục tiêu, nhà ở và đầu tư năng lượng sạch.",
+      th: "ประเด็นหลักคือเงินเฟ้อ การซ่อมงบประมาณ productivity ภาษี และนโยบายค่าครองชีพ โดยมักจับคู่ fiscal restraint กับความช่วยเหลือค่าครองชีพแบบเจาะจง ที่อยู่อาศัย และการลงทุนพลังงานสะอาด",
+      si: "ඔහුගේ main themes inflation, budget repair, productivity, tax සහ cost-of-living policy වේ; fiscal restraint සමඟ targeted cost-of-living relief, housing සහ clean-energy investment එකට සම්බන්ධ කරයි."
+    }
+  },
+  {
+    name: "Michele Bullock",
+    aliases: ["Michele Bullock", "Michelle Bullock", "米歇尔·布洛克", "米歇爾·布洛克", "ミシェル・ブロック", "미셸 불록"],
+    type: "public-figure",
+    social: { label: "Official profile", url: "https://www.rba.gov.au/about-rba/people/gov.html" },
+    background: {
+      "zh-Hans": "澳大利亚储备银行行长，2023 年 9 月上任，也是澳储行治理、货币政策和支付系统董事会主席，并参与金融监管委员会。",
+      "zh-Hant": "澳洲儲備銀行總裁，2023 年 9 月上任，也是澳儲行治理、貨幣政策和支付系統董事會主席，並參與金融監管委員會。",
+      en: "Governor of the Reserve Bank of Australia since September 2023, chairing the RBA's governance, monetary policy and payments system boards and participating in the Council of Financial Regulators.",
+      es: "Gobernadora del Reserve Bank of Australia desde septiembre de 2023, presidenta de sus juntas de gobernanza, política monetaria y pagos, y participante en el Council of Financial Regulators.",
+      ja: "2023年9月からオーストラリア準備銀行総裁。RBA のガバナンス、金融政策、決済システム各委員会の議長で、Council of Financial Regulators にも参加しています。",
+      ko: "2023년 9월부터 호주준비은행 총재입니다. RBA 거버넌스, 통화정책, 지급결제 시스템 이사회를 이끌고 Council of Financial Regulators에도 참여합니다.",
+      vi: "Thống đốc Reserve Bank of Australia từ tháng 9 năm 2023, chủ trì các hội đồng governance, monetary policy và payments system của RBA, đồng thời tham gia Council of Financial Regulators.",
+      th: "ผู้ว่าการ Reserve Bank of Australia ตั้งแต่กันยายน 2023 เป็นประธานบอร์ด governance, monetary policy และ payments system ของ RBA และร่วม Council of Financial Regulators",
+      si: "2023 සැප්තැම්බර් සිට Reserve Bank of Australia Governor වේ. RBA governance, monetary policy සහ payments system boards වල chair වන අතර Council of Financial Regulators හිද කටයුතු කරයි."
+    }
+  },
+  {
+    name: "Stephen Rue",
+    aliases: ["Stephen Rue", "史蒂芬·鲁", "史蒂芬·魯", "スティーブン・ルー", "스티븐 루"],
+    type: "executive",
+    social: { label: "Official profile", url: "https://www.optus.com.au/about/corporate/executive-profiles" },
+    background: {
+      "zh-Hans": "Optus 首席执行官，2024 年 11 月加入公司。此前他曾任 NBN Co 首席执行官，长期参与澳大利亚电信基础设施和网络服务管理。",
+      "zh-Hant": "Optus 執行長，2024 年 11 月加入公司。此前他曾任 NBN Co 執行長，長期參與澳洲電信基礎設施和網路服務管理。",
+      en: "Chief executive of Optus, joining the company in November 2024. He previously led NBN Co and has long worked in Australian telecommunications infrastructure and network services.",
+      es: "Director ejecutivo de Optus desde noviembre de 2024. Antes dirigió NBN Co y ha trabajado durante años en infraestructura de telecomunicaciones y servicios de red en Australia.",
+      ja: "Optus の最高経営責任者で、2024年11月に就任。以前は NBN Co を率い、豪州の通信インフラとネットワークサービスに長く携わってきました。",
+      ko: "2024년 11월 Optus에 합류한 최고경영자입니다. 이전에는 NBN Co를 이끌었으며 호주 통신 인프라와 네트워크 서비스 분야에서 오래 일했습니다.",
+      vi: "Tổng giám đốc Optus, gia nhập công ty vào tháng 11 năm 2024. Trước đó ông lãnh đạo NBN Co và có nhiều năm làm việc trong hạ tầng viễn thông và dịch vụ mạng tại Australia.",
+      th: "ประธานเจ้าหน้าที่บริหารของ Optus เข้าบริษัทในเดือนพฤศจิกายน 2024 ก่อนหน้านี้นำ NBN Co และทำงานมายาวนานในโครงสร้างพื้นฐานโทรคมนาคมกับบริการเครือข่ายของออสเตรเลีย",
+      si: "2024 නොවැම්බර් Optus වෙත එක් වූ chief executive වේ. ඔහු පෙර NBN Co නායකත්වය දැරූ අතර Australian telecommunications infrastructure සහ network services ක්ෂේත්‍රවල දිගු කලක් කටයුතු කර ඇත."
+    }
+  },
+  {
+    name: "Andrew Dillon",
+    aliases: ["Andrew Dillon", "安德鲁·迪伦", "安德魯·狄龍", "アンドリュー・ディロン", "앤드루 딜런"],
+    type: "executive",
+    social: { label: "Official profile", url: "https://www.afl.com.au/about-afl/afl-administration" },
+    background: {
+      "zh-Hans": "澳大利亚足球联盟 AFL 首席执行官，2023 年 10 月正式上任。此前他在 AFL 担任法律、诚信、足球运营和赛事发展等高级职务。",
+      "zh-Hant": "澳洲足球聯盟 AFL 執行長，2023 年 10 月正式上任。此前他在 AFL 擔任法律、誠信、足球營運和賽事發展等高階職務。",
+      en: "Chief executive of the Australian Football League, formally starting in October 2023. He previously held senior AFL roles across legal, integrity, football operations and game development.",
+      es: "Director ejecutivo de la Australian Football League desde octubre de 2023. Antes ocupó cargos sénior en la AFL en áreas legales, integridad, operaciones futbolísticas y desarrollo del juego.",
+      ja: "Australian Football League の最高経営責任者で、2023年10月に正式就任。以前は AFL で法務、インテグリティ、フットボール運営、競技普及の上級職を務めました。",
+      ko: "2023년 10월 공식 취임한 Australian Football League 최고경영자입니다. 이전에는 AFL에서 법무, 청렴, 경기 운영, 종목 개발 분야 고위직을 맡았습니다.",
+      vi: "Tổng giám đốc Australian Football League, chính thức bắt đầu từ tháng 10 năm 2023. Trước đó ông giữ các vai trò cấp cao tại AFL về pháp lý, liêm chính, football operations và game development.",
+      th: "ประธานเจ้าหน้าที่บริหารของ Australian Football League เริ่มอย่างเป็นทางการในตุลาคม 2023 ก่อนหน้านี้ทำบทบาทอาวุโสของ AFL ด้านกฎหมาย integrity football operations และ game development",
+      si: "2023 ඔක්තෝබර් සිට Australian Football League chief executive වේ. ඔහු පෙර AFL හි legal, integrity, football operations සහ game development යන senior roles දැරීය."
+    }
+  },
+  {
     name: "Tara Moriarty",
     aliases: ["Tara Moriarty", "Tara Elizabeth Moriarty", "Agriculture Minister Tara Moriarty", "塔拉·莫里亚蒂", "塔拉·莫里亞蒂", "タラ・モリアーティ", "타라 모리아티"],
     type: "politician",
