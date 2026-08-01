@@ -836,6 +836,57 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Jemima Montag",
+    aliases: ["Jemima Montag", "杰迈玛·蒙塔格", "傑邁瑪·蒙塔格", "ジェミマ・モンタグ", "제미마 몬태그"],
+    type: "athlete",
+    social: { label: "Official profile", url: "https://www.olympics.com.au/olympians/jemima-montag/" },
+    background: {
+      "zh-Hans": "澳大利亚竞走运动员，两届奥运选手和巴黎奥运会双铜牌得主，也曾获得世界田径锦标赛奖牌和多枚英联邦运动会金牌。",
+      "zh-Hant": "澳洲競走運動員，兩屆奧運選手和巴黎奧運會雙銅牌得主，也曾獲得世界田徑錦標賽獎牌和多枚英聯邦運動會金牌。",
+      en: "Australian race walker, two-time Olympian and double bronze medallist at the Paris Olympics, with World Athletics Championships and multiple Commonwealth Games medals.",
+      es: "Marchadora australiana, dos veces olímpica y doble medallista de bronce en los Juegos Olímpicos de París, con medallas en campeonatos mundiales de atletismo y varios Commonwealth Games.",
+      ja: "オーストラリアの競歩選手。五輪に2度出場し、パリ五輪で銅メダルを2個獲得。世界陸上と Commonwealth Games でも複数のメダルがあります。",
+      ko: "호주 경보 선수로 올림픽에 두 차례 출전했고 파리 올림픽에서 동메달 2개를 땄습니다. 세계육상선수권과 Commonwealth Games에서도 여러 메달을 보유하고 있습니다.",
+      vi: "Vận động viên đi bộ thể thao Australia, hai lần dự Olympic và giành hai huy chương đồng tại Olympic Paris, cùng huy chương World Athletics Championships và nhiều huy chương Commonwealth Games.",
+      th: "นักกีฬา race walk ของออสเตรเลีย เป็น Olympian สองสมัยและได้เหรียญทองแดงสองเหรียญที่ Paris Olympics รวมถึงมีเหรียญจาก World Athletics Championships และ Commonwealth Games หลายรายการ",
+      si: "Australian race walker වන Jemima Montag Olympian දෙවරක් වන අතර Paris Olympics හි bronze medals දෙකක් දිනා ඇත. World Athletics Championships සහ Commonwealth Games medals කිහිපයක්ද ඇයට ඇත."
+    }
+  },
+  {
+    name: "Elizabeth McMillen",
+    aliases: ["Elizabeth McMillen", "Lizzy McMillen", "伊丽莎白·麦克米伦", "伊麗莎白·麥克米倫", "エリザベス・マクミレン", "엘리자베스 맥밀런"],
+    type: "athlete",
+    social: { label: "Official profile", url: "https://worldathletics.org/athletes/australia/elizabeth-mcmillen-14771862" },
+    background: {
+      "zh-Hans": "澳大利亚竞走运动员，参加 10 公里、20 公里和 35 公里竞走项目，曾代表澳大利亚参加国际赛事并在 2025 年世界大学生运动会夺金。",
+      "zh-Hant": "澳洲競走運動員，參加 10 公里、20 公里和 35 公里競走項目，曾代表澳洲參加國際賽事並在 2025 年世界大學生運動會奪金。",
+      en: "Australian race walker competing across 10km, 20km and 35km events. She has represented Australia internationally and won gold at the 2025 World University Games.",
+      es: "Marchadora australiana en pruebas de 10 km, 20 km y 35 km. Ha representado a Australia internacionalmente y ganó oro en los World University Games de 2025.",
+      ja: "10km、20km、35kmの競歩に出場するオーストラリア選手。国際大会で同国を代表し、2025年 World University Games で金メダルを獲得しました。",
+      ko: "10km, 20km, 35km 경보에 출전하는 호주 선수입니다. 국제대회에서 호주를 대표했고 2025 World University Games에서 금메달을 획득했습니다.",
+      vi: "Vận động viên đi bộ thể thao Australia ở các nội dung 10 km, 20 km và 35 km. Cô đã đại diện Australia quốc tế và giành vàng tại World University Games 2025.",
+      th: "นักกีฬา race walk ของออสเตรเลียในระยะ 10 กม., 20 กม. และ 35 กม. เคยแทนออสเตรเลียในระดับนานาชาติและได้เหรียญทอง World University Games ปี 2025",
+      si: "10km, 20km සහ 35km race walk events වල තරඟ කරන Australian athlete කෙනෙකි. ඇය Australia ජාත්‍යන්තරව නියෝජනය කර 2025 World University Games හි gold medal දිනා ඇත."
+    }
+  },
+  {
+    name: "Rebecca Henderson",
+    aliases: ["Rebecca Henderson", "Bec Henderson", "丽贝卡·亨德森", "麗貝卡·亨德森", "レベッカ・ヘンダーソン", "리베카 헨더슨"],
+    type: "athlete",
+    social: { label: "Official profile", url: "https://www.athletics.com.au/athlete/rebecca-henderson/" },
+    background: {
+      "zh-Hans": "澳大利亚竞走运动员，两届奥运选手，主攻 20 公里和 35 公里竞走，并曾在世界锦标赛和其他国际赛事中代表澳大利亚参赛。",
+      "zh-Hant": "澳洲競走運動員，兩屆奧運選手，主攻 20 公里和 35 公里競走，並曾在世界錦標賽和其他國際賽事中代表澳洲參賽。",
+      en: "Australian race walker and two-time Olympian specialising in the 20km and 35km walks, with Australian representation at world championships and other international meets.",
+      es: "Marchadora australiana y dos veces olímpica, especializada en 20 km y 35 km marcha, con representación de Australia en mundiales y otras competiciones internacionales.",
+      ja: "20kmと35km競歩を専門とするオーストラリア選手で、五輪に2度出場。世界選手権など国際大会で同国を代表しています。",
+      ko: "20km와 35km 경보를 주 종목으로 하는 호주 선수이자 두 차례 올림픽에 출전한 선수입니다. 세계선수권 등 국제대회에서 호주를 대표했습니다.",
+      vi: "Vận động viên đi bộ thể thao Australia, hai lần dự Olympic, chuyên 20 km và 35 km, từng đại diện Australia tại world championships và các giải quốc tế khác.",
+      th: "นักกีฬา race walk ของออสเตรเลียและ Olympian สองสมัย เชี่ยวชาญระยะ 20 กม. และ 35 กม. เคยแทนออสเตรเลียใน world championships และรายการนานาชาติอื่น",
+      si: "20km සහ 35km walks වල විශේෂත්වයක් ඇති Australian race walker සහ Olympian දෙවරකි. World championships ඇතුළු international meets වල Australia නියෝජනය කර ඇත."
+    }
+  },
+  {
     name: "Jess Wilson",
     aliases: ["Jess Wilson", "Jessica Wilson", "Jessica Kate Wilson", "杰斯·威尔逊", "傑斯·威爾遜", "ジェス・ウィルソン", "제스 윌슨"],
     type: "politician",
