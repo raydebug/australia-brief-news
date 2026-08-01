@@ -747,8 +747,8 @@ function isRecentCluster(cluster) {
   if (!cluster?.publishedAt) return true;
   const published = new Date(cluster.publishedAt).getTime();
   if (Number.isNaN(published)) return true;
-  const sevenDays = 7 * 24 * 60 * 60 * 1000;
-  return Date.now() - published <= sevenDays;
+  const retentionDays = 14 * 24 * 60 * 60 * 1000;
+  return Date.now() - published <= retentionDays;
 }
 
 function uniqueSources(cluster) {
