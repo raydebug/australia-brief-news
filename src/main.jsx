@@ -1165,6 +1165,25 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Mackenzie Little",
+    aliases: ["Mackenzie Little", "Mackenzie Patricia Little", "麦肯齐·利特", "麥肯齊·利特", "マッケンジー・リトル", "매켄지 리틀", "แม็คเคนซี ลิตเติล"],
+    type: "athlete",
+    profile: { label: "Australian Athletics profile", url: "https://www.athletics.com.au/athlete/mackenzie-little/" },
+    officialProfile: { label: "World Athletics profile", url: "https://worldathletics.org/athletes/australia/mackenzie-little-14464527" },
+    personalSocial: { label: "Instagram", url: "https://www.instagram.com/kenzielittle22/" },
+    background: {
+      "zh-Hans": "澳大利亚标枪运动员和医生，两届奥运选手，曾获世界田径锦标赛奖牌、英联邦运动会奖牌，并长期在医学工作与精英训练之间兼顾。",
+      "zh-Hant": "澳洲標槍運動員和醫生，兩屆奧運選手，曾獲世界田徑錦標賽獎牌、英聯邦運動會獎牌，並長期在醫學工作與精英訓練之間兼顧。",
+      en: "Australian javelin thrower and doctor, a two-time Olympian with World Athletics Championships and Commonwealth Games medals, known for balancing elite competition with medical work.",
+      es: "Lanzadora de jabalina australiana y médica, dos veces olímpica, con medallas en World Athletics Championships y Commonwealth Games, conocida por compaginar deporte de élite y medicina.",
+      ja: "オーストラリアのやり投げ選手で医師。五輪に2度出場し、World Athletics Championships と Commonwealth Games でメダルを獲得、医療の仕事と競技を両立しています。",
+      ko: "호주 창던지기 선수이자 의사로, 올림픽에 두 차례 출전했고 World Athletics Championships와 Commonwealth Games에서 메달을 딴 엘리트 선수입니다.",
+      vi: "Vận động viên ném lao Australia và bác sĩ, hai lần dự Olympic, có huy chương World Athletics Championships và Commonwealth Games, nổi bật vì vừa thi đấu đỉnh cao vừa làm y khoa.",
+      th: "นักพุ่งแหลนออสเตรเลียและแพทย์ เป็น Olympian สองสมัย มีเหรียญจาก World Athletics Championships และ Commonwealth Games และเป็นที่รู้จักจากการทำงานแพทย์ควบคู่กีฬาอาชีพ",
+      si: "Australian javelin thrower සහ doctor කෙනෙකු වන Mackenzie Little Olympian දෙවරකි. World Athletics Championships සහ Commonwealth Games medals දිනා ඇති අතර medical work සහ elite competition සමබර කරගෙන යාමට ප්‍රසිද්ධය."
+    }
+  },
+  {
     name: "Rhiannan Iffland",
     aliases: ["Rhiannan Iffland", "Rhiannan IFFLAND", "里安南·伊夫兰德", "里安南·伊夫蘭德", "リアナン・イフランド", "리안난 이플랜드", "ริอันแนน อิฟแลนด์"],
     type: "athlete",
