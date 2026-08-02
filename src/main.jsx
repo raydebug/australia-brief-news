@@ -1212,6 +1212,42 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Laurie Daley",
+    aliases: ["Laurie Daley", "Laurie William Daley", "Lozza", "劳里·戴利", "勞里·戴利", "ローリー・デイリー", "로리 데일리"],
+    type: "athlete",
+    profile: { label: "NRL profile", url: "https://www.nrl.com/players/state-of-origin/new-south-wales/laurie-daley/" },
+    officialProfile: { label: "NSWRL profile", url: "https://www.nswrl.com.au/players/state-of-origin/new-south-wales/laurie-daley/" },
+    background: {
+      "zh-Hans": "澳大利亚橄榄球联盟名宿和教练，曾任 New South Wales Blues State of Origin 主教练，球员时代长期效力 Canberra Raiders，并代表新州和澳大利亚出战。",
+      "zh-Hant": "澳洲橄欖球聯盟名宿和教練，曾任 New South Wales Blues State of Origin 主教練，球員時代長期效力 Canberra Raiders，並代表新州和澳洲出戰。",
+      en: "Australian rugby league great and coach, formerly head coach of the New South Wales Blues in State of Origin. As a player he was a long-serving Canberra Raiders star and represented NSW and Australia.",
+      es: "Figura histórica y entrenador de rugby league australiano, exentrenador principal de los New South Wales Blues en State of Origin. Como jugador fue referente de Canberra Raiders y representó a NSW y Australia.",
+      ja: "オーストラリアのラグビーリーグ名選手・指導者。State of Origin の New South Wales Blues 監督を務めました。選手時代は Canberra Raiders で長く活躍し、NSW と豪州代表でもプレーしました。",
+      ko: "호주 럭비리그 명선수이자 지도자로 State of Origin의 New South Wales Blues 감독을 지냈습니다. 선수 시절 Canberra Raiders에서 오래 활약했고 NSW와 호주 대표로 뛰었습니다.",
+      vi: "Danh thủ và HLV rugby league Australia, từng là HLV trưởng New South Wales Blues tại State of Origin. Khi còn thi đấu, ông là ngôi sao lâu năm của Canberra Raiders và đại diện NSW cùng Australia.",
+      th: "อดีตผู้เล่นและโค้ช rugby league คนสำคัญของออสเตรเลีย เคยเป็นหัวหน้าโค้ช New South Wales Blues ใน State of Origin สมัยเป็นผู้เล่นอยู่กับ Canberra Raiders ยาวนานและเล่นให้ NSW กับออสเตรเลีย",
+      si: "Australian rugby league great සහ coach කෙනෙකු වන Laurie Daley, State of Origin හි New South Wales Blues head coach ලෙස කටයුතු කළේය. Player ලෙස Canberra Raiders සඳහා දිගුකාලීනව ක්‍රීඩා කර NSW සහ Australia නියෝජනය කළේය."
+    }
+  },
+  {
+    name: "Luke Bateman",
+    aliases: ["Luke Bateman", "Luke Anthony Bateman", "卢克·贝特曼", "盧克·貝特曼", "ルーク・ベイトマン", "루크 베이트먼"],
+    type: "public-figure",
+    profile: { label: "Rugby League Project profile", url: "https://www.rugbyleagueproject.org/players/luke-bateman/summary.html" },
+    personalSocial: { label: "Instagram", url: "https://www.instagram.com/lukebateman_/" },
+    background: {
+      "zh-Hans": "澳大利亚前职业橄榄球联盟球员和媒体人物，曾效力 Canberra Raiders，退役后因 BookTok、播客、写作和真人秀节目获得更广泛关注。",
+      "zh-Hant": "澳洲前職業橄欖球聯盟球員和媒體人物，曾效力 Canberra Raiders，退役後因 BookTok、Podcast、寫作和真人秀節目獲得更廣泛關注。",
+      en: "Australian former professional rugby league player and media figure. He played for the Canberra Raiders and later became widely known through BookTok, podcasting, writing and reality television.",
+      es: "Exjugador profesional australiano de rugby league y figura mediática. Jugó para Canberra Raiders y luego se hizo conocido por BookTok, podcasts, escritura y televisión de telerrealidad.",
+      ja: "オーストラリアの元プロ・ラグビーリーグ選手でメディア人物。Canberra Raiders でプレーし、引退後は BookTok、ポッドキャスト、執筆、リアリティ番組で広く知られました。",
+      ko: "호주 전 프로 럭비리그 선수이자 미디어 인물입니다. Canberra Raiders에서 뛰었고 이후 BookTok, 팟캐스트, 글쓰기, 리얼리티 TV를 통해 널리 알려졌습니다.",
+      vi: "Cựu cầu thủ rugby league chuyên nghiệp và nhân vật truyền thông Australia. Anh từng chơi cho Canberra Raiders, rồi được biết rộng rãi qua BookTok, podcast, viết sách và truyền hình thực tế.",
+      th: "อดีตผู้เล่น rugby league อาชีพและบุคคลสื่อของออสเตรเลีย เคยเล่นให้ Canberra Raiders และต่อมาเป็นที่รู้จักจาก BookTok พอดแคสต์ งานเขียน และรายการเรียลลิตี้",
+      si: "Australian former professional rugby league player සහ media figure කෙනෙකි. Canberra Raiders සඳහා ක්‍රීඩා කළ අතර පසුව BookTok, podcasting, writing සහ reality television හරහා ප්‍රසිද්ධ විය."
+    }
+  },
+  {
     name: "Lucas Herrington",
     aliases: ["Lucas Herrington", "Australian Socceroo Lucas Herrington", "卢卡斯·赫林顿", "盧卡斯·赫林頓", "ルーカス・ヘリントン", "루커스 헤링턴", "ลูคัส เฮอร์ริงตัน"],
     type: "athlete",
