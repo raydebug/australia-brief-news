@@ -1015,6 +1015,59 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Lucas Herrington",
+    aliases: ["Lucas Herrington", "卢卡斯·赫林顿", "盧卡斯·赫林頓", "ルーカス・ヘリントン", "루커스 헤링턴", "ลูคัส เฮอร์ริงตัน"],
+    type: "athlete",
+    profile: { label: "Socceroos profile", url: "https://socceroos.com.au/player/lucas-herrington" },
+    officialProfile: { label: "Colorado Rapids profile", url: "https://www.coloradorapids.com/players/lucas-herrington/" },
+    background: {
+      "zh-Hans": "澳大利亚足球运动员，出生于布里斯班，司职中后卫，曾出自 Brisbane Roar 青训，后效力 Colorado Rapids，并入选 Socceroos。",
+      "zh-Hant": "澳洲足球運動員，出生於布里斯本，司職中後衛，曾出自 Brisbane Roar 青訓，後效力 Colorado Rapids，並入選 Socceroos。",
+      en: "Australian footballer from Brisbane who plays as a central defender. He came through the Brisbane Roar academy, joined Colorado Rapids and has been capped by the Socceroos.",
+      es: "Futbolista australiano de Brisbane que juega como defensa central. Pasó por la academia de Brisbane Roar, fichó por Colorado Rapids y fue convocado por los Socceroos.",
+      ja: "ブリスベン出身のオーストラリアのサッカー選手で、センターバックです。Brisbane Roar のアカデミーを経て Colorado Rapids に加入し、Socceroos に選ばれています。",
+      ko: "브리즈번 출신 호주 축구 선수로 중앙 수비수입니다. Brisbane Roar 아카데미를 거쳐 Colorado Rapids에 합류했고 Socceroos 대표로도 뛰었습니다.",
+      vi: "Cầu thủ bóng đá Australia từ Brisbane, chơi trung vệ. Anh trưởng thành từ học viện Brisbane Roar, gia nhập Colorado Rapids và đã khoác áo Socceroos.",
+      th: "นักฟุตบอลออสเตรเลียจากบริสเบน เล่นตำแหน่งกองหลังตัวกลาง เติบโตจากอะคาเดมี Brisbane Roar ย้ายไป Colorado Rapids และติดทีม Socceroos",
+      si: "Brisbane සිට පැමිණි Australian footballer කෙනෙකු වන Lucas Herrington central defender ලෙස ක්‍රීඩා කරයි. Brisbane Roar academy හරහා පැමිණ Colorado Rapids වෙත ගොස් Socceroos සඳහා cap ලබා ඇත."
+    }
+  },
+  {
+    name: "Kyle Sandilands",
+    aliases: ["Kyle Sandilands", "Kyle Dalton Sandilands", "凯尔·桑迪兰兹", "凱爾·桑迪蘭茲", "カイル・サンダーランズ", "카일 샌딜랜즈"],
+    type: "artist",
+    profile: { label: "Kyle Sandilands Live", url: "https://kslive.com.au/" },
+    background: {
+      "zh-Hans": "澳大利亚电台和电视主持人，长期以 Kyle and Jackie O 节目成名，也曾担任 Australian Idol 等电视节目的评委，近年转向自有订阅媒体项目。",
+      "zh-Hant": "澳洲電台和電視主持人，長期以 Kyle and Jackie O 節目成名，也曾擔任 Australian Idol 等電視節目的評委，近年轉向自有訂閱媒體項目。",
+      en: "Australian radio and television presenter best known for the Kyle and Jackie O program, with television judging roles including Australian Idol and a later move into his own subscription media venture.",
+      es: "Presentador australiano de radio y televisión, conocido por el programa Kyle and Jackie O, con trabajos como juez en televisión, incluido Australian Idol, y más tarde por su propio proyecto de medios por suscripción.",
+      ja: "オーストラリアのラジオ・テレビ司会者で、Kyle and Jackie O の番組で知られます。Australian Idol などで審査員を務め、近年は自身のサブスクリプション型メディア事業に移っています。",
+      ko: "Kyle and Jackie O 프로그램으로 잘 알려진 호주 라디오·TV 진행자입니다. Australian Idol 등 TV 심사위원 경력이 있으며 이후 자체 구독형 미디어 사업으로 옮겼습니다.",
+      vi: "Người dẫn chương trình phát thanh và truyền hình Australia, nổi tiếng với Kyle and Jackie O, từng làm giám khảo truyền hình như Australian Idol và sau đó chuyển sang dự án truyền thông thuê bao riêng.",
+      th: "ผู้ดำเนินรายการวิทยุและโทรทัศน์ออสเตรเลีย เป็นที่รู้จักจาก Kyle and Jackie O เคยเป็นกรรมการรายการเช่น Australian Idol และภายหลังทำโครงการสื่อแบบสมัครสมาชิกของตนเอง",
+      si: "Kyle and Jackie O වැඩසටහනින් ප්‍රසිද්ධ Australian radio සහ television presenter කෙනෙකි. Australian Idol ඇතුළු TV judging roles දරා ඇති අතර පසුව තමන්ගේ subscription media venture එකකට මාරු විය."
+    }
+  },
+  {
+    name: "Karl Stefanovic",
+    aliases: ["Karl Stefanovic", "卡尔·斯特凡诺维奇", "卡爾·斯特凡諾維奇", "カール・ステファノビック", "칼 스테파노비치"],
+    type: "public-figure",
+    profile: { label: "Podcast profile", url: "https://podcasts.apple.com/au/podcast/the-karl-stefanovic-show/id1872352760" },
+    personalSocial: { label: "X", url: "https://x.com/karlstefanovic" },
+    background: {
+      "zh-Hans": "澳大利亚电视主持人和记者，长期与 Nine Network 相关，并主持 The Karl Stefanovic Show，采访政界、体育、商业和文化人物。",
+      "zh-Hant": "澳洲電視主持人和記者，長期與 Nine Network 相關，並主持 The Karl Stefanovic Show，採訪政界、體育、商業和文化人物。",
+      en: "Australian television presenter and journalist long associated with Nine Network, and host of The Karl Stefanovic Show, interviewing figures across politics, sport, business and culture.",
+      es: "Presentador y periodista australiano de televisión, vinculado durante años a Nine Network y anfitrión de The Karl Stefanovic Show, con entrevistas sobre política, deporte, negocios y cultura.",
+      ja: "Nine Network と長く関わるオーストラリアのテレビ司会者・ジャーナリストで、The Karl Stefanovic Show のホストとして政治、スポーツ、ビジネス、文化の人物にインタビューしています。",
+      ko: "Nine Network와 오랫동안 관련된 호주 TV 진행자이자 저널리스트이며 The Karl Stefanovic Show 진행자로 정치, 스포츠, 비즈니스, 문화 인물을 인터뷰합니다.",
+      vi: "Người dẫn truyền hình và nhà báo Australia, gắn bó lâu năm với Nine Network và dẫn The Karl Stefanovic Show, phỏng vấn các nhân vật trong chính trị, thể thao, kinh doanh và văn hóa.",
+      th: "ผู้ดำเนินรายการโทรทัศน์และนักข่าวออสเตรเลียที่เกี่ยวข้องกับ Nine Network มายาวนาน และเป็นพิธีกร The Karl Stefanovic Show สัมภาษณ์บุคคลด้านการเมือง กีฬา ธุรกิจ และวัฒนธรรม",
+      si: "Nine Network සමඟ දිගුකාලීනව බැඳුණු Australian television presenter සහ journalist කෙනෙකි. The Karl Stefanovic Show හි host ලෙස politics, sport, business සහ culture පුරා පුද්ගලයන් සම්මුඛ සාකච්ඡා කරයි."
+    }
+  },
+  {
     name: "Jemima Montag",
     aliases: ["Jemima Montag", "杰迈玛·蒙塔格", "傑邁瑪·蒙塔格", "ジェミマ・モンタグ", "제미마 몬태그"],
     type: "athlete",
