@@ -7,8 +7,7 @@ const languages = [
   { code: "ja", files: ["public/news.ja.json", "docs/news.ja.json"], marker: /[\u3040-\u30ff\u4e00-\u9fff]/ },
   { code: "ko", files: ["public/news.ko.json", "docs/news.ko.json"], marker: /[\uac00-\ud7af]/ },
   { code: "vi", files: ["public/news.vi.json", "docs/news.vi.json"], marker: /[ăâđêôơưáàảãạấầẩẫậắằẳẵặéèẻẽẹếềểễệíìỉĩịóòỏõọốồổỗộớờởỡợúùủũụứừửữựýỳỷỹỵ]/i },
-  { code: "th", files: ["public/news.th.json", "docs/news.th.json"], marker: /[\u0e00-\u0e7f]/ },
-  { code: "es", files: ["public/news.es.json", "docs/news.es.json"], marker: /\b(el|la|los|las|un|una|que|de|del|para|con|por|sobre|despu[eé]s|gobierno|polic[ií]a|tribunal)\b/i }
+  { code: "th", files: ["public/news.th.json", "docs/news.th.json"], marker: /[\u0e00-\u0e7f]/ }
 ];
 
 function readJson(file) {
