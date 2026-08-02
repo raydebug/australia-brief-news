@@ -34,6 +34,7 @@ Rules:
   - `socialDiscussions.th`
   - `socialDiscussions.es`
 - If a cluster only has language-neutral or English discussion links, keeping the legacy array form is allowed.
+- English discussion links are default-visible in every non-English UI and should remain as fallback/context after language-specific links.
 - Keep `public/news.{lang}.json` and `docs/news.{lang}.json` identical for the same language. Keep `public/news.json` and `docs/news.json` aligned with Simplified Chinese.
 - If no real discussion exists for a cluster, leave `socialDiscussions` empty or absent.
 - Do not invent metrics. If metrics are not visible, omit them and use a conservative `score`.

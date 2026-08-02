@@ -2665,18 +2665,26 @@ function SourceLogo({ name }) {
 function socialDiscussionSet(cluster, language) {
   const localized = cluster?.localizedSocialDiscussions || cluster?.socialDiscussionsByLanguage;
   const raw = cluster?.socialDiscussions;
+  const groups = [];
 
-  if (localized?.[language]?.length) return localized[language];
-  if (localized?.en?.length) return localized.en;
+  if (localized?.[language]?.length) groups.push(localized[language]);
+  if (language !== "en" && localized?.en?.length) groups.push(localized.en);
+
+  if (Array.isArray(raw)) groups.push(raw);
 
   if (raw && !Array.isArray(raw) && typeof raw === "object") {
-    if (raw[language]?.length) return raw[language];
-    if (raw.en?.length) return raw.en;
-    if (raw.default?.length) return raw.default;
-    return [];
+    if (raw[language]?.length) groups.push(raw[language]);
+    if (language !== "en" && raw.en?.length) groups.push(raw.en);
+    if (raw.default?.length) groups.push(raw.default);
   }
 
-  return Array.isArray(raw) ? raw : [];
+  const seen = new Set();
+  return groups.flat().filter((item) => {
+    const key = String(item?.url || "").trim();
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
 
 function validSocialDiscussions(cluster, language = cluster?.language || "en") {
