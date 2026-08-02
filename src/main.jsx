@@ -1010,6 +1010,127 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Penny Wong",
+    aliases: ["Penny Wong", "Penelope Ying-Yen Wong", "Senator Wong", "Senator Penny Wong", "黄英贤", "黃英賢", "ペニー・ウォン", "페니 웡"],
+    type: "politician",
+    profile: { label: "Minister biography", url: "https://www.foreignminister.gov.au/minister/penny-wong" },
+    social: { label: "X", url: "https://x.com/SenatorWong" },
+    background: {
+      "zh-Hans": "澳大利亚工党联邦政治人物，2002 年起任南澳参议员，现任外交部长和参议院政府领袖。",
+      "zh-Hant": "澳洲工黨聯邦政治人物，2002 年起任南澳參議員，現任外交部長和參議院政府領袖。",
+      en: "Australian Labor federal politician, Senator for South Australia since 2002, Minister for Foreign Affairs and Leader of the Government in the Senate.",
+      es: "Política federal laborista australiana, senadora por Australia Meridional desde 2002, ministra de Relaciones Exteriores y líder del Gobierno en el Senado.",
+      ja: "オーストラリア労働党の連邦政治家。2002年から南オーストラリア州選出の上院議員で、外相と上院政府代表を務めています。",
+      ko: "호주 노동당 연방 정치인으로 2002년부터 남호주 상원의원이며 외교장관과 상원 정부 대표를 맡고 있습니다.",
+      vi: "Chính trị gia liên bang Labor Australia, thượng nghị sĩ Nam Australia từ năm 2002, Bộ trưởng Ngoại giao và Leader of the Government in the Senate.",
+      th: "นักการเมืองรัฐบาลกลาง Australian Labor เป็นวุฒิสมาชิก South Australia ตั้งแต่ปี 2002 รัฐมนตรีต่างประเทศ และ Leader of the Government in the Senate",
+      si: "Australian Labor federal politician කෙනෙකු වන Penny Wong, 2002 සිට South Australia Senator, Foreign Affairs Minister සහ Senate හි Leader of the Government වේ."
+    },
+    positions: {
+      "zh-Hans": "其公共职责覆盖澳大利亚外交、区域安全、太平洋关系、发展援助和多边事务；First Nations 外交是其外交政策叙事的一部分。",
+      "zh-Hant": "其公共職責覆蓋澳洲外交、區域安全、太平洋關係、發展援助和多邊事務；First Nations 外交是其外交政策敘事的一部分。",
+      en: "Her public responsibilities cover foreign policy, regional security, Pacific relations, development assistance and multilateral affairs; First Nations diplomacy is part of her foreign policy agenda.",
+      es: "Sus responsabilidades públicas cubren política exterior, seguridad regional, relaciones con el Pacífico, ayuda al desarrollo y asuntos multilaterales; la diplomacia First Nations forma parte de su agenda exterior.",
+      ja: "外交政策、地域安全保障、太平洋関係、開発援助、多国間外交を所管し、First Nations 外交は外政策の一部です。",
+      ko: "외교정책, 지역 안보, 태평양 관계, 개발 원조, 다자 업무를 담당하며 First Nations 외교는 그의 외교 의제 일부입니다.",
+      vi: "Trách nhiệm công của bà bao gồm chính sách đối ngoại, an ninh khu vực, quan hệ Thái Bình Dương, viện trợ phát triển và đa phương; ngoại giao First Nations là một phần trong nghị trình đối ngoại.",
+      th: "หน้าที่สาธารณะครอบคลุมนโยบายต่างประเทศ ความมั่นคงภูมิภาค ความสัมพันธ์แปซิฟิก ความช่วยเหลือเพื่อการพัฒนา และงานพหุภาคี โดย First Nations diplomacy เป็นส่วนหนึ่งของวาระต่างประเทศ",
+      si: "ඇයගේ public responsibilities foreign policy, regional security, Pacific relations, development assistance සහ multilateral affairs ආවරණය කරයි; First Nations diplomacy ඇයගේ foreign policy agenda එකේ කොටසකි."
+    }
+  },
+  {
+    name: "Malarndirri McCarthy",
+    aliases: ["Malarndirri McCarthy", "Barbara Anne McCarthy", "Senator Malarndirri McCarthy", "马拉恩迪里·麦卡锡", "馬拉恩迪里·麥卡錫", "マランディリ・マッカーシー", "말라른디리 매카시"],
+    type: "politician",
+    profile: { label: "Minister profile", url: "https://ministers.pmc.gov.au/mccarthy" },
+    social: { label: "Facebook", url: "https://www.facebook.com/Malarndirri/" },
+    background: {
+      "zh-Hans": "澳大利亚工党联邦政治人物，北领地参议员，Yanyuwa Garrwa 女性，曾任记者，现任澳大利亚原住民事务部长。",
+      "zh-Hant": "澳洲工黨聯邦政治人物，北領地參議員，Yanyuwa Garrwa 女性，曾任記者，現任澳洲原住民事務部長。",
+      en: "Australian Labor federal politician, Northern Territory senator, Yanyuwa Garrwa woman, former journalist and Minister for Indigenous Australians.",
+      es: "Política federal laborista australiana, senadora por el Territorio del Norte, mujer Yanyuwa Garrwa, ex periodista y ministra para los Australianos Indígenas.",
+      ja: "オーストラリア労働党の連邦政治家。北部準州選出の上院議員で、Yanyuwa Garrwa の女性、元ジャーナリスト、先住民担当相です。",
+      ko: "호주 노동당 연방 정치인으로 노던준주 상원의원, Yanyuwa Garrwa 여성, 전직 기자이며 Indigenous Australians 장관입니다.",
+      vi: "Chính trị gia liên bang Labor Australia, thượng nghị sĩ Northern Territory, phụ nữ Yanyuwa Garrwa, cựu nhà báo và Minister for Indigenous Australians.",
+      th: "นักการเมืองรัฐบาลกลาง Australian Labor วุฒิสมาชิก Northern Territory หญิง Yanyuwa Garrwa อดีตนักข่าว และ Minister for Indigenous Australians",
+      si: "Australian Labor federal politician කෙනෙකු වන Malarndirri McCarthy, Northern Territory Senator, Yanyuwa Garrwa woman, හිටපු journalist සහ Minister for Indigenous Australians වේ."
+    },
+    positions: {
+      "zh-Hans": "其公共职责覆盖原住民事务、Closing the Gap、原住民健康、社区安全和北领地相关政策；Garma 论坛常是其政策发声场合。",
+      "zh-Hant": "其公共職責覆蓋原住民事務、Closing the Gap、原住民健康、社區安全和北領地相關政策；Garma 論壇常是其政策發聲場合。",
+      en: "Her public responsibilities cover Indigenous affairs, Closing the Gap, Indigenous health, community safety and Northern Territory policy; Garma is a frequent forum for those policy messages.",
+      es: "Sus responsabilidades públicas cubren asuntos indígenas, Closing the Gap, salud indígena, seguridad comunitaria y política del Territorio del Norte; Garma suele ser un foro para esos mensajes.",
+      ja: "先住民政策、Closing the Gap、先住民保健、地域安全、北部準州関連政策を担当し、Garma はこうした政策発信の場になりやすいです。",
+      ko: "원주민 정책, Closing the Gap, 원주민 보건, 지역사회 안전, 노던준주 정책을 담당하며 Garma는 관련 메시지를 내는 주요 장입니다.",
+      vi: "Trách nhiệm công của bà bao gồm Indigenous affairs, Closing the Gap, sức khỏe Indigenous, an toàn cộng đồng và chính sách Northern Territory; Garma thường là diễn đàn cho các thông điệp đó.",
+      th: "หน้าที่สาธารณะครอบคลุม Indigenous affairs, Closing the Gap, Indigenous health, community safety และนโยบาย Northern Territory โดย Garma มักเป็นเวทีของข้อความนโยบายเหล่านี้",
+      si: "ඇයගේ public responsibilities Indigenous affairs, Closing the Gap, Indigenous health, community safety සහ Northern Territory policy ආවරණය කරයි; Garma ඒ policy messages සඳහා නිතර forum එකකි."
+    }
+  },
+  {
+    name: "Dan Tehan",
+    aliases: ["Dan Tehan", "Daniel Thomas Tehan", "Dan Tehan MP", "丹·蒂汉", "丹·蒂漢", "ダン・ティーハン", "댄 티한"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.aph.gov.au/d_tehan_mp" },
+    social: { label: "Facebook", url: "https://www.facebook.com/DanTehanWannon/" },
+    background: {
+      "zh-Hans": "澳大利亚自由党联邦政治人物，2010 年起任 Wannon 选区议员，曾任多项联邦部长职务，现为反对党前座议员。",
+      "zh-Hant": "澳洲自由黨聯邦政治人物，2010 年起任 Wannon 選區議員，曾任多項聯邦部長職務，現為反對黨前座議員。",
+      en: "Australian Liberal federal politician, Member for Wannon since 2010, former federal minister and opposition frontbencher.",
+      es: "Político federal liberal australiano, diputado por Wannon desde 2010, ex ministro federal y miembro del frente opositor.",
+      ja: "オーストラリア自由党の連邦政治家。2010年から Wannon 選出の下院議員で、元連邦閣僚、野党前線議員です。",
+      ko: "호주 자유당 연방 정치인으로 2010년부터 Wannon 하원의원이며 전 연방 장관이자 야당 전면 의원입니다.",
+      vi: "Chính trị gia liên bang Liberal Australia, dân biểu Wannon từ năm 2010, cựu bộ trưởng liên bang và thành viên frontbench đối lập.",
+      th: "นักการเมืองรัฐบาลกลาง Liberal ของออสเตรเลีย ส.ส. เขต Wannon ตั้งแต่ปี 2010 อดีตรัฐมนตรีรัฐบาลกลางและฝ่ายค้านแถวหน้า",
+      si: "Australian Liberal federal politician කෙනෙකු වන Dan Tehan, 2010 සිට Wannon Member, හිටපු federal minister සහ opposition frontbencher කෙනෙකි."
+    },
+    positions: {
+      "zh-Hans": "其公共角色包括代表自由党就卫生、地区选民、预算和政府问责等议题发声；曾负责贸易、教育、社会服务和退伍军人等部长事务。",
+      "zh-Hant": "其公共角色包括代表自由黨就衛生、地區選民、預算和政府問責等議題發聲；曾負責貿易、教育、社會服務和退伍軍人等部長事務。",
+      en: "His public role includes Liberal Party scrutiny on health, regional electorates, budget choices and government accountability; former portfolios included trade, education, social services and veterans' affairs.",
+      es: "Su papel público incluye el escrutinio liberal sobre salud, electorados regionales, presupuesto y rendición de cuentas del gobierno; sus carteras anteriores incluyeron comercio, educación, servicios sociales y veteranos.",
+      ja: "医療、地方選挙区、予算判断、政府説明責任について自由党側から追及する役割を担い、過去には貿易、教育、社会サービス、退役軍人を担当しました。",
+      ko: "보건, 지역구, 예산 선택, 정부 책임성에 대해 자유당 입장에서 검증하는 역할을 하며 과거 통상, 교육, 사회서비스, 보훈 장관직을 맡았습니다.",
+      vi: "Vai trò công của ông gồm giám sát của Liberal Party về y tế, cử tri vùng, lựa chọn ngân sách và trách nhiệm chính phủ; các danh mục trước đây gồm thương mại, giáo dục, dịch vụ xã hội và cựu chiến binh.",
+      th: "บทบาทสาธารณะรวมถึงการตรวจสอบของ Liberal Party ด้านสุขภาพ เขตภูมิภาค งบประมาณ และความรับผิดชอบรัฐบาล โดยอดีตพอร์ตโฟลิโอมี trade, education, social services และ veterans' affairs",
+      si: "ඔහුගේ public role එක health, regional electorates, budget choices සහ government accountability ගැන Liberal Party scrutiny ඇතුළත් කරයි; හිටපු portfolios trade, education, social services සහ veterans' affairs විය."
+    }
+  },
+  {
+    name: "Stephen Duckett",
+    aliases: ["Stephen Duckett", "Stephen John Duckett", "Professor Stephen Duckett", "Stephen Duckett AM", "斯蒂芬·达克特", "史蒂芬·達克特", "スティーブン・ダケット", "스티븐 더켓"],
+    type: "public-figure",
+    profile: { label: "University profile", url: "https://findanexpert.unimelb.edu.au/profile/572560-stephen-duckett" },
+    background: {
+      "zh-Hans": "澳大利亚卫生经济学家和公共政策专家，墨尔本大学荣誉教授，长期研究医院资金、Medicare 和卫生系统改革。",
+      "zh-Hant": "澳洲衛生經濟學家和公共政策專家，墨爾本大學榮譽教授，長期研究醫院資金、Medicare 和衛生系統改革。",
+      en: "Australian health economist and public policy expert, honorary professor at the University of Melbourne, known for work on hospital funding, Medicare and health-system reform.",
+      es: "Economista sanitario australiano y experto en política pública, profesor honorario en la University of Melbourne, conocido por su trabajo sobre financiación hospitalaria, Medicare y reforma sanitaria.",
+      ja: "オーストラリアの医療経済学者・公共政策専門家。メルボルン大学名誉教授で、病院財源、Medicare、医療制度改革の研究で知られます。",
+      ko: "호주 보건경제학자이자 공공정책 전문가로 University of Melbourne 명예교수이며 병원 재정, Medicare, 보건제도 개혁 연구로 알려져 있습니다.",
+      vi: "Nhà kinh tế y tế và chuyên gia chính sách công Australia, giáo sư danh dự tại University of Melbourne, nổi tiếng về tài trợ bệnh viện, Medicare và cải cách hệ thống y tế.",
+      th: "นักเศรษฐศาสตร์สุขภาพและผู้เชี่ยวชาญนโยบายสาธารณะของออสเตรเลีย ศาสตราจารย์กิตติมศักดิ์ที่ University of Melbourne เป็นที่รู้จักด้าน hospital funding, Medicare และ health-system reform",
+      si: "Australian health economist සහ public policy expert කෙනෙකු වන Stephen Duckett, University of Melbourne honorary professor වන අතර hospital funding, Medicare සහ health-system reform පිළිබඳ ප්‍රසිද්ධය."
+    }
+  },
+  {
+    name: "Kimberley Reid",
+    aliases: ["Kimberley Reid", "Kim Reid", "Dr Kimberley Reid", "Dr Kim Reid", "金伯利·里德", "金伯利·里德", "キンバリー・リード", "킴벌리 리드"],
+    type: "public-figure",
+    profile: { label: "University profile", url: "https://findanexpert.unimelb.edu.au/profile/820621-kimberley-reid" },
+    background: {
+      "zh-Hans": "墨尔本大学气候和高影响天气研究人员，研究方向包括澳大利亚极端降雨、气候驱动因素和天气风险。",
+      "zh-Hant": "墨爾本大學氣候和高影響天氣研究人員，研究方向包括澳洲極端降雨、氣候驅動因素和天氣風險。",
+      en: "University of Melbourne climate and high-impact weather researcher whose work covers Australian extreme rainfall, climate drivers and weather risk.",
+      es: "Investigadora de clima y tiempo de alto impacto en la University of Melbourne, centrada en lluvias extremas australianas, impulsores climáticos y riesgo meteorológico.",
+      ja: "メルボルン大学の気候・高影響気象研究者。豪州の極端降雨、気候要因、気象リスクを研究しています。",
+      ko: "University of Melbourne의 기후 및 고영향 날씨 연구자로 호주의 극한 강우, 기후 요인, 날씨 위험을 연구합니다.",
+      vi: "Nhà nghiên cứu khí hậu và thời tiết tác động cao tại University of Melbourne, tập trung vào mưa cực đoan ở Australia, tác nhân khí hậu và rủi ro thời tiết.",
+      th: "นักวิจัย climate และ high-impact weather ที่ University of Melbourne งานครอบคลุมฝนสุดขั้วของออสเตรเลีย climate drivers และ weather risk",
+      si: "University of Melbourne climate සහ high-impact weather researcher කෙනෙකු වන Kimberley Reid, Australian extreme rainfall, climate drivers සහ weather risk ගැන පර්යේෂණ කරයි."
+    }
+  },
+  {
     name: "Richard Scolyer",
     aliases: ["Richard Scolyer", "Richard Anthony Scolyer", "Professor Richard Scolyer", "Richard Scolyer AO", "理查德·斯科利尔", "理查德·斯科利爾", "リチャード・スコリアー", "리처드 스콜리어"],
     type: "public-figure",
@@ -1062,7 +1183,7 @@ const PEOPLE_CONTEXT = [
   },
   {
     name: "Lucas Herrington",
-    aliases: ["Lucas Herrington", "卢卡斯·赫林顿", "盧卡斯·赫林頓", "ルーカス・ヘリントン", "루커스 헤링턴", "ลูคัส เฮอร์ริงตัน"],
+    aliases: ["Lucas Herrington", "Australian Socceroo Lucas Herrington", "卢卡斯·赫林顿", "盧卡斯·赫林頓", "ルーカス・ヘリントン", "루커스 헤링턴", "ลูคัส เฮอร์ริงตัน"],
     type: "athlete",
     profile: { label: "Socceroos profile", url: "https://socceroos.com.au/player/lucas-herrington" },
     officialProfile: { label: "Colorado Rapids profile", url: "https://www.coloradorapids.com/players/lucas-herrington/" },
