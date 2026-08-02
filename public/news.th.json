@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T07:03:21Z",
+  "updatedAt": "2026-08-02T08:10:16Z",
   "generatedBy": "codex",
   "language": "th",
   "sources": [
@@ -110,6 +110,27 @@
   ],
   "clusters": [
     {
+      "id": "broome-bowral-mnd-ride",
+      "headline": "ภารกิจปั่นจักรยานระดมทุนจากบรูมถึงโบวรัลใกล้เส้นชัย",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T06:00:33Z",
+      "voiceScript": "คุณปู่กับหลานชายกำลังอยู่ในช่วงท้ายของการปั่นจักรยานจากบรูมไปโบวรัลเพื่อระดมทุนและสร้างความตระหนักเรื่องโรค MND หรือโรคเซลล์ประสาทสั่งการเสื่อม เส้นทางยาวราว 5,300 กิโลเมตร และต้องเจอทั้งอากาศร้อน ลมปะทะหน้า และช่วงทางไกลในพื้นที่ห่างไกล เรื่องนี้สำคัญเพราะเงินบริจาคจะช่วยสนับสนุนงานวิจัยและการดูแลผู้ป่วย ขณะที่โรคนี้ยังไม่มีวิธีรักษาให้หายขาด ตอนนี้จุดสนใจคือพวกเขาจะถึงโบวรัลในวันที่ 2 สิงหาคมและเพิ่มยอดบริจาคได้อีกแค่ไหนก่อนเข้าเส้นชัย",
+      "differences": [
+        "ABC เน้นเส้นทาง ระยะทางรายวัน และช่วงท้ายของการเดินทาง ขณะที่ news.com.au เน้นแรงผลักดันของครอบครัว เป้าระดมทุน และเรื่องราวส่วนตัว"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/grandfather-grandson-charity-ride-motor-neurone-disease/106976468"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/fitness/inspiration/grandfather-and-grandsons-incredible-5200-km-ride-for-charity/news-story/14e47a37eceb825c6af1f99852f91392"
+        }
+      ],
+      "language": "th"
+    },
+    {
       "id": "tasmania-search-rescue-three-incidents",
       "headline": "ทีมกู้ภัยแทสเมเนียรับมือเหตุฉุกเฉินในพื้นที่ป่า 3 เหตุในวันเดียว",
       "sourceCount": 1,
@@ -154,6 +175,27 @@
           "score": 35
         }
       ]
+    },
+    {
+      "id": "australind-bus-stop-homicide-probe",
+      "headline": "ตำรวจ WA สอบสวนเหตุทำร้ายรุนแรงจนเสียชีวิตใกล้ป้ายรถเมล์ที่ Australind",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T03:10:09Z",
+      "voiceScript": "ตำรวจรัฐเวสเทิร์นออสเตรเลียกำลังสอบสวนการเสียชีวิตของชายวัยยี่สิบกว่า หลังพบเขาได้รับบาดเจ็บสาหัสใกล้ป้ายรถเมล์ในเมือง Australind ทางใต้ของเพิร์ธ เขาถูกนำส่งโรงพยาบาล Bunbury แต่ไม่รอดชีวิต และคดีนี้ถูกเดินหน้าในฐานะคดีฆาตกรรม สถานที่เกิดเหตุสำคัญเพราะอยู่ในพื้นที่สัญจรคึกคัก ทำให้ประเด็นความปลอดภัยของพื้นที่สาธารณะยามค่ำคืนกลับมาอยู่ในความสนใจ อีกขั้นตอนต่อไปคือการตรวจนิติวิทยาศาสตร์ สอบปากคำพยาน และปะติดปะต่อเหตุการณ์ที่เกิดขึ้นให้ชัดเจน",
+      "differences": [
+        "ABC เน้นการสืบสวนของตำรวจและความคืบหน้าเรื่องการควบคุมตัว ส่วน 7NEWS เน้นตำแหน่งป้ายรถเมล์ ย่าน Treendale และการตอบสนองในฐานะคดีฆาตกรรม"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/homicide-squad-australind-western-australia-death/106987566"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/young-man-found-unconscious-at-wa-bus-stop-dies-sparking-homicide-probe-c-22664173.amp"
+        }
+      ],
+      "language": "th"
     },
     {
       "id": "brisbane-2032-victoria-park-debate",
