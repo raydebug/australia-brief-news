@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T04:09:02.000Z",
+  "updatedAt": "2026-08-02T05:12:37.867Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -109,6 +109,42 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "tasmania-search-rescue-three-incidents",
+      "headline": "塔斯马尼亚救援人员一天内应对三起荒野事故",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T04:43:49Z",
+      "voiceScript": "塔斯马尼亚搜救人员当天被派往岛上三起不同的事故，包括偏远灌木地和高山地带的求助。一天之内的多点出动说明，冬季天气下，原本普通的行程很快就会变成紧急事件。眼下最重要的是把所有人安全带出来，并确认是否有人需要住院治疗。官方也再次提醒徒步者要带齐装备、提前规划，把偏远步道当作严肃地形来对待。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/tasmania-wilderness-rescues-meander-flinders-island-west-coast/106987688"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
+      "id": "rhiannan-iffland-greatest-cliff-diver",
+      "headline": "伊夫兰德拿下第十个连续跳水冠军",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T04:28:00Z",
+      "voiceScript": "澳大利亚选手里安南·伊夫兰德在波斯尼亚赢下世界系列赛倒数第二站，锁定了她连续第十个总冠军。这个结果也把她的职业生涯胜场推到48场，刷新了这项运动的历史纪录。它的重要性在于，这意味着她在一项高风险跳水项目里已经统治了整整十年，而本赛季还剩最后一站。接下来在意大利的收官战，焦点会转向她还能把纪录推高多少。",
+      "differences": [
+        "ABC把这场胜利写成她成为史上最伟大跳水选手的时刻，AAP则突出第十个连续总冠军和第48场职业胜利。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/rhiannan-iffland-greatest-cliff-diver-wins-mostar-event-bosnia/106987668"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/aussie-becomes-cliff-diving-s-greatest-with-mostar-win"
+        }
+      ],
+      "language": "zh-Hans"
+    },
     {
       "id": "brisbane-2032-victoria-park-debate",
       "headline": "布里斯班公布维多利亚公园总体规划，2032年争议延续",
@@ -307,6 +343,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "pregnancy-loss-aihw-study",
+      "headline": "最新AIHW数据显示，澳大利亚妊娠流失很常见",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T02:27:36Z",
+      "voiceScript": "澳大利亚健康与福利研究所的一项新研究说，妊娠流失比很多人想象的更常见。2022年分娩的女性中，大约三分之一此前经历过一次流失。报告基于五个州和领地的数据，说明这个问题的真实规模仍没有被完全记录下来。这很重要，因为更好的数据和支持会影响家庭能否得到合适照护，也会影响社会对这类经历的污名程度。接下来要看，医疗系统是否会用这些发现改善咨询、后续随访和数据记录。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/young-people-pregnancy-loss-miscarriage-aihw-study/106973398"
+        }
+      ],
+      "language": "zh-Hans"
     },
     {
       "id": "hindley-street-fatal",

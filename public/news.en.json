@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T04:09:02.000Z",
+  "updatedAt": "2026-08-02T05:12:37.867Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -109,6 +109,42 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "tasmania-search-rescue-three-incidents",
+      "headline": "Tasmanian rescuers deal with three wilderness incidents in one day",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T04:43:49Z",
+      "voiceScript": "Tasmanian search and rescue crews were called to three separate incidents across the island, including people in remote bush and alpine country. The day was busy enough to spread resources across different corners of the state, which is a reminder of how fast ordinary trips can turn into emergencies in winter conditions. The immediate priority is getting everyone to safety and checking whether anyone needs hospital treatment. Hikers are again being told to carry proper gear, plan ahead and treat remote tracks as serious terrain.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/tasmania-wilderness-rescues-meander-flinders-island-west-coast/106987688"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "rhiannan-iffland-greatest-cliff-diver",
+      "headline": "Rhiannan Iffland seals a 10th straight cliff diving title",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T04:28:00Z",
+      "voiceScript": "Australian diver Rhiannan Iffland has won the penultimate event of the World Series in Bosnia and locked up her 10th straight title. The result takes her to 48 career wins and puts her at the top of the sport's all-time list. That matters because it marks a decade of near-total dominance in one of diving's most dangerous disciplines, with one event still left this season. The final stop in Italy is now about whether she can stretch the record even further.",
+      "differences": [
+        "ABC frames the result as the moment Iffland became the greatest cliff diver of all time, while AAP emphasizes the 10th straight world title and the 48th career victory."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/rhiannan-iffland-greatest-cliff-diver-wins-mostar-event-bosnia/106987668"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/aussie-becomes-cliff-diving-s-greatest-with-mostar-win"
+        }
+      ],
+      "language": "en"
+    },
     {
       "id": "brisbane-2032-victoria-park-debate",
       "headline": "Brisbane unveils Victoria Park masterplan as 2032 debate continues",
@@ -307,6 +343,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "pregnancy-loss-aihw-study",
+      "headline": "New AIHW data shows pregnancy loss is common in Australia",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T02:27:36Z",
+      "voiceScript": "A new AIHW study says pregnancy loss is much more common than many people realise, with about one in three women who gave birth in 2022 having previously experienced a loss. The report is based on data from five states and territories and suggests the true scale of the issue still is not fully captured. That matters because better data and support can change how families are cared for and how stigma is reduced. The next step is whether health services use the findings to improve counselling, follow-up care and record keeping.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/young-people-pregnancy-loss-miscarriage-aihw-study/106973398"
+        }
+      ],
+      "language": "en"
     },
     {
       "id": "hindley-street-fatal",

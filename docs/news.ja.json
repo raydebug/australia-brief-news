@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T04:09:02.000Z",
+  "updatedAt": "2026-08-02T05:12:37.867Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -109,6 +109,42 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "tasmania-search-rescue-three-incidents",
+      "headline": "タスマニアの救助隊、1日で3件の荒野救助に対応",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T04:43:49Z",
+      "voiceScript": "タスマニアの捜索救助隊は、島内の3件の別々の事案に対応した。遠隔地のブッシュや山岳地帯で助けを求める人が出て、限られた人員と装備が各地に分散した。冬場は、普通の外出でも一気に緊急事態へ変わり得ることを示した形だ。今は全員を安全に回収し、入院が必要な人がいないか確認することが最優先となっている。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/tasmania-wilderness-rescues-meander-flinders-island-west-coast/106987688"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "rhiannan-iffland-greatest-cliff-diver",
+      "headline": "リアナン・イフランドが10連覇を達成",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T04:28:00Z",
+      "voiceScript": "オーストラリアの高飛込選手リアナン・イフランドが、ボスニアで行われたワールドシリーズの準最終戦を制し、10連覇を決めた。これで通算48勝となり、この競技の歴代最多記録の頂点に立った。高いリスクを伴う種目で10年にわたりほぼ独走を続けてきたことを示す結果で、今季はまだ最終戦が残っている。イタリアでの最終戦では、記録をどこまで伸ばせるかが焦点になる。",
+      "differences": [
+        "ABCは彼女が史上最高の高飛込選手になった瞬間として描き、AAPは10連覇と通算48勝を前面に出している。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/rhiannan-iffland-greatest-cliff-diver-wins-mostar-event-bosnia/106987668"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/aussie-becomes-cliff-diving-s-greatest-with-mostar-win"
+        }
+      ],
+      "language": "ja"
+    },
     {
       "id": "brisbane-2032-victoria-park-debate",
       "headline": "ブリスベンがビクトリア・パーク基本計画を公表、2032年案をめぐる議論は続く",
@@ -307,6 +343,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "pregnancy-loss-aihw-study",
+      "headline": "AIHWの新データで、妊娠喪失が豪州で一般的と判明",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T02:27:36Z",
+      "voiceScript": "AIHWの新しい研究によると、妊娠喪失は多くの人が思うよりはるかに一般的で、2022年に出産した女性のおよそ3人に1人がそれ以前に喪失を経験していた。調査は5つの州と準州のデータに基づいており、問題の実際の規模はまだ十分に把握されていないことを示している。これは、より良いデータと支援があれば家族への対応や、経験をめぐる偏見の減少につながるから重要だ。次に注目されるのは、医療現場がこの結果を相談支援、フォローアップ、記録の改善に生かすかどうかだ。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/young-people-pregnancy-loss-miscarriage-aihw-study/106973398"
+        }
+      ],
+      "language": "ja"
     },
     {
       "id": "hindley-street-fatal",
