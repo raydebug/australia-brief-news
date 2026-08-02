@@ -819,6 +819,64 @@ function hasSpecificCommentary(commentary) {
 
 const PEOPLE_CONTEXT = [
   {
+    name: "David Crisafulli",
+    aliases: ["David Crisafulli", "David Frank Crisafulli", "David Crisafulli MP", "戴维·克里萨富利", "大衛·克里薩富利", "デイビッド・クリサフリ", "데이비드 크리사풀리"],
+    type: "politician",
+    profile: { label: "Premier biography", url: "https://www.thepremier.qld.gov.au/about.aspx" },
+    social: { label: "Facebook", url: "https://www.facebook.com/DavidCrisafulliMP/" },
+    background: {
+      "zh-Hans": "昆士兰自由国家党政治人物，Broadwater 选区州议员，2024 年起任昆士兰州长，并担任昆士兰 LNP 领袖。",
+      "zh-Hant": "昆士蘭自由國家黨政治人物，Broadwater 選區州議員，2024 年起任昆士蘭州長，並擔任昆士蘭 LNP 領袖。",
+      en: "Queensland Liberal National Party politician, MP for Broadwater, Premier of Queensland since 2024 and leader of the Queensland LNP.",
+      es: "Político del Liberal National Party de Queensland, diputado por Broadwater, premier de Queensland desde 2024 y líder del LNP estatal.",
+      ja: "クイーンズランド州 Liberal National Party の政治家で、Broadwater 選出の州議員。2024年から同州首相、Queensland LNP 党首です。",
+      ko: "퀸즐랜드 Liberal National Party 정치인으로 Broadwater 지역구 의원이며 2024년부터 퀸즐랜드 주총리와 Queensland LNP 대표를 맡고 있습니다.",
+      vi: "Chính trị gia Liberal National Party tại Queensland, nghị sĩ bang khu Broadwater, Premier of Queensland từ năm 2024 và lãnh đạo Queensland LNP.",
+      th: "นักการเมือง Liberal National Party ของรัฐควีนส์แลนด์ ส.ส. รัฐเขต Broadwater เป็น Premier of Queensland ตั้งแต่ปี 2024 และผู้นำ Queensland LNP",
+      si: "Queensland Liberal National Party දේශපාලනඥයෙකු වන David Crisafulli, Broadwater MP, 2024 සිට Premier of Queensland සහ Queensland LNP නායකයා වේ."
+    },
+    positions: {
+      "zh-Hans": "其州长任期重点包括青年犯罪、州预算、住房、基础设施和 2032 年布里斯班奥运场馆规划；Victoria Park 方案是其政府的核心奥运遗产项目之一。",
+      "zh-Hant": "其州長任期重點包括青年犯罪、州預算、住房、基礎設施和 2032 年布里斯本奧運場館規劃；Victoria Park 方案是其政府的核心奧運遺產項目之一。",
+      en: "His premiership is tied to youth crime, the state budget, housing, infrastructure and Brisbane 2032 venue planning; the Victoria Park plan is one of his government's central Olympic legacy projects.",
+      es: "Su gobierno se vincula con delincuencia juvenil, presupuesto estatal, vivienda, infraestructura y planificación de sedes para Brisbane 2032; Victoria Park es uno de sus proyectos centrales de legado olímpico.",
+      ja: "青少年犯罪、州予算、住宅、インフラ、Brisbane 2032 の会場計画が主要課題で、Victoria Park 案は政権の中心的な五輪レガシー事業の一つです。",
+      ko: "청소년 범죄, 주 예산, 주택, 인프라, Brisbane 2032 경기장 계획이 핵심 의제이며 Victoria Park 계획은 정부의 주요 올림픽 유산 사업 중 하나입니다.",
+      vi: "Trọng tâm nhiệm kỳ gồm tội phạm thanh thiếu niên, ngân sách bang, nhà ở, hạ tầng và quy hoạch địa điểm Brisbane 2032; Victoria Park là một dự án di sản Olympic trung tâm của chính phủ ông.",
+      th: "วาระของเขาเน้น youth crime งบประมาณรัฐ ที่อยู่อาศัย โครงสร้างพื้นฐาน และแผนสถานที่ Brisbane 2032 โดย Victoria Park เป็นหนึ่งในโครงการ Olympic legacy หลักของรัฐบาล",
+      si: "ඔහුගේ premiership එක youth crime, state budget, housing, infrastructure සහ Brisbane 2032 venue planning සමඟ බැඳී ඇති අතර Victoria Park plan එක ඔහුගේ රජයේ ප්‍රධාන Olympic legacy project එකකි."
+    }
+  },
+  {
+    name: "Jarrod Bleijie",
+    aliases: ["Jarrod Bleijie", "Jarrod Pieter Bleijie", "Jarrod Bleijie MP", "贾罗德·布莱吉", "賈羅德·布萊吉", "ジャロッド・ブレイジー", "재러드 블레이기"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List/Member-Details?id=555711897" },
+    social: { label: "Facebook", url: "https://www.facebook.com/jarrod.bleijie/" },
+    background: {
+      "zh-Hans": "昆士兰自由国家党政治人物，Kawana 选区州议员，2024 年起任昆士兰副州长，并负责州发展、基础设施、规划和劳资关系。",
+      "zh-Hant": "昆士蘭自由國家黨政治人物，Kawana 選區州議員，2024 年起任昆士蘭副州長，並負責州發展、基礎設施、規劃和勞資關係。",
+      en: "Queensland Liberal National Party politician, MP for Kawana, Deputy Premier of Queensland since 2024, with state development, infrastructure, planning and industrial relations portfolios.",
+      es: "Político del Liberal National Party de Queensland, diputado por Kawana y vicepremier de Queensland desde 2024, con carteras de desarrollo estatal, infraestructura, planificación y relaciones laborales.",
+      ja: "クイーンズランド州 Liberal National Party の政治家で、Kawana 選出の州議員。2024年から副州首相を務め、州開発、インフラ、計画、労使関係を担当しています。",
+      ko: "퀸즐랜드 Liberal National Party 정치인으로 Kawana 지역구 의원이며 2024년부터 퀸즐랜드 부총리로 주 개발, 인프라, 계획, 노사관계를 담당합니다.",
+      vi: "Chính trị gia Liberal National Party tại Queensland, nghị sĩ bang khu Kawana, Deputy Premier of Queensland từ năm 2024, phụ trách phát triển bang, hạ tầng, quy hoạch và quan hệ lao động.",
+      th: "นักการเมือง Liberal National Party ของรัฐควีนส์แลนด์ ส.ส. รัฐเขต Kawana เป็น Deputy Premier of Queensland ตั้งแต่ปี 2024 ดูแล state development, infrastructure, planning และ industrial relations",
+      si: "Queensland Liberal National Party දේශපාලනඥයෙකු වන Jarrod Bleijie, Kawana MP, 2024 සිට Deputy Premier of Queensland වන අතර state development, infrastructure, planning සහ industrial relations portfolios දරයි."
+    },
+    positions: {
+      "zh-Hans": "其公共职责覆盖大型基础设施、规划审批、产业发展和劳资关系；在 Victoria Park 奥运场馆和公众咨询上代表州政府发布方案。",
+      "zh-Hant": "其公共職責覆蓋大型基礎設施、規劃審批、產業發展和勞資關係；在 Victoria Park 奧運場館和公眾諮詢上代表州政府發布方案。",
+      en: "His public role covers major infrastructure, planning approvals, industry development and industrial relations; he presents the government's Victoria Park venue plan and consultation process.",
+      es: "Su función pública cubre grandes infraestructuras, aprobaciones de planificación, desarrollo industrial y relaciones laborales; presenta el plan y la consulta del gobierno para Victoria Park.",
+      ja: "大型インフラ、計画承認、産業開発、労使関係を担当し、Victoria Park 会場計画と住民協議では州政府側の説明役です。",
+      ko: "대형 인프라, 계획 승인, 산업 개발, 노사관계를 담당하며 Victoria Park 경기장 계획과 공공 협의 절차를 정부 입장에서 설명합니다.",
+      vi: "Vai trò công của ông bao gồm hạ tầng lớn, phê duyệt quy hoạch, phát triển công nghiệp và quan hệ lao động; ông trình bày kế hoạch Victoria Park và quy trình tham vấn của chính phủ.",
+      th: "บทบาทสาธารณะครอบคลุมโครงสร้างพื้นฐานขนาดใหญ่ การอนุมัติผังเมือง การพัฒนาอุตสาหกรรม และ industrial relations และเขาเป็นผู้เสนอแผน Victoria Park กับกระบวนการรับฟังความคิดเห็นของรัฐบาล",
+      si: "ඔහුගේ public role එක major infrastructure, planning approvals, industry development සහ industrial relations ආවරණය කරයි; Victoria Park venue plan සහ consultation process ගැන රජය වෙනුවෙන් ඉදිරිපත් කරයි."
+    }
+  },
+  {
     name: "Roger Cook",
     aliases: ["Roger Cook", "Roger Hugh Cook", "Roger Cook MLA", "罗杰·库克", "羅傑·庫克", "ロジャー・クック", "로저 쿡"],
     type: "politician",
