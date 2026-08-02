@@ -106,7 +106,6 @@ npm run build
 当前语言文件：
 
 - `public/news.en.json`
-- `public/news.es.json`
 - `public/news.zh-Hans.json`
 - `public/news.zh-Hant.json`
 - `public/news.si.json`
