@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T09:12:00.332Z",
+  "updatedAt": "2026-08-02T10:09:14Z",
   "generatedBy": "codex",
   "language": "es",
   "sources": [
@@ -101,14 +101,135 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news RSS still renders HTML, so current-item discovery used page and search-result fallback.",
-    "The Australian and Sky News Australia still require fallback extraction for current coverage.",
-    "AAP and 9News current-day story URLs were discovered from homepage listings; direct article fetches were inconsistent in this environment, so the canonical links from those listings were retained.",
-    "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks.",
-    "7NEWS current Australia coverage was harvested from the live listing page because direct article metadata was inconsistent.",
-    "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
+    "news.com.au latest feed still renders HTML, so current-item discovery used page and search-result fallback.",
+    "The Australian and Sky News Australia still required fallback extraction in this pass.",
+    "AAP, AFR, 7NEWS and 9News current stories were discovered from live listings or embedded page data; canonical article URLs were retained when direct feed metadata was inconsistent.",
+    "Yahoo News Australia and The Australian did not expose a stable current-week Australia listing in this environment, so they were kept in sources for continuity but did not add new clusters this run."
   ],
   "clusters": [
+    {
+      "id": "afr-logistics-debt-20260802",
+      "headline": "Crece la presión del ATO sobre un imperio logístico con 60 millones de deuda",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T10:00:00Z",
+      "voiceScript": "Las autoridades fiscales rodean a un imperio logístico que arrastra más de 60 millones de dólares de deuda. El caso importa porque una deuda alta puede convertirse rápidamente en un problema de supervivencia cuando acreedores y reguladores actúan al mismo tiempo. El siguiente paso es ver si la empresa evita un pulso por la liquidación y negocia una salida.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/markets/private-markets/billionaire-s-logistics-empire-lands-on-ato-s-radar-over-60m-debt-20260802-p60kq0"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "medical-safety-net-machines-20260802",
+      "headline": "La presión sobre la red médica deja a los hospitales manejando miles de máquinas",
+      "sourceCount": 4,
+      "publishedAt": "2026-08-02T09:52:00Z",
+      "voiceScript": "Un nuevo informe dice que la red de seguridad médica está bajo presión, con miles de máquinas y un equipo muy reducido para mantenerlas funcionando. Eso eleva el riesgo de retrasos, fallos y atención perdida cuando el equipo deja de funcionar. Ahora la presión recae sobre hospitales y gobiernos para corregir la falta de personal y de mantenimiento.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/holes-in-medical-safety-net-millions-of-machines-thousands-of-problems-a-few-dozen-staff-20260722-p60hfn.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/holes-in-medical-safety-net-millions-of-machines-thousands-of-problems-a-few-dozen-staff-20260722-p60hfn.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/holes-in-medical-safety-net-millions-of-machines-thousands-of-problems-a-few-dozen-staff-20260722-p60hfn.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/holes-in-medical-safety-net-millions-of-machines-thousands-of-problems-a-few-dozen-staff-20260722-p60hfn.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "brisbane-victoria-park-plan-20260802",
+      "headline": "El plan de Victoria Park para Brisbane 2032 divide opiniones",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T09:36:16.506Z",
+      "voiceScript": "Queensland ha presentado un plan conceptual para el recinto Victoria Park de Brisbane 2032, y la propuesta ya divide opiniones. El debate gira en torno al coste, las conexiones de transporte y el uso posterior del lugar. El siguiente paso será la consulta pública y más detalles sobre lo que realmente se construirá.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/sport/2026/aug/02/queensland-reveals-concept-plans-for-brisbane-olympic-stadium-precinct-but-critics-say-they-are-fantasy-vision"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/world-class-brisbane-2032-victoria-park-plan-revealed-20260802-p60kqw.html"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "commonwealth-games-final-day-20260802",
+      "headline": "Australia cierra el día del Commonwealth Games con bronce en netball y drama en ciclismo",
+      "sourceCount": 5,
+      "publishedAt": "2026-08-02T09:35:43Z",
+      "voiceScript": "Australia cerró la última jornada con una medalla de bronce en netball, mientras la sesión de ciclismo en pista se vio interrumpida por caídas. La medalla suma al total nacional, pero el cierre también mostró lo exigente que fue la jornada para atletas y equipos de apoyo. Ahora queda el recuento final y comprobar si hubo lesionados en los incidentes del ciclismo.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/live-blog-commonwealth-games-day-ten/106987006"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/sport/commonwealth-games-2026-live-diamonds-battle-england-for-netball-bronze-cycling-athletics-continues-as-final-day-begins-20260802-p60kqx.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/sport/commonwealth-games-2026-live-diamonds-battle-england-for-netball-bronze-cycling-athletics-continues-as-final-day-begins-20260802-p60kqx.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/sport/commonwealth-games-2026-live-diamonds-battle-england-for-netball-bronze-cycling-athletics-continues-as-final-day-begins-20260802-p60kqx.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/sport/commonwealth-games-2026-live-diamonds-battle-england-for-netball-bronze-cycling-athletics-continues-as-final-day-begins-20260802-p60kqx.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "adelaide-teen-hit-by-two-cars-20260802",
+      "headline": "Muere un adolescente en Adelaida tras ser atropellado por dos coches",
+      "sourceCount": 5,
+      "publishedAt": "2026-08-02T09:09:16.771Z",
+      "voiceScript": "Un adolescente ha muerto tras ser atropellado por dos coches en una zona de ocio de Adelaida. La policía estudia cómo ocurrió el primer choque y por qué el segundo vehículo no pudo evitar la escena. Los testimonios y el apoyo a la familia serán claves en la siguiente fase de la investigación.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/sa/teen-dies-after-being-hit-by-two-cars-on-adelaide-party-strip-20260802-p60kqt.html"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/teen-dies-after-being-hit-by-car-in-adelaide-cbd-20260802-p60kr9.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/teen-dies-after-being-hit-by-car-in-adelaide-cbd-20260802-p60kr9.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/teen-dies-after-being-hit-by-car-in-adelaide-cbd-20260802-p60kr9.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/teen-dies-after-being-hit-by-car-in-adelaide-cbd-20260802-p60kr9.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ],
+      "language": "es"
+    },
     {
       "id": "abc-ankle-bracelet-manhunt",
       "headline": "La policía busca a ocho presuntos fugitivos tras cortarles las tobilleras electrónicas",
@@ -120,6 +241,41 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-02/alleged-offenders-cutting-off-ankle-bracelets-sparks-manhunt/106987974"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "fuel-relief-ends-20260802",
+      "headline": "Termina el alivio al combustible y suben las previsiones de la gasolina",
+      "sourceCount": 6,
+      "publishedAt": "2026-08-02T08:33:29Z",
+      "voiceScript": "El alivio temporal al impuesto al combustible ya terminó y se espera que la gasolina y el diésel suban en los próximos días. Eso importa porque los hogares ya sufren por el transporte y una inflación persistente. Lo primero que verán los conductores será el cambio en los precios, mientras el resto del mercado sigue de cerca el ajuste.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/fuel-excise-cut-ending/106987482"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/sunrise/petrol-price-hike-motorists-across-australia-urged-to-fill-up-before-fuel-discount-ends-at-midnight-c-22663717"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/fuel-excise-cut-to-end-at-midnight-20260802-p60kmj.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/fuel-excise-cut-to-end-at-midnight-20260802-p60kmj.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/fuel-excise-cut-to-end-at-midnight-20260802-p60kmj.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/fuel-excise-cut-to-end-at-midnight-20260802-p60kmj.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
         }
       ],
       "language": "es"
@@ -520,6 +676,21 @@
       }
     },
     {
+      "id": "household-spending-iran-war-20260802",
+      "headline": "El gasto de los hogares vuelve al foco mientras la guerra y el combustible pesan",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T02:00:00Z",
+      "voiceScript": "El gasto de los hogares vuelve a estar en el foco mientras el conflicto en Oriente Medio sigue sacudiendo los mercados energéticos y la confianza de los consumidores. Los datos importan porque muestran si las familias siguen recortando o si la demanda resiste pese a los costes más altos. Lo siguiente será ver cómo estas cifras influyen en las decisiones del banco central sobre inflación y tipos.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/household-spending-in-spotlight-as-iran-war-drags-on"
+        }
+      ],
+      "language": "es"
+    },
+    {
       "id": "hindley-street-fatal",
       "language": "es",
       "headline": "Un joven murió tras ser atropellado dos veces en Hindley Street, Adelaida",
@@ -711,6 +882,37 @@
           "score": 18
         }
       ]
+    },
+    {
+      "id": "melbourne-man-car-thief-20260801",
+      "headline": "Un hombre de Melbourne lucha por su vida tras enfrentarse a un ladrón de coches",
+      "sourceCount": 5,
+      "publishedAt": "2026-08-01T21:18:45.840Z",
+      "voiceScript": "Un hombre de Melbourne lucha por su vida después de intentar impedir el robo de su coche. La policía dice que fue atropellado durante el hurto, y ahora trata el caso como una investigación por violencia grave. La gran pregunta es cómo el ladrón consiguió el control del vehículo y adónde fue después.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/vic/melbourne-crime-man-run-over-with-own-stolen-car-heidelberg-west-20260802-p60km8.html"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/man-fighting-for-life-after-being-hit-by-car-in-melbourne-20260802-p60kml.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/man-fighting-for-life-after-being-hit-by-car-in-melbourne-20260802-p60kml.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/man-fighting-for-life-after-being-hit-by-car-in-melbourne-20260802-p60kml.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/man-fighting-for-life-after-being-hit-by-car-in-melbourne-20260802-p60kml.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ],
+      "language": "es"
     },
     {
       "id": "australia-record-commonwealth-games-athletics-session",
@@ -952,6 +1154,37 @@
           "score": 5
         }
       ]
+    },
+    {
+      "id": "shopworker-robbery-20260801",
+      "headline": "Una trabajadora queda en estado crítico tras enfrentarse a unos presuntos ladrones",
+      "sourceCount": 5,
+      "publishedAt": "2026-08-01T10:51:09.507Z",
+      "voiceScript": "Una trabajadora de una tienda está en estado crítico después de intentar detener a unos presuntos ladrones. La policía investiga cómo se produjo el ataque y si los sospechosos escaparon en medio del caos. El caso demuestra lo rápido que una discusión rutinaria en un comercio puede volverse violenta.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/vic/shop-worker-attacked-while-attempting-to-stop-robbery-20260801-p60klj.html"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/shopworker-critical-after-trying-to-stop-alleged-thieves-20260802-p60kr7.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/shopworker-critical-after-trying-to-stop-alleged-thieves-20260802-p60kr7.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/shopworker-critical-after-trying-to-stop-alleged-thieves-20260802-p60kr7.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/shopworker-critical-after-trying-to-stop-alleged-thieves-20260802-p60kr7.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ],
+      "language": "es"
     },
     {
       "id": "australia-france-wildfire-support",
@@ -2527,6 +2760,40 @@
           "score": 5
         }
       ]
+    },
+    {
+      "id": "inflation-warning-rba-20260730",
+      "headline": "Nuevas advertencias de inflación mantienen la presión sobre el banco central",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T01:32:00.000Z",
+      "voiceScript": "Las advertencias sobre la inflación siguen pesando sobre el banco central, con economistas divididos sobre si hacen falta más subidas de tipos. Los hogares quieren una pausa, pero el próximo dato de inflación decidirá si el banco puede mantenerse firme o endurecerse otra vez. Para quienes tienen préstamos, la presión del coste de la vida aún no ha terminado.",
+      "differences": [],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/interest-rates/leading-economist-tempers-cut-hopes-warns-cash-rate-still-needs-to-rise/news-story/72252c6d129d8d824c93c1ba7806ecd5"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "bird-flu-local-transmission-20260729",
+      "headline": "Crece la preocupación por la gripe aviar tras confirmarse transmisión local",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T07:06:55.584Z",
+      "voiceScript": "Las autoridades han confirmado transmisión local de gripe aviar H5, lo que aumenta el riesgo de que el brote se extienda. La prioridad inmediata es contener, hacer pruebas y proteger granjas y zonas de fauna salvaje. La gran duda es si seguirá siendo un problema local o se convertirá en una amenaza estacional más amplia.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/sa-bird-flu-concern/106987886"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/sa/authorities-confirm-local-transmission-of-h5-bird-flu-20260729-p60jp1.html"
+        }
+      ],
+      "language": "es"
     },
     {
       "id": "inflation-june-cpi-rba-hold",

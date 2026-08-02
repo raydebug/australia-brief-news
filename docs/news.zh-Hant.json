@@ -1,114 +1,128 @@
 {
-  "updatedAt": "2026-08-02T09:12:00.332Z",
-  "generatedBy": "codex",
-  "language": "zh-Hant",
-  "sources": [
-    {
-      "id": "abc",
-      "name": "ABC News",
-      "region": "National",
-      "feed": "https://www.abc.net.au/news/feed/51120/rss.xml"
-    },
-    {
-      "id": "sbs",
-      "name": "SBS News",
-      "region": "National",
-      "feed": "https://www.sbs.com.au/news/feed"
-    },
-    {
-      "id": "guardian-au",
-      "name": "The Guardian Australia",
-      "region": "National",
-      "feed": "https://www.theguardian.com/australia-news/rss"
-    },
-    {
-      "id": "news-com-au",
-      "name": "news.com.au",
-      "region": "National",
-      "feed": "https://www.news.com.au/content-feeds/latest-news-rss/"
-    },
-    {
-      "id": "the-australian",
-      "name": "The Australian",
-      "region": "National",
-      "feed": "https://www.theaustralian.com.au/"
-    },
-    {
-      "id": "yahoo-au",
-      "name": "Yahoo News Australia",
-      "region": "National",
-      "feed": "https://au.news.yahoo.com/"
-    },
-    {
-      "id": "afr",
-      "name": "Australian Financial Review",
-      "region": "Business",
-      "feed": "https://www.afr.com/latest"
-    },
-    {
-      "id": "sky-news-au",
-      "name": "Sky News Australia",
-      "region": "National",
-      "feed": "https://www.skynews.com.au/australia-news"
-    },
-    {
-      "id": "nine-news-au",
-      "name": "9News",
-      "region": "National",
-      "feed": "https://www.9news.com.au/national"
-    },
-    {
-      "id": "seven-news-au",
-      "name": "7NEWS",
-      "region": "National",
-      "feed": "https://7news.com.au/news/australia"
-    },
-    {
-      "id": "smh",
-      "name": "The Sydney Morning Herald",
-      "region": "NSW",
-      "feed": "https://www.smh.com.au/national"
-    },
-    {
-      "id": "the-age",
-      "name": "The Age",
-      "region": "Victoria",
-      "feed": "https://www.theage.com.au/national/victoria"
-    },
-    {
-      "id": "brisbane-times",
-      "name": "Brisbane Times",
-      "region": "Queensland",
-      "feed": "https://www.brisbanetimes.com.au/national/queensland"
-    },
-    {
-      "id": "watoday",
-      "name": "WAtoday",
-      "region": "Western Australia",
-      "feed": "https://www.watoday.com.au/national/western-australia"
-    },
-    {
-      "id": "canberra-times",
-      "name": "The Canberra Times",
-      "region": "ACT",
-      "feed": "https://www.canberratimes.com.au/news/latest-news/"
-    },
-    {
-      "id": "aap",
-      "name": "AAP",
-      "region": "National",
-      "feed": "https://www.aap.com.au/news/"
-    }
-  ],
-  "errors": [
-    "news.com.au latest-news RSS still renders HTML, so current-item discovery used page and search-result fallback.",
-    "The Australian and Sky News Australia still require fallback extraction for current coverage.",
-    "AAP and 9News current-day story URLs were discovered from homepage listings; direct article fetches were inconsistent in this environment, so the canonical links from those listings were retained.",
-    "Sky News Australia returned 404 from the legacy fetch path in this environment, so the live-site fallback was used for current coverage checks.",
-    "7NEWS current Australia coverage was harvested from the live listing page because direct article metadata was inconsistent.",
-    "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
-  ],
   "clusters": [
+    {
+      "id": "afr-logistics-debt-20260802",
+      "headline": "ATO 施壓，一家物流帝國背負 6000 萬澳元債務",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T10:00:00Z",
+      "voiceScript": "稅務局正在向一家背負超過 6000 萬澳元債務的物流帝國施壓。這件事之所以重要，是因為一旦債權人和監管機構同時發力，高槓桿企業很快就會陷入生存危機。下一步要看公司能否避開清算爭端，並談出一條繼續經營的路。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/markets/private-markets/billionaire-s-logistics-empire-lands-on-ato-s-radar-over-60m-debt-20260802-p60kq0"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "medical-safety-net-machines-20260802",
+      "headline": "醫療安全網吃緊，醫院要同時應付成千上萬台設備",
+      "sourceCount": 4,
+      "publishedAt": "2026-08-02T09:52:00Z",
+      "voiceScript": "一份新報告顯示，醫療設備維護體系已經吃緊，成千上萬台機器卻只靠少量人員維持運轉。風險不只是維修延遲，還包括設備故障拖慢治療，甚至影響病人照護。現在的壓力在於，醫院和政府必須盡快補上人手和維護缺口。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/holes-in-medical-safety-net-millions-of-machines-thousands-of-problems-a-few-dozen-staff-20260722-p60hfn.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/holes-in-medical-safety-net-millions-of-machines-thousands-of-problems-a-few-dozen-staff-20260722-p60hfn.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/holes-in-medical-safety-net-millions-of-machines-thousands-of-problems-a-few-dozen-staff-20260722-p60hfn.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/holes-in-medical-safety-net-millions-of-machines-thousands-of-problems-a-few-dozen-staff-20260722-p60hfn.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "brisbane-victoria-park-plan-20260802",
+      "headline": "布里斯本 2032 維多利亞公園方案引發褒貶",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T09:36:16.506Z",
+      "voiceScript": "昆士蘭公布了布里斯本 2032 維多利亞公園賽區的概念方案，這份提案立刻引發分歧。之所以備受關注，是因為成本、交通連結和賽後用途都很關鍵。下一步將進入徵詢階段，並公布更多實際建設細節。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/sport/2026/aug/02/queensland-reveals-concept-plans-for-brisbane-olympic-stadium-precinct-but-critics-say-they-are-fantasy-vision"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/world-class-brisbane-2032-victoria-park-plan-revealed-20260802-p60kqw.html"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "commonwealth-games-final-day-20260802",
+      "headline": "澳洲在英聯邦運動會收官日拿下無板籃球銅牌，自行車賽卻接連出狀況",
+      "sourceCount": 5,
+      "publishedAt": "2026-08-02T09:35:43Z",
+      "voiceScript": "澳洲在英聯邦運動會最後一天拿到無板籃球銅牌，但場地自行車賽段也因為撞車而一度中斷。獎牌進帳為總榜再添一筆，不過收官賽程的強度也讓運動員和保障團隊承受了很大壓力。接下來要看最終獎牌數，以及自行車事故後是否有人受傷。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/live-blog-commonwealth-games-day-ten/106987006"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/sport/commonwealth-games-2026-live-diamonds-battle-england-for-netball-bronze-cycling-athletics-continues-as-final-day-begins-20260802-p60kqx.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/sport/commonwealth-games-2026-live-diamonds-battle-england-for-netball-bronze-cycling-athletics-continues-as-final-day-begins-20260802-p60kqx.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/sport/commonwealth-games-2026-live-diamonds-battle-england-for-netball-bronze-cycling-athletics-continues-as-final-day-begins-20260802-p60kqx.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/sport/commonwealth-games-2026-live-diamonds-battle-england-for-netball-bronze-cycling-athletics-continues-as-final-day-begins-20260802-p60kqx.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "adelaide-teen-hit-by-two-cars-20260802",
+      "headline": "阿德萊德青少年遭兩車撞擊後身亡",
+      "sourceCount": 5,
+      "publishedAt": "2026-08-02T09:09:16.771Z",
+      "voiceScript": "阿德萊德一名青少年在熱鬧街區遭兩輛車撞擊後死亡。警方正在調查第一次碰撞是如何發生的，以及第二輛車為何沒能避開現場。接下來，目擊者證詞和家屬支持將成為調查的重要部分。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/sa/teen-dies-after-being-hit-by-two-cars-on-adelaide-party-strip-20260802-p60kqt.html"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/teen-dies-after-being-hit-by-car-in-adelaide-cbd-20260802-p60kr9.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/teen-dies-after-being-hit-by-car-in-adelaide-cbd-20260802-p60kr9.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/teen-dies-after-being-hit-by-car-in-adelaide-cbd-20260802-p60kr9.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/teen-dies-after-being-hit-by-car-in-adelaide-cbd-20260802-p60kr9.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ],
+      "language": "zh-Hant"
+    },
     {
       "id": "abc-ankle-bracelet-manhunt",
       "headline": "警方追緝8名被指剪斷電子腳環的嫌疑人",
@@ -120,6 +134,41 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-02/alleged-offenders-cutting-off-ankle-bracelets-sparks-manhunt/106987974"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "fuel-relief-ends-20260802",
+      "headline": "燃油減稅結束，駕駛準備迎接油價上調",
+      "sourceCount": 6,
+      "publishedAt": "2026-08-02T08:33:29Z",
+      "voiceScript": "臨時燃油消費稅減免已經結束，接下來幾天汽油和柴油價格預計會上漲。對家庭來說，這會直接推高通勤和運輸開支，也會讓通膨壓力繼續受到關注。最先感受到變化的是駕駛，後續要看零售端調價有多快。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/fuel-excise-cut-ending/106987482"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/sunrise/petrol-price-hike-motorists-across-australia-urged-to-fill-up-before-fuel-discount-ends-at-midnight-c-22663717"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/fuel-excise-cut-to-end-at-midnight-20260802-p60kmj.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/fuel-excise-cut-to-end-at-midnight-20260802-p60kmj.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/fuel-excise-cut-to-end-at-midnight-20260802-p60kmj.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/fuel-excise-cut-to-end-at-midnight-20260802-p60kmj.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
         }
       ],
       "language": "zh-Hant"
@@ -524,6 +573,21 @@
       }
     },
     {
+      "id": "household-spending-iran-war-20260802",
+      "headline": "戰事與燃料成本施壓，家庭支出再成焦點",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T02:00:00Z",
+      "voiceScript": "隨著中東衝突繼續攪動能源市場和消費者信心，家庭支出再次成為焦點。相關數據之所以重要，是因為它能看出家庭是否還在收緊開支，還是在更高成本下仍維持消費。下一步要看這些數字如何影響澳洲央行對通膨和利率的判斷。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/household-spending-in-spotlight-as-iran-war-drags-on"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
       "id": "hindley-street-fatal",
       "headline": "阿德萊德 Hindley Street 雙重撞擊事故致少年身亡",
       "sourceCount": 2,
@@ -715,6 +779,37 @@
           "score": 18
         }
       ]
+    },
+    {
+      "id": "melbourne-man-car-thief-20260801",
+      "headline": "墨爾本男子阻止偷車時命危",
+      "sourceCount": 5,
+      "publishedAt": "2026-08-01T21:18:45.840Z",
+      "voiceScript": "一名墨爾本男子在試圖阻止偷車時命懸一線。警方稱，他在車輛被盜過程中遭到撞擊，案件已經按暴力犯罪方向調查。現在最關鍵的問題是，嫌疑人如何拿到車輛控制權，以及之後去了哪裡。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/vic/melbourne-crime-man-run-over-with-own-stolen-car-heidelberg-west-20260802-p60km8.html"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/man-fighting-for-life-after-being-hit-by-car-in-melbourne-20260802-p60kml.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/man-fighting-for-life-after-being-hit-by-car-in-melbourne-20260802-p60kml.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/man-fighting-for-life-after-being-hit-by-car-in-melbourne-20260802-p60kml.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/man-fighting-for-life-after-being-hit-by-car-in-melbourne-20260802-p60kml.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ],
+      "language": "zh-Hant"
     },
     {
       "id": "australia-record-commonwealth-games-athletics-session",
@@ -956,6 +1051,37 @@
           "score": 5
         }
       ]
+    },
+    {
+      "id": "shopworker-robbery-20260801",
+      "headline": "店員阻攔疑似盜賊後傷勢危急",
+      "sourceCount": 5,
+      "publishedAt": "2026-08-01T10:51:09.507Z",
+      "voiceScript": "一名店員在試圖阻止疑似盜賊時傷勢危急。警方正在調查襲擊經過，以及嫌疑人是否趁亂逃離現場。這個案子再次說明，普通的零售衝突也可能在幾秒內演變成暴力事件。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/vic/shop-worker-attacked-while-attempting-to-stop-robbery-20260801-p60klj.html"
+        },
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/shopworker-critical-after-trying-to-stop-alleged-thieves-20260802-p60kr7.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/shopworker-critical-after-trying-to-stop-alleged-thieves-20260802-p60kr7.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/shopworker-critical-after-trying-to-stop-alleged-thieves-20260802-p60kr7.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/shopworker-critical-after-trying-to-stop-alleged-thieves-20260802-p60kr7.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ],
+      "language": "zh-Hant"
     },
     {
       "id": "australia-france-wildfire-support",
@@ -2526,6 +2652,40 @@
       ]
     },
     {
+      "id": "inflation-warning-rba-20260730",
+      "headline": "新的通膨警告繼續向澳洲央行施壓",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T01:32:00.000Z",
+      "voiceScript": "新的通膨警告仍在壓著澳洲央行，經濟學家對是否還需要升息意見不一。家庭希望按下暫停鍵，但下一份通膨數據將決定央行是能維持不動，還是必須再次收緊政策。對借款人來說，生活成本擠壓顯然還沒有結束。",
+      "differences": [],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/interest-rates/leading-economist-tempers-cut-hopes-warns-cash-rate-still-needs-to-rise/news-story/72252c6d129d8d824c93c1ba7806ecd5"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
+      "id": "bird-flu-local-transmission-20260729",
+      "headline": "確認出現本地傳播後，禽流感憂慮升高",
+      "sourceCount": 2,
+      "publishedAt": "2026-07-29T07:06:55.584Z",
+      "voiceScript": "當局已經確認 H5 禽流感出現本地傳播，這讓疫情可能進一步擴散的風險上升。眼下最重要的是圍堵、檢測，以及保護農場和野生動物地點。接下來要看它會不會只停留在局部，還是變成更廣泛的季節性威脅。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/sa-bird-flu-concern/106987886"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/sa/authorities-confirm-local-transmission-of-h5-bird-flu-20260729-p60jp1.html"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
       "id": "inflation-june-cpi-rba-hold",
       "headline": "6月通膨回落讓澳洲央行多了暫停空間，但壓力並未消失",
       "sourceCount": 6,
@@ -2723,5 +2883,112 @@
       ]
     }
   ],
-  "links": []
+  "errors": [
+    "news.com.au latest feed still renders HTML, so current-item discovery used page and search-result fallback.",
+    "The Australian and Sky News Australia still required fallback extraction in this pass.",
+    "AAP, AFR, 7NEWS and 9News current stories were discovered from live listings or embedded page data; canonical article URLs were retained when direct feed metadata was inconsistent.",
+    "Yahoo News Australia and The Australian did not expose a stable current-week Australia listing in this environment, so they were kept in sources for continuity but did not add new clusters this run."
+  ],
+  "generatedBy": "codex",
+  "language": "zh-Hant",
+  "links": [],
+  "sources": [
+    {
+      "id": "abc",
+      "name": "ABC News",
+      "region": "National",
+      "feed": "https://www.abc.net.au/news/feed/51120/rss.xml"
+    },
+    {
+      "id": "sbs",
+      "name": "SBS News",
+      "region": "National",
+      "feed": "https://www.sbs.com.au/news/feed"
+    },
+    {
+      "id": "guardian-au",
+      "name": "The Guardian Australia",
+      "region": "National",
+      "feed": "https://www.theguardian.com/australia-news/rss"
+    },
+    {
+      "id": "news-com-au",
+      "name": "news.com.au",
+      "region": "National",
+      "feed": "https://www.news.com.au/content-feeds/latest-news-rss/"
+    },
+    {
+      "id": "the-australian",
+      "name": "The Australian",
+      "region": "National",
+      "feed": "https://www.theaustralian.com.au/"
+    },
+    {
+      "id": "yahoo-au",
+      "name": "Yahoo News Australia",
+      "region": "National",
+      "feed": "https://au.news.yahoo.com/"
+    },
+    {
+      "id": "afr",
+      "name": "Australian Financial Review",
+      "region": "Business",
+      "feed": "https://www.afr.com/latest"
+    },
+    {
+      "id": "sky-news-au",
+      "name": "Sky News Australia",
+      "region": "National",
+      "feed": "https://www.skynews.com.au/australia-news"
+    },
+    {
+      "id": "nine-news-au",
+      "name": "9News",
+      "region": "National",
+      "feed": "https://www.9news.com.au/national"
+    },
+    {
+      "id": "seven-news-au",
+      "name": "7NEWS",
+      "region": "National",
+      "feed": "https://7news.com.au/news/australia"
+    },
+    {
+      "id": "smh",
+      "name": "The Sydney Morning Herald",
+      "region": "NSW",
+      "feed": "https://www.smh.com.au/national"
+    },
+    {
+      "id": "the-age",
+      "name": "The Age",
+      "region": "Victoria",
+      "feed": "https://www.theage.com.au/national/victoria"
+    },
+    {
+      "id": "brisbane-times",
+      "name": "Brisbane Times",
+      "region": "Queensland",
+      "feed": "https://www.brisbanetimes.com.au/national/queensland"
+    },
+    {
+      "id": "watoday",
+      "name": "WAtoday",
+      "region": "Western Australia",
+      "feed": "https://www.watoday.com.au/national/western-australia"
+    },
+    {
+      "id": "canberra-times",
+      "name": "The Canberra Times",
+      "region": "ACT",
+      "feed": "https://www.canberratimes.com.au/news/latest-news/"
+    },
+    {
+      "id": "aap",
+      "name": "AAP",
+      "region": "National",
+      "feed": "https://www.aap.com.au/news/"
+    }
+  ],
+  "updatedAt": "2026-08-02T10:09:14Z"
 }
