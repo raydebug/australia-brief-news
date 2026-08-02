@@ -981,6 +981,52 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Mark Butler",
+    aliases: ["Mark Butler", "Mark Christopher Butler", "Mark Butler MP", "马克·巴特勒", "馬克·巴特勒", "マーク・バトラー", "마크 버틀러"],
+    type: "politician",
+    profile: { label: "Minister biography", url: "https://www.health.gov.au/ministers/the-hon-mark-butler-mp/biography?language=en" },
+    social: { label: "X", url: "https://x.com/Mark_Butler_MP" },
+    background: {
+      "zh-Hans": "澳大利亚工党联邦政治人物，2007 年起任联邦议员，现为 Hindmarsh 选区议员，并担任联邦卫生、老龄、残障和 NDIS 部长。",
+      "zh-Hant": "澳洲工黨聯邦政治人物，2007 年起任聯邦議員，現為 Hindmarsh 選區議員，並擔任聯邦衛生、老齡、殘障和 NDIS 部長。",
+      en: "Australian Labor federal politician, a federal MP since 2007, Member for Hindmarsh, and Minister for Health and Ageing and for Disability and the NDIS.",
+      es: "Político federal laborista australiano, diputado desde 2007, miembro por Hindmarsh y ministro de Salud y Envejecimiento, Discapacidad y NDIS.",
+      ja: "オーストラリア労働党の連邦政治家。2007年から連邦議員で、Hindmarsh 選出。保健・高齢化、障害、NDIS を担当する大臣です。",
+      ko: "호주 노동당 연방 정치인으로 2007년부터 연방 하원의원이며 Hindmarsh 지역구 의원, 보건·고령화·장애·NDIS 장관입니다.",
+      vi: "Chính trị gia liên bang Labor Australia, nghị sĩ liên bang từ năm 2007, dân biểu Hindmarsh, Bộ trưởng Health and Ageing, Disability và NDIS.",
+      th: "นักการเมืองรัฐบาลกลาง Australian Labor เป็น ส.ส. ตั้งแต่ปี 2007 เขต Hindmarsh และเป็น Minister for Health and Ageing, Disability และ NDIS",
+      si: "Australian Labor federal politician කෙනෙකු වන Mark Butler, 2007 සිට federal MP, Hindmarsh Member, සහ Health and Ageing, Disability සහ NDIS Minister වේ."
+    },
+    positions: {
+      "zh-Hans": "其公共职责覆盖 Medicare、PBS、医院、老龄医疗、残障政策和 NDIS；新药纳入 PBS 时通常由其代表联邦政府说明补贴和患者负担变化。",
+      "zh-Hant": "其公共職責覆蓋 Medicare、PBS、醫院、老齡醫療、殘障政策和 NDIS；新藥納入 PBS 時通常由其代表聯邦政府說明補貼和患者負擔變化。",
+      en: "His public responsibilities cover Medicare, the PBS, hospitals, aged care, disability policy and the NDIS; PBS medicine listings are part of his federal health portfolio.",
+      es: "Sus responsabilidades públicas cubren Medicare, el PBS, hospitales, atención a mayores, política de discapacidad y el NDIS; las inclusiones de medicamentos en el PBS forman parte de su cartera sanitaria.",
+      ja: "Medicare、PBS、病院、高齢者ケア、障害政策、NDIS を所管し、PBS への医薬品収載は連邦保健担当大臣としての職務に含まれます。",
+      ko: "Medicare, PBS, 병원, 노인 돌봄, 장애 정책, NDIS를 담당하며 PBS 의약품 등재는 그의 연방 보건 포트폴리오에 포함됩니다.",
+      vi: "Trách nhiệm công của ông bao gồm Medicare, PBS, bệnh viện, chăm sóc người cao tuổi, chính sách khuyết tật và NDIS; danh mục thuốc PBS thuộc danh mục y tế liên bang của ông.",
+      th: "หน้าที่สาธารณะครอบคลุม Medicare, PBS, โรงพยาบาล, aged care, disability policy และ NDIS โดยการขึ้นบัญชียา PBS อยู่ในพอร์ตโฟลิโอสุขภาพของรัฐบาลกลาง",
+      si: "ඔහුගේ public responsibilities Medicare, PBS, hospitals, aged care, disability policy සහ NDIS ආවරණය කරයි; PBS medicine listings ඔහුගේ federal health portfolio එකේ කොටසකි."
+    }
+  },
+  {
+    name: "Richard Scolyer",
+    aliases: ["Richard Scolyer", "Richard Anthony Scolyer", "Professor Richard Scolyer", "Richard Scolyer AO", "理查德·斯科利尔", "理查德·斯科利爾", "リチャード・スコリアー", "리처드 스콜리어"],
+    type: "public-figure",
+    profile: { label: "Melanoma Institute profile", url: "https://melanoma.org.au/news/team/professor-richard-scolyer-ao/" },
+    background: {
+      "zh-Hans": "澳大利亚病理学家和黑色素瘤研究者，曾任 Melanoma Institute Australia 共同医学主任，并与 Georgina Long 共同获评 2024 年 Australian of the Year。",
+      "zh-Hant": "澳洲病理學家和黑色素瘤研究者，曾任 Melanoma Institute Australia 共同醫學主任，並與 Georgina Long 共同獲評 2024 年 Australian of the Year。",
+      en: "Australian pathologist and melanoma researcher, formerly co-medical director of Melanoma Institute Australia, and joint 2024 Australian of the Year with Georgina Long.",
+      es: "Patólogo australiano e investigador del melanoma, ex codirector médico de Melanoma Institute Australia y Australian of the Year 2024 junto con Georgina Long.",
+      ja: "オーストラリアの病理医・メラノーマ研究者。Melanoma Institute Australia の共同医療ディレクターを務め、Georgina Long と共に 2024年 Australian of the Year に選ばれました。",
+      ko: "호주 병리학자이자 흑색종 연구자로 Melanoma Institute Australia 공동 의료 책임자를 지냈고 Georgina Long과 함께 2024 Australian of the Year로 선정됐습니다.",
+      vi: "Nhà bệnh học và nhà nghiên cứu melanoma của Australia, cựu đồng giám đốc y khoa Melanoma Institute Australia, đồng nhận Australian of the Year 2024 với Georgina Long.",
+      th: "นักพยาธิวิทยาและนักวิจัย melanoma ของออสเตรเลีย อดีต co-medical director ของ Melanoma Institute Australia และ Australian of the Year 2024 ร่วมกับ Georgina Long",
+      si: "Australian pathologist සහ melanoma researcher කෙනෙකු වූ Richard Scolyer, Melanoma Institute Australia co-medical director ලෙස කටයුතු කළ අතර Georgina Long සමඟ 2024 Australian of the Year විය."
+    }
+  },
+  {
     name: "Djawa Yunupiŋu",
     aliases: ["Djawa Yunupiŋu", "Djawa Yunupingu", "Djawa Yunupi\u014bu", "Djawa Yunupi", "贾瓦·尤努平古", "賈瓦·尤努平古", "ジャワ・ユヌピング", "자와 유누핑구"],
     type: "public-figure",
