@@ -213,6 +213,21 @@
       }
     },
     {
+      "id": "abc-brooke-stephens-vigil",
+      "headline": "Melbourne mourners honour Brooke Stephens at a candlelit vigil",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T09:25:00Z",
+      "voiceScript": "Hundreds of people gathered in Clyde North for a candlelit vigil for Brooke Stephens, one week after she was allegedly murdered in her home. The gathering matters because it shows how quickly a local tragedy can become a wider conversation about grief, safety and support for the victim’s family. The next step is the police case and any formal charges that follow.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/melbourne-mother-brooke-stephens-vigil/106987572"
+        }
+      ],
+      "language": "en"
+    },
+    {
       "id": "adelaide-teen-hit-by-two-cars-20260802",
       "headline": "Adelaide teenager dies after being hit by two cars",
       "sourceCount": 5,
@@ -266,12 +281,12 @@
       "headline": "Police hunt eight alleged offenders after ankle bracelets are cut off",
       "sourceCount": 1,
       "publishedAt": "2026-08-02T08:56:44Z",
-      "voiceScript": "Police say eight alleged offenders are being sought after their ankle monitoring devices were allegedly cut off, triggering a manhunt across multiple locations. The concern is not only that the suspects have disappeared, but that they may still pose a risk while out of sight and off supervision. Authorities are urging the public not to approach them and to report any sightings immediately. The next step is to locate the group and work out how the monitoring system was breached.",
+      "voiceScript": "Police say eight alleged offenders are on the run after their electronic monitoring devices were cut off, forcing a big manhunt to pull officers away from other duties. The case matters because monitoring only works if the devices stay on and alert police when they do not. The next step is finding them and figuring out how the devices were defeated.",
       "differences": [],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-02/alleged-offenders-cutting-off-ankle-bracelets-sparks-manhunt/106987974"
+          "url": "https://www.abc.net.au/news/2026-08-02/wa-manhunt-eight-alleged-offenders-ankle-bracelets/106987680"
         }
       ],
       "language": "en",
@@ -355,14 +370,24 @@
     {
       "id": "abc-socceroo-premier-league-move",
       "headline": "Record Premier League move edges closer for an Australian Socceroo",
-      "sourceCount": 1,
+      "sourceCount": 3,
       "publishedAt": "2026-08-02T08:25:39Z",
-      "voiceScript": "A transfer that could reset the benchmark for an Australian player is said to be moving closer, with a Socceroo linked to the Premier League. The story matters because a deal at that level can reshape a career and raise the visibility of Australian talent overseas. The immediate question is whether the contract is finalised and what role the player would be expected to fill. Until the paperwork is locked in, the fee and contract terms remain the main variables.",
-      "differences": [],
+      "voiceScript": "Lucas Herrington is on the verge of a move to Hull City that would make him the most expensive Australian footballer ever. The fee and sell-on terms show how highly the 18-year-old defender is rated after his World Cup breakthrough. The immediate question is whether the deal is finalized and how quickly the transfer paperwork is completed.",
+      "differences": [
+        "ABC and AAP keep the focus on the transfer milestone itself, while news.com.au highlights the reported bid size and deal structure."
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-02/lucas-herrington-transfer-record-breaking-premier-league/106988080"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/football/socceroos-wonderkid-lucas-herrington-set-for-premier-league-after-recordbreaking-bid/news-story/fa1310e38f0cb8e5eac466805e850c1f"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/record-breaking-premier-league-move-looms-for-socceroo"
         }
       ],
       "language": "en",
@@ -396,15 +421,21 @@
     },
     {
       "id": "abc-sandilands-threats",
-      "headline": "Kyle Sandilands says he received threats during a TV interview",
-      "sourceCount": 1,
+      "headline": "Kyle Sandilands says he received threats after his radio split",
+      "sourceCount": 2,
       "publishedAt": "2026-08-02T08:01:36Z",
-      "voiceScript": "Kyle Sandilands says he was threatened during a recent interview, adding another layer to a story already tied to media exposure and personal safety. The immediate questions are what was said, whether broadcasters or police need to respond, and whether the claim can be independently checked. It matters because threats against public figures often widen into a broader conversation about online abuse and acceptable public conduct. The next development is whether any formal complaint or police response follows.",
-      "differences": [],
+      "voiceScript": "Kyle Sandilands says he was threatened after his split from the radio show, and the claim now sits alongside the unresolved questions about how the firing unfolded. It matters because the story touches on workplace fallout, public pressure and personal safety around a high-profile media figure. The next step is whether any formal response or further evidence emerges.",
+      "differences": [
+        "ABC reports the interview claim directly, while news.com.au frames the same material as part of a broader documentary and breakup story."
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-02/kyle-sandilands-says-on-stefanovic-show-received-death-threats/106987624"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/entertainment/celebrity-life/not-safe-kyle-reveals-death-threat-saga-as-he-shares-truth-behind-sacking/news-story/2a996b342413af67ebd94b49581580e8"
         }
       ],
       "language": "en",
@@ -924,6 +955,27 @@
           "score": 10
         }
       ]
+    },
+    {
+      "id": "abc-mackenzie-little-gold",
+      "headline": "Mackenzie Little wins javelin gold before heading back to hospital shifts",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T01:52:00Z",
+      "voiceScript": "Sydney doctor and javelin thrower Mackenzie Little has won gold and is heading straight back to work at Northern Beaches Hospital. The result matters because it shows how far an athlete can go while balancing elite sport with frontline medicine. The next question is simply how she recovers and whether the medal changes her training or work schedule.",
+      "differences": [
+        "ABC emphasizes the return to hospital work, while 7NEWS leans harder into the unusual dual career and the colleagues who covered her shifts."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/commonwealth-games-mackenzie-little-wins-javelin-gold/106987376"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/sport/commonwealth-games/dr-mackenzie-little-thanks-hospital-colleagues-for-taking-my-shifts-to-win-commonwealth-games-javelin-gold-c-22663167"
+        }
+      ],
+      "language": "en"
     },
     {
       "id": "ev-sales-quarterly-surge",
@@ -3279,8 +3331,8 @@
   "errors": [
     "news.com.au latest feed still renders HTML, so current-item discovery used page and search-result fallback.",
     "The Australian and Sky News Australia still required fallback extraction in this pass.",
-    "AAP, AFR, 7NEWS and 9News current stories were discovered from live listings or embedded page data; canonical article URLs were retained when direct feed metadata was inconsistent.",
-    "Yahoo News Australia and The Australian did not expose a stable current-week Australia listing in this environment, so they were kept in sources for continuity but did not add new clusters this run."
+    "Yahoo News Australia and The Australian did not expose a stable current-week Australia listing in this environment, so they were kept in sources for continuity but did not add new clusters this run.",
+    "Current ABC, news.com.au, AAP and 7NEWS additions were merged into existing clusters where a matching Australia story already existed."
   ],
   "generatedBy": "codex",
   "language": "en",
@@ -3383,5 +3435,5 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "updatedAt": "2026-08-02T11:15:00Z"
+  "updatedAt": "2026-08-02T12:06:21Z"
 }

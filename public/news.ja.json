@@ -213,6 +213,21 @@
       }
     },
     {
+      "id": "abc-brooke-stephens-vigil",
+      "headline": "メルボルンでろうそくの祈り、ブルック・スティーブンスさんを追悼",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T09:25:00Z",
+      "voiceScript": "クライド・ノースでは、ブルック・スティーブンスさんを追悼するキャンドルライト・ヴィジルに何百人もが集まりました。彼女は自宅で殺害されたとされてから1週間後のことです。この集まりは、地域の悲劇がすぐに、悲しみや安全、遺族支援をめぐる大きな議論へ広がることを示しています。次は警察の捜査と、その後に出る正式な起訴が焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/melbourne-mother-brooke-stephens-vigil/106987572"
+        }
+      ],
+      "language": "ja"
+    },
+    {
       "id": "adelaide-teen-hit-by-two-cars-20260802",
       "headline": "アデレードの若者、2台の車にはねられ死亡",
       "sourceCount": 5,
@@ -263,15 +278,15 @@
     },
     {
       "id": "abc-ankle-bracelet-manhunt",
-      "headline": "電子監視用の足首装置を切ったとされる8人を警察が追跡",
+      "headline": "足首監視装置を外した8人の容疑者を警察が追う",
       "sourceCount": 1,
       "publishedAt": "2026-08-02T08:56:44Z",
-      "voiceScript": "警察は、電子監視用の足首装置が切断された後、8人の容疑者を追っているとしています。重要なのは、単に行方が分からないという点ではなく、監視が外れたまま危険が残る可能性があることです。警察は接触しないよう市民に呼びかけ、見かけた場合は通報を求めています。今後は、まず所在の特定と、監視がどう破られたのかの解明が焦点です。",
+      "voiceScript": "警察によると、電子監視装置を切断したとされる8人の容疑者が逃走中で、大規模な捜索のために警察官が他の任務から外されました。監視は、装置が外されず異常があれば警察に知らせる仕組みでなければ意味がありません。この事件の焦点は、まず彼らの確保と、どうやって装置を無力化したのかの解明です。",
       "differences": [],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-02/alleged-offenders-cutting-off-ankle-bracelets-sparks-manhunt/106987974"
+          "url": "https://www.abc.net.au/news/2026-08-02/wa-manhunt-eight-alleged-offenders-ankle-bracelets/106987680"
         }
       ],
       "language": "ja",
@@ -354,15 +369,25 @@
     },
     {
       "id": "abc-socceroo-premier-league-move",
-      "headline": "オーストラリア代表の選手がプレミアリーグ移籍記録更新に近づく",
-      "sourceCount": 1,
+      "headline": "オーストラリア代表選手の記録的なプレミアリーグ移籍が一段と近づく",
+      "sourceCount": 3,
       "publishedAt": "2026-08-02T08:25:39Z",
-      "voiceScript": "オーストラリア代表の選手に関する大型移籍が最終段階に近づいているとみられ、プレミアリーグ行きが取り沙汰されています。重要なのは、その規模の契約が選手のキャリアを左右し、海外でのオーストラリア選手の存在感を押し上げることです。焦点は、契約がまとまるのか、そしてどんな役割を任されるのかに移っています。金額と条件が確定するまでは、まだ最後の変動余地があります。",
-      "differences": [],
+      "voiceScript": "ルーカス・ヘリントンはハル・シティへの移籍に迫っており、実現すればオーストラリア人選手として史上最高額になります。移籍金と再売却条項からは、ワールドカップで注目を集めた18歳のDFがどれほど高く評価されているかが分かります。注目点は、契約が最終合意に至るか、移籍手続きがどれだけ早く進むかです。",
+      "differences": [
+        "ABCとAAPは移籍そのものの節目に焦点を当て、news.com.auは報じられた提示額と契約条件をより強く打ち出している。"
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-02/lucas-herrington-transfer-record-breaking-premier-league/106988080"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/football/socceroos-wonderkid-lucas-herrington-set-for-premier-league-after-recordbreaking-bid/news-story/fa1310e38f0cb8e5eac466805e850c1f"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/record-breaking-premier-league-move-looms-for-socceroo"
         }
       ],
       "language": "ja",
@@ -396,15 +421,21 @@
     },
     {
       "id": "abc-sandilands-threats",
-      "headline": "カイル・サンダーランズ氏、テレビ取材中に脅迫を受けたと語る",
-      "sourceCount": 1,
+      "headline": "Kyle Sandilandsはラジオ降板後に脅迫を受けたと明かす",
+      "sourceCount": 2,
       "publishedAt": "2026-08-02T08:01:36Z",
-      "voiceScript": "カイル・サンダーランズ氏は、最近の取材中に脅迫を受けたと語っています。すでに報道露出や個人の安全をめぐる議論がある中で、さらに新しい論点が加わった形です。今確認すべきなのは、その場で何が起きたのか、放送局や警察が対応する必要があるのか、そして主張を独立に確かめられるのかです。今後は正式な苦情や警察の反応が出るかどうかが焦点になります。",
-      "differences": [],
+      "voiceScript": "Kyle Sandilandsは、ラジオ番組を離れた後に脅迫を受けたと語っています。解雇の経緯がなお不透明なままであることも、この話をさらに重くしています。職場での騒動、世間の圧力、そして著名人の安全が交差する問題だからです。次は、公式の反応や追加の証言が出てくるかが焦点です。",
+      "differences": [
+        "ABCはインタビューでの発言を直接伝え、news.com.auはそれをドキュメンタリーと別離の経緯の一部として扱っている。"
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-02/kyle-sandilands-says-on-stefanovic-show-received-death-threats/106987624"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/entertainment/celebrity-life/not-safe-kyle-reveals-death-threat-saga-as-he-shares-truth-behind-sacking/news-story/2a996b342413af67ebd94b49581580e8"
         }
       ],
       "language": "ja",
@@ -924,6 +955,27 @@
           "score": 10
         }
       ]
+    },
+    {
+      "id": "abc-mackenzie-little-gold",
+      "headline": "マッケンジー・リトルがやり投げ金、すぐ病院勤務へ戻る",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T01:52:00Z",
+      "voiceScript": "シドニーの医師でやり投げ選手のマッケンジー・リトルは金メダルを獲得し、そのままノーザン・ビーチーズ病院での勤務に戻ります。トップレベルの競技と現場医療を両立できることを示す結果だからこそ重要です。次は、彼女の回復具合と、このメダルが練習や勤務の予定に影響するかが焦点です。",
+      "differences": [
+        "ABCは病院勤務への復帰を前面に出し、7NEWSは珍しい二足のわらじと同僚がシフトを代わった点をより強調している。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/commonwealth-games-mackenzie-little-wins-javelin-gold/106987376"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/sport/commonwealth-games/dr-mackenzie-little-thanks-hospital-colleagues-for-taking-my-shifts-to-win-commonwealth-games-javelin-gold-c-22663167"
+        }
+      ],
+      "language": "ja"
     },
     {
       "id": "ev-sales-quarterly-surge",
@@ -3279,8 +3331,8 @@
   "errors": [
     "news.com.au latest feed still renders HTML, so current-item discovery used page and search-result fallback.",
     "The Australian and Sky News Australia still required fallback extraction in this pass.",
-    "AAP, AFR, 7NEWS and 9News current stories were discovered from live listings or embedded page data; canonical article URLs were retained when direct feed metadata was inconsistent.",
-    "Yahoo News Australia and The Australian did not expose a stable current-week Australia listing in this environment, so they were kept in sources for continuity but did not add new clusters this run."
+    "Yahoo News Australia and The Australian did not expose a stable current-week Australia listing in this environment, so they were kept in sources for continuity but did not add new clusters this run.",
+    "Current ABC, news.com.au, AAP and 7NEWS additions were merged into existing clusters where a matching Australia story already existed."
   ],
   "generatedBy": "codex",
   "language": "ja",
@@ -3383,5 +3435,5 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "updatedAt": "2026-08-02T11:15:00Z"
+  "updatedAt": "2026-08-02T12:06:21Z"
 }

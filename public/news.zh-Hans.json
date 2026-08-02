@@ -213,6 +213,21 @@
       }
     },
     {
+      "id": "abc-brooke-stephens-vigil",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T09:25:00Z",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/melbourne-mother-brooke-stephens-vigil/106987572"
+        }
+      ],
+      "language": "zh-Hans",
+      "headline": "墨尔本民众在烛光守夜中悼念布鲁克·斯蒂芬斯",
+      "voiceScript": "数百人聚集在 Clyde North 举行烛光守夜，悼念布鲁克·斯蒂芬斯，她据称在一周前于家中遇害。这个场景之所以重要，是因为它说明一场地方悲剧会如何迅速变成关于哀悼、安全感和受害者家属支持的更大讨论。接下来要看警方案件进展，以及随后是否会提出正式指控。"
+    },
+    {
       "id": "adelaide-teen-hit-by-two-cars-20260802",
       "headline": "阿德莱德青少年遭两车撞击后身亡",
       "sourceCount": 5,
@@ -271,7 +286,7 @@
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-02/alleged-offenders-cutting-off-ankle-bracelets-sparks-manhunt/106987974"
+          "url": "https://www.abc.net.au/news/2026-08-02/wa-manhunt-eight-alleged-offenders-ankle-bracelets/106987680"
         }
       ],
       "language": "zh-Hans",
@@ -354,15 +369,25 @@
     },
     {
       "id": "abc-socceroo-premier-league-move",
-      "headline": "澳大利亚一名Socceroo有望刷新英超转会纪录",
-      "sourceCount": 1,
+      "headline": "一名澳洲国脚的创纪录英超转会更近一步",
+      "sourceCount": 3,
       "publishedAt": "2026-08-02T08:25:39Z",
-      "voiceScript": "一笔可能刷新澳大利亚球员转会纪录的交易正在接近完成，主角是一名与英超联系在一起的Socceroo。它之所以重要，是因为这种级别的转会会直接影响球员职业轨迹，也会抬高澳洲球员在海外市场的能见度。现在最关键的是合同是否敲定，以及他会被要求承担什么角色。最终金额和条款没有确认之前，这笔交易仍有最后变数。",
-      "differences": [],
+      "voiceScript": "卢卡斯·赫林顿接近转会到赫尔城，这笔交易如果成行，将让他成为澳大利亚身价最高的足球运动员。转会费和二次转售分成条款都说明，这名18岁的后卫在世界杯后的身价被看得很高。接下来最关键的是交易能否敲定，以及转会手续能否尽快完成。",
+      "differences": [
+        "ABC 和 AAP 主要聚焦这笔转会本身，而 news.com.au 更强调报价规模和交易结构。"
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-02/lucas-herrington-transfer-record-breaking-premier-league/106988080"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/football/socceroos-wonderkid-lucas-herrington-set-for-premier-league-after-recordbreaking-bid/news-story/fa1310e38f0cb8e5eac466805e850c1f"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/record-breaking-premier-league-move-looms-for-socceroo"
         }
       ],
       "language": "zh-Hans",
@@ -396,15 +421,21 @@
     },
     {
       "id": "abc-sandilands-threats",
-      "headline": "Kyle Sandilands称自己在电视采访中收到威胁",
-      "sourceCount": 1,
+      "headline": "Kyle Sandilands 说自己在电台分手后收到过威胁",
+      "sourceCount": 2,
       "publishedAt": "2026-08-02T08:01:36Z",
-      "voiceScript": "Kyle Sandilands称，他在最近一次采访中遭到威胁，这让原本围绕媒体曝光和个人安全的争议又多了一层。眼下需要弄清楚的是，现场到底说了什么，是否涉及警方或电视台的后续处理，以及这些说法能否被独立核实。它之所以重要，是因为针对公众人物的威胁常常会被放大成对网络暴力和公共行为边界的讨论。下一步要看是否会出现正式投诉或警方回应。",
-      "differences": [],
+      "voiceScript": "Kyle Sandilands 说自己在离开电台节目后曾收到威胁，而这件事也让外界重新关注那次解雇到底是怎么发生的。它之所以重要，是因为这起风波牵涉到职场纠纷、舆论压力，以及一位高曝光媒体人物的人身安全。接下来要看是否会出现正式回应，或有更多证据被拿出来。",
+      "differences": [
+        "ABC 直接报道了这段采访中的说法，而 news.com.au 把同一材料放进更大的纪录片和分手故事里来讲。"
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-02/kyle-sandilands-says-on-stefanovic-show-received-death-threats/106987624"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/entertainment/celebrity-life/not-safe-kyle-reveals-death-threat-saga-as-he-shares-truth-behind-sacking/news-story/2a996b342413af67ebd94b49581580e8"
         }
       ],
       "language": "zh-Hans",
@@ -924,6 +955,27 @@
           "score": 10
         }
       ]
+    },
+    {
+      "id": "abc-mackenzie-little-gold",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T01:52:00Z",
+      "differences": [
+        "ABC 强调她要回医院上班，而 7NEWS 更突出她这种少见的双重职业和同事帮她顶班的细节。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/commonwealth-games-mackenzie-little-wins-javelin-gold/106987376"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/sport/commonwealth-games/dr-mackenzie-little-thanks-hospital-colleagues-for-taking-my-shifts-to-win-commonwealth-games-javelin-gold-c-22663167"
+        }
+      ],
+      "language": "zh-Hans",
+      "headline": "麦肯齐·利特赢得标枪金牌后就要回医院上班",
+      "voiceScript": "悉尼医生兼标枪选手麦肯齐·利特拿下金牌后，马上就要回到北海滩医院上班。这个结果之所以重要，是因为它说明运动员可以在精英体育和一线医疗之间把平衡做到什么程度。接下来就看她如何恢复，以及这枚奖牌会不会改变她的训练或工作安排。"
     },
     {
       "id": "ev-sales-quarterly-surge",
@@ -3279,8 +3331,8 @@
   "errors": [
     "news.com.au latest feed still renders HTML, so current-item discovery used page and search-result fallback.",
     "The Australian and Sky News Australia still required fallback extraction in this pass.",
-    "AAP, AFR, 7NEWS and 9News current stories were discovered from live listings or embedded page data; canonical article URLs were retained when direct feed metadata was inconsistent.",
-    "Yahoo News Australia and The Australian did not expose a stable current-week Australia listing in this environment, so they were kept in sources for continuity but did not add new clusters this run."
+    "Yahoo News Australia and The Australian did not expose a stable current-week Australia listing in this environment, so they were kept in sources for continuity but did not add new clusters this run.",
+    "Current ABC, news.com.au, AAP and 7NEWS additions were merged into existing clusters where a matching Australia story already existed."
   ],
   "generatedBy": "codex",
   "language": "zh-Hans",
@@ -3383,5 +3435,5 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "updatedAt": "2026-08-02T11:15:00Z"
+  "updatedAt": "2026-08-02T12:06:21Z"
 }

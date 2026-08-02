@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T11:15:00Z",
+  "updatedAt": "2026-08-02T12:06:21Z",
   "generatedBy": "codex",
   "language": "es",
   "sources": [
@@ -103,8 +103,8 @@
   "errors": [
     "news.com.au latest feed still renders HTML, so current-item discovery used page and search-result fallback.",
     "The Australian and Sky News Australia still required fallback extraction in this pass.",
-    "AAP, AFR, 7NEWS and 9News current stories were discovered from live listings or embedded page data; canonical article URLs were retained when direct feed metadata was inconsistent.",
-    "Yahoo News Australia and The Australian did not expose a stable current-week Australia listing in this environment, so they were kept in sources for continuity but did not add new clusters this run."
+    "Yahoo News Australia and The Australian did not expose a stable current-week Australia listing in this environment, so they were kept in sources for continuity but did not add new clusters this run.",
+    "Current ABC, news.com.au, AAP and 7NEWS additions were merged into existing clusters where a matching Australia story already existed."
   ],
   "clusters": [
     {
@@ -320,6 +320,21 @@
       }
     },
     {
+      "id": "abc-brooke-stephens-vigil",
+      "headline": "Vecinos de Melbourne honran a Brooke Stephens en una vigilia con velas",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T09:25:00Z",
+      "voiceScript": "Cientos de personas se reunieron en Clyde North para una vigilia con velas por Brooke Stephens, una semana después de que presuntamente fuera asesinada en su casa. La reunión importa porque muestra cómo una tragedia local puede convertirse rápidamente en un debate más amplio sobre duelo, seguridad y apoyo a la familia de la víctima. El siguiente paso es la causa policial y cualquier cargo formal que llegue después.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/melbourne-mother-brooke-stephens-vigil/106987572"
+        }
+      ],
+      "language": "es"
+    },
+    {
       "id": "adelaide-teen-hit-by-two-cars-20260802",
       "headline": "Muere un adolescente en Adelaida tras ser atropellado por dos coches",
       "sourceCount": 5,
@@ -461,15 +476,25 @@
     },
     {
       "id": "abc-socceroo-premier-league-move",
-      "headline": "Un Socceroo australiano está cerca de un traspaso récord a la Premier League",
-      "sourceCount": 1,
+      "headline": "El pase récord a la Premier League se acerca para un Socceroo australiano",
+      "sourceCount": 3,
       "publishedAt": "2026-08-02T08:25:39Z",
-      "voiceScript": "Un gran traspaso de un jugador australiano estaría entrando en su tramo final y podría marcar un nuevo récord ligado a la Premier League. Esto importa porque un acuerdo de ese nivel puede cambiar la carrera del jugador y elevar la visibilidad del talento australiano en el exterior. La pregunta inmediata es si el contrato ya está cerrado y qué función se espera que cumpla. Hasta que se confirmen la cifra y las condiciones, todavía quedan variables por resolver.",
-      "differences": [],
+      "voiceScript": "Lucas Herrington está cerca de fichar por Hull City en una operación que lo convertiría en el futbolista australiano más caro de la historia. La cifra y la cláusula de reventa muestran lo valorado que está el defensa de 18 años tras su irrupción en el Mundial. Ahora la clave es si el acuerdo se cierra y con qué rapidez se completan los papeles.",
+      "differences": [
+        "ABC y AAP se centran en el hito del traspaso, mientras news.com.au subraya la cifra de la oferta y la estructura del acuerdo."
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-02/lucas-herrington-transfer-record-breaking-premier-league/106988080"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/football/socceroos-wonderkid-lucas-herrington-set-for-premier-league-after-recordbreaking-bid/news-story/fa1310e38f0cb8e5eac466805e850c1f"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/record-breaking-premier-league-move-looms-for-socceroo"
         }
       ],
       "language": "es",
@@ -503,15 +528,21 @@
     },
     {
       "id": "abc-sandilands-threats",
-      "headline": "Kyle Sandilands dijo que recibió amenazas durante una entrevista televisiva",
-      "sourceCount": 1,
+      "headline": "Kyle Sandilands dice que recibió amenazas tras su ruptura con la radio",
+      "sourceCount": 2,
       "publishedAt": "2026-08-02T08:01:36Z",
-      "voiceScript": "Kyle Sandilands dijo que recibió amenazas durante una entrevista reciente, sumando otra capa a una historia ya vinculada con la exposición mediática y la seguridad personal. Ahora toca aclarar qué se dijo exactamente, si la cadena o la policía deben responder y si la versión puede verificarse de forma independiente. Importa porque las amenazas contra figuras públicas suelen convertirse en una discusión más amplia sobre el abuso en línea y los límites de la conducta pública. Lo siguiente será ver si aparece una denuncia formal o una respuesta policial.",
-      "differences": [],
+      "voiceScript": "Kyle Sandilands dice que fue amenazado después de su ruptura con el programa de radio, y esa afirmación se suma a las dudas aún abiertas sobre cómo se produjo su despido. Importa porque mezcla repercusiones laborales, presión pública y seguridad personal en torno a una figura mediática de alto perfil. El siguiente paso es ver si aparece una respuesta formal o más evidencia.",
+      "differences": [
+        "ABC informa directamente la declaración de la entrevista, mientras news.com.au la presenta como parte de una historia más amplia sobre un documental y la ruptura profesional."
+      ],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-02/kyle-sandilands-says-on-stefanovic-show-received-death-threats/106987624"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/entertainment/celebrity-life/not-safe-kyle-reveals-death-threat-saga-as-he-shares-truth-behind-sacking/news-story/2a996b342413af67ebd94b49581580e8"
         }
       ],
       "language": "es",
@@ -1027,6 +1058,27 @@
           "score": 10
         }
       ]
+    },
+    {
+      "id": "abc-mackenzie-little-gold",
+      "headline": "Mackenzie Little gana oro en jabalina antes de volver a su turno en el hospital",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T01:52:00Z",
+      "voiceScript": "La médica y lanzadora de jabalina de Sídney, Mackenzie Little, ganó el oro y ahora vuelve directamente al trabajo en Northern Beaches Hospital. El resultado importa porque muestra hasta dónde puede llegar una atleta al compaginar el deporte de élite con la medicina en primera línea. La pregunta ahora es cómo se recupera y si la medalla cambia su calendario de entrenamiento o de trabajo.",
+      "differences": [
+        "ABC destaca el regreso al hospital, mientras 7NEWS subraya la doble carrera poco habitual y los compañeros que cubrieron sus turnos."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/commonwealth-games-mackenzie-little-wins-javelin-gold/106987376"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/sport/commonwealth-games/dr-mackenzie-little-thanks-hospital-colleagues-for-taking-my-shifts-to-win-commonwealth-games-javelin-gold-c-22663167"
+        }
+      ],
+      "language": "es"
     },
     {
       "id": "ev-sales-quarterly-surge",
