@@ -2328,7 +2328,7 @@ const PEOPLE_CONTEXT = [
     name: "Alan Jones",
     aliases: ["Alan Jones", "Alan Belford Jones", "艾伦·琼斯", "艾倫·瓊斯", "アラン・ジョーンズ", "앨런 존스"],
     type: "public-figure",
-    social: { label: "Wikipedia profile", url: "https://en.wikipedia.org/wiki/Alan_Jones_(talkback_host)" },
+    profile: { label: "Wikipedia profile", url: "https://en.wikipedia.org/wiki/Alan_Jones_(talkback_host)" },
     background: {
       "zh-Hans": "澳洲前电台和电视评论员、前 Wallabies 教练，长期主持悉尼 2GB 早餐节目，是澳洲最有影响力也最具争议的媒体人物之一。",
       "zh-Hant": "澳洲前電台和電視評論員、前 Wallabies 教練，長期主持雪梨 2GB 早餐節目，是澳洲最有影響力也最具爭議的媒體人物之一。",
