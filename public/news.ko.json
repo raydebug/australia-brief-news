@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T01:14:25.138Z",
+  "updatedAt": "2026-08-02T02:17:34.872Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -110,6 +110,44 @@
   ],
   "clusters": [
     {
+      "id": "hindley-street-fatal",
+      "headline": "애들레이드 중심가 힌들리 스트리트에서 차량 두 대에 잇따라 치인 10대가 숨졌다",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T01:58:08Z",
+      "voiceScript": "애들레이드 경찰은 18세 소년이 힌들리 스트리트에서 한 차량에 치인 뒤 다른 차량에도 다시 충돌해 숨졌다고 밝혔습니다. 현장은 도심의 번화한 거리였고, 구조대가 도착했을 때 그는 생명이 위독한 상태였습니다. 이 사건이 중요한 이유는 혼잡한 도심 도로의 충돌이 순식간에 치명적 사고로 번질 수 있음을 다시 보여주기 때문입니다. 수사에서는 충돌 순서와 대시캠, 폐쇄회로 영상이 핵심이 될 전망입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/hindley-st-fatal/106987374"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/teenager-dies-in-hospital-after-being-hit-by-two-cars-in-adelaide-cbd-crash-c-22663253.amp"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "ev-sales-quarterly-surge",
+      "headline": "호주의 전기차 판매가 분기 기준 새 기록을 세웠다",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T01:43:07Z",
+      "voiceScript": "최신 차량 통계는 호주에서 전기차와 하이브리드차 판매가 분기 기준으로 사상 최고치를 기록했음을 보여줍니다. 연료비 상승과 차종 확대가 구매를 끌어올렸고, 특히 패밀리 차량과 플러그인 계열이 강세를 보였습니다. 이 흐름이 중요한 이유는 휘발유 전용 차량에서 벗어나는 전환이 예상보다 빠르게 진행되고 있음을 뜻하기 때문입니다. 다만 충전 인프라와 초기 비용은 여전히 구매 결정에 영향을 미치고 있습니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/electric-vehicle-ev-sales-2026-iran-war-fuel/106987252"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/environment/2026/jul/27/australia-ev-car-sales-electric-vehicles-fuel-crisis-plug-in-hybrids"
+        }
+      ],
+      "language": "ko"
+    },
+    {
       "id": "wa-midwest-wildflower-season",
       "headline": "서호주 미드웨스트에서 야생화가 일찍 피기 시작했습니다",
       "sourceCount": 1,
@@ -145,6 +183,36 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-02/home-owners-dismayed-by-plans-for-40m-data-tower-next-door/106972034"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "darwin-live-music-scene",
+      "headline": "다윈의 라이브 음악 현장이 투어 공연을 잃고 있다",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T00:25:06Z",
+      "voiceScript": "다윈의 공연장과 음악인들은 투어 아티스트가 노던테리토리를 건너뛰는 일이 늘어 현지 무대와 수입이 줄고 있다고 말합니다. 업계는 이 문제가 단순한 오락의 부족이 아니라 일자리와 관객 수, 그리고 도시가 안정적인 공연 순환을 유지할 수 있는지의 문제라고 봅니다. 외곽의 주도들이 문화와 경제를 유지하려면 투어 일정이 중요합니다. 앞으로는 지원책이나 공연 유치 인센티브로 이 공백을 메울 수 있는지가 관건입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/top-end-missing-out-as-live-music-tours-snub-darwin/106966524"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "secret-harbour-funding-scrutiny",
+      "headline": "서호주 시크릿 하버의 새 자금 약속이 포크배럴 의혹을 불렀다",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T00:16:17Z",
+      "voiceScript": "서호주 시크릿 하버를 둘러싼 새로운 자금 약속이 선거운동 자금이 포크배럴로 넘어가는 것 아니냐는 의문을 낳고 있습니다. 발표 시점이 투표를 앞둔 공적 자금 사용 방식에 관심을 다시 모았습니다. 선거 기간의 약속은 정책과 정치의 경계를 흐리기 쉬워 특히 접전 지역에서 논란이 됩니다. 이제 쟁점은 지출 세부 내용이 검토를 견딜 수 있느냐입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/secret-harbour-byelection-campaign-is-it-pork-barrelling/106984330"
         }
       ],
       "language": "ko"
@@ -474,6 +542,21 @@
           "score": 25
         }
       ]
+    },
+    {
+      "id": "vad-telehealth-ban",
+      "headline": "호주의 조력사망 원격진료 금지가 다시 도마에 올랐다",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-01T20:00:03Z",
+      "voiceScript": "조력사망과 관련한 원격진료 금지 규정이, 환자를 원격으로 상담할 수 있게 해달라는 요구와 함께 다시 논란이 되고 있습니다. 찬성 측은 현행 금지가 지방 환자의 접근성을 떨어뜨린다고 말하고, 반대 측은 어떤 변경도 엄격한 안전장치를 지켜야 한다고 경고합니다. 이 쟁점은 의료 접근성과 각 주의 임종 법 집행 방식 모두에 영향을 주기 때문에 중요합니다. 다음 단계는 정부가 규정을 바꿀지, 아니면 현행 제한을 유지할지입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/02/australia-telehealth-voluntary-assisted-dying"
+        }
+      ],
+      "language": "ko"
     },
     {
       "id": "bird-flu-mass-mortality-south-australia",
@@ -2328,7 +2411,7 @@
     {
       "id": "victoria-cabinet-reset-after-allan",
       "headline": "앨런 퇴진 후 벤 캐럴이 빅토리아 내각을 재편한다",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-07-31T21:08:00Z",
       "voiceScript": "벤 캐럴은 재신타 앨런을 대신한 뒤 월요일에 새로운 빅토리아 내각을 발표할 예정이다. 이번 개편은 앨런의 사임과 고위 장관 2명의 이탈로 생긴 공백을 메워야 하는 상황에서 진행되며, 11월 주 선거 전까지 여러 자리가 채워질 전망이다. 중요한 이유는 새 전면부가 건설 부패 의혹, 학교 임금 협상, 그리고 이전 지도부와의 분명한 단절을 어떻게 다룰지 결정하기 때문이다. 앞으로의 관건은 캐럴이 계파 요구, 내각 숫자, 정책 압박을 어떻게 조율하면서 정부를 안정시킬지다.",
       "differences": [
@@ -2346,6 +2429,10 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/live/2026/jul/28/jacinta-allan-victoria-labor-leadership-spill-ben-carroll-challenge-antisemitism-royal-commission-nsw-icac-inquiry-queensland-estimates-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/victoria/politics/ben-carroll-asks-jacinta-allan-to-step-aside-as-victorian-premier-weeks-after-promising-he-wouldnt/news-story/621a2e6b78e523a58e69176e5341a1ed"
         }
       ],
       "language": "ko",
@@ -2598,7 +2685,7 @@
     {
       "id": "fuel-excise-price-jump",
       "headline": "유류세 종료로 주유소 가격 상승을 준비하는 호주 운전자들",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-07-31T10:22:00.000Z",
       "voiceScript": "호주의 한시적 유류세 감면이 끝나면서 휘발유와 경유 가격이 서서히 오를 전망입니다. 이미 단계적으로 줄어든 감면이기 때문에, 이번 변화는 한 번에 튀는 충격보다 주유소 가격에 천천히 반영되는 흐름에 가깝습니다. 이 사안이 중요한 이유는 연료비가 가계 지출, 물류비, 그리고 물가 전망에까지 영향을 주기 때문입니다. 앞으로는 지역별 가격이 얼마나 빨리 오르는지와 국제유가가 다시 흔들릴 때 추가 논의가 나오는지가 관건입니다.",
       "differences": [],
@@ -2614,6 +2701,10 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/technology/motoring/on-the-road/aussie-drivers-brace-for-petrol-price-hike-as-fuel-excise-cut-ends-sunday/news-story/a2b2357459fce1250f7233309737b4b7"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/petrol-prices-on-track-to-top-2-a-litre-as-bowen-sounds-death-knell-for-fuel-excise-relief"
         }
       ],
       "language": "ko",
