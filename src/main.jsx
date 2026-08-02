@@ -907,7 +907,8 @@ const PEOPLE_CONTEXT = [
     name: "Abbey Caldwell",
     aliases: ["Abbey Caldwell", "阿比·考德威尔", "阿比·考德威爾", "アビー・コールドウェル", "애비 콜드웰"],
     type: "athlete",
-    social: { label: "Official profile", url: "https://www.athletics.com.au/athlete/abbey-caldwell/" },
+    profile: { label: "Official profile", url: "https://www.athletics.com.au/athlete/abbey-caldwell/" },
+    social: { label: "Instagram", url: "https://www.instagram.com/abbeycaldwelll/" },
     background: {
       "zh-Hans": "澳大利亚中距离跑运动员，主攻 800 米、1500 米和一英里，曾获英联邦运动会奖牌，并保持大洋洲 1000 米纪录。",
       "zh-Hant": "澳洲中距離跑運動員，主攻 800 米、1500 米和一英里，曾獲英聯邦運動會獎牌，並保持大洋洲 1000 米紀錄。",
@@ -924,7 +925,8 @@ const PEOPLE_CONTEXT = [
     name: "Kurtis Marschall",
     aliases: ["Kurtis Marschall", "科蒂斯·马歇尔", "科蒂斯·馬歇爾", "カーティス・マーシャル", "커티스 마셜"],
     type: "athlete",
-    social: { label: "Official profile", url: "https://www.athletics.com.au/athlete/kurtis-marschall/" },
+    profile: { label: "Official profile", url: "https://www.athletics.com.au/athlete/kurtis-marschall/" },
+    social: { label: "Instagram", url: "https://www.instagram.com/kurtismarschall/" },
     background: {
       "zh-Hans": "澳大利亚撑竿跳高运动员、奥运选手和世界锦标赛奖牌得主，曾多次获得英联邦运动会金牌。",
       "zh-Hant": "澳洲撐竿跳高運動員、奧運選手和世界錦標賽獎牌得主，曾多次獲得英聯邦運動會金牌。",
@@ -941,7 +943,8 @@ const PEOPLE_CONTEXT = [
     name: "Matt Denny",
     aliases: ["Matt Denny", "Matthew Denny", "马特·丹尼", "馬特·丹尼", "マット・デニー", "매트 데니"],
     type: "athlete",
-    social: { label: "Official profile", url: "https://worldathletics.org/athletes/australia/matthew-denny-14436890" },
+    profile: { label: "Official profile", url: "https://worldathletics.org/athletes/australia/matthew-denny-14436890" },
+    social: { label: "Instagram", url: "https://www.instagram.com/mattydenny/" },
     background: {
       "zh-Hans": "澳大利亚铁饼运动员、奥运选手、钻石联赛总决赛冠军和英联邦运动会冠军，也曾参加链球项目。",
       "zh-Hant": "澳洲鐵餅運動員、奧運選手、鑽石聯賽總決賽冠軍和英聯邦運動會冠軍，也曾參加鏈球項目。",
@@ -958,7 +961,8 @@ const PEOPLE_CONTEXT = [
     name: "Lachlan Kennedy",
     aliases: ["Lachlan Kennedy", "Lachie Kennedy", "拉克兰·肯尼迪", "拉克蘭·肯尼迪", "ラクラン・ケネディ", "라클런 케네디"],
     type: "athlete",
-    social: { label: "Official profile", url: "https://www.athletics.com.au/athlete/lachlan-kennedy/" },
+    profile: { label: "Official profile", url: "https://www.athletics.com.au/athlete/lachlan-kennedy/" },
+    social: { label: "Instagram", url: "https://www.instagram.com/_lachiekennedy_/" },
     background: {
       "zh-Hans": "澳大利亚短跑运动员，参加 60 米、100 米、200 米和 4x100 米接力，曾代表澳大利亚参加奥运会并获得世界室内锦标赛奖牌。",
       "zh-Hant": "澳洲短跑運動員，參加 60 米、100 米、200 米和 4x100 米接力，曾代表澳洲參加奧運會並獲得世界室內錦標賽獎牌。",
@@ -2382,15 +2386,16 @@ function linkifyPeopleText(text, enabled) {
     if (match.index > lastIndex) parts.push(text.slice(lastIndex, match.index));
     const value = match[0];
     const entity = aliases.find((item) => new RegExp(`^${item.pattern}$`, "i").test(value))?.person;
+    const displayName = entity?.name || value;
     const socialLink = personSocialLink(entity);
     if (socialLink?.url) {
       parts.push(
         <a className="person-link" href={socialLink.url} target="_blank" rel="noreferrer" key={`${value}-${match.index}`}>
-          {value}
+          {displayName}
         </a>
       );
     } else {
-      parts.push(value);
+      parts.push(displayName);
     }
     lastIndex = matcher.lastIndex;
   }
