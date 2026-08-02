@@ -576,6 +576,16 @@
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-02/top-end-missing-out-as-live-music-tours-snub-darwin/106966524"
         }
+      ],
+      "socialDiscussions": [
+        {
+          "platform": "Reddit",
+          "community": "r/triplej",
+          "title": "What is an Australian tour? Can we settle it for good",
+          "url": "https://www.reddit.com/r/triplej/comments/1tzpzdh/what_is_an_australian_tour_can_we_settle_it_for/",
+          "postedAt": "2026-07",
+          "score": 16
+        }
       ]
     },
     {
@@ -604,6 +614,16 @@
           "score": 231
         },
         {
+          "platform": "Instagram",
+          "account": "7NEWS Perth",
+          "title": "Secret Harbour by-election is heating up as pork-barrelling comments appear in discussion",
+          "url": "https://www.instagram.com/reel/Dbf8Lu_gTtV/",
+          "postedAt": "2026-08-01",
+          "comments": 2,
+          "likes": 60,
+          "score": 66
+        },
+        {
           "platform": "Reddit",
           "community": "r/perth",
           "title": "WA's Secret Harbour by-election raises question of whether MPs should live in electorate",
@@ -612,20 +632,20 @@
           "score": 36
         },
         {
+          "platform": "Facebook",
+          "account": "The West Australian",
+          "title": "Government spending in Secret Harbour labelled 'extreme pork barrelling' by rival parties",
+          "url": "https://www.facebook.com/thewestaustralian/posts/at-least-9-million-of-government-spending-in-secret-harbour-has-been-labelled-ex/1376722954566904/",
+          "postedAt": "2026-07-30",
+          "score": 28
+        },
+        {
           "platform": "Reddit",
           "community": "r/perth",
           "title": "Candidates Confirmed for Secret Harbour By-election",
           "url": "https://www.reddit.com/r/perth/comments/1v2cwld/candidates_confirmed_for_secret_harbour_byelection/",
           "postedAt": "2026-07",
           "score": 24
-        },
-        {
-          "platform": "Facebook",
-          "account": "Basil Zempilas",
-          "title": "Clearly Labor is taking Secret Harbour for granted",
-          "url": "https://www.facebook.com/BZempilas/videos/clearly-labor-is-taking-secret-harbour-for-grantedafter-all-they-chose-a-candida/4020189491613227/",
-          "postedAt": "2026-07",
-          "score": 18
         }
       ]
     },
@@ -687,6 +707,14 @@
           "url": "https://www.facebook.com/thewestaustralian/posts/the-nightly-a-68-year-old-man-is-fighting-for-life-after-he-was-allegedly-run-do/1378921227680410/",
           "likes": 121,
           "score": 121
+        },
+        {
+          "platform": "Facebook",
+          "account": "Sunrise",
+          "title": "A 68-year-old Melbourne man sustained critical injuries after being struck by his own car in Heidelberg West",
+          "url": "https://www.facebook.com/Sunrise/posts/a-68-year-old-melbourne-man-sustained-critical-injuries-after-being-struck-by-hi/1617248496423763/",
+          "postedAt": "2026-08-02",
+          "score": 18
         }
       ]
     },
@@ -722,6 +750,22 @@
           "url": "https://www.reddit.com/r/NDIS/comments/1qwpbi4/surviving_the_art_my_experience_fighting_ndia/",
           "postedAt": "2026-02",
           "score": 30
+        },
+        {
+          "platform": "Reddit",
+          "community": "r/NDIS",
+          "title": "My experience in ART vs NDIS",
+          "url": "https://www.reddit.com/r/NDIS/comments/1r71i7d/my_experience_in_art_vs_ndis/",
+          "postedAt": "2026-03",
+          "score": 22
+        },
+        {
+          "platform": "Facebook",
+          "account": "People With Disability Australia",
+          "title": "NDIS bill concerns include review and appeals processes",
+          "url": "https://www.facebook.com/PWD.Australia/posts/the-ndis-bill-looks-set-to-pass-the-lower-house-today-despite-serious-concerns-r/1468783398624772/",
+          "postedAt": "2026-06",
+          "score": 18
         }
       ]
     },
@@ -739,33 +783,54 @@
         }
       ],
       "language": "es",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/AusSkincare",
-          "author": "abcnews_au",
-          "title": "Telehealth peptide prescriptions expose longevity industry stretching the rules",
-          "url": "https://www.reddit.com/r/AusSkincare/comments/1v1bw95/telehealth_peptide_prescriptions_expose_longevity/",
-          "postedAt": "2026-07-23",
-          "score": 45
-        },
-        {
-          "platform": "Facebook",
-          "account": "60 Minutes Australia",
-          "title": "Video discussion of unregulated peptides in Australia and laws lagging behind use",
-          "url": "https://www.facebook.com/60Minutes9/videos/use-of-unregulated-peptides-seems-to-have-gotten-out-of-control-and-the-laws-see/1969302697120586/",
-          "postedAt": "2026-07",
-          "score": 25
-        },
-        {
-          "platform": "YouTube",
-          "account": "ABC News (Australia)",
-          "title": "TGA issues safety alert amid surge of illegal peptide use",
-          "url": "https://www.youtube.com/watch?v=7ftx18sQuWI",
-          "postedAt": "2026-05",
-          "score": 18
-        }
-      ]
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "Reddit",
+            "community": "r/australia",
+            "title": "Safety alert issued amid explosion of illegal peptide use",
+            "url": "https://www.reddit.com/r/australia/comments/1skw01p/safety_alert_issued_amid_explosion_of_illegal/",
+            "postedAt": "2026-05",
+            "comments": 57,
+            "upvotes": 102,
+            "score": 273
+          },
+          {
+            "platform": "Reddit",
+            "community": "r/AusSkincare",
+            "author": "abcnews_au",
+            "title": "Telehealth peptide prescriptions expose longevity industry stretching the rules",
+            "url": "https://www.reddit.com/r/AusSkincare/comments/1v1bw95/telehealth_peptide_prescriptions_expose_longevity/",
+            "postedAt": "2026-07-23",
+            "score": 45
+          },
+          {
+            "platform": "Reddit",
+            "community": "r/aussie",
+            "author": "1Darkest_Knight1",
+            "title": "Medicines regulator takes 'strongest action' yet against illegal peptides",
+            "url": "https://www.reddit.com/r/aussie/comments/1u1vfut/medicines_regulator_takes_strongest_action_yet/",
+            "postedAt": "2026-06",
+            "score": 32
+          },
+          {
+            "platform": "Facebook",
+            "account": "60 Minutes Australia",
+            "title": "Video discussion of unregulated peptides in Australia and laws lagging behind use",
+            "url": "https://www.facebook.com/60Minutes9/videos/use-of-unregulated-peptides-seems-to-have-gotten-out-of-control-and-the-laws-see/1969302697120586/",
+            "postedAt": "2026-07",
+            "score": 25
+          },
+          {
+            "platform": "YouTube",
+            "account": "ABC News (Australia)",
+            "title": "TGA issues safety alert amid surge of illegal peptide use",
+            "url": "https://www.youtube.com/watch?v=7ftx18sQuWI",
+            "postedAt": "2026-05",
+            "score": 18
+          }
+        ]
+      }
     },
     {
       "id": "sydney-post-birth-uti-death",
