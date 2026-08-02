@@ -1,6 +1,96 @@
 {
   "clusters": [
     {
+      "id": "nicotine-pouches-ban-20260802",
+      "publishedAt": "2026-08-02T11:51:06.000Z",
+      "sourceCount": 1,
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australia-outlaws-nicotine-pouches-as-millions-flood-across-border-illegally-c-22664601"
+        }
+      ],
+      "headline": "澳洲收緊尼古丁袋禁令",
+      "voiceScript": "澳洲正加強對尼古丁袋的管制，因為報告顯示，這類產品正被非法零售商廣泛販售，甚至出現在學校周邊。之所以重要，是因為它們成癮性強，卻一直在監管縫隙中流通。接下來要看執法能否真正切斷貨源。",
+      "language": "zh-Hant"
+    },
+    {
+      "id": "profit-season-20260802",
+      "publishedAt": "2026-08-02T10:30:00Z",
+      "sourceCount": 1,
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/are-the-stars-aligning-high-hopes-for-profit-season"
+        }
+      ],
+      "headline": "澳洲財報季開場，成本壓力仍是焦點",
+      "voiceScript": "多家澳洲大型公司即將公布業績，市場會重點看更高的燃油和工資成本有沒有繼續壓縮利潤率。這個財報季之所以重要，是因為它能看出企業在波動的一年後還有多少定價能力。接下來銀行、電信和大型工業公司的報表會給出更多線索。",
+      "language": "zh-Hant"
+    },
+    {
+      "id": "pacific-pacts-first-nations-20260802",
+      "publishedAt": "2026-08-02T09:40:00Z",
+      "sourceCount": 1,
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/pearson-urges-garma-to-look-beyond-referendum-defeat"
+        }
+      ],
+      "headline": "第一民族關係正進入澳洲的太平洋外交",
+      "voiceScript": "澳洲正在把第一民族關係放到太平洋外交的更核心位置，地區領袖也在支持這種更重文化基礎的做法。之所以重要，是因為條約、安保對話和發展合作都不只靠資金，更靠互信。接下來要看這些表述能否在未來幾個月變成具體政策。",
+      "language": "zh-Hant"
+    },
+    {
+      "id": "seniors-health-cover-hike-20260802",
+      "publishedAt": "2026-08-02T09:00:00Z",
+      "sourceCount": 1,
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/labor-holds-firm-as-seniors-face-250-health-cover-hike"
+        }
+      ],
+      "headline": "工黨推進長者私保費用上調",
+      "voiceScript": "聯邦政府正推進一項私保改革，預計從2027年4月起，65歲以上澳洲人的保費平均每年會上漲約250澳元。各州和醫療機構認為，這可能讓更多長者退出私保，轉回公立醫院。由於法案還沒通過，最後結果要看參議院表決。",
+      "language": "zh-Hant"
+    },
+    {
+      "id": "hot-dry-spring-forecast-20260731",
+      "publishedAt": "2026-07-31T00:44:00.000Z",
+      "sourceCount": 1,
+      "differences": [],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/environment/bureau-warns-australia-faces-warmer-drier-august-to-october-as-el-nino-strengthens/news-story/9e19b9a7ab69c0260856f0aa8e2315ed"
+        }
+      ],
+      "headline": "澳洲即將進入更熱、更乾的春季",
+      "voiceScript": "氣象局表示，隨著厄爾尼諾加強，澳洲從8月到10月大範圍都會比往年更熱、更乾。東部、南澳東南部和西澳部分地區更可能少雨，而一些北部地區可能比平均值更濕。最大的風險是更長、更嚴峻的山火季，但海洋形勢若變化，預報仍可能調整。",
+      "language": "zh-Hant"
+    },
+    {
+      "id": "australia-post-letter-price-rise-20260729",
+      "publishedAt": "2026-07-29T02:51:33.000Z",
+      "sourceCount": 1,
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australia-post-cleared-to-increase-price-of-standard-letter-postage-c-22644555"
+        }
+      ],
+      "headline": "澳洲郵政獲准上調標準信件價格",
+      "voiceScript": "澳洲郵政在經過競爭監管機構審查後，獲准上調標準信件的基礎票價。這項變化之所以重要，是因為信件業務量持續下滑，郵政部門必須在收入縮水的情況下覆蓋更高成本。消費者會先感受到漲價，而更長期的問題是郵政網路能否在不明顯削弱服務的前提下繼續縮編。",
+      "language": "zh-Hant"
+    },
+    {
       "id": "afr-logistics-debt-20260802",
       "headline": "ATO 施壓，一家物流帝國背負 6000 萬澳元債務",
       "sourceCount": 1,
@@ -3482,10 +3572,9 @@
     }
   ],
   "errors": [
-    "news.com.au latest feed still renders HTML, so current-item discovery used page and search-result fallback.",
-    "The Australian and Sky News Australia still required fallback extraction in this pass.",
-    "Yahoo News Australia and The Australian did not expose a stable current-week Australia listing in this environment, so they were kept in sources for continuity but did not add new clusters this run.",
-    "Current ABC, news.com.au, AAP and 7NEWS additions were merged into existing clusters where a matching Australia story already existed."
+    "news.com.au and 7NEWS current-week discovery still needed HTML/search-result fallback in this pass.",
+    "AAP article pages were only partially accessible directly, so search-result snippets were used for current-day additions.",
+    "The Australian, Sky News Australia, and Yahoo News Australia still did not expose a stable current-week Australia listing here, so they remained continuity sources only."
   ],
   "generatedBy": "codex",
   "language": "zh-Hant",
@@ -3588,5 +3677,5 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "updatedAt": "2026-08-02T13:08:22Z"
+  "updatedAt": "2026-08-02T14:05:34Z"
 }
