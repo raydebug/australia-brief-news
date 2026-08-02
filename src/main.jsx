@@ -1066,6 +1066,24 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Rhiannan Iffland",
+    aliases: ["Rhiannan Iffland", "Rhiannan IFFLAND", "里安南·伊夫兰德", "里安南·伊夫蘭德", "リアナン・イフランド", "리안난 이플랜드", "ริอันแนน อิฟแลนด์"],
+    type: "athlete",
+    profile: { label: "Red Bull athlete profile", url: "https://www.redbull.com/int-en/athlete/rhiannan-iffland" },
+    personalSocial: { label: "Instagram", url: "https://www.instagram.com/rhiannan_iffland/" },
+    background: {
+      "zh-Hans": "澳大利亚高台跳水和悬崖跳水运动员，来自新南威尔士 Newcastle，是 Red Bull Cliff Diving World Series 的长期统治者，并多次获得 World Aquatics 高台跳水金牌。",
+      "zh-Hant": "澳洲高台跳水和懸崖跳水運動員，來自新南威爾士 Newcastle，是 Red Bull Cliff Diving World Series 的長期統治者，並多次獲得 World Aquatics 高台跳水金牌。",
+      en: "Australian high diver and cliff diver from Newcastle, New South Wales, a long-running Red Bull Cliff Diving World Series champion and multiple World Aquatics high-diving gold medallist.",
+      es: "Clavadista de altura y cliff diver australiana de Newcastle, Nueva Gales del Sur; campeona dominante del Red Bull Cliff Diving World Series y múltiple medallista de oro de World Aquatics.",
+      ja: "ニューサウスウェールズ州 Newcastle 出身のオーストラリアのハイダイビング、クリフダイビング選手。Red Bull Cliff Diving World Series を長く支配し、World Aquatics の高飛込でも複数の金メダルを獲得しています。",
+      ko: "뉴사우스웨일스 Newcastle 출신 호주 하이다이빙·클리프다이빙 선수입니다. Red Bull Cliff Diving World Series를 장기간 지배했고 World Aquatics 하이다이빙 금메달도 여러 차례 획득했습니다.",
+      vi: "Vận động viên high diving và cliff diving người Australia từ Newcastle, New South Wales; nhà vô địch lâu năm của Red Bull Cliff Diving World Series và nhiều lần giành vàng high diving tại World Aquatics.",
+      th: "นักกีฬา high diving และ cliff diving ชาวออสเตรเลียจาก Newcastle รัฐนิวเซาท์เวลส์ เป็นแชมป์ Red Bull Cliff Diving World Series ที่ครองความสำเร็จยาวนาน และได้เหรียญทอง high diving ของ World Aquatics หลายครั้ง",
+      si: "New South Wales හි Newcastle සිට පැමිණි Australian high diver සහ cliff diver කෙනෙකි. Red Bull Cliff Diving World Series හි දිගුකාලීන champion කෙනෙකු වන අතර World Aquatics high-diving gold medals කිහිපයක් දිනා ඇත."
+    }
+  },
+  {
     name: "Abbey Caldwell",
     aliases: ["Abbey Caldwell", "阿比·考德威尔", "阿比·考德威爾", "アビー・コールドウェル", "애비 콜드웰"],
     type: "athlete",
