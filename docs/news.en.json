@@ -40,6 +40,47 @@
       }
     },
     {
+      "id": "alan-jones-court-reporting",
+      "headline": "Alan Jones's Sydney trial begins after years of legal wrangling",
+      "sourceCount": 4,
+      "publishedAt": "2026-08-02T15:00:27.000Z",
+      "voiceScript": "Former broadcaster Alan Jones has gone before a Sydney court to face 22 indecent assault and sexual touching charges tied to six complainants and alleged conduct between 2003 and 2020. The case matters because it is one of Australia's most high-profile criminal proceedings, it is expected to run for months, and it will test how much of the evidence and reporting reaches the public before a verdict. Jones denies the allegations and the next milestone is the full hearing in the local court.",
+      "differences": [
+        "The Guardian emphasises the scale of the trial and Jones's public legacy.",
+        "ABC focuses on the judge-only hearing, the 22 charges and the timetable.",
+        "news.com.au centres the reporting fight and the defence push to block publication.",
+        "AAP gives a straight day-one summary of the charges and complainants."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/nsw-alan-jones-judge-only-trial-begins-sydney-court/106973238"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/media/2026/aug/03/trial-alan-jones-begins-sydney-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/entertainment/tv/radio/jones-loses-bid-to-block-media-from-reporting-alleged-victims-evidence/news-story/e5f3eb835195b94de31d3265c099407b"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/alan-jones-to-face-court-over-sex-abuse-claims"
+        }
+      ],
+      "language": "en",
+      "socialDiscussions": [
+        {
+          "platform": "Reddit",
+          "community": "r/theguardian",
+          "title": "Alan Jones wielded huge power, but now the legacy of his four-decade career will be decided by four months in court",
+          "url": "https://www.reddit.com/r/theguardian/comments/1vbth27/alan_jones_wielded_huge_power_but_now_the_legacy/",
+          "score": 5
+        }
+      ]
+    },
+    {
       "id": "linkedin-big-tech-fight-20260802",
       "headline": "LinkedIn is being pulled into Australia's news bargaining fight",
       "sourceCount": 1,
@@ -3070,37 +3111,6 @@
       ]
     },
     {
-      "id": "alan-jones-court-reporting",
-      "headline": "Alan Jones goes to court as reporting limits are tested",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-31T15:00:19Z",
-      "voiceScript": "Alan Jones is facing the start of a long Sydney trial over historic indecent assault and sexual touching charges involving multiple complainants. The latest dispute is over what media outlets can report from one witness, after a judge relaxed part of the usual closed-court restrictions. It matters because the case involves one of Australia's most influential broadcasters and will run for months, making the courtroom rules part of the public record. The next key point is how the evidence develops once the full hearing gets under way.",
-      "differences": [
-        "The Guardian emphasises Jones's public legacy and the scale of the trial.",
-        "news.com.au focuses on the reporting fight and the defence team's push to block coverage."
-      ],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/01/alan-jones-wielded-huge-power-but-now-the-legacy-of-his-four-decade-career-will-be-decided-by-four-months-in-court"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/entertainment/tv/radio/jones-loses-bid-to-block-media-from-reporting-alleged-victims-evidence/news-story/e5f3eb835195b94de31d3265c099407b"
-        }
-      ],
-      "language": "en",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/theguardian",
-          "title": "Alan Jones wielded huge power, but now the legacy of his four-decade career will be decided by four months in court",
-          "url": "https://www.reddit.com/r/theguardian/comments/1vbth27/alan_jones_wielded_huge_power_but_now_the_legacy/",
-          "score": 5
-        }
-      ]
-    },
-    {
       "id": "bonds-sheridan-return-australian-ownership",
       "headline": "Blundy reclaims Bonds and Sheridan in a $700m retail deal",
       "sourceCount": 4,
@@ -3998,9 +4008,9 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news feed still exposed an HTML wrapper here, so new item discovery from that source was limited this pass.",
-    "The Australian, Sky News Australia, and Yahoo News Australia did not expose a stable current-week Australia listing in this pass.",
-    "AAP homepage coverage was usable, but direct article access was inconsistent, so source harvesting from AAP stayed selective."
+    "news.com.au latest-news feed still exposed an HTML wrapper this pass, so new item discovery there remained limited.",
+    "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings this pass.",
+    "AAP article-level harvesting was usable for select current stories, but remained inconsistent across the homepage."
   ],
   "generatedBy": "codex",
   "language": "en",
@@ -4103,5 +4113,5 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "updatedAt": "2026-08-02T18:06:55.556Z"
+  "updatedAt": "2026-08-02T19:10:42.410Z"
 }

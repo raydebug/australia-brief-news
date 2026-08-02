@@ -40,6 +40,47 @@
       }
     },
     {
+      "id": "alan-jones-court-reporting",
+      "headline": "艾倫·瓊斯在雪梨迎來長期庭審",
+      "sourceCount": 4,
+      "publishedAt": "2026-08-02T15:00:27.000Z",
+      "voiceScript": "前廣播人 Alan Jones 已在雪梨法庭出庭，應對 22 項猥褻襲擊和不當觸摸指控，案件涉及 6 名投訴人，相關行為據稱發生在 2003 年至 2020 年之間。這起案件之所以重要，是因為它是澳洲最受關注的刑案之一，預計將持續數月，也將檢驗證據和報導有多少能在判決前公開。Jones 否認全部指控，下一步是地方法院繼續審理。",
+      "differences": [
+        "《衛報》更強調審判規模以及 Jones 的公共影響力。",
+        "ABC 側重獨任法官審理、22 項指控和時間表。",
+        "news.com.au 主要寫報導爭議以及辯方阻止公開的努力。",
+        "AAP 以較直接的方式概述首日指控與投訴人。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/nsw-alan-jones-judge-only-trial-begins-sydney-court/106973238"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/media/2026/aug/03/trial-alan-jones-begins-sydney-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/entertainment/tv/radio/jones-loses-bid-to-block-media-from-reporting-alleged-victims-evidence/news-story/e5f3eb835195b94de31d3265c099407b"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/alan-jones-to-face-court-over-sex-abuse-claims"
+        }
+      ],
+      "language": "zh-Hant",
+      "socialDiscussions": [
+        {
+          "platform": "Reddit",
+          "community": "r/theguardian",
+          "title": "Alan Jones wielded huge power, but now the legacy of his four-decade career will be decided by four months in court",
+          "url": "https://www.reddit.com/r/theguardian/comments/1vbth27/alan_jones_wielded_huge_power_but_now_the_legacy/",
+          "score": 5
+        }
+      ]
+    },
+    {
       "id": "linkedin-big-tech-fight-20260802",
       "headline": "LinkedIn被捲入澳洲新聞付費之爭",
       "sourceCount": 1,
@@ -3090,37 +3131,6 @@
       ]
     },
     {
-      "id": "alan-jones-court-reporting",
-      "headline": "艾倫·瓊斯受審，媒體報導界線也被檢驗",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-31T15:00:19Z",
-      "voiceScript": "艾倫·瓊斯正面對雪梨一場漫長庭審，涉及多名投訴人的歷史猥褻與非禮指控。最新爭議不在指控本身，而在於法院預審後放寬了部分封閉庭審限制，媒體能報導多少證詞。此案之所以重要，是因為它牽涉澳洲最有影響力的廣播人物之一，而且審理會持續數月，庭審規則本身也成為公眾關注的一部分。接下來最關鍵的是正式開庭後，證據會如何展開。",
-      "differences": [
-        "《衛報》更強調瓊斯的公共遺產與庭審規模。",
-        "news.com.au 更聚焦報導權之爭，以及辯方試圖阻止報導。"
-      ],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/01/alan-jones-wielded-huge-power-but-now-the-legacy-of-his-four-decade-career-will-be-decided-by-four-months-in-court"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/entertainment/tv/radio/jones-loses-bid-to-block-media-from-reporting-alleged-victims-evidence/news-story/e5f3eb835195b94de31d3265c099407b"
-        }
-      ],
-      "language": "zh-Hant",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/theguardian",
-          "title": "Alan Jones wielded huge power, but now the legacy of his four-decade career will be decided by four months in court",
-          "url": "https://www.reddit.com/r/theguardian/comments/1vbth27/alan_jones_wielded_huge_power_but_now_the_legacy/",
-          "score": 5
-        }
-      ]
-    },
-    {
       "id": "bonds-sheridan-return-australian-ownership",
       "headline": "Blundy 以7億澳元買回 Bonds 和 Sheridan",
       "sourceCount": 4,
@@ -4018,9 +4028,9 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news feed still exposed an HTML wrapper here, so new item discovery from that source was limited this pass.",
-    "The Australian, Sky News Australia, and Yahoo News Australia did not expose a stable current-week Australia listing in this pass.",
-    "AAP homepage coverage was usable, but direct article access was inconsistent, so source harvesting from AAP stayed selective."
+    "news.com.au latest-news feed still exposed an HTML wrapper this pass, so new item discovery there remained limited.",
+    "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings this pass.",
+    "AAP article-level harvesting was usable for select current stories, but remained inconsistent across the homepage."
   ],
   "generatedBy": "codex",
   "language": "zh-Hant",
@@ -4123,5 +4133,5 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "updatedAt": "2026-08-02T18:06:55.556Z"
+  "updatedAt": "2026-08-02T19:10:42.410Z"
 }

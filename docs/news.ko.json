@@ -40,6 +40,47 @@
       }
     },
     {
+      "id": "alan-jones-court-reporting",
+      "headline": "앨런 존스의 시드니 재판이 긴 법정 공방으로 시작됐다",
+      "sourceCount": 4,
+      "publishedAt": "2026-08-02T15:00:27.000Z",
+      "voiceScript": "전 방송인 앨런 존스가 2003년부터 2020년까지의 것으로 알려진 행위와 관련해 6명의 고소인에 대한 22건의 외설적 폭행과 부적절한 신체 접촉 혐의로 시드니 법원에 섰습니다. 이 사건이 중요한 이유는 호주에서 가장 큰 관심을 받는 형사 사건 가운데 하나이고, 몇 달 동안 이어질 예정이며, 판결 전까지 증거와 보도가 어디까지 공개되는지 시험대가 되기 때문입니다. 존스는 혐의를 부인하고 있으며 다음 단계는 지방 법원의 본격 심리입니다.",
+      "differences": [
+        "Guardian은 재판의 규모와 존스의 공개적 영향력을 부각합니다.",
+        "ABC는 판사 단독 심리, 22건의 혐의, 진행 일정을 중심으로 다룹니다.",
+        "news.com.au는 보도 분쟁과 공개를 막으려는 변호 측의 시도를 앞세웁니다.",
+        "AAP는 혐의와 고소인에 대한 첫날 요약을 간단하게 전합니다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/nsw-alan-jones-judge-only-trial-begins-sydney-court/106973238"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/media/2026/aug/03/trial-alan-jones-begins-sydney-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/entertainment/tv/radio/jones-loses-bid-to-block-media-from-reporting-alleged-victims-evidence/news-story/e5f3eb835195b94de31d3265c099407b"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/alan-jones-to-face-court-over-sex-abuse-claims"
+        }
+      ],
+      "language": "ko",
+      "socialDiscussions": [
+        {
+          "platform": "Reddit",
+          "community": "r/theguardian",
+          "title": "Alan Jones wielded huge power, but now the legacy of his four-decade career will be decided by four months in court",
+          "url": "https://www.reddit.com/r/theguardian/comments/1vbth27/alan_jones_wielded_huge_power_but_now_the_legacy/",
+          "score": 5
+        }
+      ]
+    },
+    {
       "id": "linkedin-big-tech-fight-20260802",
       "headline": "링크드인도 호주 뉴스 분담 논쟁에 포함된다",
       "sourceCount": 1,
@@ -3070,37 +3111,6 @@
       ]
     },
     {
-      "id": "alan-jones-court-reporting",
-      "headline": "앨런 존스 재판에서 보도 범위도 쟁점이 됐다",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-31T15:00:19Z",
-      "voiceScript": "앨런 존스는 여러 고소인과 관련된 과거의 비동의 추행과 성적 접촉 혐의로 시드니에서 긴 재판을 앞두고 있다. 이번 쟁점은 법원이 일부 비공개 원칙을 완화한 뒤, 언론이 한 증인의 진술을 어디까지 보도할 수 있느냐는 점이다. 이 사건은 호주에서 가장 영향력 있는 방송인 가운데 한 명을 다루는 만큼 중요하고, 재판은 수개월 이어질 예정이라 법정 절차 자체도 공적인 관심사가 됐다. 다음 쟁점은 본심리에서 증거가 어떻게 전개되느냐다.",
-      "differences": [
-        "가디언은 존스의 공적 유산과 재판 규모를 부각한다.",
-        "news.com.au는 보도 제한 공방과 변호인단의 차단 시도를 더 앞세운다."
-      ],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/01/alan-jones-wielded-huge-power-but-now-the-legacy-of-his-four-decade-career-will-be-decided-by-four-months-in-court"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/entertainment/tv/radio/jones-loses-bid-to-block-media-from-reporting-alleged-victims-evidence/news-story/e5f3eb835195b94de31d3265c099407b"
-        }
-      ],
-      "language": "ko",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/theguardian",
-          "title": "Alan Jones wielded huge power, but now the legacy of his four-decade career will be decided by four months in court",
-          "url": "https://www.reddit.com/r/theguardian/comments/1vbth27/alan_jones_wielded_huge_power_but_now_the_legacy/",
-          "score": 5
-        }
-      ]
-    },
-    {
       "id": "bonds-sheridan-return-australian-ownership",
       "headline": "블런디가 본즈와 셰리던을 7억 호주달러에 다시 사들였다",
       "sourceCount": 4,
@@ -3998,9 +4008,9 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news feed still exposed an HTML wrapper here, so new item discovery from that source was limited this pass.",
-    "The Australian, Sky News Australia, and Yahoo News Australia did not expose a stable current-week Australia listing in this pass.",
-    "AAP homepage coverage was usable, but direct article access was inconsistent, so source harvesting from AAP stayed selective."
+    "news.com.au latest-news feed still exposed an HTML wrapper this pass, so new item discovery there remained limited.",
+    "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings this pass.",
+    "AAP article-level harvesting was usable for select current stories, but remained inconsistent across the homepage."
   ],
   "generatedBy": "codex",
   "language": "ko",
@@ -4103,5 +4113,5 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "updatedAt": "2026-08-02T18:06:55.556Z"
+  "updatedAt": "2026-08-02T19:10:42.410Z"
 }

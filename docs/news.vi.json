@@ -40,6 +40,47 @@
       }
     },
     {
+      "id": "alan-jones-court-reporting",
+      "headline": "Phiên tòa của Alan Jones ở Sydney bắt đầu sau nhiều năm giằng co pháp lý",
+      "sourceCount": 4,
+      "publishedAt": "2026-08-02T15:00:27.000Z",
+      "voiceScript": "Cựu phát thanh viên Alan Jones đã ra tòa tại Sydney để đối mặt với 22 cáo buộc tấn công khiếm nhã và chạm cơ thể không phù hợp liên quan đến 6 người tố cáo và các hành vi bị cho là xảy ra từ năm 2003 đến 2020. Vụ việc quan trọng vì đây là một trong những hồ sơ hình sự gây chú ý nhất ở Australia, dự kiến kéo dài nhiều tháng và sẽ thử xem bao nhiêu bằng chứng cùng hoạt động đưa tin được công khai trước phán quyết. Jones phủ nhận các cáo buộc và bước tiếp theo là phiên xét xử đầy đủ tại tòa địa phương.",
+      "differences": [
+        "Guardian nhấn mạnh quy mô phiên tòa và vị thế công chúng của Jones.",
+        "ABC tập trung vào phiên xét xử do thẩm phán ngồi một mình, số cáo buộc và lịch trình.",
+        "news.com.au đi vào tranh cãi về việc đưa tin và nỗ lực của bên bào chữa nhằm hạn chế công bố.",
+        "AAP tóm tắt ngắn gọn các cáo buộc và người tố cáo trong ngày đầu."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-01/nsw-alan-jones-judge-only-trial-begins-sydney-court/106973238"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/media/2026/aug/03/trial-alan-jones-begins-sydney-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/entertainment/tv/radio/jones-loses-bid-to-block-media-from-reporting-alleged-victims-evidence/news-story/e5f3eb835195b94de31d3265c099407b"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/alan-jones-to-face-court-over-sex-abuse-claims"
+        }
+      ],
+      "language": "vi",
+      "socialDiscussions": [
+        {
+          "platform": "Reddit",
+          "community": "r/theguardian",
+          "title": "Alan Jones wielded huge power, but now the legacy of his four-decade career will be decided by four months in court",
+          "url": "https://www.reddit.com/r/theguardian/comments/1vbth27/alan_jones_wielded_huge_power_but_now_the_legacy/",
+          "score": 5
+        }
+      ]
+    },
+    {
       "id": "linkedin-big-tech-fight-20260802",
       "headline": "LinkedIn cũng bị kéo vào cuộc tranh cãi chia sẻ doanh thu tin tức ở Úc",
       "sourceCount": 1,
@@ -3070,37 +3111,6 @@
       ]
     },
     {
-      "id": "alan-jones-court-reporting",
-      "headline": "Alan Jones ra tòa khi tranh cãi về phạm vi tường thuật vẫn tiếp diễn",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-31T15:00:19Z",
-      "voiceScript": "Alan Jones đang bước vào một phiên tòa kéo dài ở Sydney liên quan đến các cáo buộc tấn công khiếm nhã và chạm vào cơ thể mà không có sự đồng thuận từ nhiều người tố cáo. Tranh cãi mới nhất không chỉ là bản thân cáo buộc, mà còn là việc báo chí có thể tường thuật đến đâu sau khi thẩm phán nới một phần các hạn chế xét xử kín. Vụ việc quan trọng vì Jones là một trong những phát thanh viên có ảnh hưởng nhất của Australia và quá trình xét xử có thể kéo dài nhiều tháng. Diễn biến tiếp theo là phần chứng cứ khi phiên xử chính thức bắt đầu.",
-      "differences": [
-        "The Guardian nhấn mạnh di sản công khai của Jones và quy mô phiên tòa.",
-        "news.com.au tập trung vào cuộc tranh cãi về quyền đưa tin và nỗ lực của phía bào chữa để ngăn báo chí."
-      ],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/01/alan-jones-wielded-huge-power-but-now-the-legacy-of-his-four-decade-career-will-be-decided-by-four-months-in-court"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/entertainment/tv/radio/jones-loses-bid-to-block-media-from-reporting-alleged-victims-evidence/news-story/e5f3eb835195b94de31d3265c099407b"
-        }
-      ],
-      "language": "vi",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/theguardian",
-          "title": "Alan Jones wielded huge power, but now the legacy of his four-decade career will be decided by four months in court",
-          "url": "https://www.reddit.com/r/theguardian/comments/1vbth27/alan_jones_wielded_huge_power_but_now_the_legacy/",
-          "score": 5
-        }
-      ]
-    },
-    {
       "id": "bonds-sheridan-return-australian-ownership",
       "headline": "Blundy mua lại Bonds và Sheridan trong thương vụ 700 triệu đô la",
       "sourceCount": 4,
@@ -3998,9 +4008,9 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news feed still exposed an HTML wrapper here, so new item discovery from that source was limited this pass.",
-    "The Australian, Sky News Australia, and Yahoo News Australia did not expose a stable current-week Australia listing in this pass.",
-    "AAP homepage coverage was usable, but direct article access was inconsistent, so source harvesting from AAP stayed selective."
+    "news.com.au latest-news feed still exposed an HTML wrapper this pass, so new item discovery there remained limited.",
+    "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings this pass.",
+    "AAP article-level harvesting was usable for select current stories, but remained inconsistent across the homepage."
   ],
   "generatedBy": "codex",
   "language": "vi",
@@ -4103,5 +4113,5 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "updatedAt": "2026-08-02T18:06:55.556Z"
+  "updatedAt": "2026-08-02T19:10:42.410Z"
 }
