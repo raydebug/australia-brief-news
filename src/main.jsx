@@ -1580,6 +1580,35 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Daniel Mulino",
+    aliases: ["Daniel Mulino", "Dr Daniel Mulino", "Daniel Mulino MP", "Dan Mulino", "丹尼尔·穆利诺", "丹尼爾·穆利諾", "ダニエル・ムリーノ", "대니얼 물리노"],
+    type: "politician",
+    profile: { label: "Minister biography", url: "https://ministers.treasury.gov.au/ministers/daniel-mulino-2025/biography" },
+    social: { label: "LinkedIn", url: "https://www.linkedin.com/in/danielmulinomp/" },
+    background: {
+      "zh-Hans": "澳大利亚工党联邦政治人物，2019 年起任 Fraser 选区议员，2025 年起任助理财长和金融服务部长；从政前是经济学者和政策从业者。",
+      "zh-Hant": "澳洲工黨聯邦政治人物，2019 年起任 Fraser 選區議員，2025 年起任助理財長和金融服務部長；從政前是經濟學者和政策從業者。",
+      en: "Australian Labor federal politician, Member for Fraser since 2019, and Assistant Treasurer and Minister for Financial Services since 2025; before politics he worked as an economist and policy practitioner.",
+      es: "Político federal laborista australiano, diputado por Fraser desde 2019 y Assistant Treasurer y Minister for Financial Services desde 2025; antes de la política trabajó como economista y en política pública.",
+      ja: "オーストラリア労働党の連邦政治家。2019年から Fraser 選出の下院議員で、2025年から財務次官補兼金融サービス相です。政界入り前は経済学と政策分野で働きました。",
+      ko: "호주 노동당 연방 정치인으로 2019년부터 Fraser 하원의원이며 2025년부터 Assistant Treasurer와 Minister for Financial Services를 맡고 있습니다. 정계 입문 전에는 경제학자와 정책 실무자로 일했습니다.",
+      vi: "Chính trị gia liên bang Labor Úc, dân biểu Fraser từ năm 2019, và là Assistant Treasurer cùng Minister for Financial Services từ năm 2025; trước chính trị ông làm kinh tế và chính sách.",
+      th: "นักการเมืองรัฐบาลกลาง Labor ของออสเตรเลีย เป็น ส.ส. เขต Fraser ตั้งแต่ปี 2019 และเป็น Assistant Treasurer กับ Minister for Financial Services ตั้งแต่ปี 2025 ก่อนเข้าสู่การเมืองทำงานด้านเศรษฐศาสตร์และนโยบาย",
+      si: "Australian Labor federal politician කෙනෙකු වන Daniel Mulino 2019 සිට Fraser Member වන අතර 2025 සිට Assistant Treasurer සහ Minister for Financial Services වේ; politics ට පෙර economist සහ policy practitioner ලෙස කටයුතු කළේය."
+    },
+    positions: {
+      "zh-Hans": "其职责覆盖金融服务、税务和经济政策执行；News Bargaining Incentive 中，他代表财金口径说明对大型数字平台的收费和抵扣设计。",
+      "zh-Hant": "其職責覆蓋金融服務、稅務和經濟政策執行；News Bargaining Incentive 中，他代表財金口徑說明對大型數位平台的收費和抵扣設計。",
+      en: "His responsibilities cover financial services, tax and economic-policy implementation; on the News Bargaining Incentive he explains the charge and offset design for large digital platforms.",
+      es: "Sus responsabilidades cubren servicios financieros, impuestos e implementación de política económica; en el News Bargaining Incentive explica el diseño de cargos y compensaciones para grandes plataformas digitales.",
+      ja: "金融サービス、税、経済政策の実施を担当します。News Bargaining Incentive では、大型デジタル平台への課金と控除設計を説明する立場です。",
+      ko: "금융서비스, 세제, 경제정책 집행을 담당합니다. News Bargaining Incentive에서는 대형 디지털 플랫폼에 대한 부과금과 상계 설계를 설명합니다.",
+      vi: "Trách nhiệm của ông gồm dịch vụ tài chính, thuế và triển khai chính sách kinh tế; với News Bargaining Incentive, ông giải thích thiết kế phí và khấu trừ cho các nền tảng số lớn.",
+      th: "หน้าที่ครอบคลุม financial services ภาษี และการดำเนินนโยบายเศรษฐกิจ ใน News Bargaining Incentive เขาอธิบายการออกแบบ charge และ offset สำหรับแพลตฟอร์มดิจิทัลขนาดใหญ่",
+      si: "ඔහුගේ responsibilities financial services, tax සහ economic-policy implementation ආවරණය කරයි; News Bargaining Incentive සම්බන්ධයෙන් large digital platforms සඳහා charge සහ offset design පැහැදිලි කරයි."
+    }
+  },
+  {
     name: "Sam Rae",
     aliases: ["Sam Rae", "Samuel Rae", "Sam Rae MP", "萨姆·雷", "薩姆·雷", "サム・レイ", "샘 레이"],
     type: "politician",
