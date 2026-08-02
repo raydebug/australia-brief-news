@@ -877,6 +877,36 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Tim Nicholls",
+    aliases: ["Tim Nicholls", "Timothy James Nicholls", "Tim Nicholls MP", "蒂姆·尼科尔斯", "蒂姆·尼科爾斯", "ティム・ニコルズ", "팀 니컬스"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List/Member-Details?id=1739578326" },
+    officialProfile: { label: "Minister profile", url: "https://cabinet.qld.gov.au/ministers-portfolios/timothy-nicholls.aspx" },
+    social: { label: "X", url: "https://x.com/TimNichollsMP" },
+    background: {
+      "zh-Hans": "昆士兰自由国家党政治人物，Clayfield 选区州议员，曾任昆士兰财长和反对党领袖，2024 年起任昆士兰卫生和救护服务部长。",
+      "zh-Hant": "昆士蘭自由國家黨政治人物，Clayfield 選區州議員，曾任昆士蘭財長和反對黨領袖，2024 年起任昆士蘭衛生和救護服務部長。",
+      en: "Queensland Liberal National Party politician, MP for Clayfield, former state treasurer and opposition leader, and Minister for Health and Ambulance Services since 2024.",
+      es: "Político del Liberal National Party de Queensland, diputado por Clayfield, ex tesorero estatal y exlíder de la oposición; ministro de Salud y Ambulancias desde 2024.",
+      ja: "クイーンズランド州 Liberal National Party の政治家で、Clayfield 選出の州議員。元州財務相、元野党党首で、2024年から保健・救急サービス相です。",
+      ko: "퀸즐랜드 Liberal National Party 정치인으로 Clayfield 지역구 의원이며 전 주 재무장관과 야당 대표를 지냈고 2024년부터 보건·구급서비스 장관입니다.",
+      vi: "Chính trị gia Liberal National Party tại Queensland, nghị sĩ bang khu Clayfield, cựu thủ quỹ bang và lãnh đạo đối lập, Bộ trưởng Health and Ambulance Services từ năm 2024.",
+      th: "นักการเมือง Liberal National Party ของรัฐควีนส์แลนด์ ส.ส. รัฐเขต Clayfield อดีตเหรัญญิกรัฐและอดีตผู้นำฝ่ายค้าน เป็น Minister for Health and Ambulance Services ตั้งแต่ปี 2024",
+      si: "Queensland Liberal National Party දේශපාලනඥයෙකු වන Tim Nicholls, Clayfield MP, හිටපු state treasurer සහ opposition leader වන අතර 2024 සිට Health and Ambulance Services Minister වේ."
+    },
+    positions: {
+      "zh-Hans": "其公共职责覆盖昆士兰医院、公共卫生、心理健康、救护服务、原住民健康和卫生系统监管；生育护理指引审查属于其卫生组合。",
+      "zh-Hant": "其公共職責覆蓋昆士蘭醫院、公共衛生、心理健康、救護服務、原住民健康和衛生系統監管；生育照護指引審查屬於其衛生職權。",
+      en: "His public responsibilities cover Queensland hospitals, public health, mental health, ambulance services, First Nations health and health-system regulation; fertility-care guidance sits within his health portfolio.",
+      es: "Sus responsabilidades públicas cubren hospitales de Queensland, salud pública, salud mental, ambulancias, salud de First Nations y regulación sanitaria; la guía de fertilidad entra en su cartera.",
+      ja: "クイーンズランド州の病院、公衆衛生、メンタルヘルス、救急サービス、First Nations の健康、医療制度規制を所管し、不妊治療指針の見直しも担当分野です。",
+      ko: "퀸즐랜드 병원, 공중보건, 정신건강, 구급서비스, First Nations 보건, 보건시스템 규제를 담당하며 난임 치료 지침 검토도 그의 보건 포트폴리오에 속합니다.",
+      vi: "Trách nhiệm công của ông bao gồm bệnh viện Queensland, y tế công, sức khỏe tâm thần, xe cứu thương, y tế First Nations và quản lý hệ thống y tế; hướng dẫn chăm sóc sinh sản thuộc danh mục này.",
+      th: "หน้าที่สาธารณะครอบคลุมโรงพยาบาลควีนส์แลนด์ สาธารณสุข สุขภาพจิต บริการรถพยาบาล สุขภาพ First Nations และการกำกับระบบสุขภาพ รวมถึงแนวทาง fertility care",
+      si: "ඔහුගේ public responsibilities Queensland hospitals, public health, mental health, ambulance services, First Nations health සහ health-system regulation ආවරණය කරයි; fertility-care guidance ඔහුගේ health portfolio එකට අයත් වේ."
+    }
+  },
+  {
     name: "Roger Cook",
     aliases: ["Roger Cook", "Roger Hugh Cook", "Roger Cook MLA", "罗杰·库克", "羅傑·庫克", "ロジャー・クック", "로저 쿡"],
     type: "politician",
