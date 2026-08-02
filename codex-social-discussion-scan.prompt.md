@@ -40,7 +40,10 @@ Rules:
 - People context must not be silently ignored:
   - For every newest or high-impact cluster you touch, extract named people from the headline, voice script, source differences, and source titles.
   - If a named person is a politician, elected official, senior public office-holder, public company executive, athlete, artist, or otherwise news-relevant public figure, check whether they are already covered by `PEOPLE_CONTEXT` in `src/main.jsx`.
-  - If not covered, add them with aliases, `type`, a public official/profile/social URL when one can be verified, and concise multilingual background. For politicians, also add concise multilingual `positions`.
+  - If not covered, add them with aliases, `type`, verified link fields, and concise multilingual background. For politicians, also add concise multilingual `positions`.
+  - Use `profile` or `officialProfile` for official biography/profile pages.
+  - Use `social` or `personalSocial` only for a verified personal/public social-media account such as X, Instagram, Facebook, YouTube, TikTok, Threads, LinkedIn, or Bluesky.
+  - In brief text, linked names should point to the personal/public social-media account when available; official profile links belong in the person context card.
   - Do not add private individuals, victims, minors, witnesses, ordinary staff, or people whose identity should not be amplified.
   - If no reliable public social/profile URL is found, use the most authoritative official biography page. Do not fabricate social accounts.
   - Non-political public office holders should get background only, not political positions.

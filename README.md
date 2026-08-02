@@ -93,6 +93,15 @@ npm run build
 - 每条新闻最多保留 5 个代表性讨论，按 `score` 降序。
 - 不同语言可以有不同的 `socialDiscussions`。同一语言的 `public/news.{lang}.json` 和 `docs/news.{lang}.json` 必须保持一致；`public/news.json` 作为旧入口，跟随简体中文。
 
+### 人物链接规则
+
+`PEOPLE_CONTEXT` 中涉及名人、政客、运动员、艺术家、企业高管等公共人物时，链接字段要区分用途：
+
+- `profile` 或 `officialProfile`：官方介绍页、议会页面、机构 biography、运动员官方档案等，用于人物背景卡片。
+- `social` 或 `personalSocial`：已核实的个人/公开社交媒体账号，例如 X、Instagram、Facebook、YouTube、TikTok、Threads、LinkedIn、Bluesky，用于简闻正文里人名上的链接。
+- 如果只有官方 profile、没有个人社媒账号，简闻正文里的人名不要链接到官方 profile；官方 profile 仍显示在人物背景卡片里。
+- 不要给私人账号、未核实账号、未成年人、受害者、证人或普通员工添加人物链接。
+
 当前语言文件：
 
 - `public/news.en.json`

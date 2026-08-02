@@ -2339,6 +2339,29 @@ function mentionedPeople(cluster) {
   );
 }
 
+function isPersonalSocialLink(link) {
+  if (!link?.url) return false;
+  const label = String(link.label || "").toLowerCase();
+  const url = String(link.url || "").toLowerCase();
+  const socialLabel = /\b(x|twitter|facebook|instagram|youtube|tiktok|threads|linkedin|bluesky|bsky)\b/.test(label);
+  const socialDomain =
+    /(^|\/\/)(www\.)?(x\.com|twitter\.com|facebook\.com|instagram\.com|youtube\.com|youtu\.be|tiktok\.com|threads\.net|linkedin\.com|bsky\.app)\b/.test(
+      url
+    );
+  const profileOnlyLabel = /\b(official profile|profile|biography|bio|wikipedia|forbes|parliament|publisher|feature)\b/.test(label);
+
+  return (socialLabel || socialDomain) && !profileOnlyLabel;
+}
+
+function personSocialLink(person) {
+  const candidates = [person?.personalSocial, person?.social].filter(Boolean);
+  return candidates.find(isPersonalSocialLink) || null;
+}
+
+function personProfileLink(person) {
+  return person?.profile || person?.officialProfile || (!isPersonalSocialLink(person?.social) ? person?.social : null);
+}
+
 function linkifyPeopleText(text, enabled) {
   if (!enabled || !text) return text;
 
@@ -2359,9 +2382,10 @@ function linkifyPeopleText(text, enabled) {
     if (match.index > lastIndex) parts.push(text.slice(lastIndex, match.index));
     const value = match[0];
     const entity = aliases.find((item) => new RegExp(`^${item.pattern}$`, "i").test(value))?.person;
-    if (entity?.social?.url) {
+    const socialLink = personSocialLink(entity);
+    if (socialLink?.url) {
       parts.push(
-        <a className="person-link" href={entity.social.url} target="_blank" rel="noreferrer" key={`${value}-${match.index}`}>
+        <a className="person-link" href={socialLink.url} target="_blank" rel="noreferrer" key={`${value}-${match.index}`}>
           {value}
         </a>
       );
@@ -2635,14 +2659,15 @@ function PeopleContextList({ people, labels, language }) {
       {people.map((person) => {
         const background = localizedPersonValue(person, "background", language);
         const positions = person.type === "politician" ? localizedPersonValue(person, "positions", language) : "";
+        const profileLink = personProfileLink(person) || personSocialLink(person);
 
         return (
           <section className="person-card" key={person.name}>
             <div className="person-card-top">
               <strong>{person.name}</strong>
-              {person.social?.url && (
-                <a href={person.social.url} target="_blank" rel="noreferrer">
-                  {person.social.label || labels.socialProfile}
+              {profileLink?.url && (
+                <a href={profileLink.url} target="_blank" rel="noreferrer">
+                  {profileLink.label || labels.socialProfile}
                   <ExternalLink size={14} />
                 </a>
               )}
