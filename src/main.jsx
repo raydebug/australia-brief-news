@@ -819,6 +819,110 @@ function hasSpecificCommentary(commentary) {
 
 const PEOPLE_CONTEXT = [
   {
+    name: "Roger Cook",
+    aliases: ["Roger Cook", "Roger Hugh Cook", "Roger Cook MLA", "罗杰·库克", "羅傑·庫克", "ロジャー・クック", "로저 쿡"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.parliament.wa.gov.au/Parliament/Memblist.nsf/WAllMembersFlat2/Cook%2C%2BRoger?opendocument=" },
+    social: { label: "Facebook", url: "https://www.facebook.com/RogerCookMLA/" },
+    background: {
+      "zh-Hans": "西澳工党政治人物，Kwinana 选区州议员，2023 年起任西澳州长，并担任西澳工党领袖。",
+      "zh-Hant": "西澳工黨政治人物，Kwinana 選區州議員，2023 年起任西澳州長，並擔任西澳工黨領袖。",
+      en: "Western Australian Labor politician, MLA for Kwinana, Premier of Western Australia since 2023 and leader of WA Labor.",
+      es: "Político laborista de Australia Occidental, diputado estatal por Kwinana, premier de Australia Occidental desde 2023 y líder de WA Labor.",
+      ja: "西オーストラリア州労働党の政治家で、Kwinana 選出の州議員。2023年から同州首相、WA Labor 党首です。",
+      ko: "서호주 노동당 정치인으로 Kwinana 지역구 주의원이며 2023년부터 서호주 주총리와 WA Labor 대표를 맡고 있습니다.",
+      vi: "Chính trị gia Labor tại Tây Australia, nghị sĩ bang khu Kwinana, Premier of Western Australia từ năm 2023 và lãnh đạo WA Labor.",
+      th: "นักการเมือง Labor ของรัฐเวสเทิร์นออสเตรเลีย ส.ส. รัฐเขต Kwinana เป็น Premier of Western Australia ตั้งแต่ปี 2023 และผู้นำ WA Labor",
+      si: "Western Australian Labor දේශපාලනඥයෙකු වන Roger Cook, Kwinana MLA, 2023 සිට Premier of Western Australia සහ WA Labor නායකයා වේ."
+    },
+    positions: {
+      "zh-Hans": "其州长任期重点包括州经济多元化、就业、贸易投资、公共服务和基础设施；在补选和地方资金宣布上代表工党政府承担政治责任。",
+      "zh-Hant": "其州長任期重點包括州經濟多元化、就業、貿易投資、公共服務和基礎設施；在補選和地方資金宣布上代表工黨政府承擔政治責任。",
+      en: "His premiership is tied to economic diversification, jobs, trade and investment, public services and infrastructure; he carries government accountability for by-election funding announcements.",
+      es: "Su gobierno se centra en diversificación económica, empleo, comercio e inversión, servicios públicos e infraestructura; asume la responsabilidad política por anuncios de fondos en elecciones parciales.",
+      ja: "経済多角化、雇用、貿易・投資、公共サービス、インフラを重視し、補選期の資金発表では政府側の説明責任を負います。",
+      ko: "경제 다각화, 일자리, 무역과 투자, 공공서비스, 인프라가 핵심이며 보궐선거 자금 발표에 대한 정부 책임을 집니다.",
+      vi: "Trọng tâm nhiệm kỳ gồm đa dạng hóa kinh tế, việc làm, thương mại và đầu tư, dịch vụ công và hạ tầng; ông chịu trách nhiệm chính trị về các thông báo ngân sách trong bầu cử bổ sung.",
+      th: "วาระของเขาเน้น diversification เศรษฐกิจ งาน การค้าและการลงทุน บริการสาธารณะ และโครงสร้างพื้นฐาน รวมถึงความรับผิดชอบทางการเมืองต่อประกาศงบช่วงเลือกตั้งซ่อม",
+      si: "ඔහුගේ premiership එක economic diversification, jobs, trade and investment, public services සහ infrastructure සමඟ බැඳී ඇති අතර by-election funding announcements ගැන රජයේ වගකීම දරයි."
+    }
+  },
+  {
+    name: "Georgia Tree",
+    aliases: ["Georgia Tree", "Georgia Tree for Secret Harbour", "乔治娅·特里", "喬治婭·特里", "ジョージア・ツリー", "조지아 트리"],
+    type: "politician",
+    profile: { label: "Campaign profile", url: "https://www.georgiatree.com.au/" },
+    social: { label: "Facebook", url: "https://www.facebook.com/georgia4secretharbour/" },
+    background: {
+      "zh-Hans": "西澳工党 Secret Harbour 补选候选人，公开竞选资料称她来自当地 Warnbro 一带，并代表工党参与该席位补选。",
+      "zh-Hant": "西澳工黨 Secret Harbour 補選候選人，公開競選資料稱她來自當地 Warnbro 一帶，並代表工黨參與該席位補選。",
+      en: "WA Labor candidate for the Secret Harbour by-election, presented in public campaign material as a local from the Warnbro area.",
+      es: "Candidata de WA Labor en la elección parcial de Secret Harbour, presentada en material público de campaña como vecina de la zona de Warnbro.",
+      ja: "Secret Harbour 補選の WA Labor 候補。公開された選挙資料では Warnbro 周辺出身の地元候補とされています。",
+      ko: "Secret Harbour 보궐선거의 WA Labor 후보로, 공개 선거 자료에서는 Warnbro 지역 출신 현지 후보로 소개됩니다.",
+      vi: "Ứng viên WA Labor trong cuộc bầu cử bổ sung Secret Harbour, được giới thiệu trong tài liệu vận động công khai là người địa phương vùng Warnbro.",
+      th: "ผู้สมัคร WA Labor ในการเลือกตั้งซ่อม Secret Harbour โดยสื่อหาเสียงสาธารณะระบุว่าเป็นคนท้องถิ่นจากย่าน Warnbro",
+      si: "Secret Harbour by-election සඳහා WA Labor candidate කෙනෙකි; public campaign material තුළ Warnbro ප්‍රදේශයේ local candidate ලෙස ඉදිරිපත් කර ඇත."
+    },
+    positions: {
+      "zh-Hans": "补选竞选重点围绕 Secret Harbour 的地方学校、培训设施和社区资金；争议集中在她对政府拨款“争取到”的表述是否越过竞选承诺和公共资金之间的界线。",
+      "zh-Hant": "補選競選重點圍繞 Secret Harbour 的地方學校、培訓設施和社區資金；爭議集中在她對政府撥款「爭取到」的表述是否越過競選承諾和公共資金之間的界線。",
+      en: "Her campaign is linked to local school, training and community funding promises; scrutiny centres on whether claims of having secured public money blur campaign and government boundaries.",
+      es: "Su campaña se vincula con promesas para escuelas, formación y fondos comunitarios locales; el escrutinio se centra en si decir que obtuvo fondos públicos difumina campaña y gobierno.",
+      ja: "学校、職業訓練、地域資金の公約と結びつき、公的資金を「確保した」とする表現が選挙運動と政府の境界を曖昧にするかが問われています。",
+      ko: "지역 학교, 훈련 시설, 커뮤니티 예산 공약과 연결되며 공공자금을 확보했다는 표현이 선거운동과 정부의 경계를 흐리는지가 쟁점입니다.",
+      vi: "Chiến dịch gắn với cam kết ngân sách cho trường học, đào tạo và cộng đồng địa phương; tranh cãi tập trung vào việc tuyên bố đã giành được tiền công có làm mờ ranh giới vận động và chính phủ hay không.",
+      th: "แคมเปญเกี่ยวข้องกับคำมั่นเรื่องโรงเรียน การฝึกอบรม และงบชุมชนท้องถิ่น ประเด็นตรวจสอบคือคำกล่าวว่าได้ secured เงินรัฐทำให้เส้นแบ่งหาเสียงกับรัฐบาลพร่าเลือนหรือไม่",
+      si: "ඇයගේ campaign එක local schools, training සහ community funding promises සමඟ බැඳී ඇත; public money secured කළා යන claims campaign/government boundaries අස్పෂ්ට කරන්නේද යන්න scrutiny එකයි."
+    }
+  },
+  {
+    name: "Paul Papalia",
+    aliases: ["Paul Papalia", "Paul Papalia CSC", "Paul Papalia CSC MLA", "保罗·帕帕利亚", "保羅·帕帕利亞", "ポール・パパリア", "폴 파팔리아"],
+    type: "politician",
+    profile: { label: "Parliament register", url: "https://www.parliament.wa.gov.au/parliament/library/MPHistoricalData.nsf/%28Lookup%29/F4465E49988FDC6B48257C77001E54B7?OpenDocument=" },
+    social: { label: "Facebook", url: "https://www.facebook.com/PaulPapaliaCSC.MLA/" },
+    background: {
+      "zh-Hans": "西澳工党政治人物、前海军人员，2007 年进入西澳议会，曾代表 Warnbro 和 Secret Harbour，并担任多个州部长职位。",
+      "zh-Hant": "西澳工黨政治人物、前海軍人員，2007 年進入西澳議會，曾代表 Warnbro 和 Secret Harbour，並擔任多個州部長職位。",
+      en: "Western Australian Labor politician and former navy serviceman, elected to WA Parliament in 2007 and later representing Warnbro and Secret Harbour while holding several ministerial portfolios.",
+      es: "Político laborista de Australia Occidental y exmilitar naval, elegido al Parlamento estatal en 2007; representó Warnbro y Secret Harbour y ocupó varias carteras ministeriales.",
+      ja: "西オーストラリア州労働党の政治家で元海軍関係者。2007年に州議会入りし、Warnbro と Secret Harbour を代表、複数の閣僚職を務めました。",
+      ko: "서호주 노동당 정치인이자 전 해군 복무자로 2007년 WA 의회에 입성했고 Warnbro와 Secret Harbour를 대표하며 여러 장관직을 맡았습니다.",
+      vi: "Chính trị gia Labor Tây Australia và cựu quân nhân hải quân, vào nghị viện bang năm 2007, từng đại diện Warnbro và Secret Harbour và giữ nhiều chức bộ trưởng.",
+      th: "นักการเมือง Labor ของรัฐเวสเทิร์นออสเตรเลียและอดีตทหารเรือ เข้าสภารัฐปี 2007 เคยแทน Warnbro และ Secret Harbour และถือหลายพอร์ตโฟลิโอรัฐมนตรี",
+      si: "Western Australian Labor දේශපාලනඥයෙකු සහ හිටපු navy serviceman කෙනෙකි. 2007 දී WA Parliament ට තේරී පත්ව Warnbro සහ Secret Harbour නියෝජනය කර ministerial portfolios කිහිපයක් දරා ඇත."
+    },
+    positions: {
+      "zh-Hans": "其公共角色主要涉及警务、紧急服务、国防工业、退伍军人、矫正和博彩等州事务；Secret Harbour 补选源于其离开议会。",
+      "zh-Hant": "其公共角色主要涉及警務、緊急服務、國防工業、退伍軍人、矯正和博彩等州事務；Secret Harbour 補選源於其離開議會。",
+      en: "His public roles have covered police, emergency services, defence industries, veterans, corrective services and racing and gaming; the Secret Harbour by-election followed his departure from Parliament.",
+      es: "Sus funciones públicas abarcaron policía, emergencias, industrias de defensa, veteranos, prisiones y apuestas; la elección parcial de Secret Harbour siguió a su salida del Parlamento.",
+      ja: "警察、緊急サービス、防衛産業、退役軍人、矯正、競馬・賭博などを担当。Secret Harbour 補選は彼の議会離脱を受けたものです。",
+      ko: "경찰, 응급서비스, 방위산업, 보훈, 교정, 경마·게임 관련 업무를 맡았으며 Secret Harbour 보궐선거는 그의 의회 퇴임 뒤 치러집니다.",
+      vi: "Các vai trò công của ông bao gồm cảnh sát, khẩn cấp, công nghiệp quốc phòng, cựu chiến binh, cải huấn và racing and gaming; bầu cử bổ sung Secret Harbour diễn ra sau khi ông rời nghị viện.",
+      th: "บทบาทสาธารณะครอบคลุมตำรวจ บริการฉุกเฉิน อุตสาหกรรมป้องกันประเทศ ทหารผ่านศึก ราชทัณฑ์ และ racing and gaming การเลือกตั้งซ่อม Secret Harbour เกิดหลังเขาออกจากสภา",
+      si: "ඔහුගේ public roles police, emergency services, defence industries, veterans, corrective services සහ racing/gaming වටා තිබුණි; Secret Harbour by-election එක ඔහු Parliament හැරීමෙන් පසුව ආවේය."
+    }
+  },
+  {
+    name: "Julie Delvecchio",
+    aliases: ["Julie Delvecchio", "朱莉·德尔韦基奥", "朱莉·德爾韋基奧", "ジュリー・デルベッキオ", "줄리 델베키오"],
+    type: "public-figure",
+    social: { label: "LinkedIn", url: "https://au.linkedin.com/in/juliedelvecchio" },
+    background: {
+      "zh-Hans": "Electric Vehicle Council 首席执行官，代表澳大利亚电动车行业就市场增长、政策和能源转型发表公开意见。",
+      "zh-Hant": "Electric Vehicle Council 行政總裁，代表澳洲電動車產業就市場成長、政策和能源轉型發表公開意見。",
+      en: "Chief executive of the Electric Vehicle Council, a public advocate for Australia's EV industry on market growth, policy and the energy transition.",
+      es: "Directora ejecutiva del Electric Vehicle Council, voz pública de la industria australiana de vehículos eléctricos en crecimiento del mercado, política y transición energética.",
+      ja: "Electric Vehicle Council の最高経営責任者。豪州EV業界の市場成長、政策、エネルギー転換について公に発信しています。",
+      ko: "Electric Vehicle Council 최고경영자로, 호주 전기차 산업의 시장 성장, 정책, 에너지 전환에 대해 공개적으로 발언합니다.",
+      vi: "Giám đốc điều hành Electric Vehicle Council, tiếng nói công khai của ngành xe điện Australia về tăng trưởng thị trường, chính sách và chuyển đổi năng lượng.",
+      th: "ประธานเจ้าหน้าที่บริหารของ Electric Vehicle Council เป็นผู้สนับสนุนสาธารณะของอุตสาหกรรม EV ออสเตรเลียด้านการเติบโตตลาด นโยบาย และ energy transition",
+      si: "Electric Vehicle Council chief executive වන Julie Delvecchio, Australia's EV industry වෙනුවෙන් market growth, policy සහ energy transition ගැන public advocate කෙනෙකි."
+    }
+  },
+  {
     name: "Djawa Yunupiŋu",
     aliases: ["Djawa Yunupiŋu", "Djawa Yunupingu", "Djawa Yunupi\u014bu", "Djawa Yunupi", "贾瓦·尤努平古", "賈瓦·尤努平古", "ジャワ・ユヌピング", "자와 유누핑구"],
     type: "public-figure",
