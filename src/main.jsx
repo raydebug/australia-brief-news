@@ -2433,7 +2433,7 @@ const PEOPLE_CONTEXT = [
       "샘 모스틴"
     ],
     type: "public-figure",
-    social: { label: "Official biography", url: "https://www.gg.gov.au/about-governor-general/governor-generals-biography" },
+    officialProfile: { label: "Official biography", url: "https://www.gg.gov.au/about-governor-general/governor-generals-biography" },
     background: {
       "zh-Hans": "澳大利亚第 28 任总督，2024 年 7 月就职，代表澳大利亚君主履行宪法和礼仪职责。任职前曾任企业董事、性别平等和气候议题倡导者，也是首位女性 AFL 委员。",
       "zh-Hant": "澳洲第 28 任總督，2024 年 7 月就職，代表澳洲君主履行憲法和禮儀職責。任職前曾任企業董事、性別平等和氣候議題倡議者，也是首位女性 AFL 委員。",
