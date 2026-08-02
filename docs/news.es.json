@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T02:18:26.001Z",
+  "updatedAt": "2026-08-02T03:08:05Z",
   "generatedBy": "codex",
   "language": "es",
   "sources": [
@@ -109,6 +109,48 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "australian-booksellers-ai-rare-titles",
+      "headline": "Libreros australianos alertan de que la demanda de IA está destruyendo libros raros",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T02:49:00Z",
+      "voiceScript": "Los libreros australianos dicen que un nuevo mercado impulsado por la IA para libros viejos está poniendo en riesgo títulos raros y agotados. La preocupación es que compradores al por mayor estén enviando libros a procesos de escaneo destructivo, donde se cortan los lomos, se digitalizan las páginas y se desechan los originales. Importa porque eso eliminaría no solo el texto, sino también el valor cultural e histórico de las colecciones físicas. El siguiente paso es ver si compradores, editores y reguladores pueden demostrar adónde van esos libros y frenar cualquier destrucción innecesaria.",
+      "differences": [
+        "Guardian se centra en los libreros australianos y el riesgo de pérdida cultural, mientras news.com.au subraya la cadena global de compra de libros para IA."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/technology/2026/aug/02/australian-book-sellers-alarm-destruction-rare-titles-ai-supply-chain"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/online/internet/ai-labs-buy-scan-shred-millions-of-rare-books/news-story/0c3b45a67093ab462a587a0348538ce9"
+        }
+      ],
+      "language": "es"
+    },
+    {
+      "id": "brisbane-2032-victoria-park-debate",
+      "headline": "El plan de Brisbane para 2032 reaviva la disputa por Victoria Park",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T02:34:00Z",
+      "voiceScript": "Se está pidiendo a los habitantes de Queensland que opinen sobre los planes olímpicos de 2032 mientras nuevas imágenes conceptuales del recinto de Victoria Park vuelven a poner bajo la lupa la ubicación elegida. La propuesta mantiene la mayor parte del parque abierta al público, pero los críticos dicen que el diseño sigue amenazando el espacio verde y los sitios culturales. Importa porque la huella olímpica moldeará el centro de Brisbane durante décadas y decidirá cuánto del parque sobrevivirá intacto. El siguiente paso es la consulta pública y más trabajo de diseño antes de cualquier aprobación final.",
+      "differences": [
+        "Guardian subraya las preocupaciones por el espacio verde y los sitios culturales, mientras que Nine destaca la invitación pública a opinar sobre el plan de 2032."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/aug/02/insiders-jane-hume-coalition-anthony-albanese-labor-garma-festival-fuel-excise-bird-flu-updates-ntwnfb"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/olympics-brisbane-2032-plans-queenslanders-asked-to-have-a-say-20260801-p60kk0.html"
+        }
+      ],
+      "language": "es"
+    },
     {
       "id": "hindley-street-fatal",
       "language": "es",
@@ -1118,6 +1160,41 @@
       ]
     },
     {
+      "id": "aged-care-nurses-final-pay-rise",
+      "headline": "Las enfermeras de geriatría reciben su último aumento previsto",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-01T07:39:00Z",
+      "voiceScript": "Las enfermeras de atención a mayores en Australia recibirán el último aumento salarial previsto en su primera nómina completa desde hoy, y las enfermeras registradas sumarán 8.000 dólares australianos al año. El cambio importa porque el sector sigue corto de personal y la demanda de cuidados continúa creciendo. El gobierno dice que, desde 2022, algunas enfermeras han acumulado subidas de hasta 36.000 dólares al año. La pregunta ahora es si este dinero alcanzará para aliviar la escasez con suficiente rapidez.",
+      "differences": [
+        "AAP pone el foco en la última fase de la decisión salarial de Fair Work Commission y en el aumento acumulado desde 2022; The Canberra Times destaca la escasez de personal y la primera nómina completa desde hoy."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage"
+        },
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9321855/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage/"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/another-pay-rise-for-aged-care-nurses/k8dgmu60d"
+        }
+      ],
+      "language": "es",
+      "socialDiscussions": [
+        {
+          "platform": "Facebook",
+          "account": "Sam Rae",
+          "title": "$36,000. That's how much better off aged care nurses are under Labor",
+          "url": "https://www.facebook.com/SamRae4Hawke/posts/36000-thats-how-much-better-off-aged-care-nurses-are-under-labor-better-pay-for-/1066847955698715/",
+          "postedAt": "2026-08-01",
+          "score": 6
+        }
+      ]
+    },
+    {
       "id": "hawthorn-launceston-farewell",
       "headline": "La despedida de Hawthorn en Launceston suma un capítulo más a su historia con Tasmania",
       "sourceCount": 2,
@@ -1251,6 +1328,27 @@
           "score": 6
         }
       ]
+    },
+    {
+      "id": "noel-pearson-garma-governance-reset",
+      "headline": "Noel Pearson impulsa una reforma de la gobernanza indígena en Garma",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-01T05:52:00Z",
+      "voiceScript": "Noel Pearson usó Garma para pedir que se desmantelen los departamentos estatales de asuntos aborígenes y que más responsabilidades pasen a la Commonwealth. Su discurso coincidió con el avance de los líderes Yolŋu para crear un nuevo consejo de tierras en el noreste de Arnhem Land, lo que subraya una apuesta más amplia por un mayor control indígena sobre las decisiones del territorio. Importa porque el debate toca el derecho a la tierra, los servicios públicos y quién fija la política para las comunidades remotas. La pregunta ahora es si los gobiernos lo tratarán como una reforma seria o como otro discurso de festival.",
+      "differences": [
+        "ABC pone el foco en la petición de Pearson de desmantelar los departamentos estatales, mientras SBS destaca el contexto más amplio de Garma y el cambio en la gobernanza de la tierra."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/indigenous"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/mirage-voice-architect-noel-pearson-breaks-silence-on-referendum-defeat-at-garma/bqx5oiuzr"
+        }
+      ],
+      "language": "es"
     },
     {
       "id": "canberra-food-garden-waste-delay",
@@ -1846,37 +1944,6 @@
           "postedAt": "2026-08-01",
           "likes": 2,
           "score": 2
-        }
-      ]
-    },
-    {
-      "id": "aged-care-nurses-final-pay-rise",
-      "headline": "Las enfermeras de geriatría reciben su último aumento previsto",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-01T01:59:39Z",
-      "voiceScript": "Las enfermeras de atención a mayores en Australia recibirán el último aumento salarial previsto en su primera nómina completa desde hoy, y las enfermeras registradas sumarán 8.000 dólares australianos al año. El cambio importa porque el sector sigue corto de personal y la demanda de cuidados continúa creciendo. El gobierno dice que, desde 2022, algunas enfermeras han acumulado subidas de hasta 36.000 dólares al año. La pregunta ahora es si este dinero alcanzará para aliviar la escasez con suficiente rapidez.",
-      "differences": [
-        "AAP pone el foco en la última fase de la decisión salarial de Fair Work Commission y en el aumento acumulado desde 2022; The Canberra Times destaca la escasez de personal y la primera nómina completa desde hoy."
-      ],
-      "links": [
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage"
-        },
-        {
-          "source": "The Canberra Times",
-          "url": "https://www.canberratimes.com.au/story/9321855/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage/"
-        }
-      ],
-      "language": "es",
-      "socialDiscussions": [
-        {
-          "platform": "Facebook",
-          "account": "Sam Rae",
-          "title": "$36,000. That's how much better off aged care nurses are under Labor",
-          "url": "https://www.facebook.com/SamRae4Hawke/posts/36000-thats-how-much-better-off-aged-care-nurses-are-under-labor-better-pay-for-/1066847955698715/",
-          "postedAt": "2026-08-01",
-          "score": 6
         }
       ]
     },

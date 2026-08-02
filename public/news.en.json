@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T02:17:34.857Z",
+  "updatedAt": "2026-08-02T03:08:05Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -109,6 +109,48 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "australian-booksellers-ai-rare-titles",
+      "headline": "Australian booksellers warn AI demand is destroying rare titles",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T02:49:00Z",
+      "voiceScript": "Australian booksellers say a new AI-driven market for old books is putting rare and out-of-print titles at risk. The concern is that bulk buyers may be sending books through destructive scanning workflows, where spines are cut, pages are digitised and the originals are discarded. It matters because that would strip cultural and historical value out of physical collections, not just their text. The next step is whether buyers, publishers and regulators can prove where these books are going and stop any unnecessary destruction.",
+      "differences": [
+        "Guardian centres the Australian booksellers and the cultural-loss risk, while news.com.au emphasises the global AI book-buying pipeline behind the concern."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/technology/2026/aug/02/australian-book-sellers-alarm-destruction-rare-titles-ai-supply-chain"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/online/internet/ai-labs-buy-scan-shred-millions-of-rare-books/news-story/0c3b45a67093ab462a587a0348538ce9"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "brisbane-2032-victoria-park-debate",
+      "headline": "Brisbane's 2032 precinct plans renew Victoria Park debate",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T02:34:00Z",
+      "voiceScript": "Queenslanders are being asked to weigh in on the 2032 Olympic plans as new concept images for the Victoria Park precinct renew scrutiny of the venue choice. The proposal keeps most of the park public, but critics say the design still threatens green space and cultural sites. It matters because the Olympic footprint will shape Brisbane's inner city for decades and decide how much of the park survives intact. The next step is consultation and further design work before any final approval.",
+      "differences": [
+        "Guardian stresses the parkland and cultural-site concerns, while Nine focuses on the public invitation to comment on the 2032 plan."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/aug/02/insiders-jane-hume-coalition-anthony-albanese-labor-garma-festival-fuel-excise-bird-flu-updates-ntwnfb"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/olympics-brisbane-2032-plans-queenslanders-asked-to-have-a-say-20260801-p60kk0.html"
+        }
+      ],
+      "language": "en"
+    },
     {
       "id": "hindley-street-fatal",
       "headline": "Teen killed after being hit twice on Adelaide's Hindley Street",
@@ -1118,6 +1160,41 @@
       ]
     },
     {
+      "id": "aged-care-nurses-final-pay-rise",
+      "headline": "Aged-care nurses receive their final scheduled pay bump",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-01T07:39:00Z",
+      "voiceScript": "Aged-care nurses are getting the final scheduled award increase in their first full pay period from today, with enrolled nurses set to gain an extra $8,000 a year. The rise matters because the sector is still struggling to recruit and keep staff even as demand for care keeps growing. The government says the wage campaign has now lifted some nurses' pay by up to $36,000 since 2022. The next test is whether the extra money eases the shortage quickly enough to improve care.",
+      "differences": [
+        "AAP centres the Fair Work Commission pay case and the total pay gains since 2022, while The Canberra Times stresses the staffing shortage and that the increase lands in the first full pay period from today."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage"
+        },
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9321855/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage/"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/another-pay-rise-for-aged-care-nurses/k8dgmu60d"
+        }
+      ],
+      "language": "en",
+      "socialDiscussions": [
+        {
+          "platform": "Facebook",
+          "account": "Sam Rae",
+          "title": "$36,000. That's how much better off aged care nurses are under Labor",
+          "url": "https://www.facebook.com/SamRae4Hawke/posts/36000-thats-how-much-better-off-aged-care-nurses-are-under-labor-better-pay-for-/1066847955698715/",
+          "postedAt": "2026-08-01",
+          "score": 6
+        }
+      ]
+    },
+    {
       "id": "hawthorn-launceston-farewell",
       "headline": "Hawthorn's Launceston farewell keeps its Tasmania story alive for one more year",
       "sourceCount": 2,
@@ -1263,6 +1340,27 @@
           "score": 6
         }
       ]
+    },
+    {
+      "id": "noel-pearson-garma-governance-reset",
+      "headline": "Noel Pearson pushes a reset for Indigenous governance at Garma",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-01T05:52:00Z",
+      "voiceScript": "Noel Pearson used Garma to argue for dismantling state Aboriginal affairs departments and shifting more responsibility to the Commonwealth. His speech landed as Yolŋu leaders moved to create a new land council in north-east Arnhem Land, underlining a broader push for greater Indigenous control over decisions on country. It matters because the debate goes to land rights, service delivery and who sets policy for remote communities. The next question is whether governments treat it as a serious reform agenda or another festival speech.",
+      "differences": [
+        "ABC foregrounds Pearson's call to dismantle state departments, while SBS highlights the wider Garma backdrop and the land-rights shake-up."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/indigenous"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/mirage-voice-architect-noel-pearson-breaks-silence-on-referendum-defeat-at-garma/bqx5oiuzr"
+        }
+      ],
+      "language": "en"
     },
     {
       "id": "canberra-food-garden-waste-delay",
@@ -1834,37 +1932,6 @@
           "postedAt": "2026-08-01",
           "likes": 2,
           "score": 2
-        }
-      ]
-    },
-    {
-      "id": "aged-care-nurses-final-pay-rise",
-      "headline": "Aged-care nurses receive their final scheduled pay bump",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-01T01:59:39Z",
-      "voiceScript": "Aged-care nurses are getting the final scheduled award increase in their first full pay period from today, with enrolled nurses set to gain an extra $8,000 a year. The rise matters because the sector is still struggling to recruit and keep staff even as demand for care keeps growing. The government says the wage campaign has now lifted some nurses' pay by up to $36,000 since 2022. The next test is whether the extra money eases the shortage quickly enough to improve care.",
-      "differences": [
-        "AAP centres the Fair Work Commission pay case and the total pay gains since 2022, while The Canberra Times stresses the staffing shortage and that the increase lands in the first full pay period from today."
-      ],
-      "links": [
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage"
-        },
-        {
-          "source": "The Canberra Times",
-          "url": "https://www.canberratimes.com.au/story/9321855/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage/"
-        }
-      ],
-      "language": "en",
-      "socialDiscussions": [
-        {
-          "platform": "Facebook",
-          "account": "Sam Rae",
-          "title": "$36,000. That's how much better off aged care nurses are under Labor",
-          "url": "https://www.facebook.com/SamRae4Hawke/posts/36000-thats-how-much-better-off-aged-care-nurses-are-under-labor-better-pay-for-/1066847955698715/",
-          "postedAt": "2026-08-01",
-          "score": 6
         }
       ]
     },

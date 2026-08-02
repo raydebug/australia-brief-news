@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T02:17:34.870Z",
+  "updatedAt": "2026-08-02T03:08:05Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -109,6 +109,48 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "australian-booksellers-ai-rare-titles",
+      "headline": "AI需要が希少本を失わせていると豪州の書店主が警告",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T02:49:00Z",
+      "voiceScript": "豪州の書店主たちは、古書をめぐる新しいAI主導の市場が、希少本や絶版本を危険にさらしていると警告しています。大量購入された本が、背表紙を切り、ページをデジタル化し、元の本を廃棄する破壊的なスキャン工程に回されているのではないかと懸念されています。これは文字情報だけでなく、実物のコレクションが持つ文化的・歴史的価値まで失われる可能性があるため重要です。次に注目されるのは、購入者、出版社、規制当局が本の行方を明らかにし、不必要な破棄を止められるかどうかです。",
+      "differences": [
+        "Guardianは豪州の書店主と文化的損失のリスクを中心に据え、news.com.auは背後にある世界的なAI用書籍調達の流れを強調しています。"
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/technology/2026/aug/02/australian-book-sellers-alarm-destruction-rare-titles-ai-supply-chain"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/online/internet/ai-labs-buy-scan-shred-millions-of-rare-books/news-story/0c3b45a67093ab462a587a0348538ce9"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "brisbane-2032-victoria-park-debate",
+      "headline": "ブリスベン2032計画がビクトリアパーク論争を再燃させる",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T02:34:00Z",
+      "voiceScript": "2032年五輪計画についてクイーンズランド州民の意見を募る中、ビクトリアパーク地区の新しい完成イメージが会場選定への注目を再び集めています。案では公園の大半を一般公開に残すとされていますが、批判側は緑地や文化的な場所がなお脅かされると訴えています。五輪の配置は今後数十年にわたりブリスベン中心部を形づくり、公園をどこまで残せるかを左右するため重要です。次は、最終承認の前に住民参加の協議と設計の詰めが進む見通しです。",
+      "differences": [
+        "Guardianは緑地と文化的な懸念を強調し、Nineは2032計画への意見募集を前面に出しています。"
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/aug/02/insiders-jane-hume-coalition-anthony-albanese-labor-garma-festival-fuel-excise-bird-flu-updates-ntwnfb"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/olympics-brisbane-2032-plans-queenslanders-asked-to-have-a-say-20260801-p60kk0.html"
+        }
+      ],
+      "language": "ja"
+    },
     {
       "id": "hindley-street-fatal",
       "headline": "アデレード中心部のヒンドリー・ストリートで少年がはねられ死亡",
@@ -1118,6 +1160,41 @@
       ]
     },
     {
+      "id": "aged-care-nurses-final-pay-rise",
+      "headline": "高齢者介護看護師に最後の予定賃上げ",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-01T07:39:00Z",
+      "voiceScript": "高齢者介護分野の看護師には、今日から始まる最初の完全な給与期間で、予定されていた最後の賃上げが反映されます。准看護師は年8,000豪ドルの上積みとなり、採用と定着が難しい人手不足の現場には大きな意味があります。政府は、2022年以降の一連の引き上げで、一部の看護師の賃金が最大3万6,000豪ドル増えたと説明しています。次の焦点は、この上積みで不足がどこまで早く和らぐかです。",
+      "differences": [
+        "AAP は Fair Work Commission の賃上げ決定と2022年以降の累計増額を前面に出し、The Canberra Times は人手不足と今日から始まる最初の完全な給与期間を強調しています。"
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage"
+        },
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9321855/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage/"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/another-pay-rise-for-aged-care-nurses/k8dgmu60d"
+        }
+      ],
+      "language": "ja",
+      "socialDiscussions": [
+        {
+          "platform": "Facebook",
+          "account": "Sam Rae",
+          "title": "$36,000. That's how much better off aged care nurses are under Labor",
+          "url": "https://www.facebook.com/SamRae4Hawke/posts/36000-thats-how-much-better-off-aged-care-nurses-are-under-labor-better-pay-for-/1066847955698715/",
+          "postedAt": "2026-08-01",
+          "score": 6
+        }
+      ]
+    },
+    {
       "id": "hawthorn-launceston-farewell",
       "headline": "ホークスのロンスセストン最終戦が、タスマニアとの関係にもう一つ章を加えた",
       "sourceCount": 2,
@@ -1263,6 +1340,27 @@
           "score": 6
         }
       ]
+    },
+    {
+      "id": "noel-pearson-garma-governance-reset",
+      "headline": "ノエル・ピアソン氏がガルマで先住民統治の立て直しを訴える",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-01T05:52:00Z",
+      "voiceScript": "ノエル・ピアソン氏はガルマで、州のアボリジナル担当部局を解体し、より多くの責任を連邦政府に移すべきだと訴えました。発言の直後、ヨルング族の指導者たちは北東アーネムランドで新しい土地評議会を設ける動きを進めており、土地に関する意思決定を先住民側がより主導したいという流れが示されました。これは土地権、公共サービス、遠隔地コミュニティの政策を誰が決めるのかに関わるため重要です。次に注目されるのは、各政府がこれを本格的な改革案として受け止めるのか、それとも祭典での発言にとどめるのかです。",
+      "differences": [
+        "ABCは州部局の解体要求を前面に出し、SBSはガルマ全体の流れと土地権の大きな変化を強調しています。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/indigenous"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/mirage-voice-architect-noel-pearson-breaks-silence-on-referendum-defeat-at-garma/bqx5oiuzr"
+        }
+      ],
+      "language": "ja"
     },
     {
       "id": "canberra-food-garden-waste-delay",
@@ -1834,37 +1932,6 @@
           "postedAt": "2026-08-01",
           "likes": 2,
           "score": 2
-        }
-      ]
-    },
-    {
-      "id": "aged-care-nurses-final-pay-rise",
-      "headline": "高齢者介護看護師に最後の予定賃上げ",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-01T01:59:39Z",
-      "voiceScript": "高齢者介護分野の看護師には、今日から始まる最初の完全な給与期間で、予定されていた最後の賃上げが反映されます。准看護師は年8,000豪ドルの上積みとなり、採用と定着が難しい人手不足の現場には大きな意味があります。政府は、2022年以降の一連の引き上げで、一部の看護師の賃金が最大3万6,000豪ドル増えたと説明しています。次の焦点は、この上積みで不足がどこまで早く和らぐかです。",
-      "differences": [
-        "AAP は Fair Work Commission の賃上げ決定と2022年以降の累計増額を前面に出し、The Canberra Times は人手不足と今日から始まる最初の完全な給与期間を強調しています。"
-      ],
-      "links": [
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage"
-        },
-        {
-          "source": "The Canberra Times",
-          "url": "https://www.canberratimes.com.au/story/9321855/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage/"
-        }
-      ],
-      "language": "ja",
-      "socialDiscussions": [
-        {
-          "platform": "Facebook",
-          "account": "Sam Rae",
-          "title": "$36,000. That's how much better off aged care nurses are under Labor",
-          "url": "https://www.facebook.com/SamRae4Hawke/posts/36000-thats-how-much-better-off-aged-care-nurses-are-under-labor-better-pay-for-/1066847955698715/",
-          "postedAt": "2026-08-01",
-          "score": 6
         }
       ]
     },

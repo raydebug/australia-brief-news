@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T02:17:34.866Z",
+  "updatedAt": "2026-08-02T03:08:05Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -109,6 +109,48 @@
     "9News current Australia coverage was harvested from the live national listing page because direct article metadata was inconsistent."
   ],
   "clusters": [
+    {
+      "id": "australian-booksellers-ai-rare-titles",
+      "headline": "澳大利亚书商警告，人工智能需求正在毁掉珍稀书籍",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T02:49:00Z",
+      "voiceScript": "澳大利亚书商说，新的人工智能驱动旧书市场正在让珍稀和绝版书面临风险。人们担心，大量采购者可能把书送进破坏式扫描流程，书脊被切开，页面被数字化，原书随后被丢弃。这件事之所以重要，是因为它毁掉的不只是文字，还包括实体藏书的文化和历史价值。接下来要看买家、出版商和监管机构能否查清这些书的去向，并阻止不必要的销毁。",
+      "differences": [
+        "《卫报》更聚焦澳大利亚书商和文化损失风险，而 news.com.au 更强调背后的全球人工智能购书链条。"
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/technology/2026/aug/02/australian-book-sellers-alarm-destruction-rare-titles-ai-supply-chain"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/online/internet/ai-labs-buy-scan-shred-millions-of-rare-books/news-story/0c3b45a67093ab462a587a0348538ce9"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
+      "id": "brisbane-2032-victoria-park-debate",
+      "headline": "布里斯班2032年场馆方案重新点燃维多利亚公园争议",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-02T02:34:00Z",
+      "voiceScript": "昆士兰人正在被邀请就2032年奥运方案发表意见，而维多利亚公园片区的新概念图又引发了对场馆选址的审视。方案声称大部分公园会继续开放，但批评者认为设计仍会威胁绿地和文化遗址。这件事之所以重要，是因为奥运布局会在未来几十年塑造布里斯班市中心，也决定这片公园能保留多少完整空间。下一步是公众咨询和进一步设计，之后才会进入最终批准。",
+      "differences": [
+        "《卫报》更强调绿地和文化遗址的担忧，而 Nine 更突出公众就2032方案发表意见。"
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/aug/02/insiders-jane-hume-coalition-anthony-albanese-labor-garma-festival-fuel-excise-bird-flu-updates-ntwnfb"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/olympics-brisbane-2032-plans-queenslanders-asked-to-have-a-say-20260801-p60kk0.html"
+        }
+      ],
+      "language": "zh-Hans"
+    },
     {
       "id": "hindley-street-fatal",
       "headline": "阿德莱德 Hindley Street 双重撞击事故致少年身亡",
@@ -1118,6 +1160,41 @@
       ]
     },
     {
+      "id": "aged-care-nurses-final-pay-rise",
+      "headline": "养老护理护士迎来最后一轮定期加薪",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-01T07:39:00Z",
+      "voiceScript": "养老护理护士在今天开始的首个完整薪期里，迎来最后一轮法定加薪，注册护士每年最多可多拿 8000 澳元。这个调整很重要，因为养老护理行业仍然在招人和留人方面吃紧，而护理需求还在继续上升。政府表示，自 2022 年以来，部分护士的薪酬累计涨幅已高达 3.6 万澳元。接下来要看的，是这笔加薪能否足够快地缓解人手短缺并改善照护。",
+      "differences": [
+        "AAP 侧重 Fair Work Commission 工资案的最后一步和累计涨幅；《堪培拉时报》更强调人手短缺，以及这次加薪在今天起的首个完整薪期生效。"
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage"
+        },
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9321855/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage/"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/another-pay-rise-for-aged-care-nurses/k8dgmu60d"
+        }
+      ],
+      "language": "zh-Hans",
+      "socialDiscussions": [
+        {
+          "platform": "Facebook",
+          "account": "Sam Rae",
+          "title": "$36,000. That's how much better off aged care nurses are under Labor",
+          "url": "https://www.facebook.com/SamRae4Hawke/posts/36000-thats-how-much-better-off-aged-care-nurses-are-under-labor-better-pay-for-/1066847955698715/",
+          "postedAt": "2026-08-01",
+          "score": 6
+        }
+      ]
+    },
+    {
       "id": "hawthorn-launceston-farewell",
       "headline": "霍桑在朗塞斯顿的告别战为塔州故事再添一章",
       "sourceCount": 2,
@@ -1263,6 +1340,27 @@
           "score": 6
         }
       ]
+    },
+    {
+      "id": "noel-pearson-garma-governance-reset",
+      "headline": "诺埃尔·皮尔森在加尔马呼吁重置原住民治理",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-01T05:52:00Z",
+      "voiceScript": "诺埃尔·皮尔森在加尔马发言，主张撤销各州的原住民事务部门，把更多责任交给联邦政府。就在他发言的同时，Yolŋu领袖推动在阿纳姆地东北部成立新的土地委员会，显示原住民希望在土地事务上拥有更大主导权。这件事之所以重要，是因为争论触及土地权利、公共服务以及谁来为偏远社区制定政策。接下来要看各级政府会把它当成认真的改革议程，还是又一次节庆式表态。",
+      "differences": [
+        "ABC更突出皮尔森要求撤销州级部门，SBS则强调加尔马的大背景和土地权利重组。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/indigenous"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/mirage-voice-architect-noel-pearson-breaks-silence-on-referendum-defeat-at-garma/bqx5oiuzr"
+        }
+      ],
+      "language": "zh-Hans"
     },
     {
       "id": "canberra-food-garden-waste-delay",
@@ -1834,37 +1932,6 @@
           "postedAt": "2026-08-01",
           "likes": 2,
           "score": 2
-        }
-      ]
-    },
-    {
-      "id": "aged-care-nurses-final-pay-rise",
-      "headline": "养老护理护士迎来最后一轮定期加薪",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-01T01:59:39Z",
-      "voiceScript": "养老护理护士在今天开始的首个完整薪期里，迎来最后一轮法定加薪，注册护士每年最多可多拿 8000 澳元。这个调整很重要，因为养老护理行业仍然在招人和留人方面吃紧，而护理需求还在继续上升。政府表示，自 2022 年以来，部分护士的薪酬累计涨幅已高达 3.6 万澳元。接下来要看的，是这笔加薪能否足够快地缓解人手短缺并改善照护。",
-      "differences": [
-        "AAP 侧重 Fair Work Commission 工资案的最后一步和累计涨幅；《堪培拉时报》更强调人手短缺，以及这次加薪在今天起的首个完整薪期生效。"
-      ],
-      "links": [
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage"
-        },
-        {
-          "source": "The Canberra Times",
-          "url": "https://www.canberratimes.com.au/story/9321855/pay-rise-for-aged-care-nurses-amid-dire-worker-shortage/"
-        }
-      ],
-      "language": "zh-Hans",
-      "socialDiscussions": [
-        {
-          "platform": "Facebook",
-          "account": "Sam Rae",
-          "title": "$36,000. That's how much better off aged care nurses are under Labor",
-          "url": "https://www.facebook.com/SamRae4Hawke/posts/36000-thats-how-much-better-off-aged-care-nurses-are-under-labor-better-pay-for-/1066847955698715/",
-          "postedAt": "2026-08-01",
-          "score": 6
         }
       ]
     },
