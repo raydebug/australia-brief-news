@@ -819,6 +819,91 @@ function hasSpecificCommentary(commentary) {
 
 const PEOPLE_CONTEXT = [
   {
+    name: "Tom Dearden",
+    aliases: ["Tom Dearden", "Thomas Dearden", "Tommy Dearden", "汤姆·迪尔登", "湯姆·迪爾登", "トム・ディアデン", "톰 디어던", "ทอม ดีอาร์เดน"],
+    type: "athlete",
+    profile: { label: "Cowboys profile", url: "https://www.cowboys.com.au/teams/nrl-premiership/north-queensland-cowboys/tom-dearden/" },
+    background: {
+      "zh-Hans": "North Queensland Cowboys 的 NRL 半卫和共同队长，也代表 Queensland State of Origin 与澳大利亚队出战。",
+      "zh-Hant": "North Queensland Cowboys 的 NRL 半衛和共同隊長，也代表 Queensland State of Origin 與澳洲隊出戰。",
+      en: "North Queensland Cowboys NRL half and co-captain who has also represented Queensland in State of Origin and Australia internationally.",
+      es: "Medio y cocapitán de North Queensland Cowboys en la NRL; también ha representado a Queensland en State of Origin y a Australia.",
+      ja: "North Queensland Cowboys の NRL ハーフで共同主将。Queensland の State of Origin とオーストラリア代表でもプレーしています。",
+      ko: "North Queensland Cowboys의 NRL 하프이자 공동 주장으로 Queensland State of Origin과 호주 대표팀에서도 뛰었습니다.",
+      vi: "Halfback và đồng đội trưởng NRL của North Queensland Cowboys, từng đại diện Queensland ở State of Origin và đội tuyển Australia.",
+      th: "ฮาล์ฟและกัปตันร่วมของ North Queensland Cowboys ใน NRL เคยเล่นให้ Queensland ใน State of Origin และทีมชาติออสเตรเลีย",
+      si: "North Queensland Cowboys NRL half සහ co-captain කෙනෙකි; Queensland State of Origin සහ Australia ජාතික කණ්ඩායමද නියෝජනය කර ඇත."
+    }
+  },
+  {
+    name: "Todd Payten",
+    aliases: ["Todd Payten", "Todd Owen Payten", "托德·佩顿", "トッド・ペイトン", "토드 페이튼"],
+    type: "athlete",
+    profile: { label: "Cowboys profile", url: "https://www.cowboys.com.au/teams/nrl-premiership/north-queensland-cowboys/todd-payten/" },
+    background: {
+      "zh-Hans": "North Queensland Cowboys 的 NRL 主教练，曾是职业橄榄球联盟球员，并参与 Cowboys 2015 年首个总冠军赛季的教练团队。",
+      "zh-Hant": "North Queensland Cowboys 的 NRL 主教練，曾是職業橄欖球聯盟球員，並參與 Cowboys 2015 年首個總冠軍賽季的教練團隊。",
+      en: "Head coach of the North Queensland Cowboys and a former professional rugby league player; he was part of the Cowboys coaching staff for their 2015 premiership.",
+      es: "Entrenador principal de North Queensland Cowboys y exjugador profesional de rugby league; integró el cuerpo técnico del club en el título de 2015.",
+      ja: "North Queensland Cowboys のヘッドコーチで元プロラグビーリーグ選手。2015年の同クラブ初優勝時にコーチングスタッフを務めました。",
+      ko: "North Queensland Cowboys의 감독이자 전 프로 럭비리그 선수입니다. 2015년 Cowboys의 첫 우승 당시 코칭스태프였습니다.",
+      vi: "Huấn luyện viên trưởng North Queensland Cowboys và cựu cầu thủ rugby league chuyên nghiệp; ông thuộc ban huấn luyện khi Cowboys vô địch năm 2015.",
+      th: "หัวหน้าโค้ช North Queensland Cowboys และอดีตผู้เล่น rugby league อาชีพ เคยอยู่ในสตาฟฟ์โค้ชตอนสโมสรได้แชมป์ปี 2015",
+      si: "North Queensland Cowboys head coach සහ හිටපු professional rugby league player කෙනෙකි; 2015 premiership ජයග්‍රහණයේදී Cowboys coaching staff හි සිටියේය."
+    }
+  },
+  {
+    name: "Luke Trainor",
+    aliases: ["Luke Trainor", "卢克·特雷纳", "路克·特雷納", "ルーク・トレイナー", "루크 트레이너"],
+    type: "athlete",
+    profile: { label: "Richmond profile", url: "https://www.richmondfc.com.au/players/9376/luke-trainor" },
+    background: {
+      "zh-Hans": "Richmond Football Club 的 AFL 后卫，2024 年选秀首轮被选中，进入一线队后被视为俱乐部重点培养的新秀。",
+      "zh-Hant": "Richmond Football Club 的 AFL 後衛，2024 年選秀首輪被選中，進入一線隊後被視為俱樂部重點培養的新秀。",
+      en: "Richmond Football Club AFL defender, selected in the first round of the 2024 draft and regarded by the club as a developing young player.",
+      es: "Defensor de Richmond Football Club en la AFL, elegido en la primera ronda del draft de 2024 y visto por el club como un joven en desarrollo.",
+      ja: "Richmond Football Club の AFL ディフェンダー。2024年ドラフト1巡目で指名され、クラブの若手有望選手とされています。",
+      ko: "Richmond Football Club의 AFL 수비수로 2024년 드래프트 1라운드 지명을 받았고 구단의 유망주로 평가됩니다.",
+      vi: "Hậu vệ AFL của Richmond Football Club, được chọn ở vòng một draft 2024 và được CLB xem là cầu thủ trẻ đang phát triển.",
+      th: "กองหลัง AFL ของ Richmond Football Club ถูกเลือกในรอบแรกของดราฟต์ปี 2024 และถูกมองว่าเป็นผู้เล่นดาวรุ่งของสโมสร",
+      si: "Richmond Football Club AFL defender කෙනෙකි; 2024 draft පළමු වටයේ තෝරාගත් අතර club එක ඔහු young developing player කෙනෙකු ලෙස සලකයි."
+    }
+  },
+  {
+    name: "Jack Williams",
+    aliases: ["Jack Williams", "杰克·威廉姆斯", "傑克·威廉斯", "ジャック・ウィリアムズ", "잭 윌리엄스"],
+    type: "athlete",
+    profile: { label: "West Coast Eagles profile", url: "https://www.westcoasteagles.com.au/players/5700/jack-williams" },
+    background: {
+      "zh-Hans": "West Coast Eagles 的 AFL 前锋和二线 ruck 选择，2021 年选秀加入球队，来自 East Fremantle 青训体系。",
+      "zh-Hant": "West Coast Eagles 的 AFL 前鋒和二線 ruck 選擇，2021 年選秀加入球隊，來自 East Fremantle 青訓體系。",
+      en: "West Coast Eagles AFL key forward and ruck option, drafted in 2021 after coming through East Fremantle.",
+      es: "Delantero alto y opción de ruck de West Coast Eagles en la AFL, drafteado en 2021 tras formarse en East Fremantle.",
+      ja: "West Coast Eagles の AFL キーフォワード兼ラック候補。East Fremantle を経て2021年ドラフトで加入しました。",
+      ko: "West Coast Eagles의 AFL 키 포워드이자 러크 옵션으로 East Fremantle을 거쳐 2021년 드래프트에서 지명됐습니다.",
+      vi: "Key forward và phương án ruck của West Coast Eagles ở AFL, được draft năm 2021 sau khi trưởng thành từ East Fremantle.",
+      th: "คีย์ฟอร์เวิร์ดและตัวเลือก ruck ของ West Coast Eagles ใน AFL ถูกดราฟต์ปี 2021 หลังผ่านระบบ East Fremantle",
+      si: "West Coast Eagles AFL key forward සහ ruck option කෙනෙකි; East Fremantle හරහා පැමිණ 2021 draft එකෙන් තෝරාගත්තේය."
+    }
+  },
+  {
+    name: "Adem Yze",
+    aliases: ["Adem Yze", "阿德姆·伊泽", "阿德姆·伊澤", "アデム・イーズ", "아뎀 이즈"],
+    type: "athlete",
+    profile: { label: "Richmond coach profile", url: "https://www.richmondfc.com.au/football/afl/coaches/ademyze" },
+    background: {
+      "zh-Hans": "Richmond Football Club 的 AFL 主教练，曾长期效力 Melbourne Football Club，退役后在 Hawthorn、Melbourne 和 Richmond 任教练。",
+      "zh-Hant": "Richmond Football Club 的 AFL 主教練，曾長期效力 Melbourne Football Club，退役後在 Hawthorn、Melbourne 和 Richmond 任教練。",
+      en: "Richmond Football Club AFL senior coach and former Melbourne player, with coaching roles at Hawthorn, Melbourne and Richmond after his playing career.",
+      es: "Entrenador principal de Richmond Football Club en la AFL y exjugador de Melbourne, con etapas técnicas en Hawthorn, Melbourne y Richmond.",
+      ja: "Richmond Football Club の AFL シニアコーチで元 Melbourne 選手。引退後は Hawthorn、Melbourne、Richmond でコーチを務めています。",
+      ko: "Richmond Football Club의 AFL 감독이자 전 Melbourne 선수로, 선수 은퇴 후 Hawthorn, Melbourne, Richmond에서 코치로 일했습니다.",
+      vi: "Huấn luyện viên trưởng AFL của Richmond Football Club và cựu cầu thủ Melbourne, từng làm HLV tại Hawthorn, Melbourne và Richmond.",
+      th: "หัวหน้าโค้ช AFL ของ Richmond Football Club และอดีตผู้เล่น Melbourne หลังเลิกเล่นเคยเป็นโค้ชกับ Hawthorn, Melbourne และ Richmond",
+      si: "Richmond Football Club AFL senior coach සහ හිටපු Melbourne player කෙනෙකි; playing career එකෙන් පසු Hawthorn, Melbourne සහ Richmond හි coaching roles දැරීය."
+    }
+  },
+  {
     name: "Bakamumu Marika",
     aliases: ["Bakamumu Marika", "Bakamumu Marika AM", "Mr B Yunupingu", "B Yunupingu", "巴卡穆穆·马里卡", "巴卡穆穆·馬里卡", "バカムム・マリカ", "바카무무 마리카"],
     type: "public-figure",
