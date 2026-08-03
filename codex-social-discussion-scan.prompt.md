@@ -45,7 +45,7 @@ Rules:
   - Use `profile` or `officialProfile` for official biography/profile pages.
   - Use `social` or `personalSocial` only for a verified personal/public social-media account such as X, Instagram, Facebook, YouTube, TikTok, Threads, LinkedIn, or Bluesky.
   - In brief text, linked names should point to the personal/public social-media account when available; official profile links belong in the person context card.
-  - In translated brief text, keep public-figure names in their English canonical form where practical. Transliterated aliases may be kept only for matching, not as the preferred display form.
+  - In translated brief text, keep person names in their English canonical form where practical. Transliterated aliases may be kept only for matching, not as the preferred display form.
   - Do not add private individuals, victims, minors, witnesses, ordinary staff, or people whose identity should not be amplified.
   - If no reliable public social/profile URL is found, use the most authoritative official biography page. Do not fabricate social accounts.
   - Non-political public office holders should get background only, not political positions.
