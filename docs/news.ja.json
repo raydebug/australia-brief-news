@@ -1811,7 +1811,7 @@
     {
       "id": "abc-ex-nrl-gambling-addiction-20260802",
       "headline": "元NRL選手はギャンブルで薬物の誘いを受けたと語った",
-      "sourceCount": 2,
+      "sourceCount": 5,
       "publishedAt": "2026-08-02T22:41:07.000Z",
       "voiceScript": "元NRL選手は、深刻なギャンブル依存のさなかに、生活を立て直そうとする中で薬物を勧められたと話した。この証言が重要なのは、賭けの被害が金銭面だけでなく、より広い搾取や精神的圧力に広がりうると示しているからだ。スポーツ界と支援機関が、被害が固定化する前に手を差し伸べられるかが次の焦点だ。",
       "differences": [
@@ -1825,6 +1825,18 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/aug/03/ex-rugby-league-star-says-gambling-companies-fuelled-his-betting-addiction"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/video/ex-nrl-player-alleges-betting-companies-offered-to-supply-illicit-drugs/aey7r2liq"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/nrl/betting-company-supplied-former-nrl-star-with-drugs-inquiry-told/news-story/e55cee1845917666d266c0c39eecba95"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/escorts-drugs-big-spending-gamblers-inducements"
         }
       ],
       "language": "ja",
@@ -4588,6 +4600,21 @@
       ]
     },
     {
+      "id": "governor-general-civics-warning-20260730",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T15:00:19.000Z",
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/31/governor-general-warns-of-growing-catastrophe-that-threatens-to-undermine-democracy-in-australia-ntwnfb"
+        }
+      ],
+      "headline": "サム・モースティン総督、市民理解の不足が民主主義をむしばんでいると警告",
+      "voiceScript": "サム・モースティン総督は、オーストラリアの民主主義が市民としての理解の弱さと公的機関への圧力で傷んでいると述べています。重要なのは、この警告が学校教育だけでなく政府への信頼そのものに関わる点です。今後の焦点は、政治指導者がこの警告を優先課題として受け止め、国民の信頼がさらに落ちる前に動くかどうかです。",
+      "differences": [],
+      "language": "ja"
+    },
+    {
       "id": "optus-triple-zero-outage-lawsuit",
       "headline": "Optusは2025年の triple-zero 障害をめぐり連邦裁判所で訴えられる",
       "sourceCount": 6,
@@ -4675,9 +4702,9 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news feed still exposed an HTML wrapper this pass, so discovery there remained search-assisted.",
-    "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings this pass.",
-    "AAP page-level harvesting was usable for selected stories, but remained inconsistent across the homepage."
+    "news.com.au latest-news feed still required search-assisted fallback for some current Australian items.",
+    "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings.",
+    "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results."
   ],
   "generatedBy": "codex",
   "language": "ja",
@@ -4780,5 +4807,5 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "updatedAt": "2026-08-03T17:06:15.142Z"
+  "updatedAt": "2026-08-03T18:10:39.920Z"
 }

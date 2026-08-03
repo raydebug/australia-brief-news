@@ -1811,7 +1811,7 @@
     {
       "id": "abc-ex-nrl-gambling-addiction-20260802",
       "headline": "හිටපු NRL ක්‍රීඩකයෙක් කියන්නේ සූදු ඇබ්බැහියෙන් මත්ද්‍රව්‍ය පීඩනයත් ඇති වූ බවයි",
-      "sourceCount": 2,
+      "sourceCount": 5,
       "publishedAt": "2026-08-02T22:41:07.000Z",
       "voiceScript": "හිටපු NRL ක්‍රීඩකයෙක් කියන්නේ දරුණු සූදු ඇබ්බැහිය නිසා තමන් ජීවිතය සකසා ගැනීමට උත්සාහ කරන අතරතුර මත්ද්‍රව්‍ය පිරිනැමූ අය සමඟ මුහුණ දුන් බවයි. මෙය වැදගත් වන්නේ සූදු හානි මුදල් අලාභයට පමණක් සීමා නොවී විශාල වශයෙන් පීඩනය හා සූරාකෑමට හේතු විය හැකි බව පෙන්වන නිසාය. ක්‍රීඩා ආයතන සහ සහාය සේවා හානිය බරපතල වීමට පෙර එය අල්ලගන්නවාද යන්න දැන් ප්‍රශ්නයයි.",
       "differences": [
@@ -1825,6 +1825,18 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/aug/03/ex-rugby-league-star-says-gambling-companies-fuelled-his-betting-addiction"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/video/ex-nrl-player-alleges-betting-companies-offered-to-supply-illicit-drugs/aey7r2liq"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/nrl/betting-company-supplied-former-nrl-star-with-drugs-inquiry-told/news-story/e55cee1845917666d266c0c39eecba95"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/escorts-drugs-big-spending-gamblers-inducements"
         }
       ],
       "language": "si",
@@ -4588,6 +4600,21 @@
       ]
     },
     {
+      "id": "governor-general-civics-warning-20260730",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T15:00:19.000Z",
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/31/governor-general-warns-of-growing-catastrophe-that-threatens-to-undermine-democracy-in-australia-ntwnfb"
+        }
+      ],
+      "headline": "සෑම් මොස්ටින් අනතුරු අඟවන්නේ පුරවැසි අවබෝධය අඩුවීම ප්‍රජාතන්ත්‍රවාදය දුර්වල කරන බවයි",
+      "voiceScript": "ඕස්ට්‍රේලියාවේ ගවර්නර්-ජනරාල් සෑම් මොස්ටින් පවසන්නේ පුරවැසි අවබෝධය අඩුවීමත්, පොදු ආයතන මත ඇති පීඩනයත් නිසා ප්‍රජාතන්ත්‍රවාදය දුර්වල වෙමින් 있다는 것යි. මේ අනතුරු ඇඟවීම වැදගත් වන්නේ එය පුරවැසි අධ්‍යාපනය හා රජය පිළිබඳ විශ්වාසය එකිනෙකට බැඳී ඇති බව පෙන්වන නිසාය. දැන් බලන්න වෙන්නේ නායකයන් මේක ප්‍රමුඛතාවයක් කරගෙන ජන විශ්වාසය තවත් පහළ යාමට පෙර ක්‍රියා කරනවාද කියලා.",
+      "differences": [],
+      "language": "si"
+    },
+    {
       "id": "optus-triple-zero-outage-lawsuit",
       "headline": "Optus 2025 triple-zero බිඳවැටීම හේතුවෙන් ෆෙඩරල් අධිකරණ නඩුවකට මුහුණ දෙයි",
       "sourceCount": 6,
@@ -4675,9 +4702,9 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news feed still exposed an HTML wrapper this pass, so discovery there remained search-assisted.",
-    "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings this pass.",
-    "AAP page-level harvesting was usable for selected stories, but remained inconsistent across the homepage."
+    "news.com.au latest-news feed still required search-assisted fallback for some current Australian items.",
+    "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings.",
+    "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results."
   ],
   "generatedBy": "codex",
   "language": "si",
@@ -4780,5 +4807,5 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "updatedAt": "2026-08-03T17:06:15.142Z"
+  "updatedAt": "2026-08-03T18:10:39.916Z"
 }

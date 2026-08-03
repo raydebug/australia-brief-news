@@ -1819,7 +1819,7 @@
     {
       "id": "abc-ex-nrl-gambling-addiction-20260802",
       "headline": "前NRL球員說，賭博讓自己陷入毒品誘惑",
-      "sourceCount": 2,
+      "sourceCount": 5,
       "publishedAt": "2026-08-02T22:41:07.000Z",
       "voiceScript": "一名前NRL球員說，嚴重的賭博成癮讓他在試圖維持生活時，接觸到向他兜售毒品的人。這個經歷之所以重要，是因為它說明博彩傷害不只是金錢損失，還可能帶來更大的剝削和心理壓力。接下來要看體育機構和援助服務能否在傷害坐實前真正接住這些人。",
       "differences": [
@@ -1833,6 +1833,18 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/aug/03/ex-rugby-league-star-says-gambling-companies-fuelled-his-betting-addiction"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/video/ex-nrl-player-alleges-betting-companies-offered-to-supply-illicit-drugs/aey7r2liq"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/nrl/betting-company-supplied-former-nrl-star-with-drugs-inquiry-told/news-story/e55cee1845917666d266c0c39eecba95"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/escorts-drugs-big-spending-gamblers-inducements"
         }
       ],
       "language": "zh-Hant",
@@ -4596,6 +4608,21 @@
       ]
     },
     {
+      "id": "governor-general-civics-warning-20260730",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T15:00:19.000Z",
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/31/governor-general-warns-of-growing-catastrophe-that-threatens-to-undermine-democracy-in-australia-ntwnfb"
+        }
+      ],
+      "headline": "薩姆·莫斯廷警告，公民常識不足正在侵蝕民主",
+      "voiceScript": "澳洲總督薩姆·莫斯廷說，公民對制度的理解不足，加上對公共機構的持續壓力，正在削弱民主。她的提醒之所以重要，是因為它把公民教育和政府信任直接連在一起。接下來要看，政界和學校是否會把這當成優先事項，在公眾信心進一步下滑前採取行動。",
+      "differences": [],
+      "language": "zh-Hant"
+    },
+    {
       "id": "optus-triple-zero-outage-lawsuit",
       "headline": "Optus 因2025年 triple-zero 中斷事件面臨聯邦法院訴訟",
       "sourceCount": 6,
@@ -4683,9 +4710,9 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news feed still exposed an HTML wrapper this pass, so discovery there remained search-assisted.",
-    "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings this pass.",
-    "AAP page-level harvesting was usable for selected stories, but remained inconsistent across the homepage."
+    "news.com.au latest-news feed still required search-assisted fallback for some current Australian items.",
+    "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings.",
+    "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results."
   ],
   "generatedBy": "codex",
   "language": "zh-Hant",
@@ -4788,5 +4815,5 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "updatedAt": "2026-08-03T17:06:15.142Z"
+  "updatedAt": "2026-08-03T18:10:39.914Z"
 }

@@ -1811,7 +1811,7 @@
     {
       "id": "abc-ex-nrl-gambling-addiction-20260802",
       "headline": "อดีตผู้เล่น NRL บอกว่าการติดพนันพาไปสู่แรงกดดันเรื่องยาเสพติด",
-      "sourceCount": 2,
+      "sourceCount": 5,
       "publishedAt": "2026-08-02T22:41:07.000Z",
       "voiceScript": "อดีตผู้เล่น NRL บอกว่าการติดพนันอย่างหนักทำให้เขาเจอคนที่พยายามชักชวนเรื่องยาเสพติด ขณะที่เขาพยายามประคองชีวิตให้เดินต่อไป เรื่องนี้สำคัญเพราะแสดงให้เห็นว่าความเสียหายจากการพนันไม่ได้หยุดแค่เรื่องเงิน แต่ลุกลามไปสู่การเอาเปรียบและแรงกดดันทางใจได้ คำถามต่อไปคือวงการกีฬาและบริการช่วยเหลือจะเข้าถึงคนให้ทันก่อนความเสียหายฝังตัวหรือไม่",
       "differences": [
@@ -1825,6 +1825,18 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/aug/03/ex-rugby-league-star-says-gambling-companies-fuelled-his-betting-addiction"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/video/ex-nrl-player-alleges-betting-companies-offered-to-supply-illicit-drugs/aey7r2liq"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/nrl/betting-company-supplied-former-nrl-star-with-drugs-inquiry-told/news-story/e55cee1845917666d266c0c39eecba95"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/escorts-drugs-big-spending-gamblers-inducements"
         }
       ],
       "language": "th",
@@ -4588,6 +4600,21 @@
       ]
     },
     {
+      "id": "governor-general-civics-warning-20260730",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T15:00:19.000Z",
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/31/governor-general-warns-of-growing-catastrophe-that-threatens-to-undermine-democracy-in-australia-ntwnfb"
+        }
+      ],
+      "headline": "ซัม มอสติน เตือนว่าความเข้าใจเรื่องสิทธิหน้าที่พลเมืองที่อ่อนลง กำลังกัดกร่อนประชาธิปไตย",
+      "voiceScript": "ซัม มอสติน ผู้สำเร็จราชการแทนพระองค์กล่าวว่าประชาธิปไตยของออสเตรเลียกำลังอ่อนแรงลงเพราะความเข้าใจเรื่องสิทธิหน้าที่พลเมืองยังไม่พอ และเพราะแรงกดดันต่อสถาบันสาธารณะ ประเด็นนี้สำคัญเพราะมันเชื่อมการศึกษาพลเมืองเข้ากับความไว้วางใจในรัฐบาล ไม่ใช่แค่เรื่องในห้องเรียน คำถามต่อไปคือผู้นำจะรับเรื่องนี้เป็นลำดับความสำคัญก่อนที่ความเชื่อมั่นของสาธารณชนจะลดลงไปอีกหรือไม่",
+      "differences": [],
+      "language": "th"
+    },
+    {
       "id": "optus-triple-zero-outage-lawsuit",
       "headline": "Optus เผชิญคดีที่ศาลรัฐบาลกลางจากเหตุขัดข้อง triple-zero ปี 2025",
       "sourceCount": 6,
@@ -4675,9 +4702,9 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news feed still exposed an HTML wrapper this pass, so discovery there remained search-assisted.",
-    "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings this pass.",
-    "AAP page-level harvesting was usable for selected stories, but remained inconsistent across the homepage."
+    "news.com.au latest-news feed still required search-assisted fallback for some current Australian items.",
+    "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings.",
+    "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results."
   ],
   "generatedBy": "codex",
   "language": "th",
@@ -4780,5 +4807,5 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "updatedAt": "2026-08-03T17:06:15.142Z"
+  "updatedAt": "2026-08-03T18:10:39.935Z"
 }

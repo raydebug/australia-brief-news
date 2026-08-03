@@ -1811,7 +1811,7 @@
     {
       "id": "abc-ex-nrl-gambling-addiction-20260802",
       "headline": "Cựu cầu thủ NRL nói cờ bạc kéo theo áp lực ma túy",
-      "sourceCount": 2,
+      "sourceCount": 5,
       "publishedAt": "2026-08-02T22:41:07.000Z",
       "voiceScript": "Một cựu cầu thủ NRL nói rằng cơn nghiện cờ bạc nặng nề đã khiến anh gặp những người gạ dùng ma túy trong lúc cố gắng giữ cuộc sống ổn định. Câu chuyện này quan trọng vì cho thấy tác hại từ cá cược không chỉ là mất tiền mà còn có thể kéo theo bóc lột và áp lực tinh thần rộng hơn. Câu hỏi tiếp theo là liệu giới thể thao và các dịch vụ hỗ trợ có kịp tiếp cận người trong cuộc trước khi tổn hại trở nên cố định hay không.",
       "differences": [
@@ -1825,6 +1825,18 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/aug/03/ex-rugby-league-star-says-gambling-companies-fuelled-his-betting-addiction"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/video/ex-nrl-player-alleges-betting-companies-offered-to-supply-illicit-drugs/aey7r2liq"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/nrl/betting-company-supplied-former-nrl-star-with-drugs-inquiry-told/news-story/e55cee1845917666d266c0c39eecba95"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/escorts-drugs-big-spending-gamblers-inducements"
         }
       ],
       "language": "vi",
@@ -4588,6 +4600,21 @@
       ]
     },
     {
+      "id": "governor-general-civics-warning-20260730",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T15:00:19.000Z",
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/31/governor-general-warns-of-growing-catastrophe-that-threatens-to-undermine-democracy-in-australia-ntwnfb"
+        }
+      ],
+      "headline": "Sam Mostyn cảnh báo sự hiểu biết công dân yếu đang làm xói mòn nền dân chủ",
+      "voiceScript": "Toàn quyền Sam Mostyn nói nền dân chủ Úc đang bị suy yếu bởi sự hiểu biết công dân chưa đủ và áp lực lên các cơ quan công quyền. Lời cảnh báo này quan trọng vì nó nối giáo dục công dân với niềm tin vào chính phủ, chứ không chỉ là chuyện học đường. Câu hỏi tiếp theo là liệu các lãnh đạo có xem đó là ưu tiên trước khi niềm tin của công chúng giảm thêm hay không.",
+      "differences": [],
+      "language": "vi"
+    },
+    {
       "id": "optus-triple-zero-outage-lawsuit",
       "headline": "Optus đối mặt vụ kiện tại Tòa Liên bang vì sự cố triple-zero năm 2025",
       "sourceCount": 6,
@@ -4675,9 +4702,9 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news feed still exposed an HTML wrapper this pass, so discovery there remained search-assisted.",
-    "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings this pass.",
-    "AAP page-level harvesting was usable for selected stories, but remained inconsistent across the homepage."
+    "news.com.au latest-news feed still required search-assisted fallback for some current Australian items.",
+    "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings.",
+    "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results."
   ],
   "generatedBy": "codex",
   "language": "vi",
@@ -4780,5 +4807,5 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "updatedAt": "2026-08-03T17:06:15.142Z"
+  "updatedAt": "2026-08-03T18:10:39.929Z"
 }
