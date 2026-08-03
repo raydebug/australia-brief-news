@@ -2241,6 +2241,53 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Warren Pickering",
+    aliases: ["Warren Pickering", "Warren Pickering One Nation", "Warren Pickering Pakenham", "沃伦·皮克林", "沃倫·皮克林", "ウォーレン・ピカリング", "워런 피커링"],
+    type: "politician",
+    profile: { label: "One Nation candidate profile", url: "https://vic.onenation.org.au/warren-pickering" },
+    social: { label: "Facebook", url: "https://www.facebook.com/warren4onenation/" },
+    background: {
+      "zh-Hans": "One Nation 维州政治人物和 Pakenham 候选人，公开竞选资料称他有农场、建筑、军队和矿业背景，并在 2026 年维州选举发布中被介绍为该党维州负责人之一。",
+      "zh-Hant": "One Nation 維州政治人物和 Pakenham 候選人，公開競選資料稱他有農場、建築、軍隊和礦業背景，並在 2026 年維州選舉發布中被介紹為該黨維州負責人之一。",
+      en: "Victorian One Nation politician and Pakenham candidate. Public campaign material presents him as having farming, construction, military and mining experience, and he was introduced as a state figure in the party's 2026 Victorian election launch.",
+      es: "Político de One Nation en Victoria y candidato por Pakenham. Su material público de campaña lo presenta con experiencia en agricultura, construcción, fuerzas armadas y minería, y fue presentado como figura estatal en el lanzamiento electoral victoriano de 2026.",
+      ja: "ビクトリア州 One Nation の政治家で、Pakenham 候補。公開された選挙資料では農業、建設、軍務、鉱業の経験があるとされ、2026年州選挙の発表で同党の州レベルの人物として紹介されました。",
+      ko: "빅토리아주 One Nation 정치인이자 Pakenham 후보입니다. 공개 선거 자료는 농업, 건설, 군 복무, 광업 경험을 소개하며 2026년 빅토리아 선거 출범 행사에서 당의 주 단위 인물로 소개됐습니다.",
+      vi: "Chính trị gia One Nation tại Victoria và ứng viên Pakenham. Tài liệu vận động công khai giới thiệu ông có kinh nghiệm nông nghiệp, xây dựng, quân đội và khai khoáng, và ông được nêu như một nhân vật cấp bang trong buổi ra mắt bầu cử Victoria 2026 của đảng.",
+      th: "นักการเมือง One Nation ในรัฐวิกตอเรียและผู้สมัครเขต Pakenham ข้อมูลหาเสียงสาธารณะระบุว่าเขามีประสบการณ์ด้านฟาร์ม ก่อสร้าง ทหาร และเหมือง และถูกเปิดตัวเป็นบุคคลระดับรัฐในการเลือกตั้งวิกตอเรียปี 2026 ของพรรค",
+      si: "Victoria හි One Nation දේශපාලනඥයෙකු සහ Pakenham candidate කෙනෙකි. Public campaign material ඔහුට farming, construction, military සහ mining experience ඇති බව පෙන්වයි; 2026 Victorian election launch එකේදී party state figure කෙනෙකු ලෙස ඉදිරිපත් විය."
+    },
+    positions: {
+      "zh-Hans": "其竞选信息强调执法、公共诚信、地区和农场社区、生活成本以及对工党政府的不信任；这些主题与 One Nation 在维州选举中的反建制定位一致。",
+      "zh-Hant": "其競選資訊強調執法、公共誠信、地區和農場社區、生活成本以及對工黨政府的不信任；這些主題與 One Nation 在維州選舉中的反建制定位一致。",
+      en: "His campaign messaging stresses law enforcement, public integrity, regional and farming communities, cost-of-living pressure and distrust of the Labor government, aligning with One Nation's anti-establishment Victorian pitch.",
+      es: "Su campaña subraya cumplimiento de la ley, integridad pública, comunidades regionales y agrícolas, coste de vida y desconfianza hacia el gobierno laborista, en línea con el tono antiestablishment de One Nation en Victoria.",
+      ja: "法執行、公的廉潔性、地方・農業コミュニティ、生活費、労働党政権への不信を訴え、One Nation のビクトリア州での反既成政治的な訴えと重なります。",
+      ko: "법 집행, 공공 청렴, 지역과 농업 공동체, 생활비 부담, 노동당 정부 불신을 강조하며 One Nation의 빅토리아 반기성 정치 메시지와 맞닿아 있습니다.",
+      vi: "Thông điệp tranh cử nhấn mạnh thực thi pháp luật, liêm chính công, cộng đồng vùng và nông nghiệp, áp lực chi phí sinh hoạt và nghi ngờ chính phủ Labor, phù hợp với lập trường chống chính trị chính thống của One Nation tại Victoria.",
+      th: "สารหาเสียงเน้น law enforcement, public integrity, ชุมชนภูมิภาคและเกษตร, ค่าครองชีพ และความไม่ไว้วางใจรัฐบาล Labor สอดคล้องกับภาพต่อต้าน establishment ของ One Nation ในรัฐวิกตอเรีย",
+      si: "ඔහුගේ campaign messaging law enforcement, public integrity, regional/farming communities, cost-of-living pressure සහ Labor government ගැන අවිශ්වාසය අවධාරණය කරයි; මෙය Victoria හි One Nation anti-establishment pitch එකට ගැළපේ."
+    }
+  },
+  {
+    name: "Elizabeth Dabars",
+    aliases: ["Elizabeth Dabars", "Elizabeth Dabars AM", "Liz Dabars", "伊丽莎白·达巴斯", "伊麗莎白·達巴斯", "エリザベス・ダバーズ", "엘리자베스 다바스"],
+    type: "public-figure",
+    profile: { label: "ANMF SA leadership profile", url: "https://www.anmfsa.org.au/about/leadership/" },
+    social: { label: "LinkedIn", url: "https://www.linkedin.com/in/elizabeth-dabars-am-47962452/" },
+    background: {
+      "zh-Hans": "Australian Nursing and Midwifery Federation SA Branch 首席执行官兼秘书，注册护士和助产士，长期代表南澳护理和助产行业就医院压力、员工安全和患者护理发声。",
+      "zh-Hant": "Australian Nursing and Midwifery Federation SA Branch 行政總裁兼秘書，註冊護士和助產士，長期代表南澳護理和助產行業就醫院壓力、員工安全和病患照護發聲。",
+      en: "Chief executive officer and secretary of the Australian Nursing and Midwifery Federation SA Branch, and a registered nurse and midwife who regularly speaks publicly on hospital pressure, staff safety and patient care in South Australia.",
+      es: "Directora ejecutiva y secretaria de la Australian Nursing and Midwifery Federation SA Branch, enfermera y matrona registrada que suele intervenir públicamente sobre presión hospitalaria, seguridad del personal y atención al paciente en Australia Meridional.",
+      ja: "Australian Nursing and Midwifery Federation SA Branch の CEO 兼 secretary。登録看護師・助産師で、南オーストラリア州の病院逼迫、職員安全、患者ケアについて公に発言しています。",
+      ko: "Australian Nursing and Midwifery Federation SA Branch의 최고경영자 겸 사무총장입니다. 등록 간호사이자 조산사로 남호주의 병원 압박, 직원 안전, 환자 돌봄 문제에 대해 공개적으로 발언합니다.",
+      vi: "Tổng giám đốc kiêm secretary của Australian Nursing and Midwifery Federation SA Branch, là y tá và nữ hộ sinh đã đăng ký, thường lên tiếng công khai về áp lực bệnh viện, an toàn nhân viên và chăm sóc bệnh nhân ở Nam Úc.",
+      th: "Chief executive officer และ secretary ของ Australian Nursing and Midwifery Federation SA Branch เป็นพยาบาลและผดุงครรภ์ขึ้นทะเบียนที่มักออกมาพูดเรื่องแรงกดดันโรงพยาบาล ความปลอดภัยของบุคลากร และการดูแลผู้ป่วยในเซาท์ออสเตรเลีย",
+      si: "Australian Nursing and Midwifery Federation SA Branch හි chief executive officer සහ secretary වේ. Registered nurse සහ midwife කෙනෙකු වන ඇය South Australia හි hospital pressure, staff safety සහ patient care ගැන ප්‍රසිද්ධියේ කථා කරයි."
+    }
+  },
+  {
     name: "Mick Gatto",
     aliases: ["Mick Gatto", "Domenic Gatto", "米克·加托", "ミック・ガットー", "믹 개토"],
     type: "public-figure",
