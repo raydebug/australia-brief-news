@@ -2620,6 +2620,23 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Ralph Carr",
+    aliases: ["Ralph Carr", "Ralph D. Carr", "Ralph Carnovale-Carr", "拉尔夫·卡尔", "拉爾夫·卡爾", "ラルフ・カー", "랠프 카"],
+    type: "public-figure",
+    profile: { label: "Ralph Carr Management profile", url: "https://www.ralphcarr.com/about" },
+    background: {
+      "zh-Hans": "澳洲娱乐和体育经纪人，Ralph Carr Management 负责人，曾代理音乐人、电视人物和 AFL 运动员。2026 年，他在维州一宗强奸和性侵定罪后被法院解除姓名禁令而公开身份。",
+      "zh-Hant": "澳洲娛樂和體育經紀人，Ralph Carr Management 負責人，曾代理音樂人、電視人物和 AFL 運動員。2026 年，他在維州一宗強姦和性侵定罪後被法院解除姓名禁令而公開身份。",
+      en: "Australian entertainment and sports manager who led Ralph Carr Management and represented musicians, television personalities and AFL athletes. In 2026, he was publicly identified after a Victorian court lifted suppression following rape and sexual-assault convictions.",
+      es: "Representante australiano de entretenimiento y deporte, responsable de Ralph Carr Management, que trabajó con músicos, figuras de televisión y atletas de la AFL. En 2026 fue identificado públicamente después de que un tribunal de Victoria levantara la supresión tras condenas por violación y agresión sexual.",
+      ja: "Ralph Carr Management を率いた豪州のエンターテインメント・スポーツマネージャーで、音楽家、テレビ関係者、AFL 選手を代理しました。2026年、ビクトリア州での強姦・性的暴行の有罪評決後に秘匿命令が解除され、氏名が公表されました。",
+      ko: "Ralph Carr Management를 이끈 호주의 엔터테인먼트·스포츠 매니저로 음악인, 방송 인물, AFL 선수들을 대리했습니다. 2026년 빅토리아주 법원이 강간 및 성폭력 유죄 평결 뒤 보도금지를 해제하면서 신원이 공개됐습니다.",
+      vi: "Nhà quản lý giải trí và thể thao Úc, người đứng đầu Ralph Carr Management và từng đại diện cho nhạc sĩ, nhân vật truyền hình và vận động viên AFL. Năm 2026, ông được công khai danh tính sau khi tòa Victoria dỡ lệnh cấm nêu tên sau các kết án hiếp dâm và tấn công tình dục.",
+      th: "ผู้จัดการด้านบันเทิงและกีฬาชาวออสเตรเลีย หัวหน้า Ralph Carr Management ซึ่งเคยดูแลนักดนตรี บุคคลโทรทัศน์ และนักกีฬา AFL ในปี 2026 ศาลวิกตอเรียยกเลิกคำสั่งปิดชื่อหลังคำตัดสินผิดคดี rape และ sexual assault ทำให้เขาถูกเปิดเผยชื่อ",
+      si: "Ralph Carr Management නායකත්වය දුන් Australian entertainment සහ sports manager කෙනෙකි; musicians, television personalities සහ AFL athletes නියෝජනය කළේය. 2026 දී Victoria court එක rape සහ sexual-assault convictions පසු suppression ඉවත් කිරීමෙන් ඔහුගේ නම ප්‍රසිද්ධ විය."
+    }
+  },
+  {
     name: "Alan Jones",
     aliases: ["Alan Jones", "Alan Belford Jones", "艾伦·琼斯", "艾倫·瓊斯", "アラン・ジョーンズ", "앨런 존스"],
     type: "public-figure",
