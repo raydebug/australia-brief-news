@@ -2298,6 +2298,34 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Barnaby Joyce",
+    aliases: ["Barnaby Joyce", "Barnaby Thomas Gerard Joyce", "Barnaby Joyce MP", "巴纳比·乔伊斯", "巴納比·喬伊斯", "バーナビー・ジョイス", "바너비 조이스"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.aph.gov.au/b_joyce_mp" },
+    background: {
+      "zh-Hans": "新南威尔士 New England 选区联邦众议员，曾任澳大利亚副总理和国家党领袖，2025 年离开国家党并加入 One Nation。",
+      "zh-Hant": "新南威爾斯 New England 選區聯邦眾議員，曾任澳洲副總理和國家黨領袖，2025 年離開國家黨並加入 One Nation。",
+      en: "Federal MP for New England in New South Wales, former deputy prime minister and former Nationals leader who left the Nationals and joined One Nation in 2025.",
+      es: "Diputado federal por New England, Nueva Gales del Sur; ex vice primer ministro y exlíder de los Nationals que dejó el partido y se unió a One Nation en 2025.",
+      ja: "ニューサウスウェールズ州 New England 選出の連邦下院議員。元副首相、元 Nationals 党首で、2025年に Nationals を離れ One Nation に加わりました。",
+      ko: "뉴사우스웨일스 New England 지역구 연방 하원의원입니다. 전 부총리이자 전 Nationals 대표로, 2025년 Nationals를 떠나 One Nation에 합류했습니다.",
+      vi: "Nghị sĩ liên bang khu New England ở New South Wales, cựu phó thủ tướng và cựu lãnh đạo Nationals; rời Nationals và gia nhập One Nation năm 2025.",
+      th: "ส.ส. รัฐบาลกลางเขต New England ในนิวเซาท์เวลส์ อดีตรองนายกรัฐมนตรีและอดีตผู้นำ Nationals ที่ออกจาก Nationals และเข้าร่วม One Nation ในปี 2025",
+      si: "New South Wales හි New England Federal MP කෙනෙකි. හිටපු deputy prime minister සහ හිටපු Nationals leader වූ ඔහු 2025 දී Nationals අතහැර One Nation වෙත එක් විය."
+    },
+    positions: {
+      "zh-Hans": "主要围绕地区产业、农业、能源、净零目标、移民和保守社会议题发声；加入 One Nation 后，其难民和移民立场与该党的单一文化主张之间的张力受到关注。",
+      "zh-Hant": "主要圍繞地區產業、農業、能源、淨零目標、移民和保守社會議題發聲；加入 One Nation 後，其難民和移民立場與該黨的單一文化主張之間的張力受到關注。",
+      en: "His politics centre on regional industries, agriculture, energy, net zero, migration and conservative social issues; since joining One Nation, tension between his refugee comments and the party's monocultural pitch has drawn attention.",
+      es: "Su política se centra en industrias regionales, agricultura, energía, cero neto, migración y temas sociales conservadores; desde que se sumó a One Nation, se observa la tensión entre sus comentarios sobre refugiados y el discurso monocultural del partido.",
+      ja: "地方産業、農業、エネルギー、ネットゼロ、移民、保守的な社会問題を主な論点とします。One Nation 参加後は、難民に関する発言と同党の単一文化的主張との緊張が注目されています。",
+      ko: "지역 산업, 농업, 에너지, 넷제로, 이민, 보수적 사회 이슈를 중심으로 발언합니다. One Nation 합류 이후 난민 관련 발언과 당의 단일문화 메시지 사이의 긴장이 주목받고 있습니다.",
+      vi: "Chính trị của ông tập trung vào ngành vùng, nông nghiệp, năng lượng, net zero, di trú và các vấn đề xã hội bảo thủ; sau khi gia nhập One Nation, căng thẳng giữa phát biểu về người tị nạn và thông điệp monocultural của đảng được chú ý.",
+      th: "แนวการเมืองของเขาเน้นอุตสาหกรรมภูมิภาค เกษตร พลังงาน net zero การย้ายถิ่น และประเด็นสังคมอนุรักษนิยม หลังเข้าร่วม One Nation ความตึงเครียดระหว่างคำพูดเรื่องผู้ลี้ภัยกับแนวคิด monocultural ของพรรคถูกจับตา",
+      si: "ඔහුගේ politics regional industries, agriculture, energy, net zero, migration සහ conservative social issues වටා ය. One Nation වෙත එක් වූ පසු refugee comments සහ party එකේ monocultural pitch අතර tension අවධානයට ලක්විය."
+    }
+  },
+  {
     name: "Pauline Hanson",
     aliases: ["Pauline Hanson", "保琳·汉森", "保琳·漢森", "ポーリン・ハンソン", "폴린 핸슨"],
     type: "politician",
