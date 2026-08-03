@@ -2798,6 +2798,23 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Tim Nielsen",
+    aliases: ["Tim Nielsen", "Timothy John Nielsen", "蒂姆·尼尔森", "蒂姆·尼爾森", "ティム・ニールセン", "팀 닐슨"],
+    type: "athlete",
+    profile: { label: "ESPNcricinfo profile", url: "https://www.espncricinfo.com/cricketers/tim-nielsen-6928" },
+    background: {
+      "zh-Hans": "澳洲前一流板球运动员和教练，曾在 2007 至 2011 年担任澳大利亚男子国家队主教练，后来继续参与 Cricket Australia 青训和 U19 项目。",
+      "zh-Hant": "澳洲前一流板球運動員和教練，曾在 2007 至 2011 年擔任澳洲男子國家隊主教練，後來繼續參與 Cricket Australia 青訓和 U19 項目。",
+      en: "Australian former first-class cricketer and coach. He coached the Australian men's national team from 2007 to 2011 and later worked in Cricket Australia development and under-19 programs.",
+      es: "Exjugador australiano de cricket de primera clase y entrenador. Dirigió a la selección masculina de Australia entre 2007 y 2011 y luego trabajó en desarrollo y programas sub-19 de Cricket Australia.",
+      ja: "豪州の元ファーストクラス・クリケット選手でコーチ。2007年から2011年まで男子豪州代表を率い、その後 Cricket Australia の育成・U19 プログラムに関わっています。",
+      ko: "호주의 전 1급 크리켓 선수이자 코치입니다. 2007년부터 2011년까지 호주 남자 대표팀을 이끌었고 이후 Cricket Australia의 육성 및 U19 프로그램에서 일했습니다.",
+      vi: "Cựu VĐV cricket first-class và HLV người Úc. Ông dẫn dắt đội tuyển nam Australia từ 2007 đến 2011 và sau đó làm việc trong các chương trình phát triển, U19 của Cricket Australia.",
+      th: "อดีตผู้เล่นคริกเก็ต first-class และโค้ชชาวออสเตรเลีย เคยคุมทีมชายทีมชาติออสเตรเลียระหว่างปี 2007 ถึง 2011 และต่อมาทำงานในโครงการพัฒนาและ U19 ของ Cricket Australia",
+      si: "Australian former first-class cricketer සහ coach කෙනෙකි. 2007 සිට 2011 දක්වා Australian men's national team coach වූ අතර පසුව Cricket Australia development සහ under-19 programs තුළ වැඩ කළේය."
+    }
+  },
+  {
     name: "Alan Jones",
     aliases: ["Alan Jones", "Alan Belford Jones", "艾伦·琼斯", "艾倫·瓊斯", "アラン・ジョーンズ", "앨런 존스"],
     type: "public-figure",
