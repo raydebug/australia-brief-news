@@ -2637,6 +2637,23 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "John Gibbs",
+    aliases: ["John Gibbs", "Johnny Gibbs", "John Vincent Gibbs", "Gibbsy", "约翰·吉布斯", "約翰·吉布斯", "ジョン・ギブス", "존 깁스"],
+    type: "public-figure",
+    profile: { label: "Rugby League Project profile", url: "https://www.rugbyleagueproject.org/players/john-gibbs/positions.html" },
+    background: {
+      "zh-Hans": "澳洲前橄榄球联盟球员和体育广播人，曾效力 Manly-Warringah Sea Eagles，并长期从事 NRL 广播解说。ABC Sport 报道称，2026 年他确诊霍奇金淋巴瘤后暂时离开解说工作接受治疗。",
+      "zh-Hant": "澳洲前橄欖球聯盟球員和體育廣播人，曾效力 Manly-Warringah Sea Eagles，並長期從事 NRL 廣播解說。ABC Sport 報道稱，2026 年他確診霍奇金淋巴瘤後暫時離開解說工作接受治療。",
+      en: "Australian former rugby league player and sports broadcaster who played for the Manly-Warringah Sea Eagles and later became a long-running NRL radio commentator. ABC Sport reported in 2026 that he was stepping back from commentary after a Hodgkin lymphoma diagnosis.",
+      es: "Exjugador australiano de rugby league y comentarista deportivo que jugó para Manly-Warringah Sea Eagles y luego trabajó durante años como comentarista radial de NRL. ABC Sport informó en 2026 que se apartaba temporalmente de la narración tras un diagnóstico de linfoma de Hodgkin.",
+      ja: "Manly-Warringah Sea Eagles でプレーした豪州の元ラグビーリーグ選手で、長く NRL のラジオ解説を務めたスポーツ放送人。ABC Sport は2026年、ホジキンリンパ腫の診断を受けて解説業を一時離れると報じました。",
+      ko: "Manly-Warringah Sea Eagles에서 뛴 호주의 전 럭비리그 선수이자 스포츠 방송인으로, 이후 오랫동안 NRL 라디오 해설을 맡았습니다. ABC Sport는 2026년 그가 호지킨 림프종 진단 뒤 해설 활동을 잠시 중단한다고 보도했습니다.",
+      vi: "Cựu cầu thủ rugby league và phát thanh viên thể thao Úc, từng chơi cho Manly-Warringah Sea Eagles và sau đó bình luận NRL trên radio trong nhiều năm. ABC Sport đưa tin năm 2026 rằng ông tạm rời công việc bình luận sau khi được chẩn đoán Hodgkin lymphoma.",
+      th: "อดีตผู้เล่นรักบี้ลีกและผู้บรรยายกีฬาชาวออสเตรเลีย เคยเล่นให้ Manly-Warringah Sea Eagles และต่อมาเป็นผู้บรรยาย NRL ทางวิทยุมาเป็นเวลานาน ABC Sport รายงานในปี 2026 ว่าเขาพักงานบรรยายหลังได้รับการวินิจฉัยว่าเป็น Hodgkin lymphoma",
+      si: "Manly-Warringah Sea Eagles වෙනුවෙන් ක්‍රීඩා කළ Australian former rugby league player සහ sports broadcaster කෙනෙකි; පසුව දිගු කලක් NRL radio commentator ලෙස වැඩ කළේය. ABC Sport 2026 දී වාර්තා කළේ Hodgkin lymphoma diagnosis එකක් පසු ඔහු commentary වලින් තාවකාලිකව ඉවත්වන බවයි."
+    }
+  },
+  {
     name: "Alan Jones",
     aliases: ["Alan Jones", "Alan Belford Jones", "艾伦·琼斯", "艾倫·瓊斯", "アラン・ジョーンズ", "앨런 존스"],
     type: "public-figure",
