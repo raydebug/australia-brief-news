@@ -1161,6 +1161,75 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Matt Webb",
+    aliases: ["Matt Webb", "Matthew Webb", "Dr Matt Webb", "马特·韦布", "馬特·韋布", "マット・ウェブ", "맷 웹"],
+    type: "public-figure",
+    profile: { label: "Enviro-dynamics profile", url: "https://www.enviro-dynamics.com.au/dr-matt-webb" },
+    officialProfile: { label: "Threatened Species Recovery Hub profile", url: "https://www.nespthreatenedspecies.edu.au/people/matthew-webb" },
+    background: {
+      "zh-Hans": "澳大利亚生态学家，长期从事受威胁动植物保护、监测项目和栖息地评估研究，研究对象包括 swift parrot 和 orange-bellied parrot。",
+      "zh-Hant": "澳洲生態學家，長期從事受威脅動植物保護、監測項目和棲地評估研究，研究對象包括 swift parrot 和 orange-bellied parrot。",
+      en: "Australian ecologist whose work covers threatened flora and fauna conservation, monitoring programs and habitat assessment, including swift parrot and orange-bellied parrot research.",
+      es: "Ecólogo australiano especializado en conservación de flora y fauna amenazada, programas de monitoreo y evaluación de hábitats, incluido trabajo sobre swift parrot y orange-bellied parrot.",
+      ja: "絶滅危惧の動植物保全、モニタリング、生息地評価に取り組むオーストラリアの生態学者で、swift parrot と orange-bellied parrot の研究にも関わっています。",
+      ko: "위협받는 동식물 보전, 모니터링 프로그램, 서식지 평가를 연구하는 호주 생태학자로 swift parrot와 orange-bellied parrot 연구에도 참여했습니다.",
+      vi: "Nhà sinh thái học Australia chuyên về bảo tồn hệ động thực vật bị đe dọa, chương trình giám sát và đánh giá sinh cảnh, gồm nghiên cứu về swift parrot và orange-bellied parrot.",
+      th: "นักนิเวศวิทยาออสเตรเลียที่ทำงานด้านการอนุรักษ์พืชและสัตว์ใกล้สูญพันธุ์ โครงการติดตาม และการประเมินถิ่นอาศัย รวมถึงงานวิจัย swift parrot และ orange-bellied parrot",
+      si: "Threatened flora සහ fauna conservation, monitoring programs සහ habitat assessment පිළිබඳ Australian ecologist කෙනෙකි; swift parrot සහ orange-bellied parrot පර්යේෂණද කරයි."
+    }
+  },
+  {
+    name: "Leanne Wicker",
+    aliases: ["Leanne Wicker", "Leanne V Wicker", "Dr Leanne Wicker", "利安妮·威克", "利安妮·威克", "リアン・ウィッカー", "리앤 위커"],
+    type: "public-figure",
+    profile: { label: "Enviro-dynamics profile", url: "https://www.enviro-dynamics.com.au/leanne-wicker" },
+    background: {
+      "zh-Hans": "澳大利亚野生动物兽医生态学家，研究重点包括自由生活野生动物健康、种群可持续性和保护项目中的兽医生态评估。",
+      "zh-Hant": "澳洲野生動物獸醫生態學家，研究重點包括自由生活野生動物健康、族群可持續性和保護項目中的獸醫生態評估。",
+      en: "Australian wildlife veterinary ecologist whose work focuses on free-ranging wildlife health, population viability and veterinary ecology in conservation projects.",
+      es: "Ecóloga veterinaria de fauna silvestre australiana, centrada en salud de fauna libre, viabilidad poblacional y ecología veterinaria en proyectos de conservación.",
+      ja: "野生動物の健康、個体群の存続可能性、保全事業における獣医生態学を専門とするオーストラリアの wildlife veterinary ecologist です。",
+      ko: "야생동물 건강, 개체군 존속 가능성, 보전 사업의 수의생태학을 연구하는 호주 wildlife veterinary ecologist입니다.",
+      vi: "Nhà sinh thái thú y động vật hoang dã Australia, tập trung vào sức khỏe động vật hoang dã tự do, khả năng duy trì quần thể và sinh thái thú y trong bảo tồn.",
+      th: "นักนิเวศวิทยาสัตวแพทย์สัตว์ป่าของออสเตรเลีย ทำงานด้านสุขภาพสัตว์ป่าในธรรมชาติ ความยั่งยืนของประชากร และ veterinary ecology ในโครงการอนุรักษ์",
+      si: "Free-ranging wildlife health, population viability සහ conservation projects තුළ veterinary ecology පිළිබඳ Australian wildlife veterinary ecologist කෙනෙකි."
+    }
+  },
+  {
+    name: "Mark Holdsworth",
+    aliases: ["Mark Holdsworth", "Mark Holdsworth OAM", "马克·霍尔兹沃思", "馬克·霍爾茲沃思", "マーク・ホールズワース", "마크 홀즈워스"],
+    type: "public-figure",
+    profile: { label: "BirdLife Tasmania profile", url: "https://birdlife.org.au/groups/birdlife-tasmania/" },
+    background: {
+      "zh-Hans": "澳大利亚鸟类保护专家和 BirdLife Tasmania 公共代表，长期参与 orange-bellied parrot、swift parrot 和塔州鸟类栖息地保护工作。",
+      "zh-Hant": "澳洲鳥類保護專家和 BirdLife Tasmania 公共代表，長期參與 orange-bellied parrot、swift parrot 和塔州鳥類棲地保護工作。",
+      en: "Australian bird-conservation specialist and public representative of BirdLife Tasmania, long involved in orange-bellied parrot, swift parrot and Tasmanian bird-habitat protection work.",
+      es: "Especialista australiano en conservación de aves y representante público de BirdLife Tasmania, con larga trayectoria en orange-bellied parrot, swift parrot y protección de hábitats de aves de Tasmania.",
+      ja: "BirdLife Tasmania の公的代表を務めるオーストラリアの鳥類保全専門家で、orange-bellied parrot、swift parrot、タスマニアの鳥類生息地保護に長く関わっています。",
+      ko: "BirdLife Tasmania의 공적 대표로 활동하는 호주 조류 보전 전문가이며 orange-bellied parrot, swift parrot와 태즈메이니아 조류 서식지 보호에 오래 참여했습니다.",
+      vi: "Chuyên gia bảo tồn chim Australia và đại diện công khai của BirdLife Tasmania, lâu năm trong bảo vệ orange-bellied parrot, swift parrot và sinh cảnh chim Tasmania.",
+      th: "ผู้เชี่ยวชาญอนุรักษ์นกของออสเตรเลียและตัวแทนสาธารณะของ BirdLife Tasmania ทำงานยาวนานเกี่ยวกับ orange-bellied parrot, swift parrot และการคุ้มครองถิ่นอาศัยนกในแทสเมเนีย",
+      si: "Australian bird-conservation specialist සහ BirdLife Tasmania public representative කෙනෙකි; orange-bellied parrot, swift parrot සහ Tasmanian bird-habitat protection වැඩ වල දිගුකාලීනව නිරත වී ඇත."
+    }
+  },
+  {
+    name: "Simon Grove",
+    aliases: ["Simon Grove", "Simon James Grove", "Dr Simon Grove", "西蒙·格罗夫", "西蒙·格羅夫", "サイモン・グローブ", "사이먼 그로브"],
+    type: "public-figure",
+    profile: { label: "University of Tasmania profile", url: "https://discover.utas.edu.au/Simon.Grove/publications" },
+    background: {
+      "zh-Hans": "澳大利亚昆虫学家和自然史研究者，曾任 Tasmanian Museum and Art Gallery 无脊椎动物学高级策展人，并发表 swift parrot 保护相关研究评论。",
+      "zh-Hant": "澳洲昆蟲學家和自然史研究者，曾任 Tasmanian Museum and Art Gallery 無脊椎動物學高級策展人，並發表 swift parrot 保護相關研究評論。",
+      en: "Australian entomologist and natural-history researcher, formerly senior curator of invertebrate zoology at the Tasmanian Museum and Art Gallery, with published commentary on swift parrot conservation evidence.",
+      es: "Entomólogo australiano e investigador de historia natural, ex curador sénior de zoología de invertebrados en Tasmanian Museum and Art Gallery, con trabajos publicados sobre evidencia de conservación del swift parrot.",
+      ja: "オーストラリアの昆虫学者・自然史研究者で、Tasmanian Museum and Art Gallery の無脊椎動物学上級キュレーターを務め、swift parrot 保全の証拠に関する研究レビューも発表しています。",
+      ko: "호주 곤충학자이자 자연사 연구자로 Tasmanian Museum and Art Gallery 무척추동물학 선임 큐레이터를 지냈고 swift parrot 보전 근거에 관한 연구 논평을 발표했습니다.",
+      vi: "Nhà côn trùng học và nghiên cứu lịch sử tự nhiên Australia, cựu senior curator về động vật không xương sống tại Tasmanian Museum and Art Gallery, có bài bình luận nghiên cứu về bằng chứng bảo tồn swift parrot.",
+      th: "นักกีฏวิทยาและนักวิจัยประวัติศาสตร์ธรรมชาติของออสเตรเลีย อดีต senior curator ด้าน invertebrate zoology ที่ Tasmanian Museum and Art Gallery และมีงานทบทวนหลักฐานการอนุรักษ์ swift parrot",
+      si: "Australian entomologist සහ natural-history researcher කෙනෙකි; Tasmanian Museum and Art Gallery හි invertebrate zoology senior curator ලෙස කටයුතු කළ අතර swift parrot conservation evidence ගැන published commentary ඇත."
+    }
+  },
+  {
     name: "Richard Scolyer",
     aliases: ["Richard Scolyer", "Richard Anthony Scolyer", "Professor Richard Scolyer", "Richard Scolyer AO", "理查德·斯科利尔", "理查德·斯科利爾", "リチャード・スコリアー", "리처드 스콜리어"],
     type: "public-figure",
