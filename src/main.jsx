@@ -1212,6 +1212,36 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Kyam Maher",
+    aliases: ["Kyam Maher", "Kyam Joseph Maher", "Kyam Maher MLC", "凯厄姆·马赫", "凱厄姆·馬赫", "カイアム・マー", "카이엄 마허"],
+    type: "politician",
+    officialProfile: { label: "Minister profile", url: "https://premier.sa.gov.au/the-team/kyam-maher-mlc" },
+    profile: { label: "Parliament profile", url: "https://www.parliament.sa.gov.au/en/Legislative-Council/Members" },
+    social: { label: "Facebook", url: "https://www.facebook.com/KyamMaherMLC/" },
+    background: {
+      "zh-Hans": "南澳 Labor 政治人物、Legislative Council 议员，2025 年起任南澳副州长，并长期担任 Attorney-General 和 Aboriginal Affairs Minister。",
+      "zh-Hant": "南澳 Labor 政治人物、Legislative Council 議員，2025 年起任南澳副州長，並長期擔任 Attorney-General 和 Aboriginal Affairs Minister。",
+      en: "South Australian Labor politician and Legislative Council member, Deputy Premier of South Australia since 2025, and a long-serving Attorney-General and Minister for Aboriginal Affairs.",
+      es: "Político laborista de Australia Meridional y miembro del Legislative Council; vicepremier estatal desde 2025, además de fiscal general y ministro de Asuntos Aborígenes.",
+      ja: "南オーストラリア州 Labor の政治家で Legislative Council 議員。2025年から同州副首相を務め、Attorney-General と Aboriginal Affairs Minister も長く担っています。",
+      ko: "남호주 Labor 정치인이자 Legislative Council 의원으로 2025년부터 남호주 부총리를 맡고 있으며 Attorney-General과 Aboriginal Affairs Minister를 오래 맡아 왔습니다.",
+      vi: "Chính trị gia Labor tại Nam Úc và thành viên Legislative Council, Deputy Premier of South Australia từ năm 2025, đồng thời là Attorney-General và Minister for Aboriginal Affairs lâu năm.",
+      th: "นักการเมือง Labor ของรัฐเซาท์ออสเตรเลียและสมาชิก Legislative Council เป็น Deputy Premier of South Australia ตั้งแต่ปี 2025 และดำรงตำแหน่ง Attorney-General กับ Minister for Aboriginal Affairs มานาน",
+      si: "South Australian Labor දේශපාලනඥයෙකු සහ Legislative Council member කෙනෙකු වන Kyam Maher, 2025 සිට Deputy Premier of South Australia වන අතර Attorney-General සහ Minister for Aboriginal Affairs ලෙස දිගුකාලීනව කටයුතු කරයි."
+    },
+    positions: {
+      "zh-Hans": "其公共职责覆盖南澳司法、原住民事务、劳资关系、艺术和特别国务事务；真相陈述委员会属于其 Aboriginal Affairs 职权范围。",
+      "zh-Hant": "其公共職責覆蓋南澳司法、原住民事務、勞資關係、藝術和特別國務事務；真相陳述委員會屬於其 Aboriginal Affairs 職權範圍。",
+      en: "His public responsibilities cover South Australian justice, Aboriginal affairs, industrial relations, the arts and special state matters; the truth-telling commission sits within his Aboriginal affairs portfolio.",
+      es: "Sus responsabilidades públicas cubren justicia, asuntos aborígenes, relaciones laborales, artes y asuntos especiales del estado; la comisión de verdad forma parte de su cartera de asuntos aborígenes.",
+      ja: "州司法、アボリジナル政策、労使関係、芸術、特別州務を担当し、真実伝え委員会は Aboriginal affairs の職責に含まれます。",
+      ko: "남호주의 사법, Aboriginal affairs, 노사관계, 예술, 특별 주정부 업무를 담당하며 진실 밝히기 위원회는 그의 Aboriginal affairs 포트폴리오에 속합니다.",
+      vi: "Trách nhiệm công của ông bao gồm tư pháp Nam Úc, Aboriginal affairs, quan hệ lao động, nghệ thuật và các vấn đề đặc biệt của bang; ủy ban sự thật thuộc danh mục Aboriginal affairs của ông.",
+      th: "บทบาทสาธารณะครอบคลุมงานยุติธรรม Aboriginal affairs แรงงานสัมพันธ์ ศิลปะ และกิจการพิเศษของรัฐ โดยคณะกรรมการบอกความจริงอยู่ในพอร์ต Aboriginal affairs ของเขา",
+      si: "ඔහුගේ public responsibilities South Australian justice, Aboriginal affairs, industrial relations, arts සහ special state matters ආවරණය කරයි; truth-telling commission එක ඔහුගේ Aboriginal affairs portfolio එකට අයත් වේ."
+    }
+  },
+  {
     name: "Laurie Daley",
     aliases: ["Laurie Daley", "Laurie William Daley", "Lozza", "劳里·戴利", "勞里·戴利", "ローリー・デイリー", "로리 데일리"],
     type: "athlete",
