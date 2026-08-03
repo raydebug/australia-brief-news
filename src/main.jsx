@@ -1359,6 +1359,23 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Matt King",
+    aliases: ["Matt King", "Matthew King", "Mat King", "Matthew John King", "马特·金", "馬特·金", "マット・キング", "맷 킹"],
+    type: "athlete",
+    profile: { label: "Rugby League Project profile", url: "https://www.rugbyleagueproject.org/players/matt-king/summary.html" },
+    background: {
+      "zh-Hans": "澳大利亚前职业橄榄球联盟球员和教练，曾效力 Melbourne Storm、Warrington Wolves 和 South Sydney Rabbitohs，并代表 New South Wales 与澳大利亚队出战。",
+      "zh-Hant": "澳洲前職業橄欖球聯盟球員和教練，曾效力 Melbourne Storm、Warrington Wolves 和 South Sydney Rabbitohs，並代表 New South Wales 與澳洲隊出戰。",
+      en: "Australian former professional rugby league player and coach. He played for Melbourne Storm, Warrington Wolves and South Sydney Rabbitohs, and represented New South Wales and Australia.",
+      es: "Exjugador profesional y entrenador australiano de rugby league. Jugó para Melbourne Storm, Warrington Wolves y South Sydney Rabbitohs, y representó a New South Wales y Australia.",
+      ja: "オーストラリアの元プロ・ラグビーリーグ選手、指導者。Melbourne Storm、Warrington Wolves、South Sydney Rabbitohs でプレーし、New South Wales と豪州代表でも出場しました。",
+      ko: "호주 전 프로 럭비리그 선수이자 지도자입니다. Melbourne Storm, Warrington Wolves, South Sydney Rabbitohs에서 뛰었고 New South Wales와 호주 대표로도 출전했습니다.",
+      vi: "Cựu cầu thủ chuyên nghiệp và HLV rugby league Australia. Ông từng chơi cho Melbourne Storm, Warrington Wolves và South Sydney Rabbitohs, đồng thời đại diện New South Wales và Australia.",
+      th: "อดีตผู้เล่น rugby league อาชีพและโค้ชชาวออสเตรเลีย เคยเล่นให้ Melbourne Storm, Warrington Wolves และ South Sydney Rabbitohs และเป็นตัวแทนของ New South Wales กับทีมชาติออสเตรเลีย",
+      si: "Australian former professional rugby league player සහ coach කෙනෙකු වන Matt King, Melbourne Storm, Warrington Wolves සහ South Sydney Rabbitohs සඳහා ක්‍රීඩා කළ අතර New South Wales සහ Australia නියෝජනය කළේය."
+    }
+  },
+  {
     name: "Luke Bateman",
     aliases: ["Luke Bateman", "Luke Anthony Bateman", "卢克·贝特曼", "盧克·貝特曼", "ルーク・ベイトマン", "루크 베이트먼"],
     type: "public-figure",
