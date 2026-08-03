@@ -994,6 +994,35 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Joe Hockey",
+    aliases: ["Joe Hockey", "Joseph Benedict Hockey", "The Hon Joe Hockey", "Joe Hockey MP", "乔·霍基", "喬·霍基", "ジョー・ホッキー", "조 호키"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.aph.gov.au/J_Hockey_MP" },
+    social: { label: "X", url: "https://x.com/JoeHockey" },
+    background: {
+      "zh-Hans": "澳大利亚自由党前联邦政治人物和外交官，1996 至 2015 年任 North Sydney 联邦议员，后任澳大利亚驻美国大使，并创办咨询公司 Bondi Partners。",
+      "zh-Hant": "澳洲自由黨前聯邦政治人物和外交官，1996 至 2015 年任 North Sydney 聯邦議員，後任澳洲駐美國大使，並創辦顧問公司 Bondi Partners。",
+      en: "Former Australian Liberal federal politician and diplomat, MP for North Sydney from 1996 to 2015, later Australia's ambassador to the United States and founder of advisory firm Bondi Partners.",
+      es: "Ex político federal liberal australiano y diplomático, diputado por North Sydney de 1996 a 2015, luego embajador de Australia en Estados Unidos y fundador de la consultora Bondi Partners.",
+      ja: "オーストラリア Liberal Party の元連邦政治家、外交官。1996年から2015年まで North Sydney 選出議員を務め、のちに駐米豪州大使、Bondi Partners 創業者となりました。",
+      ko: "호주 Liberal Party 출신 전 연방 정치인 겸 외교관으로 1996년부터 2015년까지 North Sydney 의원을 지냈고 이후 주미 호주대사와 Bondi Partners 창업자로 활동했습니다.",
+      vi: "Cựu chính trị gia liên bang Liberal và nhà ngoại giao Australia, nghị sĩ North Sydney từ 1996 đến 2015, sau đó là đại sứ Australia tại Hoa Kỳ và nhà sáng lập Bondi Partners.",
+      th: "อดีตนักการเมืองรัฐบาลกลาง Liberal และนักการทูตของออสเตรเลีย เป็น ส.ส. North Sydney ปี 1996-2015 ต่อมาเป็นเอกอัครราชทูตออสเตรเลียประจำสหรัฐฯ และผู้ก่อตั้ง Bondi Partners",
+      si: "Australian Liberal හි හිටපු federal politician සහ diplomat කෙනෙකු වන Joe Hockey, 1996 සිට 2015 දක්වා North Sydney MP ලෙස සිටි අතර පසුව Australia's ambassador to the United States සහ Bondi Partners founder විය."
+    },
+    positions: {
+      "zh-Hans": "其公共职务包括联邦财长、就业和劳资关系部长、人类服务部长、小企业和旅游部长，以及澳大利亚驻美国大使；在矿业和地缘经济讨论中常以政策和投资视角发言。",
+      "zh-Hant": "其公共職務包括聯邦財長、就業和勞資關係部長、人類服務部長、小企業和旅遊部長，以及澳洲駐美國大使；在礦業和地緣經濟討論中常以政策和投資視角發言。",
+      en: "His public offices included federal treasurer, employment and workplace relations minister, human services minister, small business and tourism minister, and ambassador to the United States; he often speaks on policy and investment in mining and geoeconomic debates.",
+      es: "Sus cargos públicos incluyeron tesorero federal, ministro de Empleo y Relaciones Laborales, Servicios Humanos, Pequeña Empresa y Turismo, y embajador en Estados Unidos; suele intervenir en debates mineros y geoeconómicos desde una óptica de política e inversión.",
+      ja: "連邦財務相、雇用・労使関係相、人間サービス相、小企業・観光相、駐米大使を歴任し、鉱業や地経学の議論では政策・投資の観点から発言します。",
+      ko: "연방 재무장관, 고용·노사관계 장관, 인적서비스 장관, 중소기업·관광 장관, 주미대사를 지냈으며 광업과 지경학 논의에서 정책과 투자 관점으로 발언합니다.",
+      vi: "Các chức vụ công gồm thủ quỹ liên bang, bộ trưởng Employment and Workplace Relations, Human Services, Small Business and Tourism, và đại sứ tại Hoa Kỳ; ông thường phát biểu về chính sách và đầu tư trong các tranh luận khai khoáng và địa kinh tế.",
+      th: "ตำแหน่งสาธารณะของเขารวมถึง federal treasurer รัฐมนตรี employment and workplace relations, human services, small business and tourism และเอกอัครราชทูตประจำสหรัฐฯ โดยมักให้มุมมองด้านนโยบายและการลงทุนในประเด็นเหมืองและ geoeconomics",
+      si: "ඔහුගේ public offices අතර federal treasurer, employment and workplace relations minister, human services minister, small business and tourism minister, සහ ambassador to the United States ඇතුළත් විය; mining සහ geoeconomic debates වල policy/investment පැත්තෙන් ඔහු සාමාන්‍යයෙන් අදහස් දක්වයි."
+    }
+  },
+  {
     name: "Julie Delvecchio",
     aliases: ["Julie Delvecchio", "朱莉·德尔韦基奥", "朱莉·德爾韋基奧", "ジュリー・デルベッキオ", "줄리 델베키오"],
     type: "public-figure",
