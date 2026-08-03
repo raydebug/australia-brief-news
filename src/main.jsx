@@ -2558,6 +2558,23 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Leanne Liddle",
+    aliases: ["Leanne Liddle", "莉安·利德尔", "莉安·利德爾", "リアン・リドル", "리앤 리들"],
+    type: "public-figure",
+    officialProfile: { label: "Executive leadership profile", url: "https://pfes.nt.gov.au/corporate/executive-leadership" },
+    background: {
+      "zh-Hans": "Northern Territory Police Force 文化改革执行主任，Arrernte 女性，曾参与北领地 Aboriginal Justice Agreement，并因司法和警务文化改革工作获公共表彰。",
+      "zh-Hant": "Northern Territory Police Force 文化改革執行主任，Arrernte 女性，曾參與北領地 Aboriginal Justice Agreement，並因司法和警務文化改革工作獲公共表彰。",
+      en: "Executive Director of Cultural Reform for the Northern Territory Police Force, an Arrernte woman involved in the Northern Territory Aboriginal Justice Agreement and publicly recognised for justice and policing reform work.",
+      es: "Directora ejecutiva de reforma cultural en la Northern Territory Police Force, mujer Arrernte vinculada al Northern Territory Aboriginal Justice Agreement y reconocida públicamente por su trabajo en reforma de justicia y policía.",
+      ja: "Northern Territory Police Force の文化改革担当 Executive Director。Arrernte の女性で、Northern Territory Aboriginal Justice Agreement に関わり、司法と警察文化改革の仕事で公的に評価されています。",
+      ko: "Northern Territory Police Force의 문화 개혁 담당 Executive Director입니다. Arrernte 여성으로 Northern Territory Aboriginal Justice Agreement에 관여했고 사법 및 경찰 문화 개혁 활동으로 공개적으로 인정받았습니다.",
+      vi: "Executive Director of Cultural Reform của Northern Territory Police Force, phụ nữ Arrernte, từng tham gia Northern Territory Aboriginal Justice Agreement và được công nhận công khai nhờ công việc cải cách tư pháp và văn hóa cảnh sát.",
+      th: "Executive Director of Cultural Reform ของ Northern Territory Police Force เป็นหญิง Arrernte มีส่วนร่วมกับ Northern Territory Aboriginal Justice Agreement และได้รับการยอมรับต่อสาธารณะจากงานปฏิรูปความยุติธรรมและวัฒนธรรมตำรวจ",
+      si: "Northern Territory Police Force හි Executive Director of Cultural Reform වන Leanne Liddle, Arrernte කාන්තාවකි; Northern Territory Aboriginal Justice Agreement සමඟ සම්බන්ධ වී justice සහ policing reform වැඩ සඳහා public recognition ලබා ඇත."
+    }
+  },
+  {
     name: "Lia Finocchiaro",
     aliases: ["Lia Finocchiaro", "Lia Emele Finocchiaro", "莉娅·菲诺基亚罗", "莉婭·菲諾基亞羅", "リア・フィノキアーロ", "리아 피노키아로"],
     type: "politician",
