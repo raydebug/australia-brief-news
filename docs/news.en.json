@@ -1,6 +1,104 @@
 {
   "clusters": [
     {
+      "id": "sa-greyhound-trainer-ban-20260803",
+      "headline": "SA greyhound trainer banned for serious welfare breaches",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-03T08:17:00.000Z",
+      "voiceScript": "Greyhound Racing SA has disqualified Riverland trainer Vernon Anderson for more than eight years after finding repeated animal welfare breaches. The panel said he failed to get veterinary care for an unwell dog, did not provide enough water to other dogs and kept greyhounds in an unsuitable trailer. The decision matters because it puts welfare standards back in the spotlight and shows regulators are treating the breaches as serious. The next step is whether the ruling prompts wider scrutiny of kennelling and training conditions across the industry.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-03/greyhound-trainer-vernon-anderson-banned-eight-years/106991676"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "bird-flu-mass-mortality-south-australia",
+      "headline": "South Australia's bird flu outbreak appears to be entering a mass-mortality phase",
+      "sourceCount": 6,
+      "publishedAt": "2026-08-03T07:59:00.000Z",
+      "voiceScript": "More than 80 dead and sick greater crested terns have been found off South Australia's coast near Robe, and authorities say the pattern points to the first suspected mass-mortality event linked to H5 bird flu in Australia. The same outbreak has now also reached Victoria, where a greater crested tern in Portland tested positive, and South Australian surveillance has also raised concerns about spread inland. It matters because the virus is no longer confined to a handful of seabird detections; it is starting to move through wildlife populations that can spread it further. The next step is continued surveillance, with officials still saying the risk to poultry and people remains low for now.",
+      "differences": [
+        "The Guardian focuses on the suspected first mass-mortality event and the role silver gulls may play in moving the virus inland.",
+        "ABC News focuses on confirmed local transmission in South Australia and the updated cross-state case count.",
+        "AAP stresses how quickly detections have risen and warns the virus may be starting to take off.",
+        "7NEWS highlights Victoria's first confirmed case in Portland and the state response."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-03/first-bird-flu-mass-mortality-confirmed-in-australian-wildlife/106989536"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/podcast-episode/australia-confirms-first-h5-bird-flu-mass-mortality-event-evening-news-bulletin-3-august-2026/cihnuowdg"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/aug/03/australia-news-live-fuel-excise-cut-jim-chalmers-cost-of-living-anthony-albanese-labor-angus-taylor-coalition-one-nation-pauline-hanson-ntwnfb"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/starting-to-take-off-bird-flu-mass-mortality-likely"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/victoria-records-its-first-case-of-h5-bird-flu-c-22650311"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/science/animals/agriculture-minister-confirms-74-cases-of-h5-bird-flu-recorded-in-australia-first-mass-mortality-event/news-story/5ee460f5cb11cffa858749106b68d2ab"
+        }
+      ],
+      "language": "en",
+      "socialDiscussions": [
+        {
+          "platform": "Reddit",
+          "community": "r/australia",
+          "author": "ConanTheAquarian",
+          "title": "First Australian mass mortality event suspected as deadly bird flu virus rapidly escalates among native birds",
+          "url": "https://www.reddit.com/r/australia/comments/1vcl9hr/first_australian_mass_mortality_event_suspected/",
+          "postedAt": "2026-08-02",
+          "score": 12
+        },
+        {
+          "platform": "Facebook",
+          "account": "ABC News",
+          "title": "South Australian authorities investigate a mass bird mortality event off the state's south-east coast",
+          "url": "https://www.facebook.com/abcnews.au/posts/breaking-south-australian-authorities-are-investigating-a-mass-bird-mortality-ev/1615427929938471/",
+          "postedAt": "2026-08-02",
+          "score": 10
+        },
+        {
+          "platform": "Facebook",
+          "account": "7NEWS Adelaide",
+          "title": "South Australia's H5 bird flu outbreak enters a worrying phase with mass-mortality fears",
+          "url": "https://www.facebook.com/7NEWSAdelaide/posts/south-australias-h5-bird-flu-outbreak-has-entered-a-worrying-new-phase-with-fear/1379239781019051/",
+          "postedAt": "2026-08-02",
+          "score": 8
+        },
+        {
+          "platform": "YouTube",
+          "account": "ABC News (Australia)",
+          "title": "H5 bird flu testing underway for mass mortality of terns on SA island",
+          "url": "https://www.youtube.com/watch?v=-JezaJb_joA",
+          "postedAt": "2026-08-02",
+          "score": 6
+        },
+        {
+          "platform": "YouTube",
+          "account": "7NEWS Australia",
+          "title": "Fears of a mass bird flu mortality event in South Australia",
+          "url": "https://www.youtube.com/watch?v=isxHM6jcrlU",
+          "postedAt": "2026-08-02",
+          "score": 5
+        }
+      ]
+    },
+    {
       "id": "sa-hospital-corridor-care-inquiry-20260803",
       "headline": "South Australian hospital corridor care prompts inquiry calls",
       "sourceCount": 1,
@@ -234,6 +332,40 @@
           }
         ]
       }
+    },
+    {
+      "id": "nt-acacia-dead-surgery-bookings-20260803",
+      "headline": "NT hospital software is booking dead patients for surgery",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-03T04:52:00.000Z",
+      "voiceScript": "The AMA says the Northern Territory's Acacia hospital record system is still producing serious administrative errors, including surgery bookings for dead patients. The problem matters because it points to wider safety and reliability risks in a system meant to manage care across the Territory. The next step is whether officials strip the software back to a narrower role and explain how many other records were affected.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-03/nt-acacia-health-patients-dead-people-booked-operations/106975252"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "hanson-victoria-media-ban-20260803",
+      "headline": "Hanson shuts major outlets out of her Victorian campaign launch",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-03T04:33:57.000Z",
+      "voiceScript": "Pauline Hanson used a Melbourne event to unveil One Nation's Victorian election team while keeping ABC, The Age and The Guardian out of the room. The move matters because it shows the party is trying to control coverage as it builds for the November state election. The question now is whether the publicity helps One Nation gain momentum or simply deepens criticism of its media strategy.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/03/one-nation-candidates-victoria-state-election-2026-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/culture/inside-parliament/pauline-hanson-reveals-victorian-state-election-candidates/news-story/45cb4d695d73802d779856be08df533d"
+        }
+      ],
+      "language": "en"
     },
     {
       "id": "sydney-building-collapse-20260803",
@@ -2314,85 +2446,6 @@
       ]
     },
     {
-      "id": "bird-flu-mass-mortality-south-australia",
-      "headline": "South Australia's bird flu outbreak appears to be entering a mass-mortality phase",
-      "sourceCount": 5,
-      "publishedAt": "2026-08-01T17:30:00.000Z",
-      "voiceScript": "More than 80 dead and sick greater crested terns have been found off South Australia's coast near Robe, and authorities say the pattern points to the first suspected mass-mortality event linked to H5 bird flu in Australia. The same outbreak has now also reached Victoria, where a greater crested tern in Portland tested positive, and South Australian surveillance has also raised concerns about spread inland. It matters because the virus is no longer confined to a handful of seabird detections; it is starting to move through wildlife populations that can spread it further. The next step is continued surveillance, with officials still saying the risk to poultry and people remains low for now.",
-      "differences": [
-        "The Guardian focuses on the suspected first mass-mortality event and the role silver gulls may play in moving the virus inland.",
-        "ABC News focuses on confirmed local transmission in South Australia and the updated cross-state case count.",
-        "AAP stresses how quickly detections have risen and warns the virus may be starting to take off.",
-        "7NEWS highlights Victoria's first confirmed case in Portland and the state response."
-      ],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/world/2026/aug/01/first-australian-mass-mortality-event-suspected-as-deadly-bird-flu-virus-rapidly-escalates-among-native-birds"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-01/h5-bird-flu-testing-underway-for-mass-mortality-of-terns/106985980"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/starting-to-take-off-bird-flu-mass-mortality-likely"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/victoria-records-its-first-case-of-h5-bird-flu-c-22650311"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/science/animals/agriculture-minister-confirms-74-cases-of-h5-bird-flu-recorded-in-australia-first-mass-mortality-event/news-story/5ee460f5cb11cffa858749106b68d2ab"
-        }
-      ],
-      "language": "en",
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/australia",
-          "author": "ConanTheAquarian",
-          "title": "First Australian mass mortality event suspected as deadly bird flu virus rapidly escalates among native birds",
-          "url": "https://www.reddit.com/r/australia/comments/1vcl9hr/first_australian_mass_mortality_event_suspected/",
-          "postedAt": "2026-08-02",
-          "score": 12
-        },
-        {
-          "platform": "Facebook",
-          "account": "ABC News",
-          "title": "South Australian authorities investigate a mass bird mortality event off the state's south-east coast",
-          "url": "https://www.facebook.com/abcnews.au/posts/breaking-south-australian-authorities-are-investigating-a-mass-bird-mortality-ev/1615427929938471/",
-          "postedAt": "2026-08-02",
-          "score": 10
-        },
-        {
-          "platform": "Facebook",
-          "account": "7NEWS Adelaide",
-          "title": "South Australia's H5 bird flu outbreak enters a worrying phase with mass-mortality fears",
-          "url": "https://www.facebook.com/7NEWSAdelaide/posts/south-australias-h5-bird-flu-outbreak-has-entered-a-worrying-new-phase-with-fear/1379239781019051/",
-          "postedAt": "2026-08-02",
-          "score": 8
-        },
-        {
-          "platform": "YouTube",
-          "account": "ABC News (Australia)",
-          "title": "H5 bird flu testing underway for mass mortality of terns on SA island",
-          "url": "https://www.youtube.com/watch?v=-JezaJb_joA",
-          "postedAt": "2026-08-02",
-          "score": 6
-        },
-        {
-          "platform": "YouTube",
-          "account": "7NEWS Australia",
-          "title": "Fears of a mass bird flu mortality event in South Australia",
-          "url": "https://www.youtube.com/watch?v=isxHM6jcrlU",
-          "postedAt": "2026-08-02",
-          "score": 5
-        }
-      ]
-    },
-    {
       "id": "pbs-brain-cancer-treatment-20260802",
       "headline": "PBS listing brings the first new brain-cancer treatment in two decades",
       "sourceCount": 1,
@@ -3704,5 +3757,5 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "updatedAt": "2026-08-03T08:10:15.721Z"
+  "updatedAt": "2026-08-03T09:14:52.097Z"
 }
