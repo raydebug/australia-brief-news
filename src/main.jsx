@@ -1217,6 +1217,7 @@ const PEOPLE_CONTEXT = [
     type: "athlete",
     profile: { label: "NRL profile", url: "https://www.nrl.com/players/state-of-origin/new-south-wales/laurie-daley/" },
     officialProfile: { label: "NSWRL profile", url: "https://www.nswrl.com.au/players/state-of-origin/new-south-wales/laurie-daley/" },
+    social: { label: "Instagram", url: "https://www.instagram.com/laurie_daley6/" },
     background: {
       "zh-Hans": "澳大利亚橄榄球联盟名宿和教练，曾任 New South Wales Blues State of Origin 主教练，球员时代长期效力 Canberra Raiders，并代表新州和澳大利亚出战。",
       "zh-Hant": "澳洲橄欖球聯盟名宿和教練，曾任 New South Wales Blues State of Origin 主教練，球員時代長期效力 Canberra Raiders，並代表新州和澳洲出戰。",
