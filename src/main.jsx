@@ -819,6 +819,24 @@ function hasSpecificCommentary(commentary) {
 
 const PEOPLE_CONTEXT = [
   {
+    name: "Bakamumu Marika",
+    aliases: ["Bakamumu Marika", "Bakamumu Marika AM", "Mr B Yunupingu", "B Yunupingu", "巴卡穆穆·马里卡", "巴卡穆穆·馬里卡", "バカムム・マリカ", "바카무무 마리카"],
+    type: "public-figure",
+    profile: { label: "Australian of the Year profile", url: "https://australianoftheyear.org.au/recipients/m-marika-memoriam" },
+    officialProfile: { label: "Rirratjingu profile", url: "https://rirratjingu.com/about-us/native-title/" },
+    background: {
+      "zh-Hans": "Rirratjingu 氏族长者和东北 Arnhem Land 社区领袖，曾长期担任 Rirratjingu Aboriginal Corporation 主席和后来的 patron，并因土地权利、社区发展和文化领导获得认可。",
+      "zh-Hant": "Rirratjingu 氏族長者和東北 Arnhem Land 社區領袖，曾長期擔任 Rirratjingu Aboriginal Corporation 主席和後來的 patron，並因土地權利、社區發展和文化領導獲得認可。",
+      en: "Rirratjingu elder and north-east Arnhem Land community leader. He was a long-serving chair and later patron of Rirratjingu Aboriginal Corporation, recognised for land-rights advocacy, community development and cultural leadership.",
+      es: "Anciano Rirratjingu y líder comunitario del noreste de Arnhem Land. Fue durante años presidente y luego patron de Rirratjingu Aboriginal Corporation, reconocido por defensa de derechos sobre la tierra, desarrollo comunitario y liderazgo cultural.",
+      ja: "Rirratjingu の長老で、北東 Arnhem Land のコミュニティ指導者。Rirratjingu Aboriginal Corporation の長年の会長、後に patron を務め、土地権利、地域開発、文化的リーダーシップで知られました。",
+      ko: "Rirratjingu 원로이자 북동부 Arnhem Land 지역사회 지도자입니다. Rirratjingu Aboriginal Corporation의 장기 의장과 이후 patron을 지냈으며 토지권 옹호, 지역사회 개발, 문화 리더십으로 인정받았습니다.",
+      vi: "Trưởng lão Rirratjingu và lãnh đạo cộng đồng vùng đông bắc Arnhem Land. Ông từng nhiều năm là chủ tịch rồi patron của Rirratjingu Aboriginal Corporation, được ghi nhận về vận động quyền đất đai, phát triển cộng đồng và lãnh đạo văn hóa.",
+      th: "ผู้อาวุโส Rirratjingu และผู้นำชุมชนใน north-east Arnhem Land เคยเป็นประธานระยะยาวและต่อมาเป็น patron ของ Rirratjingu Aboriginal Corporation ได้รับการยอมรับจากงานสิทธิในที่ดิน การพัฒนาชุมชน และผู้นำทางวัฒนธรรม",
+      si: "Rirratjingu elder සහ north-east Arnhem Land community leader කෙනෙකි. Rirratjingu Aboriginal Corporation හි දිගුකාලීන chair සහ පසුව patron වූ ඔහු land-rights advocacy, community development සහ cultural leadership සඳහා පිළිගැනීම ලැබීය."
+    }
+  },
+  {
     name: "David Crisafulli",
     aliases: ["David Crisafulli", "David Frank Crisafulli", "David Crisafulli MP", "戴维·克里萨富利", "大衛·克里薩富利", "デイビッド・クリサフリ", "데이비드 크리사풀리"],
     type: "politician",
@@ -1368,6 +1386,23 @@ const PEOPLE_CONTEXT = [
       vi: "Vai trò công của bà là lãnh đạo phe đối lập NSW, đại diện Vaucluse và giám sát chính phủ Minns Labor; cuộc điều tra ICAC Reformers tạo sức ép chính trị về quản trị đảng và quản lý ứng viên dưới thời bà.",
       th: "บทบาทสาธารณะคือผู้นำฝ่ายค้าน NSW ตัวแทนเขต Vaucluse และตรวจสอบรัฐบาล Minns Labor โดยการไต่สวน ICAC Reformers เพิ่มแรงกดดันต่อธรรมาภิบาลพรรคและการจัดการผู้สมัครภายใต้การนำของเธอ",
       si: "ඇයගේ public role එක NSW opposition නායකත්වය, Vaucluse නියෝජනය සහ Minns Labor government scrutiny ය. ICAC Reformers inquiry එක ඇයගේ leadership යටතේ party governance සහ candidate management පිළිබඳ political pressure ගෙන එයි."
+    }
+  },
+  {
+    name: "Robert Assaf",
+    aliases: ["Robert Assaf", "Rob Assaf", "罗伯特·阿萨夫", "羅伯特·阿薩夫", "ロバート・アサフ", "로버트 아사프"],
+    type: "public-figure",
+    officialProfile: { label: "ICAC Operation Rosny", url: "https://www.icac.nsw.gov.au/investigations/current-investigations/2026/electoral-funding-act-operation-rosny" },
+    background: {
+      "zh-Hans": "新州 Liberal Party 内部保守派组织 NSW Reformers 的共同创办人之一。Operation Rosny 中，ICAC 正调查与政治捐款、候选人和党员招募有关的指控，Assaf 是公开听证中的关键证人之一。",
+      "zh-Hant": "新州 Liberal Party 內部保守派組織 NSW Reformers 的共同創辦人之一。Operation Rosny 中，ICAC 正調查與政治捐款、候選人和黨員招募有關的指控，Assaf 是公開聽證中的關鍵證人之一。",
+      en: "Co-founder of NSW Reformers, a conservative grouping inside the NSW Liberal Party. In Operation Rosny, ICAC is investigating allegations involving political donations, candidates and party-member recruitment, with Assaf appearing as a key public hearing witness.",
+      es: "Cofundador de NSW Reformers, un grupo conservador dentro del Liberal Party de NSW. En Operation Rosny, ICAC investiga acusaciones sobre donaciones políticas, candidatos y reclutamiento de afiliados, con Assaf como testigo clave en audiencias públicas.",
+      ja: "NSW Liberal Party 内の保守系グループ NSW Reformers の共同創設者。Operation Rosny で ICAC は政治献金、候補者、党員勧誘をめぐる疑惑を調べており、Assaf は公開聴聞の主要証人の一人です。",
+      ko: "NSW Liberal Party 내부 보수 성향 조직인 NSW Reformers의 공동 창립자입니다. Operation Rosny에서 ICAC는 정치 기부, 후보자, 당원 모집 관련 의혹을 조사하고 있으며 Assaf는 공개 청문회의 핵심 증인 중 한 명입니다.",
+      vi: "Đồng sáng lập NSW Reformers, một nhóm bảo thủ trong NSW Liberal Party. Trong Operation Rosny, ICAC đang điều tra các cáo buộc liên quan đến quyên góp chính trị, ứng viên và tuyển mộ đảng viên, với Assaf là một nhân chứng công khai quan trọng.",
+      th: "ผู้ร่วมก่อตั้ง NSW Reformers กลุ่มอนุรักษ์นิยมภายใน NSW Liberal Party ใน Operation Rosny ICAC กำลังสอบสวนข้อกล่าวหาเกี่ยวกับเงินบริจาคทางการเมือง ผู้สมัคร และการรับสมาชิกพรรค โดย Assaf เป็นพยานสำคัญใน hearings สาธารณะ",
+      si: "NSW Liberal Party ඇතුළත conservative grouping එකක් වන NSW Reformers හි co-founder කෙනෙකි. Operation Rosny තුළ ICAC political donations, candidates සහ party-member recruitment සම්බන්ධ allegations විමර්ශනය කරන අතර Assaf ප්‍රසිද්ධ hearing witness කෙනෙකි."
     }
   },
   {
