@@ -1172,6 +1172,24 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Jonathan Greenblatt",
+    aliases: ["Jonathan Greenblatt", "Jonathan A. Greenblatt", "JGreenblattADL", "乔纳森·格林布拉特", "喬納森·格林布拉特", "ジョナサン・グリーンブラット", "조너선 그린블랫"],
+    type: "public-figure",
+    profile: { label: "ADL profile", url: "https://www.adl.org/who-we-are/leadership/staff/jonathan-greenblatt" },
+    social: { label: "X", url: "https://x.com/JGreenblattADL" },
+    background: {
+      "zh-Hans": "Anti-Defamation League 的首席执行官和全国主任，曾任美国白宫社会创新与公民参与办公室主任，经常就反犹主义、网络仇恨和社区安全公开发声。",
+      "zh-Hant": "Anti-Defamation League 的行政總裁和全國主任，曾任美國白宮社會創新與公民參與辦公室主任，經常就反猶主義、網路仇恨和社區安全公開發聲。",
+      en: "CEO and National Director of the Anti-Defamation League, and a former White House social-innovation official, who speaks publicly on antisemitism, online hate and community safety.",
+      es: "Director ejecutivo y director nacional de la Anti-Defamation League, y exfuncionario de innovación social de la Casa Blanca, que interviene públicamente sobre antisemitismo, odio en línea y seguridad comunitaria.",
+      ja: "Anti-Defamation League の CEO 兼全国ディレクター。元ホワイトハウス社会イノベーション担当者で、反ユダヤ主義、オンラインヘイト、地域安全について公に発言しています。",
+      ko: "Anti-Defamation League의 CEO 겸 전국 디렉터이며 전 백악관 사회혁신 담당자로, 반유대주의, 온라인 혐오, 지역사회 안전에 대해 공개적으로 발언합니다.",
+      vi: "CEO kiêm National Director của Anti-Defamation League, từng là quan chức đổi mới xã hội của Nhà Trắng, thường phát biểu công khai về bài Do Thái, thù ghét trực tuyến và an toàn cộng đồng.",
+      th: "CEO และ National Director ของ Anti-Defamation League และอดีตเจ้าหน้าที่ด้าน social innovation ของทำเนียบขาว มักพูดต่อสาธารณะเรื่อง antisemitism ความเกลียดชังออนไลน์ และความปลอดภัยชุมชน",
+      si: "Anti-Defamation League හි CEO සහ National Director වන අතර හිටපු White House social-innovation official කෙනෙකි; antisemitism, online hate සහ community safety ගැන public ලෙස අදහස් දක්වයි."
+    }
+  },
+  {
     name: "Penny Wong",
     aliases: ["Penny Wong", "Penelope Ying-Yen Wong", "Senator Wong", "Senator Penny Wong", "黄英贤", "黃英賢", "ペニー・ウォン", "페니 웡"],
     type: "politician",
