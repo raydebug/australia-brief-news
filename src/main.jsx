@@ -2474,6 +2474,65 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Chris Minns",
+    aliases: ["Chris Minns", "Christopher John Minns", "Chris Minns MP", "克里斯·明斯", "克里斯·明斯", "クリス・ミンズ", "크리스 민스"],
+    type: "politician",
+    profile: { label: "Premier biography", url: "https://www.nsw.gov.au/nsw-government/premier-of-nsw" },
+    officialProfile: { label: "Parliament profile", url: "https://www.parliament.nsw.gov.au/members/Pages/Member-details.aspx?pk=108" },
+    social: { label: "X", url: "https://x.com/ChrisMinnsMP" },
+    background: {
+      "zh-Hans": "新州工党政治人物，Kogarah 选区州议员，2023 年起任新南威尔士州州长和新州工党领袖。进入州议会前曾任地方议员和政务顾问。",
+      "zh-Hant": "新州工黨政治人物，Kogarah 選區州議員，2023 年起任新南威爾士州州長和新州工黨領袖。進入州議會前曾任地方議員和政務顧問。",
+      en: "NSW Labor politician, MP for Kogarah, Premier of New South Wales since 2023 and leader of NSW Labor. Before state parliament he served as a local councillor and political adviser.",
+      es: "Político laborista de NSW, diputado por Kogarah, premier de Nueva Gales del Sur desde 2023 y líder de NSW Labor. Antes del parlamento estatal fue concejal local y asesor político.",
+      ja: "NSW 労働党の政治家で、Kogarah 選出州議員。2023年から New South Wales 州首相、NSW Labor 党首です。州議会入り前は地方議員と政治顧問を務めました。",
+      ko: "NSW 노동당 정치인으로 Kogarah 지역구 의원이며 2023년부터 New South Wales 주총리와 NSW Labor 대표입니다. 주의회 전에는 지방의원과 정치 보좌관을 지냈습니다.",
+      vi: "Chính trị gia Labor tại NSW, nghị sĩ bang khu Kogarah, Premier of New South Wales từ năm 2023 và lãnh đạo NSW Labor. Trước quốc hội bang, ông là councillor địa phương và cố vấn chính trị.",
+      th: "นักการเมือง Labor ของ NSW ส.ส. รัฐเขต Kogarah เป็น Premier of New South Wales ตั้งแต่ปี 2023 และผู้นำ NSW Labor ก่อนเข้าสภารัฐเคยเป็น councillor ท้องถิ่นและที่ปรึกษาการเมือง",
+      si: "NSW Labor දේශපාලනඥයෙකු වන Chris Minns, Kogarah MP, 2023 සිට Premier of New South Wales සහ NSW Labor නායකයා වේ. State parliament ට පෙර local councillor සහ political adviser ලෙස කටයුතු කළේය."
+    },
+    positions: {
+      "zh-Hans": "其州长任期重点包括住房、生活成本、医院、学校、交通、道路收费改革和能源转型；悉尼过路费调整是其政府交通改革的一部分。",
+      "zh-Hant": "其州長任期重點包括住房、生活成本、醫院、學校、交通、道路收費改革和能源轉型；悉尼過路費調整是其政府交通改革的一部分。",
+      en: "His premiership centres on housing, cost of living, hospitals, schools, transport, toll-road reform and energy transition; Sydney toll changes sit inside his government's transport agenda.",
+      es: "Su gobierno se centra en vivienda, coste de vida, hospitales, escuelas, transporte, reforma de peajes y transición energética; los cambios de peajes de Sídney forman parte de su agenda de transporte.",
+      ja: "住宅、生活費、病院、学校、交通、有料道路改革、エネルギー転換が主要課題で、Sydney の通行料金見直しは政権の交通政策の一部です。",
+      ko: "주택, 생활비, 병원, 학교, 교통, 유료도로 개혁, 에너지 전환이 핵심 의제이며 Sydney 통행료 변경은 정부 교통 의제의 일부입니다.",
+      vi: "Trọng tâm nhiệm kỳ gồm nhà ở, chi phí sinh hoạt, bệnh viện, trường học, giao thông, cải cách phí đường bộ và chuyển đổi năng lượng; thay đổi toll ở Sydney nằm trong agenda giao thông của chính phủ ông.",
+      th: "วาระของเขาเน้นที่อยู่อาศัย ค่าครองชีพ โรงพยาบาล โรงเรียน การขนส่ง การปฏิรูป toll roads และพลังงาน โดยการเปลี่ยน toll ใน Sydney เป็นส่วนหนึ่งของ agenda ด้านคมนาคม",
+      si: "ඔහුගේ premiership එක housing, cost of living, hospitals, schools, transport, toll-road reform සහ energy transition වටා යයි; Sydney toll changes ඔහුගේ රජයේ transport agenda එකේ කොටසකි."
+    }
+  },
+  {
+    name: "John Graham",
+    aliases: ["John Graham", "John Graham MLC", "The Hon John Graham MLC", "约翰·格雷厄姆", "約翰·格雷厄姆", "ジョン・グラハム", "존 그레이엄"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.parliament.nsw.gov.au/members/Pages/Member-details.aspx?pk=2224" },
+    social: { label: "Facebook", url: "https://www.facebook.com/johngrahamalp/" },
+    background: {
+      "zh-Hans": "新州工党上议院议员，2016 年进入议会，现任交通部长、艺术部长、音乐和夜间经济部长、特别国务部长，并任上议院政府副领袖。",
+      "zh-Hant": "新州工黨上議院議員，2016 年進入議會，現任交通部長、藝術部長、音樂和夜間經濟部長、特別國務部長，並任上議院政府副領袖。",
+      en: "NSW Labor member of the Legislative Council, elected in 2016. He is Minister for Transport, Minister for the Arts, Minister for Music and the Night-time Economy, Special Minister of State and Deputy Leader of the Government in the Legislative Council.",
+      es: "Miembro laborista del Consejo Legislativo de NSW, elegido en 2016. Es ministro de Transporte, Artes, Música y Economía Nocturna, Special Minister of State y vice líder del gobierno en el Consejo Legislativo.",
+      ja: "NSW 労働党の上院議員で、2016年に選出。交通相、芸術相、音楽・夜間経済相、Special Minister of State、上院政府副代表を務めています。",
+      ko: "2016년 선출된 NSW 노동당 상원의원입니다. 교통장관, 예술장관, 음악·야간경제 장관, 특별국무장관, 상원 정부 부대표를 맡고 있습니다.",
+      vi: "Thành viên Labor của Hội đồng Lập pháp NSW, được bầu năm 2016. Ông là Bộ trưởng Transport, Arts, Music and the Night-time Economy, Special Minister of State và Deputy Leader of the Government trong Hội đồng Lập pháp.",
+      th: "สมาชิก Labor ใน Legislative Council ของ NSW ได้รับเลือกปี 2016 เป็น Minister for Transport, Minister for the Arts, Minister for Music and the Night-time Economy, Special Minister of State และ Deputy Leader of the Government ในสภาสูง",
+      si: "2016 දී තේරී පත් වූ NSW Labor Legislative Council member කෙනෙකි. ඔහු Minister for Transport, Minister for the Arts, Minister for Music and the Night-time Economy, Special Minister of State සහ Legislative Council හි Deputy Leader of the Government වේ."
+    },
+    positions: {
+      "zh-Hans": "其公共职责覆盖悉尼和新州交通、道路收费改革、文化政策、音乐产业和夜间经济；近期过路费方案由其交通组合负责说明。",
+      "zh-Hant": "其公共職責覆蓋悉尼和新州交通、道路收費改革、文化政策、音樂產業和夜間經濟；近期過路費方案由其交通職權負責說明。",
+      en: "His public role covers Sydney and NSW transport, toll-road reform, cultural policy, the music sector and the night-time economy; recent toll changes are handled through his transport portfolio.",
+      es: "Su función pública cubre transporte de Sídney y NSW, reforma de peajes, política cultural, música y economía nocturna; los cambios recientes de peajes corresponden a su cartera de transporte.",
+      ja: "Sydney と NSW の交通、有料道路改革、文化政策、音楽産業、夜間経済を担当し、最近の通行料金変更は交通相として説明しています。",
+      ko: "Sydney와 NSW 교통, 유료도로 개혁, 문화정책, 음악 부문, 야간경제를 담당하며 최근 통행료 변경은 그의 교통 포트폴리오에서 다룹니다.",
+      vi: "Vai trò công của ông bao gồm giao thông Sydney và NSW, cải cách toll roads, chính sách văn hóa, lĩnh vực âm nhạc và night-time economy; các thay đổi toll gần đây thuộc portfolio giao thông của ông.",
+      th: "บทบาทสาธารณะครอบคลุมการขนส่ง Sydney และ NSW การปฏิรูป toll roads นโยบายวัฒนธรรม ภาคดนตรี และ night-time economy โดย toll changes ล่าสุดอยู่ใน portfolio ด้าน transport ของเขา",
+      si: "ඔහුගේ public role එක Sydney සහ NSW transport, toll-road reform, cultural policy, music sector සහ night-time economy ආවරණය කරයි; recent toll changes ඔහුගේ transport portfolio හරහා හසුරුවයි."
+    }
+  },
+  {
     name: "Tara Moriarty",
     aliases: ["Tara Moriarty", "Tara Elizabeth Moriarty", "Agriculture Minister Tara Moriarty", "塔拉·莫里亚蒂", "塔拉·莫里亞蒂", "タラ・モリアーティ", "타라 모리아티"],
     type: "politician",
