@@ -1340,6 +1340,37 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Kellie Sloane",
+    aliases: ["Kellie Sloane", "Kellie Anne Sloane", "Kellie Sloane MP", "凯莉·斯隆", "凱莉·斯隆", "ケリー・スローン", "켈리 슬론"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2288&ref=1845" },
+    officialProfile: { label: "Official website", url: "https://kelliesloane.com.au/" },
+    social: { label: "Facebook", url: "https://www.facebook.com/KellieSloaneMP/" },
+    personalSocial: { label: "X", url: "https://x.com/KellieSloaneMP" },
+    background: {
+      "zh-Hans": "新南威尔士自由党政治人物，Vaucluse 选区州议员，进入政坛前曾任电视记者和慈善机构负责人，2025 年起任新州反对党领袖和新州自由党领袖。",
+      "zh-Hant": "新南威爾士自由黨政治人物，Vaucluse 選區州議員，進入政壇前曾任電視記者和慈善機構負責人，2025 年起任新州反對黨領袖和新州自由黨領袖。",
+      en: "New South Wales Liberal politician, MP for Vaucluse, former television journalist and charity executive, and NSW Opposition Leader and NSW Liberal leader since 2025.",
+      es: "Política liberal de Nueva Gales del Sur, diputada por Vaucluse, ex periodista televisiva y ejecutiva de organizaciones benéficas; líder de la oposición estatal y del Liberal Party de NSW desde 2025.",
+      ja: "ニューサウスウェールズ州 Liberal Party の政治家で、Vaucluse 選出の州議員。元テレビ記者、慈善団体幹部で、2025年から NSW Opposition Leader と NSW Liberal leader を務めています。",
+      ko: "뉴사우스웨일스 Liberal Party 정치인으로 Vaucluse 지역구 의원입니다. 전직 TV 기자와 자선단체 임원을 거쳤고 2025년부터 NSW 야당 대표와 NSW Liberal 대표를 맡고 있습니다.",
+      vi: "Chính trị gia Liberal tại New South Wales, nghị sĩ bang khu Vaucluse, cựu nhà báo truyền hình và lãnh đạo tổ chức từ thiện; NSW Opposition Leader và lãnh đạo NSW Liberal từ năm 2025.",
+      th: "นักการเมือง Liberal ของรัฐนิวเซาท์เวลส์ ส.ส. รัฐเขต Vaucluse อดีตผู้สื่อข่าวโทรทัศน์และผู้บริหารองค์กรการกุศล เป็น NSW Opposition Leader และผู้นำ NSW Liberal ตั้งแต่ปี 2025",
+      si: "New South Wales Liberal දේශපාලනඥයෙකු වන Kellie Sloane, Vaucluse MP, හිටපු television journalist සහ charity executive කෙනෙකි. 2025 සිට NSW Opposition Leader සහ NSW Liberal leader වේ."
+    },
+    positions: {
+      "zh-Hans": "其公共职责包括领导新州反对党、代表 Vaucluse，并在州议会监督 Minns 工党政府；ICAC Reformers 调查使其党内治理和候选人管理面临政治压力。",
+      "zh-Hant": "其公共職責包括領導新州反對黨、代表 Vaucluse，並在州議會監督 Minns 工黨政府；ICAC Reformers 調查使其黨內治理和候選人管理面臨政治壓力。",
+      en: "Her public role is to lead the NSW opposition, represent Vaucluse and scrutinise the Minns Labor government; the ICAC Reformers inquiry puts political pressure on party governance and candidate management under her leadership.",
+      es: "Su función pública consiste en liderar la oposición de NSW, representar a Vaucluse y fiscalizar al gobierno laborista de Minns; la investigación ICAC Reformers presiona la gobernanza partidaria y la gestión de candidatos bajo su liderazgo.",
+      ja: "NSW 野党を率い、Vaucluse を代表し、Minns Labor 政権を監視する立場です。ICAC Reformers 調査は、党運営と候補者管理をめぐって彼女の指導部に政治的圧力をかけています。",
+      ko: "NSW 야당을 이끌고 Vaucluse를 대표하며 Minns Labor 정부를 견제하는 역할입니다. ICAC Reformers 조사는 그의 지도부 아래 당 운영과 후보 관리에 정치적 압박을 줍니다.",
+      vi: "Vai trò công của bà là lãnh đạo phe đối lập NSW, đại diện Vaucluse và giám sát chính phủ Minns Labor; cuộc điều tra ICAC Reformers tạo sức ép chính trị về quản trị đảng và quản lý ứng viên dưới thời bà.",
+      th: "บทบาทสาธารณะคือผู้นำฝ่ายค้าน NSW ตัวแทนเขต Vaucluse และตรวจสอบรัฐบาล Minns Labor โดยการไต่สวน ICAC Reformers เพิ่มแรงกดดันต่อธรรมาภิบาลพรรคและการจัดการผู้สมัครภายใต้การนำของเธอ",
+      si: "ඇයගේ public role එක NSW opposition නායකත්වය, Vaucluse නියෝජනය සහ Minns Labor government scrutiny ය. ICAC Reformers inquiry එක ඇයගේ leadership යටතේ party governance සහ candidate management පිළිබඳ political pressure ගෙන එයි."
+    }
+  },
+  {
     name: "Laurie Daley",
     aliases: ["Laurie Daley", "Laurie William Daley", "Lozza", "劳里·戴利", "勞里·戴利", "ローリー・デイリー", "로리 데일리"],
     type: "athlete",
