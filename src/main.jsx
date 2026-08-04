@@ -1919,6 +1919,37 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Anthony Carbines",
+    aliases: ["Anthony Carbines", "Anthony Richard Carbines", "Anthony Carbines MP", "安东尼·卡宾斯", "安東尼·卡賓斯", "アンソニー・カービンズ", "앤서니 카바인스"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.parliament.vic.gov.au/members/anthony-carbines/" },
+    officialProfile: { label: "Premier profile", url: "https://www.premier.vic.gov.au/anthony-carbines" },
+    social: { label: "X", url: "https://x.com/ACarbinesMP" },
+    personalSocial: { label: "Instagram", url: "https://www.instagram.com/anthonycarbinesmp/" },
+    background: {
+      "zh-Hans": "维州工党政治人物，Ivanhoe 选区州议员，2010 年进入维州议会，曾任警务、社区安全、受害者事务和赛马部长，并在 2026 年 Carroll 政府中接手人工智能和数字经济职责。",
+      "zh-Hant": "維州工黨政治人物，Ivanhoe 選區州議員，2010 年進入維州議會，曾任警務、社區安全、受害者事務和賽馬部長，並在 2026 年 Carroll 政府中接手人工智能和數字經濟職責。",
+      en: "Victorian Labor politician, MP for Ivanhoe since 2010, former police, community safety, victims and racing minister, and the minister given artificial intelligence and digital economy responsibilities in Ben Carroll's 2026 government.",
+      es: "Político laborista de Victoria, diputado por Ivanhoe desde 2010; fue ministro de Policía, seguridad comunitaria, víctimas y carreras, y recibió inteligencia artificial y economía digital en el gobierno de Ben Carroll de 2026.",
+      ja: "ビクトリア州労働党の政治家で、2010年から Ivanhoe 選出州議員。警察、地域安全、被害者、競馬担当相を務め、2026年の Ben Carroll 政権で人工知能とデジタル経済を担当しました。",
+      ko: "빅토리아 노동당 정치인으로 2010년부터 Ivanhoe 지역구 의원입니다. 경찰, 지역사회 안전, 피해자, 경마 장관을 지냈고 2026년 Ben Carroll 정부에서 인공지능과 디지털 경제를 맡았습니다.",
+      vi: "Chính trị gia Labor tại Victoria, nghị sĩ Ivanhoe từ năm 2010; từng giữ các bộ cảnh sát, an toàn cộng đồng, nạn nhân và đua ngựa, rồi nhận trách nhiệm trí tuệ nhân tạo và kinh tế số trong chính phủ Ben Carroll năm 2026.",
+      th: "นักการเมือง Labor ของรัฐวิกตอเรีย ส.ส. เขต Ivanhoe ตั้งแต่ปี 2010 เคยดูแลตำรวจ ความปลอดภัยชุมชน เหยื่อ และ racing ก่อนรับหน้าที่ artificial intelligence และ digital economy ในรัฐบาล Ben Carroll ปี 2026",
+      si: "Victorian Labor දේශපාලනඥයෙකු වන Anthony Carbines 2010 සිට Ivanhoe MP වේ. Police, community safety, victims සහ racing minister ලෙස කටයුතු කර ඇති අතර 2026 Ben Carroll රජයේ artificial intelligence සහ digital economy වගකීම් ලැබීය."
+    },
+    positions: {
+      "zh-Hans": "其 AI 职责围绕负责任和伦理化 AI、数字投资、监管护栏以及数据中心等基础设施对就业、环境和社区的影响。",
+      "zh-Hant": "其 AI 職責圍繞負責任和倫理化 AI、數字投資、監管護欄以及數據中心等基礎設施對就業、環境和社區的影響。",
+      en: "His AI role is framed around responsible and ethical AI, digital investment, regulatory guardrails and the worker, environmental and community impacts of infrastructure such as data centres.",
+      es: "Su cartera de IA se presenta en torno a IA responsable y ética, inversión digital, límites regulatorios y los efectos laborales, ambientales y comunitarios de infraestructuras como centros de datos.",
+      ja: "AI 担当として、責任ある倫理的 AI、デジタル投資、規制上のガードレール、データセンターなどのインフラが労働者・環境・地域に与える影響を扱います。",
+      ko: "AI 역할은 책임 있고 윤리적인 AI, 디지털 투자, 규제 가드레일, 데이터센터 같은 인프라가 노동자·환경·지역사회에 미치는 영향을 중심으로 합니다.",
+      vi: "Vai trò AI của ông xoay quanh AI có trách nhiệm và đạo đức, đầu tư số, hàng rào pháp lý và tác động của hạ tầng như trung tâm dữ liệu đến người lao động, môi trường và cộng đồng.",
+      th: "บทบาทด้าน AI ของเขาเน้น AI ที่รับผิดชอบและมีจริยธรรม การลงทุนดิจิทัล guardrails ด้านกฎระเบียบ และผลกระทบต่อแรงงาน สิ่งแวดล้อม และชุมชนจากโครงสร้างพื้นฐาน เช่น data centres",
+      si: "ඔහුගේ AI role එක responsible/ethical AI, digital investment, regulatory guardrails සහ data centres වැනි infrastructure වල worker, environmental, community impacts වටා ගොඩනැගී ඇත."
+    }
+  },
+  {
     name: "Jacinta Allan",
     aliases: ["Jacinta Allan", "贾辛塔·艾伦", "賈辛塔·艾倫", "ジャシンタ・アラン", "재신타 앨런"],
     type: "politician",
@@ -2945,6 +2976,23 @@ const PEOPLE_CONTEXT = [
       vi: "Cựu bình luận viên phát thanh và truyền hình Úc, cựu HLV Wallabies, gắn lâu với chương trình buổi sáng của 2GB ở Sydney và là một trong những nhân vật truyền thông có ảnh hưởng và gây tranh cãi nhất nước.",
       th: "อดีตผู้วิจารณ์วิทยุและโทรทัศน์ของออสเตรเลีย และอดีตโค้ช Wallabies เป็นที่รู้จักจากรายการเช้าของ 2GB ในซิดนีย์ และเป็นหนึ่งในบุคคลสื่อที่มีอิทธิพลและก่อข้อถกเถียงมากที่สุดของประเทศ",
       si: "Australian former radio/television commentator සහ former Wallabies coach. Sydney 2GB breakfast program සමඟ දිගු කලක් සම්බන්ධ වූ අතර රටේ බලවත් සහ controversy ඇති media figures අතර කෙනෙකි."
+    }
+  },
+  {
+    name: "David Ossip",
+    aliases: ["David Ossip", "David Ossip AM", "大卫·奥西普", "大衛·奧西普", "デイビッド・オシップ", "데이비드 오십"],
+    type: "public-figure",
+    officialProfile: { label: "NSW Jewish Board profile", url: "https://nswjbd.org.au/2022/08/16/changing-of-the-guard-at-the-nsw-jewish-board-of-deputies/" },
+    background: {
+      "zh-Hans": "新州 Jewish Board of Deputies 前主席和澳洲犹太社区公共代表，在反犹主义、社区安全和社会凝聚相关公共讨论中经常代表该机构发声。",
+      "zh-Hant": "新州 Jewish Board of Deputies 前主席和澳洲猶太社區公共代表，在反猶主義、社區安全和社會凝聚相關公共討論中經常代表該機構發聲。",
+      en: "Former president of the NSW Jewish Board of Deputies and a public representative of the Australian Jewish community, often speaking for the organisation on antisemitism, community safety and social cohesion.",
+      es: "Expresidente del NSW Jewish Board of Deputies y representante público de la comunidad judía australiana, con intervenciones frecuentes sobre antisemitismo, seguridad comunitaria y cohesión social.",
+      ja: "NSW Jewish Board of Deputies の元会長で、豪州ユダヤ人コミュニティの公的代表者。反ユダヤ主義、地域安全、社会的結束について同団体を代表して発言してきました。",
+      ko: "NSW Jewish Board of Deputies 전 회장이자 호주 유대인 공동체의 공적 대표입니다. 반유대주의, 공동체 안전, 사회 통합 문제에서 해당 단체를 대표해 발언해 왔습니다.",
+      vi: "Cựu chủ tịch NSW Jewish Board of Deputies và đại diện công khai của cộng đồng Do Thái Australia, thường lên tiếng về chủ nghĩa bài Do Thái, an toàn cộng đồng và gắn kết xã hội.",
+      th: "อดีตประธาน NSW Jewish Board of Deputies และตัวแทนสาธารณะของชุมชนยิวออสเตรเลีย มักพูดในนามองค์กรเรื่อง antisemitism ความปลอดภัยชุมชน และ social cohesion",
+      si: "NSW Jewish Board of Deputies හි හිටපු president සහ Australian Jewish community හි public representative කෙනෙකි; antisemitism, community safety සහ social cohesion පිළිබඳ සංවිධානය වෙනුවෙන් නිතර අදහස් දක්වයි."
     }
   },
   {
