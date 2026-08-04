@@ -3428,6 +3428,90 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Kevin Rudd",
+    aliases: ["Kevin Rudd", "Kevin Michael Rudd", "The Hon Dr Kevin Rudd", "陆克文", "陸克文", "ケビン・ラッド", "케빈 러드"],
+    type: "politician",
+    profile: { label: "Asia Society profile", url: "https://asiasociety.org/policy-institute/honorable-dr-kevin-rudd-ac" },
+    officialProfile: { label: "Personal website", url: "https://kevinrudd.com/about" },
+    social: { label: "X", url: "https://x.com/MrKRudd" },
+    personalSocial: { label: "Facebook", url: "https://www.facebook.com/MrKRudd/" },
+    background: {
+      "zh-Hans": "澳大利亚前总理、前外交部长和前驻美大使，长期研究中国、美国和印太战略，现任 Asia Society 全球总裁兼 CEO。",
+      "zh-Hant": "澳洲前總理、前外交部長和前駐美大使，長期研究中國、美國和印太戰略，現任 Asia Society 全球總裁兼 CEO。",
+      en: "Former Australian prime minister, foreign minister and ambassador to the United States, now Global President and CEO of Asia Society, with a long focus on China, the United States and Indo-Pacific strategy.",
+      es: "Ex primer ministro, exministro de Exteriores y exembajador australiano en Estados Unidos; hoy es presidente global y CEO de Asia Society, con largo trabajo sobre China, EE.UU. y el Indo-Pacífico.",
+      ja: "オーストラリアの元首相、元外相、元駐米大使。現在は Asia Society の Global President and CEO で、中国、米国、インド太平洋戦略を長く扱ってきました。",
+      ko: "호주 전 총리, 전 외교장관, 전 주미대사이며 현재 Asia Society의 Global President and CEO입니다. 중국, 미국, 인도태평양 전략을 오래 다뤄 왔습니다.",
+      vi: "Cựu thủ tướng, cựu ngoại trưởng và cựu đại sứ Australia tại Hoa Kỳ; hiện là Global President and CEO của Asia Society, với trọng tâm lâu dài về Trung Quốc, Mỹ và chiến lược Indo-Pacific.",
+      th: "อดีตนายกรัฐมนตรี อดีตรัฐมนตรีต่างประเทศ และอดีตเอกอัครราชทูตออสเตรเลียประจำสหรัฐฯ ปัจจุบันเป็น Global President and CEO ของ Asia Society และทำงานด้านจีน สหรัฐฯ และยุทธศาสตร์ Indo-Pacific มายาวนาน",
+      si: "හිටපු Australian prime minister, foreign minister සහ United States ambassador කෙනෙකි; දැන් Asia Society Global President and CEO වන අතර China, United States සහ Indo-Pacific strategy පිළිබඳ දිගුකාලීන අවධානයක් ඇත."
+    },
+    positions: {
+      "zh-Hans": "其公开观点多围绕中美竞争、台湾风险、AUKUS、威慑、外交接触和澳洲在印太地区的战略选择。",
+      "zh-Hant": "其公開觀點多圍繞中美競爭、台灣風險、AUKUS、威懾、外交接觸和澳洲在印太地區的戰略選擇。",
+      en: "His public positions centre on US-China competition, Taiwan risk, AUKUS, deterrence, diplomatic engagement and Australia's strategic choices in the Indo-Pacific.",
+      es: "Sus posiciones públicas se centran en la competencia EE.UU.-China, el riesgo en Taiwán, AUKUS, disuasión, diplomacia y las opciones estratégicas de Australia en el Indo-Pacífico.",
+      ja: "米中競争、台湾リスク、AUKUS、抑止、外交的関与、インド太平洋におけるオーストラリアの戦略選択を主に論じています。",
+      ko: "공개 입장은 미중 경쟁, 대만 리스크, AUKUS, 억지, 외교적 관여, 인도태평양에서 호주의 전략 선택에 초점을 둡니다.",
+      vi: "Các lập trường công khai tập trung vào cạnh tranh Mỹ-Trung, rủi ro Đài Loan, AUKUS, răn đe, ngoại giao và lựa chọn chiến lược của Australia ở Indo-Pacific.",
+      th: "จุดยืนสาธารณะของเขาเน้นการแข่งขันสหรัฐฯ-จีน ความเสี่ยงไต้หวัน AUKUS การป้องปราม การทูต และทางเลือกเชิงยุทธศาสตร์ของออสเตรเลียใน Indo-Pacific",
+      si: "ඔහුගේ public positions US-China competition, Taiwan risk, AUKUS, deterrence, diplomatic engagement සහ Indo-Pacific හි Australia strategic choices වටා කේන්ද්‍රගත වේ."
+    }
+  },
+  {
+    name: "Ali Brigginshaw",
+    aliases: ["Ali Brigginshaw", "Ali Brigginshaw OAM", "Briggo", "阿莉·布里金肖", "アリ・ブリギンショー", "알리 브리긴쇼"],
+    type: "athlete",
+    profile: { label: "Broncos profile", url: "https://www.broncos.com.au/teams/womens-premiership/brisbane-broncos-women/ali-brigginshaw/" },
+    social: { label: "Instagram", url: "https://www.instagram.com/ali_brigg/" },
+    background: {
+      "zh-Hans": "Brisbane Broncos NRLW 半卫和队长，也是 Queensland Maroons 与 Australian Jillaroos 代表队核心球员，曾获 Dally M 女子最佳球员。",
+      "zh-Hant": "Brisbane Broncos NRLW 半衛和隊長，也是 Queensland Maroons 與 Australian Jillaroos 代表隊核心球員，曾獲 Dally M 女子最佳球員。",
+      en: "Brisbane Broncos NRLW halfback and captain, Queensland Maroons and Australian Jillaroos representative, and a former Dally M women's player of the year.",
+      es: "Halfback y capitana de Brisbane Broncos en la NRLW, representante de Queensland Maroons y Australian Jillaroos, y exjugadora femenina del año Dally M.",
+      ja: "Brisbane Broncos NRLW のハーフバック兼主将。Queensland Maroons と Australian Jillaroos の代表選手で、Dally M 女子年間最優秀選手の受賞歴があります。",
+      ko: "Brisbane Broncos NRLW 하프백이자 주장으로 Queensland Maroons와 Australian Jillaroos 대표이며 Dally M 여자 올해의 선수 수상자입니다.",
+      vi: "Halfback kiêm đội trưởng Brisbane Broncos ở NRLW, tuyển thủ Queensland Maroons và Australian Jillaroos, từng là cầu thủ nữ Dally M của năm.",
+      th: "ฮาล์ฟแบ็กและกัปตัน Brisbane Broncos ใน NRLW เป็นตัวแทน Queensland Maroons และ Australian Jillaroos และเคยได้รางวัล Dally M women's player of the year",
+      si: "Brisbane Broncos NRLW halfback සහ captain කෙනෙකි; Queensland Maroons සහ Australian Jillaroos නියෝජිතයෙකු වන අතර හිටපු Dally M women's player of the year සම්මානලාභිනියකි."
+    }
+  },
+  {
+    name: "Tayla Preston",
+    aliases: ["Tayla Preston", "Tay", "泰拉·普雷斯顿", "泰拉·普雷斯頓", "テイラ・プレストン", "테일라 프레스턴"],
+    type: "athlete",
+    profile: { label: "Bulldogs profile", url: "https://www.bulldogs.com.au/teams/womens-premiership/canterbury-bankstown-bulldogs-women/tayla-preston/" },
+    social: { label: "Instagram", url: "https://www.instagram.com/taylaapreston/" },
+    background: {
+      "zh-Hans": "Canterbury-Bankstown Bulldogs NRLW 半卫和共同队长，曾效力 Parramatta Eels Women 与 Cronulla-Sutherland Sharks Women。",
+      "zh-Hant": "Canterbury-Bankstown Bulldogs NRLW 半衛和共同隊長，曾效力 Parramatta Eels Women 與 Cronulla-Sutherland Sharks Women。",
+      en: "Canterbury-Bankstown Bulldogs NRLW halfback and co-captain, after earlier NRLW stints with Parramatta Eels Women and Cronulla-Sutherland Sharks Women.",
+      es: "Halfback y cocapitana de Canterbury-Bankstown Bulldogs en la NRLW, tras etapas previas con Parramatta Eels Women y Cronulla-Sutherland Sharks Women.",
+      ja: "Canterbury-Bankstown Bulldogs NRLW のハーフバック兼共同主将。以前は Parramatta Eels Women と Cronulla-Sutherland Sharks Women でプレーしました。",
+      ko: "Canterbury-Bankstown Bulldogs NRLW 하프백이자 공동 주장으로, 이전에는 Parramatta Eels Women과 Cronulla-Sutherland Sharks Women에서 뛰었습니다.",
+      vi: "Halfback và đồng đội trưởng Canterbury-Bankstown Bulldogs ở NRLW, sau các giai đoạn tại Parramatta Eels Women và Cronulla-Sutherland Sharks Women.",
+      th: "ฮาล์ฟแบ็กและกัปตันร่วมของ Canterbury-Bankstown Bulldogs ใน NRLW หลังเคยเล่นกับ Parramatta Eels Women และ Cronulla-Sutherland Sharks Women",
+      si: "Canterbury-Bankstown Bulldogs NRLW halfback සහ co-captain කෙනෙකි; පෙර Parramatta Eels Women සහ Cronulla-Sutherland Sharks Women සමඟ ක්‍රීඩා කර ඇත."
+    }
+  },
+  {
+    name: "Kath Pettingill",
+    aliases: ["Kath Pettingill", "Kathleen Pettingill", "Kathy Pettingill", "Granny Evil", "凯思·佩廷吉尔", "キャス・ペティンギル", "캐스 페팅길"],
+    type: "public-figure",
+    profile: { label: "Wikipedia profile", url: "https://en.wikipedia.org/wiki/Kath_Pettingill" },
+    background: {
+      "zh-Hans": "墨尔本 Pettingill 犯罪家族的知名女族长，长期与维州上世纪七八十年代的毒品、暴力犯罪和 Walsh Street 警察枪杀案公共记忆相连。",
+      "zh-Hant": "墨爾本 Pettingill 犯罪家族的知名女族長，長期與維州上世紀七八十年代的毒品、暴力犯罪和 Walsh Street 警察槍殺案公共記憶相連。",
+      en: "Publicly known matriarch of Melbourne's Pettingill crime family, long associated with Victoria's public memory of 1970s-80s drug crime, violence and the Walsh Street police shootings.",
+      es: "Conocida matriarca pública de la familia criminal Pettingill de Melbourne, asociada durante décadas con la memoria pública victoriana sobre drogas, violencia y los asesinatos policiales de Walsh Street.",
+      ja: "メルボルンの Pettingill 犯罪一家の著名な家長。1970-80年代のビクトリア州の薬物犯罪、暴力、Walsh Street 警官殺害事件の記憶と結び付けられてきました。",
+      ko: "멜버른 Pettingill 범죄 가족의 공개적으로 알려진 가장으로, 1970-80년대 빅토리아의 마약 범죄, 폭력, Walsh Street 경찰 총격 사건의 공적 기억과 오래 연결돼 있습니다.",
+      vi: "Nhân vật được biết đến công khai như matriarch của gia đình tội phạm Pettingill ở Melbourne, gắn với ký ức công chúng Victoria về tội phạm ma túy, bạo lực và vụ bắn cảnh sát Walsh Street thập niên 1970-80.",
+      th: "บุคคลสาธารณะที่เป็น matriarch ของตระกูลอาชญากรรม Pettingill ในเมลเบิร์น ซึ่งเกี่ยวโยงกับความทรงจำสาธารณะของ Victoria เรื่องอาชญากรรมยาเสพติด ความรุนแรง และคดียิงตำรวจ Walsh Street ในทศวรรษ 1970-80",
+      si: "Melbourne හි Pettingill crime family හි ප්‍රසිද්ධ matriarch කෙනෙකි; 1970-80 දශකයේ Victoria drug crime, violence සහ Walsh Street police shootings පිළිබඳ public memory සමඟ දිගුකාලීනව සම්බන්ධ වී ඇත."
+    }
+  },
+  {
     name: "Harriet Shing",
     aliases: ["Harriet Shing", "Hon Harriet Shing", "哈丽雅特·欣", "ハリエット・シング", "해리엇 싱"],
     type: "politician",
