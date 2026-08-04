@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T20:14:39.300Z",
+  "updatedAt": "2026-08-04T21:19:13.343Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -101,12 +101,62 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news feed still required search-assisted fallback for some current Australian items.",
-    "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings.",
-    "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results.",
-    "9News homepage JSON was usable, but some standalone article fetches still returned 404, so card URLs were resolved from the homepage."
+    "news.com.au latest-feed page was not stable enough to use without manual verification.",
+    "9News, The Australian, Sky News Australia, and Yahoo News Australia did not expose stable current-week Australia listings.",
+    "ABC cards dated 2026-08-05 were future-dated under the 2026-08-04 cutoff and were excluded."
   ],
   "clusters": [
+    {
+      "id": "australian-home-sellers-profits-soft-market-20260804",
+      "language": "ko",
+      "headline": "호주 주택 판매자 다수는 여전히 이익, 하지만 시장은 둔화",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T20:00:00.000Z",
+      "voiceScript": "AAP의 최신 수치는 집값이 식고 있어도 대부분의 매도자가 아직은 이익을 보고 있음을 보여줍니다. 2026년 상반기 팔린 주택 가운데 손해를 본 거래는 3%도 되지 않았지만, 역자산 우려는 이미 나타나고 있습니다. 주택시장이 예전처럼 판매자에게 일방적으로 유리한 국면이 아니라는 점에서 중요합니다. 가격이 더 내려갈 경우 이익이 얼마나 오래 유지될지가 다음 질문입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/home-sellers-still-reap-huge-profits-but-cracks-appear"
+        }
+      ]
+    },
+    {
+      "id": "naplan-national-results-20260804",
+      "language": "ko",
+      "headline": "NAPLAN 결과가 전국적인 읽기·수리 하락을 보여준다",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-04T20:00:00.000Z",
+      "voiceScript": "호주 최신 NAPLAN 결과는 읽기, 쓰기, 수학 전반에 압박이 커지고 있음을 보여줍니다. AAP는 읽기와 쓰기의 전반적 약세를 강조했고, The Age는 기준에 도달하지 못한 학생 비율을 부각했습니다. 이 결과는 학교 지원, 정책 논의, 그리고 중등교육으로 넘어가기 전에 아이들이 기초를 보강할 수 있는지와 직결되기 때문에 중요합니다. 앞으로의 과제는 각 주가 이 데이터를 얼마나 빨리 맞춤형 지원으로 바꿀 수 있느냐입니다.",
+      "differences": [
+        "AAP는 읽기·쓰기의 전반적 약세를, The Age는 기준 미달 학생 비율을 강조합니다."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/lost-for-words-national-reading-writing-results-slip"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/victoria/a-third-of-students-fail-to-hit-naplan-benchmarks-20260803-p60kyr.html"
+        }
+      ]
+    },
+    {
+      "id": "career-plan-b-australia-20260804",
+      "language": "ko",
+      "headline": "호주인들, 예비 경력 경로를 준비하기 시작",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T14:07:45.000Z",
+      "voiceScript": "7NEWS는 업무 기대치가 바뀌고 AI가 고용 환경을 바꾸면서 두 번째 경력 경로를 고민하는 호주인이 늘고 있다고 전합니다. 기사에서는 선택지를 넓히기 위해 정보기술 공부로 돌아간 22세 청년의 사례를 소개했고, 많은 근로자가 첫 직업 선택이 앞으로도 통할지 확신하지 못한다는 조사 결과도 담았습니다. 이는 기술 업데이트가 개인 계획을 넘어 고용 안전의 일부가 되고 있음을 보여주기 때문에 중요합니다. 이제 과제는 교육 시스템이 이런 불확실성에 따라잡을 수 있느냐입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/more-than-half-of-australians-expect-they-will-need-a-career-plan-b-c-22676727"
+        }
+      ]
+    },
     {
       "id": "commercial-rooftop-solar-expansion-20260804",
       "language": "ko",
@@ -873,6 +923,27 @@
       ]
     },
     {
+      "id": "victoria-cabinet-ai-minister-20260804",
+      "language": "ko",
+      "headline": "빅토리아주, AI 장관 신설과 인프라 포트폴리오 재편",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-04T05:54:11.000Z",
+      "voiceScript": "빅토리아주의 새 내각은 교통 인프라와 Suburban Rail Loop 책임을 기존 구조에서 떼어내 다시 나눴고, 동시에 AI 장관 자리도 신설했습니다. 이번 변화는 지난주 지도부 교체와 여러 장관 사임 뒤에 이뤄진 것으로, 여러 포트폴리오가 한꺼번에 조정됐습니다. 대형 사업과 신기술 정책을 누가 이끌게 되는지 바꾸는 만큼 중요합니다. 앞으로 새 팀이 얼마나 빨리 안정돼 의제를 계속 밀어붙일 수 있는지가 관건입니다.",
+      "differences": [
+        "The Age는 AI 장관 임명에 주목하고, AAP는 교통 인프라와 Suburban Rail Loop 재편에 더 초점을 둡니다."
+      ],
+      "links": [
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/politics/victoria/premier-ben-carroll-appoints-ai-minister-scraps-infrastructure-portfolios-in-new-look-cabinet-20260804-p60l6t.html"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/premier-scraps-key-portfolio-in-major-cabinet-shake-up"
+        }
+      ]
+    },
+    {
       "id": "brisbane-homelessness-count-20260804",
       "language": "ko",
       "headline": "브리즈번에서 홈리스 아동이 1500명 넘게 집계돼",
@@ -992,6 +1063,62 @@
           "title": "Winter illnesses place increasing pressure on NSW hospitals",
           "url": "https://www.facebook.com/AustraliabyAussieofficial/posts/winter-illnesses-are-placing-increasing-pressure-on-hospitals-across-new-south-w/122187033242920977/",
           "score": 12
+        }
+      ]
+    },
+    {
+      "id": "victoria-doctors-strike-20260804",
+      "language": "ko",
+      "headline": "빅토리아 병원 의사들 파업 날짜 정해",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-04T04:55:00.000Z",
+      "voiceScript": "빅토리아주 공립병원 의사들이 임금 협상 갈등 속에 8월 13일 업무를 중단할 예정입니다. 예정된 행동은 오후 12시 30분부터 4시까지이며 Royal Melbourne Hospital, Royal Children's Hospital, Royal Women's Hospital과 인근 시설에 영향을 줄 수 있지만 응급 의사들은 근무를 이어갑니다. 이번 일이 중요한 이유는 빅토리아 공립병원에서 20년 만에 처음 있는 보호된 쟁의행위이기 때문입니다. 이제 남은 변수는 중단이 시작되기 전에 정부와 노조가 차이를 좁힐 수 있느냐입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-04/victorian-doctors-strike-confirmed/106990980"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/victoria/doctors-to-walk-off-job-at-major-melbourne-hospitals-next-week-over-pay-dispute-20260804-p60lby.html"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/victoria/doctors-to-walk-off-job-at-major-melbourne-hospitals-next-week-over-pay-dispute-20260804-p60lby.html"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "Facebook",
+            "account": "Herald Sun",
+            "title": "Outpatient appointments could be delayed at seven major Melbourne hospitals as doctors prepare strike action",
+            "url": "https://www.facebook.com/heraldsun/posts/outpatient-appointments-could-be-delayed-at-seven-major-melbourne-hospitals-incl/1093858393202862/",
+            "score": 18
+          },
+          {
+            "platform": "Facebook",
+            "account": "AMA Victoria",
+            "title": "AMA Victoria president Dr Simon Judkins discusses Victorian doctors strike action",
+            "url": "https://www.facebook.com/AMAinVictoria/posts/ama-victoria-president-dr-simon-judkins-speaking-this-morning-on-abc-melbourne-b/1666288012172536/",
+            "score": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "teen-workers-super-gap-20260804",
+      "language": "ko",
+      "headline": "낡은 규정 때문에 청소년 노동자들이 슈퍼를 못 받는다",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T03:56:32.000Z",
+      "voiceScript": "AAP는 오래된 규정 때문에 많은 청소년 노동자들이 받아야 할 superannuation을 놓치고 있다고 전합니다. 기사에 따르면 이 공백은 평생 1만 호주달러 이상 손실로 이어질 수 있습니다. 문제는 낮은 임금의 젊은 노동자들에게 일찍 영향을 주고, 나중에는 더 큰 은퇴 자산 격차로 이어지기 때문에 중요합니다. 앞으로의 관건은 입법자들이 이 허점을 얼마나 빨리 막느냐입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/outdated-laws-are-costing-teenage-workers-thousands"
         }
       ]
     },
@@ -1240,43 +1367,6 @@
           "score": 126
         }
       ]
-    },
-    {
-      "id": "victoria-doctors-strike-20260804",
-      "language": "ko",
-      "headline": "빅토리아 병원 의사들 파업 날짜 정해",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-04T04:55:00.000Z",
-      "voiceScript": "빅토리아주 공립병원 의사들이 임금 협상 갈등 속에 8월 13일 업무를 중단할 예정입니다. 예정된 행동은 오후 12시 30분부터 4시까지이며 Royal Melbourne Hospital, Royal Children's Hospital, Royal Women's Hospital과 인근 시설에 영향을 줄 수 있지만 응급 의사들은 근무를 이어갑니다. 이번 일이 중요한 이유는 빅토리아 공립병원에서 20년 만에 처음 있는 보호된 쟁의행위이기 때문입니다. 이제 남은 변수는 중단이 시작되기 전에 정부와 노조가 차이를 좁힐 수 있느냐입니다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/victorian-doctors-strike-confirmed/106990980"
-        },
-        {
-          "source": "Brisbane Times",
-          "url": "https://www.brisbanetimes.com.au/national/victoria/doctors-to-walk-off-job-at-major-melbourne-hospitals-next-week-over-pay-dispute-20260804-p60lby.html"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Facebook",
-            "account": "Herald Sun",
-            "title": "Outpatient appointments could be delayed at seven major Melbourne hospitals as doctors prepare strike action",
-            "url": "https://www.facebook.com/heraldsun/posts/outpatient-appointments-could-be-delayed-at-seven-major-melbourne-hospitals-incl/1093858393202862/",
-            "score": 18
-          },
-          {
-            "platform": "Facebook",
-            "account": "AMA Victoria",
-            "title": "AMA Victoria president Dr Simon Judkins discusses Victorian doctors strike action",
-            "url": "https://www.facebook.com/AMAinVictoria/posts/ama-victoria-president-dr-simon-judkins-speaking-this-morning-on-abc-melbourne-b/1666288012172536/",
-            "score": 12
-          }
-        ]
-      }
     },
     {
       "id": "nsw-hate-speech-report-20260804",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T20:14:39.300Z",
+  "updatedAt": "2026-08-04T21:19:13.343Z",
   "generatedBy": "codex",
   "language": "si",
   "sources": [
@@ -101,12 +101,62 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news feed still required search-assisted fallback for some current Australian items.",
-    "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings.",
-    "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results.",
-    "9News homepage JSON was usable, but some standalone article fetches still returned 404, so card URLs were resolved from the homepage."
+    "news.com.au latest-feed page was not stable enough to use without manual verification.",
+    "9News, The Australian, Sky News Australia, and Yahoo News Australia did not expose stable current-week Australia listings.",
+    "ABC cards dated 2026-08-05 were future-dated under the 2026-08-04 cutoff and were excluded."
   ],
   "clusters": [
+    {
+      "id": "australian-home-sellers-profits-soft-market-20260804",
+      "language": "si",
+      "headline": "ඔස්ට්‍රේලියාවේ බොහෝ නිවාස විකුණුම්කරුවන් තවමත් ලාභ ලබයි, නමුත් වෙළඳපොළ මන්දගාමී වී ඇත",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T20:00:00.000Z",
+      "voiceScript": "AAP නව දත්ත අනුව, මිල ගණන් මන්දගාමී වුවත් බොහෝ නිවාස විකුණුම්කරුවන් තවමත් ලාභයක් ලබාගනිති. 2026 පළමු භාගයේ අලෙවි වූ නිවාසවලින් 3% කටත් අඩු ප්‍රමාණයක් පාඩුවට විකිණී ඇත. මෙය වැදගත් වන්නේ නිවාස වෙළඳපොළ දැන් පෙර වසරවලට වඩා විකුණුම්කරුවන්ට අඩුවෙන් හිතකර බව පෙන්වන නිසාය. ඊළඟ ප්‍රශ්නය වන්නේ මිල තවදුරටත් පහළ යනවා නම් ලාභය කොපමණ කාලයක් පවත්නාද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/home-sellers-still-reap-huge-profits-but-cracks-appear"
+        }
+      ]
+    },
+    {
+      "id": "naplan-national-results-20260804",
+      "language": "si",
+      "headline": "NAPLAN ප්‍රතිඵල ජාතික කියවීම, ලිවීම සහ ගණිතය පහළ යන බව පෙන්වයි",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-04T20:00:00.000Z",
+      "voiceScript": "ඕස්ට්‍රේලියාවේ නවතම NAPLAN ප්‍රතිඵල කියවීම, ලිවීම සහ ගණිතය තුළ පීඩනයක් පවතින බව පෙන්වයි. AAP වාර්තාව ලිවීම හා කියවීමේ දුර්වලවීම ඉස්මතු කරයි, The Age වාර්තාවෙන් බොහෝ සිසුන් තවමත් මට්ටම් සපුරා නොමැති බව පෙන්වයි. මෙය වැදගත් වන්නේ පාසල් සහ රාජ්‍යයන්ට අමතර සහාය කොතැන දිය යුතුද යන්න ඒ මත තීරණය වන නිසාය. ඉදිරියේදී ප්‍රශ්නය වන්නේ මෙම දත්ත ඉක්මනින් ඉලක්කගත උපකාර බවට පරිවර්තනය කළ හැකිද යන්නයි.",
+      "differences": [
+        "AAP කියවීම හා ලිවීමේ සමස්ත දුර්වලවීම පෙන්වයි; The Age මට්ටම් සපුරා නොමැති සිසුන්ගේ ප්‍රමාණය ඉස්මතු කරයි."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/lost-for-words-national-reading-writing-results-slip"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/victoria/a-third-of-students-fail-to-hit-naplan-benchmarks-20260803-p60kyr.html"
+        }
+      ]
+    },
+    {
+      "id": "career-plan-b-australia-20260804",
+      "language": "si",
+      "headline": "වැඩි වැඩියෙන් ඔස්ට්‍රේලියානුවන් විකල්ප වෘත්තීය මාවතක් සූදානම් කරමින් සිටිති",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T14:07:45.000Z",
+      "voiceScript": "7NEWS වාර්තා කරන්නේ වැඩ අවශ්‍යතා වෙනස් වීමත් AI නිසා රැකියා වෙළඳපොළ වෙනස් වීමත් සමඟ තවත් ඔස්ට්‍රේලියානුවන් දෙවැනි වෘත්තීය මාවතක් ගැන සිතන බවය. වාර්තාවේ උදාහරණයක් ලෙස 22 හැවිරිදි තරුණයෙක් තොරතුරු තාක්ෂණය ඉගෙනීම නැවත ආරම්භ කර ඇති අතර, සමීක්ෂණ දත්ත අනුව බොහෝ සේවකයන්ට තම මුල් තේරීම තවදුරටත් ගැළපේදැයි විශ්වාස නැත. මෙය වැදගත් වන්නේ කුසලතා යාවත්කාලීන කිරීම පුද්ගල සැලසුමක් පමණක් නොව, රැකියා ආරක්ෂාවක කොටසක් බවට පත්වෙමින් ඇති නිසාය. දැන් ප්‍රශ්නය වන්නේ පුහුණු පද්ධතිය එම අවිනිශ්චිතතාවයට ගැළපෙයිද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/more-than-half-of-australians-expect-they-will-need-a-career-plan-b-c-22676727"
+        }
+      ]
+    },
     {
       "id": "commercial-rooftop-solar-expansion-20260804",
       "language": "si",
@@ -873,6 +923,27 @@
       ]
     },
     {
+      "id": "victoria-cabinet-ai-minister-20260804",
+      "language": "si",
+      "headline": "වික්ටෝරියා කැබිනට්ටුව AI ඇමතිවරයෙකුත් නව යටිතල පහසුකම් බෙදීමකත් සමඟ නැවත සැකසේ",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-04T05:54:11.000Z",
+      "voiceScript": "වික්ටෝරියා නව කැබිනට්ටුවේදී ප්‍රවාහන යටිතල පහසුකම් සහ Suburban Rail Loop වගකීම් පැරණි ව්‍යුහයෙන් වෙන් කර නැවත බෙදා හැරේ. ඒ සමඟම අලුතින් AI ඇමති තනතුරක්ද නිර්මාණය කර ඇත. මෙය පසුගිය සතියේ නායකත්ව වෙනස සහ ඉල්ලා අස්වීම් රැල්ලකට පසු සිදුවෙන බැවින්, එකවරම කීපයක්ම නැවත සකස් කරයි. මෙය වැදගත් වන්නේ ප්‍රධාන ව්‍යාපෘති සහ නව තාක්ෂණ ප්‍රතිපත්තිය මෙතැන් සිට කවුද මෙහෙයවන්නේද යන්න වෙනස් කරන නිසාය.",
+      "differences": [
+        "The Age AI ඇමති පත්කිරීම කෙරෙහි අවධානය යොමු කරයි; AAP ප්‍රවාහන යටිතල පහසුකම් සහ Suburban Rail Loop බෙදීම කෙරෙහි අවධානය යොමු කරයි."
+      ],
+      "links": [
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/politics/victoria/premier-ben-carroll-appoints-ai-minister-scraps-infrastructure-portfolios-in-new-look-cabinet-20260804-p60l6t.html"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/premier-scraps-key-portfolio-in-major-cabinet-shake-up"
+        }
+      ]
+    },
+    {
       "id": "brisbane-homelessness-count-20260804",
       "language": "si",
       "headline": "බ්‍රිස්බේන්හි නිවාස නැති දරුවන් 1,500කට වැඩිවෙයි",
@@ -992,6 +1063,62 @@
           "title": "Winter illnesses place increasing pressure on NSW hospitals",
           "url": "https://www.facebook.com/AustraliabyAussieofficial/posts/winter-illnesses-are-placing-increasing-pressure-on-hospitals-across-new-south-w/122187033242920977/",
           "score": 12
+        }
+      ]
+    },
+    {
+      "id": "victoria-doctors-strike-20260804",
+      "language": "si",
+      "headline": "වික්ටෝරියා රෝහල් වෛද්‍යවරුන් වර්ජන දිනය නියම කරයි",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-04T04:55:00.000Z",
+      "voiceScript": "වික්ටෝරියා රාජ්‍යයේ මහ රෝහල්වල වෛද්‍යවරුන් අගෝස්තු 13 වැනිදා වැඩ නවත්වීමට සැලසුම් කර ඇති අතර, වැටුප් වාදය මෙල්බර්න්හි විශාල රෝහල් කිහිපයකට බලපායි. සැලසුම් කළ ක්‍රියාමාර්ගය දහවල් 12:30 සිට සවස 4:00 දක්වා පවතින අතර Royal Melbourne Hospital, Royal Children's Hospital, Royal Women's Hospital සහ අසළ ස්ථානවල වැඩකටයුතු බාධාවට ලක් විය හැක. හදිසි සේවා වෛද්‍යවරුන් සේවයේම රැඳී සිටිනවා. මෙය වැදගත් වන්නේ වික්ටෝරියා මහ රෝහල්වල අවුරුදු 20කට පසු පළමු ආරක්ෂිත කාර්මික ක්‍රියාමාර්ගය වීම නිසාය. ඊළඟට බලන්න තියෙන්නේ ආණ්ඩුව හා සංගමය වැඩ නවත්වීමට පෙර ගැටුම අඩු කරගන්න පුළුවන් ද කියලා.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-04/victorian-doctors-strike-confirmed/106990980"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/victoria/doctors-to-walk-off-job-at-major-melbourne-hospitals-next-week-over-pay-dispute-20260804-p60lby.html"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/victoria/doctors-to-walk-off-job-at-major-melbourne-hospitals-next-week-over-pay-dispute-20260804-p60lby.html"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "Facebook",
+            "account": "Herald Sun",
+            "title": "Outpatient appointments could be delayed at seven major Melbourne hospitals as doctors prepare strike action",
+            "url": "https://www.facebook.com/heraldsun/posts/outpatient-appointments-could-be-delayed-at-seven-major-melbourne-hospitals-incl/1093858393202862/",
+            "score": 18
+          },
+          {
+            "platform": "Facebook",
+            "account": "AMA Victoria",
+            "title": "AMA Victoria president Dr Simon Judkins discusses Victorian doctors strike action",
+            "url": "https://www.facebook.com/AMAinVictoria/posts/ama-victoria-president-dr-simon-judkins-speaking-this-morning-on-abc-melbourne-b/1666288012172536/",
+            "score": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "teen-workers-super-gap-20260804",
+      "language": "si",
+      "headline": "පරණ නියමයක් නිසා කුමාර වයස්කාර සේවකයන්ට සුපර් අහිමි වෙයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T03:56:32.000Z",
+      "voiceScript": "AAP පවසන්නේ දිගුකාලීන නියමයක් නිසා කුඩා වයස්කාර සේවකයන් ගණනාවකට ඔවුන්ට හිමි විය යුතු superannuation දායක මුදල් ලැබෙන්නේ නැති බවය. වාර්තාව අනුව, මෙම හිඟය වෘත්තීය ජීවිතය පුරා ඩොලර් 10,000 ටත් වැඩි අලාභයක් කරා ගෙන යා හැකිය. මෙය වැදගත් වන්නේ ගැටලුව ආරම්භයේදීම අඩු වැටුප් ලබන සේවකයන්ට පතිත වන අතර පසුව විශ්‍රාම ඉතිරිකිරීම් හිඟයක් බවට පත්වන නිසාය. ඊළඟ ප්‍රශ්නය වන්නේ නීති සම්පාදකයන් එය ඉක්මනින් සකස් කරන්නේද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/outdated-laws-are-costing-teenage-workers-thousands"
         }
       ]
     },
@@ -1240,43 +1367,6 @@
           "score": 126
         }
       ]
-    },
-    {
-      "id": "victoria-doctors-strike-20260804",
-      "language": "si",
-      "headline": "වික්ටෝරියා රෝහල් වෛද්‍යවරුන් වර්ජන දිනය නියම කරයි",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-04T04:55:00.000Z",
-      "voiceScript": "වික්ටෝරියා රාජ්‍යයේ මහ රෝහල්වල වෛද්‍යවරුන් අගෝස්තු 13 වැනිදා වැඩ නවත්වීමට සැලසුම් කර ඇති අතර, වැටුප් වාදය මෙල්බර්න්හි විශාල රෝහල් කිහිපයකට බලපායි. සැලසුම් කළ ක්‍රියාමාර්ගය දහවල් 12:30 සිට සවස 4:00 දක්වා පවතින අතර Royal Melbourne Hospital, Royal Children's Hospital, Royal Women's Hospital සහ අසළ ස්ථානවල වැඩකටයුතු බාධාවට ලක් විය හැක. හදිසි සේවා වෛද්‍යවරුන් සේවයේම රැඳී සිටිනවා. මෙය වැදගත් වන්නේ වික්ටෝරියා මහ රෝහල්වල අවුරුදු 20කට පසු පළමු ආරක්ෂිත කාර්මික ක්‍රියාමාර්ගය වීම නිසාය. ඊළඟට බලන්න තියෙන්නේ ආණ්ඩුව හා සංගමය වැඩ නවත්වීමට පෙර ගැටුම අඩු කරගන්න පුළුවන් ද කියලා.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/victorian-doctors-strike-confirmed/106990980"
-        },
-        {
-          "source": "Brisbane Times",
-          "url": "https://www.brisbanetimes.com.au/national/victoria/doctors-to-walk-off-job-at-major-melbourne-hospitals-next-week-over-pay-dispute-20260804-p60lby.html"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Facebook",
-            "account": "Herald Sun",
-            "title": "Outpatient appointments could be delayed at seven major Melbourne hospitals as doctors prepare strike action",
-            "url": "https://www.facebook.com/heraldsun/posts/outpatient-appointments-could-be-delayed-at-seven-major-melbourne-hospitals-incl/1093858393202862/",
-            "score": 18
-          },
-          {
-            "platform": "Facebook",
-            "account": "AMA Victoria",
-            "title": "AMA Victoria president Dr Simon Judkins discusses Victorian doctors strike action",
-            "url": "https://www.facebook.com/AMAinVictoria/posts/ama-victoria-president-dr-simon-judkins-speaking-this-morning-on-abc-melbourne-b/1666288012172536/",
-            "score": 12
-          }
-        ]
-      }
     },
     {
       "id": "nsw-hate-speech-report-20260804",

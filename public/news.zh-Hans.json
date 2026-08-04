@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T20:14:39.300Z",
+  "updatedAt": "2026-08-04T21:19:13.343Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -101,12 +101,62 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news feed still required search-assisted fallback for some current Australian items.",
-    "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings.",
-    "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results.",
-    "9News homepage JSON was usable, but some standalone article fetches still returned 404, so card URLs were resolved from the homepage."
+    "news.com.au latest-feed page was not stable enough to use without manual verification.",
+    "9News, The Australian, Sky News Australia, and Yahoo News Australia did not expose stable current-week Australia listings.",
+    "ABC cards dated 2026-08-05 were future-dated under the 2026-08-04 cutoff and were excluded."
   ],
   "clusters": [
+    {
+      "id": "australian-home-sellers-profits-soft-market-20260804",
+      "language": "zh-Hans",
+      "headline": "澳洲卖家大多仍在赚钱，但楼市明显降温",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T20:00:00.000Z",
+      "voiceScript": "AAP 的最新数据说明，尽管房价降温，绝大多数卖家在出售房屋时仍能获利。2026 年上半年卖出的房子里，亏损成交的比例不到 3%，但负资产担忧已经开始出现。这个变化重要，因为它说明住房市场不再像前几年那样一边倒地偏向卖家。接下来要看的是，如果价格继续回落，卖家利润还能维持多久。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/home-sellers-still-reap-huge-profits-but-cracks-appear"
+        }
+      ]
+    },
+    {
+      "id": "naplan-national-results-20260804",
+      "language": "zh-Hans",
+      "headline": "NAPLAN 成绩显示全国读写和算术都在下滑",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-04T20:00:00.000Z",
+      "voiceScript": "澳大利亚最新一轮 NAPLAN 结果显示，阅读、写作和数学都承受压力，仍有相当比例学生没有达到基准线。AAP 把焦点放在阅读和写作整体走弱，《时代报》则强调有约三分之一学生未达基准。这个结果重要，因为它会直接影响学校支持、政策讨论，以及孩子在升入中学前能否补上基础差距。接下来要看的是，各州能否把数据尽快转化成有针对性的帮助。",
+      "differences": [
+        "AAP 更强调阅读和写作整体走弱；《时代报》突出未达基准线的学生比例。"
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/lost-for-words-national-reading-writing-results-slip"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/victoria/a-third-of-students-fail-to-hit-naplan-benchmarks-20260803-p60kyr.html"
+        }
+      ]
+    },
+    {
+      "id": "career-plan-b-australia-20260804",
+      "language": "zh-Hans",
+      "headline": "越来越多澳洲人开始准备职业备选方案",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T14:07:45.000Z",
+      "voiceScript": "7NEWS 报道说，随着工作要求变化和 AI 改变就业环境，越来越多澳洲人开始考虑第二条职业路径。报道举了一个 22 岁年轻人重返学习信息技术的例子，也提到调查显示，不少上班族并不确定自己最初的职业选择还能否长期适用。这个变化重要，因为技能更新已经不只是个人规划，也是就业安全的一部分，尤其对年轻人和准备转型的人更明显。接下来要看的是，培训体系能否跟上这种不确定感。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/more-than-half-of-australians-expect-they-will-need-a-career-plan-b-c-22676727"
+        }
+      ]
+    },
     {
       "id": "commercial-rooftop-solar-expansion-20260804",
       "language": "zh-Hans",
@@ -873,6 +923,27 @@
       ]
     },
     {
+      "id": "victoria-cabinet-ai-minister-20260804",
+      "language": "zh-Hans",
+      "headline": "维州重组内阁，新增 AI 部长并缩减基础设施组合",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-04T05:54:11.000Z",
+      "voiceScript": "维多利亚州的新内阁把交通基础设施和郊区铁路环线等职责重新拆分，同时也新设了 AI 部长职位。这次调整发生在上周领导层更替和多名内阁成员辞职之后，因此多个组合被一起重排。它之所以重要，是因为这会改变大型项目由谁主导，也说明政府下一步想把政策重点放在哪里。接下来要看的是，新班子能否尽快稳定下来，把议程继续往前推。",
+      "differences": [
+        "《时代报》重点写 AI 部长任命；AAP 更强调交通基础设施和郊区铁路环线组合被重组。"
+      ],
+      "links": [
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/politics/victoria/premier-ben-carroll-appoints-ai-minister-scraps-infrastructure-portfolios-in-new-look-cabinet-20260804-p60l6t.html"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/premier-scraps-key-portfolio-in-major-cabinet-shake-up"
+        }
+      ]
+    },
+    {
       "id": "brisbane-homelessness-count-20260804",
       "language": "zh-Hans",
       "headline": "布里斯班无家可归儿童人数升至1500人以上",
@@ -992,6 +1063,62 @@
           "title": "Winter illnesses place increasing pressure on NSW hospitals",
           "url": "https://www.facebook.com/AustraliabyAussieofficial/posts/winter-illnesses-are-placing-increasing-pressure-on-hospitals-across-new-south-w/122187033242920977/",
           "score": 12
+        }
+      ]
+    },
+    {
+      "id": "victoria-doctors-strike-20260804",
+      "language": "zh-Hans",
+      "headline": "维州医院医生定下停工日期",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-04T04:55:00.000Z",
+      "voiceScript": "维州公立医院医生计划在 8 月 13 日停工，工资纠纷已经波及墨尔本几家最大医院。行动安排在下午 12:30 到 4:00，皇家墨尔本医院、皇家儿童医院、皇家妇女医院以及附近机构都会受影响，而急诊医生仍会留在岗位上。之所以重要，是因为这是维州公立医院 20 年来首次获保护的工业行动，非紧急门诊和手术可能需要改期。接下来要看政府和工会能否在停工前缩小分歧。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-04/victorian-doctors-strike-confirmed/106990980"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/victoria/doctors-to-walk-off-job-at-major-melbourne-hospitals-next-week-over-pay-dispute-20260804-p60lby.html"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/victoria/doctors-to-walk-off-job-at-major-melbourne-hospitals-next-week-over-pay-dispute-20260804-p60lby.html"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "Facebook",
+            "account": "Herald Sun",
+            "title": "Outpatient appointments could be delayed at seven major Melbourne hospitals as doctors prepare strike action",
+            "url": "https://www.facebook.com/heraldsun/posts/outpatient-appointments-could-be-delayed-at-seven-major-melbourne-hospitals-incl/1093858393202862/",
+            "score": 18
+          },
+          {
+            "platform": "Facebook",
+            "account": "AMA Victoria",
+            "title": "AMA Victoria president Dr Simon Judkins discusses Victorian doctors strike action",
+            "url": "https://www.facebook.com/AMAinVictoria/posts/ama-victoria-president-dr-simon-judkins-speaking-this-morning-on-abc-melbourne-b/1666288012172536/",
+            "score": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "teen-workers-super-gap-20260804",
+      "language": "zh-Hans",
+      "headline": "过时规则让青少年打工者少拿退休金",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T03:56:32.000Z",
+      "voiceScript": "AAP 说，一条长期存在的规则正在让许多青少年打工者拿不到应有的退休金，时间越久，损失越大。报道估算，这个漏洞可能让年轻人整个职业生涯少拿一万澳元以上。它重要，因为问题从一开始就打到低薪工人身上，而且会滚成更大的退休缺口。接下来要看的是，立法者会不会尽快堵上这个漏洞。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/outdated-laws-are-costing-teenage-workers-thousands"
         }
       ]
     },
@@ -1240,43 +1367,6 @@
           "score": 126
         }
       ]
-    },
-    {
-      "id": "victoria-doctors-strike-20260804",
-      "language": "zh-Hans",
-      "headline": "维州医院医生定下停工日期",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-04T04:55:00.000Z",
-      "voiceScript": "维州公立医院医生计划在 8 月 13 日停工，工资纠纷已经波及墨尔本几家最大医院。行动安排在下午 12:30 到 4:00，皇家墨尔本医院、皇家儿童医院、皇家妇女医院以及附近机构都会受影响，而急诊医生仍会留在岗位上。之所以重要，是因为这是维州公立医院 20 年来首次获保护的工业行动，非紧急门诊和手术可能需要改期。接下来要看政府和工会能否在停工前缩小分歧。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/victorian-doctors-strike-confirmed/106990980"
-        },
-        {
-          "source": "Brisbane Times",
-          "url": "https://www.brisbanetimes.com.au/national/victoria/doctors-to-walk-off-job-at-major-melbourne-hospitals-next-week-over-pay-dispute-20260804-p60lby.html"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Facebook",
-            "account": "Herald Sun",
-            "title": "Outpatient appointments could be delayed at seven major Melbourne hospitals as doctors prepare strike action",
-            "url": "https://www.facebook.com/heraldsun/posts/outpatient-appointments-could-be-delayed-at-seven-major-melbourne-hospitals-incl/1093858393202862/",
-            "score": 18
-          },
-          {
-            "platform": "Facebook",
-            "account": "AMA Victoria",
-            "title": "AMA Victoria president Dr Simon Judkins discusses Victorian doctors strike action",
-            "url": "https://www.facebook.com/AMAinVictoria/posts/ama-victoria-president-dr-simon-judkins-speaking-this-morning-on-abc-melbourne-b/1666288012172536/",
-            "score": 12
-          }
-        ]
-      }
     },
     {
       "id": "nsw-hate-speech-report-20260804",

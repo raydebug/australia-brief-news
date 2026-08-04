@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T20:14:39.300Z",
+  "updatedAt": "2026-08-04T21:19:13.343Z",
   "generatedBy": "codex",
   "language": "vi",
   "sources": [
@@ -101,12 +101,62 @@
     }
   ],
   "errors": [
-    "news.com.au latest-news feed still required search-assisted fallback for some current Australian items.",
-    "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings.",
-    "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results.",
-    "9News homepage JSON was usable, but some standalone article fetches still returned 404, so card URLs were resolved from the homepage."
+    "news.com.au latest-feed page was not stable enough to use without manual verification.",
+    "9News, The Australian, Sky News Australia, and Yahoo News Australia did not expose stable current-week Australia listings.",
+    "ABC cards dated 2026-08-05 were future-dated under the 2026-08-04 cutoff and were excluded."
   ],
   "clusters": [
+    {
+      "id": "australian-home-sellers-profits-soft-market-20260804",
+      "language": "vi",
+      "headline": "Phần lớn người bán nhà ở Australia vẫn có lãi dù thị trường chậm lại",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T20:00:00.000Z",
+      "voiceScript": "Dữ liệu mới của AAP cho thấy đa số người bán nhà vẫn chốt lời dù giá đã hạ nhiệt và lo ngại về âm vốn chủ sở hữu tăng lên. Trong nửa đầu năm 2026, chưa tới 3% căn nhà bán ra bị lỗ. Điều này quan trọng vì thị trường nhà ở không còn nghiêng hẳn về phía người bán như vài năm trước. Câu hỏi còn lại là lợi nhuận sẽ trụ được bao lâu nếu giá tiếp tục mềm đi.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/home-sellers-still-reap-huge-profits-but-cracks-appear"
+        }
+      ]
+    },
+    {
+      "id": "naplan-national-results-20260804",
+      "language": "vi",
+      "headline": "Kết quả NAPLAN cho thấy đà giảm về đọc, viết và toán trên toàn quốc",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-04T20:00:00.000Z",
+      "voiceScript": "Kết quả NAPLAN mới nhất của Australia cho thấy áp lực đang đè lên khả năng đọc, viết và toán của học sinh. AAP nhấn mạnh xu hướng yếu đi ở đọc và viết, còn The Age nêu bật tỷ lệ học sinh chưa đạt ngưỡng chuẩn. Điều này quan trọng vì nó ảnh hưởng trực tiếp đến hỗ trợ của trường học, tranh luận chính sách và việc trẻ có kịp bù nền tảng trước khi lên cấp hai hay không. Câu hỏi tiếp theo là các bang có thể biến dữ liệu này thành hỗ trợ cụ thể nhanh đến mức nào.",
+      "differences": [
+        "AAP nhấn mạnh đà yếu đi ở đọc và viết; The Age nhấn mạnh số học sinh chưa đạt ngưỡng chuẩn."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/lost-for-words-national-reading-writing-results-slip"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/victoria/a-third-of-students-fail-to-hit-naplan-benchmarks-20260803-p60kyr.html"
+        }
+      ]
+    },
+    {
+      "id": "career-plan-b-australia-20260804",
+      "language": "vi",
+      "headline": "Ngày càng nhiều người Australia chuẩn bị phương án nghề nghiệp dự phòng",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T14:07:45.000Z",
+      "voiceScript": "7NEWS cho biết khi kỳ vọng công việc thay đổi và AI làm thị trường lao động dịch chuyển, ngày càng nhiều người Australia nghĩ đến một lối đi nghề nghiệp thứ hai. Bài báo nêu ví dụ một thanh niên 22 tuổi quay lại học công nghệ thông tin để mở rộng lựa chọn, đồng thời cho thấy nhiều người lao động không chắc lựa chọn nghề đầu tiên của mình còn phù hợp trong tương lai hay không. Điều này quan trọng vì việc cập nhật kỹ năng đang trở thành một phần của an toàn việc làm chứ không chỉ là kế hoạch cá nhân. Câu hỏi bây giờ là hệ thống đào tạo có theo kịp cảm giác bất định đó hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/more-than-half-of-australians-expect-they-will-need-a-career-plan-b-c-22676727"
+        }
+      ]
+    },
     {
       "id": "commercial-rooftop-solar-expansion-20260804",
       "language": "vi",
@@ -873,6 +923,27 @@
       ]
     },
     {
+      "id": "victoria-cabinet-ai-minister-20260804",
+      "language": "vi",
+      "headline": "Victoria tái cấu trúc nội các với bộ trưởng AI và ít mảng hạ tầng hơn",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-04T05:54:11.000Z",
+      "voiceScript": "Nội các mới của Victoria tách trách nhiệm về hạ tầng giao thông và Suburban Rail Loop khỏi cấu trúc cũ, đồng thời lập thêm vị trí bộ trưởng AI. Thay đổi này diễn ra sau cuộc chuyển giao lãnh đạo tuần trước và làn sóng từ chức, nên nhiều ghế được sắp xếp lại cùng lúc. Nó quan trọng vì sẽ quyết định ai dẫn dắt các dự án lớn và chính sách công nghệ mới. Câu hỏi tiếp theo là liệu đội ngũ mới có ổn định đủ nhanh để đẩy chương trình nghị sự đi tiếp hay không.",
+      "differences": [
+        "The Age tập trung vào việc bổ nhiệm bộ trưởng AI; AAP tập trung vào việc tái cấu trúc các mảng hạ tầng giao thông và Suburban Rail Loop."
+      ],
+      "links": [
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/politics/victoria/premier-ben-carroll-appoints-ai-minister-scraps-infrastructure-portfolios-in-new-look-cabinet-20260804-p60l6t.html"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/premier-scraps-key-portfolio-in-major-cabinet-shake-up"
+        }
+      ]
+    },
+    {
       "id": "brisbane-homelessness-count-20260804",
       "language": "vi",
       "headline": "Brisbane ghi nhận hơn 1.500 trẻ em vô gia cư",
@@ -992,6 +1063,62 @@
           "title": "Winter illnesses place increasing pressure on NSW hospitals",
           "url": "https://www.facebook.com/AustraliabyAussieofficial/posts/winter-illnesses-are-placing-increasing-pressure-on-hospitals-across-new-south-w/122187033242920977/",
           "score": 12
+        }
+      ]
+    },
+    {
+      "id": "victoria-doctors-strike-20260804",
+      "language": "vi",
+      "headline": "Bác sĩ bệnh viện Victoria chốt ngày đình công",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-04T04:55:00.000Z",
+      "voiceScript": "Các bác sĩ ở bệnh viện công của bang Victoria dự kiến sẽ ngừng việc vào ngày 13/8 trong một tranh chấp lương đang lan tới một số bệnh viện lớn nhất ở Melbourne. Đợt hành động dự kiến diễn ra từ 12:30 đến 16:00, ảnh hưởng đến Royal Melbourne Hospital, Royal Children's Hospital, Royal Women's Hospital và các cơ sở lân cận, còn bác sĩ cấp cứu vẫn trực. Điều này quan trọng vì đây là lần đầu tiên sau 20 năm các bác sĩ bệnh viện công ở Victoria có hành động công nghiệp được bảo vệ. Câu hỏi tiếp theo là chính phủ và công đoàn có thể thu hẹp bất đồng trước khi cuộc đình công bắt đầu hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-04/victorian-doctors-strike-confirmed/106990980"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/victoria/doctors-to-walk-off-job-at-major-melbourne-hospitals-next-week-over-pay-dispute-20260804-p60lby.html"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/victoria/doctors-to-walk-off-job-at-major-melbourne-hospitals-next-week-over-pay-dispute-20260804-p60lby.html"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "Facebook",
+            "account": "Herald Sun",
+            "title": "Outpatient appointments could be delayed at seven major Melbourne hospitals as doctors prepare strike action",
+            "url": "https://www.facebook.com/heraldsun/posts/outpatient-appointments-could-be-delayed-at-seven-major-melbourne-hospitals-incl/1093858393202862/",
+            "score": 18
+          },
+          {
+            "platform": "Facebook",
+            "account": "AMA Victoria",
+            "title": "AMA Victoria president Dr Simon Judkins discusses Victorian doctors strike action",
+            "url": "https://www.facebook.com/AMAinVictoria/posts/ama-victoria-president-dr-simon-judkins-speaking-this-morning-on-abc-melbourne-b/1666288012172536/",
+            "score": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "teen-workers-super-gap-20260804",
+      "language": "vi",
+      "headline": "Người lao động tuổi teen đang mất super vì một quy định cũ",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T03:56:32.000Z",
+      "voiceScript": "AAP nói rằng một quy định tồn tại lâu năm đang khiến nhiều lao động tuổi teen không nhận được khoản superannuation đáng lẽ phải có. Theo ước tính trong bài, khoản thiếu hụt này có thể làm họ mất hơn 10.000 đô la Australia trong cả sự nghiệp. Điều này quan trọng vì lỗ hổng bắt đầu sớm, đánh mạnh vào nhóm thu nhập thấp và có thể thành khoảng trống hưu trí lớn hơn về sau. Câu hỏi tiếp theo là nhà làm luật có kịp bịt lỗ hổng này hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/outdated-laws-are-costing-teenage-workers-thousands"
         }
       ]
     },
@@ -1240,43 +1367,6 @@
           "score": 126
         }
       ]
-    },
-    {
-      "id": "victoria-doctors-strike-20260804",
-      "language": "vi",
-      "headline": "Bác sĩ bệnh viện Victoria chốt ngày đình công",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-04T04:55:00.000Z",
-      "voiceScript": "Các bác sĩ ở bệnh viện công của bang Victoria dự kiến sẽ ngừng việc vào ngày 13/8 trong một tranh chấp lương đang lan tới một số bệnh viện lớn nhất ở Melbourne. Đợt hành động dự kiến diễn ra từ 12:30 đến 16:00, ảnh hưởng đến Royal Melbourne Hospital, Royal Children's Hospital, Royal Women's Hospital và các cơ sở lân cận, còn bác sĩ cấp cứu vẫn trực. Điều này quan trọng vì đây là lần đầu tiên sau 20 năm các bác sĩ bệnh viện công ở Victoria có hành động công nghiệp được bảo vệ. Câu hỏi tiếp theo là chính phủ và công đoàn có thể thu hẹp bất đồng trước khi cuộc đình công bắt đầu hay không.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/victorian-doctors-strike-confirmed/106990980"
-        },
-        {
-          "source": "Brisbane Times",
-          "url": "https://www.brisbanetimes.com.au/national/victoria/doctors-to-walk-off-job-at-major-melbourne-hospitals-next-week-over-pay-dispute-20260804-p60lby.html"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Facebook",
-            "account": "Herald Sun",
-            "title": "Outpatient appointments could be delayed at seven major Melbourne hospitals as doctors prepare strike action",
-            "url": "https://www.facebook.com/heraldsun/posts/outpatient-appointments-could-be-delayed-at-seven-major-melbourne-hospitals-incl/1093858393202862/",
-            "score": 18
-          },
-          {
-            "platform": "Facebook",
-            "account": "AMA Victoria",
-            "title": "AMA Victoria president Dr Simon Judkins discusses Victorian doctors strike action",
-            "url": "https://www.facebook.com/AMAinVictoria/posts/ama-victoria-president-dr-simon-judkins-speaking-this-morning-on-abc-melbourne-b/1666288012172536/",
-            "score": 12
-          }
-        ]
-      }
     },
     {
       "id": "nsw-hate-speech-report-20260804",
