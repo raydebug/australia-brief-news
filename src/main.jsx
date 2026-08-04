@@ -958,6 +958,23 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Ryan Barrowei",
+    aliases: ["Ryan Barrowei", "Mr Ryan Barrowei", "Ryan Barrowei Kakadu", "瑞安·巴罗韦", "瑞安·巴羅韋", "ライアン・バロウェイ", "라이언 배로웨이"],
+    type: "public-figure",
+    profile: { label: "Director of National Parks annual report", url: "https://www.dcceew.gov.au/sites/default/files/documents/dnp-annual-report-2024-25.pdf" },
+    background: {
+      "zh-Hans": "Kakadu National Park Board of Management 主席、Jawoyn 传统所有者提名成员，来自 Kakadu 南部 Wurrkbarbar 氏族，并曾参与 Nitmiluk National Park Board of Management。",
+      "zh-Hant": "Kakadu National Park Board of Management 主席、Jawoyn 傳統所有者提名成員，來自 Kakadu 南部 Wurrkbarbar 氏族，並曾參與 Nitmiluk National Park Board of Management。",
+      en: "Chair of the Kakadu National Park Board of Management and a Jawoyn traditional-owner nominee from the Wurrkbarbar clan group in southern Kakadu; he has also served on the Nitmiluk National Park Board of Management.",
+      es: "Presidente del Kakadu National Park Board of Management y nominado como Traditional Owner Jawoyn del grupo Wurrkbarbar en el sur de Kakadu; también ha integrado el Nitmiluk National Park Board of Management.",
+      ja: "Kakadu National Park Board of Management の議長で、Kakadu 南部の Wurrkbarbar クラン出身の Jawoyn traditional-owner nominee。Nitmiluk National Park Board of Management にも関わってきました。",
+      ko: "Kakadu National Park Board of Management 의장으로, 남부 Kakadu의 Wurrkbarbar 클랜 출신 Jawoyn 전통 소유자 지명 위원입니다. Nitmiluk National Park Board of Management에서도 활동했습니다.",
+      vi: "Chủ tịch Kakadu National Park Board of Management và là đại diện Traditional Owner Jawoyn từ nhóm Wurrkbarbar ở nam Kakadu; ông cũng từng tham gia Nitmiluk National Park Board of Management.",
+      th: "ประธาน Kakadu National Park Board of Management และผู้แทน Traditional Owner ของ Jawoyn จากกลุ่ม Wurrkbarbar ทางตอนใต้ของ Kakadu และเคยทำงานกับ Nitmiluk National Park Board of Management",
+      si: "Kakadu National Park Board of Management chair සහ southern Kakadu හි Wurrkbarbar clan group එකෙන් Jawoyn traditional-owner nominee කෙනෙකි; Nitmiluk National Park Board of Management හිද සේවය කර ඇත."
+    }
+  },
+  {
     name: "Jon Adgemis",
     aliases: ["Jon Adgemis", "John Adgemis", "Jonathon Adgemis", "乔恩·阿杰米斯", "喬恩·阿傑米斯", "ジョン・アジェミス", "존 애드제미스"],
     type: "executive",
