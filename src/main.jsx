@@ -2655,6 +2655,64 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "David Pocock",
+    aliases: ["David Pocock", "David Willmer Pocock", "Senator David Pocock", "大卫·波科克", "大衛·波科克", "デービッド・ポーコック", "데이비드 포콕"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=256136" },
+    social: { label: "X", url: "https://x.com/DavidPocock" },
+    background: {
+      "zh-Hans": "澳大利亚首都领地独立参议员，2022 年首次当选、2025 年连任；从政前是 Wallabies 橄榄球国脚，并长期参与环保和社会公义倡议。",
+      "zh-Hant": "澳洲首都領地獨立參議員，2022 年首次當選、2025 年連任；從政前是 Wallabies 橄欖球國腳，並長期參與環保和社會公義倡議。",
+      en: "Independent senator for the Australian Capital Territory, first elected in 2022 and re-elected in 2025; before politics he was a Wallabies rugby union player and an environmental and social-justice advocate.",
+      es: "Senador independiente por el Australian Capital Territory, elegido por primera vez en 2022 y reelegido en 2025; antes fue jugador de rugby de los Wallabies y activista ambiental y social.",
+      ja: "Australian Capital Territory 選出の無所属上院議員。2022年に初当選し、2025年に再選。政界入り前は Wallabies のラグビー選手で、環境・社会正義の活動にも関わりました。",
+      ko: "Australian Capital Territory를 대표하는 무소속 상원의원으로 2022년 처음 당선되고 2025년 재선됐습니다. 정계 입문 전에는 Wallabies 럭비 유니언 선수이자 환경·사회정의 활동가였습니다.",
+      vi: "Thượng nghị sĩ độc lập đại diện Australian Capital Territory, lần đầu đắc cử năm 2022 và tái đắc cử năm 2025; trước chính trị ông là cầu thủ rugby Wallabies và nhà vận động môi trường, công bằng xã hội.",
+      th: "วุฒิสมาชิกอิสระของ Australian Capital Territory ได้รับเลือกครั้งแรกในปี 2022 และอีกครั้งในปี 2025 ก่อนเข้าสู่การเมืองเป็นนักรักบี้ Wallabies และนักรณรงค์สิ่งแวดล้อมกับความเป็นธรรมทางสังคม",
+      si: "Australian Capital Territory නියෝජනය කරන independent senator; 2022 දී පළමුව තේරී 2025 දී නැවත තේරී පත්විය. Politics ට පෙර Wallabies rugby union player සහ environmental/social-justice advocate කෙනෙකි."
+    },
+    positions: {
+      "zh-Hans": "重点推动气候行动、廉政与政治广告改革、领地权利、住房可负担性和社会保障充足性；在悬峙议会或参议院谈判中常要求政府补强法案细节。",
+      "zh-Hant": "重點推動氣候行動、廉政與政治廣告改革、領地權利、住房可負擔性和社會保障充足性；在懸峙議會或參議院談判中常要求政府補強法案細節。",
+      en: "His main themes are climate action, integrity and political-advertising reform, territory rights, housing affordability and adequate social security; in Senate negotiations he often pushes governments to tighten bill details.",
+      es: "Sus temas centrales son acción climática, integridad y reforma de publicidad política, derechos territoriales, vivienda asequible y seguridad social adecuada; en negociaciones del Senado suele exigir más precisión legislativa.",
+      ja: "気候対策、政治倫理と政治広告改革、準州の権利、住宅 affordability、社会保障の十分性を重視します。上院交渉では法案の細部修正を政府に求めることが多いです。",
+      ko: "기후 행동, 청렴성과 정치광고 개혁, 준주 권리, 주거 부담 완화, 적정한 사회보장을 중시합니다. 상원 협상에서는 법안 세부 보완을 정부에 요구하는 경우가 많습니다.",
+      vi: "Ông tập trung vào khí hậu, liêm chính và cải cách quảng cáo chính trị, quyền của territory, khả năng mua nhà và mức an sinh xã hội đủ sống; trong đàm phán Thượng viện ông thường yêu cầu siết chi tiết dự luật.",
+      th: "ประเด็นหลักคือ climate action ความโปร่งใสและการปฏิรูปโฆษณาการเมือง สิทธิของ territory ที่อยู่อาศัยที่จ่ายไหว และ social security ที่เพียงพอ ในการเจรจา Senate เขามักผลักดันให้รัฐบาลปรับรายละเอียดกฎหมาย",
+      si: "ඔහුගේ main themes climate action, integrity/political-advertising reform, territory rights, housing affordability සහ adequate social security වේ; Senate negotiations වලදී bill details tighten කිරීමට governments වෙත බලපෑම් කරයි."
+    }
+  },
+  {
+    name: "Katy Gallagher",
+    aliases: ["Katy Gallagher", "Katherine Ruth Gallagher", "Senator Katy Gallagher", "凯蒂·加拉格尔", "凱蒂·加拉格爾", "ケイティ・ギャラガー", "케이티 갤러거"],
+    type: "politician",
+    profile: { label: "Minister biography", url: "https://ministers.pmc.gov.au/gallagher" },
+    social: { label: "X", url: "https://x.com/SenKatyG" },
+    background: {
+      "zh-Hans": "澳大利亚工党参议员，代表首都领地；曾任 ACT 首席部长，现任财政部长、女性部长、公共服务部长和政府服务部长。",
+      "zh-Hant": "澳洲工黨參議員，代表首都領地；曾任 ACT 首席部長，現任財政部長、女性部長、公共服務部長和政府服務部長。",
+      en: "Australian Labor senator for the ACT, former ACT chief minister, and federal Minister for Finance, Minister for Women, Minister for the Public Service and Minister for Government Services.",
+      es: "Senadora laborista australiana por el ACT, ex jefa de gobierno del ACT y ministra federal de Finanzas, Mujeres, Servicio Público y Servicios Gubernamentales.",
+      ja: "ACT 選出のオーストラリア労働党上院議員。元 ACT 首席大臣で、連邦の財政相、女性相、公共サービス相、政府サービス相を務めています。",
+      ko: "ACT를 대표하는 호주 노동당 상원의원이며 전 ACT 수석장관입니다. 연방 재정장관, 여성장관, 공공서비스장관, 정부서비스장관을 맡고 있습니다.",
+      vi: "Thượng nghị sĩ Labor đại diện ACT, cựu Chief Minister của ACT, hiện là Minister for Finance, Minister for Women, Minister for the Public Service và Minister for Government Services.",
+      th: "วุฒิสมาชิก Labor จาก ACT อดีต Chief Minister ของ ACT และรัฐมนตรีรัฐบาลกลางด้าน Finance, Women, Public Service และ Government Services",
+      si: "ACT නියෝජනය කරන Australian Labor senator; හිටපු ACT chief minister සහ federal Minister for Finance, Women, Public Service සහ Government Services වේ."
+    },
+    positions: {
+      "zh-Hans": "主要负责联邦预算支出控制、公共服务改革、妇女政策和 Services Australia 等政府服务；在税改和预算谈判中代表政府处理参议院协商。",
+      "zh-Hant": "主要負責聯邦預算支出控制、公共服務改革、婦女政策和 Services Australia 等政府服務；在稅改和預算談判中代表政府處理參議院協商。",
+      en: "Her portfolio focus is federal expenditure control, public-service reform, women's policy and government services including Services Australia; she often handles Senate negotiations on budget and tax legislation.",
+      es: "Sus áreas son control del gasto federal, reforma del servicio público, políticas de mujeres y servicios gubernamentales como Services Australia; suele gestionar negociaciones del Senado sobre presupuesto e impuestos.",
+      ja: "連邦支出管理、公共サービス改革、女性政策、Services Australia などの政府サービスを担当します。予算・税制法案では上院交渉を担うことが多いです。",
+      ko: "연방 지출 관리, 공공서비스 개혁, 여성 정책, Services Australia를 포함한 정부 서비스를 담당합니다. 예산·세제 법안의 상원 협상을 자주 맡습니다.",
+      vi: "Trọng tâm của bà là kiểm soát chi tiêu liên bang, cải cách công vụ, chính sách phụ nữ và dịch vụ chính phủ gồm Services Australia; bà thường xử lý đàm phán Thượng viện về ngân sách và thuế.",
+      th: "งานหลักคือควบคุมรายจ่ายรัฐบาลกลาง ปฏิรูป public service นโยบายผู้หญิง และบริการรัฐรวมถึง Services Australia โดยมักรับหน้าที่เจรจา Senate เรื่องงบประมาณและภาษี",
+      si: "ඇයගේ portfolio focus එක federal expenditure control, public-service reform, women's policy සහ Services Australia ඇතුළු government services වේ; budget/tax legislation පිළිබඳ Senate negotiations නිතර හැසිරවයි."
+    }
+  },
+  {
     name: "Michele Bullock",
     aliases: ["Michele Bullock", "Michelle Bullock", "米歇尔·布洛克", "米歇爾·布洛克", "ミシェル・ブロック", "미셸 불록"],
     type: "public-figure",
