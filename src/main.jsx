@@ -959,9 +959,10 @@ const PEOPLE_CONTEXT = [
   },
   {
     name: "Ryan Barrowei",
-    aliases: ["Ryan Barrowei", "Mr Ryan Barrowei", "Ryan Barrowei Kakadu", "瑞安·巴罗韦", "瑞安·巴羅韋", "ライアン・バロウェイ", "라이언 배로웨이"],
+    aliases: ["Ryan Barrowei", "Mr Ryan Barrowei", "Ryan Barrowei Kakadu", "瑞安·巴罗韦", "瑞安·巴羅韋", "ライアン・バロウェイ", "라이언 배로웨이", "රයන් බැරොවෙයි"],
     type: "public-figure",
-    profile: { label: "Director of National Parks annual report", url: "https://www.dcceew.gov.au/sites/default/files/documents/dnp-annual-report-2024-25.pdf" },
+    profile: { label: "Australian Government Directory", url: "https://www.directory.gov.au/portfolios/climate-change-energy-environment-and-water/director-national-parks/kakadu-board-management/chair" },
+    officialProfile: { label: "Director of National Parks annual report", url: "https://www.dcceew.gov.au/sites/default/files/documents/dnp-annual-report-2024-25.pdf" },
     background: {
       "zh-Hans": "Kakadu National Park Board of Management 主席、Jawoyn 传统所有者提名成员，来自 Kakadu 南部 Wurrkbarbar 氏族，并曾参与 Nitmiluk National Park Board of Management。",
       "zh-Hant": "Kakadu National Park Board of Management 主席、Jawoyn 傳統所有者提名成員，來自 Kakadu 南部 Wurrkbarbar 氏族，並曾參與 Nitmiluk National Park Board of Management。",
