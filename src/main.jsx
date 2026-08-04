@@ -819,6 +819,92 @@ function hasSpecificCommentary(commentary) {
 
 const PEOPLE_CONTEXT = [
   {
+    name: "Stephanie Tully",
+    aliases: ["Stephanie Tully", "Steph Tully", "斯蒂芬妮·塔利", "史蒂芬妮·塔利", "ステファニー・タリー", "스테퍼니 털리"],
+    type: "executive",
+    profile: { label: "Jetstar executive biography", url: "https://www.jetstar.com/au/en/about-us/executive-biographies" },
+    officialProfile: { label: "Qantas appointment release", url: "https://www.qantasnewsroom.com.au/media-releases/new-jetstar-ceo-announced" },
+    social: { label: "LinkedIn", url: "https://au.linkedin.com/in/stephanie-tully-bab11515" },
+    background: {
+      "zh-Hans": "Jetstar Group 首席执行官，2022 年 11 月上任；此前在 Qantas Group 担任客户、营销和商业相关高管职位。",
+      "zh-Hant": "Jetstar Group 行政總裁，2022 年 11 月上任；此前在 Qantas Group 擔任客戶、營銷和商業相關高管職位。",
+      en: "Chief executive officer of Jetstar Group since November 2022, after senior customer, marketing and commercial roles across Qantas Group.",
+      es: "Directora ejecutiva de Jetstar Group desde noviembre de 2022, tras ocupar cargos sénior de cliente, marketing y área comercial en Qantas Group.",
+      ja: "2022年11月から Jetstar Group の最高経営責任者。以前は Qantas Group で顧客、マーケティング、商業部門の上級職を務めました。",
+      ko: "2022년 11월부터 Jetstar Group 최고경영자로, 이전에는 Qantas Group에서 고객, 마케팅, 상업 부문의 고위직을 맡았습니다.",
+      vi: "Tổng giám đốc Jetstar Group từ tháng 11 năm 2022, sau các vai trò cấp cao về khách hàng, tiếp thị và thương mại trong Qantas Group.",
+      th: "ประธานเจ้าหน้าที่บริหารของ Jetstar Group ตั้งแต่พฤศจิกายน 2022 หลังทำงานระดับผู้บริหารด้านลูกค้า การตลาด และพาณิชย์ใน Qantas Group",
+      si: "2022 නොවැම්බර් සිට Jetstar Group chief executive officer වේ; ඊට පෙර Qantas Group හි customer, marketing සහ commercial senior roles දැරීය."
+    }
+  },
+  {
+    name: "Jason Clare",
+    aliases: ["Jason Clare", "Jason Dean Clare", "The Hon Jason Clare", "The Hon Jason Clare MP", "杰森·克莱尔", "傑森·克萊爾", "ジェイソン・クレア", "제이슨 클레어"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.aph.gov.au/j_clare_mp" },
+    officialProfile: { label: "Minister biography", url: "https://ministers.education.gov.au/clare" },
+    social: { label: "X", url: "https://x.com/JasonClareMP" },
+    personalSocial: { label: "Facebook", url: "https://www.facebook.com/JasonClareMP/" },
+    background: {
+      "zh-Hans": "澳洲工党联邦议员，代表新州 Blaxland，自 2007 年进入联邦议会，2022 年起任联邦教育部长。",
+      "zh-Hant": "澳洲工黨聯邦議員，代表新州 Blaxland，自 2007 年進入聯邦議會，2022 年起任聯邦教育部長。",
+      en: "Federal Labor MP for Blaxland in New South Wales since 2007 and Australia's Minister for Education since 2022.",
+      es: "Diputado federal laborista por Blaxland, Nueva Gales del Sur, desde 2007 y ministro de Educación de Australia desde 2022.",
+      ja: "2007年からニューサウスウェールズ州 Blaxland 選出の連邦労働党議員で、2022年から豪州教育相です。",
+      ko: "2007년부터 뉴사우스웨일스 Blaxland를 대표하는 연방 노동당 하원의원이며 2022년부터 호주 교육부 장관입니다.",
+      vi: "Nghị sĩ Labor liên bang khu Blaxland ở NSW từ năm 2007 và là Bộ trưởng Giáo dục Australia từ năm 2022.",
+      th: "ส.ส. Labor รัฐบาลกลางเขต Blaxland ใน NSW ตั้งแต่ปี 2007 และเป็นรัฐมนตรีศึกษาธิการของออสเตรเลียตั้งแต่ปี 2022",
+      si: "2007 සිට NSW Blaxland නියෝජනය කරන Federal Labor MP වන අතර 2022 සිට Australia's Minister for Education වේ."
+    },
+    positions: {
+      "zh-Hans": [
+        "教育资金：支持把公立学校推向更高资源标准，并通过联邦与州协议换取识字、算术和出勤等改革。",
+        "高等教育：推动 Universities Accord 后续改革，包括学生债务、实习补贴和扩大弱势学生入学机会。",
+        "儿童与网络：支持限制未成年人社交媒体使用，并把网络安全与教育成果、校园安全联系起来。"
+      ],
+      "zh-Hant": [
+        "教育資金：支持把公立學校推向更高資源標準，並通過聯邦與州協議換取識字、算術和出勤等改革。",
+        "高等教育：推動 Universities Accord 後續改革，包括學生債務、實習補貼和擴大弱勢學生入學機會。",
+        "兒童與網絡：支持限制未成年人社交媒體使用，並把網絡安全與教育成果、校園安全聯繫起來。"
+      ],
+      en: [
+        "School funding: backs lifting public schools toward higher resourcing standards, tied to federal-state reform deals on literacy, numeracy and attendance.",
+        "Higher education: is driving Universities Accord follow-up changes, including student debt, paid placements and broader access for disadvantaged students.",
+        "Children and online safety: supports restrictions on underage social-media use and links online safety with learning and school wellbeing."
+      ],
+      es: [
+        "Financiación escolar: apoya elevar los recursos de las escuelas públicas mediante acuerdos federales-estatales ligados a alfabetización, aritmética y asistencia.",
+        "Educación superior: impulsa reformas posteriores al Universities Accord, como deuda estudiantil, prácticas remuneradas y mayor acceso para estudiantes desfavorecidos.",
+        "Infancia y seguridad digital: respalda restricciones al uso de redes sociales por menores y vincula la seguridad online con aprendizaje y bienestar escolar."
+      ],
+      ja: [
+        "学校財政：公立学校のリソース水準引き上げを支持し、識字、算数、出席率の改革を連邦・州協定と結びつけています。",
+        "高等教育：学生債務、有給実習、低所得・不利な立場の学生の進学拡大など、Universities Accord 後の改革を進めています。",
+        "子どもとオンライン安全：未成年のソーシャルメディア利用制限を支持し、オンライン安全を学習と学校の安心につなげています。"
+      ],
+      ko: [
+        "학교 재정: 공립학교 자원 기준을 높이고 문해력, 수리력, 출석 개혁을 연방-주 협약과 연계하는 입장입니다.",
+        "고등교육: 학생부채, 유급 실습, 취약계층 학생 접근 확대 등 Universities Accord 후속 개혁을 추진합니다.",
+        "아동과 온라인 안전: 미성년자의 소셜미디어 이용 제한을 지지하며 온라인 안전을 학습과 학교 복지와 연결합니다."
+      ],
+      vi: [
+        "Tài trợ trường học: ủng hộ nâng chuẩn nguồn lực cho trường công, gắn với thỏa thuận liên bang-tiểu bang về đọc viết, toán và chuyên cần.",
+        "Giáo dục đại học: thúc đẩy các thay đổi sau Universities Accord, gồm nợ sinh viên, hỗ trợ thực tập có trả tiền và mở rộng cơ hội cho sinh viên yếu thế.",
+        "Trẻ em và an toàn mạng: ủng hộ hạn chế trẻ vị thành niên dùng mạng xã hội và liên hệ an toàn trực tuyến với học tập, phúc lợi học đường."
+      ],
+      th: [
+        "งบโรงเรียน: สนับสนุนการยกระดับทรัพยากรโรงเรียนรัฐ โดยผูกกับข้อตกลงรัฐบาลกลาง-รัฐเรื่องการอ่านเขียน คณิต และการเข้าเรียน",
+        "อุดมศึกษา: ผลักดันการปฏิรูปต่อจาก Universities Accord รวมถึงหนี้นักศึกษา เงินช่วยฝึกงาน และการเข้าถึงของนักศึกษากลุ่มเสียเปรียบ",
+        "เด็กและความปลอดภัยออนไลน์: สนับสนุนการจำกัดการใช้โซเชียลมีเดียของผู้เยาว์ และเชื่อมความปลอดภัยออนไลน์กับผลการเรียนและสวัสดิภาพในโรงเรียน"
+      ],
+      si: [
+        "School funding: public schools සඳහා resourcing standards ඉහළ නැංවීම සහ literacy, numeracy, attendance reforms federal-state deals සමඟ සම්බන්ධ කිරීම සහාය දක්වයි.",
+        "Higher education: student debt, paid placements සහ disadvantaged students සඳහා access වැඩි කිරීම ඇතුළු Universities Accord follow-up reforms තල්ලු කරයි.",
+        "Children and online safety: underage social-media use සීමා කිරීම්ට සහාය දක්වමින් online safety learning සහ school wellbeing සමඟ සම්බන්ධ කරයි."
+      ]
+    }
+  },
+  {
     name: "Tom Dearden",
     aliases: ["Tom Dearden", "Thomas Dearden", "Tommy Dearden", "汤姆·迪尔登", "湯姆·迪爾登", "トム・ディアデン", "톰 디어던", "ทอม ดีอาร์เดน"],
     type: "athlete",
