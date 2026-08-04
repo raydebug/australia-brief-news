@@ -44,8 +44,8 @@ Rules:
   - If a named person is a politician, elected official, senior public office-holder, public company executive, athlete, artist, or otherwise news-relevant public figure, check whether they are already covered by `PEOPLE_CONTEXT` in `src/main.jsx`.
   - If not covered, add them with aliases, `type`, verified link fields, and concise multilingual background. For politicians, also add concise multilingual `positions`.
   - Use `profile` or `officialProfile` for official biography/profile pages.
-  - Use `social` or `personalSocial` only for a verified personal/public social-media account such as X, Instagram, Facebook, YouTube, TikTok, Threads, LinkedIn, or Bluesky.
-  - In brief text, linked names should point to the personal/public social-media account when available; official profile links belong in the person context card.
+  - Use `social` or `personalSocial` for a verified personal/public social-media account such as X, Instagram, Facebook, YouTube, TikTok, Threads, LinkedIn, or Bluesky. If no reliable social account exists, a clearly personal public website, campaign site, charity project site, or fundraiser page may be used. Do not use publisher article pages, ordinary search results, or unverified accounts as person links.
+  - In brief text, linked names should point to the personal/public social-media account or personal public presence when available; official profile links belong in the person context card.
   - In translated brief text, keep person names in their English canonical form where practical. Transliterated aliases may be kept only for matching, not as the preferred display form.
   - Do not add private individuals, victims, minors, witnesses, ordinary staff, or people whose identity should not be amplified.
   - If no reliable public social/profile URL is found, use the most authoritative official biography page. Do not fabricate social accounts.

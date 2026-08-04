@@ -18,6 +18,26 @@ function normalize(value) {
   return String(value || "").replace(/\s+/g, " ").trim();
 }
 
+function translatedPersonAliasRules() {
+  const source = fs.readFileSync("src/main.jsx", "utf8");
+  const rules = [];
+  const entryPattern = /name:\s*"([^"]+)"[\s\S]*?aliases:\s*\[([^\]]+)\]/g;
+  let match;
+
+  while ((match = entryPattern.exec(source))) {
+    const name = match[1];
+    const aliases = [...match[2].matchAll(/"([^"]+)"/g)].map((aliasMatch) => aliasMatch[1]);
+
+    aliases
+      .filter((alias) => alias !== name && /[\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/.test(alias))
+      .forEach((alias) => rules.push({ name, alias }));
+  }
+
+  return rules;
+}
+
+const translatedPersonAliases = translatedPersonAliasRules();
+
 function fail(message, details = {}) {
   console.error(`news data validation failed: ${message}`);
   if (Object.keys(details).length) console.error(JSON.stringify(details, null, 2));
@@ -225,6 +245,18 @@ for (const config of languages) {
 
       if (!config.marker.test(combined)) {
         errors.push({ type: "missing-language-marker", id: source.id, headline: translatedHeadline.slice(0, 120) });
+      }
+
+      const translatedPersonAlias = translatedPersonAliases.find(
+        (rule) => combined.includes(rule.alias) && !combined.includes(rule.name)
+      );
+      if (translatedPersonAlias) {
+        errors.push({
+          type: "translated-person-name",
+          id: source.id,
+          canonical: translatedPersonAlias.name,
+          alias: translatedPersonAlias.alias
+        });
       }
 
       errors.push(...validateSocialDiscussions(translated));

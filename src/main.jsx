@@ -3402,6 +3402,24 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Bob Montgomery",
+    aliases: ["Bob Montgomery", "Robert Montgomery", "鲍勃·蒙哥马利", "鮑勃·蒙哥馬利", "ボブ・モンゴメリー", "밥 몽고메리"],
+    type: "public-figure",
+    personalSocial: { label: "Campaign site", url: "https://bobmontgomery.com.au/" },
+    profile: { label: "MND Blue fundraiser", url: "https://www.mndblue.org.au/fundraisers/robertmontgomery/miles-for-mnd--one-last-ride" },
+    background: {
+      "zh-Hans": "澳大利亚公益骑行者和 MND 倡议者，82 岁时与孙子 Tom Malcolm 完成 Broome 到 Bowral 的跨澳骑行，为运动神经元病筹款和提高关注。",
+      "zh-Hant": "澳洲公益騎行者和 MND 倡議者，82 歲時與孫子 Tom Malcolm 完成 Broome 到 Bowral 的跨澳騎行，為運動神經元病籌款並提高關注。",
+      en: "Australian charity cyclist and MND advocate who, aged 82, completed a Broome-to-Bowral cross-country ride with his grandson Tom Malcolm to raise funds and awareness for motor neurone disease.",
+      es: "Ciclista benéfico australiano y defensor de la causa MND que, a los 82 años, completó una travesía de Broome a Bowral con su nieto Tom Malcolm para recaudar fondos y conciencia sobre la enfermedad de neurona motora.",
+      ja: "82歳で孫の Tom Malcolm とともに Broome から Bowral まで豪州横断のチャリティーライドを完走し、MND の支援と啓発に取り組んだ豪州のチャリティーサイクリスト。",
+      ko: "82세에 손자 Tom Malcolm과 Broome에서 Bowral까지 호주 횡단 자선 라이드를 완주하며 MND 기금과 인식 제고에 나선 호주의 자선 사이클리스트입니다.",
+      vi: "Người đạp xe gây quỹ và vận động cho MND tại Australia; ở tuổi 82, ông cùng cháu Tom Malcolm hoàn thành hành trình xuyên Australia từ Broome đến Bowral để gây quỹ và nâng cao nhận thức về bệnh motor neurone disease.",
+      th: "นักปั่นจักรยานการกุศลและผู้รณรงค์เรื่อง MND ของออสเตรเลีย ซึ่งในวัย 82 ปีได้ปั่นข้ามประเทศจาก Broome ถึง Bowral กับหลาน Tom Malcolm เพื่อระดมทุนและสร้างความตระหนักเรื่อง motor neurone disease",
+      si: "Australian charity cyclist සහ MND advocate කෙනෙකි; වයස 82 දී ඔහුගේ මුණුපුරා Tom Malcolm සමඟ Broome සිට Bowral දක්වා cross-country ride එකක් සම්පූර්ණ කර motor neurone disease සඳහා මුදල් සහ අවධානය එකතු කළේය."
+    }
+  },
+  {
     name: "Ridge Barredo",
     aliases: ["Ridge Barredo", "里奇·巴雷多", "リッジ・バレド", "리지 바레도"],
     type: "athlete",
@@ -3506,9 +3524,20 @@ function isPersonalSocialLink(link) {
   return (socialLabel || socialDomain) && !profileOnlyLabel;
 }
 
+function isPublicPersonalPresenceLink(link) {
+  if (!link?.url) return false;
+  const label = String(link.label || "").toLowerCase();
+  const url = String(link.url || "").toLowerCase();
+  return (
+    isPersonalSocialLink(link) ||
+    /\b(personal site|personal website|campaign site|project site|fundraiser)\b/.test(label) ||
+    /(^|\/\/)(www\.)?(bobmontgomery\.com\.au|mndblue\.org\.au)\b/.test(url)
+  );
+}
+
 function personSocialLink(person) {
   const candidates = [person?.personalSocial, person?.social].filter(Boolean);
-  return candidates.find(isPersonalSocialLink) || null;
+  return candidates.find(isPublicPersonalPresenceLink) || null;
 }
 
 function personProfileLink(person) {

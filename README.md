@@ -98,9 +98,9 @@ npm run build
 新闻中出现的人名都应先进入人物识别和账号查找流程。对名人、政客、运动员、艺术家、企业高管等新闻相关公共人物，要尽量查找可核实的个人/公开自媒体账号；找不到可靠归属时不要硬加。`PEOPLE_CONTEXT` 的链接字段要区分用途：
 
 - `profile` 或 `officialProfile`：官方介绍页、议会页面、机构 biography、运动员官方档案等，用于人物背景卡片。
-- `social` 或 `personalSocial`：已核实的个人/公开社交媒体账号，例如 X、Instagram、Facebook、YouTube、TikTok、Threads、LinkedIn、Bluesky，用于简闻正文里人名上的链接。
+- `social` 或 `personalSocial`：已核实的个人/公开社交媒体账号，例如 X、Instagram、Facebook、YouTube、TikTok、Threads、LinkedIn、Bluesky，用于简闻正文里人名上的链接。没有可靠社媒账号时，可以使用本人公开个人网站、竞选/公益项目网站或募款主页，但不能用媒体报道页、普通搜索结果或未核实账号冒充个人账号。
 - 多语言简报中的人名默认保留英文原名，不主动音译；已有音译别名可以用于识别，但前端显示时应回到英文名。
-- 如果只有官方 profile、没有个人社媒账号，简闻正文里的人名不要链接到官方 profile；官方 profile 仍显示在人物背景卡片里。
+- 如果只有机构官方 profile、没有个人社媒账号或个人公开项目页，简闻正文里的人名不要链接到官方 profile；官方 profile 仍显示在人物背景卡片里。
 - 不要给私人账号、未核实账号、未成年人、受害者、证人或普通员工添加人物链接。
 
 当前语言文件：

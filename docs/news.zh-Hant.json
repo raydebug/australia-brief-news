@@ -1,1256 +1,1256 @@
 {
-  "updatedAt": "2026-08-04T05:12:30.402Z",
-  "generatedBy": "codex",
-  "language": "zh-Hant",
-  "sources": [
-    {
-      "id": "abc",
-      "name": "ABC News",
-      "region": "National",
-      "feed": "https://www.abc.net.au/news/feed/51120/rss.xml"
-    },
-    {
-      "id": "sbs",
-      "name": "SBS News",
-      "region": "National",
-      "feed": "https://www.sbs.com.au/news/feed"
-    },
-    {
-      "id": "guardian-au",
-      "name": "The Guardian Australia",
-      "region": "National",
-      "feed": "https://www.theguardian.com/australia-news/rss"
-    },
-    {
-      "id": "news-com-au",
-      "name": "news.com.au",
-      "region": "National",
-      "feed": "https://www.news.com.au/content-feeds/latest-news-rss/"
-    },
-    {
-      "id": "the-australian",
-      "name": "The Australian",
-      "region": "National",
-      "feed": "https://www.theaustralian.com.au/"
-    },
-    {
-      "id": "yahoo-au",
-      "name": "Yahoo News Australia",
-      "region": "National",
-      "feed": "https://au.news.yahoo.com/"
-    },
-    {
-      "id": "afr",
-      "name": "Australian Financial Review",
-      "region": "Business",
-      "feed": "https://www.afr.com/latest"
-    },
-    {
-      "id": "sky-news-au",
-      "name": "Sky News Australia",
-      "region": "National",
-      "feed": "https://www.skynews.com.au/australia-news"
-    },
-    {
-      "id": "nine-news-au",
-      "name": "9News",
-      "region": "National",
-      "feed": "https://www.9news.com.au/national"
-    },
-    {
-      "id": "seven-news-au",
-      "name": "7NEWS",
-      "region": "National",
-      "feed": "https://7news.com.au/news/australia"
-    },
-    {
-      "id": "smh",
-      "name": "The Sydney Morning Herald",
-      "region": "NSW",
-      "feed": "https://www.smh.com.au/national"
-    },
-    {
-      "id": "the-age",
-      "name": "The Age",
-      "region": "Victoria",
-      "feed": "https://www.theage.com.au/national/victoria"
-    },
-    {
-      "id": "brisbane-times",
-      "name": "Brisbane Times",
-      "region": "Queensland",
-      "feed": "https://www.brisbanetimes.com.au/national/queensland"
-    },
-    {
-      "id": "watoday",
-      "name": "WAtoday",
-      "region": "Western Australia",
-      "feed": "https://www.watoday.com.au/national/western-australia"
-    },
-    {
-      "id": "canberra-times",
-      "name": "The Canberra Times",
-      "region": "ACT",
-      "feed": "https://www.canberratimes.com.au/news/latest-news/"
-    },
-    {
-      "id": "aap",
-      "name": "AAP",
-      "region": "National",
-      "feed": "https://www.aap.com.au/news/"
-    }
-  ],
-  "errors": [
-    "news.com.au latest-news feed still required search-assisted fallback for some current Australian items.",
-    "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings.",
-    "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results."
-  ],
-  "clusters": [
-    {
-      "id": "antisemitism-protest-hearing-20260804",
-      "language": "zh-Hant",
-      "headline": "雪梨抗議證詞擴大了反猶調查範圍",
-      "sourceCount": 3,
-      "publishedAt": "2026-08-04T03:36:41.000Z",
-      "voiceScript": "雪梨的反猶主義皇家委員會正在審視有關爭議性抗議活動的證詞，其中包括一場挺巴勒斯坦集會和一次新納粹示威。這場聽證的重要性在於，它把調查從個別事件擴展到抗議如何被執法管理，以及仇恨如何滲入公共生活。下一步將是持續聽取證人與執法部門的證詞，釐清發生了什麼，以及哪些做法需要改變。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/antisemitism-royal-commission-protests-david-ossip/106993436"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/anti-semitism-probe-set-to-examine-incendiary-protests"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/aug/04/breaking-news-icac-liberal-politics-royal-commission-antisemitism-gambling-ad-inquiry-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-one-nation-ntwnfb"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Facebook",
-            "account": "Australian Jewish Association - AJA",
-            "title": "Royal commission to examine the Sydney Opera House protest and protest footage",
-            "url": "https://www.facebook.com/AustralianJewishAssociation/posts/tomorrow-the-royal-commission-will-examine-the-protest-at-the-sydney-opera-house/1060449953032044/",
-            "score": 10
-          },
-          {
-            "platform": "Facebook",
-            "account": "ABC Sydney",
-            "title": "Royal commission hearing post on antisemitism evidence and pro-Palestinian protest context",
-            "url": "https://www.facebook.com/abcinsydney/posts/the-royal-commission-on-antisemitism-and-social-cohesion-has-heard-from-former-a/1438174621678955/",
-            "score": 8
-          }
-        ]
-      }
-    },
-    {
-      "id": "victoria-cabinet-ai-portfolio-20260804",
-      "language": "zh-Hant",
-      "headline": "班·卡羅為維州新內閣增設人工智能事務",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-04T03:36:17.000Z",
-      "voiceScript": "維多利亞州新州長班·卡羅已經公布新內閣，並專門設立倫理人工智能事務。這項調整很重要，因為它把AI政策直接放進內閣層級，而不是放在邊緣位置，也顯示政府在領導層更替後想重新整隊。接下來要看的是這項工作由哪個部門負責、新部長有多大權限，以及這次改組能否穩定政府內部的動盪。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/ben-carroll-ministry-named-artificial-intelligence-added/106994074"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/aug/04/breaking-news-icac-liberal-politics-royal-commission-antisemitism-gambling-ad-inquiry-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-one-nation-ntwnfb"
-        }
-      ]
-    },
-    {
-      "id": "bob-montgomery-charity-ride-death-20260804",
-      "language": "zh-Hant",
-      "headline": "鮑勃·蒙哥馬利完成全澳騎行後去世",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-04T03:26:54.000Z",
-      "voiceScript": "鮑勃·蒙哥馬利在完成一段橫跨澳洲、全長5300公里的騎行一天後去世，這趟旅程是為了替運動神經元病籌款並提高關注。這則故事重要，因為它把一場家庭公益行動變成全國焦點，也把人們的目光重新拉回MND患者所需要的支援服務。接下來，大家會關注募得資金如何使用，以及家人和支持者要如何紀念這段騎行和他本人。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/bob-montgomery-mnd-charity-cyclist-death/106994142"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Facebook",
-            "account": "ABC Illawarra",
-            "title": "MND advocate Bob Montgomery has died after completing the 5,300-kilometre ride",
-            "url": "https://www.facebook.com/abcillawarra/posts/motor-neurone-disease-mnd-advocate-bob-montgomery-has-died-just-one-day-after-co/1543650647775735/",
-            "score": 20
-          },
-          {
-            "platform": "Facebook",
-            "account": "2GB Sydney",
-            "title": "Mark Levy tribute to Bob Montgomery after the Great Never Give Up Ride",
-            "url": "https://www.facebook.com/2GBSydney/posts/an-emotional-mark-levy-has-paid-tribute-to-bob-montgomery-who-unexpectedly-passe/1596850872452613/",
-            "score": 12
-          },
-          {
-            "platform": "Facebook",
-            "account": "ABC Illawarra",
-            "title": "Bob Montgomery and Tom Malcolm complete cross-country MND ride",
-            "url": "https://www.facebook.com/abcillawarra/posts/bowrals-bob-montgomery-82-and-his-grandson-tom-malcolm-18-have-completed-a-5300-/1541892247951575/",
-            "score": 10
-          }
-        ]
-      }
-    },
-    {
-      "id": "alan-jones-trial-20260804",
-      "language": "zh-Hant",
-      "headline": "艾倫·瓊斯在雪梨的審判進入詳細證詞階段",
-      "sourceCount": 3,
-      "publishedAt": "2026-08-04T03:21:52.000Z",
-      "voiceScript": "艾倫·瓊斯在雪梨的審判現在正在聽取首位控訴人的詳細證詞，法庭正在審查跨越多年的猥褻攻擊與性接觸指控。這宗案件重要，因為它把一位知名媒體人物的私人行為變成一場可能持續很久的刑事審理，並可能重塑他的公眾形象。接下來還會有更多證人出庭、辯方質疑，以及可能持續數月的法官獨審程序，之後才會進入裁決或量刑階段。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/nsw-court-alan-jones-complainant-j-sexual-touching-trial/106991654"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/aug/04/alan-jones-trial-live-updates-day-2-sydney-court-case-latest-news-ntwnfb"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/nsw-act/courts-law/man-alleges-alan-jones-groped-him-while-driving/news-story/b00da3f896e3e429acda01eb6687eaef"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "YouTube",
-            "account": "10 News",
-            "title": "Alan Jones Trial: Alleged Victim Takes Stand As He Denies 22 Charges",
-            "url": "https://www.youtube.com/watch?v=77K9pv8vdxM",
-            "score": 20
-          },
-          {
-            "platform": "Facebook",
-            "account": "ABC Sydney",
-            "title": "Veteran Sydney broadcaster Alan Jones is on trial for indecent assault and sexual touching charges",
-            "url": "https://www.facebook.com/abcinsydney/posts/veteran-sydney-broadcaster-alan-jones-is-on-trial-for-indecent-assault-and-sexua/1451114583718292/",
-            "score": 18
-          },
-          {
-            "platform": "Facebook",
-            "account": "9 News",
-            "title": "Alan Jones's first alleged victim gives evidence on day one of the trial",
-            "url": "https://www.facebook.com/9News/posts/alan-jones-first-alleged-victim-has-given-evidence-on-day-one-of-the-broadcaster/1523490779806646/",
-            "score": 15
-          },
-          {
-            "platform": "Facebook",
-            "account": "The Guardian Australia",
-            "title": "Alan Jones arrives at court ahead of trial",
-            "url": "https://www.facebook.com/theguardianaustralia/videos/alan-jones-arrives-at-court-ahead-of-trial/2244571979637087/",
-            "score": 12
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "author": "Expensive-Horse5538",
-            "title": "Charge dropped against veteran broadcaster Alan Jones ahead of indecent assault trial",
-            "url": "https://www.reddit.com/r/australia/comments/1tufjlz/charge_dropped_against_veteran_broadcaster_alan/",
-            "postedAt": "2026-06",
-            "score": 8
-          }
-        ]
-      }
-    },
-    {
-      "id": "nt-mining-rates-push-20260803",
-      "language": "zh-Hant",
-      "headline": "北領地議會推動採礦費率權力",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T23:57:52.000Z",
-      "voiceScript": "北領地議會希望有權在自己的地區設定採礦費率，認為目前的設置使當地社區缺乏收入。這個問題很重要，因為採礦計畫往往對道路、服務和住房提出很高的要求，而收益分配不均。下一步是領地立法者是否支持這項變革以及礦業公司如何應對。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/lgant-seeks-change-to-increase-rate-payments-mining-companies/106975344"
-        }
-      ]
-    },
-    {
-      "id": "private-credit-danger-20260803",
-      "language": "zh-Hant",
-      "headline": "澳洲私人信貸繁榮面臨壓力測試",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T23:56:46.000Z",
-      "voiceScript": "Jon Adgemis的房地產崩潰現在被用來研究私人信貸在澳洲商業房地產內部的成長情況。風險很重要，因為債務位於傳統銀行體系之外，但當大型開發商倒閉時，它仍然決定誰承擔損失。接下來的問題是風險敞口有多深、債權人收回了什麼，以及監管機構是否需要加強監管。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/property-collapse-highlights-private-credit-danger-jon-adgemis/106992190"
-        }
-      ]
-    },
-    {
-      "id": "nsw-icac-reformers-branch-stacking-20260804",
-      "language": "zh-Hant",
-      "headline": "新州貪腐調查因改革派拉票指控擴大",
-      "sourceCount": 3,
-      "publishedAt": "2026-08-03T23:42:00.000Z",
-      "voiceScript": "新南威爾士州ICAC正在調查，自由黨派系人物是否利用受限捐款和拉票擴員手法在黨內擴大影響力。這個問題重要，因為它牽涉捐贈規則、黨內控制權，以及高層政治人物的信譽。接下來會有更多聽證證據、可能的移送，以及這些指控是否最終成為正式認定的更清晰答案。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/icac-rosny-to-focus-on-senior-colleague-of-kellie-sloane/106986178"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/aug/04/breaking-news-icac-liberal-politics-royal-commission-antisemitism-gambling-ad-inquiry-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-one-nation-ntwnfb"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/courts-law/woke-agenda-liberal-party-branch-takeover-in-day-two-of-nsw-icac-probe/news-story/545d391337ec2ee222639f4d82fc6b14"
-        }
-      ]
-    },
-    {
-      "id": "qld-governor-20260803",
-      "language": "zh-Hant",
-      "headline": "昆士蘭州任命了 11 月的新州長",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T23:37:46.000Z",
-      "voiceScript": "昆士蘭州已選擇最高法院法官 Thomas Bradley 成為該州下一任州長，定於 11 月 1 日宣誓就職。移交很重要，因為州長簽署法律、召開議會並履行關鍵的憲法職責。現在的實際焦點是過渡期和 Bradley 進入角色的議程。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/qld-new-queensland-governor-announced/106993600"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/AustralianPolitics",
-            "author": "Expensive-Horse5538",
-            "title": "Justice Thomas Bradley to replace Dr Jeannette Young as Queensland governor",
-            "url": "https://www.reddit.com/r/AustralianPolitics/comments/1veudx1/justice_thomas_bradley_to_replace_dr_jeannette/",
-            "score": 45
-          },
-          {
-            "platform": "Facebook",
-            "account": "David Crisafulli MP",
-            "title": "Queensland's next Governor will be Justice Thomas Bradley",
-            "url": "https://www.facebook.com/DavidCrisafulliMP/posts/queenslands-next-governor-will-be-justice-thomas-bradleyjustice-bradley-currentl/1413080983967729/",
-            "score": 25
-          }
-        ]
-      }
-    },
-    {
-      "id": "brisbane-airborne-bus-20260803",
-      "language": "zh-Hant",
-      "headline": "布里斯班事故鏡頭使致命的公共汽車案件變得更加尖銳",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T23:17:05.000Z",
-      "voiceScript": "布里斯班公共汽車內部的新閉路電視顯示了一輛汽車在空中猛烈撞擊車輛的那一刻，導致其前端停在公共汽車座椅上。這段影片很重要，因為它更清晰地描繪了一場與行人死亡和法庭上訴有關的車禍。下一步是上訴程序以及對碰撞如何展開的進一步審查。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/qld-new-cctv-airborne-car-hits-bus-rocklea/106993326"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/brisbane",
-            "title": "CCTV of the car that flew onto the bus at Archerfield yesterday",
-            "url": "https://www.reddit.com/r/brisbane/comments/1vadw3t/cctv_of_the_car_that_flew_onto_the_bus_at/",
-            "score": 120
-          }
-        ]
-      }
-    },
-    {
-      "id": "free-range-egg-labels-20260803",
-      "language": "zh-Hant",
-      "headline": "當母雞搬到室內時，放養雞蛋標籤保持不變",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T21:56:56.000Z",
-      "voiceScript": "A澳洲雞蛋生產商正在將母雞搬到室內以限制禽流感風險，監管機構放寬了放養標籤規則以適應這一變化。這很重要，因為它同時影響消費者期望、食品價格和生物安全。現在的關鍵問題是疾病壓力是否有所緩解，或者是否會出現更多限制。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/accc-extends-pause-on-free-range-egg-labelling-rules-bird-flu/106989736"
-        }
-      ]
-    },
-    {
-      "id": "wa-wet-start-20260803",
-      "language": "zh-Hant",
-      "headline": "西澳西南部在經歷了創紀錄的干燥七月之後，將迎來一個更加潮濕的開局",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T21:24:00.648Z",
-      "voiceScript": "在經歷了有史以來最乾燥的七月之一之後，西澳西南部將在八月份迎來一個更加潮濕的開局。降雨在這裡很重要，因為它可以緩解短期土壤壓力並幫助當地供水，但它也會帶來道路濕滑和農活緩慢。預報員現在將觀察該系統有多少部分保持在一起，以及降雨是否到達內陸地區。",
-      "differences": [],
-      "links": [
-        {
-          "source": "9News",
-          "url": "https://www.nine.com.au/australia-news/wa/weather-news-western-australia-south-west-wet-start-to-august-after-record-dry-july-20260804-p60l55.html"
-        }
-      ]
-    },
-    {
-      "id": "ndis-cuts-canberra-20260803",
-      "language": "zh-Hant",
-      "headline": "堪培拉殘疾人受益人擔心即將到來的 NDIS 削減",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T20:44:20.000Z",
-      "voiceScript": "堪培拉 NDIS 受益人 Nicci Carlson 表示，迫在眉睫的該計劃削減讓弱勢群體在生活成本緊張期間感覺自己像是替罪羊。這個案子很重要，因為辯論不再抽象化：真正的支持、遠見和日常獨立都岌岌可危。下一步是聯邦改革是否保護高需求人群，同時仍減緩支出成長。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/looming-ndis-cuts-instil-fear-in-canberrans/106857198"
-        }
-      ]
-    },
-    {
-      "id": "sydney-ai-data-centre-park-20260804",
-      "language": "zh-Hant",
-      "headline": "悉尼 AI 資料中心計畫引發綠地爭議",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T20:42:00.000Z",
-      "voiceScript": "悉尼 Arncliffe 原 Kogarah Golf Club 場地的重建方案引發強烈反對，因為 AI 資料中心被列為潛在用途之一。整個方案還包括物流、商業空間、酒店、停車位，以及 Cooks River 沿線公共綠地。問題核心不是要不要資料中心，而是悉尼能不能在擴建數位基礎設施時，同時守住稀缺城市綠地、社區安寧和電網承載力。下一步要看新州規劃評估，以及申請方如何回應社區意見。",
-      "differences": [],
-      "links": [
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/environment/sustainability/disgusted-pristine-sydney-green-space-to-be-replaced-by-enormous-ai-data-centre/news-story/3eb0fb8ed0e97f35e7f7d6899759d7a4"
-        }
-      ],
-      "commentary": {
-        "zh-Hant": "更有參考價值的比較不是資料中心好壞，而是選址和回饋機制。新加坡曾因電力和土地壓力暫停新的資料中心審批，後來用能效條件重新開放；愛爾蘭則是反面樣本，電網壓力讓大型項目越來越難獲得政治支持。新州可以把資料中心當成重型基礎設施處理：早期公開電力和用水假設，要求可行的餘熱利用或電網支撐方案，並把社區收益寫成可衡量承諾。如果項目主要消耗稀缺土地和電力，而收益多數外溢到本地之外，反對只會繼續擴大。"
-      },
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/sydney",
-            "author": "ComfortableFrosty261",
-            "title": "Sydney's data centre boom is turning suburbs into 'wastelands', councils warn",
-            "url": "https://www.reddit.com/r/sydney/comments/1v6pnds/sydneys_data_centre_boom_is_turning_suburbs_into/",
-            "postedAt": "2026-07-26",
-            "score": 45
-          },
-          {
-            "platform": "Facebook",
-            "account": "Heidi Lee Douglas - Bayside Councillor",
-            "title": "A giant data centre on the edge of one of Sydney's last underdeveloped water front green spaces",
-            "url": "https://www.facebook.com/HeidiBayside/posts/a-giant-data-centre-on-the-edge-of-one-of-sydneys-last-underdeveloped-water-front/1035237385516046/",
-            "score": 30
-          },
-          {
-            "platform": "Facebook",
-            "account": "Sutherland Shire & St George News",
-            "title": "A huge AI data centre is part of concept plans for the old Kogarah Golf Club site",
-            "url": "https://www.facebook.com/SutherlandShireStGeorgeNews/posts/a-huge-ai-data-centre-is-part-of-concept-plans-for-the-old-kogarah-golf-club-sit/1520190913451909/",
-            "score": 24
-          },
-          {
-            "platform": "Facebook",
-            "account": "United Voice of Australia",
-            "title": "'Disgusted': Pristine Sydney green space to be replaced by enormous AI data centre",
-            "url": "https://www.facebook.com/unitedvoiceofaustralia/posts/disgusted-pristine-sydney-green-space-to-be-replaced-by-enormous-ai-data-centrep/1038549812147630/",
-            "score": 20
-          },
-          {
-            "platform": "Facebook",
-            "account": "Daily Telegraph",
-            "title": "Plans to build an AI data centre as part of the redevelopment of an old Sydney golf course have sparked backlash",
-            "url": "https://www.facebook.com/dailytelegraph/posts/plans-to-build-an-ai-data-centre-as-part-of-the-redevelopment-of-an-old-sydney-g/1469138301910234/",
-            "score": 18
-          }
-        ]
-      }
-    },
-    {
-      "id": "white-strawberries-australia-20260803",
-      "language": "zh-Hant",
-      "headline": "澳洲種植者試用白色和紅草莓",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T20:31:33.000Z",
-      "voiceScript": "澳洲園藝業現在正在商業化種植白色和紅草莓品種，而不僅僅是熟悉的紅色水果。新莓果很重要，因為種植者正在尋找脫穎而出且能在市場上保值的產品。下一個考驗是購物者是否接受顏色變化以及品種是否能夠超越利基市場。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/rural/2026-08-04/new-white-strawberry-varieties-grown-commercially-in-australia/106980704"
-        }
-      ]
-    },
-    {
-      "id": "antisemitism-warning-australia-20260803",
-      "language": "zh-Hant",
-      "headline": "US 猶太領導人警告澳洲對反猶太主義採取行動",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T20:28:37.000Z",
-      "voiceScript": "A 美國猶太領導人警告澳洲面臨反猶太主義的嚴峻考驗。由於政府和社區團體面臨著應對日益加劇的敵意和兩極分化的壓力，因此出現了警告。下一個問題是該資訊是否會轉化為更強的安全、教育和公共領導。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/jonathan-greenblatt-warning-australia-antisemitism/106990830"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "X",
-            "author": "Jonathan Greenblatt",
-            "title": "Jonathan Greenblatt on what must come next to protect the Jewish community in Australia",
-            "url": "https://x.com/JGreenblattADL/status/2082612678774726958",
-            "score": 35
-          }
-        ]
-      }
-    },
-    {
-      "id": "qld-fines-written-off-20260803",
-      "language": "zh-Hant",
-      "headline": "昆士蘭州註銷了近 1.4 億美元的未付罰款",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T20:02:00.000Z",
-      "voiceScript": "昆士蘭州註銷了上個財政年度近 1.4 億美元的未付罰款，涵蓋了超過 46 萬項債務。這很重要，因為當國家徵收的罰款減少而金額不斷增加時，罰款就會成為一個政策問題。下一步是官員是否加強復甦或重新考慮事實證明難以收取的處罰。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/140-million-unpaid-fines-written-off-qld-government-sper/106991032"
-        }
-      ]
-    },
-    {
-      "id": "neil-the-seal-merch-claim-20260803",
-      "language": "zh-Hant",
-      "headline": "尼爾海豹商品網站因捐贈索賠問題而被關閉",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T19:21:11.000Z",
-      "voiceScript": "尼爾海豹商品網站在對其捐贈索賠和商店使用的藝術品提出質疑後已被關閉。这很重要，因为当慈善承诺不明确时，病毒式野生动物品牌很快就会成为消费者保护问题。下一個問題是監管機構或平台是否會採取行動，以及營運商是否會解釋缺失的合作關係。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/neil-seal-merch-website-claim-donate-conservation-removed/106978138"
-        }
-      ]
-    },
-    {
-      "id": "prediction-markets-warning-20260803",
-      "language": "zh-Hant",
-      "headline": "澳洲的預測市場引起消費者警告",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T19:02:30.000Z",
-      "voiceScript": "企業監管機構表示，澳洲的預測市場正在迅速擴張，而消費者保護仍然薄弱。這很重要，因為人們在產品中押注政治、天氣、戰爭和其他事件，這些產品看起來與普通賭博不同，但仍存在真正的財務風險。如果运营商不能表现出更好的保障措施，下一步可能会面临更大的监管压力。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/corporate-watchdog-warns-about-illegal-prediction-markets/106989498"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "author": "Cube00",
-            "title": "Prediction markets 'akin to gambling', corporate regulator warns",
-            "url": "https://www.reddit.com/r/australia/comments/1ven6ev/prediction_markets_akin_to_gambling_corporate/",
-            "score": 85
-          }
-        ]
-      }
-    },
-    {
-      "id": "canva-ai-revenue-reset-20260803",
-      "language": "zh-Hant",
-      "headline": "Canva 的人工智慧支出迫使收入罕見地重置",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T19:00:00.000Z",
-      "voiceScript": "Canva 表示，向人工智慧的轉變成本超出預期，因此削減了收入目標。這很重要，因為該公司是澳洲最大的科技公司之一，其支出選擇會影響招募、產品時機和投資者信心。现在的关键问题是 Canva 能否在不长期减缓增长的情况下吸收更高的费用。",
-      "differences": [],
-      "links": [
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/technology/canva-s-ai-bill-shock-causes-rare-revenue-downgrade-20260803-p60kzm"
-        }
-      ]
-    },
-    {
-      "id": "qantas-outsourcing-accenture-20260803",
-      "language": "zh-Hant",
-      "headline": "澳洲航空正在考慮與埃森哲進行重大的後台轉移",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T19:00:00.000Z",
-      "voiceScript": "antas 正在與埃森哲就一項大型外包舉措進行談判，該舉措可能會將約 1,000 個後台工作崗位轉移到海外。這個問題很重要，因為它關係到成本削減、自動化和澳洲國家航空公司就業的未來。下一步是谈判是否成为正式计划以及工人和工会如何应对。",
-      "differences": [],
-      "links": [
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/companies/transport/qantas-eyes-major-outsourcing-move-with-accenture-backed-ai-deal-20260803-p60kzc"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "author": "cocowave",
-            "title": "Qantas project IQ: Airline considers moving 1000 back-office roles to India in potential Accenture deal",
-            "url": "https://www.reddit.com/r/australia/comments/1veuwp5/qantas_project_iq_airline_considers_moving_1000/",
-            "score": 100
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/cscareerquestionsOCE",
-            "author": "Own_Oil7951",
-            "title": "Qantas outsourcing plans advanced thorough talks with Accenture to move 1000 back-office roles to India",
-            "url": "https://www.reddit.com/r/cscareerquestionsOCE/comments/1veultd/qantas_outsourcing_plans_advanced_thorough_talks/",
-            "score": 85
-          }
-        ]
-      }
-    },
-    {
-      "id": "cheap-food-workers-20260803",
-      "language": "zh-Hant",
-      "headline": "澳洲的廉價食品供應仍依賴弱勢勞動力",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T18:45:15.000Z",
-      "voiceScript": "澳洲的低成本食品體系仍依賴議價能力最弱的工人。這很重要，因為低廉的超市價格可能掩蓋了工作時間不安全、低薪以及種植者和包裝廠面臨的壓力。下一個問題是，更嚴格的執法和購買標準是否可以在不使新鮮食品大幅上漲的情況下改善狀況。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/australias-hidden-modern-slave-labour-workforce-exposed/106968610"
-        }
-      ]
-    },
-    {
-      "id": "downsizing-barriers-20260803",
-      "language": "zh-Hant",
-      "headline": "年長的澳洲人仍然面臨縮小住房的障礙",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T18:40:43.000Z",
-      "voiceScript": "許多55歲以上的澳洲人表示，他們願意搬進較小的房屋，但實際的障礙不斷減緩這種轉變。最大的障礙是情感依附、稀缺的合適庫存以及搬家的成本和文書工作。這很重要，因為推出更多適合縮小規模的住房可以緩解緊張的房地產市場的壓力。下一步是規劃和稅收設置是否使較小的房屋更容易找到和搬進。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/older-people-downsizing-barriers/106975436"
-        }
-      ]
-    },
-    {
-      "id": "fitzroy-school-abuse-20260803",
-      "language": "zh-Hant",
-      "headline": "菲茨羅伊社區學校面臨新的虐待指控",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T18:39:11.000Z",
-      "voiceScript": "墨爾本的一所另類學校因被指控男學生對女學生進行排名並在網上分享材料而受到新的審查，而單獨的虐待指控可以追溯到幾十年前。由於家人和前學生要求追究責任，學校已聘請一名調查員。這很重要，因為社區辦學仍然需要強而有力的保護和投訴系統。下一步是調查以及監管機構或警方的後續行動。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/fitzroy-community-school-sexual-abuse-grooming-allegations/106859826"
-        }
-      ]
-    },
-    {
-      "id": "barnaby-joyce-refugees-one-nation-20260803",
-      "language": "zh-Hant",
-      "headline": "巴納比·喬伊斯的難民立場再次受到審查",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T15:00:22.000Z",
-      "voiceScript": "巴納比·喬伊斯的難民觀點在播客重新審視他過去對阿米代爾重新安置的支持與一國黨在移民問題上的強硬立場之間的差距後重新成為焦點。這個問題很重要，因為它突顯了地區現實和政黨政策如何朝相反的方向發展。懸而未決的問題是，喬伊斯是否會改變他對難民的陷害方式，還是讓矛盾繼續存在。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/rss"
-        }
-      ]
-    },
-    {
-      "id": "kmart-camera-glasses-20260803",
-      "language": "zh-Hant",
-      "headline": "Kmart 的廉價相機眼鏡引發隱私警告",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-03T15:00:22.000Z",
-      "voiceScript": "Kmart 的 89 美元 Anko 相機眼鏡已售罄，將一副廉價的可穿戴相機送到更多澳洲人手中。這款眼鏡可以錄製影片和靜態影像，隱私倡導者表示，這使得在商店、交通和其他公共場所未經同意的情況下拍攝人們變得更容易。這很重要，因為該設備降低了秘密錄音的成本，而隱私規則仍在不斷改進。下一個問題是零售商、監管機構和購物者是否將其視為正常的小工具或新的監控問題。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/04/kmart-camera-glasses-anko-meta-smartglasses-australia"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/real-life/news-life/kmart-targets-89-version-of-meta-glasses-sparks-outrage/news-story/4785c495eec7be27fb10084d867f369c"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "author": "totalcool",
-            "title": "Kmart sells out of low-cost rival to Meta camera glasses across Australia amid warnings of 'privacy nightmare'",
-            "url": "https://www.reddit.com/r/australia/comments/1venuuh/kmart_sells_out_of_lowcost_rival_to_meta_camera/",
-            "upvotes": 380,
-            "score": 380
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/news",
-            "author": "CharlieKonR",
-            "title": "Kmart sells out of low-cost rival to Meta camera glasses across Australia amid warnings of 'privacy nightmare' | Consumer affairs",
-            "url": "https://www.reddit.com/r/news/comments/1vem3ot/kmart_sells_out_of_lowcost_rival_to_meta_camera/",
-            "score": 120
-          }
-        ],
-        "zh-Hans": [
-          {
-            "platform": "Forum",
-            "community": "新足迹",
-            "author": "edith921",
-            "title": "Kmart的“Meta平替”相机眼镜在全澳售罄",
-            "url": "https://www.oursteps.com.au/bbs/forum.php?mod=viewthread&tid=1899960",
-            "postedAt": "2026-08-04T10:49:00+10:00",
-            "score": 20
-          }
-        ],
-        "zh-Hant": [
-          {
-            "platform": "Forum",
-            "community": "新足跡",
-            "author": "edith921",
-            "title": "Kmart的「Meta平替」相機眼鏡在全澳售罄",
-            "url": "https://www.oursteps.com.au/bbs/forum.php?mod=viewthread&tid=1899960",
-            "postedAt": "2026-08-04T10:49:00+10:00",
-            "score": 20
-          }
-        ]
-      }
-    },
-    {
-      "id": "victoria-montessori-explicit-instruction-20260803",
-      "language": "zh-Hant",
-      "headline": "維多利亞州的明確教學推動正在逐步淘汰蒙特梭利課程隨著州政府不斷推動學校進行顯式教學，維多利亞州的",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T15:00:21.000Z",
-      "voiceScript": "A公立學校正在逐步淘汰其蒙特梭利課程。家庭很重視這個項目，因為它為學生提供了一種更靈活、自主的學習方式，尤其是那些處理健康問題或焦慮的學生。這個問題很重要，因為全州範圍的教學模式可能會排擠其他課堂方法。懸而未決的問題是學校是否可以保留任何形式的項目，以及更多的維多利亞蒙特梭利流是否會在 2028 年截止日期之前消失。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/03/montessori-learning-is-being-shut-down-at-leahs-school-is-a-push-towards-explicit-instruction-to-blame"
-        }
-      ]
-    },
-    {
-      "id": "wa-caravan-rollover-20260803",
-      "language": "zh-Hant",
-      "headline": "西澳偏遠地區的大篷車翻車事故造成兩人死亡和一名兒童生命垂危",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T11:39:32.490Z",
-      "voiceScript": "A 西澳大利亞州偏遠地區的大篷車翻車事故已導致兩人死亡，一名兒童生命垂危。這次事故很重要，因為在偏僻的鄉村道路上救援可能很遠，所以即使是翻車也可能很快致命。警方现在需要弄清楚车辆到底是如何滚动的，以及速度、路况或疲劳是否起了作用。",
-      "differences": [],
-      "links": [
-        {
-          "source": "9News",
-          "url": "https://www.nine.com.au/australia-news/wa/two-dead-child-fighting-for-life-after-caravan-crash-in-remote-wa-20260803-p60l47.html"
-        }
-      ]
-    },
-    {
-      "id": "canberra-private-school-ranking-20260803",
-      "language": "zh-Hant",
-      "headline": "堪培拉私立學校在男生對女學生進行排名後面臨審查",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T10:00:18.000Z",
-      "voiceScript": "堪培拉文法學校正在調查男生散發了一份按外表對女學生進行排名並在網上分享的名單。報道中的名單包含大約 100 個名字，並被家人描述為有辱人格。這很重要，因為它指出了學校內圍繞厭女症、同意和網路行為的嚴重文化問題。任何處罰都將取決於學校的調查結果。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/canberra-private-school-boys-ranked-female-students/106982550"
-        }
-      ]
-    },
-    {
-      "id": "tom-dearden-cowboys-future-20260803",
-      "language": "zh-Hant",
-      "headline": "湯姆·迪爾登拒絕了牛仔隊退出的猜測",
-      "sourceCount": 3,
-      "publishedAt": "2026-08-03T09:55:26.000Z",
-      "voiceScript": "湯姆·迪爾登駁回了有關他希望離開牛仔隊的傳言，稱他仍然致力於北昆士蘭，併計劃在2029年之前完成合約。這個故事很重要，因為謠言一直伴隨著他經歷傷病和家庭計劃，將一名球員的決定變成了一個更廣泛的合約故事。目前，他的立场没有改变：他说他会留下来，下一个问题是围绕他未来的喧嚣是否最终尘埃落定。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/tom-dearden-clears-air-on-cowboys-future/106992486"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/sport/nrl/nrl-star-tom-dearden-slams-rumour-he-wanted-to-leave-cowboys-over-personal-reasons/news-story/5a5a13a6f83c1d78ad77f3f5d5ec4b6b"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/lot-of-nonsense-dearden-clears-air-on-cowboys-future"
-        }
-      ]
-    },
-    {
-      "id": "camp-sovereignty-assault-investigation-20260803",
-      "language": "zh-Hant",
-      "headline": "維多利亞警方正在調查涉嫌在墨爾本內陸主權營地發生的襲擊事件",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T09:29:21.000Z",
-      "voiceScript": "維多利亞警方正在調查墨爾本內城區主權營地發生的一起涉嫌襲擊事件，一名37歲的男子因面部受傷接受治療。該地點是原住民抗議營地，警方表示他們正在調查夜間發生的事情。這很重要，因為該營地之前就已經成為攻擊目標，任何結論都可能影響當局如何應對仇恨驅動或政治色彩的攻擊。警方尚未宣布指控，調查仍在進行中。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/police-investigate-camp-sovereignty-alleged-assault/106992312"
-        }
-      ]
-    },
-    {
-      "id": "john-gibbs-cancer-diagnosis-20260803",
-      "language": "zh-Hant",
-      "headline": "約翰·吉布斯在癌症診斷後退出",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T09:23:41.000Z",
-      "voiceScript": "前曼利-沃林加海鷹隊中衛、橄欖球聯賽評論員約翰·吉布斯表示，他已被診斷出患有霍奇金淋巴瘤。在治療開始期間，他將退出廣播，同事和粉絲已經開始給予他支持。這很重要，因為多年來吉布斯一直是這項運動中熟悉的聲音。他的下一步是治療，目前還沒有給予公開的預後。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/john-gibbs-diagnosed-with-cancer/106991610"
-        }
-      ]
-    },
-    {
-      "id": "adelaide-prison-worker-conviction-20260803",
-      "language": "zh-Hant",
-      "headline": "阿德萊德監獄工作人員因強姦囚犯而被定罪",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T09:03:00.000Z",
-      "voiceScript": "A南澳大利亞陪審團裁定前監獄工作人員埃尼奧·斯克雷潘蒂犯有強姦罪和對一名女囚犯的嚴重猥褻罪。該判決很重要，因為它引發了有關懲教設施內濫用權力以及如何處理投訴的問題。斯克雷潘蒂在下個月的量刑前聽證會之前已被還押。下一步是量刑和任何上訴程序。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/jury-finds-enio-screpanti-guilty-adelaide-prison-rape/106990732"
-        }
-      ]
-    },
-    {
-      "id": "australia-isis-prosecutions-20260803",
-      "language": "zh-Hant",
-      "headline": "隨著ISIS起訴的進展，澳洲將目光投向德國",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T08:44:01.000Z",
-      "voiceScript": "A澳洲正準備測試自己與ISIS相關的起訴，德國的經驗被用作參考。這種比較很重要，因為戰爭罪和種族滅絕案件依賴複雜的證據、漫長的時間表以及調查人員和法院之間的仔細協調。如果澳洲的程序正確，它可以為未來的案件製定持久的標準。下一步是聽證會是否保持正軌並產生明確的法律先例。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/feed/51120/rss.xml"
-        }
-      ]
-    },
-    {
-      "id": "fake-gun-scare-20260803",
-      "language": "zh-Hant",
-      "headline": "悉尼摩爾公園的複製槍支恐慌以兩人被捕告終",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-03T08:33:30.000Z",
-      "voiceScript": "新南威爾士州警方在悉尼娛樂區做出重大反應後逮捕了兩名男子，當地警方因槍支報告而被報警。警方稱，該物品是一把仿製槍，還查獲了一件背心和徽章。這很重要，因為恐慌導致 SCG 附近一個繁忙區域的部分區域被關閉，並表明警方在接到武器報告後會迅速採取行動。調查仍在繼續，警方稱不存在持續威脅。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/two-people-arrested-after-fake-gun-incident-at-sydney-moore-park/106992178"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/nsw-act/crime/two-people-in-custody-after-police-swarm-moore-park-entertainment-quarter/news-story/e5afb28cef6be865aab5100623dfc6be"
-        }
-      ]
-    },
-    {
-      "id": "sa-greyhound-trainer-ban-20260803",
-      "language": "zh-Hant",
-      "headline": "SA 灰狗訓練師因嚴重違反福利規定而被禁止",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T08:17:00.000Z",
-      "voiceScript": "Greyhound Racing SA 在發現屢次違反動物福利規定後，取消了 Riverland 訓練師 Vernon Anderson 的參賽資格八年多。該小組表示，他未能為一隻身體不適的狗提供獸醫護理，沒有為其他狗提供足夠的水，並將灰狗關在不合適的拖車裡。這項決定很重要，因為它使福利標準重新成為人們關注的焦點，並表明監管機構正在嚴肅對待違規行為。下一步是該裁決是否會促使整個行業對飼養和訓練條件進行更廣泛的審查。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/greyhound-trainer-vernon-anderson-banned-eight-years/106991676"
-        }
-      ]
-    },
-    {
-      "id": "bird-flu-mass-mortality-south-australia",
-      "language": "zh-Hant",
-      "headline": "南澳大利亞的禽流感疫情似乎正進入大規模死亡階段",
-      "sourceCount": 6,
-      "publishedAt": "2026-08-03T07:59:00.000Z",
-      "voiceScript": "在南澳大利亞羅布附近的海岸發現了超過80隻死亡和患病的大鳳頭燕鷗，當局表示，這一模式指向澳大利亞首例疑似與H5禽流感有關的大規模死亡事件。同樣的疫情現在也蔓延到了維多利亞州，波特蘭的一隻大鳳頭燕鷗檢測結果呈陽性，南澳大利亞州的監測也引發了人們對內陸疫情蔓延的擔憂。這很重要，因為病毒不再局限於少數海鳥的檢測；它開始在野生動物族群中傳播，從而進一步傳播。下一步是繼續監測，官員們仍然表示，目前對家禽和人類的風險仍然很低。",
-      "differences": [
-        "一份報告重點關注疑似首次大規模死亡事件以及銀鷗在將病毒傳播到內陸過程中可能發揮的作用。",
-        "另一份報告則聚焦在南澳大利亞州確診的本地傳播和最新的跨州病例數。",
-        "第三份報告強調了檢測數量的上升速度，並警告病毒可能正在開始蔓延。",
-        "第四份報告重點介紹了維多利亞州波特蘭的首例確診病例以及州政府的應對措施。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/first-bird-flu-mass-mortality-confirmed-in-australian-wildlife/106989536"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/podcast-episode/australia-confirms-first-h5-bird-flu-mass-mortality-event-evening-news-bulletin-3-august-2026/cihnuowdg"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/aug/03/australia-news-live-fuel-excise-cut-jim-chalmers-cost-of-living-anthony-albanese-labor-angus-taylor-coalition-one-nation-pauline-hanson-ntwnfb"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/starting-to-take-off-bird-flu-mass-mortality-likely"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/victoria-records-its-first-case-of-h5-bird-flu-c-22650311"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/science/animals/agriculture-minister-confirms-74-cases-of-h5-bird-flu-recorded-in-australia-first-mass-mortality-event/news-story/5ee460f5cb11cffa858749106b68d2ab"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "author": "ConanTheAquarian",
-            "title": "First Australian mass mortality event suspected as deadly bird flu virus rapidly escalates among native birds",
-            "url": "https://www.reddit.com/r/australia/comments/1vcl9hr/first_australian_mass_mortality_event_suspected/",
-            "score": 95
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "title": "Minister confirms first bird flu mass mortality in Australian wildlife",
-            "url": "https://www.reddit.com/r/australia/comments/1ve3rm4/minister_confirms_first_bird_flu_mass_mortality/",
-            "score": 80
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/BirdFluDownunder",
-            "author": "abcnews_au",
-            "title": "Minister confirms first bird flu mass mortality in Australian wildlife",
-            "url": "https://www.reddit.com/r/BirdFluDownunder/comments/1ve59tu/minister_confirms_first_bird_flu_mass_mortality/",
-            "score": 70
-          }
-        ]
-      }
-    },
-    {
-      "id": "australind-bus-stop-murder-charges-20260803",
-      "language": "zh-Hant",
-      "headline": "兩名男子因澳洲公車站死亡事件面臨謀殺指控",
-      "sourceCount": 3,
-      "publishedAt": "2026-08-03T07:58:00.000Z",
-      "voiceScript": "班伯里以南澳洲公車站發現一名男子身亡，傷勢嚴重，兩名 30 多歲的男子被指控謀殺。警方稱，這名男子於週日黎明前被發現，後來在醫院死亡。這很重要，因為此案引發了西澳一個小社區的兇殺案調查，並可能導致更多證據收集或法庭訴訟。偵探們仍在拼湊到底發生了什麼事。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/murder-charges-for-australind-bus-stop-death/106989540"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/young-man-found-unconscious-at-wa-bus-stop-dies-sparking-homicide-probe-c-22664173"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/western-australia/man-20s-found-fatallyinjured-at-bus-stop-in-australind-western-australia/news-story/8b64d745e7ae1639bdf05e9c0842c4c5"
-        }
-      ]
-    },
-    {
-      "id": "one-nation-poll-20260803",
-      "language": "zh-Hant",
-      "headline": "一國黨民調回升持續給聯盟黨施壓",
-      "sourceCount": 3,
-      "publishedAt": "2026-08-03T07:36:17.000Z",
-      "voiceScript": "最新民調再次把一國黨推到聯邦競爭的前列，聯盟黨人士也再次公開討論是否應該與保琳·漢森的政黨合作。這個結果重要在於，它顯示選民的不滿仍在重塑選戰，尤其是在生活成本和移民議題上。接下來要看的是，這些數字會不會變成真正的偏好交易，還是只是給主要政黨帶來更多壓力。",
-      "differences": [],
-      "links": [
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/politics/federal/coalition-should-work-with-one-nation-to-oust-labor-says-canavan-20260803-p60kt9"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/one-nation-edges-back-in-front-in-federal-poll"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/politics/one-nation-is-australias-most-popular-political-party-poll-finds/news-story/b2f255c45b8200bfe8415928fdfbb323"
-        }
-      ]
-    },
-    {
-      "id": "nsw-mine-worker-death-20260803",
-      "language": "zh-Hant",
-      "headline": "獵人谷礦難再添現場安全壓力",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T07:30:48.578Z",
-      "voiceScript": "A工人在獵人谷發生礦難中喪生，為業界帶來新的悲痛。此案很重要，因為它再次提醒人們，即使擁有現代安全系統，重工業仍面臨嚴重風險。調查人員現在必須確定失敗的原因以及是否涉及任何程序或設備問題。",
-      "differences": [],
-      "links": [
-        {
-          "source": "9News",
-          "url": "https://www.nine.com.au/australia-news/nsw/mine-worker-death-hunter-valley-20260803-p60l2h.html"
-        }
-      ]
-    },
-    {
-      "id": "black-swan-vape-20260803",
-      "language": "zh-Hant",
-      "headline": "WA青少年因黑天鵝電子煙視頻而面臨法庭",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T07:22:00.000Z",
-      "voiceScript": "西澳大利亞州的兩名十幾歲男孩在一段據稱顯示他們讓黑天鵝吸入電子煙煙霧的視頻後出庭。此案很重要，因為它將野生動物傷害與社交媒體記錄混合在一起，並可能加強對此類影片共享方式的審查。下一步是法庭程序和任何動物福利回應。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/a-teenager-forces-a-black-swan-to-inhale-vape-fumes/106990084"
-        }
-      ]
-    },
-    {
-      "id": "sa-hospital-corridor-care-inquiry-20260803",
-      "language": "zh-Hant",
-      "headline": "南澳大利亞醫院走廊護理提示詢問電話",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T07:16:37.000Z",
-      "voiceScript": "南澳大利亞的醫生和護士警告說，患者仍在醫院走廊接受治療，這表明系統內部的壓力尚未緩解。這個問題很重要，因為走廊護理會減慢治療速度，給工作人員帶來壓力，並給在適當床位上等待的人帶來安全風險。下一步是州或醫院管理人員是否下令進行正式審查，並在更多冬季壓力到來之前騰出空間。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/sa-nurses-union-calls-for-investigation-into-rah-corridor-use/106989858"
-        }
-      ]
-    },
-    {
-      "id": "arnhem-land-leader-remembered-20260803",
-      "language": "zh-Hant",
-      "headline": "阿納姆地領導人因土地權利和社區服務而被銘記",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-03T06:54:36.000Z",
-      "voiceScript": "Bakamumu Marika 在阿納姆地東北部因將土地權利工作、文化權威和社區服務融為一體的領導而被人們銘記。這個故事很重要，因為高級氏族領導人往往擁有影響國家、遺產和地方決策談判的知識。悼念活動仍在繼續，下一步是家庭和社區選擇如何紀念他的遺產。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/bakamumu-marika-arnhem-land-rirratjingu-leader-remembered/106990720"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/bakamumu-marika-rirratjingu-clan-elder-dies/praicefd3"
-        }
-      ]
-    },
-    {
-      "id": "wallabies-japan-heat-typhoon-test-20260803",
-      "language": "zh-Hant",
-      "headline": "小袋鼠为日本的高温和台风做好准备",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T06:50:33.000Z",
-      "voiceScript": "澳大利亚橄榄球队在日本面临考验，那里的极端高温和可能的台风可能会影响选择、战术和球员的安全。這很重要，因為天氣會改變比賽的節奏，打亂踢球計劃，並迫使最後一刻改變恢復和工作量管理。現在主要的不確定性是開球前的預測如何變化，以及官員是否需要調整賽程或準備工作。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/wallabies-to-battle-heat-typhoon-in-japanese-test/106991928"
-        }
-      ]
-    },
-    {
-      "id": "luke-trainor-ban-20260803",
-      "language": "zh-Hant",
-      "headline": "卢克·特雷纳(Luke Trainor)在落后击球后面临一场禁赛",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-03T06:30:00.000Z",
-      "voiceScript": "里士满后卫卢克·特雷纳(Luke Trainor)在老虎队获胜期间击中了西海岸的杰克·威廉姆斯(Jack Williams)后被停赛一场。處罰很重要，因為里士滿仍在試圖解決這支年輕球隊的問題，每個缺席的球員都會影響選拔和紀律。下一步是俱樂部是否接受暫停或推動不同的結果。",
-      "differences": [],
-      "links": [
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/sport/afl/stupidity-richmond-coach-unleashes-on-luke-trainor-after-onegame-ban-for-stomach-punch-against-west-coast-rival/news-story/e19ebdeaa47ce0fca7b2e6c65df84cbc"
-        },
-        {
-          "source": "AFL",
-          "url": "https://www.afl.com.au/news/1576785/match-review-young-richmond-tiger-luke-trainor-cops-ban-for-behind-play-gut-punch"
-        }
-      ]
-    },
-    {
-      "id": "canberra-hume-circle-height-cut-20260803",
-      "language": "zh-Hant",
-      "headline": "堪培拉规划者在强烈反对后削减了休姆圈的高度上限",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-03T06:25:06.000Z",
-      "voiceScript": "ACT规划者在强烈社区反对后削减了堪培拉南部休姆圈区拟议的最大建筑高度。這項變化很重要，因為它決定了主要交通樞紐周圍區域的密集程度，並為首都以後的住房決策定下了基調。該計劃仍在協商和最終批准中，因此在任何施工開始之前設計可能會再次更改。",
-      "differences": [
-        "一份報告重點關注社區強烈反對後的減少。",
-        "另一份報告重點關注國家首都管理局對該區域的控制以及最初的 15 層提案。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/south-canberra-hume-circle-precinct-height-limit-reduced/106989064"
-        },
-        {
-          "source": "The Canberra Times",
-          "url": "https://www.canberratimes.com.au/story/9322434/national-capital-authority-hume-circle-high-rise-plan-approved/"
-        }
-      ]
-    },
-    {
-      "id": "yvonne-whear-appeal-20260803",
-      "language": "zh-Hant",
-      "headline": "Murwillumbah 家族重新寻找 Yvonne Whear",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T06:25:00.000Z",
-      "voiceScript": "Yvonne Whear 的家人在73 岁的老人几个月前在 Murwillumbah 附近失踪。警方表示，她最後一次已知的活動是在二月被捕捉到的，調查人員仍需要了解此後發生的事情的線索。此案很重要，因為搜尋工作已經持續了半年多，家人或警方都沒有得到答案。下一步是公共幫助，包括任何看到她的汽車或在北部河流周圍活動的人。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/daughters-emotional-appeal-missing-woman-yvonne-whear/106990750"
-        }
-      ]
-    },
-    {
-      "id": "liberty-bell-bay-liquidation-20260803",
-      "language": "zh-Hant",
-      "headline": "自由贝尔湾的关闭使塔斯马尼亚的就业和清理成本面临风险",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T06:24:58.000Z",
-      "voiceScript": "塔斯马尼亚北部的贝尔湾锰冶炼厂在出售失败和清算推进后正在清盘。這次停工很重要，因為它威脅到約 250 個工作崗位，影響地區工業供應，並可能使政府面臨巨額補救費用。迫在眉睫的問題是，如果工地無法出售，工人如何得到支持以及由誰來支付費用。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/liberty-bell-bay-smelter-officially-enters-liquidation/106989546"
-        }
-      ]
-    },
-    {
-      "id": "sydney-toll-deal-20260803",
-      "language": "zh-Hant",
-      "headline": "雪梨通行費下調，減負要到明年才開始",
-      "sourceCount": 3,
-      "publishedAt": "2026-08-03T04:56:00.000Z",
-      "voiceScript": "新南威爾士州政府表示，雪梨幾條通行費將從明年起下降，這是與營運商達成新協議後的結果，Lane Cove Tunnel、M2 和 Cross City Tunnel 的收費都會降低。這個方案重要在於，它承諾替通勤者減輕負擔，但並沒有取消收費道路體系。接下來要關注的是節省究竟有多少能真正落到日常駕駛者身上，以及收費改革在實施前是否還會遇到政治阻力。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/toll-prices-to-be-lowered-on-multiple-sydney-motorways-nsw-gov/106990380"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/widespread-toll-road-changes-both-give-and-take-away"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/nsw-act/politics/road-tolls-across-major-sydney-roads-to-be-cut-after-nsw-government-strikes-billiondollar-deal-with-operators/news-story/1060ab372af74068aabbdb74128c55a4"
-        }
-      ]
-    },
-    {
-      "id": "news-bargaining-incentive-20260803",
-      "language": "zh-Hant",
-      "headline": "工黨重寫新聞稅引發出版界反彈",
-      "sourceCount": 3,
-      "publishedAt": "2026-08-03T02:31:58.000Z",
-      "voiceScript": "聯邦政府重寫了新聞議價稅方案，讓科技公司仍然面對與澳洲出版機構達成交易的壓力，但徵稅基礎變得更窄。這樣調整很重要，因為它可能繼續把資金導向本地新聞業，同時降低更大貿易衝突的風險。接下來要看的是，修訂後的方案是否足以促使大型平台繼續談判。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/big-tech-google-australian-media-news-bargaining-/106989038"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/tech-giants-face-higher-levy-under-tweaked-news-plan"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/online/albanese-government-ups-the-ante-in-journalism-pay-stoush-with-silicon-valley/news-story/9433d614918c36632e90f02900846ae0"
-        }
-      ]
-    },
-    {
-      "id": "bird-flu-st-kilda-penguins-20260804",
-      "language": "zh-Hant",
-      "headline": "聖基爾達小企鵝捲入禽流感警報",
-      "sourceCount": 3,
-      "publishedAt": "2026-08-02T06:54:00.000Z",
-      "voiceScript": "維多利亞州的禽流感疫情如今被視為對聖基爾達小企鵝群的威脅，官員警告說，如果病毒持續在本地野生動物之間傳播，後果可能相當嚴重。這則新聞重要，因為疫情已不再只是零星發現，而是開始影響各州的保育規劃。下一步是持續監測，並決定是否需要為脆弱的企鵝群和沿海鳥類採取更多保護措施。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-02/sa-bird-flu-concern/106987886"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/aug/04/breaking-news-icac-liberal-politics-royal-commission-antisemitism-gambling-ad-inquiry-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-one-nation-ntwnfb"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/australia-bird-flu-mass-mortality-nz-response-vaccine/8vogcqplb"
-        }
-      ]
-    }
-  ],
-  "links": []
+ "updatedAt": "2026-08-04T05:12:30.402Z",
+ "generatedBy": "codex",
+ "language": "zh-Hant",
+ "sources": [
+ {
+ "id": "abc",
+ "name": "ABC News",
+ "region": "National",
+ "feed": "https://www.abc.net.au/news/feed/51120/rss.xml"
+ },
+ {
+ "id": "sbs",
+ "name": "SBS News",
+ "region": "National",
+ "feed": "https://www.sbs.com.au/news/feed"
+ },
+ {
+ "id": "guardian-au",
+ "name": "The Guardian Australia",
+ "region": "National",
+ "feed": "https://www.theguardian.com/australia-news/rss"
+ },
+ {
+ "id": "news-com-au",
+ "name": "news.com.au",
+ "region": "National",
+ "feed": "https://www.news.com.au/content-feeds/latest-news-rss/"
+ },
+ {
+ "id": "the-australian",
+ "name": "The Australian",
+ "region": "National",
+ "feed": "https://www.theaustralian.com.au/"
+ },
+ {
+ "id": "yahoo-au",
+ "name": "Yahoo News Australia",
+ "region": "National",
+ "feed": "https://au.news.yahoo.com/"
+ },
+ {
+ "id": "afr",
+ "name": "Australian Financial Review",
+ "region": "Business",
+ "feed": "https://www.afr.com/latest"
+ },
+ {
+ "id": "sky-news-au",
+ "name": "Sky News Australia",
+ "region": "National",
+ "feed": "https://www.skynews.com.au/australia-news"
+ },
+ {
+ "id": "nine-news-au",
+ "name": "9News",
+ "region": "National",
+ "feed": "https://www.9news.com.au/national"
+ },
+ {
+ "id": "seven-news-au",
+ "name": "7NEWS",
+ "region": "National",
+ "feed": "https://7news.com.au/news/australia"
+ },
+ {
+ "id": "smh",
+ "name": "The Sydney Morning Herald",
+ "region": "NSW",
+ "feed": "https://www.smh.com.au/national"
+ },
+ {
+ "id": "the-age",
+ "name": "The Age",
+ "region": "Victoria",
+ "feed": "https://www.theage.com.au/national/victoria"
+ },
+ {
+ "id": "brisbane-times",
+ "name": "Brisbane Times",
+ "region": "Queensland",
+ "feed": "https://www.brisbanetimes.com.au/national/queensland"
+ },
+ {
+ "id": "watoday",
+ "name": "WAtoday",
+ "region": "Western Australia",
+ "feed": "https://www.watoday.com.au/national/western-australia"
+ },
+ {
+ "id": "canberra-times",
+ "name": "The Canberra Times",
+ "region": "ACT",
+ "feed": "https://www.canberratimes.com.au/news/latest-news/"
+ },
+ {
+ "id": "aap",
+ "name": "AAP",
+ "region": "National",
+ "feed": "https://www.aap.com.au/news/"
+ }
+ ],
+ "errors": [
+ "news.com.au latest-news feed still required search-assisted fallback for some current Australian items.",
+ "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings.",
+ "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results."
+ ],
+ "clusters": [
+ {
+ "id": "antisemitism-protest-hearing-20260804",
+ "language": "zh-Hant",
+ "headline": "雪梨抗議證詞擴大了反猶調查範圍",
+ "sourceCount": 3,
+ "publishedAt": "2026-08-04T03:36:41.000Z",
+ "voiceScript": "雪梨的反猶主義皇家委員會正在審視有關爭議性抗議活動的證詞，其中包括一場挺巴勒斯坦集會和一次新納粹示威。這場聽證的重要性在於，它把調查從個別事件擴展到抗議如何被執法管理，以及仇恨如何滲入公共生活。下一步將是持續聽取證人與執法部門的證詞，釐清發生了什麼，以及哪些做法需要改變。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-04/antisemitism-royal-commission-protests-david-ossip/106993436"
+ },
+ {
+ "source": "AAP",
+ "url": "https://aapnews.aap.com.au/news/anti-semitism-probe-set-to-examine-incendiary-protests"
+ },
+ {
+ "source": "The Guardian Australia",
+ "url": "https://www.theguardian.com/australia-news/live/2026/aug/04/breaking-news-icac-liberal-politics-royal-commission-antisemitism-gambling-ad-inquiry-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-one-nation-ntwnfb"
+ }
+ ],
+ "socialDiscussions": {
+ "en": [
+ {
+ "platform": "Facebook",
+ "account": "Australian Jewish Association - AJA",
+ "title": "Royal commission to examine the Sydney Opera House protest and protest footage",
+ "url": "https://www.facebook.com/AustralianJewishAssociation/posts/tomorrow-the-royal-commission-will-examine-the-protest-at-the-sydney-opera-house/1060449953032044/",
+ "score": 10
+ },
+ {
+ "platform": "Facebook",
+ "account": "ABC Sydney",
+ "title": "Royal commission hearing post on antisemitism evidence and pro-Palestinian protest context",
+ "url": "https://www.facebook.com/abcinsydney/posts/the-royal-commission-on-antisemitism-and-social-cohesion-has-heard-from-former-a/1438174621678955/",
+ "score": 8
+ }
+ ]
+ }
+ },
+ {
+ "id": "victoria-cabinet-ai-portfolio-20260804",
+ "language": "zh-Hant",
+ "headline": "班·卡羅為維州新內閣增設人工智能事務",
+ "sourceCount": 2,
+ "publishedAt": "2026-08-04T03:36:17.000Z",
+ "voiceScript": "維多利亞州新州長班·卡羅已經公布新內閣，並專門設立倫理人工智能事務。這項調整很重要，因為它把AI政策直接放進內閣層級，而不是放在邊緣位置，也顯示政府在領導層更替後想重新整隊。接下來要看的是這項工作由哪個部門負責、新部長有多大權限，以及這次改組能否穩定政府內部的動盪。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-04/ben-carroll-ministry-named-artificial-intelligence-added/106994074"
+ },
+ {
+ "source": "The Guardian Australia",
+ "url": "https://www.theguardian.com/australia-news/live/2026/aug/04/breaking-news-icac-liberal-politics-royal-commission-antisemitism-gambling-ad-inquiry-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-one-nation-ntwnfb"
+ }
+ ]
+ },
+ {
+ "id": "bob-montgomery-charity-ride-death-20260804",
+ "language": "zh-Hant",
+ "headline": "Bob Montgomery 完成全澳騎行後去世",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-04T03:26:54.000Z",
+ "voiceScript": "Bob Montgomery 在完成一段橫跨澳洲、全長5300公里的騎行一天後去世，這趟旅程是為了替運動神經元病籌款並提高關注。這則故事重要，因為它把一場家庭公益行動變成全國焦點，也把人們的目光重新拉回MND患者所需要的支援服務。接下來，大家會關注募得資金如何使用，以及家人和支持者要如何紀念這段騎行和他本人。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-04/bob-montgomery-mnd-charity-cyclist-death/106994142"
+ }
+ ],
+ "socialDiscussions": {
+ "en": [
+ {
+ "platform": "Facebook",
+ "account": "ABC Illawarra",
+ "title": "MND advocate Bob Montgomery has died after completing the 5,300-kilometre ride",
+ "url": "https://www.facebook.com/abcillawarra/posts/motor-neurone-disease-mnd-advocate-bob-montgomery-has-died-just-one-day-after-co/1543650647775735/",
+ "score": 20
+ },
+ {
+ "platform": "Facebook",
+ "account": "2GB Sydney",
+ "title": "Mark Levy tribute to Bob Montgomery after the Great Never Give Up Ride",
+ "url": "https://www.facebook.com/2GBSydney/posts/an-emotional-mark-levy-has-paid-tribute-to-bob-montgomery-who-unexpectedly-passe/1596850872452613/",
+ "score": 12
+ },
+ {
+ "platform": "Facebook",
+ "account": "ABC Illawarra",
+ "title": "Bob Montgomery and Tom Malcolm complete cross-country MND ride",
+ "url": "https://www.facebook.com/abcillawarra/posts/bowrals-bob-montgomery-82-and-his-grandson-tom-malcolm-18-have-completed-a-5300-/1541892247951575/",
+ "score": 10
+ }
+ ]
+ }
+ },
+ {
+ "id": "alan-jones-trial-20260804",
+ "language": "zh-Hant",
+ "headline": "Alan Jones 在雪梨的審判進入詳細證詞階段",
+ "sourceCount": 3,
+ "publishedAt": "2026-08-04T03:21:52.000Z",
+ "voiceScript": "Alan Jones 在雪梨的審判現在正在聽取首位控訴人的詳細證詞，法庭正在審查跨越多年的猥褻攻擊與性接觸指控。這宗案件重要，因為它把一位知名媒體人物的私人行為變成一場可能持續很久的刑事審理，並可能重塑他的公眾形象。接下來還會有更多證人出庭、辯方質疑，以及可能持續數月的法官獨審程序，之後才會進入裁決或量刑階段。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-04/nsw-court-alan-jones-complainant-j-sexual-touching-trial/106991654"
+ },
+ {
+ "source": "The Guardian Australia",
+ "url": "https://www.theguardian.com/australia-news/live/2026/aug/04/alan-jones-trial-live-updates-day-2-sydney-court-case-latest-news-ntwnfb"
+ },
+ {
+ "source": "news.com.au",
+ "url": "https://www.news.com.au/national/nsw-act/courts-law/man-alleges-alan-jones-groped-him-while-driving/news-story/b00da3f896e3e429acda01eb6687eaef"
+ }
+ ],
+ "socialDiscussions": {
+ "en": [
+ {
+ "platform": "YouTube",
+ "account": "10 News",
+ "title": "Alan Jones Trial: Alleged Victim Takes Stand As He Denies 22 Charges",
+ "url": "https://www.youtube.com/watch?v=77K9pv8vdxM",
+ "score": 20
+ },
+ {
+ "platform": "Facebook",
+ "account": "ABC Sydney",
+ "title": "Veteran Sydney broadcaster Alan Jones is on trial for indecent assault and sexual touching charges",
+ "url": "https://www.facebook.com/abcinsydney/posts/veteran-sydney-broadcaster-alan-jones-is-on-trial-for-indecent-assault-and-sexua/1451114583718292/",
+ "score": 18
+ },
+ {
+ "platform": "Facebook",
+ "account": "9 News",
+ "title": "Alan Jones's first alleged victim gives evidence on day one of the trial",
+ "url": "https://www.facebook.com/9News/posts/alan-jones-first-alleged-victim-has-given-evidence-on-day-one-of-the-broadcaster/1523490779806646/",
+ "score": 15
+ },
+ {
+ "platform": "Facebook",
+ "account": "The Guardian Australia",
+ "title": "Alan Jones arrives at court ahead of trial",
+ "url": "https://www.facebook.com/theguardianaustralia/videos/alan-jones-arrives-at-court-ahead-of-trial/2244571979637087/",
+ "score": 12
+ },
+ {
+ "platform": "Reddit",
+ "community": "r/australia",
+ "author": "Expensive-Horse5538",
+ "title": "Charge dropped against veteran broadcaster Alan Jones ahead of indecent assault trial",
+ "url": "https://www.reddit.com/r/australia/comments/1tufjlz/charge_dropped_against_veteran_broadcaster_alan/",
+ "postedAt": "2026-06",
+ "score": 8
+ }
+ ]
+ }
+ },
+ {
+ "id": "nt-mining-rates-push-20260803",
+ "language": "zh-Hant",
+ "headline": "北領地議會推動採礦費率權力",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T23:57:52.000Z",
+ "voiceScript": "北領地議會希望有權在自己的地區設定採礦費率，認為目前的設置使當地社區缺乏收入。這個問題很重要，因為採礦計畫往往對道路、服務和住房提出很高的要求，而收益分配不均。下一步是領地立法者是否支持這項變革以及礦業公司如何應對。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-04/lgant-seeks-change-to-increase-rate-payments-mining-companies/106975344"
+ }
+ ]
+ },
+ {
+ "id": "private-credit-danger-20260803",
+ "language": "zh-Hant",
+ "headline": "澳洲私人信貸繁榮面臨壓力測試",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T23:56:46.000Z",
+ "voiceScript": "Jon Adgemis 的房地產崩潰現在被用來研究私人信貸在澳洲商業房地產內部的成長情況。風險很重要，因為債務位於傳統銀行體系之外，但當大型開發商倒閉時，它仍然決定誰承擔損失。接下來的問題是風險敞口有多深、債權人收回了什麼，以及監管機構是否需要加強監管。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-04/property-collapse-highlights-private-credit-danger-jon-adgemis/106992190"
+ }
+ ]
+ },
+ {
+ "id": "nsw-icac-reformers-branch-stacking-20260804",
+ "language": "zh-Hant",
+ "headline": "新州貪腐調查因改革派拉票指控擴大",
+ "sourceCount": 3,
+ "publishedAt": "2026-08-03T23:42:00.000Z",
+ "voiceScript": "新南威爾士州ICAC正在調查，自由黨派系人物是否利用受限捐款和拉票擴員手法在黨內擴大影響力。這個問題重要，因為它牽涉捐贈規則、黨內控制權，以及高層政治人物的信譽。接下來會有更多聽證證據、可能的移送，以及這些指控是否最終成為正式認定的更清晰答案。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-03/icac-rosny-to-focus-on-senior-colleague-of-kellie-sloane/106986178"
+ },
+ {
+ "source": "The Guardian Australia",
+ "url": "https://www.theguardian.com/australia-news/live/2026/aug/04/breaking-news-icac-liberal-politics-royal-commission-antisemitism-gambling-ad-inquiry-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-one-nation-ntwnfb"
+ },
+ {
+ "source": "news.com.au",
+ "url": "https://www.news.com.au/national/courts-law/woke-agenda-liberal-party-branch-takeover-in-day-two-of-nsw-icac-probe/news-story/545d391337ec2ee222639f4d82fc6b14"
+ }
+ ]
+ },
+ {
+ "id": "qld-governor-20260803",
+ "language": "zh-Hant",
+ "headline": "昆士蘭州任命了 11 月的新州長",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T23:37:46.000Z",
+ "voiceScript": "昆士蘭州已選擇最高法院法官 Thomas Bradley 成為該州下一任州長，定於 11 月 1 日宣誓就職。移交很重要，因為州長簽署法律、召開議會並履行關鍵的憲法職責。現在的實際焦點是過渡期和 Bradley 進入角色的議程。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-04/qld-new-queensland-governor-announced/106993600"
+ }
+ ],
+ "socialDiscussions": {
+ "en": [
+ {
+ "platform": "Reddit",
+ "community": "r/AustralianPolitics",
+ "author": "Expensive-Horse5538",
+ "title": "Justice Thomas Bradley to replace Dr Jeannette Young as Queensland governor",
+ "url": "https://www.reddit.com/r/AustralianPolitics/comments/1veudx1/justice_thomas_bradley_to_replace_dr_jeannette/",
+ "score": 45
+ },
+ {
+ "platform": "Facebook",
+ "account": "David Crisafulli MP",
+ "title": "Queensland's next Governor will be Justice Thomas Bradley",
+ "url": "https://www.facebook.com/DavidCrisafulliMP/posts/queenslands-next-governor-will-be-justice-thomas-bradleyjustice-bradley-currentl/1413080983967729/",
+ "score": 25
+ }
+ ]
+ }
+ },
+ {
+ "id": "brisbane-airborne-bus-20260803",
+ "language": "zh-Hant",
+ "headline": "布里斯班事故鏡頭使致命的公共汽車案件變得更加尖銳",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T23:17:05.000Z",
+ "voiceScript": "布里斯班公共汽車內部的新閉路電視顯示了一輛汽車在空中猛烈撞擊車輛的那一刻，導致其前端停在公共汽車座椅上。這段影片很重要，因為它更清晰地描繪了一場與行人死亡和法庭上訴有關的車禍。下一步是上訴程序以及對碰撞如何展開的進一步審查。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-04/qld-new-cctv-airborne-car-hits-bus-rocklea/106993326"
+ }
+ ],
+ "socialDiscussions": {
+ "en": [
+ {
+ "platform": "Reddit",
+ "community": "r/brisbane",
+ "title": "CCTV of the car that flew onto the bus at Archerfield yesterday",
+ "url": "https://www.reddit.com/r/brisbane/comments/1vadw3t/cctv_of_the_car_that_flew_onto_the_bus_at/",
+ "score": 120
+ }
+ ]
+ }
+ },
+ {
+ "id": "free-range-egg-labels-20260803",
+ "language": "zh-Hant",
+ "headline": "當母雞搬到室內時，放養雞蛋標籤保持不變",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T21:56:56.000Z",
+ "voiceScript": "A澳洲雞蛋生產商正在將母雞搬到室內以限制禽流感風險，監管機構放寬了放養標籤規則以適應這一變化。這很重要，因為它同時影響消費者期望、食品價格和生物安全。現在的關鍵問題是疾病壓力是否有所緩解，或者是否會出現更多限制。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-04/accc-extends-pause-on-free-range-egg-labelling-rules-bird-flu/106989736"
+ }
+ ]
+ },
+ {
+ "id": "wa-wet-start-20260803",
+ "language": "zh-Hant",
+ "headline": "西澳西南部在經歷了創紀錄的干燥七月之後，將迎來一個更加潮濕的開局",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T21:24:00.648Z",
+ "voiceScript": "在經歷了有史以來最乾燥的七月之一之後，西澳西南部將在八月份迎來一個更加潮濕的開局。降雨在這裡很重要，因為它可以緩解短期土壤壓力並幫助當地供水，但它也會帶來道路濕滑和農活緩慢。預報員現在將觀察該系統有多少部分保持在一起，以及降雨是否到達內陸地區。",
+ "differences": [],
+ "links": [
+ {
+ "source": "9News",
+ "url": "https://www.nine.com.au/australia-news/wa/weather-news-western-australia-south-west-wet-start-to-august-after-record-dry-july-20260804-p60l55.html"
+ }
+ ]
+ },
+ {
+ "id": "ndis-cuts-canberra-20260803",
+ "language": "zh-Hant",
+ "headline": "堪培拉殘疾人受益人擔心即將到來的 NDIS 削減",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T20:44:20.000Z",
+ "voiceScript": "堪培拉 NDIS 受益人 Nicci Carlson 表示，迫在眉睫的該計劃削減讓弱勢群體在生活成本緊張期間感覺自己像是替罪羊。這個案子很重要，因為辯論不再抽象化：真正的支持、遠見和日常獨立都岌岌可危。下一步是聯邦改革是否保護高需求人群，同時仍減緩支出成長。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-04/looming-ndis-cuts-instil-fear-in-canberrans/106857198"
+ }
+ ]
+ },
+ {
+ "id": "sydney-ai-data-centre-park-20260804",
+ "language": "zh-Hant",
+ "headline": "悉尼 AI 資料中心計畫引發綠地爭議",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T20:42:00.000Z",
+ "voiceScript": "悉尼 Arncliffe 原 Kogarah Golf Club 場地的重建方案引發強烈反對，因為 AI 資料中心被列為潛在用途之一。整個方案還包括物流、商業空間、酒店、停車位，以及 Cooks River 沿線公共綠地。問題核心不是要不要資料中心，而是悉尼能不能在擴建數位基礎設施時，同時守住稀缺城市綠地、社區安寧和電網承載力。下一步要看新州規劃評估，以及申請方如何回應社區意見。",
+ "differences": [],
+ "links": [
+ {
+ "source": "news.com.au",
+ "url": "https://www.news.com.au/technology/environment/sustainability/disgusted-pristine-sydney-green-space-to-be-replaced-by-enormous-ai-data-centre/news-story/3eb0fb8ed0e97f35e7f7d6899759d7a4"
+ }
+ ],
+ "commentary": {
+ "zh-Hant": "更有參考價值的比較不是資料中心好壞，而是選址和回饋機制。新加坡曾因電力和土地壓力暫停新的資料中心審批，後來用能效條件重新開放；愛爾蘭則是反面樣本，電網壓力讓大型項目越來越難獲得政治支持。新州可以把資料中心當成重型基礎設施處理：早期公開電力和用水假設，要求可行的餘熱利用或電網支撐方案，並把社區收益寫成可衡量承諾。如果項目主要消耗稀缺土地和電力，而收益多數外溢到本地之外，反對只會繼續擴大。"
+ },
+ "socialDiscussions": {
+ "en": [
+ {
+ "platform": "Reddit",
+ "community": "r/sydney",
+ "author": "ComfortableFrosty261",
+ "title": "Sydney's data centre boom is turning suburbs into 'wastelands', councils warn",
+ "url": "https://www.reddit.com/r/sydney/comments/1v6pnds/sydneys_data_centre_boom_is_turning_suburbs_into/",
+ "postedAt": "2026-07-26",
+ "score": 45
+ },
+ {
+ "platform": "Facebook",
+ "account": "Heidi Lee Douglas - Bayside Councillor",
+ "title": "A giant data centre on the edge of one of Sydney's last underdeveloped water front green spaces",
+ "url": "https://www.facebook.com/HeidiBayside/posts/a-giant-data-centre-on-the-edge-of-one-of-sydneys-last-underdeveloped-water-front/1035237385516046/",
+ "score": 30
+ },
+ {
+ "platform": "Facebook",
+ "account": "Sutherland Shire & St George News",
+ "title": "A huge AI data centre is part of concept plans for the old Kogarah Golf Club site",
+ "url": "https://www.facebook.com/SutherlandShireStGeorgeNews/posts/a-huge-ai-data-centre-is-part-of-concept-plans-for-the-old-kogarah-golf-club-sit/1520190913451909/",
+ "score": 24
+ },
+ {
+ "platform": "Facebook",
+ "account": "United Voice of Australia",
+ "title": "'Disgusted': Pristine Sydney green space to be replaced by enormous AI data centre",
+ "url": "https://www.facebook.com/unitedvoiceofaustralia/posts/disgusted-pristine-sydney-green-space-to-be-replaced-by-enormous-ai-data-centrep/1038549812147630/",
+ "score": 20
+ },
+ {
+ "platform": "Facebook",
+ "account": "Daily Telegraph",
+ "title": "Plans to build an AI data centre as part of the redevelopment of an old Sydney golf course have sparked backlash",
+ "url": "https://www.facebook.com/dailytelegraph/posts/plans-to-build-an-ai-data-centre-as-part-of-the-redevelopment-of-an-old-sydney-g/1469138301910234/",
+ "score": 18
+ }
+ ]
+ }
+ },
+ {
+ "id": "white-strawberries-australia-20260803",
+ "language": "zh-Hant",
+ "headline": "澳洲種植者試用白色和紅草莓",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T20:31:33.000Z",
+ "voiceScript": "澳洲園藝業現在正在商業化種植白色和紅草莓品種，而不僅僅是熟悉的紅色水果。新莓果很重要，因為種植者正在尋找脫穎而出且能在市場上保值的產品。下一個考驗是購物者是否接受顏色變化以及品種是否能夠超越利基市場。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/rural/2026-08-04/new-white-strawberry-varieties-grown-commercially-in-australia/106980704"
+ }
+ ]
+ },
+ {
+ "id": "antisemitism-warning-australia-20260803",
+ "language": "zh-Hant",
+ "headline": "US 猶太領導人警告澳洲對反猶太主義採取行動",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T20:28:37.000Z",
+ "voiceScript": "A 美國猶太領導人警告澳洲面臨反猶太主義的嚴峻考驗。由於政府和社區團體面臨著應對日益加劇的敵意和兩極分化的壓力，因此出現了警告。下一個問題是該資訊是否會轉化為更強的安全、教育和公共領導。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-04/jonathan-greenblatt-warning-australia-antisemitism/106990830"
+ }
+ ],
+ "socialDiscussions": {
+ "en": [
+ {
+ "platform": "X",
+ "author": "Jonathan Greenblatt",
+ "title": "Jonathan Greenblatt on what must come next to protect the Jewish community in Australia",
+ "url": "https://x.com/JGreenblattADL/status/2082612678774726958",
+ "score": 35
+ }
+ ]
+ }
+ },
+ {
+ "id": "qld-fines-written-off-20260803",
+ "language": "zh-Hant",
+ "headline": "昆士蘭州註銷了近 1.4 億美元的未付罰款",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T20:02:00.000Z",
+ "voiceScript": "昆士蘭州註銷了上個財政年度近 1.4 億美元的未付罰款，涵蓋了超過 46 萬項債務。這很重要，因為當國家徵收的罰款減少而金額不斷增加時，罰款就會成為一個政策問題。下一步是官員是否加強復甦或重新考慮事實證明難以收取的處罰。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-04/140-million-unpaid-fines-written-off-qld-government-sper/106991032"
+ }
+ ]
+ },
+ {
+ "id": "neil-the-seal-merch-claim-20260803",
+ "language": "zh-Hant",
+ "headline": "尼爾海豹商品網站因捐贈索賠問題而被關閉",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T19:21:11.000Z",
+ "voiceScript": "尼爾海豹商品網站在對其捐贈索賠和商店使用的藝術品提出質疑後已被關閉。这很重要，因为当慈善承诺不明确时，病毒式野生动物品牌很快就会成为消费者保护问题。下一個問題是監管機構或平台是否會採取行動，以及營運商是否會解釋缺失的合作關係。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-04/neil-seal-merch-website-claim-donate-conservation-removed/106978138"
+ }
+ ]
+ },
+ {
+ "id": "prediction-markets-warning-20260803",
+ "language": "zh-Hant",
+ "headline": "澳洲的預測市場引起消費者警告",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T19:02:30.000Z",
+ "voiceScript": "企業監管機構表示，澳洲的預測市場正在迅速擴張，而消費者保護仍然薄弱。這很重要，因為人們在產品中押注政治、天氣、戰爭和其他事件，這些產品看起來與普通賭博不同，但仍存在真正的財務風險。如果运营商不能表现出更好的保障措施，下一步可能会面临更大的监管压力。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-04/corporate-watchdog-warns-about-illegal-prediction-markets/106989498"
+ }
+ ],
+ "socialDiscussions": {
+ "en": [
+ {
+ "platform": "Reddit",
+ "community": "r/australia",
+ "author": "Cube00",
+ "title": "Prediction markets 'akin to gambling', corporate regulator warns",
+ "url": "https://www.reddit.com/r/australia/comments/1ven6ev/prediction_markets_akin_to_gambling_corporate/",
+ "score": 85
+ }
+ ]
+ }
+ },
+ {
+ "id": "canva-ai-revenue-reset-20260803",
+ "language": "zh-Hant",
+ "headline": "Canva 的人工智慧支出迫使收入罕見地重置",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T19:00:00.000Z",
+ "voiceScript": "Canva 表示，向人工智慧的轉變成本超出預期，因此削減了收入目標。這很重要，因為該公司是澳洲最大的科技公司之一，其支出選擇會影響招募、產品時機和投資者信心。现在的关键问题是 Canva 能否在不长期减缓增长的情况下吸收更高的费用。",
+ "differences": [],
+ "links": [
+ {
+ "source": "Australian Financial Review",
+ "url": "https://www.afr.com/technology/canva-s-ai-bill-shock-causes-rare-revenue-downgrade-20260803-p60kzm"
+ }
+ ]
+ },
+ {
+ "id": "qantas-outsourcing-accenture-20260803",
+ "language": "zh-Hant",
+ "headline": "澳洲航空正在考慮與埃森哲進行重大的後台轉移",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T19:00:00.000Z",
+ "voiceScript": "antas 正在與埃森哲就一項大型外包舉措進行談判，該舉措可能會將約 1,000 個後台工作崗位轉移到海外。這個問題很重要，因為它關係到成本削減、自動化和澳洲國家航空公司就業的未來。下一步是谈判是否成为正式计划以及工人和工会如何应对。",
+ "differences": [],
+ "links": [
+ {
+ "source": "Australian Financial Review",
+ "url": "https://www.afr.com/companies/transport/qantas-eyes-major-outsourcing-move-with-accenture-backed-ai-deal-20260803-p60kzc"
+ }
+ ],
+ "socialDiscussions": {
+ "en": [
+ {
+ "platform": "Reddit",
+ "community": "r/australia",
+ "author": "cocowave",
+ "title": "Qantas project IQ: Airline considers moving 1000 back-office roles to India in potential Accenture deal",
+ "url": "https://www.reddit.com/r/australia/comments/1veuwp5/qantas_project_iq_airline_considers_moving_1000/",
+ "score": 100
+ },
+ {
+ "platform": "Reddit",
+ "community": "r/cscareerquestionsOCE",
+ "author": "Own_Oil7951",
+ "title": "Qantas outsourcing plans advanced thorough talks with Accenture to move 1000 back-office roles to India",
+ "url": "https://www.reddit.com/r/cscareerquestionsOCE/comments/1veultd/qantas_outsourcing_plans_advanced_thorough_talks/",
+ "score": 85
+ }
+ ]
+ }
+ },
+ {
+ "id": "cheap-food-workers-20260803",
+ "language": "zh-Hant",
+ "headline": "澳洲的廉價食品供應仍依賴弱勢勞動力",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T18:45:15.000Z",
+ "voiceScript": "澳洲的低成本食品體系仍依賴議價能力最弱的工人。這很重要，因為低廉的超市價格可能掩蓋了工作時間不安全、低薪以及種植者和包裝廠面臨的壓力。下一個問題是，更嚴格的執法和購買標準是否可以在不使新鮮食品大幅上漲的情況下改善狀況。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-04/australias-hidden-modern-slave-labour-workforce-exposed/106968610"
+ }
+ ]
+ },
+ {
+ "id": "downsizing-barriers-20260803",
+ "language": "zh-Hant",
+ "headline": "年長的澳洲人仍然面臨縮小住房的障礙",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T18:40:43.000Z",
+ "voiceScript": "許多55歲以上的澳洲人表示，他們願意搬進較小的房屋，但實際的障礙不斷減緩這種轉變。最大的障礙是情感依附、稀缺的合適庫存以及搬家的成本和文書工作。這很重要，因為推出更多適合縮小規模的住房可以緩解緊張的房地產市場的壓力。下一步是規劃和稅收設置是否使較小的房屋更容易找到和搬進。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-04/older-people-downsizing-barriers/106975436"
+ }
+ ]
+ },
+ {
+ "id": "fitzroy-school-abuse-20260803",
+ "language": "zh-Hant",
+ "headline": "菲茨羅伊社區學校面臨新的虐待指控",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T18:39:11.000Z",
+ "voiceScript": "墨爾本的一所另類學校因被指控男學生對女學生進行排名並在網上分享材料而受到新的審查，而單獨的虐待指控可以追溯到幾十年前。由於家人和前學生要求追究責任，學校已聘請一名調查員。這很重要，因為社區辦學仍然需要強而有力的保護和投訴系統。下一步是調查以及監管機構或警方的後續行動。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-04/fitzroy-community-school-sexual-abuse-grooming-allegations/106859826"
+ }
+ ]
+ },
+ {
+ "id": "barnaby-joyce-refugees-one-nation-20260803",
+ "language": "zh-Hant",
+ "headline": "Barnaby Joyce 的難民立場再次受到審查",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T15:00:22.000Z",
+ "voiceScript": "Barnaby Joyce 的難民觀點在播客重新審視他過去對阿米代爾重新安置的支持與一國黨在移民問題上的強硬立場之間的差距後重新成為焦點。這個問題很重要，因為它突顯了地區現實和政黨政策如何朝相反的方向發展。懸而未決的問題是，喬伊斯是否會改變他對難民的陷害方式，還是讓矛盾繼續存在。",
+ "differences": [],
+ "links": [
+ {
+ "source": "The Guardian Australia",
+ "url": "https://www.theguardian.com/australia-news/rss"
+ }
+ ]
+ },
+ {
+ "id": "kmart-camera-glasses-20260803",
+ "language": "zh-Hant",
+ "headline": "Kmart 的廉價相機眼鏡引發隱私警告",
+ "sourceCount": 2,
+ "publishedAt": "2026-08-03T15:00:22.000Z",
+ "voiceScript": "Kmart 的 89 美元 Anko 相機眼鏡已售罄，將一副廉價的可穿戴相機送到更多澳洲人手中。這款眼鏡可以錄製影片和靜態影像，隱私倡導者表示，這使得在商店、交通和其他公共場所未經同意的情況下拍攝人們變得更容易。這很重要，因為該設備降低了秘密錄音的成本，而隱私規則仍在不斷改進。下一個問題是零售商、監管機構和購物者是否將其視為正常的小工具或新的監控問題。",
+ "differences": [],
+ "links": [
+ {
+ "source": "The Guardian Australia",
+ "url": "https://www.theguardian.com/australia-news/2026/aug/04/kmart-camera-glasses-anko-meta-smartglasses-australia"
+ },
+ {
+ "source": "news.com.au",
+ "url": "https://www.news.com.au/lifestyle/real-life/news-life/kmart-targets-89-version-of-meta-glasses-sparks-outrage/news-story/4785c495eec7be27fb10084d867f369c"
+ }
+ ],
+ "socialDiscussions": {
+ "en": [
+ {
+ "platform": "Reddit",
+ "community": "r/australia",
+ "author": "totalcool",
+ "title": "Kmart sells out of low-cost rival to Meta camera glasses across Australia amid warnings of 'privacy nightmare'",
+ "url": "https://www.reddit.com/r/australia/comments/1venuuh/kmart_sells_out_of_lowcost_rival_to_meta_camera/",
+ "upvotes": 380,
+ "score": 380
+ },
+ {
+ "platform": "Reddit",
+ "community": "r/news",
+ "author": "CharlieKonR",
+ "title": "Kmart sells out of low-cost rival to Meta camera glasses across Australia amid warnings of 'privacy nightmare' | Consumer affairs",
+ "url": "https://www.reddit.com/r/news/comments/1vem3ot/kmart_sells_out_of_lowcost_rival_to_meta_camera/",
+ "score": 120
+ }
+ ],
+ "zh-Hans": [
+ {
+ "platform": "Forum",
+ "community": "新足迹",
+ "author": "edith921",
+ "title": "Kmart的“Meta平替”相机眼镜在全澳售罄",
+ "url": "https://www.oursteps.com.au/bbs/forum.php?mod=viewthread&tid=1899960",
+ "postedAt": "2026-08-04T10:49:00+10:00",
+ "score": 20
+ }
+ ],
+ "zh-Hant": [
+ {
+ "platform": "Forum",
+ "community": "新足跡",
+ "author": "edith921",
+ "title": "Kmart的「Meta平替」相機眼鏡在全澳售罄",
+ "url": "https://www.oursteps.com.au/bbs/forum.php?mod=viewthread&tid=1899960",
+ "postedAt": "2026-08-04T10:49:00+10:00",
+ "score": 20
+ }
+ ]
+ }
+ },
+ {
+ "id": "victoria-montessori-explicit-instruction-20260803",
+ "language": "zh-Hant",
+ "headline": "維多利亞州的明確教學推動正在逐步淘汰蒙特梭利課程隨著州政府不斷推動學校進行顯式教學，維多利亞州的",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T15:00:21.000Z",
+ "voiceScript": "A公立學校正在逐步淘汰其蒙特梭利課程。家庭很重視這個項目，因為它為學生提供了一種更靈活、自主的學習方式，尤其是那些處理健康問題或焦慮的學生。這個問題很重要，因為全州範圍的教學模式可能會排擠其他課堂方法。懸而未決的問題是學校是否可以保留任何形式的項目，以及更多的維多利亞蒙特梭利流是否會在 2028 年截止日期之前消失。",
+ "differences": [],
+ "links": [
+ {
+ "source": "The Guardian Australia",
+ "url": "https://www.theguardian.com/australia-news/2026/aug/03/montessori-learning-is-being-shut-down-at-leahs-school-is-a-push-towards-explicit-instruction-to-blame"
+ }
+ ]
+ },
+ {
+ "id": "wa-caravan-rollover-20260803",
+ "language": "zh-Hant",
+ "headline": "西澳偏遠地區的大篷車翻車事故造成兩人死亡和一名兒童生命垂危",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T11:39:32.490Z",
+ "voiceScript": "A 西澳大利亞州偏遠地區的大篷車翻車事故已導致兩人死亡，一名兒童生命垂危。這次事故很重要，因為在偏僻的鄉村道路上救援可能很遠，所以即使是翻車也可能很快致命。警方现在需要弄清楚车辆到底是如何滚动的，以及速度、路况或疲劳是否起了作用。",
+ "differences": [],
+ "links": [
+ {
+ "source": "9News",
+ "url": "https://www.nine.com.au/australia-news/wa/two-dead-child-fighting-for-life-after-caravan-crash-in-remote-wa-20260803-p60l47.html"
+ }
+ ]
+ },
+ {
+ "id": "canberra-private-school-ranking-20260803",
+ "language": "zh-Hant",
+ "headline": "堪培拉私立學校在男生對女學生進行排名後面臨審查",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T10:00:18.000Z",
+ "voiceScript": "堪培拉文法學校正在調查男生散發了一份按外表對女學生進行排名並在網上分享的名單。報道中的名單包含大約 100 個名字，並被家人描述為有辱人格。這很重要，因為它指出了學校內圍繞厭女症、同意和網路行為的嚴重文化問題。任何處罰都將取決於學校的調查結果。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-03/canberra-private-school-boys-ranked-female-students/106982550"
+ }
+ ]
+ },
+ {
+ "id": "tom-dearden-cowboys-future-20260803",
+ "language": "zh-Hant",
+ "headline": "Tom Dearden 拒絕了牛仔隊退出的猜測",
+ "sourceCount": 3,
+ "publishedAt": "2026-08-03T09:55:26.000Z",
+ "voiceScript": "Tom Dearden 駁回了有關他希望離開牛仔隊的傳言，稱他仍然致力於北昆士蘭，併計劃在2029年之前完成合約。這個故事很重要，因為謠言一直伴隨著他經歷傷病和家庭計劃，將一名球員的決定變成了一個更廣泛的合約故事。目前，他的立场没有改变：他说他会留下来，下一个问题是围绕他未来的喧嚣是否最终尘埃落定。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-03/tom-dearden-clears-air-on-cowboys-future/106992486"
+ },
+ {
+ "source": "news.com.au",
+ "url": "https://www.news.com.au/sport/nrl/nrl-star-tom-dearden-slams-rumour-he-wanted-to-leave-cowboys-over-personal-reasons/news-story/5a5a13a6f83c1d78ad77f3f5d5ec4b6b"
+ },
+ {
+ "source": "AAP",
+ "url": "https://aapnews.aap.com.au/news/lot-of-nonsense-dearden-clears-air-on-cowboys-future"
+ }
+ ]
+ },
+ {
+ "id": "camp-sovereignty-assault-investigation-20260803",
+ "language": "zh-Hant",
+ "headline": "維多利亞警方正在調查涉嫌在墨爾本內陸主權營地發生的襲擊事件",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T09:29:21.000Z",
+ "voiceScript": "維多利亞警方正在調查墨爾本內城區主權營地發生的一起涉嫌襲擊事件，一名37歲的男子因面部受傷接受治療。該地點是原住民抗議營地，警方表示他們正在調查夜間發生的事情。這很重要，因為該營地之前就已經成為攻擊目標，任何結論都可能影響當局如何應對仇恨驅動或政治色彩的攻擊。警方尚未宣布指控，調查仍在進行中。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-03/police-investigate-camp-sovereignty-alleged-assault/106992312"
+ }
+ ]
+ },
+ {
+ "id": "john-gibbs-cancer-diagnosis-20260803",
+ "language": "zh-Hant",
+ "headline": "John Gibbs 在癌症診斷後退出",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T09:23:41.000Z",
+ "voiceScript": "前曼利-沃林加海鷹隊中衛、橄欖球聯賽評論員 John Gibbs 表示，他已被診斷出患有霍奇金淋巴瘤。在治療開始期間，他將退出廣播，同事和粉絲已經開始給予他支持。這很重要，因為多年來吉布斯一直是這項運動中熟悉的聲音。他的下一步是治療，目前還沒有給予公開的預後。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-03/john-gibbs-diagnosed-with-cancer/106991610"
+ }
+ ]
+ },
+ {
+ "id": "adelaide-prison-worker-conviction-20260803",
+ "language": "zh-Hant",
+ "headline": "阿德萊德監獄工作人員因強姦囚犯而被定罪",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T09:03:00.000Z",
+ "voiceScript": "A南澳大利亞陪審團裁定前監獄工作人員埃尼奧·斯克雷潘蒂犯有強姦罪和對一名女囚犯的嚴重猥褻罪。該判決很重要，因為它引發了有關懲教設施內濫用權力以及如何處理投訴的問題。斯克雷潘蒂在下個月的量刑前聽證會之前已被還押。下一步是量刑和任何上訴程序。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-03/jury-finds-enio-screpanti-guilty-adelaide-prison-rape/106990732"
+ }
+ ]
+ },
+ {
+ "id": "australia-isis-prosecutions-20260803",
+ "language": "zh-Hant",
+ "headline": "隨著ISIS起訴的進展，澳洲將目光投向德國",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T08:44:01.000Z",
+ "voiceScript": "A澳洲正準備測試自己與ISIS相關的起訴，德國的經驗被用作參考。這種比較很重要，因為戰爭罪和種族滅絕案件依賴複雜的證據、漫長的時間表以及調查人員和法院之間的仔細協調。如果澳洲的程序正確，它可以為未來的案件製定持久的標準。下一步是聽證會是否保持正軌並產生明確的法律先例。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+ }
+ ]
+ },
+ {
+ "id": "fake-gun-scare-20260803",
+ "language": "zh-Hant",
+ "headline": "悉尼摩爾公園的複製槍支恐慌以兩人被捕告終",
+ "sourceCount": 2,
+ "publishedAt": "2026-08-03T08:33:30.000Z",
+ "voiceScript": "新南威爾士州警方在悉尼娛樂區做出重大反應後逮捕了兩名男子，當地警方因槍支報告而被報警。警方稱，該物品是一把仿製槍，還查獲了一件背心和徽章。這很重要，因為恐慌導致 SCG 附近一個繁忙區域的部分區域被關閉，並表明警方在接到武器報告後會迅速採取行動。調查仍在繼續，警方稱不存在持續威脅。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-03/two-people-arrested-after-fake-gun-incident-at-sydney-moore-park/106992178"
+ },
+ {
+ "source": "news.com.au",
+ "url": "https://www.news.com.au/national/nsw-act/crime/two-people-in-custody-after-police-swarm-moore-park-entertainment-quarter/news-story/e5afb28cef6be865aab5100623dfc6be"
+ }
+ ]
+ },
+ {
+ "id": "sa-greyhound-trainer-ban-20260803",
+ "language": "zh-Hant",
+ "headline": "SA 灰狗訓練師因嚴重違反福利規定而被禁止",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T08:17:00.000Z",
+ "voiceScript": "Greyhound Racing SA 在發現屢次違反動物福利規定後，取消了 Riverland 訓練師 Vernon Anderson 的參賽資格八年多。該小組表示，他未能為一隻身體不適的狗提供獸醫護理，沒有為其他狗提供足夠的水，並將灰狗關在不合適的拖車裡。這項決定很重要，因為它使福利標準重新成為人們關注的焦點，並表明監管機構正在嚴肅對待違規行為。下一步是該裁決是否會促使整個行業對飼養和訓練條件進行更廣泛的審查。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-03/greyhound-trainer-vernon-anderson-banned-eight-years/106991676"
+ }
+ ]
+ },
+ {
+ "id": "bird-flu-mass-mortality-south-australia",
+ "language": "zh-Hant",
+ "headline": "南澳大利亞的禽流感疫情似乎正進入大規模死亡階段",
+ "sourceCount": 6,
+ "publishedAt": "2026-08-03T07:59:00.000Z",
+ "voiceScript": "在南澳大利亞羅布附近的海岸發現了超過80隻死亡和患病的大鳳頭燕鷗，當局表示，這一模式指向澳大利亞首例疑似與H5禽流感有關的大規模死亡事件。同樣的疫情現在也蔓延到了維多利亞州，波特蘭的一隻大鳳頭燕鷗檢測結果呈陽性，南澳大利亞州的監測也引發了人們對內陸疫情蔓延的擔憂。這很重要，因為病毒不再局限於少數海鳥的檢測；它開始在野生動物族群中傳播，從而進一步傳播。下一步是繼續監測，官員們仍然表示，目前對家禽和人類的風險仍然很低。",
+ "differences": [
+ "一份報告重點關注疑似首次大規模死亡事件以及銀鷗在將病毒傳播到內陸過程中可能發揮的作用。",
+ "另一份報告則聚焦在南澳大利亞州確診的本地傳播和最新的跨州病例數。",
+ "第三份報告強調了檢測數量的上升速度，並警告病毒可能正在開始蔓延。",
+ "第四份報告重點介紹了維多利亞州波特蘭的首例確診病例以及州政府的應對措施。"
+ ],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-03/first-bird-flu-mass-mortality-confirmed-in-australian-wildlife/106989536"
+ },
+ {
+ "source": "SBS News",
+ "url": "https://www.sbs.com.au/news/podcast-episode/australia-confirms-first-h5-bird-flu-mass-mortality-event-evening-news-bulletin-3-august-2026/cihnuowdg"
+ },
+ {
+ "source": "The Guardian Australia",
+ "url": "https://www.theguardian.com/australia-news/live/2026/aug/03/australia-news-live-fuel-excise-cut-jim-chalmers-cost-of-living-anthony-albanese-labor-angus-taylor-coalition-one-nation-pauline-hanson-ntwnfb"
+ },
+ {
+ "source": "AAP",
+ "url": "https://aapnews.aap.com.au/news/starting-to-take-off-bird-flu-mass-mortality-likely"
+ },
+ {
+ "source": "7NEWS",
+ "url": "https://7news.com.au/news/victoria-records-its-first-case-of-h5-bird-flu-c-22650311"
+ },
+ {
+ "source": "news.com.au",
+ "url": "https://www.news.com.au/technology/science/animals/agriculture-minister-confirms-74-cases-of-h5-bird-flu-recorded-in-australia-first-mass-mortality-event/news-story/5ee460f5cb11cffa858749106b68d2ab"
+ }
+ ],
+ "socialDiscussions": {
+ "en": [
+ {
+ "platform": "Reddit",
+ "community": "r/australia",
+ "author": "ConanTheAquarian",
+ "title": "First Australian mass mortality event suspected as deadly bird flu virus rapidly escalates among native birds",
+ "url": "https://www.reddit.com/r/australia/comments/1vcl9hr/first_australian_mass_mortality_event_suspected/",
+ "score": 95
+ },
+ {
+ "platform": "Reddit",
+ "community": "r/australia",
+ "title": "Minister confirms first bird flu mass mortality in Australian wildlife",
+ "url": "https://www.reddit.com/r/australia/comments/1ve3rm4/minister_confirms_first_bird_flu_mass_mortality/",
+ "score": 80
+ },
+ {
+ "platform": "Reddit",
+ "community": "r/BirdFluDownunder",
+ "author": "abcnews_au",
+ "title": "Minister confirms first bird flu mass mortality in Australian wildlife",
+ "url": "https://www.reddit.com/r/BirdFluDownunder/comments/1ve59tu/minister_confirms_first_bird_flu_mass_mortality/",
+ "score": 70
+ }
+ ]
+ }
+ },
+ {
+ "id": "australind-bus-stop-murder-charges-20260803",
+ "language": "zh-Hant",
+ "headline": "兩名男子因澳洲公車站死亡事件面臨謀殺指控",
+ "sourceCount": 3,
+ "publishedAt": "2026-08-03T07:58:00.000Z",
+ "voiceScript": "班伯里以南澳洲公車站發現一名男子身亡，傷勢嚴重，兩名 30 多歲的男子被指控謀殺。警方稱，這名男子於週日黎明前被發現，後來在醫院死亡。這很重要，因為此案引發了西澳一個小社區的兇殺案調查，並可能導致更多證據收集或法庭訴訟。偵探們仍在拼湊到底發生了什麼事。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-03/murder-charges-for-australind-bus-stop-death/106989540"
+ },
+ {
+ "source": "7NEWS",
+ "url": "https://7news.com.au/news/young-man-found-unconscious-at-wa-bus-stop-dies-sparking-homicide-probe-c-22664173"
+ },
+ {
+ "source": "news.com.au",
+ "url": "https://www.news.com.au/national/western-australia/man-20s-found-fatallyinjured-at-bus-stop-in-australind-western-australia/news-story/8b64d745e7ae1639bdf05e9c0842c4c5"
+ }
+ ]
+ },
+ {
+ "id": "one-nation-poll-20260803",
+ "language": "zh-Hant",
+ "headline": "一國黨民調回升持續給聯盟黨施壓",
+ "sourceCount": 3,
+ "publishedAt": "2026-08-03T07:36:17.000Z",
+ "voiceScript": "最新民調再次把一國黨推到聯邦競爭的前列，聯盟黨人士也再次公開討論是否應該與 Pauline Hanson 的政黨合作。這個結果重要在於，它顯示選民的不滿仍在重塑選戰，尤其是在生活成本和移民議題上。接下來要看的是，這些數字會不會變成真正的偏好交易，還是只是給主要政黨帶來更多壓力。",
+ "differences": [],
+ "links": [
+ {
+ "source": "Australian Financial Review",
+ "url": "https://www.afr.com/politics/federal/coalition-should-work-with-one-nation-to-oust-labor-says-canavan-20260803-p60kt9"
+ },
+ {
+ "source": "AAP",
+ "url": "https://aapnews.aap.com.au/news/one-nation-edges-back-in-front-in-federal-poll"
+ },
+ {
+ "source": "news.com.au",
+ "url": "https://www.news.com.au/national/politics/one-nation-is-australias-most-popular-political-party-poll-finds/news-story/b2f255c45b8200bfe8415928fdfbb323"
+ }
+ ]
+ },
+ {
+ "id": "nsw-mine-worker-death-20260803",
+ "language": "zh-Hant",
+ "headline": "獵人谷礦難再添現場安全壓力",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T07:30:48.578Z",
+ "voiceScript": "A工人在獵人谷發生礦難中喪生，為業界帶來新的悲痛。此案很重要，因為它再次提醒人們，即使擁有現代安全系統，重工業仍面臨嚴重風險。調查人員現在必須確定失敗的原因以及是否涉及任何程序或設備問題。",
+ "differences": [],
+ "links": [
+ {
+ "source": "9News",
+ "url": "https://www.nine.com.au/australia-news/nsw/mine-worker-death-hunter-valley-20260803-p60l2h.html"
+ }
+ ]
+ },
+ {
+ "id": "black-swan-vape-20260803",
+ "language": "zh-Hant",
+ "headline": "WA青少年因黑天鵝電子煙視頻而面臨法庭",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T07:22:00.000Z",
+ "voiceScript": "西澳大利亞州的兩名十幾歲男孩在一段據稱顯示他們讓黑天鵝吸入電子煙煙霧的視頻後出庭。此案很重要，因為它將野生動物傷害與社交媒體記錄混合在一起，並可能加強對此類影片共享方式的審查。下一步是法庭程序和任何動物福利回應。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-03/a-teenager-forces-a-black-swan-to-inhale-vape-fumes/106990084"
+ }
+ ]
+ },
+ {
+ "id": "sa-hospital-corridor-care-inquiry-20260803",
+ "language": "zh-Hant",
+ "headline": "南澳大利亞醫院走廊護理提示詢問電話",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T07:16:37.000Z",
+ "voiceScript": "南澳大利亞的醫生和護士警告說，患者仍在醫院走廊接受治療，這表明系統內部的壓力尚未緩解。這個問題很重要，因為走廊護理會減慢治療速度，給工作人員帶來壓力，並給在適當床位上等待的人帶來安全風險。下一步是州或醫院管理人員是否下令進行正式審查，並在更多冬季壓力到來之前騰出空間。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-03/sa-nurses-union-calls-for-investigation-into-rah-corridor-use/106989858"
+ }
+ ]
+ },
+ {
+ "id": "arnhem-land-leader-remembered-20260803",
+ "language": "zh-Hant",
+ "headline": "阿納姆地領導人因土地權利和社區服務而被銘記",
+ "sourceCount": 2,
+ "publishedAt": "2026-08-03T06:54:36.000Z",
+ "voiceScript": "Bakamumu Marika 在阿納姆地東北部因將土地權利工作、文化權威和社區服務融為一體的領導而被人們銘記。這個故事很重要，因為高級氏族領導人往往擁有影響國家、遺產和地方決策談判的知識。悼念活動仍在繼續，下一步是家庭和社區選擇如何紀念他的遺產。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-03/bakamumu-marika-arnhem-land-rirratjingu-leader-remembered/106990720"
+ },
+ {
+ "source": "SBS News",
+ "url": "https://www.sbs.com.au/news/article/bakamumu-marika-rirratjingu-clan-elder-dies/praicefd3"
+ }
+ ]
+ },
+ {
+ "id": "wallabies-japan-heat-typhoon-test-20260803",
+ "language": "zh-Hant",
+ "headline": "小袋鼠为日本的高温和台风做好准备",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T06:50:33.000Z",
+ "voiceScript": "澳大利亚橄榄球队在日本面临考验，那里的极端高温和可能的台风可能会影响选择、战术和球员的安全。這很重要，因為天氣會改變比賽的節奏，打亂踢球計劃，並迫使最後一刻改變恢復和工作量管理。現在主要的不確定性是開球前的預測如何變化，以及官員是否需要調整賽程或準備工作。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-03/wallabies-to-battle-heat-typhoon-in-japanese-test/106991928"
+ }
+ ]
+ },
+ {
+ "id": "luke-trainor-ban-20260803",
+ "language": "zh-Hant",
+ "headline": "Luke Trainor(Luke Trainor)在落后击球后面临一场禁赛",
+ "sourceCount": 2,
+ "publishedAt": "2026-08-03T06:30:00.000Z",
+ "voiceScript": "里士满后卫 Luke Trainor(Luke Trainor)在老虎队获胜期间击中了西海岸的 Jack Williams(Jack Williams)后被停赛一场。處罰很重要，因為里士滿仍在試圖解決這支年輕球隊的問題，每個缺席的球員都會影響選拔和紀律。下一步是俱樂部是否接受暫停或推動不同的結果。",
+ "differences": [],
+ "links": [
+ {
+ "source": "news.com.au",
+ "url": "https://www.news.com.au/sport/afl/stupidity-richmond-coach-unleashes-on-luke-trainor-after-onegame-ban-for-stomach-punch-against-west-coast-rival/news-story/e19ebdeaa47ce0fca7b2e6c65df84cbc"
+ },
+ {
+ "source": "AFL",
+ "url": "https://www.afl.com.au/news/1576785/match-review-young-richmond-tiger-luke-trainor-cops-ban-for-behind-play-gut-punch"
+ }
+ ]
+ },
+ {
+ "id": "canberra-hume-circle-height-cut-20260803",
+ "language": "zh-Hant",
+ "headline": "堪培拉规划者在强烈反对后削减了休姆圈的高度上限",
+ "sourceCount": 2,
+ "publishedAt": "2026-08-03T06:25:06.000Z",
+ "voiceScript": "ACT规划者在强烈社区反对后削减了堪培拉南部休姆圈区拟议的最大建筑高度。這項變化很重要，因為它決定了主要交通樞紐周圍區域的密集程度，並為首都以後的住房決策定下了基調。該計劃仍在協商和最終批准中，因此在任何施工開始之前設計可能會再次更改。",
+ "differences": [
+ "一份報告重點關注社區強烈反對後的減少。",
+ "另一份報告重點關注國家首都管理局對該區域的控制以及最初的 15 層提案。"
+ ],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-03/south-canberra-hume-circle-precinct-height-limit-reduced/106989064"
+ },
+ {
+ "source": "The Canberra Times",
+ "url": "https://www.canberratimes.com.au/story/9322434/national-capital-authority-hume-circle-high-rise-plan-approved/"
+ }
+ ]
+ },
+ {
+ "id": "yvonne-whear-appeal-20260803",
+ "language": "zh-Hant",
+ "headline": "Murwillumbah 家族重新寻找 Yvonne Whear",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T06:25:00.000Z",
+ "voiceScript": "Yvonne Whear 的家人在73 岁的老人几个月前在 Murwillumbah 附近失踪。警方表示，她最後一次已知的活動是在二月被捕捉到的，調查人員仍需要了解此後發生的事情的線索。此案很重要，因為搜尋工作已經持續了半年多，家人或警方都沒有得到答案。下一步是公共幫助，包括任何看到她的汽車或在北部河流周圍活動的人。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-03/daughters-emotional-appeal-missing-woman-yvonne-whear/106990750"
+ }
+ ]
+ },
+ {
+ "id": "liberty-bell-bay-liquidation-20260803",
+ "language": "zh-Hant",
+ "headline": "自由贝尔湾的关闭使塔斯马尼亚的就业和清理成本面临风险",
+ "sourceCount": 1,
+ "publishedAt": "2026-08-03T06:24:58.000Z",
+ "voiceScript": "塔斯马尼亚北部的贝尔湾锰冶炼厂在出售失败和清算推进后正在清盘。這次停工很重要，因為它威脅到約 250 個工作崗位，影響地區工業供應，並可能使政府面臨巨額補救費用。迫在眉睫的問題是，如果工地無法出售，工人如何得到支持以及由誰來支付費用。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-03/liberty-bell-bay-smelter-officially-enters-liquidation/106989546"
+ }
+ ]
+ },
+ {
+ "id": "sydney-toll-deal-20260803",
+ "language": "zh-Hant",
+ "headline": "雪梨通行費下調，減負要到明年才開始",
+ "sourceCount": 3,
+ "publishedAt": "2026-08-03T04:56:00.000Z",
+ "voiceScript": "新南威爾士州政府表示，雪梨幾條通行費將從明年起下降，這是與營運商達成新協議後的結果，Lane Cove Tunnel、M2 和 Cross City Tunnel 的收費都會降低。這個方案重要在於，它承諾替通勤者減輕負擔，但並沒有取消收費道路體系。接下來要關注的是節省究竟有多少能真正落到日常駕駛者身上，以及收費改革在實施前是否還會遇到政治阻力。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-03/toll-prices-to-be-lowered-on-multiple-sydney-motorways-nsw-gov/106990380"
+ },
+ {
+ "source": "AAP",
+ "url": "https://aapnews.aap.com.au/news/widespread-toll-road-changes-both-give-and-take-away"
+ },
+ {
+ "source": "news.com.au",
+ "url": "https://www.news.com.au/national/nsw-act/politics/road-tolls-across-major-sydney-roads-to-be-cut-after-nsw-government-strikes-billiondollar-deal-with-operators/news-story/1060ab372af74068aabbdb74128c55a4"
+ }
+ ]
+ },
+ {
+ "id": "news-bargaining-incentive-20260803",
+ "language": "zh-Hant",
+ "headline": "工黨重寫新聞稅引發出版界反彈",
+ "sourceCount": 3,
+ "publishedAt": "2026-08-03T02:31:58.000Z",
+ "voiceScript": "聯邦政府重寫了新聞議價稅方案，讓科技公司仍然面對與澳洲出版機構達成交易的壓力，但徵稅基礎變得更窄。這樣調整很重要，因為它可能繼續把資金導向本地新聞業，同時降低更大貿易衝突的風險。接下來要看的是，修訂後的方案是否足以促使大型平台繼續談判。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-03/big-tech-google-australian-media-news-bargaining-/106989038"
+ },
+ {
+ "source": "AAP",
+ "url": "https://aapnews.aap.com.au/news/tech-giants-face-higher-levy-under-tweaked-news-plan"
+ },
+ {
+ "source": "news.com.au",
+ "url": "https://www.news.com.au/technology/online/albanese-government-ups-the-ante-in-journalism-pay-stoush-with-silicon-valley/news-story/9433d614918c36632e90f02900846ae0"
+ }
+ ]
+ },
+ {
+ "id": "bird-flu-st-kilda-penguins-20260804",
+ "language": "zh-Hant",
+ "headline": "聖基爾達小企鵝捲入禽流感警報",
+ "sourceCount": 3,
+ "publishedAt": "2026-08-02T06:54:00.000Z",
+ "voiceScript": "維多利亞州的禽流感疫情如今被視為對聖基爾達小企鵝群的威脅，官員警告說，如果病毒持續在本地野生動物之間傳播，後果可能相當嚴重。這則新聞重要，因為疫情已不再只是零星發現，而是開始影響各州的保育規劃。下一步是持續監測，並決定是否需要為脆弱的企鵝群和沿海鳥類採取更多保護措施。",
+ "differences": [],
+ "links": [
+ {
+ "source": "ABC News",
+ "url": "https://www.abc.net.au/news/2026-08-02/sa-bird-flu-concern/106987886"
+ },
+ {
+ "source": "The Guardian Australia",
+ "url": "https://www.theguardian.com/australia-news/live/2026/aug/04/breaking-news-icac-liberal-politics-royal-commission-antisemitism-gambling-ad-inquiry-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-one-nation-ntwnfb"
+ },
+ {
+ "source": "SBS News",
+ "url": "https://www.sbs.com.au/news/article/australia-bird-flu-mass-mortality-nz-response-vaccine/8vogcqplb"
+ }
+ ]
+ }
+ ],
+ "links": []
 }
