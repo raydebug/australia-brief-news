@@ -173,6 +173,16 @@ Codex 定时任务会更新 `public/news.*.json` 并构建 `docs/`。把仓库�
 - `feed`
 - `tone`
 
+news.com.au 的 `latest-news-rss` 经常返回网页或漏掉分类新闻，不能作为唯一入口。定时任务每轮都要额外做 search-assisted fallback，至少覆盖：
+
+- `site:news.com.au/technology/environment Australia`
+- `site:news.com.au/technology/environment/sustainability Australia`
+- `site:news.com.au/technology AI data centre Australia`
+- `site:news.com.au/national NSW planning development environment`
+- 最近 24-48 小时内的 `news.com.au Australia local planning data centre environment community objections`
+
+这类本地规划、环境、AI 基础设施、电网和社区冲突新闻，即使只有一个来源，也应进入候选池；是否展示再由澳洲相关性、公共影响和重复度过滤决定。
+
 ## 商业运行降风险规则
 
 - 只基于公开来源中的事实重新撰写简报，不复制新闻原文、原始标题、图片、视频、音频或官方 logo。
