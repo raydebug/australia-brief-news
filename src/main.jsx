@@ -922,6 +922,41 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Thomas Bradley",
+    aliases: ["Thomas Bradley", "Justice Thomas Bradley", "The Honourable Justice Thomas Bradley", "Thomas Bradley JA", "托马斯·布拉德利", "湯瑪斯·布拉德利", "トーマス・ブラッドリー", "토머스 브래들리"],
+    type: "public-figure",
+    profile: { label: "Supreme Court Library profile", url: "https://www.sclqld.org.au/collections/explore-the-law/judicial-profiles/bradley-196815" },
+    officialProfile: { label: "Queensland Courts listing", url: "https://www.courts.qld.gov.au/the-courts/supreme-court/judges-of-the-supreme-court" },
+    background: {
+      "zh-Hans": "昆士兰州上诉法院法官，2018 年任昆士兰最高法院法官，2025 年升任上诉法院，并获任命为昆士兰第 28 任总督，计划于 2026 年 11 月就职。",
+      "zh-Hant": "昆士蘭州上訴法院法官，2018 年任昆士蘭最高法院法官，2025 年升任上訴法院，並獲任命為昆士蘭第 28 任總督，計劃於 2026 年 11 月就職。",
+      en: "Queensland Court of Appeal judge, appointed to the Supreme Court of Queensland in 2018 and the Court of Appeal in 2025, named as Queensland's 28th governor from November 2026.",
+      es: "Juez del Court of Appeal de Queensland, nombrado al Supreme Court of Queensland en 2018 y al Court of Appeal en 2025; designado 28.º gobernador de Queensland desde noviembre de 2026.",
+      ja: "Queensland Court of Appeal の判事。2018年に Supreme Court of Queensland 判事、2025年に控訴院判事となり、2026年11月から第28代 Queensland governor に任命されました。",
+      ko: "퀸즐랜드 Court of Appeal 판사입니다. 2018년 Supreme Court of Queensland 판사, 2025년 Court of Appeal 판사로 임명됐고 2026년 11월부터 퀸즐랜드 제28대 주지사로 지명됐습니다.",
+      vi: "Thẩm phán Court of Appeal Queensland, được bổ nhiệm vào Supreme Court of Queensland năm 2018 và Court of Appeal năm 2025; được chọn làm thống đốc Queensland thứ 28 từ tháng 11 năm 2026.",
+      th: "ผู้พิพากษา Queensland Court of Appeal ได้รับแต่งตั้งเป็นผู้พิพากษา Supreme Court of Queensland ในปี 2018 และ Court of Appeal ในปี 2025 ก่อนถูกเสนอชื่อเป็น Governor of Queensland คนที่ 28 ตั้งแต่พฤศจิกายน 2026",
+      si: "Queensland Court of Appeal judge කෙනෙකි; 2018 දී Supreme Court of Queensland වෙතත් 2025 දී Court of Appeal වෙතත් පත් වූ අතර 2026 නොවැම්බර් සිට Queensland හි 28 වැනි governor ලෙස නම් කර ඇත."
+    }
+  },
+  {
+    name: "Jon Adgemis",
+    aliases: ["Jon Adgemis", "John Adgemis", "Jonathon Adgemis", "乔恩·阿杰米斯", "喬恩·阿傑米斯", "ジョン・アジェミス", "존 애드제미스"],
+    type: "executive",
+    profile: { label: "DevelopmentReady interview", url: "https://www.developmentready.com.au/content-hub/video/jon-adgemis-interview" },
+    background: {
+      "zh-Hans": "澳大利亚地产和酒店业投资人，曾任 KPMG 高级并购顾问，后来创办 The Jaga Group，并因 Public Hospitality Group 债务崩盘成为私募信贷风险报道中的核心人物。",
+      "zh-Hant": "澳洲地產和酒店業投資人，曾任 KPMG 高階併購顧問，後來創辦 The Jaga Group，並因 Public Hospitality Group 債務崩盤成為私募信貸風險報導中的核心人物。",
+      en: "Australian property and hospitality investor, former senior KPMG M&A adviser and founder of The Jaga Group, whose Public Hospitality Group debt collapse has become a focal case in private-credit risk reporting.",
+      es: "Inversionista australiano en inmobiliario y hotelería, exasesor sénior de fusiones y adquisiciones en KPMG y fundador de The Jaga Group; el colapso de deuda de Public Hospitality Group lo convirtió en caso central sobre riesgos del crédito privado.",
+      ja: "オーストラリアの不動産・ホスピタリティ投資家。元 KPMG の上級 M&A アドバイザーで The Jaga Group 創業者。Public Hospitality Group の債務崩壊により、民間信用リスク報道の中心事例となっています。",
+      ko: "호주의 부동산 및 호스피탈리티 투자자입니다. 전 KPMG 선임 M&A 자문역이자 The Jaga Group 창업자로, Public Hospitality Group 부채 붕괴가 사모 신용 리스크 보도의 핵심 사례가 됐습니다.",
+      vi: "Nhà đầu tư bất động sản và hospitality tại Australia, cựu cố vấn M&A cấp cao của KPMG và nhà sáng lập The Jaga Group; vụ sụp đổ nợ của Public Hospitality Group trở thành trường hợp trung tâm trong các bài viết về rủi ro private credit.",
+      th: "นักลงทุนอสังหาริมทรัพย์และ hospitality ของออสเตรเลีย อดีตที่ปรึกษา M&A อาวุโสของ KPMG และผู้ก่อตั้ง The Jaga Group โดยวิกฤตหนี้ของ Public Hospitality Group กลายเป็นกรณีสำคัญในข่าวความเสี่ยง private credit",
+      si: "Australian property සහ hospitality investor කෙනෙකි; හිටපු senior KPMG M&A adviser සහ The Jaga Group founder වන අතර Public Hospitality Group ණය කඩා වැටීම private-credit risk reporting හි ප්‍රධාන සිද්ධියක් විය."
+    }
+  },
+  {
     name: "David Crisafulli",
     aliases: ["David Crisafulli", "David Frank Crisafulli", "David Crisafulli MP", "戴维·克里萨富利", "大衛·克里薩富利", "デイビッド・クリサフリ", "데이비드 크리사풀리"],
     type: "politician",
@@ -1647,6 +1682,23 @@ const PEOPLE_CONTEXT = [
       vi: "Vận động viên đi bộ thể thao Australia ở các nội dung 10 km, 20 km và 35 km. Cô đã đại diện Australia quốc tế và giành vàng tại World University Games 2025.",
       th: "นักกีฬา race walk ของออสเตรเลียในระยะ 10 กม., 20 กม. และ 35 กม. เคยแทนออสเตรเลียในระดับนานาชาติและได้เหรียญทอง World University Games ปี 2025",
       si: "10km, 20km සහ 35km race walk events වල තරඟ කරන Australian athlete කෙනෙකි. ඇය Australia ජාත්‍යන්තරව නියෝජනය කර 2025 World University Games හි gold medal දිනා ඇත."
+    }
+  },
+  {
+    name: "Keli Lane",
+    aliases: ["Keli Lane", "Kelli Lane", "Keli Megan Lane", "凯莉·莱恩", "凱莉·萊恩", "ケリ・レーン", "켈리 레인"],
+    type: "public-figure",
+    profile: { label: "Rule of Law case note", url: "https://www.ruleoflaw.org.au/case-note-keli-lane" },
+    background: {
+      "zh-Hans": "澳大利亚前精英水球运动员和教师，2010 年因 1996 年其新生女儿死亡案被定罪。她的定罪、上诉和“无尸体不假释”法律适用长期受到媒体和法律界关注。",
+      "zh-Hant": "澳洲前菁英水球運動員和教師，2010 年因 1996 年其新生女兒死亡案被定罪。她的定罪、上訴和「無屍體不假釋」法律適用長期受到媒體和法律界關注。",
+      en: "Former Australian elite water polo player and teacher, convicted in 2010 over the 1996 death of her newborn daughter. Her conviction, appeals and treatment under no-body-no-parole laws remain recurring legal and media issues.",
+      es: "Exjugadora australiana de waterpolo de elite y docente, condenada en 2010 por la muerte de su hija recién nacida en 1996. Su condena, apelaciones y el uso de leyes de no body no parole siguen siendo asuntos legales y mediáticos recurrentes.",
+      ja: "オーストラリアの元エリート水球選手、教師。1996年の新生児の娘の死亡をめぐり2010年に有罪判決を受けました。判決、控訴、no-body-no-parole 法の適用が継続的に報道されています。",
+      ko: "호주의 전 엘리트 수구 선수이자 교사입니다. 1996년 신생아 딸 사망 사건으로 2010년 유죄 판결을 받았고, 판결과 항소, no-body-no-parole 법 적용이 계속 법적·언론 이슈가 되고 있습니다.",
+      vi: "Cựu vận động viên water polo cấp cao và giáo viên tại Australia, bị kết án năm 2010 liên quan cái chết năm 1996 của con gái mới sinh. Bản án, các kháng cáo và việc áp dụng luật no-body-no-parole vẫn là vấn đề pháp lý và truyền thông lặp lại.",
+      th: "อดีตนักกีฬา water polo ระดับสูงและครูของออสเตรเลีย ถูกตัดสินผิดในปี 2010 จากคดีการเสียชีวิตของลูกสาวแรกเกิดในปี 1996 โดยคำพิพากษา การอุทธรณ์ และกฎหมาย no-body-no-parole ยังเป็นประเด็นข่าวและกฎหมายต่อเนื่อง",
+      si: "හිටපු Australian elite water polo player සහ teacher කෙනෙකි; 1996 දී තම newborn daughter මරණය සම්බන්ධයෙන් 2010 දී දෝෂී තීරණය විය. ඇයගේ conviction, appeals සහ no-body-no-parole නීති යටතේ සැලකීම නැවත නැවත නීති හා මාධ්‍ය ප්‍රශ්නයක් වේ."
     }
   },
   {
