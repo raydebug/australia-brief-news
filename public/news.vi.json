@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T14:05:06.208Z",
+  "updatedAt": "2026-08-04T15:19:00.506Z",
   "generatedBy": "codex",
   "language": "vi",
   "sources": [
@@ -103,9 +103,44 @@
   "errors": [
     "news.com.au latest-news feed still required search-assisted fallback for some current Australian items.",
     "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings.",
-    "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results."
+    "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results.",
+    "9News homepage JSON was usable, but some standalone article fetches still returned 404, so card URLs were resolved from the homepage."
   ],
   "clusters": [
+    {
+      "id": "commercial-rooftop-solar-expansion-20260804",
+      "language": "vi",
+      "headline": "Mở rộng hỗ trợ điện mặt trời mái nhà cho doanh nghiệp",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-04T12:26:56.000Z",
+      "voiceScript": "Chính phủ liên bang đang mở rộng chương trình giảm giá điện mặt trời để các hệ thống mái nhà thương mại lớn hơn cũng được hưởng ưu đãi, chứ không chỉ các lắp đặt nhỏ. Theo ước tính của chính phủ, một doanh nghiệp cỡ vừa có thể tiết kiệm khoảng 68.000 đô la Úc chi phí lắp đặt, còn một kho hàng hay nhà máy lớn có thể giảm khoảng 232.000 đô la Úc ban đầu và bớt khoảng 175.000 đô la Úc tiền điện mỗi năm. Điều này quan trọng vì chính sách nhắm vào khu vực thương mại vốn đi sau điện mặt trời hộ gia đình, nhất là nhà máy, cửa hàng bán lẻ và trung tâm logistics. Câu hỏi tiếp theo là thủ tục phê duyệt và năng lực lắp đặt có theo kịp hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-04/solar-installation-savings-ssre-expansion-chrise-bowen/106997140"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/environment/labor-unveils-government-solar-scheme-for-commercial-rooftops-businesses-tipped-to-save-175k-a-year/news-story/eb9ad1a8355061070bda8c7bbdc6be94"
+        }
+      ]
+    },
+    {
+      "id": "home-birth-trial-20260804",
+      "headline": "Tòa án ở Queensland nghe cuộc gọi triple zero trong vụ án sinh nở tại nhà dẫn đến chết người",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T12:01:28.626Z",
+      "voiceScript": "Trong một phiên tòa về tội ngộ sát ở Queensland, tòa đã nghe cuộc gọi triple zero liên quan đến một vụ sinh nở tại nhà dẫn đến chết người. Điều này quan trọng vì bồi thẩm đoàn phải xác định điều gì đã xảy ra trong vài phút then chốt trước khi cấp cứu tới, và phản ứng khi đó có đạt yêu cầu hay không. Vụ việc cũng nhắc rằng khi sinh tại nhà gặp biến chứng, tình hình có thể xấu đi rất nhanh. Bước tiếp theo là phần xét xử còn lại và cách bồi thẩm đoàn nhìn vào mốc thời gian.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/qld/robyn-mary-james-manslaughter-trial-triple-zero-call-played-in-fatal-home-birth-trial-20260804-p60lhb.html"
+        }
+      ],
+      "language": "vi"
+    },
     {
       "id": "tony-burke-migration-cuts-20260804",
       "language": "vi",
@@ -196,10 +231,25 @@
       }
     },
     {
+      "id": "family-paperwork-bungle-20260804",
+      "headline": "Một lỗi giấy tờ khiến một gia đình buộc phải rời Úc",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T09:47:44.649Z",
+      "voiceScript": "Một gia đình nói rằng một sai sót trong giấy tờ của chính phủ đã buộc họ phải rời Úc. Câu chuyện này cho thấy hệ thống di trú và cư trú có thể làm đảo lộn việc làm, học hành và kế hoạch gia đình chỉ vì lỗi hồ sơ, thời hạn hoặc khâu xét duyệt. Điều đó quan trọng vì sai sót hành chính đôi khi tác động lớn như một quyết định chính sách đối với người trong cuộc. Bước tiếp theo là xem gia đình này có thể kháng nghị hay sửa lỗi để quay lại hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/a-current-affair/family-forced-to-leave-australia-over-government-paperwork-bungle-20260804-p60lh3.html"
+        }
+      ],
+      "language": "vi"
+    },
+    {
       "id": "widow-tax-fix-20260804",
       "language": "vi",
       "headline": "Công đảng chuẩn bị vá lỗ hổng “thuế góa phụ” trước đợt cải cách thuế tiếp theo",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-04T09:45:27.000Z",
       "voiceScript": "Công đảng đang tìm cách vá lỗ hổng thuế mà giới chỉ trích gọi là “thuế góa phụ”. Họ muốn các ưu đãi CGT và negative gearing được áp dụng đầy đủ hơn trong các trường hợp tử vong hoặc ly hôn. Điều này quan trọng vì tài sản đầu tư đồng sở hữu có thể bị mắc kẹt khi mối quan hệ chấm dứt hoặc một người qua đời. Bộ Ngân khố nói bản dự thảo sẽ được lấy ý kiến đến ngày 21/8, nên câu hỏi là liệu sửa đổi có kịp hoàn tất trước khi ai đó bị ảnh hưởng bởi quy tắc cũ hay không.",
       "differences": [],
@@ -211,6 +261,10 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/politics/labor-to-close-divorce-widows-tax-with-second-202627-budget-tranche/news-story/e4e069e3764499440c1466a5d57a850a"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/labor-quiet-on-timeline-over-widow-tax-change-20260804-p60lee.html"
         }
       ],
       "socialDiscussions": {
@@ -273,25 +327,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "commercial-rooftop-solar-expansion-20260804",
-      "language": "vi",
-      "headline": "Mở rộng hỗ trợ điện mặt trời mái nhà cho doanh nghiệp",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-04T12:26:56.000Z",
-      "voiceScript": "Chính phủ liên bang đang mở rộng chương trình giảm giá điện mặt trời để các hệ thống mái nhà thương mại lớn hơn cũng được hưởng ưu đãi, chứ không chỉ các lắp đặt nhỏ. Theo ước tính của chính phủ, một doanh nghiệp cỡ vừa có thể tiết kiệm khoảng 68.000 đô la Úc chi phí lắp đặt, còn một kho hàng hay nhà máy lớn có thể giảm khoảng 232.000 đô la Úc ban đầu và bớt khoảng 175.000 đô la Úc tiền điện mỗi năm. Điều này quan trọng vì chính sách nhắm vào khu vực thương mại vốn đi sau điện mặt trời hộ gia đình, nhất là nhà máy, cửa hàng bán lẻ và trung tâm logistics. Câu hỏi tiếp theo là thủ tục phê duyệt và năng lực lắp đặt có theo kịp hay không.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/solar-installation-savings-ssre-expansion-chrise-bowen/106997140"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/environment/labor-unveils-government-solar-scheme-for-commercial-rooftops-businesses-tipped-to-save-175k-a-year/news-story/eb9ad1a8355061070bda8c7bbdc6be94"
-        }
-      ]
     },
     {
       "id": "kevin-rudd-taiwan-warning-20260804",
@@ -372,7 +407,7 @@
       "id": "kath-pettingill-dies-20260804",
       "language": "vi",
       "headline": "Kath Pettingill qua đời",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-08-04T08:54:20.000Z",
       "voiceScript": "Kath Pettingill đã qua đời, khép lại thêm một chương dài trong câu chuyện về một gia đình tội phạm khét tiếng ở Melbourne. Bà được biết đến là mẹ của hai người liên quan đến vụ sát hại cảnh sát ở Walsh Street, và tên tuổi của bà từ lâu đã gắn với một giai đoạn đen tối trong lịch sử Victoria. Tin này đáng chú ý không phải vì một vụ án mới, mà vì một nhân vật biểu tượng của thời kỳ đó vừa qua đời. Sắp tới, dư luận nhiều khả năng sẽ tập trung vào lời tưởng niệm, cách nhìn lại quá khứ và ý nghĩa của di sản bà để lại.",
       "differences": [],
@@ -380,6 +415,10 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-04/kath-pettingill-crime-matriarch-dies/106996596"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/kath-pettingill-melbourne-underworld-matriarch-death-20260804-p60lgh.html"
         }
       ],
       "socialDiscussions": [
@@ -490,6 +529,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "census-door-knock-scam-20260804",
+      "headline": "ABS cảnh báo lừa đảo giả danh điều tra viên trước cuộc điều tra dân số",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T06:51:01.000Z",
+      "voiceScript": "Cơ quan Thống kê Úc đang nhắc người dân cảnh giác với những kẻ giả làm nhân viên điều tra dân số trước ngày 11/8. Nhân viên thật sẽ không bao giờ hỏi số tài khoản ngân hàng, mật khẩu hay các thông tin nhạy cảm khác. Điều này quan trọng vì kết quả điều tra dân số được dùng cho trường học, y tế và hạ tầng, nên lừa đảo có thể làm giảm niềm tin ngay từ đầu. Bước tiếp theo là tăng nhắc nhở công khai và báo cáo nhanh các cuộc gõ cửa đáng ngờ.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australians-warned-about-door-knocking-scam-ahead-of-august-11-census-c-22674281"
+        }
+      ],
+      "language": "vi"
     },
     {
       "id": "gambling-inducements-denied-20260804",
@@ -616,6 +670,21 @@
       ]
     },
     {
+      "id": "sydney-harbour-bridge-crash-20260804",
+      "headline": "Va chạm trên cầu cảng Sydney làm 3 người bị thương, giao thông bị chậm",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T05:35:06.557Z",
+      "voiceScript": "Hai xe đã va chạm trên cầu cảng Sydney khiến 3 người bị thương và làm gián đoạn tạm thời một trong những tuyến đường bận rộn nhất của thành phố. Ở vị trí này, chỉ một vụ va chạm nhỏ cũng có thể lan sang dòng xe đi làm, vận chuyển hàng hóa và đường cho xe cứu thương. Vấn đề lớn hơn là tắc đường và lỗi lái xe có thể biến một tai nạn thông thường thành sự chậm trễ trên diện rộng. Bước tiếp theo là cảnh sát và lực lượng giao thông xác định nguyên nhân cũng như thời gian dọn dẹp, sửa chữa.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/sydney-harbour-bridge-chaos-after-three-injured-in-two-car-crash-20260804-p60le3.html"
+        }
+      ],
+      "language": "vi"
+    },
+    {
       "id": "sydney-ed-pressure-20260804",
       "language": "vi",
       "headline": "Bệnh viện Xi-đni lại quá tải, chỉ đến cấp cứu khi thật sự khẩn cấp",
@@ -657,6 +726,40 @@
           "title": "Winter illnesses place increasing pressure on NSW hospitals",
           "url": "https://www.facebook.com/AustraliabyAussieofficial/posts/winter-illnesses-are-placing-increasing-pressure-on-hospitals-across-new-south-w/122187033242920977/",
           "score": 12
+        }
+      ]
+    },
+    {
+      "id": "kmart-camera-glasses-20260803",
+      "language": "vi",
+      "headline": "Kmart đưa ra cảnh báo về quyền riêng tư",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-04T03:44:58.296Z",
+      "voiceScript": "Kmart đã bán hết kính máy ảnh Anko trị giá 89 USD của mình, đưa một cặp máy ảnh đeo tay giá rẻ đến tay nhiều người Úc hơn. Chiếc kính này có thể ghi lại video và hình ảnh tĩnh, và những người ủng hộ quyền riêng tư nói rằng điều đó giúp việc quay phim mọi người trở nên dễ dàng hơn mà không cần sự đồng ý ở cửa hàng, phương tiện giao thông và những nơi công cộng khác. Điều đó quan trọng vì thiết bị giúp giảm chi phí ghi âm bí mật trong khi các quy định về quyền riêng tư vẫn đang được áp dụng. Câu hỏi tiếp theo là liệu các nhà bán lẻ, cơ quan quản lý và người mua hàng có coi nó như một tiện ích bình thường hay một vấn đề giám sát mới hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/04/kmart-camera-glasses-anko-meta-smartglasses-australia"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/real-life/news-life/kmart-targets-89-version-of-meta-glasses-sparks-outrage/news-story/4785c495eec7be27fb10084d867f369c"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/kmart-low-cost-camera-glasses-sell-out-australia-privacy-concerns-meta-ray-bans-20260804-p60lca.html"
+        }
+      ],
+      "socialDiscussions": [
+        {
+          "platform": "Reddit",
+          "community": "r/australia",
+          "title": "Kmart sells out of low-cost rival to Meta camera glasses across Australia amid warnings of 'privacy nightmare'",
+          "url": "https://www.reddit.com/r/australia/comments/1venuuh/kmart_sells_out_of_lowcost_rival_to_meta_camera/",
+          "postedAt": "2026-08-04",
+          "upvotes": 649,
+          "score": 649
         }
       ]
     },
@@ -803,7 +906,7 @@
       "id": "alan-jones-trial-20260804",
       "language": "vi",
       "headline": "Phiên tòa của Alan Jones ở Sydney bước vào giai đoạn lời khai chi tiết",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-08-04T03:21:52.000Z",
       "voiceScript": "Phiên tòa xét xử Alan Jones tại Sydney hiện đang nghe lời khai chi tiết từ người khiếu nại đầu tiên, trong khi tòa xem xét các cáo buộc tấn công khiếm nhã và đụng chạm tình dục kéo dài nhiều năm. Vụ việc quan trọng vì nó biến hành vi cá nhân của một nhân vật truyền thông nổi tiếng thành một tiến trình hình sự kéo dài, có thể làm thay đổi di sản công chúng của ông. Các bước tiếp theo là thêm lời khai nhân chứng, phản biện của bên bào chữa và một phiên xét xử chỉ có thẩm phán có thể kéo dài trong nhiều tháng trước khi đến giai đoạn phán quyết hoặc tuyên án.",
       "differences": [],
@@ -819,6 +922,10 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/nsw-act/courts-law/man-alleges-alan-jones-groped-him-while-driving/news-story/b00da3f896e3e429acda01eb6687eaef"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/alan-jones-six-alleged-victims-to-enter-the-witness-box-20260804-p60l4r.html"
         }
       ],
       "socialDiscussions": [
@@ -1480,36 +1587,6 @@
       ]
     },
     {
-      "id": "kmart-camera-glasses-20260803",
-      "language": "vi",
-      "headline": "Kmart đưa ra cảnh báo về quyền riêng tư",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-03T15:00:22.000Z",
-      "voiceScript": "Kmart đã bán hết kính máy ảnh Anko trị giá 89 USD của mình, đưa một cặp máy ảnh đeo tay giá rẻ đến tay nhiều người Úc hơn. Chiếc kính này có thể ghi lại video và hình ảnh tĩnh, và những người ủng hộ quyền riêng tư nói rằng điều đó giúp việc quay phim mọi người trở nên dễ dàng hơn mà không cần sự đồng ý ở cửa hàng, phương tiện giao thông và những nơi công cộng khác. Điều đó quan trọng vì thiết bị giúp giảm chi phí ghi âm bí mật trong khi các quy định về quyền riêng tư vẫn đang được áp dụng. Câu hỏi tiếp theo là liệu các nhà bán lẻ, cơ quan quản lý và người mua hàng có coi nó như một tiện ích bình thường hay một vấn đề giám sát mới hay không.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/04/kmart-camera-glasses-anko-meta-smartglasses-australia"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/real-life/news-life/kmart-targets-89-version-of-meta-glasses-sparks-outrage/news-story/4785c495eec7be27fb10084d867f369c"
-        }
-      ],
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/australia",
-          "title": "Kmart sells out of low-cost rival to Meta camera glasses across Australia amid warnings of 'privacy nightmare'",
-          "url": "https://www.reddit.com/r/australia/comments/1venuuh/kmart_sells_out_of_lowcost_rival_to_meta_camera/",
-          "postedAt": "2026-08-04",
-          "upvotes": 649,
-          "score": 649
-        }
-      ]
-    },
-    {
       "id": "victoria-montessori-explicit-instruction-20260803",
       "language": "vi",
       "headline": "Victoria thúc đẩy hướng dẫn rõ ràng đang loại bỏ dần các lớp học Montessori",
@@ -1523,26 +1600,6 @@
           "url": "https://www.theguardian.com/australia-news/2026/aug/03/montessori-learning-is-being-shut-down-at-leahs-school-is-a-push-towards-explicit-instruction-to-blame"
         }
       ]
-    },
-    {
-      "id": "kmart-camera-glasses-20260804",
-      "language": "vi",
-      "headline": "Kính quay chụp giá rẻ gây lo ngại về quyền riêng tư khắp Úc",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-03T15:00:00.000Z",
-      "voiceScript": "Mẫu kính quay chụp giá 89 đô la đã bán hết trên khắp Úc, biến một thiết bị ghi hình giá thấp thành món đồ bán đại trà. Sản phẩm có thể chụp ảnh, quay video độ nét cao, nhận cuộc gọi và chạy trợ lý trí tuệ nhân tạo, nên các nhà hoạt động lo rằng người khác có thể bị ghi hình mà không hề hay biết. Câu hỏi tiếp theo là cơ quan quản lý và nhà làm luật sẽ phản ứng nhanh đến đâu trước làn sóng phản đối này.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/04/kmart-camera-glasses-anko-meta-smartglasses-australia"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/real-life/news-life/kmart-targets-89-version-of-meta-glasses-sparks-outrage/news-story/4785c495eec7be27fb10084d867f369c"
-        }
-      ],
-      "socialDiscussions": []
     },
     {
       "id": "wa-caravan-rollover-20260803",
@@ -1661,7 +1718,7 @@
       "id": "fake-gun-scare-20260803",
       "language": "vi",
       "headline": "Vụ dọa súng lặp lại tại Công viên Moore ở Sydney kết thúc bằng hai vụ bắt giữ",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-03T08:33:30.000Z",
       "voiceScript": "NSW Cảnh sát đã bắt giữ hai người đàn ông sau một phản ứng lớn tại Khu giải trí Sydney, nơi các sĩ quan được gọi đến vì có báo cáo về súng. Cảnh sát cho biết vật thể này là một khẩu súng giả, áo vest và huy hiệu cũng bị thu giữ. Điều này quan trọng vì sự sợ hãi đã đóng cửa một phần khu vực đông đúc gần SCG và cho thấy cảnh sát sẽ hành động nhanh như thế nào khi có vũ khí được báo cáo. Các cuộc điều tra vẫn đang tiếp tục và cảnh sát cho biết không có mối đe dọa nào đang diễn ra.",
       "differences": [],
@@ -1673,6 +1730,10 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/nsw-act/crime/two-people-in-custody-after-police-swarm-moore-park-entertainment-quarter/news-story/e5afb28cef6be865aab5100623dfc6be"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/sydney-entertainment-quarter-moore-park-arrests-fake-gun-20260803-p60l3a.html"
         }
       ]
     },
@@ -2024,6 +2085,21 @@
       ]
     },
     {
+      "id": "nicotine-pouches-ban-20260802",
+      "headline": "Úc siết chặt việc chặn nicotine pouches",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T11:51:06.000Z",
+      "voiceScript": "Úc đang tăng cường thực thi để ngăn nicotine pouches tiếp tục lưu hành qua cửa hàng và kênh bán trực tuyến. Giới chức nói các gói này dễ giấu, dễ dùng và ngày càng đến tay người trẻ, khiến rủi ro sức khỏe khó kiểm soát hơn. Lệnh cấm có mục đích chặn một thói quen nicotine mới trước khi nó lan rộng hơn. Bước tiếp theo là xem việc thực thi, kiểm tra biên giới và tuân thủ của nhà bán lẻ có đủ mạnh hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australia-outlaws-nicotine-pouches-as-millions-flood-across-border-illegally-c-22664601"
+        }
+      ],
+      "language": "vi"
+    },
+    {
       "id": "private-health-rebate-cut-20260802",
       "language": "vi",
       "headline": "Người cao tuổi Australia sắp chịu hóa đơn bảo hiểm y tế tư cao hơn",
@@ -2057,6 +2133,21 @@
           "score": 20
         }
       ]
+    },
+    {
+      "id": "optus-emergency-action-20260730",
+      "headline": "Optus đối mặt vụ kiện liên quan đến sự cố ảnh hưởng cuộc gọi khẩn cấp",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T04:13:08.000Z",
+      "voiceScript": "Cơ quan quản lý viễn thông đã khởi kiện Optus vì sự cố mạng năm 2025 bị cho là dẫn tới việc cuộc gọi khẩn cấp không được nối và có người thiệt mạng. Trọng tâm của vụ việc là liệu công ty có phản ứng đủ nhanh sau khi hệ thống lỗi hay không và có thực hiện đúng nghĩa vụ bảo vệ dịch vụ triple zero hay không. Điều này quan trọng vì liên lạc khẩn cấp chỉ có ý nghĩa khi mạng thật sự đáng tin cậy. Phán quyết của tòa có thể làm thay đổi mức phạt và áp lực buộc các hãng viễn thông gia cố hệ thống.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/acma-launches-legal-action-against-optus-over-2025-outage-linked-to-emergency-call-failures-and-deaths-c-22650848"
+        }
+      ],
+      "language": "vi"
     }
   ],
   "links": []

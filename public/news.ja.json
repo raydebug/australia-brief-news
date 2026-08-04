@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T14:05:06.208Z",
+  "updatedAt": "2026-08-04T15:19:00.506Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -103,9 +103,44 @@
   "errors": [
     "news.com.au latest-news feed still required search-assisted fallback for some current Australian items.",
     "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings.",
-    "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results."
+    "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results.",
+    "9News homepage JSON was usable, but some standalone article fetches still returned 404, so card URLs were resolved from the homepage."
   ],
   "clusters": [
+    {
+      "id": "commercial-rooftop-solar-expansion-20260804",
+      "language": "ja",
+      "headline": "企業向け屋上太陽光の支援を拡大",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-04T12:26:56.000Z",
+      "voiceScript": "連邦政府は、対象を小規模設置だけでなく、より大きな商業用屋上太陽光にも広げる方針です。中規模企業なら設置費を約6万8,000豪ドル、さらに大きな倉庫や工場なら初期費用を約23万2,000豪ドル抑えられ、年間の電気代もおよそ17万5,000豪ドル減らせるとされています。家庭用の屋上太陽光に比べて遅れてきた商業部門を押し上げる狙いで、工場、小売店、物流施設にとっては投資の後押しになります。今後の焦点は、認可の速さと設置体制が需要に追いつくかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-04/solar-installation-savings-ssre-expansion-chrise-bowen/106997140"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/environment/labor-unveils-government-solar-scheme-for-commercial-rooftops-businesses-tipped-to-save-175k-a-year/news-story/eb9ad1a8355061070bda8c7bbdc6be94"
+        }
+      ]
+    },
+    {
+      "id": "home-birth-trial-20260804",
+      "headline": "クイーンズランドの自宅出産死傷事件裁判で triple zero 通話を検証",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T12:01:28.626Z",
+      "voiceScript": "クイーンズランドの過失致死裁判で、致命的な自宅出産に関わる triple zero の通話が法廷で扱われた。陪審は、救急が到着する前の重要な数分に何が起きたのか、そして対応が求められる水準だったのかを判断しなければならない。自宅出産は、合併症が急に悪化すると一気に危機になることを改めて示している。今後は、裁判の残りの審理と時間軸の評価が焦点になる。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/qld/robyn-mary-james-manslaughter-trial-triple-zero-call-played-in-fatal-home-birth-trial-20260804-p60lhb.html"
+        }
+      ],
+      "language": "ja"
+    },
     {
       "id": "tony-burke-migration-cuts-20260804",
       "language": "ja",
@@ -196,10 +231,25 @@
       }
     },
     {
+      "id": "family-paperwork-bungle-20260804",
+      "headline": "書類の手違いで一家がオーストラリアを離れることに",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T09:47:44.649Z",
+      "voiceScript": "ある家族は、政府の書類上の手違いでオーストラリアを離れざるを得なくなったと訴えている。書類や期限、審査で問題が起きると、移民・滞在制度は仕事や学校、家族の生活を一気に揺さぶる。行政ミスが当事者に与える影響は、政策変更と同じくらい大きいことがある。今後は、家族が異議を申し立てるのか、問題を修正して戻れるのかが焦点になる。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/a-current-affair/family-forced-to-leave-australia-over-government-paperwork-bungle-20260804-p60lh3.html"
+        }
+      ],
+      "language": "ja"
+    },
+    {
       "id": "widow-tax-fix-20260804",
       "language": "ja",
       "headline": "労働党、次の税制パッケージ前に未亡人税の穴埋めへ",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-04T09:45:27.000Z",
       "voiceScript": "労働党は、批判を浴びた「未亡人税」と呼ばれる税制の穴を埋めようとしている。死亡や離婚の場面でも、予定されていたキャピタルゲイン税とネガティブ・ギアリングの扱いをきちんと適用する狙いだ。共有名義の投資物件は、関係の終わりや配偶者の死で抜け穴に巻き込まれやすいため、この修正は重要になる。財務省は草案への意見募集を8月21日まで続けるとしており、焦点は救済策が古いルールの影響が出る前に固まるかどうかだ。",
       "differences": [],
@@ -211,6 +261,10 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/politics/labor-to-close-divorce-widows-tax-with-second-202627-budget-tranche/news-story/e4e069e3764499440c1466a5d57a850a"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/labor-quiet-on-timeline-over-widow-tax-change-20260804-p60lee.html"
         }
       ],
       "socialDiscussions": {
@@ -273,25 +327,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "commercial-rooftop-solar-expansion-20260804",
-      "language": "ja",
-      "headline": "企業向け屋上太陽光の支援を拡大",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-04T12:26:56.000Z",
-      "voiceScript": "連邦政府は、対象を小規模設置だけでなく、より大きな商業用屋上太陽光にも広げる方針です。中規模企業なら設置費を約6万8,000豪ドル、さらに大きな倉庫や工場なら初期費用を約23万2,000豪ドル抑えられ、年間の電気代もおよそ17万5,000豪ドル減らせるとされています。家庭用の屋上太陽光に比べて遅れてきた商業部門を押し上げる狙いで、工場、小売店、物流施設にとっては投資の後押しになります。今後の焦点は、認可の速さと設置体制が需要に追いつくかです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/solar-installation-savings-ssre-expansion-chrise-bowen/106997140"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/environment/labor-unveils-government-solar-scheme-for-commercial-rooftops-businesses-tipped-to-save-175k-a-year/news-story/eb9ad1a8355061070bda8c7bbdc6be94"
-        }
-      ]
     },
     {
       "id": "kevin-rudd-taiwan-warning-20260804",
@@ -372,7 +407,7 @@
       "id": "kath-pettingill-dies-20260804",
       "language": "ja",
       "headline": "Kath Pettingill氏が死去",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-08-04T08:54:20.000Z",
       "voiceScript": "Kath Pettingill氏が死去し、メルボルンの悪名高い犯罪一家をめぐる長い物語が一区切りを迎えた。彼女はウォルシュ・ストリート警官殺害事件に関係した2人の母親として知られ、ビクトリア州の犯罪史では象徴的な存在だった。これは新たな事件ではないが、一つの時代を象徴した人物の死として重みがある。今後は追悼や回顧、そして彼女の遺産をどう受け止めるかが話題になりそうだ。",
       "differences": [],
@@ -380,6 +415,10 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-04/kath-pettingill-crime-matriarch-dies/106996596"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/kath-pettingill-melbourne-underworld-matriarch-death-20260804-p60lgh.html"
         }
       ],
       "socialDiscussions": [
@@ -490,6 +529,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "census-door-knock-scam-20260804",
+      "headline": "ABS、国勢調査前の訪問詐欺に注意喚起",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T06:51:01.000Z",
+      "voiceScript": "オーストラリア統計局は、8月11日の国勢調査を前に、調査員を装って家を訪ねる詐欺に注意するよう呼びかけている。正規の職員が銀行情報やパスワードなどの機微な情報を求めることはない。国勢調査の結果は学校や医療、インフラ計画に使われるため、信頼を損なうと影響が大きい。今後は、注意喚起を広げ、不審な訪問を早く通報できるかが鍵になる。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australians-warned-about-door-knocking-scam-ahead-of-august-11-census-c-22674281"
+        }
+      ],
+      "language": "ja"
     },
     {
       "id": "gambling-inducements-denied-20260804",
@@ -616,6 +670,21 @@
       ]
     },
     {
+      "id": "sydney-harbour-bridge-crash-20260804",
+      "headline": "シドニー・ハーバーブリッジの事故で3人けが、交通に影響",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T05:35:06.557Z",
+      "voiceScript": "シドニー・ハーバーブリッジで2台が衝突し、3人がけがをして、都市で最も交通量の多いルートのひとつが一時的に乱れた。ここでは小さな接触事故でも、通勤、物流、緊急対応に波及しやすい。渋滞と運転ミスが重なると、普通の事故が一気に市内全体の遅れに変わる。今後は、警察と交通当局が原因を特定し、復旧にどれだけ時間がかかるかが焦点だ。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/sydney-harbour-bridge-chaos-after-three-injured-in-two-car-crash-20260804-p60le3.html"
+        }
+      ],
+      "language": "ja"
+    },
+    {
       "id": "sydney-ed-pressure-20260804",
       "language": "ja",
       "headline": "シドニーの救急が再び逼迫、緊急時以外は受診を控えるよう呼びかけ",
@@ -657,6 +726,40 @@
           "title": "Winter illnesses place increasing pressure on NSW hospitals",
           "url": "https://www.facebook.com/AustraliabyAussieofficial/posts/winter-illnesses-are-placing-increasing-pressure-on-hospitals-across-new-south-w/122187033242920977/",
           "score": 12
+        }
+      ]
+    },
+    {
+      "id": "kmart-camera-glasses-20260803",
+      "language": "ja",
+      "headline": "Kmartの低価格カメラメガネがプライバシー警告を引く",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-04T03:44:58.296Z",
+      "voiceScript": "Kmartは89ドルのAnkoカメラメガネを完売し、安価なウェアラブルカメラがより多くのオーストラリア人の手に渡った。このメガネはビデオと静止画を記録でき、これにより店舗、交通機関、その他の公共の場所で同意なしに人々を撮影することが容易になるとプライバシー擁護団体は述べている。プライバシー規則がまだ追いついていない間に、このデバイスにより秘密録音のコストが削減されるため、これは重要です。次の問題は、小売業者、規制当局、買い物客がそれを通常の機器として扱うのか、それとも新たな監視問題として扱うのかということだ。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/04/kmart-camera-glasses-anko-meta-smartglasses-australia"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/real-life/news-life/kmart-targets-89-version-of-meta-glasses-sparks-outrage/news-story/4785c495eec7be27fb10084d867f369c"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/kmart-low-cost-camera-glasses-sell-out-australia-privacy-concerns-meta-ray-bans-20260804-p60lca.html"
+        }
+      ],
+      "socialDiscussions": [
+        {
+          "platform": "Reddit",
+          "community": "r/australia",
+          "title": "Kmart sells out of low-cost rival to Meta camera glasses across Australia amid warnings of 'privacy nightmare'",
+          "url": "https://www.reddit.com/r/australia/comments/1venuuh/kmart_sells_out_of_lowcost_rival_to_meta_camera/",
+          "postedAt": "2026-08-04",
+          "upvotes": 649,
+          "score": 649
         }
       ]
     },
@@ -803,7 +906,7 @@
       "id": "alan-jones-trial-20260804",
       "language": "ja",
       "headline": "Alan Jones氏のシドニー裁判、証言の詳細審理へ",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-08-04T03:21:52.000Z",
       "voiceScript": "シドニーで開かれているAlan Jones氏の裁判では、最初の申立人による詳細な証言が始まり、長年にわたるわいせつ暴行と性的接触の疑いが審理されています。この事件が重要なのは、著名メディア人の私的行為を長期の刑事裁判に変え、彼の公的評価を塗り替える可能性があるからです。今後はさらに証人尋問、弁護側の反論、そして判決や量刑の段階に至るまで数か月続く裁判官単独の審理が続きます。",
       "differences": [],
@@ -819,6 +922,10 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/nsw-act/courts-law/man-alleges-alan-jones-groped-him-while-driving/news-story/b00da3f896e3e429acda01eb6687eaef"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/alan-jones-six-alleged-victims-to-enter-the-witness-box-20260804-p60l4r.html"
         }
       ],
       "socialDiscussions": [
@@ -1480,36 +1587,6 @@
       ]
     },
     {
-      "id": "kmart-camera-glasses-20260803",
-      "language": "ja",
-      "headline": "Kmartの低価格カメラメガネがプライバシー警告を引く",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-03T15:00:22.000Z",
-      "voiceScript": "Kmartは89ドルのAnkoカメラメガネを完売し、安価なウェアラブルカメラがより多くのオーストラリア人の手に渡った。このメガネはビデオと静止画を記録でき、これにより店舗、交通機関、その他の公共の場所で同意なしに人々を撮影することが容易になるとプライバシー擁護団体は述べている。プライバシー規則がまだ追いついていない間に、このデバイスにより秘密録音のコストが削減されるため、これは重要です。次の問題は、小売業者、規制当局、買い物客がそれを通常の機器として扱うのか、それとも新たな監視問題として扱うのかということだ。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/04/kmart-camera-glasses-anko-meta-smartglasses-australia"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/real-life/news-life/kmart-targets-89-version-of-meta-glasses-sparks-outrage/news-story/4785c495eec7be27fb10084d867f369c"
-        }
-      ],
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/australia",
-          "title": "Kmart sells out of low-cost rival to Meta camera glasses across Australia amid warnings of 'privacy nightmare'",
-          "url": "https://www.reddit.com/r/australia/comments/1venuuh/kmart_sells_out_of_lowcost_rival_to_meta_camera/",
-          "postedAt": "2026-08-04",
-          "upvotes": 649,
-          "score": 649
-        }
-      ]
-    },
-    {
       "id": "victoria-montessori-explicit-instruction-20260803",
       "language": "ja",
       "headline": "ビクトリア州の明示的な指導推進でモンテッソーリ授業は段階的に廃止されている",
@@ -1523,26 +1600,6 @@
           "url": "https://www.theguardian.com/australia-news/2026/aug/03/montessori-learning-is-being-shut-down-at-leahs-school-is-a-push-towards-explicit-instruction-to-blame"
         }
       ]
-    },
-    {
-      "id": "kmart-camera-glasses-20260804",
-      "language": "ja",
-      "headline": "低価格の撮影機能付き眼鏡が豪州でプライバシー懸念を広げる",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-03T15:00:00.000Z",
-      "voiceScript": "89豪ドルの撮影機能付き眼鏡がオーストラリア各地で売り切れ、身近な買い物の場に記録機能付きウェアラブルが一気に広がりました。写真や高画質動画の撮影、通話、人工知能アシスタントまで使えるため、同意のない撮影につながるとプライバシー擁護派は警戒しています。今後は、規制当局と議会がこの種の機器への対応を急ぐのか、それとも現行ルールのまま進むのかが焦点です。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/04/kmart-camera-glasses-anko-meta-smartglasses-australia"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/real-life/news-life/kmart-targets-89-version-of-meta-glasses-sparks-outrage/news-story/4785c495eec7be27fb10084d867f369c"
-        }
-      ],
-      "socialDiscussions": []
     },
     {
       "id": "wa-caravan-rollover-20260803",
@@ -1661,7 +1718,7 @@
       "id": "fake-gun-scare-20260803",
       "language": "ja",
       "headline": "シドニーのムーアパークでのレプリカ銃恐怖、2人の逮捕で終わる",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-03T08:33:30.000Z",
       "voiceScript": "NSWシドニーのエンターテインメント・クォーターで銃器の通報で警官が出動し、大規模な対応があった後、警察は男2人を逮捕した。警察によると、物体は銃のレプリカで、ベストとバッジも押収された。この恐怖により、SCG近くの混雑した分署の一部が閉鎖され、武器の通報があった場合に警察がいかに迅速に行動するかを示したので、これは重要である。捜査は続いており、警察は現在進行中の脅迫はないとしている。",
       "differences": [],
@@ -1673,6 +1730,10 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/nsw-act/crime/two-people-in-custody-after-police-swarm-moore-park-entertainment-quarter/news-story/e5afb28cef6be865aab5100623dfc6be"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/sydney-entertainment-quarter-moore-park-arrests-fake-gun-20260803-p60l3a.html"
         }
       ]
     },
@@ -2024,6 +2085,21 @@
       ]
     },
     {
+      "id": "nicotine-pouches-ban-20260802",
+      "headline": "オーストラリアがニコチンパウチの取り締まりを強化",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T11:51:06.000Z",
+      "voiceScript": "オーストラリア政府は、店頭やネット販売で広がるニコチンパウチへの取り締まりを強めている。製品は隠しやすく使いやすい一方、若い世代に広がりつつあり、健康被害を抑えにくくしている。禁令の狙いは、新しいニコチン習慣が広がる前に止めることだ。今後は、執行や国境検査、小売店の順守が実際に効くかが焦点になる。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australia-outlaws-nicotine-pouches-as-millions-flood-across-border-illegally-c-22664601"
+        }
+      ],
+      "language": "ja"
+    },
+    {
       "id": "private-health-rebate-cut-20260802",
       "language": "ja",
       "headline": "高齢の豪州人の民間医療保険負担がさらに増えそうだ",
@@ -2057,6 +2133,21 @@
           "score": 20
         }
       ]
+    },
+    {
+      "id": "optus-emergency-action-20260730",
+      "headline": "Optus、緊急通報障害をめぐり提訴へ",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T04:13:08.000Z",
+      "voiceScript": "通信当局は、2025年の障害で緊急通報の不達や死亡事案につながったとして、Optus を提訴した。争点は、会社が故障後に十分速く対応したのか、そして triple zero サービスを守る義務を果たしたのかという点だ。緊急通信は、必要なときにネットワークが確実に動いてこそ意味がある。裁判の行方は、罰則や通信会社へのシステム強化圧力にも影響しそうだ。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/acma-launches-legal-action-against-optus-over-2025-outage-linked-to-emergency-call-failures-and-deaths-c-22650848"
+        }
+      ],
+      "language": "ja"
     }
   ],
   "links": []

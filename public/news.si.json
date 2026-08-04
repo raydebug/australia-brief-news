@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T14:05:06.208Z",
+  "updatedAt": "2026-08-04T15:19:00.506Z",
   "generatedBy": "codex",
   "language": "si",
   "sources": [
@@ -103,9 +103,44 @@
   "errors": [
     "news.com.au latest-news feed still required search-assisted fallback for some current Australian items.",
     "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings.",
-    "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results."
+    "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results.",
+    "9News homepage JSON was usable, but some standalone article fetches still returned 404, so card URLs were resolved from the homepage."
   ],
   "clusters": [
+    {
+      "id": "commercial-rooftop-solar-expansion-20260804",
+      "language": "si",
+      "headline": "ව්‍යාපාර සඳහා වහල සූර්ය සහන පළල් කරයි",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-04T12:26:56.000Z",
+      "voiceScript": "ෆෙඩරල් රජය තම සූර්ය වට්ටම් වැඩසටහන විශාල වාණිජ වහල පද්ධතිවලටත් විහිදුවමින් තිබේ, එමඟින් සුළු ස්ථාපනවලට පමණක් නොව ව්‍යාපාරික ක්ෂේත්‍රයටත් ප්‍රතිලාභ ලැබේ. නිලධාරීන් පවසන්නේ මධ්‍යම ප්‍රමාණයේ ව්‍යාපාරයකට ස්ථාපන වියදමින් ආසන්න වශයෙන් ඩොලර් 68,000ක් ඉතිරි කර ගත හැකි අතර, විශාල ගබඩාවක් හෝ කර්මාන්තශාලාවක් නම් ආරම්භක වියදමේ ඩොලර් 232,000ක් පමණත්, වාර්ෂික විදුලි බිල්පතේ ඩොලර් 175,000ක් පමණත් අඩු කර ගත හැකිය. මෙය වැදගත් වන්නේ ගෘහස්ථ වහල සූර්ය විදුලියට වඩා පසුපසින් සිටි වාණිජ අංශයට වඩා සෘජු උත්තේජනයක් දෙන නිසාය. ඉදිරියේදී අවධානය යොමු වන්නේ අනුමත කිරීම් සහ ස්ථාපන ධාරිතාව මෙම වේගයට ගැලපෙන්නේද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-04/solar-installation-savings-ssre-expansion-chrise-bowen/106997140"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/environment/labor-unveils-government-solar-scheme-for-commercial-rooftops-businesses-tipped-to-save-175k-a-year/news-story/eb9ad1a8355061070bda8c7bbdc6be94"
+        }
+      ]
+    },
+    {
+      "id": "home-birth-trial-20260804",
+      "headline": "ක්වීන්ස්ලන්තයේ නිවසේ දරු උපත් මරණ නඩුවේදී triple zero ඇමතුම අසා බලයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T12:01:28.626Z",
+      "voiceScript": "ක්වීන්ස්ලන්තයේ මනුෂ්‍ය ඝාතන නඩුවකදී, මරණයට හේතු වූ නිවසේ දරු උපත් සිද්ධියට සම්බන්ධ triple zero ඇමතුම අධිකරණයේදී අසා ඇත. එය වැදගත් වන්නේ ගිලන් රථය එන තෙක් තිබුණු තීරණාත්මක මිනිත්තු කිහිපයේදී කුමක් සිදුවුණාද, සහ ප්‍රතිචාරය අවශ්‍ය මට්ටමට සරිලනද යන්න ජූරි සභාව විසින් තීරණය කළ යුතු නිසාය. නිවසේ දරු උපතක සංකූලතා ඉක්මනින්ම බරපතළ අර්බුදයකට හැරෙන්න පුළුවන් බවත් මේ නඩුව නැවත මතක් කරයි. ඉදිරියේදී නඩුවේ ඉතිරි සාක්ෂි සහ කාලරේඛාව කෙසේ ඇගයෙයිද කියන එක වැදගත්.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/qld/robyn-mary-james-manslaughter-trial-triple-zero-call-played-in-fatal-home-birth-trial-20260804-p60lhb.html"
+        }
+      ],
+      "language": "si"
+    },
     {
       "id": "tony-burke-migration-cuts-20260804",
       "language": "si",
@@ -196,10 +231,25 @@
       }
     },
     {
+      "id": "family-paperwork-bungle-20260804",
+      "headline": "ලේඛන දෝෂයකින් පවුලක් ඔස්ට්‍රේලියාවෙන් පිටවීමට বাধ্য වෙයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T09:47:44.649Z",
+      "voiceScript": "රජයේ ලේඛන දෝෂයක් නිසා තමන්ට ඔස්ට්‍රේලියාවෙන් පිටවීමට සිදුවූ බව එක් පවුලක් කියයි. ලේඛන, කාලසීමා හෝ අනුමත කිරීමේ ගැටලු ඇති වුනොත් රැකියා, පාසල් සහ පවුල් සැලසුම් එකවර කඩා වැටෙන්න පුළුවන් කියන එක මේකෙන් පෙනේ. පරිපාලන දෝෂය බලපාන්නේ නීතිමය තීන්දුවක් තරම්ම බරපතළ ලෙසයි. ඉදිරියේදී පවුලට අභියාචනා කිරීමට හෝ ගැටලුව නිවැරදි කර නැවත එන්නට හැකිද යන්න බලන්න තියේ.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/a-current-affair/family-forced-to-leave-australia-over-government-paperwork-bungle-20260804-p60lh3.html"
+        }
+      ],
+      "language": "si"
+    },
+    {
       "id": "widow-tax-fix-20260804",
       "language": "si",
       "headline": "ඊළඟ බදු වටයට පෙර වැන්දඹු බදු හිඩැස පිරවීමට ලේබර් සූදානම් වෙයි",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-04T09:45:27.000Z",
       "voiceScript": "විවේචකයන් “වැන්දඹු බදු” ලෙස හඳුන්වූ බදු නීති හිඩැස පිරවීමට ලේබර් පියවර ගනිමින් සිටී. යෝජිත CGT සහ negative gearing සහන මරණය හා දික්කසාද අවස්ථාවලදීත් නිවැරදිව ආවරණය කිරීමට ඔවුහු කටයුතු කරති. මේක වැදගත් වන්නේ හවුල් අයිතියෙන් ඇති ආයෝජන දේපළකට සම්බන්ධ ජෝඩු, සම්බන්ධතාවය අවසන් වීමේදී හෝ එක් පාර්ශවයක් මිය යාමේදී, එම හිඩැසට අසුවිය හැකි නිසාය. මූල්‍ය අමාත්‍යාංශය කියන්නේ කෙටුම්පත පිළිබඳ අදහස් ලබාගැනීම අගෝස්තු 21 දක්වා ඇති බවයි, එනිසා ප්‍රශ්නය වන්නේ සංශෝධනය කාලයට පෙර අවසන් වේද යන්නයි.",
       "differences": [],
@@ -211,6 +261,10 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/politics/labor-to-close-divorce-widows-tax-with-second-202627-budget-tranche/news-story/e4e069e3764499440c1466a5d57a850a"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/labor-quiet-on-timeline-over-widow-tax-change-20260804-p60lee.html"
         }
       ],
       "socialDiscussions": {
@@ -273,25 +327,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "commercial-rooftop-solar-expansion-20260804",
-      "language": "si",
-      "headline": "ව්‍යාපාර සඳහා වහල සූර්ය සහන පළල් කරයි",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-04T12:26:56.000Z",
-      "voiceScript": "ෆෙඩරල් රජය තම සූර්ය වට්ටම් වැඩසටහන විශාල වාණිජ වහල පද්ධතිවලටත් විහිදුවමින් තිබේ, එමඟින් සුළු ස්ථාපනවලට පමණක් නොව ව්‍යාපාරික ක්ෂේත්‍රයටත් ප්‍රතිලාභ ලැබේ. නිලධාරීන් පවසන්නේ මධ්‍යම ප්‍රමාණයේ ව්‍යාපාරයකට ස්ථාපන වියදමින් ආසන්න වශයෙන් ඩොලර් 68,000ක් ඉතිරි කර ගත හැකි අතර, විශාල ගබඩාවක් හෝ කර්මාන්තශාලාවක් නම් ආරම්භක වියදමේ ඩොලර් 232,000ක් පමණත්, වාර්ෂික විදුලි බිල්පතේ ඩොලර් 175,000ක් පමණත් අඩු කර ගත හැකිය. මෙය වැදගත් වන්නේ ගෘහස්ථ වහල සූර්ය විදුලියට වඩා පසුපසින් සිටි වාණිජ අංශයට වඩා සෘජු උත්තේජනයක් දෙන නිසාය. ඉදිරියේදී අවධානය යොමු වන්නේ අනුමත කිරීම් සහ ස්ථාපන ධාරිතාව මෙම වේගයට ගැලපෙන්නේද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/solar-installation-savings-ssre-expansion-chrise-bowen/106997140"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/environment/labor-unveils-government-solar-scheme-for-commercial-rooftops-businesses-tipped-to-save-175k-a-year/news-story/eb9ad1a8355061070bda8c7bbdc6be94"
-        }
-      ]
     },
     {
       "id": "kevin-rudd-taiwan-warning-20260804",
@@ -372,7 +407,7 @@
       "id": "kath-pettingill-dies-20260804",
       "language": "si",
       "headline": "කැත් පෙටින්ගිල් මිය යයි",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-08-04T08:54:20.000Z",
       "voiceScript": "කැත් පෙටින්ගිල් මිය ගොස් ඇති අතර, එය මෙල්බර්න්හි කීර්තිමත් අපරාධ පවුලක් වටා දිගු කලක් පැවති කතාන්දරයක තවත් පරිච්ඡේදයක් අවසන් කරයි. ඇය වෝල්ෂ් ස්ට්‍රීට් පොලිස් ඝාතනවලට සම්බන්ධ වූ පුතුන් දෙදෙනාගේ මව ලෙස හැඳින්වුණා. මෙය වැදගත් වන්නේ එය නව අපරාධයක ආරම්භයක් නොව, දශක ගණනාවක් ප්‍රසිද්ධියේ තිබූ චරිතයක කතාව අවසන් වීම නිසායි. ඉදිරියේදී ඇගේ උරුමය සහ එම යුගය මතක තබාගන්නා ආකාරය ගැන කතාබහ සිදුවනු ඇත.",
       "differences": [],
@@ -380,6 +415,10 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-04/kath-pettingill-crime-matriarch-dies/106996596"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/kath-pettingill-melbourne-underworld-matriarch-death-20260804-p60lgh.html"
         }
       ],
       "socialDiscussions": [
@@ -490,6 +529,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "census-door-knock-scam-20260804",
+      "headline": "ABS, ජනගණනාවට පෙර දොර තට්ටු කරන වංචාකරුවන් ගැන අනතුරු අඟවයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T06:51:01.000Z",
+      "voiceScript": "අගෝස්තු 11 ජනගණනාවට පෙර නිවසේ දොර තට්ටු කරන වංචනිකයන් ගැන සැලකිලිමත් වෙන්න කියලා ABS ජනතාවට අනතුරු අඟවයි. සැබෑ නිලධාරීහු බැංකු විස්තර, මුරපද හෝ වෙනත් සංවේදී තොරතුරු ඉල්ලන්නේ නැහැ. ජනගණනාව පාසල්, සෞඛ්‍ය සහ යටිතල පහසුකම් සැලසුම්වලට යන නිසා මේක වැදගත්; වංචාව පටන් ගන්න කලින්ම විශ්වාසය අඩු කරන්න පුළුවන්. ඉදිරියේදී ප්‍රසිද්ධ මතක් කිරීම් වැඩි කරලා සැක සහිත ගෙවල් ආවරණ ඉක්මනින් වාර්තා කරන එක තීරණාත්මකයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australians-warned-about-door-knocking-scam-ahead-of-august-11-census-c-22674281"
+        }
+      ],
+      "language": "si"
     },
     {
       "id": "gambling-inducements-denied-20260804",
@@ -616,6 +670,21 @@
       ]
     },
     {
+      "id": "sydney-harbour-bridge-crash-20260804",
+      "headline": "සිඩ්නි හාර්බර් පාලම අනතුරින් 3 දෙනෙකුට තුවාල, ගමනාගමනය මන්දගාමී",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T05:35:06.557Z",
+      "voiceScript": "සිඩ්නි හාර්බර් පාලමේ රථ දෙකක් ගැටීමෙන් 3 දෙනෙකුට තුවාල වූ අතර නගරයේ වඩාත්ම කාර්යබහුල මාර්ග සම්බන්ධතාවලින් එකක් තාවකාලිකව බාධා විය. මෙවැනි ස්ථානයක සුළු ගැටුමක්වත් වැඩට යන ගමන, භාණ්ඩ ප්‍රවාහනය සහ හදිසි සේවා ගමන් යාමට බලපානවා. ගැටුම සහ රියදුරු දෝෂය එකට වැටුණොත් සාමාන්‍ය අනතුරක්ම නගර මට්ටමේ ප්‍රමාදයක් වෙන්න පුළුවන්. ඉදිරියේදී පොලීසිය සහ ගමනාගමන අංශය හේතුව හොයමින් ඉවත් කිරීම සහ අලුත්වැඩියා කෙතරම් වෙලා ගන්නවාද කියලා බලන්න තියේ.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/sydney-harbour-bridge-chaos-after-three-injured-in-two-car-crash-20260804-p60le3.html"
+        }
+      ],
+      "language": "si"
+    },
+    {
       "id": "sydney-ed-pressure-20260804",
       "language": "si",
       "headline": "සිඩ්නි හදිසි වෛද්‍ය ඒකක නැවතත් දැඩි පීඩනයට",
@@ -657,6 +726,40 @@
           "title": "Winter illnesses place increasing pressure on NSW hospitals",
           "url": "https://www.facebook.com/AustraliabyAussieofficial/posts/winter-illnesses-are-placing-increasing-pressure-on-hospitals-across-new-south-w/122187033242920977/",
           "score": 12
+        }
+      ]
+    },
+    {
+      "id": "kmart-camera-glasses-20260803",
+      "language": "si",
+      "headline": "Kmart හි අයවැය කැමරා කණ්ණාඩි පෞද්ගලිකත්ව අනතුරු ඇඟවීම් අඳින්න",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-04T03:44:58.296Z",
+      "voiceScript": "Kmart එහි ඩොලර් 89 ක ඇන්කෝ කැමරා වීදුරුවලින් විකුණා ඇති අතර මිල අඩු පැළඳිය හැකි කැමරා යුගලයක් ඕස්ට්‍රේලියානුවන් අතට පත් කර ඇත. කණ්නාඩිවලට වීඩියෝ සහ නිශ්චල රූප පටිගත කළ හැකි අතර පුද්ගලිකත්වය වෙනුවෙන් පෙනී සිටින අය පවසන්නේ සාප්පු, ප්‍රවාහනය සහ වෙනත් පොදු ස්ථානවල කැමැත්තෙන් තොරව පුද්ගලයින් රූගත කිරීම පහසු කරන බවයි. එය වැදගත් වන්නේ උපාංගය රහස් පටිගත කිරීමේ පිරිවැය අඩු කරන නිසා රහස්‍යතා නීති තවමත් හසු වී ඇති බැවිනි. මීළඟ ප්‍රශ්නය වන්නේ සිල්ලර වෙළෙන්දන්, නියාමකයින් සහ සාප්පු යන්නන් එය සාමාන්‍ය උපකරණයක් ලෙස හෝ නව නිරීක්ෂණ ගැටලුවක් ලෙස සලකනවාද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/04/kmart-camera-glasses-anko-meta-smartglasses-australia"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/real-life/news-life/kmart-targets-89-version-of-meta-glasses-sparks-outrage/news-story/4785c495eec7be27fb10084d867f369c"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/kmart-low-cost-camera-glasses-sell-out-australia-privacy-concerns-meta-ray-bans-20260804-p60lca.html"
+        }
+      ],
+      "socialDiscussions": [
+        {
+          "platform": "Reddit",
+          "community": "r/australia",
+          "title": "Kmart sells out of low-cost rival to Meta camera glasses across Australia amid warnings of 'privacy nightmare'",
+          "url": "https://www.reddit.com/r/australia/comments/1venuuh/kmart_sells_out_of_lowcost_rival_to_meta_camera/",
+          "postedAt": "2026-08-04",
+          "upvotes": 649,
+          "score": 649
         }
       ]
     },
@@ -803,7 +906,7 @@
       "id": "alan-jones-trial-20260804",
       "language": "si",
       "headline": "ඇලන් ජෝන්ස්ගේ සිඩ්නි නඩුවේ විස්තරාත්මක සාක්ෂි ඇසෙයි",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-08-04T03:21:52.000Z",
       "voiceScript": "සිඩ්නි නගරයේ ඇලන් ජෝන්ස්ගේ නඩුව දැන් පළමු පැමිණිලිකරුගෙන් විස්තරාත්මක සාක්ෂි අසමින් තිබේ, සහ අධිකරණය වසර ගණනාවක් පුරා පැතිරෙන අශෝභන පහරදීම සහ ලිංගික ස්පර්ශ චෝදනා පරීක්ෂා කරමින් සිටී. මෙය වැදගත් වන්නේ ප්‍රකට මාධ්‍ය පුද්ගලයකුගේ පුද්ගලික හැසිරීම දිගුකාලීන අපරාධ නඩුවක් බවට පත් කර, ඔහුගේ පොදු උරුමය නැවත හැඩගස්විය හැකි නිසයි. ඊළඟ පියවර වන්නේ තවත් සාක්ෂිකරුවන්ගේ ප්‍රකාශ, ආරක්ෂාකාරී පාර්ශවයේ අභියෝග සහ මාස ගණනක් පවතින විනිශ්චයකරු පමණක් සිටින ක්‍රියාවලියයි.",
       "differences": [],
@@ -819,6 +922,10 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/nsw-act/courts-law/man-alleges-alan-jones-groped-him-while-driving/news-story/b00da3f896e3e429acda01eb6687eaef"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/alan-jones-six-alleged-victims-to-enter-the-witness-box-20260804-p60l4r.html"
         }
       ],
       "socialDiscussions": [
@@ -1480,36 +1587,6 @@
       ]
     },
     {
-      "id": "kmart-camera-glasses-20260803",
-      "language": "si",
-      "headline": "Kmart හි අයවැය කැමරා කණ්ණාඩි පෞද්ගලිකත්ව අනතුරු ඇඟවීම් අඳින්න",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-03T15:00:22.000Z",
-      "voiceScript": "Kmart එහි ඩොලර් 89 ක ඇන්කෝ කැමරා වීදුරුවලින් විකුණා ඇති අතර මිල අඩු පැළඳිය හැකි කැමරා යුගලයක් ඕස්ට්‍රේලියානුවන් අතට පත් කර ඇත. කණ්නාඩිවලට වීඩියෝ සහ නිශ්චල රූප පටිගත කළ හැකි අතර පුද්ගලිකත්වය වෙනුවෙන් පෙනී සිටින අය පවසන්නේ සාප්පු, ප්‍රවාහනය සහ වෙනත් පොදු ස්ථානවල කැමැත්තෙන් තොරව පුද්ගලයින් රූගත කිරීම පහසු කරන බවයි. එය වැදගත් වන්නේ උපාංගය රහස් පටිගත කිරීමේ පිරිවැය අඩු කරන නිසා රහස්‍යතා නීති තවමත් හසු වී ඇති බැවිනි. මීළඟ ප්‍රශ්නය වන්නේ සිල්ලර වෙළෙන්දන්, නියාමකයින් සහ සාප්පු යන්නන් එය සාමාන්‍ය උපකරණයක් ලෙස හෝ නව නිරීක්ෂණ ගැටලුවක් ලෙස සලකනවාද යන්නයි.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/04/kmart-camera-glasses-anko-meta-smartglasses-australia"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/real-life/news-life/kmart-targets-89-version-of-meta-glasses-sparks-outrage/news-story/4785c495eec7be27fb10084d867f369c"
-        }
-      ],
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/australia",
-          "title": "Kmart sells out of low-cost rival to Meta camera glasses across Australia amid warnings of 'privacy nightmare'",
-          "url": "https://www.reddit.com/r/australia/comments/1venuuh/kmart_sells_out_of_lowcost_rival_to_meta_camera/",
-          "postedAt": "2026-08-04",
-          "upvotes": 649,
-          "score": 649
-        }
-      ]
-    },
-    {
       "id": "victoria-montessori-explicit-instruction-20260803",
       "language": "si",
       "headline": "Victoria හි පැහැදිලි උපදෙස් තල්ලුව මොන්ටිසෝරි පන්ති ක්‍රමානුකූලව ඉවත් කරයි",
@@ -1523,26 +1600,6 @@
           "url": "https://www.theguardian.com/australia-news/2026/aug/03/montessori-learning-is-being-shut-down-at-leahs-school-is-a-push-towards-explicit-instruction-to-blame"
         }
       ]
-    },
-    {
-      "id": "kmart-camera-glasses-20260804",
-      "language": "si",
-      "headline": "අඩු මිල කැමරා ඇස්කණ්නාඩි ඔස්ට්‍රේලියාව පුරා පෞද්ගලිකත්ව කනස්සල්ල උත්සන්න කරයි",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-03T15:00:00.000Z",
-      "voiceScript": "ඩොලර් 89 ක කැමරා ඇස්කණ්නාඩි ඔස්ට්‍රේලියාව පුරා ඉක්මනින් විකිණී අවසන් වී ඇති අතර, එය පටිගත කළ හැකි අඩු මිල උපකරණයක් සාමාන්‍ය වෙළඳපොළටම ගෙන ආවේය. ඒවාට ඡායාරූප ගත කිරීම, උසස් පැහැදිලි වීඩියෝ පටිගත කිරීම, ඇමතුම් ගැනීම සහ කෘත්‍රිම බුද්ධි සහායකයෙකු ධාවනය කිරීම කළ හැකි නිසා, අවසර නැතිව මිනිසුන් පටිගත කළ හැකි බව පෞද්ගලිකත්ව පාර්ශ්විකයෝ කියති. ඉදිරියේදී නියාමකයන් සහ නීතිනිර්මාතෘන් මෙම තාක්ෂණයට ප්‍රතිචාර දක්වන්නේ කෙසේද යන්න තීරණාත්මක වනු ඇත.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/04/kmart-camera-glasses-anko-meta-smartglasses-australia"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/real-life/news-life/kmart-targets-89-version-of-meta-glasses-sparks-outrage/news-story/4785c495eec7be27fb10084d867f369c"
-        }
-      ],
-      "socialDiscussions": []
     },
     {
       "id": "wa-caravan-rollover-20260803",
@@ -1661,7 +1718,7 @@
       "id": "fake-gun-scare-20260803",
       "language": "si",
       "headline": "සිඩ්නි මුවර් උද්‍යානයේ අනුරූප තුවක්කු බිය අත් අඩංගුවට ගැනීම් දෙකකින් අවසන් වේ",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-03T08:33:30.000Z",
       "voiceScript": "NSW පොලිසිය සිඩ්නි විනෝදාස්වාද කාර්තුවේදී ප්‍රධාන ප්‍රතිචාර දැක්වීමකින් පසු පුද්ගලයින් දෙදෙනෙකු අත්අඩංගුවට ගත් අතර එහිදී ගිනි අවියක් පිළිබඳ වාර්තා මත නිලධාරීන් කැඳවනු ලැබීය. එම වස්තුව අනුරූ තුවක්කුවක් බවත්, ඇඳුමක් සහ ලාංඡනයක් ද අත්අඩංගුවට ගත් බව පොලිසිය පවසයි. එය වැදගත් වන්නේ බිය ගැන්වීම SCG අසල කාර්යබහුල පරිශ්‍රයක කොටසක් වසා දැමූ අතර ආයුධයක් වාර්තා වූ විට පොලිසිය කෙතරම් ඉක්මනින් ගමන් කරයිද යන්න පෙන්වූ බැවිනි. පරීක්ෂණ අඛණ්ඩව සිදුවෙමින් පවතින අතර පොලිසිය පවසන්නේ දැනට පවතින තර්ජනයක් නොමැති බවයි.",
       "differences": [],
@@ -1673,6 +1730,10 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/nsw-act/crime/two-people-in-custody-after-police-swarm-moore-park-entertainment-quarter/news-story/e5afb28cef6be865aab5100623dfc6be"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/sydney-entertainment-quarter-moore-park-arrests-fake-gun-20260803-p60l3a.html"
         }
       ]
     },
@@ -2024,6 +2085,21 @@
       ]
     },
     {
+      "id": "nicotine-pouches-ban-20260802",
+      "headline": "ඔස්ට්‍රේලියාව නිකොටින් පවුච් මත දැඩි පාලනයකට යයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T11:51:06.000Z",
+      "voiceScript": "ඔස්ට්‍රේලියාව කඩ සහ ඔන්ලයින් අලෙවිය හරහා පැතිරෙන නිකොටින් පවුච් අවහිර කිරීමට දැඩි ක්‍රියාත්මක කිරීමකට යොමුවෙයි. නිලධාරීහු කියන්නේ මේ පැකට් සඟවා තැබීමත්, භාවිත කිරීමත් පහසු වන අතර තරුණයන් අතරටත් වැඩිවෙමින් ඇති නිසා සෞඛ්‍ය අවදානම පාලනය කිරීම අමාරු බවයි. තහනමෙන් ඉලක්ක කරන්නේ නව නිකොටින් පුරුද්දක් තවත් පුළුල් වීමට පෙර නවත්වීමයි. ඉදිරියේදී ක්‍රියාත්මක කිරීම, දේශසීමා පරීක්ෂා සහ සිල්ලර වෙළෙන්දන්ගේ අනුකූලතාවය සත්‍යයෙන්ම වැඩ කරනවාද යන්න බලන්න තියේ.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australia-outlaws-nicotine-pouches-as-millions-flood-across-border-illegally-c-22664601"
+        }
+      ],
+      "language": "si"
+    },
+    {
       "id": "private-health-rebate-cut-20260802",
       "language": "si",
       "headline": "වයස 65 ඉක්මවූවන්ගේ පෞද්ගලික සෞඛ්‍ය වියදම් තවදුරටත් ඉහළ යා හැකිය",
@@ -2057,6 +2133,21 @@
           "score": 20
         }
       ]
+    },
+    {
+      "id": "optus-emergency-action-20260730",
+      "headline": "හදිසි ඇමතුම් අසාර්ථක වූ බව කියන සිද්ධියෙන් Optus නඩුවකට මුහුණ දෙයි",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T04:13:08.000Z",
+      "voiceScript": "2025 ජාල බිඳවැටීම හදිසි ඇමතුම් සම්බන්ධ අසාර්ථකතා සහ මරණ සමඟ බැඳී ඇති බව පවසමින් විදුලි සංදේශ නියාමකය Optusට එරෙහිව නඩුවක් ගොනු කර තිබේ. ප්‍රධාන ප්‍රශ්නය වන්නේ දෝෂය පසු වන විට සමාගම ප්‍රමාණවත් වේගයෙන් ප්‍රතිචාර දැක්වූවද, triple zero සේවාව ආරක්ෂා කිරීමට ඇති වගකීම ඉටු කළේද යන්නයි. හදිසි සන්නිවේදනය වැදගත් වන්නේ ජාලය විශ්වාසযোগ্য වෙද්දී පමණි. අධිකරණ තීන්දුවෙන් දඩ හා සමාගම් මත ඇතිවන පීඩනය දෙකම වෙනස් විය හැක.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/acma-launches-legal-action-against-optus-over-2025-outage-linked-to-emergency-call-failures-and-deaths-c-22650848"
+        }
+      ],
+      "language": "si"
     }
   ],
   "links": []

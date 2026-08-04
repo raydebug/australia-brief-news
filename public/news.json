@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T14:05:06.208Z",
+  "updatedAt": "2026-08-04T15:19:00.506Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -103,9 +103,44 @@
   "errors": [
     "news.com.au latest-news feed still required search-assisted fallback for some current Australian items.",
     "The Australian, Sky News Australia, and Yahoo News Australia still did not expose stable current-week Australia listings.",
-    "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results."
+    "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results.",
+    "9News homepage JSON was usable, but some standalone article fetches still returned 404, so card URLs were resolved from the homepage."
   ],
   "clusters": [
+    {
+      "id": "commercial-rooftop-solar-expansion-20260804",
+      "language": "zh-Hans",
+      "headline": "工党扩大商业屋顶太阳能补贴，瞄准企业电费",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-04T12:26:56.000Z",
+      "voiceScript": "联邦政府正扩大太阳能折扣计划，让更大的商业屋顶系统也能享受补贴，而不再只局限于小型安装。官员表示，中型企业大约可节省 6.8 万澳元的安装成本，较大的仓库或工厂则可一次性省下约 23.2 万澳元，并在每年电费上减少约 17.5 万澳元。这个举措之所以重要，是因为它把政策重点放到一直落后于家庭屋顶太阳能的商业场景，尤其是工厂、零售和物流场地。接下来要看的是审批速度和安装能力能否跟上。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-04/solar-installation-savings-ssre-expansion-chrise-bowen/106997140"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/environment/labor-unveils-government-solar-scheme-for-commercial-rooftops-businesses-tipped-to-save-175k-a-year/news-story/eb9ad1a8355061070bda8c7bbdc6be94"
+        }
+      ]
+    },
+    {
+      "id": "home-birth-trial-20260804",
+      "headline": "昆士兰家中分娩致死案庭上听取 triple zero 通话",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T12:01:28.626Z",
+      "voiceScript": "昆士兰一宗过失致死审判中，庭上听取了一通 triple zero 报警电话，这通电话是一起致命家中分娩案件的核心证据。它之所以重要，是因为陪审团需要判断在急救到来前最关键的几分钟里究竟发生了什么，以及应对是否达到要求。这个案子也再次提醒人们，家中分娩一旦出现并发症，情况可能会很快失控。接下来要看审判剩余部分和陪审团如何看待时间线。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/qld/robyn-mary-james-manslaughter-trial-triple-zero-call-played-in-fatal-home-birth-trial-20260804-p60lhb.html"
+        }
+      ],
+      "language": "zh-Hans"
+    },
     {
       "id": "tony-burke-migration-cuts-20260804",
       "language": "zh-Hans",
@@ -196,10 +231,25 @@
       }
     },
     {
+      "id": "family-paperwork-bungle-20260804",
+      "headline": "一次文件失误让一个家庭被迫离开澳大利亚",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T09:47:44.649Z",
+      "voiceScript": "一个家庭表示，政府文件上的失误迫使他们离开澳大利亚。这个故事说明，移民和居留系统一旦在文件、期限或审批环节出错，就会直接打乱工作、上学和家庭安排。它的重要性在于，行政错误对当事人的影响往往和政策决定一样严重。接下来要看这个家庭能否上诉，或者及时修正问题后回到澳大利亚。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/a-current-affair/family-forced-to-leave-australia-over-government-paperwork-bungle-20260804-p60lh3.html"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
       "id": "widow-tax-fix-20260804",
       "language": "zh-Hans",
       "headline": "工党着手填补“寡妇税”缺口，赶在下一轮税改前修补",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-04T09:45:27.000Z",
       "voiceScript": "工党正着手修补被批评者称作“寡妇税”的税务安排，把原本承诺的资本利得税和负扣税豁免更完整地适用于死亡和离婚情形。这个问题重要，因为共同持有的投资房产在关系结束或配偶去世时，可能会被这道缺口波及。财政部表示，草案咨询将持续到8月21日，所以真正的看点是补救措施能否在有脆弱持有人被旧规则影响之前到位。",
       "differences": [],
@@ -211,6 +261,10 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/politics/labor-to-close-divorce-widows-tax-with-second-202627-budget-tranche/news-story/e4e069e3764499440c1466a5d57a850a"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/labor-quiet-on-timeline-over-widow-tax-change-20260804-p60lee.html"
         }
       ],
       "socialDiscussions": {
@@ -273,25 +327,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "commercial-rooftop-solar-expansion-20260804",
-      "language": "zh-Hans",
-      "headline": "工党扩大商业屋顶太阳能补贴，瞄准企业电费",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-04T12:26:56.000Z",
-      "voiceScript": "联邦政府正扩大太阳能折扣计划，让更大的商业屋顶系统也能享受补贴，而不再只局限于小型安装。官员表示，中型企业大约可节省 6.8 万澳元的安装成本，较大的仓库或工厂则可一次性省下约 23.2 万澳元，并在每年电费上减少约 17.5 万澳元。这个举措之所以重要，是因为它把政策重点放到一直落后于家庭屋顶太阳能的商业场景，尤其是工厂、零售和物流场地。接下来要看的是审批速度和安装能力能否跟上。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/solar-installation-savings-ssre-expansion-chrise-bowen/106997140"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/technology/environment/labor-unveils-government-solar-scheme-for-commercial-rooftops-businesses-tipped-to-save-175k-a-year/news-story/eb9ad1a8355061070bda8c7bbdc6be94"
-        }
-      ]
     },
     {
       "id": "kevin-rudd-taiwan-warning-20260804",
@@ -372,7 +407,7 @@
       "id": "kath-pettingill-dies-20260804",
       "language": "zh-Hans",
       "headline": "“沃尔什街枪杀案”母亲凯瑟琳·佩廷吉尔去世",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-08-04T08:54:20.000Z",
       "voiceScript": "凯瑟琳·佩廷吉尔去世，意味着墨尔本臭名昭著的犯罪家族叙事又翻过一页。她是因沃尔什街警察谋杀案而成名的两名男子的母亲，因此长期被视为维州犯罪史上的标志性人物。这个消息重要，因为它结束的是一位长期被媒体聚焦的犯罪家族象征，而不是一桩新的案件。接下来外界大概会重新讨论她在那段历史中的角色，以及这段记忆如何被讲述。",
       "differences": [],
@@ -380,6 +415,10 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-04/kath-pettingill-crime-matriarch-dies/106996596"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/vic/kath-pettingill-melbourne-underworld-matriarch-death-20260804-p60lgh.html"
         }
       ],
       "socialDiscussions": [
@@ -490,6 +529,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "census-door-knock-scam-20260804",
+      "headline": "澳统计局警告普查前警惕上门骗子",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T06:51:01.000Z",
+      "voiceScript": "澳大利亚统计局提醒民众，在8月11日普查前要提防冒充普查人员上门的人。真正的工作人员不会索要银行资料、密码或其他敏感信息。这个提醒很重要，因为普查会影响学校、医疗和基础设施规划，骗局会在调查开始前就削弱信任。接下来要靠更多公开提醒和对可疑上门行为的及时举报。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australians-warned-about-door-knocking-scam-ahead-of-august-11-census-c-22674281"
+        }
+      ],
+      "language": "zh-Hans"
     },
     {
       "id": "gambling-inducements-denied-20260804",
@@ -616,6 +670,21 @@
       ]
     },
     {
+      "id": "sydney-harbour-bridge-crash-20260804",
+      "headline": "悉尼海港大桥车祸致三人受伤并造成交通延误",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T05:35:06.557Z",
+      "voiceScript": "悉尼海港大桥发生两车相撞，三人受伤，也短暂扰乱了这条城市最繁忙的交通通道之一。哪怕只是小碰撞，在这里也可能波及通勤车流、货运和应急通行。更大的问题是，拥堵和驾驶失误会把普通事故迅速放大成全城延误。接下来要看警方和交通部门如何查清原因，以及清理和修复要花多久。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/sydney-harbour-bridge-chaos-after-three-injured-in-two-car-crash-20260804-p60le3.html"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
       "id": "sydney-ed-pressure-20260804",
       "language": "zh-Hans",
       "headline": "悉尼急诊再度拉响高压警报",
@@ -657,6 +726,40 @@
           "title": "Winter illnesses place increasing pressure on NSW hospitals",
           "url": "https://www.facebook.com/AustraliabyAussieofficial/posts/winter-illnesses-are-placing-increasing-pressure-on-hospitals-across-new-south-w/122187033242920977/",
           "score": 12
+        }
+      ]
+    },
+    {
+      "id": "kmart-camera-glasses-20260803",
+      "language": "zh-Hans",
+      "headline": "Kmart 的廉价相机眼镜引发隐私警告",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-04T03:44:58.296Z",
+      "voiceScript": "Kmart 的 89 美元 Anko 相机眼镜已售罄，将一副廉价的可穿戴相机送到更多澳大利亚人手中。这款眼镜可以录制视频和静态图像，隐私倡导者表示，这使得在商店、交通和其他公共场所未经同意的情况下拍摄人们变得更容易。这很重要，因为该设备降低了秘密录音的成本，而隐私规则仍在不断完善。下一个问题是零售商、监管机构和购物者是否将其视为正常的小工具或新的监控问题。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/04/kmart-camera-glasses-anko-meta-smartglasses-australia"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/real-life/news-life/kmart-targets-89-version-of-meta-glasses-sparks-outrage/news-story/4785c495eec7be27fb10084d867f369c"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/kmart-low-cost-camera-glasses-sell-out-australia-privacy-concerns-meta-ray-bans-20260804-p60lca.html"
+        }
+      ],
+      "socialDiscussions": [
+        {
+          "platform": "Reddit",
+          "community": "r/australia",
+          "title": "Kmart sells out of low-cost rival to Meta camera glasses across Australia amid warnings of 'privacy nightmare'",
+          "url": "https://www.reddit.com/r/australia/comments/1venuuh/kmart_sells_out_of_lowcost_rival_to_meta_camera/",
+          "postedAt": "2026-08-04",
+          "upvotes": 649,
+          "score": 649
         }
       ]
     },
@@ -803,7 +906,7 @@
       "id": "alan-jones-trial-20260804",
       "language": "zh-Hans",
       "headline": "Alan Jones 在悉尼的审判进入详细证词阶段",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-08-04T03:21:52.000Z",
       "voiceScript": "Alan Jones 在悉尼的审判现在正在听取首位控诉人的详细证词，法庭正在审查跨越多年的猥亵攻击和性接触指控。这个案件重要，因为它把一位知名媒体人物的私人行为变成了一场可能持续很久的刑事审理，并可能重塑他的公众形象。接下来还会有更多证人出庭、辩方质疑，以及可能持续数月的法官独审程序，之后才会进入裁决或量刑阶段。",
       "differences": [],
@@ -819,6 +922,10 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/nsw-act/courts-law/man-alleges-alan-jones-groped-him-while-driving/news-story/b00da3f896e3e429acda01eb6687eaef"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/alan-jones-six-alleged-victims-to-enter-the-witness-box-20260804-p60l4r.html"
         }
       ],
       "socialDiscussions": [
@@ -1480,36 +1587,6 @@
       ]
     },
     {
-      "id": "kmart-camera-glasses-20260803",
-      "language": "zh-Hans",
-      "headline": "Kmart 的廉价相机眼镜引发隐私警告",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-03T15:00:22.000Z",
-      "voiceScript": "Kmart 的 89 美元 Anko 相机眼镜已售罄，将一副廉价的可穿戴相机送到更多澳大利亚人手中。这款眼镜可以录制视频和静态图像，隐私倡导者表示，这使得在商店、交通和其他公共场所未经同意的情况下拍摄人们变得更容易。这很重要，因为该设备降低了秘密录音的成本，而隐私规则仍在不断完善。下一个问题是零售商、监管机构和购物者是否将其视为正常的小工具或新的监控问题。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/04/kmart-camera-glasses-anko-meta-smartglasses-australia"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/real-life/news-life/kmart-targets-89-version-of-meta-glasses-sparks-outrage/news-story/4785c495eec7be27fb10084d867f369c"
-        }
-      ],
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/australia",
-          "title": "Kmart sells out of low-cost rival to Meta camera glasses across Australia amid warnings of 'privacy nightmare'",
-          "url": "https://www.reddit.com/r/australia/comments/1venuuh/kmart_sells_out_of_lowcost_rival_to_meta_camera/",
-          "postedAt": "2026-08-04",
-          "upvotes": 649,
-          "score": 649
-        }
-      ]
-    },
-    {
       "id": "victoria-montessori-explicit-instruction-20260803",
       "language": "zh-Hans",
       "headline": "维多利亚州的显式教学推动正在逐步淘汰蒙特梭利课程随着州政府不断推动学校进行显式教学，维多利亚州的",
@@ -1523,26 +1600,6 @@
           "url": "https://www.theguardian.com/australia-news/2026/aug/03/montessori-learning-is-being-shut-down-at-leahs-school-is-a-push-towards-explicit-instruction-to-blame"
         }
       ]
-    },
-    {
-      "id": "kmart-camera-glasses-20260804",
-      "language": "zh-Hans",
-      "headline": "廉价摄像眼镜在澳洲引发隐私争议",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-03T15:00:00.000Z",
-      "voiceScript": "一款售价 89 澳元的摄像眼镜在澳洲多地售罄，把带拍摄功能的可穿戴设备推入主流零售市场。它能拍照、录制高清视频、接听电话，还能运行人工智能助手，因此隐私倡议者担心，人们可能在未获同意的情况下被拍摄。接下来要看监管机构和立法者会不会因公众反弹而加快回应，还是让这类设备继续按现行规则扩散。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/04/kmart-camera-glasses-anko-meta-smartglasses-australia"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/lifestyle/real-life/news-life/kmart-targets-89-version-of-meta-glasses-sparks-outrage/news-story/4785c495eec7be27fb10084d867f369c"
-        }
-      ],
-      "socialDiscussions": []
     },
     {
       "id": "wa-caravan-rollover-20260803",
@@ -1661,7 +1718,7 @@
       "id": "fake-gun-scare-20260803",
       "language": "zh-Hans",
       "headline": "悉尼摩尔公园的复制枪支恐慌以两人被捕告终",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-03T08:33:30.000Z",
       "voiceScript": "新南威尔士州警方在悉尼娱乐区做出重大反应后逮捕了两名男子，当地警方因枪支报告而被报警。警方称，该物品是一把仿制枪，还查获了一件背心和徽章。这很重要，因为恐慌导致 SCG 附近一个繁忙区域的部分区域被关闭，并表明警方在接到武器报告后会迅速采取行动。调查仍在继续，警方称不存在持续威胁。",
       "differences": [],
@@ -1673,6 +1730,10 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/nsw-act/crime/two-people-in-custody-after-police-swarm-moore-park-entertainment-quarter/news-story/e5afb28cef6be865aab5100623dfc6be"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/australia-news/nsw/sydney-entertainment-quarter-moore-park-arrests-fake-gun-20260803-p60l3a.html"
         }
       ]
     },
@@ -2024,6 +2085,21 @@
       ]
     },
     {
+      "id": "nicotine-pouches-ban-20260802",
+      "headline": "澳大利亚加紧打击尼古丁袋",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T11:51:06.000Z",
+      "voiceScript": "澳大利亚正在收紧对尼古丁袋的执法，目标是阻止这类产品继续通过商店和网店流通。官员说，这些包装容易隐藏、容易使用，也越来越多地进入年轻人手中，健康风险因此更难控制。禁令的意义在于尽早压住一种新的尼古丁习惯，接下来要看执法、边检和零售商配合能不能把它挡住。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australia-outlaws-nicotine-pouches-as-millions-flood-across-border-illegally-c-22664601"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
       "id": "private-health-rebate-cut-20260802",
       "language": "zh-Hans",
       "headline": "澳洲老年人的私保账单将继续上升",
@@ -2057,6 +2133,21 @@
           "score": 20
         }
       ]
+    },
+    {
+      "id": "optus-emergency-action-20260730",
+      "headline": "Optus因与紧急呼叫失效相关的事故面临诉讼",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-30T04:13:08.000Z",
+      "voiceScript": "电信监管机构已就2025年的网络中断对 Optus 提起诉讼，这次故障和紧急呼叫失效以及死亡事件有关。案件焦点在于，公司是否在故障发生后处理得足够快，以及是否履行了保护 triple zero 服务的义务。这个问题重要，是因为紧急通信只有在网络可靠时才真正有用。法院结果可能会改变处罚力度，也会加大电信公司加固系统的压力。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/acma-launches-legal-action-against-optus-over-2025-outage-linked-to-emergency-call-failures-and-deaths-c-22650848"
+        }
+      ],
+      "language": "zh-Hans"
     }
   ],
   "links": []
