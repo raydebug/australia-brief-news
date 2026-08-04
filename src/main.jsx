@@ -1633,6 +1633,25 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Isaac Cooper",
+    aliases: ["Isaac Cooper", "Isaac Alan Cooper", "艾萨克·库珀", "艾薩克·庫珀", "アイザック・クーパー", "아이작 쿠퍼", "ไอแซก คูเปอร์"],
+    type: "athlete",
+    profile: { label: "Swimming Australia profile", url: "https://www.swimming.org.au/performance/dolphins/athletes/isaac-cooper" },
+    officialProfile: { label: "Australian Olympic Team profile", url: "https://www.olympics.com.au/olympians/isaac-cooper/" },
+    personalSocial: { label: "Instagram", url: "https://www.instagram.com/mrisaaccooper/" },
+    background: {
+      "zh-Hans": "澳大利亚仰泳运动员和奥运选手，曾代表澳洲参加 Tokyo 2020 和 Paris 2024，并在世界锦标赛和短池世锦赛接力项目中夺牌。",
+      "zh-Hant": "澳洲仰泳運動員和奧運選手，曾代表澳洲參加 Tokyo 2020 和 Paris 2024，並在世界錦標賽和短池世錦賽接力項目中奪牌。",
+      en: "Australian backstroke swimmer and Olympian who represented Australia at Tokyo 2020 and Paris 2024, with medals in World Championships and short-course relay events.",
+      es: "Nadador australiano de espalda y olímpico que representó a Australia en Tokyo 2020 y Paris 2024, con medallas en campeonatos mundiales y relevos de piscina corta.",
+      ja: "オーストラリアの背泳ぎ選手で五輪代表。Tokyo 2020 と Paris 2024 に出場し、世界選手権や短水路リレー種目でメダルを獲得しています。",
+      ko: "호주의 배영 선수이자 올림픽 대표입니다. Tokyo 2020과 Paris 2024에서 호주를 대표했고 세계선수권과 쇼트코스 계영 종목에서 메달을 땄습니다.",
+      vi: "VĐV bơi ngửa và tuyển thủ Olympic của Australia, từng dự Tokyo 2020 và Paris 2024, có huy chương ở giải vô địch thế giới và các nội dung tiếp sức hồ ngắn.",
+      th: "นักว่ายน้ำท่ากรรเชียงและนักกีฬาโอลิมปิกของออสเตรเลีย เคยแข่ง Tokyo 2020 และ Paris 2024 พร้อมเหรียญจากชิงแชมป์โลกและผลัดสระสั้น",
+      si: "Australian backstroke swimmer සහ Olympian කෙනෙකි; Tokyo 2020 සහ Paris 2024 හි Australia නියෝජනය කළ අතර World Championships සහ short-course relay events වල medals දිනා ඇත."
+    }
+  },
+  {
     name: "Lucas Herrington",
     aliases: ["Lucas Herrington", "Australian Socceroo Lucas Herrington", "卢卡斯·赫林顿", "盧卡斯·赫林頓", "ルーカス・ヘリントン", "루커스 헤링턴", "ลูคัส เฮอร์ริงตัน"],
     type: "athlete",
