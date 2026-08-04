@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T21:19:13.343Z",
+  "updatedAt": "2026-08-04T22:13:00.306Z",
   "generatedBy": "codex",
   "language": "th",
   "sources": [
@@ -101,11 +101,32 @@
     }
   ],
   "errors": [
-    "news.com.au latest-feed page was not stable enough to use without manual verification.",
-    "9News, The Australian, Sky News Australia, and Yahoo News Australia did not expose stable current-week Australia listings.",
+    "news.com.au and The Australian were harvested from article-level results because the stable latest pages were inconsistent.",
+    "Sky News Australia and Yahoo News Australia did not expose stable current-week Australia listings.",
     "ABC cards dated 2026-08-05 were future-dated under the 2026-08-04 cutoff and were excluded."
   ],
   "clusters": [
+    {
+      "id": "jetstar-overhead-carry-on-fee-20260804",
+      "language": "th",
+      "headline": "เจ็ตสตาร์เปลี่ยนช่องเก็บของเหนือศีรษะให้เป็นบริการจ่ายเพิ่ม",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-04T21:54:30.000Z",
+      "voiceScript": "ตั้งแต่เดือนกุมภาพันธ์ 2027 เจ็ตสตาร์จะปรับกติกาสัมภาระถือขึ้นเครื่อง โดยอนุญาตให้ขึ้นฟรีเพียงกระเป๋าใบเล็กที่วางใต้ที่นั่ง ส่วนกระเป๋าใบใหญ่ที่ต้องใส่ในช่องเหนือศีรษะจะต้องซื้อ Priority Carry-on เพิ่ม รายงานระบุว่าค่าบริการเริ่มราว 25 ดอลลาร์ออสเตรเลียในเส้นทางสั้น และอาจเกิน 50 ดอลลาร์ในบางเส้นทาง โดยจะยกเลิกเพดานน้ำหนักรวม 7 กิโลกรัมเดิม การเปลี่ยนแปลงนี้สำคัญเพราะกระทบต้นทุนจริงของตั๋วราคาประหยัด และจะเป็นตัวชี้ว่าผู้โดยสารยอมรับเงื่อนไขใหม่นี้หรือไม่",
+      "differences": [
+        "news.com.au และ The Australian เน้นช่วงราคาแยกตามเส้นทางและการเริ่มใช้ในเดือนกุมภาพันธ์ 2027 มากกว่าเรื่องอื่น ๆ"
+      ],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/jetstar-changes-carryon-baggage-policy-luggage-in-overhead-lockers-no-longer-free/news-story/f00536799209cfa0779aa651f0b548e6"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/business/aviation/jetstar-to-charge-passengers-for-using-overhead-lockers-for-carryon-bags/news-story/b6082118b44750022bf098195b868f70"
+        }
+      ]
+    },
     {
       "id": "australian-home-sellers-profits-soft-market-20260804",
       "language": "th",
@@ -125,11 +146,11 @@
       "id": "naplan-national-results-20260804",
       "language": "th",
       "headline": "ผล NAPLAN ชี้ว่าการอ่าน การเขียน และคณิตศาสตร์ทั่วประเทศกำลังอ่อนลง",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-04T20:00:00.000Z",
       "voiceScript": "ผล NAPLAN ล่าสุดของออสเตรเลียสะท้อนว่า ทักษะการอ่าน การเขียน และคณิตศาสตร์กำลังถูกกดดันอย่างต่อเนื่อง AAP เน้นภาพรวมที่อ่อนลงของการอ่านและการเขียน ขณะที่ The Age ชี้ว่ามีนักเรียนจำนวนมากยังไม่ถึงเกณฑ์มาตรฐาน เรื่องนี้สำคัญเพราะผลลัพธ์ดังกล่าวส่งผลต่อการช่วยเหลือของโรงเรียน การถกเถียงเชิงนโยบาย และโอกาสที่เด็กจะเติมพื้นฐานให้ทันก่อนขึ้นมัธยม คำถามต่อไปคือแต่ละรัฐจะเปลี่ยนข้อมูลนี้เป็นการช่วยเหลือที่ตรงจุดได้เร็วแค่ไหน",
       "differences": [
-        "AAP เน้นความอ่อนลงของการอ่านและการเขียนโดยรวม; The Age เน้นสัดส่วนนักเรียนที่ไม่ถึงเกณฑ์มาตรฐาน."
+        "Guardian และ The Age เน้นขนาดของช่องว่างด้านการอ่าน การเขียน และคณิตศาสตร์ ขณะที่ AAP มองผลครั้งนี้เป็นสัญญาณเตือนระดับประเทศ."
       ],
       "links": [
         {
@@ -139,6 +160,10 @@
         {
           "source": "The Age",
           "url": "https://www.theage.com.au/national/victoria/a-third-of-students-fail-to-hit-naplan-benchmarks-20260803-p60kyr.html"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/04/naplan-results-2026-reading-writing-australian-school-standards"
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T21:19:13.343Z",
+  "updatedAt": "2026-08-04T22:13:00.306Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -101,11 +101,32 @@
     }
   ],
   "errors": [
-    "news.com.au latest-feed page was not stable enough to use without manual verification.",
-    "9News, The Australian, Sky News Australia, and Yahoo News Australia did not expose stable current-week Australia listings.",
+    "news.com.au and The Australian were harvested from article-level results because the stable latest pages were inconsistent.",
+    "Sky News Australia and Yahoo News Australia did not expose stable current-week Australia listings.",
     "ABC cards dated 2026-08-05 were future-dated under the 2026-08-04 cutoff and were excluded."
   ],
   "clusters": [
+    {
+      "id": "jetstar-overhead-carry-on-fee-20260804",
+      "language": "ko",
+      "headline": "젯스타, 머리 위 수납 기내수하물에 추가요금 부과",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-04T21:54:30.000Z",
+      "voiceScript": "젯스타는 2027년 2월부터 기내수하물 규정을 바꿔, 무료로 허용되는 것은 좌석 아래에 들어가는 작은 가방만 남긴다. 머리 위 수납공간에 넣는 큰 가방은 Priority Carry-on 요금을 내야 하며, 노선에 따라 약 25호주달러에서 50호주달러를 넘는 수준까지 보고됐다. 기존의 7킬로그램 총중량 기준도 사라진다. 이 변화는 저가 항공권의 실제 비용 구조를 바꾸기 때문에 중요하며, 앞으로 승객이 이 조건을 받아들일지, 경쟁사로 이동할지가 관건이다.",
+      "differences": [
+        "news.com.au와 The Australian은 노선별 요금 구간과 2027년 2월 시행 시점을 더 강조한다."
+      ],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/jetstar-changes-carryon-baggage-policy-luggage-in-overhead-lockers-no-longer-free/news-story/f00536799209cfa0779aa651f0b548e6"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/business/aviation/jetstar-to-charge-passengers-for-using-overhead-lockers-for-carryon-bags/news-story/b6082118b44750022bf098195b868f70"
+        }
+      ]
+    },
     {
       "id": "australian-home-sellers-profits-soft-market-20260804",
       "language": "ko",
@@ -125,11 +146,11 @@
       "id": "naplan-national-results-20260804",
       "language": "ko",
       "headline": "NAPLAN 결과가 전국적인 읽기·수리 하락을 보여준다",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-04T20:00:00.000Z",
       "voiceScript": "호주 최신 NAPLAN 결과는 읽기, 쓰기, 수학 전반에 압박이 커지고 있음을 보여줍니다. AAP는 읽기와 쓰기의 전반적 약세를 강조했고, The Age는 기준에 도달하지 못한 학생 비율을 부각했습니다. 이 결과는 학교 지원, 정책 논의, 그리고 중등교육으로 넘어가기 전에 아이들이 기초를 보강할 수 있는지와 직결되기 때문에 중요합니다. 앞으로의 과제는 각 주가 이 데이터를 얼마나 빨리 맞춤형 지원으로 바꿀 수 있느냐입니다.",
       "differences": [
-        "AAP는 읽기·쓰기의 전반적 약세를, The Age는 기준 미달 학생 비율을 강조합니다."
+        "Guardian과 The Age는 읽기·쓰기와 수리 격차의 규모를 더 부각하고, AAP는 이번 결과를 전국적 경고 신호로 다룬다."
       ],
       "links": [
         {
@@ -139,6 +160,10 @@
         {
           "source": "The Age",
           "url": "https://www.theage.com.au/national/victoria/a-third-of-students-fail-to-hit-naplan-benchmarks-20260803-p60kyr.html"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/04/naplan-results-2026-reading-writing-australian-school-standards"
         }
       ]
     },

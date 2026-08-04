@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T21:19:13.343Z",
+  "updatedAt": "2026-08-04T22:13:00.306Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -101,11 +101,32 @@
     }
   ],
   "errors": [
-    "news.com.au latest-feed page was not stable enough to use without manual verification.",
-    "9News, The Australian, Sky News Australia, and Yahoo News Australia did not expose stable current-week Australia listings.",
+    "news.com.au and The Australian were harvested from article-level results because the stable latest pages were inconsistent.",
+    "Sky News Australia and Yahoo News Australia did not expose stable current-week Australia listings.",
     "ABC cards dated 2026-08-05 were future-dated under the 2026-08-04 cutoff and were excluded."
   ],
   "clusters": [
+    {
+      "id": "jetstar-overhead-carry-on-fee-20260804",
+      "language": "zh-Hans",
+      "headline": "捷星航空把头顶行李变成付费选项",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-04T21:54:30.000Z",
+      "voiceScript": "捷星航空将从 2027 年 2 月起调整客舱行李规则，免费部分只保留一件小型座椅下行李，而放入头顶行李舱的大件行李需要购买 Priority Carry-on。报道提到，短航线价格大约从 25 澳元起，较长航线可能超过 50 澳元，原来的 7 公斤总重量限制也会取消。这个变化重要，是因为它重新定义了澳洲廉航最常见的服务组合，也会改变旅客的打包方式和登机成本。接下来要看的是旅客是否接受这项新收费，以及其他航空公司会不会跟进。",
+      "differences": [
+        "news.com.au 和 The Australian 更强调按航线定价区间以及 2027 年 2 月的上线时间，而核心变化是免费头顶行李额度被取消。"
+      ],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/jetstar-changes-carryon-baggage-policy-luggage-in-overhead-lockers-no-longer-free/news-story/f00536799209cfa0779aa651f0b548e6"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/business/aviation/jetstar-to-charge-passengers-for-using-overhead-lockers-for-carryon-bags/news-story/b6082118b44750022bf098195b868f70"
+        }
+      ]
+    },
     {
       "id": "australian-home-sellers-profits-soft-market-20260804",
       "language": "zh-Hans",
@@ -125,11 +146,11 @@
       "id": "naplan-national-results-20260804",
       "language": "zh-Hans",
       "headline": "NAPLAN 成绩显示全国读写和算术都在下滑",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-04T20:00:00.000Z",
       "voiceScript": "澳大利亚最新一轮 NAPLAN 结果显示，阅读、写作和数学都承受压力，仍有相当比例学生没有达到基准线。AAP 把焦点放在阅读和写作整体走弱，《时代报》则强调有约三分之一学生未达基准。这个结果重要，因为它会直接影响学校支持、政策讨论，以及孩子在升入中学前能否补上基础差距。接下来要看的是，各州能否把数据尽快转化成有针对性的帮助。",
       "differences": [
-        "AAP 更强调阅读和写作整体走弱；《时代报》突出未达基准线的学生比例。"
+        "《卫报》和《时代报》更强调读写与算术缺口的规模，而 AAP 则把结果写成全国警讯。"
       ],
       "links": [
         {
@@ -139,6 +160,10 @@
         {
           "source": "The Age",
           "url": "https://www.theage.com.au/national/victoria/a-third-of-students-fail-to-hit-naplan-benchmarks-20260803-p60kyr.html"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/04/naplan-results-2026-reading-writing-australian-school-standards"
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T21:19:13.343Z",
+  "updatedAt": "2026-08-04T22:13:00.306Z",
   "generatedBy": "codex",
   "language": "vi",
   "sources": [
@@ -101,11 +101,32 @@
     }
   ],
   "errors": [
-    "news.com.au latest-feed page was not stable enough to use without manual verification.",
-    "9News, The Australian, Sky News Australia, and Yahoo News Australia did not expose stable current-week Australia listings.",
+    "news.com.au and The Australian were harvested from article-level results because the stable latest pages were inconsistent.",
+    "Sky News Australia and Yahoo News Australia did not expose stable current-week Australia listings.",
     "ABC cards dated 2026-08-05 were future-dated under the 2026-08-04 cutoff and were excluded."
   ],
   "clusters": [
+    {
+      "id": "jetstar-overhead-carry-on-fee-20260804",
+      "language": "vi",
+      "headline": "Jetstar biến khoang trên đầu thành dịch vụ trả phí",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-04T21:54:30.000Z",
+      "voiceScript": "Từ tháng 2 năm 2027, Jetstar sẽ đổi quy định hành lý xách tay: túi nhỏ đặt dưới ghế vẫn miễn phí, còn túi lớn để trong ngăn phía trên phải mua thêm gói Priority Carry-on. Mức phí được cho là dao động từ khoảng 25 đô la Úc trên các chặng ngắn đến hơn 50 đô la trên chặng dài, và giới hạn 7 ký tổng cộng sẽ bị bỏ. Việc này quan trọng vì nó thay đổi cách các vé giá rẻ được bán và cách hành khách chuẩn bị cho chuyến bay. Điểm cần theo dõi tiếp là mức độ chấp nhận của khách và liệu các hãng khác có làm theo hay không.",
+      "differences": [
+        "news.com.au và The Australian nhấn mạnh mức giá theo từng chặng bay cùng mốc triển khai vào tháng 2 năm 2027."
+      ],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/jetstar-changes-carryon-baggage-policy-luggage-in-overhead-lockers-no-longer-free/news-story/f00536799209cfa0779aa651f0b548e6"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/business/aviation/jetstar-to-charge-passengers-for-using-overhead-lockers-for-carryon-bags/news-story/b6082118b44750022bf098195b868f70"
+        }
+      ]
+    },
     {
       "id": "australian-home-sellers-profits-soft-market-20260804",
       "language": "vi",
@@ -125,11 +146,11 @@
       "id": "naplan-national-results-20260804",
       "language": "vi",
       "headline": "Kết quả NAPLAN cho thấy đà giảm về đọc, viết và toán trên toàn quốc",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-04T20:00:00.000Z",
       "voiceScript": "Kết quả NAPLAN mới nhất của Australia cho thấy áp lực đang đè lên khả năng đọc, viết và toán của học sinh. AAP nhấn mạnh xu hướng yếu đi ở đọc và viết, còn The Age nêu bật tỷ lệ học sinh chưa đạt ngưỡng chuẩn. Điều này quan trọng vì nó ảnh hưởng trực tiếp đến hỗ trợ của trường học, tranh luận chính sách và việc trẻ có kịp bù nền tảng trước khi lên cấp hai hay không. Câu hỏi tiếp theo là các bang có thể biến dữ liệu này thành hỗ trợ cụ thể nhanh đến mức nào.",
       "differences": [
-        "AAP nhấn mạnh đà yếu đi ở đọc và viết; The Age nhấn mạnh số học sinh chưa đạt ngưỡng chuẩn."
+        "Guardian và The Age nhấn mạnh mức độ lớn của khoảng trống về đọc, viết và toán, còn AAP xem đây là một tín hiệu cảnh báo toàn quốc."
       ],
       "links": [
         {
@@ -139,6 +160,10 @@
         {
           "source": "The Age",
           "url": "https://www.theage.com.au/national/victoria/a-third-of-students-fail-to-hit-naplan-benchmarks-20260803-p60kyr.html"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/04/naplan-results-2026-reading-writing-australian-school-standards"
         }
       ]
     },

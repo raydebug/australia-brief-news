@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T21:19:13.343Z",
+  "updatedAt": "2026-08-04T22:13:00.306Z",
   "generatedBy": "codex",
   "language": "si",
   "sources": [
@@ -101,11 +101,32 @@
     }
   ],
   "errors": [
-    "news.com.au latest-feed page was not stable enough to use without manual verification.",
-    "9News, The Australian, Sky News Australia, and Yahoo News Australia did not expose stable current-week Australia listings.",
+    "news.com.au and The Australian were harvested from article-level results because the stable latest pages were inconsistent.",
+    "Sky News Australia and Yahoo News Australia did not expose stable current-week Australia listings.",
     "ABC cards dated 2026-08-05 were future-dated under the 2026-08-04 cutoff and were excluded."
   ],
   "clusters": [
+    {
+      "id": "jetstar-overhead-carry-on-fee-20260804",
+      "language": "si",
+      "headline": "ජෙට්ස්ටාර් උඩ කැබින් ගමන්බෑගය අමතර ගාස්තුවක් කරයි",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-04T21:54:30.000Z",
+      "voiceScript": "2027 පෙබරවාරි부터 ජෙට්ස්ටාර් කැබින් ගමන්බෑග් නීති වෙනස් කරයි. නොමිලේ තියෙන්නේ කුඩා අසුන යට බෑග් එකක් පමණක් වන අතර උඩ බෑග් කැබින් ස්ථානය සඳහා Priority Carry-on ලෙස අමතර මුදලක් ගෙවිය යුතුයි. වාර්තා අනුව කෙටි මාර්ගවල මිල ඩොලර් 25කින් ආරම්භවී දුර මාර්ගවල ඩොලර් 50කට වඩා ඉහළ යා හැක. මේ වෙනස වැදගත් වන්නේ අඩු ගාස්තු ගුවන්ගමන්වල සාමාන්‍ය වියදම් රටාවම වෙනස් කරන නිසාය, සහ මගීන් බෑග් සකස් කරන ආකාරයටත් බලපායි. ඉදිරියේදී බලන්න වෙන්නේ ගමන්කරුවන් මේ අලුත් ගාස්තු පිළිගන්නවාද සහ වෙනත් ගුවන් සමාගම් මෙය අනුගමනය කරනවාද යන්නයි.",
+      "differences": [
+        "news.com.au සහ The Australian මාර්ග අනුව වෙනස් වන මිල පරාස සහ 2027 පෙබරවාරි ආරම්භය වැඩි අවධානයෙන් දක්වයි; මූලික වෙනස නම් නොමිලේ උඩ කැබින් ගමන්බෑග් අවසරය ඉවත් වීමය."
+      ],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/jetstar-changes-carryon-baggage-policy-luggage-in-overhead-lockers-no-longer-free/news-story/f00536799209cfa0779aa651f0b548e6"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/business/aviation/jetstar-to-charge-passengers-for-using-overhead-lockers-for-carryon-bags/news-story/b6082118b44750022bf098195b868f70"
+        }
+      ]
+    },
     {
       "id": "australian-home-sellers-profits-soft-market-20260804",
       "language": "si",
@@ -125,11 +146,11 @@
       "id": "naplan-national-results-20260804",
       "language": "si",
       "headline": "NAPLAN ප්‍රතිඵල ජාතික කියවීම, ලිවීම සහ ගණිතය පහළ යන බව පෙන්වයි",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-04T20:00:00.000Z",
       "voiceScript": "ඕස්ට්‍රේලියාවේ නවතම NAPLAN ප්‍රතිඵල කියවීම, ලිවීම සහ ගණිතය තුළ පීඩනයක් පවතින බව පෙන්වයි. AAP වාර්තාව ලිවීම හා කියවීමේ දුර්වලවීම ඉස්මතු කරයි, The Age වාර්තාවෙන් බොහෝ සිසුන් තවමත් මට්ටම් සපුරා නොමැති බව පෙන්වයි. මෙය වැදගත් වන්නේ පාසල් සහ රාජ්‍යයන්ට අමතර සහාය කොතැන දිය යුතුද යන්න ඒ මත තීරණය වන නිසාය. ඉදිරියේදී ප්‍රශ්නය වන්නේ මෙම දත්ත ඉක්මනින් ඉලක්කගත උපකාර බවට පරිවර්තනය කළ හැකිද යන්නයි.",
       "differences": [
-        "AAP කියවීම හා ලිවීමේ සමස්ත දුර්වලවීම පෙන්වයි; The Age මට්ටම් සපුරා නොමැති සිසුන්ගේ ප්‍රමාණය ඉස්මතු කරයි."
+        "Guardian සහ The Age කියන්නේ කියවීම සහ ගණිතයේ පරතරය විශාල බවයි, ხოლო AAP මේ ප්‍රතිඵල ජාතික අනතුරු සලකුණක් ලෙස දකී."
       ],
       "links": [
         {
@@ -139,6 +160,10 @@
         {
           "source": "The Age",
           "url": "https://www.theage.com.au/national/victoria/a-third-of-students-fail-to-hit-naplan-benchmarks-20260803-p60kyr.html"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/04/naplan-results-2026-reading-writing-australian-school-standards"
         }
       ]
     },

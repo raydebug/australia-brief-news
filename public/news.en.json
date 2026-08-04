@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T21:19:13.343Z",
+  "updatedAt": "2026-08-04T22:13:00.306Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -101,11 +101,32 @@
     }
   ],
   "errors": [
-    "news.com.au latest-feed page was not stable enough to use without manual verification.",
-    "9News, The Australian, Sky News Australia, and Yahoo News Australia did not expose stable current-week Australia listings.",
+    "news.com.au and The Australian were harvested from article-level results because the stable latest pages were inconsistent.",
+    "Sky News Australia and Yahoo News Australia did not expose stable current-week Australia listings.",
     "ABC cards dated 2026-08-05 were future-dated under the 2026-08-04 cutoff and were excluded."
   ],
   "clusters": [
+    {
+      "id": "jetstar-overhead-carry-on-fee-20260804",
+      "language": "en",
+      "headline": "Jetstar turns overhead carry-on into a paid extra",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-04T21:54:30.000Z",
+      "voiceScript": "Jetstar will change its cabin-bag rules from February 2027, leaving one small underseat bag free while a larger bag for the overhead locker moves into a paid Priority Carry-on tier. Reported prices range from about $25 on shorter routes to more than $50 on longer ones, and the old 7 kilogram total allowance will be dropped. The shift matters because it changes how budget fares are sold and how passengers plan for short-haul travel. The key question now is whether travellers accept the new trade-off or start looking for rivals that keep overhead space bundled in.",
+      "differences": [
+        "news.com.au and The Australian focus on the route-based price bands and the February 2027 rollout, while the core policy shift is the loss of free overhead carry-on space."
+      ],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/jetstar-changes-carryon-baggage-policy-luggage-in-overhead-lockers-no-longer-free/news-story/f00536799209cfa0779aa651f0b548e6"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/business/aviation/jetstar-to-charge-passengers-for-using-overhead-lockers-for-carryon-bags/news-story/b6082118b44750022bf098195b868f70"
+        }
+      ]
+    },
     {
       "id": "australian-home-sellers-profits-soft-market-20260804",
       "language": "en",
@@ -125,11 +146,11 @@
       "id": "naplan-national-results-20260804",
       "language": "en",
       "headline": "NAPLAN results point to a national literacy and numeracy slide",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-04T20:00:00.000Z",
       "voiceScript": "Australia's latest NAPLAN release points to a broader slide in reading, writing and maths, with a large share of students still missing benchmark levels. One report highlights one-third of students falling short in literacy and numeracy, while another focuses on a softer reading and writing picture. The issue matters because these results feed into school support, policy debates and the resources children need before secondary school. The next question is whether states can turn the data into targeted help before the gap widens further.",
       "differences": [
-        "AAP frames the release as a slide in reading and writing; The Age emphasises how many students missed benchmark levels."
+        "Guardian and The Age stress the scale of the literacy and numeracy shortfall, while AAP frames the results as a national warning sign."
       ],
       "links": [
         {
@@ -139,6 +160,10 @@
         {
           "source": "The Age",
           "url": "https://www.theage.com.au/national/victoria/a-third-of-students-fail-to-hit-naplan-benchmarks-20260803-p60kyr.html"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/04/naplan-results-2026-reading-writing-australian-school-standards"
         }
       ]
     },

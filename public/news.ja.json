@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T21:19:13.343Z",
+  "updatedAt": "2026-08-04T22:13:00.306Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -101,11 +101,32 @@
     }
   ],
   "errors": [
-    "news.com.au latest-feed page was not stable enough to use without manual verification.",
-    "9News, The Australian, Sky News Australia, and Yahoo News Australia did not expose stable current-week Australia listings.",
+    "news.com.au and The Australian were harvested from article-level results because the stable latest pages were inconsistent.",
+    "Sky News Australia and Yahoo News Australia did not expose stable current-week Australia listings.",
     "ABC cards dated 2026-08-05 were future-dated under the 2026-08-04 cutoff and were excluded."
   ],
   "clusters": [
+    {
+      "id": "jetstar-overhead-carry-on-fee-20260804",
+      "language": "ja",
+      "headline": "ジェットスター、頭上収納の機内手荷物を有料化",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-04T21:54:30.000Z",
+      "voiceScript": "ジェットスターは2027年2月から機内手荷物のルールを変え、無料で持ち込めるのは座席下に収まる小さなバッグだけにする。頭上収納に入れる大きめのバッグはPriority Carry-onの追加料金が必要になり、路線によっては25ドル前後から50ドル超になる。7キロの一律上限はなくなり、低運賃でも荷物の扱いが実質的に変わる。今後の焦点は、利用客がこの新しい料金体系を受け入れるか、他社に流れるかだ。",
+      "differences": [
+        "news.com.au と The Australian は、路線別の料金帯と2027年2月の導入時期を前面に出している。"
+      ],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/jetstar-changes-carryon-baggage-policy-luggage-in-overhead-lockers-no-longer-free/news-story/f00536799209cfa0779aa651f0b548e6"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/business/aviation/jetstar-to-charge-passengers-for-using-overhead-lockers-for-carryon-bags/news-story/b6082118b44750022bf098195b868f70"
+        }
+      ]
+    },
     {
       "id": "australian-home-sellers-profits-soft-market-20260804",
       "language": "ja",
@@ -125,11 +146,11 @@
       "id": "naplan-national-results-20260804",
       "language": "ja",
       "headline": "NAPLAN結果が全国的な読解・数的能力の低下を示す",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-04T20:00:00.000Z",
       "voiceScript": "オーストラリアの最新NAPLAN結果は、読解、作文、数学のいずれにも圧力がかかっていることを示しています。AAPは読解と作文の弱さを強調し、The Ageは基準に達していない生徒が多い点を示しました。これは、学校の支援や政策議論、そして中等教育に進む前に子どもたちが基礎を補えるかどうかに直結するため重要です。次の焦点は、州政府がこのデータを具体的な支援にすばやく変えられるかどうかです。",
       "differences": [
-        "AAP は読解と作文の低下を強調し、The Age は基準未達の生徒割合を前面に出しています。"
+        "GuardianとThe Ageは読み書きと算数の落ち込みの大きさを強調しており、AAPは全国的な警告材料として報じている。"
       ],
       "links": [
         {
@@ -139,6 +160,10 @@
         {
           "source": "The Age",
           "url": "https://www.theage.com.au/national/victoria/a-third-of-students-fail-to-hit-naplan-benchmarks-20260803-p60kyr.html"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/04/naplan-results-2026-reading-writing-australian-school-standards"
         }
       ]
     },
