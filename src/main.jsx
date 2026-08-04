@@ -3543,15 +3543,51 @@ const PEOPLE_CONTEXT = [
       si: "2004 සිට NSW Watson නියෝජනය කරන Federal Labor MP; Labor frontbench සහ cabinet භූමිකාවල දිගු කාලයක් කටයුතු කරයි."
     },
     positions: {
-      "zh-Hans": "主要负责内政、移民、公民身份、网络安全、艺术和众议院事务，常围绕国家安全、移民制度、文化政策和议会管理发声。",
-      "zh-Hant": "主要負責內政、移民、公民身份、網絡安全、藝術和眾議院事務，常圍繞國家安全、移民制度、文化政策和議會管理發聲。",
-      en: "His portfolio themes include home affairs, immigration, citizenship, cyber security, the arts and management of the House of Representatives.",
-      es: "Sus áreas incluyen interior, inmigración, ciudadanía, ciberseguridad, artes y gestión de la Cámara de Representantes.",
-      ja: "内務、移民、市民権、サイバーセキュリティ、芸術、下院運営を主な担当分野としています。",
-      ko: "내무, 이민, 시민권, 사이버 보안, 예술, 하원 운영을 주요 포트폴리오로 다룹니다.",
-      vi: "Các mảng chính gồm nội vụ, di trú, quốc tịch, an ninh mạng, nghệ thuật và điều phối Hạ viện.",
-      th: "ประเด็นหลักคือ home affairs, immigration, citizenship, cyber security, arts และการจัดการ House of Representatives",
-      si: "Home affairs, immigration, citizenship, cyber security, arts සහ House of Representatives management ඔහුගේ ප්‍රධාන portfolios වේ."
+      "zh-Hans": [
+        "移民：主张维护移民体系完整性，收紧学生签证和复审滥用，同时保留对技能、战略伙伴和真实教育需求的通道。",
+        "网络安全：强调政府、企业和关键平台共同承担防护责任，目标是把澳洲网络韧性提高到世界前列。",
+        "文化：支持国家文化政策和澳洲内容投入，认为艺术与文化应覆盖全国，而不只集中在悉尼和墨尔本。"
+      ],
+      "zh-Hant": [
+        "移民：主張維護移民體系完整性，收緊學生簽證和覆審濫用，同時保留對技能、戰略夥伴和真實教育需求的通道。",
+        "網絡安全：強調政府、企業和關鍵平台共同承擔防護責任，目標是把澳洲網絡韌性提高到世界前列。",
+        "文化：支持國家文化政策和澳洲內容投入，認為藝術與文化應覆蓋全國，而不只集中在悉尼和墨爾本。"
+      ],
+      en: [
+        "Migration: argues for protecting migration-system integrity, tightening student-visa and review abuse while keeping pathways for skills, strategic partners and genuine education.",
+        "Cyber security: frames cyber resilience as a shared responsibility between government, business and major technology partners, with Australia aiming for world-leading capability.",
+        "Culture: backs national cultural policy and Australian content funding, arguing arts and culture should reach beyond Sydney and Melbourne."
+      ],
+      es: [
+        "Migración: defiende la integridad del sistema migratorio, endureciendo abusos en visas estudiantiles y revisiones, sin cerrar vías para habilidades, socios estratégicos y educación genuina.",
+        "Ciberseguridad: plantea la resiliencia digital como responsabilidad compartida entre gobierno, empresas y grandes socios tecnológicos.",
+        "Cultura: apoya una política cultural nacional y financiación para contenido australiano, con alcance más allá de Sydney y Melbourne."
+      ],
+      ja: [
+        "移民：制度の信頼性を重視し、学生ビザや審査制度の乱用を抑えつつ、技能・戦略的パートナー・本来の教育目的のルートは残す立場です。",
+        "サイバー安全保障：政府、企業、大手テック企業が共同で責任を負い、豪州のサイバー耐性を世界上位に引き上げるべきだとしています。",
+        "文化：国家文化政策と豪州コンテンツ支援を重視し、芸術文化は Sydney と Melbourne だけでなく全国に届くべきだと主張しています。"
+      ],
+      ko: [
+        "이민: 이민 제도의 신뢰성을 지키기 위해 학생비자와 심사 남용은 조이되, 기술 인력, 전략적 파트너, 진정한 교육 목적의 경로는 유지해야 한다는 입장입니다.",
+        "사이버 보안: 정부, 기업, 주요 기술 파트너가 함께 책임지는 국가적 회복력 문제로 보고, 호주의 역량을 세계 상위 수준으로 끌어올리려 합니다.",
+        "문화: 국가 문화정책과 호주 콘텐츠 투자를 지지하며, 예술과 문화가 Sydney와 Melbourne에만 집중돼서는 안 된다고 봅니다."
+      ],
+      vi: [
+        "Di trú: nhấn mạnh tính liêm chính của hệ thống, siết lạm dụng visa sinh viên và kháng nghị, nhưng vẫn giữ lối đi cho kỹ năng, đối tác chiến lược và giáo dục thực chất.",
+        "An ninh mạng: coi năng lực chống chịu mạng là trách nhiệm chung của chính phủ, doanh nghiệp và các đối tác công nghệ lớn.",
+        "Văn hóa: ủng hộ chính sách văn hóa quốc gia và đầu tư cho nội dung Australia, với quan điểm nghệ thuật không nên chỉ tập trung ở Sydney và Melbourne."
+      ],
+      th: [
+        "การย้ายถิ่น: เน้นความน่าเชื่อถือของระบบ migration โดยเข้มงวดกับ student visa และการอุทธรณ์ที่ถูกใช้ผิดทาง แต่ยังคงทางสำหรับทักษะ พันธมิตรยุทธศาสตร์ และการศึกษาจริง",
+        "ไซเบอร์: มอง cyber resilience เป็นความรับผิดชอบร่วมของรัฐบาล ธุรกิจ และพันธมิตรเทคโนโลยีหลัก",
+        "วัฒนธรรม: สนับสนุนนโยบายวัฒนธรรมระดับชาติและเงินทุนสำหรับ Australian content โดยไม่ให้ศิลปะกระจุกเฉพาะ Sydney และ Melbourne"
+      ],
+      si: [
+        "Migration: student visa සහ review abuse තද කරන අතර skills, strategic partners සහ genuine education pathways තබා migration-system integrity ආරක්ෂා කළ යුතුය.",
+        "Cyber security: government, business සහ major technology partners එකට වගකියන national resilience issue එකක් ලෙස දකී.",
+        "Culture: national cultural policy සහ Australian content funding වලට සහය දක්වමින් arts/culture Sydney සහ Melbourne වලට පමණක් සීමා නොවිය යුතු බව කියයි."
+      ]
     }
   },
   {
@@ -4117,6 +4153,12 @@ function localizedPersonValue(person, field, language) {
   return person?.[field]?.[language] || person?.[field]?.en || "";
 }
 
+function localizedPersonList(person, field, language, limit = 3) {
+  const value = localizedPersonValue(person, field, language);
+  if (Array.isArray(value)) return value.filter(Boolean).slice(0, limit);
+  return value ? [value] : [];
+}
+
 const SOURCE_BADGES = {
   "ABC News": "ABC",
   "SBS News": "SBS",
@@ -4380,7 +4422,7 @@ function PeopleContextList({ people, labels, language }) {
     <div className="people-list">
       {people.map((person) => {
         const background = localizedPersonValue(person, "background", language);
-        const positions = person.type === "politician" ? localizedPersonValue(person, "positions", language) : "";
+        const positions = person.type === "politician" ? localizedPersonList(person, "positions", language, 3) : [];
         const profileLink = personProfileLink(person) || personSocialLink(person);
 
         return (
@@ -4400,11 +4442,15 @@ function PeopleContextList({ people, labels, language }) {
                 {background}
               </p>
             )}
-            {positions && (
-              <p>
+            {positions.length > 0 && (
+              <div className="person-positions">
                 <span>{labels.politicalPositions}: </span>
-                {positions}
-              </p>
+                <ul>
+                  {positions.map((position) => (
+                    <li key={position}>{position}</li>
+                  ))}
+                </ul>
+              </div>
             )}
           </section>
         );

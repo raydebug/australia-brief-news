@@ -748,6 +748,28 @@ p {
   font-weight: 700;
 }
 
+.person-positions {
+  color: var(--ink);
+  font-size: calc(15px * var(--font-scale, 1));
+  line-height: 1.5;
+}
+
+.person-positions > span {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.person-positions ul {
+  display: grid;
+  gap: 6px;
+  margin: 6px 0 0 0;
+  padding-left: 18px;
+}
+
+.person-positions li {
+  padding-left: 2px;
+}
+
 .social-panel {
   background: var(--panel);
   border: 1px solid var(--line);
