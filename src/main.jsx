@@ -940,6 +940,24 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Jeannette Young",
+    aliases: ["Jeannette Young", "Dr Jeannette Young", "Dr Jeannette Young AC PSM", "Jeannette Rosita Young", "珍妮特·杨", "珍妮特·楊", "ジャネット・ヤング", "지넷 영"],
+    type: "public-figure",
+    profile: { label: "Government House biography", url: "https://www.govhouse.qld.gov.au/the-governor-of-queensland/about-the-governor/the-governor-s-biography" },
+    officialProfile: { label: "Government House role profile", url: "https://www.govhouse.qld.gov.au/the-governor-of-queensland/about-the-governor/role-of-the-governor" },
+    background: {
+      "zh-Hans": "澳大利亚医生和公共行政人员，2005 至 2021 年任昆士兰首席卫生官，2021 年起任昆士兰第 27 任总督。",
+      "zh-Hant": "澳洲醫生和公共行政人員，2005 至 2021 年任昆士蘭首席衛生官，2021 年起任昆士蘭第 27 任總督。",
+      en: "Australian doctor and public administrator, Queensland Chief Health Officer from 2005 to 2021 and Queensland's 27th governor from 2021.",
+      es: "Médica y administradora pública australiana, Chief Health Officer de Queensland entre 2005 y 2021 y 27.ª gobernadora de Queensland desde 2021.",
+      ja: "オーストラリアの医師・行政官。2005年から2021年まで Queensland Chief Health Officer、2021年から第27代 Queensland governor を務めています。",
+      ko: "호주의 의사이자 공공 행정가입니다. 2005년부터 2021년까지 Queensland Chief Health Officer를 지냈고 2021년부터 퀸즐랜드 제27대 주지사를 맡고 있습니다.",
+      vi: "Bác sĩ và nhà quản lý công của Australia, Queensland Chief Health Officer từ 2005 đến 2021 và thống đốc Queensland thứ 27 từ năm 2021.",
+      th: "แพทย์และผู้บริหารภาครัฐของออสเตรเลีย เป็น Queensland Chief Health Officer ระหว่างปี 2005-2021 และ Governor of Queensland คนที่ 27 ตั้งแต่ปี 2021",
+      si: "Australian doctor සහ public administrator කෙනෙකි; 2005 සිට 2021 දක්වා Queensland Chief Health Officer වූ අතර 2021 සිට Queensland හි 27 වැනි governor ලෙස සේවය කරයි."
+    }
+  },
+  {
     name: "Jon Adgemis",
     aliases: ["Jon Adgemis", "John Adgemis", "Jonathon Adgemis", "乔恩·阿杰米斯", "喬恩·阿傑米斯", "ジョン・アジェミス", "존 애드제미스"],
     type: "executive",
@@ -4266,14 +4284,14 @@ function App() {
               {cluster.id === expandedId && (
                 <div className="mobile-card-detail">
                   <div className="mobile-section">
-                    <p>{linkifyPeopleText(displayCluster.voiceScript, showPeopleContext)}</p>
+                    <p>{linkifyPeopleText(displayCluster.voiceScript, true)}</p>
                   </div>
 
                   {uniqueDifferences(displayCluster).length > 0 && (
                     <div className="mobile-section">
                       <div className="difference-list">
                         {uniqueDifferences(displayCluster).map((difference) => (
-                          <p key={difference}>{linkifyPeopleText(difference, showPeopleContext)}</p>
+                          <p key={difference}>{linkifyPeopleText(difference, true)}</p>
                         ))}
                       </div>
                     </div>
@@ -4285,7 +4303,7 @@ function App() {
                         <MessageSquareText size={16} />
                         <strong>{labels.commentaryTitle}</strong>
                       </div>
-                      <p>{linkifyPeopleText(commentary, showPeopleContext)}</p>
+                      <p>{linkifyPeopleText(commentary, true)}</p>
                     </div>
                   )}
 
@@ -4338,7 +4356,7 @@ function App() {
             <div className="detail-top">
               <div>
                 <h2>
-                  <span>{linkifyPeopleText(displayActive.headline, showPeopleContext)}</span>
+                  <span>{linkifyPeopleText(displayActive.headline, true)}</span>
                   <HeatIndicator cluster={displayActive} language={language} />
                 </h2>
               </div>
@@ -4355,7 +4373,7 @@ function App() {
             </div>
 
             <article className="script-panel">
-              <p>{linkifyPeopleText(displayActive.voiceScript, showPeopleContext)}</p>
+              <p>{linkifyPeopleText(displayActive.voiceScript, true)}</p>
             </article>
 
             {activeCommentary && (
@@ -4364,7 +4382,7 @@ function App() {
                   <MessageSquareText size={17} />
                   <strong>{labels.commentaryTitle}</strong>
                 </div>
-                <p>{linkifyPeopleText(activeCommentary, showPeopleContext)}</p>
+                <p>{linkifyPeopleText(activeCommentary, true)}</p>
               </article>
             )}
 
@@ -4385,7 +4403,7 @@ function App() {
                 <section>
                   <div className="difference-list">
                     {activeDifferences.map((difference) => (
-                      <p key={difference}>{linkifyPeopleText(difference, showPeopleContext)}</p>
+                      <p key={difference}>{linkifyPeopleText(difference, true)}</p>
                     ))}
                   </div>
                 </section>

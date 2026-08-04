@@ -95,7 +95,7 @@ npm run build
 
 ### 人物链接规则
 
-`PEOPLE_CONTEXT` 中涉及名人、政客、运动员、艺术家、企业高管等公共人物时，链接字段要区分用途：
+新闻中出现的人名都应先进入人物识别和账号查找流程。对名人、政客、运动员、艺术家、企业高管等新闻相关公共人物，要尽量查找可核实的个人/公开自媒体账号；找不到可靠归属时不要硬加。`PEOPLE_CONTEXT` 的链接字段要区分用途：
 
 - `profile` 或 `officialProfile`：官方介绍页、议会页面、机构 biography、运动员官方档案等，用于人物背景卡片。
 - `social` 或 `personalSocial`：已核实的个人/公开社交媒体账号，例如 X、Instagram、Facebook、YouTube、TikTok、Threads、LinkedIn、Bluesky，用于简闻正文里人名上的链接。

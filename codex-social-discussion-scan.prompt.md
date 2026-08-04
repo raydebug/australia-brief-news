@@ -40,6 +40,7 @@ Rules:
 - Do not invent metrics. If metrics are not visible, omit them and use a conservative `score`.
 - People context must not be silently ignored:
   - For every newest or high-impact cluster you touch, extract named people from the headline, voice script, source differences, and source titles.
+  - For every named person, first decide whether they are a news-relevant public figure or a private/protected person. For public figures, actively search for a verified personal/public social-media account before falling back to an official profile.
   - If a named person is a politician, elected official, senior public office-holder, public company executive, athlete, artist, or otherwise news-relevant public figure, check whether they are already covered by `PEOPLE_CONTEXT` in `src/main.jsx`.
   - If not covered, add them with aliases, `type`, verified link fields, and concise multilingual background. For politicians, also add concise multilingual `positions`.
   - Use `profile` or `officialProfile` for official biography/profile pages.
