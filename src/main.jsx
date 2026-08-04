@@ -2736,6 +2736,36 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Ryan Park",
+    aliases: ["Ryan Park", "Ryan John Park", "Ryan Park MP", "The Hon Ryan Park MP", "瑞安·帕克", "萊恩·帕克", "ライアン・パーク", "라이언 파크"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=58&ref=1845" },
+    officialProfile: { label: "NSW Health minister profile", url: "https://www.health.nsw.gov.au/ministers/Pages/health.aspx" },
+    social: { label: "Facebook", url: "https://www.facebook.com/RyanParkMPMemberforKeira/" },
+    background: {
+      "zh-Hans": "新州工党政治人物，Keira 选区州议员，现任新南威尔士州卫生部长、区域卫生部长以及 Illawarra 和 South Coast 部长。",
+      "zh-Hant": "新州工黨政治人物，Keira 選區州議員，現任新南威爾士州衛生部長、區域衛生部長以及 Illawarra 和 South Coast 部長。",
+      en: "NSW Labor politician, MP for Keira, serving as New South Wales Minister for Health, Minister for Regional Health, and Minister for the Illawarra and the South Coast.",
+      es: "Político laborista de NSW, diputado por Keira y ministro de Salud, Salud Regional, Illawarra y South Coast de Nueva Gales del Sur.",
+      ja: "NSW 労働党の政治家で、Keira 選出州議員。New South Wales の保健相、地域保健相、Illawarra and South Coast 担当相を務めています。",
+      ko: "NSW 노동당 정치인으로 Keira 지역구 의원이며 New South Wales 보건장관, 지역보건장관, Illawarra and South Coast 장관을 맡고 있습니다.",
+      vi: "Chính trị gia Labor tại NSW, nghị sĩ bang khu Keira, hiện là Bộ trưởng Health, Regional Health, Illawarra and South Coast của New South Wales.",
+      th: "นักการเมือง Labor ของ NSW ส.ส. รัฐเขต Keira เป็น Minister for Health, Minister for Regional Health และ Minister for the Illawarra and the South Coast ของ New South Wales",
+      si: "NSW Labor දේශපාලනඥයෙකු වන Ryan Park, Keira MP, New South Wales Minister for Health, Minister for Regional Health සහ Minister for the Illawarra and the South Coast ලෙස සේවය කරයි."
+    },
+    positions: {
+      "zh-Hans": "其公共职责覆盖新州医院、急诊压力、区域医疗服务、卫生 workforce 和 Illawarra/South Coast 地区事务。",
+      "zh-Hant": "其公共職責覆蓋新州醫院、急診壓力、區域醫療服務、衛生 workforce 和 Illawarra/South Coast 地區事務。",
+      en: "His public role covers NSW hospitals, emergency-department pressure, regional health services, the health workforce and Illawarra/South Coast regional issues.",
+      es: "Su función pública cubre hospitales de NSW, presión en urgencias, servicios regionales de salud, fuerza laboral sanitaria y asuntos de Illawarra/South Coast.",
+      ja: "NSW の病院、救急部門の逼迫、地域医療、医療人材、Illawarra/South Coast の地域課題を担当しています。",
+      ko: "NSW 병원, 응급실 압박, 지역 보건 서비스, 보건 인력, Illawarra/South Coast 지역 현안을 담당합니다.",
+      vi: "Vai trò công của ông bao gồm bệnh viện NSW, áp lực emergency departments, dịch vụ y tế vùng, workforce y tế và các vấn đề Illawarra/South Coast.",
+      th: "บทบาทสาธารณะครอบคลุมโรงพยาบาล NSW แรงกดดัน emergency departments บริการสุขภาพภูมิภาค workforce สุขภาพ และประเด็น Illawarra/South Coast",
+      si: "ඔහුගේ public role එක NSW hospitals, emergency-department pressure, regional health services, health workforce සහ Illawarra/South Coast regional issues ආවරණය කරයි."
+    }
+  },
+  {
     name: "John Graham",
     aliases: ["John Graham", "John Graham MLC", "The Hon John Graham MLC", "约翰·格雷厄姆", "約翰·格雷厄姆", "ジョン・グラハム", "존 그레이엄"],
     type: "politician",
