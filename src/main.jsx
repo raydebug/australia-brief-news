@@ -2239,6 +2239,86 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Jordon Steele-John",
+    aliases: ["Jordon Steele-John", "Jordon Alexander Steele-John", "Senator Jordon", "乔登·斯蒂尔-约翰", "喬登·斯蒂爾-約翰", "ジョードン・スティール＝ジョン", "조던 스틸-존"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=250156" },
+    officialProfile: { label: "Greens profile", url: "https://greens.org.au/wa/person/jordon-steele-john" },
+    social: { label: "X", url: "https://x.com/SenatorJordon" },
+    background: {
+      "zh-Hans": "西澳 Australian Greens 联邦参议员，2017 年进入参议院，也是残障权利倡议者。其公开工作长期围绕 NDIS、残障包容、青年、健康和心理健康。",
+      "zh-Hant": "西澳 Australian Greens 聯邦參議員，2017 年進入參議院，也是殘障權利倡議者。其公開工作長期圍繞 NDIS、殘障包容、青年、健康和心理健康。",
+      en: "Australian Greens senator for Western Australia since 2017 and a disability-rights advocate. His public work has focused on the NDIS, disability inclusion, youth, health and mental health.",
+      es: "Senador de Australian Greens por Australia Occidental desde 2017 y defensor de los derechos de las personas con discapacidad. Su trabajo público se centra en NDIS, inclusión, juventud, salud y salud mental.",
+      ja: "2017年から西オーストラリア州選出の Australian Greens 上院議員で、障害者権利の提唱者です。NDIS、障害包摂、若者、健康、メンタルヘルスを主に扱っています。",
+      ko: "2017년부터 서호주를 대표하는 Australian Greens 상원의원이자 장애 권리 옹호자입니다. NDIS, 장애 포용, 청년, 보건과 정신건강에 초점을 맞춰 활동합니다.",
+      vi: "Thượng nghị sĩ Australian Greens của Tây Úc từ năm 2017 và là nhà vận động quyền người khuyết tật. Công việc công của ông tập trung vào NDIS, hòa nhập khuyết tật, thanh niên, y tế và sức khỏe tâm thần.",
+      th: "วุฒิสมาชิก Australian Greens จากเวสเทิร์นออสเตรเลียตั้งแต่ปี 2017 และนักรณรงค์สิทธิคนพิการ งานสาธารณะเน้น NDIS การมีส่วนร่วมของคนพิการ เยาวชน สุขภาพ และสุขภาพจิต",
+      si: "2017 සිට Western Australia සඳහා Australian Greens senator කෙනෙකු වන අතර disability-rights advocate කෙනෙකි. ඔහුගේ public work එක NDIS, disability inclusion, youth, health සහ mental health මත යොමු වේ."
+    },
+    positions: {
+      "zh-Hans": "他主张加强而非削弱 NDIS、提高残障人士自主权和共同设计权，并把残障服务、心理健康、青年权益和反战议题作为 Greens 议程的一部分。",
+      "zh-Hant": "他主張加強而非削弱 NDIS、提高殘障人士自主權和共同設計權，並把殘障服務、心理健康、青年權益和反戰議題作為 Greens 議程的一部分。",
+      en: "He argues for strengthening rather than weakening the NDIS, greater autonomy and co-design for disabled people, and links disability services, mental health, youth rights and anti-war policy within the Greens agenda.",
+      es: "Defiende reforzar, no debilitar, el NDIS; más autonomía y codiseño para personas con discapacidad; y conecta servicios de discapacidad, salud mental, derechos juveniles y política antibélica en la agenda Greens.",
+      ja: "NDIS を弱めるのではなく強化し、障害者の自律と共同設計を広げる立場です。障害サービス、メンタルヘルス、若者の権利、反戦政策を Greens の政策軸に結びつけています。",
+      ko: "NDIS를 약화하기보다 강화하고, 장애인의 자율성과 공동 설계를 확대해야 한다고 주장합니다. 장애 서비스, 정신건강, 청년 권리, 반전 정책을 Greens 의제로 연결합니다.",
+      vi: "Ông ủng hộ củng cố thay vì làm suy yếu NDIS, tăng quyền tự chủ và đồng thiết kế cho người khuyết tật, đồng thời gắn dịch vụ khuyết tật, sức khỏe tâm thần, quyền thanh niên và chính sách phản chiến trong nghị trình Greens.",
+      th: "เขาสนับสนุนการทำให้ NDIS แข็งแรงขึ้น ไม่ใช่อ่อนลง เพิ่มอำนาจตัดสินใจและ co-design ให้คนพิการ และเชื่อมบริการคนพิการ สุขภาพจิต สิทธิคนรุ่นใหม่ และนโยบายต่อต้านสงครามในวาระ Greens",
+      si: "ඔහු NDIS දුර්වල කිරීම නොව ශක්තිමත් කිරීම, disabled people සඳහා autonomy සහ co-design වැඩි කිරීම වෙනුවෙන් පෙනී සිටී; disability services, mental health, youth rights සහ anti-war policy Greens agenda එකට සම්බන්ධ කරයි."
+    }
+  },
+  {
+    name: "Kristy McBain",
+    aliases: ["Kristy McBain", "Kristy McBain MP", "Kristy Lorraine McBain", "克里斯蒂·麦克贝恩", "克里斯蒂·麥克貝恩", "クリスティ・マクベイン", "크리스티 맥베인"],
+    type: "politician",
+    profile: { label: "Minister profile", url: "https://minister.infrastructure.gov.au/mcbain" },
+    officialProfile: { label: "Parliament profile", url: "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=282928" },
+    social: { label: "X", url: "https://x.com/KristyMcBain" },
+    personalSocial: { label: "Facebook", url: "https://www.facebook.com/kristymcbainMP/" },
+    background: {
+      "zh-Hans": "澳洲工党联邦议员，代表 NSW 的 Eden-Monaro，曾任 Bega Valley 市长。2025 年起任紧急管理部长、区域发展、地方政府和领地部长。",
+      "zh-Hant": "澳洲工黨聯邦議員，代表 NSW 的 Eden-Monaro，曾任 Bega Valley 市長。2025 年起任緊急管理部長、區域發展、地方政府和領地部長。",
+      en: "Federal Labor MP for Eden-Monaro in NSW and former Bega Valley mayor. Since 2025 she has served as Minister for Emergency Management and Minister for Regional Development, Local Government and Territories.",
+      es: "Diputada federal laborista por Eden-Monaro, NSW, y exalcaldesa de Bega Valley. Desde 2025 es ministra de Gestión de Emergencias y de Desarrollo Regional, Gobierno Local y Territorios.",
+      ja: "NSW 州 Eden-Monaro 選出の連邦 Labor 議員で、元 Bega Valley 市長です。2025年から緊急管理相、地域開発・地方自治・準州相を務めています。",
+      ko: "NSW Eden-Monaro 지역구의 연방 Labor 하원의원이자 전 Bega Valley 시장입니다. 2025년부터 비상관리 장관과 지역개발·지방정부·준주 장관을 맡고 있습니다.",
+      vi: "Nghị sĩ Labor liên bang khu Eden-Monaro ở NSW và cựu thị trưởng Bega Valley. Từ năm 2025, bà là Bộ trưởng Emergency Management và Bộ trưởng Regional Development, Local Government and Territories.",
+      th: "ส.ส. Labor รัฐบาลกลางเขต Eden-Monaro ใน NSW และอดีตนายกเทศมนตรี Bega Valley ตั้งแต่ปี 2025 เป็นรัฐมนตรี Emergency Management และ Regional Development, Local Government and Territories",
+      si: "NSW හි Eden-Monaro නියෝජනය කරන Federal Labor MP සහ හිටපු Bega Valley mayor. 2025 සිට Minister for Emergency Management සහ Minister for Regional Development, Local Government and Territories වේ."
+    },
+    positions: {
+      "zh-Hans": "其职责覆盖自然灾害应对和恢复、区域发展、地方政府、领地事务以及 National Capital Authority 相关决策；Hume Circle 规划审批属于其领地职责范围。",
+      "zh-Hant": "其職責覆蓋自然災害應對和恢復、區域發展、地方政府、領地事務以及 National Capital Authority 相關決策；Hume Circle 規劃審批屬於其領地職責範圍。",
+      en: "Her portfolio covers disaster response and recovery, regional development, local government, territories and decisions linked to the National Capital Authority; Hume Circle planning approval sits within that territories remit.",
+      es: "Su cartera cubre respuesta y recuperación ante desastres, desarrollo regional, gobierno local, territorios y decisiones vinculadas a la National Capital Authority; la aprobación de Hume Circle cae en ese ámbito territorial.",
+      ja: "災害対応・復旧、地域開発、地方自治、準州、National Capital Authority 関連の判断を所管します。Hume Circle の計画承認はその準州担当に含まれます。",
+      ko: "재난 대응과 복구, 지역개발, 지방정부, 준주, National Capital Authority 관련 결정을 담당합니다. Hume Circle 계획 승인은 이 준주 소관에 포함됩니다.",
+      vi: "Danh mục của bà gồm ứng phó và phục hồi thiên tai, phát triển vùng, chính quyền địa phương, lãnh thổ và các quyết định liên quan National Capital Authority; phê duyệt quy hoạch Hume Circle thuộc phần lãnh thổ này.",
+      th: "งานของเธอครอบคลุมการรับมือและฟื้นฟูภัยพิบัติ การพัฒนาภูมิภาค รัฐบาลท้องถิ่น territories และการตัดสินใจที่เกี่ยวกับ National Capital Authority โดยการอนุมัติแผน Hume Circle อยู่ในขอบเขต territories นี้",
+      si: "ඇයගේ portfolio එක disaster response/recovery, regional development, local government, territories සහ National Capital Authority decisions ආවරණය කරයි; Hume Circle planning approval එම territories remit එකට අයත් වේ."
+    }
+  },
+  {
+    name: "Karen Doran",
+    aliases: ["Karen Doran", "Karen Doran PSM", "Ms Karen Doran", "凯伦·多兰", "凱倫·多蘭", "カレン・ドーラン", "캐런 도런"],
+    type: "public-figure",
+    profile: { label: "NCA board profile", url: "https://www.nca.gov.au/about-us/who-we-are/our-board" },
+    officialProfile: { label: "Government directory", url: "https://www.directory.gov.au/portfolios/infrastructure-transport-regional-development-communications-and-arts/national-capital-authority/chief-executive" },
+    personalSocial: { label: "LinkedIn", url: "https://au.linkedin.com/in/karen-doran-5ba902284" },
+    background: {
+      "zh-Hans": "National Capital Authority 首席执行官，2024 年 4 月起任五年期。此前在 ACT 公共部门担任高级领导职务，包括 Transport Canberra and City Services 代理总干事和 Major Projects Canberra 代理首席项目官。",
+      "zh-Hant": "National Capital Authority 行政總裁，2024 年 4 月起任五年期。此前在 ACT 公共部門擔任高級領導職務，包括 Transport Canberra and City Services 代理總幹事和 Major Projects Canberra 代理首席項目官。",
+      en: "Chief executive of the National Capital Authority, appointed for a five-year term from April 2024. She previously held senior ACT public-sector roles, including acting director-general of Transport Canberra and City Services and acting chief project officer at Major Projects Canberra.",
+      es: "Directora ejecutiva de la National Capital Authority, nombrada por cinco años desde abril de 2024. Antes ocupó altos cargos públicos en ACT, incluidos directora general interina de Transport Canberra and City Services y chief project officer interina en Major Projects Canberra.",
+      ja: "National Capital Authority の最高責任者で、2024年4月から5年任期です。以前は ACT 公共部門で Transport Canberra and City Services の暫定局長、Major Projects Canberra の暫定 chief project officer などを務めました。",
+      ko: "2024년 4월부터 5년 임기로 임명된 National Capital Authority 최고경영자입니다. 이전에는 Transport Canberra and City Services 직무대행 국장, Major Projects Canberra 직무대행 chief project officer 등 ACT 공공부문 고위직을 맡았습니다.",
+      vi: "Giám đốc điều hành National Capital Authority, được bổ nhiệm nhiệm kỳ 5 năm từ tháng 4 năm 2024. Trước đó bà giữ các vai trò cấp cao trong khu vực công ACT, gồm acting director-general của Transport Canberra and City Services và acting chief project officer tại Major Projects Canberra.",
+      th: "Chief executive ของ National Capital Authority ได้รับแต่งตั้งวาระห้าปีตั้งแต่เมษายน 2024 ก่อนหน้านี้ดำรงตำแหน่งอาวุโสในภาครัฐ ACT รวมถึง acting director-general ของ Transport Canberra and City Services และ acting chief project officer ที่ Major Projects Canberra",
+      si: "2024 අප්‍රේල් සිට වසර පහක term එකකට පත් වූ National Capital Authority chief executive. මීට පෙර ACT public-sector senior roles, Transport Canberra and City Services acting director-general සහ Major Projects Canberra acting chief project officer ලෙස කටයුතු කළාය."
+    }
+  },
+  {
     name: "Peter Malinauskas",
     aliases: ["Peter Malinauskas", "Peter Bryden Malinauskas", "彼得·马利瑙斯卡斯", "彼得·馬利瑙斯卡斯", "ピーター・マリナウスカス", "피터 말리나우스카스"],
     type: "politician",
