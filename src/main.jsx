@@ -3516,6 +3516,203 @@ const PEOPLE_CONTEXT = [
       th: "ศิลปินร่วมสมัยชาวออสเตรเลีย เป็นที่รู้จักจากงาน painting, drawing และ sculpture ผลงานจัดแสดงในพิพิธภัณฑ์สำคัญในออสเตรเลียและต่างประเทศ และเคยชนะ Doug Moran National Portrait Prize",
       si: "Australian contemporary artist; painting, drawing සහ sculpture සඳහා ප්‍රසිද්ධය. Australian/international museums වල කෘති පෙන්වා ඇති අතර Doug Moran National Portrait Prize දිනා ඇත."
     }
+  },
+  {
+    name: "Michael Daley",
+    aliases: ["Michael Daley", "Michael John Daley", "Michael Daley MP", "迈克尔·戴利", "麥可·戴利", "マイケル・デイリー", "마이클 데일리"],
+    type: "politician",
+    social: { label: "X", url: "https://x.com/michaeldaleyMP" },
+    profile: { label: "Parliament profile", url: "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=27" },
+    background: {
+      "zh-Hans": "新南威尔士州 Labor 政治人物，Maroubra 州议员，2023 年起任 NSW Attorney General，曾短暂担任 NSW Labor 领袖和反对党领袖。",
+      "zh-Hant": "新南威爾士州 Labor 政治人物，Maroubra 州議員，2023 年起任 NSW Attorney General，曾短暫擔任 NSW Labor 領袖和反對黨領袖。",
+      en: "NSW Labor politician, Member for Maroubra and NSW Attorney General since 2023; he previously served briefly as NSW Labor leader and opposition leader.",
+      es: "Político laborista de NSW, diputado por Maroubra y fiscal general estatal desde 2023; antes fue brevemente líder de NSW Labor y de la oposición.",
+      ja: "NSW Labor の政治家。Maroubra 選出州議員で、2023年から NSW Attorney General。以前は NSW Labor 党首・野党党首を短期間務めました。",
+      ko: "NSW Labor 정치인으로 Maroubra 지역구 의원이며 2023년부터 NSW Attorney General입니다. 과거 NSW Labor 대표와 야당 대표를 잠시 지냈습니다.",
+      vi: "Chính trị gia NSW Labor, nghị sĩ Maroubra và NSW Attorney General từ năm 2023; từng có thời gian ngắn lãnh đạo NSW Labor và phe đối lập.",
+      th: "นักการเมือง NSW Labor สมาชิกเขต Maroubra และ NSW Attorney General ตั้งแต่ปี 2023 เคยเป็นผู้นำ NSW Labor และฝ่ายค้านช่วงสั้น ๆ",
+      si: "NSW Labor politician කෙනෙකි; Maroubra MP සහ 2023 සිට NSW Attorney General වේ. පෙර NSW Labor leader සහ opposition leader ලෙස කෙටි කාලයක් කටයුතු කළේය."
+    },
+    positions: {
+      "zh-Hans": "公开职务重点包括司法、反歧视法律、公共安全、博彩与 Racing 政策，以及 Maroubra 地区代表工作。",
+      "zh-Hant": "公開職務重點包括司法、反歧視法律、公共安全、博彩與 Racing 政策，以及 Maroubra 地區代表工作。",
+      en: "His public roles focus on justice, anti-discrimination law, public safety, gaming and racing policy, and representation of Maroubra.",
+      es: "Sus funciones públicas se centran en justicia, ley antidiscriminación, seguridad pública, juego y carreras, y representación de Maroubra.",
+      ja: "司法、反差別法、公共安全、賭博・競馬政策、Maroubra の地域代表を主な公的職務としています。",
+      ko: "사법, 차별금지법, 공공안전, 게임 및 경마 정책, Maroubra 지역 대표 활동이 주요 공적 역할입니다.",
+      vi: "Các vai trò công tập trung vào tư pháp, luật chống phân biệt đối xử, an toàn công cộng, chính sách gaming và racing, cùng đại diện Maroubra.",
+      th: "บทบาทสาธารณะเน้นกระบวนการยุติธรรม กฎหมายต่อต้านการเลือกปฏิบัติ ความปลอดภัยสาธารณะ นโยบาย gaming/racing และการแทนเขต Maroubra",
+      si: "Justice, anti-discrimination law, public safety, gaming/racing policy සහ Maroubra representation ඔහුගේ public roles වේ."
+    }
+  },
+  {
+    name: "John Sackar",
+    aliases: ["John Sackar", "John Robertson Sackar", "John Sackar AM KC", "Justice John Sackar", "约翰·萨卡", "約翰·薩卡", "ジョン・サッカー", "존 사카"],
+    type: "public-figure",
+    profile: { label: "NSW Government review profile", url: "https://dcj.nsw.gov.au/legal-and-justice/laws-and-legislation/review-of-criminal-law-protections-against-incitement-of-hate.html" },
+    officialProfile: { label: "Middle Temple profile", url: "https://www.middletemple.org.uk/bencher-persons-view/40144" },
+    background: {
+      "zh-Hans": "澳洲退休法官和高级律师，2011 至 2024 年任 NSW Supreme Court 法官，曾主持 NSW LGBTIQ 仇恨犯罪特别调查，并审查 NSW 仇恨煽动刑法保护。",
+      "zh-Hant": "澳洲退休法官和資深大律師，2011 至 2024 年任 NSW Supreme Court 法官，曾主持 NSW LGBTIQ 仇恨犯罪特別調查，並審查 NSW 仇恨煽動刑法保護。",
+      en: "Australian retired judge and senior counsel who served on the NSW Supreme Court from 2011 to 2024, led the NSW LGBTIQ hate-crimes inquiry and reviewed criminal-law protections against hate incitement.",
+      es: "Juez retirado y abogado senior australiano; integró la Supreme Court de NSW entre 2011 y 2024, dirigió la investigación sobre crímenes de odio LGBTIQ y revisó las protecciones penales contra la incitación al odio.",
+      ja: "豪州の退官判事・上級弁護士。2011年から2024年まで NSW Supreme Court 判事を務め、NSW の LGBTIQ ヘイト犯罪調査とヘイト扇動刑法保護の見直しを率いました。",
+      ko: "호주 은퇴 판사이자 선임 변호사로 2011년부터 2024년까지 NSW Supreme Court 판사를 지냈고 NSW LGBTIQ 혐오범죄 조사와 혐오 선동 형사법 보호 검토를 이끌었습니다.",
+      vi: "Cựu thẩm phán và luật sư cấp cao Úc, làm việc tại NSW Supreme Court từ 2011 đến 2024, dẫn dắt điều tra tội ác thù ghét LGBTIQ và rà soát bảo vệ hình sự chống kích động thù ghét.",
+      th: "อดีตผู้พิพากษาและ senior counsel ของออสเตรเลีย ดำรงตำแหน่งใน NSW Supreme Court ปี 2011-2024 เคยนำการไต่สวน LGBTIQ hate crimes และทบทวนกฎหมายอาญาเรื่องการยุยงความเกลียดชัง",
+      si: "Australian retired judge සහ senior counsel කෙනෙකි; 2011-2024 NSW Supreme Court හි සේවය කර NSW LGBTIQ hate-crimes inquiry සහ hate incitement criminal-law protections review නායකත්වය දුන්නේය."
+    }
+  },
+  {
+    name: "Damien Tudehope",
+    aliases: ["Damien Tudehope", "Damien Francis Tudehope", "Damien Tudehope MLC", "达米恩·图德霍普", "達米恩·圖德霍普", "ダミアン・チュードホープ", "데이미언 튜드호프"],
+    type: "politician",
+    social: { label: "X", url: "https://x.com/DamienTudehope" },
+    profile: { label: "Parliament profile", url: "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=115" },
+    background: {
+      "zh-Hans": "新南威尔士州 Liberal 政治人物，NSW Legislative Council 议员，曾任财政和雇员关系部长，并担任过上议院政府领袖和反对党上议院领袖。",
+      "zh-Hant": "新南威爾士州 Liberal 政治人物，NSW Legislative Council 議員，曾任財政和僱員關係部長，並擔任過上議院政府領袖和反對黨上議院領袖。",
+      en: "NSW Liberal politician and Legislative Council member, former finance and employee relations minister, and former government and opposition leader in the upper house.",
+      es: "Político liberal de NSW y miembro del Legislative Council, exministro de finanzas y relaciones laborales, y exlíder de gobierno y oposición en la cámara alta.",
+      ja: "NSW Liberal の政治家で Legislative Council 議員。財務・雇用関係相を務め、上院の政府側・野党側リーダーも経験しました。",
+      ko: "NSW Liberal 정치인이자 Legislative Council 의원으로, 재무 및 고용관계 장관과 상원 정부·야당 대표를 지냈습니다.",
+      vi: "Chính trị gia NSW Liberal và nghị sĩ Legislative Council, cựu bộ trưởng tài chính và quan hệ lao động, từng lãnh đạo chính phủ và phe đối lập ở thượng viện bang.",
+      th: "นักการเมือง NSW Liberal และสมาชิก Legislative Council อดีตรัฐมนตรี finance และ employee relations และอดีตผู้นำฝ่ายรัฐบาลและฝ่ายค้านในสภาสูง",
+      si: "NSW Liberal politician සහ Legislative Council member කෙනෙකි; former finance/employee relations minister සහ upper house government/opposition leader ලෙස කටයුතු කර ඇත."
+    },
+    positions: {
+      "zh-Hans": "公开工作重点包括财政、产业关系、议会监督、反腐制度和 NSW Liberal 议会战略。",
+      "zh-Hant": "公開工作重點包括財政、產業關係、議會監督、反腐制度和 NSW Liberal 議會戰略。",
+      en: "His public work has centred on finance, industrial relations, parliamentary scrutiny, integrity systems and NSW Liberal parliamentary strategy.",
+      es: "Su trabajo público se ha centrado en finanzas, relaciones industriales, control parlamentario, sistemas de integridad y estrategia parlamentaria liberal en NSW.",
+      ja: "財政、労使関係、議会監視、政治倫理制度、NSW Liberal の議会戦略を重視してきました。",
+      ko: "재정, 노사관계, 의회 감시, 청렴 제도, NSW Liberal 의회 전략이 주요 공적 활동입니다.",
+      vi: "Công việc công tập trung vào tài chính, quan hệ công nghiệp, giám sát nghị viện, hệ thống liêm chính và chiến lược nghị viện NSW Liberal.",
+      th: "งานสาธารณะเน้นการคลัง ความสัมพันธ์อุตสาหกรรม การตรวจสอบรัฐสภา ระบบความซื่อสัตย์ และยุทธศาสตร์รัฐสภาของ NSW Liberal",
+      si: "Finance, industrial relations, parliamentary scrutiny, integrity systems සහ NSW Liberal parliamentary strategy ඔහුගේ public work වේ."
+    }
+  },
+  {
+    name: "Tony Abbott",
+    aliases: ["Tony Abbott", "Anthony John Abbott", "Tony Abbott AC", "托尼·阿博特", "東尼·艾伯特", "トニー・アボット", "토니 애벗"],
+    type: "politician",
+    social: { label: "X", url: "https://x.com/HonTonyAbbott" },
+    profile: { label: "Official website", url: "https://tonyabbott.com.au/" },
+    background: {
+      "zh-Hans": "澳大利亚 Liberal 政治人物，第 28 任澳大利亚总理，曾任 Warringah 联邦议员、反对党领袖和多项联邦部长职务。",
+      "zh-Hant": "澳洲 Liberal 政治人物，第 28 任澳洲總理，曾任 Warringah 聯邦議員、反對黨領袖和多項聯邦部長職務。",
+      en: "Australian Liberal politician, 28th prime minister of Australia, former federal member for Warringah, opposition leader and federal minister.",
+      es: "Político liberal australiano, 28.º primer ministro de Australia, exdiputado federal por Warringah, líder de la oposición y ministro federal.",
+      ja: "豪州 Liberal の政治家。第28代豪州首相で、Warringah 選出連邦議員、野党党首、連邦閣僚を歴任しました。",
+      ko: "호주 Liberal 정치인으로 제28대 호주 총리, 전 Warringah 연방 의원, 야당 대표 및 연방 장관을 지냈습니다.",
+      vi: "Chính trị gia Liberal Úc, thủ tướng thứ 28 của Australia, cựu nghị sĩ liên bang Warringah, lãnh đạo đối lập và bộ trưởng liên bang.",
+      th: "นักการเมือง Liberal ของออสเตรเลีย นายกรัฐมนตรีคนที่ 28 อดีต ส.ส. รัฐบาลกลางเขต Warringah ผู้นำฝ่ายค้าน และรัฐมนตรีรัฐบาลกลาง",
+      si: "Australian Liberal politician කෙනෙකි; Australia හි 28 වැනි prime minister, former federal member for Warringah, opposition leader සහ federal minister විය."
+    },
+    positions: {
+      "zh-Hans": "公开立场长期集中在保守派经济和社会政策、边境控制、国防、君主立宪和 Liberal-National Coalition 方向。",
+      "zh-Hant": "公開立場長期集中在保守派經濟和社會政策、邊境控制、國防、君主立憲和 Liberal-National Coalition 方向。",
+      en: "His public positions have centred on conservative economic and social policy, border control, defence, constitutional monarchy and Liberal-National Coalition politics.",
+      es: "Sus posiciones públicas se centran en política económica y social conservadora, control fronterizo, defensa, monarquía constitucional y la Coalición Liberal-Nacional.",
+      ja: "保守的な経済・社会政策、国境管理、防衛、立憲君主制、Liberal-National Coalition 政治を重視してきました。",
+      ko: "보수적 경제·사회 정책, 국경 통제, 국방, 입헌군주제, Liberal-National Coalition 정치가 주요 입장입니다.",
+      vi: "Lập trường công khai tập trung vào chính sách kinh tế-xã hội bảo thủ, kiểm soát biên giới, quốc phòng, quân chủ lập hiến và chính trị Liberal-National Coalition.",
+      th: "จุดยืนสาธารณะเน้นนโยบายเศรษฐกิจและสังคมอนุรักษนิยม การควบคุมพรมแดน กลาโหม ราชาธิปไตยภายใต้รัฐธรรมนูญ และการเมือง Liberal-National Coalition",
+      si: "Conservative economic/social policy, border control, defence, constitutional monarchy සහ Liberal-National Coalition politics ඔහුගේ public positions වේ."
+    }
+  },
+  {
+    name: "Barnaby Joyce",
+    aliases: ["Barnaby Joyce", "Barnaby Thomas Gerard Joyce", "Barnaby Joyce MP", "巴纳比·乔伊斯", "巴納比·喬伊斯", "バーナビー・ジョイス", "바너비 조이스"],
+    type: "politician",
+    social: { label: "Facebook", url: "https://www.facebook.com/BarnabyJoyceMP/" },
+    personalSocial: { label: "Instagram", url: "https://www.instagram.com/barnaby.joyce/" },
+    profile: { label: "Parliament profile", url: "https://www.aph.gov.au/b_joyce_mp" },
+    officialProfile: { label: "Official website", url: "https://barnabyjoyce.com.au/about-barnaby" },
+    background: {
+      "zh-Hans": "澳大利亚保守派政治人物，New England 联邦议员，曾三度任 Deputy Prime Minister，并曾任 National Party 领袖；后来转向 One Nation。",
+      "zh-Hant": "澳洲保守派政治人物，New England 聯邦議員，曾三度任 Deputy Prime Minister，並曾任 National Party 領袖；後來轉向 One Nation。",
+      en: "Australian conservative politician, federal member for New England, three-time deputy prime minister and former National Party leader who later moved to One Nation.",
+      es: "Político conservador australiano, diputado federal por New England, tres veces vice primer ministro y exlíder del National Party que después pasó a One Nation.",
+      ja: "豪州の保守政治家。New England 選出連邦議員で、Deputy Prime Minister を3度務め、National Party 党首を経て One Nation に移りました。",
+      ko: "호주 보수 정치인으로 New England 연방 의원이며 세 차례 Deputy Prime Minister와 National Party 대표를 지낸 뒤 One Nation으로 옮겼습니다.",
+      vi: "Chính trị gia bảo thủ Úc, nghị sĩ liên bang New England, ba lần làm deputy prime minister và cựu lãnh đạo National Party, sau đó chuyển sang One Nation.",
+      th: "นักการเมืองอนุรักษนิยมของออสเตรเลีย ส.ส. รัฐบาลกลางเขต New England เคยเป็น deputy prime minister สามครั้งและอดีตผู้นำ National Party ก่อนย้ายไป One Nation",
+      si: "Australian conservative politician කෙනෙකි; New England federal member, තුන් වරක් deputy prime minister සහ හිටපු National Party leader වූ ඔහු පසුව One Nation වෙත ගියේය."
+    },
+    positions: {
+      "zh-Hans": "公开立场集中在区域农业、资源开发、移民限制、社会保守主义、经济民族主义和新英格兰地方利益。",
+      "zh-Hant": "公開立場集中在區域農業、資源開發、移民限制、社會保守主義、經濟民族主義和新英格蘭地方利益。",
+      en: "His public positions centre on regional agriculture, resources development, migration restrictions, social conservatism, economic nationalism and New England local interests.",
+      es: "Sus posiciones públicas se centran en agricultura regional, recursos, restricciones migratorias, conservadurismo social, nacionalismo económico e intereses locales de New England.",
+      ja: "地方農業、資源開発、移民制限、社会保守主義、経済ナショナリズム、New England の地域利益を重視しています。",
+      ko: "지역 농업, 자원 개발, 이민 제한, 사회 보수주의, 경제 민족주의, New England 지역 이익이 주요 입장입니다.",
+      vi: "Lập trường công khai tập trung vào nông nghiệp vùng, phát triển tài nguyên, hạn chế di cư, bảo thủ xã hội, chủ nghĩa dân tộc kinh tế và lợi ích địa phương New England.",
+      th: "จุดยืนสาธารณะเน้นเกษตรภูมิภาค การพัฒนาทรัพยากร ข้อจำกัดการย้ายถิ่น อนุรักษนิยมทางสังคม ชาตินิยมเศรษฐกิจ และผลประโยชน์ท้องถิ่น New England",
+      si: "Regional agriculture, resources development, migration restrictions, social conservatism, economic nationalism සහ New England local interests ඔහුගේ public positions වේ."
+    }
+  },
+  {
+    name: "Jacinta Allan",
+    aliases: ["Jacinta Allan", "Jacinta Marie Allan", "Jacinta Allan MP", "杰辛塔·艾伦", "傑辛塔·艾倫", "ジャシンタ・アラン", "재신타 앨런"],
+    type: "politician",
+    social: { label: "X", url: "https://x.com/JacintaAllanMP" },
+    personalSocial: { label: "Instagram", url: "https://www.instagram.com/jacintaallanmp/" },
+    profile: { label: "Official website", url: "https://www.jacintaallan.com/" },
+    background: {
+      "zh-Hans": "维州 Labor 政治人物，Bendigo East 州议员，2023 至 2026 年任 Victoria Premier，之前长期负责交通基础设施和州重大项目。",
+      "zh-Hant": "維州 Labor 政治人物，Bendigo East 州議員，2023 至 2026 年任 Victoria Premier，之前長期負責交通基礎設施和州重大項目。",
+      en: "Victorian Labor politician, Member for Bendigo East and premier of Victoria from 2023 to 2026, after long-running transport infrastructure and major-projects roles.",
+      es: "Política laborista de Victoria, diputada por Bendigo East y premier de Victoria de 2023 a 2026, tras años en infraestructura de transporte y grandes proyectos.",
+      ja: "Victoria Labor の政治家。Bendigo East 選出州議員で、2023年から2026年まで Victoria Premier。長く交通インフラと大型事業を担当しました。",
+      ko: "Victoria Labor 정치인으로 Bendigo East 지역구 의원이며 2023년부터 2026년까지 Victoria Premier였습니다. 장기간 교통 인프라와 대형 프로젝트를 맡았습니다.",
+      vi: "Chính trị gia Victoria Labor, nghị sĩ Bendigo East và premier Victoria từ 2023 đến 2026, sau thời gian dài phụ trách hạ tầng giao thông và dự án lớn.",
+      th: "นักการเมือง Victoria Labor สมาชิกเขต Bendigo East และ Premier of Victoria ปี 2023-2026 หลังทำงานด้าน transport infrastructure และ major projects มายาวนาน",
+      si: "Victorian Labor politician කෙනෙකි; Bendigo East MP සහ 2023-2026 Victoria Premier විය. දිගු කාලයක් transport infrastructure/major projects roles දැරීය."
+    },
+    positions: {
+      "zh-Hans": "公开工作重点包括交通基础设施、郊区铁路、区域维州、家庭暴力改革、条约进程和工党州政府延续性。",
+      "zh-Hant": "公開工作重點包括交通基礎設施、郊區鐵路、區域維州、家庭暴力改革、條約進程和工黨州政府延續性。",
+      en: "Her public priorities have included transport infrastructure, the Suburban Rail Loop, regional Victoria, family-violence reform, treaty processes and Labor government continuity.",
+      es: "Sus prioridades públicas incluyen infraestructura de transporte, Suburban Rail Loop, Victoria regional, reforma contra violencia familiar, tratado y continuidad laborista.",
+      ja: "交通インフラ、Suburban Rail Loop、地方 Victoria、家庭内暴力改革、条約プロセス、労働党政権の継続を重視してきました。",
+      ko: "교통 인프라, Suburban Rail Loop, 지역 Victoria, 가정폭력 개혁, 조약 절차, Labor 정부 연속성이 주요 우선순위였습니다.",
+      vi: "Các ưu tiên gồm hạ tầng giao thông, Suburban Rail Loop, vùng Victoria, cải cách bạo lực gia đình, tiến trình treaty và tính liên tục của chính phủ Labor.",
+      th: "ประเด็นสำคัญคือโครงสร้างพื้นฐานคมนาคม Suburban Rail Loop ภูมิภาค Victoria การปฏิรูป family violence กระบวนการ treaty และความต่อเนื่องของรัฐบาล Labor",
+      si: "Transport infrastructure, Suburban Rail Loop, regional Victoria, family-violence reform, treaty processes සහ Labor government continuity ඇයගේ priorities වේ."
+    }
+  },
+  {
+    name: "Gabrielle Williams",
+    aliases: ["Gabrielle Williams", "Gabrielle Leigh Williams", "Gabrielle Williams MP", "Gabby Williams", "加布里埃尔·威廉姆斯", "加布里埃爾·威廉斯", "ガブリエル・ウィリアムズ", "개브리엘 윌리엄스"],
+    type: "politician",
+    social: { label: "X", url: "https://x.com/gabwilliamsmp" },
+    personalSocial: { label: "Instagram", url: "https://www.instagram.com/gabbywilliamsmp/" },
+    profile: { label: "Parliament profile", url: "https://www.parliament.vic.gov.au/members/gabrielle-williams/" },
+    officialProfile: { label: "Ministerial profile", url: "https://www.premier.vic.gov.au/gabrielle-williams" },
+    background: {
+      "zh-Hans": "维州 Labor 政治人物，Dandenong 州议员，曾任交通、公共交通、妇女、心理健康和第一民族等部长，并在 2026 年领导层更替中出任副州长。",
+      "zh-Hant": "維州 Labor 政治人物，Dandenong 州議員，曾任交通、公共交通、婦女、心理健康和第一民族等部長，並在 2026 年領導層更替中出任副州長。",
+      en: "Victorian Labor politician and Member for Dandenong, with portfolios across transport, public transport, women, mental health and First Peoples, and deputy premier in the 2026 leadership transition.",
+      es: "Política laborista de Victoria y diputada por Dandenong, con carteras de transporte, transporte público, mujeres, salud mental y First Peoples; vicepremier en la transición de liderazgo de 2026.",
+      ja: "Victoria Labor の政治家で Dandenong 選出州議員。交通、公共交通、女性、メンタルヘルス、First Peoples などを担当し、2026年の指導部交代で副州首相となりました。",
+      ko: "Victoria Labor 정치인이자 Dandenong 지역구 의원으로 교통, 대중교통, 여성, 정신건강, First Peoples 포트폴리오를 맡았고 2026년 지도부 전환에서 부총리가 됐습니다.",
+      vi: "Chính trị gia Victoria Labor và nghị sĩ Dandenong, từng phụ trách giao thông, vận tải công cộng, phụ nữ, sức khỏe tâm thần và First Peoples; làm phó premier trong chuyển giao lãnh đạo năm 2026.",
+      th: "นักการเมือง Victoria Labor สมาชิกเขต Dandenong เคยดูแล transport, public transport, women, mental health และ First Peoples และเป็น deputy premier ในการเปลี่ยนผู้นำปี 2026",
+      si: "Victorian Labor politician සහ Dandenong MP; transport, public transport, women, mental health සහ First Peoples portfolios දරා ඇති අතර 2026 leadership transition එකේ deputy premier විය."
+    },
+    positions: {
+      "zh-Hans": "公开工作重点包括交通交付、公共交通、妇女和性别平等、心理健康、第一民族政策和东南墨尔本社区代表。",
+      "zh-Hant": "公開工作重點包括交通交付、公共交通、婦女和性別平等、心理健康、第一民族政策和東南墨爾本社區代表。",
+      en: "Her public priorities include transport delivery, public transport, women and gender equality, mental health, First Peoples policy and south-east Melbourne representation.",
+      es: "Sus prioridades incluyen ejecución de transporte, transporte público, mujeres e igualdad de género, salud mental, política de First Peoples y representación del sureste de Melbourne.",
+      ja: "交通事業の実施、公共交通、女性とジェンダー平等、メンタルヘルス、First Peoples 政策、メルボルン南東部の地域代表を重視しています。",
+      ko: "교통 사업 집행, 대중교통, 여성 및 성평등, 정신건강, First Peoples 정책, 멜버른 남동부 대표 활동이 주요 우선순위입니다.",
+      vi: "Các ưu tiên gồm triển khai giao thông, vận tải công cộng, phụ nữ và bình đẳng giới, sức khỏe tâm thần, chính sách First Peoples và đại diện đông nam Melbourne.",
+      th: "ประเด็นสำคัญคือการส่งมอบโครงการคมนาคม ขนส่งสาธารณะ ผู้หญิงและความเท่าเทียมทางเพศ สุขภาพจิต นโยบาย First Peoples และการแทนชุมชน southeast Melbourne",
+      si: "Transport delivery, public transport, women/gender equality, mental health, First Peoples policy සහ south-east Melbourne representation ඇයගේ priorities වේ."
+    }
   }
 ];
 
