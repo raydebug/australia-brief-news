@@ -9,7 +9,7 @@ Definitions:
 Rules:
 - Work only in this repository.
 - Use live web search for current search/trend context.
-- Keep the 4News positioning consistent: minimal, objective, independent, multi-source Australian news briefs, AI-powered.
+- Keep the 4News positioning consistent: minimal, objective, independent, multi-source Australian news briefs, AI-powered, with priority on social issues and development issues.
 - Do not use clickbait, keyword stuffing, misleading claims, fake freshness, fake authority, hidden text, doorway pages, copied publisher text, copied article bodies, copied images, or copied logos.
 - Do not claim original reporting unless the site actually produced it.
 - Do not add speculative search keywords that are not supported by current 4News content.
