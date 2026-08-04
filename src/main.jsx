@@ -976,6 +976,24 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Simon Judkins",
+    aliases: ["Simon Judkins", "Dr Simon Judkins", "Dr Simon Judkins MBBS FACEM", "西蒙·贾德金斯", "西蒙·賈德金斯", "サイモン・ジャドキンズ", "사이먼 저드킨스"],
+    type: "public-figure",
+    profile: { label: "AMA Victoria profile", url: "https://amavic.com.au/about-us/our-people" },
+    social: { label: "LinkedIn", url: "https://au.linkedin.com/in/simon-judkins-a8381149" },
+    background: {
+      "zh-Hans": "AMA Victoria 主席、急诊科医生，曾任 Australasian College for Emergency Medicine 主席，并长期参与维州公立医院医生劳资和医疗系统改革议题。",
+      "zh-Hant": "AMA Victoria 主席、急診科醫生，曾任 Australasian College for Emergency Medicine 主席，並長期參與維州公立醫院醫生勞資和醫療系統改革議題。",
+      en: "President of AMA Victoria and an emergency physician. He is a former president of the Australasian College for Emergency Medicine and a public advocate on Victorian hospital workforce and health-system reform issues.",
+      es: "Presidente de AMA Victoria y médico de urgencias. Fue presidente del Australasian College for Emergency Medicine y es una voz pública sobre la fuerza laboral hospitalaria y la reforma sanitaria en Victoria.",
+      ja: "AMA Victoria の会長で救急医。Australasian College for Emergency Medicine の元会長で、Victoria 州の病院人員体制と医療制度改革について発信しています。",
+      ko: "AMA Victoria 회장이자 응급의학 전문의입니다. Australasian College for Emergency Medicine 전 회장으로, Victoria 공공병원 인력과 보건의료 제도 개혁 문제를 공개적으로 제기해 왔습니다.",
+      vi: "Chủ tịch AMA Victoria và bác sĩ cấp cứu. Ông từng là chủ tịch Australasian College for Emergency Medicine và thường lên tiếng về nhân lực bệnh viện cùng cải cách hệ thống y tế Victoria.",
+      th: "ประธาน AMA Victoria และแพทย์ฉุกเฉิน อดีตประธาน Australasian College for Emergency Medicine และเป็นผู้ผลักดันประเด็นบุคลากรโรงพยาบาลกับการปฏิรูประบบสาธารณสุขใน Victoria",
+      si: "AMA Victoria president සහ emergency physician කෙනෙකි. Australasian College for Emergency Medicine හි හිටපු president වන ඔහු Victoria රෝහල් workforce සහ health-system reform ගැන public advocate කෙනෙකි."
+    }
+  },
+  {
     name: "Jon Adgemis",
     aliases: ["Jon Adgemis", "John Adgemis", "Jonathon Adgemis", "乔恩·阿杰米斯", "喬恩·阿傑米斯", "ジョン・アジェミス", "존 애드제미스"],
     type: "executive",
