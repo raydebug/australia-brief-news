@@ -3665,6 +3665,24 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Jonathan Greenblatt",
+    aliases: ["Jonathan Greenblatt", "Jonathan A. Greenblatt", "JGreenblattADL", "乔纳森·格林布拉特", "喬納森·格林布拉特", "ジョナサン・グリーンブラット", "조너선 그린블랫"],
+    type: "executive",
+    social: { label: "X", url: "https://x.com/JGreenblattADL" },
+    officialProfile: { label: "ADL biography", url: "https://www.adl.org/who-we-are/leadership/staff/jonathan-greenblatt" },
+    background: {
+      "zh-Hans": "Anti-Defamation League 的首席执行官兼全国主任，曾在 Obama 政府任 White House Office of Social Innovation and Civic Participation 主任，也曾参与社会企业和媒体项目。",
+      "zh-Hant": "Anti-Defamation League 的行政總裁兼全國主任，曾在 Obama 政府任 White House Office of Social Innovation and Civic Participation 主任，也曾參與社會企業和媒體項目。",
+      en: "CEO and national director of the Anti-Defamation League, previously director of the White House Office of Social Innovation and Civic Participation in the Obama administration and involved in social-enterprise and media ventures.",
+      es: "CEO y director nacional de la Anti-Defamation League; antes dirigió la White House Office of Social Innovation and Civic Participation en la administración Obama y participó en proyectos de empresa social y medios.",
+      ja: "Anti-Defamation League の CEO 兼 national director。Obama 政権で White House Office of Social Innovation and Civic Participation の director を務め、社会的企業やメディア事業にも関わりました。",
+      ko: "Anti-Defamation League의 CEO 겸 national director입니다. Obama 행정부에서 White House Office of Social Innovation and Civic Participation 국장을 지냈고 사회적 기업과 미디어 사업에도 관여했습니다.",
+      vi: "CEO và national director của Anti-Defamation League; trước đó là giám đốc White House Office of Social Innovation and Civic Participation trong chính quyền Obama và tham gia các dự án doanh nghiệp xã hội, truyền thông.",
+      th: "CEO และ national director ของ Anti-Defamation League ก่อนหน้านี้เป็นผู้อำนวยการ White House Office of Social Innovation and Civic Participation ในรัฐบาล Obama และเคยทำงานด้าน social enterprise และสื่อ",
+      si: "Anti-Defamation League හි CEO සහ national director වේ. Obama administration සමයේ White House Office of Social Innovation and Civic Participation director ලෙස කටයුතු කළ අතර social-enterprise සහ media ventures වලද නිරත විය."
+    }
+  },
+  {
     name: "Michael Zavros",
     aliases: ["Michael Zavros", "迈克尔·扎夫罗斯", "マイケル・ザブロス", "마이클 자브로스"],
     type: "artist",
