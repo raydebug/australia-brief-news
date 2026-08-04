@@ -2212,7 +2212,9 @@ const PEOPLE_CONTEXT = [
     name: "Chris Bowen",
     aliases: ["Chris Bowen", "Christopher Bowen", "克里斯·鲍恩", "克里斯·鮑恩", "クリス・ボーエン", "크리스 보언"],
     type: "politician",
-    social: { label: "Official profile", url: "https://minister.dcceew.gov.au/bowen" },
+    profile: { label: "Minister biography", url: "https://minister.dcceew.gov.au/bowen" },
+    officialProfile: { label: "Parliament profile", url: "https://www.aph.gov.au/C_Bowen_MP" },
+    social: { label: "Facebook", url: "https://www.facebook.com/chrisbowenmp/" },
     background: {
       "zh-Hans": "澳洲工党联邦议员，代表 NSW 的 McMahon 选区，2022 年起任联邦气候变化和能源部长。此前曾任影子财长、移民部长和多项经济相关职务。",
       "zh-Hant": "澳洲工黨聯邦議員，代表 NSW 的 McMahon 選區，2022 年起任聯邦氣候變化和能源部長。此前曾任影子財長、移民部長和多項經濟相關職務。",
@@ -3403,7 +3405,10 @@ const PEOPLE_CONTEXT = [
     name: "Tony Burke",
     aliases: ["Tony Burke", "The Hon Tony Burke", "托尼·伯克", "トニー・バーク", "토니 버크"],
     type: "politician",
-    social: { label: "Parliament profile", url: "https://www.aph.gov.au/T_Burke_MP" },
+    profile: { label: "Parliament profile", url: "https://www.aph.gov.au/T_Burke_MP" },
+    officialProfile: { label: "Minister biography", url: "https://minister.homeaffairs.gov.au/TonyBurke/Pages/Welcome.aspx" },
+    social: { label: "X", url: "https://x.com/Tony_Burke" },
+    personalSocial: { label: "Facebook", url: "https://www.facebook.com/burke.tony.mp/" },
     background: {
       "zh-Hans": "澳洲工党联邦议员，代表新州 Watson，自 2004 年进入联邦议会，长期担任前座和内阁职务。",
       "zh-Hant": "澳洲工黨聯邦議員，代表新州 Watson，自 2004 年進入聯邦議會，長期擔任前座和內閣職務。",
