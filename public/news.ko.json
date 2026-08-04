@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T04:12:31.184Z",
+  "updatedAt": "2026-08-04T05:12:30.405Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -106,6 +106,29 @@
     "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results."
   ],
   "clusters": [
+    {
+      "id": "antisemitism-protest-hearing-20260804",
+      "language": "ko",
+      "headline": "시드니 증언으로 반유대주의 조사 범위가 넓어졌다",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-04T03:36:41.000Z",
+      "voiceScript": "시드니의 반유대주의 왕립조사위원회는 논란이 된 시위에 대한 증언을 검토하고 있다. 팔레스타인 지지 집회와 네오나치 시위도 그 대상에 포함됐다. 중요한 이유는 개별 사건을 넘어 시위가 어떻게 관리되는지, 그리고 혐오가 공적 공간으로 어떻게 번지는지를 살펴보는 단계로 조사 범위가 넓어지기 때문이다. 앞으로는 증인과 법 집행 기관의 추가 설명이 이어질 전망이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-04/antisemitism-royal-commission-protests-david-ossip/106993436"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/anti-semitism-probe-set-to-examine-incendiary-protests"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/aug/04/breaking-news-icac-liberal-politics-royal-commission-antisemitism-gambling-ad-inquiry-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-one-nation-ntwnfb"
+        }
+      ]
+    },
     {
       "id": "victoria-cabinet-ai-portfolio-20260804",
       "language": "ko",
@@ -873,6 +896,29 @@
       ]
     },
     {
+      "id": "one-nation-poll-20260803",
+      "language": "ko",
+      "headline": "원네이션 지지율 상승으로 연립에 압박",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-03T07:36:17.000Z",
+      "voiceScript": "최신 여론조사에서 원네이션이 연방 경쟁의 상위권으로 다시 올라섰고, 연립 내부에서는 폴린 핸슨의 당과 협력해야 하는지 공개적으로 논의하는 목소리도 나온다. 생활비와 이민 문제에 대한 유권자 불만이 여전히 선거 구도를 바꾸고 있기 때문에 이 결과는 중요하다. 앞으로는 이 수치가 실제 우선순위 거래로 이어질지, 아니면 양대 정당에 더 큰 압박만 줄지가 관건이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/coalition-should-work-with-one-nation-to-oust-labor-says-canavan-20260803-p60kt9"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/one-nation-edges-back-in-front-in-federal-poll"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/one-nation-is-australias-most-popular-political-party-poll-finds/news-story/b2f255c45b8200bfe8415928fdfbb323"
+        }
+      ]
+    },
+    {
       "id": "nsw-mine-worker-death-20260803",
       "language": "ko",
       "headline": "헌터 밸리 광산 사망으로 현장 안전에 대한 압박이 다시 커지고 있습니다.",
@@ -1019,6 +1065,52 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-03/liberty-bell-bay-smelter-officially-enters-liquidation/106989546"
+        }
+      ]
+    },
+    {
+      "id": "sydney-toll-deal-20260803",
+      "language": "ko",
+      "headline": "시드니 통행료 인하는 내년부터 시행된다",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-03T04:56:00.000Z",
+      "voiceScript": "뉴사우스웨일스주 정부는 운영사와 새로 맺은 합의에 따라 시드니의 여러 유료 도로 통행료가 내년부터 내려갈 것이라고 밝혔다. Lane Cove Tunnel, M2, Cross City Tunnel 요금이 낮아질 예정이다. 이 계획이 중요한 이유는 통행료 체계를 없애지 않으면서도 통근자 부담을 줄이겠다고 약속하기 때문이다. 앞으로는 실제로 얼마나 절감 효과가 운전자들에게 돌아가는지가 관건이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-03/toll-prices-to-be-lowered-on-multiple-sydney-motorways-nsw-gov/106990380"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/widespread-toll-road-changes-both-give-and-take-away"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/nsw-act/politics/road-tolls-across-major-sydney-roads-to-be-cut-after-nsw-government-strikes-billiondollar-deal-with-operators/news-story/1060ab372af74068aabbdb74128c55a4"
+        }
+      ]
+    },
+    {
+      "id": "news-bargaining-incentive-20260803",
+      "language": "ko",
+      "headline": "새 뉴스 부과안에 출판계가 반발한다",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-03T02:31:58.000Z",
+      "voiceScript": "연방정부가 뉴스 거래 부담금 구조를 다시 손봤다. 기술기업은 여전히 호주 출판사와 계약을 맺도록 압박을 받지만, 과세 방식은 더 좁아졌다. 이 변화는 국내 언론에 자금이 흐르도록 하면서도 큰 무역 충돌 가능성은 낮출 수 있기 때문에 중요하다. 이제 쟁점은 수정안이 대형 플랫폼을 계속 협상장에 묶어 둘 만큼 강한가 하는 점이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-03/big-tech-google-australian-media-news-bargaining-/106989038"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/tech-giants-face-higher-levy-under-tweaked-news-plan"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/online/albanese-government-ups-the-ante-in-journalism-pay-stoush-with-silicon-valley/news-story/9433d614918c36632e90f02900846ae0"
         }
       ]
     },

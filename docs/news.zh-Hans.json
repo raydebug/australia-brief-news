@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T04:12:31.176Z",
+  "updatedAt": "2026-08-04T05:12:30.401Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -106,6 +106,29 @@
     "AAP page-level harvesting remained inconsistent, so some selected stories were sourced directly from article pages and search results."
   ],
   "clusters": [
+    {
+      "id": "antisemitism-protest-hearing-20260804",
+      "language": "zh-Hans",
+      "headline": "悉尼抗议证词扩大了反犹调查范围",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-04T03:36:41.000Z",
+      "voiceScript": "悉尼的反犹主义皇家委员会正在审视有关争议性抗议活动的证词，其中包括一场挺巴勒斯坦集会和一次新纳粹示威。这个听证会的重要性在于，它把调查从个别事件扩展到抗议如何被执法管理，以及仇恨如何渗入公共生活。下一步将是继续听取证人和执法部门的证词，弄清发生了什么，以及哪些做法需要改变。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-04/antisemitism-royal-commission-protests-david-ossip/106993436"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/anti-semitism-probe-set-to-examine-incendiary-protests"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/aug/04/breaking-news-icac-liberal-politics-royal-commission-antisemitism-gambling-ad-inquiry-anthony-albanese-labor-angus-taylor-coalition-pauline-hanson-one-nation-ntwnfb"
+        }
+      ]
+    },
     {
       "id": "victoria-cabinet-ai-portfolio-20260804",
       "language": "zh-Hans",
@@ -873,6 +896,29 @@
       ]
     },
     {
+      "id": "one-nation-poll-20260803",
+      "language": "zh-Hans",
+      "headline": "一国党民调回升继续给联盟党施压",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-03T07:36:17.000Z",
+      "voiceScript": "最新民调再次把一国党推到联邦竞争的前列，联盟党人士也再次公开讨论是否应该与保琳·韩森的政党合作。这个结果重要在于，它显示选民的不满仍在重塑选战，尤其是在生活成本和移民议题上。接下来要看的是，这些数字会不会变成真正的偏好交易，还是只是给主要政党带来更多压力。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/coalition-should-work-with-one-nation-to-oust-labor-says-canavan-20260803-p60kt9"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/one-nation-edges-back-in-front-in-federal-poll"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/one-nation-is-australias-most-popular-political-party-poll-finds/news-story/b2f255c45b8200bfe8415928fdfbb323"
+        }
+      ]
+    },
+    {
       "id": "nsw-mine-worker-death-20260803",
       "language": "zh-Hans",
       "headline": "猎人谷矿难再添现场安全压力",
@@ -1019,6 +1065,52 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-03/liberty-bell-bay-smelter-officially-enters-liquidation/106989546"
+        }
+      ]
+    },
+    {
+      "id": "sydney-toll-deal-20260803",
+      "language": "zh-Hans",
+      "headline": "悉尼通行费下调，减负要到明年才开始",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-03T04:56:00.000Z",
+      "voiceScript": "新南威尔士州政府说，悉尼几条通行费将从明年起下降，这是与运营商达成新协议后的结果，Lane Cove Tunnel、M2 和 Cross City Tunnel 的收费都会降低。这个方案重要在于，它承诺给通勤者减负，但并没有取消收费道路体系。接下来要关注的是节省能有多少真正落到日常驾驶者身上，以及收费改革在实施前是否还会遇到政治阻力。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-03/toll-prices-to-be-lowered-on-multiple-sydney-motorways-nsw-gov/106990380"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/widespread-toll-road-changes-both-give-and-take-away"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/nsw-act/politics/road-tolls-across-major-sydney-roads-to-be-cut-after-nsw-government-strikes-billiondollar-deal-with-operators/news-story/1060ab372af74068aabbdb74128c55a4"
+        }
+      ]
+    },
+    {
+      "id": "news-bargaining-incentive-20260803",
+      "language": "zh-Hans",
+      "headline": "工党重写新闻税引发出版界反弹",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-03T02:31:58.000Z",
+      "voiceScript": "联邦政府重写了新闻议价税方案，让科技公司仍然面对与澳大利亚出版机构达成交易的压力，但征税基础变得更窄。这样调整很重要，因为它可能继续把资金导向本地新闻业，同时降低更大贸易冲突的风险。接下来要看的是，修订后的方案是否足以促使大型平台继续谈判。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-03/big-tech-google-australian-media-news-bargaining-/106989038"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/tech-giants-face-higher-levy-under-tweaked-news-plan"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/online/albanese-government-ups-the-ante-in-journalism-pay-stoush-with-silicon-valley/news-story/9433d614918c36632e90f02900846ae0"
         }
       ]
     },
