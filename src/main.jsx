@@ -1931,7 +1931,10 @@ const PEOPLE_CONTEXT = [
     name: "Ben Carroll",
     aliases: ["Ben Carroll", "本·卡罗尔", "本·卡羅爾", "ベン・キャロル", "벤 캐럴"],
     type: "politician",
+    profile: { label: "Victorian Parliament profile", url: "https://www.parliament.vic.gov.au/members/ben-carroll/" },
+    officialProfile: { label: "Personal website", url: "https://bencarroll.com.au/" },
     social: { label: "Facebook", url: "https://www.facebook.com/bencarrollmp/" },
+    personalSocial: { label: "Instagram", url: "https://www.instagram.com/bencarrollmp/" },
     background: {
       "zh-Hans": "维州工党政治人物，Niddrie 选区州议员，2026 年接替 Jacinta Allan 成为维州州长。进入政界前做过律师和政策顾问，也曾任教育部长。",
       "zh-Hant": "維州工黨政治人物，Niddrie 選區州議員，2026 年接替 Jacinta Allan 成為維州州長。進入政界前做過律師和政策顧問，也曾任教育部長。",
@@ -3173,6 +3176,7 @@ const PEOPLE_CONTEXT = [
     aliases: ["Alan Jones", "Alan Belford Jones", "艾伦·琼斯", "艾倫·瓊斯", "アラン・ジョーンズ", "앨런 존스"],
     type: "public-figure",
     profile: { label: "Wikipedia profile", url: "https://en.wikipedia.org/wiki/Alan_Jones_(talkback_host)" },
+    personalSocial: { label: "Facebook", url: "https://www.facebook.com/alanjonesaustralia/" },
     background: {
       "zh-Hans": "澳洲前电台和电视评论员、前 Wallabies 教练，长期主持悉尼 2GB 早餐节目，是澳洲最有影响力也最具争议的媒体人物之一。",
       "zh-Hant": "澳洲前電台和電視評論員、前 Wallabies 教練，長期主持雪梨 2GB 早餐節目，是澳洲最有影響力也最具爭議的媒體人物之一。",
