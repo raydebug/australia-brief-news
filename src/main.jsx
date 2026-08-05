@@ -642,9 +642,17 @@ function normalizeLanguage(value) {
   return "en";
 }
 
-function initialLanguage() {
+function shareParamsFromLocation() {
   const params = new URLSearchParams(window.location.search);
-  const requested = params.get("lang") || params.get("language");
+  const hashParams = new URLSearchParams(String(window.location.hash || "").replace(/^#/, ""));
+  return {
+    id: params.get("id") || params.get("brief") || hashParams.get("id") || hashParams.get("brief") || null,
+    language: params.get("lang") || params.get("language") || hashParams.get("lang") || hashParams.get("language") || null
+  };
+}
+
+function initialLanguage() {
+  const requested = shareParamsFromLocation().language;
   if (requested) {
     const normalized = normalizeLanguage(requested);
     if (I18N[normalized]) return normalized;
@@ -656,7 +664,7 @@ function initialLanguage() {
 }
 
 function initialSharedId() {
-  return new URLSearchParams(window.location.search).get("id") || null;
+  return shareParamsFromLocation().id;
 }
 
 function initialFont() {
@@ -714,7 +722,7 @@ function shareUrlFor(cluster, language) {
   const url = new URL(window.location.href);
   url.searchParams.set("lang", language);
   url.searchParams.set("id", cluster.id);
-  url.hash = "";
+  url.hash = new URLSearchParams({ lang: language, id: cluster.id }).toString();
   return url.toString();
 }
 
@@ -4618,13 +4626,14 @@ function PeopleContextList({ people, labels, language }) {
 }
 
 function App() {
+  const sharedId = initialSharedId();
   const [data, setData] = useState(null);
-  const [activeId, setActiveId] = useState(initialSharedId);
+  const [activeId, setActiveId] = useState(sharedId);
   const [query, setQuery] = useState("");
   const [mode, setMode] = useState("all");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
-  const [expandedId, setExpandedId] = useState(null);
+  const [expandedId, setExpandedId] = useState(sharedId);
   const [sourcesOpen, setSourcesOpen] = useState(false);
   const [installPrompt, setInstallPrompt] = useState(null);
   const [online, setOnline] = useState(navigator.onLine);
@@ -4639,6 +4648,7 @@ function App() {
   const [speechVoices, setSpeechVoices] = useState([]);
   const speechRunRef = useRef(0);
   const pendingScrollYRef = useRef(null);
+  const sharedScrollDoneRef = useRef(false);
 
   const labels = I18N[language];
   const selectedFont = FONT_OPTIONS.find((option) => option.code === font) || FONT_OPTIONS[0];
@@ -4863,6 +4873,22 @@ function App() {
   }, [activeId, clusters]);
 
   useEffect(() => {
+    if (!sharedId || sharedScrollDoneRef.current || !clusters.some((cluster) => cluster.id === sharedId)) return;
+
+    setActiveId(sharedId);
+    setExpandedId(sharedId);
+    sharedScrollDoneRef.current = true;
+
+    let frame = window.requestAnimationFrame(() => {
+      frame = window.requestAnimationFrame(() => {
+        document.getElementById(`brief-${sharedId}`)?.scrollIntoView({ block: "center", behavior: "auto" });
+      });
+    });
+
+    return () => window.cancelAnimationFrame(frame);
+  }, [clusters, sharedId]);
+
+  useEffect(() => {
     if (toolsOpen && window.matchMedia("(max-width: 760px)").matches) {
       setSourcesOpen(true);
     }
@@ -5082,6 +5108,7 @@ function App() {
                 className={`cluster-card ${cluster.id === active?.id ? "selected" : ""} ${
                   cluster.id === expandedId ? "expanded" : ""
                 }`}
+                id={`brief-${cluster.id}`}
                 key={cluster.id}
               >
               <div className="cluster-card-content">
