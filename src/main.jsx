@@ -11,6 +11,7 @@ import {
   Radio,
   RefreshCw,
   Search,
+  Share2,
   TimerReset,
   UserRound,
   Volume2
@@ -235,6 +236,7 @@ const I18N = {
     socialShares: "分享",
     socialLikes: "点赞",
     socialScore: "分数",
+    shareBrief: "分享",
     install: "安装到设备",
     sources: "来源",
     noticeTitle: "内容说明",
@@ -275,6 +277,7 @@ const I18N = {
     socialShares: "分享",
     socialLikes: "按讚",
     socialScore: "分數",
+    shareBrief: "分享",
     install: "安裝到裝置",
     sources: "來源",
     noticeTitle: "內容說明",
@@ -315,6 +318,7 @@ const I18N = {
     socialShares: "බෙදාගැනීම්",
     socialLikes: "කැමැත්ත",
     socialScore: "ලකුණු",
+    shareBrief: "බෙදාගන්න",
     install: "ස්ථාපනය",
     sources: "මූලාශ්‍ර",
     noticeTitle: "අන්තර්ගත සටහන",
@@ -355,6 +359,7 @@ const I18N = {
     socialShares: "shares",
     socialLikes: "likes",
     socialScore: "score",
+    shareBrief: "Share",
     install: "Install",
     sources: "Sources",
     noticeTitle: "Content note",
@@ -395,6 +400,7 @@ const I18N = {
     socialShares: "compartidos",
     socialLikes: "me gusta",
     socialScore: "puntuación",
+    shareBrief: "Compartir",
     install: "Instalar",
     sources: "Fuentes",
     noticeTitle: "Nota de contenido",
@@ -435,6 +441,7 @@ const I18N = {
     socialShares: "共有",
     socialLikes: "いいね",
     socialScore: "スコア",
+    shareBrief: "共有",
     install: "インストール",
     sources: "ソース",
     noticeTitle: "コンテンツ注記",
@@ -475,6 +482,7 @@ const I18N = {
     socialShares: "공유",
     socialLikes: "좋아요",
     socialScore: "점수",
+    shareBrief: "공유",
     install: "설치",
     sources: "출처",
     noticeTitle: "콘텐츠 안내",
@@ -515,6 +523,7 @@ const I18N = {
     socialShares: "chia sẻ",
     socialLikes: "thích",
     socialScore: "điểm",
+    shareBrief: "Chia sẻ",
     install: "Cài đặt",
     sources: "Nguồn",
     noticeTitle: "Ghi chú nội dung",
@@ -555,6 +564,7 @@ const I18N = {
     socialShares: "แชร์",
     socialLikes: "ถูกใจ",
     socialScore: "คะแนน",
+    shareBrief: "แชร์",
     install: "ติดตั้ง",
     sources: "แหล่งข่าว",
     noticeTitle: "หมายเหตุเนื้อหา",
@@ -633,9 +643,20 @@ function normalizeLanguage(value) {
 }
 
 function initialLanguage() {
+  const params = new URLSearchParams(window.location.search);
+  const requested = params.get("lang") || params.get("language");
+  if (requested) {
+    const normalized = normalizeLanguage(requested);
+    if (I18N[normalized]) return normalized;
+  }
+
   const stored = window.localStorage.getItem("brief-language");
   if (stored && I18N[stored]) return stored;
   return normalizeLanguage(navigator.language);
+}
+
+function initialSharedId() {
+  return new URLSearchParams(window.location.search).get("id") || null;
 }
 
 function initialFont() {
@@ -687,6 +708,20 @@ async function fetchNewsPayload(language) {
 function cacheBustedUrl(url) {
   const separator = url.includes("?") ? "&" : "?";
   return `${url}${separator}t=${Date.now()}`;
+}
+
+function shareUrlFor(cluster, language) {
+  const url = new URL(window.location.href);
+  url.searchParams.set("lang", language);
+  url.searchParams.set("id", cluster.id);
+  url.hash = "";
+  return url.toString();
+}
+
+function shareTextFor(cluster) {
+  const script = String(cluster?.voiceScript || "").trim();
+  if (!script) return "4News";
+  return script.length > 180 ? `${script.slice(0, 177)}...` : script;
 }
 
 function sourceLabel(url, labels) {
@@ -4547,7 +4582,7 @@ function PeopleContextList({ people, labels, language }) {
 
 function App() {
   const [data, setData] = useState(null);
-  const [activeId, setActiveId] = useState(null);
+  const [activeId, setActiveId] = useState(initialSharedId);
   const [query, setQuery] = useState("");
   const [mode, setMode] = useState("all");
   const [loading, setLoading] = useState(true);
@@ -4705,6 +4740,28 @@ function App() {
     }
 
     startReading(cluster, speechRunRef.current + 1);
+  }
+
+  async function shareCluster(cluster) {
+    const displayCluster = { ...cluster, language };
+    const shareData = {
+      title: displayCluster.headline,
+      text: shareTextFor(displayCluster),
+      url: shareUrlFor(displayCluster, language)
+    };
+
+    if (navigator.share) {
+      try {
+        await navigator.share(shareData);
+        return;
+      } catch (error) {
+        if (error?.name === "AbortError") return;
+      }
+    }
+
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(`${shareData.title}\n${shareData.text}\n${shareData.url}`);
+    }
   }
 
   function startReading(cluster, runId) {
@@ -5002,6 +5059,14 @@ function App() {
                     </h3>
                   </button>
                   <button
+                    className="icon-button compact card-share-button"
+                    onClick={() => shareCluster(displayCluster)}
+                    title={labels.shareBrief}
+                    aria-label={labels.shareBrief}
+                  >
+                    <Share2 size={17} />
+                  </button>
+                  <button
                     className={`icon-button compact card-speak-button ${speechState.active ? "active" : ""}`}
                     onClick={() => readCluster(displayCluster)}
                     disabled={!speechState.canRead}
@@ -5100,6 +5165,14 @@ function App() {
                   <HeatIndicator cluster={displayActive} language={language} />
                 </h2>
               </div>
+              <button
+                className="icon-button"
+                onClick={() => shareCluster(displayActive)}
+                title={labels.shareBrief}
+                aria-label={labels.shareBrief}
+              >
+                <Share2 size={19} />
+              </button>
               <button
                 className={`icon-button ${speechState.active ? "active" : ""}`}
                 onClick={() => readCluster(displayActive)}
