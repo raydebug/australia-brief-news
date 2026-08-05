@@ -5017,13 +5017,13 @@ function App() {
     >
       <aside className="sidebar">
         <div className="brand-row">
-          <div className="brand-identity">
+          <a className="brand-identity" href="https://4news.com.au/" aria-label="4News home">
             <img className="brand-mark" src="./icon.svg" alt="4News" />
             <div>
               <h1>{labels.appName}</h1>
               <span className="brand-subtitle">{labels.appSubtitle}</span>
             </div>
-          </div>
+          </a>
           <select
             className="language-select"
             value={language}
