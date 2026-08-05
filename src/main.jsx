@@ -893,6 +893,37 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Donald Trump",
+    aliases: ["Donald Trump", "Donald J. Trump", "Donald John Trump", "President Donald Trump", "唐纳德·特朗普", "唐納德·特朗普", "ドナルド・トランプ", "도널드 트럼프"],
+    type: "politician",
+    profile: { label: "White House biography", url: "https://www.whitehouse.gov/administration/donald-j-trump/" },
+    officialProfile: { label: "Official biography", url: "https://www.trump.com/leadership/donald-j-trump-biography" },
+    social: { label: "X", url: "https://x.com/realDonaldTrump" },
+    personalSocial: { label: "Truth Social", url: "https://truthsocial.com/@realDonaldTrump" },
+    background: {
+      "zh-Hans": "美国共和党政治人物，曾任第 45 任美国总统，并在 2024 年大选后成为第 47 任美国总统；此前长期从事地产、媒体和品牌业务。",
+      "zh-Hant": "美國共和黨政治人物，曾任第 45 任美國總統，並在 2024 年大選後成為第 47 任美國總統；此前長期從事地產、媒體和品牌業務。",
+      en: "Republican politician serving as the 47th president of the United States after the 2024 election, and previously the 45th president; before politics he was a real-estate, media and branding executive.",
+      es: "Político republicano, 47.º presidente de Estados Unidos tras las elecciones de 2024 y antes 45.º presidente; antes de la política fue empresario de bienes raíces, medios y marcas.",
+      ja: "共和党の政治家。2024年大統領選後に第47代米大統領となり、以前は第45代大統領も務めました。政界入り前は不動産、メディア、ブランド事業の経営者でした。",
+      ko: "공화당 정치인으로 2024년 대선 이후 미국 제47대 대통령을 맡고 있으며, 이전에는 제45대 대통령이었습니다. 정계 입문 전에는 부동산, 미디어, 브랜드 사업가였습니다.",
+      vi: "Chính trị gia Cộng hòa, là tổng thống thứ 47 của Hoa Kỳ sau cuộc bầu cử 2024 và từng là tổng thống thứ 45; trước chính trị ông hoạt động trong bất động sản, truyền thông và thương hiệu.",
+      th: "นักการเมืองพรรค Republican ประธานาธิบดีสหรัฐฯ คนที่ 47 หลังการเลือกตั้งปี 2024 และเคยเป็นคนที่ 45 ก่อนเข้าสู่การเมืองทำธุรกิจอสังหาริมทรัพย์ สื่อ และแบรนด์",
+      si: "Republican දේශපාලනඥයෙකු වන Donald Trump 2024 මැතිවරණයෙන් පසු එක්සත් ජනපදයේ 47 වන ජනාධිපති ලෙස කටයුතු කරයි; පෙර 45 වන ජනාධිපති වූ අතර දේශපාලනයට පෙර real-estate, media සහ branding ව්‍යාපාර කළේය."
+    },
+    positions: {
+      "zh-Hans": "主张更高关税、收紧移民和边境执法、扩大化石能源生产，并以交易式外交和美国优先经济政策作为核心政治路线。",
+      "zh-Hant": "主張更高關稅、收緊移民和邊境執法、擴大化石能源生產，並以交易式外交和美國優先經濟政策作為核心政治路線。",
+      en: "He advocates higher tariffs, tougher immigration and border enforcement, expanded fossil-fuel production, transactional diplomacy and an America First economic agenda.",
+      es: "Defiende aranceles más altos, mayor dureza migratoria y fronteriza, expansión de combustibles fósiles, diplomacia transaccional y una agenda económica America First.",
+      ja: "高関税、移民・国境管理の強化、化石燃料生産の拡大、取引型外交、America First の経済政策を掲げています。",
+      ko: "높은 관세, 강경한 이민·국경 집행, 화석연료 생산 확대, 거래 중심 외교, America First 경제 의제를 주장합니다.",
+      vi: "Ông ủng hộ thuế quan cao hơn, siết nhập cư và biên giới, mở rộng sản xuất nhiên liệu hóa thạch, ngoại giao theo kiểu giao dịch và chương trình kinh tế America First.",
+      th: "เขาสนับสนุนภาษีนำเข้าสูงขึ้น การบังคับใช้กฎหมายคนเข้าเมืองและชายแดนที่เข้มขึ้น การขยายการผลิตฟอสซิล การทูตแบบต่อรอง และเศรษฐกิจ America First",
+      si: "ඔහු higher tariffs, දැඩි immigration සහ border enforcement, fossil-fuel production පුළුල් කිරීම, transactional diplomacy සහ America First economic agenda සඳහා සහාය දක්වයි."
+    }
+  },
+  {
     name: "Jason Clare",
     aliases: ["Jason Clare", "Jason Dean Clare", "The Hon Jason Clare", "The Hon Jason Clare MP", "杰森·克莱尔", "傑森·克萊爾", "ジェイソン・クレア", "제이슨 클레어"],
     type: "politician",
