@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import React, { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { createRoot } from "react-dom/client";
 import {
   ChevronDown,
@@ -5093,7 +5093,7 @@ function App() {
   const [speakingId, setSpeakingId] = useState(null);
   const [speechVoices, setSpeechVoices] = useState([]);
   const speechRunRef = useRef(0);
-  const pendingScrollYRef = useRef(null);
+  const pendingCardAnchorRef = useRef(null);
   const sharedScrollDoneRef = useRef(false);
 
   const labels = I18N[language];
@@ -5208,7 +5208,8 @@ function App() {
 
   function toggleClusterExpansion(id) {
     if (window.matchMedia("(max-width: 760px)").matches) {
-      pendingScrollYRef.current = window.scrollY;
+      const element = document.getElementById(`brief-${id}`);
+      pendingCardAnchorRef.current = element ? { id, top: element.getBoundingClientRect().top } : null;
     }
     setActiveId(id);
     setExpandedId((current) => (current === id ? null : id));
@@ -5345,19 +5346,35 @@ function App() {
     }
   }, [toolsOpen]);
 
-  useEffect(() => {
-    if (!expandedId || pendingScrollYRef.current == null || !window.matchMedia("(max-width: 760px)").matches) {
+  useLayoutEffect(() => {
+    const anchor = pendingCardAnchorRef.current;
+    if (!anchor || !window.matchMedia("(max-width: 760px)").matches) {
       return undefined;
     }
 
+    const restoreAnchorPosition = () => {
+      const element = document.getElementById(`brief-${anchor.id}`);
+      if (!element) return;
+      const delta = element.getBoundingClientRect().top - anchor.top;
+      if (Math.abs(delta) > 0.5) {
+        window.scrollBy({ top: delta, behavior: "auto" });
+      }
+    };
+
     let frame = window.requestAnimationFrame(() => {
       frame = window.requestAnimationFrame(() => {
-        window.scrollTo({ top: pendingScrollYRef.current, behavior: "auto" });
-        pendingScrollYRef.current = null;
+        restoreAnchorPosition();
       });
     });
+    const lateFrame = window.setTimeout(() => {
+      restoreAnchorPosition();
+      pendingCardAnchorRef.current = null;
+    }, 180);
 
-    return () => window.cancelAnimationFrame(frame);
+    return () => {
+      window.cancelAnimationFrame(frame);
+      window.clearTimeout(lateFrame);
+    };
   }, [expandedId]);
 
   return (
