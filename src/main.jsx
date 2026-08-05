@@ -1067,6 +1067,24 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Andrew McDonald",
+    aliases: ["Andrew McDonald", "Andrew Barry McDonald", "Andrew McDonald coach", "Ronnie McDonald", "安德鲁·麦克唐纳", "安德魯·麥克唐納", "アンドリュー・マクドナルド", "앤드루 맥도널드"],
+    type: "cricket coach",
+    profile: { label: "Cricket Australia coaching profile", url: "https://www.cricket.com.au/high-performance/coaching" },
+    officialProfile: { label: "ESPNcricinfo profile", url: "https://www.espncricinfo.com/cricketers/andrew-mcdonald-6553" },
+    background: {
+      "zh-Hans": "澳大利亚男子板球队主教练，2022 年正式上任；球员时代是维州出身的全能型板球运动员，退役后曾执教 Leicestershire、Victoria、Melbourne Renegades 和 Rajasthan Royals。",
+      "zh-Hant": "澳洲男子板球隊主教練，2022 年正式上任；球員時代是維州出身的全能型板球運動員，退役後曾執教 Leicestershire、Victoria、Melbourne Renegades 和 Rajasthan Royals。",
+      en: "Head coach of the Australian men's cricket team since 2022; a former Victorian all-rounder who later coached Leicestershire, Victoria, Melbourne Renegades and Rajasthan Royals.",
+      es: "Seleccionador del equipo masculino de críquet de Australia desde 2022; ex all-rounder de Victoria que después entrenó a Leicestershire, Victoria, Melbourne Renegades y Rajasthan Royals.",
+      ja: "2022年から豪州男子クリケット代表のヘッドコーチ。現役時代はビクトリア州出身のオールラウンダーで、引退後は Leicestershire、Victoria、Melbourne Renegades、Rajasthan Royals を率いました。",
+      ko: "2022년부터 호주 남자 크리켓 대표팀 감독을 맡고 있습니다. 빅토리아 출신 올라운더 선수였고 은퇴 후 Leicestershire, Victoria, Melbourne Renegades, Rajasthan Royals를 지도했습니다.",
+      vi: "Huấn luyện viên trưởng đội cricket nam Australia từ năm 2022; cựu all-rounder của Victoria, sau đó huấn luyện Leicestershire, Victoria, Melbourne Renegades và Rajasthan Royals.",
+      th: "หัวหน้าโค้ชทีมคริกเก็ตชายออสเตรเลียตั้งแต่ปี 2022; อดีตผู้เล่น all-rounder จากวิกตอเรีย และเคยคุม Leicestershire, Victoria, Melbourne Renegades และ Rajasthan Royals",
+      si: "2022 සිට Australian men's cricket team හි head coach වේ; හිටපු Victorian all-rounder කෙනෙක් වන අතර පසුව Leicestershire, Victoria, Melbourne Renegades සහ Rajasthan Royals පුහුණු කළේය."
+    }
+  },
+  {
     name: "Donald Trump",
     aliases: ["Donald Trump", "Donald J. Trump", "Donald John Trump", "President Donald Trump", "唐纳德·特朗普", "唐納德·特朗普", "ドナルド・トランプ", "도널드 트럼프"],
     type: "politician",
