@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T13:13:12.762Z",
+  "updatedAt": "2026-08-05T13:20:00.000Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -105,6 +105,21 @@
     "Sky News Australia and Yahoo News Australia still did not expose stable current-week Australia listings."
   ],
   "clusters": [
+    {
+      "id": "missing-people-support-20260805",
+      "headline": "長期行方不明案件は家族への支援不足を浮き彫りにする",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T12:08:00.000Z",
+      "voiceScript": "Cathy Wood さんは10年以上にわたり父親の失踪の答えを探し続けており、この事例は長期の行方不明案件では家族が十分な支援を受けにくいことを示している。Richard Wood さんの船は Moreton Bay で見つかったが本人は見つからず、警察は8日後に捜索を打ち切った。より広い問題は、解決されない喪失を抱えるオーストラリア人が何千人もいて、カウンセリングや事件後の支援の空白が何年も続き得ることだ。次に注目されるのは、州政府と連邦政府がこの状況にある家族への支援を増やすかどうかだ。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/families-of-missing-people-face-uncertainty-and-limited-support/106999830"
+        }
+      ],
+      "language": "ja"
+    },
     {
       "id": "remote-indigenous-designers-win-darwin-fashion-awards-20260805",
       "language": "ja",
@@ -389,6 +404,27 @@
       }
     },
     {
+      "id": "tony-modra-records-probe-20260805",
+      "headline": "Tony Modraの診療記録調査、対象は9人に拡大",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T08:19:00.000Z",
+      "voiceScript": "SA Health は、Tony Modra氏の医療記録を不適切に閲覧した疑いを受け、調査対象が9人目の職員にまで広がったと発表した。モドラ氏はトラック事故の後に治療を受けており、この件は個人のプライバシー侵害を超えて、医療制度全体への信頼問題になっている。監査で不正アクセスが見つかったとされ、懲戒処分の可能性も残っている。今後は調査の結果と、記録管理がより厳しくなるかが焦点だ。",
+      "differences": [
+        "一方は現在の監査人数と直近のプライバシー侵害を中心に報じ、もう一方は過去の「のぞき見」文化と懲戒の可能性まで含めている。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/sa-health-investigating-staffer-tony-modra-patient-records/107001120"
+        },
+        {
+          "source": "AdelaideNow",
+          "url": "https://www.adelaidenow.com.au/health/tony-modra-medical-records-probe-widens-as-more-sa-health-staff-investigated/news-story/b2b70e279b20cb995f2063b28c084f89"
+        }
+      ],
+      "language": "ja"
+    },
+    {
       "id": "canberra-renewable-rule-ai-data-centres-20260805",
       "headline": "キャンベラが人工知能データセンター向けの再エネ基準を準備",
       "sourceCount": 3,
@@ -468,6 +504,74 @@
           "title": "NSW's anti-corruption watchdog examines alleged Liberal Party branch takeover",
           "url": "https://www.facebook.com/61590420367501/posts/nsws-anti-corruption-watchdog-is-examining-allegations-surrounding-a-reported-li/122125403871347345/",
           "score": 12
+        }
+      ]
+    },
+    {
+      "id": "gambling-inducements-denied-20260804",
+      "language": "ja",
+      "headline": "賭け会社、薬物や接待提供の疑いを否定",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-05T07:50:14.000Z",
+      "voiceScript": "上院の賭博改革審査では、一部の賭け会社が高額客を引き留めるために薬物、酒、接待を提供したとの主張が取り上げられた。Sportsbet と Tabcorp はその疑惑を退け、証拠があるなら当局に回すべきだとした。重要なのは、この問題が政府の賭博広告改革に直結しており、現行案で誘導的な特典や子ども向け広告を抑えられるのかが問われていることだ。審査は8月17日に報告予定で、今後は規制強化や正式な捜査に進むかが焦点になる。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-04/sportsbet-tab-gambling-reform-luke-bateman-inducements/106994616"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/04/sportsbet-tabcorp-gambling-parliamentary-inquiry-ntwnfb"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/betting-companies-set-to-defend-inducement-practices"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/05/labors-gambling-reform-friendless-as-coalition-withholds-support-amid-drug-and-sex-worker-allegations"
+        }
+      ],
+      "socialDiscussions": [
+        {
+          "platform": "Reddit",
+          "community": "r/australia",
+          "title": "Ex-NRL player reveals betting companies offered to arrange illegal drugs",
+          "url": "https://www.reddit.com/r/australia/comments/1ve1qsl/exnrl_player_reveals_betting_companies_offered_to/",
+          "postedAt": "2026-08-04",
+          "comments": 78,
+          "upvotes": 582,
+          "score": 816
+        },
+        {
+          "platform": "Reddit",
+          "community": "r/AusNewsWire",
+          "title": "Luke Bateman gambling Senate inquiry: former NRL player says bookmakers offered drugs and alcohol",
+          "url": "https://www.reddit.com/r/AusNewsWire/comments/1veoz26/luke_bateman_gambling_senate_inquiry_former_nrl/",
+          "postedAt": "2026-08-04",
+          "score": 30
+        },
+        {
+          "platform": "Facebook",
+          "account": "Zoe Daniel",
+          "title": "Congratulations to Luke Bateman for speaking at the Senate inquiry about gambling inducements",
+          "url": "https://www.facebook.com/ZoeDanielForGoldstein/posts/congratulations-to-luke-bateman-a-spectacular-effort-to-be-so-brave-in-front-of-/1410837307530160/",
+          "score": 24
+        },
+        {
+          "platform": "Facebook",
+          "account": "Australian Financial Review",
+          "title": "Luke Bateman alleged representatives from big-name bookmakers supplied him with drugs",
+          "url": "https://www.facebook.com/financialreview/posts/at-a-senate-inquiry-former-nrl-player-luke-bateman-alleged-that-representatives-/1464687192359060/",
+          "score": 20
+        },
+        {
+          "platform": "Facebook",
+          "account": "7NEWS Perth",
+          "title": "Former NRL star Luke Bateman alleges he was offered drugs and alcohol by gambling companies",
+          "url": "https://www.facebook.com/7NEWSPerth/posts/former-nrl-star-luke-bateman-has-alleged-he-was-offered-drugs-and-alcohol-by-gam/1470757855088290/",
+          "score": 18
         }
       ]
     },
@@ -555,70 +659,17 @@
       }
     },
     {
-      "id": "gambling-inducements-denied-20260804",
+      "id": "gold-coast-pub-assault-bail-20260805",
       "language": "ja",
-      "headline": "賭け会社、薬物や接待提供の疑いを否定",
-      "sourceCount": 3,
-      "publishedAt": "2026-08-05T07:50:14.000Z",
-      "voiceScript": "上院の賭博改革審査では、一部の賭け会社が高額客を引き留めるために薬物、酒、接待を提供したとの主張が取り上げられた。Sportsbet と Tabcorp はその疑惑を退け、証拠があるなら当局に回すべきだとした。重要なのは、この問題が政府の賭博広告改革に直結しており、現行案で誘導的な特典や子ども向け広告を抑えられるのかが問われていることだ。審査は8月17日に報告予定で、今後は規制強化や正式な捜査に進むかが焦点になる。",
+      "headline": "ゴールドコーストのパブ暴行事件で被害者が昏睡状態に",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T07:38:29.000Z",
+      "voiceScript": "警察によると、コムーラのパブ外でロス・バークハート氏が殴られ、昏睡状態に陥った。裁判所は被告の保釈を認めなかった。とされる暴行は酒場の駐車場で起き、容疑者は配車サービスで立ち去ったあとに逮捕された。家族が答えを待ち続けるクイーンズランド州の重大暴力事件であることが重要だ。次は、法廷手続きと、口論がどう始まったのかの立証だ。",
       "differences": [],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/sportsbet-tab-gambling-reform-luke-bateman-inducements/106994616"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/04/sportsbet-tabcorp-gambling-parliamentary-inquiry-ntwnfb"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/betting-companies-set-to-defend-inducement-practices"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/05/labors-gambling-reform-friendless-as-coalition-withholds-support-amid-drug-and-sex-worker-allegations"
-        }
-      ],
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/australia",
-          "title": "Ex-NRL player reveals betting companies offered to arrange illegal drugs",
-          "url": "https://www.reddit.com/r/australia/comments/1ve1qsl/exnrl_player_reveals_betting_companies_offered_to/",
-          "postedAt": "2026-08-04",
-          "comments": 78,
-          "upvotes": 582,
-          "score": 816
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/AusNewsWire",
-          "title": "Luke Bateman gambling Senate inquiry: former NRL player says bookmakers offered drugs and alcohol",
-          "url": "https://www.reddit.com/r/AusNewsWire/comments/1veoz26/luke_bateman_gambling_senate_inquiry_former_nrl/",
-          "postedAt": "2026-08-04",
-          "score": 30
-        },
-        {
-          "platform": "Facebook",
-          "account": "Zoe Daniel",
-          "title": "Congratulations to Luke Bateman for speaking at the Senate inquiry about gambling inducements",
-          "url": "https://www.facebook.com/ZoeDanielForGoldstein/posts/congratulations-to-luke-bateman-a-spectacular-effort-to-be-so-brave-in-front-of-/1410837307530160/",
-          "score": 24
-        },
-        {
-          "platform": "Facebook",
-          "account": "Australian Financial Review",
-          "title": "Luke Bateman alleged representatives from big-name bookmakers supplied him with drugs",
-          "url": "https://www.facebook.com/financialreview/posts/at-a-senate-inquiry-former-nrl-player-luke-bateman-alleged-that-representatives-/1464687192359060/",
-          "score": 20
-        },
-        {
-          "platform": "Facebook",
-          "account": "7NEWS Perth",
-          "title": "Former NRL star Luke Bateman alleges he was offered drugs and alcohol by gambling companies",
-          "url": "https://www.facebook.com/7NEWSPerth/posts/former-nrl-star-luke-bateman-has-alleged-he-was-offered-drugs-and-alcohol-by-gam/1470757855088290/",
-          "score": 18
+          "url": "https://www.abc.net.au/news/2026-08-05/gold-coast-man-refused-bail-over-alleged-pub-assault/106995552"
         }
       ]
     },
@@ -638,19 +689,19 @@
       ]
     },
     {
-      "id": "gold-coast-pub-assault-bail-20260805",
-      "language": "ja",
-      "headline": "ゴールドコーストのパブ暴行事件で被害者が昏睡状態に",
+      "id": "gold-coast-pub-assault-20260805",
+      "headline": "ゴールドコーストの酒場襲撃で男性が重体",
       "sourceCount": 1,
-      "publishedAt": "2026-08-05T07:38:29.000Z",
-      "voiceScript": "警察によると、コムーラのパブ外でロス・バークハート氏が殴られ、昏睡状態に陥った。裁判所は被告の保釈を認めなかった。とされる暴行は酒場の駐車場で起き、容疑者は配車サービスで立ち去ったあとに逮捕された。家族が答えを待ち続けるクイーンズランド州の重大暴力事件であることが重要だ。次は、法廷手続きと、口論がどう始まったのかの立証だ。",
+      "publishedAt": "2026-08-05T07:38:00.000Z",
+      "voiceScript": "ゴールドコーストで起きた酒場での暴行事件で、男性1人が重体のままで、裁判所は被告の保釈を認めなかった。警察によると、Coomera Boathouse Tavern での出来事で被害者は昏睡状態となり、この事件は刑事事件であると同時に重大な治安問題になっている。負傷の深刻さは今後の裁判手続きや追加起訴の有無にも影響する。今は、被告がより広い暴力事件に関わっているかが焦点だ。",
       "differences": [],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-05/gold-coast-man-refused-bail-over-alleged-pub-assault/106995552"
         }
-      ]
+      ],
+      "language": "ja"
     },
     {
       "id": "luke-gosling-dpp-assault-prosecution-20260805",
@@ -714,6 +765,27 @@
       }
     },
     {
+      "id": "luke-gosling-assault-prosecution-20260805",
+      "headline": "Luke Gosling事件は連邦検察へ",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T07:34:00.000Z",
+      "voiceScript": "連邦労働党のLuke Gosling議員に対する暴行容疑は、利益相反を避けるため Commonwealth Director of Public Prosecutions が扱うことになる。現職議員が再び圧力を受ける中、裁判手続きは続いており、職務を一時的に離れるべきだという声も上がっている。法的な焦点は明快で、起訴がどう進むか、そして次回の審理までに政治的な余波がさらに広がるかどうかだ。",
+      "differences": [
+        "一方は連邦検察への移管と利益相反回避を中心に報じ、もう一方は逮捕、保釈条件、首相への職務停止要求をより詳しく扱っている。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/mp-luke-gosling-assault-charges-commonwealth-dpp-to-prosecute/107001040"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/politics/labor-mp-luke-gosling-charged-over-alleged-assault-on-territory-administrator/news-story/fbc4478164851da97cf188a2b5526524"
+        }
+      ],
+      "language": "ja"
+    },
+    {
       "id": "charlie-shahin-sheep-station-sale-20260805",
       "language": "ja",
       "headline": "チャーリー・シャヒン氏が南オーストラリア州の巨大な羊牧地を取得",
@@ -763,6 +835,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "sheep-station-sale-south-australia-20260805",
+      "headline": "南オーストラリアの巨大羊牧場が売却",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T07:25:00.000Z",
+      "voiceScript": "オーストラリアでも最大級の連続した羊牧場の一つである Commonwealth Hill が、Jumbuck Pastoral からアデレードの実業家 Charlie Shahin 氏に売却された。広大な南オーストラリア内陸部の土地が個人の手に移ることで、大規模牧畜地の価値がいまなお高いことを示している。敷地は約130万ヘクタールに及び、規模、水、物流がその価値を左右する。今後は、新しい所有者が土地をどう活用するか、また取引が地元雇用や生産にどう影響するかが注目される。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/australias-largest-contiguous-sheep-station-sold-to-adelaide-businessman/107001580"
+        }
+      ],
+      "language": "ja"
     },
     {
       "id": "australia-defence-tech-roadmap-20260805",
@@ -1074,6 +1161,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "hallett-cove-fatal-crash-20260805",
+      "headline": "アデレード南部の事故で女性1人死亡、1人重体",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T06:00:00.000Z",
+      "voiceScript": "火曜の夜遅く、アデレード南部で起きた深刻な交通事故で、若い女性1人が死亡し、もう1人の同乗者が重体となっている。警察によると、事故には2台の車が関わり、1台は真っ二つに裂けたという。これは、見慣れた危険地点でも深刻な死傷事故が続いていることを示している。現在、責任の所在や速度、視界不良の有無が調べられている。",
+      "differences": [],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/incidents/young-woman-killed-second-fights-for-life-after-horror-crash-in-coastal-adelaide-suburb/news-story/b06cb6ba138aa863aafacedb7bd244dc"
+        }
+      ],
+      "language": "ja"
     },
     {
       "id": "dry-july-great-southern-farms-20260805",
@@ -1599,6 +1701,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "queensland-counterfeit-cash-20260805",
+      "headline": "クイーンズランドで200万豪ドル超の偽札を押収",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T01:40:00.000Z",
+      "voiceScript": "Australian Border Force は、クイーンズランド州で200万豪ドル超の偽通貨を押収したと発表した。単一の輸入者に関わる州内最大規模の偽札摘発だという。偽札は見分けがつきにくくなっており、航空貨物や郵便を通じて豪州に入ってくるケースも増えている。今回はアジアから届いた貨物が流通前に止められた。今後は鑑識と、より大きな供給網の解明が焦点だ。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/2-million-fake-cash-seizure-20260805-p60lqo.html"
+        }
+      ],
+      "language": "ja"
     },
     {
       "id": "emma-lovell-high-court-sentence-20260805",
@@ -3790,6 +3907,21 @@
       ]
     },
     {
+      "id": "canva-ai-revenue-reset-20260803",
+      "language": "ja",
+      "headline": "Canva の AI 支出により、まれな収益リセットを余儀なくされる",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-03T19:00:00.000Z",
+      "voiceScript": "Canva は、AI への移行には予想以上の費用がかかり、その結果収益目標を引き下げたと述べている。同社はオーストラリア最大のテクノロジー企業の1つであり、その支出の選択が採用、製品のタイミング、投資家の信頼に影響を与えるため、これは重要だ。現在の重要な問題は、Canvaが成長をあまりにも長く減速させることなく高額な請求を吸収できるかどうかだ。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/technology/canva-s-ai-bill-shock-causes-rare-revenue-downgrade-20260803-p60kzm"
+        }
+      ]
+    },
+    {
       "id": "qantas-outsourcing-accenture-20260803",
       "language": "ja",
       "headline": "カンタス航空はアクセンチュアとバックオフィスの大規模なシフトを検討中",
@@ -3850,21 +3982,6 @@
           "title": "Qantas eyes major outsourcing move with Accenture-backed AI deal",
           "url": "https://www.facebook.com/financialreview/posts/the-airline-has-been-in-discussions-with-the-consulting-giant-over-a-plan-to-out/1465562095604903/",
           "score": 12
-        }
-      ]
-    },
-    {
-      "id": "canva-ai-revenue-reset-20260803",
-      "language": "ja",
-      "headline": "Canva の AI 支出により、まれな収益リセットを余儀なくされる",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T19:00:00.000Z",
-      "voiceScript": "Canva は、AI への移行には予想以上の費用がかかり、その結果収益目標を引き下げたと述べている。同社はオーストラリア最大のテクノロジー企業の1つであり、その支出の選択が採用、製品のタイミング、投資家の信頼に影響を与えるため、これは重要だ。現在の重要な問題は、Canvaが成長をあまりにも長く減速させることなく高額な請求を吸収できるかどうかだ。",
-      "differences": [],
-      "links": [
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/technology/canva-s-ai-bill-shock-causes-rare-revenue-downgrade-20260803-p60kzm"
         }
       ]
     },

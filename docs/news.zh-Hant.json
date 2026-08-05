@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T13:13:12.762Z",
+  "updatedAt": "2026-08-05T13:20:00.000Z",
   "generatedBy": "codex",
   "language": "zh-Hant",
   "sources": [
@@ -105,6 +105,21 @@
     "Sky News Australia and Yahoo News Australia still did not expose stable current-week Australia listings."
   ],
   "clusters": [
+    {
+      "id": "missing-people-support-20260805",
+      "headline": "長期失蹤案件讓家屬長期缺乏支援",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T12:08:00.000Z",
+      "voiceScript": "十多年來，Cathy Wood 一直在尋找父親失蹤的答案，這起個案說明，長期失蹤案件往往會讓家屬得不到足夠的正式支援。Richard Wood 的船後來被發現停泊在 Moreton Bay，但人卻不見蹤影，警方在搜尋八天後叫停行動。更大的問題在於，成千上萬的澳洲人都在承受沒有結論的失落，而心理輔導和案件跟進的缺口可能持續很多年。接下來要看，各州和聯邦是否會為這種處境中的家庭提供更多支援。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/families-of-missing-people-face-uncertainty-and-limited-support/106999830"
+        }
+      ],
+      "language": "zh-Hant"
+    },
     {
       "id": "remote-indigenous-designers-win-darwin-fashion-awards-20260805",
       "language": "zh-Hant",
@@ -389,6 +404,27 @@
       }
     },
     {
+      "id": "tony-modra-records-probe-20260805",
+      "headline": "南澳衛生部門把 Tony Modra 病歷調查擴大到九名員工",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T08:19:00.000Z",
+      "voiceScript": "南澳衛生部門表示，在有人不當查看 Tony Modra 的醫療紀錄後，又有第九名員工被列入調查範圍。Modra 在卡車事故後住院治療，這起事件說明，隱私失誤很容易從一個人擴散成整個醫療系統的信任危機。部門表示，審計已經發現這些存取行為，相關處分仍有可能啟動。接下來要看調查結果，以及衛生部門是否會收緊紀錄權限。",
+      "differences": [
+        "一篇報導著重於當前審計人數和直接的隱私違規；另一篇補充了更完整的「偷看病歷」背景和可能的處分後果。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/sa-health-investigating-staffer-tony-modra-patient-records/107001120"
+        },
+        {
+          "source": "AdelaideNow",
+          "url": "https://www.adelaidenow.com.au/health/tony-modra-medical-records-probe-widens-as-more-sa-health-staff-investigated/news-story/b2b70e279b20cb995f2063b28c084f89"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
       "id": "canberra-renewable-rule-ai-data-centres-20260805",
       "headline": "坎培拉準備為人工智慧資料中心設定可再生能源規則",
       "sourceCount": 3,
@@ -468,6 +504,74 @@
           "title": "NSW's anti-corruption watchdog examines alleged Liberal Party branch takeover",
           "url": "https://www.facebook.com/61590420367501/posts/nsws-anti-corruption-watchdog-is-examining-allegations-surrounding-a-reported-li/122125403871347345/",
           "score": 12
+        }
+      ]
+    },
+    {
+      "id": "gambling-inducements-denied-20260804",
+      "language": "zh-Hant",
+      "headline": "博彩公司否認用毒品和陪侍誘導下注",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-05T07:50:14.000Z",
+      "voiceScript": "參議院對博彩改革的審查聽到指控稱，一些博彩公司曾提供毒品、酒精和陪侍服務，以留住高價值客戶繼續下注。Sportsbet 和 Tabcorp 否認了這些說法，並表示如果有證據，應該交給執法部門。這件事之所以重要，是因為它直接關係到政府正在推動的博彩廣告改革，而議員們也在權衡現行法案是否足以遏制誘導獎勵和面向兒童的廣告。調查定於 8 月 17 日提交報告，接下來要看聽證會是否會推動更嚴格的規則或正式調查。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-04/sportsbet-tab-gambling-reform-luke-bateman-inducements/106994616"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/04/sportsbet-tabcorp-gambling-parliamentary-inquiry-ntwnfb"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/betting-companies-set-to-defend-inducement-practices"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/05/labors-gambling-reform-friendless-as-coalition-withholds-support-amid-drug-and-sex-worker-allegations"
+        }
+      ],
+      "socialDiscussions": [
+        {
+          "platform": "Reddit",
+          "community": "r/australia",
+          "title": "Ex-NRL player reveals betting companies offered to arrange illegal drugs",
+          "url": "https://www.reddit.com/r/australia/comments/1ve1qsl/exnrl_player_reveals_betting_companies_offered_to/",
+          "postedAt": "2026-08-04",
+          "comments": 78,
+          "upvotes": 582,
+          "score": 816
+        },
+        {
+          "platform": "Reddit",
+          "community": "r/AusNewsWire",
+          "title": "Luke Bateman gambling Senate inquiry: former NRL player says bookmakers offered drugs and alcohol",
+          "url": "https://www.reddit.com/r/AusNewsWire/comments/1veoz26/luke_bateman_gambling_senate_inquiry_former_nrl/",
+          "postedAt": "2026-08-04",
+          "score": 30
+        },
+        {
+          "platform": "Facebook",
+          "account": "Zoe Daniel",
+          "title": "Congratulations to Luke Bateman for speaking at the Senate inquiry about gambling inducements",
+          "url": "https://www.facebook.com/ZoeDanielForGoldstein/posts/congratulations-to-luke-bateman-a-spectacular-effort-to-be-so-brave-in-front-of-/1410837307530160/",
+          "score": 24
+        },
+        {
+          "platform": "Facebook",
+          "account": "Australian Financial Review",
+          "title": "Luke Bateman alleged representatives from big-name bookmakers supplied him with drugs",
+          "url": "https://www.facebook.com/financialreview/posts/at-a-senate-inquiry-former-nrl-player-luke-bateman-alleged-that-representatives-/1464687192359060/",
+          "score": 20
+        },
+        {
+          "platform": "Facebook",
+          "account": "7NEWS Perth",
+          "title": "Former NRL star Luke Bateman alleges he was offered drugs and alcohol by gambling companies",
+          "url": "https://www.facebook.com/7NEWSPerth/posts/former-nrl-star-luke-bateman-has-alleged-he-was-offered-drugs-and-alcohol-by-gam/1470757855088290/",
+          "score": 18
         }
       ]
     },
@@ -565,70 +669,17 @@
       }
     },
     {
-      "id": "gambling-inducements-denied-20260804",
+      "id": "gold-coast-pub-assault-bail-20260805",
       "language": "zh-Hant",
-      "headline": "博彩公司否認用毒品和陪侍誘導下注",
-      "sourceCount": 3,
-      "publishedAt": "2026-08-05T07:50:14.000Z",
-      "voiceScript": "參議院對博彩改革的審查聽到指控稱，一些博彩公司曾提供毒品、酒精和陪侍服務，以留住高價值客戶繼續下注。Sportsbet 和 Tabcorp 否認了這些說法，並表示如果有證據，應該交給執法部門。這件事之所以重要，是因為它直接關係到政府正在推動的博彩廣告改革，而議員們也在權衡現行法案是否足以遏制誘導獎勵和面向兒童的廣告。調查定於 8 月 17 日提交報告，接下來要看聽證會是否會推動更嚴格的規則或正式調查。",
+      "headline": "黃金海岸酒吧襲擊案讓一名受害者陷入昏迷",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T07:38:29.000Z",
+      "voiceScript": "警方稱，一名男子在科莫拉一家酒吧外擊中了羅斯·伯克哈特，導致他陷入誘導昏迷，法官已拒絕保釋被告。據稱，襲擊發生在酒吧停車場，調查人員說嫌疑人隨後搭網約車離開，之後才被捕。此案重要，因為又一起昆士蘭嚴重暴力案件讓一個家庭只能等待答案。接下來要看法庭程序以及衝突最初是如何發生的。",
       "differences": [],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/sportsbet-tab-gambling-reform-luke-bateman-inducements/106994616"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/04/sportsbet-tabcorp-gambling-parliamentary-inquiry-ntwnfb"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/betting-companies-set-to-defend-inducement-practices"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/05/labors-gambling-reform-friendless-as-coalition-withholds-support-amid-drug-and-sex-worker-allegations"
-        }
-      ],
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/australia",
-          "title": "Ex-NRL player reveals betting companies offered to arrange illegal drugs",
-          "url": "https://www.reddit.com/r/australia/comments/1ve1qsl/exnrl_player_reveals_betting_companies_offered_to/",
-          "postedAt": "2026-08-04",
-          "comments": 78,
-          "upvotes": 582,
-          "score": 816
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/AusNewsWire",
-          "title": "Luke Bateman gambling Senate inquiry: former NRL player says bookmakers offered drugs and alcohol",
-          "url": "https://www.reddit.com/r/AusNewsWire/comments/1veoz26/luke_bateman_gambling_senate_inquiry_former_nrl/",
-          "postedAt": "2026-08-04",
-          "score": 30
-        },
-        {
-          "platform": "Facebook",
-          "account": "Zoe Daniel",
-          "title": "Congratulations to Luke Bateman for speaking at the Senate inquiry about gambling inducements",
-          "url": "https://www.facebook.com/ZoeDanielForGoldstein/posts/congratulations-to-luke-bateman-a-spectacular-effort-to-be-so-brave-in-front-of-/1410837307530160/",
-          "score": 24
-        },
-        {
-          "platform": "Facebook",
-          "account": "Australian Financial Review",
-          "title": "Luke Bateman alleged representatives from big-name bookmakers supplied him with drugs",
-          "url": "https://www.facebook.com/financialreview/posts/at-a-senate-inquiry-former-nrl-player-luke-bateman-alleged-that-representatives-/1464687192359060/",
-          "score": 20
-        },
-        {
-          "platform": "Facebook",
-          "account": "7NEWS Perth",
-          "title": "Former NRL star Luke Bateman alleges he was offered drugs and alcohol by gambling companies",
-          "url": "https://www.facebook.com/7NEWSPerth/posts/former-nrl-star-luke-bateman-has-alleged-he-was-offered-drugs-and-alcohol-by-gam/1470757855088290/",
-          "score": 18
+          "url": "https://www.abc.net.au/news/2026-08-05/gold-coast-man-refused-bail-over-alleged-pub-assault/106995552"
         }
       ]
     },
@@ -648,19 +699,19 @@
       ]
     },
     {
-      "id": "gold-coast-pub-assault-bail-20260805",
-      "language": "zh-Hant",
-      "headline": "黃金海岸酒吧襲擊案讓一名受害者陷入昏迷",
+      "id": "gold-coast-pub-assault-20260805",
+      "headline": "黃金海岸酒吧襲擊案致一人重傷",
       "sourceCount": 1,
-      "publishedAt": "2026-08-05T07:38:29.000Z",
-      "voiceScript": "警方稱，一名男子在科莫拉一家酒吧外擊中了羅斯·伯克哈特，導致他陷入誘導昏迷，法官已拒絕保釋被告。據稱，襲擊發生在酒吧停車場，調查人員說嫌疑人隨後搭網約車離開，之後才被捕。此案重要，因為又一起昆士蘭嚴重暴力案件讓一個家庭只能等待答案。接下來要看法庭程序以及衝突最初是如何發生的。",
+      "publishedAt": "2026-08-05T07:38:00.000Z",
+      "voiceScript": "黃金海岸一名男子在疑似酒吧襲擊後仍然生命垂危，法院在案件審理期間拒絕了被告的保釋申請。警方說，發生在 Coomera Boathouse Tavern 的事件使受害者陷入昏迷，因此這已經不只是刑事案件，也成為嚴重的公共安全事件。傷勢有多重，將直接影響法庭程序和後續是否追加指控。眼下最關鍵的問題，是被告是否涉及更廣泛的暴力行為。",
       "differences": [],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-05/gold-coast-man-refused-bail-over-alleged-pub-assault/106995552"
         }
-      ]
+      ],
+      "language": "zh-Hant"
     },
     {
       "id": "luke-gosling-dpp-assault-prosecution-20260805",
@@ -724,6 +775,27 @@
       }
     },
     {
+      "id": "luke-gosling-assault-prosecution-20260805",
+      "headline": "Luke Gosling 案件移交聯邦檢察官",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T07:34:00.000Z",
+      "voiceScript": "聯邦工黨議員 Luke Gosling 的襲擊指控，將由澳洲聯邦公訴署接手處理，避免北領地體系內出現利益衝突。這個案件之所以重要，是因為一名在任議員正再次承受壓力，而法院程序還在繼續，相關指控已經引發要求他暫時退出公職的呼聲。現在的法律焦點很直接：檢方如何推進，政治風波會不會在下一次開庭前繼續擴大。",
+      "differences": [
+        "一篇報導聚焦聯邦檢方接手與利益衝突問題；另一篇更詳細交代了逮捕、保釋條件，以及要求總理讓他暫時停職的政治壓力。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/mp-luke-gosling-assault-charges-commonwealth-dpp-to-prosecute/107001040"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/politics/labor-mp-luke-gosling-charged-over-alleged-assault-on-territory-administrator/news-story/fbc4478164851da97cf188a2b5526524"
+        }
+      ],
+      "language": "zh-Hant"
+    },
+    {
       "id": "charlie-shahin-sheep-station-sale-20260805",
       "language": "zh-Hant",
       "headline": "Charlie Shahin 買下南澳一大片羊牧場組合",
@@ -773,6 +845,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "sheep-station-sale-south-australia-20260805",
+      "headline": "南澳大型綿羊站完成易手",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T07:25:00.000Z",
+      "voiceScript": "澳洲一座最大的連續綿羊牧場完成出售，Jumbuck Pastoral 將 Commonwealth Hill 賣給了阿德萊德商人 Charlie Shahin。這筆交易之所以重要，是因為它把南澳內陸一大片土地集中到私人手中，也說明大型牧業土地的價值依然很高。該牧場面積接近 130 萬公頃，所在地區的規模、用水和物流條件都決定了它的商業價值。接下來要看，新東家會如何使用這片土地，以及交易是否會影響當地就業和生產。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/australias-largest-contiguous-sheep-station-sold-to-adelaide-businessman/107001580"
+        }
+      ],
+      "language": "zh-Hant"
     },
     {
       "id": "australia-defence-tech-roadmap-20260805",
@@ -1084,6 +1171,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "hallett-cove-fatal-crash-20260805",
+      "headline": "阿德萊德車禍致一名女子死亡、另一人危重",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T06:00:00.000Z",
+      "voiceScript": "週二深夜，阿德萊德南部發生嚴重車禍，一名年輕女子當場死亡，另一名乘客傷勢危重。警方說，事故涉及兩輛車，其中一輛被撞成兩半，也讓南澳的道路死亡人數再添一例。這個事件重要在於，即便是熟悉的黑點路段，依然會不斷造成嚴重傷亡。調查人員仍在釐清責任，以及是否存在超速或視線不佳等因素。",
+      "differences": [],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/incidents/young-woman-killed-second-fights-for-life-after-horror-crash-in-coastal-adelaide-suburb/news-story/b06cb6ba138aa863aafacedb7bd244dc"
+        }
+      ],
+      "language": "zh-Hant"
     },
     {
       "id": "dry-july-great-southern-farms-20260805",
@@ -1609,6 +1711,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "queensland-counterfeit-cash-20260805",
+      "headline": "昆州邊檢截獲 200 萬澳元假鈔",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T01:40:00.000Z",
+      "voiceScript": "澳洲邊防局說，他們在昆州查獲了超過 200 萬澳元的假幣，這是該州針對單一進口者的最大一宗假鈔案。這個結果重要，因為假鈔越來越難辨認，而且越來越多是透過空運貨運和郵遞渠道進入澳洲。官方說，這批貨物來自亞洲，已在進入流通前被截獲。下一步是法證分析，以及調查人員能否追查更大的供應鏈。",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/2-million-fake-cash-seizure-20260805-p60lqo.html"
+        }
+      ],
+      "language": "zh-Hant"
     },
     {
       "id": "emma-lovell-high-court-sentence-20260805",
@@ -3800,6 +3917,21 @@
       ]
     },
     {
+      "id": "canva-ai-revenue-reset-20260803",
+      "language": "zh-Hant",
+      "headline": "Canva 的人工智慧支出迫使收入罕見地重置",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-03T19:00:00.000Z",
+      "voiceScript": "Canva 表示，向人工智慧的轉變成本超出預期，因此削減了收入目標。這很重要，因為該公司是澳洲最大的科技公司之一，其支出選擇會影響招募、產品時機和投資者信心。现在的关键问题是 Canva 能否在不长期减缓增长的情况下吸收更高的费用。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/technology/canva-s-ai-bill-shock-causes-rare-revenue-downgrade-20260803-p60kzm"
+        }
+      ]
+    },
+    {
       "id": "qantas-outsourcing-accenture-20260803",
       "language": "zh-Hant",
       "headline": "澳洲航空正在考慮與埃森哲進行重大的後台轉移",
@@ -3860,21 +3992,6 @@
           "title": "Qantas eyes major outsourcing move with Accenture-backed AI deal",
           "url": "https://www.facebook.com/financialreview/posts/the-airline-has-been-in-discussions-with-the-consulting-giant-over-a-plan-to-out/1465562095604903/",
           "score": 12
-        }
-      ]
-    },
-    {
-      "id": "canva-ai-revenue-reset-20260803",
-      "language": "zh-Hant",
-      "headline": "Canva 的人工智慧支出迫使收入罕見地重置",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T19:00:00.000Z",
-      "voiceScript": "Canva 表示，向人工智慧的轉變成本超出預期，因此削減了收入目標。這很重要，因為該公司是澳洲最大的科技公司之一，其支出選擇會影響招募、產品時機和投資者信心。现在的关键问题是 Canva 能否在不长期减缓增长的情况下吸收更高的费用。",
-      "differences": [],
-      "links": [
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/technology/canva-s-ai-bill-shock-causes-rare-revenue-downgrade-20260803-p60kzm"
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T13:13:12.762Z",
+  "updatedAt": "2026-08-05T13:20:00.000Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -105,6 +105,21 @@
     "Sky News Australia and Yahoo News Australia still did not expose stable current-week Australia listings."
   ],
   "clusters": [
+    {
+      "id": "missing-people-support-20260805",
+      "headline": "Long-term missing-person cases leave families without support",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T12:08:00.000Z",
+      "voiceScript": "For more than a decade, Cathy Wood has searched for answers about her father's disappearance, and her case shows how long-term missing-person cases can leave families with little formal support. Richard Wood vanished after his boat was found moored in Moreton Bay, and police called off the search after eight days. The wider issue matters because thousands of Australians are living with unresolved losses and the gap in counselling and case follow-up can stretch on for years. The next question is whether states and the Commonwealth expand support for families caught in that limbo.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/families-of-missing-people-face-uncertainty-and-limited-support/106999830"
+        }
+      ],
+      "language": "en"
+    },
     {
       "id": "remote-indigenous-designers-win-darwin-fashion-awards-20260805",
       "language": "en",
@@ -389,6 +404,27 @@
       }
     },
     {
+      "id": "tony-modra-records-probe-20260805",
+      "headline": "SA Health widens Tony Modra record audit to nine staff",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T08:19:00.000Z",
+      "voiceScript": "SA Health says a ninth staff member is now under investigation after someone inappropriately accessed Tony Modra's medical records following his truck crash and hospital treatment. The case matters because it points to how easily privacy failures can spread beyond one person and become a broader trust problem in the health system. The department says audits caught the access and disciplinary action remains possible. The next step is the investigation itself and whether SA Health tightens record controls.",
+      "differences": [
+        "One report focuses on the current audit count and the immediate privacy breach; the other adds more background on the wider pattern of staff snooping and possible discipline."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/sa-health-investigating-staffer-tony-modra-patient-records/107001120"
+        },
+        {
+          "source": "AdelaideNow",
+          "url": "https://www.adelaidenow.com.au/health/tony-modra-medical-records-probe-widens-as-more-sa-health-staff-investigated/news-story/b2b70e279b20cb995f2063b28c084f89"
+        }
+      ],
+      "language": "en"
+    },
+    {
       "id": "canberra-renewable-rule-ai-data-centres-20260805",
       "headline": "Canberra readies a renewable-energy rule for AI data centres",
       "sourceCount": 3,
@@ -468,6 +504,74 @@
           "title": "NSW's anti-corruption watchdog examines alleged Liberal Party branch takeover",
           "url": "https://www.facebook.com/61590420367501/posts/nsws-anti-corruption-watchdog-is-examining-allegations-surrounding-a-reported-li/122125403871347345/",
           "score": 12
+        }
+      ]
+    },
+    {
+      "id": "gambling-inducements-denied-20260804",
+      "language": "en",
+      "headline": "Betting firms deny claims of drug and escort inducements",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-05T07:50:14.000Z",
+      "voiceScript": "A Senate inquiry into gambling reform heard claims that some betting companies had offered drugs, alcohol and escorts to keep high-value customers wagering. Sportsbet and Tabcorp rejected the allegations and said any evidence should be handed to authorities. The story matters because it feeds directly into the government's gambling ad reform push, while lawmakers weigh whether the current bill goes far enough to curb inducements and ads aimed at children. The inquiry is due to report on August 17, so the next step is whether the hearing leads to tighter rules or formal investigations.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-04/sportsbet-tab-gambling-reform-luke-bateman-inducements/106994616"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/04/sportsbet-tabcorp-gambling-parliamentary-inquiry-ntwnfb"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/betting-companies-set-to-defend-inducement-practices"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/05/labors-gambling-reform-friendless-as-coalition-withholds-support-amid-drug-and-sex-worker-allegations"
+        }
+      ],
+      "socialDiscussions": [
+        {
+          "platform": "Reddit",
+          "community": "r/australia",
+          "title": "Ex-NRL player reveals betting companies offered to arrange illegal drugs",
+          "url": "https://www.reddit.com/r/australia/comments/1ve1qsl/exnrl_player_reveals_betting_companies_offered_to/",
+          "postedAt": "2026-08-04",
+          "comments": 78,
+          "upvotes": 582,
+          "score": 816
+        },
+        {
+          "platform": "Reddit",
+          "community": "r/AusNewsWire",
+          "title": "Luke Bateman gambling Senate inquiry: former NRL player says bookmakers offered drugs and alcohol",
+          "url": "https://www.reddit.com/r/AusNewsWire/comments/1veoz26/luke_bateman_gambling_senate_inquiry_former_nrl/",
+          "postedAt": "2026-08-04",
+          "score": 30
+        },
+        {
+          "platform": "Facebook",
+          "account": "Zoe Daniel",
+          "title": "Congratulations to Luke Bateman for speaking at the Senate inquiry about gambling inducements",
+          "url": "https://www.facebook.com/ZoeDanielForGoldstein/posts/congratulations-to-luke-bateman-a-spectacular-effort-to-be-so-brave-in-front-of-/1410837307530160/",
+          "score": 24
+        },
+        {
+          "platform": "Facebook",
+          "account": "Australian Financial Review",
+          "title": "Luke Bateman alleged representatives from big-name bookmakers supplied him with drugs",
+          "url": "https://www.facebook.com/financialreview/posts/at-a-senate-inquiry-former-nrl-player-luke-bateman-alleged-that-representatives-/1464687192359060/",
+          "score": 20
+        },
+        {
+          "platform": "Facebook",
+          "account": "7NEWS Perth",
+          "title": "Former NRL star Luke Bateman alleges he was offered drugs and alcohol by gambling companies",
+          "url": "https://www.facebook.com/7NEWSPerth/posts/former-nrl-star-luke-bateman-has-alleged-he-was-offered-drugs-and-alcohol-by-gam/1470757855088290/",
+          "score": 18
         }
       ]
     },
@@ -555,70 +659,17 @@
       }
     },
     {
-      "id": "gambling-inducements-denied-20260804",
+      "id": "gold-coast-pub-assault-bail-20260805",
       "language": "en",
-      "headline": "Betting firms deny claims of drug and escort inducements",
-      "sourceCount": 3,
-      "publishedAt": "2026-08-05T07:50:14.000Z",
-      "voiceScript": "A Senate inquiry into gambling reform heard claims that some betting companies had offered drugs, alcohol and escorts to keep high-value customers wagering. Sportsbet and Tabcorp rejected the allegations and said any evidence should be handed to authorities. The story matters because it feeds directly into the government's gambling ad reform push, while lawmakers weigh whether the current bill goes far enough to curb inducements and ads aimed at children. The inquiry is due to report on August 17, so the next step is whether the hearing leads to tighter rules or formal investigations.",
+      "headline": "A Gold Coast pub assault case has left a victim in an induced coma",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T07:38:29.000Z",
+      "voiceScript": "Police allege a man punched Ross Burckhardt outside a Coomera pub, leaving him in an induced coma, and a magistrate has refused bail to the accused. The alleged attack happened in the car park of the Boathouse Tavern, and investigators say the suspect left in a rideshare before being arrested later. It matters because the case is another severe Queensland violence matter that has left a family waiting for answers. The next step is the court process and evidence about how the confrontation started.",
       "differences": [],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/sportsbet-tab-gambling-reform-luke-bateman-inducements/106994616"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/04/sportsbet-tabcorp-gambling-parliamentary-inquiry-ntwnfb"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/betting-companies-set-to-defend-inducement-practices"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/05/labors-gambling-reform-friendless-as-coalition-withholds-support-amid-drug-and-sex-worker-allegations"
-        }
-      ],
-      "socialDiscussions": [
-        {
-          "platform": "Reddit",
-          "community": "r/australia",
-          "title": "Ex-NRL player reveals betting companies offered to arrange illegal drugs",
-          "url": "https://www.reddit.com/r/australia/comments/1ve1qsl/exnrl_player_reveals_betting_companies_offered_to/",
-          "postedAt": "2026-08-04",
-          "comments": 78,
-          "upvotes": 582,
-          "score": 816
-        },
-        {
-          "platform": "Reddit",
-          "community": "r/AusNewsWire",
-          "title": "Luke Bateman gambling Senate inquiry: former NRL player says bookmakers offered drugs and alcohol",
-          "url": "https://www.reddit.com/r/AusNewsWire/comments/1veoz26/luke_bateman_gambling_senate_inquiry_former_nrl/",
-          "postedAt": "2026-08-04",
-          "score": 30
-        },
-        {
-          "platform": "Facebook",
-          "account": "Zoe Daniel",
-          "title": "Congratulations to Luke Bateman for speaking at the Senate inquiry about gambling inducements",
-          "url": "https://www.facebook.com/ZoeDanielForGoldstein/posts/congratulations-to-luke-bateman-a-spectacular-effort-to-be-so-brave-in-front-of-/1410837307530160/",
-          "score": 24
-        },
-        {
-          "platform": "Facebook",
-          "account": "Australian Financial Review",
-          "title": "Luke Bateman alleged representatives from big-name bookmakers supplied him with drugs",
-          "url": "https://www.facebook.com/financialreview/posts/at-a-senate-inquiry-former-nrl-player-luke-bateman-alleged-that-representatives-/1464687192359060/",
-          "score": 20
-        },
-        {
-          "platform": "Facebook",
-          "account": "7NEWS Perth",
-          "title": "Former NRL star Luke Bateman alleges he was offered drugs and alcohol by gambling companies",
-          "url": "https://www.facebook.com/7NEWSPerth/posts/former-nrl-star-luke-bateman-has-alleged-he-was-offered-drugs-and-alcohol-by-gam/1470757855088290/",
-          "score": 18
+          "url": "https://www.abc.net.au/news/2026-08-05/gold-coast-man-refused-bail-over-alleged-pub-assault/106995552"
         }
       ]
     },
@@ -638,19 +689,19 @@
       ]
     },
     {
-      "id": "gold-coast-pub-assault-bail-20260805",
-      "language": "en",
-      "headline": "A Gold Coast pub assault case has left a victim in an induced coma",
+      "id": "gold-coast-pub-assault-20260805",
+      "headline": "Gold Coast assault victim remains critical after pub attack",
       "sourceCount": 1,
-      "publishedAt": "2026-08-05T07:38:29.000Z",
-      "voiceScript": "Police allege a man punched Ross Burckhardt outside a Coomera pub, leaving him in an induced coma, and a magistrate has refused bail to the accused. The alleged attack happened in the car park of the Boathouse Tavern, and investigators say the suspect left in a rideshare before being arrested later. It matters because the case is another severe Queensland violence matter that has left a family waiting for answers. The next step is the court process and evidence about how the confrontation started.",
+      "publishedAt": "2026-08-05T07:38:00.000Z",
+      "voiceScript": "A Gold Coast man remains in a critical condition after an alleged pub assault, and a magistrate has refused bail to the accused while the case proceeds. Police say the incident at the Coomera Boathouse Tavern left the victim in a coma, which has turned the matter into both a criminal case and a serious public-safety story. The scale of the injuries will shape the court process and any further charges. The immediate question is whether the accused is linked to any wider violent behaviour.",
       "differences": [],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-05/gold-coast-man-refused-bail-over-alleged-pub-assault/106995552"
         }
-      ]
+      ],
+      "language": "en"
     },
     {
       "id": "luke-gosling-dpp-assault-prosecution-20260805",
@@ -714,6 +765,27 @@
       }
     },
     {
+      "id": "luke-gosling-assault-prosecution-20260805",
+      "headline": "Luke Gosling case is sent to federal prosecutors",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T07:34:00.000Z",
+      "voiceScript": "Federal Labor MP Luke Gosling is set to be handled by the Commonwealth Director of Public Prosecutions after assault charges were referred away from the NT system to avoid a conflict. The case matters because it puts a sitting MP under renewed pressure while the court process continues, with the allegations already drawing calls for him to stand aside from public duties. The legal question now is straightforward: how the prosecution proceeds, and whether the political fallout grows before the next court date.",
+      "differences": [
+        "One report focuses on the federal prosecution referral and the conflict-of-interest issue; the other gives more detail on the arrest, bail conditions and pressure on the prime minister to suspend him."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/mp-luke-gosling-assault-charges-commonwealth-dpp-to-prosecute/107001040"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/politics/labor-mp-luke-gosling-charged-over-alleged-assault-on-territory-administrator/news-story/fbc4478164851da97cf188a2b5526524"
+        }
+      ],
+      "language": "en"
+    },
+    {
       "id": "charlie-shahin-sheep-station-sale-20260805",
       "language": "en",
       "headline": "Charlie Shahin expands into a huge South Australian sheep aggregation",
@@ -763,6 +835,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "sheep-station-sale-south-australia-20260805",
+      "headline": "Vast SA sheep station changes hands in major sale",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T07:25:00.000Z",
+      "voiceScript": "One of Australia's biggest contiguous sheep stations has changed hands after Jumbuck Pastoral sold Commonwealth Hill to Adelaide businessman Charlie Shahin. The sale matters because it concentrates a huge stretch of South Australian outback into private ownership and underlines how valuable large-scale pastoral land remains. The property covers nearly 1.3 million hectares and sits in a region where scale, water and logistics all drive value. The next question is how the new owner uses the land and whether the deal shifts local employment or production.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/australias-largest-contiguous-sheep-station-sold-to-adelaide-businessman/107001580"
+        }
+      ],
+      "language": "en"
     },
     {
       "id": "australia-defence-tech-roadmap-20260805",
@@ -1074,6 +1161,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "hallett-cove-fatal-crash-20260805",
+      "headline": "Adelaide crash leaves one woman dead and another critical",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T06:00:00.000Z",
+      "voiceScript": "A young woman has died and another passenger is fighting for life after a crash in Adelaide's south late on Tuesday. Police say the collision involved two cars, left one vehicle sliced in half and added to South Australia's road toll. It matters because local blackspots keep producing serious injuries even when the crash pattern is familiar. Investigators are still piecing together fault and any speed or visibility issues.",
+      "differences": [],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/incidents/young-woman-killed-second-fights-for-life-after-horror-crash-in-coastal-adelaide-suburb/news-story/b06cb6ba138aa863aafacedb7bd244dc"
+        }
+      ],
+      "language": "en"
     },
     {
       "id": "dry-july-great-southern-farms-20260805",
@@ -1599,6 +1701,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "queensland-counterfeit-cash-20260805",
+      "headline": "Queensland border force intercepts $2 million in fake notes",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T01:40:00.000Z",
+      "voiceScript": "The Australian Border Force says it has seized more than $2 million in counterfeit currency in Queensland, the state's biggest fake-cash bust linked to a single importer. The haul matters because fake notes are getting harder to spot and more of them are entering the country through air cargo and mail. Authorities say the consignments came from Asia and were intercepted before they reached circulation. The next step is forensic work and whether investigators identify broader supply chains.",
+      "differences": [],
+      "links": [
+        {
+          "source": "9News",
+          "url": "https://www.nine.com.au/australia-news/qld/2-million-fake-cash-seizure-20260805-p60lqo.html"
+        }
+      ],
+      "language": "en"
     },
     {
       "id": "emma-lovell-high-court-sentence-20260805",
@@ -3790,6 +3907,21 @@
       ]
     },
     {
+      "id": "canva-ai-revenue-reset-20260803",
+      "language": "en",
+      "headline": "Canva's AI spending forces a rare revenue reset",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-03T19:00:00.000Z",
+      "voiceScript": "Canva says the shift to AI has cost more than expected, and it has cut revenue targets as a result. That matters because the company is one of Australia's biggest tech names, and its spending choices affect hiring, product timing and investor confidence. The key question now is whether Canva can absorb the higher bill without slowing growth for too long.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/technology/canva-s-ai-bill-shock-causes-rare-revenue-downgrade-20260803-p60kzm"
+        }
+      ]
+    },
+    {
       "id": "qantas-outsourcing-accenture-20260803",
       "language": "en",
       "headline": "Qantas weighs a major back-office shift with Accenture",
@@ -3850,21 +3982,6 @@
           "title": "Qantas eyes major outsourcing move with Accenture-backed AI deal",
           "url": "https://www.facebook.com/financialreview/posts/the-airline-has-been-in-discussions-with-the-consulting-giant-over-a-plan-to-out/1465562095604903/",
           "score": 12
-        }
-      ]
-    },
-    {
-      "id": "canva-ai-revenue-reset-20260803",
-      "language": "en",
-      "headline": "Canva's AI spending forces a rare revenue reset",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-03T19:00:00.000Z",
-      "voiceScript": "Canva says the shift to AI has cost more than expected, and it has cut revenue targets as a result. That matters because the company is one of Australia's biggest tech names, and its spending choices affect hiring, product timing and investor confidence. The key question now is whether Canva can absorb the higher bill without slowing growth for too long.",
-      "differences": [],
-      "links": [
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/technology/canva-s-ai-bill-shock-causes-rare-revenue-downgrade-20260803-p60kzm"
         }
       ]
     },
