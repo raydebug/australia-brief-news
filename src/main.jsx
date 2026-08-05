@@ -909,6 +909,7 @@ const PEOPLE_CONTEXT = [
     name: "David Gallop",
     aliases: ["David Gallop", "David Gallop AM", "Former Football Australia boss David Gallop", "大卫·加洛普", "大衛·加洛普", "デイヴィッド・ギャロップ", "데이비드 갤럽"],
     type: "sports executive",
+    personalSocial: { label: "LinkedIn", url: "https://www.linkedin.com/pub/dir/David/Gallop" },
     profile: { label: "Alacria profile", url: "https://alacriaglobal.com/david-gallop/" },
     officialProfile: { label: "AICD profile", url: "https://www.aicd.com.au/about-aicd/authors-speakers/a-g/david-gallop.html" },
     background: {
