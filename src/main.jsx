@@ -3455,7 +3455,8 @@ const PEOPLE_CONTEXT = [
     name: "Gianni Infantino",
     aliases: ["Gianni Infantino", "Giovanni Vincenzo Infantino", "詹尼·因凡蒂诺", "詹尼·因凡蒂諾", "ジャンニ・インファンティーノ", "잔니 인판티노"],
     type: "public-figure",
-    social: { label: "FIFA profile", url: "https://inside.fifa.com/organisation/president" },
+    personalSocial: { label: "Instagram", url: "https://www.instagram.com/gianni_infantino/" },
+    profile: { label: "FIFA profile", url: "https://inside.fifa.com/organisation/president" },
     background: {
       "zh-Hans": "瑞士、意大利和黎巴嫩籍足球行政人物，2016 年起任 FIFA 主席，曾任 UEFA 秘书长，也是国际奥委会委员。",
       "zh-Hant": "瑞士、義大利和黎巴嫩籍足球行政人物，2016 年起任 FIFA 主席，曾任 UEFA 秘書長，也是國際奧委會委員。",
@@ -4891,7 +4892,7 @@ function PeopleContextList({ people, labels, language }) {
       {people.map((person) => {
         const background = localizedPersonValue(person, "background", language);
         const positions = person.type === "politician" ? localizedPersonList(person, "positions", language, 3) : [];
-        const profileLink = personProfileLink(person) || personSocialLink(person);
+        const profileLink = personSocialLink(person) || personProfileLink(person);
 
         return (
           <section className="person-card" key={person.name}>
