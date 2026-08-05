@@ -3336,6 +3336,68 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Rose Jackson",
+    aliases: ["Rose Jackson", "Rose Butler Jackson", "Rose Jackson MLC", "The Hon Rose Jackson MLC", "罗斯·杰克逊", "羅斯·傑克遜", "ローズ・ジャクソン", "로즈 잭슨"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.parliament.nsw.gov.au/members/Pages/Member-details.aspx?pk=2258" },
+    officialProfile: { label: "NSW Labor profile", url: "https://www.nswlabor.org.au/rose_jackson" },
+    social: { label: "X", url: "https://x.com/RoseBJackson" },
+    personalSocial: { label: "Facebook", url: "https://www.facebook.com/RoseJacksonMLC/" },
+    background: {
+      "zh-Hans": "新州工党政治人物，2019 年起任新南威尔士州上议院议员，现任水务、住房、无家可归、心理健康、青年和 North Coast 相关部长。",
+      "zh-Hant": "新州工黨政治人物，2019 年起任新南威爾士州上議院議員，現任水務、住房、無家可歸、心理健康、青年和 North Coast 相關部長。",
+      en: "NSW Labor politician, member of the Legislative Council since 2019, serving as minister for water, housing, homelessness, mental health, youth and the North Coast.",
+      es: "Política laborista de NSW, miembro del Legislative Council desde 2019 y ministra de agua, vivienda, sinhogarismo, salud mental, juventud y North Coast.",
+      ja: "NSW 労働党の政治家で、2019年から Legislative Council 議員。水、住宅、ホームレス対策、メンタルヘルス、若者、North Coast 担当相です。",
+      ko: "NSW 노동당 정치인으로 2019년부터 Legislative Council 의원이며 물, 주택, 노숙, 정신건강, 청년, North Coast 담당 장관입니다.",
+      vi: "Chính trị gia Labor tại NSW, thành viên Legislative Council từ năm 2019, hiện phụ trách water, housing, homelessness, mental health, youth và North Coast.",
+      th: "นักการเมือง Labor ของ NSW สมาชิก Legislative Council ตั้งแต่ปี 2019 และเป็นรัฐมนตรีด้าน water, housing, homelessness, mental health, youth และ North Coast",
+      si: "2019 සිට NSW Legislative Council සාමාජිකාවක් වන NSW Labor දේශපාලනඥයෙකි; water, housing, homelessness, mental health, youth සහ North Coast අමාත්‍ය ධුර දරයි."
+    },
+    positions: {
+      "zh-Hans": "公共职责集中在住房与无家可归、心理健康危机响应、水资源管理、青年政策和新州北海岸事务。",
+      "zh-Hant": "公共職責集中在住房與無家可歸、心理健康危機回應、水資源管理、青年政策和新州北海岸事務。",
+      en: "Her public brief centres on housing and homelessness, mental-health crisis response, water management, youth policy and NSW North Coast issues.",
+      es: "Su cartera pública se centra en vivienda y sinhogarismo, respuesta a crisis de salud mental, gestión del agua, política juvenil y asuntos de la North Coast de NSW.",
+      ja: "住宅とホームレス対策、メンタルヘルス危機対応、水管理、若者政策、NSW North Coast の課題を担当しています。",
+      ko: "주택과 노숙, 정신건강 위기 대응, 물 관리, 청년 정책, NSW North Coast 현안을 주로 맡고 있습니다.",
+      vi: "Bà phụ trách chính các vấn đề housing và homelessness, ứng phó khủng hoảng mental health, quản lý nước, chính sách youth và NSW North Coast.",
+      th: "ภารกิจหลักครอบคลุม housing และ homelessness การรับมือวิกฤต mental health การจัดการน้ำ นโยบาย youth และประเด็น NSW North Coast",
+      si: "ඇගේ public brief එක housing සහ homelessness, mental-health crisis response, water management, youth policy සහ NSW North Coast issues වටා කේන්ද්‍රගත වේ."
+    }
+  },
+  {
+    name: "Yasmin Catley",
+    aliases: ["Yasmin Catley", "Yasmin Maree Catley", "Yasmin Catley MP", "The Hon Yasmin Catley MP", "亚斯敏·卡特利", "亞斯敏·卡特利", "ヤスミン・キャトリー", "야스민 캐틀리"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.parliament.nsw.gov.au/members/Pages/Member-details.aspx?pk=128" },
+    officialProfile: { label: "Personal website", url: "https://www.yasmincatley.com/about-yasmin/" },
+    social: { label: "Facebook", url: "https://www.facebook.com/YasminCatleyforSwansea/" },
+    personalSocial: { label: "Instagram", url: "https://www.instagram.com/yasmincatleymp/" },
+    background: {
+      "zh-Hans": "新州工党政治人物，2015 年起任 Swansea 选区州议员，现任新南威尔士州警务与反恐部长、Hunter 地区部长。",
+      "zh-Hant": "新州工黨政治人物，2015 年起任 Swansea 選區州議員，現任新南威爾士州警務與反恐部長、Hunter 地區部長。",
+      en: "NSW Labor politician, MP for Swansea since 2015, serving as New South Wales Minister for Police and Counter-terrorism and Minister for the Hunter.",
+      es: "Política laborista de NSW, diputada por Swansea desde 2015 y ministra de Policía y Contraterrorismo y del Hunter en Nueva Gales del Sur.",
+      ja: "NSW 労働党の政治家で、2015年から Swansea 選出州議員。New South Wales の警察・テロ対策相、Hunter 担当相です。",
+      ko: "NSW 노동당 정치인으로 2015년부터 Swansea 지역구 의원이며 New South Wales 경찰·대테러 장관과 Hunter 장관을 맡고 있습니다.",
+      vi: "Chính trị gia Labor tại NSW, nghị sĩ bang khu Swansea từ năm 2015, hiện là Bộ trưởng Police and Counter-terrorism và Minister for the Hunter của New South Wales.",
+      th: "นักการเมือง Labor ของ NSW ส.ส. รัฐเขต Swansea ตั้งแต่ปี 2015 เป็น Minister for Police and Counter-terrorism และ Minister for the Hunter ของ New South Wales",
+      si: "2015 සිට Swansea සඳහා NSW Labor MP වන අතර New South Wales Minister for Police and Counter-terrorism සහ Minister for the Hunter ලෙස සේවය කරයි."
+    },
+    positions: {
+      "zh-Hans": "公共职责覆盖新州警务、反恐、社区安全、紧急响应中的警务协调，以及 Hunter 地区事务。",
+      "zh-Hant": "公共職責覆蓋新州警務、反恐、社區安全、緊急回應中的警務協調，以及 Hunter 地區事務。",
+      en: "Her public brief covers NSW policing, counter-terrorism, community safety, police coordination in emergency response and Hunter regional issues.",
+      es: "Su cartera cubre policía de NSW, contraterrorismo, seguridad comunitaria, coordinación policial en emergencias y asuntos regionales del Hunter.",
+      ja: "NSW の警察、テロ対策、地域安全、緊急対応での警察調整、Hunter 地域の課題を担当しています。",
+      ko: "NSW 치안, 대테러, 지역사회 안전, 긴급 대응에서의 경찰 조정, Hunter 지역 현안을 담당합니다.",
+      vi: "Bà phụ trách policing tại NSW, counter-terrorism, an toàn cộng đồng, phối hợp cảnh sát trong emergency response và các vấn đề vùng Hunter.",
+      th: "ภารกิจครอบคลุม policing ของ NSW counter-terrorism ความปลอดภัยชุมชน การประสานตำรวจใน emergency response และประเด็นภูมิภาค Hunter",
+      si: "ඇගේ public brief එක NSW policing, counter-terrorism, community safety, emergency response හි police coordination සහ Hunter regional issues ආවරණය කරයි."
+    }
+  },
+  {
     name: "Chris Minns",
     aliases: ["Chris Minns", "Christopher John Minns", "Chris Minns MP", "克里斯·明斯", "克里斯·明斯", "クリス・ミンズ", "크리스 민스"],
     type: "politician",
