@@ -718,8 +718,19 @@ function cacheBustedUrl(url) {
   return `${url}${separator}t=${Date.now()}`;
 }
 
+function shareSlug(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 90);
+}
+
 function shareUrlFor(cluster, language) {
-  const url = new URL(window.location.href);
+  const url = new URL(
+    `./share/${encodeURIComponent(language)}/${encodeURIComponent(shareSlug(cluster.id))}.html`,
+    window.location.href
+  );
   url.searchParams.set("lang", language);
   url.searchParams.set("id", cluster.id);
   url.hash = new URLSearchParams({ lang: language, id: cluster.id }).toString();
