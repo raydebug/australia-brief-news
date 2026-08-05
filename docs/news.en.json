@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T22:07:32.354Z",
+  "updatedAt": "2026-08-05T23:11:32.178Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -105,6 +105,51 @@
     "Sky News Australia and Yahoo News Australia still did not expose stable current-week Australia listings."
   ],
   "clusters": [
+    {
+      "id": "liesl-tesch-threats-20260805",
+      "language": "en",
+      "headline": "Alleged threats against MP Liesl Tesch lead to court",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T22:49:04.000Z",
+      "voiceScript": "Police say a man is facing court over alleged online threats directed at Gosford MP and Paralympian Liesl Tesch. The case centres on messages said to have been sent through social media and gaming platforms, not an in-person confrontation. It matters because abuse aimed at public figures can quickly become a safety issue and can discourage people from taking part in public life. The next step is the court process and any further evidence about the messages.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/man-charged-over-online-threats-to-liesl-tesch/107002384"
+        }
+      ]
+    },
+    {
+      "id": "thylacine-femur-alice-springs-20260805",
+      "language": "en",
+      "headline": "Scientists uncover a rare thylacine femur near Alice Springs",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T22:43:59.000Z",
+      "voiceScript": "Researchers at the Alcoota fossil beds north-east of Alice Springs have identified an intact femur from the thylacine, the old bone-crunching marsupial predator. The bone is about 8 million years old and is the first complete femur of its kind found at the site. It matters because a better limb fossil can help scientists understand how the species moved and how it fit into Australia's ancient ecosystems. The remaining question is what other clues the fossil beds still hold.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/territory-tiger-remains-thylacine-femur-uncovered/106993956"
+        }
+      ]
+    },
+    {
+      "id": "gold-coast-builder-canal-pollution-20260805",
+      "language": "en",
+      "headline": "Gold Coast builder fined after polluted water leaked into canals",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T22:33:57.000Z",
+      "voiceScript": "Gold Coast council investigators say a builder's dewatering system allowed contaminated water to escape into Palm Beach canals. The pollution left the water rust-coloured and led to a fine after the site was checked. It matters because construction runoff can spread quickly through sensitive coastal waterways when controls fail. The next issue is whether tougher monitoring will stop a repeat.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/queensland-builder-fined-over-rust-coloured-canal-pollution/106982726"
+        }
+      ]
+    },
     {
       "id": "remote-indigenous-designers-win-darwin-fashion-awards-20260805",
       "language": "en",
@@ -2099,11 +2144,12 @@
       "id": "census-2026-national-focus-20260804",
       "language": "en",
       "headline": "Australia's 2026 census moves to the front of the national agenda",
-      "sourceCount": 4,
+      "sourceCount": 5,
       "publishedAt": "2026-08-04T03:08:00.000Z",
       "voiceScript": "Households are being reminded that the 2026 census is due on 11 August, with most people in Australia required to take part. The form includes new questions on sex recorded at birth, gender and sexual orientation, and the penalties for ignoring the count or giving false answers remain steep. That matters because the census shapes funding, services and planning for years after the count is finished. The next watchpoint is whether the public debate around religion and privacy affects response quality.",
       "differences": [
-        "The Guardian frames the census as a major national data exercise, SBS makes it a practical guide for participation, and news.com.au focuses on the fines and new questions."
+        "The Guardian frames the census as a major national data exercise, SBS makes it a practical guide for participation, and news.com.au focuses on the fines and new questions.",
+        "AFR frames the census through taxation and policy debate, while the other coverage focuses more on deadlines, penalties and how to complete the form."
       ],
       "links": [
         {
@@ -2121,6 +2167,10 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/australians-warned-about-door-knocking-scam-ahead-of-august-11-census-c-22674281"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/want-lower-tax-then-beware-of-the-census-20260804-p60l9z"
         }
       ],
       "socialDiscussions": {

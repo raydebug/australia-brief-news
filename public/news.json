@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T22:07:32.354Z",
+  "updatedAt": "2026-08-05T23:11:32.178Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -105,6 +105,51 @@
     "Sky News Australia and Yahoo News Australia still did not expose stable current-week Australia listings."
   ],
   "clusters": [
+    {
+      "id": "liesl-tesch-threats-20260805",
+      "language": "zh-Hans",
+      "headline": "针对议员 Liesl Tesch 的疑似威胁案进入法庭",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T22:49:04.000Z",
+      "voiceScript": "警方表示，一名男子因涉嫌在网上向戈斯福德议员、残奥会选手 Liesl Tesch 发出威胁而面临法庭审理。案情指向社交媒体和游戏平台上的讯息，而不是当面冲突。之所以重要，是因为针对公众人物的骚扰会迅速演变成安全问题，也会让更多人不愿参与公共事务。接下来要看庭审进展，以及有关这些讯息的更多证据。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/man-charged-over-online-threats-to-liesl-tesch/107002384"
+        }
+      ]
+    },
+    {
+      "id": "thylacine-femur-alice-springs-20260805",
+      "language": "zh-Hans",
+      "headline": "研究人员在爱丽丝泉附近发现罕见袋狼股骨",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T22:43:59.000Z",
+      "voiceScript": "北领地阿尔科塔化石点的研究人员发现了一块完整的袋狼股骨。这块骨头约有 800 万年历史，也是该地点首次找到的同类完整标本。它的重要性在于，肢骨化石能帮助科学家更好理解这种动物如何移动，以及它在澳洲远古生态系统中的位置。接下来还要看化石层里是否会出现更多线索。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/territory-tiger-remains-thylacine-femur-uncovered/106993956"
+        }
+      ]
+    },
+    {
+      "id": "gold-coast-builder-canal-pollution-20260805",
+      "language": "zh-Hans",
+      "headline": "黄金海岸建筑商因运河污染被罚款",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T22:33:57.000Z",
+      "voiceScript": "黄金海岸市政调查人员表示，一家建筑商的排水系统让受污染的水泄入棕榈海滩的运河，水面因此变成锈红色。现场检查后，公司被罚款。之所以重要，是因为一旦工地排水失控，沿海敏感水道会很快受到影响。下一步要看监管方是否要求更严格的监测和清理。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/queensland-builder-fined-over-rust-coloured-canal-pollution/106982726"
+        }
+      ]
+    },
     {
       "id": "remote-indigenous-designers-win-darwin-fashion-awards-20260805",
       "language": "zh-Hans",
@@ -2123,11 +2168,12 @@
       "id": "census-2026-national-focus-20260804",
       "language": "zh-Hans",
       "headline": "澳大利亚2026年人口普查重新成为全国焦点",
-      "sourceCount": 4,
+      "sourceCount": 5,
       "publishedAt": "2026-08-04T03:08:00.000Z",
       "voiceScript": "各家都在提醒，2026年人口普查将于8月11日举行，澳洲大多数人都需要参与。表格加入了出生时性别、性别认同和性取向等新问题，而忽视普查或填写虚假信息的罚则仍然很重。这之所以重要，是因为普查会影响之后多年的拨款、服务和规划。接下来要看围绕宗教和隐私的公共争论，会不会影响回应质量。",
       "differences": [
-        "《卫报》把普查描绘成一项全国性数据工程，SBS 把它写成参与指南，news.com.au 则聚焦罚款和新增问题。"
+        "《卫报》把普查描绘成一项全国性数据工程，SBS 把它写成参与指南，news.com.au 则聚焦罚款和新增问题。",
+        "AFR 把人口普查放在税收和政策争论的语境里，而其他报道更强调截止时间、罚款和填报方式。"
       ],
       "links": [
         {
@@ -2145,6 +2191,10 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/australians-warned-about-door-knocking-scam-ahead-of-august-11-census-c-22674281"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/want-lower-tax-then-beware-of-the-census-20260804-p60l9z"
         }
       ],
       "socialDiscussions": {

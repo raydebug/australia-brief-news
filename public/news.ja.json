@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T22:07:32.354Z",
+  "updatedAt": "2026-08-05T23:11:32.178Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -105,6 +105,51 @@
     "Sky News Australia and Yahoo News Australia still did not expose stable current-week Australia listings."
   ],
   "clusters": [
+    {
+      "id": "liesl-tesch-threats-20260805",
+      "language": "ja",
+      "headline": "リーゼル・テッシュ議員への脅迫疑惑で裁判へ",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T22:49:04.000Z",
+      "voiceScript": "ゴスフォード選出でパラリンピアンでもあるリーゼル・テッシュ議員に向けたとされるオンライン上の脅迫をめぐり、男が法廷に立つことになりました。問題になっているのは、対面ではなくSNSやゲーム関連のやり取りで送られたとされるメッセージです。公人への脅しは安全上の問題に直結し、政治参加をためらわせる可能性があります。今後は裁判手続きと、メッセージの内容を示す追加証拠が焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/man-charged-over-online-threats-to-liesl-tesch/107002384"
+        }
+      ]
+    },
+    {
+      "id": "thylacine-femur-alice-springs-20260805",
+      "language": "ja",
+      "headline": "アリススプリングス近くで希少なタスマニアタイガーの大腿骨を確認",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T22:43:59.000Z",
+      "voiceScript": "アリススプリングス北東のAlcoota化石層で、研究者がタスマニアタイガーの完全な大腿骨を確認しました。約800万年前の骨で、この地点で同種の完全な脚の骨が見つかったのは初めてです。こうした化石は、その動物がどう動き、古代オーストラリアの生態系の中でどんな役割を持っていたのかを読み解く手がかりになります。次は、化石層からどれだけ追加の証拠が出るかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/territory-tiger-remains-thylacine-femur-uncovered/106993956"
+        }
+      ]
+    },
+    {
+      "id": "gold-coast-builder-canal-pollution-20260805",
+      "language": "ja",
+      "headline": "ゴールドコーストの建設業者、汚染水流出で罰金",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T22:33:57.000Z",
+      "voiceScript": "ゴールドコースト市の調査で、ある建設業者の排水処理がうまく機能せず、汚染水がパームビーチの運河に流れ出たとされています。水は赤茶色になり、現場確認の後に罰金が科されました。工事の排水管理が崩れると、沿岸の繊細な水路にはすぐ影響が出ます。今後は、監視の強化と再発防止がどこまで徹底されるかが問われます。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/queensland-builder-fined-over-rust-coloured-canal-pollution/106982726"
+        }
+      ]
+    },
     {
       "id": "remote-indigenous-designers-win-darwin-fashion-awards-20260805",
       "language": "ja",
@@ -2105,11 +2150,12 @@
       "id": "census-2026-national-focus-20260804",
       "language": "ja",
       "headline": "2026年国勢調査が全国の注目の中心に戻る",
-      "sourceCount": 4,
+      "sourceCount": 5,
       "publishedAt": "2026-08-04T03:08:00.000Z",
       "voiceScript": "8月11日に実施される2026年国勢調査について、オーストラリアの多くの世帯に改めて注意が促されています。今回は出生時の性別、ジェンダー、性的指向に関する新しい質問が入り、回答しないことや虚偽の申告に対する罰則も依然として厳しいままです。これは、国勢調査の結果が今後何年にもわたって予算配分や公共サービス、都市計画を左右するからです。今後の焦点は、宗教とプライバシーをめぐる議論が回答率や回答の質に影響するかどうかです。",
       "differences": [
-        "Guardian は国の大規模データ事業として描き、SBS は参加のための実用ガイドとして扱い、news.com.au は罰金と新設問を中心に報じています。"
+        "Guardian は国の大規模データ事業として描き、SBS は参加のための実用ガイドとして扱い、news.com.au は罰金と新設問を中心に報じています。",
+        "AFRは国勢調査を税制と政策論争の文脈で扱っている一方、他の報道は締め切りや罰則、記入方法をより重視しています。"
       ],
       "links": [
         {
@@ -2127,6 +2173,10 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/australians-warned-about-door-knocking-scam-ahead-of-august-11-census-c-22674281"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/want-lower-tax-then-beware-of-the-census-20260804-p60l9z"
         }
       ],
       "socialDiscussions": {
