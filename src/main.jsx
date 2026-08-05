@@ -948,6 +948,91 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Daniel Andrews",
+    aliases: ["Daniel Andrews", "Daniel Michael Andrews", "Dan Andrews", "Daniel Andrews MP", "Dan Andrews MP", "丹尼尔·安德鲁斯", "丹尼爾·安德魯斯", "ダニエル・アンドリュース", "대니얼 앤드루스"],
+    type: "politician",
+    profile: { label: "Parliament of Victoria profile", url: "https://www.parliament.vic.gov.au/members/daniel-andrews/" },
+    officialProfile: { label: "Official website", url: "https://www.danandrews.com.au/" },
+    social: { label: "X", url: "https://x.com/DanielAndrewsMP" },
+    personalSocial: { label: "Facebook", url: "https://www.facebook.com/DanielAndrewsMP/" },
+    background: {
+      "zh-Hans": "前维州工党州长，2014 至 2023 年任第 48 任维州州长，2002 至 2023 年代表 Mulgrave 进入维州议会。",
+      "zh-Hant": "前維州工黨州長，2014 至 2023 年任第 48 任維州州長，2002 至 2023 年代表 Mulgrave 進入維州議會。",
+      en: "Former Labor premier of Victoria, serving as the state's 48th premier from 2014 to 2023 and as MP for Mulgrave from 2002 to 2023.",
+      es: "Ex primer ministro laborista de Victoria; fue el 48.º premier del estado entre 2014 y 2023 y diputado por Mulgrave de 2002 a 2023.",
+      ja: "ビクトリア州の元労働党首相。2014年から2023年まで第48代州首相、2002年から2023年まで Mulgrave 選出議員でした。",
+      ko: "전 빅토리아주 노동당 주총리로, 2014년부터 2023년까지 제48대 주총리를 지냈고 2002년부터 2023년까지 Mulgrave 의원이었습니다.",
+      vi: "Cựu thủ hiến Labor của Victoria, giữ chức thủ hiến thứ 48 của bang từ 2014 đến 2023 và là nghị sĩ khu Mulgrave từ 2002 đến 2023.",
+      th: "อดีตนายกรัฐมนตรีรัฐวิกตอเรียจากพรรค Labor ดำรงตำแหน่งนายกรัฐมนตรีรัฐคนที่ 48 ระหว่างปี 2014-2023 และเป็น ส.ส. เขต Mulgrave ระหว่างปี 2002-2023",
+      si: "Victoria හි හිටපු Labor premier කෙනෙකි; 2014 සිට 2023 දක්වා 48වන premier ලෙසත් 2002 සිට 2023 දක්වා Mulgrave MP ලෙසත් සේවය කළේය."
+    },
+    positions: {
+      "zh-Hans": [
+        "公共服务：任内推动大型基础设施、住房更新和公共交通项目，但相关成本、治理和工会影响力持续受到审查。",
+        "社会政策：支持婚姻平权、LGBTQ 权利和维州儿童早教扩张。",
+        "能源与气候：支持维州减排目标，并推动复兴 State Electricity Commission。"
+      ],
+      "zh-Hant": [
+        "公共服務：任內推動大型基礎設施、住房更新和公共交通項目，但相關成本、治理和工會影響力持續受到審查。",
+        "社會政策：支持婚姻平權、LGBTQ 權利和維州兒童早教擴張。",
+        "能源與氣候：支持維州減排目標，並推動復興 State Electricity Commission。"
+      ],
+      en: [
+        "Public services: drove major infrastructure, housing-renewal and transport projects, while their cost, governance and union influence remain heavily scrutinised.",
+        "Social policy: backed marriage equality, LGBTQ rights and expanded early-childhood education in Victoria.",
+        "Energy and climate: supported Victoria's emissions targets and pushed to revive the State Electricity Commission."
+      ],
+      es: [
+        "Servicios públicos: impulsó grandes proyectos de infraestructura, vivienda y transporte, aunque sus costos, gobernanza e influencia sindical siguen bajo escrutinio.",
+        "Política social: respaldó el matrimonio igualitario, los derechos LGBTQ y la expansión de la educación inicial en Victoria.",
+        "Energía y clima: apoyó los objetivos de emisiones de Victoria y promovió recuperar la State Electricity Commission."
+      ],
+      ja: [
+        "公共サービス：大型インフラ、住宅更新、交通事業を進めましたが、費用、統治、労組の影響は強い検証対象です。",
+        "社会政策：婚姻平等、LGBTQの権利、ビクトリア州の幼児教育拡大を支持しました。",
+        "エネルギーと気候：州の排出削減目標を支持し、State Electricity Commission の復活を推進しました。"
+      ],
+      ko: [
+        "공공서비스: 대형 인프라, 주택 재개발, 교통 사업을 추진했지만 비용, 거버넌스, 노조 영향력은 계속 강한 검증 대상입니다.",
+        "사회정책: 결혼평등, LGBTQ 권리, 빅토리아 유아교육 확대를 지지했습니다.",
+        "에너지와 기후: 빅토리아 배출 감축 목표를 지지하고 State Electricity Commission 부활을 추진했습니다."
+      ],
+      vi: [
+        "Dịch vụ công: thúc đẩy các dự án lớn về hạ tầng, tái thiết nhà ở và giao thông, nhưng chi phí, quản trị và ảnh hưởng công đoàn vẫn bị soi xét.",
+        "Chính sách xã hội: ủng hộ hôn nhân bình đẳng, quyền LGBTQ và mở rộng giáo dục mầm non ở Victoria.",
+        "Năng lượng và khí hậu: ủng hộ mục tiêu giảm phát thải của Victoria và thúc đẩy khôi phục State Electricity Commission."
+      ],
+      th: [
+        "บริการสาธารณะ: ผลักดันโครงสร้างพื้นฐาน ที่อยู่อาศัย และคมนาคมขนาดใหญ่ แต่ต้นทุน ธรรมาภิบาล และอิทธิพลสหภาพยังถูกตรวจสอบหนัก",
+        "นโยบายสังคม: สนับสนุนสมรสเท่าเทียม สิทธิ LGBTQ และการขยายการศึกษาปฐมวัยในวิกตอเรีย",
+        "พลังงานและภูมิอากาศ: สนับสนุนเป้าหมายลดการปล่อยของวิกตอเรีย และผลักดันการฟื้น State Electricity Commission"
+      ],
+      si: [
+        "Public services: major infrastructure, housing-renewal සහ transport projects තල්ලු කළ නමුත් cost, governance සහ union influence දැඩි පරීක්ෂාවට ලක්වේ.",
+        "Social policy: marriage equality, LGBTQ rights සහ Victoria early-childhood education expansion සඳහා සහාය දුන්නේය.",
+        "Energy and climate: Victoria emissions targets සඳහා සහාය දී State Electricity Commission නැවත ශක්තිමත් කිරීම තල්ලු කළේය."
+      ]
+    }
+  },
+  {
+    name: "Peter Marshall",
+    aliases: ["Peter Marshall", "Peter James Marshall", "Peter Marshall UFU", "彼得·马歇尔", "彼得·馬歇爾", "ピーター・マーシャル", "피터 마셜"],
+    type: "union leader",
+    profile: { label: "UFU Victoria profile", url: "https://ufuvic.asn.au/national-secretary-peter-marshall/" },
+    officialProfile: { label: "Victorian Parliament evidence", url: "https://www.parliament.vic.gov.au/contentassets/d7f78e3e642a420d8fba3f6631ca56e4/united_firefighters_union_victorian_branch_transcript.pdf" },
+    background: {
+      "zh-Hans": "United Firefighters Union of Australia 维州分会和全国秘书，长期代表职业消防员参与工资、工会和消防服务改革争议。",
+      "zh-Hant": "United Firefighters Union of Australia 維州分會和全國秘書，長期代表職業消防員參與薪酬、工會和消防服務改革爭議。",
+      en: "Victorian branch and national secretary of the United Firefighters Union of Australia, long involved in firefighter pay, union and fire-service reform disputes.",
+      es: "Secretario nacional y de la rama victoriana del United Firefighters Union of Australia, vinculado durante años a disputas sobre salarios, sindicatos y reforma de bomberos.",
+      ja: "United Firefighters Union of Australia のビクトリア支部・全国書記。消防士の賃金、労組、消防サービス改革をめぐる争点に長く関わっています。",
+      ko: "United Firefighters Union of Australia의 빅토리아 지부 및 전국 서기로, 소방관 임금, 노조, 소방 서비스 개혁 논쟁에 오래 관여해 왔습니다.",
+      vi: "Thư ký toàn quốc và chi nhánh Victoria của United Firefighters Union of Australia, lâu nay tham gia các tranh chấp về lương, công đoàn và cải cách dịch vụ cứu hỏa.",
+      th: "เลขาธิการระดับประเทศและสาขาวิกตอเรียของ United Firefighters Union of Australia มีบทบาทยาวนานในข้อพิพาทเรื่องค่าจ้าง สหภาพ และการปฏิรูประบบดับเพลิง",
+      si: "United Firefighters Union of Australia හි Victorian branch සහ national secretary වේ; firefighter pay, union සහ fire-service reform disputes වල දිගුකාලීනව සම්බන්ධ වී ඇත."
+    }
+  },
+  {
     name: "Tom Dearden",
     aliases: ["Tom Dearden", "Thomas Dearden", "Tommy Dearden", "汤姆·迪尔登", "湯姆·迪爾登", "トム・ディアデン", "톰 디어던", "ทอม ดีอาร์เดน"],
     type: "athlete",
