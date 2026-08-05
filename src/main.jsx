@@ -943,6 +943,73 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Liesl Tesch",
+    aliases: ["Liesl Tesch", "Liesl Dorothy Tesch", "Liesl Tesch MP", "Liesl Tesch AM MP", "Paralympian Liesl Tesch", "莉斯尔·泰施", "莉斯爾·泰施", "リーズル・テッシュ", "리즐 테슈"],
+    type: "politician",
+    profile: { label: "NSW Parliament profile", url: "https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2228" },
+    officialProfile: { label: "Paralympics Australia profile", url: "https://www.paralympic.org.au/athlete/liesl-tesch/" },
+    social: { label: "Facebook", url: "https://www.facebook.com/LieslTeschGosford/" },
+    personalSocial: { label: "Instagram", url: "https://www.instagram.com/liesltesch/" },
+    background: {
+      "zh-Hans": "澳洲工党新州议员，2017 年起代表 Gosford；进入政坛前是教师和七届残奥会选手，曾在帆船项目夺得两枚残奥金牌。",
+      "zh-Hant": "澳洲工黨新州議員，2017 年起代表 Gosford；進入政壇前是教師和七屆帕運選手，曾在帆船項目奪得兩枚帕運金牌。",
+      en: "NSW Labor MP for Gosford since 2017, and formerly a teacher and seven-time Paralympian who won two Paralympic gold medals in sailing.",
+      es: "Diputada laborista de NSW por Gosford desde 2017; antes fue profesora y siete veces paralímpica, con dos oros paralímpicos en vela.",
+      ja: "2017年から Gosford 選出の NSW Labor 州議員。政界入り前は教師で、パラリンピックに7回出場し、セーリングで金メダル2個を獲得しました。",
+      ko: "2017년부터 Gosford를 대표하는 NSW Labor 주의원입니다. 정계 입문 전에는 교사였고 패럴림픽에 7차례 출전해 요트에서 금메달 2개를 땄습니다.",
+      vi: "Nghị sĩ Labor bang NSW đại diện Gosford từ năm 2017; trước đó là giáo viên và VĐV Paralympic bảy kỳ, giành hai HCV Paralympic môn sailing.",
+      th: "ส.ส. NSW Labor เขต Gosford ตั้งแต่ปี 2017 ก่อนเข้าสู่การเมืองเคยเป็นครูและนักกีฬาพาราลิมปิก 7 สมัย ได้เหรียญทองพาราลิมปิกเรือใบ 2 เหรียญ",
+      si: "2017 සිට Gosford නියෝජනය කරන NSW Labor MP කෙනෙකි; දේශපාලනයට පෙර ගුරුවරියක් සහ seven-time Paralympian කෙනෙකු වූ අතර sailing වල Paralympic gold medals දෙකක් දිනා ඇත."
+    },
+    positions: {
+      "zh-Hans": [
+        "地方代表：在新州议会代表 Gosford，重点关注中央海岸社区服务、家庭、残障包容和本地基础设施。",
+        "残障包容：以残奥会经历为背景，支持残障人士参与、无障碍和社区体育机会。",
+        "政府职务：在 Minns 工党政府内担任副政府党鞭，并承担家庭、社区和残障包容相关议会秘书职责。"
+      ],
+      "zh-Hant": [
+        "地方代表：在新州議會代表 Gosford，重點關注中央海岸社區服務、家庭、殘障包容和本地基礎設施。",
+        "殘障包容：以帕運經歷為背景，支持殘障人士參與、無障礙和社區體育機會。",
+        "政府職務：在 Minns 工黨政府內擔任副政府黨鞭，並承擔家庭、社區和殘障包容相關議會秘書職責。"
+      ],
+      en: [
+        "Local representation: represents Gosford in the NSW Parliament, with emphasis on Central Coast community services, families, disability inclusion and local infrastructure.",
+        "Disability inclusion: draws on her Paralympic background to support accessibility, participation and community sport opportunities for disabled people.",
+        "Government role: serves in the Minns Labor government as Deputy Government Whip and in parliamentary secretary responsibilities covering families, communities and disability inclusion."
+      ],
+      es: [
+        "Representación local: representa a Gosford en el Parlamento de NSW, con foco en servicios comunitarios de Central Coast, familias, inclusión de personas con discapacidad e infraestructura local.",
+        "Inclusión: usa su trayectoria paralímpica para apoyar accesibilidad, participación y oportunidades de deporte comunitario para personas con discapacidad.",
+        "Cargo gubernamental: sirve en el gobierno laborista de Minns como Deputy Government Whip y con responsabilidades de secretaria parlamentaria en familias, comunidades e inclusión."
+      ],
+      ja: [
+        "地域代表：NSW 議会で Gosford を代表し、Central Coast の地域サービス、家族、障害包摂、地域インフラを重視しています。",
+        "障害包摂：パラリンピックでの経験を背景に、アクセシビリティ、参加、地域スポーツ機会を支援しています。",
+        "政府内役職：Minns Labor 政権で Deputy Government Whip を務め、家族、地域社会、障害包摂に関わる政務官職も担っています。"
+      ],
+      ko: [
+        "지역 대표: NSW 의회에서 Gosford를 대표하며 Central Coast 지역 서비스, 가족, 장애 포용, 지역 인프라에 초점을 둡니다.",
+        "장애 포용: 패럴림픽 경험을 바탕으로 접근성, 참여, 장애인의 지역 스포츠 기회를 지지합니다.",
+        "정부 역할: Minns Labor 정부에서 Deputy Government Whip을 맡고 가족, 지역사회, 장애 포용 관련 parliamentary secretary 역할을 수행합니다."
+      ],
+      vi: [
+        "Đại diện địa phương: đại diện Gosford trong Quốc hội NSW, tập trung vào dịch vụ cộng đồng Central Coast, gia đình, hòa nhập người khuyết tật và hạ tầng địa phương.",
+        "Hòa nhập người khuyết tật: dựa trên kinh nghiệm Paralympic để ủng hộ tiếp cận, tham gia và cơ hội thể thao cộng đồng cho người khuyết tật.",
+        "Vai trò chính phủ: giữ vai trò Deputy Government Whip trong chính phủ Minns Labor và các trách nhiệm parliamentary secretary về gia đình, cộng đồng và hòa nhập."
+      ],
+      th: [
+        "ตัวแทนท้องถิ่น: เป็นตัวแทน Gosford ในรัฐสภา NSW โดยเน้นบริการชุมชน Central Coast ครอบครัว การมีส่วนร่วมของคนพิการ และโครงสร้างพื้นฐานท้องถิ่น",
+        "การมีส่วนร่วมของคนพิการ: ใช้ประสบการณ์พาราลิมปิกสนับสนุน accessibility การมีส่วนร่วม และโอกาสกีฬาในชุมชนสำหรับคนพิการ",
+        "บทบาทรัฐบาล: ดำรงตำแหน่ง Deputy Government Whip ในรัฐบาล Minns Labor และมีหน้าที่ parliamentary secretary ด้านครอบครัว ชุมชน และ disability inclusion"
+      ],
+      si: [
+        "Local representation: NSW Parliament තුළ Gosford නියෝජනය කරමින් Central Coast community services, families, disability inclusion සහ local infrastructure අවධානයට ගනී.",
+        "Disability inclusion: Paralympic පසුබිම මත accessibility, participation සහ disabled people සඳහා community sport opportunities සහාය දක්වයි.",
+        "Government role: Minns Labor government තුළ Deputy Government Whip ලෙසත් families, communities සහ disability inclusion ආවරණය කරන parliamentary secretary responsibilities වලත් කටයුතු කරයි."
+      ]
+    }
+  },
+  {
     name: "Tony Modra",
     aliases: ["Tony Modra", "Anthony Dale Modra", "Anthony Modra", "Tony Modra official", "Tony Modra Official", "托尼·莫德拉", "東尼·莫德拉", "トニー・モドラ", "토니 모드라"],
     type: "athlete",
