@@ -2551,6 +2551,67 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Sarah Henderson",
+    aliases: ["Sarah Henderson", "Sarah Moya Henderson", "Senator Sarah Henderson", "Senator the Hon Sarah Henderson", "莎拉·亨德森", "莎拉·韓德森", "サラ・ヘンダーソン", "새라 헨더슨"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.aph.gov.au/s_henderson_mp" },
+    officialProfile: { label: "Official website", url: "https://sarahhenderson.com.au/" },
+    social: { label: "X", url: "https://x.com/SenSHenderson" },
+    background: {
+      "zh-Hans": "维州自由党联邦参议员，曾任 Corangamite 众议员；进入政坛前是记者、电视主持人和律师。",
+      "zh-Hant": "維州自由黨聯邦參議員，曾任 Corangamite 眾議員；進入政壇前是記者、電視主持人和律師。",
+      en: "Liberal senator for Victoria and former federal member for Corangamite. Before politics she worked as a journalist, television presenter and lawyer.",
+      es: "Senadora liberal por Victoria y exdiputada federal por Corangamite. Antes de la política trabajó como periodista, presentadora de televisión y abogada.",
+      ja: "ビクトリア州選出の自由党上院議員で、元 Corangamite 選出連邦下院議員です。政界入り前は記者、テレビ司会者、弁護士として働きました。",
+      ko: "빅토리아를 대표하는 자유당 상원의원이자 전 Corangamite 연방 하원의원입니다. 정계 입문 전에는 기자, TV 진행자, 변호사로 일했습니다.",
+      vi: "Thượng nghị sĩ Liberal đại diện Victoria và cựu dân biểu liên bang khu Corangamite. Trước chính trị bà làm nhà báo, người dẫn truyền hình và luật sư.",
+      th: "วุฒิสมาชิก Liberal จากรัฐวิกตอเรีย และอดีต ส.ส. รัฐบาลกลางเขต Corangamite ก่อนเข้าสู่การเมืองทำงานเป็นผู้สื่อข่าว พิธีกรโทรทัศน์ และทนายความ",
+      si: "Victoria නියෝජනය කරන Liberal senator සහ හිටපු Corangamite federal member. Politics ට පෙර journalist, television presenter සහ lawyer ලෙස කටයුතු කළාය."
+    },
+    positions: {
+      "zh-Hans": "作为影子通信和数字安全部长，常就 ABC、网络安全、平台监管、未成年人网络保护和赌博广告限制发声。",
+      "zh-Hant": "作為影子通訊和數位安全部長，常就 ABC、網路安全、平台監管、未成年人網路保護和賭博廣告限制發聲。",
+      en: "As shadow minister for communications and digital safety, she often focuses on the ABC, online safety, platform regulation, child protection online and gambling-ad restrictions.",
+      es: "Como shadow minister de comunicaciones y seguridad digital, suele centrarse en la ABC, seguridad en línea, regulación de plataformas, protección infantil online y límites a anuncios de apuestas.",
+      ja: "影の通信・デジタル安全相として、ABC、オンライン安全、平台規制、子どものオンライン保護、賭博広告規制を主に扱います。",
+      ko: "예비 통신·디지털안전 장관으로서 ABC, 온라인 안전, 플랫폼 규제, 아동 온라인 보호, 도박 광고 제한에 자주 초점을 맞춥니다.",
+      vi: "Là shadow minister về communications và digital safety, bà thường tập trung vào ABC, an toàn trực tuyến, quản lý nền tảng, bảo vệ trẻ em online và hạn chế quảng cáo cá cược.",
+      th: "ในฐานะ shadow minister ด้าน communications และ digital safety เธอมักเน้น ABC ความปลอดภัยออนไลน์ การกำกับแพลตฟอร์ม การคุ้มครองเด็กออนไลน์ และข้อจำกัดโฆษณาพนัน",
+      si: "Shadow minister for communications and digital safety ලෙස ඇය ABC, online safety, platform regulation, child protection online සහ gambling-ad restrictions පිළිබඳ වැඩි අවධානය යොමු කරයි."
+    }
+  },
+  {
+    name: "Sarah Hanson-Young",
+    aliases: ["Sarah Hanson-Young", "Sarah Coral Hanson-Young", "Senator Sarah Hanson-Young", "Sarah Hanson Young", "莎拉·汉森-杨", "莎拉·漢森-楊", "サラ・ハンソン＝ヤング", "새라 핸슨영"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.aph.gov.au/senator_hanson-young" },
+    officialProfile: { label: "Greens profile", url: "https://greens.org.au/mps/sarah-hanson-young" },
+    social: { label: "Facebook", url: "https://www.facebook.com/Senator.Sarah.Hanson.Young/" },
+    personalSocial: { label: "Instagram", url: "https://www.instagram.com/sarah_hansonyoung/" },
+    background: {
+      "zh-Hans": "南澳绿党联邦参议员，2007 年首次当选；长期参与环境、水资源、艺术、媒体和难民议题。",
+      "zh-Hant": "南澳綠黨聯邦參議員，2007 年首次當選；長期參與環境、水資源、藝術、媒體和難民議題。",
+      en: "Australian Greens senator for South Australia, first elected in 2007. She has long worked on environment, water, arts, media and refugee issues.",
+      es: "Senadora de los Greens por Australia Meridional, elegida por primera vez en 2007. Ha trabajado durante años en ambiente, agua, artes, medios y refugiados.",
+      ja: "南オーストラリア州選出の Greens 上院議員で、2007年に初当選しました。環境、水、芸術、メディア、難民問題に長く取り組んでいます。",
+      ko: "남호주를 대표하는 Greens 상원의원으로 2007년 처음 당선됐습니다. 환경, 물, 예술, 미디어, 난민 문제를 오래 다뤄 왔습니다.",
+      vi: "Thượng nghị sĩ Greens đại diện Nam Australia, lần đầu đắc cử năm 2007. Bà hoạt động lâu năm về môi trường, nước, nghệ thuật, truyền thông và người tị nạn.",
+      th: "วุฒิสมาชิก Greens จากรัฐเซาท์ออสเตรเลีย ได้รับเลือกครั้งแรกในปี 2007 ทำงานมายาวนานด้านสิ่งแวดล้อม น้ำ ศิลปะ สื่อ และผู้ลี้ภัย",
+      si: "South Australia නියෝජනය කරන Australian Greens senator; 2007 දී පළමුව තේරී පත්විය. Environment, water, arts, media සහ refugee issues පිළිබඳ දිගු කාලයක් කටයුතු කර ඇත."
+    },
+    positions: {
+      "zh-Hans": "主要推动更强的环境和水资源保护、公共广播和艺术投入、媒体多样性、难民保护，以及更严格的赌博广告限制。",
+      "zh-Hant": "主要推動更強的環境和水資源保護、公共廣播和藝術投入、媒體多樣性、難民保護，以及更嚴格的賭博廣告限制。",
+      en: "Her main themes include stronger environment and water protection, public broadcasting and arts funding, media diversity, refugee protection and tighter gambling-ad restrictions.",
+      es: "Sus temas centrales incluyen mayor protección ambiental y del agua, financiación de radiodifusión pública y artes, diversidad mediática, protección de refugiados y límites más estrictos a anuncios de apuestas.",
+      ja: "環境・水資源保護、公共放送と芸術支援、メディア多様性、難民保護、賭博広告のより厳しい規制を重視します。",
+      ko: "환경과 물 보호 강화, 공영방송과 예술 지원, 미디어 다양성, 난민 보호, 더 엄격한 도박 광고 제한을 주요 의제로 삼습니다.",
+      vi: "Các chủ đề chính của bà gồm bảo vệ môi trường và nước mạnh hơn, tài trợ phát thanh công cộng và nghệ thuật, đa dạng truyền thông, bảo vệ người tị nạn và siết quảng cáo cá cược.",
+      th: "ประเด็นหลักคือการคุ้มครองสิ่งแวดล้อมและน้ำที่เข้มแข็งขึ้น เงินสนับสนุนสื่อสาธารณะและศิลปะ ความหลากหลายสื่อ การคุ้มครองผู้ลี้ภัย และข้อจำกัดโฆษณาพนันที่เข้มขึ้น",
+      si: "ඇයගේ main themes stronger environment/water protection, public broadcasting and arts funding, media diversity, refugee protection සහ tighter gambling-ad restrictions වේ."
+    }
+  },
+  {
     name: "Daniel Mulino",
     aliases: ["Daniel Mulino", "Dr Daniel Mulino", "Daniel Mulino MP", "Dan Mulino", "丹尼尔·穆利诺", "丹尼爾·穆利諾", "ダニエル・ムリーノ", "대니얼 물리노"],
     type: "politician",
