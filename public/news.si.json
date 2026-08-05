@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T01:10:59.780Z",
+  "updatedAt": "2026-08-05T02:14:29.433Z",
   "generatedBy": "codex",
   "language": "si",
   "sources": [
@@ -102,10 +102,34 @@
   ],
   "errors": [
     "news.com.au and The Australian were harvested from article-level results because the stable latest pages were inconsistent.",
-    "Sky News Australia and Yahoo News Australia did not expose stable current-week Australia listings.",
-    "ABC cards dated 2026-08-05 were future-dated under the 2026-08-04 cutoff and were excluded."
+    "Sky News Australia and Yahoo News Australia still did not expose stable current-week Australia listings."
   ],
   "clusters": [
+    {
+      "id": "bird-flu-species-threat-20260805",
+      "language": "si",
+      "headline": "පෙන්ගුයින් සහ ඔස්ට්‍රේලියාවේ විශේෂ සිය ගණනක් පක්ෂි උණ අවදානමේ",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-05T01:36:21.000Z",
+      "voiceScript": "නව අනතුරු ඇඟවීමක් කියන්නේ පවතින රෝග ප්‍රහාරවලට වඩා ව්‍යාප්තිය විශාල විය හැකි අතර, පෙන්ගුයින්, ඩොල්ෆින් සහ විශේෂ 400කට ආසන්න ප්‍රමාණයක් අවදානමේ ඇති බවයි. H5 වර්ගය ඝන ජනනය වන කූඩාරම් හෝ දුරස්ථ වාසස්ථාන තුළ පැතිරුණොත් හානිය ඉක්මනින් සහ පාලනය කිරීමට අපහසු ලෙස සිදුවිය හැකි නිසා මෙය වැදගත්ය. බලධාරීන් මෙය විදේශීය ප්‍රශ්නයක් නොව ජෛව ආරක්ෂණ ගැටලුවක් ලෙස සලකා සූදානම වැඩි කරමින් සිටී. දැන් ප්‍රශ්නය වන්නේ නිරීක්ෂණය, ගොවිපල පාලන ක්‍රම සහ වනජීවී සැලසුම් මඟින් වෛරසය තවත් බිත්ති ස්ථාන වෙත යාම මන්දගාමී කළ හැකිද යන්නයි.",
+      "differences": [
+        "ඒබීසී පෙන්ගුයින් සහ ප්‍රාදේශීය වනජීවී අවදානම ඉස්මතු කරයි. ගාඩියන් විශේෂ 400කට ආසන්න සංඛ්‍යාව පිළිබඳ ෆෙඩරල් ඇස්තමේන්තුවට අවධානය යොමු කරයි. ඒපීපී මානව සහ වනජීවී ව්‍යාප්තිය ගැන ජාතික අනතුරු ඇඟවීමක් ලෙස ඉදිරිපත් කරයි."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/phillip-island-penguins-bird-flu-fears/106982242"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/aug/05/penguins-dolphins-nearly-400-australian-species-threat-bird-flu-true-extent-disaster"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/warning-for-human-bird-flu-transmissions-as-cases-soar"
+        }
+      ]
+    },
     {
       "id": "naplan-national-results-20260804",
       "language": "si",
@@ -2635,6 +2659,35 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/western-australia/man-20s-found-fatallyinjured-at-bus-stop-in-australind-western-australia/news-story/8b64d745e7ae1639bdf05e9c0842c4c5"
+        }
+      ]
+    },
+    {
+      "id": "fuel-excise-relief-ends-20260803",
+      "language": "si",
+      "headline": "ඉන්ධන සහන අවසන් වීමෙන් පෙට්‍රල් මිල නැවත ඉහළ යයි",
+      "sourceCount": 4,
+      "publishedAt": "2026-08-03T07:36:27.000Z",
+      "voiceScript": "අගෝස්තු 3 වන දා මධ්‍යම රාත්‍රියේ තාවකාලික ඉන්ධන බදු සහනය අවසන් විය. එමඟින් තොග පිරිවැය ලීටරයකට ඕස්ට්‍රේලියානු සෙන්ට් 16 කින් ඉහළ ගිය අතර ඉදිරි දින කිහිපයේදී පිරවුම් හල් මට්ටමේ මිලද වැඩි වනු ඇත. මෙම වෙනස ගෘහස්ථ වියදම්, ගමනාගමන වියදම් සහ උද්ධමනයට සෘජුව බලපාන නිසා වැදගත්ය. පැරණි තොග මුලින්ම අවසන් වන නිසා මිල ඉහළ යාම පියවරෙන් පියවර පෙනෙන්නට ඉඩ ඇති අතර, අධික මිලක් අය කිරීමක් තිබේදැයි පරීක්ෂා කිරීමට නියාමකයෝ අවධානයෙන් සිටිති.",
+      "differences": [
+        "ඒපීපී තොග පිරිවැය සහ රියදුරන්ට ඇති සෘජු පීඩනය ඉස්මතු කරයි. ගාඩියන් සහ නියුස්ඩොට්කොම්ඩොට්ඒයූ ජීවන වියදම සහ උද්ධමන බලපෑම ඉදිරියට දමයි. ඒබීසී පවසන්නේ මිල වැඩිවීම දින දහයක් පමණ තුළ පියවරෙන් පියවර පෙනෙන්නට ඇති බවයි."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/motorists-truckers-face-fuel-shock-with-excise-rise"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/fuel-excise-cut-ending/106987482"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/petrol-prices-on-track-to-top-2-a-litre-as-bowen-sounds-death-knell-for-fuel-excise-relief"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/motoring/on-the-road/fuel-prices-likely-to-creep-up-as-excise-cut-comes-off-at-midnight-health-minister-says/news-story/12643fac6db0298952cd30059ee2ba6e"
         }
       ]
     },

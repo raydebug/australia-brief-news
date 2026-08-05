@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T01:10:59.778Z",
+  "updatedAt": "2026-08-05T02:14:29.431Z",
   "generatedBy": "codex",
   "language": "zh-Hant",
   "sources": [
@@ -102,10 +102,34 @@
   ],
   "errors": [
     "news.com.au and The Australian were harvested from article-level results because the stable latest pages were inconsistent.",
-    "Sky News Australia and Yahoo News Australia did not expose stable current-week Australia listings.",
-    "ABC cards dated 2026-08-05 were future-dated under the 2026-08-04 cutoff and were excluded."
+    "Sky News Australia and Yahoo News Australia still did not expose stable current-week Australia listings."
   ],
   "clusters": [
+    {
+      "id": "bird-flu-species-threat-20260805",
+      "language": "zh-Hant",
+      "headline": "禽流感威脅擴大到企鵝和數百種澳洲物種",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-05T01:36:21.000Z",
+      "voiceScript": "最新警告稱，禽流感可能比目前疫情顯示的範圍更廣，企鵝、海豚以及近400種物種都面臨風險。這個問題重要，是因為一旦 H5 進入密集棲息地或偏遠棲息地，損害可能來得很快，也更難控制。官方現在把準備工作當成生物安全問題，而不是遙遠的海外威脅。接下來要看監測、農場管制和野生動物規劃，能否在病毒擴散到更多繁殖地之前把它壓下來。",
+      "differences": [
+        "ABC 侧重菲利普島企鵝和當地野生動物風險；《衛報》強調聯邦對近400種物種的評估；AAP 則把它寫成面向人類和野生動物傳播的全國性警報。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/phillip-island-penguins-bird-flu-fears/106982242"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/aug/05/penguins-dolphins-nearly-400-australian-species-threat-bird-flu-true-extent-disaster"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/warning-for-human-bird-flu-transmissions-as-cases-soar"
+        }
+      ]
+    },
     {
       "id": "naplan-national-results-20260804",
       "language": "zh-Hant",
@@ -2635,6 +2659,35 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/western-australia/man-20s-found-fatallyinjured-at-bus-stop-in-australind-western-australia/news-story/8b64d745e7ae1639bdf05e9c0842c4c5"
+        }
+      ]
+    },
+    {
+      "id": "fuel-excise-relief-ends-20260803",
+      "language": "zh-Hant",
+      "headline": "燃油優惠結束，澳洲加油價格開始回升",
+      "sourceCount": 4,
+      "publishedAt": "2026-08-03T07:36:27.000Z",
+      "voiceScript": "8月3日午夜，臨時燃油消費稅減免結束，批發燃油成本每升上調16澳分，未來幾天零售油價也會跟著走高。這個變化直接影響家庭支出、貨運成本和通膨。由於加油站會先消化舊庫存，漲幅預計不會一下子全部體現出來，但監管機構已經警告不要趁機抬價。接下來要看漲價會多快傳導到各地，以及澳洲競爭與消費者委員會是否發現異常操作。",
+      "differences": [
+        "AAP 重點放在批發成本和司機的即時壓力；《衛報》和 news.com.au 更強調生活成本與通膨；ABC 說明零售價格大約會在十天內逐步反映。"
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/motorists-truckers-face-fuel-shock-with-excise-rise"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/fuel-excise-cut-ending/106987482"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/petrol-prices-on-track-to-top-2-a-litre-as-bowen-sounds-death-knell-for-fuel-excise-relief"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/motoring/on-the-road/fuel-prices-likely-to-creep-up-as-excise-cut-comes-off-at-midnight-health-minister-says/news-story/12643fac6db0298952cd30059ee2ba6e"
         }
       ]
     },

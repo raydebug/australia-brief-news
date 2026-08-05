@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T01:10:59.780Z",
+  "updatedAt": "2026-08-05T02:14:29.435Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -102,10 +102,34 @@
   ],
   "errors": [
     "news.com.au and The Australian were harvested from article-level results because the stable latest pages were inconsistent.",
-    "Sky News Australia and Yahoo News Australia did not expose stable current-week Australia listings.",
-    "ABC cards dated 2026-08-05 were future-dated under the 2026-08-04 cutoff and were excluded."
+    "Sky News Australia and Yahoo News Australia still did not expose stable current-week Australia listings."
   ],
   "clusters": [
+    {
+      "id": "bird-flu-species-threat-20260805",
+      "language": "ja",
+      "headline": "鳥インフルでペンギンと豪州の数百種が危機に",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-05T01:36:21.000Z",
+      "voiceScript": "新たな警告では、鳥インフルの影響は現在の流行よりずっと広く、ペンギンやイルカ、さらに約400種の生き物が危険にさらされる可能性があるとされています。H5 が密集したコロニーや遠隔地の生息地に広がれば、被害は早く大きくなり、止めにくくなるため重要です。当局は、これは海外の遠い問題ではなく、国内のバイオセキュリティ課題として備えを進めています。今後は監視、農場対策、野生動物の保護計画で、さらに多くの繁殖地に広がる前に食い止められるかが焦点です。",
+      "differences": [
+        "ABC はフィリップ島のペンギンと地域の野生動物リスクを重視し、Guardian は約400種に及ぶ連邦評価を前面に出し、AAP は人と野生動物への広がりに対する全国的警戒として伝えています。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/phillip-island-penguins-bird-flu-fears/106982242"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/aug/05/penguins-dolphins-nearly-400-australian-species-threat-bird-flu-true-extent-disaster"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/warning-for-human-bird-flu-transmissions-as-cases-soar"
+        }
+      ]
+    },
     {
       "id": "naplan-national-results-20260804",
       "language": "ja",
@@ -2635,6 +2659,35 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/western-australia/man-20s-found-fatallyinjured-at-bus-stop-in-australind-western-australia/news-story/8b64d745e7ae1639bdf05e9c0842c4c5"
+        }
+      ]
+    },
+    {
+      "id": "fuel-excise-relief-ends-20260803",
+      "language": "ja",
+      "headline": "燃料減税の終了で、豪州のガソリン高が再び進む",
+      "sourceCount": 4,
+      "publishedAt": "2026-08-03T07:36:27.000Z",
+      "voiceScript": "8月3日深夜に一時的な燃料税の減免が終わり、卸売段階のコストは1リットル当たり16豪セント上がりました。小売価格への反映は数日から1週間ほどかけて進む見通しで、家計や物流費、物価にじわり効いてきます。補助がなくなったことで、各社が既存在庫をどう値付けするかが注目点です。今後は各都市での上昇ペースと、競争当局が便乗値上げを見つけられるかが焦点になります。",
+      "differences": [
+        "AAP は卸売コストと家計への直撃を強調し、Guardian と news.com.au は物価と生活費への波及を前面に出しています。ABC は小売価格が段階的に上がる点を説明しています。"
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/motorists-truckers-face-fuel-shock-with-excise-rise"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/fuel-excise-cut-ending/106987482"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/petrol-prices-on-track-to-top-2-a-litre-as-bowen-sounds-death-knell-for-fuel-excise-relief"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/motoring/on-the-road/fuel-prices-likely-to-creep-up-as-excise-cut-comes-off-at-midnight-health-minister-says/news-story/12643fac6db0298952cd30059ee2ba6e"
         }
       ]
     },

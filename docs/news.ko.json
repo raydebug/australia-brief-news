@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T01:10:59.780Z",
+  "updatedAt": "2026-08-05T02:14:29.437Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -102,10 +102,34 @@
   ],
   "errors": [
     "news.com.au and The Australian were harvested from article-level results because the stable latest pages were inconsistent.",
-    "Sky News Australia and Yahoo News Australia did not expose stable current-week Australia listings.",
-    "ABC cards dated 2026-08-05 were future-dated under the 2026-08-04 cutoff and were excluded."
+    "Sky News Australia and Yahoo News Australia still did not expose stable current-week Australia listings."
   ],
   "clusters": [
+    {
+      "id": "bird-flu-species-threat-20260805",
+      "language": "ko",
+      "headline": "조류독감이 펭귄과 호주 수백 종을 위협한다",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-05T01:36:21.000Z",
+      "voiceScript": "새 경고는 조류독감의 영향이 현재 유행보다 훨씬 넓을 수 있으며, 펭귄과 돌고래, 그리고 약 400종의 생물이 위험에 놓였다고 말합니다. H5가 밀집한 서식지나 외딴 지역으로 퍼지면 피해가 빠르고 크게 번질 수 있기 때문에 이 문제는 중요합니다. 당국은 이를 먼 해외 문제가 아니라 국내 생물안보 과제로 보고 대비를 강화하고 있습니다. 앞으로는 감시, 농장 통제, 야생동물 보호 계획이 더 많은 번식지로 번지기 전에 확산을 늦출 수 있는지가 관건입니다.",
+      "differences": [
+        "ABC는 필립 아일랜드 펭귄과 지역 야생동물 위험을 강조하고, Guardian은 약 400종에 대한 연방 평가를 앞세우며, AAP는 사람과 야생동물 전파에 대한 전국적 경고로 다룹니다."
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/phillip-island-penguins-bird-flu-fears/106982242"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/aug/05/penguins-dolphins-nearly-400-australian-species-threat-bird-flu-true-extent-disaster"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/warning-for-human-bird-flu-transmissions-as-cases-soar"
+        }
+      ]
+    },
     {
       "id": "naplan-national-results-20260804",
       "language": "ko",
@@ -2635,6 +2659,35 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/national/western-australia/man-20s-found-fatallyinjured-at-bus-stop-in-australind-western-australia/news-story/8b64d745e7ae1639bdf05e9c0842c4c5"
+        }
+      ]
+    },
+    {
+      "id": "fuel-excise-relief-ends-20260803",
+      "language": "ko",
+      "headline": "연료 세제 혜택 종료로 호주 주유비가 다시 오른다",
+      "sourceCount": 4,
+      "publishedAt": "2026-08-03T07:36:27.000Z",
+      "voiceScript": "8월 3일 자정에 임시 연료세 감면이 끝나면서 도매 연료비가 리터당 16센트 올라갔고, 며칠에 걸쳐 주유소 가격도 따라 오를 전망입니다. 이 변화는 가계 지출과 운송비, 물가에 바로 연결되기 때문에 중요합니다. 주유소들은 먼저 기존 재고를 소진할 가능성이 있어 가격 상승은 한 번에 나타나지 않을 수 있습니다. 앞으로는 도시별 인상 속도와 경쟁당국이 과도한 가격 인상 징후를 잡아내는지가 관건입니다.",
+      "differences": [
+        "AAP는 도매 비용과 운전자 부담을, Guardian과 news.com.au는 생활비와 물가 충격을 더 크게 다룹니다. ABC는 반영이 며칠에 걸쳐 나타난다고 설명합니다."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/motorists-truckers-face-fuel-shock-with-excise-rise"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-02/fuel-excise-cut-ending/106987482"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/01/petrol-prices-on-track-to-top-2-a-litre-as-bowen-sounds-death-knell-for-fuel-excise-relief"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/motoring/on-the-road/fuel-prices-likely-to-creep-up-as-excise-cut-comes-off-at-midnight-health-minister-says/news-story/12643fac6db0298952cd30059ee2ba6e"
         }
       ]
     },
