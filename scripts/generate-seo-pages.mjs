@@ -6,18 +6,6 @@ const outDir = path.join("public", "briefs");
 const shareDir = path.join("public", "share");
 const englishNews = JSON.parse(fs.readFileSync("public/news.en.json", "utf8"));
 
-const HEAT_LABELS = {
-  en: "Heat",
-  "zh-Hans": "热度",
-  "zh-Hant": "熱度",
-  si: "උණුසුම",
-  ja: "注目度",
-  ko: "화제성",
-  vi: "Độ nóng",
-  th: "กระแส",
-  es: "Interes"
-};
-
 function escapeHtml(value) {
   return String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -94,12 +82,6 @@ function socialHeat(cluster, language = "en") {
   const score = discussions.reduce((total, item) => total + Number(item.score || 0), 0);
   const level = score >= 1800 ? 4 : score >= 800 ? 3 : score >= 250 ? 2 : score > 0 ? 1 : 0;
   return { score, level, count: discussions.length };
-}
-
-function heatTitle(cluster, language) {
-  const heat = socialHeat(cluster, language);
-  const label = HEAT_LABELS[language] || HEAT_LABELS.en;
-  return heat.level > 0 ? `${label} ${heat.level} | ${cluster.headline}` : cluster.headline;
 }
 
 function sourceList(cluster) {
@@ -231,10 +213,8 @@ function sharePageHtml(cluster, language, news) {
   const appUrl = `${SITE_URL}/?lang=${encodeURIComponent(language)}&id=${encodeURIComponent(
     cluster.id
   )}#${new URLSearchParams({ lang: language, id: cluster.id }).toString()}`;
-  const title = heatTitle(cluster, language);
+  const title = cluster.headline;
   const description = clip(cluster.voiceScript, 180);
-  const heat = socialHeat(cluster, language);
-  const heatLabel = HEAT_LABELS[language] || HEAT_LABELS.en;
 
   return `<!doctype html>
 <html lang="${escapeHtml(language)}">
@@ -277,7 +257,6 @@ function sharePageHtml(cluster, language, news) {
         <strong>4News</strong>
       </header>
       <article class="card">
-        <p class="meta">${escapeHtml(heatLabel)} ${heat.level}</p>
         <h1>${escapeHtml(cluster.headline)}</h1>
         <p>${escapeHtml(cluster.voiceScript)}</p>
         <p><a href="${escapeHtml(appUrl)}">Open this brief in 4News</a></p>
