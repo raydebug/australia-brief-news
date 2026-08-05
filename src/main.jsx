@@ -216,6 +216,9 @@ const I18N = {
     offline: "离线",
     searchPlaceholder: "搜索标题或摘要",
     filterLabel: "过滤新闻",
+    heatFilter: "热度",
+    heatAll: "全部热度",
+    heatAtLeast: "至少",
     all: "全部",
     multi: "多源",
     single: "单源",
@@ -257,6 +260,9 @@ const I18N = {
     offline: "離線",
     searchPlaceholder: "搜尋標題或摘要",
     filterLabel: "篩選新聞",
+    heatFilter: "熱度",
+    heatAll: "全部熱度",
+    heatAtLeast: "至少",
     all: "全部",
     multi: "多源",
     single: "單源",
@@ -298,6 +304,9 @@ const I18N = {
     offline: "නොබැඳි",
     searchPlaceholder: "ශීර්ෂය හෝ සාරාංශය සොයන්න",
     filterLabel: "පුවත් පෙරහන් කරන්න",
+    heatFilter: "උණුසුම",
+    heatAll: "සියලු උණුසුම් මට්ටම්",
+    heatAtLeast: "අවම",
     all: "සියල්ල",
     multi: "බහු මූලාශ්‍ර",
     single: "එක් මූලාශ්‍රයක්",
@@ -339,6 +348,9 @@ const I18N = {
     offline: "Offline",
     searchPlaceholder: "Search headlines or summaries",
     filterLabel: "Filter news",
+    heatFilter: "Heat",
+    heatAll: "All heat",
+    heatAtLeast: "At least",
     all: "All",
     multi: "Multi-source",
     single: "Single-source",
@@ -380,6 +392,9 @@ const I18N = {
     offline: "Sin conexión",
     searchPlaceholder: "Buscar titulares o resúmenes",
     filterLabel: "Filtrar noticias",
+    heatFilter: "Interés",
+    heatAll: "Todo interés",
+    heatAtLeast: "Al menos",
     all: "Todo",
     multi: "Varias fuentes",
     single: "Una fuente",
@@ -421,6 +436,9 @@ const I18N = {
     offline: "オフライン",
     searchPlaceholder: "見出しまたは要約を検索",
     filterLabel: "ニュースを絞り込む",
+    heatFilter: "注目度",
+    heatAll: "すべての注目度",
+    heatAtLeast: "最低",
     all: "すべて",
     multi: "複数ソース",
     single: "単一ソース",
@@ -462,6 +480,9 @@ const I18N = {
     offline: "오프라인",
     searchPlaceholder: "제목 또는 요약 검색",
     filterLabel: "뉴스 필터",
+    heatFilter: "화제성",
+    heatAll: "전체 화제성",
+    heatAtLeast: "최소",
     all: "전체",
     multi: "복수 출처",
     single: "단일 출처",
@@ -503,6 +524,9 @@ const I18N = {
     offline: "Ngoại tuyến",
     searchPlaceholder: "Tìm tiêu đề hoặc tóm tắt",
     filterLabel: "Lọc tin tức",
+    heatFilter: "Độ nóng",
+    heatAll: "Mọi độ nóng",
+    heatAtLeast: "Ít nhất",
     all: "Tất cả",
     multi: "Nhiều nguồn",
     single: "Một nguồn",
@@ -544,6 +568,9 @@ const I18N = {
     offline: "ออฟไลน์",
     searchPlaceholder: "ค้นหาหัวข้อหรือสรุป",
     filterLabel: "กรองข่าว",
+    heatFilter: "กระแส",
+    heatAll: "ทุกระดับกระแส",
+    heatAtLeast: "อย่างน้อย",
     all: "ทั้งหมด",
     multi: "หลายแหล่ง",
     single: "แหล่งเดียว",
@@ -4779,6 +4806,7 @@ function App() {
   const [activeId, setActiveId] = useState(sharedId);
   const [query, setQuery] = useState("");
   const [mode, setMode] = useState("all");
+  const [heatFilter, setHeatFilter] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [expandedId, setExpandedId] = useState(sharedId);
@@ -5003,9 +5031,10 @@ function App() {
       const matchesSearch = text.includes(query.toLowerCase());
       const sourceCount = displaySourceCount(cluster);
       const matchesMode = mode === "all" || (mode === "multi" ? sourceCount > 1 : sourceCount === 1);
-      return isRecentCluster(cluster) && matchesSearch && matchesMode;
+      const matchesHeat = heatFilter === 0 || socialHeat({ ...cluster, language }, language).level >= heatFilter;
+      return isRecentCluster(cluster) && matchesSearch && matchesMode && matchesHeat;
     });
-  }, [data, mode, query]);
+  }, [data, heatFilter, language, mode, query]);
 
   const active = clusters.find((cluster) => cluster.id === activeId) || clusters[0];
   const displayActive = active ? { ...active, language } : null;
@@ -5196,6 +5225,22 @@ function App() {
               {labels.single}
             </button>
           </div>
+
+          <label className="setting-control">
+            <span>{labels.heatFilter}</span>
+            <select
+              value={heatFilter}
+              onChange={(event) => setHeatFilter(Number(event.target.value))}
+              aria-label={labels.heatFilter}
+            >
+              <option value={0}>{labels.heatAll}</option>
+              {[1, 2, 3, 4].map((level) => (
+                <option key={level} value={level}>
+                  {labels.heatAtLeast} {level}
+                </option>
+              ))}
+            </select>
+          </label>
 
           <button className="refresh-button" onClick={() => loadNews()} disabled={loading}>
             <RefreshCw size={17} className={loading ? "spin" : ""} />
