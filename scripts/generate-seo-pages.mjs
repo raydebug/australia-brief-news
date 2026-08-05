@@ -257,11 +257,6 @@ function sharePageHtml(cluster, language, news) {
     <meta name="twitter:image" content="${SITE_URL}/icon-512.png" />
     <title>${escapeHtml(title)} | 4News</title>
     <script type="application/ld+json">${articleJsonLd(cluster, url, news, language)}</script>
-    <script>
-      window.setTimeout(function () {
-        window.location.replace(${JSON.stringify(appUrl)});
-      }, 80);
-    </script>
     <style>
       :root { color-scheme: light; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
       body { margin: 0; background: #f7f8f8; color: #172026; }
