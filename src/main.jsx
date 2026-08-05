@@ -632,6 +632,7 @@ const STRICT_VOICE_LANGUAGES = new Set(["si"]);
 function normalizeLanguage(value) {
   const lower = String(value || "").toLowerCase();
   if (lower.startsWith("zh-hant") || lower.includes("tw") || lower.includes("hk")) return "zh-Hant";
+  if (lower.startsWith("zh-hans") || lower.startsWith("zh-cn") || lower.startsWith("zh")) return "zh-Hans";
   if (lower.startsWith("si")) return "si";
   if (lower.startsWith("ja")) return "ja";
   if (lower.startsWith("ko")) return "ko";
