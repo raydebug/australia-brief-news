@@ -906,6 +906,61 @@ function hasSpecificCommentary(commentary) {
 
 const PEOPLE_CONTEXT = [
   {
+    name: "David Gallop",
+    aliases: ["David Gallop", "David Gallop AM", "Former Football Australia boss David Gallop", "大卫·加洛普", "大衛·加洛普", "デイヴィッド・ギャロップ", "데이비드 갤럽"],
+    type: "sports executive",
+    profile: { label: "Alacria profile", url: "https://alacriaglobal.com/david-gallop/" },
+    officialProfile: { label: "AICD profile", url: "https://www.aicd.com.au/about-aicd/authors-speakers/a-g/david-gallop.html" },
+    background: {
+      "zh-Hans": "澳大利亚体育管理人士，曾任 NRL 首席执行官和 Football Federation Australia 首席执行官，后来担任多个体育、场馆和企业董事职位。",
+      "zh-Hant": "澳洲體育管理人士，曾任 NRL 行政總裁和 Football Federation Australia 行政總裁，後來擔任多個體育、場館和企業董事職位。",
+      en: "Australian sports administrator and lawyer, formerly chief executive of the NRL and Football Federation Australia, later holding board roles across sport, venues and business.",
+      es: "Administrador deportivo y abogado australiano; fue director ejecutivo de la NRL y de Football Federation Australia, y después ocupó cargos directivos en deporte, recintos y empresas.",
+      ja: "豪州のスポーツ管理者、弁護士。NRL と Football Federation Australia の最高経営責任者を務め、その後はスポーツ、会場運営、企業の取締役職に就いています。",
+      ko: "호주의 스포츠 행정가이자 변호사로, NRL과 Football Federation Australia 최고경영자를 지냈고 이후 스포츠, 경기장, 기업 이사회 역할을 맡았습니다.",
+      vi: "Nhà quản trị thể thao và luật sư Australia, từng là tổng giám đốc NRL và Football Federation Australia, sau đó giữ các vai trò hội đồng quản trị trong thể thao, địa điểm và doanh nghiệp.",
+      th: "นักบริหารกีฬาและทนายความชาวออสเตรเลีย อดีตซีอีโอของ NRL และ Football Federation Australia ต่อมาดำรงตำแหน่งกรรมการในภาคกีฬา สนามกีฬา และธุรกิจ",
+      si: "Australian sports administrator සහ lawyer කෙනෙකි; NRL සහ Football Federation Australia හි හිටපු chief executive වන අතර පසුව sport, venues සහ business board roles දැරීය."
+    }
+  },
+  {
+    name: "Omar Musa",
+    aliases: ["Omar Musa", "Omar bin Musa", "Omar Bin Musa", "奥马尔·穆萨", "奧馬爾·穆薩", "オマー・ムーサ", "오마르 무사"],
+    type: "artist",
+    profile: { label: "Personal website", url: "https://www.omarmusa.com.au/" },
+    social: { label: "Instagram", url: "https://www.instagram.com/omarbinmusa/" },
+    background: {
+      "zh-Hans": "来自 Queanbeyan 的澳大利亚作家、诗人、艺术家和音乐人，作品横跨小说、诗歌、版画、戏剧和 hip-hop。",
+      "zh-Hant": "來自 Queanbeyan 的澳洲作家、詩人、藝術家和音樂人，作品橫跨小說、詩歌、版畫、戲劇和 hip-hop。",
+      en: "Australian author, poet, artist and musician from Queanbeyan whose work spans fiction, poetry, printmaking, theatre and hip-hop.",
+      es: "Autor, poeta, artista y músico australiano de Queanbeyan, con obra en ficción, poesía, grabado, teatro y hip-hop.",
+      ja: "Queanbeyan 出身の豪州の作家、詩人、アーティスト、ミュージシャン。小説、詩、版画、演劇、ヒップホップにまたがって活動しています。",
+      ko: "Queanbeyan 출신 호주 작가, 시인, 예술가, 음악가로 소설, 시, 판화, 연극, 힙합을 넘나들며 활동합니다.",
+      vi: "Tác giả, nhà thơ, nghệ sĩ và nhạc sĩ Australia từ Queanbeyan, hoạt động trong tiểu thuyết, thơ, khắc in, sân khấu và hip-hop.",
+      th: "นักเขียน กวี ศิลปิน และนักดนตรีชาวออสเตรเลียจาก Queanbeyan ทำงานทั้งนิยาย กวีนิพนธ์ ภาพพิมพ์ ละครเวที และฮิปฮอป",
+      si: "Queanbeyan සිට Australian author, poet, artist සහ musician කෙනෙකි; fiction, poetry, printmaking, theatre සහ hip-hop අතර වැඩ කරයි."
+    }
+  },
+  {
+    name: "Tony Modra",
+    aliases: ["Tony Modra", "Anthony Dale Modra", "Anthony Modra", "Tony Modra official", "Tony Modra Official", "托尼·莫德拉", "東尼·莫德拉", "トニー・モドラ", "토니 모드라"],
+    type: "athlete",
+    profile: { label: "Adelaide Football Club profile", url: "https://crowshistory.afc.com.au/afl-players/tony-modra" },
+    officialProfile: { label: "Adelaide Crows Hall of Fame", url: "https://www.afc.com.au/news/455170/hall-of-fame-tony-modra" },
+    social: { label: "Instagram", url: "https://www.instagram.com/tonymodraofficial/" },
+    background: {
+      "zh-Hans": "澳式足球退役球员，曾效力 Adelaide Crows 和 Fremantle，以高空接球和进球能力闻名，曾获 Coleman Medal、两次入选 All-Australian。",
+      "zh-Hant": "澳式足球退役球員，曾效力 Adelaide Crows 和 Fremantle，以高空接球和入球能力聞名，曾獲 Coleman Medal、兩次入選 All-Australian。",
+      en: "Retired Australian rules footballer for Adelaide and Fremantle, known for spectacular marking and goalkicking, with a Coleman Medal and two All-Australian selections.",
+      es: "Exjugador de fútbol australiano de Adelaide y Fremantle, conocido por sus marcas espectaculares y goles; ganó la Coleman Medal y fue dos veces All-Australian.",
+      ja: "Adelaide と Fremantle でプレーした元オーストラリアンフットボール選手。豪快なマークと得点力で知られ、Coleman Medal と All-Australian 選出2回の実績があります。",
+      ko: "Adelaide와 Fremantle에서 뛴 전 호주식 풋볼 선수로, 화려한 마크와 득점력으로 유명하며 Coleman Medal과 두 차례 All-Australian 선정 이력이 있습니다.",
+      vi: "Cựu cầu thủ bóng bầu dục kiểu Australia của Adelaide và Fremantle, nổi tiếng với các pha bắt bóng trên không và ghi bàn, từng đoạt Coleman Medal và hai lần vào đội All-Australian.",
+      th: "อดีตนักกีฬา Australian rules football ของ Adelaide และ Fremantle โดดเด่นเรื่องการกระโดดรับบอลและทำประตู เคยได้ Coleman Medal และติด All-Australian สองครั้ง",
+      si: "Adelaide සහ Fremantle සඳහා ක්‍රීඩා කළ විශ්‍රාමික Australian rules footballer කෙනෙකි; spectacular marking සහ goalkicking සඳහා ප්‍රසිද්ධ අතර Coleman Medal සහ All-Australian selections දෙකක් ඇත."
+    }
+  },
+  {
     name: "Charlie Shahin",
     aliases: ["Charlie Shahin", "Charlie Shahin AO", "Billionaire Charlie Shahin", "Khalil Shahin", "Khalil (Charlie) Shahin", "Professor Khalil Shahin AO", "查理·沙欣", "查理·沙欣 AO"],
     type: "executive",
