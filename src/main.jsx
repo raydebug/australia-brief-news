@@ -920,6 +920,73 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Richard Marles",
+    aliases: ["Richard Marles", "Richard Donald Marles", "The Hon Richard Marles MP", "Deputy Prime Minister Richard Marles", "Defence Minister Richard Marles", "理查德·马尔斯", "理查德·馬爾斯", "リチャード・マールズ", "리처드 말스"],
+    type: "politician",
+    profile: { label: "Defence Ministers profile", url: "https://www.minister.defence.gov.au/current-ministers/2022-06/richard-marles" },
+    officialProfile: { label: "Parliament profile", url: "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=HWQ" },
+    social: { label: "X", url: "https://x.com/RichardMarlesMP" },
+    personalSocial: { label: "Facebook", url: "https://www.facebook.com/richardmarlesmp/" },
+    background: {
+      "zh-Hans": "澳洲工党联邦议员，代表维州 Corio，自 2007 年进入联邦议会；2022 年起任澳大利亚副总理兼国防部长。",
+      "zh-Hant": "澳洲工黨聯邦議員，代表維州 Corio，自 2007 年進入聯邦議會；2022 年起任澳洲副總理兼國防部長。",
+      en: "Federal Labor MP for Corio in Victoria since 2007, and Australia's Deputy Prime Minister and Minister for Defence since 2022.",
+      es: "Diputado federal laborista por Corio, Victoria, desde 2007, y viceprimer ministro y ministro de Defensa de Australia desde 2022.",
+      ja: "2007年からビクトリア州 Corio 選出の連邦労働党議員で、2022年から豪州副首相兼国防相です。",
+      ko: "2007년부터 빅토리아 Corio를 대표하는 연방 노동당 하원의원이며 2022년부터 호주 부총리 겸 국방장관입니다.",
+      vi: "Nghị sĩ Labor liên bang khu Corio ở Victoria từ năm 2007, đồng thời là Phó thủ tướng kiêm Bộ trưởng Quốc phòng Australia từ năm 2022.",
+      th: "ส.ส. Labor รัฐบาลกลางเขต Corio ในรัฐวิกตอเรียตั้งแต่ปี 2007 และเป็นรองนายกรัฐมนตรีกับรัฐมนตรีกลาโหมของออสเตรเลียตั้งแต่ปี 2022",
+      si: "2007 සිට Victoria හි Corio නියෝජනය කරන Federal Labor MP වන අතර 2022 සිට Australia's Deputy Prime Minister සහ Minister for Defence වේ."
+    },
+    positions: {
+      "zh-Hans": [
+        "国防战略：支持按 2024 National Defence Strategy 和后续计划，把军力建设转向远程打击、海上能力和印太威慑。",
+        "AUKUS：主导核动力潜艇、先进技术合作和相关产业能力建设。",
+        "产业与技术：主张加快国防创新、主权工业能力和与盟友及本地研究机构的合作。"
+      ],
+      "zh-Hant": [
+        "國防戰略：支持按 2024 National Defence Strategy 和後續計畫，把軍力建設轉向遠程打擊、海上能力和印太威懾。",
+        "AUKUS：主導核動力潛艇、先進技術合作和相關產業能力建設。",
+        "產業與技術：主張加快國防創新、主權工業能力和與盟友及本地研究機構的合作。"
+      ],
+      en: [
+        "Defence strategy: backs shifting force design toward long-range strike, maritime capability and Indo-Pacific deterrence under the 2024 National Defence Strategy and later plans.",
+        "AUKUS: leads Australia's nuclear-powered submarine program, advanced-technology cooperation and related industrial build-up.",
+        "Industry and technology: argues for faster defence innovation, sovereign industrial capability and deeper work with allies and Australian research partners."
+      ],
+      es: [
+        "Estrategia de defensa: apoya orientar la fuerza hacia ataque de largo alcance, capacidad marítima y disuasión en el Indo-Pacífico bajo la National Defence Strategy de 2024 y planes posteriores.",
+        "AUKUS: lidera el programa australiano de submarinos de propulsión nuclear, la cooperación tecnológica avanzada y la expansión industrial relacionada.",
+        "Industria y tecnología: defiende acelerar la innovación de defensa, la capacidad industrial soberana y la cooperación con aliados e investigadores australianos."
+      ],
+      ja: [
+        "防衛戦略：2024 National Defence Strategy と後続計画に沿い、長射程攻撃、海洋能力、インド太平洋での抑止へ戦力設計を移す立場です。",
+        "AUKUS：原子力潜水艦計画、先端技術協力、関連する産業基盤づくりを担当しています。",
+        "産業と技術：防衛イノベーション、主権的産業能力、同盟国や国内研究機関との連携を速めるべきだと主張しています。"
+      ],
+      ko: [
+        "국방 전략: 2024 National Defence Strategy와 후속 계획에 따라 장거리 타격, 해양 전력, 인도태평양 억지로 전력 설계를 전환하는 입장입니다.",
+        "AUKUS: 호주의 핵추진 잠수함 계획, 첨단기술 협력, 관련 산업 역량 확충을 이끌고 있습니다.",
+        "산업과 기술: 국방 혁신, 주권적 산업 역량, 동맹 및 호주 연구 파트너와의 협력을 더 빠르게 추진해야 한다고 주장합니다."
+      ],
+      vi: [
+        "Chiến lược quốc phòng: ủng hộ chuyển thiết kế lực lượng sang tấn công tầm xa, năng lực hàng hải và răn đe Ấn Độ Dương-Thái Bình Dương theo National Defence Strategy 2024 và các kế hoạch sau đó.",
+        "AUKUS: dẫn dắt chương trình tàu ngầm chạy bằng năng lượng hạt nhân, hợp tác công nghệ tiên tiến và xây dựng năng lực công nghiệp liên quan.",
+        "Công nghiệp và công nghệ: thúc đẩy đổi mới quốc phòng nhanh hơn, năng lực công nghiệp chủ quyền và hợp tác sâu hơn với đồng minh cùng giới nghiên cứu Australia."
+      ],
+      th: [
+        "ยุทธศาสตร์กลาโหม: สนับสนุนการปรับกำลังไปสู่การโจมตีระยะไกล ขีดความสามารถทางทะเล และการยับยั้งในอินโด-แปซิฟิกตาม National Defence Strategy 2024 และแผนต่อมา",
+        "AUKUS: รับผิดชอบโครงการเรือดำน้ำพลังงานนิวเคลียร์ ความร่วมมือเทคโนโลยีขั้นสูง และการสร้างฐานอุตสาหกรรมที่เกี่ยวข้อง",
+        "อุตสาหกรรมและเทคโนโลยี: ผลักดันนวัตกรรมกลาโหมที่เร็วขึ้น ขีดความสามารถอุตสาหกรรมในประเทศ และความร่วมมือกับพันธมิตรกับนักวิจัยออสเตรเลีย"
+      ],
+      si: [
+        "Defence strategy: 2024 National Defence Strategy සහ පසුව ඇති plans යටතේ long-range strike, maritime capability සහ Indo-Pacific deterrence වෙත force design මාරු කිරීම සහාය දක්වයි.",
+        "AUKUS: Australia's nuclear-powered submarine program, advanced-technology cooperation සහ related industrial build-up නායකත්වය දක්වයි.",
+        "Industry and technology: faster defence innovation, sovereign industrial capability සහ allies හා Australian research partners සමඟ deeper work සඳහා තර්ක කරයි."
+      ]
+    }
+  },
+  {
     name: "Stephanie Tully",
     aliases: ["Stephanie Tully", "Steph Tully", "斯蒂芬妮·塔利", "史蒂芬妮·塔利", "ステファニー・タリー", "스테퍼니 털리"],
     type: "executive",
