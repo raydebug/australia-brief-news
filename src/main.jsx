@@ -4174,6 +4174,43 @@ const PEOPLE_CONTEXT = [
       th: "ประเด็นสำคัญคือการส่งมอบโครงการคมนาคม ขนส่งสาธารณะ ผู้หญิงและความเท่าเทียมทางเพศ สุขภาพจิต นโยบาย First Peoples และการแทนชุมชน southeast Melbourne",
       si: "Transport delivery, public transport, women/gender equality, mental health, First Peoples policy සහ south-east Melbourne representation ඇයගේ priorities වේ."
     }
+  },
+  {
+    name: "Misha Schubert",
+    aliases: ["Misha Schubert", "Misha Schubert AM", "米莎·舒伯特", "米莎·舒伯特", "ミーシャ・シューベルト", "미샤 슈버트"],
+    type: "executive",
+    profile: { label: "Super Members Council profile", url: "https://supermemberscouncil.com.au/about-us/our-people/" },
+    social: { label: "LinkedIn", url: "https://www.linkedin.com/in/mishaschubert/" },
+    personalSocial: { label: "X", url: "https://x.com/mishaschubert" },
+    background: {
+      "zh-Hans": "Super Members Council 首席执行官，曾领导 Science & Technology Australia，并长期从事公共政策、倡议和成员组织代表工作。",
+      "zh-Hant": "Super Members Council 行政總裁，曾領導 Science & Technology Australia，並長期從事公共政策、倡議和會員組織代表工作。",
+      en: "Chief executive officer of Super Members Council, former head of Science & Technology Australia, with a long background in public policy, advocacy and member-based representation.",
+      es: "Directora ejecutiva de Super Members Council y exdirectora de Science & Technology Australia, con trayectoria en política pública, incidencia y representación de organizaciones miembro.",
+      ja: "Super Members Council の最高経営責任者。Science & Technology Australia の元代表で、公共政策、提言、会員組織の代表活動に長く携わっています。",
+      ko: "Super Members Council 최고경영자이며 Science & Technology Australia 전 대표로, 공공정책, advocacy, 회원 기반 대표 활동 경력이 깁니다.",
+      vi: "Tổng giám đốc Super Members Council, cựu lãnh đạo Science & Technology Australia, có nền tảng lâu năm về chính sách công, vận động và đại diện tổ chức thành viên.",
+      th: "ประธานเจ้าหน้าที่บริหารของ Super Members Council อดีตหัวหน้า Science & Technology Australia มีประสบการณ์ยาวนานด้านนโยบายสาธารณะ advocacy และการเป็นตัวแทนองค์กรสมาชิก",
+      si: "Super Members Council chief executive officer වේ; Science & Technology Australia හි හිටපු head කෙනෙකු වන අතර public policy, advocacy සහ member-based representation පිළිබඳ දිගු පසුබිමක් ඇත."
+    }
+  },
+  {
+    name: "Julie Inman Grant",
+    aliases: ["Julie Inman Grant", "Julie Inman-Grant", "Julie Inman Grant eSafety", "朱莉·因曼·格兰特", "朱莉·因曼·格蘭特", "ジュリー・インマン・グラント", "줄리 인먼 그랜트"],
+    type: "public-office-holder",
+    profile: { label: "eSafety Commissioner profile", url: "https://www.esafety.gov.au/about-us/who-we-are/esafety-commissioner" },
+    officialProfile: { label: "eSafety biography", url: "https://www.esafety.gov.au/about-us/who-we-are/esafety-commissioner" },
+    background: {
+      "zh-Hans": "澳大利亚 eSafety Commissioner，负责网络安全监管、平台责任和在线伤害应对；此前曾在 Microsoft、Twitter 和 Adobe 担任公共政策与安全相关职务。",
+      "zh-Hant": "澳洲 eSafety Commissioner，負責網絡安全監管、平台責任和網上傷害應對；此前曾在 Microsoft、Twitter 和 Adobe 擔任公共政策與安全相關職務。",
+      en: "Australia's eSafety Commissioner, responsible for online-safety regulation, platform accountability and responses to online harms, after public-policy and safety roles at Microsoft, Twitter and Adobe.",
+      es: "Comisionada de eSafety de Australia, responsable de regulación de seguridad online, responsabilidad de plataformas y respuesta a daños digitales, tras cargos de política pública y seguridad en Microsoft, Twitter y Adobe.",
+      ja: "豪州の eSafety Commissioner。オンライン安全規制、プラットフォーム責任、オンライン被害対応を担当し、以前は Microsoft、Twitter、Adobe で公共政策・安全関連職を務めました。",
+      ko: "호주의 eSafety Commissioner로 온라인 안전 규제, 플랫폼 책임, 온라인 피해 대응을 담당하며, 이전에는 Microsoft, Twitter, Adobe에서 공공정책 및 안전 관련 업무를 맡았습니다.",
+      vi: "Ủy viên eSafety của Australia, phụ trách quản lý an toàn trực tuyến, trách nhiệm nền tảng và ứng phó tác hại online, sau các vai trò chính sách công và an toàn tại Microsoft, Twitter và Adobe.",
+      th: "eSafety Commissioner ของออสเตรเลีย รับผิดชอบการกำกับความปลอดภัยออนไลน์ ความรับผิดชอบของแพลตฟอร์ม และการรับมืออันตรายออนไลน์ หลังเคยทำงานด้านนโยบายสาธารณะและความปลอดภัยที่ Microsoft, Twitter และ Adobe",
+      si: "Australia's eSafety Commissioner වේ; online-safety regulation, platform accountability සහ online harms responses භාරව සිටින අතර Microsoft, Twitter සහ Adobe හි public-policy/safety roles දැරීය."
+    }
   }
 ];
 
