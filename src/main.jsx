@@ -721,6 +721,11 @@ function initialShowPeopleContext() {
   return window.localStorage.getItem("brief-show-people-context") === "true";
 }
 
+function initialHeatFilter() {
+  const value = Number(window.localStorage.getItem("brief-heat-filter") || 0);
+  return Number.isInteger(value) && value >= 0 && value <= 4 ? value : 0;
+}
+
 function newsSourceUrl(language) {
   if (NEWS_SOURCE_TEMPLATE.includes("{lang}")) {
     return NEWS_SOURCE_TEMPLATE.replace("{lang}", language);
@@ -4873,7 +4878,7 @@ function App() {
   const [activeId, setActiveId] = useState(sharedId);
   const [query, setQuery] = useState("");
   const [mode, setMode] = useState("all");
-  const [heatFilter, setHeatFilter] = useState(0);
+  const [heatFilter, setHeatFilter] = useState(initialHeatFilter);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [expandedId, setExpandedId] = useState(sharedId);
@@ -4946,6 +4951,10 @@ function App() {
   useEffect(() => {
     window.localStorage.setItem("brief-show-people-context", String(showPeopleContext));
   }, [showPeopleContext]);
+
+  useEffect(() => {
+    window.localStorage.setItem("brief-heat-filter", String(heatFilter));
+  }, [heatFilter]);
 
   useEffect(() => {
     return () => {
