@@ -874,6 +874,25 @@ function hasSpecificCommentary(commentary) {
 
 const PEOPLE_CONTEXT = [
   {
+    name: "Charlie Shahin",
+    aliases: ["Charlie Shahin", "Charlie Shahin AO", "Billionaire Charlie Shahin", "Khalil Shahin", "Khalil (Charlie) Shahin", "Professor Khalil Shahin AO", "查理·沙欣", "查理·沙欣 AO"],
+    type: "executive",
+    profile: { label: "Personal website", url: "https://charlieshahin.com/" },
+    officialProfile: { label: "LinkedIn profile", url: "https://au.linkedin.com/in/khalil-charlie-shahin-ao" },
+    social: { label: "LinkedIn", url: "https://au.linkedin.com/in/khalil-charlie-shahin-ao" },
+    background: {
+      "zh-Hans": "南澳企业家、慈善人士和 ATAYF Family Office 执行主席；Shahin 家族曾经营 OTR/Peregrine 便利零售业务，并继续投资地产、农业和其他资产。",
+      "zh-Hant": "南澳企業家、慈善人士和 ATAYF Family Office 執行主席；Shahin 家族曾經營 OTR/Peregrine 便利零售業務，並繼續投資地產、農業和其他資產。",
+      en: "South Australian entrepreneur, philanthropist and executive chairman of ATAYF Family Office; the Shahin family formerly built the OTR/Peregrine convenience retail business and continues to invest in property, agriculture and other assets.",
+      es: "Empresario y filántropo de Australia Meridional, presidente ejecutivo de ATAYF Family Office; la familia Shahin desarrolló antes el negocio minorista OTR/Peregrine y sigue invirtiendo en propiedades, agricultura y otros activos.",
+      ja: "南オーストラリア州の起業家、慈善家で、ATAYF Family Office のエグゼクティブ・チェアマン。Shahin 家はかつて OTR/Peregrine のコンビニ事業を築き、現在も不動産、農業などに投資しています。",
+      ko: "사우스오스트레일리아의 기업가이자 자선가, ATAYF Family Office 집행 회장입니다. Shahin 가문은 과거 OTR/Peregrine 편의점 사업을 키웠고 부동산, 농업 등 자산 투자를 이어가고 있습니다.",
+      vi: "Doanh nhân và nhà từ thiện ở Nam Australia, chủ tịch điều hành ATAYF Family Office; gia đình Shahin từng xây dựng mảng bán lẻ tiện lợi OTR/Peregrine và tiếp tục đầu tư vào bất động sản, nông nghiệp cùng các tài sản khác.",
+      th: "ผู้ประกอบการและนักการกุศลในรัฐเซาท์ออสเตรเลีย ประธานบริหาร ATAYF Family Office; ครอบครัว Shahin เคยสร้างธุรกิจค้าปลีกสะดวกซื้อ OTR/Peregrine และยังลงทุนในอสังหาริมทรัพย์ เกษตรกรรม และสินทรัพย์อื่น",
+      si: "South Australia ව්‍යවසායකයෙකු, philanthropist සහ ATAYF Family Office executive chairman වේ; Shahin පවුල OTR/Peregrine convenience retail business එක ගොඩනැගූ අතර property, agriculture සහ වෙනත් assets වල ආයෝජනය කරයි."
+    }
+  },
+  {
     name: "Stephanie Tully",
     aliases: ["Stephanie Tully", "Steph Tully", "斯蒂芬妮·塔利", "史蒂芬妮·塔利", "ステファニー・タリー", "스테퍼니 털리"],
     type: "executive",
@@ -2719,9 +2738,10 @@ const PEOPLE_CONTEXT = [
   },
   {
     name: "David Connolly",
-    aliases: ["David Connolly", "大卫·康诺利", "大衛·康諾利", "デービッド・コノリー", "데이비드 코널리"],
+    aliases: ["David Connolly", "Administrator David Connolly", "NT Administrator David Connolly", "大卫·康诺利", "大衛·康諾利", "デービッド・コノリー", "데이비드 코널리"],
     type: "public-figure",
-    social: { label: "Official profile", url: "https://govhouse.nt.gov.au/the-administrator/about-the-administrator" },
+    profile: { label: "Government House profile", url: "https://govhouse.nt.gov.au/the-administrator/about-the-administrator" },
+    officialProfile: { label: "Official biography", url: "https://govhouse.nt.gov.au/the-administrator/about-the-administrator" },
     background: {
       "zh-Hans": "北领地第 24 任行政长官，2026 年 2 月宣誓就职，角色类似州督，代表王权且不参与政治程序。任职前长期在牧业、农业投资和乡村产业机构任职，曾任 NT Cattlemen's Association 主席。",
       "zh-Hant": "北領地第 24 任行政長官，2026 年 2 月宣誓就職，角色類似州督，代表王權且不參與政治程序。任職前長期在牧業、農業投資和鄉村產業機構任職，曾任 NT Cattlemen's Association 主席。",
