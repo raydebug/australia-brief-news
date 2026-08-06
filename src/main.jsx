@@ -2690,6 +2690,37 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Tanya Plibersek",
+    aliases: ["Tanya Plibersek", "Tanya Joan Plibersek", "Hon Tanya Plibersek MP", "The Hon Tanya Plibersek MP", "坦娅·普利伯塞克", "坦雅·普利伯塞克", "タニア・プリバーセック", "타냐 플리버섹"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.aph.gov.au/t_plibersek_mp" },
+    officialProfile: { label: "Official website", url: "https://www.tanyaplibersek.com/" },
+    social: { label: "X", url: "https://x.com/tanya_plibersek" },
+    personalSocial: { label: "Facebook", url: "https://www.facebook.com/tanya.plibersek/" },
+    background: {
+      "zh-Hans": "澳大利亚工党政治人物，1998 年起代表悉尼选区进入联邦众议院，2025 年起任社会服务部长；此前曾任副反对党领袖、环境与水资源部长、卫生部长和住房部长。",
+      "zh-Hant": "澳洲工黨政治人物，1998 年起代表雪梨選區進入聯邦眾議院，2025 年起任社會服務部長；此前曾任副反對黨領袖、環境與水資源部長、衛生部長和住房部長。",
+      en: "Australian Labor politician and federal MP for Sydney since 1998, serving as Minister for Social Services since 2025 after earlier roles as deputy opposition leader, environment and water minister, health minister and housing minister.",
+      es: "Política laborista australiana y diputada federal por Sydney desde 1998; es ministra de Servicios Sociales desde 2025, tras cargos como vice-líder de la oposición, ministra de Medio Ambiente y Agua, Salud y Vivienda.",
+      ja: "1998年から Sydney 選出の連邦下院議員を務める豪州労働党の政治家。2025年から社会サービス相で、以前は野党副党首、環境・水資源相、保健相、住宅相を歴任しました。",
+      ko: "1998년부터 Sydney를 대표한 호주 노동당 연방 하원의원입니다. 2025년부터 사회서비스 장관이며, 앞서 야당 부대표, 환경·수자원 장관, 보건 장관, 주택 장관을 지냈습니다.",
+      vi: "Chính trị gia Labor Úc và nghị sĩ liên bang khu Sydney từ năm 1998, giữ chức Minister for Social Services từ năm 2025 sau các vai trò deputy opposition leader, bộ trưởng môi trường và nước, y tế và nhà ở.",
+      th: "นักการเมือง Labor ของออสเตรเลียและ ส.ส. รัฐบาลกลางเขต Sydney ตั้งแต่ปี 1998 ดำรงตำแหน่ง Minister for Social Services ตั้งแต่ปี 2025 หลังเคยเป็น deputy opposition leader รัฐมนตรีสิ่งแวดล้อมและน้ำ สาธารณสุข และที่อยู่อาศัย",
+      si: "1998 සිට Sydney federal MP ලෙස කටයුතු කරන Australian Labor දේශපාලනඥයෙකි; 2025 සිට Minister for Social Services වන අතර පෙර deputy opposition leader, environment and water minister, health minister සහ housing minister ලෙස කටයුතු කළාය."
+    },
+    positions: {
+      "zh-Hans": "主要关注社会服务、家庭和性别暴力应对、住房、环境保护、医疗和女性事务；在社会服务部长任内负责福利体系、家庭与儿童安全以及国家反家暴政策中的联邦协调。",
+      "zh-Hant": "主要關注社會服務、家庭和性別暴力應對、住房、環境保護、醫療和女性事務；在社會服務部長任內負責福利體系、家庭與兒童安全以及國家反家暴政策中的聯邦協調。",
+      en: "Her policy profile spans social services, family and gendered-violence responses, housing, environment protection, health and women's affairs. As social services minister she is tied to welfare settings, family and child safety, and federal coordination on national domestic-violence policy.",
+      es: "Su agenda abarca servicios sociales, respuestas a violencia familiar y de género, vivienda, protección ambiental, salud y asuntos de mujeres. Como ministra de Servicios Sociales está vinculada a bienestar, seguridad familiar e infantil y coordinación federal contra la violencia doméstica.",
+      ja: "社会サービス、家庭・ジェンダー暴力対応、住宅、環境保護、医療、女性政策を扱ってきました。社会サービス相としては福祉制度、家族と子どもの安全、家庭内暴力対策の連邦調整に関わります。",
+      ko: "사회서비스, 가족·젠더 폭력 대응, 주거, 환경보호, 보건, 여성 정책을 다뤄 왔습니다. 사회서비스 장관으로서는 복지 제도, 가족·아동 안전, 전국 가정폭력 정책의 연방 조정과 관련됩니다.",
+      vi: "Hồ sơ chính sách của bà bao gồm dịch vụ xã hội, ứng phó bạo lực gia đình và giới, nhà ở, bảo vệ môi trường, y tế và vấn đề phụ nữ. Với vai trò Minister for Social Services, bà gắn với phúc lợi, an toàn gia đình và trẻ em, cùng điều phối liên bang về chính sách chống bạo lực gia đình.",
+      th: "ประเด็นของเธอครอบคลุม social services การรับมือความรุนแรงในครอบครัวและ gendered violence ที่อยู่อาศัย สิ่งแวดล้อม สาธารณสุข และกิจการสตรี ในฐานะ Minister for Social Services เธอเกี่ยวข้องกับระบบสวัสดิการ ความปลอดภัยของครอบครัวและเด็ก และการประสานนโยบาย domestic violence ระดับรัฐบาลกลาง",
+      si: "ඇයගේ policy profile එක social services, family/gendered-violence responses, housing, environment protection, health සහ women's affairs ආවරණය කරයි. Social services minister ලෙස welfare settings, family/child safety සහ national domestic-violence policy සඳහා federal coordination සමඟ සම්බන්ධය."
+    }
+  },
+  {
     name: "Anika Wells",
     aliases: ["Anika Wells", "Anika Shay Wells", "安妮卡·韦尔斯", "安妮卡·韋爾斯", "アニカ・ウェルズ", "아니카 웰스"],
     type: "politician",
