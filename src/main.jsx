@@ -234,6 +234,10 @@ const I18N = {
     background: "背景",
     politicalPositions: "主要言论",
     socialDiscussions: "热门讨论",
+    dailySocialTrends: "24小时社媒热议",
+    dailySocialTrendsSubtitle: "非新闻讨论",
+    englishSocialTrends: "英文",
+    localSocialTrends: "当前语言",
     socialDiscussionMeta: "热度",
     socialComments: "评论",
     socialShares: "分享",
@@ -278,6 +282,10 @@ const I18N = {
     background: "背景",
     politicalPositions: "主要言論",
     socialDiscussions: "熱門討論",
+    dailySocialTrends: "24小時社媒熱議",
+    dailySocialTrendsSubtitle: "非新聞討論",
+    englishSocialTrends: "英文",
+    localSocialTrends: "目前語言",
     socialDiscussionMeta: "熱度",
     socialComments: "評論",
     socialShares: "分享",
@@ -322,6 +330,10 @@ const I18N = {
     background: "පසුබිම",
     politicalPositions: "ප්‍රධාන අදහස්",
     socialDiscussions: "ජනප්‍රිය සාකච්ඡා",
+    dailySocialTrends: "පැය 24 සමාජ මාධ්‍ය සාකච්ඡා",
+    dailySocialTrendsSubtitle: "පුවත් නොවන සාකච්ඡා",
+    englishSocialTrends: "English",
+    localSocialTrends: "වත්මන් භාෂාව",
     socialDiscussionMeta: "උණුසුම",
     socialComments: "අදහස්",
     socialShares: "බෙදාගැනීම්",
@@ -366,6 +378,10 @@ const I18N = {
     background: "Background",
     politicalPositions: "Main positions",
     socialDiscussions: "Hot discussions",
+    dailySocialTrends: "24h social talk",
+    dailySocialTrendsSubtitle: "Non-news discussions",
+    englishSocialTrends: "English",
+    localSocialTrends: "Current language",
     socialDiscussionMeta: "Engagement",
     socialComments: "comments",
     socialShares: "shares",
@@ -410,6 +426,10 @@ const I18N = {
     background: "Contexto",
     politicalPositions: "Posturas principales",
     socialDiscussions: "Debates populares",
+    dailySocialTrends: "Debates sociales 24 h",
+    dailySocialTrendsSubtitle: "Conversaciones que no son noticias",
+    englishSocialTrends: "Inglés",
+    localSocialTrends: "Idioma actual",
     socialDiscussionMeta: "Interacción",
     socialComments: "comentarios",
     socialShares: "compartidos",
@@ -454,6 +474,10 @@ const I18N = {
     background: "背景",
     politicalPositions: "主な主張",
     socialDiscussions: "話題の議論",
+    dailySocialTrends: "24時間のSNS話題",
+    dailySocialTrendsSubtitle: "ニュース以外の議論",
+    englishSocialTrends: "英語",
+    localSocialTrends: "現在の言語",
     socialDiscussionMeta: "反応",
     socialComments: "コメント",
     socialShares: "共有",
@@ -498,6 +522,10 @@ const I18N = {
     background: "배경",
     politicalPositions: "주요 입장",
     socialDiscussions: "인기 토론",
+    dailySocialTrends: "24시간 소셜 화제",
+    dailySocialTrendsSubtitle: "뉴스가 아닌 토론",
+    englishSocialTrends: "영어",
+    localSocialTrends: "현재 언어",
     socialDiscussionMeta: "반응",
     socialComments: "댓글",
     socialShares: "공유",
@@ -542,6 +570,10 @@ const I18N = {
     background: "Bối cảnh",
     politicalPositions: "Lập trường chính",
     socialDiscussions: "Thảo luận nổi bật",
+    dailySocialTrends: "Thảo luận mạng xã hội 24h",
+    dailySocialTrendsSubtitle: "Chủ đề không phải tin tức",
+    englishSocialTrends: "Tiếng Anh",
+    localSocialTrends: "Ngôn ngữ hiện tại",
     socialDiscussionMeta: "Tương tác",
     socialComments: "bình luận",
     socialShares: "chia sẻ",
@@ -586,6 +618,10 @@ const I18N = {
     background: "พื้นหลัง",
     politicalPositions: "จุดยืนหลัก",
     socialDiscussions: "ประเด็นที่คุยกันมาก",
+    dailySocialTrends: "กระแสโซเชียล 24 ชม.",
+    dailySocialTrendsSubtitle: "ประเด็นที่ไม่ใช่ข่าว",
+    englishSocialTrends: "อังกฤษ",
+    localSocialTrends: "ภาษาปัจจุบัน",
     socialDiscussionMeta: "การมีส่วนร่วม",
     socialComments: "ความคิดเห็น",
     socialShares: "แชร์",
@@ -605,6 +641,7 @@ const I18N = {
 };
 
 const NEWS_SOURCE_TEMPLATE = import.meta.env.VITE_NEWS_SOURCE_URL || "./news.{lang}.json";
+const SOCIAL_TRENDS_SOURCE_TEMPLATE = import.meta.env.VITE_SOCIAL_TRENDS_SOURCE_URL || "./social-trends.{lang}.json";
 const SPEECH_LANGUAGES = {
   "zh-Hans": "zh-CN",
   "zh-Hant": "zh-TW",
@@ -736,6 +773,16 @@ function newsSourceUrl(language) {
   return NEWS_SOURCE_TEMPLATE;
 }
 
+function socialTrendsSourceUrl(language) {
+  if (SOCIAL_TRENDS_SOURCE_TEMPLATE.includes("{lang}")) {
+    return SOCIAL_TRENDS_SOURCE_TEMPLATE.replace("{lang}", language);
+  }
+  if (SOCIAL_TRENDS_SOURCE_TEMPLATE.endsWith("social-trends.json")) {
+    return SOCIAL_TRENDS_SOURCE_TEMPLATE.replace(/social-trends\.json$/, `social-trends.${language}.json`);
+  }
+  return SOCIAL_TRENDS_SOURCE_TEMPLATE;
+}
+
 async function fetchNewsPayload(language) {
   const url = newsSourceUrl(language);
   let response = await fetch(cacheBustedUrl(url), { cache: "no-store" });
@@ -743,6 +790,12 @@ async function fetchNewsPayload(language) {
     response = await fetch(cacheBustedUrl("./news.json"), { cache: "no-store" });
   }
   if (!response.ok) throw new Error("news.json not found");
+  return response.json();
+}
+
+async function fetchOptionalJson(url) {
+  const response = await fetch(cacheBustedUrl(url), { cache: "no-store" });
+  if (!response.ok) return null;
   return response.json();
 }
 
@@ -5311,6 +5364,15 @@ function discussionMeta(item, labels) {
   return parts.length ? `${labels.socialDiscussionMeta}: ${parts.join(" · ")}` : item.postedAt || "";
 }
 
+function normalizeSocialTrendItems(payload, language) {
+  const items = Array.isArray(payload?.items) ? payload.items : [];
+  return items
+    .filter((item) => item?.platform && item?.title && item?.url)
+    .map((item) => ({ ...item, language: item.language || language }))
+    .sort((a, b) => Number(b.score || 0) - Number(a.score || 0))
+    .slice(0, 3);
+}
+
 function SocialDiscussionList({ discussions, labels }) {
   if (!discussions.length) return null;
 
@@ -5326,6 +5388,43 @@ function SocialDiscussionList({ discussions, labels }) {
         ))}
       </div>
     </article>
+  );
+}
+
+function DailySocialTrendsPanel({ englishItems, localItems, labels, language }) {
+  if (!englishItems.length && !localItems.length) return null;
+
+  return (
+    <section className="daily-social-panel">
+      <div className="daily-social-header">
+        <div>
+          <strong>{labels.dailySocialTrends}</strong>
+          <span>{labels.dailySocialTrendsSubtitle}</span>
+        </div>
+        <Flame size={18} />
+      </div>
+      <div className="daily-social-groups">
+        {englishItems.length > 0 && (
+          <SocialTrendGroup title={labels.englishSocialTrends} items={englishItems} labels={labels} />
+        )}
+        {language !== "en" && localItems.length > 0 && (
+          <SocialTrendGroup title={labels.localSocialTrends} items={localItems} labels={labels} />
+        )}
+      </div>
+    </section>
+  );
+}
+
+function SocialTrendGroup({ title, items, labels }) {
+  return (
+    <div className="daily-social-group">
+      <h3>{title}</h3>
+      <div className="social-discussion-list daily-social-list">
+        {items.map((item) => (
+          <SocialDiscussionLink item={item} labels={labels} key={`${item.language || "trend"}-${item.platform}-${item.url}`} />
+        ))}
+      </div>
+    </div>
   );
 }
 
@@ -5392,6 +5491,7 @@ function PeopleContextList({ people, labels, language }) {
 function App() {
   const sharedId = initialSharedId();
   const [data, setData] = useState(null);
+  const [socialTrendData, setSocialTrendData] = useState({ en: null, local: null });
   const [activeId, setActiveId] = useState(sharedId);
   const [query, setQuery] = useState("");
   const [mode, setMode] = useState("all");
@@ -5435,8 +5535,24 @@ function App() {
     setLoading(false);
   }
 
+  async function loadSocialTrends() {
+    try {
+      const [englishPayload, localPayload] = await Promise.all([
+        fetchOptionalJson(socialTrendsSourceUrl("en")),
+        language === "en" ? Promise.resolve(null) : fetchOptionalJson(socialTrendsSourceUrl(language))
+      ]);
+      setSocialTrendData({ en: englishPayload, local: localPayload });
+    } catch {
+      setSocialTrendData({ en: null, local: null });
+    }
+  }
+
   useEffect(() => {
     loadNews();
+  }, [language]);
+
+  useEffect(() => {
+    loadSocialTrends();
   }, [language]);
 
   useEffect(() => {
@@ -5636,6 +5752,11 @@ function App() {
   const activeCommentary = showCommentary ? getFourNewsCommentary(displayActive, language) : "";
   const activePeople = showPeopleContext ? mentionedPeople(displayActive) : [];
   const activeSocialDiscussions = validSocialDiscussions(displayActive, language);
+  const englishSocialTrends = useMemo(() => normalizeSocialTrendItems(socialTrendData.en, "en"), [socialTrendData.en]);
+  const localSocialTrends = useMemo(
+    () => normalizeSocialTrendItems(socialTrendData.local, language),
+    [language, socialTrendData.local]
+  );
 
   useEffect(() => {
     if (activeId && clusters.length && !clusters.some((cluster) => cluster.id === activeId)) {
@@ -5897,6 +6018,13 @@ function App() {
 
       <section className="list-pane">
         {error && <div className="data-error">{error}</div>}
+
+        <DailySocialTrendsPanel
+          englishItems={englishSocialTrends}
+          localItems={localSocialTrends}
+          labels={labels}
+          language={language}
+        />
 
         <div className="cluster-list">
           {clusters.map((cluster) => {

@@ -15,6 +15,8 @@
 
 内容由 Codex 定时任务每小时更新一次。任务会维护按语言拆分的数据文件，再构建 `docs/` 供 GitHub Pages 发布。
 
+另有每日 Codex 定时任务维护过去 24 小时的澳洲相关非新闻社媒热议，任务提示文件是 `codex-daily-social-trends.prompt.md`。
+
 定时任务生成完成后必须先确认多语言数据一致性：
 
 ```bash
@@ -93,6 +95,20 @@ npm run build
 - 热度按互动速度和总量综合判断，不只看点赞总数。建议基础分：`comments * 3 + shares/reposts * 2 + likes/upvotes`，再按发布时间衰减。
 - 每条新闻最多保留 5 个代表性讨论，按 `score` 降序。
 - 不同语言可以有不同的 `socialDiscussions`。同一语言的 `public/news.{lang}.json` 和 `docs/news.{lang}.json` 必须保持一致；`public/news.json` 作为旧入口，跟随简体中文。
+
+### 每日非新闻社媒热议
+
+站点级热议数据独立于单条新闻，文件为 `public/social-trends.{lang}.json`。它用于列出过去 24 小时澳洲相关、但不以新闻报道为主体的公开社媒讨论前三。
+
+生成规则：
+
+- 英文热议写入 `public/social-trends.en.json`，在所有语言界面中默认显示。
+- 非英文热议按当前支持语言分别写入 `public/social-trends.zh-Hans.json`、`public/social-trends.zh-Hant.json`、`public/social-trends.si.json`、`public/social-trends.ja.json`、`public/social-trends.ko.json`、`public/social-trends.vi.json`、`public/social-trends.th.json`、`public/social-trends.es.json`。
+- 页面只显示英文组和当前界面语言组，不同时展示所有语言。
+- 非英文文件必须是真实对应语言的公开讨论，不要把英文帖子翻译后塞入多语言文件。
+- 排除普通新闻链接、突发新闻、媒体报道转载、发布者新闻帖和普通搜索结果。优先选生活经验、社区问题、住房、移民、学习、工作、体育闲聊、澳洲文化、公共服务体验等社交讨论。
+- 每个文件最多 3 条，按 `score` 降序。基础热度分建议为 `comments * 3 + shares/reposts * 2 + likes/upvotes`，并根据澳洲相关性和发布时间衰减。
+- `docs/social-trends.{lang}.json` 必须由 build 后与 `public/` 对应文件保持一致。
 
 ### 人物链接规则
 
