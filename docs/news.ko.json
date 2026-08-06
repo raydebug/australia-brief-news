@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T00:10:32.054Z",
+  "updatedAt": "2026-08-06T01:14:59.211Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -101,26 +101,26 @@
     }
   ],
   "errors": [
-    "news.com.au and The Australian were harvested from article-level results because the stable latest pages were inconsistent.",
-    "Sky News Australia and Yahoo News Australia still did not expose stable current-week Australia listings."
+    "news.com.au and The Australian latest pages were still inconsistent; article-level results or alternate source pages were used where needed.",
+    "Sky News Australia and Yahoo News Australia did not expose stable current-week Australia listings this run."
   ],
   "clusters": [
     {
-      "id": "ai-productivity-jobs-australia-20260805",
+      "id": "ed-husic-car-crash-20260805",
       "language": "ko",
-      "headline": "EY는 AI가 생산성을 끌어올리고 호주 일자리를 늘릴 수 있다고 전망",
+      "headline": "교통사고로 골절과 뇌진탕을 입은 Ed Husic 퇴원",
       "sourceCount": 2,
-      "publishedAt": "2026-08-05T17:30:00.000Z",
-      "voiceScript": "EY의 새 추산에 따르면 인공지능은 앞으로 10년 동안 호주의 생산성을 최대 2.4% 끌어올리고 약 4만 4천 개의 추가 일자리를 만들 수 있습니다. 기업이 기술을 빠르게 도입하고 노동자 재교육을 따라간다면 국내총생산도 크게 늘어날 수 있다는 전망입니다. 호주는 오랫동안 생산성 정체에 묶여 있었기 때문에 이 논의는 생활수준, 에너지 사용, 데이터센터 규칙까지 이어집니다. 정책이 투자 속도를 따라잡을 수 있는지, 그리고 이익이 대기업에만 머물지 않는지가 남은 질문입니다.",
+      "publishedAt": "2026-08-06T00:43:28.000Z",
+      "voiceScript": "시드니 M7에서 트럭이 차량을 들이받은 뒤 노동당 의원 Ed Husic은 병원에서 퇴원했습니다. 그는 찰과상과 골절, 뇌진탕을 입었고 회복 기간 동안 의정 활동을 잠시 쉬게 됩니다. 평범한 이동이 주요 통근 도로에서의 중상 사건으로 바뀌었다는 점에서 이번 일은 중요합니다. 경찰은 아직 상황을 확인 중이며, 의사들이 괜찮다고 하면 의회로 복귀할 예정입니다.",
       "differences": [],
       "links": [
         {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/report-reveals-extent-of-ai-boost-to-australian-economy"
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/06/ed-husic-car-accident-sydney-labor-mp-ntwnfb"
         },
         {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/policy/economy/ai-could-create-jobs-not-destroy-them-ey-20260805-p60lkc"
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/extremely-grateful-labor-mp-recovering-after-crash"
         }
       ],
       "socialDiscussions": {
@@ -128,21 +128,11 @@
           {
             "platform": "Reddit",
             "community": "r/australia",
-            "author": "pixxxiemalone",
-            "title": "Don't be fooled, Albanese's 'AI investment' won't create mass jobs - Greg Jericho",
-            "url": "https://www.reddit.com/r/australia/comments/1uxkpqj/dont_be_fooled_albaneses_ai_investment_wont/",
-            "postedAt": "2026-07-16T00:33:55.000Z",
-            "comments": 330,
-            "upvotes": 645,
-            "score": 1200
-          },
-          {
-            "platform": "Facebook",
-            "account": "The Queenslander",
-            "title": "Artificial intelligence could lift productivity in Australia by up to 2.4 per cent",
-            "url": "https://www.facebook.com/TheQldr/posts/artificial-intelligence-could-lift-productivity-in-australia-by-up-to-24-per-cen/1076780434922089/",
+            "author": "DazDaSpazz",
+            "title": "Labor MP Ed Husic taken to hospital with fractures and concussion after car accident",
+            "url": "https://www.reddit.com/r/australia/comments/1vgn9fb/labor_mp_ed_husic_taken_to_hospital_with/",
             "postedAt": "2026-08-06",
-            "score": 5
+            "score": 15
           }
         ]
       }
@@ -187,32 +177,73 @@
       }
     },
     {
-      "id": "ed-husic-car-crash-20260805",
+      "id": "albury-hospital-transfer-delays-20260805",
       "language": "ko",
-      "headline": "교통사고로 골절과 뇌진탕을 입은 Ed Husic 퇴원",
+      "headline": "케이트 맨리 사망 사건으로 앨버리 병원 이송 지연 조사",
       "sourceCount": 1,
-      "publishedAt": "2026-08-05T22:52:51.000Z",
-      "voiceScript": "시드니 M7에서 트럭이 차량을 들이받은 뒤 노동당 의원 Ed Husic은 병원에서 퇴원했습니다. 그는 찰과상과 골절, 뇌진탕을 입었고 회복 기간 동안 의정 활동을 잠시 쉬게 됩니다. 평범한 이동이 주요 통근 도로에서의 중상 사건으로 바뀌었다는 점에서 이번 일은 중요합니다. 경찰은 아직 상황을 확인 중이며, 의사들이 괜찮다고 하면 의회로 복귀할 예정입니다.",
+      "publishedAt": "2026-08-05T23:35:59.000Z",
+      "voiceScript": "뉴사우스웨일스주 검시 심문이 시작돼 케이트 맨리 씨가 앨버리 베이스 병원에서 숨지기 전 어떤 치료를 받았는지 살피고 있습니다. 쟁점은 이송 지연과 정신건강 병동에서의 처치가 당시 요구된 기준에 맞았는지입니다. 병원 인계에 문제가 생기면 원래는 대응할 수 있었던 위기가 치명적 결과로 이어질 수 있습니다. 심문은 앞으로 2주 동안 이어지며 의료진과 가족 진술이 더 나올 예정입니다.",
       "differences": [],
       "links": [
         {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/06/ed-husic-car-accident-sydney-labor-mp-ntwnfb"
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/kate-manley-albury-hospital-coronial-inquest-nolan-house/107000908"
+        }
+      ]
+    },
+    {
+      "id": "vni-west-farmers-fined-20260805",
+      "language": "ko",
+      "headline": "VNI West 조사 접근을 막은 빅토리아 농민들에 벌금",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T23:30:30.000Z",
+      "voiceScript": "VNI West 송전 프로젝트에 반대하는 빅토리아의 토지 소유자들이 조사 작업을 위한 출입을 거부한 뒤 벌금을 부과받았습니다. 쟁점은 환경 점검과 계획을 계속하기 위해 허가받은 직원들이 사유지에 들어갈 수 있어야 하느냐는 것입니다. VNI West는 주의 재생에너지 확대 계획의 일부이지만, 토지 출입을 둘러싼 갈등은 공사를 늦추고 농촌 지역과 전력망 확장 사이의 긴장을 키울 수 있습니다. 이제 이 분쟁이 법원으로 더 가는지, 아니면 정부가 사업 방식을 다시 보게 되는지가 다음 단계입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/farmers-fined-for-blocking-access-for-transmission-lines-vic/106998866"
         }
       ],
       "socialDiscussions": {
         "en": [
           {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "author": "DazDaSpazz",
-            "title": "Labor MP Ed Husic taken to hospital with fractures and concussion after car accident",
-            "url": "https://www.reddit.com/r/australia/comments/1vgn9fb/labor_mp_ed_husic_taken_to_hospital_with/",
+            "platform": "Facebook",
+            "account": "The Weekly Times",
+            "title": "The state government has fined 12 Victorian farmers who blocked VicGrid officers from accessing their properties",
+            "url": "https://www.facebook.com/theweeklytimesau/posts/the-state-government-has-fined-12-victorian-farmers-who-blocked-vicgrid-officers/1458969046254769/",
+            "postedAt": "2026-08-05",
+            "score": 10
+          },
+          {
+            "platform": "Facebook",
+            "account": "Victorian Farmers Federation",
+            "title": "This isn't it: threatening landholders with fines for a failed project",
+            "url": "https://www.facebook.com/VicFarmers/posts/this-isnt-it%EF%B8%8F%EF%B8%8Fthreatening-landholders-with-fines-for-a-failed-project-thats-tear/1507157334782364/",
             "postedAt": "2026-08-06",
-            "score": 15
+            "score": 8
           }
         ]
       }
+    },
+    {
+      "id": "news-corp-ai-scraping-australia-20260805",
+      "language": "ko",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T23:24:14.000Z",
+      "headline": "뉴스 코프 실적이 호주 AI 스크래핑 논쟁을 더 뜨겁게 만들었다",
+      "voiceScript": "뉴스 코프는 호주 자사 신문 브랜드의 구독자가 거의 백만 명에 이르렀지만, 신문 사업 전체로 보면 디지털 수익과 종이 광고가 약세라고 밝혔다. 회사 최고경영자는 AI 기업과 무단으로 기사 내용을 사들이는 쪽을 강하게 비판했다. 이 이야기는 미디어 수익, 저작권, AI 규제가 한 문제로 얽혀 있음을 보여준다. 앞으로 소송과 라이선스 계약, 새 규칙이 콘텐츠가 모델로 빨려 들어가는 속도를 늦출 수 있을지가 핵심이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/kleptomaniacs-media-empire-vows-to-slay-ai-thieves"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/media/2026/aug/06/news-corp-subscriptions-fall-in-australia-as-company-takes-aim-at-slimy-ai-slop"
+        }
+      ]
     },
     {
       "id": "pineapple-import-biosecurity-warning-20260805",
@@ -257,56 +288,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "vni-west-farmers-fined-20260805",
-      "language": "ko",
-      "headline": "VNI West 조사 접근을 막은 빅토리아 농민들에 벌금",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-05T23:30:30.000Z",
-      "voiceScript": "VNI West 송전 프로젝트에 반대하는 빅토리아의 토지 소유자들이 조사 작업을 위한 출입을 거부한 뒤 벌금을 부과받았습니다. 쟁점은 환경 점검과 계획을 계속하기 위해 허가받은 직원들이 사유지에 들어갈 수 있어야 하느냐는 것입니다. VNI West는 주의 재생에너지 확대 계획의 일부이지만, 토지 출입을 둘러싼 갈등은 공사를 늦추고 농촌 지역과 전력망 확장 사이의 긴장을 키울 수 있습니다. 이제 이 분쟁이 법원으로 더 가는지, 아니면 정부가 사업 방식을 다시 보게 되는지가 다음 단계입니다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-06/farmers-fined-for-blocking-access-for-transmission-lines-vic/106998866"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Facebook",
-            "account": "The Weekly Times",
-            "title": "The state government has fined 12 Victorian farmers who blocked VicGrid officers from accessing their properties",
-            "url": "https://www.facebook.com/theweeklytimesau/posts/the-state-government-has-fined-12-victorian-farmers-who-blocked-vicgrid-officers/1458969046254769/",
-            "postedAt": "2026-08-05",
-            "score": 10
-          },
-          {
-            "platform": "Facebook",
-            "account": "Victorian Farmers Federation",
-            "title": "This isn't it: threatening landholders with fines for a failed project",
-            "url": "https://www.facebook.com/VicFarmers/posts/this-isnt-it%EF%B8%8F%EF%B8%8Fthreatening-landholders-with-fines-for-a-failed-project-thats-tear/1507157334782364/",
-            "postedAt": "2026-08-06",
-            "score": 8
-          }
-        ]
-      }
-    },
-    {
-      "id": "albury-hospital-transfer-delays-20260805",
-      "language": "ko",
-      "headline": "케이트 맨리 사망 사건으로 앨버리 병원 이송 지연 조사",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-05T23:35:59.000Z",
-      "voiceScript": "뉴사우스웨일스주 검시 심문이 시작돼 케이트 맨리 씨가 앨버리 베이스 병원에서 숨지기 전 어떤 치료를 받았는지 살피고 있습니다. 쟁점은 이송 지연과 정신건강 병동에서의 처치가 당시 요구된 기준에 맞았는지입니다. 병원 인계에 문제가 생기면 원래는 대응할 수 있었던 위기가 치명적 결과로 이어질 수 있습니다. 심문은 앞으로 2주 동안 이어지며 의료진과 가족 진술이 더 나올 예정입니다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-06/kate-manley-albury-hospital-coronial-inquest-nolan-house/107000908"
-        }
-      ]
     },
     {
       "id": "liesl-tesch-threats-20260805",
@@ -384,6 +365,86 @@
           }
         ]
       }
+    },
+    {
+      "id": "high-court-secret-recording-dv-20260805",
+      "language": "ko",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T20:53:14.000Z",
+      "headline": "대법원이 가정폭력 사건의 비밀 녹음을 증거로 인정했다",
+      "voiceScript": "호주 대법원은 아내가 남편의 자백을 몰래 녹음한 음성을 강간 사건의 증거로 사용할 수 있다고 판단했다. 법원은 그 녹음이 그녀의 신체 자율성과 안전을 지키기 위해 필요했다고 봤다. 이번 판단은 피해자가 사적으로 모은 폭력의 증거를 법정에서 활용하는 길을 더 넓힌다는 점에서 중요하다. 앞으로 이 논리가 다른 가정폭력 사건과 보호명령에도 얼마나 적용될지가 관건이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/high-court-s-important-victim-decision-on-dv-rape-case"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/high-court-finds-secret-recording-can-be-used-as-evidence-in-domestic-violence-case/id5bu8yhn"
+        }
+      ]
+    },
+    {
+      "id": "ai-productivity-jobs-australia-20260805",
+      "language": "ko",
+      "headline": "EY는 AI가 생산성을 끌어올리고 호주 일자리를 늘릴 수 있다고 전망",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T17:30:00.000Z",
+      "voiceScript": "EY의 새 추산에 따르면 인공지능은 앞으로 10년 동안 호주의 생산성을 최대 2.4% 끌어올리고 약 4만 4천 개의 추가 일자리를 만들 수 있습니다. 기업이 기술을 빠르게 도입하고 노동자 재교육을 따라간다면 국내총생산도 크게 늘어날 수 있다는 전망입니다. 호주는 오랫동안 생산성 정체에 묶여 있었기 때문에 이 논의는 생활수준, 에너지 사용, 데이터센터 규칙까지 이어집니다. 정책이 투자 속도를 따라잡을 수 있는지, 그리고 이익이 대기업에만 머물지 않는지가 남은 질문입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/report-reveals-extent-of-ai-boost-to-australian-economy"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/policy/economy/ai-could-create-jobs-not-destroy-them-ey-20260805-p60lkc"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "Reddit",
+            "community": "r/australia",
+            "author": "pixxxiemalone",
+            "title": "Don't be fooled, Albanese's 'AI investment' won't create mass jobs - Greg Jericho",
+            "url": "https://www.reddit.com/r/australia/comments/1uxkpqj/dont_be_fooled_albaneses_ai_investment_wont/",
+            "postedAt": "2026-07-16T00:33:55.000Z",
+            "comments": 330,
+            "upvotes": 645,
+            "score": 1200
+          },
+          {
+            "platform": "Facebook",
+            "account": "The Queenslander",
+            "title": "Artificial intelligence could lift productivity in Australia by up to 2.4 per cent",
+            "url": "https://www.facebook.com/TheQldr/posts/artificial-intelligence-could-lift-productivity-in-australia-by-up-to-24-per-cen/1076780434922089/",
+            "postedAt": "2026-08-06",
+            "score": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "obeid-family-tax-appeal-20260805",
+      "language": "ko",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T17:30:00.000Z",
+      "headline": "오베이드 가족의 세금 싸움, 석탄 수익 분쟁으로 길어질 수 있다",
+      "voiceScript": "뉴사우스웨일스의 전 노동당 실력자 에디 오베이드의 가족은 석탄 프로젝트 매각으로 얻은 3천만 호주달러의 수익을 둘러싸고 아직도 세무 당국과 다투고 있다. 아내와 아들을 포함한 11명의 가족 또는 배우자가 몇 년째 이어진 최종 항소를 다시 미루려 하고 있다. 이 사건은 거액이면서도 정치적으로 민감한 수익을 세무 당국이 어떻게 다루는지 시험하는 장기전이 됐다. 다음 단계는 법원이 항소를 진행하게 할지, 아니면 가족에게 더 시간을 줄지다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/family-of-corrupt-ex-mp-tries-to-stall-major-tax-appeal"
+        },
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9324897/family-of-corrupt-ex-mp-tries-to-stall-major-tax-appeal/"
+        }
+      ]
     },
     {
       "id": "remote-indigenous-designers-win-darwin-fashion-awards-20260805",
@@ -884,6 +945,25 @@
           }
         ]
       }
+    },
+    {
+      "id": "accc-mobile-network-sharing-20260805",
+      "language": "ko",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T07:37:05.000Z",
+      "headline": "경쟁당국이 지방 휴대전화망 공유를 검토한다",
+      "voiceScript": "경쟁 당국 ACCC가 통신사에 전파가 없을 때 이용자가 다른 망으로 자동 전환할 수 있어야 하는지 조사에 들어갔다. 이번 검토는 국내 로밍과 인프라 공유를 살피며, 특히 지방과 농촌 지역에 초점을 둔다. 최근 텔스트라와 옵터스의 장애가 하나의 망이 멈출 때 커버리지가 얼마나 취약한지 드러냈기 때문이다. 앞으로의 쟁점은 새 기지국 투자 의욕을 해치지 않으면서 신뢰성을 높일 수 있느냐다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/watchdog-may-force-mobile-providers-to-share-network"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/telecommunications/accc-launches-inquiry-that-could-force-telstra-to-share-its-network-20260805-p60lm7"
+        }
+      ]
     },
     {
       "id": "luke-gosling-dpp-assault-prosecution-20260805",

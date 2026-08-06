@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T00:10:32.054Z",
+  "updatedAt": "2026-08-06T01:14:59.211Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -101,26 +101,26 @@
     }
   ],
   "errors": [
-    "news.com.au and The Australian were harvested from article-level results because the stable latest pages were inconsistent.",
-    "Sky News Australia and Yahoo News Australia still did not expose stable current-week Australia listings."
+    "news.com.au and The Australian latest pages were still inconsistent; article-level results or alternate source pages were used where needed.",
+    "Sky News Australia and Yahoo News Australia did not expose stable current-week Australia listings this run."
   ],
   "clusters": [
     {
-      "id": "ai-productivity-jobs-australia-20260805",
+      "id": "ed-husic-car-crash-20260805",
       "language": "zh-Hans",
-      "headline": "EY 认为人工智能可提振生产率并为澳洲增加就业",
+      "headline": "埃德·休西克车祸后出院，骨折并伴有脑震荡",
       "sourceCount": 2,
-      "publishedAt": "2026-08-05T17:30:00.000Z",
-      "voiceScript": "EY 的最新模型显示，人工智能在未来十年内可能把澳洲生产率最多提高 2.4%，并带来大约 44,000 个额外岗位。如果企业能尽快采用技术并重新培训员工，国内生产总值也可能明显增加。之所以重要，是因为澳洲已经被长期的生产率低迷拖住，而这场讨论现在已经延伸到生活水平、能源使用和数据中心规则。真正要看的是政策能否跟上，以及收益会不会只落在大型企业身上。",
+      "publishedAt": "2026-08-06T00:43:28.000Z",
+      "voiceScript": "工党议员埃德·休西克在悉尼 M7 高速上被一辆卡车撞到座车后已经出院。他身上有擦伤、骨折和脑震荡，恢复期间会短暂离开议会工作。之所以重要，是因为一趟普通通勤突然变成了严重交通伤害事件，而且警方仍在继续了解情况。等医生确认可以复工后，他预计会回到国会。",
       "differences": [],
       "links": [
         {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/report-reveals-extent-of-ai-boost-to-australian-economy"
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/06/ed-husic-car-accident-sydney-labor-mp-ntwnfb"
         },
         {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/policy/economy/ai-could-create-jobs-not-destroy-them-ey-20260805-p60lkc"
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/extremely-grateful-labor-mp-recovering-after-crash"
         }
       ],
       "socialDiscussions": {
@@ -128,21 +128,11 @@
           {
             "platform": "Reddit",
             "community": "r/australia",
-            "author": "pixxxiemalone",
-            "title": "Don't be fooled, Albanese's 'AI investment' won't create mass jobs - Greg Jericho",
-            "url": "https://www.reddit.com/r/australia/comments/1uxkpqj/dont_be_fooled_albaneses_ai_investment_wont/",
-            "postedAt": "2026-07-16T00:33:55.000Z",
-            "comments": 330,
-            "upvotes": 645,
-            "score": 1200
-          },
-          {
-            "platform": "Facebook",
-            "account": "The Queenslander",
-            "title": "Artificial intelligence could lift productivity in Australia by up to 2.4 per cent",
-            "url": "https://www.facebook.com/TheQldr/posts/artificial-intelligence-could-lift-productivity-in-australia-by-up-to-24-per-cen/1076780434922089/",
+            "author": "DazDaSpazz",
+            "title": "Labor MP Ed Husic taken to hospital with fractures and concussion after car accident",
+            "url": "https://www.reddit.com/r/australia/comments/1vgn9fb/labor_mp_ed_husic_taken_to_hospital_with/",
             "postedAt": "2026-08-06",
-            "score": 5
+            "score": 15
           }
         ]
       }
@@ -187,32 +177,73 @@
       }
     },
     {
-      "id": "ed-husic-car-crash-20260805",
+      "id": "albury-hospital-transfer-delays-20260805",
       "language": "zh-Hans",
-      "headline": "埃德·休西克车祸后出院，骨折并伴有脑震荡",
+      "headline": "凯特·曼利之死引发阿尔伯里医院转运延误调查",
       "sourceCount": 1,
-      "publishedAt": "2026-08-05T22:52:51.000Z",
-      "voiceScript": "工党议员埃德·休西克在悉尼 M7 高速上被一辆卡车撞到座车后已经出院。他身上有擦伤、骨折和脑震荡，恢复期间会短暂离开议会工作。之所以重要，是因为一趟普通通勤突然变成了严重交通伤害事件，而且警方仍在继续了解情况。等医生确认可以复工后，他预计会回到国会。",
+      "publishedAt": "2026-08-05T23:35:59.000Z",
+      "voiceScript": "新南威尔士州验尸庭已启动，对凯特·曼利在阿尔伯里基地医院去世前所接受的照护展开调查。调查会重点看转运延误以及她在精神健康病房内的处理方式，是否符合当时应有标准。此案重要，因为医院交接一旦出问题，本来还有机会处理的病情也可能迅速恶化为致命结果。接下来两周，法庭还会听取医护人员和家属证词。",
       "differences": [],
       "links": [
         {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/06/ed-husic-car-accident-sydney-labor-mp-ntwnfb"
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/kate-manley-albury-hospital-coronial-inquest-nolan-house/107000908"
+        }
+      ]
+    },
+    {
+      "id": "vni-west-farmers-fined-20260805",
+      "language": "zh-Hans",
+      "headline": "维州农民因阻止 VNI West 勘测进入而被罚款",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T23:30:30.000Z",
+      "voiceScript": "反对 VNI West 输电项目的维州土地持有人，在拒绝勘测人员进入后已被罚款。争议核心是，为了继续环境检查和规划工作，是否应允许授权人员进入私人土地。之所以重要，是因为 VNI West 是州内可再生能源建设的一部分，但土地进入权之争会拖慢施工，也会加深农村社区与电网扩建之间的紧张关系。接下来要看，这场争议会不会进一步进入法院，还是迫使政府重新考虑项目做法。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/farmers-fined-for-blocking-access-for-transmission-lines-vic/106998866"
         }
       ],
       "socialDiscussions": {
         "en": [
           {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "author": "DazDaSpazz",
-            "title": "Labor MP Ed Husic taken to hospital with fractures and concussion after car accident",
-            "url": "https://www.reddit.com/r/australia/comments/1vgn9fb/labor_mp_ed_husic_taken_to_hospital_with/",
+            "platform": "Facebook",
+            "account": "The Weekly Times",
+            "title": "The state government has fined 12 Victorian farmers who blocked VicGrid officers from accessing their properties",
+            "url": "https://www.facebook.com/theweeklytimesau/posts/the-state-government-has-fined-12-victorian-farmers-who-blocked-vicgrid-officers/1458969046254769/",
+            "postedAt": "2026-08-05",
+            "score": 10
+          },
+          {
+            "platform": "Facebook",
+            "account": "Victorian Farmers Federation",
+            "title": "This isn't it: threatening landholders with fines for a failed project",
+            "url": "https://www.facebook.com/VicFarmers/posts/this-isnt-it%EF%B8%8F%EF%B8%8Fthreatening-landholders-with-fines-for-a-failed-project-thats-tear/1507157334782364/",
             "postedAt": "2026-08-06",
-            "score": 15
+            "score": 8
           }
         ]
       }
+    },
+    {
+      "id": "news-corp-ai-scraping-australia-20260805",
+      "language": "zh-Hans",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T23:24:14.000Z",
+      "headline": "新闻集团业绩让澳洲 AI 抓取争议更尖锐",
+      "voiceScript": "新闻集团最新财报显示，澳洲旗下报纸的订户仍接近一百万，但整个新闻业务的数字收入和印刷广告都承受压力。首席执行官罗伯特·汤姆森再次把矛头指向人工智能公司和内容买家，指控他们在未经许可的情况下攫取新闻作品。这个故事之所以重要，是因为它把媒体收入、版权和 AI 监管直接绑在一起。接下来要看，诉讼、授权协议和新规则能否真正减慢内容被抓取进模型的速度。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/kleptomaniacs-media-empire-vows-to-slay-ai-thieves"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/media/2026/aug/06/news-corp-subscriptions-fall-in-australia-as-company-takes-aim-at-slimy-ai-slop"
+        }
+      ]
     },
     {
       "id": "pineapple-import-biosecurity-warning-20260805",
@@ -257,56 +288,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "vni-west-farmers-fined-20260805",
-      "language": "zh-Hans",
-      "headline": "维州农民因阻止 VNI West 勘测进入而被罚款",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-05T23:30:30.000Z",
-      "voiceScript": "反对 VNI West 输电项目的维州土地持有人，在拒绝勘测人员进入后已被罚款。争议核心是，为了继续环境检查和规划工作，是否应允许授权人员进入私人土地。之所以重要，是因为 VNI West 是州内可再生能源建设的一部分，但土地进入权之争会拖慢施工，也会加深农村社区与电网扩建之间的紧张关系。接下来要看，这场争议会不会进一步进入法院，还是迫使政府重新考虑项目做法。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-06/farmers-fined-for-blocking-access-for-transmission-lines-vic/106998866"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Facebook",
-            "account": "The Weekly Times",
-            "title": "The state government has fined 12 Victorian farmers who blocked VicGrid officers from accessing their properties",
-            "url": "https://www.facebook.com/theweeklytimesau/posts/the-state-government-has-fined-12-victorian-farmers-who-blocked-vicgrid-officers/1458969046254769/",
-            "postedAt": "2026-08-05",
-            "score": 10
-          },
-          {
-            "platform": "Facebook",
-            "account": "Victorian Farmers Federation",
-            "title": "This isn't it: threatening landholders with fines for a failed project",
-            "url": "https://www.facebook.com/VicFarmers/posts/this-isnt-it%EF%B8%8F%EF%B8%8Fthreatening-landholders-with-fines-for-a-failed-project-thats-tear/1507157334782364/",
-            "postedAt": "2026-08-06",
-            "score": 8
-          }
-        ]
-      }
-    },
-    {
-      "id": "albury-hospital-transfer-delays-20260805",
-      "language": "zh-Hans",
-      "headline": "凯特·曼利之死引发阿尔伯里医院转运延误调查",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-05T23:35:59.000Z",
-      "voiceScript": "新南威尔士州验尸庭已启动，对凯特·曼利在阿尔伯里基地医院去世前所接受的照护展开调查。调查会重点看转运延误以及她在精神健康病房内的处理方式，是否符合当时应有标准。此案重要，因为医院交接一旦出问题，本来还有机会处理的病情也可能迅速恶化为致命结果。接下来两周，法庭还会听取医护人员和家属证词。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-06/kate-manley-albury-hospital-coronial-inquest-nolan-house/107000908"
-        }
-      ]
     },
     {
       "id": "liesl-tesch-threats-20260805",
@@ -384,6 +365,86 @@
           }
         ]
       }
+    },
+    {
+      "id": "high-court-secret-recording-dv-20260805",
+      "language": "zh-Hans",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T20:53:14.000Z",
+      "headline": "高院允许秘密录音作为家暴案证据",
+      "voiceScript": "澳大利亚高等法院维持了一段秘密录音在强奸案中的证据效力，录音内容是妻子用手机记录丈夫承认施暴的对话。法院认为，这份录音保护了她的身体自主和完整性，因为她担心自己还会再次遭遇强奸。这个裁决重要在于，它为受害人和幸存者在私下留存施暴证据提供了更稳的法律路径。接下来要看，这一理由会在其他家暴案件和保护令程序中延伸到多远。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/high-court-s-important-victim-decision-on-dv-rape-case"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/high-court-finds-secret-recording-can-be-used-as-evidence-in-domestic-violence-case/id5bu8yhn"
+        }
+      ]
+    },
+    {
+      "id": "ai-productivity-jobs-australia-20260805",
+      "language": "zh-Hans",
+      "headline": "EY 认为人工智能可提振生产率并为澳洲增加就业",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T17:30:00.000Z",
+      "voiceScript": "EY 的最新模型显示，人工智能在未来十年内可能把澳洲生产率最多提高 2.4%，并带来大约 44,000 个额外岗位。如果企业能尽快采用技术并重新培训员工，国内生产总值也可能明显增加。之所以重要，是因为澳洲已经被长期的生产率低迷拖住，而这场讨论现在已经延伸到生活水平、能源使用和数据中心规则。真正要看的是政策能否跟上，以及收益会不会只落在大型企业身上。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/report-reveals-extent-of-ai-boost-to-australian-economy"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/policy/economy/ai-could-create-jobs-not-destroy-them-ey-20260805-p60lkc"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "Reddit",
+            "community": "r/australia",
+            "author": "pixxxiemalone",
+            "title": "Don't be fooled, Albanese's 'AI investment' won't create mass jobs - Greg Jericho",
+            "url": "https://www.reddit.com/r/australia/comments/1uxkpqj/dont_be_fooled_albaneses_ai_investment_wont/",
+            "postedAt": "2026-07-16T00:33:55.000Z",
+            "comments": 330,
+            "upvotes": 645,
+            "score": 1200
+          },
+          {
+            "platform": "Facebook",
+            "account": "The Queenslander",
+            "title": "Artificial intelligence could lift productivity in Australia by up to 2.4 per cent",
+            "url": "https://www.facebook.com/TheQldr/posts/artificial-intelligence-could-lift-productivity-in-australia-by-up-to-24-per-cen/1076780434922089/",
+            "postedAt": "2026-08-06",
+            "score": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "obeid-family-tax-appeal-20260805",
+      "language": "zh-Hans",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T17:30:00.000Z",
+      "headline": "奥贝德家族围绕煤矿收益的税务争议可能继续拖延",
+      "voiceScript": "新南威尔士州前工党实权人物 Eddie Obeid 的家人仍在和税务局争夺一笔 3,000 万澳元的煤炭项目出售收益。包括他的妻子和儿子在内的 11 名家属或配偶，正试图把这场已经拖了多年的终审再往后推。这个案子重要，因为它成了税务局如何处理金额巨大、又带有政治敏感度的收益的一次长期检验。接下来要看，法院会不会让上诉继续推进，还是再给家属更多时间。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/family-of-corrupt-ex-mp-tries-to-stall-major-tax-appeal"
+        },
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9324897/family-of-corrupt-ex-mp-tries-to-stall-major-tax-appeal/"
+        }
+      ]
     },
     {
       "id": "remote-indigenous-designers-win-darwin-fashion-awards-20260805",
@@ -902,6 +963,25 @@
           }
         ]
       }
+    },
+    {
+      "id": "accc-mobile-network-sharing-20260805",
+      "language": "zh-Hans",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T07:37:05.000Z",
+      "headline": "竞争监管机构或将推动偏远地区移动网络互通",
+      "voiceScript": "澳洲竞争与消费者委员会已经启动调查，研究当一家运营商没有信号时，手机用户是否应自动切换到其他网络。审查范围包括国内漫游和基站共享，重点放在偏远和乡村地区。这个问题重要，因为 Telstra 和 Optus 近来的故障暴露出单一网络失灵时覆盖有多脆弱。接下来要看，监管机构能否提升可靠性，同时不削弱新基站投资。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/watchdog-may-force-mobile-providers-to-share-network"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/telecommunications/accc-launches-inquiry-that-could-force-telstra-to-share-its-network-20260805-p60lm7"
+        }
+      ]
     },
     {
       "id": "luke-gosling-dpp-assault-prosecution-20260805",

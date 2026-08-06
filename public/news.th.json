@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T00:10:32.054Z",
+  "updatedAt": "2026-08-06T01:14:59.211Z",
   "generatedBy": "codex",
   "language": "th",
   "sources": [
@@ -101,26 +101,26 @@
     }
   ],
   "errors": [
-    "news.com.au and The Australian were harvested from article-level results because the stable latest pages were inconsistent.",
-    "Sky News Australia and Yahoo News Australia still did not expose stable current-week Australia listings."
+    "news.com.au and The Australian latest pages were still inconsistent; article-level results or alternate source pages were used where needed.",
+    "Sky News Australia and Yahoo News Australia did not expose stable current-week Australia listings this run."
   ],
   "clusters": [
     {
-      "id": "ai-productivity-jobs-australia-20260805",
+      "id": "ed-husic-car-crash-20260805",
       "language": "th",
-      "headline": "EY ระบุว่า AI อาจช่วยเพิ่มผลิตภาพและสร้างงานในออสเตรเลีย",
+      "headline": "ส.ส.แรงงานออสเตรเลียออกจากโรงพยาบาลหลังอุบัติเหตุบนทางด่วน ยังอยู่ระหว่างพักฟื้น",
       "sourceCount": 2,
-      "publishedAt": "2026-08-05T17:30:00.000Z",
-      "voiceScript": "แบบจำลองล่าสุดของ EY ชี้ว่า AI อาจช่วยเพิ่มผลิตภาพของออสเตรเลียได้มากถึง 2.4% ในช่วงสิบปีข้างหน้า และสร้างงานเพิ่มราว 44,000 ตำแหน่ง หากธุรกิจนำเทคโนโลยีมาใช้และฝึกทักษะแรงงานใหม่ได้เร็วพอ ตัวเลข GDP ก็มีโอกาสขยับขึ้นอย่างมีนัยสำคัญ ประเด็นนี้สำคัญเพราะออสเตรเลียติดอยู่กับภาวะผลิตภาพโตช้าเรื้อรังมานาน และตอนนี้การถกเถียงขยายไปถึงระดับชีวิต การใช้พลังงาน และกติกาสำหรับดาต้าเซ็นเตอร์ คำถามที่เหลือคือ นโยบายจะตามให้ทันหรือไม่ และผลประโยชน์จะกระจายเกินกลุ่มบริษัทใหญ่ได้แค่ไหน",
+      "publishedAt": "2026-08-06T00:43:28.000Z",
+      "voiceScript": "ส.ส.แรงงานออสเตรเลียได้ออกจากโรงพยาบาลแล้วหลังรถของเขาถูกชนโดยรถบรรทุกบนทางด่วนสายหลักในซิดนีย์ เขามีแผลถลอก กระดูกหัก และอาการสมองกระทบกระเทือน และจะหยุดงานรัฐสภาช่วงสั้น ๆ ระหว่างพักฟื้น เรื่องนี้สำคัญเพราะการเดินทางตามปกติกลายเป็นอุบัติเหตุบาดเจ็บสาหัสบนถนนที่มีการสัญจรหนาแน่น ขณะนี้ตำรวจยังอยู่ระหว่างตรวจสอบเหตุการณ์ และเขาคาดว่าจะกลับไปทำหน้าที่เมื่อแพทย์อนุญาต.",
       "differences": [],
       "links": [
         {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/report-reveals-extent-of-ai-boost-to-australian-economy"
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/06/ed-husic-car-accident-sydney-labor-mp-ntwnfb"
         },
         {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/policy/economy/ai-could-create-jobs-not-destroy-them-ey-20260805-p60lkc"
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/extremely-grateful-labor-mp-recovering-after-crash"
         }
       ],
       "socialDiscussions": {
@@ -128,21 +128,11 @@
           {
             "platform": "Reddit",
             "community": "r/australia",
-            "author": "pixxxiemalone",
-            "title": "Don't be fooled, Albanese's 'AI investment' won't create mass jobs - Greg Jericho",
-            "url": "https://www.reddit.com/r/australia/comments/1uxkpqj/dont_be_fooled_albaneses_ai_investment_wont/",
-            "postedAt": "2026-07-16T00:33:55.000Z",
-            "comments": 330,
-            "upvotes": 645,
-            "score": 1200
-          },
-          {
-            "platform": "Facebook",
-            "account": "The Queenslander",
-            "title": "Artificial intelligence could lift productivity in Australia by up to 2.4 per cent",
-            "url": "https://www.facebook.com/TheQldr/posts/artificial-intelligence-could-lift-productivity-in-australia-by-up-to-24-per-cen/1076780434922089/",
+            "author": "DazDaSpazz",
+            "title": "Labor MP Ed Husic taken to hospital with fractures and concussion after car accident",
+            "url": "https://www.reddit.com/r/australia/comments/1vgn9fb/labor_mp_ed_husic_taken_to_hospital_with/",
             "postedAt": "2026-08-06",
-            "score": 5
+            "score": 15
           }
         ]
       }
@@ -187,32 +177,73 @@
       }
     },
     {
-      "id": "ed-husic-car-crash-20260805",
+      "id": "albury-hospital-transfer-delays-20260805",
       "language": "th",
-      "headline": "เอ็ด ฮูซิกออกจากโรงพยาบาลหลังอุบัติเหตุบนมอเตอร์เวย์ทำให้กระดูกหัก",
+      "headline": "การไต่สวนการเสียชีวิตของเคท แมนลีย์ ตรวจสอบความล่าช้าในการส่งต่อผู้ป่วยที่โรงพยาบาลอัลบิวรี",
       "sourceCount": 1,
-      "publishedAt": "2026-08-05T22:52:51.000Z",
-      "voiceScript": "เอ็ด ฮูซิก ส.ส.แรงงาน ได้ออกจากโรงพยาบาลแล้วหลังรถบรรทุกพุ่งชนรถของเขาบนมอเตอร์เวย์ M7 ที่ซิดนีย์ เขามีแผลถลอก กระดูกหัก และอาการสมองกระทบกระเทือน และจะหยุดงานรัฐสภาช่วงสั้น ๆ ระหว่างพักฟื้น เรื่องนี้สำคัญเพราะการเดินทางตามปกติกลายเป็นอุบัติเหตุบาดเจ็บสาหัสบนถนนที่มีการสัญจรหนาแน่น ขณะนี้ตำรวจยังอยู่ระหว่างรวบรวมข้อมูลเพิ่มเติม เขาคาดว่าจะกลับไปปฏิบัติหน้าที่เมื่อแพทย์อนุญาต",
+      "publishedAt": "2026-08-05T23:35:59.000Z",
+      "voiceScript": "ศาลชันสูตรของรัฐนิวเซาท์เวลส์เริ่มไต่สวนการดูแลเคท แมนลีย์ก่อนเสียชีวิตที่โรงพยาบาล Albury Base โดยจะตรวจว่าความล่าช้าในการส่งต่อและการดูแลในหอผู้ป่วยสุขภาพจิตเป็นไปตามมาตรฐานที่ควรหรือไม่ คดีนี้สำคัญเพราะความผิดพลาดช่วงส่งต่อผู้ป่วยอาจทำให้อาการที่ยังพอรับมือได้กลายเป็นเหตุสลดได้ การไต่สวนจะดำเนินต่อไปอีกสองสัปดาห์และจะรับฟังพยานจากบุคลากรทางการแพทย์และครอบครัว",
       "differences": [],
       "links": [
         {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/06/ed-husic-car-accident-sydney-labor-mp-ntwnfb"
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/kate-manley-albury-hospital-coronial-inquest-nolan-house/107000908"
+        }
+      ]
+    },
+    {
+      "id": "vni-west-farmers-fined-20260805",
+      "language": "th",
+      "headline": "เกษตรกรในรัฐวิกตอเรียถูกปรับ หลังขวางการเข้าพื้นที่สำรวจ VNI West",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T23:30:30.000Z",
+      "voiceScript": "เจ้าของที่ดินในรัฐวิกตอเรียที่คัดค้านโครงการส่งไฟ VNI West ถูกปรับ หลังปฏิเสธให้เจ้าหน้าที่เข้าพื้นที่เพื่อสำรวจ ประเด็นอยู่ที่ว่าเจ้าหน้าที่ที่ได้รับอนุญาตควรเข้าไปในที่ดินส่วนตัวได้หรือไม่ เพื่อให้การตรวจสอบด้านสิ่งแวดล้อมและการวางแผนเดินหน้าต่อได้ เรื่องนี้สำคัญเพราะ VNI West เป็นส่วนหนึ่งของการขยายพลังงานหมุนเวียนของรัฐ แต่ข้อพิพาทเรื่องการเข้าถึงที่ดินอาจทำให้การก่อสร้างช้าลง และเพิ่มความตึงเครียดระหว่างชุมชนชนบทกับการขยายโครงข่ายไฟฟ้า ขั้นต่อไปคือดูว่าคดีจะลึกไปถึงศาลมากขึ้นหรือจะกดดันให้รัฐบาลทบทวนวิธีจัดการโครงการ",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/farmers-fined-for-blocking-access-for-transmission-lines-vic/106998866"
         }
       ],
       "socialDiscussions": {
         "en": [
           {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "author": "DazDaSpazz",
-            "title": "Labor MP Ed Husic taken to hospital with fractures and concussion after car accident",
-            "url": "https://www.reddit.com/r/australia/comments/1vgn9fb/labor_mp_ed_husic_taken_to_hospital_with/",
+            "platform": "Facebook",
+            "account": "The Weekly Times",
+            "title": "The state government has fined 12 Victorian farmers who blocked VicGrid officers from accessing their properties",
+            "url": "https://www.facebook.com/theweeklytimesau/posts/the-state-government-has-fined-12-victorian-farmers-who-blocked-vicgrid-officers/1458969046254769/",
+            "postedAt": "2026-08-05",
+            "score": 10
+          },
+          {
+            "platform": "Facebook",
+            "account": "Victorian Farmers Federation",
+            "title": "This isn't it: threatening landholders with fines for a failed project",
+            "url": "https://www.facebook.com/VicFarmers/posts/this-isnt-it%EF%B8%8F%EF%B8%8Fthreatening-landholders-with-fines-for-a-failed-project-thats-tear/1507157334782364/",
             "postedAt": "2026-08-06",
-            "score": 15
+            "score": 8
           }
         ]
       }
+    },
+    {
+      "id": "news-corp-ai-scraping-australia-20260805",
+      "language": "th",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T23:24:14.000Z",
+      "headline": "ผลประกอบการของเครือสื่อนี้ทำให้ข้อถกเถียงเรื่องปัญญาประดิษฐ์ดึงข่าวในออสเตรเลียยิ่งร้อนแรง",
+      "voiceScript": "เครือสื่อนี้ระบุว่ายอดสมาชิกของสื่อสิ่งพิมพ์ในออสเตรเลียยังคงใกล้หนึ่งล้านราย แต่ธุรกิจข่าวโดยรวมยังถูกกดดันจากรายได้ดิจิทัลที่อ่อนแรงและโฆษณาแบบพิมพ์ที่ลดลง ผู้บริหารสูงสุดใช้ผลประกอบการครั้งนี้โจมตีบริษัทปัญญาประดิษฐ์และผู้ซื้อคอนเทนต์ที่เขากล่าวว่าหากำไรจากการดึงข่าวไปใช้โดยไม่ขออนุญาต เรื่องนี้สำคัญเพราะเชื่อมรายได้สื่อ ลิขสิทธิ์ และกฎระเบียบปัญญาประดิษฐ์เข้าไว้ด้วยกัน คำถามที่เหลือคือคดีความ ข้อตกลงสิทธิใช้งาน และกฎใหม่จะชะลอการไหลของคอนเทนต์เข้าสู่ระบบปัญญาประดิษฐ์ได้หรือไม่.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/kleptomaniacs-media-empire-vows-to-slay-ai-thieves"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/media/2026/aug/06/news-corp-subscriptions-fall-in-australia-as-company-takes-aim-at-slimy-ai-slop"
+        }
+      ]
     },
     {
       "id": "pineapple-import-biosecurity-warning-20260805",
@@ -257,56 +288,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "vni-west-farmers-fined-20260805",
-      "language": "th",
-      "headline": "เกษตรกรในรัฐวิกตอเรียถูกปรับ หลังขวางการเข้าพื้นที่สำรวจ VNI West",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-05T23:30:30.000Z",
-      "voiceScript": "เจ้าของที่ดินในรัฐวิกตอเรียที่คัดค้านโครงการส่งไฟ VNI West ถูกปรับ หลังปฏิเสธให้เจ้าหน้าที่เข้าพื้นที่เพื่อสำรวจ ประเด็นอยู่ที่ว่าเจ้าหน้าที่ที่ได้รับอนุญาตควรเข้าไปในที่ดินส่วนตัวได้หรือไม่ เพื่อให้การตรวจสอบด้านสิ่งแวดล้อมและการวางแผนเดินหน้าต่อได้ เรื่องนี้สำคัญเพราะ VNI West เป็นส่วนหนึ่งของการขยายพลังงานหมุนเวียนของรัฐ แต่ข้อพิพาทเรื่องการเข้าถึงที่ดินอาจทำให้การก่อสร้างช้าลง และเพิ่มความตึงเครียดระหว่างชุมชนชนบทกับการขยายโครงข่ายไฟฟ้า ขั้นต่อไปคือดูว่าคดีจะลึกไปถึงศาลมากขึ้นหรือจะกดดันให้รัฐบาลทบทวนวิธีจัดการโครงการ",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-06/farmers-fined-for-blocking-access-for-transmission-lines-vic/106998866"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Facebook",
-            "account": "The Weekly Times",
-            "title": "The state government has fined 12 Victorian farmers who blocked VicGrid officers from accessing their properties",
-            "url": "https://www.facebook.com/theweeklytimesau/posts/the-state-government-has-fined-12-victorian-farmers-who-blocked-vicgrid-officers/1458969046254769/",
-            "postedAt": "2026-08-05",
-            "score": 10
-          },
-          {
-            "platform": "Facebook",
-            "account": "Victorian Farmers Federation",
-            "title": "This isn't it: threatening landholders with fines for a failed project",
-            "url": "https://www.facebook.com/VicFarmers/posts/this-isnt-it%EF%B8%8F%EF%B8%8Fthreatening-landholders-with-fines-for-a-failed-project-thats-tear/1507157334782364/",
-            "postedAt": "2026-08-06",
-            "score": 8
-          }
-        ]
-      }
-    },
-    {
-      "id": "albury-hospital-transfer-delays-20260805",
-      "language": "th",
-      "headline": "การไต่สวนการเสียชีวิตของเคท แมนลีย์ ตรวจสอบความล่าช้าในการส่งต่อผู้ป่วยที่โรงพยาบาลอัลบิวรี",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-05T23:35:59.000Z",
-      "voiceScript": "ศาลชันสูตรของรัฐนิวเซาท์เวลส์เริ่มไต่สวนการดูแลเคท แมนลีย์ก่อนเสียชีวิตที่โรงพยาบาล Albury Base โดยจะตรวจว่าความล่าช้าในการส่งต่อและการดูแลในหอผู้ป่วยสุขภาพจิตเป็นไปตามมาตรฐานที่ควรหรือไม่ คดีนี้สำคัญเพราะความผิดพลาดช่วงส่งต่อผู้ป่วยอาจทำให้อาการที่ยังพอรับมือได้กลายเป็นเหตุสลดได้ การไต่สวนจะดำเนินต่อไปอีกสองสัปดาห์และจะรับฟังพยานจากบุคลากรทางการแพทย์และครอบครัว",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-06/kate-manley-albury-hospital-coronial-inquest-nolan-house/107000908"
-        }
-      ]
     },
     {
       "id": "liesl-tesch-threats-20260805",
@@ -384,6 +365,86 @@
           }
         ]
       }
+    },
+    {
+      "id": "high-court-secret-recording-dv-20260805",
+      "language": "th",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T20:53:14.000Z",
+      "headline": "ศาลสูงสุดยอมรับการบันทึกลับเป็นหลักฐานในคดีความรุนแรงในครอบครัว",
+      "voiceScript": "ศาลสูงสุดของออสเตรเลียตัดสินให้ใช้ไฟล์เสียงที่ภรรยาแอบบันทึกคำสารภาพของสามีเป็นหลักฐานในคดีข่มขืนได้ ศาลเห็นว่าการบันทึกนั้นช่วยปกป้องสิทธิในความเป็นเจ้าของร่างกายและความปลอดภัยของเธอ เพราะเธอกลัวว่าจะถูกทำร้ายอีก เรื่องนี้สำคัญเพราะทำให้ผู้รอดชีวิตจากความรุนแรงมีเส้นทางทางกฎหมายในการใช้หลักฐานที่เก็บไว้ส่วนตัวได้มากขึ้น คำถามต่อไปคือเหตุผลนี้จะถูกนำไปใช้กับคดีความรุนแรงในครอบครัวและคำสั่งคุ้มครองอื่น ๆ แค่ไหน",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/high-court-s-important-victim-decision-on-dv-rape-case"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/high-court-finds-secret-recording-can-be-used-as-evidence-in-domestic-violence-case/id5bu8yhn"
+        }
+      ]
+    },
+    {
+      "id": "ai-productivity-jobs-australia-20260805",
+      "language": "th",
+      "headline": "EY ระบุว่า AI อาจช่วยเพิ่มผลิตภาพและสร้างงานในออสเตรเลีย",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T17:30:00.000Z",
+      "voiceScript": "แบบจำลองล่าสุดของ EY ชี้ว่า AI อาจช่วยเพิ่มผลิตภาพของออสเตรเลียได้มากถึง 2.4% ในช่วงสิบปีข้างหน้า และสร้างงานเพิ่มราว 44,000 ตำแหน่ง หากธุรกิจนำเทคโนโลยีมาใช้และฝึกทักษะแรงงานใหม่ได้เร็วพอ ตัวเลข GDP ก็มีโอกาสขยับขึ้นอย่างมีนัยสำคัญ ประเด็นนี้สำคัญเพราะออสเตรเลียติดอยู่กับภาวะผลิตภาพโตช้าเรื้อรังมานาน และตอนนี้การถกเถียงขยายไปถึงระดับชีวิต การใช้พลังงาน และกติกาสำหรับดาต้าเซ็นเตอร์ คำถามที่เหลือคือ นโยบายจะตามให้ทันหรือไม่ และผลประโยชน์จะกระจายเกินกลุ่มบริษัทใหญ่ได้แค่ไหน",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/report-reveals-extent-of-ai-boost-to-australian-economy"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/policy/economy/ai-could-create-jobs-not-destroy-them-ey-20260805-p60lkc"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "Reddit",
+            "community": "r/australia",
+            "author": "pixxxiemalone",
+            "title": "Don't be fooled, Albanese's 'AI investment' won't create mass jobs - Greg Jericho",
+            "url": "https://www.reddit.com/r/australia/comments/1uxkpqj/dont_be_fooled_albaneses_ai_investment_wont/",
+            "postedAt": "2026-07-16T00:33:55.000Z",
+            "comments": 330,
+            "upvotes": 645,
+            "score": 1200
+          },
+          {
+            "platform": "Facebook",
+            "account": "The Queenslander",
+            "title": "Artificial intelligence could lift productivity in Australia by up to 2.4 per cent",
+            "url": "https://www.facebook.com/TheQldr/posts/artificial-intelligence-could-lift-productivity-in-australia-by-up-to-24-per-cen/1076780434922089/",
+            "postedAt": "2026-08-06",
+            "score": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "obeid-family-tax-appeal-20260805",
+      "language": "th",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T17:30:00.000Z",
+      "headline": "คดีภาษีของครอบครัวอดีตผู้มีอิทธิพลในรัฐนี้อาจยืดเยื้อ",
+      "voiceScript": "ครอบครัวของอดีตผู้มีอิทธิพลของพรรคแรงงานในรัฐนี้ยังต่อสู้กับสำนักงานภาษีเรื่องกำไร 30 ล้านดอลลาร์ออสเตรเลียจากการขายโครงการถ่านหินอยู่ สมาชิกครอบครัวหรือคู่สมรส 11 คนพยายามเลื่อนการอุทธรณ์รอบสุดท้ายที่ยืดเยื้อมาหลายปี เรื่องนี้สำคัญเพราะมันกลายเป็นบททดสอบระยะยาวว่าสำนักงานภาษีจะจัดการกับกำไรที่มีมูลค่าสูงและอ่อนไหวทางการเมืองอย่างไร ขั้นตอนต่อไปคือศาลจะให้คดีเดินหน้าต่อเลยหรือให้ครอบครัวมีเวลาเพิ่มอีกครั้ง.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/family-of-corrupt-ex-mp-tries-to-stall-major-tax-appeal"
+        },
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9324897/family-of-corrupt-ex-mp-tries-to-stall-major-tax-appeal/"
+        }
+      ]
     },
     {
       "id": "remote-indigenous-designers-win-darwin-fashion-awards-20260805",
@@ -884,6 +945,25 @@
           }
         ]
       }
+    },
+    {
+      "id": "accc-mobile-network-sharing-20260805",
+      "language": "th",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T07:37:05.000Z",
+      "headline": "หน่วยงานกำกับการแข่งขันอาจบังคับให้เครือข่ายมือถือใช้โครงข่ายร่วมกันในภูมิภาค",
+      "voiceScript": "หน่วยงานกำกับการแข่งขันเริ่มการสอบสวนว่าจะให้ผู้ใช้มือถือสลับไปใช้เครือข่ายอื่นโดยอัตโนมัติเมื่อผู้ให้บริการของตนไม่มีสัญญาณได้หรือไม่ การทบทวนนี้จะดูทั้งโรมมิ่งภายในประเทศและการแชร์โครงสร้างพื้นฐาน โดยเน้นพื้นที่ชนบทและภูมิภาค เรื่องนี้สำคัญเพราะเหตุขัดข้องล่าสุดของผู้ให้บริการรายใหญ่สองรายแสดงให้เห็นว่าการครอบคลุมสัญญาณเปราะบางแค่ไหนเมื่อเครือข่ายเดียวล้ม คำถามสำคัญคือหน่วยงานกำกับจะเพิ่มความน่าเชื่อถือโดยไม่ทำให้การลงทุนในเสาสัญญาณใหม่อ่อนแรงได้หรือไม่.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/watchdog-may-force-mobile-providers-to-share-network"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/telecommunications/accc-launches-inquiry-that-could-force-telstra-to-share-its-network-20260805-p60lm7"
+        }
+      ]
     },
     {
       "id": "luke-gosling-dpp-assault-prosecution-20260805",

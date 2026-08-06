@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T00:10:32.054Z",
+  "updatedAt": "2026-08-06T01:14:59.211Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -101,26 +101,26 @@
     }
   ],
   "errors": [
-    "news.com.au and The Australian were harvested from article-level results because the stable latest pages were inconsistent.",
-    "Sky News Australia and Yahoo News Australia still did not expose stable current-week Australia listings."
+    "news.com.au and The Australian latest pages were still inconsistent; article-level results or alternate source pages were used where needed.",
+    "Sky News Australia and Yahoo News Australia did not expose stable current-week Australia listings this run."
   ],
   "clusters": [
     {
-      "id": "ai-productivity-jobs-australia-20260805",
+      "id": "ed-husic-car-crash-20260805",
       "language": "en",
-      "headline": "EY says AI could lift productivity and add jobs across Australia",
+      "headline": "Ed Husic heads home from hospital after motorway crash leaves fractures",
       "sourceCount": 2,
-      "publishedAt": "2026-08-05T17:30:00.000Z",
-      "voiceScript": "New EY modelling suggests artificial intelligence could lift Australia's productivity by as much as 2.4 per cent over the next decade and support about 44,000 extra jobs. The forecast also points to a large GDP gain if businesses adopt the technology and reskill workers fast enough. It matters because Australia has been stuck in a long productivity slowdown, and the debate now reaches living standards, energy use and the rules for data centres. The open question is whether policy can keep pace and whether the gains spread beyond the biggest companies.",
+      "publishedAt": "2026-08-06T00:43:28.000Z",
+      "voiceScript": "Labor MP Ed Husic has been discharged from hospital after a truck hit his car on Sydney's M7 motorway. He came away with abrasions, fractures and a concussion, and will take a short break from parliamentary duties while he recovers. It matters because a routine drive turned into a serious injury case on a major commuter route, and police are still being briefed. He is expected back in parliament once doctors say he is ready.",
       "differences": [],
       "links": [
         {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/report-reveals-extent-of-ai-boost-to-australian-economy"
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/06/ed-husic-car-accident-sydney-labor-mp-ntwnfb"
         },
         {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/policy/economy/ai-could-create-jobs-not-destroy-them-ey-20260805-p60lkc"
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/extremely-grateful-labor-mp-recovering-after-crash"
         }
       ],
       "socialDiscussions": {
@@ -128,21 +128,11 @@
           {
             "platform": "Reddit",
             "community": "r/australia",
-            "author": "pixxxiemalone",
-            "title": "Don't be fooled, Albanese's 'AI investment' won't create mass jobs - Greg Jericho",
-            "url": "https://www.reddit.com/r/australia/comments/1uxkpqj/dont_be_fooled_albaneses_ai_investment_wont/",
-            "postedAt": "2026-07-16T00:33:55.000Z",
-            "comments": 330,
-            "upvotes": 645,
-            "score": 1200
-          },
-          {
-            "platform": "Facebook",
-            "account": "The Queenslander",
-            "title": "Artificial intelligence could lift productivity in Australia by up to 2.4 per cent",
-            "url": "https://www.facebook.com/TheQldr/posts/artificial-intelligence-could-lift-productivity-in-australia-by-up-to-24-per-cen/1076780434922089/",
+            "author": "DazDaSpazz",
+            "title": "Labor MP Ed Husic taken to hospital with fractures and concussion after car accident",
+            "url": "https://www.reddit.com/r/australia/comments/1vgn9fb/labor_mp_ed_husic_taken_to_hospital_with/",
             "postedAt": "2026-08-06",
-            "score": 5
+            "score": 15
           }
         ]
       }
@@ -187,32 +177,73 @@
       }
     },
     {
-      "id": "ed-husic-car-crash-20260805",
+      "id": "albury-hospital-transfer-delays-20260805",
       "language": "en",
-      "headline": "Ed Husic heads home from hospital after motorway crash leaves fractures",
+      "headline": "Coronial inquest probes Albury hospital transfer delays after Kate Manley's death",
       "sourceCount": 1,
-      "publishedAt": "2026-08-05T22:52:51.000Z",
-      "voiceScript": "Labor MP Ed Husic has been discharged from hospital after a truck hit his car on Sydney's M7 motorway. He came away with abrasions, fractures and a concussion, and will take a short break from parliamentary duties while he recovers. It matters because a routine drive turned into a serious injury case on a major commuter route, and police are still being briefed. He is expected back in parliament once doctors say he is ready.",
+      "publishedAt": "2026-08-05T23:35:59.000Z",
+      "voiceScript": "A NSW coronial inquest has begun into the care Kate Manley received before her death at Albury Base Hospital. Evidence will examine whether transfer delays and treatment inside the mental health ward met the standards expected at the time. The case matters because hospital handover problems can turn a treatable crisis into a fatal one, especially when a patient is already under close supervision. The inquest will run over the next two weeks and may still hear from clinicians and family witnesses.",
       "differences": [],
       "links": [
         {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/06/ed-husic-car-accident-sydney-labor-mp-ntwnfb"
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/kate-manley-albury-hospital-coronial-inquest-nolan-house/107000908"
+        }
+      ]
+    },
+    {
+      "id": "vni-west-farmers-fined-20260805",
+      "language": "en",
+      "headline": "Victorian farmers are fined after blocking VNI West survey access",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T23:30:30.000Z",
+      "voiceScript": "Victorian landholders opposing the VNI West transmission project have been fined after refusing access for survey work. The dispute is about whether authorised officers should be allowed onto private property so environmental checks and planning can continue. It matters because VNI West is part of the state's renewable rollout, but land access fights can slow construction and deepen tensions between rural communities and the grid build-out. The next step is whether the dispute moves further through the courts or pushes ministers to rethink how the project is handled.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/farmers-fined-for-blocking-access-for-transmission-lines-vic/106998866"
         }
       ],
       "socialDiscussions": {
         "en": [
           {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "author": "DazDaSpazz",
-            "title": "Labor MP Ed Husic taken to hospital with fractures and concussion after car accident",
-            "url": "https://www.reddit.com/r/australia/comments/1vgn9fb/labor_mp_ed_husic_taken_to_hospital_with/",
+            "platform": "Facebook",
+            "account": "The Weekly Times",
+            "title": "The state government has fined 12 Victorian farmers who blocked VicGrid officers from accessing their properties",
+            "url": "https://www.facebook.com/theweeklytimesau/posts/the-state-government-has-fined-12-victorian-farmers-who-blocked-vicgrid-officers/1458969046254769/",
+            "postedAt": "2026-08-05",
+            "score": 10
+          },
+          {
+            "platform": "Facebook",
+            "account": "Victorian Farmers Federation",
+            "title": "This isn't it: threatening landholders with fines for a failed project",
+            "url": "https://www.facebook.com/VicFarmers/posts/this-isnt-it%EF%B8%8F%EF%B8%8Fthreatening-landholders-with-fines-for-a-failed-project-thats-tear/1507157334782364/",
             "postedAt": "2026-08-06",
-            "score": 15
+            "score": 8
           }
         ]
       }
+    },
+    {
+      "id": "news-corp-ai-scraping-australia-20260805",
+      "language": "en",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T23:24:14.000Z",
+      "headline": "News Corp's earnings sharpen the fight over AI scraping in Australia",
+      "voiceScript": "News Corp says its Australian mastheads kept almost one million subscribers, but the company's wider news division again faced weaker digital revenue and falling interest in print. Chief executive Robert Thomson used the results to attack AI firms and content buyers he says profit from scraped journalism without permission. The story matters because it ties media revenue, copyright and AI regulation together for Australian publishers. The open issue is whether lawsuits, licensing deals and any new rules will slow the flow of content into AI systems.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/kleptomaniacs-media-empire-vows-to-slay-ai-thieves"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/media/2026/aug/06/news-corp-subscriptions-fall-in-australia-as-company-takes-aim-at-slimy-ai-slop"
+        }
+      ]
     },
     {
       "id": "pineapple-import-biosecurity-warning-20260805",
@@ -257,56 +288,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "vni-west-farmers-fined-20260805",
-      "language": "en",
-      "headline": "Victorian farmers are fined after blocking VNI West survey access",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-05T23:30:30.000Z",
-      "voiceScript": "Victorian landholders opposing the VNI West transmission project have been fined after refusing access for survey work. The dispute is about whether authorised officers should be allowed onto private property so environmental checks and planning can continue. It matters because VNI West is part of the state's renewable rollout, but land access fights can slow construction and deepen tensions between rural communities and the grid build-out. The next step is whether the dispute moves further through the courts or pushes ministers to rethink how the project is handled.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-06/farmers-fined-for-blocking-access-for-transmission-lines-vic/106998866"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Facebook",
-            "account": "The Weekly Times",
-            "title": "The state government has fined 12 Victorian farmers who blocked VicGrid officers from accessing their properties",
-            "url": "https://www.facebook.com/theweeklytimesau/posts/the-state-government-has-fined-12-victorian-farmers-who-blocked-vicgrid-officers/1458969046254769/",
-            "postedAt": "2026-08-05",
-            "score": 10
-          },
-          {
-            "platform": "Facebook",
-            "account": "Victorian Farmers Federation",
-            "title": "This isn't it: threatening landholders with fines for a failed project",
-            "url": "https://www.facebook.com/VicFarmers/posts/this-isnt-it%EF%B8%8F%EF%B8%8Fthreatening-landholders-with-fines-for-a-failed-project-thats-tear/1507157334782364/",
-            "postedAt": "2026-08-06",
-            "score": 8
-          }
-        ]
-      }
-    },
-    {
-      "id": "albury-hospital-transfer-delays-20260805",
-      "language": "en",
-      "headline": "Coronial inquest probes Albury hospital transfer delays after Kate Manley's death",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-05T23:35:59.000Z",
-      "voiceScript": "A NSW coronial inquest has begun into the care Kate Manley received before her death at Albury Base Hospital. Evidence will examine whether transfer delays and treatment inside the mental health ward met the standards expected at the time. The case matters because hospital handover problems can turn a treatable crisis into a fatal one, especially when a patient is already under close supervision. The inquest will run over the next two weeks and may still hear from clinicians and family witnesses.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-06/kate-manley-albury-hospital-coronial-inquest-nolan-house/107000908"
-        }
-      ]
     },
     {
       "id": "liesl-tesch-threats-20260805",
@@ -384,6 +365,86 @@
           }
         ]
       }
+    },
+    {
+      "id": "high-court-secret-recording-dv-20260805",
+      "language": "en",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T20:53:14.000Z",
+      "headline": "High Court lets a secret abuse recording stand in a domestic violence case",
+      "voiceScript": "Australia's High Court has upheld the use of a covert recording in a rape case, allowing a woman's phone recording of her husband's admissions to be used as evidence. The court said the recording protected her bodily autonomy and integrity after she feared being raped again. The ruling matters because it strengthens the legal path for victim-survivors who collect evidence of abuse in private. The next question is how far courts will apply that reasoning in other family violence cases and protection orders.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/high-court-s-important-victim-decision-on-dv-rape-case"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/high-court-finds-secret-recording-can-be-used-as-evidence-in-domestic-violence-case/id5bu8yhn"
+        }
+      ]
+    },
+    {
+      "id": "ai-productivity-jobs-australia-20260805",
+      "language": "en",
+      "headline": "EY says AI could lift productivity and add jobs across Australia",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T17:30:00.000Z",
+      "voiceScript": "New EY modelling suggests artificial intelligence could lift Australia's productivity by as much as 2.4 per cent over the next decade and support about 44,000 extra jobs. The forecast also points to a large GDP gain if businesses adopt the technology and reskill workers fast enough. It matters because Australia has been stuck in a long productivity slowdown, and the debate now reaches living standards, energy use and the rules for data centres. The open question is whether policy can keep pace and whether the gains spread beyond the biggest companies.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/report-reveals-extent-of-ai-boost-to-australian-economy"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/policy/economy/ai-could-create-jobs-not-destroy-them-ey-20260805-p60lkc"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "Reddit",
+            "community": "r/australia",
+            "author": "pixxxiemalone",
+            "title": "Don't be fooled, Albanese's 'AI investment' won't create mass jobs - Greg Jericho",
+            "url": "https://www.reddit.com/r/australia/comments/1uxkpqj/dont_be_fooled_albaneses_ai_investment_wont/",
+            "postedAt": "2026-07-16T00:33:55.000Z",
+            "comments": 330,
+            "upvotes": 645,
+            "score": 1200
+          },
+          {
+            "platform": "Facebook",
+            "account": "The Queenslander",
+            "title": "Artificial intelligence could lift productivity in Australia by up to 2.4 per cent",
+            "url": "https://www.facebook.com/TheQldr/posts/artificial-intelligence-could-lift-productivity-in-australia-by-up-to-24-per-cen/1076780434922089/",
+            "postedAt": "2026-08-06",
+            "score": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "obeid-family-tax-appeal-20260805",
+      "language": "en",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T17:30:00.000Z",
+      "headline": "Obeid family tax fight could stretch out over a coal windfall dispute",
+      "voiceScript": "The family of former NSW Labor powerbroker Eddie Obeid is still fighting the tax office over a $30 million windfall from a coal project sale. Eleven relatives or spouses are trying to delay the final appeal in a case that has already dragged on for years. It matters because the dispute has become a long test of how the tax office treats large, politically sensitive gains. The next step is whether the court lets the appeal move on now or gives the family more time.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/family-of-corrupt-ex-mp-tries-to-stall-major-tax-appeal"
+        },
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/story/9324897/family-of-corrupt-ex-mp-tries-to-stall-major-tax-appeal/"
+        }
+      ]
     },
     {
       "id": "remote-indigenous-designers-win-darwin-fashion-awards-20260805",
@@ -884,6 +945,25 @@
           }
         ]
       }
+    },
+    {
+      "id": "accc-mobile-network-sharing-20260805",
+      "language": "en",
+      "sourceCount": 2,
+      "publishedAt": "2026-08-05T07:37:05.000Z",
+      "headline": "ACCC inquiry could force mobile networks to share coverage in regional Australia",
+      "voiceScript": "The ACCC has launched an inquiry into whether mobile customers should be able to roam onto another network when their own provider has no signal. The review will look at domestic roaming and possible infrastructure sharing, with a focus on regional and rural Australia. It matters because recent outages at Telstra and Optus exposed how fragile coverage can be when one network fails. The key question is whether the watchdog can improve reliability without weakening investment in new towers.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/watchdog-may-force-mobile-providers-to-share-network"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/telecommunications/accc-launches-inquiry-that-could-force-telstra-to-share-its-network-20260805-p60lm7"
+        }
+      ]
     },
     {
       "id": "luke-gosling-dpp-assault-prosecution-20260805",
