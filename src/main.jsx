@@ -3568,6 +3568,37 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Sonya Kilkenny",
+    aliases: ["Sonya Kilkenny", "Sonya Kilkenny MP", "The Hon. Sonya Kilkenny", "The Hon. Sonya Kilkenny MP", "索尼娅·基尔肯尼", "索尼婭·基爾肯尼", "ソニア・キルケニー", "소냐 킬케니"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.parliament.vic.gov.au/members/sonya-kilkenny/" },
+    officialProfile: { label: "Premier of Victoria profile", url: "https://www.premier.vic.gov.au/sonya-kilkenny" },
+    social: { label: "X", url: "https://x.com/SonyaKilkenny" },
+    personalSocial: { label: "Instagram", url: "https://www.instagram.com/sonyakilkennymp/" },
+    background: {
+      "zh-Hans": "维州工党政治人物，2014 年起任 Carrum 选区州议员；进入议会前曾从事商业诉讼、银行金融法律工作，并在社区和文化机构任职。",
+      "zh-Hant": "維州工黨政治人物，2014 年起任 Carrum 選區州議員；進入議會前曾從事商業訴訟、銀行金融法律工作，並在社區和文化機構任職。",
+      en: "Victorian Labor politician and MP for Carrum since 2014. Before parliament she worked in commercial litigation and banking and finance law, with community and arts-sector board experience.",
+      es: "Política laborista de Victoria y diputada por Carrum desde 2014. Antes del parlamento trabajó en litigios comerciales y derecho bancario y financiero, con experiencia en organizaciones comunitarias y culturales.",
+      ja: "ビクトリア州労働党の政治家で、2014年から Carrum 選出州議員です。議会入り前は商事訴訟、銀行・金融法務に携わり、地域・文化団体の理事経験もあります。",
+      ko: "2014년부터 Carrum 지역구를 대표하는 빅토리아주 노동당 의원입니다. 의회 전에는 상업 소송과 은행·금융 법률 분야에서 일했고 지역사회·예술 분야 이사회 경험도 있습니다.",
+      vi: "Chính trị gia Labor của Victoria, nghị sĩ bang khu Carrum từ năm 2014. Trước khi vào quốc hội, bà làm về tranh tụng thương mại, luật ngân hàng và tài chính, đồng thời tham gia các hội đồng cộng đồng và nghệ thuật.",
+      th: "นักการเมือง Labor ของ Victoria และ ส.ส. รัฐเขต Carrum ตั้งแต่ปี 2014 ก่อนเข้าสภาเคยทำงานด้าน commercial litigation กฎหมาย banking and finance และมีประสบการณ์บอร์ดภาคชุมชนกับศิลปะ",
+      si: "2014 සිට Carrum සඳහා Victorian Labor MP කෙනෙකි. Parliament ට පෙර commercial litigation සහ banking/finance law ක්ෂේත්‍රවල කටයුතු කළ අතර community සහ arts-sector board experience ඇත."
+    },
+    positions: {
+      "zh-Hans": "其公共职责集中在维州规划审批、司法与总检察长事务、暴力预防和州财政；住房供应和开发审批是其规划部长职责的一部分。",
+      "zh-Hant": "其公共職責集中在維州規劃審批、司法與總檢察長事務、暴力預防和州財政；住房供應和開發審批是其規劃部長職責的一部分。",
+      en: "Her public brief covers Victorian planning approvals, attorney-general and justice matters, violence prevention and state finance; housing supply and development approvals sit inside her planning portfolio.",
+      es: "Su cartera pública cubre aprobaciones de planificación en Victoria, funciones de fiscal general y justicia, prevención de la violencia y finanzas estatales; vivienda y aprobaciones urbanísticas forman parte de planificación.",
+      ja: "ビクトリア州の計画承認、法務長官・司法、暴力予防、州財政を担当します。住宅供給と開発承認は計画相としての職務に含まれます。",
+      ko: "빅토리아주 계획 승인, 법무장관·사법 업무, 폭력 예방, 주 재정을 담당합니다. 주택 공급과 개발 승인은 계획 장관 포트폴리오에 포함됩니다.",
+      vi: "Bà phụ trách approvals quy hoạch tại Victoria, các vấn đề attorney-general và tư pháp, phòng chống bạo lực và tài chính bang; nguồn cung nhà ở và phê duyệt phát triển thuộc portfolio quy hoạch.",
+      th: "ภารกิจครอบคลุม planning approvals ของ Victoria งาน attorney-general และ justice การป้องกันความรุนแรง และการเงินรัฐ โดย housing supply กับ development approvals อยู่ใน portfolio planning",
+      si: "ඇගේ public brief එක Victorian planning approvals, attorney-general/justice matters, violence prevention සහ state finance ආවරණය කරයි; housing supply සහ development approvals ඇගේ planning portfolio එකේ කොටසකි."
+    }
+  },
+  {
     name: "Michele Bullock",
     aliases: ["Michele Bullock", "Michelle Bullock", "米歇尔·布洛克", "米歇爾·布洛克", "ミシェル・ブロック", "미셸 불록"],
     type: "public-figure",
@@ -3599,6 +3630,25 @@ const PEOPLE_CONTEXT = [
       vi: "Tổng giám đốc Optus, gia nhập công ty vào tháng 11 năm 2024. Trước đó ông lãnh đạo NBN Co và có nhiều năm làm việc trong hạ tầng viễn thông và dịch vụ mạng tại Australia.",
       th: "ประธานเจ้าหน้าที่บริหารของ Optus เข้าบริษัทในเดือนพฤศจิกายน 2024 ก่อนหน้านี้นำ NBN Co และทำงานมายาวนานในโครงสร้างพื้นฐานโทรคมนาคมกับบริการเครือข่ายของออสเตรเลีย",
       si: "2024 නොවැම්බර් Optus වෙත එක් වූ chief executive වේ. ඔහු පෙර NBN Co නායකත්වය දැරූ අතර Australian telecommunications infrastructure සහ network services ක්ෂේත්‍රවල දිගු කලක් කටයුතු කර ඇත."
+    }
+  },
+  {
+    name: "Justin Untersteiner",
+    aliases: ["Justin Untersteiner", "Justin Untersteiner CEO", "Ahpra CEO Justin Untersteiner", "贾斯廷·翁特施泰纳", "賈斯廷·翁特施泰納", "ジャスティン・ウンターシュタイナー", "저스틴 운터슈타이너"],
+    type: "public-figure",
+    profile: { label: "Ahpra executive team", url: "https://www.ahpra.gov.au/About-Ahpra/Who-We-Are/AHPRA-Senior-Managers" },
+    officialProfile: { label: "Ahpra appointment", url: "https://www.ahpra.gov.au/News/2025-01-29-Ahpra-CEO" },
+    social: { label: "LinkedIn", url: "https://au.linkedin.com/in/justinuntersteiner" },
+    background: {
+      "zh-Hans": "澳大利亚监管机构高管，2025 年 4 月起任 Ahpra 首席执行官；此前曾在 Australian Financial Complaints Authority 和 Australian Taxation Office 担任高级合规与转型职务。",
+      "zh-Hant": "澳洲監管機構高管，2025 年 4 月起任 Ahpra 行政總裁；此前曾在 Australian Financial Complaints Authority 和 Australian Taxation Office 擔任高階合規與轉型職務。",
+      en: "Australian regulatory executive who became Ahpra chief executive in April 2025, after senior compliance and transformation roles at the Australian Financial Complaints Authority and Australian Taxation Office.",
+      es: "Ejecutivo regulador australiano, director ejecutivo de Ahpra desde abril de 2025, tras cargos sénior de cumplimiento y transformación en Australian Financial Complaints Authority y Australian Taxation Office.",
+      ja: "豪州の規制機関幹部で、2025年4月に Ahpra の最高経営責任者に就任しました。以前は Australian Financial Complaints Authority と Australian Taxation Office でコンプライアンスや組織改革の上級職を務めました。",
+      ko: "호주 규제기관 경영자로 2025년 4월 Ahpra 최고경영자가 됐습니다. 이전에는 Australian Financial Complaints Authority와 Australian Taxation Office에서 준법·전환 관련 고위직을 맡았습니다.",
+      vi: "Nhà điều hành cơ quan quản lý tại Australia, trở thành chief executive của Ahpra vào tháng 4 năm 2025 sau các vai trò cấp cao về compliance và transformation tại Australian Financial Complaints Authority và Australian Taxation Office.",
+      th: "ผู้บริหารด้านกำกับดูแลของออสเตรเลีย เป็น chief executive ของ Ahpra ตั้งแต่เมษายน 2025 หลังทำบทบาทอาวุโสด้าน compliance และ transformation ที่ Australian Financial Complaints Authority และ Australian Taxation Office",
+      si: "2025 අප්‍රේල් සිට Ahpra chief executive වූ Australian regulatory executive කෙනෙකි; පෙර Australian Financial Complaints Authority සහ Australian Taxation Office හි senior compliance සහ transformation roles දැරීය."
     }
   },
   {
