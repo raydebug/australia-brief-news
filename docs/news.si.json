@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T17:12:34.856Z",
+  "updatedAt": "2026-08-06T18:10:45.437Z",
   "generatedBy": "codex",
   "language": "si",
   "sources": [
@@ -106,6 +106,22 @@
     "The Australian, Yahoo News Australia and 9News did not expose reliable current-week listings for this run."
   ],
   "clusters": [
+    {
+      "id": "parent-visa-delays-20260806",
+      "language": "si",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T15:00:05.000Z",
+      "headline": "ඕස්ට්‍රේලියාවේ දෙමාපිය වීසා පෝලිම වසර ගණනකට දිගහැරී පවුල් බලා සිටී",
+      "voiceScript": "ඕස්ට්‍රේලියාවේ දෙමාපිය වීසා ක්‍රමය නැවතත් පීඩනයට ලක්වී ඇත. නව වාර්තා අනුව, මාස 21ක කාලයකදී අනුමැතිය ලැබීමට පෙර අයදුම්කරුවන් 1,500කට අධික සංඛ්‍යාවක් මියගොස් ඇත. දායක දෙමාපිය වීසා එකට ඩොලර් 50,000 පමණ ගෙවිය යුතු අතර එයත් වසර 15ක් පමණ ගත විය හැකිය; අඩු වියදම් විකල්ප තවත් දිගු විය හැකිය. මේක වැදගත් වන්නේ, වැඩි ගාස්තු, දිග පෝලිම් සහ විදේශයේ වයසට යන පවුල් සාමාජිකයන් අතර ගැටී සිටින පවුල් වලට මෙය කෙලින්ම බලපාන නිසායි. ඊළඟට බලන්න තියෙන්නේ රජය මේක පුළුල් සංක්‍රමණ වෙනස්කම් තුළට ගන්නවාද, නැත්නම් පෝලිම එලෙසම තබනවාද කියන එකයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/07/australia-parent-visa-processing-applicants-die-waiting"
+        }
+      ],
+      "socialDiscussions": {}
+    },
     {
       "id": "gambling-ad-reforms-senate-fight-20260806",
       "language": "si",
@@ -1150,6 +1166,42 @@
       }
     },
     {
+      "id": "ed-husic-car-crash-20260805",
+      "language": "si",
+      "headline": "එඩ් හියුසික් රෝහලෙන් පිටවී මෝටර්වේ අනතුරෙන් පසු සුවය ලබයි",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-06T02:57:00.000Z",
+      "voiceScript": "ලේබර් මන්ත්‍රී එඩ් හියුසික්ගේ කාර් රථය සිඩ්නි එම් 7 මෝටර්වේ මත ට්‍රක් රථයකට වැදී අනතුරට පත් වීමෙන් පසු ඔහු රෝහලෙන් පිටව ගොස් තිබේ. ඔහුට කැඩීම්, සීරීම් සහ මොළාකම් ඇති අතර, සුවය ලබන අතරතුර පාර්ලිමේන්තු වැඩවලින් කෙටි විවේකයක් ගනී. මෙය වැදගත් වන්නේ සාමාන්‍ය ගමනක් මහත් රථවාහන තුවාලයකට හැරුණ නිසායි. පොලිසිය තවමත් සිදුවූ දේ සමාලෝචනය කරමින් සිටින අතර, වෛද්‍යවරුන් ඉඩ දුන් පසු ඔහු නැවත වැඩට යාමට බලාපොරොත්තු වෙනවා.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/06/ed-husic-car-accident-sydney-labor-mp-ntwnfb"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/extremely-grateful-labor-mp-recovering-after-crash"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/labor-mp-ed-husic-escapes-serious-injury-after-car-crash/dsivdlwig"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "Reddit",
+            "community": "r/australia",
+            "author": "DazDaSpazz",
+            "title": "Labor MP Ed Husic taken to hospital with fractures and concussion after car accident",
+            "url": "https://www.reddit.com/r/australia/comments/1vgn9fb/labor_mp_ed_husic_taken_to_hospital_with/",
+            "postedAt": "2026-08-06",
+            "score": 15
+          }
+        ]
+      }
+    },
+    {
       "id": "ebike-import-crackdown-20260806",
       "language": "si",
       "sourceCount": 1,
@@ -1227,38 +1279,6 @@
             "url": "https://www.facebook.com/SkyNewsAustralia/posts/the-abc-has-removed-two-four-corners-stories-from-its-digital-platforms-after-th/1496873892470204/",
             "postedAt": "2026-07",
             "score": 8
-          }
-        ]
-      }
-    },
-    {
-      "id": "ed-husic-car-crash-20260805",
-      "language": "si",
-      "headline": "එඩ් හියුසික් රෝහලෙන් පිටවී මෝටර්වේ අනතුරෙන් පසු සුවය ලබයි",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-06T00:43:28.000Z",
-      "voiceScript": "ලේබර් මන්ත්‍රී එඩ් හියුසික්ගේ කාර් රථය සිඩ්නි එම් 7 මෝටර්වේ මත ට්‍රක් රථයකට වැදී අනතුරට පත් වීමෙන් පසු ඔහු රෝහලෙන් පිටව ගොස් තිබේ. ඔහුට කැඩීම්, සීරීම් සහ මොළාකම් ඇති අතර, සුවය ලබන අතරතුර පාර්ලිමේන්තු වැඩවලින් කෙටි විවේකයක් ගනී. මෙය වැදගත් වන්නේ සාමාන්‍ය ගමනක් මහත් රථවාහන තුවාලයකට හැරුණ නිසායි. පොලිසිය තවමත් සිදුවූ දේ සමාලෝචනය කරමින් සිටින අතර, වෛද්‍යවරුන් ඉඩ දුන් පසු ඔහු නැවත වැඩට යාමට බලාපොරොත්තු වෙනවා.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/06/ed-husic-car-accident-sydney-labor-mp-ntwnfb"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/extremely-grateful-labor-mp-recovering-after-crash"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "author": "DazDaSpazz",
-            "title": "Labor MP Ed Husic taken to hospital with fractures and concussion after car accident",
-            "url": "https://www.reddit.com/r/australia/comments/1vgn9fb/labor_mp_ed_husic_taken_to_hospital_with/",
-            "postedAt": "2026-08-06",
-            "score": 15
           }
         ]
       }
@@ -4649,6 +4669,30 @@
           }
         ]
       }
+    },
+    {
+      "id": "one-nation-victoria-candidates-20260803",
+      "language": "si",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-03T04:33:00.000Z",
+      "headline": "විකටෝරියාවෙහි One Nation ආරම්භය මාධ්‍ය තහනම් ගැන විමර්ශනයට ලක්වේ",
+      "voiceScript": "One Nation පළමු වටයේ විකටෝරියා මැතිවරණ අපේක්ෂකයන් හෙළි කර ඇති අතර ABC, The Guardian සහ The Age පිටත් කර දැමීම ගැන Pauline Hansonගේ තීරණය වටා ඇති විවාදය තවදුරටත් උණුසුම් වෙයි. Warren Pickering විකටෝරියා ව්‍යාපාරය නායකත්වය දරන අතර ලැයිස්තුවේ හිටපු Liberal පක්ෂ සාමාජිකයන් සහ ප්‍රාදේශීය අපේක්ෂකයන් දෙකම සිටින්නේ පක්ෂය මැතිවරණයට පෙර පය තබා ගන්න උත්සාහ කරන නිසායි. මේක වැදගත් වන්නේ, මේකෙන් පක්ෂයේ මැතිවරණ අරමුණුත්, මාධ්‍ය අවධානය පාලනය කරන්න උත්සාහයත් දෙකම පැහැදිලි වෙන නිසායි. ඊළඟ පරීක්ෂණය වන්නේ මැතිවරණයට පෙර වඩා පැහැදිලි ප්‍රතිපත්ති පැහැදිලි කිරීමක් දීමට ඔවුන්ට හැකිද කියන එකයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-03/one-nation-victoria-candiates-revealed/106989410"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/03/one-nation-candidates-victoria-state-election-2026-ntwnfb"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/one-nation-unveils-state-leader-election-candidates"
+        }
+      ],
+      "socialDiscussions": {}
     },
     {
       "id": "news-bargaining-incentive-20260803",

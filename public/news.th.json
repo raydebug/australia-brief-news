@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T17:12:34.856Z",
+  "updatedAt": "2026-08-06T18:10:45.437Z",
   "generatedBy": "codex",
   "language": "th",
   "sources": [
@@ -106,6 +106,22 @@
     "The Australian, Yahoo News Australia and 9News did not expose reliable current-week listings for this run."
   ],
   "clusters": [
+    {
+      "id": "parent-visa-delays-20260806",
+      "language": "th",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T15:00:05.000Z",
+      "headline": "คิววีซ่าพ่อแม่ของออสเตรเลียยืดเยื้อจนหลายครอบครัวต้องรอนานหลายปี",
+      "voiceScript": "ระบบวีซ่าพ่อแม่ของออสเตรเลียกลับมาอยู่ภายใต้แรงกดดันอีกครั้ง หลังรายงานระบุว่ามีผู้ยื่นขอมากกว่า 1,500 คนเสียชีวิตระหว่างรอเป็นเวลา 21 เดือน วีซ่าแบบจ่ายสมทบมีค่าใช้จ่ายราว 50,000 ดอลลาร์ออสเตรเลีย และยังอาจใช้เวลาประมวลผลราว 15 ปี ส่วนวีซ่าราคาถูกกว่านั้นอาจยืดเยื้อยิ่งกว่าเดิม เรื่องนี้สำคัญเพราะทำให้หลายครอบครัวติดอยู่ระหว่างค่าธรรมเนียมสูง คิวยาว และญาติผู้ใหญ่ที่อายุมากขึ้นในต่างประเทศ ขั้นต่อไปต้องดูว่ารัฐบาลจะนำวีซ่าพ่อแม่เข้าไปอยู่ในแผนปฏิรูปการย้ายถิ่นครั้งใหญ่หรือปล่อยให้ค้างต่อไป",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/07/australia-parent-visa-processing-applicants-die-waiting"
+        }
+      ],
+      "socialDiscussions": {}
+    },
     {
       "id": "gambling-ad-reforms-senate-fight-20260806",
       "language": "th",
@@ -1150,6 +1166,42 @@
       }
     },
     {
+      "id": "ed-husic-car-crash-20260805",
+      "language": "th",
+      "headline": "ส.ส.แรงงานออสเตรเลียออกจากโรงพยาบาลหลังอุบัติเหตุบนทางด่วน ยังอยู่ระหว่างพักฟื้น",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-06T02:57:00.000Z",
+      "voiceScript": "ส.ส.แรงงานออสเตรเลียได้ออกจากโรงพยาบาลแล้วหลังรถของเขาถูกชนโดยรถบรรทุกบนทางด่วนสายหลักในซิดนีย์ เขามีแผลถลอก กระดูกหัก และอาการสมองกระทบกระเทือน และจะหยุดงานรัฐสภาช่วงสั้น ๆ ระหว่างพักฟื้น เรื่องนี้สำคัญเพราะการเดินทางตามปกติกลายเป็นอุบัติเหตุบาดเจ็บสาหัสบนถนนที่มีการสัญจรหนาแน่น ขณะนี้ตำรวจยังอยู่ระหว่างตรวจสอบเหตุการณ์ และเขาคาดว่าจะกลับไปทำหน้าที่เมื่อแพทย์อนุญาต.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/06/ed-husic-car-accident-sydney-labor-mp-ntwnfb"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/extremely-grateful-labor-mp-recovering-after-crash"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/labor-mp-ed-husic-escapes-serious-injury-after-car-crash/dsivdlwig"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "Reddit",
+            "community": "r/australia",
+            "author": "DazDaSpazz",
+            "title": "Labor MP Ed Husic taken to hospital with fractures and concussion after car accident",
+            "url": "https://www.reddit.com/r/australia/comments/1vgn9fb/labor_mp_ed_husic_taken_to_hospital_with/",
+            "postedAt": "2026-08-06",
+            "score": 15
+          }
+        ]
+      }
+    },
+    {
       "id": "ebike-import-crackdown-20260806",
       "language": "th",
       "sourceCount": 1,
@@ -1227,38 +1279,6 @@
             "url": "https://www.facebook.com/SkyNewsAustralia/posts/the-abc-has-removed-two-four-corners-stories-from-its-digital-platforms-after-th/1496873892470204/",
             "postedAt": "2026-07",
             "score": 8
-          }
-        ]
-      }
-    },
-    {
-      "id": "ed-husic-car-crash-20260805",
-      "language": "th",
-      "headline": "ส.ส.แรงงานออสเตรเลียออกจากโรงพยาบาลหลังอุบัติเหตุบนทางด่วน ยังอยู่ระหว่างพักฟื้น",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-06T00:43:28.000Z",
-      "voiceScript": "ส.ส.แรงงานออสเตรเลียได้ออกจากโรงพยาบาลแล้วหลังรถของเขาถูกชนโดยรถบรรทุกบนทางด่วนสายหลักในซิดนีย์ เขามีแผลถลอก กระดูกหัก และอาการสมองกระทบกระเทือน และจะหยุดงานรัฐสภาช่วงสั้น ๆ ระหว่างพักฟื้น เรื่องนี้สำคัญเพราะการเดินทางตามปกติกลายเป็นอุบัติเหตุบาดเจ็บสาหัสบนถนนที่มีการสัญจรหนาแน่น ขณะนี้ตำรวจยังอยู่ระหว่างตรวจสอบเหตุการณ์ และเขาคาดว่าจะกลับไปทำหน้าที่เมื่อแพทย์อนุญาต.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/06/ed-husic-car-accident-sydney-labor-mp-ntwnfb"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/extremely-grateful-labor-mp-recovering-after-crash"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "author": "DazDaSpazz",
-            "title": "Labor MP Ed Husic taken to hospital with fractures and concussion after car accident",
-            "url": "https://www.reddit.com/r/australia/comments/1vgn9fb/labor_mp_ed_husic_taken_to_hospital_with/",
-            "postedAt": "2026-08-06",
-            "score": 15
           }
         ]
       }
@@ -4649,6 +4669,30 @@
           }
         ]
       }
+    },
+    {
+      "id": "one-nation-victoria-candidates-20260803",
+      "language": "th",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-03T04:33:00.000Z",
+      "headline": "การเปิดตัวผู้สมัคร One Nation ในวิกตอเรียจุดกระแสวิจารณ์เรื่องการกันสื่อ",
+      "voiceScript": "One Nation เปิดรายชื่อผู้สมัครชุดแรกสำหรับการเลือกตั้งรัฐวิกตอเรีย ขณะเดียวกันกระแสวิจารณ์ต่อการที่ Pauline Hanson กัน ABC, The Guardian และ The Age ออกจากงานเปิดตัวยังคงแรงขึ้น Warren Pickering เป็นผู้นำการรณรงค์ในวิกตอเรีย โดยรายชื่อมีทั้งอดีตคนของพรรคเสรีนิยมและผู้สมัครท้องถิ่น เรื่องนี้สำคัญเพราะสะท้อนทั้งความทะเยอทะยานทางการเมืองของพรรคและความพยายามควบคุมการนำเสนอข่าว ขั้นต่อไปคือดูว่าพวกเขาจะเปลี่ยนความสนใจนี้ให้เป็นข้อเสนอเชิงนโยบายที่ชัดเจนได้หรือไม่ก่อนวันเลือกตั้ง",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-03/one-nation-victoria-candiates-revealed/106989410"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/03/one-nation-candidates-victoria-state-election-2026-ntwnfb"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/one-nation-unveils-state-leader-election-candidates"
+        }
+      ],
+      "socialDiscussions": {}
     },
     {
       "id": "news-bargaining-incentive-20260803",

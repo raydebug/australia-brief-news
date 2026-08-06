@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T17:12:34.856Z",
+  "updatedAt": "2026-08-06T18:10:45.437Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -106,6 +106,22 @@
     "The Australian, Yahoo News Australia and 9News did not expose reliable current-week listings for this run."
   ],
   "clusters": [
+    {
+      "id": "parent-visa-delays-20260806",
+      "language": "ko",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T15:00:05.000Z",
+      "headline": "호주의 부모 비자 적체가 길어지며 가족들이 오랫동안 기다리고 있다",
+      "voiceScript": "호주의 부모 비자 제도가 다시 압박을 받고 있습니다. 새 보도에 따르면 21개월 동안 비자 승인을 기다리다 1,500명 넘는 신청자가 세상을 떠났습니다. 기여형 부모 비자는 약 5만 호주달러가 들고, 그마저도 심사에 약 15년이 걸릴 수 있습니다. 더 저렴한 비자는 훨씬 더 오래 걸릴 수 있습니다. 이 문제가 중요한 이유는 높은 비용과 긴 대기열, 그리고 해외에서 나이 들어가는 가족 사이에 많은 이들이 묶여 있기 때문입니다. 앞으로 정부가 부모 비자를 더 넓은 이민 개편에 포함할지, 아니면 적체를 그대로 둘지가 관건입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/07/australia-parent-visa-processing-applicants-die-waiting"
+        }
+      ],
+      "socialDiscussions": {}
+    },
     {
       "id": "gambling-ad-reforms-senate-fight-20260806",
       "language": "ko",
@@ -1150,6 +1166,42 @@
       }
     },
     {
+      "id": "ed-husic-car-crash-20260805",
+      "language": "ko",
+      "headline": "교통사고로 골절과 뇌진탕을 입은 Ed Husic 퇴원",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-06T02:57:00.000Z",
+      "voiceScript": "시드니 M7에서 트럭이 차량을 들이받은 뒤 노동당 의원 Ed Husic은 병원에서 퇴원했습니다. 그는 찰과상과 골절, 뇌진탕을 입었고 회복 기간 동안 의정 활동을 잠시 쉬게 됩니다. 평범한 이동이 주요 통근 도로에서의 중상 사건으로 바뀌었다는 점에서 이번 일은 중요합니다. 경찰은 아직 상황을 확인 중이며, 의사들이 괜찮다고 하면 의회로 복귀할 예정입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/06/ed-husic-car-accident-sydney-labor-mp-ntwnfb"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/extremely-grateful-labor-mp-recovering-after-crash"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/labor-mp-ed-husic-escapes-serious-injury-after-car-crash/dsivdlwig"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "Reddit",
+            "community": "r/australia",
+            "author": "DazDaSpazz",
+            "title": "Labor MP Ed Husic taken to hospital with fractures and concussion after car accident",
+            "url": "https://www.reddit.com/r/australia/comments/1vgn9fb/labor_mp_ed_husic_taken_to_hospital_with/",
+            "postedAt": "2026-08-06",
+            "score": 15
+          }
+        ]
+      }
+    },
+    {
       "id": "ebike-import-crackdown-20260806",
       "language": "ko",
       "sourceCount": 1,
@@ -1227,38 +1279,6 @@
             "url": "https://www.facebook.com/SkyNewsAustralia/posts/the-abc-has-removed-two-four-corners-stories-from-its-digital-platforms-after-th/1496873892470204/",
             "postedAt": "2026-07",
             "score": 8
-          }
-        ]
-      }
-    },
-    {
-      "id": "ed-husic-car-crash-20260805",
-      "language": "ko",
-      "headline": "교통사고로 골절과 뇌진탕을 입은 Ed Husic 퇴원",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-06T00:43:28.000Z",
-      "voiceScript": "시드니 M7에서 트럭이 차량을 들이받은 뒤 노동당 의원 Ed Husic은 병원에서 퇴원했습니다. 그는 찰과상과 골절, 뇌진탕을 입었고 회복 기간 동안 의정 활동을 잠시 쉬게 됩니다. 평범한 이동이 주요 통근 도로에서의 중상 사건으로 바뀌었다는 점에서 이번 일은 중요합니다. 경찰은 아직 상황을 확인 중이며, 의사들이 괜찮다고 하면 의회로 복귀할 예정입니다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/06/ed-husic-car-accident-sydney-labor-mp-ntwnfb"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/extremely-grateful-labor-mp-recovering-after-crash"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "author": "DazDaSpazz",
-            "title": "Labor MP Ed Husic taken to hospital with fractures and concussion after car accident",
-            "url": "https://www.reddit.com/r/australia/comments/1vgn9fb/labor_mp_ed_husic_taken_to_hospital_with/",
-            "postedAt": "2026-08-06",
-            "score": 15
           }
         ]
       }
@@ -4659,6 +4679,30 @@
           }
         ]
       }
+    },
+    {
+      "id": "one-nation-victoria-candidates-20260803",
+      "language": "ko",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-03T04:33:00.000Z",
+      "headline": "빅토리아 주에서 시작한 One Nation 출범, 언론 배제 논란 확산",
+      "voiceScript": "One Nation이 빅토리아 주 선거를 위한 첫 후보 명단을 공개한 가운데, ABC와 The Guardian, The Age를 출범 행사에서 배제한 Pauline Hanson의 결정에 대한 논란이 계속 커지고 있습니다. Warren Pickering이 빅토리아 공세를 이끌고 있으며, 명단에는 전 자유당 인사와 지역 후보가 함께 포함돼 있습니다. 이 사안이 중요한 이유는 당의 선거 전략과 언론 노출 통제 의도를 동시에 보여주기 때문입니다. 다음 단계는 선거 전까지 당이 얼마나 구체적인 정책 메시지를 내놓을 수 있느냐입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-03/one-nation-victoria-candiates-revealed/106989410"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/03/one-nation-candidates-victoria-state-election-2026-ntwnfb"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/one-nation-unveils-state-leader-election-candidates"
+        }
+      ],
+      "socialDiscussions": {}
     },
     {
       "id": "news-bargaining-incentive-20260803",
