@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T10:11:13.176Z",
+  "updatedAt": "2026-08-06T11:13:03.722Z",
   "generatedBy": "codex",
   "language": "th",
   "sources": [
@@ -42,7 +42,7 @@
     {
       "id": "afr",
       "name": "Australian Financial Review",
-      "region": "Business",
+      "region": "National",
       "feed": "https://www.afr.com/latest"
     },
     {
@@ -52,13 +52,13 @@
       "feed": "https://www.skynews.com.au/australia-news"
     },
     {
-      "id": "nine-news-au",
+      "id": "nine-news",
       "name": "9News",
       "region": "National",
       "feed": "https://www.9news.com.au/national"
     },
     {
-      "id": "seven-news-au",
+      "id": "seven-news",
       "name": "7NEWS",
       "region": "National",
       "feed": "https://7news.com.au/news/australia"
@@ -70,7 +70,7 @@
       "feed": "https://www.smh.com.au/national"
     },
     {
-      "id": "the-age",
+      "id": "age",
       "name": "The Age",
       "region": "Victoria",
       "feed": "https://www.theage.com.au/national/victoria"
@@ -101,8 +101,9 @@
     }
   ],
   "errors": [
-    "news.com.au and The Australian latest pages were still inconsistent; article-level results or alternate source pages were used where needed.",
-    "Sky News Australia and Yahoo News Australia did not expose stable current-week Australia listings this run."
+    "news.com.au content feed returned no extractable current-week items this run.",
+    "AFR, AAP and Sky News Australia required page-level fallbacks because stable current-week RSS listings were not available.",
+    "The Australian, Yahoo News Australia and 9News did not expose reliable current-week listings for this run."
   ],
   "clusters": [
     {
@@ -156,6 +157,60 @@
           }
         ]
       }
+    },
+    {
+      "id": "luke-bateman-gambling-losses-20260806",
+      "language": "th",
+      "sourceCount": 4,
+      "publishedAt": "2026-08-06T10:59:54.000Z",
+      "headline": "ความเสียหายจากการพนันของลุค แบทแมนทำให้ผลกระทบจากการเดิมพันถูกจับตาอีกครั้ง",
+      "voiceScript": "รายงานในศาลได้เปิดเผยรายละเอียดเพิ่มเกี่ยวกับปัญหาการพนันของลุค แบทแมน โดยระบุว่าเขานำเงินของคู่รักไปใช้ขณะที่เธอหลับเพื่อคงพฤติกรรมนี้ไว้ เรื่องนี้ยังโยงกับบทบาทของเขาในฐานะพยานในการสอบสวนการพนันของวุฒิสภา เหตุการณ์นี้สำคัญเพราะแสดงให้เห็นว่าการเสพติดสามารถลามจากปัญหาส่วนตัวไปสู่การเงินของครอบครัวและนโยบายสาธารณะ คำถามใหญ่คือมาตรการควบคุมการพนันของออสเตรเลียจะลดความเสียหายได้เร็วพอหรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/sport/nrl/luke-bateman-took-money-from-fianc-e-s-bank-while-she-slept-to-feed-gambling-habit-20260806-p60m2f.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/sport/nrl/luke-bateman-took-money-from-fianc-e-s-bank-while-she-slept-to-feed-gambling-habit-20260806-p60m2f.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/sport/nrl/luke-bateman-took-money-from-fianc-e-s-bank-while-she-slept-to-feed-gambling-habit-20260806-p60m2f.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/sport/nrl/luke-bateman-took-money-from-fianc-e-s-bank-while-she-slept-to-feed-gambling-habit-20260806-p60m2f.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ]
+    },
+    {
+      "id": "perth-paediatrician-fresh-child-sex-charges-20260806",
+      "language": "th",
+      "sourceCount": 4,
+      "publishedAt": "2026-08-06T10:52:33.000Z",
+      "headline": "แพทย์เด็กในเพิร์ธถูกตั้งข้อหาเกี่ยวกับการล่วงละเมิดทางเพศเด็กเพิ่ม",
+      "voiceScript": "แพทย์เด็กในเพิร์ธถูกตั้งข้อหาเพิ่มอีก 15 กระทง ทำให้คดีนี้กลับมาเป็นที่จับตามองในรัฐเวสเทิร์นออสเตรเลีย ข้อกล่าวหาเกี่ยวข้องกับการกระทำความผิดทางเพศต่อเด็ก และทำให้คดีอาญาที่ร้ายแรงอยู่แล้วขยายวงกว้างขึ้น เรื่องนี้สำคัญเพราะตำรวจและศาลต้องรับมือกับผู้เสียหายที่ถูกอ้างถึงมากขึ้นและภาพรวมพยานหลักฐานที่ใหญ่ขึ้น ขั้นตอนต่อไปขึ้นอยู่กับสิ่งที่ถูกพิจารณาในศาล และจะมีข้อหาเพิ่มเติมตามมาหรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/perth-paediatrician-accused-of-molesting-seven-more-children-20260806-p60m6l.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/perth-paediatrician-accused-of-molesting-seven-more-children-20260806-p60m6l.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/perth-paediatrician-accused-of-molesting-seven-more-children-20260806-p60m6l.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/perth-paediatrician-accused-of-molesting-seven-more-children-20260806-p60m6l.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ]
     },
     {
       "id": "iranian-footballers-citizenship-20260806",
@@ -238,6 +293,51 @@
           }
         ]
       }
+    },
+    {
+      "id": "vic-police-brain-damage-settlement-20260806",
+      "language": "th",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T09:06:16.000Z",
+      "headline": "ตำรวจรัฐวิกตอเรียยอมยุติคดีชดเชยหลังการจับกุมผิดพลาดจนชายคนหนึ่งสมองเสียหาย",
+      "voiceScript": "ตำรวจรัฐวิกตอเรียยอมยุติคดีแพ่งที่ยื่นโดยบิดาจากกิปส์แลนด์ซึ่งได้รับบาดเจ็บสมองถาวรจากการจับกุมที่ผิดพลาดในปี 2022 รายงานระบุว่าค่าชดเชยเกือบ 14 ล้านดอลลาร์ออสเตรเลีย นี่ถือเป็นข้อตกลงมูลค่าสูงในช่วงหลังของหน่วยงานตำรวจคดีนี้ทำให้เกิดคำถามอีกครั้งเกี่ยวกับวิธีการจับกุมและความรับผิดชอบของตำรวจ ข้อพิพาททางแพ่งจบลงแล้ว แต่ข้อสงสัยต่อการปฏิบัติในวันนั้นยังคงอยู่",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/vic-police-settle-lawsuit-gippsland-father-brain-damage/107004994"
+        }
+      ]
+    },
+    {
+      "id": "airservices-sydney-runway-near-miss-20260806",
+      "language": "th",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T07:32:58.000Z",
+      "headline": "เหตุเกือบชนบนรันเวย์ซิดนีย์ทำให้ความปลอดภัยสนามบินถูกจับตาอีกครั้ง",
+      "voiceScript": "Airservices Australia ระบุว่าความปลอดภัยยังคงเป็นสิ่งสำคัญที่สุด ขณะที่สำนักงานความปลอดภัยการขนส่งออสเตรเลียกำลังสอบสวนเหตุเกือบชนบนรันเวย์ในซิดนีย์ เหตุการณ์นี้สำคัญเพราะอุบัติเหตุบนรันเวย์สามารถลุกลามได้อย่างรวดเร็วหากเครื่องบินอยู่ใกล้กันเกินไปบนพื้นดิน ATSB ยังอยู่ระหว่างตรวจสอบว่าเหตุการณ์เฉียดอันตรายเช่นนี้เกิดบ่อยแค่ไหน และควรเปลี่ยนอะไรบ้าง สำหรับผู้โดยสาร เรื่องสำคัญไม่ใช่แค่อุบัติเหตุครั้งเดียว แต่คือระบบที่จะหยุดเหตุถัดไป",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/airservices-australia-says-safety-is-number-one-for-us-as-atsb-investigates-runway-near-miss-in-sydney-c-22686536"
+        }
+      ]
+    },
+    {
+      "id": "nsw-blueberry-farm-illegal-dam-fines-20260806",
+      "language": "th",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T07:12:51.000Z",
+      "headline": "เกษตรกรบลูเบอร์รีในนิวเซาท์เวลส์ถูกปรับหนักจากอ่างเก็บน้ำผิดกฎหมาย",
+      "voiceScript": "ศาล NSW สั่งปรับเกษตรกรปลูกบลูเบอร์รีสองรายเป็นเงินมากกว่า 130,000 ดอลลาร์ออสเตรเลีย จากอ่างเก็บน้ำผิดกฎหมายบนที่ดินในเขต Mid North Coast คดีนี้ชี้ให้เห็นว่าข้อพิพาทเรื่องน้ำและการใช้ที่ดินยังคงถูกนำขึ้นสู่ศาล แม้จะเป็นฟาร์มภูมิภาคขนาดเล็กก็ตาม อีกทั้งยังสะท้อนแรงกดดันต่อหน่วยงานกำกับดูแลในการบังคับใช้กฎสิ่งแวดล้อมท้องถิ่นอย่างสม่ำเสมอ เกษตรกรจะไม่ต้องรื้ออ่างเก็บน้ำ แต่โทษปรับเป็นคำเตือนชัดเจนต่อเจ้าของที่ดินรายอื่น",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/bucca-blueberry-farmers-fined-for-illegal-dam/107003136"
+        }
+      ]
     },
     {
       "id": "migration-processing-pushback-20260806",
@@ -2109,6 +2209,21 @@
       }
     },
     {
+      "id": "women-in-politics-abuse-survey-20260804",
+      "language": "th",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T19:00:00.000Z",
+      "headline": "ผลสำรวจเตือนว่าการคุกคามผู้หญิงในแวดวงการเมืองกำลังเลวร้ายลง",
+      "voiceScript": "ผลสำรวจใหม่ระบุว่าผู้หญิงออสเตรเลียส่วนใหญ่ที่ดำรงตำแหน่งสาธารณะหรือกำลังลงสมัครเลือกตั้งเคยเผชิญการคุกคามทางออนไลน์ที่เชื่อมโยงกับบทบาททางการเมืองของพวกเธอ ผลสำรวจชี้ว่าปัญหานี้ไม่ใช่แค่เสียงรบกวน แต่เป็นอุปสรรคต่อการมีส่วนร่วม โดยเฉพาะเมื่อการโจมตีถูกขยายด้วย deepfake และเครื่องมือ AI อื่น ๆ เรื่องนี้สำคัญเพราะอาจผลักคนที่มีความสามารถออกจากการเมืองและทำให้จำนวนคนที่รู้สึกปลอดภัยพอจะลงสมัครลดลง คำถามต่อไปคือมาตรการคุ้มครองและกฎของแพลตฟอร์มแบบไหนจะลดการคุกคามได้จริง",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/female-politicians-facing-deadly-trajectory-of-abuse"
+        }
+      ]
+    },
+    {
       "id": "nt-police-aboriginal-officers-racism-lawsuit-20260804",
       "language": "th",
       "headline": "ตำรวจชนพื้นเมืองในนอร์เทิร์นเทร์ริทอรียื่นฟ้องแบบกลุ่มเรื่องเหยียดเชื้อชาติ",
@@ -2488,6 +2603,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "census-door-knocking-scam-20260804",
+      "language": "th",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T06:51:01.000Z",
+      "headline": "ชาวออสเตรเลียถูกเตือนเรื่องกลโกงเคาะประตูอ้างสำรวจสำมะโน",
+      "voiceScript": "ชาวออสเตรเลียได้รับคำเตือนให้ระวังกลโกงเคาะประตูก่อนวันสำมะโนประชากร 11 สิงหาคม คำเตือนนี้มุ่งไปที่ผู้ที่อาจถูกคนแอบอ้างขอข้อมูลธนาคาร หมายเลขภาษี หรือรหัสผ่าน เรื่องนี้สำคัญเพราะข้อมูลสำมะโนถูกใช้ในการจัดงบประมาณ การวางแผน และบริการสาธารณะ ดังนั้นความเชื่อมั่นต่อกระบวนการจึงต้องได้รับการปกป้อง ABS ระบุว่าจะไม่ขอข้อมูลส่วนตัวที่อ่อนไหวในลักษณะนั้น",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australians-warned-about-door-knocking-scam-ahead-of-august-11-census-c-22674281"
+        }
+      ]
     },
     {
       "id": "asx-rally-five-month-high-20260804",
@@ -3545,6 +3675,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "labor-tech-giant-tax-news-funding-20260802",
+      "language": "th",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T14:01:00.000Z",
+      "headline": "พรรคแรงงานสรุปภาษีเทคโนโลยีเพื่อกดดันแพลตฟอร์มใหญ่ให้สนับสนุนข่าวสาร",
+      "voiceScript": "พรรคแรงงานได้สรุปการปรับภาษีที่มุ่งเป้ารายได้โฆษณาดิจิทัลของบริษัทเทคโนโลยีรายใหญ่ และตั้งใจนำไปสนับสนุนสื่อออสเตรเลีย นโยบายนี้สะท้อนการเปลี่ยนแปลงในศึกต่อรองระหว่างสำนักข่าวกับแพลตฟอร์มระดับโลก เรื่องนี้สำคัญเพราะอาจเปลี่ยนโครงสร้างการเงินของสื่อออสเตรเลีย และเพิ่มหรือลดอำนาจต่อรองของรัฐบาลต่อบิ๊กเทคได้ รายละเอียดอย่างใครเป็นผู้จ่าย และสุดท้ายเงินจะลงสู่ห้องข่าวมากแค่ไหน ยังเป็นเรื่องสำคัญ",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/labor-finalises-tech-giant-tax-designed-to-force-funding-for-news-20260802-p60kou"
+        }
+      ]
     },
     {
       "id": "victoria-park-olympic-plan-20260802",

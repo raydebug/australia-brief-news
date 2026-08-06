@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T10:11:13.176Z",
+  "updatedAt": "2026-08-06T11:13:03.722Z",
   "generatedBy": "codex",
   "language": "si",
   "sources": [
@@ -42,7 +42,7 @@
     {
       "id": "afr",
       "name": "Australian Financial Review",
-      "region": "Business",
+      "region": "National",
       "feed": "https://www.afr.com/latest"
     },
     {
@@ -52,13 +52,13 @@
       "feed": "https://www.skynews.com.au/australia-news"
     },
     {
-      "id": "nine-news-au",
+      "id": "nine-news",
       "name": "9News",
       "region": "National",
       "feed": "https://www.9news.com.au/national"
     },
     {
-      "id": "seven-news-au",
+      "id": "seven-news",
       "name": "7NEWS",
       "region": "National",
       "feed": "https://7news.com.au/news/australia"
@@ -70,7 +70,7 @@
       "feed": "https://www.smh.com.au/national"
     },
     {
-      "id": "the-age",
+      "id": "age",
       "name": "The Age",
       "region": "Victoria",
       "feed": "https://www.theage.com.au/national/victoria"
@@ -101,8 +101,9 @@
     }
   ],
   "errors": [
-    "news.com.au and The Australian latest pages were still inconsistent; article-level results or alternate source pages were used where needed.",
-    "Sky News Australia and Yahoo News Australia did not expose stable current-week Australia listings this run."
+    "news.com.au content feed returned no extractable current-week items this run.",
+    "AFR, AAP and Sky News Australia required page-level fallbacks because stable current-week RSS listings were not available.",
+    "The Australian, Yahoo News Australia and 9News did not expose reliable current-week listings for this run."
   ],
   "clusters": [
     {
@@ -156,6 +157,60 @@
           }
         ]
       }
+    },
+    {
+      "id": "luke-bateman-gambling-losses-20260806",
+      "language": "si",
+      "sourceCount": 4,
+      "publishedAt": "2026-08-06T10:59:54.000Z",
+      "headline": "ලුක් බැට්මන්ගේ සූදු අලාභ නිසා ඔට්ටු දැමීමේ හානිය නැවත අවධානයට ලක්වෙයි",
+      "voiceScript": "ලූක් බැට්මන්ගේ සූදු ගැටලුව ගැන අධිකරණ වාර්තා තවත් තොරතුරු එක් කරයි. වාර්තාවට අනුව ඔහු එම பழக்கம் පෝෂණය කර ගැනීමට හවුල්කාරිනිය නිදා සිටින අතරතුර ඇගේ මුදල් ගත්තේය. සෙනට් සභාවේ සූදු විමර්ශනයේ සාක්ෂිකරුවෙකු ලෙස ඔහුගේ භූමිකාවත් මෙහි සම්බන්ධ කෙරේ. මෙය වැදගත් වන්නේ ඇබ්බැහිවීම පුද්ගලික ගැටලුවකින් පවුල් ආර්ථිකයටත් මහජන ප්‍රතිපත්තියටත් පැතිර යා හැකි බව පෙන්වන නිසාය. ප්‍රශ්නය වන්නේ ඕස්ට්‍රේලියාවේ සූදු පාලනයන්ට එම හානිය වේගයෙන් අඩු කළ හැකිද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/sport/nrl/luke-bateman-took-money-from-fianc-e-s-bank-while-she-slept-to-feed-gambling-habit-20260806-p60m2f.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/sport/nrl/luke-bateman-took-money-from-fianc-e-s-bank-while-she-slept-to-feed-gambling-habit-20260806-p60m2f.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/sport/nrl/luke-bateman-took-money-from-fianc-e-s-bank-while-she-slept-to-feed-gambling-habit-20260806-p60m2f.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/sport/nrl/luke-bateman-took-money-from-fianc-e-s-bank-while-she-slept-to-feed-gambling-habit-20260806-p60m2f.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ]
+    },
+    {
+      "id": "perth-paediatrician-fresh-child-sex-charges-20260806",
+      "language": "si",
+      "sourceCount": 4,
+      "publishedAt": "2026-08-06T10:52:33.000Z",
+      "headline": "පර්ත් දක්‍ෂ ළමා වෛද්‍යවරයෙකුට නැවත ළමා ලිංගික චෝදනා එල්ලවෙයි",
+      "voiceScript": "පර්ත්හි ළමා වෛද්‍යවරයෙකුට තවත් චෝදනා 15ක් එල්ල වී ඇති අතර, එමඟින් මෙම නඩුව බටහිර ඕස්ට්‍රේලියාවේ නැවතත් අවධානයට ලක්වෙයි. චෝදනා ළමුන්ට එරෙහි ලිංගික අපරාධ සම්බන්ධ බව පැවසේ. දැනටමත් බරපතළව තිබූ අපරාධමය නඩුවක් මෙයින් තවත් විශාල වී ඇත. දැන් පොලිසිය සහ අධිකරණය අමතර බවට කියන ගොදුරු සහ පුළුල් සාක්ෂි පරාසයක් සමඟ කටයුතු කරයි. ඊළඟ පියවර රඳා පවතින්නේ අධිකරණයේදී කුමක් පරීක්ෂා කරන්නේද සහ තවත් චෝදනා එනවාද යන්න මතයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/perth-paediatrician-accused-of-molesting-seven-more-children-20260806-p60m6l.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/perth-paediatrician-accused-of-molesting-seven-more-children-20260806-p60m6l.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/perth-paediatrician-accused-of-molesting-seven-more-children-20260806-p60m6l.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/perth-paediatrician-accused-of-molesting-seven-more-children-20260806-p60m6l.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ]
     },
     {
       "id": "iranian-footballers-citizenship-20260806",
@@ -238,6 +293,51 @@
           }
         ]
       }
+    },
+    {
+      "id": "vic-police-brain-damage-settlement-20260806",
+      "language": "si",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T09:06:16.000Z",
+      "headline": "වික్టෝරියා පොලිසිය අසාර්ථක අත්අඩංගුවට ගැනීමකින් පසු මොළයට හානි වූ නඩුව සමථයට පත් කරයි",
+      "voiceScript": "වික්ටෝරියා පොලිසිය 2022දී වැරදි ලෙස සිදු වූ අත්අඩංගුවට ගැනීමකින් පසුව ස්ථිර මොළ හානි ලැබූ ගිප්ස්ලන්ඩ් පියෙකු ගොනු කළ සිවිල් නඩුව සමථයට පත් කර තිබේ. වාර්තා අනුව වන්දිය ඩොලර් මිලියන 14කට ආසන්නය. මෙය හමුදාවේ මෑත කාලීන විශාල සමථයන්ගෙන් එකක් බව පැවසේ. නඩුවෙන් අත්අඩංගුවට ගැනීමේ ක්‍රමය සහ පොලිස් වගකීම ගැන නැවත අවධානය යොමුවෙයි. සමථය සිවිල් ගැටුම අවසන් කරයි, නමුත් අත්අඩංගුවට ගැනීම කළ ආකාරය පිළිබඳ ප්‍රශ්න තවම ඉතිරිවෙයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/vic-police-settle-lawsuit-gippsland-father-brain-damage/107004994"
+        }
+      ]
+    },
+    {
+      "id": "airservices-sydney-runway-near-miss-20260806",
+      "language": "si",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T07:32:58.000Z",
+      "headline": "සිඩ්නි ධාවන පථයේ ආසන්න ගැටුමෙන් ගුවන් තොටුපළ ආරක්ෂාව නැවතත් පරීක්ෂණයට ලක්වෙයි",
+      "voiceScript": "Airservices Australia කියන්නේ Sydney හි ධාවන පථ ආසන්න ගැටුමක් ගැන Australian Transport Safety Bureau පරීක්ෂණය කරමින් සිටියද ආරක්ෂාව තම ප්‍රමුඛත්වය බවයි. ගුවන් යානා පොළව මත ඉතා සමීප වුවහොත් ධාවන පථ සිද්ධීන් ඉක්මනින් බරපතළ විය හැකි නිසා මෙය වැදගත්ය. ATSB තවමත් මෙවැනි ආසන්න අනතුරු කොපමණ වාරයක් සිදුවෙනවාද සහ කුමක් වෙනස් කළ යුතුද යන්න සොයමින් සිටී. ගමන්කරුවන්ට වැදගත් වන්නේ එක් සිද්ධියක් නොව, ඊළඟ එක නතර කිරීමට තිබෙන පද්ධතියි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/airservices-australia-says-safety-is-number-one-for-us-as-atsb-investigates-runway-near-miss-in-sydney-c-22686536"
+        }
+      ]
+    },
+    {
+      "id": "nsw-blueberry-farm-illegal-dam-fines-20260806",
+      "language": "si",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T07:12:51.000Z",
+      "headline": "NSW බ්ලූබෙරි ගොවීන්ට නීතිවිරෝධී වේල්ලක් ගැන දැඩි දඩ",
+      "voiceScript": "NSW අධිකරණයක් ඔවුන්ගේ Mid North Coast භූමියේ තිබූ නීතිවිරෝධී වේල්ලක් සම්බන්ධයෙන් බ්ලූබෙරි ගොවීන් දෙදෙනෙකුට ඩොලර් 130,000ට වඩා දඩ පනවා ඇත. කුඩා ප්‍රාදේශීය ගොවිපලවලටත් ජලය හා භූමි භාවිතය සම්බන්ධ ආරවුල් අධිකරණයට යන බව මෙය පෙන්වයි. එමෙන්ම දේශීය පාරිසරික නීති ක්‍රමානුකූලව ක්‍රියාත්මක කිරීමට නියාමකයන්ට තිබෙන පීඩනයද මෙයින් පෙනේ. ගොවීන්ට වේල්ල ඉවත් කිරීමට නොවෙනු ඇත, නමුත් දඩය අනෙකුත් ඉඩම් හිමියන්ට පැහැදිලි අනතුරු ඇඟවීමකි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/bucca-blueberry-farmers-fined-for-illegal-dam/107003136"
+        }
+      ]
     },
     {
       "id": "migration-processing-pushback-20260806",
@@ -2109,6 +2209,21 @@
       }
     },
     {
+      "id": "women-in-politics-abuse-survey-20260804",
+      "language": "si",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T19:00:00.000Z",
+      "headline": "දේශපාලනයේ සිටින කාන්තාවන්ට එරෙහි අපහාසය නරක අතට හැරෙමින් 있다고 සමීක්ෂණය අනතුරු අඟවයි",
+      "voiceScript": "නව සමීක්ෂණයකින් කියන්නේ මහජන ධුර දරන හෝ මැතිවරණයට ඉදිරිපත් වන ඕස්ට්‍රේලියානු කාන්තාවන් බොහෝදෙනෙක් ඔවුන්ගේ දේශපාලන භූමිකාව නිසා අන්තර්ජාල අපහාසයට ලක්ව ඇති බවයි. මෙය හුදෙක් ශබ්දයක් නොව, සහභාගීත්වයට බාධාවක් බවයි වාර්තාව දක්වන්නේ, විශේෂයෙන් deepfake හා අනෙකුත් AI මෙවලම් එය තවත් වැඩි කරන විට. එය වැදගත් වන්නේ හැකියාව ඇති අය දේශපාලනයෙන් ඉවත් කළ හැකි නිසාත්, ධුරයට ඉදිරිපත් වීමට ආරක්ෂිත බව හැඟෙන පිරිස අඩු කළ හැකි නිසාත්ය. දැන් ප්‍රශ්නය වන්නේ කුමන ආරක්ෂණ සහ platform නීති මඟින් මේවා සැබෑවටම අඩු කළ හැකිද යන්නයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/female-politicians-facing-deadly-trajectory-of-abuse"
+        }
+      ]
+    },
+    {
       "id": "nt-police-aboriginal-officers-racism-lawsuit-20260804",
       "language": "si",
       "headline": "උතුරු ප්‍රදේශයේ ආදිවාසී පොලිස් නිලධාරීන් වර්ගභේදය පිළිබඳ සමූහ නඩුවක් ගොනු කරයි",
@@ -2488,6 +2603,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "census-door-knocking-scam-20260804",
+      "language": "si",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T06:51:01.000Z",
+      "headline": "සෙන්සස් දොරකඩ වංචාවක් ගැන ඕස්ට්‍රේලියානු ජනතාවට අනතුරු ඇඟවෙයි",
+      "voiceScript": "අගෝස්තු 11 සෙන්සස්ට පෙර දොරකඩ වංචා ගැන ඕස්ට්‍රේලියානු ජනතාවට අවවාද කර ඇත. වංචාකරුවන් බැංකු තොරතුරු, tax file number හෝ මුරපද ඉල්ලිය හැකි බවට මෙය අනතුරු අඟවයි. සෙන්සස් දත්ත අරමුදල්, සැලසුම් සහ මහජන සේවා සඳහා භාවිතා වන නිසා ක්‍රියාවලියේ විශ්වාසය රැකගත යුතුය. ABS කියන්නේ එය මේ ආකාරයෙන් සංවේදී පුද්ගලික තොරතුරු ඉල්ලන්නේ නැති බවයි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australians-warned-about-door-knocking-scam-ahead-of-august-11-census-c-22674281"
+        }
+      ]
     },
     {
       "id": "asx-rally-five-month-high-20260804",
@@ -3545,6 +3675,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "labor-tech-giant-tax-news-funding-20260802",
+      "language": "si",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T14:01:00.000Z",
+      "headline": "Labor පක්ෂය විශාල වේදිකාවලින් ප්‍රවෘත්ති අරමුදල් ඉල්ලන තාක්ෂණ බද්ද අවසන් කරයි",
+      "voiceScript": "විකල්පයක් ලෙස නොව, Labor පක්ෂය විශාල තාක්ෂණ සමාගම්වල ඩිජිටල් දැන්වීම් ආදායම ඉලක්ක කරන බද්දක් අවසන් කර ඇති අතර එය ඕස්ට්‍රේලියානු ජනමාධ්‍යයට සහාය වීමට යොදා ගැනේ. මෙය ප්‍රවෘත්ති ප්‍රකාශකයන් සහ ගෝලීය වේදිකා අතර සාකච්ඡා සටනේ වෙනසක් පෙන්වයි. මේක වැදගත් වන්නේ ඕස්ට්‍රේලියානු මාධ්‍යයට මුදල් සපයන ආකාරයත්, තාක්ෂණ දැවැන්තයන් මත රජයට තිබෙන බලයත් වෙනස් කළ හැකි නිසාය. කවුරුන් ගෙවන්නේද සහ ඇත්තටම කීයක් පුවත් කාමරවලට යන්නේද යන්න වගේ විස්තර තවමත් වැදගත්ය.",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/labor-finalises-tech-giant-tax-designed-to-force-funding-for-news-20260802-p60kou"
+        }
+      ]
     },
     {
       "id": "victoria-park-olympic-plan-20260802",

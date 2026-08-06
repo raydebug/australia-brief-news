@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T10:11:13.176Z",
+  "updatedAt": "2026-08-06T11:13:03.722Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -42,7 +42,7 @@
     {
       "id": "afr",
       "name": "Australian Financial Review",
-      "region": "Business",
+      "region": "National",
       "feed": "https://www.afr.com/latest"
     },
     {
@@ -52,13 +52,13 @@
       "feed": "https://www.skynews.com.au/australia-news"
     },
     {
-      "id": "nine-news-au",
+      "id": "nine-news",
       "name": "9News",
       "region": "National",
       "feed": "https://www.9news.com.au/national"
     },
     {
-      "id": "seven-news-au",
+      "id": "seven-news",
       "name": "7NEWS",
       "region": "National",
       "feed": "https://7news.com.au/news/australia"
@@ -70,7 +70,7 @@
       "feed": "https://www.smh.com.au/national"
     },
     {
-      "id": "the-age",
+      "id": "age",
       "name": "The Age",
       "region": "Victoria",
       "feed": "https://www.theage.com.au/national/victoria"
@@ -101,8 +101,9 @@
     }
   ],
   "errors": [
-    "news.com.au and The Australian latest pages were still inconsistent; article-level results or alternate source pages were used where needed.",
-    "Sky News Australia and Yahoo News Australia did not expose stable current-week Australia listings this run."
+    "news.com.au content feed returned no extractable current-week items this run.",
+    "AFR, AAP and Sky News Australia required page-level fallbacks because stable current-week RSS listings were not available.",
+    "The Australian, Yahoo News Australia and 9News did not expose reliable current-week listings for this run."
   ],
   "clusters": [
     {
@@ -156,6 +157,60 @@
           }
         ]
       }
+    },
+    {
+      "id": "luke-bateman-gambling-losses-20260806",
+      "language": "ja",
+      "sourceCount": 4,
+      "publishedAt": "2026-08-06T10:59:54.000Z",
+      "headline": "ルーク・バットマンの賭博損失で、賭け事の害に再び注目",
+      "voiceScript": "裁判報道によると、ルーク・バットマンの賭博問題には新たな詳細が加わり、彼は交際相手が眠っている間に金を持ち出していたという。報道は、その行為を上院の賭博調査での証人としての立場とも結びつけている。重要なのは、依存が個人の問題から家計や公共政策へ広がることを示している点だ。オーストラリアの規制がその被害を十分な速さで抑えられるのかが、次の焦点になる。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/sport/nrl/luke-bateman-took-money-from-fianc-e-s-bank-while-she-slept-to-feed-gambling-habit-20260806-p60m2f.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/sport/nrl/luke-bateman-took-money-from-fianc-e-s-bank-while-she-slept-to-feed-gambling-habit-20260806-p60m2f.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/sport/nrl/luke-bateman-took-money-from-fianc-e-s-bank-while-she-slept-to-feed-gambling-habit-20260806-p60m2f.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/sport/nrl/luke-bateman-took-money-from-fianc-e-s-bank-while-she-slept-to-feed-gambling-habit-20260806-p60m2f.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ]
+    },
+    {
+      "id": "perth-paediatrician-fresh-child-sex-charges-20260806",
+      "language": "ja",
+      "sourceCount": 4,
+      "publishedAt": "2026-08-06T10:52:33.000Z",
+      "headline": "パースの小児科医に新たな児童性犯罪容疑",
+      "voiceScript": "パースの小児科医にさらに15件の罪状が加わり、西オーストラリアでこの事件への注目が再び高まっている。容疑は児童に対する性犯罪に関わるもので、すでに深刻だった刑事事件がさらに広がった。警察と裁判所は、より多くの被害を訴える人たちと、さらに大きな証拠の全体像に向き合うことになる。今後は、法廷で何が争点になるか、そして追加起訴があるかどうかが焦点だ。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Sydney Morning Herald",
+          "url": "https://www.smh.com.au/national/perth-paediatrician-accused-of-molesting-seven-more-children-20260806-p60m6l.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "The Age",
+          "url": "https://www.theage.com.au/national/perth-paediatrician-accused-of-molesting-seven-more-children-20260806-p60m6l.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "Brisbane Times",
+          "url": "https://www.brisbanetimes.com.au/national/perth-paediatrician-accused-of-molesting-seven-more-children-20260806-p60m6l.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        },
+        {
+          "source": "WAtoday",
+          "url": "https://www.watoday.com.au/national/perth-paediatrician-accused-of-molesting-seven-more-children-20260806-p60m6l.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+        }
+      ]
     },
     {
       "id": "iranian-footballers-citizenship-20260806",
@@ -238,6 +293,51 @@
           }
         ]
       }
+    },
+    {
+      "id": "vic-police-brain-damage-settlement-20260806",
+      "language": "ja",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T09:06:16.000Z",
+      "headline": "ビクトリア州警察、誤った逮捕で脳損傷を負った男性との訴訟を和解",
+      "voiceScript": "ビクトリア州警察は、2022年の不手際な逮捕で永久的な脳損傷を負ったギップスランドの父親が起こした民事訴訟を和解した。報道では和解金は1400万豪ドル近くとされ、同警察の近年の和解としては大きな部類に入る。争点は逮捕の手順と警察の責任だった。民事上の争いは終わるが、当時の対応に対する疑問は残る。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/vic-police-settle-lawsuit-gippsland-father-brain-damage/107004994"
+        }
+      ]
+    },
+    {
+      "id": "airservices-sydney-runway-near-miss-20260806",
+      "language": "ja",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T07:32:58.000Z",
+      "headline": "シドニーの滑走路のニアミスで空港安全が再び焦点に",
+      "voiceScript": "Airservices Australia は、オーストラリア運輸安全局がシドニーの滑走路で起きたニアミスを調べている間も、安全が最優先だと述べている。滑走路上で航空機が接近しすぎると、事故はすぐに重大化しかねないため、この件は重要だ。ATSB は、こうしたヒヤリハットがどの程度起きているのか、何を変える必要があるのかを引き続き調べている。利用者にとって大切なのは、1件の事故そのものより、次を防ぐ仕組みだ。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/airservices-australia-says-safety-is-number-one-for-us-as-atsb-investigates-runway-near-miss-in-sydney-c-22686536"
+        }
+      ]
+    },
+    {
+      "id": "nsw-blueberry-farm-illegal-dam-fines-20260806",
+      "language": "ja",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T07:12:51.000Z",
+      "headline": "NSWのブルーベリー農家、違法ダムで高額罰金",
+      "voiceScript": "NSWの裁判所は、中北海岸の農地にある違法ダムをめぐり、ブルーベリー農家2人に13万豪ドル超の罰金を科した。小規模な地方農場でも、水と土地利用をめぐる争いが裁判に持ち込まれることを示す事例だ。地域の環境ルールを一貫して取り締まるよう、規制当局への圧力も浮き彫りにした。ダムの撤去は免れるが、他の土地所有者への警告は明確だ。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/bucca-blueberry-farmers-fined-for-illegal-dam/107003136"
+        }
+      ]
     },
     {
       "id": "migration-processing-pushback-20260806",
@@ -2119,6 +2219,21 @@
       }
     },
     {
+      "id": "women-in-politics-abuse-survey-20260804",
+      "language": "ja",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T19:00:00.000Z",
+      "headline": "女性政治家への嫌がらせが悪化していると調査が警告",
+      "voiceScript": "新しい調査では、公職に就くか選挙に出るオーストラリアの女性の多くが、自分の政治的役割に結びついたオンライン上の嫌がらせを受けているという。問題は単なる雑音ではなく、参加を妨げる壁になっていると示しており、特にディープフェイクや他のAIツールで増幅されると深刻だ。能力のある人を政治から遠ざけ、立候補を考える人を狭めかねないからだ。次の焦点は、どんな保護策とプラットフォーム規則が実際に被害を減らせるかだ。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/female-politicians-facing-deadly-trajectory-of-abuse"
+        }
+      ]
+    },
+    {
       "id": "nt-police-aboriginal-officers-racism-lawsuit-20260804",
       "language": "ja",
       "headline": "ノーザンテリトリーの先住民警察官が人種差別をめぐり集団訴訟",
@@ -2498,6 +2613,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "census-door-knocking-scam-20260804",
+      "language": "ja",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-04T06:51:01.000Z",
+      "headline": "国勢調査を装う戸別訪問詐欺に注意喚起",
+      "voiceScript": "8月11日の国勢調査を前に、戸別訪問を装う詐欺への注意が呼びかけられている。犯人が銀行口座情報や税番号、パスワードを求める恐れがあるという。国勢調査のデータは予算配分や計画、公共サービスに使われるため、手続きへの信頼を守ることが重要だ。ABS は、そのような形で機密の個人情報を求めることはないとしている。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australians-warned-about-door-knocking-scam-ahead-of-august-11-census-c-22674281"
+        }
+      ]
     },
     {
       "id": "asx-rally-five-month-high-20260804",
@@ -3555,6 +3685,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "labor-tech-giant-tax-news-funding-20260802",
+      "language": "ja",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-02T14:01:00.000Z",
+      "headline": "労働党、巨大プラットフォームに報道資金を出させる技術税を固める",
+      "voiceScript": "労働党は、大手テック企業のデジタル広告収入を対象にする税制変更をまとめ、オーストラリアの報道支援に充てようとしている。この政策は、報道機関と世界的プラットフォームの間の交渉に転換をもたらす。オーストラリアのメディアの資金の流れや、政府が巨大IT企業にどれだけ影響力を持つかを変えうるからだ。誰が負担し、実際にいくらが編集部に届くのかという細部が、今も重要だ。",
+      "differences": [],
+      "links": [
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/politics/federal/labor-finalises-tech-giant-tax-designed-to-force-funding-for-news-20260802-p60kou"
+        }
+      ]
     },
     {
       "id": "victoria-park-olympic-plan-20260802",
