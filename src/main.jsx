@@ -3862,6 +3862,23 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Jo Puccini",
+    aliases: ["Jo Puccini"],
+    type: "media executive",
+    social: { label: "LinkedIn", url: "https://au.linkedin.com/in/jo-puccini-0b9a0767" },
+    background: {
+      "zh-Hans": "澳洲公共广播资深编辑和节目负责人，曾在 ABC 任调查与时事主管，并长期参与 Four Corners、7.30、Lateline 和 Media Watch 等节目。",
+      "zh-Hant": "澳洲公共廣播資深編輯和節目負責人，曾在 ABC 任調查與時事主管，並長期參與 Four Corners、7.30、Lateline 和 Media Watch 等節目。",
+      en: "Australian public-broadcasting editor and program leader who served as ABC head of investigations and current affairs after senior work across Four Corners, 7.30, Lateline and Media Watch.",
+      es: "Editora y directiva de programación de la radiodifusión pública australiana; fue jefa de investigaciones y actualidad de ABC tras cargos sénior en Four Corners, 7.30, Lateline y Media Watch.",
+      ja: "豪州公共放送の編集者、番組幹部。Four Corners、7.30、Lateline、Media Watch での上級職を経て、ABC の調査報道・時事部門責任者を務めました。",
+      ko: "호주 공영방송 편집자이자 프로그램 책임자로, Four Corners, 7.30, Lateline, Media Watch의 고위 역할을 거쳐 ABC 조사보도·시사 부문 책임자를 지냈습니다.",
+      vi: "Biên tập viên và lãnh đạo chương trình trong truyền thông công Australia, từng là trưởng bộ phận điều tra và thời sự của ABC sau các vai trò cấp cao ở Four Corners, 7.30, Lateline và Media Watch.",
+      th: "บรรณาธิการและผู้บริหารรายการในสื่อสาธารณะออสเตรเลีย เคยเป็นหัวหน้าฝ่ายสืบสวนและเหตุการณ์ปัจจุบันของ ABC หลังทำงานระดับอาวุโสกับ Four Corners, 7.30, Lateline และ Media Watch",
+      si: "Australian public-broadcasting editor සහ program leader කෙනෙකි; Four Corners, 7.30, Lateline සහ Media Watch හි senior work පසු ABC head of investigations and current affairs ලෙස කටයුතු කළාය."
+    }
+  },
+  {
     name: "Ralph Carr",
     aliases: ["Ralph Carr", "Ralph D. Carr", "Ralph Carnovale-Carr", "拉尔夫·卡尔", "拉爾夫·卡爾", "ラルフ・カー", "랠프 카"],
     type: "public-figure",
