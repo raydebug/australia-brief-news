@@ -3862,6 +3862,23 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Michael Lee",
+    aliases: ["Michael Lee", "Justice Michael Lee", "Michael Bryan Joshua Lee", "The Hon Justice Michael Lee", "迈克尔·李", "麥可·李", "マイケル・リー", "마이클 리"],
+    type: "judge",
+    officialProfile: { label: "Federal Court biography", url: "https://www.fedcourt.gov.au/about/judges/current-judges-appointment/current-judges/lee-j" },
+    background: {
+      "zh-Hans": "澳大利亚联邦法院法官，2017 年获任命；此前为资深诉讼律师和御用大律师，曾审理 Qantas 外包、诽谤和公司法等高关注案件。",
+      "zh-Hant": "澳洲聯邦法院法官，2017 年獲任命；此前為資深訴訟律師和資深大律師，曾審理 Qantas 外判、誹謗和公司法等高關注案件。",
+      en: "Federal Court of Australia judge appointed in 2017, after a career as a senior litigation lawyer and silk; he has handled high-profile Qantas outsourcing, defamation and corporations matters.",
+      es: "Juez del Federal Court of Australia desde 2017, tras una carrera como abogado litigante sénior y silk; ha llevado asuntos destacados sobre outsourcing de Qantas, difamación y derecho corporativo.",
+      ja: "2017年に任命された豪州連邦裁判所判事。上級訴訟弁護士、シルクを経て、Qantas 外部委託、名誉毀損、会社法など注目度の高い事件を扱ってきました。",
+      ko: "2017년 임명된 호주 연방법원 판사입니다. 선임 소송 변호사와 선임 법정변호사를 거쳤으며 Qantas 아웃소싱, 명예훼손, 기업법 관련 주요 사건을 맡았습니다.",
+      vi: "Thẩm phán Federal Court of Australia được bổ nhiệm năm 2017, sau sự nghiệp luật sư tranh tụng cấp cao và silk; ông xử lý các vụ lớn về outsourcing của Qantas, phỉ báng và luật công ty.",
+      th: "ผู้พิพากษา Federal Court of Australia ได้รับแต่งตั้งในปี 2017 หลังทำงานเป็นทนายความคดีความอาวุโสและ silk; เคยดูแลคดีสำคัญเกี่ยวกับ Qantas outsourcing หมิ่นประมาท และกฎหมายบริษัท",
+      si: "2017 දී පත් කළ Federal Court of Australia judge කෙනෙකි; senior litigation lawyer සහ silk ලෙස කටයුතු කළ පසු Qantas outsourcing, defamation සහ corporations matters වැනි high-profile cases බලයි."
+    }
+  },
+  {
     name: "Jo Puccini",
     aliases: ["Jo Puccini"],
     type: "media executive",
