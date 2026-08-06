@@ -3490,6 +3490,55 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Jacqui Lambie",
+    aliases: ["Jacqui Lambie", "Jacquiline Louise Lambie", "Senator Jacqui Lambie", "杰基·兰比", "傑基·蘭比", "ジャッキー・ランビー", "재키 램비"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.aph.gov.au/senator_lambie" },
+    social: { label: "Facebook", url: "https://www.facebook.com/SenatorLambie/" },
+    personalSocial: { label: "Instagram", url: "https://www.instagram.com/senatorjacquilambie/" },
+    background: {
+      "zh-Hans": "塔州联邦参议员、Jacqui Lambie Network 创始人和领袖；从政前曾在澳大利亚陆军服役，后以退伍军人事务、福利和参议院制衡议题闻名。",
+      "zh-Hant": "塔州聯邦參議員、Jacqui Lambie Network 創辦人和領袖；從政前曾在澳洲陸軍服役，後以退伍軍人事務、福利和參議院制衡議題聞名。",
+      en: "Tasmanian senator and founder-leader of the Jacqui Lambie Network. Before politics she served in the Australian Army and later became known for veterans' affairs, welfare and Senate crossbench bargaining.",
+      es: "Senadora por Tasmania y fundadora-líder de Jacqui Lambie Network. Antes de la política sirvió en el ejército australiano y después se destacó en asuntos de veteranos, bienestar social y negociación en el Senado.",
+      ja: "タスマニア州選出の上院議員で、Jacqui Lambie Network の創設者・党首です。政界入り前は豪陸軍に勤務し、退役軍人政策、福祉、上院クロスベンチ交渉で知られます。",
+      ko: "태즈메이니아 상원의원이자 Jacqui Lambie Network 창립자 겸 대표입니다. 정계 입문 전 호주 육군에서 복무했고 이후 보훈, 복지, 상원 크로스벤치 협상으로 알려졌습니다.",
+      vi: "Thượng nghị sĩ Tasmania, người sáng lập kiêm lãnh đạo Jacqui Lambie Network. Trước chính trị, bà phục vụ trong quân đội Australia và sau đó được biết đến với vấn đề cựu chiến binh, phúc lợi và đàm phán crossbench ở Thượng viện.",
+      th: "วุฒิสมาชิกรัฐแทสเมเนียและผู้ก่อตั้ง-ผู้นำ Jacqui Lambie Network ก่อนเข้าสู่การเมืองเคยรับราชการในกองทัพออสเตรเลีย และต่อมาเป็นที่รู้จักเรื่องทหารผ่านศึก สวัสดิการ และการต่อรองใน Senate crossbench",
+      si: "Tasmania senator සහ Jacqui Lambie Network founder-leader කෙනෙකි. Politics ට පෙර Australian Army හි සේවය කළ අතර පසුව veterans' affairs, welfare සහ Senate crossbench bargaining ගැන ප්‍රසිද්ධියට පත්විය."
+    },
+    positions: {
+      "zh-Hans": "重点关注退伍军人支持、社会保障、塔州地区利益、廉政和大型政党权力制衡；在博彩改革等议题上常要求更强的消费者保护。",
+      "zh-Hant": "重點關注退伍軍人支持、社會保障、塔州地區利益、廉政和大型政黨權力制衡；在博彩改革等議題上常要求更強的消費者保護。",
+      en: "Her main themes include veterans' support, social security, Tasmanian regional interests, integrity and checking major-party power. On gambling reform she often presses for stronger consumer protection.",
+      es: "Sus temas centrales incluyen apoyo a veteranos, seguridad social, intereses regionales de Tasmania, integridad y control del poder de los grandes partidos. En reforma del juego suele pedir mayor protección al consumidor.",
+      ja: "退役軍人支援、社会保障、タスマニアの地域利益、政治倫理、大政党への抑制を重視します。ギャンブル改革では消費者保護の強化を求めることが多いです。",
+      ko: "보훈 지원, 사회보장, 태즈메이니아 지역 이익, 청렴성, 거대 양당 견제를 중시합니다. 도박 개혁에서는 더 강한 소비자 보호를 요구하는 경우가 많습니다.",
+      vi: "Các trọng tâm của bà gồm hỗ trợ cựu chiến binh, an sinh xã hội, lợi ích vùng Tasmania, liêm chính và kiểm soát quyền lực các đảng lớn. Về cải cách cờ bạc, bà thường thúc đẩy bảo vệ người tiêu dùng mạnh hơn.",
+      th: "ประเด็นหลักคือการสนับสนุนทหารผ่านศึก social security ผลประโยชน์ภูมิภาคแทสเมเนีย ความโปร่งใส และการถ่วงดุลพรรคใหญ่ ด้านปฏิรูปการพนัน เธอมักเรียกร้องการคุ้มครองผู้บริโภคที่เข้มขึ้น",
+      si: "ඇයගේ main themes veterans' support, social security, Tasmanian regional interests, integrity සහ major-party power check කිරීම වේ. Gambling reform සම්බන්ධයෙන් වඩා ශක්තිමත් consumer protection ඉල්ලා සිටීමට ඇය නැඹුරුය."
+    }
+  },
+  {
+    name: "Tim Costello",
+    aliases: ["Tim Costello", "Timothy Ewen Costello", "Rev Tim Costello", "Reverend Tim Costello", "蒂姆·科斯特洛", "ティム・コステロ", "팀 코스텔로"],
+    type: "advocate",
+    profile: { label: "Micah Australia profile", url: "https://www.micahaustralia.org/news/author/tim-costello/" },
+    officialProfile: { label: "Alliance for Gambling Reform profile", url: "https://www.agr.org.au/team/rev-tim-costello" },
+    social: { label: "X", url: "https://x.com/TimCostello" },
+    background: {
+      "zh-Hans": "澳大利亚牧师、社会公义倡议者和前 World Vision Australia 首席执行官；长期参与贫困、援助、伦理和博彩伤害改革公共讨论。",
+      "zh-Hant": "澳洲牧師、社會公義倡議者和前 World Vision Australia 行政總裁；長期參與貧困、援助、倫理和博彩傷害改革公共討論。",
+      en: "Australian minister, social-justice advocate and former World Vision Australia chief executive. He is a long-running public voice on poverty, aid, ethics and gambling-harm reform.",
+      es: "Ministro religioso australiano, defensor de justicia social y ex director ejecutivo de World Vision Australia. Es una voz pública de larga trayectoria sobre pobreza, ayuda, ética y reforma del daño por juego.",
+      ja: "豪州の牧師、社会正義の提唱者で、World Vision Australia の元最高経営責任者です。貧困、援助、倫理、ギャンブル被害改革について長く発言しています。",
+      ko: "호주의 목회자이자 사회정의 활동가, 전 World Vision Australia 최고경영자입니다. 빈곤, 원조, 윤리, 도박 피해 개혁에 대해 오랫동안 공개적으로 발언해 왔습니다.",
+      vi: "Mục sư Australia, nhà vận động công bằng xã hội và cựu CEO World Vision Australia. Ông là tiếng nói công khai lâu năm về nghèo đói, viện trợ, đạo đức và cải cách tác hại cờ bạc.",
+      th: "บาทหลวงออสเตรเลีย นักรณรงค์ความเป็นธรรมทางสังคม และอดีต chief executive ของ World Vision Australia เป็นเสียงสาธารณะมายาวนานเรื่องความยากจน ความช่วยเหลือ จริยธรรม และการปฏิรูปอันตรายจากการพนัน",
+      si: "Australian minister, social-justice advocate සහ හිටපු World Vision Australia chief executive කෙනෙකි. Poverty, aid, ethics සහ gambling-harm reform පිළිබඳ දිගුකාලීන public voice කෙනෙකි."
+    }
+  },
+  {
     name: "Katy Gallagher",
     aliases: ["Katy Gallagher", "Katherine Ruth Gallagher", "Senator Katy Gallagher", "凯蒂·加拉格尔", "凱蒂·加拉格爾", "ケイティ・ギャラガー", "케이티 갤러거"],
     type: "politician",
