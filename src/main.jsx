@@ -925,6 +925,52 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Robert Thomson",
+    aliases: ["Robert Thomson", "Robert James Thomson", "Robert J. Thomson", "News Corp CEO Robert Thomson", "罗伯特·汤姆森", "羅伯特·湯姆森", "ロバート・トムソン", "로버트 톰슨"],
+    type: "executive",
+    officialProfile: { label: "News Corp leadership", url: "https://newscorp.com/news-corp-leadership/" },
+    social: { label: "LinkedIn", url: "https://www.linkedin.com/in/robert-thomson-52603a8" },
+    background: {
+      "zh-Hans": "澳大利亚出生的媒体高管和前记者，2013 年起担任 News Corp 首席执行官；此前曾任 The Wall Street Journal 总编辑和 The Times 编辑。",
+      "zh-Hant": "澳洲出生的媒體高管和前記者，2013 年起擔任 News Corp 行政總裁；此前曾任 The Wall Street Journal 總編輯和 The Times 編輯。",
+      en: "Australian-born media executive and former journalist who has been chief executive of News Corp since 2013, after senior editorial roles at The Wall Street Journal and The Times.",
+      es: "Ejecutivo de medios nacido en Australia y ex periodista; es director ejecutivo de News Corp desde 2013, tras cargos editoriales sénior en The Wall Street Journal y The Times.",
+      ja: "豪州出身のメディア経営者、元ジャーナリスト。The Wall Street Journal や The Times の編集幹部を経て、2013年から News Corp の最高経営責任者です。",
+      ko: "호주 출신 미디어 경영자이자 전직 기자로, The Wall Street Journal과 The Times의 고위 편집직을 거쳐 2013년부터 News Corp 최고경영자를 맡고 있습니다.",
+      vi: "Nhà điều hành truyền thông sinh tại Australia và cựu nhà báo, là CEO News Corp từ năm 2013 sau các vai trò biên tập cấp cao tại The Wall Street Journal và The Times.",
+      th: "ผู้บริหารสื่อและอดีตนักข่าวชาวออสเตรเลีย ดำรงตำแหน่ง chief executive ของ News Corp ตั้งแต่ปี 2013 หลังเคยเป็นผู้บริหารบรรณาธิการที่ The Wall Street Journal และ The Times",
+      si: "Australian-born media executive සහ former journalist කෙනෙකි; The Wall Street Journal සහ The Times හි senior editorial roles පසු 2013 සිට News Corp chief executive ලෙස කටයුතු කරයි."
+    }
+  },
+  {
+    name: "Eddie Obeid",
+    aliases: ["Eddie Obeid", "Edward Obeid", "Edward Moses Obeid", "埃迪·奥贝德", "艾迪·奧貝德", "エディー・オベイド", "에디 오베이드"],
+    type: "politician",
+    officialProfile: { label: "NSW Parliament profile", url: "https://www.parliament.nsw.gov.au/members/Pages/Member-details.aspx?pk=2215" },
+    background: {
+      "zh-Hans": "前新州工党上议院议员和州部长，曾在 1990 年代至 2000 年代被视为工党内部权力掮客；后来因公职不当行为和煤矿牌照相关腐败案被定罪。",
+      "zh-Hant": "前新州工黨上議院議員和州部長，曾在 1990 年代至 2000 年代被視為工黨內部權力掮客；後來因公職不當行為和煤礦牌照相關腐敗案被定罪。",
+      en: "Former NSW Labor upper house MP and state minister, long seen as a Labor powerbroker in the 1990s and 2000s, later convicted over misconduct in public office and a coal-licence corruption case.",
+      es: "Exdiputado laborista del Consejo Legislativo de NSW y ex ministro estatal, visto durante años como operador de poder laborista; después fue condenado por misconduct in public office y un caso de corrupción ligado a licencias de carbón.",
+      ja: "元 NSW Labor 上院議員、州大臣。1990年代から2000年代にかけて党内実力者とされ、その後、公職不正行為と石炭ライセンス関連の汚職事件で有罪となりました。",
+      ko: "전 NSW Labor 상원의원 겸 주 장관으로 1990-2000년대 노동당 실세로 여겨졌으며, 이후 공직 부정행위와 석탄 면허 부패 사건으로 유죄 판결을 받았습니다.",
+      vi: "Cựu nghị sĩ thượng viện bang NSW của Labor và cựu bộ trưởng bang, từng được xem là powerbroker của Labor trong thập niên 1990-2000, sau đó bị kết án về misconduct in public office và một vụ tham nhũng giấy phép than.",
+      th: "อดีตสมาชิกสภาสูงรัฐ NSW ของ Labor และอดีตรัฐมนตรีรัฐ เคยถูกมองเป็นผู้มีอิทธิพลในพรรคช่วงทศวรรษ 1990-2000 ต่อมาถูกตัดสินผิดคดี misconduct in public office และคดีคอร์รัปชันใบอนุญาตเหมืองถ่านหิน",
+      si: "හිටපු NSW Labor upper house MP සහ state minister කෙනෙකි; 1990s සහ 2000s වල Labor powerbroker ලෙස සැලකුණු අතර පසුව misconduct in public office සහ coal-licence corruption case සම්බන්ධයෙන් වරදකරු විය."
+    },
+    positions: {
+      "zh-Hans": "政治生涯主要与新州 Labor Right、州内资源和渔业部长职务、以及党内派系操作联系在一起；其后续公共意义更多来自腐败调查、资产冻结和政治问责。",
+      "zh-Hant": "政治生涯主要與新州 Labor Right、州內資源和漁業部長職務、以及黨內派系操作聯繫在一起；其後續公共意義更多來自腐敗調查、資產凍結和政治問責。",
+      en: "His political career is associated with NSW Labor Right factional power, resources and fisheries portfolios, and later public scrutiny through corruption findings, asset freezes and accountability cases.",
+      es: "Su carrera política se asocia con el poder faccional de Labor Right en NSW, las carteras de recursos y pesca, y después con investigaciones de corrupción, congelamiento de activos y rendición de cuentas.",
+      ja: "政治経歴は NSW Labor Right の派閥権力、資源・漁業担当相、そして後年の汚職認定、資産凍結、政治責任追及と結び付いています。",
+      ko: "그의 정치 경력은 NSW Labor Right 계파 권력, 자원·수산 포트폴리오, 이후 부패 판단과 자산 동결, 책임 추궁 사건으로 설명됩니다.",
+      vi: "Sự nghiệp chính trị của ông gắn với quyền lực phe Labor Right ở NSW, các danh mục tài nguyên và thủy sản, rồi sau đó là các phát hiện tham nhũng, phong tỏa tài sản và trách nhiệm giải trình.",
+      th: "อาชีพการเมืองของเขาเชื่อมโยงกับอำนาจ faction Labor Right ใน NSW งานด้านทรัพยากรและประมง และต่อมาคือผลสอบคอร์รัปชัน การอายัดทรัพย์ และคดีความรับผิดชอบทางการเมือง",
+      si: "ඔහුගේ political career එක NSW Labor Right factional power, resources/fisheries portfolios, පසුව corruption findings, asset freezes සහ accountability cases සමඟ සම්බන්ධය."
+    }
+  },
+  {
     name: "Omar Musa",
     aliases: ["Omar Musa", "Omar bin Musa", "Omar Bin Musa", "奥马尔·穆萨", "奧馬爾·穆薩", "オマー・ムーサ", "오마르 무사"],
     type: "artist",
