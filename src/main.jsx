@@ -3358,6 +3358,9 @@ const PEOPLE_CONTEXT = [
     aliases: ["Angus Taylor", "安格斯·泰勒", "アンガス・テイラー", "앵거스 테일러"],
     type: "politician",
     social: { label: "Facebook", url: "https://www.facebook.com/Angustaylor4hume/" },
+    personalSocial: { label: "X", url: "https://x.com/AngusTaylorMP" },
+    profile: { label: "Personal website", url: "https://www.angustaylor.com.au/" },
+    officialProfile: { label: "Parliament profile", url: "https://www.aph.gov.au/a_taylor_mp" },
     background: {
       "zh-Hans": "澳大利亚自由党领袖，Hume 选区联邦议员，曾任能源、网络安全和影子财长等职务。",
       "zh-Hant": "澳洲自由黨領袖，Hume 選區聯邦議員，曾任能源、網路安全和影子財長等職務。",
