@@ -906,6 +906,42 @@ function hasSpecificCommentary(commentary) {
 
 const PEOPLE_CONTEXT = [
   {
+    name: "Fatemeh Pasandideh",
+    aliases: ["Fatemeh Pasandideh", "PASAND", "fatemehpasandideh10", "فاطمه پسندیده"],
+    type: "athlete",
+    profile: { label: "Soccerway profile", url: "https://www.soccerway.com/player/pasandideh-fatemeh/bXPK4xXh/" },
+    officialProfile: { label: "FotMob profile", url: "https://www.fotmob.com/players/1915051/fatemeh-pasandideh" },
+    background: {
+      "zh-Hans": "伊朗女子足球运动员，司职中场，曾效力 Bam Khatoon 并代表伊朗女足；2026 年女子亚洲杯期间在澳洲寻求庇护，随后在布里斯班随 Brisbane Roar 训练并入籍澳洲。",
+      "zh-Hant": "伊朗女子足球運動員，司職中場，曾效力 Bam Khatoon 並代表伊朗女足；2026 年女子亞洲盃期間在澳洲尋求庇護，隨後在布里斯本隨 Brisbane Roar 訓練並入籍澳洲。",
+      en: "Iranian footballer and midfielder who played for Bam Khatoon and Iran's women's national team; during the 2026 Women's Asian Cup she sought asylum in Australia, later trained with Brisbane Roar in Brisbane and became an Australian citizen.",
+      es: "Futbolista iraní, mediocampista, ex jugadora de Bam Khatoon y de la selección femenina de Irán; durante la Copa Asiática femenina de 2026 pidió asilo en Australia, después entrenó con Brisbane Roar en Brisbane y obtuvo la ciudadanía australiana.",
+      ja: "イランの女子サッカー選手、ミッドフィールダー。Bam Khatoon とイラン女子代表でプレーし、2026年女子アジアカップ期間中に豪州で亡命を求め、その後ブリスベンで Brisbane Roar と練習し、豪州市民権を取得しました。",
+      ko: "이란 여자 축구 미드필더로 Bam Khatoon과 이란 여자 대표팀에서 뛰었습니다. 2026년 여자 아시안컵 기간 호주에 망명을 신청했고 이후 브리즈번에서 Brisbane Roar와 훈련하며 호주 시민권을 취득했습니다.",
+      vi: "Cầu thủ bóng đá nữ Iran chơi tiền vệ, từng khoác áo Bam Khatoon và đội tuyển nữ Iran; trong Asian Cup nữ 2026 cô xin tị nạn tại Australia, sau đó tập cùng Brisbane Roar ở Brisbane và trở thành công dân Australia.",
+      th: "นักฟุตบอลหญิงอิหร่านตำแหน่งกองกลาง อดีตผู้เล่น Bam Khatoon และทีมชาติหญิงอิหร่าน; ระหว่าง Women's Asian Cup 2026 เธอยื่นขอลี้ภัยในออสเตรเลีย ต่อมาฝึกซ้อมกับ Brisbane Roar ที่บริสเบนและได้สัญชาติออสเตรเลีย",
+      si: "Iranian women football midfielder කෙනෙකි; Bam Khatoon සහ Iran women's national team සඳහා ක්‍රීඩා කළාය. 2026 Women's Asian Cup අතරතුර Australia හි asylum ඉල්ලා, පසුව Brisbane හි Brisbane Roar සමඟ පුහුණුවී Australian citizen බවට පත්විය."
+    }
+  },
+  {
+    name: "Atefeh Ramezanisadeh",
+    aliases: ["Atefeh Ramezanisadeh", "Atefeh Ramezanizadeh", "Atefeh Ramezani", "Atefeh Ramezani10", "عاطفه رمضانی‌زاده"],
+    type: "athlete",
+    social: { label: "Instagram", url: "https://www.instagram.com/atefeh_ramezani10/" },
+    profile: { label: "Soccerway profile", url: "https://za.soccerway.com/player/ramezanizadeh-atefeh/jR2glHnC/" },
+    background: {
+      "zh-Hans": "伊朗女子足球运动员，司职后卫，长期效力 Bam Khatoon 并代表伊朗女足；2026 年女子亚洲杯期间在澳洲寻求庇护，之后留在布里斯班训练并入籍澳洲。",
+      "zh-Hant": "伊朗女子足球運動員，司職後衛，長期效力 Bam Khatoon 並代表伊朗女足；2026 年女子亞洲盃期間在澳洲尋求庇護，之後留在布里斯本訓練並入籍澳洲。",
+      en: "Iranian footballer and defender who played for Bam Khatoon and Iran's women's national team; during the 2026 Women's Asian Cup she sought asylum in Australia, later stayed in Brisbane to train and became an Australian citizen.",
+      es: "Futbolista iraní, defensora, ex jugadora de Bam Khatoon y de la selección femenina de Irán; durante la Copa Asiática femenina de 2026 pidió asilo en Australia, después permaneció en Brisbane para entrenar y obtuvo la ciudadanía australiana.",
+      ja: "イランの女子サッカー選手、ディフェンダー。Bam Khatoon とイラン女子代表でプレーし、2026年女子アジアカップ期間中に豪州で亡命を求め、その後ブリスベンに残って練習し、豪州市民権を取得しました。",
+      ko: "이란 여자 축구 수비수로 Bam Khatoon과 이란 여자 대표팀에서 뛰었습니다. 2026년 여자 아시안컵 기간 호주에 망명을 신청했고 이후 브리즈번에 남아 훈련하며 호주 시민권을 취득했습니다.",
+      vi: "Cầu thủ bóng đá nữ Iran chơi hậu vệ, từng thi đấu cho Bam Khatoon và đội tuyển nữ Iran; trong Asian Cup nữ 2026 cô xin tị nạn tại Australia, sau đó ở lại Brisbane để tập luyện và trở thành công dân Australia.",
+      th: "นักฟุตบอลหญิงอิหร่านตำแหน่งกองหลัง อดีตผู้เล่น Bam Khatoon และทีมชาติหญิงอิหร่าน; ระหว่าง Women's Asian Cup 2026 เธอยื่นขอลี้ภัยในออสเตรเลีย ต่อมาอยู่ต่อที่บริสเบนเพื่อฝึกซ้อมและได้สัญชาติออสเตรเลีย",
+      si: "Iranian women football defender කෙනෙකි; Bam Khatoon සහ Iran women's national team සඳහා ක්‍රීඩා කළාය. 2026 Women's Asian Cup අතරතුර Australia හි asylum ඉල්ලා, පසුව Brisbane හි පුහුණුවීමට රැඳී Australian citizen බවට පත්විය."
+    }
+  },
+  {
     name: "David Gallop",
     aliases: ["David Gallop", "David Gallop AM", "Former Football Australia boss David Gallop", "大卫·加洛普", "大衛·加洛普", "デイヴィッド・ギャロップ", "데이비드 갤럽"],
     type: "sports executive",
@@ -3782,7 +3818,7 @@ const PEOPLE_CONTEXT = [
   },
   {
     name: "Ed Husic",
-    aliases: ["Ed Husic", "埃德·胡西克", "エド・ヒュージック", "에드 휴식"],
+    aliases: ["Ed Husic", "埃德·胡西克", "埃德·休西克", "エド・ヒュージック", "에드 휴식"],
     type: "politician",
     social: { label: "Instagram", url: "https://www.instagram.com/edhusicmp/" },
     background: {
