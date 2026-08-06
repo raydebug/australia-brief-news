@@ -2693,7 +2693,10 @@ const PEOPLE_CONTEXT = [
     name: "Anika Wells",
     aliases: ["Anika Wells", "Anika Shay Wells", "安妮卡·韦尔斯", "安妮卡·韋爾斯", "アニカ・ウェルズ", "아니카 웰스"],
     type: "politician",
-    social: { label: "Official profile", url: "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=264121" },
+    profile: { label: "Parliament profile", url: "https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=264121" },
+    officialProfile: { label: "Official website", url: "https://www.anikawells.com.au/" },
+    social: { label: "X", url: "https://x.com/AnikaWells" },
+    personalSocial: { label: "Facebook", url: "https://www.facebook.com/AnikaWellsMP/" },
     background: {
       "zh-Hans": "澳大利亚工党政治人物，2019 年起代表昆州 Lilley 选区进入联邦众议院，2025 年起任通信部长和体育部长。进入议会前曾从事法律和政策顾问工作。",
       "zh-Hant": "澳洲工黨政治人物，2019 年起代表昆州 Lilley 選區進入聯邦眾議院，2025 年起任通訊部長和體育部長。進入議會前曾從事法律和政策顧問工作。",
