@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T18:10:45.437Z",
+  "updatedAt": "2026-08-06T19:13:37.017Z",
   "generatedBy": "codex",
   "language": "vi",
   "sources": [
@@ -103,9 +103,153 @@
   "errors": [
     "news.com.au content feed returned no extractable current-week items this run.",
     "AFR, AAP and Sky News Australia required page-level fallbacks because stable current-week RSS listings were not available.",
-    "The Australian, Yahoo News Australia and 9News did not expose reliable current-week listings for this run."
+    "The Australian, Yahoo News Australia, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday and The Canberra Times did not expose reliable current-week listings for this run."
   ],
   "clusters": [
+    {
+      "id": "wildflower-meadows-cities-20260806",
+      "language": "vi",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T19:00:00.000Z",
+      "headline": "Việc trồng hoa dại bản địa đang lan rộng ở các thành phố Úc",
+      "voiceScript": "Các bãi cỏ hoa dại bản địa đang xuất hiện nhiều hơn trong công viên, dải đất ven đường và các không gian do hội đồng địa phương quản lý trên khắp Úc. Sự thay đổi này quan trọng vì các cách trồng này chịu nóng tốt hơn, tốn ít chi phí chăm sóc hơn và hỗ trợ côn trùng, chim bản địa tốt hơn so với bãi cỏ thông thường. Câu hỏi bây giờ là liệu nhiều hội đồng khác có làm theo và biến nó thành chuẩn của cảnh quan đô thị hay không. Nếu có, đây sẽ là thay đổi vừa về diện mạo vừa về môi trường.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/science/2026-08-07/woody-meadows-native-plants-council/106034578"
+        }
+      ]
+    },
+    {
+      "id": "lithium-miners-battery-value-20260806",
+      "language": "vi",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T18:48:53.000Z",
+      "headline": "Các nhà khai thác lithium ở Úc muốn giữ lại nhiều giá trị từ pin hơn trong nước",
+      "voiceScript": "Các nhà khai thác lithium ở Úc đang cố thoát khỏi mô hình chỉ đào lên rồi xuất khẩu, để giữ lại nhiều hơn trong chuỗi cung ứng pin ngay tại Úc. Việc này quan trọng vì Trung Quốc vẫn thống trị khâu chế biến, nên nếu có nhà máy tinh luyện và công đoạn hạ nguồn trong nước, Úc sẽ giữ được nhiều giá trị hơn từ xuất khẩu quặng. Rào cản lớn nhất là chi phí và quy mô, bởi các nhà máy chế biến cần vốn, khách hàng và chính sách ổn định. Câu hỏi tiếp theo là các dự án đầu tiên có thể đi từ ý tưởng sang sản xuất thương mại hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/australian-lithium-miners-domestic-refineries/106619924"
+        }
+      ]
+    },
+    {
+      "id": "gambling-ad-reforms-senate-fight-20260806",
+      "language": "vi",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-06T18:44:24.000Z",
+      "headline": "Labor vấp cuộc chiến Thượng viện về siết quảng cáo cờ bạc",
+      "voiceScript": "Dự luật siết quảng cáo cờ bạc của Labor đang gặp sự phản đối từ Coalition, Greens và các nghị sĩ độc lập trong quốc hội. Đề xuất này sẽ giảm quảng cáo trong một số khung giờ phát sóng và siết quy định về khuyến mãi lẫn ưu đãi, nhưng phe chỉ trích muốn hành động mạnh hơn nữa. Điều này quan trọng vì tổn hại do cờ bạc, doanh thu truyền thông và số phiếu ở Thượng viện đang va chạm cùng lúc. Câu hỏi mở là các bộ trưởng sẽ nhượng bộ, hoãn dự luật hay tiếp tục với một phiên bản yếu hơn.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/labor-could-pull-gambling-ad-crackdown-amid-senate-demands/107001662"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/constructive-discussion-labor-firm-on-betting-reform"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/06/gambling-inducements-labor-coalition-greens-betting-companies"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/labor-mps-pushing-for-tougher-gambling-reforms/107006740"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "Reddit",
+            "community": "r/OpenAussie",
+            "author": "Agitated-Fee3598",
+            "title": "Coalition will force Albanese to cede ground on gambling reforms",
+            "url": "https://www.reddit.com/r/OpenAussie/comments/1vfzkmi/coalition_will_force_albanese_to_cede_ground_on/",
+            "postedAt": "2026-08-05T06:42:19.000Z",
+            "comments": 66,
+            "upvotes": 32,
+            "score": 230
+          },
+          {
+            "platform": "Reddit",
+            "community": "r/nrl",
+            "author": "comix_corp",
+            "title": "'What drugs do you want?' How betting companies lured Luke Bateman into gambling more",
+            "url": "https://www.reddit.com/r/nrl/comments/1vfrke7/what_drugs_do_you_want_how_betting_companies/",
+            "postedAt": "2026-08-05T00:11:01.000Z",
+            "comments": 72,
+            "upvotes": 67,
+            "score": 80
+          },
+          {
+            "platform": "Reddit",
+            "community": "r/AustralianPolitics",
+            "title": "PM is taking a big punt on gambling ads. It may be a losing ticket",
+            "url": "https://www.reddit.com/r/AustralianPolitics/comments/1unnshe/australia_gambling_reform_pm_is_taking_a_big_punt/",
+            "postedAt": "2026-07",
+            "score": 25
+          },
+          {
+            "platform": "Reddit",
+            "community": "r/AustralianPolitics",
+            "title": "Almost no one is happy with Labor's gambling crackdown",
+            "url": "https://www.reddit.com/r/AustralianPolitics/comments/1umvflp/almost_no_one_is_happy_with_labors_gambling/",
+            "postedAt": "2026-07",
+            "score": 18
+          }
+        ]
+      }
+    },
+    {
+      "id": "men-behaviour-change-rules-20260806",
+      "language": "vi",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T18:43:42.000Z",
+      "headline": "Úc đang chuẩn bị siết chặt quy định cho các chương trình thay đổi hành vi nam giới",
+      "voiceScript": "Úc đang tiến tới các tiêu chuẩn chặt hơn cho những chương trình thay đổi hành vi nam giới, từ các buổi học ngắn ở trường đến các khóa dài hơn dành cho đàn ông có hành vi bạo lực trong gia đình. Điều này quan trọng vì các chương trình này nằm trong phản ứng rộng hơn đối với bạo lực gia đình và thường được trường học, tòa án cùng các dịch vụ cộng đồng sử dụng. Điều chưa rõ là tiêu chuẩn sẽ nghiêm đến mức nào và các đơn vị cung cấp có thể thích ứng nhanh ra sao. Bước tiếp theo sẽ quyết định liệu quy định mới có giúp thống nhất hơn hay chỉ tạo thêm gánh nặng giấy tờ.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/men-violence-national-standards-women-children/107005874"
+        }
+      ]
+    },
+    {
+      "id": "sydney-affordable-housing-commitments-20260806",
+      "language": "vi",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T18:42:11.000Z",
+      "headline": "Một chủ đầu tư ở Sydney bị chú ý vì các cam kết nhà ở giá phải chăng",
+      "voiceScript": "Một chủ đầu tư ở Sydney đang bị xem xét sau khi tìm cách rút ngắn thời gian giữ một số căn hộ dưới diện nhà ở giá phải chăng. Vấn đề này quan trọng vì đây là một trong số ít công cụ giúp chính phủ giữ được nguồn nhà mới ở trung tâm thành phố cho người thuê thu nhập thấp và lao động thiết yếu. Điều còn chưa rõ là cơ quan quản lý sẽ để công ty giữ nguyên nghĩa vụ ban đầu hay yêu cầu điều kiện chặt hơn. Kết quả có thể ảnh hưởng đến cách đàm phán các dự án sau này.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/landmark-group-tried-to-end-affordable-housing-period-early/106968030"
+        }
+      ]
+    },
+    {
+      "id": "jobseeker-68-day-20260806",
+      "language": "vi",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T18:39:30.000Z",
+      "headline": "Sống bằng JobSeeker vẫn là phép thử lớn về chi phí sinh hoạt",
+      "voiceScript": "Người Úc sống bằng JobSeeker vẫn đang phải xoay xở với khoảng 68 đô la mỗi ngày, trong khi mức cơ bản không được tăng trong ngân sách liên bang. Bản tin cho thấy tiền thuê nhà, thực phẩm và đi lại là các áp lực lớn nhất, còn những người vận động nói khoản trợ cấp này không còn đủ cho chi phí sống thiết yếu. Điều đó quan trọng vì cuộc tranh luận giờ không chỉ là lạm phát mà còn là nghèo đói, và liệu điều chỉnh theo chỉ số có còn theo kịp thực tế hay không. Quyết định tiếp theo là chính phủ có xem lại mức trợ cấp hay giữ nguyên.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/could-you-live-on-jobseeker-payments/106866554"
+        }
+      ]
+    },
     {
       "id": "parent-visa-delays-20260806",
       "language": "vi",
@@ -170,66 +314,65 @@
       }
     },
     {
-      "id": "gambling-ad-reforms-senate-fight-20260806",
+      "id": "housing-downturn-20260804",
       "language": "vi",
-      "sourceCount": 3,
-      "publishedAt": "2026-08-06T12:30:00.000Z",
-      "headline": "Labor vấp cuộc chiến Thượng viện về siết quảng cáo cờ bạc",
-      "voiceScript": "Dự luật siết quảng cáo cờ bạc của Labor đang gặp sự phản đối từ Coalition, Greens và các nghị sĩ độc lập trong quốc hội. Đề xuất này sẽ giảm quảng cáo trong một số khung giờ phát sóng và siết quy định về khuyến mãi lẫn ưu đãi, nhưng phe chỉ trích muốn hành động mạnh hơn nữa. Điều này quan trọng vì tổn hại do cờ bạc, doanh thu truyền thông và số phiếu ở Thượng viện đang va chạm cùng lúc. Câu hỏi mở là các bộ trưởng sẽ nhượng bộ, hoãn dự luật hay tiếp tục với một phiên bản yếu hơn.",
-      "differences": [],
+      "headline": "Đà giảm nhà ở Australia lan rộng, người mua gần đây chịu áp lực hơn",
+      "sourceCount": 4,
+      "publishedAt": "2026-08-06T15:00:02.000Z",
+      "voiceScript": "Giá nhà lại giảm trong tháng 7, và đà đi xuống không còn chỉ quanh Sydney và Melbourne. AAP cho biết khoảng 34.000 người mua nhà lần đầu dùng chương trình đặt cọc 5% có thể rơi vào tình trạng nợ cao hơn giá trị nhà nếu thị trường yếu thêm; số liệu Cotality vẫn cho thấy giá toàn quốc giảm 0,7% trong tháng. Điều này vừa giúp người mua mới dễ tiếp cận hơn, vừa làm nặng thêm vị thế của những người mua gần đây và có thể khiến các bên cho vay thận trọng hơn. Câu hỏi tiếp theo là lãi suất thấp hơn, nguồn cung tăng hay thay đổi chính sách có thể giữ thị trường ổn định hay không.",
+      "differences": [
+        "AAP nhấn mạnh rủi ro âm vốn chủ cho nhóm mua nhà lần đầu gần đây, còn ABC, AFR và news.com.au chủ yếu theo dõi đà giảm giá chung."
+      ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-06/labor-could-pull-gambling-ad-crackdown-amid-senate-demands/107001662"
+          "url": "https://www.abc.net.au/news/2026-08-03/housing-market-downturn-spreads-property-prices-cotality/106975270"
         },
         {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/constructive-discussion-labor-firm-on-betting-reform"
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/property/residential/sydney-melbourne-prices-to-fall-10-per-cent-as-downturn-deepens-nab-20260803-p60kw8"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/real-estate/sydney-nsw/australian-home-price-slump-deepens-as-price-falls-spread-to-every-capital/news-story/8068158f58e47197b4ff1bd31f6144bd"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/real-estate/buying/serious-problem-wipeout-risk-for-34000-aussies-as-negative-equity-rises/news-story/1b4febaf0bc7622aa77e44fd7d3de07f"
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/06/gambling-inducements-labor-coalition-greens-betting-companies"
+          "url": "https://www.theguardian.com/australia-news/2026/aug/07/housing-property-prices-affordability-australia-avoid-major-market-crash"
         }
       ],
       "socialDiscussions": {
         "en": [
           {
             "platform": "Reddit",
-            "community": "r/OpenAussie",
-            "author": "Agitated-Fee3598",
-            "title": "Coalition will force Albanese to cede ground on gambling reforms",
-            "url": "https://www.reddit.com/r/OpenAussie/comments/1vfzkmi/coalition_will_force_albanese_to_cede_ground_on/",
-            "postedAt": "2026-08-05T06:42:19.000Z",
-            "comments": 66,
-            "upvotes": 32,
-            "score": 230
-          },
+            "community": "r/AusFinance",
+            "author": "u/marketrent",
+            "title": "Australia's home price retreat gathers pace in July, Cotality data shows",
+            "url": "https://www.reddit.com/r/AusFinance/comments/1vduscc/australias_home_price_retreat_gathers_pace_in/",
+            "postedAt": "2026-08-04",
+            "score": 60
+          }
+        ],
+        "zh-Hans": [
           {
-            "platform": "Reddit",
-            "community": "r/nrl",
-            "author": "comix_corp",
-            "title": "'What drugs do you want?' How betting companies lured Luke Bateman into gambling more",
-            "url": "https://www.reddit.com/r/nrl/comments/1vfrke7/what_drugs_do_you_want_how_betting_companies/",
-            "postedAt": "2026-08-05T00:11:01.000Z",
-            "comments": 72,
-            "upvotes": 67,
-            "score": 80
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/AustralianPolitics",
-            "title": "PM is taking a big punt on gambling ads. It may be a losing ticket",
-            "url": "https://www.reddit.com/r/AustralianPolitics/comments/1unnshe/australia_gambling_reform_pm_is_taking_a_big_punt/",
-            "postedAt": "2026-07",
+            "platform": "YouTube",
+            "account": "澳洲Alison老师",
+            "title": "【Brisbane终于跌了！】澳洲楼价大变天！你可能已经被套牢， 而你完全不知道！Cotality 7月报全面解读",
+            "url": "https://www.youtube.com/watch?v=upXU7a5KX58",
             "score": 25
-          },
+          }
+        ],
+        "zh-Hant": [
           {
-            "platform": "Reddit",
-            "community": "r/AustralianPolitics",
-            "title": "Almost no one is happy with Labor's gambling crackdown",
-            "url": "https://www.reddit.com/r/AustralianPolitics/comments/1umvflp/almost_no_one_is_happy_with_labors_gambling/",
-            "postedAt": "2026-07",
-            "score": 18
+            "platform": "YouTube",
+            "account": "澳洲Alison老師",
+            "title": "【Brisbane終於跌了！】澳洲樓價大變天！你可能已經被套牢， 而你完全不知道！Cotality 7月報全面解讀",
+            "url": "https://www.youtube.com/watch?v=qcPLysnx7N8",
+            "score": 25
           }
         ]
       }
@@ -1981,6 +2124,60 @@
       }
     },
     {
+      "id": "jetstar-overhead-carry-on-fee-20260804",
+      "language": "vi",
+      "headline": "Jetstar biến khoang trên đầu thành dịch vụ trả phí",
+      "sourceCount": 5,
+      "publishedAt": "2026-08-05T15:00:21.000Z",
+      "voiceScript": "Từ tháng 2 năm 2027, Jetstar sẽ đổi quy định hành lý xách tay: túi nhỏ đặt dưới ghế vẫn miễn phí, còn túi lớn để trong ngăn phía trên phải mua thêm gói Priority Carry-on. Mức phí được cho là dao động từ khoảng 25 đô la Úc trên các chặng ngắn đến hơn 50 đô la trên chặng dài, và giới hạn 7 ký tổng cộng sẽ bị bỏ. Việc này quan trọng vì nó thay đổi cách các vé giá rẻ được bán và cách hành khách chuẩn bị cho chuyến bay. Điểm cần theo dõi tiếp là mức độ chấp nhận của khách và liệu các hãng khác có làm theo hay không.",
+      "differences": [
+        "news.com.au và The Australian nhấn mạnh mức giá theo từng chặng bay cùng mốc triển khai vào tháng 2 năm 2027."
+      ],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/jetstar-changes-carryon-baggage-policy-luggage-in-overhead-lockers-no-longer-free/news-story/f00536799209cfa0779aa651f0b548e6"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/business/aviation/jetstar-to-charge-passengers-for-using-overhead-lockers-for-carryon-bags/news-story/b6082118b44750022bf098195b868f70"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/jetstar-to-charge-fees-for-overhead-carry-on-baggage/106997626"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/business/2026/aug/06/why-is-jetstar-charging-customers-for-carry-on-luggage"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/jetstars-new-overhead-baggage-rules-explained/rei8cor57"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "Reddit",
+            "community": "r/australia",
+            "author": "Planet_Citizen14999",
+            "title": "Jetstar to charge passengers for overhead bags from 2027",
+            "url": "https://www.reddit.com/r/australia/comments/1vfcl4n/jetstar_to_charge_passengers_for_overhead_bags/",
+            "upvotes": 245,
+            "score": 245
+          },
+          {
+            "platform": "Facebook",
+            "account": "9News",
+            "title": "Jetstar passengers will soon have to pay to access the overhead cabin lockers",
+            "url": "https://www.facebook.com/9News/posts/jetstar-passengers-will-soon-have-to-pay-to-access-the-overhead-cabin-lockers-wi/1525133496309041/",
+            "postedAt": "2026-08-05",
+            "score": 30
+          }
+        ]
+      }
+    },
+    {
       "id": "remote-indigenous-designers-win-darwin-fashion-awards-20260805",
       "language": "vi",
       "headline": "Nhà thiết kế Thổ dân ở vùng xa thắng giải thời trang tại Darwin",
@@ -3327,52 +3524,6 @@
       }
     },
     {
-      "id": "jetstar-overhead-carry-on-fee-20260804",
-      "language": "vi",
-      "headline": "Jetstar biến khoang trên đầu thành dịch vụ trả phí",
-      "sourceCount": 3,
-      "publishedAt": "2026-08-04T21:54:30.000Z",
-      "voiceScript": "Từ tháng 2 năm 2027, Jetstar sẽ đổi quy định hành lý xách tay: túi nhỏ đặt dưới ghế vẫn miễn phí, còn túi lớn để trong ngăn phía trên phải mua thêm gói Priority Carry-on. Mức phí được cho là dao động từ khoảng 25 đô la Úc trên các chặng ngắn đến hơn 50 đô la trên chặng dài, và giới hạn 7 ký tổng cộng sẽ bị bỏ. Việc này quan trọng vì nó thay đổi cách các vé giá rẻ được bán và cách hành khách chuẩn bị cho chuyến bay. Điểm cần theo dõi tiếp là mức độ chấp nhận của khách và liệu các hãng khác có làm theo hay không.",
-      "differences": [
-        "news.com.au và The Australian nhấn mạnh mức giá theo từng chặng bay cùng mốc triển khai vào tháng 2 năm 2027."
-      ],
-      "links": [
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/travel/travel-updates/jetstar-changes-carryon-baggage-policy-luggage-in-overhead-lockers-no-longer-free/news-story/f00536799209cfa0779aa651f0b548e6"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/business/aviation/jetstar-to-charge-passengers-for-using-overhead-lockers-for-carryon-bags/news-story/b6082118b44750022bf098195b868f70"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-05/jetstar-to-charge-fees-for-overhead-carry-on-baggage/106997626"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "author": "Planet_Citizen14999",
-            "title": "Jetstar to charge passengers for overhead bags from 2027",
-            "url": "https://www.reddit.com/r/australia/comments/1vfcl4n/jetstar_to_charge_passengers_for_overhead_bags/",
-            "upvotes": 245,
-            "score": 245
-          },
-          {
-            "platform": "Facebook",
-            "account": "9News",
-            "title": "Jetstar passengers will soon have to pay to access the overhead cabin lockers",
-            "url": "https://www.facebook.com/9News/posts/jetstar-passengers-will-soon-have-to-pay-to-access-the-overhead-cabin-lockers-wi/1525133496309041/",
-            "postedAt": "2026-08-05",
-            "score": 30
-          }
-        ]
-      }
-    },
-    {
       "id": "women-in-politics-abuse-survey-20260804",
       "language": "vi",
       "sourceCount": 1,
@@ -3707,66 +3858,6 @@
           "score": 20
         }
       ]
-    },
-    {
-      "id": "housing-downturn-20260804",
-      "language": "vi",
-      "headline": "Đà giảm nhà ở Australia lan rộng, người mua gần đây chịu áp lực hơn",
-      "sourceCount": 3,
-      "publishedAt": "2026-08-04T07:00:00.000Z",
-      "voiceScript": "Giá nhà lại giảm trong tháng 7, và đà đi xuống không còn chỉ quanh Sydney và Melbourne. AAP cho biết khoảng 34.000 người mua nhà lần đầu dùng chương trình đặt cọc 5% có thể rơi vào tình trạng nợ cao hơn giá trị nhà nếu thị trường yếu thêm; số liệu Cotality vẫn cho thấy giá toàn quốc giảm 0,7% trong tháng. Điều này vừa giúp người mua mới dễ tiếp cận hơn, vừa làm nặng thêm vị thế của những người mua gần đây và có thể khiến các bên cho vay thận trọng hơn. Câu hỏi tiếp theo là lãi suất thấp hơn, nguồn cung tăng hay thay đổi chính sách có thể giữ thị trường ổn định hay không.",
-      "differences": [
-        "AAP nhấn mạnh rủi ro âm vốn chủ cho nhóm mua nhà lần đầu gần đây, còn ABC, AFR và news.com.au chủ yếu theo dõi đà giảm giá chung."
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/housing-market-downturn-spreads-property-prices-cotality/106975270"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/property/residential/sydney-melbourne-prices-to-fall-10-per-cent-as-downturn-deepens-nab-20260803-p60kw8"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/real-estate/sydney-nsw/australian-home-price-slump-deepens-as-price-falls-spread-to-every-capital/news-story/8068158f58e47197b4ff1bd31f6144bd"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/real-estate/buying/serious-problem-wipeout-risk-for-34000-aussies-as-negative-equity-rises/news-story/1b4febaf0bc7622aa77e44fd7d3de07f"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/AusFinance",
-            "author": "u/marketrent",
-            "title": "Australia's home price retreat gathers pace in July, Cotality data shows",
-            "url": "https://www.reddit.com/r/AusFinance/comments/1vduscc/australias_home_price_retreat_gathers_pace_in/",
-            "postedAt": "2026-08-04",
-            "score": 60
-          }
-        ],
-        "zh-Hans": [
-          {
-            "platform": "YouTube",
-            "account": "澳洲Alison老师",
-            "title": "【Brisbane终于跌了！】澳洲楼价大变天！你可能已经被套牢， 而你完全不知道！Cotality 7月报全面解读",
-            "url": "https://www.youtube.com/watch?v=upXU7a5KX58",
-            "score": 25
-          }
-        ],
-        "zh-Hant": [
-          {
-            "platform": "YouTube",
-            "account": "澳洲Alison老師",
-            "title": "【Brisbane終於跌了！】澳洲樓價大變天！你可能已經被套牢， 而你完全不知道！Cotality 7月報全面解讀",
-            "url": "https://www.youtube.com/watch?v=qcPLysnx7N8",
-            "score": 25
-          }
-        ]
-      }
     },
     {
       "id": "census-door-knocking-scam-20260804",

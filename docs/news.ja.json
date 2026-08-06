@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T18:10:45.437Z",
+  "updatedAt": "2026-08-06T19:13:37.017Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -103,9 +103,153 @@
   "errors": [
     "news.com.au content feed returned no extractable current-week items this run.",
     "AFR, AAP and Sky News Australia required page-level fallbacks because stable current-week RSS listings were not available.",
-    "The Australian, Yahoo News Australia and 9News did not expose reliable current-week listings for this run."
+    "The Australian, Yahoo News Australia, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday and The Canberra Times did not expose reliable current-week listings for this run."
   ],
   "clusters": [
+    {
+      "id": "wildflower-meadows-cities-20260806",
+      "language": "ja",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T19:00:00.000Z",
+      "headline": "豪州の都市で在来のワイルドフラワー植栽が広がっている",
+      "voiceScript": "豪州各地の公園や道路脇、その他の自治体管理空間で、在来のワイルドフラワー草地が増えている。この変化が重要なのは、こうした植栽が暑さに強く、手入れの費用も抑えられ、単なる芝生よりも在来の昆虫や鳥類を支えやすいからだ。今の焦点は、さらに多くの自治体がこの手法を取り入れ、都市景観の標準にするかどうかだ。そうなれば、見た目だけでなく環境面でも大きな更新になる。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/science/2026-08-07/woody-meadows-native-plants-council/106034578"
+        }
+      ]
+    },
+    {
+      "id": "lithium-miners-battery-value-20260806",
+      "language": "ja",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T18:48:53.000Z",
+      "headline": "豪州のリチウム鉱業は電池の付加価値を国内に取り込みたい",
+      "voiceScript": "豪州のリチウム鉱業は、これまでの「掘って運ぶ」型から抜け出し、電池サプライチェーンのより多くを国内に残そうとしている。中国が加工の大半を握っているため、国内で精製や下流工程を持てれば、輸出から得られる価値を高め、単一の海外買い手への依存も和らぐ。課題は費用と規模で、加工施設には資金、顧客、そして安定した政策支援が必要だ。次に焦点となるのは、最初の案件が構想から商業生産へ進めるかどうかだ。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/australian-lithium-miners-domestic-refineries/106619924"
+        }
+      ]
+    },
+    {
+      "id": "gambling-ad-reforms-senate-fight-20260806",
+      "language": "ja",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-06T18:44:24.000Z",
+      "headline": "労働党のギャンブル広告規制案が上院で難航",
+      "voiceScript": "Labor の gambling 広告規制案は、Coalition、Greens、そして crossbench の反対にぶつかっています。案では一部の放送時間帯の広告を減らし、宣伝や inducement の扱いも厳しくしますが、批判側はさらに強い措置を求めています。問題は、ギャンブル被害、放送収入、そして上院での票読みが同時にぶつかっていることです。今後は、政府が譲歩するのか、法案を棚上げするのか、それとも弱めた形で押し切るのかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/labor-could-pull-gambling-ad-crackdown-amid-senate-demands/107001662"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/constructive-discussion-labor-firm-on-betting-reform"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/06/gambling-inducements-labor-coalition-greens-betting-companies"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/labor-mps-pushing-for-tougher-gambling-reforms/107006740"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "Reddit",
+            "community": "r/OpenAussie",
+            "author": "Agitated-Fee3598",
+            "title": "Coalition will force Albanese to cede ground on gambling reforms",
+            "url": "https://www.reddit.com/r/OpenAussie/comments/1vfzkmi/coalition_will_force_albanese_to_cede_ground_on/",
+            "postedAt": "2026-08-05T06:42:19.000Z",
+            "comments": 66,
+            "upvotes": 32,
+            "score": 230
+          },
+          {
+            "platform": "Reddit",
+            "community": "r/nrl",
+            "author": "comix_corp",
+            "title": "'What drugs do you want?' How betting companies lured Luke Bateman into gambling more",
+            "url": "https://www.reddit.com/r/nrl/comments/1vfrke7/what_drugs_do_you_want_how_betting_companies/",
+            "postedAt": "2026-08-05T00:11:01.000Z",
+            "comments": 72,
+            "upvotes": 67,
+            "score": 80
+          },
+          {
+            "platform": "Reddit",
+            "community": "r/AustralianPolitics",
+            "title": "PM is taking a big punt on gambling ads. It may be a losing ticket",
+            "url": "https://www.reddit.com/r/AustralianPolitics/comments/1unnshe/australia_gambling_reform_pm_is_taking_a_big_punt/",
+            "postedAt": "2026-07",
+            "score": 25
+          },
+          {
+            "platform": "Reddit",
+            "community": "r/AustralianPolitics",
+            "title": "Almost no one is happy with Labor's gambling crackdown",
+            "url": "https://www.reddit.com/r/AustralianPolitics/comments/1umvflp/almost_no_one_is_happy_with_labors_gambling/",
+            "postedAt": "2026-07",
+            "score": 18
+          }
+        ]
+      }
+    },
+    {
+      "id": "men-behaviour-change-rules-20260806",
+      "language": "ja",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T18:43:42.000Z",
+      "headline": "豪州は男性向け行動変容プログラムの規則を厳格化しようとしている",
+      "voiceScript": "豪州は、学校での短い講習から、家庭内暴力を行った男性向けの長期プログラムまで含む行動変容プログラムの基準を厳しくしようとしている。この変更が重要なのは、これらのプログラムが家庭内暴力への対応の中核にあり、学校、裁判所、地域支援が実際に利用しているからだ。今の焦点は、基準がどこまで厳しくなるのか、そして提供側がどれほど早く対応できるのかだ。今後の判断で、規則が整合性を高めるのか、それとも事務負担を増やすだけなのかが決まる。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/men-violence-national-standards-women-children/107005874"
+        }
+      ]
+    },
+    {
+      "id": "sydney-affordable-housing-commitments-20260806",
+      "language": "ja",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T18:42:11.000Z",
+      "headline": "シドニーの開発業者が手頃な住宅の約束で調査を受けている",
+      "voiceScript": "シドニーの開発業者が、いくつかの住宅を手頃な住宅として維持する期間を短くしようとしたことで調査を受けている。この問題が重要なのは、新しい都心部の住戸を低所得の借家人や必要不可欠な職種の人たちに届く範囲に保てる数少ない手段の一つだからだ。規制当局が当初の義務を認めるのか、それともより厳しい条件を求めるのかはまだ不透明だ。その結果は、今後の開発交渉の進め方に影響するかもしれない。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/landmark-group-tried-to-end-affordable-housing-period-early/106968030"
+        }
+      ]
+    },
+    {
+      "id": "jobseeker-68-day-20260806",
+      "language": "ja",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T18:39:30.000Z",
+      "headline": "JobSeekerで暮らすことは今も生活費の大きな試練だ",
+      "voiceScript": "豪州では、JobSeeker受給者が1日およそ68ドルで暮らすことを求められており、連邦予算でも基礎額は引き上げられていない。報道は、家賃、食費、交通費が最も重い負担だと伝え、支援団体はこの給付では最低限の生活費すら賄えないと指摘している。これは、議論がインフレだけでなく貧困そのものに向かっていること、そして物価指数連動だけでは追いつけるのかという問いにつながる。次の判断は、政府が給付額を見直すのか、それとも据え置くのかだ。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/could-you-live-on-jobseeker-payments/106866554"
+        }
+      ]
+    },
     {
       "id": "parent-visa-delays-20260806",
       "language": "ja",
@@ -170,66 +314,65 @@
       }
     },
     {
-      "id": "gambling-ad-reforms-senate-fight-20260806",
+      "id": "housing-downturn-20260804",
       "language": "ja",
-      "sourceCount": 3,
-      "publishedAt": "2026-08-06T12:30:00.000Z",
-      "headline": "労働党のギャンブル広告規制案が上院で難航",
-      "voiceScript": "Labor の gambling 広告規制案は、Coalition、Greens、そして crossbench の反対にぶつかっています。案では一部の放送時間帯の広告を減らし、宣伝や inducement の扱いも厳しくしますが、批判側はさらに強い措置を求めています。問題は、ギャンブル被害、放送収入、そして上院での票読みが同時にぶつかっていることです。今後は、政府が譲歩するのか、法案を棚上げするのか、それとも弱めた形で押し切るのかが焦点です。",
-      "differences": [],
+      "headline": "豪州の住宅下落が広がり、最近の購入者への圧力が強まる",
+      "sourceCount": 4,
+      "publishedAt": "2026-08-06T15:00:02.000Z",
+      "voiceScript": "7月の住宅価格は再び下がり、下落はシドニーとメルボルンだけではなくなった。AAPによると、5％頭金制度を使った初回購入者のおよそ3万4000世帯が、下落が続けば住宅価格よりローン残高が上回る状態に陥るおそれがある。Cotalityの数字でも、全国の住宅価格は前月比0.7％下落した。価格の軟化は新規購入者には追い風だが、最近買った人には重荷で、融資姿勢を慎重にする要因にもなる。次に注目されるのは、利下げや物件供給の増加、政策変更が相場を下支えできるかどうかだ。",
+      "differences": [
+        "AAPは最近の初回購入者が負債超過に陥るリスクを強調し、ABC・AFR・news.com.auは主に広がる価格下落を追っている。"
+      ],
       "links": [
         {
           "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-06/labor-could-pull-gambling-ad-crackdown-amid-senate-demands/107001662"
+          "url": "https://www.abc.net.au/news/2026-08-03/housing-market-downturn-spreads-property-prices-cotality/106975270"
         },
         {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/constructive-discussion-labor-firm-on-betting-reform"
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/property/residential/sydney-melbourne-prices-to-fall-10-per-cent-as-downturn-deepens-nab-20260803-p60kw8"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/real-estate/sydney-nsw/australian-home-price-slump-deepens-as-price-falls-spread-to-every-capital/news-story/8068158f58e47197b4ff1bd31f6144bd"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/real-estate/buying/serious-problem-wipeout-risk-for-34000-aussies-as-negative-equity-rises/news-story/1b4febaf0bc7622aa77e44fd7d3de07f"
         },
         {
           "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/06/gambling-inducements-labor-coalition-greens-betting-companies"
+          "url": "https://www.theguardian.com/australia-news/2026/aug/07/housing-property-prices-affordability-australia-avoid-major-market-crash"
         }
       ],
       "socialDiscussions": {
         "en": [
           {
             "platform": "Reddit",
-            "community": "r/OpenAussie",
-            "author": "Agitated-Fee3598",
-            "title": "Coalition will force Albanese to cede ground on gambling reforms",
-            "url": "https://www.reddit.com/r/OpenAussie/comments/1vfzkmi/coalition_will_force_albanese_to_cede_ground_on/",
-            "postedAt": "2026-08-05T06:42:19.000Z",
-            "comments": 66,
-            "upvotes": 32,
-            "score": 230
-          },
+            "community": "r/AusFinance",
+            "author": "u/marketrent",
+            "title": "Australia's home price retreat gathers pace in July, Cotality data shows",
+            "url": "https://www.reddit.com/r/AusFinance/comments/1vduscc/australias_home_price_retreat_gathers_pace_in/",
+            "postedAt": "2026-08-04",
+            "score": 60
+          }
+        ],
+        "zh-Hans": [
           {
-            "platform": "Reddit",
-            "community": "r/nrl",
-            "author": "comix_corp",
-            "title": "'What drugs do you want?' How betting companies lured Luke Bateman into gambling more",
-            "url": "https://www.reddit.com/r/nrl/comments/1vfrke7/what_drugs_do_you_want_how_betting_companies/",
-            "postedAt": "2026-08-05T00:11:01.000Z",
-            "comments": 72,
-            "upvotes": 67,
-            "score": 80
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/AustralianPolitics",
-            "title": "PM is taking a big punt on gambling ads. It may be a losing ticket",
-            "url": "https://www.reddit.com/r/AustralianPolitics/comments/1unnshe/australia_gambling_reform_pm_is_taking_a_big_punt/",
-            "postedAt": "2026-07",
+            "platform": "YouTube",
+            "account": "澳洲Alison老师",
+            "title": "【Brisbane终于跌了！】澳洲楼价大变天！你可能已经被套牢， 而你完全不知道！Cotality 7月报全面解读",
+            "url": "https://www.youtube.com/watch?v=upXU7a5KX58",
             "score": 25
-          },
+          }
+        ],
+        "zh-Hant": [
           {
-            "platform": "Reddit",
-            "community": "r/AustralianPolitics",
-            "title": "Almost no one is happy with Labor's gambling crackdown",
-            "url": "https://www.reddit.com/r/AustralianPolitics/comments/1umvflp/almost_no_one_is_happy_with_labors_gambling/",
-            "postedAt": "2026-07",
-            "score": 18
+            "platform": "YouTube",
+            "account": "澳洲Alison老師",
+            "title": "【Brisbane終於跌了！】澳洲樓價大變天！你可能已經被套牢， 而你完全不知道！Cotality 7月報全面解讀",
+            "url": "https://www.youtube.com/watch?v=qcPLysnx7N8",
+            "score": 25
           }
         ]
       }
@@ -1981,6 +2124,60 @@
       }
     },
     {
+      "id": "jetstar-overhead-carry-on-fee-20260804",
+      "language": "ja",
+      "headline": "ジェットスター、頭上収納の機内手荷物を有料化",
+      "sourceCount": 5,
+      "publishedAt": "2026-08-05T15:00:21.000Z",
+      "voiceScript": "ジェットスターは2027年2月から機内手荷物のルールを変え、無料で持ち込めるのは座席下に収まる小さなバッグだけにする。頭上収納に入れる大きめのバッグはPriority Carry-onの追加料金が必要になり、路線によっては25ドル前後から50ドル超になる。7キロの一律上限はなくなり、低運賃でも荷物の扱いが実質的に変わる。今後の焦点は、利用客がこの新しい料金体系を受け入れるか、他社に流れるかだ。",
+      "differences": [
+        "news.com.au と The Australian は、路線別の料金帯と2027年2月の導入時期を前面に出している。"
+      ],
+      "links": [
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/jetstar-changes-carryon-baggage-policy-luggage-in-overhead-lockers-no-longer-free/news-story/f00536799209cfa0779aa651f0b548e6"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/business/aviation/jetstar-to-charge-passengers-for-using-overhead-lockers-for-carryon-bags/news-story/b6082118b44750022bf098195b868f70"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/jetstar-to-charge-fees-for-overhead-carry-on-baggage/106997626"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/business/2026/aug/06/why-is-jetstar-charging-customers-for-carry-on-luggage"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/jetstars-new-overhead-baggage-rules-explained/rei8cor57"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "Reddit",
+            "community": "r/australia",
+            "author": "Planet_Citizen14999",
+            "title": "Jetstar to charge passengers for overhead bags from 2027",
+            "url": "https://www.reddit.com/r/australia/comments/1vfcl4n/jetstar_to_charge_passengers_for_overhead_bags/",
+            "upvotes": 245,
+            "score": 245
+          },
+          {
+            "platform": "Facebook",
+            "account": "9News",
+            "title": "Jetstar passengers will soon have to pay to access the overhead cabin lockers",
+            "url": "https://www.facebook.com/9News/posts/jetstar-passengers-will-soon-have-to-pay-to-access-the-overhead-cabin-lockers-wi/1525133496309041/",
+            "postedAt": "2026-08-05",
+            "score": 30
+          }
+        ]
+      }
+    },
+    {
       "id": "remote-indigenous-designers-win-darwin-fashion-awards-20260805",
       "language": "ja",
       "headline": "遠隔地の先住民デザイナーがダーウィンのファッション賞を受賞",
@@ -3337,52 +3534,6 @@
       }
     },
     {
-      "id": "jetstar-overhead-carry-on-fee-20260804",
-      "language": "ja",
-      "headline": "ジェットスター、頭上収納の機内手荷物を有料化",
-      "sourceCount": 3,
-      "publishedAt": "2026-08-04T21:54:30.000Z",
-      "voiceScript": "ジェットスターは2027年2月から機内手荷物のルールを変え、無料で持ち込めるのは座席下に収まる小さなバッグだけにする。頭上収納に入れる大きめのバッグはPriority Carry-onの追加料金が必要になり、路線によっては25ドル前後から50ドル超になる。7キロの一律上限はなくなり、低運賃でも荷物の扱いが実質的に変わる。今後の焦点は、利用客がこの新しい料金体系を受け入れるか、他社に流れるかだ。",
-      "differences": [
-        "news.com.au と The Australian は、路線別の料金帯と2027年2月の導入時期を前面に出している。"
-      ],
-      "links": [
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/travel/travel-updates/jetstar-changes-carryon-baggage-policy-luggage-in-overhead-lockers-no-longer-free/news-story/f00536799209cfa0779aa651f0b548e6"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/business/aviation/jetstar-to-charge-passengers-for-using-overhead-lockers-for-carryon-bags/news-story/b6082118b44750022bf098195b868f70"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-05/jetstar-to-charge-fees-for-overhead-carry-on-baggage/106997626"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "author": "Planet_Citizen14999",
-            "title": "Jetstar to charge passengers for overhead bags from 2027",
-            "url": "https://www.reddit.com/r/australia/comments/1vfcl4n/jetstar_to_charge_passengers_for_overhead_bags/",
-            "upvotes": 245,
-            "score": 245
-          },
-          {
-            "platform": "Facebook",
-            "account": "9News",
-            "title": "Jetstar passengers will soon have to pay to access the overhead cabin lockers",
-            "url": "https://www.facebook.com/9News/posts/jetstar-passengers-will-soon-have-to-pay-to-access-the-overhead-cabin-lockers-wi/1525133496309041/",
-            "postedAt": "2026-08-05",
-            "score": 30
-          }
-        ]
-      }
-    },
-    {
       "id": "women-in-politics-abuse-survey-20260804",
       "language": "ja",
       "sourceCount": 1,
@@ -3717,66 +3868,6 @@
           "score": 20
         }
       ]
-    },
-    {
-      "id": "housing-downturn-20260804",
-      "language": "ja",
-      "headline": "豪州の住宅下落が広がり、最近の購入者への圧力が強まる",
-      "sourceCount": 3,
-      "publishedAt": "2026-08-04T07:00:00.000Z",
-      "voiceScript": "7月の住宅価格は再び下がり、下落はシドニーとメルボルンだけではなくなった。AAPによると、5％頭金制度を使った初回購入者のおよそ3万4000世帯が、下落が続けば住宅価格よりローン残高が上回る状態に陥るおそれがある。Cotalityの数字でも、全国の住宅価格は前月比0.7％下落した。価格の軟化は新規購入者には追い風だが、最近買った人には重荷で、融資姿勢を慎重にする要因にもなる。次に注目されるのは、利下げや物件供給の増加、政策変更が相場を下支えできるかどうかだ。",
-      "differences": [
-        "AAPは最近の初回購入者が負債超過に陥るリスクを強調し、ABC・AFR・news.com.auは主に広がる価格下落を追っている。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-03/housing-market-downturn-spreads-property-prices-cotality/106975270"
-        },
-        {
-          "source": "Australian Financial Review",
-          "url": "https://www.afr.com/property/residential/sydney-melbourne-prices-to-fall-10-per-cent-as-downturn-deepens-nab-20260803-p60kw8"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/real-estate/sydney-nsw/australian-home-price-slump-deepens-as-price-falls-spread-to-every-capital/news-story/8068158f58e47197b4ff1bd31f6144bd"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/finance/real-estate/buying/serious-problem-wipeout-risk-for-34000-aussies-as-negative-equity-rises/news-story/1b4febaf0bc7622aa77e44fd7d3de07f"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/AusFinance",
-            "author": "u/marketrent",
-            "title": "Australia's home price retreat gathers pace in July, Cotality data shows",
-            "url": "https://www.reddit.com/r/AusFinance/comments/1vduscc/australias_home_price_retreat_gathers_pace_in/",
-            "postedAt": "2026-08-04",
-            "score": 60
-          }
-        ],
-        "zh-Hans": [
-          {
-            "platform": "YouTube",
-            "account": "澳洲Alison老师",
-            "title": "【Brisbane终于跌了！】澳洲楼价大变天！你可能已经被套牢， 而你完全不知道！Cotality 7月报全面解读",
-            "url": "https://www.youtube.com/watch?v=upXU7a5KX58",
-            "score": 25
-          }
-        ],
-        "zh-Hant": [
-          {
-            "platform": "YouTube",
-            "account": "澳洲Alison老師",
-            "title": "【Brisbane終於跌了！】澳洲樓價大變天！你可能已經被套牢， 而你完全不知道！Cotality 7月報全面解讀",
-            "url": "https://www.youtube.com/watch?v=qcPLysnx7N8",
-            "score": 25
-          }
-        ]
-      }
     },
     {
       "id": "census-door-knocking-scam-20260804",
