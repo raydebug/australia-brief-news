@@ -23,6 +23,10 @@ Rules:
 - If an official/media post has lower engagement than a directly related non-official/community post, keep the non-official/community post above it.
 - Existing official/media discussion links may be replaced or pushed down when better non-official, higher-engagement, directly related links are found.
 - For Chinese, Japanese, Korean, Vietnamese, Thai, Sinhala, and Spanish runs, include public discussion posts or comment-entry pages in that language when directly related to the same news cluster.
+- Language-specific discussion entries must be posts originally written in that language, or clearly language-specific public comment pages.
+- Do not translate social post titles yourself.
+- Do not use Reddit machine-translation URLs such as `?tl=zh-hans` as language-specific discussion links.
+- If the best discussion is an English post, keep its original English title and place it under `socialDiscussions.en`; non-English UI will show it as the English fallback.
 - Facebook Groups, Instagram, and TikTok are allowed only if the post is public and directly accessible without logging in.
 
 For each `socialDiscussions` entry include:

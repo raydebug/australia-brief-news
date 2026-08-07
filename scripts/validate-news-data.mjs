@@ -89,6 +89,66 @@ function validateFourNewsCommentary(cluster, language) {
   return errors;
 }
 
+function validateSocialDiscussions(cluster, language, sourceCluster = cluster) {
+  const errors = [];
+  const socialDiscussions = cluster?.socialDiscussions;
+  if (!socialDiscussions) return errors;
+
+  const englishItems = Array.isArray(sourceCluster?.socialDiscussions)
+    ? sourceCluster.socialDiscussions
+    : sourceCluster?.socialDiscussions?.en || [];
+  const englishTitlesByUrl = new Map(
+    englishItems
+      .filter((item) => item?.url && item?.title)
+      .map((item) => [normalizeSocialUrl(item.url), normalize(item.title)])
+  );
+
+  const groups = Array.isArray(socialDiscussions)
+    ? [["default", socialDiscussions]]
+    : Object.entries(socialDiscussions).filter(([, items]) => Array.isArray(items));
+
+  for (const [groupLanguage, items] of groups) {
+    for (const item of items) {
+      const url = String(item?.url || "");
+      if (/reddit\.com\/.+[?&]tl=/i.test(url)) {
+        errors.push({
+          type: "reddit-machine-translation-url",
+          id: cluster.id,
+          language,
+          groupLanguage,
+          url
+        });
+      }
+
+      const englishTitle = englishTitlesByUrl.get(normalizeSocialUrl(url));
+      if (groupLanguage !== "en" && englishTitle && normalize(item?.title) !== englishTitle) {
+        errors.push({
+          type: "translated-social-title",
+          id: cluster.id,
+          language,
+          groupLanguage,
+          url,
+          title: normalize(item?.title).slice(0, 120),
+          expectedOriginalTitle: englishTitle.slice(0, 120)
+        });
+      }
+    }
+  }
+
+  return errors;
+}
+
+function normalizeSocialUrl(value) {
+  try {
+    const url = new URL(String(value || ""));
+    url.searchParams.delete("tl");
+    url.hash = "";
+    return url.toString().replace(/\/$/, "");
+  } catch {
+    return String(value || "").replace(/[?#].*$/, "").replace(/\/$/, "");
+  }
+}
+
 const english = readJson("public/news.en.json");
 const englishDocs = readJson("docs/news.en.json");
 
@@ -169,6 +229,7 @@ for (const config of languages) {
       }
 
       errors.push(...validateFourNewsCommentary(translated, config.code));
+      errors.push(...validateSocialDiscussions(translated, config.code, source));
 
     }
 
@@ -194,6 +255,9 @@ for (const config of languages) {
     const docsCluster = docsPayload.clusters?.[index];
     if (!publicCluster || !docsCluster || publicCluster.id !== docsCluster.id) continue;
 
+    if (JSON.stringify(publicCluster.socialDiscussions || null) !== JSON.stringify(docsCluster.socialDiscussions || null)) {
+      errors.push({ type: "social-discussions-mismatch", id: publicCluster.id });
+    }
   }
 
   if (errors.length) {
