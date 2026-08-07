@@ -15,6 +15,18 @@ Rules:
 - Do not add generic search-result URLs.
 - Do not add login-only, private group, private profile, or inaccessible posts.
 - Search across all currently supported languages, not only English. Prefer discussion links matching each language file when available.
+- For every newest or high-impact cluster you scan, run an explicit language matrix:
+  - English: English headline, source headline, named entities.
+  - Simplified Chinese: Chinese headline plus key entities in Chinese and English.
+  - Traditional Chinese: Traditional Chinese headline plus key entities in Chinese and English.
+  - Japanese: Japanese headline plus key entities in Japanese and English.
+  - Korean: Korean headline plus key entities in Korean and English.
+  - Vietnamese: Vietnamese headline plus key entities in Vietnamese and English.
+  - Thai: Thai headline plus key entities in Thai and English.
+  - Sinhala: Sinhala headline plus key entities in Sinhala and English.
+  - Spanish: Spanish headline plus key entities in Spanish and English.
+- Treat missing non-English results as a searched-but-not-found outcome, not as permission to skip the language.
+- When a real language-specific public discussion is found, add it under that language key even if its heat is lower than the English fallback.
 - English discussion links are default-visible in every non-English UI and should remain as fallback/context after language-specific links.
 - Prioritise non-official public discussion over official/media/source posts.
 - Rank candidate links primarily by visible engagement score and discussion activity.
