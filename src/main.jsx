@@ -1993,6 +1993,200 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Andrew Leigh",
+    aliases: ["Andrew Leigh", "Andrew Keith Leigh", "Dr Andrew Leigh", "Andrew Leigh MP", "Hon Dr Andrew Leigh MP", "ALeighMP"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.aph.gov.au/a_leigh_mp" },
+    officialProfile: { label: "Treasury ministers profile", url: "https://ministers.treasury.gov.au/ministers/andrew-leigh-2025" },
+    social: { label: "X", url: "https://x.com/ALeighMP" },
+    personalSocial: { label: "Personal website", url: "https://www.andrewleigh.com/" },
+    background: {
+      "zh-Hans": "澳大利亚工党联邦政治人物，2010 年起任联邦议员，现任 Fenner 选区议员和生产力、竞争、慈善与财政部助理部长；进入政坛前曾任 ANU 经济学教授。",
+      "zh-Hant": "澳洲工黨聯邦政治人物，2010 年起任聯邦議員，現任 Fenner 選區議員和生產力、競爭、慈善與財政部助理部長；進入政壇前曾任 ANU 經濟學教授。",
+      en: "Australian Labor federal politician, a federal MP since 2010, Member for Fenner and Assistant Minister for Productivity, Competition, Charities and Treasury; previously an economics professor at ANU.",
+      es: "Político federal laborista australiano, diputado desde 2010, miembro por Fenner y Assistant Minister for Productivity, Competition, Charities and Treasury; antes fue profesor de economía en ANU.",
+      ja: "オーストラリア Labor の連邦政治家。2010年から連邦議員で、Fenner 選出。Productivity, Competition, Charities and Treasury 担当補佐大臣で、政界入り前は ANU の経済学教授でした。",
+      ko: "호주 Labor 연방 정치인으로 2010년부터 연방 하원의원이며 Fenner 지역구 의원, Productivity, Competition, Charities and Treasury 보조장관입니다. 정계 입문 전에는 ANU 경제학 교수였습니다.",
+      vi: "Chính trị gia liên bang Labor Australia, nghị sĩ liên bang từ năm 2010, dân biểu Fenner và Assistant Minister for Productivity, Competition, Charities and Treasury; trước đó là giáo sư kinh tế tại ANU.",
+      th: "นักการเมืองรัฐบาลกลาง Australian Labor เป็น ส.ส. ตั้งแต่ปี 2010 เขต Fenner และ Assistant Minister for Productivity, Competition, Charities and Treasury ก่อนเข้าการเมืองเคยเป็นศาสตราจารย์เศรษฐศาสตร์ที่ ANU",
+      si: "Australian Labor federal politician කෙනෙකු වන Andrew Leigh, 2010 සිට federal MP, Fenner Member සහ Assistant Minister for Productivity, Competition, Charities and Treasury වේ; ඊට පෙර ANU economics professor කෙනෙකි."
+    },
+    positions: {
+      "zh-Hans": [
+        "竞争与消费者：主张加强竞争、消费者保护和对误导性商业行为的执法。",
+        "生产率：强调规则简化、创新扩散和更强的长期经济增长。",
+        "慈善与社区：关注社会信任、志愿服务和慈善部门能力。"
+      ],
+      "zh-Hant": [
+        "競爭與消費者：主張加強競爭、消費者保護和對誤導性商業行為的執法。",
+        "生產力：強調規則簡化、創新擴散和更強的長期經濟成長。",
+        "慈善與社區：關注社會信任、志願服務和慈善部門能力。"
+      ],
+      en: [
+        "Competition and consumers: supports stronger competition, consumer protection and enforcement against misleading business conduct.",
+        "Productivity: emphasises simpler rules, wider innovation adoption and stronger long-term economic growth.",
+        "Charities and community: focuses on social trust, volunteering and the capacity of the charity sector."
+      ],
+      es: [
+        "Competencia y consumidores: apoya una competencia más fuerte, protección al consumidor y aplicación contra prácticas engañosas.",
+        "Productividad: enfatiza reglas más simples, adopción de innovación y crecimiento económico de largo plazo.",
+        "Caridad y comunidad: se centra en confianza social, voluntariado y capacidad del sector benéfico."
+      ],
+      ja: [
+        "競争と消費者：競争強化、消費者保護、誤解を招く商慣行への執行を重視します。",
+        "生産性：規則の簡素化、イノベーション普及、長期成長を重視します。",
+        "慈善と地域：社会的信頼、ボランティア、慈善セクターの力を重視します。"
+      ],
+      ko: [
+        "경쟁과 소비자: 경쟁 강화, 소비자 보호, 오해를 부르는 영업행위 집행을 지지합니다.",
+        "생산성: 단순한 규칙, 혁신 확산, 장기 경제성장을 강조합니다.",
+        "자선과 공동체: 사회적 신뢰, 자원봉사, 자선 부문 역량에 초점을 둡니다."
+      ],
+      vi: [
+        "Cạnh tranh và người tiêu dùng: ủng hộ cạnh tranh mạnh hơn, bảo vệ người tiêu dùng và thực thi chống hành vi gây hiểu lầm.",
+        "Năng suất: nhấn mạnh quy định đơn giản hơn, lan tỏa đổi mới và tăng trưởng dài hạn.",
+        "Từ thiện và cộng đồng: tập trung vào niềm tin xã hội, tình nguyện và năng lực khu vực thiện nguyện."
+      ],
+      th: [
+        "การแข่งขันและผู้บริโภค: สนับสนุนการแข่งขัน การคุ้มครองผู้บริโภค และการบังคับใช้ต่อพฤติกรรมธุรกิจที่ทำให้เข้าใจผิด",
+        "ผลิตภาพ: เน้นกฎที่ง่ายขึ้น การใช้ innovation กว้างขึ้น และการเติบโตระยะยาว",
+        "การกุศลและชุมชน: ให้ความสำคัญกับ social trust อาสาสมัคร และศักยภาพภาค charity"
+      ],
+      si: [
+        "Competition and consumers: stronger competition, consumer protection සහ misleading business conduct වලට enforcement සඳහා සහය දක්වයි.",
+        "Productivity: simpler rules, wider innovation adoption සහ stronger long-term economic growth අවධාරණය කරයි.",
+        "Charities and community: social trust, volunteering සහ charity sector capacity වෙත අවධානය යොමු කරයි."
+      ]
+    }
+  },
+  {
+    name: "Luke Woodward",
+    aliases: ["Luke Woodward", "Commissioner Luke Woodward", "ACCC Commissioner Luke Woodward"],
+    type: "public official",
+    profile: { label: "ACCC commissioner profile", url: "https://www.accc.gov.au/about-us/accc-role-and-structure/accc-chair-and-commissioners" },
+    officialProfile: { label: "Appointment release", url: "https://www.accc.gov.au/media-release/luke-woodward-appointed-accc-commissioner" },
+    social: { label: "LinkedIn", url: "https://au.linkedin.com/in/luke-woodward-compreg" },
+    background: {
+      "zh-Hans": "澳大利亚竞争与消费者委员会委员，2025 年 10 月起任职；长期从事竞争与消费者法执行、并购和基础设施监管相关工作。",
+      "zh-Hant": "澳洲競爭與消費者委員會委員，2025 年 10 月起任職；長期從事競爭與消費者法執行、併購和基礎設施監管相關工作。",
+      en: "Australian Competition and Consumer Commission commissioner since October 2025, with long experience in competition and consumer law enforcement, mergers and infrastructure regulation.",
+      es: "Comisionado de la Australian Competition and Consumer Commission desde octubre de 2025, con larga experiencia en aplicación de leyes de competencia y consumo, fusiones y regulación de infraestructura.",
+      ja: "2025年10月から Australian Competition and Consumer Commission の委員。競争・消費者法執行、合併、インフラ規制で長い経験があります。",
+      ko: "2025년 10월부터 Australian Competition and Consumer Commission 위원이며 경쟁·소비자법 집행, 인수합병, 인프라 규제 분야 경험이 깁니다.",
+      vi: "Ủy viên Australian Competition and Consumer Commission từ tháng 10 năm 2025, có nhiều kinh nghiệm về thực thi luật cạnh tranh và tiêu dùng, sáp nhập và điều tiết hạ tầng.",
+      th: "กรรมการ Australian Competition and Consumer Commission ตั้งแต่ตุลาคม 2025 มีประสบการณ์ยาวนานด้านการบังคับใช้กฎหมาย competition and consumer law การควบรวม และ infrastructure regulation",
+      si: "2025 October සිට Australian Competition and Consumer Commission commissioner කෙනෙකි; competition and consumer law enforcement, mergers සහ infrastructure regulation පිළිබඳ දිගු අත්දැකීමක් ඇත."
+    }
+  },
+  {
+    name: "Travis Head",
+    aliases: ["Travis Head", "Travis Michael Head", "Travis Head cricketer", "travishead34"],
+    type: "athlete",
+    profile: { label: "Cricket Australia profile", url: "https://www.cricket.com.au/players/travis-head/XIbI02MDxUWsY9wl00L0jA" },
+    social: { label: "Instagram", url: "https://www.instagram.com/travishead34/" },
+    background: {
+      "zh-Hans": "澳大利亚国际板球运动员，左手击球手和兼职旋转投手，代表澳大利亚参加多种赛制，并曾获 Allan Border Medal。",
+      "zh-Hant": "澳洲國際板球運動員，左手擊球手和兼職旋轉投手，代表澳洲參加多種賽制，並曾獲 Allan Border Medal。",
+      en: "Australian international cricketer, left-handed batter and part-time spin bowler who represents Australia across formats and has won the Allan Border Medal.",
+      es: "Cricketer internacional australiano, bateador zurdo y lanzador de spin ocasional que representa a Australia en varios formatos y ha ganado la Allan Border Medal.",
+      ja: "豪州代表の国際クリケット選手。左打者でパートタイムのスピン投手として複数形式でプレーし、Allan Border Medal を受賞しています。",
+      ko: "호주 국가대표 크리켓 선수로 왼손 타자이자 파트타임 스핀 볼러입니다. 여러 포맷에서 호주를 대표하며 Allan Border Medal을 수상했습니다.",
+      vi: "Vận động viên cricket quốc tế Australia, tay đánh trái và bowler spin bán thời gian, đại diện Australia ở nhiều thể thức và từng giành Allan Border Medal.",
+      th: "นักคริกเก็ตทีมชาติออสเตรเลีย ผู้ตีมือซ้ายและ spin bowler เป็นครั้งคราว เล่นให้ Australia หลายรูปแบบ และเคยได้ Allan Border Medal",
+      si: "Australian international cricketer කෙනෙකු වන Travis Head, left-handed batter සහ part-time spin bowler ලෙස formats කිහිපයක Australia නියෝජනය කර Allan Border Medal දිනූ ක්‍රීඩකයෙකි."
+    }
+  },
+  {
+    name: "Alex Carey",
+    aliases: ["Alex Carey", "Alex Tyson Carey", "Alex Carey cricketer", "alexcarey_5"],
+    type: "athlete",
+    profile: { label: "Cricket Australia profile", url: "https://www.cricket.com.au/players/alex-carey/TiSKZ8G3Z0mn2DWngFTQcg" },
+    social: { label: "Instagram", url: "https://www.instagram.com/alexcarey_5/" },
+    background: {
+      "zh-Hans": "澳大利亚国际板球运动员，司职守门员兼击球手，代表澳大利亚参加 Test、ODI 和 T20I，并效力 South Australia 与 Adelaide Strikers。",
+      "zh-Hant": "澳洲國際板球運動員，司職守門員兼擊球手，代表澳洲參加 Test、ODI 和 T20I，並效力 South Australia 與 Adelaide Strikers。",
+      en: "Australian international cricketer and wicket-keeper batter who has represented Australia in Tests, ODIs and T20Is, and plays domestically for South Australia and the Adelaide Strikers.",
+      es: "Cricketer internacional australiano, wicket-keeper batter, que ha representado a Australia en Tests, ODIs y T20Is, y juega para South Australia y Adelaide Strikers.",
+      ja: "豪州代表の国際クリケット選手で、ウィケットキーパー兼打者。Test、ODI、T20I に出場し、国内では South Australia と Adelaide Strikers でプレーしています。",
+      ko: "호주 국가대표 wicket-keeper batter로 Tests, ODIs, T20Is에서 호주를 대표했고 국내에서는 South Australia와 Adelaide Strikers에서 뛰고 있습니다.",
+      vi: "Vận động viên cricket quốc tế Australia, wicket-keeper batter, từng đại diện Australia ở Tests, ODIs và T20Is, thi đấu trong nước cho South Australia và Adelaide Strikers.",
+      th: "นักคริกเก็ตทีมชาติออสเตรเลีย ตำแหน่ง wicket-keeper batter เคยเล่น Tests, ODIs และ T20Is ให้ Australia และเล่นในประเทศกับ South Australia และ Adelaide Strikers",
+      si: "Australian international cricketer සහ wicket-keeper batter කෙනෙකු වන Alex Carey, Tests, ODIs සහ T20Is හි Australia නියෝජනය කර domestic cricket සඳහා South Australia සහ Adelaide Strikers සමඟ ක්‍රීඩා කරයි."
+    }
+  },
+  {
+    name: "Mitchell Starc",
+    aliases: ["Mitchell Starc", "Mitchell Aaron Starc", "Mitch Starc", "mstarc56"],
+    type: "athlete",
+    profile: { label: "Cricket Australia profile", url: "https://www.cricket.com.au/players/mitchell-starc/AtuW6dkh1kGosoRDCgaqOA" },
+    social: { label: "Instagram", url: "https://www.instagram.com/mstarc56/" },
+    background: {
+      "zh-Hans": "澳大利亚国际板球快速投手，左臂投球手，长期代表澳大利亚参加 Test 和 ODI，并曾获 Allan Border Medal 与多项年度奖。",
+      "zh-Hant": "澳洲國際板球快速投手，左臂投球手，長期代表澳洲參加 Test 和 ODI，並曾獲 Allan Border Medal 與多項年度獎。",
+      en: "Australian international fast bowler, a left-arm quick who has long represented Australia in Tests and ODIs and has won the Allan Border Medal and other annual awards.",
+      es: "Lanzador rápido internacional australiano, zurdo, que ha representado durante años a Australia en Tests y ODIs y ha ganado la Allan Border Medal y otros premios anuales.",
+      ja: "豪州代表の国際ファストボウラー。左腕投手として Test と ODI で長く代表を務め、Allan Border Medal などを受賞しています。",
+      ko: "호주 국가대표 왼팔 빠른 볼러로 Tests와 ODIs에서 오랫동안 호주를 대표했고 Allan Border Medal 등 여러 연례상을 받았습니다.",
+      vi: "Bowler nhanh quốc tế Australia, thuận tay trái, lâu năm đại diện Australia ở Tests và ODIs, từng giành Allan Border Medal và nhiều giải thưởng năm.",
+      th: "นักคริกเก็ต fast bowler ทีมชาติออสเตรเลีย ขว้างมือซ้าย เล่น Tests และ ODIs ให้ Australia มายาวนาน และเคยได้ Allan Border Medal กับรางวัลประจำปีอื่นๆ",
+      si: "Australian international fast bowler කෙනෙකු වන Mitchell Starc, left-arm quick ලෙස Tests සහ ODIs වල Australia දිගුකාලීනව නියෝජනය කර Allan Border Medal සහ අනෙකුත් annual awards දිනූ ක්‍රීඩකයෙකි."
+    }
+  },
+  {
+    name: "Brandon Smith",
+    aliases: ["Brandon Smith", "Brandon Timothy Smith", "Brandon Smith NRL", "hecticcheese"],
+    type: "athlete",
+    profile: { label: "NRL profile", url: "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/brandon-smith/" },
+    social: { label: "Instagram", url: "https://www.instagram.com/hecticcheese/" },
+    background: {
+      "zh-Hans": "新西兰职业橄榄球联盟运动员，司职 hooker 和 lock，效力 NRL 的 South Sydney Rabbitohs，并曾代表 New Zealand 与 Māori All Stars。",
+      "zh-Hant": "紐西蘭職業橄欖球聯盟運動員，司職 hooker 和 lock，效力 NRL 的 South Sydney Rabbitohs，並曾代表 New Zealand 與 Māori All Stars。",
+      en: "New Zealand professional rugby league player, a hooker and lock for the South Sydney Rabbitohs in the NRL who has represented New Zealand and the Māori All Stars.",
+      es: "Jugador profesional neozelandés de rugby league, hooker y lock de South Sydney Rabbitohs en la NRL, que ha representado a New Zealand y Māori All Stars.",
+      ja: "ニュージーランドのプロラグビーリーグ選手。NRL の South Sydney Rabbitohs で hooker と lock を務め、New Zealand と Māori All Stars 代表経験があります。",
+      ko: "뉴질랜드 프로 럭비리그 선수로 NRL South Sydney Rabbitohs의 hooker 및 lock이며 New Zealand와 Māori All Stars를 대표한 적이 있습니다.",
+      vi: "Cầu thủ rugby league chuyên nghiệp New Zealand, chơi hooker và lock cho South Sydney Rabbitohs tại NRL, từng đại diện New Zealand và Māori All Stars.",
+      th: "นักรักบี้ลีกอาชีพนิวซีแลนด์ ตำแหน่ง hooker และ lock ของ South Sydney Rabbitohs ใน NRL เคยเล่นให้ New Zealand และ Māori All Stars",
+      si: "New Zealand professional rugby league player කෙනෙකු වන Brandon Smith, NRL හි South Sydney Rabbitohs සඳහා hooker සහ lock ලෙස ක්‍රීඩා කරන අතර New Zealand සහ Māori All Stars නියෝජනය කර ඇත."
+    }
+  },
+  {
+    name: "Omar Musa",
+    aliases: ["Omar Musa", "Omar bin Musa", "Fierceland Omar Musa"],
+    type: "artist",
+    profile: { label: "Penguin Books author profile", url: "https://www.penguin.com.au/authors/omar-musa" },
+    personalSocial: { label: "Personal website", url: "https://omarmusa.com.au/" },
+    background: {
+      "zh-Hans": "马来西亚裔澳大利亚作家、诗人、说唱歌手和视觉艺术家，来自 Queanbeyan；小说《Fierceland》获 2026 年 Miles Franklin Literary Award。",
+      "zh-Hant": "馬來西亞裔澳洲作家、詩人、饒舌歌手和視覺藝術家，來自 Queanbeyan；小說《Fierceland》獲 2026 年 Miles Franklin Literary Award。",
+      en: "Malaysian-Australian author, poet, rapper and visual artist from Queanbeyan; his novel Fierceland won the 2026 Miles Franklin Literary Award.",
+      es: "Autor, poeta, rapero y artista visual malasio-australiano de Queanbeyan; su novela Fierceland ganó el Miles Franklin Literary Award de 2026.",
+      ja: "Queanbeyan 出身のマレーシア系豪州人作家、詩人、ラッパー、ビジュアルアーティスト。小説 Fierceland で2026年 Miles Franklin Literary Award を受賞しました。",
+      ko: "Queanbeyan 출신 말레이시아계 호주 작가, 시인, 래퍼, 시각예술가입니다. 소설 Fierceland로 2026년 Miles Franklin Literary Award를 받았습니다.",
+      vi: "Tác giả, nhà thơ, rapper và nghệ sĩ thị giác người Malaysia-Australia từ Queanbeyan; tiểu thuyết Fierceland của ông giành Miles Franklin Literary Award 2026.",
+      th: "นักเขียน กวี แรปเปอร์ และศิลปินทัศนศิลป์ชาวมาเลเซีย-ออสเตรเลียจาก Queanbeyan นวนิยาย Fierceland ของเขาได้ Miles Franklin Literary Award ปี 2026",
+      si: "Queanbeyan සිටින Malaysian-Australian author, poet, rapper සහ visual artist කෙනෙකි; ඔහුගේ Fierceland නවකතාව 2026 Miles Franklin Literary Award දිනීය."
+    }
+  },
+  {
+    name: "Isaac Cooper",
+    aliases: ["Isaac Cooper", "Isaac Alan Cooper", "Isaac Cooper swimmer", "mrisaaccooper"],
+    type: "athlete",
+    profile: { label: "World Aquatics profile", url: "https://www.worldaquatics.com/athletes/1372307/isaac-cooper" },
+    social: { label: "Instagram", url: "https://www.instagram.com/mrisaaccooper/" },
+    background: {
+      "zh-Hans": "澳大利亚游泳运动员，主项为仰泳，曾代表澳大利亚参加奥运会、世锦赛和英联邦运动会，并保持过短池仰泳纪录。",
+      "zh-Hant": "澳洲游泳運動員，主項為仰泳，曾代表澳洲參加奧運、世錦賽和英聯邦運動會，並保持過短池仰泳紀錄。",
+      en: "Australian swimmer specialising in backstroke, an Olympic, world-championship and Commonwealth Games representative who has held short-course backstroke records.",
+      es: "Nadador australiano especializado en espalda, representante olímpico, mundialista y de Commonwealth Games, que ha tenido récords de espalda en piscina corta.",
+      ja: "背泳を専門とする豪州の競泳選手。五輪、世界選手権、Commonwealth Games の代表経験があり、短水路背泳記録を保持したことがあります。",
+      ko: "배영을 전문으로 하는 호주 수영 선수로 올림픽, 세계선수권, Commonwealth Games 대표이며 쇼트코스 배영 기록을 보유한 적이 있습니다.",
+      vi: "Vận động viên bơi Australia chuyên bơi ngửa, từng đại diện Olympic, giải thế giới và Commonwealth Games, từng giữ các kỷ lục bơi ngửa bể ngắn.",
+      th: "นักว่ายน้ำออสเตรเลียที่เชี่ยวชาญ backstroke เคยเป็นตัวแทน Olympic, world championships และ Commonwealth Games และเคยถือสถิติ short-course backstroke",
+      si: "Backstroke විශේෂත්වය ඇති Australian swimmer කෙනෙකි; Olympic, world-championship සහ Commonwealth Games නියෝජනය කර short-course backstroke records තබා ඇත."
+    }
+  },
+  {
     name: "Mark Butler",
     aliases: ["Mark Butler", "Mark Christopher Butler", "Mark Butler MP", "马克·巴特勒", "馬克·巴特勒", "マーク・バトラー", "마크 버틀러"],
     type: "politician",
