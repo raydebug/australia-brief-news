@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T14:06:37.356Z",
+  "updatedAt": "2026-08-07T15:15:28.285Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -858,6 +858,21 @@
       }
     },
     {
+      "id": "medicare-unclaimed-benefits-20260807",
+      "headline": "未払いのMedicare給付金2億7450万豪ドルの確認を呼びかけ",
+      "publishedAt": "2026-08-07T07:07:00Z",
+      "sourceCount": 1,
+      "voiceScript": "Services Australiaによると、97万4000人に合計2億7450万豪ドルの未払いMedicare給付があり、平均は約280豪ドルです。銀行口座の情報が更新されていないため、支払いが保留になっています。Medicareの登録情報を直せば数日で受け取れる可能性があるため、確認を急ぐ価値があります。申請が進むにつれて、金額はなお変わる見込みです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/medicare-unclaimed-benefits-how-to-check/dtop6vtvc"
+        }
+      ],
+      "language": "ja"
+    },
+    {
       "id": "prostate-guidelines-more-testing-20260807",
       "headline": "新しい前立腺がん指針で検査対象が広がる",
       "publishedAt": "2026-08-07T07:03:34+00:00",
@@ -1421,6 +1436,38 @@
           }
         ]
       }
+    },
+    {
+      "id": "smart-glasses-privacy-20260807",
+      "headline": "低価格スマートグラスでプライバシー審査が強まる",
+      "publishedAt": "2026-08-07T03:26:00Z",
+      "sourceCount": 4,
+      "voiceScript": "内蔵カメラ付きの低価格スマートグラスが広がる中、オーストラリアではプライバシー監視が強まっています。政府側は便利さを認めつつも、人目を避けた撮影や嫌がらせを簡単にし、特に公共の場で問題になりうるとみています。価格が下がる一方で、プライバシー規制はまだ追いついていないことが重要です。今後は現行法で足りるのか、新しい制限が必要なのかが問われます。",
+      "differences": [
+        "AAP はプライバシー警告と嫌がらせリスクに焦点を当てます。",
+        "ABC はより広いプライバシー改革の文脈で扱い、低価格の Kmart 眼鏡にも触れます。",
+        "Guardian Australia はスマートグラス撮影への反発と、より強い規制の必要性を強調します。",
+        "news.com.au は安価な Kmart 眼鏡への消費者反応を前面に出します。"
+      ],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/smart-glasses-in-sharp-focus-over-privacy-concerns"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/federal-politics-live-blog-david-pocock-accuses-gambling-lobby/107007504"
+        },
+        {
+          "source": "Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/australias-privacy-tsar-warns-new-laws-may-be-needed-for-smart-glasses/news-story/c87c95ea302dc699a94f0196f07a26fd"
+        }
+      ],
+      "language": "ja"
     },
     {
       "id": "pfas-3m-case-20260807",
@@ -2253,6 +2300,38 @@
       }
     },
     {
+      "id": "gambling-reform-bill-20260807",
+      "headline": "労働党のギャンブル広告規制案は上院で反発を強めています",
+      "publishedAt": "2026-08-06T19:00:00Z",
+      "sourceCount": 4,
+      "voiceScript": "労働党のギャンブル広告規制案は上院で反発を強めています。連立、緑の党、無所属の議員が、より厳しいルールを求めています。争点は、特典誘導、広告の上限、そして法案が本当にギャンブル被害を減らせるかです。結果次第で、テレビ、ラジオ、スポーツ、オンラインの広告の姿が決まります。政府は大きな修正を受け入れる必要があるかもしれません。",
+      "differences": [
+        "AAP は修正案を押すクロスベンチと、労働党の均衡論を重視します。",
+        "ABC は大幅修正より法案棚上げの可能性を強調します。",
+        "Guardian Australia は特典誘導の疑惑と、法案が失敗するリスクを目立たせます。",
+        "news.com.au は政治と業界の綱引きを追います。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/labor-could-pull-gambling-ad-crackdown-amid-senate-demands/107001662"
+        },
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/backbencher-push-for-gambling-laws-to-be-strengthened"
+        },
+        {
+          "source": "Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/05/labors-gambling-reform-friendless-as-coalition-withholds-support-amid-drug-and-sex-worker-allegations"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/real-life/news-life/betting-giants-sportsbet-tabcorp-front-inquiry-into-albanese-reforms/news-story/59c039e3a58440a3a0c865ead6b579e0"
+        }
+      ],
+      "language": "ja"
+    },
+    {
       "id": "wildflower-meadows-cities-20260806",
       "language": "ja",
       "sourceCount": 1,
@@ -2802,6 +2881,33 @@
           }
         ]
       }
+    },
+    {
+      "id": "secret-recording-dv-evidence-20260806",
+      "headline": "秘密録音がDV事件でさらに使われる可能性",
+      "publishedAt": "2026-08-06T07:51:00Z",
+      "sourceCount": 3,
+      "voiceScript": "高等裁判所は、被害者の安全と自律を守るためなら、秘密録音をDV事件の証拠として使えると判断しました。今回の判断は、以前の虐待疑惑の後に夫の認めを録音した女性のケースがもとになっています。これは被害者に新しい手段を与える一方、例外の範囲がどこまで広がるかは今後も裁判所が見極める必要があります。今後の裁判がその線引きを試すことになります。",
+      "differences": [
+        "AAP は被害者の安全と証拠法の重要な前進として扱います。",
+        "ABC は今後の裁判で例外の範囲を決める必要があると強調します。",
+        "SBS はDV被害者にとって実用的な法改正として描き、裁判所の自律性の理屈を前面に出します。"
+      ],
+      "links": [
+        {
+          "source": "AAP News",
+          "url": "https://aapnews.aap.com.au/news/high-court-rules-secret-recording-admissible-in-dv-case"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/high-court-secret-recording-domestic-violence-case/107003788"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/high-court-rules-secret-recording-can-be-used-in-domestic-violence-case/1uhq0v2o0"
+        }
+      ],
+      "language": "ja"
     },
     {
       "id": "melbourne-arson-terror-probe-20260804",
