@@ -2163,6 +2163,24 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Allan Border",
+    aliases: ["Allan Border", "Allan Robert Border", "Allan Border AO", "AB", "Captain Grumpy"],
+    type: "athlete",
+    profile: { label: "Sport Australia Hall of Fame profile", url: "https://sahof.org.au/hall-of-fame-member/allan-border/" },
+    officialProfile: { label: "ESPNcricinfo profile", url: "https://www.espncricinfo.com/cricketers/allan-border-4174" },
+    background: {
+      "zh-Hans": "澳大利亚前国际板球运动员和队长，1987 年率队赢得世界杯，1990 年入选 Sport Australia Hall of Fame；澳洲男子年度最佳板球奖 Allan Border Medal 以他命名。",
+      "zh-Hant": "澳洲前國際板球運動員和隊長，1987 年率隊贏得世界盃，1990 年入選 Sport Australia Hall of Fame；澳洲男子年度最佳板球獎 Allan Border Medal 以他命名。",
+      en: "Former Australian international cricketer and captain who led Australia to the 1987 World Cup, was inducted into the Sport Australia Hall of Fame in 1990, and lends his name to the Allan Border Medal.",
+      es: "Ex cricketer internacional y capitán de Australia; lideró al equipo al Mundial de 1987, ingresó al Sport Australia Hall of Fame en 1990 y da nombre a la Allan Border Medal.",
+      ja: "豪州代表の元国際クリケット選手・主将。1987年ワールドカップ優勝に導き、1990年に Sport Australia Hall of Fame 入りし、Allan Border Medal の名の由来です。",
+      ko: "호주 전 국가대표 크리켓 선수이자 주장입니다. 1987년 월드컵 우승을 이끌었고 1990년 Sport Australia Hall of Fame에 헌액됐으며 Allan Border Medal의 이름이 됐습니다.",
+      vi: "Cựu cricketer quốc tế và đội trưởng Australia, người dẫn dắt Australia vô địch World Cup 1987, được ghi danh vào Sport Australia Hall of Fame năm 1990 và là tên gọi của Allan Border Medal.",
+      th: "อดีตนักคริกเก็ตทีมชาติและกัปตัน Australia พาทีมคว้า World Cup ปี 1987 ได้รับเข้า Sport Australia Hall of Fame ในปี 1990 และเป็นที่มาของชื่อ Allan Border Medal",
+      si: "Australia former international cricketer සහ captain කෙනෙකි; 1987 World Cup ජයග්‍රහණයට Australia මෙහෙයවූ අතර 1990 දී Sport Australia Hall of Fame වෙත ඇතුළත් විය. Allan Border Medal නම් කර ඇත්තේ ඔහුගේ නමින්ය."
+    }
+  },
+  {
     name: "Travis Head",
     aliases: ["Travis Head", "Travis Michael Head", "Travis Head cricketer", "travishead34"],
     type: "athlete",
