@@ -3804,6 +3804,23 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Jean-Claude Perrottet",
+    aliases: ["Jean-Claude Perrottet", "Claude Perrottet", "Jean Claude Perrottet"],
+    type: "public-figure",
+    social: { label: "LinkedIn", url: "https://www.linkedin.com/in/jean-claude-perrottet/" },
+    background: {
+      "zh-Hans": "新州自由党保守派政治运作者，曾任议会和 Catholic Schools NSW 相关职务；2026 年因 NSW ICAC 对 Liberal Reformers 派系和政治捐款的调查而成为公开证人。",
+      "zh-Hant": "新州自由黨保守派政治運作者，曾任議會和 Catholic Schools NSW 相關職務；2026 年因 NSW ICAC 對 Liberal Reformers 派系和政治捐款的調查而成為公開證人。",
+      en: "NSW Liberal conservative factional operative who has worked in parliamentary and Catholic Schools NSW roles; in 2026 he became a public witness in the NSW ICAC inquiry into Liberal Reformers factional activity and political donations.",
+      es: "Operador de la facción conservadora del Liberal Party de NSW, con cargos parlamentarios y en Catholic Schools NSW; en 2026 fue testigo público en la investigación de NSW ICAC sobre Reformers y donaciones políticas.",
+      ja: "NSW Liberal の保守派系政治オペレーター。議会職や Catholic Schools NSW 関連職を務め、2026年には Liberal Reformers 派閥活動と政治献金を巡る NSW ICAC 調査で公の証人になりました。",
+      ko: "NSW Liberal 보수 계파 정치 실무자로 의회 및 Catholic Schools NSW 관련 직책을 맡았습니다. 2026년 Liberal Reformers 계파 활동과 정치 기부를 둘러싼 NSW ICAC 조사에서 공개 증인이 됐습니다.",
+      vi: "Nhân vật vận động phe bảo thủ trong NSW Liberal, từng làm trong các vai trò nghị viện và Catholic Schools NSW; năm 2026 ông là nhân chứng công khai trong điều tra NSW ICAC về phe Liberal Reformers và quyên góp chính trị.",
+      th: "ผู้ปฏิบัติการฝ่ายอนุรักษ์นิยมใน NSW Liberal เคยทำงานบทบาทในรัฐสภาและ Catholic Schools NSW; ปี 2026 เขาเป็นพยานสาธารณะในการสอบสวน NSW ICAC เรื่อง Liberal Reformers และเงินบริจาคการเมือง",
+      si: "NSW Liberal conservative factional operative කෙනෙකි; parliamentary සහ Catholic Schools NSW roles වල කටයුතු කර ඇත. 2026 දී Liberal Reformers factional activity සහ political donations ගැන NSW ICAC inquiry එකේ public witness කෙනෙකු විය."
+    }
+  },
+  {
     name: "Pauline Hanson",
     aliases: ["Pauline Hanson", "保琳·汉森", "保琳·漢森", "ポーリン・ハンソン", "폴린 핸슨"],
     type: "politician",
@@ -4520,6 +4537,23 @@ const PEOPLE_CONTEXT = [
       vi: "Doanh nhân khai khoáng Úc, chủ tịch điều hành Hancock Prospecting, một trong những gương mặt kinh doanh nổi tiếng nhất nước.",
       th: "นักธุรกิจเหมืองแร่ชาวออสเตรเลีย ประธานบริหาร Hancock Prospecting และเป็นหนึ่งในนักธุรกิจที่เป็นที่รู้จักที่สุดของประเทศ",
       si: "Australian mining entrepreneur සහ Hancock Prospecting executive chair; රටේ ප්‍රසිද්ධ business figures අතර කෙනෙකි."
+    }
+  },
+  {
+    name: "Jean Nassif",
+    aliases: ["Jean Nassif", "Jean Nassif Toplace", "Toplace developer Jean Nassif"],
+    type: "public-figure",
+    social: { label: "LinkedIn", url: "https://au.linkedin.com/in/jean-nassif-350ab647" },
+    background: {
+      "zh-Hans": "悉尼地产开发商，Toplace Group 创始人；其公司倒闭、建筑缺陷、欺诈指控和政治捐款调查使他长期成为公共关注人物。",
+      "zh-Hant": "悉尼地產開發商，Toplace Group 創辦人；其公司倒閉、建築缺陷、欺詐指控和政治捐款調查使他長期成為公共關注人物。",
+      en: "Sydney property developer and founder of Toplace Group whose company collapse, building-defect disputes, fraud allegations and political-donation inquiries have made him a long-running public figure.",
+      es: "Promotor inmobiliario de Sydney y fundador de Toplace Group; el colapso de su empresa, disputas por defectos de construcción, acusaciones de fraude e investigaciones de donaciones políticas lo han convertido en figura pública.",
+      ja: "シドニーの不動産開発業者で Toplace Group 創業者。会社破綻、建築欠陥問題、詐欺疑惑、政治献金調査により、長期的に公の注目を集める人物です。",
+      ko: "시드니 부동산 개발업자이자 Toplace Group 창립자입니다. 회사 붕괴, 건축 결함 분쟁, 사기 의혹, 정치 기부 조사로 장기간 공적 관심의 대상이 됐습니다.",
+      vi: "Nhà phát triển bất động sản Sydney và nhà sáng lập Toplace Group; sự sụp đổ của công ty, tranh chấp lỗi xây dựng, cáo buộc gian lận và điều tra quyên góp chính trị khiến ông là nhân vật công chúng lâu dài.",
+      th: "นักพัฒนาอสังหาริมทรัพย์ในซิดนีย์และผู้ก่อตั้ง Toplace Group; การล่มสลายของบริษัท ข้อพิพาทเรื่องข้อบกพร่องอาคาร ข้อกล่าวหาฉ้อโกง และการสอบสวนเงินบริจาคการเมืองทำให้เขาเป็นบุคคลสาธารณะต่อเนื่อง",
+      si: "Sydney property developer සහ Toplace Group founder කෙනෙකි; company collapse, building-defect disputes, fraud allegations සහ political-donation inquiries නිසා දිගුකාලීන public figure කෙනෙකු වී ඇත."
     }
   },
   {
