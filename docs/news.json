@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T02:17:09Z",
+  "updatedAt": "2026-08-07T03:08:21Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -106,6 +106,48 @@
     "The Australian, Yahoo News Australia, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday and The Canberra Times did not expose reliable current-week listings for this run."
   ],
   "clusters": [
+    {
+      "id": "bird-flu-response-20260807",
+      "language": "zh-Hans",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-07T02:12:51.000Z",
+      "headline": "澳洲的禽流感应对从圣诞岛扩展到野生动物风险警示",
+      "voiceScript": "联邦政府将拨款超过 70 万澳元，为圣诞岛可能出现的 H5 禽流感疫情做准备；同时，新的风险评估显示，如果病毒扩散，数百种本地鸟类和哺乳动物都将面临高风险。这很重要，因为澳洲的应对正在从笼统警告转向对偏远岛屿设施和脆弱野生动物的具体准备。接下来要看的是，生物安全和栖息地保护能否在病毒扩散到更多地区之前迅速加强。",
+      "differences": [
+        "一条报道聚焦圣诞岛的准备资金，另外几条则强调全国性风险评估和野生动物脆弱性。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/kimberley-and-pilbara-local-news-briefing/107007812"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/aug/05/penguins-dolphins-nearly-400-australian-species-threat-bird-flu-true-extent-disaster"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/shocking-number-of-aussie-birds-face-extreme-flu-risk"
+        }
+      ],
+      "socialDiscussions": []
+    },
+    {
+      "id": "qld-surgery-waitlist-20260807",
+      "language": "zh-Hans",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-07T02:12:51.000Z",
+      "headline": "昆士兰医生成立工作组，直面手术候诊队列积压",
+      "voiceScript": "昆士兰医学协会已经成立工作组，因为州内有超过 36.2 万人卡在“先进入手术候诊名单的候诊名单”上。这件事重要，因为瓶颈说明压力出现在真正进入治疗之前，也让政府关于等待时间正在改善的说法承受更大政治压力。下一步是明年初提交建议，但更关键的问题是，昆士兰能否足够快地修复前端分诊的堵塞。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/amaq-waitlist-surgery-task-force-queensland-government/107008494"
+        }
+      ],
+      "socialDiscussions": []
+    },
     {
       "id": "atlassian-shares-surge-20260807",
       "language": "zh-Hans",
@@ -702,6 +744,32 @@
           }
         ]
       }
+    },
+    {
+      "id": "fuel-trade-surplus-20260806",
+      "language": "zh-Hans",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-06T17:30:00.000Z",
+      "headline": "燃料进口把澳洲贸易顺差压到多年低点",
+      "voiceScript": "澳洲六月季度的货物贸易顺差降至约 11 亿澳元，原因是燃料和电动车进口大幅增加。直接推手仍然是中东燃料冲击，各方都在抢运额外货源，这很重要，因为贸易平衡如今已经把供应应对的代价清楚地反映出来。接下来要看的是，燃料价格和进口量会不会在下一次澳洲统计局数据里继续拖累贸易表现。",
+      "differences": [
+        "一条报道强调澳洲统计局的贸易数字，另外几条则把它放在燃料供应和进口激增的背景下。"
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/fuel-diplomacy-sends-australia-s-trade-surplus-tanking"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/energy/labor-s-plans-to-source-more-fuel-leaves-shipments-stranded-at-sea-20260802-p60krh"
+        }
+      ],
+      "socialDiscussions": []
     },
     {
       "id": "parent-visa-delays-20260806",
@@ -1586,6 +1654,22 @@
           }
         ]
       }
+    },
+    {
+      "id": "ahpra-privacy-breach-20260806",
+      "language": "zh-Hans",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T03:49:15.000Z",
+      "headline": "AHPRA 因群发邮件泄露医生信息道歉",
+      "voiceScript": "澳洲健康监管机构承认，一封群发邮件泄露了本不该彼此看到信息的医生私人资料，并已公开道歉。这件事重要，因为它直接关系到投诉体系的信任，也关系到监管机构如何处理敏感个人数据。接下来要看的是，AHPRA 会做出哪些改动来避免再次泄露，以及这次事件会不会引发更广泛的隐私审查。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/ahpra-apologises-for-mass-email-doctor-privacy-breach/107000392"
+        }
+      ],
+      "socialDiscussions": []
     },
     {
       "id": "facebook-ragebait-meta-20260806",
@@ -2721,6 +2805,22 @@
           "url": "https://www.theguardian.com/australia-news/live/2026/aug/05/australia-news-live-jetstar-charge-overhead-luggage-labor-tax-coalition-economy-wednesday-ntwnfb"
         }
       ]
+    },
+    {
+      "id": "super-netball-pay-truce-20260805",
+      "language": "zh-Hans",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T02:50:55.000Z",
+      "headline": "澳洲超级净球员就2027年薪酬达成协议",
+      "voiceScript": "澳洲超级净球员在薪酬谈判一度可能引发争议后，已经就 2027 年达成新协议。这很重要，因为它改善了薪酬、休假和个人赞助权利，而这项女子联赛仍在努力建立更强的商业基础。接下来要看的是，这份协议能否让下赛季前的紧张降温，还是说联赛的薪酬模式之后还会再受压力。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/pay-war-on-ice-as-australia-s-netball-stars-sign-truce"
+        }
+      ],
+      "socialDiscussions": []
     },
     {
       "id": "gambling-reform-bill-senate-resistance-20260805",
@@ -3900,6 +4000,22 @@
           "url": "https://7news.com.au/news/australia-sends-firefighters-to-france-as-europe-enters-new-era-of-megafires-c-22654842"
         }
       ]
+    },
+    {
+      "id": "victorian-teachers-strike-20260731",
+      "language": "zh-Hans",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T08:34:18.000Z",
+      "headline": "维州教师因薪酬谈判停滞准备再度罢工",
+      "voiceScript": "维多利亚州公立学校教师将在州工会表示最新薪酬方案仍然不够后，再次举行 24 小时罢工。这很重要，因为反复停工会扰乱家庭安排，也说明在数月谈判后，争议依然没有解决。如果双方都不让步，8 月 19 日的罢工就可能照常发生，并继续向政府施压，要求提高报价。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/teachers-to-strike-for-third-time-as-talks-stall"
+        }
+      ],
+      "socialDiscussions": []
     },
     {
       "id": "hunter-valley-crash-safety-checks-failed-20260731",

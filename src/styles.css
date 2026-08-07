@@ -428,60 +428,6 @@ p {
   gap: 12px;
 }
 
-.daily-social-panel {
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--panel);
-  padding: 14px;
-  margin-bottom: 16px;
-}
-
-.daily-social-header {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 12px;
-  color: var(--brand);
-  margin-bottom: 12px;
-}
-
-.daily-social-header strong {
-  display: block;
-  font-size: calc(16px * var(--font-scale, 1));
-  line-height: 1.2;
-}
-
-.daily-social-header span {
-  display: block;
-  margin-top: 3px;
-  color: var(--muted);
-  font-size: calc(12px * var(--font-scale, 1));
-  line-height: 1.35;
-}
-
-.daily-social-groups {
-  display: grid;
-  gap: 12px;
-}
-
-.daily-social-group {
-  display: grid;
-  gap: 8px;
-}
-
-.daily-social-group h3 {
-  margin: 0;
-  color: var(--muted);
-  font-size: calc(12px * var(--font-scale, 1));
-  font-weight: 800;
-  line-height: 1.2;
-  text-transform: uppercase;
-}
-
-.daily-social-list a {
-  padding: 9px 10px;
-}
-
 .cluster-card {
   width: 100%;
   text-align: left;

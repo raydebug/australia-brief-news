@@ -233,6 +233,7 @@ const I18N = {
     socialProfile: "主要账号",
     background: "背景",
     politicalPositions: "主要言论",
+    socialDiscussions: "热门讨论",
     socialDiscussionMeta: "热度",
     socialComments: "评论",
     socialShares: "分享",
@@ -276,6 +277,7 @@ const I18N = {
     socialProfile: "主要帳號",
     background: "背景",
     politicalPositions: "主要言論",
+    socialDiscussions: "熱門討論",
     socialDiscussionMeta: "熱度",
     socialComments: "評論",
     socialShares: "分享",
@@ -319,6 +321,7 @@ const I18N = {
     socialProfile: "ප්‍රධාන ගිණුම",
     background: "පසුබිම",
     politicalPositions: "ප්‍රධාන අදහස්",
+    socialDiscussions: "ජනප්‍රිය සාකච්ඡා",
     socialDiscussionMeta: "උණුසුම",
     socialComments: "අදහස්",
     socialShares: "බෙදාගැනීම්",
@@ -362,6 +365,7 @@ const I18N = {
     socialProfile: "Main account",
     background: "Background",
     politicalPositions: "Main positions",
+    socialDiscussions: "Popular discussions",
     socialDiscussionMeta: "Engagement",
     socialComments: "comments",
     socialShares: "shares",
@@ -405,6 +409,7 @@ const I18N = {
     socialProfile: "Cuenta principal",
     background: "Contexto",
     politicalPositions: "Posturas principales",
+    socialDiscussions: "Debates populares",
     socialDiscussionMeta: "Interacción",
     socialComments: "comentarios",
     socialShares: "compartidos",
@@ -448,6 +453,7 @@ const I18N = {
     socialProfile: "主なアカウント",
     background: "背景",
     politicalPositions: "主な主張",
+    socialDiscussions: "注目の議論",
     socialDiscussionMeta: "反応",
     socialComments: "コメント",
     socialShares: "共有",
@@ -491,6 +497,7 @@ const I18N = {
     socialProfile: "주요 계정",
     background: "배경",
     politicalPositions: "주요 입장",
+    socialDiscussions: "인기 토론",
     socialDiscussionMeta: "반응",
     socialComments: "댓글",
     socialShares: "공유",
@@ -534,6 +541,7 @@ const I18N = {
     socialProfile: "Tài khoản chính",
     background: "Bối cảnh",
     politicalPositions: "Lập trường chính",
+    socialDiscussions: "Thảo luận nổi bật",
     socialDiscussionMeta: "Tương tác",
     socialComments: "bình luận",
     socialShares: "chia sẻ",
@@ -577,6 +585,7 @@ const I18N = {
     socialProfile: "บัญชีหลัก",
     background: "พื้นหลัง",
     politicalPositions: "จุดยืนหลัก",
+    socialDiscussions: "บทสนทนายอดนิยม",
     socialDiscussionMeta: "การมีส่วนร่วม",
     socialComments: "ความคิดเห็น",
     socialShares: "แชร์",
@@ -5283,6 +5292,27 @@ function HeatIndicator({ cluster, language }) {
   );
 }
 
+function SocialDiscussionList({ discussions, labels }) {
+  return (
+    <div className="social-discussion-list">
+      {discussions.map((item) => {
+        const source = item.community || item.account || item.author || item.platform;
+        const score = Number(item.score || 0);
+        const meta = [source, score > 0 ? `${labels.socialDiscussionMeta}: ${score}` : ""].filter(Boolean).join(" · ");
+
+        return (
+          <a href={item.url} target="_blank" rel="noreferrer" key={item.url}>
+            <span className="social-platform">{item.platform}</span>
+            <span className="social-title">{item.title}</span>
+            {meta && <span className="social-meta">{meta}</span>}
+            <ExternalLink size={15} />
+          </a>
+        );
+      })}
+    </div>
+  );
+}
+
 function PeopleContextList({ people, labels, language }) {
   return (
     <div className="people-list">
@@ -5571,6 +5601,7 @@ function App() {
   const activeDifferences = uniqueDifferences(displayActive);
   const activeCommentary = showCommentary ? getFourNewsCommentary(displayActive, language) : "";
   const activePeople = showPeopleContext ? mentionedPeople(displayActive) : [];
+  const activeSocialDiscussions = validSocialDiscussions(displayActive, language);
 
   useEffect(() => {
     if (activeId && clusters.length && !clusters.some((cluster) => cluster.id === activeId)) {
@@ -5839,6 +5870,7 @@ function App() {
             const speechState = speechButtonState(displayCluster);
             const commentary = showCommentary ? getFourNewsCommentary(displayCluster, language) : "";
             const people = showPeopleContext ? mentionedPeople(displayCluster) : [];
+            const socialDiscussions = validSocialDiscussions(displayCluster, language);
 
             return (
               <article
@@ -5923,6 +5955,16 @@ function App() {
                     </div>
                   )}
 
+                  {socialDiscussions.length > 0 && (
+                    <div className="mobile-section social-panel">
+                      <div className="social-heading">
+                        <Flame size={16} />
+                        <strong>{labels.socialDiscussions}</strong>
+                      </div>
+                      <SocialDiscussionList discussions={socialDiscussions} labels={labels} />
+                    </div>
+                  )}
+
                   <div className="mobile-section">
                     <div className="link-list">
                       {displayCluster.links.map((link) => (
@@ -6003,6 +6045,16 @@ function App() {
                   <strong>{labels.peopleContextTitle}</strong>
                 </div>
                 <PeopleContextList people={activePeople} labels={labels} language={language} />
+              </article>
+            )}
+
+            {activeSocialDiscussions.length > 0 && (
+              <article className="social-panel">
+                <div className="social-heading">
+                  <Flame size={17} />
+                  <strong>{labels.socialDiscussions}</strong>
+                </div>
+                <SocialDiscussionList discussions={activeSocialDiscussions} labels={labels} />
               </article>
             )}
 

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T02:17:09Z",
+  "updatedAt": "2026-08-07T03:08:21Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -106,6 +106,48 @@
     "The Australian, Yahoo News Australia, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday and The Canberra Times did not expose reliable current-week listings for this run."
   ],
   "clusters": [
+    {
+      "id": "bird-flu-response-20260807",
+      "language": "ja",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-07T02:12:51.000Z",
+      "headline": "オーストラリアの鳥インフル対策がクリスマス島から野生生物の警戒へ広がる",
+      "voiceScript": "連邦政府は、H5鳥インフルの発生に備えてクリスマス島の準備に70万豪ドル超を投じる一方、最新のリスク評価では、感染が広がれば多数の在来の鳥類と哺乳類が高い危険にさらされるとされています。オーストラリアの対応が、一般的な警告から離島施設や脆弱な野生生物を守る具体策へ移っている点が重要です。今後の焦点は、ウイルスがさらに広がる前に、生物安全対策と生息地保護をどこまで急げるかです。",
+      "differences": [
+        "1本はクリスマス島向けの準備資金に焦点を当て、他は全国的なリスク評価と野生生物の脆弱性を強調しています。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/kimberley-and-pilbara-local-news-briefing/107007812"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/world/2026/aug/05/penguins-dolphins-nearly-400-australian-species-threat-bird-flu-true-extent-disaster"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/shocking-number-of-aussie-birds-face-extreme-flu-risk"
+        }
+      ],
+      "socialDiscussions": []
+    },
+    {
+      "id": "qld-surgery-waitlist-20260807",
+      "language": "ja",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-07T02:12:51.000Z",
+      "headline": "クイーンズランド州で手術待機リストの滞留解消へ医師団が作業部会",
+      "voiceScript": "クイーンズランド州医師会は、手術待機リストに入る前の段階で36万2,000人超が滞留しているとして、新たな作業部会を設けました。待機時間が短くなっているという政府の説明に対し、実際には治療に入る前の段階で大きな詰まりがあることを示しているため重要です。来年初めに提言が出る予定ですが、焦点は州が前段階のトリアージ問題をどれだけ早く改善できるかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/amaq-waitlist-surgery-task-force-queensland-government/107008494"
+        }
+      ],
+      "socialDiscussions": []
+    },
     {
       "id": "atlassian-shares-surge-20260807",
       "language": "ja",
@@ -702,6 +744,32 @@
           }
         ]
       }
+    },
+    {
+      "id": "fuel-trade-surplus-20260806",
+      "language": "ja",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-06T17:30:00.000Z",
+      "headline": "燃料輸入でオーストラリアの貿易黒字は数年ぶりの低水準に",
+      "voiceScript": "オーストラリアの6月四半期の貿易黒字は、燃料と電気自動車の輸入が急増したことで約11億豪ドルまで縮小しました。背景にあるのは中東の燃料ショックで、追加の貨物確保が進んだ結果でもあり、これは供給対応のコストが貿易収支にそのまま表れていることを意味します。今後は、燃料価格と輸入量が次のABS統計でも貿易を押し下げるかが注目です。",
+      "differences": [
+        "1本はABSの貿易統計に、他は燃料供給の混乱と輸入急増の背景に重きを置いています。"
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/fuel-diplomacy-sends-australia-s-trade-surplus-tanking"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
+        },
+        {
+          "source": "Australian Financial Review",
+          "url": "https://www.afr.com/companies/energy/labor-s-plans-to-source-more-fuel-leaves-shipments-stranded-at-sea-20260802-p60krh"
+        }
+      ],
+      "socialDiscussions": []
     },
     {
       "id": "parent-visa-delays-20260806",
@@ -1586,6 +1654,22 @@
           }
         ]
       }
+    },
+    {
+      "id": "ahpra-privacy-breach-20260806",
+      "language": "ja",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T03:49:15.000Z",
+      "headline": "AHPRAが大量メールで医師情報を漏えいさせたとして謝罪",
+      "voiceScript": "オーストラリアの医療規制当局は、一斉送信メールで本来共有されるべきではない医師の個人情報が漏れたとして謝罪しました。これは苦情処理制度への信頼と、機微な個人情報をどう扱うかに直結するため重要です。今後は再発防止のためにどのような変更が行われるのか、そしてより広いプライバシー見直しにつながるのかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/ahpra-apologises-for-mass-email-doctor-privacy-breach/107000392"
+        }
+      ],
+      "socialDiscussions": []
     },
     {
       "id": "facebook-ragebait-meta-20260806",
@@ -2721,6 +2805,22 @@
           "url": "https://www.theguardian.com/australia-news/live/2026/aug/05/australia-news-live-jetstar-charge-overhead-luggage-labor-tax-coalition-economy-wednesday-ntwnfb"
         }
       ]
+    },
+    {
+      "id": "super-netball-pay-truce-20260805",
+      "language": "ja",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-05T02:50:55.000Z",
+      "headline": "オーストラリアのスーパー・ネットボール選手が2027年の待遇で合意",
+      "voiceScript": "オーストラリアのスーパー・ネットボール選手は、賃上げ交渉が対立に発展しかねない状況を経て、2027年に向けた新たな合意に達しました。女子リーグがより強い商業基盤を築こうとしている中で、報酬、休暇、個人スポンサー権が改善される点が重要です。今後の焦点は、この合意で来季前の緊張が収まるのか、それとも後から別の圧力がかかるのかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/pay-war-on-ice-as-australia-s-netball-stars-sign-truce"
+        }
+      ],
+      "socialDiscussions": []
     },
     {
       "id": "gambling-reform-bill-senate-resistance-20260805",
@@ -3900,6 +4000,22 @@
           "url": "https://7news.com.au/news/australia-sends-firefighters-to-france-as-europe-enters-new-era-of-megafires-c-22654842"
         }
       ]
+    },
+    {
+      "id": "victorian-teachers-strike-20260731",
+      "language": "ja",
+      "sourceCount": 1,
+      "publishedAt": "2026-07-31T08:34:18.000Z",
+      "headline": "ビクトリア州の教員、賃上げ交渉停滞で再びストライキへ",
+      "voiceScript": "ビクトリア州の公立学校教員は、最新の賃上げ案も不十分だとして、再び24時間のストライキに向かっています。何度も授業が止まれば家庭への影響が大きく、数か月に及ぶ交渉でも争点が解消していないことが分かるからです。双方が譲らなければ、8月19日のストライキは実施され、政府への圧力は続く見通しです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/teachers-to-strike-for-third-time-as-talks-stall"
+        }
+      ],
+      "socialDiscussions": []
     },
     {
       "id": "hunter-valley-crash-safety-checks-failed-20260731",
