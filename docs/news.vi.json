@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T07:12:42Z",
+  "updatedAt": "2026-08-07T08:12:13.419Z",
   "generatedBy": "codex",
   "language": "vi",
   "sources": [
@@ -101,11 +101,39 @@
     }
   ],
   "errors": [
-    "news.com.au content feed returned no extractable current-week items this run.",
-    "AFR, AAP and Sky News Australia required page-level fallbacks because stable current-week RSS listings were not available.",
-    "The Australian, Yahoo News Australia, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday and The Canberra Times did not expose reliable current-week listings for this run."
+    "news.com.au content feed remains unstable; article-page fallbacks were used where needed.",
+    "The Australian, Yahoo News Australia, Australian Financial Review, Sky News Australia, 9News, 7NEWS, The Sydney Morning Herald, The Age, Brisbane Times and WAtoday were checked, but their current-week listings were still inconsistent enough to require article-page fallbacks or were skipped when no stable dated item was available."
   ],
   "clusters": [
+    {
+      "id": "smart-glasses-privacy-rules-20260807",
+      "headline": "Úc siết chặt giám sát quyền riêng tư với kính thông minh",
+      "voiceScript": "Chính phủ liên bang đã yêu cầu ủy viên quyền riêng tư xem xét kính thông minh sau lo ngại ngày càng tăng về ghi hình và giám sát kín đáo. Cơ quan quản lý cho rằng thiết bị này có thể quay người khác mà họ không hề nhận ra, đặc biệt gây rủi ro cho phụ nữ, trẻ em và các nhóm dễ bị tổn thương. Câu hỏi trước mắt là luật hiện hành có còn đủ để theo kịp camera đeo người và công cụ phân tích khuôn mặt hay không. Bước tiếp theo là xem Úc có cần sửa luật nhanh hơn trước khi các thiết bị này trở nên phổ biến hơn.",
+      "differences": [
+        "Một số bài tập trung vào rà soát quy định, số khác nhấn mạnh phản ứng của công chúng trước các mẫu kính giá rẻ."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/australias-privacy-tsar-warns-new-laws-may-be-needed-for-smart-glasses/news-story/c87c95ea302dc699a94f0196f07a26fd"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/federal-politics-live-blog-david-pocock-accuses-gambling-lobby/107007504"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/smart-glasses-in-sharp-focus-over-privacy-concerns"
+        }
+      ],
+      "publishedAt": "2026-08-07T07:12:00.000Z",
+      "sourceCount": 4,
+      "language": "vi"
+    },
     {
       "id": "yallourn-coal-power-shortages-20260807",
       "language": "vi",
@@ -143,102 +171,6 @@
             "comments": 6,
             "upvotes": 195,
             "score": 120
-          }
-        ]
-      }
-    },
-    {
-      "id": "firmus-ai-data-centres-20260807",
-      "language": "vi",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-07T03:40:28Z",
-      "headline": "Firmus nhận 2,9 tỷ đô la Úc để đẩy nhanh trung tâm dữ liệu trí tuệ nhân tạo",
-      "voiceScript": "Firmus cho biết một đợt huy động 2,9 tỷ đô la Úc sẽ giúp công ty tăng tốc kế hoạch xây dựng các trung tâm dữ liệu trí tuệ nhân tạo trên khắp Australia và khu vực châu Á - Thái Bình Dương. Công ty nói khoản vốn mới gỡ bỏ một nút thắt lớn cho quá trình mở rộng. Điều này quan trọng vì các dự án này cần lượng vốn và điện rất lớn, đồng thời đang trở thành phần then chốt của cuộc đua hạ tầng công nghệ. Bước tiếp theo là xem tiền được chuyển thành năng lực vận hành nhanh đến mức nào.",
-      "differences": [],
-      "links": [
-        {
-          "source": "AFR",
-          "url": "https://www.afr.com/technology/firmus-to-turbocharge-ai-factories-roll-out-after-giant-funding-deal-20260807-p60mc5"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/tasmania",
-            "author": "Ya-Dikobraz",
-            "title": "What are your thoughts of someone building a massive mega-data-centre for AI here in Tassie?",
-            "url": "https://www.reddit.com/r/tasmania/comments/1r7o76d/what_are_your_thoughts_of_someone_building_a/",
-            "postedAt": "2026-02-18",
-            "comments": 173,
-            "upvotes": 0,
-            "score": 380
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/tasmania",
-            "author": "undisclosedusername2",
-            "title": "Firmus Technologies says it has a contract to power Launceston AI factory",
-            "url": "https://www.reddit.com/r/tasmania/comments/1stwaeo/firmus_technologies_says_it_has_a_contract_to/",
-            "postedAt": "2026-04-23",
-            "comments": 118,
-            "upvotes": 21,
-            "score": 375
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/tasmania",
-            "author": "BreadAgreeable9632",
-            "title": "Ai Data Centre",
-            "url": "https://www.reddit.com/r/tasmania/comments/1ucquro/ai_data_centre/",
-            "postedAt": "2026-06-22",
-            "comments": 67,
-            "upvotes": 46,
-            "score": 247
-          }
-        ]
-      }
-    },
-    {
-      "id": "jon-adgemis-bankruptcy-20260806",
-      "language": "vi",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-06T08:09:20Z",
-      "headline": "Cuộc chiến phá sản của Jon Adgemis lại chậm lại vì ông không ra tòa",
-      "voiceScript": "Tranh chấp phá sản của Jon Adgemis lại bị trì hoãn khi cựu ông trùm quán rượu không xuất hiện trước tòa như dự kiến. Vụ việc gắn với một cú sụp đổ trị giá hàng tỷ và cuộc tranh chấp rộng hơn với các chủ nợ. Điều này quan trọng vì đây là một trong những vụ phá sản lớn nhất trong ngành dịch vụ lưu trú ở Australia và vẫn thu hút nhiều chú ý công chúng. Bước tiếp theo là xem sức ép của tòa có buộc ông phải giải trình rõ hơn về tài chính hay không.",
-      "differences": [],
-      "links": [
-        {
-          "source": "AFR",
-          "url": "https://www.afr.com/companies/retail/jon-adgemis-is-still-refusing-to-front-up-over-his-1-8b-bankruptcy-20260805-p60ls7"
-        }
-      ]
-    },
-    {
-      "id": "acfs-port-logistics-20260806",
-      "language": "vi",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-06T08:07:47Z",
-      "headline": "Công ty logistics cảng bị đặt vào diện quản lý thanh lý",
-      "voiceScript": "Công ty logistics container lớn này đã vào diện quản lý thanh lý, đưa một doanh nghiệp xử lý hàng hóa qua các cảng trên toàn quốc vào quy trình phá sản. Công ty phục vụ các khách hàng bán lẻ và công nghiệp lớn nên bất kỳ gián đoạn nào cũng có thể lan sang chuỗi cung ứng, việc làm và khả năng thu hồi nợ. Người quản lý sẽ xem xét tài sản, khoản nợ và các phương án bán hoặc tái cơ cấu.",
-      "differences": [],
-      "links": [
-        {
-          "source": "AFR",
-          "url": "https://www.afr.com/companies/transport/billionaire-owned-logistics-giant-acfs-collapses-into-administration-20260806-p60m2r"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "LinkedIn",
-            "author": "Eamonn Egan",
-            "title": "ATO in Dispute with Australia's Largest Port Logistics Business",
-            "url": "https://www.linkedin.com/posts/eamonn-egan_its-tough-when-the-biggest-port-logistics-activity-7488202335957970944-iU70",
-            "postedAt": "2026-07-31",
-            "comments": 1,
-            "likes": 1,
-            "score": 4
           }
         ]
       }
@@ -338,6 +270,40 @@
       }
     },
     {
+      "id": "canberra-homelessness-public-housing-20260807",
+      "headline": "Hàng chờ nhà ở tại Canberra đẩy thêm người vào cảnh vô gia cư",
+      "voiceScript": "Các dịch vụ ở thủ đô Canberra nói rằng nhiều người đang tìm đến họ hơn vì hàng chờ nhà ở công khiến họ không còn chỗ nào đủ khả năng chi trả. Tin mới cho biết có khoảng 3.600 hồ sơ đã được duyệt đang chờ, trong đó các trường hợp ưu tiên vẫn mất vài tháng và nhà ở thông thường có thể phải chờ hơn 5 năm. Vấn đề không chỉ là chỗ trú tạm, mà còn là các gia đình và người độc thân có thể giữ cuộc sống ổn định bao lâu trước khi có nhà công. Nếu nguồn cung không cải thiện, các dịch vụ địa phương sẽ tiếp tục gánh áp lực này.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/canberra-homelessness-services-rise-public-housing/107004258"
+        },
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/local-news/"
+        }
+      ],
+      "publishedAt": "2026-08-07T04:30:00.000Z",
+      "sourceCount": 2,
+      "language": "vi"
+    },
+    {
+      "id": "sydney-affordable-housing-dispute-20260807",
+      "headline": "Cam kết nhà ở giá phải chăng của một chủ đầu tư ở Sydney bị xem xét",
+      "voiceScript": "Báo cáo cho biết nhà phát triển đã cố chấm dứt sớm hai năm cam kết nhà ở giá phải chăng tại một dự án ở Sydney, với lập luận rằng thay đổi luật quy hoạch nên vượt lên thỏa thuận ban đầu. Cơ quan quản lý bang trước đó cũng đã chỉ trích bộ phận nhà ở cộng đồng của doanh nghiệp này vì thiếu công bằng và minh bạch với cư dân. Vấn đề lớn hơn là lời hứa về nhà ở giá phải chăng còn hiệu lực đến đâu khi dự án đã đi vào triển khai. Bước tiếp theo nhiều khả năng sẽ là giám sát pháp lý và quản lý chặt hơn, chứ không phải một kết luận nhanh.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/landmark-group-tried-to-end-affordable-housing-period-early/106968030"
+        }
+      ],
+      "publishedAt": "2026-08-07T04:10:00.000Z",
+      "sourceCount": 1,
+      "language": "vi"
+    },
+    {
       "id": "newcastle-climate-charges-dropped-20260807",
       "language": "vi",
       "sourceCount": 2,
@@ -434,6 +400,73 @@
             "url": "https://www.youtube.com/watch?v=x9eoC-iG648",
             "postedAt": "today",
             "score": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "jobseeker-cost-of-living-hardship-20260807",
+      "headline": "trợ cấp tìm việc vẫn khiến nhiều người Australia chật vật",
+      "voiceScript": "Bài viết về trợ cấp thu nhập cho thấy mức chi trả khoảng 68 đô la Úc mỗi ngày có thể buộc người ta bỏ bữa, giảm thuốc men và khó trả tiền thuê nhà hơn. Dữ liệu khảo sát được nêu trong bài cho biết người nhận trợ cấp tìm việc có khả năng phải xoay xở với một bữa ăn mỗi ngày hoặc ít hơn cao hơn nhiều so với dân số chung. Ý nghĩa rộng hơn là mức trợ cấp thấp đang đẩy áp lực sang các quỹ thực phẩm, hệ thống y tế và dịch vụ nhà ở. Câu hỏi chính sách vẫn là liệu mức hỗ trợ có thể tăng đủ để chặn đà trượt này hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/could-you-live-on-jobseeker-payments/106866554"
+        }
+      ],
+      "publishedAt": "2026-08-07T03:45:00.000Z",
+      "sourceCount": 1,
+      "language": "vi"
+    },
+    {
+      "id": "firmus-ai-data-centres-20260807",
+      "language": "vi",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-07T03:40:28Z",
+      "headline": "Firmus nhận 2,9 tỷ đô la Úc để đẩy nhanh trung tâm dữ liệu trí tuệ nhân tạo",
+      "voiceScript": "Firmus cho biết một đợt huy động 2,9 tỷ đô la Úc sẽ giúp công ty tăng tốc kế hoạch xây dựng các trung tâm dữ liệu trí tuệ nhân tạo trên khắp Australia và khu vực châu Á - Thái Bình Dương. Công ty nói khoản vốn mới gỡ bỏ một nút thắt lớn cho quá trình mở rộng. Điều này quan trọng vì các dự án này cần lượng vốn và điện rất lớn, đồng thời đang trở thành phần then chốt của cuộc đua hạ tầng công nghệ. Bước tiếp theo là xem tiền được chuyển thành năng lực vận hành nhanh đến mức nào.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AFR",
+          "url": "https://www.afr.com/technology/firmus-to-turbocharge-ai-factories-roll-out-after-giant-funding-deal-20260807-p60mc5"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "Reddit",
+            "community": "r/tasmania",
+            "author": "Ya-Dikobraz",
+            "title": "What are your thoughts of someone building a massive mega-data-centre for AI here in Tassie?",
+            "url": "https://www.reddit.com/r/tasmania/comments/1r7o76d/what_are_your_thoughts_of_someone_building_a/",
+            "postedAt": "2026-02-18",
+            "comments": 173,
+            "upvotes": 0,
+            "score": 380
+          },
+          {
+            "platform": "Reddit",
+            "community": "r/tasmania",
+            "author": "undisclosedusername2",
+            "title": "Firmus Technologies says it has a contract to power Launceston AI factory",
+            "url": "https://www.reddit.com/r/tasmania/comments/1stwaeo/firmus_technologies_says_it_has_a_contract_to/",
+            "postedAt": "2026-04-23",
+            "comments": 118,
+            "upvotes": 21,
+            "score": 375
+          },
+          {
+            "platform": "Reddit",
+            "community": "r/tasmania",
+            "author": "BreadAgreeable9632",
+            "title": "Ai Data Centre",
+            "url": "https://www.reddit.com/r/tasmania/comments/1ucquro/ai_data_centre/",
+            "postedAt": "2026-06-22",
+            "comments": 67,
+            "upvotes": 46,
+            "score": 247
           }
         ]
       }
@@ -821,7 +854,7 @@
     {
       "id": "adelaide-show-bird-flu-20260807",
       "language": "vi",
-      "sourceCount": 2,
+      "sourceCount": 4,
       "publishedAt": "2026-08-07T01:27:21.000Z",
       "headline": "Hội chợ Adelaide bỏ phần trưng bày gia cầm khi cúm gia cầm lan rộng",
       "voiceScript": "Khi các ca cúm gia cầm H5 tiếp tục tăng ở Nam Australia, Royal Adelaide Show đã quyết định không tổ chức khu trưng bày chim và gia cầm. Sự kiện vẫn diễn ra, nhưng ban tổ chức đang cắt bớt phần động vật để giảm nguy cơ lây lan. Điều này quan trọng vì đợt bùng phát giờ đã bắt đầu làm thay đổi cả các sự kiện công cộng chứ không chỉ công tác giám sát động vật hoang dã. Câu hỏi tiếp theo là liệu những hội chợ nông nghiệp và sự kiện gắn với nông trại khác có phải áp dụng hạn chế tương tự hay không nếu số ca còn tăng.",
@@ -836,6 +869,14 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/science/animals/bird-flu-outbreak-forces-royal-adelaide-show-to-cancel-all-poultry-events/news-story/95aa630b7d6ac7782a10f7864d56bc10"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/bird-flu-outbreak-sparks-wildlife-vaccination-debate"
         }
       ],
       "socialDiscussions": {
@@ -1530,12 +1571,16 @@
     {
       "id": "parent-visa-delays-20260806",
       "language": "vi",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-08-06T15:00:05.000Z",
       "headline": "Hàng chờ visa bảo lãnh cha mẹ ở Úc kéo dài hàng năm trời",
       "voiceScript": "Hệ thống visa bảo lãnh cha mẹ của Úc lại đang chịu áp lực sau khi các báo cáo cho thấy hơn 1.500 người đã qua đời trong lúc chờ đợi suốt 21 tháng. Visa cha mẹ diện đóng góp có giá khoảng 50.000 đô la Úc nhưng vẫn có thể mất khoảng 15 năm để xử lý, còn các diện rẻ hơn có thể lâu hơn nhiều. Vấn đề này quan trọng vì nó khiến nhiều gia đình nhập cư mắc kẹt giữa mức phí cao, hàng đợi dài và người thân ở nước ngoài ngày càng lớn tuổi. Câu hỏi tiếp theo là chính phủ có đưa visa cha mẹ vào đợt cải tổ di trú rộng hơn hay để tình trạng tồn đọng tiếp diễn.",
       "differences": [],
       "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/labor-migration-policy-tony-burke-partner-visas/107000272"
+        },
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/aug/07/australia-parent-visa-processing-applicants-die-waiting"
@@ -1925,6 +1970,50 @@
             "url": "https://www.reddit.com/r/AustralianPolitics/comments/1vdv05i/no_corruption_abbott_says_icac_a_factional_hit/",
             "postedAt": "4 days ago",
             "score": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "jon-adgemis-bankruptcy-20260806",
+      "language": "vi",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T08:09:20Z",
+      "headline": "Cuộc chiến phá sản của Jon Adgemis lại chậm lại vì ông không ra tòa",
+      "voiceScript": "Tranh chấp phá sản của Jon Adgemis lại bị trì hoãn khi cựu ông trùm quán rượu không xuất hiện trước tòa như dự kiến. Vụ việc gắn với một cú sụp đổ trị giá hàng tỷ và cuộc tranh chấp rộng hơn với các chủ nợ. Điều này quan trọng vì đây là một trong những vụ phá sản lớn nhất trong ngành dịch vụ lưu trú ở Australia và vẫn thu hút nhiều chú ý công chúng. Bước tiếp theo là xem sức ép của tòa có buộc ông phải giải trình rõ hơn về tài chính hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AFR",
+          "url": "https://www.afr.com/companies/retail/jon-adgemis-is-still-refusing-to-front-up-over-his-1-8b-bankruptcy-20260805-p60ls7"
+        }
+      ]
+    },
+    {
+      "id": "acfs-port-logistics-20260806",
+      "language": "vi",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T08:07:47Z",
+      "headline": "Công ty logistics cảng bị đặt vào diện quản lý thanh lý",
+      "voiceScript": "Công ty logistics container lớn này đã vào diện quản lý thanh lý, đưa một doanh nghiệp xử lý hàng hóa qua các cảng trên toàn quốc vào quy trình phá sản. Công ty phục vụ các khách hàng bán lẻ và công nghiệp lớn nên bất kỳ gián đoạn nào cũng có thể lan sang chuỗi cung ứng, việc làm và khả năng thu hồi nợ. Người quản lý sẽ xem xét tài sản, khoản nợ và các phương án bán hoặc tái cơ cấu.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AFR",
+          "url": "https://www.afr.com/companies/transport/billionaire-owned-logistics-giant-acfs-collapses-into-administration-20260806-p60m2r"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "LinkedIn",
+            "author": "Eamonn Egan",
+            "title": "ATO in Dispute with Australia's Largest Port Logistics Business",
+            "url": "https://www.linkedin.com/posts/eamonn-egan_its-tough-when-the-biggest-port-logistics-activity-7488202335957970944-iU70",
+            "postedAt": "2026-07-31",
+            "comments": 1,
+            "likes": 1,
+            "score": 4
           }
         ]
       }

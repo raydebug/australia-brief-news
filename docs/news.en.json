@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T07:12:42Z",
+  "updatedAt": "2026-08-07T08:12:13.419Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -101,10 +101,39 @@
     }
   ],
   "errors": [
-    "news.com.au content feed returned no parseable current-week items this run; article-page fallback was used where needed.",
-    "The Australian, Yahoo News Australia, Australian Financial Review, Sky News Australia, 9News, 7NEWS, The Sydney Morning Herald, The Age, Brisbane Times, WAtoday and The Canberra Times did not expose equally stable current-week listings in this refresh."
+    "news.com.au content feed remains unstable; article-page fallbacks were used where needed.",
+    "The Australian, Yahoo News Australia, Australian Financial Review, Sky News Australia, 9News, 7NEWS, The Sydney Morning Herald, The Age, Brisbane Times and WAtoday were checked, but their current-week listings were still inconsistent enough to require article-page fallbacks or were skipped when no stable dated item was available."
   ],
   "clusters": [
+    {
+      "id": "smart-glasses-privacy-rules-20260807",
+      "headline": "Australia moves to tighten smart-glasses privacy oversight",
+      "voiceScript": "The federal attorney-general has asked the privacy commissioner to look at smart glasses after growing concern about discreet recording and surveillance. Regulators say the devices can capture people without them realising it, and the warning is strongest around women, children and other vulnerable groups. The immediate question is whether Australia can update the law before wearable cameras and face-analysis tools become more common. The next step is a test of whether existing privacy rules are enough, or whether they now need a faster rewrite.",
+      "differences": [
+        "Some coverage focuses on the regulatory review, while other reporting centres on public backlash around cheaper smart-glasses sales."
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/australias-privacy-tsar-warns-new-laws-may-be-needed-for-smart-glasses/news-story/c87c95ea302dc699a94f0196f07a26fd"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/federal-politics-live-blog-david-pocock-accuses-gambling-lobby/107007504"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/smart-glasses-in-sharp-focus-over-privacy-concerns"
+        }
+      ],
+      "publishedAt": "2026-08-07T07:12:00.000Z",
+      "sourceCount": 4,
+      "language": "en"
+    },
     {
       "id": "yallourn-coal-power-shortages-20260807",
       "language": "en",
@@ -142,102 +171,6 @@
             "comments": 6,
             "upvotes": 195,
             "score": 120
-          }
-        ]
-      }
-    },
-    {
-      "id": "firmus-ai-data-centres-20260807",
-      "language": "en",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-07T03:40:28Z",
-      "headline": "Firmus gets $2.9b to speed up AI data-centre rollout",
-      "voiceScript": "Firmus says a $2.9 billion capital raising will let it move faster on its plan to build AI data centres across Australia and the Asia-Pacific. The company says the funding lifts a major constraint on its rollout. It matters because these projects need huge amounts of capital and power, and they are becoming a key part of the country's tech infrastructure race. The next test is how quickly the company can turn the money into operating capacity.",
-      "differences": [],
-      "links": [
-        {
-          "source": "AFR",
-          "url": "https://www.afr.com/technology/firmus-to-turbocharge-ai-factories-roll-out-after-giant-funding-deal-20260807-p60mc5"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/tasmania",
-            "author": "Ya-Dikobraz",
-            "title": "What are your thoughts of someone building a massive mega-data-centre for AI here in Tassie?",
-            "url": "https://www.reddit.com/r/tasmania/comments/1r7o76d/what_are_your_thoughts_of_someone_building_a/",
-            "postedAt": "2026-02-18",
-            "comments": 173,
-            "upvotes": 0,
-            "score": 380
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/tasmania",
-            "author": "undisclosedusername2",
-            "title": "Firmus Technologies says it has a contract to power Launceston AI factory",
-            "url": "https://www.reddit.com/r/tasmania/comments/1stwaeo/firmus_technologies_says_it_has_a_contract_to/",
-            "postedAt": "2026-04-23",
-            "comments": 118,
-            "upvotes": 21,
-            "score": 375
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/tasmania",
-            "author": "BreadAgreeable9632",
-            "title": "Ai Data Centre",
-            "url": "https://www.reddit.com/r/tasmania/comments/1ucquro/ai_data_centre/",
-            "postedAt": "2026-06-22",
-            "comments": 67,
-            "upvotes": 46,
-            "score": 247
-          }
-        ]
-      }
-    },
-    {
-      "id": "jon-adgemis-bankruptcy-20260806",
-      "language": "en",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-06T08:09:20Z",
-      "headline": "Jon Adgemis' bankruptcy fight stalls as he stays away from court",
-      "voiceScript": "Jon Adgemis' bankruptcy dispute has again been delayed, with the former pub baron not fronting court when expected. The case is tied to a collapse measured in the billions and a wider fight with creditors. It matters because it is one of the biggest hospitality insolvencies in the country and keeps drawing in public scrutiny. The next step is whether court pressure forces clearer answers on his finances.",
-      "differences": [],
-      "links": [
-        {
-          "source": "AFR",
-          "url": "https://www.afr.com/companies/retail/jon-adgemis-is-still-refusing-to-front-up-over-his-1-8b-bankruptcy-20260805-p60ls7"
-        }
-      ]
-    },
-    {
-      "id": "acfs-port-logistics-20260806",
-      "language": "en",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-06T08:07:47Z",
-      "headline": "ACFS Port Logistics is pushed into administration",
-      "voiceScript": "ACFS Port Logistics has entered administration, putting a major container logistics operator under insolvency control. The company handles freight through ports across the country and serves large retail and industrial customers. It matters because any disruption can flow into supply chains, worker jobs and creditor recoveries. The administrator will now assess assets, debts and options for a sale or restructuring.",
-      "differences": [],
-      "links": [
-        {
-          "source": "AFR",
-          "url": "https://www.afr.com/companies/transport/billionaire-owned-logistics-giant-acfs-collapses-into-administration-20260806-p60m2r"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "LinkedIn",
-            "author": "Eamonn Egan",
-            "title": "ATO in Dispute with Australia's Largest Port Logistics Business",
-            "url": "https://www.linkedin.com/posts/eamonn-egan_its-tough-when-the-biggest-port-logistics-activity-7488202335957970944-iU70",
-            "postedAt": "2026-07-31",
-            "comments": 1,
-            "likes": 1,
-            "score": 4
           }
         ]
       }
@@ -337,6 +270,40 @@
       }
     },
     {
+      "id": "canberra-homelessness-public-housing-20260807",
+      "headline": "Canberra's housing wait pushes more people into homelessness",
+      "voiceScript": "ACT services say more people are seeking help because the city’s public-housing queue leaves them with nowhere affordable to go. Recent reporting says there are about 3,600 approved applicants waiting, with priority cases still taking months and standard housing stretching beyond five years. The issue is not just emergency shelter; it is how long families and single people can stay stable before a public home becomes available. If the supply does not move, local services keep absorbing the pressure.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/canberra-homelessness-services-rise-public-housing/107004258"
+        },
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/local-news/"
+        }
+      ],
+      "publishedAt": "2026-08-07T04:30:00.000Z",
+      "sourceCount": 2,
+      "language": "en"
+    },
+    {
+      "id": "sydney-affordable-housing-dispute-20260807",
+      "headline": "Sydney developer dispute tests affordable housing promises",
+      "voiceScript": "An ABC report says Landmark Group tried to end an affordable-housing commitment at a Sydney project two years early, arguing that planning-law changes should have overridden the original deal. The state regulator had already criticised the developer’s community-housing arm over fairness and transparency with residents. The bigger issue is how much weight affordable-housing promises really carry once a project is underway. The likely next step is more regulatory and legal scrutiny, not a quick resolution.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/landmark-group-tried-to-end-affordable-housing-period-early/106968030"
+        }
+      ],
+      "publishedAt": "2026-08-07T04:10:00.000Z",
+      "sourceCount": 1,
+      "language": "en"
+    },
+    {
       "id": "newcastle-climate-charges-dropped-20260807",
       "language": "en",
       "sourceCount": 2,
@@ -433,6 +400,73 @@
             "url": "https://www.youtube.com/watch?v=x9eoC-iG648",
             "postedAt": "today",
             "score": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "jobseeker-cost-of-living-hardship-20260807",
+      "headline": "JobSeeker still leaves many Australians under pressure",
+      "voiceScript": "Reporting on income support shows how a payment of about $68 a day can force people to skip meals, cut medicine and make rent harder to cover. Survey data cited in the story says people on JobSeeker are far more likely than the wider population to get by on one meal a day or less. The broader significance is that weak payment levels push stress onto food banks, health care and housing services. The policy question remains whether support rates can rise enough to stop that slide.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/could-you-live-on-jobseeker-payments/106866554"
+        }
+      ],
+      "publishedAt": "2026-08-07T03:45:00.000Z",
+      "sourceCount": 1,
+      "language": "en"
+    },
+    {
+      "id": "firmus-ai-data-centres-20260807",
+      "language": "en",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-07T03:40:28Z",
+      "headline": "Firmus gets $2.9b to speed up AI data-centre rollout",
+      "voiceScript": "Firmus says a $2.9 billion capital raising will let it move faster on its plan to build AI data centres across Australia and the Asia-Pacific. The company says the funding lifts a major constraint on its rollout. It matters because these projects need huge amounts of capital and power, and they are becoming a key part of the country's tech infrastructure race. The next test is how quickly the company can turn the money into operating capacity.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AFR",
+          "url": "https://www.afr.com/technology/firmus-to-turbocharge-ai-factories-roll-out-after-giant-funding-deal-20260807-p60mc5"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "Reddit",
+            "community": "r/tasmania",
+            "author": "Ya-Dikobraz",
+            "title": "What are your thoughts of someone building a massive mega-data-centre for AI here in Tassie?",
+            "url": "https://www.reddit.com/r/tasmania/comments/1r7o76d/what_are_your_thoughts_of_someone_building_a/",
+            "postedAt": "2026-02-18",
+            "comments": 173,
+            "upvotes": 0,
+            "score": 380
+          },
+          {
+            "platform": "Reddit",
+            "community": "r/tasmania",
+            "author": "undisclosedusername2",
+            "title": "Firmus Technologies says it has a contract to power Launceston AI factory",
+            "url": "https://www.reddit.com/r/tasmania/comments/1stwaeo/firmus_technologies_says_it_has_a_contract_to/",
+            "postedAt": "2026-04-23",
+            "comments": 118,
+            "upvotes": 21,
+            "score": 375
+          },
+          {
+            "platform": "Reddit",
+            "community": "r/tasmania",
+            "author": "BreadAgreeable9632",
+            "title": "Ai Data Centre",
+            "url": "https://www.reddit.com/r/tasmania/comments/1ucquro/ai_data_centre/",
+            "postedAt": "2026-06-22",
+            "comments": 67,
+            "upvotes": 46,
+            "score": 247
           }
         ]
       }
@@ -820,7 +854,7 @@
     {
       "id": "adelaide-show-bird-flu-20260807",
       "language": "en",
-      "sourceCount": 2,
+      "sourceCount": 4,
       "publishedAt": "2026-08-07T01:27:21.000Z",
       "headline": "Adelaide's Royal Show drops poultry exhibits as bird flu cases climb",
       "voiceScript": "The Royal Adelaide Show will not run its bird and poultry exhibits after H5 bird flu cases kept rising in South Australia. Organisers are trimming the animal displays to reduce the chance of spreading infection while the event still goes ahead. That matters because the outbreak is now changing public events as well as wildlife monitoring. The next question is whether more agricultural shows and farm-linked events will face similar restrictions if cases keep climbing.",
@@ -835,6 +869,14 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/science/animals/bird-flu-outbreak-forces-royal-adelaide-show-to-cancel-all-poultry-events/news-story/95aa630b7d6ac7782a10f7864d56bc10"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/bird-flu-outbreak-sparks-wildlife-vaccination-debate"
         }
       ],
       "socialDiscussions": {
@@ -1529,12 +1571,16 @@
     {
       "id": "parent-visa-delays-20260806",
       "language": "en",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-08-06T15:00:05.000Z",
       "headline": "Australia's parent visa delays keep families waiting for years",
       "voiceScript": "Australia's parent visa system is under renewed pressure after reporting showed more than 1,500 applicants died during a 21-month stretch while waiting. The contributory parent visa costs about $50,000 and can still take around 15 years, while cheaper parent visas can take far longer. The issue matters because it leaves migrant families stuck between high fees, long queues and ageing relatives overseas. The next question is whether the government folds parent visas into its wider migration changes or leaves the backlog untouched.",
       "differences": [],
       "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/labor-migration-policy-tony-burke-partner-visas/107000272"
+        },
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/aug/07/australia-parent-visa-processing-applicants-die-waiting"
@@ -1928,6 +1974,50 @@
             "url": "https://www.reddit.com/r/AustralianPolitics/comments/1vdv05i/no_corruption_abbott_says_icac_a_factional_hit/",
             "postedAt": "4 days ago",
             "score": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "jon-adgemis-bankruptcy-20260806",
+      "language": "en",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T08:09:20Z",
+      "headline": "Jon Adgemis' bankruptcy fight stalls as he stays away from court",
+      "voiceScript": "Jon Adgemis' bankruptcy dispute has again been delayed, with the former pub baron not fronting court when expected. The case is tied to a collapse measured in the billions and a wider fight with creditors. It matters because it is one of the biggest hospitality insolvencies in the country and keeps drawing in public scrutiny. The next step is whether court pressure forces clearer answers on his finances.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AFR",
+          "url": "https://www.afr.com/companies/retail/jon-adgemis-is-still-refusing-to-front-up-over-his-1-8b-bankruptcy-20260805-p60ls7"
+        }
+      ]
+    },
+    {
+      "id": "acfs-port-logistics-20260806",
+      "language": "en",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T08:07:47Z",
+      "headline": "ACFS Port Logistics is pushed into administration",
+      "voiceScript": "ACFS Port Logistics has entered administration, putting a major container logistics operator under insolvency control. The company handles freight through ports across the country and serves large retail and industrial customers. It matters because any disruption can flow into supply chains, worker jobs and creditor recoveries. The administrator will now assess assets, debts and options for a sale or restructuring.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AFR",
+          "url": "https://www.afr.com/companies/transport/billionaire-owned-logistics-giant-acfs-collapses-into-administration-20260806-p60m2r"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "LinkedIn",
+            "author": "Eamonn Egan",
+            "title": "ATO in Dispute with Australia's Largest Port Logistics Business",
+            "url": "https://www.linkedin.com/posts/eamonn-egan_its-tough-when-the-biggest-port-logistics-activity-7488202335957970944-iU70",
+            "postedAt": "2026-07-31",
+            "comments": 1,
+            "likes": 1,
+            "score": 4
           }
         ]
       }

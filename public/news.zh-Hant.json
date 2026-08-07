@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T07:12:42Z",
+  "updatedAt": "2026-08-07T08:12:13.419Z",
   "generatedBy": "codex",
   "language": "zh-Hant",
   "sources": [
@@ -101,11 +101,39 @@
     }
   ],
   "errors": [
-    "news.com.au content feed returned no extractable current-week items this run.",
-    "AFR, AAP and Sky News Australia required page-level fallbacks because stable current-week RSS listings were not available.",
-    "The Australian, Yahoo News Australia, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday and The Canberra Times did not expose reliable current-week listings for this run."
+    "news.com.au content feed remains unstable; article-page fallbacks were used where needed.",
+    "The Australian, Yahoo News Australia, Australian Financial Review, Sky News Australia, 9News, 7NEWS, The Sydney Morning Herald, The Age, Brisbane Times and WAtoday were checked, but their current-week listings were still inconsistent enough to require article-page fallbacks or were skipped when no stable dated item was available."
   ],
   "clusters": [
+    {
+      "id": "smart-glasses-privacy-rules-20260807",
+      "headline": "澳洲開始收緊智慧眼鏡隱私監管",
+      "voiceScript": "聯邦總檢察長已要求隱私專員檢視智慧眼鏡帶來的風險，因為這類裝置可能在旁人不易察覺的情況下錄影。監管機關擔心，女性、兒童與其他弱勢群體更容易遭遇偷錄、騷擾與監視。當前的核心問題，是現有隱私規則能否跟上可穿戴攝影與人臉分析工具的普及。接下來要看的是，法律是否需要更快修正，才能趕在這類裝置更普遍之前補上缺口。",
+      "differences": [
+        "部分報導聚焦監管審查，另一些則強調廉價智慧眼鏡引發的民眾反彈。"
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/australias-privacy-tsar-warns-new-laws-may-be-needed-for-smart-glasses/news-story/c87c95ea302dc699a94f0196f07a26fd"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/federal-politics-live-blog-david-pocock-accuses-gambling-lobby/107007504"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/smart-glasses-in-sharp-focus-over-privacy-concerns"
+        }
+      ],
+      "publishedAt": "2026-08-07T07:12:00.000Z",
+      "sourceCount": 4,
+      "language": "zh-Hant"
+    },
     {
       "id": "yallourn-coal-power-shortages-20260807",
       "language": "zh-Hant",
@@ -143,102 +171,6 @@
             "comments": 6,
             "upvotes": 195,
             "score": 120
-          }
-        ]
-      }
-    },
-    {
-      "id": "firmus-ai-data-centres-20260807",
-      "language": "zh-Hant",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-07T03:40:28Z",
-      "headline": "資料中心公司獲29億澳元融資，加快人工智慧資料中心擴張",
-      "voiceScript": "這家資料中心公司表示，29億澳元融資將讓它更快推進在澳大利亞和亞太地區建設人工智慧資料中心的計畫。公司認為，這筆資金讓擴張所面臨的主要瓶頸大為緩解。此事重要，因為這類專案需要龐大資本與電力，也正成為澳洲科技基礎設施競賽的一部分。下一步要看資金能多快轉化為實際產能。",
-      "differences": [],
-      "links": [
-        {
-          "source": "AFR",
-          "url": "https://www.afr.com/technology/firmus-to-turbocharge-ai-factories-roll-out-after-giant-funding-deal-20260807-p60mc5"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/tasmania",
-            "author": "Ya-Dikobraz",
-            "title": "What are your thoughts of someone building a massive mega-data-centre for AI here in Tassie?",
-            "url": "https://www.reddit.com/r/tasmania/comments/1r7o76d/what_are_your_thoughts_of_someone_building_a/",
-            "postedAt": "2026-02-18",
-            "comments": 173,
-            "upvotes": 0,
-            "score": 380
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/tasmania",
-            "author": "undisclosedusername2",
-            "title": "Firmus Technologies says it has a contract to power Launceston AI factory",
-            "url": "https://www.reddit.com/r/tasmania/comments/1stwaeo/firmus_technologies_says_it_has_a_contract_to/",
-            "postedAt": "2026-04-23",
-            "comments": 118,
-            "upvotes": 21,
-            "score": 375
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/tasmania",
-            "author": "BreadAgreeable9632",
-            "title": "Ai Data Centre",
-            "url": "https://www.reddit.com/r/tasmania/comments/1ucquro/ai_data_centre/",
-            "postedAt": "2026-06-22",
-            "comments": 67,
-            "upvotes": 46,
-            "score": 247
-          }
-        ]
-      }
-    },
-    {
-      "id": "jon-adgemis-bankruptcy-20260806",
-      "language": "zh-Hant",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-06T08:09:20Z",
-      "headline": "喬恩·阿德傑米斯的破產爭議因未出庭再度停滯",
-      "voiceScript": "喬恩·阿德傑米斯的破產爭議再次延後，這位前酒吧業商人原本應該出庭，卻沒有如期現身。該案牽涉數十億澳元級別的崩盤，也牽連更廣泛的債權人爭議。此事重要，因為它是澳洲最大型的餐飲住宿業破產案之一，持續受到公眾關注。下一步要看法院壓力能否迫使他更清楚交代財務狀況。",
-      "differences": [],
-      "links": [
-        {
-          "source": "AFR",
-          "url": "https://www.afr.com/companies/retail/jon-adgemis-is-still-refusing-to-front-up-over-his-1-8b-bankruptcy-20260805-p60ls7"
-        }
-      ]
-    },
-    {
-      "id": "acfs-port-logistics-20260806",
-      "language": "zh-Hant",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-06T08:07:47Z",
-      "headline": "港口物流公司被推入托管管理",
-      "voiceScript": "這家港口物流公司已進入托管管理，受到破產程序接管。公司在全國各港口處理貨運，服務大型零售和工業客戶。此事重要，因為一旦運作受擾，供應鏈、員工職位和債權回收都會受到影響。接下來由管理人評估資產、債務，以及出售或重組的可能性。",
-      "differences": [],
-      "links": [
-        {
-          "source": "AFR",
-          "url": "https://www.afr.com/companies/transport/billionaire-owned-logistics-giant-acfs-collapses-into-administration-20260806-p60m2r"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "LinkedIn",
-            "author": "Eamonn Egan",
-            "title": "ATO in Dispute with Australia's Largest Port Logistics Business",
-            "url": "https://www.linkedin.com/posts/eamonn-egan_its-tough-when-the-biggest-port-logistics-activity-7488202335957970944-iU70",
-            "postedAt": "2026-07-31",
-            "comments": 1,
-            "likes": 1,
-            "score": 4
           }
         ]
       }
@@ -338,6 +270,40 @@
       }
     },
     {
+      "id": "canberra-homelessness-public-housing-20260807",
+      "headline": "坎培拉住房等候讓更多人陷入無家可歸",
+      "voiceScript": "ACT 的服務機構表示，越來越多人求助，是因為公共住房排隊讓他們找不到負擔得起的住處。最新報導指出，已有約 3,600 名核准申請者在等候，優先個案仍要等數月，普通住房的等待時間甚至超過五年。問題不只是臨時收容，而是家庭與單身人士在等到公屋之前能否維持穩定。只要供給沒有改善，在地服務就會繼續承受這股壓力。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/canberra-homelessness-services-rise-public-housing/107004258"
+        },
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/local-news/"
+        }
+      ],
+      "publishedAt": "2026-08-07T04:30:00.000Z",
+      "sourceCount": 2,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "sydney-affordable-housing-dispute-20260807",
+      "headline": "雪梨開發商的可負擔住房承諾受檢視",
+      "voiceScript": "ABC 報導指出，Landmark Group 試圖提前兩年結束雪梨某項目的可負擔住房承諾，並主張規劃法變動應取代原本協議。州監管機構先前已批評該開發商的社會住宅部門在對待住戶時缺乏公平與透明。更大的問題在於，一旦工程推進，這類承諾到底還有多少約束力。接下來更可能出現的是監管與法律審查，而不是很快有結果。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/landmark-group-tried-to-end-affordable-housing-period-early/106968030"
+        }
+      ],
+      "publishedAt": "2026-08-07T04:10:00.000Z",
+      "sourceCount": 1,
+      "language": "zh-Hant"
+    },
+    {
       "id": "newcastle-climate-charges-dropped-20260807",
       "language": "zh-Hant",
       "sourceCount": 2,
@@ -434,6 +400,73 @@
             "url": "https://www.youtube.com/watch?v=x9eoC-iG648",
             "postedAt": "today",
             "score": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "jobseeker-cost-of-living-hardship-20260807",
+      "headline": "JobSeeker 仍讓許多澳洲人承受壓力",
+      "voiceScript": "關於收入支持的報導顯示，每天大約 68 澳元的補助會迫使一些人省掉正餐、減少用藥，也讓房租更難負擔。報導引用的調查數據指出，領取 JobSeeker 的人比一般人更可能一天只吃一餐，甚至更少。更廣泛的意義在於，過低的補助水準會把壓力轉嫁到食物救濟、醫療與住房服務上。政策問題仍然是，補助能否提高到足以阻止這種下滑。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/could-you-live-on-jobseeker-payments/106866554"
+        }
+      ],
+      "publishedAt": "2026-08-07T03:45:00.000Z",
+      "sourceCount": 1,
+      "language": "zh-Hant"
+    },
+    {
+      "id": "firmus-ai-data-centres-20260807",
+      "language": "zh-Hant",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-07T03:40:28Z",
+      "headline": "資料中心公司獲29億澳元融資，加快人工智慧資料中心擴張",
+      "voiceScript": "這家資料中心公司表示，29億澳元融資將讓它更快推進在澳大利亞和亞太地區建設人工智慧資料中心的計畫。公司認為，這筆資金讓擴張所面臨的主要瓶頸大為緩解。此事重要，因為這類專案需要龐大資本與電力，也正成為澳洲科技基礎設施競賽的一部分。下一步要看資金能多快轉化為實際產能。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AFR",
+          "url": "https://www.afr.com/technology/firmus-to-turbocharge-ai-factories-roll-out-after-giant-funding-deal-20260807-p60mc5"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "Reddit",
+            "community": "r/tasmania",
+            "author": "Ya-Dikobraz",
+            "title": "What are your thoughts of someone building a massive mega-data-centre for AI here in Tassie?",
+            "url": "https://www.reddit.com/r/tasmania/comments/1r7o76d/what_are_your_thoughts_of_someone_building_a/",
+            "postedAt": "2026-02-18",
+            "comments": 173,
+            "upvotes": 0,
+            "score": 380
+          },
+          {
+            "platform": "Reddit",
+            "community": "r/tasmania",
+            "author": "undisclosedusername2",
+            "title": "Firmus Technologies says it has a contract to power Launceston AI factory",
+            "url": "https://www.reddit.com/r/tasmania/comments/1stwaeo/firmus_technologies_says_it_has_a_contract_to/",
+            "postedAt": "2026-04-23",
+            "comments": 118,
+            "upvotes": 21,
+            "score": 375
+          },
+          {
+            "platform": "Reddit",
+            "community": "r/tasmania",
+            "author": "BreadAgreeable9632",
+            "title": "Ai Data Centre",
+            "url": "https://www.reddit.com/r/tasmania/comments/1ucquro/ai_data_centre/",
+            "postedAt": "2026-06-22",
+            "comments": 67,
+            "upvotes": 46,
+            "score": 247
           }
         ]
       }
@@ -821,7 +854,7 @@
     {
       "id": "adelaide-show-bird-flu-20260807",
       "language": "zh-Hant",
-      "sourceCount": 2,
+      "sourceCount": 4,
       "publishedAt": "2026-08-07T01:27:21.000Z",
       "headline": "阿德萊德皇家展會因禽流感升溫取消禽鳥展區",
       "voiceScript": "南澳大利亞州的 H5 禽流感病例持續上升後，阿德萊德皇家展會將不再舉辦鳥類和家禽展區。主辦方是在活動仍將照常舉行的前提下，縮減動物展示，以降低傳播風險。這件事重要，因為疫情已經開始改變公眾活動，而不只是野生動物監測。接下來要看的是，如果病例繼續增加，更多農業展會和與農場相關的活動是否也會受到同樣限制。",
@@ -836,6 +869,14 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/science/animals/bird-flu-outbreak-forces-royal-adelaide-show-to-cancel-all-poultry-events/news-story/95aa630b7d6ac7782a10f7864d56bc10"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/bird-flu-outbreak-sparks-wildlife-vaccination-debate"
         }
       ],
       "socialDiscussions": {
@@ -1530,12 +1571,16 @@
     {
       "id": "parent-visa-delays-20260806",
       "language": "zh-Hant",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-08-06T15:00:05.000Z",
       "headline": "澳洲父母簽證積壓多年，家庭被迫長期等待",
       "voiceScript": "澳洲父母簽證制度再次承受壓力。最新報導顯示，在長達21個月的等待期間，超過1500名申請人在簽證核准前離世。貢獻型父母簽證費用約5萬澳元，即使如此也可能要等上約15年；較便宜的父母簽證則可能拖得更久。這件事重要在於，它讓移民家庭被高額費用、漫長隊列，以及海外逐漸年邁的家人困住。接下來要看政府是否會把父母簽證納入更廣泛的移民調整，還是讓積壓問題維持現狀。",
       "differences": [],
       "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/labor-migration-policy-tony-burke-partner-visas/107000272"
+        },
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/aug/07/australia-parent-visa-processing-applicants-die-waiting"
@@ -1925,6 +1970,50 @@
             "url": "https://www.reddit.com/r/AustralianPolitics/comments/1vdv05i/no_corruption_abbott_says_icac_a_factional_hit/",
             "postedAt": "4 days ago",
             "score": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "jon-adgemis-bankruptcy-20260806",
+      "language": "zh-Hant",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T08:09:20Z",
+      "headline": "喬恩·阿德傑米斯的破產爭議因未出庭再度停滯",
+      "voiceScript": "喬恩·阿德傑米斯的破產爭議再次延後，這位前酒吧業商人原本應該出庭，卻沒有如期現身。該案牽涉數十億澳元級別的崩盤，也牽連更廣泛的債權人爭議。此事重要，因為它是澳洲最大型的餐飲住宿業破產案之一，持續受到公眾關注。下一步要看法院壓力能否迫使他更清楚交代財務狀況。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AFR",
+          "url": "https://www.afr.com/companies/retail/jon-adgemis-is-still-refusing-to-front-up-over-his-1-8b-bankruptcy-20260805-p60ls7"
+        }
+      ]
+    },
+    {
+      "id": "acfs-port-logistics-20260806",
+      "language": "zh-Hant",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T08:07:47Z",
+      "headline": "港口物流公司被推入托管管理",
+      "voiceScript": "這家港口物流公司已進入托管管理，受到破產程序接管。公司在全國各港口處理貨運，服務大型零售和工業客戶。此事重要，因為一旦運作受擾，供應鏈、員工職位和債權回收都會受到影響。接下來由管理人評估資產、債務，以及出售或重組的可能性。",
+      "differences": [],
+      "links": [
+        {
+          "source": "AFR",
+          "url": "https://www.afr.com/companies/transport/billionaire-owned-logistics-giant-acfs-collapses-into-administration-20260806-p60m2r"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "LinkedIn",
+            "author": "Eamonn Egan",
+            "title": "ATO in Dispute with Australia's Largest Port Logistics Business",
+            "url": "https://www.linkedin.com/posts/eamonn-egan_its-tough-when-the-biggest-port-logistics-activity-7488202335957970944-iU70",
+            "postedAt": "2026-07-31",
+            "comments": 1,
+            "likes": 1,
+            "score": 4
           }
         ]
       }

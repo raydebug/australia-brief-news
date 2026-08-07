@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T07:12:42Z",
+  "updatedAt": "2026-08-07T08:12:13.419Z",
   "generatedBy": "codex",
   "language": "th",
   "sources": [
@@ -101,11 +101,39 @@
     }
   ],
   "errors": [
-    "news.com.au content feed returned no extractable current-week items this run.",
-    "AFR, AAP and Sky News Australia required page-level fallbacks because stable current-week RSS listings were not available.",
-    "The Australian, Yahoo News Australia, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday and The Canberra Times did not expose reliable current-week listings for this run."
+    "news.com.au content feed remains unstable; article-page fallbacks were used where needed.",
+    "The Australian, Yahoo News Australia, Australian Financial Review, Sky News Australia, 9News, 7NEWS, The Sydney Morning Herald, The Age, Brisbane Times and WAtoday were checked, but their current-week listings were still inconsistent enough to require article-page fallbacks or were skipped when no stable dated item was available."
   ],
   "clusters": [
+    {
+      "id": "smart-glasses-privacy-rules-20260807",
+      "headline": "ออสเตรเลียเดินหน้าคุมเข้มการกำกับความเป็นส่วนตัวของสมาร์ตกลาส",
+      "voiceScript": "รัฐบาลกลางได้ขอให้ผู้กำกับดูแลความเป็นส่วนตัวตรวจสอบสมาร์ตกลาส หลังความกังวลเรื่องการบันทึกภาพและการเฝ้าดูแบบแนบเนียนเพิ่มขึ้นมากขึ้นเรื่อย ๆ หน่วยงานกำกับบอกว่าอุปกรณ์เหล่านี้อาจเก็บภาพคนอื่นได้โดยที่พวกเขาไม่รู้ตัว โดยเฉพาะผู้หญิง เด็ก และกลุ่มเปราะบาง จุดสำคัญตอนนี้คือกฎหมายปัจจุบันยังตามเทคโนโลยีแว่นถ่ายภาพและการวิเคราะห์ใบหน้าได้ทันหรือไม่ ขั้นต่อไปคือดูว่าออสเตรเลียต้องปรับกฎหมายให้เร็วขึ้นก่อนอุปกรณ์เหล่านี้จะกลายเป็นของใช้ทั่วไปหรือไม่",
+      "differences": [
+        "บางสำนักเน้นการทบทวนกฎระเบียบ ขณะที่อีกบางสำนักเน้นกระแสต่อต้านสมาร์ตกลาสราคาถูกจากสาธารณชน"
+      ],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/australias-privacy-tsar-warns-new-laws-may-be-needed-for-smart-glasses/news-story/c87c95ea302dc699a94f0196f07a26fd"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/federal-politics-live-blog-david-pocock-accuses-gambling-lobby/107007504"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/smart-glasses-in-sharp-focus-over-privacy-concerns"
+        }
+      ],
+      "publishedAt": "2026-08-07T07:12:00.000Z",
+      "sourceCount": 4,
+      "language": "th"
+    },
     {
       "id": "yallourn-coal-power-shortages-20260807",
       "language": "th",
@@ -143,102 +171,6 @@
             "comments": 6,
             "upvotes": 195,
             "score": 120
-          }
-        ]
-      }
-    },
-    {
-      "id": "firmus-ai-data-centres-20260807",
-      "language": "th",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-07T03:40:28Z",
-      "headline": "บริษัทศูนย์ข้อมูลปัญญาประดิษฐ์ระดมทุนเร่งขยาย",
-      "voiceScript": "บริษัทนี้ระบุว่าการระดมทุน 2.9 พันล้านดอลลาร์ออสเตรเลียจะช่วยให้บริษัทเดินหน้าแผนสร้างศูนย์ข้อมูลปัญญาประดิษฐ์ทั่วออสเตรเลียและภูมิภาคเอเชีย-แปซิฟิกได้เร็วขึ้น บริษัทบอกว่าทุนก้อนนี้ช่วยคลายคอขวดสำคัญของการขยายตัว เรื่องนี้สำคัญเพราะโครงการลักษณะนี้ต้องใช้เงินลงทุนและไฟฟ้าจำนวนมาก และกำลังกลายเป็นส่วนสำคัญของการแข่งขันโครงสร้างพื้นฐานด้านเทคโนโลยี ขั้นต่อไปคือดูว่าเงินจะถูกแปลงเป็นกำลังการใช้งานจริงได้เร็วแค่ไหน.",
-      "differences": [],
-      "links": [
-        {
-          "source": "AFR",
-          "url": "https://www.afr.com/technology/firmus-to-turbocharge-ai-factories-roll-out-after-giant-funding-deal-20260807-p60mc5"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/tasmania",
-            "author": "Ya-Dikobraz",
-            "title": "What are your thoughts of someone building a massive mega-data-centre for AI here in Tassie?",
-            "url": "https://www.reddit.com/r/tasmania/comments/1r7o76d/what_are_your_thoughts_of_someone_building_a/",
-            "postedAt": "2026-02-18",
-            "comments": 173,
-            "upvotes": 0,
-            "score": 380
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/tasmania",
-            "author": "undisclosedusername2",
-            "title": "Firmus Technologies says it has a contract to power Launceston AI factory",
-            "url": "https://www.reddit.com/r/tasmania/comments/1stwaeo/firmus_technologies_says_it_has_a_contract_to/",
-            "postedAt": "2026-04-23",
-            "comments": 118,
-            "upvotes": 21,
-            "score": 375
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/tasmania",
-            "author": "BreadAgreeable9632",
-            "title": "Ai Data Centre",
-            "url": "https://www.reddit.com/r/tasmania/comments/1ucquro/ai_data_centre/",
-            "postedAt": "2026-06-22",
-            "comments": 67,
-            "upvotes": 46,
-            "score": 247
-          }
-        ]
-      }
-    },
-    {
-      "id": "jon-adgemis-bankruptcy-20260806",
-      "language": "th",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-06T08:09:20Z",
-      "headline": "คดีล้มละลายของจอน แอดเจมิสชะงักอีกครั้งหลังไม่ไปศาล",
-      "voiceScript": "ข้อพิพาทล้มละลายของจอน แอดเจมิสถูกเลื่อนออกไปอีกครั้ง หลังอดีตเจ้าของผับรายนี้ไม่ไปขึ้นศาลตามที่คาดไว้ คดีนี้เชื่อมโยงกับการล้มครั้งใหญ่ระดับหลายพันล้านและข้อพิพาทกับเจ้าหนี้ในวงกว้าง เรื่องนี้สำคัญเพราะเป็นหนึ่งในคดีล้มละลายภาคบริการต้อนรับที่ใหญ่ที่สุดของประเทศ และยังถูกจับตามองอย่างใกล้ชิด ขั้นต่อไปคือดูว่าแรงกดดันจากศาลจะทำให้เขาอธิบายเรื่องการเงินได้ชัดเจนขึ้นหรือไม่",
-      "differences": [],
-      "links": [
-        {
-          "source": "AFR",
-          "url": "https://www.afr.com/companies/retail/jon-adgemis-is-still-refusing-to-front-up-over-his-1-8b-bankruptcy-20260805-p60ls7"
-        }
-      ]
-    },
-    {
-      "id": "acfs-port-logistics-20260806",
-      "language": "th",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-06T08:07:47Z",
-      "headline": "บริษัทโลจิสติกส์ท่าเรือเข้าสู่กระบวนการบริหารจัดการทรัพย์สิน",
-      "voiceScript": "บริษัทโลจิสติกส์ตู้คอนเทนเนอร์รายใหญ่ที่ขนส่งสินค้าผ่านท่าเรือทั่วประเทศถูกนำเข้าสู่กระบวนการบริหารจัดการทรัพย์สินแล้ว บริษัทให้บริการลูกค้ารายใหญ่ทั้งค้าปลีกและอุตสาหกรรม จึงอาจกระทบต่อห่วงโซ่อุปทาน งานของลูกจ้าง และการเรียกคืนหนี้ ผู้จัดการจะประเมินทรัพย์สิน หนี้สิน และทางเลือกในการขายหรือปรับโครงสร้างต่อไป.",
-      "differences": [],
-      "links": [
-        {
-          "source": "AFR",
-          "url": "https://www.afr.com/companies/transport/billionaire-owned-logistics-giant-acfs-collapses-into-administration-20260806-p60m2r"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "LinkedIn",
-            "author": "Eamonn Egan",
-            "title": "ATO in Dispute with Australia's Largest Port Logistics Business",
-            "url": "https://www.linkedin.com/posts/eamonn-egan_its-tough-when-the-biggest-port-logistics-activity-7488202335957970944-iU70",
-            "postedAt": "2026-07-31",
-            "comments": 1,
-            "likes": 1,
-            "score": 4
           }
         ]
       }
@@ -338,6 +270,40 @@
       }
     },
     {
+      "id": "canberra-homelessness-public-housing-20260807",
+      "headline": "คิวบ้านในแคนเบอร์ราทำให้คนไร้บ้านเพิ่มขึ้น",
+      "voiceScript": "หน่วยบริการในกรุงแคนเบอร์รา บอกว่ามีคนมาขอความช่วยเหลือมากขึ้น เพราะคิวบ้านสาธารณะทำให้พวกเขาไม่มีที่อยู่อาศัยที่จ่ายไหวได้เลย รายงานล่าสุดระบุว่ามีผู้สมัครที่ผ่านการอนุมัติรออยู่ราว 3,600 คน กรณีเร่งด่วนยังต้องรอเป็นเดือน ๆ และบ้านแบบทั่วไปอาจต้องรอนานเกิน 5 ปี ปัญหาไม่ได้มีแค่ที่พักฉุกเฉิน แต่คือครอบครัวและคนโสดจะประคองชีวิตให้มั่นคงได้นานแค่ไหนก่อนจะได้บ้านของรัฐ ถ้าอุปทานไม่ขยับ บริการในพื้นที่ก็ต้องแบกรับแรงกดดันต่อไป",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/canberra-homelessness-services-rise-public-housing/107004258"
+        },
+        {
+          "source": "The Canberra Times",
+          "url": "https://www.canberratimes.com.au/local-news/"
+        }
+      ],
+      "publishedAt": "2026-08-07T04:30:00.000Z",
+      "sourceCount": 2,
+      "language": "th"
+    },
+    {
+      "id": "sydney-affordable-housing-dispute-20260807",
+      "headline": "คำมั่นเรื่องบ้านราคาย่อมเยาของผู้พัฒนาในซิดนีย์ถูกตรวจสอบ",
+      "voiceScript": "รายงานว่า ผู้พัฒนาโครงการ พยายามยุติคำมั่นเรื่องบ้านราคาย่อมเยาในโครงการที่ซิดนีย์ก่อนกำหนดสองปี โดยอ้างว่ากฎหมายผังเมืองที่เปลี่ยนไปควรมีผลเหนือข้อตกลงเดิม หน่วยงานกำกับของรัฐเคยตำหนิฝ่ายที่ดูแลบ้านชุมชนของบริษัทนี้มาแล้วว่าไม่เป็นธรรมและไม่โปร่งใสต่อผู้อยู่อาศัย ประเด็นใหญ่กว่าคือ คำมั่นเรื่องบ้านราคาย่อมเยายังมีน้ำหนักแค่ไหนเมื่อโครงการเดินหน้าไปแล้ว ก้าวต่อไปน่าจะเป็นการตรวจสอบทางกฎหมายและกำกับดูแลมากกว่าข้อสรุปที่รวดเร็ว",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/landmark-group-tried-to-end-affordable-housing-period-early/106968030"
+        }
+      ],
+      "publishedAt": "2026-08-07T04:10:00.000Z",
+      "sourceCount": 1,
+      "language": "th"
+    },
+    {
       "id": "newcastle-climate-charges-dropped-20260807",
       "language": "th",
       "sourceCount": 2,
@@ -434,6 +400,73 @@
             "url": "https://www.youtube.com/watch?v=x9eoC-iG648",
             "postedAt": "today",
             "score": 12
+          }
+        ]
+      }
+    },
+    {
+      "id": "jobseeker-cost-of-living-hardship-20260807",
+      "headline": "เงินช่วยเหลือหางาน ยังคงกดดันชาวออสเตรเลียจำนวนมาก",
+      "voiceScript": "รายงานเรื่องสวัสดิการรายได้ชี้ให้เห็นว่าเงินช่วยเหลือวันละราว 68 ดอลลาร์ออสเตรเลียทำให้บางคนต้องงดอาหาร ลดการซื้อยา และจ่ายค่าเช่าได้ยากขึ้น ข้อมูลสำรวจที่ถูกอ้างในข่าวระบุว่าผู้รับ เงินช่วยเหลือหางาน มีโอกาสสูงกว่าคนทั่วไปมากที่จะอยู่ได้ด้วยอาหารเพียงวันละหนึ่งมื้อหรือน้อยกว่านั้น ความหมายที่กว้างกว่าคือระดับเงินช่วยเหลือที่ต่ำกำลังผลักภาระไปยังธนาคารอาหาร ระบบสาธารณสุข และบริการที่อยู่อาศัย คำถามนโยบายจึงยังเป็นว่าเงินช่วยเหลือจะเพิ่มได้มากพอที่จะหยุดการถอยหลังนี้หรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/could-you-live-on-jobseeker-payments/106866554"
+        }
+      ],
+      "publishedAt": "2026-08-07T03:45:00.000Z",
+      "sourceCount": 1,
+      "language": "th"
+    },
+    {
+      "id": "firmus-ai-data-centres-20260807",
+      "language": "th",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-07T03:40:28Z",
+      "headline": "บริษัทศูนย์ข้อมูลปัญญาประดิษฐ์ระดมทุนเร่งขยาย",
+      "voiceScript": "บริษัทนี้ระบุว่าการระดมทุน 2.9 พันล้านดอลลาร์ออสเตรเลียจะช่วยให้บริษัทเดินหน้าแผนสร้างศูนย์ข้อมูลปัญญาประดิษฐ์ทั่วออสเตรเลียและภูมิภาคเอเชีย-แปซิฟิกได้เร็วขึ้น บริษัทบอกว่าทุนก้อนนี้ช่วยคลายคอขวดสำคัญของการขยายตัว เรื่องนี้สำคัญเพราะโครงการลักษณะนี้ต้องใช้เงินลงทุนและไฟฟ้าจำนวนมาก และกำลังกลายเป็นส่วนสำคัญของการแข่งขันโครงสร้างพื้นฐานด้านเทคโนโลยี ขั้นต่อไปคือดูว่าเงินจะถูกแปลงเป็นกำลังการใช้งานจริงได้เร็วแค่ไหน.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AFR",
+          "url": "https://www.afr.com/technology/firmus-to-turbocharge-ai-factories-roll-out-after-giant-funding-deal-20260807-p60mc5"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "Reddit",
+            "community": "r/tasmania",
+            "author": "Ya-Dikobraz",
+            "title": "What are your thoughts of someone building a massive mega-data-centre for AI here in Tassie?",
+            "url": "https://www.reddit.com/r/tasmania/comments/1r7o76d/what_are_your_thoughts_of_someone_building_a/",
+            "postedAt": "2026-02-18",
+            "comments": 173,
+            "upvotes": 0,
+            "score": 380
+          },
+          {
+            "platform": "Reddit",
+            "community": "r/tasmania",
+            "author": "undisclosedusername2",
+            "title": "Firmus Technologies says it has a contract to power Launceston AI factory",
+            "url": "https://www.reddit.com/r/tasmania/comments/1stwaeo/firmus_technologies_says_it_has_a_contract_to/",
+            "postedAt": "2026-04-23",
+            "comments": 118,
+            "upvotes": 21,
+            "score": 375
+          },
+          {
+            "platform": "Reddit",
+            "community": "r/tasmania",
+            "author": "BreadAgreeable9632",
+            "title": "Ai Data Centre",
+            "url": "https://www.reddit.com/r/tasmania/comments/1ucquro/ai_data_centre/",
+            "postedAt": "2026-06-22",
+            "comments": 67,
+            "upvotes": 46,
+            "score": 247
           }
         ]
       }
@@ -821,7 +854,7 @@
     {
       "id": "adelaide-show-bird-flu-20260807",
       "language": "th",
-      "sourceCount": 2,
+      "sourceCount": 4,
       "publishedAt": "2026-08-07T01:27:21.000Z",
       "headline": "งาน Royal Adelaide ลดโซนสัตว์ปีกเมื่อไข้หวัดนกเพิ่มขึ้น",
       "voiceScript": "เมื่อผู้ติดเชื้อไข้หวัดนก H5 ในรัฐเซาท์ออสเตรเลียยังเพิ่มต่อเนื่อง งาน Royal Adelaide Show จึงตัดสินใจไม่จัดโซนนกและสัตว์ปีก งานยังเดินหน้าต่อได้ แต่ผู้จัดลดการแสดงสัตว์ลงเพื่อลดความเสี่ยงของการแพร่เชื้อ เรื่องนี้สำคัญเพราะการระบาดเริ่มกระทบงานสาธารณะ ไม่ใช่แค่การเฝ้าระวังสัตว์ป่าอีกต่อไป คำถามต่อไปคือ ถ้าจำนวนผู้ติดเชื้อยังเพิ่ม งานเกษตรและงานที่เกี่ยวกับฟาร์มอื่น ๆ จะถูกจำกัดแบบเดียวกันหรือไม่",
@@ -836,6 +869,14 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/technology/science/animals/bird-flu-outbreak-forces-royal-adelaide-show-to-cancel-all-poultry-events/news-story/95aa630b7d6ac7782a10f7864d56bc10"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/bird-flu-outbreak-sparks-wildlife-vaccination-debate"
         }
       ],
       "socialDiscussions": {
@@ -1530,12 +1571,16 @@
     {
       "id": "parent-visa-delays-20260806",
       "language": "th",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "publishedAt": "2026-08-06T15:00:05.000Z",
       "headline": "คิววีซ่าพ่อแม่ของออสเตรเลียยืดเยื้อจนหลายครอบครัวต้องรอนานหลายปี",
       "voiceScript": "ระบบวีซ่าพ่อแม่ของออสเตรเลียกลับมาอยู่ภายใต้แรงกดดันอีกครั้ง หลังรายงานระบุว่ามีผู้ยื่นขอมากกว่า 1,500 คนเสียชีวิตระหว่างรอเป็นเวลา 21 เดือน วีซ่าแบบจ่ายสมทบมีค่าใช้จ่ายราว 50,000 ดอลลาร์ออสเตรเลีย และยังอาจใช้เวลาประมวลผลราว 15 ปี ส่วนวีซ่าราคาถูกกว่านั้นอาจยืดเยื้อยิ่งกว่าเดิม เรื่องนี้สำคัญเพราะทำให้หลายครอบครัวติดอยู่ระหว่างค่าธรรมเนียมสูง คิวยาว และญาติผู้ใหญ่ที่อายุมากขึ้นในต่างประเทศ ขั้นต่อไปต้องดูว่ารัฐบาลจะนำวีซ่าพ่อแม่เข้าไปอยู่ในแผนปฏิรูปการย้ายถิ่นครั้งใหญ่หรือปล่อยให้ค้างต่อไป",
       "differences": [],
       "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/labor-migration-policy-tony-burke-partner-visas/107000272"
+        },
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/aug/07/australia-parent-visa-processing-applicants-die-waiting"
@@ -1925,6 +1970,50 @@
             "url": "https://www.reddit.com/r/AustralianPolitics/comments/1vdv05i/no_corruption_abbott_says_icac_a_factional_hit/",
             "postedAt": "4 days ago",
             "score": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "jon-adgemis-bankruptcy-20260806",
+      "language": "th",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T08:09:20Z",
+      "headline": "คดีล้มละลายของจอน แอดเจมิสชะงักอีกครั้งหลังไม่ไปศาล",
+      "voiceScript": "ข้อพิพาทล้มละลายของจอน แอดเจมิสถูกเลื่อนออกไปอีกครั้ง หลังอดีตเจ้าของผับรายนี้ไม่ไปขึ้นศาลตามที่คาดไว้ คดีนี้เชื่อมโยงกับการล้มครั้งใหญ่ระดับหลายพันล้านและข้อพิพาทกับเจ้าหนี้ในวงกว้าง เรื่องนี้สำคัญเพราะเป็นหนึ่งในคดีล้มละลายภาคบริการต้อนรับที่ใหญ่ที่สุดของประเทศ และยังถูกจับตามองอย่างใกล้ชิด ขั้นต่อไปคือดูว่าแรงกดดันจากศาลจะทำให้เขาอธิบายเรื่องการเงินได้ชัดเจนขึ้นหรือไม่",
+      "differences": [],
+      "links": [
+        {
+          "source": "AFR",
+          "url": "https://www.afr.com/companies/retail/jon-adgemis-is-still-refusing-to-front-up-over-his-1-8b-bankruptcy-20260805-p60ls7"
+        }
+      ]
+    },
+    {
+      "id": "acfs-port-logistics-20260806",
+      "language": "th",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-06T08:07:47Z",
+      "headline": "บริษัทโลจิสติกส์ท่าเรือเข้าสู่กระบวนการบริหารจัดการทรัพย์สิน",
+      "voiceScript": "บริษัทโลจิสติกส์ตู้คอนเทนเนอร์รายใหญ่ที่ขนส่งสินค้าผ่านท่าเรือทั่วประเทศถูกนำเข้าสู่กระบวนการบริหารจัดการทรัพย์สินแล้ว บริษัทให้บริการลูกค้ารายใหญ่ทั้งค้าปลีกและอุตสาหกรรม จึงอาจกระทบต่อห่วงโซ่อุปทาน งานของลูกจ้าง และการเรียกคืนหนี้ ผู้จัดการจะประเมินทรัพย์สิน หนี้สิน และทางเลือกในการขายหรือปรับโครงสร้างต่อไป.",
+      "differences": [],
+      "links": [
+        {
+          "source": "AFR",
+          "url": "https://www.afr.com/companies/transport/billionaire-owned-logistics-giant-acfs-collapses-into-administration-20260806-p60m2r"
+        }
+      ],
+      "socialDiscussions": {
+        "en": [
+          {
+            "platform": "LinkedIn",
+            "author": "Eamonn Egan",
+            "title": "ATO in Dispute with Australia's Largest Port Logistics Business",
+            "url": "https://www.linkedin.com/posts/eamonn-egan_its-tough-when-the-biggest-port-logistics-activity-7488202335957970944-iU70",
+            "postedAt": "2026-07-31",
+            "comments": 1,
+            "likes": 1,
+            "score": 4
           }
         ]
       }
