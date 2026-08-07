@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T23:08:00Z",
+  "updatedAt": "2026-08-07T01:04:41Z",
   "generatedBy": "codex",
   "language": "zh-Hant",
   "sources": [
@@ -106,6 +106,52 @@
     "The Australian, Yahoo News Australia, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday and The Canberra Times did not expose reliable current-week listings for this run."
   ],
   "clusters": [
+    {
+      "id": "migration-processing-pushback-20260806",
+      "language": "zh-Hant",
+      "sourceCount": 7,
+      "publishedAt": "2026-08-07T00:43:06.000Z",
+      "headline": "澳洲工黨的移民調整方案持續遭到企業與議員施壓",
+      "voiceScript": "政府仍在試圖調整移民設定，一邊放慢淨海外移民，一邊把永久移民配額維持在18.5萬人。Tony Burke延後演講後，這件事成了焦點，因為部長們正在權衡是否收緊簽證處理，以及這樣做會不會惹惱雇主和黨團。之所以重要，是因為移民、住房和勞動力短缺現在被放到一起討論。下一步就看重新安排的聲明，以及隨後公布的政策細節。",
+      "differences": [
+        "一組報導更關注演講延後和政策時點，另一組更強調企業團體施壓與內閣猜測。",
+        "還有一組把它看作更廣泛的移民收緊，而不只是一次單獨公告。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/net-overseas-migration-tony-burke-temporary-skilled-workers/107000732"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/federal-politics-live-blog-david-pocock-accuses-gambling-lobby/107007504"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/06/performative-reductions-labor-mps-and-business-groups-urge-burke-against-sweeping-immigration-changes"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/chaos-and-confusion-engulfs-future-migration-policy"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/video/governments-delayed-migration-announcement-sparks-fear-and-speculation/qpiyd2b1b"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/politics-latest-housing-shortages-to-last-another-seven-years-under-tony-burke-migration-plan/live-coverage/1b6574318abd61b7239e86d3403585f6"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/culture/inside-parliament/richard-marles-insists-migration-speech-delay-tony-burkes-call-despite-plot-murmurs/news-story/e055e6b996da3d50c4bf5447c44fdf55"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/chaos-and-confusion-engulfs-future-migration-policy-as-tony-burke-postpones-press-club-speech-c-22681418"
+        }
+      ]
+    },
     {
       "id": "wildflower-meadows-cities-20260806",
       "language": "zh-Hant",
@@ -667,37 +713,6 @@
       ]
     },
     {
-      "id": "migration-processing-pushback-20260806",
-      "language": "zh-Hant",
-      "sourceCount": 5,
-      "publishedAt": "2026-08-06T07:10:00.000Z",
-      "headline": "工黨的移民改革遭到商界和議員反對",
-      "voiceScript": "聯邦政府正在考慮調整技術和家庭簽證處理方式，試圖壓低淨海外移民人數，同時永久移民配額仍維持在 18.5 萬。消息說 Tony Burke 推遲了重要演講，因為部長們在考慮優先處理已經在澳洲境內的人。之所以重要，是因為商界擔心更緊的政策會加劇勞動力短缺，而工黨又同時面對聯盟黨、一國黨和部分自己議員的壓力。接下來要看政府願意把系統收緊到什麼程度，而不引發更大的反彈。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-06/net-overseas-migration-tony-burke-temporary-skilled-workers/107000732"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/06/performative-reductions-labor-mps-and-business-groups-urge-burke-against-sweeping-immigration-changes"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/scam-uber-drivers-and-dog-walkers-in-hansons-sights"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/podcast-episode/governments-delayed-migration-announcement-sparks-fear-and-speculation/qpiyd2b1b"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/nation/politics-latest-housing-shortages-to-last-another-seven-years-under-tony-burke-migration-plan/live-coverage/1b6574318abd61b7239e86d3403585f6"
-        }
-      ]
-    },
-    {
       "id": "private-health-rebate-cut-20260802",
       "language": "zh-Hant",
       "headline": "澳洲長者的私保帳單將繼續上升",
@@ -738,6 +753,27 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/sport/football/aleague-bosses-reject-players-union-proposal-in-ongoing-contract-standoff/news-story/2ce454e2b886d7268219f4a39f4bafe1"
+        }
+      ]
+    },
+    {
+      "id": "rba-borrowers-next-rate-call-20260806",
+      "language": "zh-Hant",
+      "headline": "借款人正在等待 RBA 的下一次利率決定",
+      "voiceScript": "數百萬借款人都在等待澳洲儲備銀行週二的決定，市場普遍預期現金利率會維持在 4.35%，但也不能完全排除再度變動。通膨、失業率和家庭支出是關鍵觀察指標，最新數據顯示價格壓力只是略有緩解。之所以重要，是因為即使按兵不動，房貸壓力仍然很高；如果上調利率，家庭預算會再受一擊。接下來就看董事會的聲明，以及它對今年剩餘時間給出的信號。",
+      "differences": [
+        "一個角度把決定背後的三個指標講得更清楚，另一個角度則更關注房貸壓力以及反對再次升息的理由。"
+      ],
+      "sourceCount": 2,
+      "publishedAt": "2026-08-06T05:46:00.000Z",
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/rba-interest-rates-decision-august-2026-inflation-jobs-spending/1l996wgp0"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/interest-rates/david-koch-warns-reserve-bank-against-punishing-mortgage-holders-with-rate-hike/news-story/49693efa06b988e21c2923a255257ae1"
         }
       ]
     },
@@ -848,11 +884,13 @@
     {
       "id": "ed-husic-car-crash-20260805",
       "language": "zh-Hant",
-      "headline": "Ed Husic 車禍後出院，骨折並伴有腦震盪",
-      "sourceCount": 3,
-      "publishedAt": "2026-08-06T02:57:00.000Z",
-      "voiceScript": "工黨議員 Ed Husic在雪梨 M7 高速上被一輛卡車撞到座車後已經出院。他身上有擦傷、骨折和腦震盪，恢復期間會短暫離開議會工作。之所以重要，是因為一趟普通通勤突然變成了嚴重交通傷害事件，而且警方仍在繼續了解情況。等醫生確認可以復工後，他預計會回到國會。",
-      "differences": [],
+      "headline": "Ed Husic 在雪梨高速車禍後正在復原",
+      "sourceCount": 5,
+      "publishedAt": "2026-08-06T02:57:25.000Z",
+      "voiceScript": "工黨議員 Ed Husic 在雪梨 M7 高速上被一輛卡車追尾，之後因骨折、擦傷和腦震盪住院。他後來已經出院，並表示自己會暫時離開議會職務，好好休養。這件事重要，是因為事故發生在主要通勤路線上，警方仍在釐清經過。下一步重點是他的復原，以及這起碰撞究竟如何發生。",
+      "differences": [
+        "一組報導強調傷勢和出院情況，另一組更關注他暫時離開議會以及事故調查。"
+      ],
       "links": [
         {
           "source": "The Guardian Australia",
@@ -864,7 +902,15 @@
         },
         {
           "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/labor-mp-ed-husic-escapes-serious-injury-after-car-crash/dsivdlwig"
+          "url": "https://www.sbs.com.au/news/article/labor-mp-ed-husic-escapes-serious-injury-after-sydney-car-accident/dsivdlwig"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/federal-politics-live-blog-gambling-inquiry/107002328"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/labor-mp-ed-husic-on-leave-after-serious-car-crash/news-story/dd8b6b0a3be78ec2e8c2b0b4d9491f2c"
         }
       ]
     },
@@ -1421,40 +1467,6 @@
       ]
     },
     {
-      "id": "tony-burke-migration-cuts-20260804",
-      "language": "zh-Hant",
-      "headline": "Tony Burke延後削減移民計畫，工黨重排簽證優先順序",
-      "sourceCount": 5,
-      "publishedAt": "2026-08-05T07:50:14.000Z",
-      "voiceScript": "Tony Burke延後了國家新聞俱樂部的宣布，同時工黨也在重排技術簽證處理順序，把部分臨時申請人往前提。這項舉措的目標是放慢淨海外移民成長，而圍繞移民規模的壓力，正來自聯盟黨和一國黨。政策細節仍然關鍵，因為它會影響誰能留下、誰要等待更久，以及政府能多快減少入境人數。接下來要看的是改期後的聲明，以及隨後公布的具體條文。",
-      "differences": [
-        "ABC 著重於演講延後與處理順序變化，Guardian 把它放在更大的削減移民背景裡。",
-        "SBS 和 AAP 更強調，這是對移民壓力的回應，而不是單獨的政策重置。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/tony-burke-national-press-club-migration-cuts/106996936"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/05/labor-plans-migration-cuts-as-tony-burke-pulls-out-of-major-speech"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/chaos-and-confusion-engulfs-future-migration-policy"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/politics/tony-burke-postpones-speech-outlining-migration-measures/news-story/c5ba50a5e8375a769ef5523eb88f16ad"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/chaos-and-confusion-engulfs-future-migration-policy-as-tony-burke-postpones-press-club-speech-c-22681418"
-        }
-      ]
-    },
-    {
       "id": "accc-mobile-network-sharing-20260805",
       "language": "zh-Hant",
       "sourceCount": 2,
@@ -1556,6 +1568,31 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/virtual-mental-health-hub-nsw-for-emergency-callouts/106975846"
+        }
+      ]
+    },
+    {
+      "id": "kmart-smart-glasses-privacy-20260805",
+      "language": "zh-Hant",
+      "headline": "Kmart 的廉價攝影眼鏡重新點燃隱私爭議",
+      "voiceScript": "Kmart 89 澳元的攝影眼鏡很快就售罄，也讓低價可錄影穿戴裝置在澳洲再次成為隱私焦點。這些眼鏡可以拍照和錄影片，還能打電話並執行 AI 助理，因此隱私倡議者認為它們會讓公共場所的同意問題更難處理。之所以重要，是因為這類產品價格夠低，擴散速度可能很快，而法律和場地規則還跟不上技術。接下來要看監管機構、零售商或公共場所會不會在這些裝置變普及前設下更清楚的限制。",
+      "differences": [
+        "一個角度強調同意與監控風險，另一個角度強調裝置功能以及反彈擴散的速度。"
+      ],
+      "sourceCount": 3,
+      "publishedAt": "2026-08-05T06:41:00.000Z",
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/04/kmart-camera-glasses-anko-meta-smartglasses-australia"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/kmarts-89-glasses-can-record-what-you-see-but-what-happens-next/3go143uq7"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/real-life/news-life/kmart-targets-89-version-of-meta-glasses-sparks-outrage/news-story/4785c495eec7be27fb10084d867f369c"
         }
       ]
     },

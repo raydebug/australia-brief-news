@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T23:08:00Z",
+  "updatedAt": "2026-08-07T01:04:41Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -106,6 +106,52 @@
     "The Australian, Yahoo News Australia, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday and The Canberra Times did not expose reliable current-week listings for this run."
   ],
   "clusters": [
+    {
+      "id": "migration-processing-pushback-20260806",
+      "language": "ja",
+      "sourceCount": 7,
+      "publishedAt": "2026-08-07T00:43:06.000Z",
+      "headline": "豪州の移民見直しは企業と議員からなお圧力を受けている",
+      "voiceScript": "政府は、恒久受け入れ枠18万5,000人は維持したまま、純移民流入を抑えるために移民制度の調整を進めています。Tony Burke氏の演説延期が焦点になっており、閣僚は雇用主や党内を刺激しすぎない範囲で、査証処理をどこまで厳格化するかを検討しています。移民、住宅、労働力不足が同時に議論されているため重要です。次は再設定された発表と、その後に示される政策の細部です。",
+      "differences": [
+        "一方は演説延期と政策の時点を重視し、別の一方は企業団体の圧力と閣内の思惑を強調しています。",
+        "もう一方は、単独の発表ではなく、より広い移民引き締めとして扱っています。"
+      ],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/net-overseas-migration-tony-burke-temporary-skilled-workers/107000732"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/federal-politics-live-blog-david-pocock-accuses-gambling-lobby/107007504"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/06/performative-reductions-labor-mps-and-business-groups-urge-burke-against-sweeping-immigration-changes"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/chaos-and-confusion-engulfs-future-migration-policy"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/video/governments-delayed-migration-announcement-sparks-fear-and-speculation/qpiyd2b1b"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/nation/politics-latest-housing-shortages-to-last-another-seven-years-under-tony-burke-migration-plan/live-coverage/1b6574318abd61b7239e86d3403585f6"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/culture/inside-parliament/richard-marles-insists-migration-speech-delay-tony-burkes-call-despite-plot-murmurs/news-story/e055e6b996da3d50c4bf5447c44fdf55"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/chaos-and-confusion-engulfs-future-migration-policy-as-tony-burke-postpones-press-club-speech-c-22681418"
+        }
+      ]
+    },
     {
       "id": "wildflower-meadows-cities-20260806",
       "language": "ja",
@@ -667,37 +713,6 @@
       ]
     },
     {
-      "id": "migration-processing-pushback-20260806",
-      "language": "ja",
-      "sourceCount": 5,
-      "publishedAt": "2026-08-06T07:10:00.000Z",
-      "headline": "労働党の移民見直しに経済界と議員が反発",
-      "voiceScript": "連邦政府は、海外からの新規受け入れを抑えるために、技術・家族ビザの処理方法を見直しています。永住移民の上限は 18.5 万人のままで、Tony Burke は重要な演説を延期しました。重要なのは、企業側が人手不足の悪化を懸念する一方で、労働党が Coalition や One Nation、党内の一部議員からも圧力を受けていることです。今後は、反発を強めずにどこまで制度を締め付けるかが課題です。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-06/net-overseas-migration-tony-burke-temporary-skilled-workers/107000732"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/06/performative-reductions-labor-mps-and-business-groups-urge-burke-against-sweeping-immigration-changes"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/scam-uber-drivers-and-dog-walkers-in-hansons-sights"
-        },
-        {
-          "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/podcast-episode/governments-delayed-migration-announcement-sparks-fear-and-speculation/qpiyd2b1b"
-        },
-        {
-          "source": "The Australian",
-          "url": "https://www.theaustralian.com.au/nation/politics-latest-housing-shortages-to-last-another-seven-years-under-tony-burke-migration-plan/live-coverage/1b6574318abd61b7239e86d3403585f6"
-        }
-      ]
-    },
-    {
       "id": "private-health-rebate-cut-20260802",
       "language": "ja",
       "headline": "高齢の豪州人の民間医療保険負担がさらに増えそうだ",
@@ -738,6 +753,27 @@
         {
           "source": "news.com.au",
           "url": "https://www.news.com.au/sport/football/aleague-bosses-reject-players-union-proposal-in-ongoing-contract-standoff/news-story/2ce454e2b886d7268219f4a39f4bafe1"
+        }
+      ]
+    },
+    {
+      "id": "rba-borrowers-next-rate-call-20260806",
+      "language": "ja",
+      "headline": "借り手はRBAの次の金利判断を待っている",
+      "voiceScript": "何百万人もの借り手が、火曜日の豪準備銀行の判断を待っています。現金金利は4.35％で据え置きが見込まれていますが、追加の動きの可能性も残っています。判断のカギはインフレ、失業率、家計支出の3指標で、最新データでは物価圧力はわずかにしか和らいでいません。重要なのは、据え置きでも住宅ローンの負担は高いままで、利上げなら家計への打撃がさらに増すことです。次の焦点は理事会の発表と、年内の見通しです。",
+      "differences": [
+        "一方は判断の背景にある3つの指標を整理し、別の一方は住宅ローンの負担と追加利上げへの反対理由を重視しています。"
+      ],
+      "sourceCount": 2,
+      "publishedAt": "2026-08-06T05:46:00.000Z",
+      "links": [
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/rba-interest-rates-decision-august-2026-inflation-jobs-spending/1l996wgp0"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/economy/interest-rates/david-koch-warns-reserve-bank-against-punishing-mortgage-holders-with-rate-hike/news-story/49693efa06b988e21c2923a255257ae1"
         }
       ]
     },
@@ -848,11 +884,13 @@
     {
       "id": "ed-husic-car-crash-20260805",
       "language": "ja",
-      "headline": "交通事故で骨折と脳しんとうを負ったEd Husic氏が退院",
-      "sourceCount": 3,
-      "publishedAt": "2026-08-06T02:57:00.000Z",
-      "voiceScript": "シドニーのM7でトラックが車に衝突した事故のあと、労働党のEd Husic議員は退院しました。本人は擦り傷、骨折、脳しんとうを負っており、回復のため国会活動を短期間休みます。いつもの移動が主要幹線道路での深刻な負傷事故に変わったため、この件は重要です。警察はまだ経緯を確認しており、医師が許可すれば議会に戻る見込みです。",
-      "differences": [],
+      "headline": "シドニーの高速道路事故を受け、Ed Husic氏は回復中",
+      "sourceCount": 5,
+      "publishedAt": "2026-08-06T02:57:25.000Z",
+      "voiceScript": "労働党のEd Husic議員は、シドニーのM7高速道路でトラックに後ろから追突され、骨折、擦り傷、脳震とうで病院に搬送されました。その後すでに退院しており、回復のため議会活動を短期間休むとしています。主要な通勤路で起きた事故で、警察はまだ経緯を確認中のため重要です。今後の焦点は本人の回復と、衝突がどう起きたのかの調査です。",
+      "differences": [
+        "一方はけがの内容と退院を重視し、別の一方は議会からの休養と事故調査を前面に出しています。"
+      ],
       "links": [
         {
           "source": "The Guardian Australia",
@@ -864,7 +902,15 @@
         },
         {
           "source": "SBS News",
-          "url": "https://www.sbs.com.au/news/article/labor-mp-ed-husic-escapes-serious-injury-after-car-crash/dsivdlwig"
+          "url": "https://www.sbs.com.au/news/article/labor-mp-ed-husic-escapes-serious-injury-after-sydney-car-accident/dsivdlwig"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-06/federal-politics-live-blog-gambling-inquiry/107002328"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/labor-mp-ed-husic-on-leave-after-serious-car-crash/news-story/dd8b6b0a3be78ec2e8c2b0b4d9491f2c"
         }
       ]
     },
@@ -1421,40 +1467,6 @@
       ]
     },
     {
-      "id": "tony-burke-migration-cuts-20260804",
-      "language": "ja",
-      "headline": "Tony Burke氏、移民削減を先送りし、査証優先順位を組み替え",
-      "sourceCount": 5,
-      "publishedAt": "2026-08-05T07:50:14.000Z",
-      "voiceScript": "Tony Burke氏はナショナル・プレス・クラブでの発表を延期し、その間に政府は技能査証の処理順を見直して、一部の一時滞在者を前に進めています。狙いは純移民の伸びを鈍らせることで、移民規模をめぐる保守連合やワン・ネーションからの圧力も背景にあります。誰が滞在できるのか、誰がより長く待つのか、そして政府がどれだけ早く流入を抑えられるのかは、この細部で決まります。次の焦点は、延期された発表と、その後に示される具体策です。",
-      "differences": [
-        "ABC は発表延期と処理順の変更を中心に伝え、Guardian はより大きな移民削減の流れとして描いています。",
-        "SBS と AAP は、独立した政策転換というより移民圧力への対応として扱っています。"
-      ],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-04/tony-burke-national-press-club-migration-cuts/106996936"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/05/labor-plans-migration-cuts-as-tony-burke-pulls-out-of-major-speech"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/chaos-and-confusion-engulfs-future-migration-policy"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/politics/tony-burke-postpones-speech-outlining-migration-measures/news-story/c5ba50a5e8375a769ef5523eb88f16ad"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/chaos-and-confusion-engulfs-future-migration-policy-as-tony-burke-postpones-press-club-speech-c-22681418"
-        }
-      ]
-    },
-    {
       "id": "accc-mobile-network-sharing-20260805",
       "language": "ja",
       "sourceCount": 2,
@@ -1556,6 +1568,31 @@
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-07-30/virtual-mental-health-hub-nsw-for-emergency-callouts/106975846"
+        }
+      ]
+    },
+    {
+      "id": "kmart-smart-glasses-privacy-20260805",
+      "language": "ja",
+      "headline": "Kmartの安価なカメラ眼鏡が豪州のプライバシー論争を再燃させた",
+      "voiceScript": "Kmartの89ドルのカメラ眼鏡はすぐに売り切れ、低価格の録画対応ウェアラブルがオーストラリアで再びプライバシー問題になりました。これらの眼鏡は写真や動画を撮影でき、通話やAIアシスタントにも対応しているため、公共の場で同意を守るのが難しくなると懸念されています。重要なのは、この種の製品が安価なため急速に広がりうる一方で、法律や会場ルールがまだ追いついていないことです。次に注目されるのは、規制当局、小売業者、公共空間が、製品が一般化する前により明確な制限を設けるかどうかです。",
+      "differences": [
+        "一方は同意と監視のリスクを重視し、別の一方は機能面と反発の広がり方を強調しています。"
+      ],
+      "sourceCount": 3,
+      "publishedAt": "2026-08-05T06:41:00.000Z",
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/04/kmart-camera-glasses-anko-meta-smartglasses-australia"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/kmarts-89-glasses-can-record-what-you-see-but-what-happens-next/3go143uq7"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/lifestyle/real-life/news-life/kmart-targets-89-version-of-meta-glasses-sparks-outrage/news-story/4785c495eec7be27fb10084d867f369c"
         }
       ]
     },
