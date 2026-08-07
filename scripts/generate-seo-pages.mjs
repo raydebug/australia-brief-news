@@ -46,44 +46,6 @@ function newsFiles() {
     });
 }
 
-function socialDiscussionSet(cluster, language = "en") {
-  const localized = cluster.localizedSocialDiscussions || cluster.socialDiscussionsByLanguage;
-  const raw = cluster.socialDiscussions;
-
-  if (localized?.[language]?.length) return localized[language];
-  if (localized?.en?.length) return localized.en;
-
-  if (raw && !Array.isArray(raw) && typeof raw === "object") {
-    if (raw[language]?.length) return raw[language];
-    if (raw.en?.length) return raw.en;
-    if (raw.default?.length) return raw.default;
-    return [];
-  }
-
-  return Array.isArray(raw) ? raw : [];
-}
-
-function validSocialDiscussions(cluster, language = "en") {
-  const seen = new Set();
-  return socialDiscussionSet(cluster, language)
-    .filter((item) => item?.platform && item?.title && item?.url)
-    .filter((item) => {
-      const key = String(item.url).trim();
-      if (!key || seen.has(key)) return false;
-      seen.add(key);
-      return true;
-    })
-    .sort((a, b) => Number(b.score || 0) - Number(a.score || 0))
-    .slice(0, 5);
-}
-
-function socialHeat(cluster, language = "en") {
-  const discussions = validSocialDiscussions(cluster, language);
-  const score = discussions.reduce((total, item) => total + Number(item.score || 0), 0);
-  const level = score >= 1800 ? 4 : score >= 800 ? 3 : score >= 250 ? 2 : score > 0 ? 1 : 0;
-  return { score, level, count: discussions.length };
-}
-
 function sourceList(cluster) {
   return (cluster.links || [])
     .map(
@@ -91,25 +53,6 @@ function sourceList(cluster) {
         `<li><a href="${escapeHtml(link.url)}" rel="nofollow noopener noreferrer">${escapeHtml(link.source)}</a></li>`
     )
     .join("\n");
-}
-
-function discussionList(cluster) {
-  const items = socialDiscussionSet(cluster, "en").slice(0, 5);
-  if (!items.length) return "";
-  return `
-      <section>
-        <h2>Public discussion</h2>
-        <ul>
-          ${items
-            .map(
-              (item) =>
-                `<li><a href="${escapeHtml(item.url)}" rel="nofollow noopener noreferrer">${escapeHtml(
-                  item.platform
-                )}: ${escapeHtml(item.title)}</a></li>`
-            )
-            .join("\n")}
-        </ul>
-      </section>`;
 }
 
 function articleJsonLd(cluster, url, news = englishNews, language = "en") {
@@ -198,7 +141,6 @@ function pageHtml(cluster, filename) {
           <h2>Original sources</h2>
           <ul>${sourceList(cluster)}</ul>
         </section>
-        ${discussionList(cluster)}
         <p class="notice">This 4News page is a rewritten brief based on public sources. It does not reproduce full news articles. Use original source links for full context.</p>
       </article>
     </main>

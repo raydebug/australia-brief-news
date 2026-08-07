@@ -44,81 +44,6 @@ function fail(message, details = {}) {
   process.exitCode = 1;
 }
 
-function validateSocialDiscussionItems(items, cluster, language = "default") {
-  const errors = [];
-
-  if (!Array.isArray(items)) {
-    return [{ type: "social-discussions-not-array", id: cluster.id, language }];
-  }
-
-  items.forEach((item, index) => {
-    if (!item || typeof item !== "object") {
-      errors.push({ type: "social-discussion-not-object", id: cluster.id, language, index });
-      return;
-    }
-
-    for (const field of ["platform", "title", "url"]) {
-      if (!normalize(item[field])) {
-        errors.push({ type: "social-discussion-missing-field", id: cluster.id, language, index, field });
-      }
-    }
-
-    try {
-      const url = new URL(item.url);
-      if (!["http:", "https:"].includes(url.protocol)) {
-        errors.push({ type: "social-discussion-invalid-url-protocol", id: cluster.id, language, index, url: item.url });
-      }
-    } catch {
-      errors.push({ type: "social-discussion-invalid-url", id: cluster.id, language, index, url: item.url });
-    }
-
-    for (const field of ["comments", "likes", "upvotes", "shares", "reposts", "score"]) {
-      if (item[field] == null) continue;
-      const value = Number(item[field]);
-      if (!Number.isFinite(value) || value < 0) {
-        errors.push({ type: "social-discussion-invalid-metric", id: cluster.id, language, index, field, value: item[field] });
-      }
-    }
-  });
-
-  return errors;
-}
-
-function validateSocialDiscussionMap(value, cluster, field) {
-  const errors = [];
-  if (!value || typeof value !== "object" || Array.isArray(value)) {
-    return [{ type: "social-discussions-map-not-object", id: cluster.id, field }];
-  }
-
-  for (const [language, items] of Object.entries(value)) {
-    errors.push(...validateSocialDiscussionItems(items, cluster, language));
-  }
-
-  return errors;
-}
-
-function validateSocialDiscussions(cluster) {
-  const errors = [];
-
-  if (cluster.socialDiscussions != null) {
-    if (Array.isArray(cluster.socialDiscussions)) {
-      errors.push(...validateSocialDiscussionItems(cluster.socialDiscussions, cluster));
-    } else {
-      errors.push(...validateSocialDiscussionMap(cluster.socialDiscussions, cluster, "socialDiscussions"));
-    }
-  }
-
-  if (cluster.localizedSocialDiscussions != null) {
-    errors.push(...validateSocialDiscussionMap(cluster.localizedSocialDiscussions, cluster, "localizedSocialDiscussions"));
-  }
-
-  if (cluster.socialDiscussionsByLanguage != null) {
-    errors.push(...validateSocialDiscussionMap(cluster.socialDiscussionsByLanguage, cluster, "socialDiscussionsByLanguage"));
-  }
-
-  return errors;
-}
-
 function localizedCommentary(cluster, language) {
   const commentary = cluster?.fourNewsCommentary;
   if (typeof commentary === "string") return commentary;
@@ -177,22 +102,6 @@ if (english.clusters.length !== englishDocs.clusters.length) {
 english.clusters.forEach((cluster, index) => {
   if (cluster.id !== englishDocs.clusters[index]?.id) {
     fail("public/docs English id order mismatch", { index, public: cluster.id, docs: englishDocs.clusters[index]?.id });
-  }
-
-  const socialErrors = validateSocialDiscussions(cluster);
-  if (socialErrors.length) {
-    fail("public English social discussions invalid", { examples: socialErrors.slice(0, 10) });
-  }
-
-  const socialDocsErrors = validateSocialDiscussions(englishDocs.clusters[index] || {});
-  if (socialDocsErrors.length) {
-    fail("docs English social discussions invalid", { examples: socialDocsErrors.slice(0, 10) });
-  }
-
-  const socialPublic = JSON.stringify(cluster.socialDiscussions || []);
-  const socialDocs = JSON.stringify(englishDocs.clusters[index]?.socialDiscussions || []);
-  if (socialPublic !== socialDocs) {
-    fail("public/docs English social discussions mismatch", { id: cluster.id });
   }
 
   const commentaryErrors = validateFourNewsCommentary(cluster, "en");
@@ -259,7 +168,6 @@ for (const config of languages) {
         });
       }
 
-      errors.push(...validateSocialDiscussions(translated));
       errors.push(...validateFourNewsCommentary(translated, config.code));
 
     }
@@ -286,11 +194,6 @@ for (const config of languages) {
     const docsCluster = docsPayload.clusters?.[index];
     if (!publicCluster || !docsCluster || publicCluster.id !== docsCluster.id) continue;
 
-    for (const field of ["socialDiscussions", "localizedSocialDiscussions", "socialDiscussionsByLanguage"]) {
-      if (JSON.stringify(publicCluster[field] || null) !== JSON.stringify(docsCluster[field] || null)) {
-        errors.push({ type: "public-docs-social-discussions-mismatch", id: publicCluster.id, language: config.code, field });
-      }
-    }
   }
 
   if (errors.length) {

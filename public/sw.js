@@ -18,16 +18,7 @@ const APP_SHELL = [
   "./news.ja.json",
   "./news.ko.json",
   "./news.vi.json",
-  "./news.th.json",
-  "./social-trends.en.json",
-  "./social-trends.zh-Hans.json",
-  "./social-trends.zh-Hant.json",
-  "./social-trends.si.json",
-  "./social-trends.es.json",
-  "./social-trends.ja.json",
-  "./social-trends.ko.json",
-  "./social-trends.vi.json",
-  "./social-trends.th.json"
+  "./news.th.json"
 ];
 
 self.addEventListener("install", (event) => {
@@ -51,7 +42,6 @@ self.addEventListener("fetch", (event) => {
 
   const url = new URL(request.url);
   const isNewsData = /\/news(\.[A-Za-z-]+)?\.json$/.test(url.pathname);
-  const isSocialTrendData = /\/social-trends(\.[A-Za-z-]+)?\.json$/.test(url.pathname);
 
   if (request.mode === "navigate") {
     event.respondWith(
@@ -69,7 +59,7 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  if (isNewsData || isSocialTrendData) {
+  if (isNewsData) {
     event.respondWith(
       fetch(request)
         .then((response) => {
@@ -77,7 +67,7 @@ self.addEventListener("fetch", (event) => {
           caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
           return response;
         })
-        .catch(() => caches.match(request).then((cached) => cached || caches.match(isNewsData ? "./news.json" : "./social-trends.en.json")))
+        .catch(() => caches.match(request).then((cached) => cached || caches.match("./news.json")))
     );
     return;
   }

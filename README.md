@@ -9,13 +9,10 @@
 - 总结不同媒体的报道角度差异
 - 支持 PWA 安装、离线缓存和 Capacitor 移动端外壳
 - 支持按当前语言进行浏览器语音朗读
-- 可为每条新闻后补公开社交媒体热门讨论入口
 
 ## 内容更新
 
 内容由 Codex 定时任务每小时更新一次。任务会维护按语言拆分的数据文件，再构建 `docs/` 供 GitHub Pages 发布。
-
-另有每日 Codex 定时任务维护过去 24 小时的澳洲相关非新闻社媒热议，任务提示文件是 `codex-daily-social-trends.prompt.md`。
 
 定时任务生成完成后必须先确认多语言数据一致性：
 
@@ -52,63 +49,6 @@ npm run build
 - 避免“早期预警、信息整合、资源分配、人工负责”这类泛化句式，除非能写出具体场景、责任主体和可验证指标。
 - 点评长度最多约 2 分钟；优先短而有判断。写不出有新意的观点时不写。
 - 各语言版本必须表达同一个判断，不要英文、中文、日文各自换方向。
-
-### 社交媒体讨论后补
-
-每条新闻簇可以带一个可选字段 `socialDiscussions`，用于列出已经出现的公开热门讨论贴。没有真实讨论时不要显示占位内容，也不要放普通搜索结果入口。社媒讨论可以按语言分别维护；页面会优先显示当前界面语言的讨论链接，并把英文或通用链接作为缺省补充排在后面。
-
-字段结构：
-
-```json
-"socialDiscussions": [
-  {
-    "platform": "Reddit",
-    "community": "r/australia",
-    "title": "Discussion title or post text summary",
-    "url": "https://...",
-    "postedAt": "2026-07-31T08:10:00+10:00",
-    "comments": 128,
-    "likes": 420,
-    "shares": 12,
-    "score": 804
-  }
-]
-```
-
-也可以使用按语言分组的结构：
-
-```json
-"socialDiscussions": {
-  "en": [{ "platform": "Reddit", "title": "English discussion", "url": "https://...", "score": 120 }],
-  "zh-Hans": [{ "platform": "YouTube", "title": "中文讨论", "url": "https://...", "score": 80 }]
-}
-```
-
-兼容字段 `localizedSocialDiscussions` 和 `socialDiscussionsByLanguage` 也按同样结构读取。
-
-生成规则：
-
-- 社交讨论通常滞后于新闻发布，定时任务应把它作为后补字段，而不是新闻首次生成时一次性定稿。
-- 对新新闻执行错时扫描：入库时快速扫一次，约 2 小时、6 小时、24 小时后各补扫一次；之后只在最近两周保留期内低频刷新。
-- 只列公开可访问、能直接打开的讨论贴；不要抓取私密群组、登录后才可见的内容或 Meta 明确限制自动化访问的页面。
-- 搜索范围应覆盖当前支持语言。英文优先 Reddit、公开 X 帖、公开 YouTube 视频评论入口、公开 Facebook Page 帖；中文可补充公开 YouTube、Facebook Page、X、Threads、Reddit 中文讨论；日语、韩语、越南语、泰语、西班牙语、僧伽罗语也应优先找对应语言的公开帖子或评论入口。Facebook Groups、Instagram、TikTok 只有在公开且合规可访问时才记录。
-- 热度按互动速度和总量综合判断，不只看点赞总数。建议基础分：`comments * 3 + shares/reposts * 2 + likes/upvotes`，再按发布时间衰减。
-- 每条新闻最多保留 5 个代表性讨论，按 `score` 降序。
-- 不同语言可以有不同的 `socialDiscussions`。同一语言的 `public/news.{lang}.json` 和 `docs/news.{lang}.json` 必须保持一致；`public/news.json` 作为旧入口，跟随简体中文。
-
-### 每日非新闻社媒热议
-
-站点级热议数据独立于单条新闻，文件为 `public/social-trends.{lang}.json`。它用于列出过去 24 小时澳洲相关、但不以新闻报道为主体的公开社媒讨论前三。
-
-生成规则：
-
-- 英文热议写入 `public/social-trends.en.json`，在所有语言界面中默认显示。
-- 非英文热议按当前支持语言分别写入 `public/social-trends.zh-Hans.json`、`public/social-trends.zh-Hant.json`、`public/social-trends.si.json`、`public/social-trends.ja.json`、`public/social-trends.ko.json`、`public/social-trends.vi.json`、`public/social-trends.th.json`、`public/social-trends.es.json`。
-- 页面只显示英文组和当前界面语言组，不同时展示所有语言。
-- 非英文文件必须是真实对应语言的公开讨论，不要把英文帖子翻译后塞入多语言文件。
-- 排除普通新闻链接、突发新闻、媒体报道转载、发布者新闻帖和普通搜索结果。优先选生活经验、社区问题、住房、移民、学习、工作、体育闲聊、澳洲文化、公共服务体验等社交讨论。
-- 每个文件最多 3 条，按 `score` 降序。基础热度分建议为 `comments * 3 + shares/reposts * 2 + likes/upvotes`，并根据澳洲相关性和发布时间衰减。
-- `docs/social-trends.{lang}.json` 必须由 build 后与 `public/` 对应文件保持一致。
 
 ### 人物链接规则
 

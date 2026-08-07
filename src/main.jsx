@@ -6,7 +6,6 @@ import {
   Download,
   ExternalLink,
   Filter,
-  Flame,
   MessageSquareText,
   Radio,
   RefreshCw,
@@ -216,9 +215,6 @@ const I18N = {
     offline: "离线",
     searchPlaceholder: "搜索标题或摘要",
     filterLabel: "过滤新闻",
-    heatFilter: "热度",
-    heatAll: "全部热度",
-    heatAtLeast: "至少",
     all: "全部",
     multi: "多源",
     single: "单源",
@@ -233,11 +229,6 @@ const I18N = {
     socialProfile: "主要账号",
     background: "背景",
     politicalPositions: "主要言论",
-    socialDiscussions: "热门讨论",
-    dailySocialTrends: "24小时社媒热议",
-    dailySocialTrendsSubtitle: "非新闻讨论",
-    englishSocialTrends: "英文",
-    localSocialTrends: "当前语言",
     socialDiscussionMeta: "热度",
     socialComments: "评论",
     socialShares: "分享",
@@ -264,9 +255,6 @@ const I18N = {
     offline: "離線",
     searchPlaceholder: "搜尋標題或摘要",
     filterLabel: "篩選新聞",
-    heatFilter: "熱度",
-    heatAll: "全部熱度",
-    heatAtLeast: "至少",
     all: "全部",
     multi: "多源",
     single: "單源",
@@ -281,11 +269,6 @@ const I18N = {
     socialProfile: "主要帳號",
     background: "背景",
     politicalPositions: "主要言論",
-    socialDiscussions: "熱門討論",
-    dailySocialTrends: "24小時社媒熱議",
-    dailySocialTrendsSubtitle: "非新聞討論",
-    englishSocialTrends: "英文",
-    localSocialTrends: "目前語言",
     socialDiscussionMeta: "熱度",
     socialComments: "評論",
     socialShares: "分享",
@@ -312,9 +295,6 @@ const I18N = {
     offline: "නොබැඳි",
     searchPlaceholder: "ශීර්ෂය හෝ සාරාංශය සොයන්න",
     filterLabel: "පුවත් පෙරහන් කරන්න",
-    heatFilter: "උණුසුම",
-    heatAll: "සියලු උණුසුම් මට්ටම්",
-    heatAtLeast: "අවම",
     all: "සියල්ල",
     multi: "බහු මූලාශ්‍ර",
     single: "එක් මූලාශ්‍රයක්",
@@ -329,11 +309,6 @@ const I18N = {
     socialProfile: "ප්‍රධාන ගිණුම",
     background: "පසුබිම",
     politicalPositions: "ප්‍රධාන අදහස්",
-    socialDiscussions: "ජනප්‍රිය සාකච්ඡා",
-    dailySocialTrends: "පැය 24 සමාජ මාධ්‍ය සාකච්ඡා",
-    dailySocialTrendsSubtitle: "පුවත් නොවන සාකච්ඡා",
-    englishSocialTrends: "English",
-    localSocialTrends: "වත්මන් භාෂාව",
     socialDiscussionMeta: "උණුසුම",
     socialComments: "අදහස්",
     socialShares: "බෙදාගැනීම්",
@@ -360,9 +335,6 @@ const I18N = {
     offline: "Offline",
     searchPlaceholder: "Search headlines or summaries",
     filterLabel: "Filter news",
-    heatFilter: "Heat",
-    heatAll: "All heat",
-    heatAtLeast: "At least",
     all: "All",
     multi: "Multi-source",
     single: "Single-source",
@@ -377,11 +349,6 @@ const I18N = {
     socialProfile: "Main account",
     background: "Background",
     politicalPositions: "Main positions",
-    socialDiscussions: "Hot discussions",
-    dailySocialTrends: "24h social talk",
-    dailySocialTrendsSubtitle: "Non-news discussions",
-    englishSocialTrends: "English",
-    localSocialTrends: "Current language",
     socialDiscussionMeta: "Engagement",
     socialComments: "comments",
     socialShares: "shares",
@@ -408,9 +375,6 @@ const I18N = {
     offline: "Sin conexión",
     searchPlaceholder: "Buscar titulares o resúmenes",
     filterLabel: "Filtrar noticias",
-    heatFilter: "Interés",
-    heatAll: "Todo interés",
-    heatAtLeast: "Al menos",
     all: "Todo",
     multi: "Varias fuentes",
     single: "Una fuente",
@@ -425,11 +389,6 @@ const I18N = {
     socialProfile: "Cuenta principal",
     background: "Contexto",
     politicalPositions: "Posturas principales",
-    socialDiscussions: "Debates populares",
-    dailySocialTrends: "Debates sociales 24 h",
-    dailySocialTrendsSubtitle: "Conversaciones que no son noticias",
-    englishSocialTrends: "Inglés",
-    localSocialTrends: "Idioma actual",
     socialDiscussionMeta: "Interacción",
     socialComments: "comentarios",
     socialShares: "compartidos",
@@ -456,9 +415,6 @@ const I18N = {
     offline: "オフライン",
     searchPlaceholder: "見出しまたは要約を検索",
     filterLabel: "ニュースを絞り込む",
-    heatFilter: "注目度",
-    heatAll: "すべての注目度",
-    heatAtLeast: "最低",
     all: "すべて",
     multi: "複数ソース",
     single: "単一ソース",
@@ -473,11 +429,6 @@ const I18N = {
     socialProfile: "主なアカウント",
     background: "背景",
     politicalPositions: "主な主張",
-    socialDiscussions: "話題の議論",
-    dailySocialTrends: "24時間のSNS話題",
-    dailySocialTrendsSubtitle: "ニュース以外の議論",
-    englishSocialTrends: "英語",
-    localSocialTrends: "現在の言語",
     socialDiscussionMeta: "反応",
     socialComments: "コメント",
     socialShares: "共有",
@@ -504,9 +455,6 @@ const I18N = {
     offline: "오프라인",
     searchPlaceholder: "제목 또는 요약 검색",
     filterLabel: "뉴스 필터",
-    heatFilter: "화제성",
-    heatAll: "전체 화제성",
-    heatAtLeast: "최소",
     all: "전체",
     multi: "복수 출처",
     single: "단일 출처",
@@ -521,11 +469,6 @@ const I18N = {
     socialProfile: "주요 계정",
     background: "배경",
     politicalPositions: "주요 입장",
-    socialDiscussions: "인기 토론",
-    dailySocialTrends: "24시간 소셜 화제",
-    dailySocialTrendsSubtitle: "뉴스가 아닌 토론",
-    englishSocialTrends: "영어",
-    localSocialTrends: "현재 언어",
     socialDiscussionMeta: "반응",
     socialComments: "댓글",
     socialShares: "공유",
@@ -552,9 +495,6 @@ const I18N = {
     offline: "Ngoại tuyến",
     searchPlaceholder: "Tìm tiêu đề hoặc tóm tắt",
     filterLabel: "Lọc tin tức",
-    heatFilter: "Độ nóng",
-    heatAll: "Mọi độ nóng",
-    heatAtLeast: "Ít nhất",
     all: "Tất cả",
     multi: "Nhiều nguồn",
     single: "Một nguồn",
@@ -569,11 +509,6 @@ const I18N = {
     socialProfile: "Tài khoản chính",
     background: "Bối cảnh",
     politicalPositions: "Lập trường chính",
-    socialDiscussions: "Thảo luận nổi bật",
-    dailySocialTrends: "Thảo luận mạng xã hội 24h",
-    dailySocialTrendsSubtitle: "Chủ đề không phải tin tức",
-    englishSocialTrends: "Tiếng Anh",
-    localSocialTrends: "Ngôn ngữ hiện tại",
     socialDiscussionMeta: "Tương tác",
     socialComments: "bình luận",
     socialShares: "chia sẻ",
@@ -600,9 +535,6 @@ const I18N = {
     offline: "ออฟไลน์",
     searchPlaceholder: "ค้นหาหัวข้อหรือสรุป",
     filterLabel: "กรองข่าว",
-    heatFilter: "กระแส",
-    heatAll: "ทุกระดับกระแส",
-    heatAtLeast: "อย่างน้อย",
     all: "ทั้งหมด",
     multi: "หลายแหล่ง",
     single: "แหล่งเดียว",
@@ -617,11 +549,6 @@ const I18N = {
     socialProfile: "บัญชีหลัก",
     background: "พื้นหลัง",
     politicalPositions: "จุดยืนหลัก",
-    socialDiscussions: "ประเด็นที่คุยกันมาก",
-    dailySocialTrends: "กระแสโซเชียล 24 ชม.",
-    dailySocialTrendsSubtitle: "ประเด็นที่ไม่ใช่ข่าว",
-    englishSocialTrends: "อังกฤษ",
-    localSocialTrends: "ภาษาปัจจุบัน",
     socialDiscussionMeta: "การมีส่วนร่วม",
     socialComments: "ความคิดเห็น",
     socialShares: "แชร์",
@@ -641,7 +568,6 @@ const I18N = {
 };
 
 const NEWS_SOURCE_TEMPLATE = import.meta.env.VITE_NEWS_SOURCE_URL || "./news.{lang}.json";
-const SOCIAL_TRENDS_SOURCE_TEMPLATE = import.meta.env.VITE_SOCIAL_TRENDS_SOURCE_URL || "./social-trends.{lang}.json";
 const SPEECH_LANGUAGES = {
   "zh-Hans": "zh-CN",
   "zh-Hant": "zh-TW",
@@ -758,11 +684,6 @@ function initialShowPeopleContext() {
   return window.localStorage.getItem("brief-show-people-context") === "true";
 }
 
-function initialHeatFilter() {
-  const value = Number(window.localStorage.getItem("brief-heat-filter") || 0);
-  return Number.isInteger(value) && value >= 0 && value <= 4 ? value : 0;
-}
-
 function newsSourceUrl(language) {
   if (NEWS_SOURCE_TEMPLATE.includes("{lang}")) {
     return NEWS_SOURCE_TEMPLATE.replace("{lang}", language);
@@ -773,16 +694,6 @@ function newsSourceUrl(language) {
   return NEWS_SOURCE_TEMPLATE;
 }
 
-function socialTrendsSourceUrl(language) {
-  if (SOCIAL_TRENDS_SOURCE_TEMPLATE.includes("{lang}")) {
-    return SOCIAL_TRENDS_SOURCE_TEMPLATE.replace("{lang}", language);
-  }
-  if (SOCIAL_TRENDS_SOURCE_TEMPLATE.endsWith("social-trends.json")) {
-    return SOCIAL_TRENDS_SOURCE_TEMPLATE.replace(/social-trends\.json$/, `social-trends.${language}.json`);
-  }
-  return SOCIAL_TRENDS_SOURCE_TEMPLATE;
-}
-
 async function fetchNewsPayload(language) {
   const url = newsSourceUrl(language);
   let response = await fetch(cacheBustedUrl(url), { cache: "no-store" });
@@ -790,12 +701,6 @@ async function fetchNewsPayload(language) {
     response = await fetch(cacheBustedUrl("./news.json"), { cache: "no-store" });
   }
   if (!response.ok) throw new Error("news.json not found");
-  return response.json();
-}
-
-async function fetchOptionalJson(url) {
-  const response = await fetch(cacheBustedUrl(url), { cache: "no-store" });
-  if (!response.ok) return null;
   return response.json();
 }
 
@@ -5292,159 +5197,6 @@ function SourceLogo({ name }) {
   );
 }
 
-function socialDiscussionSet(cluster, language) {
-  const localized = cluster?.localizedSocialDiscussions || cluster?.socialDiscussionsByLanguage;
-  const raw = cluster?.socialDiscussions;
-  const groups = [];
-
-  if (localized?.[language]?.length) groups.push(localized[language]);
-  if (language !== "en" && localized?.en?.length) groups.push(localized.en);
-
-  if (Array.isArray(raw)) groups.push(raw);
-
-  if (raw && !Array.isArray(raw) && typeof raw === "object") {
-    if (raw[language]?.length) groups.push(raw[language]);
-    if (language !== "en" && raw.en?.length) groups.push(raw.en);
-    if (raw.default?.length) groups.push(raw.default);
-  }
-
-  const seen = new Set();
-  return groups.flat().filter((item) => {
-    const key = String(item?.url || "").trim();
-    if (!key || seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
-}
-
-function validSocialDiscussions(cluster, language = cluster?.language || "en") {
-  return socialDiscussionSet(cluster, language)
-    .filter((item) => item?.platform && item?.title && item?.url)
-    .sort((a, b) => Number(b.score || 0) - Number(a.score || 0))
-    .slice(0, 5);
-}
-
-function socialHeat(cluster, language = cluster?.language || "en") {
-  const discussions = validSocialDiscussions(cluster, language);
-  const score = discussions.reduce((total, item) => total + Number(item.score || 0), 0);
-  const level = score >= 1800 ? 4 : score >= 800 ? 3 : score >= 250 ? 2 : score > 0 ? 1 : 0;
-  return { score, level, count: discussions.length };
-}
-
-function HeatIndicator({ cluster, language }) {
-  const heat = socialHeat(cluster, language);
-  const title = heat.count
-    ? `Social heat ${heat.level}/4, score ${heat.score}, ${heat.count} discussion links`
-    : "Social heat 0/4, no tracked discussion links yet";
-
-  return (
-    <span className={`heat-indicator heat-${heat.level}`} title={title} aria-label={title}>
-      <Flame size={13} />
-      <span>{heat.level}</span>
-    </span>
-  );
-}
-
-function compactNumber(value) {
-  const number = Number(value || 0);
-  if (!Number.isFinite(number) || number <= 0) return "";
-  if (number >= 1000000) return `${(number / 1000000).toFixed(number >= 10000000 ? 0 : 1)}M`;
-  if (number >= 1000) return `${(number / 1000).toFixed(number >= 10000 ? 0 : 1)}k`;
-  return String(number);
-}
-
-function discussionMeta(item, labels) {
-  const parts = [
-    compactNumber(item.comments) && `${compactNumber(item.comments)} ${labels.socialComments}`,
-    compactNumber(item.shares || item.reposts) && `${compactNumber(item.shares || item.reposts)} ${labels.socialShares}`,
-    compactNumber(item.likes || item.upvotes) && `${compactNumber(item.likes || item.upvotes)} ${labels.socialLikes}`
-  ].filter(Boolean);
-
-  if (!parts.length && item.score) parts.push(`${labels.socialScore} ${compactNumber(item.score)}`);
-  return parts.length ? `${labels.socialDiscussionMeta}: ${parts.join(" · ")}` : item.postedAt || "";
-}
-
-function normalizeSocialTrendItems(payload, language) {
-  const items = Array.isArray(payload?.items) ? payload.items : [];
-  return items
-    .filter((item) => item?.platform && item?.title && item?.url)
-    .map((item) => ({ ...item, language: item.language || language }))
-    .sort((a, b) => Number(b.score || 0) - Number(a.score || 0))
-    .slice(0, 3);
-}
-
-function SocialDiscussionList({ discussions, labels }) {
-  if (!discussions.length) return null;
-
-  return (
-    <article className="social-panel">
-      <div className="social-heading">
-        <Flame size={17} />
-        <strong>{labels.socialDiscussions}</strong>
-      </div>
-      <div className="social-discussion-list">
-        {discussions.map((item) => (
-          <SocialDiscussionLink item={item} labels={labels} key={`${item.platform}-${item.url}`} />
-        ))}
-      </div>
-    </article>
-  );
-}
-
-function DailySocialTrendsPanel({ englishItems, localItems, labels, language }) {
-  if (!englishItems.length && !localItems.length) return null;
-
-  return (
-    <section className="daily-social-panel">
-      <div className="daily-social-header">
-        <div>
-          <strong>{labels.dailySocialTrends}</strong>
-          <span>{labels.dailySocialTrendsSubtitle}</span>
-        </div>
-        <Flame size={18} />
-      </div>
-      <div className="daily-social-groups">
-        {englishItems.length > 0 && (
-          <SocialTrendGroup title={labels.englishSocialTrends} items={englishItems} labels={labels} />
-        )}
-        {language !== "en" && localItems.length > 0 && (
-          <SocialTrendGroup title={labels.localSocialTrends} items={localItems} labels={labels} />
-        )}
-      </div>
-    </section>
-  );
-}
-
-function SocialTrendGroup({ title, items, labels }) {
-  return (
-    <div className="daily-social-group">
-      <h3>{title}</h3>
-      <div className="social-discussion-list daily-social-list">
-        {items.map((item) => (
-          <SocialDiscussionLink item={item} labels={labels} key={`${item.language || "trend"}-${item.platform}-${item.url}`} />
-        ))}
-      </div>
-    </div>
-  );
-}
-
-function SocialDiscussionLink({ item, labels }) {
-  const meta = discussionMeta(item, labels);
-  const owner = item.community || item.account || item.author;
-
-  return (
-    <a href={item.url} target="_blank" rel="noreferrer">
-      <span className="social-platform">{item.platform}</span>
-      <span className="social-title">{item.title}</span>
-      <span className="social-meta">
-        {owner}
-        {owner && meta ? " · " : ""}
-        {meta}
-      </span>
-      <ExternalLink size={14} />
-    </a>
-  );
-}
 
 function PeopleContextList({ people, labels, language }) {
   return (
@@ -5491,11 +5243,9 @@ function PeopleContextList({ people, labels, language }) {
 function App() {
   const sharedId = initialSharedId();
   const [data, setData] = useState(null);
-  const [socialTrendData, setSocialTrendData] = useState({ en: null, local: null });
   const [activeId, setActiveId] = useState(sharedId);
   const [query, setQuery] = useState("");
   const [mode, setMode] = useState("all");
-  const [heatFilter, setHeatFilter] = useState(initialHeatFilter);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [expandedId, setExpandedId] = useState(sharedId);
@@ -5535,24 +5285,8 @@ function App() {
     setLoading(false);
   }
 
-  async function loadSocialTrends() {
-    try {
-      const [englishPayload, localPayload] = await Promise.all([
-        fetchOptionalJson(socialTrendsSourceUrl("en")),
-        language === "en" ? Promise.resolve(null) : fetchOptionalJson(socialTrendsSourceUrl(language))
-      ]);
-      setSocialTrendData({ en: englishPayload, local: localPayload });
-    } catch {
-      setSocialTrendData({ en: null, local: null });
-    }
-  }
-
   useEffect(() => {
     loadNews();
-  }, [language]);
-
-  useEffect(() => {
-    loadSocialTrends();
   }, [language]);
 
   useEffect(() => {
@@ -5584,10 +5318,6 @@ function App() {
   useEffect(() => {
     window.localStorage.setItem("brief-show-people-context", String(showPeopleContext));
   }, [showPeopleContext]);
-
-  useEffect(() => {
-    window.localStorage.setItem("brief-heat-filter", String(heatFilter));
-  }, [heatFilter]);
 
   useEffect(() => {
     return () => {
@@ -5741,22 +5471,15 @@ function App() {
       const matchesSearch = text.includes(query.toLowerCase());
       const sourceCount = displaySourceCount(cluster);
       const matchesMode = mode === "all" || (mode === "multi" ? sourceCount > 1 : sourceCount === 1);
-      const matchesHeat = heatFilter === 0 || socialHeat({ ...cluster, language }, language).level >= heatFilter;
-      return isRecentCluster(cluster) && matchesSearch && matchesMode && matchesHeat;
+      return isRecentCluster(cluster) && matchesSearch && matchesMode;
     });
-  }, [data, heatFilter, language, mode, query]);
+  }, [data, mode, query]);
 
   const active = clusters.find((cluster) => cluster.id === activeId) || clusters[0];
   const displayActive = active ? { ...active, language } : null;
   const activeDifferences = uniqueDifferences(displayActive);
   const activeCommentary = showCommentary ? getFourNewsCommentary(displayActive, language) : "";
   const activePeople = showPeopleContext ? mentionedPeople(displayActive) : [];
-  const activeSocialDiscussions = validSocialDiscussions(displayActive, language);
-  const englishSocialTrends = useMemo(() => normalizeSocialTrendItems(socialTrendData.en, "en"), [socialTrendData.en]);
-  const localSocialTrends = useMemo(
-    () => normalizeSocialTrendItems(socialTrendData.local, language),
-    [language, socialTrendData.local]
-  );
 
   useEffect(() => {
     if (activeId && clusters.length && !clusters.some((cluster) => cluster.id === activeId)) {
@@ -5957,22 +5680,6 @@ function App() {
             </button>
           </div>
 
-          <label className="setting-control">
-            <span>{labels.heatFilter}</span>
-            <select
-              value={heatFilter}
-              onChange={(event) => setHeatFilter(Number(event.target.value))}
-              aria-label={labels.heatFilter}
-            >
-              <option value={0}>{labels.heatAll}</option>
-              {[1, 2, 3, 4].map((level) => (
-                <option key={level} value={level}>
-                  {labels.heatAtLeast} {level}
-                </option>
-              ))}
-            </select>
-          </label>
-
           <button className="refresh-button" onClick={() => loadNews()} disabled={loading}>
             <RefreshCw size={17} className={loading ? "spin" : ""} />
             {labels.reload}
@@ -6019,20 +5726,12 @@ function App() {
       <section className="list-pane">
         {error && <div className="data-error">{error}</div>}
 
-        <DailySocialTrendsPanel
-          englishItems={englishSocialTrends}
-          localItems={localSocialTrends}
-          labels={labels}
-          language={language}
-        />
-
         <div className="cluster-list">
           {clusters.map((cluster) => {
             const displayCluster = { ...cluster, language };
             const speechState = speechButtonState(displayCluster);
             const commentary = showCommentary ? getFourNewsCommentary(displayCluster, language) : "";
             const people = showPeopleContext ? mentionedPeople(displayCluster) : [];
-            const socialDiscussions = validSocialDiscussions(displayCluster, language);
 
             return (
               <article
@@ -6050,7 +5749,6 @@ function App() {
                   >
                     <h3>
                       <span>{displayCluster.headline}</span>
-                      <HeatIndicator cluster={displayCluster} language={language} />
                     </h3>
                   </button>
                   <button
@@ -6117,10 +5815,6 @@ function App() {
                     </div>
                   )}
 
-                  {socialDiscussions.length > 0 && (
-                    <SocialDiscussionList discussions={socialDiscussions} labels={labels} />
-                  )}
-
                   <div className="mobile-section">
                     <div className="link-list">
                       {displayCluster.links.map((link) => (
@@ -6157,7 +5851,6 @@ function App() {
               <div>
                 <h2>
                   <span>{linkifyPeopleText(displayActive.headline, true)}</span>
-                  <HeatIndicator cluster={displayActive} language={language} />
                 </h2>
               </div>
               <button
@@ -6203,8 +5896,6 @@ function App() {
                 <PeopleContextList people={activePeople} labels={labels} language={language} />
               </article>
             )}
-
-            <SocialDiscussionList discussions={activeSocialDiscussions} labels={labels} />
 
             <div className={`detail-grid ${activeDifferences.length === 0 ? "single-column" : ""}`}>
               {activeDifferences.length > 0 && (
