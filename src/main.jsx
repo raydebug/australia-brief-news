@@ -1092,6 +1092,45 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Shadi Alsuleiman",
+    aliases: ["Shadi Alsuleiman", "Shady Alsuleiman", "Shady Al-Suleiman", "Sheikh Shadi Alsuleiman", "Sheik Shadi Alsuleiman", "Imam Shadi Alsuleiman", "Shadi Asuleiman"],
+    type: "religious leader",
+    profile: { label: "ANIC profile", url: "https://anic.org.au/about-anic/" },
+    officialProfile: { label: "The Muslim 500 profile", url: "https://themuslim500.com/profiles/shady-alsuleiman/" },
+    social: { label: "Instagram", url: "https://www.instagram.com/shadialsuleiman/" },
+    personalSocial: { label: "X", url: "https://x.com/shadialsuleiman" },
+    background: {
+      "zh-Hans": "澳大利亚穆斯林宗教领袖，任 Australian National Imams Council 主席，并创办 United Muslims of Australia；其公开发言和社区角色经常进入全国宗教、社会凝聚和反歧视讨论。",
+      "zh-Hant": "澳洲穆斯林宗教領袖，任 Australian National Imams Council 主席，並創辦 United Muslims of Australia；其公開發言和社區角色經常進入全國宗教、社會凝聚和反歧視討論。",
+      en: "Australian Muslim religious leader, president of the Australian National Imams Council and founder of United Muslims of Australia; his public comments and community role often feature in national debates on religion, social cohesion and discrimination.",
+      es: "Líder religioso musulmán australiano, presidente del Australian National Imams Council y fundador de United Muslims of Australia; sus declaraciones públicas y su papel comunitario aparecen con frecuencia en debates nacionales sobre religión, cohesión social y discriminación.",
+      ja: "豪州のムスリム宗教指導者。Australian National Imams Council の会長で、United Muslims of Australia の創設者です。公開発言と地域での役割は、宗教、社会的結束、差別をめぐる全国的議論にしばしば関わります。",
+      ko: "호주 무슬림 종교 지도자로 Australian National Imams Council 회장이며 United Muslims of Australia 창립자입니다. 그의 공개 발언과 공동체 역할은 종교, 사회 통합, 차별을 둘러싼 전국 논쟁에 자주 등장합니다.",
+      vi: "Lãnh đạo tôn giáo Hồi giáo Australia, chủ tịch Australian National Imams Council và người sáng lập United Muslims of Australia; các phát biểu công khai và vai trò cộng đồng của ông thường xuất hiện trong tranh luận quốc gia về tôn giáo, gắn kết xã hội và phân biệt đối xử.",
+      th: "ผู้นำศาสนาอิสลามในออสเตรเลีย ประธาน Australian National Imams Council และผู้ก่อตั้ง United Muslims of Australia; บทบาทชุมชนและถ้อยแถลงสาธารณะของเขามักอยู่ในการถกเถียงระดับชาติเรื่องศาสนา ความสมานฉันท์ทางสังคม และการเลือกปฏิบัติ",
+      si: "Australian Muslim religious leader කෙනෙකි; Australian National Imams Council හි president සහ United Muslims of Australia හි founder වේ. ඔහුගේ public comments සහ community role, religion, social cohesion සහ discrimination පිළිබඳ ජාතික සාකච්ඡාවල නිතර පෙනේ."
+    }
+  },
+  {
+    name: "Ibrahim Dadoun",
+    aliases: ["Ibrahim Dadoun", "Sheikh Ibrahim Dadoun", "Sheik Ibrahim Dadoun", "Imam Ibrahim Dadoun", "Sh. Ibrahim Dadoun"],
+    type: "religious leader",
+    profile: { label: "Islamic Media speaker page", url: "https://islamicmedia.com.au/islamic_media_cateogry/sh-ibrahim-dadoun/" },
+    social: { label: "Instagram", url: "https://www.instagram.com/sheikh_ibrahim_dadoun/" },
+    personalSocial: { label: "Facebook", url: "https://www.facebook.com/sheikhibrahimdadoun/" },
+    background: {
+      "zh-Hans": "悉尼穆斯林宗教人士和婚姻主持人，曾与 United Muslims of Australia 和 Australian National Imams Council 相关；其 2023 年亲巴勒斯坦集会发言后来成为反犹主义皇家委员会讨论内容。",
+      "zh-Hant": "雪梨穆斯林宗教人士和婚姻主持人，曾與 United Muslims of Australia 和 Australian National Imams Council 相關；其 2023 年親巴勒斯坦集會發言後來成為反猶太主義皇家委員會討論內容。",
+      en: "Sydney Muslim religious figure and marriage celebrant who has been linked with United Muslims of Australia and the Australian National Imams Council; his remarks at a 2023 pro-Palestinian rally later became evidence in antisemitism royal commission hearings.",
+      es: "Figura religiosa musulmana de Sídney y celebrante matrimonial vinculada con United Muslims of Australia y el Australian National Imams Council; sus declaraciones en una manifestación propalestina de 2023 luego fueron tratadas en audiencias de la comisión real sobre antisemitismo.",
+      ja: "シドニーのムスリム宗教者、婚姻 celebrant。United Muslims of Australia と Australian National Imams Council に関係しており、2023年の親パレスチナ集会での発言は後に反ユダヤ主義に関する王立委員会の審理で扱われました。",
+      ko: "시드니의 무슬림 종교 인사이자 결혼 집례자로 United Muslims of Australia 및 Australian National Imams Council과 관련돼 왔습니다. 2023년 친팔레스타인 집회 발언은 이후 반유대주의 왕립위원회 청문에서 다뤄졌습니다.",
+      vi: "Nhân vật tôn giáo Hồi giáo ở Sydney và người cử hành hôn lễ, từng liên quan United Muslims of Australia và Australian National Imams Council; phát biểu của ông tại một cuộc biểu tình ủng hộ Palestine năm 2023 sau đó được nêu trong các phiên điều trần của royal commission về bài Do Thái.",
+      th: "บุคคลศาสนาอิสลามในซิดนีย์และผู้ประกอบพิธีสมรส เคยเกี่ยวข้องกับ United Muslims of Australia และ Australian National Imams Council; คำพูดของเขาในการชุมนุมสนับสนุนปาเลสไตน์ปี 2023 ต่อมาถูกหยิบยกในการไต่สวนของ royal commission เรื่อง antisemitism",
+      si: "Sydney Muslim religious figure සහ marriage celebrant කෙනෙකි; United Muslims of Australia සහ Australian National Imams Council සමඟ සම්බන්ධ වී ඇත. 2023 pro-Palestinian rally එකක කළ remarks පසුව antisemitism royal commission hearings වල evidence ලෙස සාකච්ඡා විය."
+    }
+  },
+  {
     name: "Tony Modra",
     aliases: ["Tony Modra", "Anthony Dale Modra", "Anthony Modra", "Tony Modra official", "Tony Modra Official", "托尼·莫德拉", "東尼·莫德拉", "トニー・モドラ", "토니 모드라"],
     type: "athlete",
