@@ -1885,6 +1885,73 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Amanda Camm",
+    aliases: ["Amanda Camm", "Amanda Jane Camm", "Amanda Camm MP", "The Hon Amanda Camm MP"],
+    type: "politician",
+    profile: { label: "Queensland Parliament profile", url: "https://www.parliament.qld.gov.au/Members/Current-Members/Member-List/Member-Details?id=737752013" },
+    officialProfile: { label: "Queensland Cabinet profile", url: "https://cabinet.qld.gov.au/ministers-portfolios/amanda-camm.aspx" },
+    social: { label: "Facebook", url: "https://www.facebook.com/AmandaCammMP/" },
+    personalSocial: { label: "Personal website", url: "https://www.amandacamm.com.au/" },
+    background: {
+      "zh-Hans": "昆士兰自由国家党政治人物，Whitsunday 选区州议员，曾任 Mackay Regional Council 副市长；现任昆士兰家庭、长者与残障服务部长，并负责儿童安全和家庭暴力预防。",
+      "zh-Hant": "昆士蘭自由國家黨政治人物，Whitsunday 選區州議員，曾任 Mackay Regional Council 副市長；現任昆士蘭家庭、長者與殘障服務部長，並負責兒童安全和家庭暴力預防。",
+      en: "Queensland Liberal National Party politician, MP for Whitsunday and former Mackay Regional Council deputy mayor; she is Minister for Families, Seniors and Disability Services, Child Safety and the Prevention of Domestic and Family Violence.",
+      es: "Política del Liberal National Party de Queensland, diputada por Whitsunday y ex vicealcaldesa de Mackay Regional Council; es ministra de Familias, Mayores y Discapacidad, Seguridad Infantil y Prevención de Violencia Doméstica y Familiar.",
+      ja: "クイーンズランド州 Liberal National Party の政治家で、Whitsunday 選出州議員。元 Mackay Regional Council 副市長で、家族・高齢者・障害者サービス、児童安全、家庭内暴力防止を担当する州閣僚です。",
+      ko: "퀸즐랜드 Liberal National Party 정치인으로 Whitsunday 지역구 의원이며 전 Mackay Regional Council 부시장입니다. 가족, 노인, 장애 서비스와 아동 안전, 가정폭력 예방을 담당하는 주 장관입니다.",
+      vi: "Chính trị gia Liberal National Party tại Queensland, nghị sĩ bang khu Whitsunday và cựu phó thị trưởng Mackay Regional Council; bà là bộ trưởng phụ trách gia đình, người cao tuổi, dịch vụ khuyết tật, an toàn trẻ em và phòng chống bạo lực gia đình.",
+      th: "นักการเมือง Liberal National Party ของรัฐควีนส์แลนด์ ส.ส. รัฐเขต Whitsunday และอดีตรองนายกเทศมนตรี Mackay Regional Council ปัจจุบันเป็นรัฐมนตรีด้านครอบครัว ผู้สูงอายุ บริการคนพิการ ความปลอดภัยเด็ก และการป้องกันความรุนแรงในครอบครัว",
+      si: "Queensland Liberal National Party දේශපාලනඥයෙකු වන Amanda Camm, Whitsunday MP සහ හිටපු Mackay Regional Council deputy mayor කෙනෙකි; Families, Seniors and Disability Services, Child Safety සහ Domestic and Family Violence Prevention සඳහා minister වේ."
+    },
+    positions: {
+      "zh-Hans": [
+        "儿童安全：主张加强儿童保护系统、问责和跨机构协调。",
+        "家庭暴力：负责昆州家庭暴力预防政策和受害者服务改革。",
+        "地方发展：长期强调 Whitsunday 和 Mackay 地区的社区服务、区域经济和基础设施。"
+      ],
+      "zh-Hant": [
+        "兒童安全：主張加強兒童保護系統、問責和跨機構協調。",
+        "家庭暴力：負責昆州家庭暴力預防政策和受害者服務改革。",
+        "地方發展：長期強調 Whitsunday 和 Mackay 地區的社區服務、區域經濟和基礎設施。"
+      ],
+      en: [
+        "Child safety: she argues for stronger child-protection systems, accountability and cross-agency coordination.",
+        "Domestic violence: her portfolio covers Queensland's prevention policy and victim-service reform.",
+        "Regional development: she emphasises community services, regional economic growth and infrastructure in Whitsunday and Mackay."
+      ],
+      es: [
+        "Seguridad infantil: defiende sistemas de protección infantil más fuertes, rendición de cuentas y coordinación entre agencias.",
+        "Violencia doméstica: su cartera cubre prevención y reforma de servicios para víctimas en Queensland.",
+        "Desarrollo regional: enfatiza servicios comunitarios, crecimiento económico regional e infraestructura en Whitsunday y Mackay."
+      ],
+      ja: [
+        "児童安全：児童保護制度、説明責任、機関連携の強化を掲げています。",
+        "家庭内暴力：クイーンズランド州の防止政策と被害者支援改革を所管しています。",
+        "地域開発：Whitsunday と Mackay の地域サービス、地域経済、インフラを重視しています。"
+      ],
+      ko: [
+        "아동 안전: 아동보호 체계, 책임성, 기관 간 조정 강화를 주장합니다.",
+        "가정폭력: 퀸즐랜드의 예방 정책과 피해자 서비스 개혁을 담당합니다.",
+        "지역 개발: Whitsunday와 Mackay의 지역 서비스, 경제 성장, 인프라를 강조합니다."
+      ],
+      vi: [
+        "An toàn trẻ em: bà ủng hộ hệ thống bảo vệ trẻ em mạnh hơn, trách nhiệm giải trình và phối hợp liên cơ quan.",
+        "Bạo lực gia đình: danh mục của bà bao gồm chính sách phòng ngừa và cải cách dịch vụ cho nạn nhân tại Queensland.",
+        "Phát triển vùng: bà nhấn mạnh dịch vụ cộng đồng, tăng trưởng kinh tế vùng và hạ tầng ở Whitsunday và Mackay."
+      ],
+      th: [
+        "ความปลอดภัยเด็ก: ผลักดันระบบคุ้มครองเด็ก ความรับผิดชอบ และการประสานงานข้ามหน่วยงานให้เข้มแข็งขึ้น",
+        "ความรุนแรงในครอบครัว: รับผิดชอบนโยบายป้องกันและการปฏิรูปบริการช่วยเหลือผู้เสียหายใน Queensland",
+        "การพัฒนาภูมิภาค: เน้นบริการชุมชน เศรษฐกิจภูมิภาค และโครงสร้างพื้นฐานใน Whitsunday และ Mackay"
+      ],
+      si: [
+        "Child safety: child-protection systems, accountability සහ cross-agency coordination ශක්තිමත් කිරීම ඇය අවධාරණය කරයි.",
+        "Domestic violence: Queensland prevention policy සහ victim-service reform ඇගේ portfolio එකට අයත් වේ.",
+        "Regional development: Whitsunday සහ Mackay හි community services, regional economy සහ infrastructure ගැන ඇය අවධානය යොමු කරයි."
+      ]
+    }
+  },
+  {
     name: "Jarrod Bleijie",
     aliases: ["Jarrod Bleijie", "Jarrod Pieter Bleijie", "Jarrod Bleijie MP", "贾罗德·布莱吉", "賈羅德·布萊吉", "ジャロッド・ブレイジー", "재러드 블레이기"],
     type: "politician",
