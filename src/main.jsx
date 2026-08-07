@@ -6,6 +6,7 @@ import {
   Download,
   ExternalLink,
   Filter,
+  Flame,
   MessageSquareText,
   Radio,
   RefreshCw,
@@ -215,6 +216,9 @@ const I18N = {
     offline: "离线",
     searchPlaceholder: "搜索标题或摘要",
     filterLabel: "过滤新闻",
+    heatFilter: "热度",
+    heatAll: "全部热度",
+    heatAtLeast: "至少",
     all: "全部",
     multi: "多源",
     single: "单源",
@@ -255,6 +259,9 @@ const I18N = {
     offline: "離線",
     searchPlaceholder: "搜尋標題或摘要",
     filterLabel: "篩選新聞",
+    heatFilter: "熱度",
+    heatAll: "全部熱度",
+    heatAtLeast: "至少",
     all: "全部",
     multi: "多源",
     single: "單源",
@@ -295,6 +302,9 @@ const I18N = {
     offline: "නොබැඳි",
     searchPlaceholder: "ශීර්ෂය හෝ සාරාංශය සොයන්න",
     filterLabel: "පුවත් පෙරහන් කරන්න",
+    heatFilter: "උණුසුම",
+    heatAll: "සියලු උණුසුම් මට්ටම්",
+    heatAtLeast: "අවම",
     all: "සියල්ල",
     multi: "බහු මූලාශ්‍ර",
     single: "එක් මූලාශ්‍රයක්",
@@ -335,6 +345,9 @@ const I18N = {
     offline: "Offline",
     searchPlaceholder: "Search headlines or summaries",
     filterLabel: "Filter news",
+    heatFilter: "Heat",
+    heatAll: "All heat",
+    heatAtLeast: "At least",
     all: "All",
     multi: "Multi-source",
     single: "Single-source",
@@ -375,6 +388,9 @@ const I18N = {
     offline: "Sin conexión",
     searchPlaceholder: "Buscar titulares o resúmenes",
     filterLabel: "Filtrar noticias",
+    heatFilter: "Interés",
+    heatAll: "Todo interés",
+    heatAtLeast: "Al menos",
     all: "Todo",
     multi: "Varias fuentes",
     single: "Una fuente",
@@ -415,6 +431,9 @@ const I18N = {
     offline: "オフライン",
     searchPlaceholder: "見出しまたは要約を検索",
     filterLabel: "ニュースを絞り込む",
+    heatFilter: "注目度",
+    heatAll: "すべての注目度",
+    heatAtLeast: "最低",
     all: "すべて",
     multi: "複数ソース",
     single: "単一ソース",
@@ -455,6 +474,9 @@ const I18N = {
     offline: "오프라인",
     searchPlaceholder: "제목 또는 요약 검색",
     filterLabel: "뉴스 필터",
+    heatFilter: "화제성",
+    heatAll: "전체 화제성",
+    heatAtLeast: "최소",
     all: "전체",
     multi: "복수 출처",
     single: "단일 출처",
@@ -495,6 +517,9 @@ const I18N = {
     offline: "Ngoại tuyến",
     searchPlaceholder: "Tìm tiêu đề hoặc tóm tắt",
     filterLabel: "Lọc tin tức",
+    heatFilter: "Độ nóng",
+    heatAll: "Mọi độ nóng",
+    heatAtLeast: "Ít nhất",
     all: "Tất cả",
     multi: "Nhiều nguồn",
     single: "Một nguồn",
@@ -535,6 +560,9 @@ const I18N = {
     offline: "ออฟไลน์",
     searchPlaceholder: "ค้นหาหัวข้อหรือสรุป",
     filterLabel: "กรองข่าว",
+    heatFilter: "กระแส",
+    heatAll: "ทุกระดับกระแส",
+    heatAtLeast: "อย่างน้อย",
     all: "ทั้งหมด",
     multi: "หลายแหล่ง",
     single: "แหล่งเดียว",
@@ -682,6 +710,11 @@ function initialShowCommentary() {
 
 function initialShowPeopleContext() {
   return window.localStorage.getItem("brief-show-people-context") === "true";
+}
+
+function initialHeatFilter() {
+  const value = Number(window.localStorage.getItem("brief-heat-filter") || 0);
+  return Number.isInteger(value) && value >= 0 && value <= 4 ? value : 0;
 }
 
 function newsSourceUrl(language) {
@@ -5197,6 +5230,58 @@ function SourceLogo({ name }) {
   );
 }
 
+function socialDiscussionSet(cluster, language) {
+  const localized = cluster?.localizedSocialDiscussions || cluster?.socialDiscussionsByLanguage;
+  const raw = cluster?.socialDiscussions;
+  const groups = [];
+
+  if (localized?.[language]?.length) groups.push(localized[language]);
+  if (language !== "en" && localized?.en?.length) groups.push(localized.en);
+
+  if (Array.isArray(raw)) groups.push(raw);
+
+  if (raw && !Array.isArray(raw) && typeof raw === "object") {
+    if (raw[language]?.length) groups.push(raw[language]);
+    if (language !== "en" && raw.en?.length) groups.push(raw.en);
+    if (raw.default?.length) groups.push(raw.default);
+  }
+
+  const seen = new Set();
+  return groups.flat().filter((item) => {
+    const key = String(item?.url || "").trim();
+    if (!key || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function validSocialDiscussions(cluster, language = cluster?.language || "en") {
+  return socialDiscussionSet(cluster, language)
+    .filter((item) => item?.platform && item?.title && item?.url)
+    .sort((a, b) => Number(b.score || 0) - Number(a.score || 0))
+    .slice(0, 5);
+}
+
+function socialHeat(cluster, language = cluster?.language || "en") {
+  const discussions = validSocialDiscussions(cluster, language);
+  const score = discussions.reduce((total, item) => total + Number(item.score || 0), 0);
+  const level = score >= 1800 ? 4 : score >= 800 ? 3 : score >= 250 ? 2 : score > 0 ? 1 : 0;
+  return { score, level, count: discussions.length };
+}
+
+function HeatIndicator({ cluster, language }) {
+  const heat = socialHeat(cluster, language);
+  const title = heat.count
+    ? `Social heat ${heat.level}/4, score ${heat.score}, ${heat.count} discussion links`
+    : "Social heat 0/4, no tracked discussion links yet";
+
+  return (
+    <span className={`heat-indicator heat-${heat.level}`} title={title} aria-label={title}>
+      <Flame size={13} />
+      <span>{heat.level}</span>
+    </span>
+  );
+}
 
 function PeopleContextList({ people, labels, language }) {
   return (
@@ -5246,6 +5331,7 @@ function App() {
   const [activeId, setActiveId] = useState(sharedId);
   const [query, setQuery] = useState("");
   const [mode, setMode] = useState("all");
+  const [heatFilter, setHeatFilter] = useState(initialHeatFilter);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [expandedId, setExpandedId] = useState(sharedId);
@@ -5318,6 +5404,10 @@ function App() {
   useEffect(() => {
     window.localStorage.setItem("brief-show-people-context", String(showPeopleContext));
   }, [showPeopleContext]);
+
+  useEffect(() => {
+    window.localStorage.setItem("brief-heat-filter", String(heatFilter));
+  }, [heatFilter]);
 
   useEffect(() => {
     return () => {
@@ -5471,9 +5561,10 @@ function App() {
       const matchesSearch = text.includes(query.toLowerCase());
       const sourceCount = displaySourceCount(cluster);
       const matchesMode = mode === "all" || (mode === "multi" ? sourceCount > 1 : sourceCount === 1);
-      return isRecentCluster(cluster) && matchesSearch && matchesMode;
+      const matchesHeat = socialHeat({ ...cluster, language }, language).level >= heatFilter;
+      return isRecentCluster(cluster) && matchesSearch && matchesMode && matchesHeat;
     });
-  }, [data, mode, query]);
+  }, [data, heatFilter, language, mode, query]);
 
   const active = clusters.find((cluster) => cluster.id === activeId) || clusters[0];
   const displayActive = active ? { ...active, language } : null;
@@ -5680,6 +5771,22 @@ function App() {
             </button>
           </div>
 
+          <label className="setting-control">
+            <span>{labels.heatFilter}</span>
+            <select
+              value={heatFilter}
+              onChange={(event) => setHeatFilter(Number(event.target.value))}
+              aria-label={labels.heatFilter}
+            >
+              <option value={0}>{labels.heatAll}</option>
+              {[1, 2, 3, 4].map((level) => (
+                <option key={level} value={level}>
+                  {labels.heatAtLeast} {level}
+                </option>
+              ))}
+            </select>
+          </label>
+
           <button className="refresh-button" onClick={() => loadNews()} disabled={loading}>
             <RefreshCw size={17} className={loading ? "spin" : ""} />
             {labels.reload}
@@ -5749,6 +5856,7 @@ function App() {
                   >
                     <h3>
                       <span>{displayCluster.headline}</span>
+                      <HeatIndicator cluster={displayCluster} language={language} />
                     </h3>
                   </button>
                   <button
@@ -5851,6 +5959,7 @@ function App() {
               <div>
                 <h2>
                   <span>{linkifyPeopleText(displayActive.headline, true)}</span>
+                  <HeatIndicator cluster={displayActive} language={language} />
                 </h2>
               </div>
               <button
