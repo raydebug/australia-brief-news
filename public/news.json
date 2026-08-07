@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T03:08:21Z",
+  "updatedAt": "2026-08-07T04:14:40.349Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -101,11 +101,142 @@
     }
   ],
   "errors": [
-    "news.com.au content feed returned no extractable current-week items this run.",
-    "AFR, AAP and Sky News Australia required page-level fallbacks because stable current-week RSS listings were not available.",
-    "The Australian, Yahoo News Australia, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday and The Canberra Times did not expose reliable current-week listings for this run."
+    "news.com.au content feed returned no parseable current-week items this run; article-page fallback was used where needed.",
+    "The Australian, Yahoo News Australia, Australian Financial Review, Sky News Australia, 9News, 7NEWS, The Sydney Morning Herald, The Age, Brisbane Times, WAtoday and The Canberra Times did not expose equally stable current-week listings in this refresh."
   ],
   "clusters": [
+    {
+      "id": "sunshine-shop-owner-dies-20260806",
+      "language": "zh-Hans",
+      "sourceCount": 4,
+      "publishedAt": "2026-08-07T06:17:50.772Z",
+      "headline": "阳光小店老板之死引出更多指控和保释裁定",
+      "voiceScript": "60 岁的 Van Viet Truong 在 Sunshine 一场据称从抢劫开始的袭击后死亡。警方随后继续推进这起同一事件，出现了更多指控和保释裁定。这很重要，因为这起案件已成为检验青少年暴力案件处理方式的一次考验。接下来要看的是后续庭审以及指控是否还会变化。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/youths-charged-over-alleged-sunshine-assault-bailed/107009290"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/good-samaritan-dies-after-alleged-shoplifting-scuffle"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/video/news/top-video/sunshine-shopkeeper-dies-after-alleged-youth-gang-attack-bc-6402895052112"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/victoria/courts-law/good-samaritan-who-came-to-aid-of-shopkeepers-in-sunshine-expected-to-die-after-alleged-bashing-at-hands-of-children/news-story/6e74aa1c98e8de080dc5eca41e27fd07"
+        }
+      ],
+      "socialDiscussions": []
+    },
+    {
+      "id": "cairns-stolen-car-death-20260807",
+      "language": "zh-Hans",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-07T03:50:58.000Z",
+      "headline": "凯恩斯偷车撞车案升级为谋杀指控",
+      "voiceScript": "警方称，凯恩斯一辆被盗车辆撞上 25 岁的 Savannah Spence，导致她死亡，并正推动对被告司机提出谋杀指控。该案还涉及他据称逃离现场后又劫车的说法，使昆州的保释争议进一步升温。这很重要，因为一起致命车祸已经扩大成更广泛的公共安全案件。接下来是法庭程序和警方可能提出的更多指控。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/cairns-stolen-car-death-court/107008762"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/young-woman-killed-after-head-on-crash-allegedly-caused-by-man-driving-stolen-car-in-cairns-c-22688024"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/queensland"
+        }
+      ],
+      "socialDiscussions": []
+    },
+    {
+      "id": "pfas-3m-case-20260807",
+      "language": "zh-Hans",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-07T03:20:35.000Z",
+      "headline": "澳洲针对 3M 的 PFAS 案件进入法庭",
+      "voiceScript": "联邦政府已经就 PFAS 问题对 3M 提起诉讼，称这家公司的灭火泡沫污染了国防设施，并给公众留下巨额清理账单。索赔金额高达数十亿澳元，可能成为政府最大规模的环境诉讼之一。这很重要，因为这起案件将检验企业对所谓“永久化学物”的责任边界。接下来是法院对证据和责任的审查。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/commonwealth-pfas-case-against-3m-daunting/107008470"
+        }
+      ],
+      "socialDiscussions": []
+    },
+    {
+      "id": "melbourne-liberal-ticket-20260807",
+      "language": "zh-Hans",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-07T03:01:00.000Z",
+      "headline": "墨尔本副市长准备转向州政坛",
+      "voiceScript": "Roshena Campbell 预计将拿下维州西部大都会区自由党提名第一位，从墨尔本市政厅走向州议会。若最终确认，这一变化将让副市长职位出现空缺，并重组城市领导层。这很重要，因为它可能同时改变自由党名单和墨尔本市议会的力量平衡。接下来是正式确认以及市议会如何处理这个空缺。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/liberal-party-deputy-melbourne-mayor-roshena-campbell/107008954"
+        }
+      ],
+      "socialDiscussions": []
+    },
+    {
+      "id": "townsville-teenager-tied-tree-20260807",
+      "language": "zh-Hans",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-07T02:48:14.000Z",
+      "headline": "汤斯维尔警方在少年被绑树后逮捕九人",
+      "voiceScript": "汤斯维尔警方称，一名 17 岁男孩据称被殴打并绑在林地里的树上后，已有 9 人被捕、3 人被控。这个案件很重要，因为它指向昆州北部一宗严重的青少年暴力调查。接下来是法庭程序，以及警探审查证据后是否还会追加指控。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/townsville-teenager-torture/107009006"
+        }
+      ],
+      "socialDiscussions": []
+    },
+    {
+      "id": "imam-palestine-rally-comments-20260807",
+      "language": "zh-Hans",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-07T02:46:00.000Z",
+      "headline": "澳洲伊玛目批评集会中关于 10 月 7 日的言论",
+      "voiceScript": "一位澳洲知名伊玛目批评了在一场支持巴勒斯坦的集会上发表的言论，原因是另一位发言者把 10 月 7 日称为“骄傲”和“胜利”的一天。争议之所以重要，是因为它让关于抗议措辞、反犹主义和公共问责的全国讨论进一步升温。接下来要看的是皇家委员会和政治领导人如何回应。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/nsw-royal-commission-antisemitism-imam-rally-comments/107007802"
+        }
+      ],
+      "socialDiscussions": []
+    },
+    {
+      "id": "tasmanian-online-bets-theft-20260807",
+      "language": "zh-Hans",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-07T02:36:00.000Z",
+      "headline": "塔州员工因挪用 22 万澳元下注网赌被判入狱",
+      "voiceScript": "霍巴特法庭听取到，一名 Salmon Tasmania 员工在三个月里从雇主那里偷走 22 万澳元，并把钱输在网络赌博上。这个案件很重要，因为它显示赌博问题如何迅速演变成严重的职场盗窃。该男子已被判入狱 6 个月，赔偿问题仍待处理。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/man-who-stole-from-employer-to-fund-online-gambling-sentenced/107008546"
+        }
+      ],
+      "socialDiscussions": []
+    },
     {
       "id": "bird-flu-response-20260807",
       "language": "zh-Hans",
@@ -1074,81 +1205,6 @@
           "url": "https://www.watoday.com.au/national/perth-paediatrician-accused-of-molesting-seven-more-children-20260806-p60m6l.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
         }
       ]
-    },
-    {
-      "id": "sunshine-shop-owner-dies-20260806",
-      "language": "zh-Hans",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-06T09:14:00.000Z",
-      "headline": "Sunshine 杂货店老板在青年袭击后身亡",
-      "voiceScript": "墨尔本西区 Sunshine 的杂货店老板 Van Viet Truong 在据称遭一群青少年袭击后死亡。警方说，这名 60 岁男子是在一次抢劫未遂中上前帮忙后受重伤，如今一名少年已被控过失杀人。此案之所以重要，是因为它已经从街头暴力升级为命案调查，也让人更加关注青年暴力和商户安全。接下来要看法院程序，以及调查是否会追加指控。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-06/sunshine-victoria-good-samaritan-dies/107002616"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/good-samaritan-dies-after-alleged-shoplifting-scuffle"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/melbourne",
-            "title": "Sunshine shop owner dies from injuries he suffered in alleged youth group bashing",
-            "url": "https://www.reddit.com/r/melbourne/comments/1vgnq64/sunshine_shop_owner_dies_from_injuries_he/",
-            "postedAt": "yesterday",
-            "score": 36
-          },
-          {
-            "platform": "Facebook",
-            "account": "ABC Melbourne",
-            "title": "Grocery shop owner Van Viet Truong has died from injuries he suffered in an alleged group bashing",
-            "url": "https://www.facebook.com/abcmelbourne/posts/breaking-grocery-shop-owner-van-viet-truong-has-died-from-injuries-he-suffered-i/1585125239954413/",
-            "postedAt": "yesterday",
-            "score": 22
-          },
-          {
-            "platform": "Facebook",
-            "account": "7NEWS Australia",
-            "title": "Van Viet Truong died on Wednesday afternoon",
-            "url": "https://www.facebook.com/7NewsAustralia/posts/van-viet-truong-died-on-wednesday-afternoon-link-below/1533393628827004/",
-            "postedAt": "today",
-            "score": 18
-          },
-          {
-            "platform": "Facebook",
-            "account": "9 News Melbourne",
-            "title": "A 60-year-old grocer who was allegedly bashed by teenagers in Sunshine has died",
-            "url": "https://www.facebook.com/9NewsMelbourne/posts/a-60-year-old-grocer-who-was-allegedly-bashed-by-a-group-of-teenagers-in-sunshin/1387994290148624/",
-            "postedAt": "today",
-            "score": 16
-          }
-        ],
-        "zh-Hans": [
-          {
-            "platform": "Facebook",
-            "account": "ABC中文",
-            "title": "墨尔本西区 Sunshine 的杂货店老板 Van Viet Truong 遭青少年袭击后去世",
-            "url": "https://www.facebook.com/abcchinese.au/posts/%E4%B8%80%E4%BA%9B%E5%AD%A6%E7%94%9F%E4%BB%8A%E5%B9%B4%E6%84%8F%E5%A4%96%E5%8F%91%E7%8E%B0%E5%9C%A8%E6%A0%B7%E5%8D%B7%E7%9A%84%E7%A9%BA%E7%99%BD%E5%A4%84%E5%8F%AF%E4%BB%A5%E9%80%89%E4%B8%AD%E9%9A%90%E8%97%8F%E7%9A%84%E6%96%87%E5%AD%97%E5%B0%86%E5%85%B6%E7%B2%98%E8%B4%B4%E5%88%B0word%E6%96%87%E6%A1%A3%E7%AD%89%E6%96%87%E5%AD%97%E7%BC%96%E8%BE%91%E8%BD%AF%E4%BB%B6%E5%90%8E%E6%98%BE%E7%8E%B0%E5%87%BA%E6%9D%A5%E7%9A%84%E6%96%87%E5%AD%97%E5%92%8C%E8%80%83%E8%AF%95%E9%A2%98%E7%9B%AE%E5%8D%81%E5%88%86%E7%9B%B8%E4%BC%BC%E4%B8%80%E4%BA%9B%E5%AD%A6%E7%94%9F%E8%BF%98%E5%9C%A8%E7%BD%91%E7%BB%9C%E8%AE%BA%E5%9D%9Breddit%E4%B8%8A%E5%88%86%E4%BA%AB/1051168273686879/",
-            "postedAt": "1.7 years ago",
-            "score": 14
-          }
-        ],
-        "zh-Hant": [
-          {
-            "platform": "Facebook",
-            "account": "ABC中文",
-            "title": "墨爾本西區 Sunshine 的雜貨店老闆 Van Viet Truong 遭青少年襲擊後去世",
-            "url": "https://www.facebook.com/abcchinese.au/posts/%E4%B8%80%E4%BA%9B%E5%AD%A6%E7%94%9F%E4%BB%8A%E5%B9%B4%E6%84%8F%E5%A4%96%E5%8F%91%E7%8E%B0%E5%9C%A8%E6%A0%B7%E5%8D%B7%E7%9A%84%E7%A9%BA%E7%99%BD%E5%A4%84%E5%8F%AF%E4%BB%A5%E9%80%89%E4%B8%AD%E9%9A%90%E8%97%8F%E7%9A%84%E6%96%87%E5%AD%97%E5%B0%86%E5%85%B6%E7%B2%98%E8%B4%B4%E5%88%B0word%E6%96%87%E6%A1%A3%E7%AD%89%E6%96%87%E5%AD%97%E7%BC%96%E8%BE%91%E8%BD%AF%E4%BB%B6%E5%90%8E%E6%98%BE%E7%8E%B0%E5%87%BA%E6%9D%A5%E7%9A%84%E6%96%87%E5%AD%97%E5%92%8C%E8%80%83%E8%AF%95%E9%A2%98%E7%9B%AE%E5%8D%81%E5%88%86%E7%9B%B8%E4%BC%BC%E4%B8%80%E4%BA%9B%E5%AD%A6%E7%94%9F%E8%BF%98%E5%9C%A8%E7%BD%91%E7%BB%9C%E8%AE%BA%E5%9D%9Breddit%E4%B8%8A%E5%88%86%E4%BA%AB/1051168273686879/",
-            "postedAt": "1.7 years ago",
-            "score": 14
-          }
-        ]
-      }
     },
     {
       "id": "iranian-footballers-citizenship-20260806",
@@ -4118,25 +4174,6 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/business/2026/jul/31/hsbc-bank-australia-closing-branches-blackstone-sale"
-        }
-      ]
-    },
-    {
-      "id": "melbourne-isis-mother-daughter-trial-20260731",
-      "language": "zh-Hans",
-      "headline": "墨尔本法院将涉ISIS母女送审",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-31T02:39:00.000Z",
-      "voiceScript": "墨尔本法院已裁定，卡瓦萨尔·艾哈迈德和她的女儿泽伊纳布·艾哈迈德将就奴役指控接受审判。检方称，这个家庭与伊斯兰国有关，并控制过一名雅兹迪少女；案件接下来会进入维多利亚州最高法院，8月21日还有一次庭审安排。这个案件的重要性在于，它展示了澳洲法院如何处理在伊斯兰国崩解期间发生、但与澳洲有关联的严重罪行。下一步将进入庭前程序，证据和具体指控都会被检验。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/mother-daughter-isis-brides-plead-not-guilty-slavery-charges/106981900"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/victoria/courts-law/kawsar-ahmad-and-zeinab-ahmad-isislinked-mother-and-daughter-to-fight-slavery-charges-at-trial/news-story/4ed5e87c8b62c5d5f0bffab135874e70"
         }
       ]
     }

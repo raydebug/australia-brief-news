@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T03:08:21Z",
+  "updatedAt": "2026-08-07T04:14:40.332Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -101,11 +101,142 @@
     }
   ],
   "errors": [
-    "news.com.au content feed returned no extractable current-week items this run.",
-    "AFR, AAP and Sky News Australia required page-level fallbacks because stable current-week RSS listings were not available.",
-    "The Australian, Yahoo News Australia, 9News, 7NEWS, SMH, The Age, Brisbane Times, WAtoday and The Canberra Times did not expose reliable current-week listings for this run."
+    "news.com.au content feed returned no parseable current-week items this run; article-page fallback was used where needed.",
+    "The Australian, Yahoo News Australia, Australian Financial Review, Sky News Australia, 9News, 7NEWS, The Sydney Morning Herald, The Age, Brisbane Times, WAtoday and The Canberra Times did not expose equally stable current-week listings in this refresh."
   ],
   "clusters": [
+    {
+      "id": "sunshine-shop-owner-dies-20260806",
+      "language": "en",
+      "sourceCount": 4,
+      "publishedAt": "2026-08-07T06:17:50.772Z",
+      "headline": "Sunshine shop owner's death leads to more charges and bail rulings",
+      "voiceScript": "Van Viet Truong, the 60-year-old Sunshine shop owner, died after the alleged assault that began during a robbery attempt. Police have since pushed the case forward with more charges and bail decisions tied to the same incident. It matters because the case has become a test of how the justice system handles serious youth violence. The next step is further court action and any changes to the charges.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/youths-charged-over-alleged-sunshine-assault-bailed/107009290"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/good-samaritan-dies-after-alleged-shoplifting-scuffle"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/video/news/top-video/sunshine-shopkeeper-dies-after-alleged-youth-gang-attack-bc-6402895052112"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/victoria/courts-law/good-samaritan-who-came-to-aid-of-shopkeepers-in-sunshine-expected-to-die-after-alleged-bashing-at-hands-of-children/news-story/6e74aa1c98e8de080dc5eca41e27fd07"
+        }
+      ],
+      "socialDiscussions": []
+    },
+    {
+      "id": "cairns-stolen-car-death-20260807",
+      "language": "en",
+      "sourceCount": 3,
+      "publishedAt": "2026-08-07T03:50:58.000Z",
+      "headline": "Cairns stolen-car crash brings murder allegations",
+      "voiceScript": "Police in Cairns say a stolen-car crash killed 25-year-old Savannah Spence and are now seeking murder allegations against the accused driver. The case also involves claims that he fled the scene and later carjacked another driver, which has sharpened the bail debate in Queensland. It matters because one fatal crash has widened into a broader public-safety case. The next step is the court process and any further police allegations.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/cairns-stolen-car-death-court/107008762"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/young-woman-killed-after-head-on-crash-allegedly-caused-by-man-driving-stolen-car-in-cairns-c-22688024"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/queensland"
+        }
+      ],
+      "socialDiscussions": []
+    },
+    {
+      "id": "pfas-3m-case-20260807",
+      "language": "en",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-07T03:20:35.000Z",
+      "headline": "Australia's PFAS case against 3M goes to court",
+      "voiceScript": "The Commonwealth has opened its PFAS case against 3M, arguing the company's firefighting foam contaminated defence sites and left the public with a huge cleanup bill. The claim is for billions of dollars and could become one of the government's biggest environmental actions. It matters because the case will test how far corporate responsibility reaches for so-called forever chemicals. The next step is the court's assessment of the evidence and liability.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/commonwealth-pfas-case-against-3m-daunting/107008470"
+        }
+      ],
+      "socialDiscussions": []
+    },
+    {
+      "id": "melbourne-liberal-ticket-20260807",
+      "language": "en",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-07T03:01:00.000Z",
+      "headline": "Melbourne's deputy lord mayor is set for a state politics move",
+      "voiceScript": "Roshena Campbell is set to take the Liberal Party's top spot for Victoria's Western Metropolitan Region, moving her from Melbourne Town Hall toward state parliament. If confirmed, the change would create a vacancy in the deputy lord mayor role and reshuffle the city's leadership. It matters because it could alter both the Liberal ticket and Melbourne council's balance. The next step is formal endorsement and the council response to the vacancy.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/liberal-party-deputy-melbourne-mayor-roshena-campbell/107008954"
+        }
+      ],
+      "socialDiscussions": []
+    },
+    {
+      "id": "townsville-teenager-tied-tree-20260807",
+      "language": "en",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-07T02:48:14.000Z",
+      "headline": "Townsville police arrest nine after a teen is tied to a tree",
+      "voiceScript": "Police in Townsville say nine people were arrested and three charged after a 17-year-old boy was allegedly bashed and tied to a tree in bushland. The case matters because it points to a serious youth violence investigation in far north Queensland. The next step is the court process and any extra charges as detectives review the evidence.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/townsville-teenager-torture/107009006"
+        }
+      ],
+      "socialDiscussions": []
+    },
+    {
+      "id": "imam-palestine-rally-comments-20260807",
+      "language": "en",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-07T02:46:00.000Z",
+      "headline": "Australian imam criticises rally remarks about October 7",
+      "voiceScript": "A prominent Australian imam has criticised comments made at a pro-Palestinian rally after another speaker described October 7 as a day of pride and victory. The backlash matters because it adds to the national debate over protest language, antisemitism and public accountability. The next step is how the royal commission and political leaders respond to the criticism.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/nsw-royal-commission-antisemitism-imam-rally-comments/107007802"
+        }
+      ],
+      "socialDiscussions": []
+    },
+    {
+      "id": "tasmanian-online-bets-theft-20260807",
+      "language": "en",
+      "sourceCount": 1,
+      "publishedAt": "2026-08-07T02:36:00.000Z",
+      "headline": "Tasmanian worker is jailed after stealing $220,000 for online bets",
+      "voiceScript": "A Hobart court heard a Salmon Tasmania worker stole $220,000 from his employer over three months and lost the money on online betting. The case matters because it shows how quickly gambling harm can turn into major workplace theft. He has been jailed for six months, with repayment issues still to be sorted out.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-07/man-who-stole-from-employer-to-fund-online-gambling-sentenced/107008546"
+        }
+      ],
+      "socialDiscussions": []
+    },
     {
       "id": "bird-flu-response-20260807",
       "language": "en",
@@ -1078,81 +1209,6 @@
           "url": "https://www.watoday.com.au/national/perth-paediatrician-accused-of-molesting-seven-more-children-20260806-p60m6l.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
         }
       ]
-    },
-    {
-      "language": "en",
-      "sourceCount": 2,
-      "publishedAt": "2026-08-06T09:14:00.000Z",
-      "headline": "Sunshine shop owner dies after a youth assault",
-      "voiceScript": "Van Viet Truong, the owner of a grocery store in Melbourne's west, has died after an alleged attack by a group of teenagers in Sunshine. Police say the 60-year-old stepped in during a robbery attempt and was then badly hurt, and one teenager now faces a manslaughter charge. It matters because the case has moved from a street crime story to a homicide investigation and has sharpened concern about youth violence and trader safety. The next step is the court process and any further charges as investigators piece together what happened.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-06/sunshine-victoria-good-samaritan-dies/107002616"
-        },
-        {
-          "source": "AAP",
-          "url": "https://aapnews.aap.com.au/news/good-samaritan-dies-after-alleged-shoplifting-scuffle"
-        }
-      ],
-      "id": "sunshine-shop-owner-dies-20260806",
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/melbourne",
-            "title": "Sunshine shop owner dies from injuries he suffered in alleged youth group bashing",
-            "url": "https://www.reddit.com/r/melbourne/comments/1vgnq64/sunshine_shop_owner_dies_from_injuries_he/",
-            "postedAt": "yesterday",
-            "score": 36
-          },
-          {
-            "platform": "Facebook",
-            "account": "ABC Melbourne",
-            "title": "Grocery shop owner Van Viet Truong has died from injuries he suffered in an alleged group bashing",
-            "url": "https://www.facebook.com/abcmelbourne/posts/breaking-grocery-shop-owner-van-viet-truong-has-died-from-injuries-he-suffered-i/1585125239954413/",
-            "postedAt": "yesterday",
-            "score": 22
-          },
-          {
-            "platform": "Facebook",
-            "account": "7NEWS Australia",
-            "title": "Van Viet Truong died on Wednesday afternoon",
-            "url": "https://www.facebook.com/7NewsAustralia/posts/van-viet-truong-died-on-wednesday-afternoon-link-below/1533393628827004/",
-            "postedAt": "today",
-            "score": 18
-          },
-          {
-            "platform": "Facebook",
-            "account": "9 News Melbourne",
-            "title": "A 60-year-old grocer who was allegedly bashed by teenagers in Sunshine has died",
-            "url": "https://www.facebook.com/9NewsMelbourne/posts/a-60-year-old-grocer-who-was-allegedly-bashed-by-a-group-of-teenagers-in-sunshin/1387994290148624/",
-            "postedAt": "today",
-            "score": 16
-          }
-        ],
-        "zh-Hans": [
-          {
-            "platform": "Facebook",
-            "account": "ABC中文",
-            "title": "墨尔本西区 Sunshine 的杂货店老板 Van Viet Truong 遭青少年袭击后去世",
-            "url": "https://www.facebook.com/abcchinese.au/posts/%E4%B8%80%E4%BA%9B%E5%AD%A6%E7%94%9F%E4%BB%8A%E5%B9%B4%E6%84%8F%E5%A4%96%E5%8F%91%E7%8E%B0%E5%9C%A8%E6%A0%B7%E5%8D%B7%E7%9A%84%E7%A9%BA%E7%99%BD%E5%A4%84%E5%8F%AF%E4%BB%A5%E9%80%89%E4%B8%AD%E9%9A%90%E8%97%8F%E7%9A%84%E6%96%87%E5%AD%97%E5%B0%86%E5%85%B6%E7%B2%98%E8%B4%B4%E5%88%B0word%E6%96%87%E6%A1%A3%E7%AD%89%E6%96%87%E5%AD%97%E7%BC%96%E8%BE%91%E8%BD%AF%E4%BB%B6%E5%90%8E%E6%98%BE%E7%8E%B0%E5%87%BA%E6%9D%A5%E7%9A%84%E6%96%87%E5%AD%97%E5%92%8C%E8%80%83%E8%AF%95%E9%A2%98%E7%9B%AE%E5%8D%81%E5%88%86%E7%9B%B8%E4%BC%BC%E4%B8%80%E4%BA%9B%E5%AD%A6%E7%94%9F%E8%BF%98%E5%9C%A8%E7%BD%91%E7%BB%9C%E8%AE%BA%E5%9D%9Breddit%E4%B8%8A%E5%88%86%E4%BA%AB/1051168273686879/",
-            "postedAt": "1.7 years ago",
-            "score": 14
-          }
-        ],
-        "zh-Hant": [
-          {
-            "platform": "Facebook",
-            "account": "ABC中文",
-            "title": "墨爾本西區 Sunshine 的雜貨店老闆 Van Viet Truong 遭青少年襲擊後去世",
-            "url": "https://www.facebook.com/abcchinese.au/posts/%E4%B8%80%E4%BA%9B%E5%AD%A6%E7%94%9F%E4%BB%8A%E5%B9%B4%E6%84%8F%E5%A4%96%E5%8F%91%E7%8E%B0%E5%9C%A8%E6%A0%B7%E5%8D%B7%E7%9A%84%E7%A9%BA%E7%99%BD%E5%A4%84%E5%8F%AF%E4%BB%A5%E9%80%89%E4%B8%AD%E9%9A%90%E8%97%8F%E7%9A%84%E6%96%87%E5%AD%97%E5%B0%86%E5%85%B6%E7%B2%98%E8%B4%B4%E5%88%B0word%E6%96%87%E6%A1%A3%E7%AD%89%E6%96%87%E5%AD%97%E7%BC%96%E8%BE%91%E8%BD%AF%E4%BB%B6%E5%90%8E%E6%98%BE%E7%8E%B0%E5%87%BA%E6%9D%A5%E7%9A%84%E6%96%87%E5%AD%97%E5%92%8C%E8%80%83%E8%AF%95%E9%A2%98%E7%9B%AE%E5%8D%81%E5%88%86%E7%9B%B8%E4%BC%BC%E4%B8%80%E4%BA%9B%E5%AD%A6%E7%94%9F%E8%BF%98%E5%9C%A8%E7%BD%91%E7%BB%9C%E8%AE%BA%E5%9D%9Breddit%E4%B8%8A%E5%88%86%E4%BA%AB/1051168273686879/",
-            "postedAt": "1.7 years ago",
-            "score": 14
-          }
-        ]
-      }
     },
     {
       "id": "iranian-footballers-citizenship-20260806",
@@ -4122,25 +4178,6 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/business/2026/jul/31/hsbc-bank-australia-closing-branches-blackstone-sale"
-        }
-      ]
-    },
-    {
-      "id": "melbourne-isis-mother-daughter-trial-20260731",
-      "language": "en",
-      "headline": "Melbourne court sends ISIS-linked mother and daughter to trial",
-      "sourceCount": 2,
-      "publishedAt": "2026-07-31T02:39:00.000Z",
-      "voiceScript": "A Melbourne court has committed Kawsar Ahmad and her daughter Zeinab Ahmad to stand trial on slavery charges linked to their time in Syria. Prosecutors allege the family was tied to Islamic State and controlled a Yazidi teenager, and the case now moves to the Victorian Supreme Court with a hearing listed for August 21. The case matters because it shows Australian courts handling alleged crimes committed during the collapse of Islamic State territory. The next step is the pre-trial process, where the evidence and the charges will be tested.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-07-31/mother-daughter-isis-brides-plead-not-guilty-slavery-charges/106981900"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/national/victoria/courts-law/kawsar-ahmad-and-zeinab-ahmad-isislinked-mother-and-daughter-to-fight-slavery-charges-at-trial/news-story/4ed5e87c8b62c5d5f0bffab135874e70"
         }
       ]
     }
