@@ -16,7 +16,12 @@ Rules:
 - Do not add login-only, private group, private profile, or inaccessible posts.
 - Search across all currently supported languages, not only English. Prefer discussion links matching each language file when available.
 - English discussion links are default-visible in every non-English UI and should remain as fallback/context after language-specific links.
-- Prefer Reddit posts, public X posts, public YouTube video pages where the public comment thread is relevant, and public Facebook Page posts.
+- Prioritise non-official public discussion over official/media/source posts.
+- Rank candidate links primarily by visible engagement score and discussion activity.
+- Prefer Reddit threads, public posts from ordinary users or community accounts on X/Threads/Bluesky, public forum discussions, public Facebook group/page posts with active public comments, and public YouTube videos where the comment thread is clearly active and relevant.
+- Official media, government, company, source, politician, and organisation posts are fallback only, unless their public comment thread is visibly the main active discussion around that news item.
+- If an official/media post has lower engagement than a directly related non-official/community post, keep the non-official/community post above it.
+- Existing official/media discussion links may be replaced or pushed down when better non-official, higher-engagement, directly related links are found.
 - For Chinese, Japanese, Korean, Vietnamese, Thai, Sinhala, and Spanish runs, include public discussion posts or comment-entry pages in that language when directly related to the same news cluster.
 - Facebook Groups, Instagram, and TikTok are allowed only if the post is public and directly accessible without logging in.
 
@@ -32,6 +37,7 @@ For each `socialDiscussions` entry include:
 Scoring:
 - Use `comments * 3 + shares/reposts * 2 + likes/upvotes`.
 - Adjust the score down if the match is indirect.
+- Apply a source-priority adjustment after relevance is confirmed: non-official/community discussion can keep its full score; official/media/government/source posts should be discounted unless their visible comment thread is clearly the main public discussion.
 - Do not invent metrics. If metrics are not visible, omit them and use a conservative score.
 - Keep at most 5 discussions per language per news cluster, sorted by score descending.
 
