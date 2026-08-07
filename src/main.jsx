@@ -1133,6 +1133,23 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Leah Weckert",
+    aliases: ["Leah Weckert", "Leah Weckert Coles", "Coles CEO Leah Weckert", "Coles Group CEO Leah Weckert"],
+    type: "executive",
+    officialProfile: { label: "Coles Group leadership profile", url: "https://www.colesgroup.com.au/about-us/?page=executive-leadership-team" },
+    background: {
+      "zh-Hans": "Coles Group 首席执行官兼董事总经理，2023 年 5 月起任职；2011 年加入 Coles，曾任首席财务官和商业及 Express 业务负责人。",
+      "zh-Hant": "Coles Group 行政總裁兼董事總經理，2023 年 5 月起任職；2011 年加入 Coles，曾任財務總監和 Commercial 及 Express 業務負責人。",
+      en: "Chief executive officer and managing director of Coles Group since May 2023; joined Coles in 2011 and previously held senior roles including chief financial officer and head of Commercial and Express.",
+      es: "Directora ejecutiva y managing director de Coles Group desde mayo de 2023; se incorporó a Coles en 2011 y antes ocupó cargos sénior como directora financiera y responsable de Commercial and Express.",
+      ja: "2023年5月から Coles Group の chief executive officer 兼 managing director。2011年に Coles に入り、chief financial officer や Commercial and Express 部門責任者などを務めました。",
+      ko: "2023년 5월부터 Coles Group의 chief executive officer 겸 managing director입니다. 2011년 Coles에 합류했고 chief financial officer와 Commercial and Express 책임자 등 고위직을 지냈습니다.",
+      vi: "Chief executive officer kiem managing director cua Coles Group tu thang 5 nam 2023; gia nhap Coles nam 2011 va tung giu cac vai tro cap cao nhu chief financial officer va lanh dao Commercial and Express.",
+      th: "chief executive officer และ managing director ของ Coles Group ตั้งแต่เดือนพฤษภาคม 2023 เข้าร่วม Coles ในปี 2011 และเคยดำรงตำแหน่ง senior roles รวมถึง chief financial officer และหัวหน้า Commercial and Express",
+      si: "2023 May සිට Coles Group chief executive officer සහ managing director වේ; 2011 දී Coles වෙත එක්ව chief financial officer සහ Commercial and Express head ඇතුළු senior roles දැරීය."
+    }
+  },
+  {
     name: "Eddie Obeid",
     aliases: ["Eddie Obeid", "Edward Obeid", "Edward Moses Obeid", "埃迪·奥贝德", "艾迪·奧貝德", "エディー・オベイド", "에디 오베이드"],
     type: "politician",
