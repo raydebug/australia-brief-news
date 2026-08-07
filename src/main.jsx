@@ -2662,6 +2662,72 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Roshena Campbell",
+    aliases: ["Roshena Campbell", "Cr Roshena Campbell", "Deputy Lord Mayor Roshena Campbell", "Roshena Campbell Liberal", "罗谢娜·坎贝尔", "羅謝娜·坎貝爾", "ロシェナ・キャンベル", "로셰나 캠벨"],
+    type: "politician",
+    profile: { label: "City of Melbourne profile", url: "https://www.melbourne.vic.gov.au/deputy-lord-mayor-roshena-campbell" },
+    officialProfile: { label: "LinkedIn", url: "https://au.linkedin.com/in/roshena-campbell-a2a44a57" },
+    social: { label: "Instagram", url: "https://www.instagram.com/roshenamelbourne/" },
+    background: {
+      "zh-Hans": "维州自由党政治人物、商业和公法大律师，2020 年起任 City of Melbourne 议员，2024 年起任 Melbourne 副市长；曾代表自由党参加 2023 年 Aston 补选。",
+      "zh-Hant": "維州自由黨政治人物、商業和公法大律師，2020 年起任 City of Melbourne 議員，2024 年起任 Melbourne 副市長；曾代表自由黨參加 2023 年 Aston 補選。",
+      en: "Victorian Liberal politician, commercial and public law barrister, City of Melbourne councillor since 2020 and Deputy Lord Mayor since 2024; she was the Liberal candidate in the 2023 Aston by-election.",
+      es: "Política liberal de Victoria, barrister de derecho comercial y público, concejala de City of Melbourne desde 2020 y vicealcaldesa desde 2024; fue candidata liberal en la elección parcial de Aston de 2023.",
+      ja: "ビクトリア州自由党の政治家で、商事・公法のバリスター。2020年から City of Melbourne 議員、2024年から Melbourne 副市長を務め、2023年 Aston 補欠選挙では自由党候補でした。",
+      ko: "빅토리아주 자유당 정치인이자 상업·공법 변호사로, 2020년부터 City of Melbourne 의원, 2024년부터 Melbourne 부시장을 맡고 있습니다. 2023년 Aston 보궐선거의 자유당 후보였습니다.",
+      vi: "Chính trị gia Liberal tại Victoria, barrister về luật thương mại và công, councillor của City of Melbourne từ năm 2020 và Deputy Lord Mayor từ năm 2024; bà là ứng viên Liberal trong cuộc bầu cử bổ sung Aston năm 2023.",
+      th: "นักการเมือง Liberal ของรัฐวิกตอเรียและ barrister ด้านกฎหมายพาณิชย์กับกฎหมายมหาชน เป็น councillor ของ City of Melbourne ตั้งแต่ปี 2020 และ Deputy Lord Mayor ตั้งแต่ปี 2024; เธอเคยเป็นผู้สมัคร Liberal ใน Aston by-election ปี 2023",
+      si: "Victorian Liberal දේශපාලනඥයෙකු සහ commercial/public law barrister කෙනෙකි; 2020 සිට City of Melbourne councillor සහ 2024 සිට Deputy Lord Mayor. 2023 Aston by-election හි Liberal candidate විය."
+    },
+    positions: {
+      "zh-Hans": [
+        "市中心经济：强调恢复 Melbourne CBD 活力、支持小企业和零售。",
+        "交通：曾批评市中心部分自行车道改造，认为交通和停车政策不能损害 CBD 复苏。",
+        "公共安全：反对在 Melbourne CBD 设置安全注射室，主张把居民、商户和访客安全放在前面。"
+      ],
+      "zh-Hant": [
+        "市中心經濟：強調恢復 Melbourne CBD 活力、支持小企業和零售。",
+        "交通：曾批評市中心部分自行車道改造，認為交通和停車政策不能損害 CBD 復甦。",
+        "公共安全：反對在 Melbourne CBD 設置安全注射室，主張把居民、商戶和訪客安全放在前面。"
+      ],
+      en: [
+        "City economy: emphasises Melbourne CBD recovery, small business and retail activity.",
+        "Transport: has criticised parts of the central-city bike-lane rollout, arguing traffic and parking settings should not hurt CBD recovery.",
+        "Public safety: opposes a supervised injecting room in Melbourne's CBD and frames resident, trader and visitor safety as the priority."
+      ],
+      es: [
+        "Economía del centro: enfatiza la recuperación del CBD de Melbourne, pequeños negocios y comercio minorista.",
+        "Transporte: ha criticado partes del despliegue de ciclovías del centro, argumentando que tráfico y estacionamiento no deben dañar la recuperación del CBD.",
+        "Seguridad pública: se opone a una sala de inyección supervisada en el CBD de Melbourne y prioriza seguridad de residentes, comerciantes y visitantes."
+      ],
+      ja: [
+        "中心市街地経済：Melbourne CBD の回復、小規模事業者、小売の活性化を重視します。",
+        "交通：中心部の自転車レーン整備の一部を批判し、交通・駐車政策が CBD 回復を損なうべきではないと主張してきました。",
+        "公共安全：Melbourne CBD の監督下注射施設に反対し、住民、商店、来訪者の安全を優先するとしています。"
+      ],
+      ko: [
+        "도심 경제: Melbourne CBD 회복, 소상공인과 소매 활동을 강조합니다.",
+        "교통: 도심 자전거도로 확대의 일부를 비판하며 교통과 주차 정책이 CBD 회복을 해쳐서는 안 된다고 봅니다.",
+        "공공안전: Melbourne CBD의 감독 주사실에 반대하고 주민, 상인, 방문객 안전을 우선순위로 둡니다."
+      ],
+      vi: [
+        "Kinh tế trung tâm: nhấn mạnh phục hồi Melbourne CBD, doanh nghiệp nhỏ và bán lẻ.",
+        "Giao thông: từng chỉ trích một phần việc triển khai làn xe đạp ở trung tâm, cho rằng giao thông và đỗ xe không nên làm hại phục hồi CBD.",
+        "An toàn công cộng: phản đối supervised injecting room trong Melbourne CBD và đặt an toàn của cư dân, tiểu thương, du khách lên trước."
+      ],
+      th: [
+        "เศรษฐกิจใจกลางเมือง: เน้นการฟื้นตัวของ Melbourne CBD ธุรกิจขนาดเล็ก และค้าปลีก",
+        "คมนาคม: เคยวิจารณ์บางส่วนของการทำ bike lanes ใจกลางเมือง โดยมองว่านโยบายจราจรและที่จอดรถไม่ควรกระทบการฟื้นตัวของ CBD",
+        "ความปลอดภัยสาธารณะ: คัดค้าน supervised injecting room ใน Melbourne CBD และให้ความสำคัญกับความปลอดภัยของผู้อยู่อาศัย ผู้ค้า และผู้มาเยือน"
+      ],
+      si: [
+        "City economy: Melbourne CBD recovery, small business සහ retail activity අවධාරණය කරයි.",
+        "Transport: central-city bike-lane rollout හි කොටස් විවේචනය කර ඇති අතර traffic/parking settings CBD recovery ට හානි නොකළ යුතු බව පවසයි.",
+        "Public safety: Melbourne CBD supervised injecting room එකකට විරුද්ධ වන අතර residents, traders සහ visitors safety ප්‍රමුඛ කරයි."
+      ]
+    }
+  },
+  {
     name: "Anthony Albanese",
     aliases: ["Anthony Albanese", "Albanese", "安东尼·阿尔巴尼斯", "阿尔巴尼斯", "安東尼·阿爾巴尼斯", "阿爾巴尼斯", "アンソニー・アルバニージー", "앨버니지"],
     type: "politician",
