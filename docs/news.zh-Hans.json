@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T18:06:33Z",
+  "updatedAt": "2026-08-07T20:11:32Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -1897,7 +1897,7 @@
     {
       "id": "sydney-airport-delays-20260807",
       "language": "zh-Hans",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-07T03:15:00.000Z",
       "headline": "悉尼机场因塔台人手不足而大范围延误",
       "voiceScript": "由于空管人员不足，Airservices Australia 启动流量管制，悉尼机场随后出现大面积延误和取消。Qantas、Jetstar、Virgin 和 Rex 都受影响，有些旅客在停机坪上被耽搁了长达两小时。之所以重要，是因为这次混乱冲击了澳洲最关键的交通枢纽，也说明人员排班一旦吃紧，就会迅速波及全国航线网络。Airservices 说限制已经解除，但接下来的考验是他们能否在下一次高峰前把排班和人手补强。",
@@ -1912,8 +1912,8 @@
           "url": "https://www.news.com.au/travel/travel-updates/sydney-airport-plunged-into-chaos-by-lack-of-air-traffic-controllers/news-story/6eeac3f5c6927090b1ab4626b87df38c"
         },
         {
-          "source": "9News",
-          "url": "https://www.9news.com.au/national"
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/significant-delays-at-sydney-airport-as-dozens-of-flights-remain-grounded-c-22690128"
         }
       ],
       "socialDiscussions": {
@@ -2367,6 +2367,27 @@
           }
         ]
       }
+    },
+    {
+      "id": "fuel-price-jump-20260807",
+      "headline": "澳大利亚司机面临汽油价格大幅上涨",
+      "publishedAt": "2026-08-07T00:30:00Z",
+      "voiceScript": "随着燃油消费税减免结束、国际油价仍然偏高，澳大利亚各地驾驶者正在迎来更贵的加油阶段。报道显示，许多首府城市的汽油价格可能升到每升两澳元以上，柴油也会继续上涨。之所以重要，是因为成本会直接传导到家庭预算、配送费用和通胀预期。接下来要看加油站多久会把涨幅传导出来，以及司机的购买习惯会不会改变。",
+      "differences": [
+        "AAP 侧重说明目前还没有出现抢加油的迹象，而 7NEWS 更强调涨幅大小和生效时间。"
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/no-panic-buying-or-bowser-rage-despite-fuel-price-surge"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/sunrise/motorists-across-australia-brace-for-petrol-price-hike-as-government-fuel-discount-comes-to-an-end-c-22660606"
+        }
+      ],
+      "sourceCount": 2,
+      "language": "zh-Hans"
     },
     {
       "id": "alan-jones-trial-cross-examination-20260807",
@@ -3243,6 +3264,25 @@
       }
     },
     {
+      "id": "sydney-airport-runway-near-miss-20260806",
+      "headline": "悉尼机场跑道近失误引发新的安全调查",
+      "publishedAt": "2026-08-06T08:00:00Z",
+      "voiceScript": "澳大利亚运输安全局正在调查悉尼机场一次跑道近失误事件。两架澳航客机被放行到同一作业区域，所幸在碰撞前停下，现场没有人员伤亡或飞机损坏。调查会查看协调、排班、疲劳和程序问题。之所以重要，是因为悉尼是全国最繁忙的机场，一次险情就可能暴露更大的系统压力。接下来要看调查报告，以及是否会带来运行调整。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/airservices-australia-says-safety-is-number-one-for-us-as-atsb-investigates-runway-near-miss-in-sydney-c-22686536"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/incidents/probe-launched-into-major-runway-near-miss-at-sydney-airport/news-story/c038e1403c5108ce476c0a063108245b"
+        }
+      ],
+      "sourceCount": 2,
+      "language": "zh-Hans"
+    },
+    {
       "id": "secret-recording-dv-evidence-20260806",
       "headline": "高院裁定可能扩大秘密录音在家暴案件中的使用",
       "publishedAt": "2026-08-06T07:51:00Z",
@@ -3313,7 +3353,7 @@
     {
       "id": "ebike-national-safety-crackdown-20260806",
       "headline": "澳大利亚启动全国电动自行车安全整顿",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-06T06:21:00Z",
       "voiceScript": "联邦政府已要求澳大利亚竞争与消费者委员会制定电动自行车、电动滑板车和电动滑板的全国标准，因为伤害事故持续上升，而各州规则仍然不统一。新措施的目标，是堵住让零售商出售高功率设备的漏洞，并建立一致的安全门槛。此事之所以重要，是因为电动代步工具普及的速度已经超过监管。接下来还要经过征询程序，标准才会正式落地。",
       "differences": [
@@ -3328,6 +3368,10 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/national-e-bike-crackdown-to-buck-off-cowboy-retailers"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australia-wide-crackdown-on-dangerous-e-bike-imports-announced-by-federal-government--c-22683926"
         }
       ],
       "language": "zh-Hans"

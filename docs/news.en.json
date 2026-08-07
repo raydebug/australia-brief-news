@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T18:06:33Z",
+  "updatedAt": "2026-08-07T20:11:32Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -1897,7 +1897,7 @@
     {
       "id": "sydney-airport-delays-20260807",
       "language": "en",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-07T03:15:00.000Z",
       "headline": "Sydney Airport is hit by widespread delays after controller staffing shortages",
       "voiceScript": "Sydney Airport faced major delays and cancellations after Airservices Australia imposed flow controls because too few controllers were available. Flights on Qantas, Jetstar, Virgin and Rex were affected, with some passengers stuck on the tarmac for up to two hours. It matters because the disruption hit a critical transport hub and showed how thin staffing can quickly spread through the national network. Airservices says the restrictions have been lifted, but the next test is whether rosters and staffing are strengthened before the next crunch.",
@@ -1912,8 +1912,8 @@
           "url": "https://www.news.com.au/travel/travel-updates/sydney-airport-plunged-into-chaos-by-lack-of-air-traffic-controllers/news-story/6eeac3f5c6927090b1ab4626b87df38c"
         },
         {
-          "source": "9News",
-          "url": "https://www.9news.com.au/national"
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/significant-delays-at-sydney-airport-as-dozens-of-flights-remain-grounded-c-22690128"
         }
       ],
       "socialDiscussions": {
@@ -2367,6 +2367,27 @@
           }
         ]
       }
+    },
+    {
+      "id": "fuel-price-jump-20260807",
+      "headline": "Australian motorists face a sharp fuel price jump as excise relief ends",
+      "publishedAt": "2026-08-07T00:30:00Z",
+      "voiceScript": "Drivers across Australia are heading into a higher-price period at the bowser as fuel excise relief ends and oil costs stay elevated. Reports point to petrol moving above $2 a litre in many capitals, with diesel also set to rise. It matters because the increase lands straight on household budgets, delivery costs and inflation expectations. The open question is how fast stations pass it on and whether drivers change their buying habits.",
+      "differences": [
+        "AAP focuses on the lack of panic buying so far, while 7NEWS focuses on the size and timing of the expected price jump."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/no-panic-buying-or-bowser-rage-despite-fuel-price-surge"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/sunrise/motorists-across-australia-brace-for-petrol-price-hike-as-government-fuel-discount-comes-to-an-end-c-22660606"
+        }
+      ],
+      "sourceCount": 2,
+      "language": "en"
     },
     {
       "id": "alan-jones-trial-cross-examination-20260807",
@@ -3243,6 +3264,25 @@
       }
     },
     {
+      "id": "sydney-airport-runway-near-miss-20260806",
+      "headline": "Sydney Airport runway near-miss triggers a fresh ATSB safety probe",
+      "publishedAt": "2026-08-06T08:00:00Z",
+      "voiceScript": "The Australian Transport Safety Bureau is investigating a runway near-miss at Sydney Airport after two Qantas aircraft were cleared into the same area and stopped before colliding. Investigators are looking at coordination, staffing, fatigue and procedures, with no injuries or damage reported. It matters because Sydney is the country's busiest airport and one close call can expose wider pressure on the system. The next step is the investigation report and any operating changes that follow.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/airservices-australia-says-safety-is-number-one-for-us-as-atsb-investigates-runway-near-miss-in-sydney-c-22686536"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/incidents/probe-launched-into-major-runway-near-miss-at-sydney-airport/news-story/c038e1403c5108ce476c0a063108245b"
+        }
+      ],
+      "sourceCount": 2,
+      "language": "en"
+    },
+    {
       "id": "secret-recording-dv-evidence-20260806",
       "headline": "High Court ruling could widen the use of secret recordings in abuse cases",
       "publishedAt": "2026-08-06T07:51:00Z",
@@ -3313,7 +3353,7 @@
     {
       "id": "ebike-national-safety-crackdown-20260806",
       "headline": "Australia sets up a national e-bike safety crackdown",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-06T06:21:00Z",
       "voiceScript": "The federal government has asked the ACCC to draft national standards for electric bikes, scooters and skateboards after injuries kept rising and state rules stayed patchy. The move is meant to close loopholes that let retailers sell high-powered devices that do not meet a consistent benchmark. It matters because e-bike use has expanded faster than the rules built to control it. The standards now move into consultation before they can be enforced.",
       "differences": [
@@ -3328,6 +3368,10 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/national-e-bike-crackdown-to-buck-off-cowboy-retailers"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australia-wide-crackdown-on-dangerous-e-bike-imports-announced-by-federal-government--c-22683926"
         }
       ],
       "language": "en"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T18:06:33Z",
+  "updatedAt": "2026-08-07T20:11:32Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -1897,7 +1897,7 @@
     {
       "id": "sydney-airport-delays-20260807",
       "language": "ja",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-07T03:15:00.000Z",
       "headline": "シドニー空港が管制要員不足で大幅遅延",
       "voiceScript": "シドニー空港では、Airservices Australia が管制要員の不足を受けて流れを制御したため、出発と到着に大きな遅れや欠航が出ました。Qantas、Jetstar、Virgin、Rex の便が影響を受け、機内や駐機場で長く待たされた乗客もいました。重要なのは、主要な交通拠点の混乱が全国の航空網にすぐ波及することです。制限は解除されましたが、次の山場までに人員配置を強化できるかが焦点です。",
@@ -1912,8 +1912,8 @@
           "url": "https://www.news.com.au/travel/travel-updates/sydney-airport-plunged-into-chaos-by-lack-of-air-traffic-controllers/news-story/6eeac3f5c6927090b1ab4626b87df38c"
         },
         {
-          "source": "9News",
-          "url": "https://www.9news.com.au/national"
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/significant-delays-at-sydney-airport-as-dozens-of-flights-remain-grounded-c-22690128"
         }
       ],
       "socialDiscussions": {
@@ -2367,6 +2367,27 @@
           }
         ]
       }
+    },
+    {
+      "id": "fuel-price-jump-20260807",
+      "headline": "燃料減税の終了で、豪州のドライバーに値上げ圧力",
+      "publishedAt": "2026-08-07T00:30:00Z",
+      "voiceScript": "燃料減税が終わり、原油価格も高いままなので、オーストラリアのドライバーは給油所でより高い負担に直面している。報道では、多くの首都でガソリンが1リットル2ドルを超える見通しで、ディーゼルも上がるとされる。家計、配送コスト、インフレ見通しに直結するため重要だ。次は、値上げがどれだけ早く反映されるか、そしてドライバーの買い方が変わるかどうかだ。",
+      "differences": [
+        "AAP は今のところ買い急ぎが見られない点を重視し、7NEWS は値上げ幅と時期を強く押し出している。"
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/no-panic-buying-or-bowser-rage-despite-fuel-price-surge"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/sunrise/motorists-across-australia-brace-for-petrol-price-hike-as-government-fuel-discount-comes-to-an-end-c-22660606"
+        }
+      ],
+      "sourceCount": 2,
+      "language": "ja"
     },
     {
       "id": "alan-jones-trial-cross-examination-20260807",
@@ -3243,6 +3264,25 @@
       }
     },
     {
+      "id": "sydney-airport-runway-near-miss-20260806",
+      "headline": "シドニー空港の滑走路近接事案で新たな安全調査",
+      "publishedAt": "2026-08-06T08:00:00Z",
+      "voiceScript": "オーストラリア運輸安全局が、シドニー空港の滑走路近接事案を調べている。カンタスの2機が同じ区域に誘導され、衝突する前に停止した。調査では、管制の連携、勤務体制、疲労、手順が確認される。国内で最も利用の多い空港で起きた以上、事故がなくてもシステム全体の負荷を示すため重要だ。次は調査報告と、必要なら運用見直しが行われる。",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/airservices-australia-says-safety-is-number-one-for-us-as-atsb-investigates-runway-near-miss-in-sydney-c-22686536"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/incidents/probe-launched-into-major-runway-near-miss-at-sydney-airport/news-story/c038e1403c5108ce476c0a063108245b"
+        }
+      ],
+      "sourceCount": 2,
+      "language": "ja"
+    },
+    {
       "id": "secret-recording-dv-evidence-20260806",
       "headline": "秘密録音がDV事件でさらに使われる可能性",
       "publishedAt": "2026-08-06T07:51:00Z",
@@ -3313,7 +3353,7 @@
     {
       "id": "ebike-national-safety-crackdown-20260806",
       "headline": "豪州が電動自転車の全国安全基準づくりに着手",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-06T06:21:00Z",
       "voiceScript": "連邦政府は、けがが増え続け州ごとの規制にばらつきがあることを受け、電動自転車や電動スクーター、電動スケートボードの全国基準をACCCに作らせる方針です。狙いは、高出力機器を抜け道で売り続けられる状態をなくし、共通の安全ラインを設けることです。利用が急増する一方で、ルール整備が追いついていないことが背景にあります。これから業界と規制当局の協議を経て、施行に向けた形が固まります。",
       "differences": [
@@ -3328,6 +3368,10 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/national-e-bike-crackdown-to-buck-off-cowboy-retailers"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australia-wide-crackdown-on-dangerous-e-bike-imports-announced-by-federal-government--c-22683926"
         }
       ],
       "language": "ja"

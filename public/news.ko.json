@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T18:06:33Z",
+  "updatedAt": "2026-08-07T20:11:32Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -1897,7 +1897,7 @@
     {
       "id": "sydney-airport-delays-20260807",
       "language": "ko",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-07T03:15:00.000Z",
       "headline": "시드니 공항, 관제 인력 부족으로 대규모 지연",
       "voiceScript": "시드니 공항은 관제 인력이 부족해 Airservices Australia가 흐름 통제를 시행하면서 큰 지연과 결항을 겪었습니다. Qantas, Jetstar, Virgin, Rex 항공편이 영향을 받았고, 일부 승객은 활주로에서 두 시간가량 지연됐습니다. 이 사안이 중요한 이유는 호주의 핵심 교통 허브가 흔들리면 국내 항공망 전체로 빠르게 번질 수 있기 때문입니다. 제한은 해제됐지만, 다음 혼잡 전까지 배치와 인력을 얼마나 보강하느냐가 관건입니다.",
@@ -1912,8 +1912,8 @@
           "url": "https://www.news.com.au/travel/travel-updates/sydney-airport-plunged-into-chaos-by-lack-of-air-traffic-controllers/news-story/6eeac3f5c6927090b1ab4626b87df38c"
         },
         {
-          "source": "9News",
-          "url": "https://www.9news.com.au/national"
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/significant-delays-at-sydney-airport-as-dozens-of-flights-remain-grounded-c-22690128"
         }
       ],
       "socialDiscussions": {
@@ -2367,6 +2367,27 @@
           }
         ]
       }
+    },
+    {
+      "id": "fuel-price-jump-20260807",
+      "headline": "유류세 혜택 종료로 호주 운전자들 연료값 급등 압박",
+      "publishedAt": "2026-08-07T00:30:00Z",
+      "voiceScript": "유류세 혜택이 끝나고 국제유가도 높은 수준을 유지하면서 호주 운전자들은 주유소에서 더 비싼 값을 치르게 될 전망이다. 보도에 따르면 많은 주도에서 휘발유 가격이 리터당 2달러를 넘을 수 있고, 디젤도 오를 것으로 보인다. 이 문제는 가계 예산, 운송 비용, 인플레이션 전망에 곧바로 영향을 주기 때문에 중요하다. 앞으로는 주유소가 얼마나 빨리 인상분을 반영하는지, 그리고 운전자들의 구매 습관이 바뀌는지가 관건이다.",
+      "differences": [
+        "AAP는 아직 사재기 조짐이 없다는 점을 강조하고, 7NEWS는 인상 폭과 시점을 더 부각한다."
+      ],
+      "links": [
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/no-panic-buying-or-bowser-rage-despite-fuel-price-surge"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/sunrise/motorists-across-australia-brace-for-petrol-price-hike-as-government-fuel-discount-comes-to-an-end-c-22660606"
+        }
+      ],
+      "sourceCount": 2,
+      "language": "ko"
     },
     {
       "id": "alan-jones-trial-cross-examination-20260807",
@@ -3243,6 +3264,25 @@
       }
     },
     {
+      "id": "sydney-airport-runway-near-miss-20260806",
+      "headline": "시드니 공항 활주로 아찔한 상황에 새 안전 조사",
+      "publishedAt": "2026-08-06T08:00:00Z",
+      "voiceScript": "호주 교통안전국이 시드니 공항 활주로에서 발생한 아찔한 상황을 조사하고 있다. 콴타스 항공기 두 대가 같은 구역으로 허가됐고, 충돌 직전에 멈췄다. 조사에서는 관제 협조, 근무 배치, 피로, 절차를 살핀다. 시드니는 호주에서 가장 바쁜 공항이어서 사고가 없었더라도 이번 일은 시스템 부담을 드러낸다. 다음 단계는 조사 결과와 그에 따른 운항 변경 여부다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/airservices-australia-says-safety-is-number-one-for-us-as-atsb-investigates-runway-near-miss-in-sydney-c-22686536"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/incidents/probe-launched-into-major-runway-near-miss-at-sydney-airport/news-story/c038e1403c5108ce476c0a063108245b"
+        }
+      ],
+      "sourceCount": 2,
+      "language": "ko"
+    },
+    {
       "id": "secret-recording-dv-evidence-20260806",
       "headline": "몰래 녹음이 가정폭력 사건에서 더 쓰일 수 있다",
       "publishedAt": "2026-08-06T07:51:00Z",
@@ -3313,7 +3353,7 @@
     {
       "id": "ebike-national-safety-crackdown-20260806",
       "headline": "호주는 전국 전기자전거 안전 규제 강화에 나선다",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "publishedAt": "2026-08-06T06:21:00Z",
       "voiceScript": "연방 정부는 부상과 사고가 늘어나고 주별 규정이 제각각인 문제를 줄이기 위해 전기자전거와 전동 스쿠터, 전동 스케이트보드의 전국 기준을 마련하도록 ACCC에 요청했다. 이번 조치는 위험한 고출력 장비가 허점 때문에 계속 팔리는 상황을 막으려는 것이다. 전기 이동수단이 빠르게 퍼졌지만 안전 규정은 그 속도를 따라가지 못했다는 점에서 의미가 크다. 기준안은 업계와 규제 당국의 협의를 거친 뒤 시행 절차로 넘어간다.",
       "differences": [
@@ -3328,6 +3368,10 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/national-e-bike-crackdown-to-buck-off-cowboy-retailers"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/australia-wide-crackdown-on-dangerous-e-bike-imports-announced-by-federal-government--c-22683926"
         }
       ],
       "language": "ko"
