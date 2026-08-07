@@ -906,6 +906,93 @@ function hasSpecificCommentary(commentary) {
 
 const PEOPLE_CONTEXT = [
   {
+    name: "Michelle Rowland",
+    aliases: ["Michelle Rowland", "Michelle Anne Rowland", "Michelle Rowland MP", "The Hon Michelle Rowland MP", "Attorney-General Michelle Rowland"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.aph.gov.au/m_rowland_mp" },
+    officialProfile: { label: "Attorney-General biography", url: "https://ministers.ag.gov.au/hon-michelle-rowland-mp/biography" },
+    social: { label: "Facebook", url: "https://www.facebook.com/mrowlandmp/" },
+    personalSocial: { label: "Personal website", url: "https://www.michellerowland.com.au/" },
+    background: {
+      "zh-Hans": "澳洲工党联邦议员，2010 年起代表新州 Greenway；曾任通信部长，2025 年 5 月起任澳大利亚总检察长。",
+      "zh-Hant": "澳洲工黨聯邦議員，2010 年起代表新州 Greenway；曾任通訊部長，2025 年 5 月起任澳洲總檢察長。",
+      en: "Federal Labor MP for Greenway in New South Wales since 2010; formerly communications minister and Attorney-General of Australia since May 2025.",
+      es: "Diputada federal laborista por Greenway, Nueva Gales del Sur, desde 2010; fue ministra de Comunicaciones y es fiscal general de Australia desde mayo de 2025.",
+      ja: "2010年からニューサウスウェールズ州 Greenway 選出の連邦 Labor 議員。通信相を経て、2025年5月から豪州 Attorney-General を務めています。",
+      ko: "2010년부터 NSW Greenway를 대표하는 연방 Labor 의원입니다. 통신장관을 지냈고 2025년 5월부터 호주 Attorney-General입니다.",
+      vi: "Nghị sĩ Labor liên bang đại diện Greenway, New South Wales từ năm 2010; từng là bộ trưởng truyền thông và là Attorney-General của Australia từ tháng 5 năm 2025.",
+      th: "ส.ส. Labor รัฐบาลกลางเขต Greenway ในรัฐนิวเซาท์เวลส์ตั้งแต่ปี 2010 อดีตรัฐมนตรีสื่อสาร และเป็น Attorney-General ของออสเตรเลียตั้งแต่เดือนพฤษภาคม 2025",
+      si: "2010 සිට New South Wales හි Greenway නියෝජනය කරන Federal Labor MP කෙනෙකි; former communications minister වන අතර 2025 May සිට Australia Attorney-General වේ."
+    },
+    positions: {
+      "zh-Hans": [
+        "法律与隐私：作为总检察长推动隐私法、数字平台和监管执行相关改革。",
+        "网络安全：曾作为通信部长主导未成年人社交媒体年龄限制等在线安全政策。",
+        "选区服务：长期强调 Western Sydney 的通信、社区服务和地方基础设施需求。"
+      ],
+      "zh-Hant": [
+        "法律與隱私：作為總檢察長推動隱私法、數字平台和監管執行相關改革。",
+        "網絡安全：曾作為通訊部長主導未成年人社交媒體年齡限制等線上安全政策。",
+        "選區服務：長期強調 Western Sydney 的通訊、社區服務和地方基礎設施需求。"
+      ],
+      en: [
+        "Law and privacy: as Attorney-General, she oversees privacy-law, digital-platform and regulatory enforcement reforms.",
+        "Online safety: as former communications minister, she led policies including the social-media minimum age framework.",
+        "Local representation: she has long emphasised communications, community services and infrastructure needs in Western Sydney."
+      ],
+      es: [
+        "Derecho y privacidad: como fiscal general, supervisa reformas de privacidad, plataformas digitales y aplicación regulatoria.",
+        "Seguridad en línea: como ex ministra de Comunicaciones, lideró políticas como la edad mínima para redes sociales.",
+        "Representación local: ha enfatizado comunicaciones, servicios comunitarios e infraestructura en Western Sydney."
+      ],
+      ja: [
+        "法とプライバシー：Attorney-General として、プライバシー法、デジタルプラットフォーム、規制執行の改革を所管しています。",
+        "オンライン安全：元通信相として、ソーシャルメディア最低年齢制度などを主導しました。",
+        "地域代表：Western Sydney の通信、地域サービス、インフラ需要を重視してきました。"
+      ],
+      ko: [
+        "법과 개인정보: Attorney-General로서 개인정보법, 디지털 플랫폼, 규제 집행 개혁을 담당합니다.",
+        "온라인 안전: 전 통신장관으로 소셜미디어 최소연령 제도 등 정책을 주도했습니다.",
+        "지역 대표: Western Sydney의 통신, 지역 서비스, 인프라 수요를 강조해 왔습니다."
+      ],
+      vi: [
+        "Luật và quyền riêng tư: với vai trò Attorney-General, bà phụ trách cải cách luật quyền riêng tư, nền tảng số và thực thi quy định.",
+        "An toàn trực tuyến: khi là bộ trưởng truyền thông, bà dẫn dắt các chính sách như độ tuổi tối thiểu dùng mạng xã hội.",
+        "Đại diện địa phương: bà thường nhấn mạnh nhu cầu viễn thông, dịch vụ cộng đồng và hạ tầng của Western Sydney."
+      ],
+      th: [
+        "กฎหมายและความเป็นส่วนตัว: ในฐานะ Attorney-General เธอดูแลการปฏิรูปกฎหมายความเป็นส่วนตัว แพลตฟอร์มดิจิทัล และการบังคับใช้กฎระเบียบ",
+        "ความปลอดภัยออนไลน์: ในฐานะอดีตรัฐมนตรีสื่อสาร เธอนำ policies รวมถึงกรอบอายุขั้นต่ำสำหรับโซเชียลมีเดีย",
+        "ตัวแทนท้องถิ่น: เธอเน้นความต้องการด้านการสื่อสาร บริการชุมชน และโครงสร้างพื้นฐานใน Western Sydney มาโดยตลอด"
+      ],
+      si: [
+        "Law and privacy: Attorney-General ලෙස privacy law, digital platform සහ regulatory enforcement reforms අධීක්ෂණය කරයි.",
+        "Online safety: former communications minister ලෙස social-media minimum age framework ඇතුළු policies මෙහෙයවීය.",
+        "Local representation: Western Sydney හි communications, community services සහ infrastructure needs දිගටම අවධාරණය කර ඇත."
+      ]
+    }
+  },
+  {
+    name: "Carly Kind",
+    aliases: ["Carly Kind", "Carly Kind Privacy Commissioner", "Australian Privacy Commissioner Carly Kind"],
+    type: "public official",
+    profile: { label: "OAIC executive profile", url: "https://www.oaic.gov.au/about-the-OAIC/who-we-are" },
+    officialProfile: { label: "OAIC annual report biography", url: "https://www.oaic.gov.au/about-the-OAIC/our-corporate-information/oaic-annual-reports/annual-report-202324" },
+    social: { label: "LinkedIn", url: "https://au.linkedin.com/in/carly-kind-0b201727" },
+    personalSocial: { label: "X", url: "https://x.com/carlykind_" },
+    background: {
+      "zh-Hans": "澳大利亚隐私专员，2024 年 2 月起任职；此前曾任英国 Ada Lovelace Institute 主任，并长期从事数字权利、AI、隐私和人权政策工作。",
+      "zh-Hant": "澳洲隱私專員，2024 年 2 月起任職；此前曾任英國 Ada Lovelace Institute 主任，並長期從事數字權利、AI、隱私和人權政策工作。",
+      en: "Australia's Privacy Commissioner since February 2024; previously director of the UK-based Ada Lovelace Institute and a specialist in digital rights, AI, privacy and human rights policy.",
+      es: "Comisionada de privacidad de Australia desde febrero de 2024; antes dirigió el Ada Lovelace Institute en el Reino Unido y trabajó en derechos digitales, IA, privacidad y derechos humanos.",
+      ja: "2024年2月から豪州 Privacy Commissioner。以前は英国 Ada Lovelace Institute のディレクターで、デジタル権利、AI、プライバシー、人権政策を専門としてきました。",
+      ko: "2024년 2월부터 호주 Privacy Commissioner입니다. 이전에는 영국 Ada Lovelace Institute 소장을 지냈고 디지털 권리, AI, 개인정보, 인권 정책을 전문으로 했습니다.",
+      vi: "Privacy Commissioner của Australia từ tháng 2 năm 2024; trước đó là giám đốc Ada Lovelace Institute tại Anh và chuyên về quyền số, AI, quyền riêng tư và chính sách nhân quyền.",
+      th: "Privacy Commissioner ของออสเตรเลียตั้งแต่เดือนกุมภาพันธ์ 2024 ก่อนหน้านี้เป็นผู้อำนวยการ Ada Lovelace Institute ในสหราชอาณาจักร และเชี่ยวชาญด้านสิทธิดิจิทัล AI ความเป็นส่วนตัว และนโยบายสิทธิมนุษยชน",
+      si: "2024 February සිට Australia's Privacy Commissioner වේ; ඊට පෙර UK-based Ada Lovelace Institute director වූ අතර digital rights, AI, privacy සහ human rights policy පිළිබඳ specialist කෙනෙකි."
+    }
+  },
+  {
     name: "Fatemeh Pasandideh",
     aliases: ["Fatemeh Pasandideh", "PASAND", "fatemehpasandideh10", "فاطمه پسندیده"],
     type: "athlete",
