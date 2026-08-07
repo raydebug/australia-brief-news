@@ -4417,6 +4417,93 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Lidia Thorpe",
+    aliases: ["Lidia Thorpe", "Senator Lidia Thorpe", "Lidia Alma Thorpe", "莉迪亚·索普", "莉迪亞·索普", "リディア・ソープ", "리디아 소프"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.aph.gov.au/Senator_Thorpe" },
+    officialProfile: { label: "Personal website", url: "https://www.lidiathorpe.com/" },
+    social: { label: "X", url: "https://x.com/SenatorThorpe" },
+    personalSocial: { label: "Instagram", url: "https://www.instagram.com/senatorthorpe/" },
+    background: {
+      "zh-Hans": "Gunnai、Gunditjmara 和 Djab Wurrung 女性，维州联邦参议员，曾代表 Greens，后来以独立参议员身份倡导 Blak Sovereign Movement。",
+      "zh-Hant": "Gunnai、Gunditjmara 和 Djab Wurrung 女性，維州聯邦參議員，曾代表 Greens，後來以獨立參議員身份倡導 Blak Sovereign Movement。",
+      en: "Gunnai, Gunditjmara and Djab Wurrung woman and Victorian senator who entered federal parliament with the Greens and later sat as an independent for the Blak Sovereign Movement.",
+      es: "Mujer Gunnai, Gunditjmara y Djab Wurrung y senadora federal por Victoria; llegó al Parlamento con los Greens y luego actuó como independiente por el Blak Sovereign Movement.",
+      ja: "Gunnai、Gunditjmara、Djab Wurrung の女性で、ビクトリア州選出の連邦上院議員。Greens 所属で連邦議会入りし、その後 Blak Sovereign Movement の独立議員として活動しています。",
+      ko: "Gunnai, Gunditjmara, Djab Wurrung 여성으로 빅토리아주 연방 상원의원입니다. Greens 소속으로 의회에 들어간 뒤 Blak Sovereign Movement를 대표하는 무소속으로 활동했습니다.",
+      vi: "Phụ nữ Gunnai, Gunditjmara và Djab Wurrung, thượng nghị sĩ liên bang của Victoria; vào Quốc hội cùng Greens rồi sau đó ngồi độc lập cho Blak Sovereign Movement.",
+      th: "สตรีชาว Gunnai, Gunditjmara และ Djab Wurrung และวุฒิสมาชิกจากรัฐ Victoria เข้าสู่รัฐสภากับ Greens ก่อนเป็นอิสระในนาม Blak Sovereign Movement",
+      si: "Gunnai, Gunditjmara සහ Djab Wurrung woman කෙනෙකු වන Victorian senator; Greens සමඟ federal parliament වෙත පැමිණ පසුව Blak Sovereign Movement වෙනුවෙන් independent ලෙස කටයුතු කළාය."
+    },
+    positions: {
+      "zh-Hans": [
+        "原住民主权：主张 Treaty、Truth-telling、First Nations 自决和对殖民伤害的制度性回应。",
+        "反种族主义：要求更强的国家级反种族主义调查和对政治、媒体、执法机构中种族主义的问责。",
+        "气候与土地权利：把气候行动、土地保护和原住民对 Country 的管理权联系在一起。"
+      ],
+      "zh-Hant": [
+        "原住民主權：主張 Treaty、Truth-telling、First Nations 自決和對殖民傷害的制度性回應。",
+        "反種族主義：要求更強的國家級反種族主義調查和對政治、媒體、執法機構中種族主義的問責。",
+        "氣候與土地權利：把氣候行動、土地保護和原住民對 Country 的管理權連在一起。"
+      ],
+      en: [
+        "First Nations sovereignty: advocates treaty, truth-telling, self-determination and institutional responses to colonial harm.",
+        "Anti-racism: calls for stronger national scrutiny of racism in politics, media, policing and public life.",
+        "Climate and land rights: links climate action with land protection and First Nations authority over Country."
+      ],
+      es: [
+        "Soberanía First Nations: defiende treaty, truth-telling, autodeterminación y respuestas institucionales al daño colonial.",
+        "Antirracismo: pide mayor escrutinio nacional del racismo en política, medios, policía y vida pública.",
+        "Clima y tierra: vincula acción climática, protección territorial y autoridad First Nations sobre Country."
+      ],
+      ja: [
+        "First Nations 主権：Treaty、Truth-telling、自己決定、植民地支配の被害への制度的対応を求めています。",
+        "反人種差別：政治、メディア、警察、公的生活における人種差別への全国的な検証強化を求めています。",
+        "気候と土地権：気候対策、土地保護、First Nations による Country への権限を結び付けています。"
+      ],
+      ko: [
+        "First Nations 주권: treaty, truth-telling, 자기결정, 식민 피해에 대한 제도적 대응을 주장합니다.",
+        "반인종주의: 정치, 미디어, 경찰, 공적 영역의 인종주의에 대한 더 강한 전국적 검증을 요구합니다.",
+        "기후와 토지권: 기후 행동, 토지 보호, Country에 대한 First Nations 권한을 연결합니다."
+      ],
+      vi: [
+        "Chủ quyền First Nations: ủng hộ treaty, truth-telling, tự quyết và phản ứng thể chế với tổn hại thuộc địa.",
+        "Chống phân biệt chủng tộc: kêu gọi giám sát quốc gia mạnh hơn với phân biệt chủng tộc trong chính trị, truyền thông, cảnh sát và đời sống công.",
+        "Khí hậu và đất đai: nối hành động khí hậu với bảo vệ đất và quyền First Nations đối với Country."
+      ],
+      th: [
+        "อธิปไตย First Nations: สนับสนุน treaty, truth-telling, self-determination และการตอบสนองเชิงสถาบันต่อความเสียหายจากอาณานิคม",
+        "ต้าน racism: เรียกร้องการตรวจสอบระดับชาติที่เข้มขึ้นต่อ racism ในการเมือง สื่อ ตำรวจ และชีวิตสาธารณะ",
+        "ภูมิอากาศและสิทธิที่ดิน: เชื่อม climate action กับการปกป้องที่ดินและอำนาจ First Nations เหนือ Country"
+      ],
+      si: [
+        "First Nations sovereignty: treaty, truth-telling, self-determination සහ colonial harm සඳහා institutional responses ඉල්ලා සිටී.",
+        "Anti-racism: politics, media, policing සහ public life තුළ racism ගැන ශක්තිමත් national scrutiny ඉල්ලා සිටී.",
+        "Climate and land rights: climate action, land protection සහ Country පිළිබඳ First Nations authority එකට සම්බන්ධ කරයි."
+      ]
+    }
+  },
+  {
+    name: "Mike Cannon-Brookes",
+    aliases: ["Mike Cannon-Brookes", "Michael Cannon-Brookes", "Michael Cannon Brookes", "迈克·坎农-布鲁克斯", "麥克·坎農-布魯克斯", "マイク・キャノンブルックス", "마이크 캐넌브룩스"],
+    type: "executive",
+    profile: { label: "Atlassian leadership", url: "https://www.atlassian.com/company/people" },
+    officialProfile: { label: "LinkedIn", url: "https://au.linkedin.com/in/mcannonbrookes" },
+    social: { label: "X", url: "https://x.com/mcannonbrookes" },
+    personalSocial: { label: "LinkedIn", url: "https://au.linkedin.com/in/mcannonbrookes" },
+    background: {
+      "zh-Hans": "澳大利亚科技企业家，Atlassian 联合创始人兼首席执行官，也是气候投资和能源转型项目的重要投资者。",
+      "zh-Hant": "澳洲科技企業家，Atlassian 共同創辦人兼行政總裁，也是氣候投資和能源轉型項目的重要投資者。",
+      en: "Australian technology entrepreneur, co-founder and chief executive of Atlassian, and a major investor in climate and energy-transition projects.",
+      es: "Emprendedor tecnológico australiano, cofundador y director ejecutivo de Atlassian, e importante inversor en proyectos climáticos y de transición energética.",
+      ja: "豪州のテクノロジー起業家。Atlassian の共同創業者兼最高経営責任者で、気候・エネルギー転換分野の主要投資家でもあります。",
+      ko: "호주 기술 기업가로 Atlassian 공동창업자 겸 최고경영자이며, 기후 및 에너지 전환 프로젝트의 주요 투자자입니다.",
+      vi: "Doanh nhân công nghệ Australia, đồng sáng lập kiêm CEO Atlassian, đồng thời là nhà đầu tư lớn vào các dự án khí hậu và chuyển đổi năng lượng.",
+      th: "ผู้ประกอบการเทคโนโลยีชาวออสเตรเลีย ผู้ร่วมก่อตั้งและซีอีโอของ Atlassian และนักลงทุนรายใหญ่ในโครงการ climate กับ energy transition",
+      si: "Australian technology entrepreneur කෙනෙකි; Atlassian co-founder සහ chief executive වන අතර climate සහ energy-transition projects වල ප්‍රධාන investor කෙනෙකි."
+    }
+  },
+  {
     name: "Tony Burke",
     aliases: ["Tony Burke", "The Hon Tony Burke", "托尼·伯克", "トニー・バーク", "토니 버크"],
     type: "politician",
