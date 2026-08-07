@@ -1112,6 +1112,43 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Ryan Presley",
+    aliases: ["Ryan Presley", "Dr Ryan Presley", "Ryan J Presley", "r.j.presley", "Marri Ngarr artist Ryan Presley"],
+    type: "artist",
+    profile: { label: "Personal website", url: "https://ryanpresley.com.au/" },
+    officialProfile: { label: "Milani Gallery profile", url: "https://milanigallery.com.au/artists/ryan-presley/" },
+    social: { label: "Instagram", url: "https://www.instagram.com/r.j.presley/" },
+    background: {
+      "zh-Hans": "Marri Ngarr 当代艺术家，出生于 Alice Springs，现主要在 Logan City / Yugambeh Country 创作；作品以绘画、版画和装置审视殖民权力、宗教、货币和历史记忆。",
+      "zh-Hant": "Marri Ngarr 當代藝術家，出生於 Alice Springs，現主要在 Logan City / Yugambeh Country 創作；作品以繪畫、版畫和裝置審視殖民權力、宗教、貨幣和歷史記憶。",
+      en: "Marri Ngarr contemporary artist, born in Alice Springs and based around Logan City / Yugambeh Country, whose painting, printmaking and installation work examines colonial power, religion, money and historical memory.",
+      es: "Artista contemporáneo Marri Ngarr, nacido en Alice Springs y radicado en Logan City / Yugambeh Country; su pintura, grabado e instalación examinan poder colonial, religión, dinero y memoria histórica.",
+      ja: "Alice Springs 生まれで Logan City / Yugambeh Country を拠点に活動する Marri Ngarr の現代アーティスト。絵画、版画、インスタレーションを通じて植民地権力、宗教、貨幣、歴史記憶を問い直しています。",
+      ko: "Alice Springs 출생으로 Logan City / Yugambeh Country를 기반으로 활동하는 Marri Ngarr 현대미술가입니다. 회화, 판화, 설치 작업을 통해 식민 권력, 종교, 화폐, 역사 기억을 탐구합니다.",
+      vi: "Nghệ sĩ đương đại Marri Ngarr, sinh tại Alice Springs và hoạt động quanh Logan City / Yugambeh Country; các tác phẩm hội họa, in ấn và sắp đặt của ông xem xét quyền lực thuộc địa, tôn giáo, tiền tệ và ký ức lịch sử.",
+      th: "ศิลปินร่วมสมัย Marri Ngarr เกิดที่ Alice Springs และทำงานหลักแถบ Logan City / Yugambeh Country ผลงานจิตรกรรม ภาพพิมพ์ และจัดวางของเขาสำรวจอำนาจอาณานิคม ศาสนา เงินตรา และความทรงจำทางประวัติศาสตร์",
+      si: "Alice Springs හි උපන්, Logan City / Yugambeh Country අවට පදනම්ව කටයුතු කරන Marri Ngarr contemporary artist කෙනෙකි; painting, printmaking සහ installation වැඩවලින් colonial power, religion, money සහ historical memory විමසයි."
+    }
+  },
+  {
+    name: "George Orwell",
+    aliases: ["George Orwell", "Eric Arthur Blair", "Eric Blair", "Orwell"],
+    type: "writer",
+    profile: { label: "The Orwell Foundation biography", url: "https://www.orwellfoundation.com/the-orwell-foundation/orwell/biography/" },
+    officialProfile: { label: "The Orwell Foundation overview", url: "https://www.orwellfoundation.com/the-orwell-foundation/about/about-george-orwell/" },
+    background: {
+      "zh-Hans": "英国作家、散文家和评论家，本名 Eric Arthur Blair，以《动物农场》和《一九八四》闻名；作品持续影响关于极权主义、宣传、帝国和政治语言的讨论。",
+      "zh-Hant": "英國作家、散文家和評論家，本名 Eric Arthur Blair，以《動物農場》和《一九八四》聞名；作品持續影響關於極權主義、宣傳、帝國和政治語言的討論。",
+      en: "British novelist, essayist and critic, born Eric Arthur Blair, best known for Animal Farm and Nineteen Eighty-Four; his work continues to shape debates about totalitarianism, propaganda, empire and political language.",
+      es: "Novelista, ensayista y crítico británico, nacido Eric Arthur Blair, conocido por Animal Farm y Nineteen Eighty-Four; su obra sigue influyendo en debates sobre totalitarismo, propaganda, imperio y lenguaje político.",
+      ja: "Eric Arthur Blair として生まれた英国の小説家、エッセイスト、批評家。Animal Farm と Nineteen Eighty-Four で知られ、全体主義、プロパガンダ、帝国、政治言語をめぐる議論に影響を与え続けています。",
+      ko: "Eric Arthur Blair로 태어난 영국 소설가, 에세이스트, 평론가입니다. Animal Farm과 Nineteen Eighty-Four로 잘 알려져 있으며 전체주의, 선전, 제국, 정치 언어 논의에 계속 영향을 줍니다.",
+      vi: "Tiểu thuyết gia, nhà tiểu luận và nhà phê bình người Anh, tên thật Eric Arthur Blair, nổi tiếng với Animal Farm và Nineteen Eighty-Four; tác phẩm của ông tiếp tục định hình tranh luận về toàn trị, tuyên truyền, đế quốc và ngôn ngữ chính trị.",
+      th: "นักเขียนนวนิยาย นักเขียนความเรียง และนักวิจารณ์ชาวอังกฤษ ชื่อเกิด Eric Arthur Blair เป็นที่รู้จักจาก Animal Farm และ Nineteen Eighty-Four ผลงานของเขายังมีอิทธิพลต่อการถกเถียงเรื่องเผด็จการ โฆษณาชวนเชื่อ จักรวรรดิ และภาษาการเมือง",
+      si: "Eric Arthur Blair ලෙස උපන් British novelist, essayist සහ critic කෙනෙකි; Animal Farm සහ Nineteen Eighty-Four නිසා ප්‍රසිද්ධ අතර totalitarianism, propaganda, empire සහ political language පිළිබඳ සාකච්ඡාවලට තවමත් බලපායි."
+    }
+  },
+  {
     name: "Liesl Tesch",
     aliases: ["Liesl Tesch", "Liesl Dorothy Tesch", "Liesl Tesch MP", "Liesl Tesch AM MP", "Paralympian Liesl Tesch", "莉斯尔·泰施", "莉斯爾·泰施", "リーズル・テッシュ", "리즐 테슈"],
     type: "politician",
