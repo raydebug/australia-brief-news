@@ -973,6 +973,73 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Matt Keogh",
+    aliases: ["Matt Keogh", "Matthew Keogh", "Matthew James Keogh", "Matt Keogh MP", "The Hon Matt Keogh MP", "Minister for Veterans' Affairs Matt Keogh"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.aph.gov.au/M_Keogh_MP" },
+    officialProfile: { label: "Defence ministers profile", url: "https://www.minister.defence.gov.au/current-ministers/2022-06/matt-keogh" },
+    social: { label: "Facebook", url: "https://www.facebook.com/KeoghMatthew/" },
+    personalSocial: { label: "Personal website", url: "https://www.mattkeogh.com/" },
+    background: {
+      "zh-Hans": "澳洲工党联邦议员，2016 年起代表西澳 Burt；2022 年起任退伍军人事务部长和国防人员部长。",
+      "zh-Hant": "澳洲工黨聯邦議員，2016 年起代表西澳 Burt；2022 年起任退伍軍人事務部長和國防人員部長。",
+      en: "Federal Labor MP for Burt in Western Australia since 2016; Minister for Veterans' Affairs and Minister for Defence Personnel since 2022.",
+      es: "Diputado federal laborista por Burt, Australia Occidental, desde 2016; ministro de Asuntos de Veteranos y ministro de Personal de Defensa desde 2022.",
+      ja: "2016年から西オーストラリア州 Burt 選出の連邦 Labor 議員。2022年から Veterans' Affairs Minister と Defence Personnel Minister を務めています。",
+      ko: "2016년부터 Western Australia의 Burt를 대표하는 연방 Labor 의원입니다. 2022년부터 Veterans' Affairs Minister 및 Defence Personnel Minister입니다.",
+      vi: "Nghị sĩ Labor liên bang đại diện Burt, Western Australia từ năm 2016; là Minister for Veterans' Affairs và Minister for Defence Personnel từ năm 2022.",
+      th: "ส.ส. Labor รัฐบาลกลางเขต Burt ในรัฐ Western Australia ตั้งแต่ปี 2016 และเป็น Minister for Veterans' Affairs กับ Minister for Defence Personnel ตั้งแต่ปี 2022",
+      si: "2016 සිට Western Australia හි Burt නියෝජනය කරන Federal Labor MP කෙනෙකි; 2022 සිට Veterans' Affairs Minister සහ Defence Personnel Minister වේ."
+    },
+    positions: {
+      "zh-Hans": [
+        "退伍军人服务：负责退伍军人事务、纪念工作和未寻获战死者身份确认项目。",
+        "国防人员：强调国防人员支持、招募留任和服役家庭服务。",
+        "地方经济：长期关注西澳 Burt 选区的就业、小企业和基础设施。"
+      ],
+      "zh-Hant": [
+        "退伍軍人服務：負責退伍軍人事務、紀念工作和未尋獲戰死者身分確認項目。",
+        "國防人員：強調國防人員支援、招募留任和服役家庭服務。",
+        "地方經濟：長期關注西澳 Burt 選區的就業、小企業和基礎設施。"
+      ],
+      en: [
+        "Veterans: oversees veterans' affairs, commemoration and missing war-casualty identification work.",
+        "Defence personnel: focuses on support, recruitment, retention and services for serving members and families.",
+        "Local economy: emphasises jobs, small business and infrastructure in the Western Australian seat of Burt."
+      ],
+      es: [
+        "Veteranos: supervisa asuntos de veteranos, conmemoración e identificación de bajas de guerra no recuperadas.",
+        "Personal de defensa: se centra en apoyo, reclutamiento, retención y servicios para militares y familias.",
+        "Economía local: enfatiza empleo, pequeñas empresas e infraestructura en Burt, Australia Occidental."
+      ],
+      ja: [
+        "退役軍人：退役軍人政策、追悼、未発見戦没者の身元確認を所管しています。",
+        "国防人員：現役隊員と家族への支援、採用、定着、サービスを重視しています。",
+        "地域経済：西オーストラリア州 Burt の雇用、中小企業、インフラを重視しています。"
+      ],
+      ko: [
+        "보훈: 보훈 업무, 추모, 미수습 전사자 신원 확인을 담당합니다.",
+        "국방 인력: 복무자와 가족 지원, 모집, 유지, 서비스를 중시합니다.",
+        "지역 경제: Western Australia Burt 지역의 일자리, 중소기업, 인프라를 강조합니다."
+      ],
+      vi: [
+        "Cựu chiến binh: phụ trách chính sách cựu chiến binh, tưởng niệm và nhận dạng quân nhân mất tích trong chiến tranh.",
+        "Nhân sự quốc phòng: tập trung vào hỗ trợ, tuyển dụng, giữ chân và dịch vụ cho quân nhân cùng gia đình.",
+        "Kinh tế địa phương: nhấn mạnh việc làm, doanh nghiệp nhỏ và hạ tầng tại đơn vị Burt ở Western Australia."
+      ],
+      th: [
+        "ทหารผ่านศึก: ดูแลกิจการทหารผ่านศึก การรำลึก และงานระบุตัวผู้เสียชีวิตในสงครามที่ยังไม่พบ",
+        "บุคลากรกลาโหม: เน้นการสนับสนุน การรับสมัคร การรักษากำลังพล และบริการสำหรับกำลังพลกับครอบครัว",
+        "เศรษฐกิจท้องถิ่น: ให้ความสำคัญกับงาน ธุรกิจขนาดเล็ก และโครงสร้างพื้นฐานในเขต Burt ของ Western Australia"
+      ],
+      si: [
+        "Veterans: veterans' affairs, commemoration සහ missing war-casualty identification work අධීක්ෂණය කරයි.",
+        "Defence personnel: serving members සහ families සඳහා support, recruitment, retention සහ services මත අවධානය යොමු කරයි.",
+        "Local economy: Western Australian seat of Burt හි jobs, small business සහ infrastructure අවධාරණය කරයි."
+      ]
+    }
+  },
+  {
     name: "Carly Kind",
     aliases: ["Carly Kind", "Carly Kind Privacy Commissioner", "Australian Privacy Commissioner Carly Kind"],
     type: "public official",
