@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T04:08:26.282Z",
+  "updatedAt": "2026-08-08T05:10:32.130Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -100,10 +100,7 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "errors": [
-    "news.com.au content feed remains unstable; article-page fallbacks were used where needed.",
-    "The Australian, Yahoo News Australia, Australian Financial Review, Sky News Australia, 9News, 7NEWS, The Sydney Morning Herald, The Age, Brisbane Times and WAtoday were checked, but their current-week listings were still inconsistent enough to require article-page fallbacks or were skipped when no stable dated item was available."
-  ],
+  "errors": [],
   "clusters": [
     {
       "id": "eschol-park-dog-attack-20260807",
@@ -192,6 +189,25 @@
           }
         ]
       }
+    },
+    {
+      "id": "southern-states-cold-front-20260808",
+      "language": "en",
+      "publishedAt": "2026-08-08T01:40:23.000Z",
+      "headline": "Southern states brace for a fast-moving cold front with rain, snow and flood risk",
+      "sourceCount": 2,
+      "voiceScript": "A strong cold front is moving across southern Australia and is expected to bring damaging winds, heavy rain and some flood risk over the weekend. The Bureau of Meteorology has warnings in place for western, southern and south-eastern states, with snow possible on higher ground. The system matters because it could disrupt travel, lift river levels and cause road and power problems before conditions ease early next week.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/08/wet-windy-and-wintry-cold-front-to-bring-rain-and-potential-flooding-to-parts-of-australia"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/breaking-news/powerful-antarctic-cold-front-to-unleash-hail-snow-damaging-winds-and-rain-across-four-aussie-states/news-story/38455abfa4d1c861df7b258e8bc51ca7"
+        }
+      ]
     },
     {
       "id": "david-brat-us-ambassador-australia-20260808",
@@ -3767,6 +3783,25 @@
           }
         ]
       }
+    },
+    {
+      "id": "first-home-deposit-scheme-investment-properties-20260806",
+      "language": "en",
+      "publishedAt": "2026-08-06T01:31:00.000Z",
+      "headline": "More first-home deposit purchases are ending up as investment properties",
+      "sourceCount": 2,
+      "voiceScript": "New data shows nearly 1,500 homes bought through Australia’s 5 per cent first-home deposit scheme have since been turned into investment properties. The figures matter because the program was designed to help owner-occupiers, yet some higher-income buyers have been able to use it while house prices and policy settings shift. One of the most striking examples was a couple on $674,000 a year, and the next question is whether Canberra tightens the scheme.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/06/first-home-buyers-deposit-scheme-investment-property"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/real-estate/couple-on-674k-use-5-firsthome-buyer-deposit-scheme/news-story/084fcd9271075075b9f6f23fd2b7b44b"
+        }
+      ]
     },
     {
       "id": "lovitt-technologies-far-left-terror-20260805",

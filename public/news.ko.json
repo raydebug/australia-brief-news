@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T04:08:26.289Z",
+  "updatedAt": "2026-08-08T05:10:32.130Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -100,10 +100,7 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "errors": [
-    "news.com.au content feed remains unstable; article-page fallbacks were used where needed.",
-    "The Australian, Yahoo News Australia, Australian Financial Review, Sky News Australia, 9News, 7NEWS, The Sydney Morning Herald, The Age, Brisbane Times and WAtoday were checked, but their current-week listings were still inconsistent enough to require article-page fallbacks or were skipped when no stable dated item was available."
-  ],
+  "errors": [],
   "clusters": [
     {
       "id": "eschol-park-dog-attack-20260807",
@@ -192,6 +189,25 @@
           }
         ]
       }
+    },
+    {
+      "id": "southern-states-cold-front-20260808",
+      "language": "ko",
+      "publishedAt": "2026-08-08T01:40:23.000Z",
+      "headline": "남부 여러 주는 비와 눈, 홍수 위험을 동반한 빠른 한랭전선에 대비하고 있다",
+      "sourceCount": 2,
+      "voiceScript": "강한 한랭전선이 호주 남부를 지나가며 주말에 강풍, 많은 비, 그리고 일부 지역의 홍수 위험을 가져올 전망입니다. 기상청은 서부와 남부, 남동부 여러 주에 경보를 발령했고, 높은 지대에는 눈도 내릴 수 있다고 봤습니다. 이 시스템은 이동 차질과 하천 수위 상승, 도로와 전력 문제를 불러올 수 있어 다음 주 초까지 날씨 변화를 지켜봐야 합니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/08/wet-windy-and-wintry-cold-front-to-bring-rain-and-potential-flooding-to-parts-of-australia"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/breaking-news/powerful-antarctic-cold-front-to-unleash-hail-snow-damaging-winds-and-rain-across-four-aussie-states/news-story/38455abfa4d1c861df7b258e8bc51ca7"
+        }
+      ]
     },
     {
       "id": "david-brat-us-ambassador-australia-20260808",
@@ -3767,6 +3783,25 @@
           }
         ]
       }
+    },
+    {
+      "id": "first-home-deposit-scheme-investment-properties-20260806",
+      "language": "ko",
+      "publishedAt": "2026-08-06T01:31:00.000Z",
+      "headline": "첫 주택 보증금 제도로 산 집이 투자용 부동산이 되는 사례가 늘고 있다",
+      "sourceCount": 2,
+      "voiceScript": "호주의 5% 첫 주택 보증금 제도로 매입된 주택 가운데 약 1,500채가 이후 투자용 부동산으로 바뀐 것으로 새 자료에서 드러났습니다. 이 수치가 중요한 이유는 이 제도가 원래는 실거주자를 돕기 위한 것이지만, 집값과 제도 조건이 바뀌는 가운데 고소득층도 이용할 수 있게 됐기 때문입니다. 특히 연소득 67만4,000호주달러인 부부 사례가 눈에 띄며, 이제는 정부가 제도를 더 조일지 여부가 핵심입니다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/06/first-home-buyers-deposit-scheme-investment-property"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/real-estate/couple-on-674k-use-5-firsthome-buyer-deposit-scheme/news-story/084fcd9271075075b9f6f23fd2b7b44b"
+        }
+      ]
     },
     {
       "id": "lovitt-technologies-far-left-terror-20260805",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T04:08:26.287Z",
+  "updatedAt": "2026-08-08T05:10:32.130Z",
   "generatedBy": "codex",
   "language": "si",
   "sources": [
@@ -100,10 +100,7 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "errors": [
-    "news.com.au content feed remains unstable; article-page fallbacks were used where needed.",
-    "The Australian, Yahoo News Australia, Australian Financial Review, Sky News Australia, 9News, 7NEWS, The Sydney Morning Herald, The Age, Brisbane Times and WAtoday were checked, but their current-week listings were still inconsistent enough to require article-page fallbacks or were skipped when no stable dated item was available."
-  ],
+  "errors": [],
   "clusters": [
     {
       "id": "eschol-park-dog-attack-20260807",
@@ -192,6 +189,25 @@
           }
         ]
       }
+    },
+    {
+      "id": "southern-states-cold-front-20260808",
+      "language": "si",
+      "publishedAt": "2026-08-08T01:40:23.000Z",
+      "headline": "දකුණු ප්‍රාන්තවලට වේගයෙන් පැමිණෙන සීතල පෙරමුණක්, වැසි, හිම සහ ගංවතුර අවදානම ගෙන එයි",
+      "sourceCount": 2,
+      "voiceScript": "ශක්තිමත් සීතල පෙරමුණක් ඕස්ට්‍රේලියාවේ දකුණු ප්‍රදේශ හරහා ගමන් කරමින් සතිඅන්තයේ විනාශකාරී සුළං, තද වැසි සහ යම් ගංවතුර අවදානමක් ගෙන එනු ඇතැයි අපේක්ෂා කෙරේ. කාලගුණ කාර්යාංශය බටහිර, දකුණු සහ දකුණු-නැගෙනහිර ප්‍රාන්ත කිහිපයකට අනතුරු ඇඟවීම් නිකුත් කර ඇති අතර, උස් ප්‍රදේශවල හිම පවා විය හැකිය. මෙම පද්ධතියේ වැදගත්කම වන්නේ ගමන් බිමන් බාධා විය හැකි අතර, ගංගා මට්ටම් ඉහළ යා හැකි අතර, ලබන සතිය ආරම්භයට පෙර මාර්ග හා විදුලි සැපයුම් ගැටලු ඇති විය හැකි බැවිනි.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/08/wet-windy-and-wintry-cold-front-to-bring-rain-and-potential-flooding-to-parts-of-australia"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/breaking-news/powerful-antarctic-cold-front-to-unleash-hail-snow-damaging-winds-and-rain-across-four-aussie-states/news-story/38455abfa4d1c861df7b258e8bc51ca7"
+        }
+      ]
     },
     {
       "id": "david-brat-us-ambassador-australia-20260808",
@@ -3767,6 +3783,25 @@
           }
         ]
       }
+    },
+    {
+      "id": "first-home-deposit-scheme-investment-properties-20260806",
+      "language": "si",
+      "publishedAt": "2026-08-06T01:31:00.000Z",
+      "headline": "මුල් නිවසේ තැන්පතු යොදාගත් මිලදී ගැනීම් වැඩි වශයෙන් ආයෝජන නිවාස වෙමින් පවතී",
+      "sourceCount": 2,
+      "voiceScript": "ඔස්ට්‍රේලියාවේ සියයට 5 ක මුල් නිවසේ තැන්පතු යෝජනා ක්‍රමය යටතේ මිලදී ගත් නිවාස 1,500ට ආසන්න ප්‍රමාණයක් පසුව ආයෝජන නිවාස ලෙස පරිවර්තනය වී ඇති බව නව දත්ත පෙන්නුම් කරයි. මෙම සංඛ්‍යාව වැදගත් වන්නේ එය අයිතිකරුවන්ට නවාතැන් ගැනීමට උදව් කිරීම සඳහා වූ වැඩසටහනක් වුවද, ඉහළ ආදායම් ඇති ගැනුම්කරුවන්ටත් එය භාවිතා කළ හැකිවීම සහ නිවාස මිල හා ප්‍රතිපත්ති වෙනස්වීම් එකට සිදුවීම නිසාය. කැපිටල්ට අතිශයින්ම කැපී පෙනෙන උදාහරණයක් වන්නේ වසරකට ඩොලර් 674,000ක් උපයන යුවළකි; දැන් බලන්න කැන්බරා මෙම යෝජනා ක්‍රමය තද කරයිද යන්න.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/06/first-home-buyers-deposit-scheme-investment-property"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/real-estate/couple-on-674k-use-5-firsthome-buyer-deposit-scheme/news-story/084fcd9271075075b9f6f23fd2b7b44b"
+        }
+      ]
     },
     {
       "id": "lovitt-technologies-far-left-terror-20260805",

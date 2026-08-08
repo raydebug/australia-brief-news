@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T04:08:26.290Z",
+  "updatedAt": "2026-08-08T05:10:32.130Z",
   "generatedBy": "codex",
   "language": "vi",
   "sources": [
@@ -100,10 +100,7 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "errors": [
-    "news.com.au content feed remains unstable; article-page fallbacks were used where needed.",
-    "The Australian, Yahoo News Australia, Australian Financial Review, Sky News Australia, 9News, 7NEWS, The Sydney Morning Herald, The Age, Brisbane Times and WAtoday were checked, but their current-week listings were still inconsistent enough to require article-page fallbacks or were skipped when no stable dated item was available."
-  ],
+  "errors": [],
   "clusters": [
     {
       "id": "eschol-park-dog-attack-20260807",
@@ -192,6 +189,25 @@
           }
         ]
       }
+    },
+    {
+      "id": "southern-states-cold-front-20260808",
+      "language": "vi",
+      "publishedAt": "2026-08-08T01:40:23.000Z",
+      "headline": "Các bang miền nam chuẩn bị đón một đợt không khí lạnh di chuyển nhanh với mưa, tuyết và nguy cơ ngập lụt",
+      "sourceCount": 2,
+      "voiceScript": "Một khối không khí lạnh mạnh đang quét qua miền nam Australia và được dự báo sẽ mang theo gió giật mạnh, mưa lớn cùng nguy cơ ngập lụt trong cuối tuần. Cục Khí tượng đã phát cảnh báo cho các bang phía tây, phía nam và đông nam, trong khi vùng cao có thể có tuyết. Hệ thống này có thể làm gián đoạn đi lại, khiến mực nước sông dâng và gây sự cố đường sá, mất điện trước khi thời tiết dịu dần vào đầu tuần sau.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/08/wet-windy-and-wintry-cold-front-to-bring-rain-and-potential-flooding-to-parts-of-australia"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/breaking-news/powerful-antarctic-cold-front-to-unleash-hail-snow-damaging-winds-and-rain-across-four-aussie-states/news-story/38455abfa4d1c861df7b258e8bc51ca7"
+        }
+      ]
     },
     {
       "id": "david-brat-us-ambassador-australia-20260808",
@@ -3767,6 +3783,25 @@
           }
         ]
       }
+    },
+    {
+      "id": "first-home-deposit-scheme-investment-properties-20260806",
+      "language": "vi",
+      "publishedAt": "2026-08-06T01:31:00.000Z",
+      "headline": "Ngày càng nhiều khoản mua nhà lần đầu lại trở thành bất động sản đầu tư",
+      "sourceCount": 2,
+      "voiceScript": "Dữ liệu mới cho thấy gần 1.500 căn nhà mua qua chương trình đặt cọc 5% cho người mua nhà lần đầu ở Australia sau đó đã được chuyển thành bất động sản đầu tư. Con số này quan trọng vì chương trình vốn được thiết kế để giúp người ở thực mua được nhà, nhưng trong bối cảnh giá nhà và điều kiện chính sách thay đổi, một số người thu nhập cao cũng có thể tận dụng nó. Một ví dụ nổi bật là một cặp đôi có thu nhập 674.000 đô la Australia mỗi năm, và câu hỏi tiếp theo là Canberra có siết lại chương trình hay không.",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/06/first-home-buyers-deposit-scheme-investment-property"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/real-estate/couple-on-674k-use-5-firsthome-buyer-deposit-scheme/news-story/084fcd9271075075b9f6f23fd2b7b44b"
+        }
+      ]
     },
     {
       "id": "lovitt-technologies-far-left-terror-20260805",

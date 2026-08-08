@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T04:08:26.285Z",
+  "updatedAt": "2026-08-08T05:10:32.130Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -100,10 +100,7 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "errors": [
-    "news.com.au content feed remains unstable; article-page fallbacks were used where needed.",
-    "The Australian, Yahoo News Australia, Australian Financial Review, Sky News Australia, 9News, 7NEWS, The Sydney Morning Herald, The Age, Brisbane Times and WAtoday were checked, but their current-week listings were still inconsistent enough to require article-page fallbacks or were skipped when no stable dated item was available."
-  ],
+  "errors": [],
   "clusters": [
     {
       "id": "eschol-park-dog-attack-20260807",
@@ -192,6 +189,25 @@
           }
         ]
       }
+    },
+    {
+      "id": "southern-states-cold-front-20260808",
+      "language": "zh-Hans",
+      "publishedAt": "2026-08-08T01:40:23.000Z",
+      "headline": "澳洲南部多州迎来快速推进的冷锋，降雨降雪并伴随洪涝风险",
+      "sourceCount": 2,
+      "voiceScript": "一股强冷锋正在穿过澳大利亚南部，预计在周末带来破坏性大风、强降雨和一定的洪涝风险。气象局已对西部、南部和东南部多个州发布警报，高海拔地区也可能出现降雪。这个天气系统的重要性在于，它可能干扰出行、推高河流水位，并在下周初天气缓和前造成道路和供电问题。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/08/wet-windy-and-wintry-cold-front-to-bring-rain-and-potential-flooding-to-parts-of-australia"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/breaking-news/powerful-antarctic-cold-front-to-unleash-hail-snow-damaging-winds-and-rain-across-four-aussie-states/news-story/38455abfa4d1c861df7b258e8bc51ca7"
+        }
+      ]
     },
     {
       "id": "david-brat-us-ambassador-australia-20260808",
@@ -3767,6 +3783,25 @@
           }
         ]
       }
+    },
+    {
+      "id": "first-home-deposit-scheme-investment-properties-20260806",
+      "language": "zh-Hans",
+      "publishedAt": "2026-08-06T01:31:00.000Z",
+      "headline": "更多首套房首付购入最终流向了投资房",
+      "sourceCount": 2,
+      "voiceScript": "最新数据显示，澳大利亚 5% 首套房首付计划购买的近 1,500 套住房，后来被转成了投资房。这个数字之所以重要，是因为这项计划原本是为了帮助自住买家入市，但在房价和政策条件变化之下，一些高收入买家也能使用它。其中一个最醒目的例子是一对年收入 67.4 万澳元的夫妇，接下来要看堪培拉是否会收紧这项计划。",
+      "differences": [],
+      "links": [
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/06/first-home-buyers-deposit-scheme-investment-property"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/real-estate/couple-on-674k-use-5-firsthome-buyer-deposit-scheme/news-story/084fcd9271075075b9f6f23fd2b7b44b"
+        }
+      ]
     },
     {
       "id": "lovitt-technologies-far-left-terror-20260805",
