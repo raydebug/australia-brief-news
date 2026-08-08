@@ -4780,6 +4780,23 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Hugh Marks",
+    aliases: ["Hugh Marks", "ABC Managing Director Hugh Marks", "ABC managing director Hugh Marks"],
+    type: "public-figure",
+    officialProfile: { label: "ABC profile", url: "https://www.abc.net.au/about/profiles/hugh-marks/105032990" },
+    background: {
+      "zh-Hans": "澳大利亚广播公司董事总经理，2025 年 3 月上任；此前曾任 Nine Entertainment 首席执行官，并长期从事内容制作、广播和数字媒体管理。",
+      "zh-Hant": "澳洲廣播公司董事總經理，2025 年 3 月上任；此前曾任 Nine Entertainment 行政總裁，並長期從事內容製作、廣播和數碼媒體管理。",
+      en: "Managing director of the Australian Broadcasting Corporation since March 2025. He is a former Nine Entertainment chief executive with a long background in content production, broadcasting and digital media management.",
+      es: "Director general de Australian Broadcasting Corporation desde marzo de 2025. Fue chief executive de Nine Entertainment y tiene amplia trayectoria en producción de contenidos, radiodifusión y medios digitales.",
+      ja: "2025年3月から Australian Broadcasting Corporation の managing director。Nine Entertainment の元 chief executive で、コンテンツ制作、放送、デジタルメディア運営の経験があります。",
+      ko: "2025년 3월부터 Australian Broadcasting Corporation managing director입니다. Nine Entertainment 전 chief executive로 콘텐츠 제작, 방송, 디지털 미디어 경영 경험이 깁니다.",
+      vi: "Managing director của Australian Broadcasting Corporation từ tháng 3 năm 2025. Ông từng là chief executive của Nine Entertainment và có nền tảng lâu năm trong sản xuất nội dung, phát sóng và quản lý truyền thông số.",
+      th: "Managing director ของ Australian Broadcasting Corporation ตั้งแต่มีนาคม 2025 อดีต chief executive ของ Nine Entertainment และมีประสบการณ์ยาวนานด้านการผลิตคอนเทนต์ สื่อกระจายเสียง และการจัดการสื่อดิจิทัล",
+      si: "2025 March සිට Australian Broadcasting Corporation managing director වේ. ඔහු හිටපු Nine Entertainment chief executive කෙනෙකු වන අතර content production, broadcasting සහ digital media management පිළිබඳ දිගු පසුබිමක් ඇත."
+    }
+  },
+  {
     name: "Jean Nassif",
     aliases: ["Jean Nassif", "Jean Nassif Toplace", "Toplace developer Jean Nassif"],
     type: "public-figure",
