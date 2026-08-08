@@ -1078,6 +1078,71 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "David Brat",
+    aliases: ["David Brat", "Dave Brat", "David Alan Brat", "Dr David Brat", "Ambassador David Brat", "U.S. Ambassador to Australia David Brat"],
+    type: "politician",
+    profile: { label: "U.S. State Department biography", url: "https://www.state.gov/brat-david-commonwealth-of-australia-may-2026" },
+    officialProfile: { label: "Liberty University profile", url: "https://www.liberty.edu/business-relations/" },
+    background: {
+      "zh-Hans": "美国共和党政治人物、学者和前弗吉尼亚州联邦众议员，2014 年在党内初选中击败 Eric Cantor 成名；2026 年获确认出任美国驻澳大利亚大使。",
+      "zh-Hant": "美國共和黨政治人物、學者和前弗吉尼亞州聯邦眾議員，2014 年在黨內初選中擊敗 Eric Cantor 成名；2026 年獲確認出任美國駐澳洲大使。",
+      en: "Republican politician, academic and former U.S. representative from Virginia who became prominent after defeating Eric Cantor in a 2014 primary; confirmed in 2026 as U.S. ambassador to Australia.",
+      es: "Político republicano, académico y excongresista por Virginia; saltó a la fama al derrotar a Eric Cantor en una primaria de 2014 y fue confirmado en 2026 como embajador de EE. UU. en Australia.",
+      ja: "米共和党の政治家、学者、元バージニア州選出連邦下院議員。2014年の予備選で Eric Cantor を破って注目され、2026年に駐豪米国大使として承認されました。",
+      ko: "미국 공화당 정치인, 학자, 전 버지니아 연방 하원의원입니다. 2014년 예비선거에서 Eric Cantor를 꺾으며 주목받았고 2026년 주호주 미국 대사로 인준됐습니다.",
+      vi: "Chính trị gia Cộng hòa, học giả và cựu hạ nghị sĩ liên bang từ Virginia; nổi bật sau khi đánh bại Eric Cantor trong vòng sơ bộ năm 2014 và được phê chuẩn làm đại sứ Mỹ tại Australia năm 2026.",
+      th: "นักการเมือง Republican นักวิชาการ และอดีตสมาชิกสภาผู้แทนราษฎรสหรัฐฯ จาก Virginia เป็นที่รู้จักหลังชนะ Eric Cantor ในไพรมารีปี 2014 และได้รับการยืนยันเป็นเอกอัครราชทูตสหรัฐฯ ประจำออสเตรเลียในปี 2026",
+      si: "Republican politician, academic සහ Virginia හි former U.S. representative කෙනෙකි; 2014 primary එකේ Eric Cantor පරාජය කිරීමෙන් ප්‍රකට වූ අතර 2026 දී U.S. ambassador to Australia ලෙස තහවුරු විය."
+    },
+    positions: {
+      "zh-Hans": [
+        "外交：强调美澳安全、关键矿产、贸易和印太合作。",
+        "经济：长期支持保守派自由市场观点，同时为特朗普关税政策辩护。",
+        "文化政治：其政治形象与 Tea Party、宗教保守主义和共和党民粹派相连。"
+      ],
+      "zh-Hant": [
+        "外交：強調美澳安全、關鍵礦產、貿易和印太合作。",
+        "經濟：長期支持保守派自由市場觀點，同時為特朗普關稅政策辯護。",
+        "文化政治：其政治形象與 Tea Party、宗教保守主義和共和黨民粹派相連。"
+      ],
+      en: [
+        "Diplomacy: emphasises Australia-US security ties, critical minerals, trade and Indo-Pacific cooperation.",
+        "Economics: associated with conservative free-market views while defending Trump's tariff agenda.",
+        "Culture politics: linked publicly with the Tea Party, religious conservatism and Republican populism."
+      ],
+      es: [
+        "Diplomacia: enfatiza seguridad Australia-EE. UU., minerales críticos, comercio y cooperación Indo-Pacífico.",
+        "Economía: asociado con posturas conservadoras de libre mercado y con la defensa de los aranceles de Trump.",
+        "Política cultural: vinculado públicamente con el Tea Party, el conservadurismo religioso y el populismo republicano."
+      ],
+      ja: [
+        "外交：米豪の安全保障、重要鉱物、貿易、インド太平洋協力を重視しています。",
+        "経済：保守的な自由市場論と結び付く一方、Trump の関税政策も擁護しています。",
+        "文化政治：Tea Party、宗教保守、共和党ポピュリズムと公的に結び付けられています。"
+      ],
+      ko: [
+        "외교: 호주-미국 안보, 핵심 광물, 무역, 인도태평양 협력을 강조합니다.",
+        "경제: 보수적 자유시장 견해와 연결되며 Trump 관세 정책도 옹호합니다.",
+        "문화정치: Tea Party, 종교 보수주의, 공화당 포퓰리즘과 공개적으로 연결됩니다."
+      ],
+      vi: [
+        "Ngoại giao: nhấn mạnh an ninh Australia-Mỹ, khoáng sản chiến lược, thương mại và hợp tác Ấn Độ Dương-Thái Bình Dương.",
+        "Kinh tế: gắn với quan điểm thị trường tự do bảo thủ và bảo vệ chính sách thuế quan của Trump.",
+        "Chính trị văn hóa: gắn công khai với Tea Party, bảo thủ tôn giáo và chủ nghĩa dân túy Cộng hòa."
+      ],
+      th: [
+        "การทูต: เน้นความมั่นคงออสเตรเลีย-สหรัฐฯ แร่สำคัญ การค้า และความร่วมมืออินโดแปซิฟิก",
+        "เศรษฐกิจ: เชื่อมโยงกับแนวคิดตลาดเสรีแบบอนุรักษนิยม และปกป้องนโยบายภาษีของ Trump",
+        "การเมืองวัฒนธรรม: ถูกเชื่อมโยงกับ Tea Party อนุรักษนิยมทางศาสนา และประชานิยม Republican"
+      ],
+      si: [
+        "Diplomacy: Australia-US security ties, critical minerals, trade සහ Indo-Pacific cooperation අවධාරණය කරයි.",
+        "Economics: conservative free-market views සමඟ සම්බන්ධ අතර Trump tariff agenda ද ආරක්ෂා කරයි.",
+        "Culture politics: Tea Party, religious conservatism සහ Republican populism සමඟ public ලෙස සම්බන්ධය."
+      ]
+    }
+  },
+  {
     name: "Fatemeh Pasandideh",
     aliases: ["Fatemeh Pasandideh", "PASAND", "fatemehpasandideh10", "فاطمه پسندیده"],
     type: "athlete",
