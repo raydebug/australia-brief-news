@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T15:10:15Z",
+  "updatedAt": "2026-08-08T16:12:17Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -103,6 +103,26 @@
   "errors": 0,
   "clusters": [
     {
+      "id": "perth-car-smashing-police-chase-20260808",
+      "headline": "珀斯一名男子砸车横穿多区后被控",
+      "publishedAt": "2026-08-08T06:41:00+00:00",
+      "sourceCount": 2,
+      "voiceScript": "警方称，一名 45 岁男子在珀斯北部郊区连续约 90 分钟闹事，至少损坏了 20 辆停放或行驶中的车辆，随后被起诉。这个事件之所以重要，是因为它跨越多个城区，造成的是公开、危险且范围很广的财物损失。眼下下一步是法庭程序，以及他为何会在城市里一路失控。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-08/perth-man-charged-over-car-smashing-and-police-chase/107012862"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/perth"
+        }
+      ],
+      "language": "zh-Hans",
+      "socialDiscussions": {}
+    },
+    {
       "id": "nsw-bird-flu-native-birds-20260808",
       "headline": "新州确认本地野鸟出现首例禽流感",
       "publishedAt": "2026-08-08T05:26:32+00:00",
@@ -186,13 +206,21 @@
       "id": "gina-rinehart-abc-ombudsman-finding-20260808",
       "headline": "赖因哈特就澳广裁决再度施压",
       "publishedAt": "2026-08-08T05:19:37+00:00",
-      "sourceCount": 1,
+      "sourceCount": 3,
       "voiceScript": "Gina Rinehart 因《Race Around the World》播出一段涉及她的虚构暴力情节，公开批评澳广监察结果。争议的核心是，公共媒体在处理敏感内容时，编辑标准和申诉机制是否足够严格。这个问题重要，因为它会影响澳广未来如何处理高争议素材。接下来要看澳广如何回应，以及相关标准会不会被调整。",
       "differences": [],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-08/gina-rinehart-statement-race-around-the-world-abc-hugh-marks/107012884"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/finance/business/mining/controversial-segment-on-abc-depicting-violence-against-billionaire-gina-rinehart-referred-to-ombudsman/news-story/adc796e46f49cae8a9453e569b907ce3"
+        },
+        {
+          "source": "The Australian",
+          "url": "https://www.theaustralian.com.au/business/media/abc-apologises-for-airing-disgusting-gina-rinehart-video-on-race-around-the-world/news-story/0d73b7b3e7ed8e6096f0c8da970d9f00"
         }
       ],
       "language": "zh-Hans",
@@ -306,13 +334,17 @@
       "id": "tas-senate-replacements-20260808",
       "headline": "塔州自由党补上两席参议院空缺",
       "publishedAt": "2026-08-08T04:45:22+00:00",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "voiceScript": "塔斯马尼亚自由党已经选出一名为 Rockliff 工作的高级顾问和一名前州部长，分别接替两名即将离任的参议员。这个变化重要，因为它会决定塔州在联邦议会中的代表阵容，也可能影响党内权力平衡。现在的关键是交接能否顺利完成，以及新面孔能否尽快进入角色。正式程序还要继续走完。",
       "differences": [],
       "links": [
         {
           "source": "ABC News",
           "url": "https://www.abc.net.au/news/2026-08-08/liberals-select-senate-replacements-for-tasmanians-duniam-askew/107012632"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/politics/premiers-adviser-former-minister-to-replace-senators-duniam-asker-on-tasmania-ticket/news-story/9c864a22d235be897aeca2706deb6550"
         }
       ],
       "language": "zh-Hans",
@@ -529,6 +561,18 @@
           "url": "https://www.theguardian.com/australia-news/2026/aug/08/sydney-airport-delays-affecting-qantas-virgin-flights"
         },
         {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/sydney-airport-plunged-into-chaos-by-lack-of-air-traffic-controllers/news-story/6eeac3f5c6927090b1ab4626b87df38c"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/significant-delays-at-sydney-airport-as-dozens-of-flights-remain-grounded-c-22690128"
+        },
+        {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/passengers-delayed-as-dozens-of-flights-disrupted"
         }
@@ -702,6 +746,34 @@
           }
         ]
       }
+    },
+    {
+      "id": "wallabies-japan-red-card-thriller-20260808",
+      "headline": "澳洲队在红牌风波后险胜日本",
+      "publishedAt": "2026-08-08T02:33:00+00:00",
+      "sourceCount": 4,
+      "voiceScript": "澳大利亚队在大阪以 35 比 32 险胜日本队，但一张红牌让球队在很长时间里都处于被动。这个结果重要，因为新任主教练的执教开局拿到了胜利，不过比赛也暴露出纪律问题一旦出现，就会迅速改变一场测试赛的走势。接下来要看球队能否更快稳定阵容，以及回到汤斯维尔再战前还需要补多少功课。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-08/wallabies-vs-japan-first-test-live-scores/106999438"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/wallabies-see-red-but-survive-osaka-thriller"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/sport/rugby/farce-wallabies-in-meltdown-over-red-card-against-japan/news-story/1b885ade6c16239038b78fa161e39bb5"
+        },
+        {
+          "source": "9News",
+          "url": "https://www.9news.com.au/just-in"
+        }
+      ],
+      "language": "zh-Hans",
+      "socialDiscussions": {}
     },
     {
       "id": "smart-highway-trial-upper-hunter-20260808",
