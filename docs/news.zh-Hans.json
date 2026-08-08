@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T00:13:42.509Z",
+  "updatedAt": "2026-08-08T01:10:04.293Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -105,6 +105,29 @@
     "The Australian, Yahoo News Australia, Australian Financial Review, Sky News Australia, 9News, 7NEWS, The Sydney Morning Herald, The Age, Brisbane Times and WAtoday were checked, but their current-week listings were still inconsistent enough to require article-page fallbacks or were skipped when no stable dated item was available."
   ],
   "clusters": [
+    {
+      "id": "david-brat-us-ambassador-australia-20260808",
+      "language": "zh-Hans",
+      "publishedAt": "2026-08-08T00:29:01Z",
+      "headline": "David Brat将接任美国驻堪培拉大使",
+      "voiceScript": "美国参议院已经确认 David Brat 出任下一任美国驻澳大利亚大使，这个职位已经空缺了数月。这个任命之所以重要，是因为华盛顿和堪培拉仍在处理关税、国防协调和 AUKUS 带来的压力。Brat 说他想把重点放在贸易、关键矿产和安全关系上，接下来就看他何时前往堪培拉。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-08/david-brat-confirmed-as-us-ambassador-to-australia/107012520"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/08/david-brat-bound-for-australia-as-diplomat-confirmed-as-next-us-ambassador"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/donald-trump-names-pick-for-top-us-post-in-australia-after-15-month-vacancy/5yej7g3st"
+        }
+      ],
+      "sourceCount": 3
+    },
     {
       "id": "wa-corruption-watchdog-resources-20260807",
       "headline": "西澳反腐机构呼吁增员增权，盯紧政府承包商",
@@ -296,6 +319,21 @@
         }
       ],
       "language": "zh-Hans"
+    },
+    {
+      "id": "longreach-pelvic-physio-gap-20260808",
+      "language": "zh-Hans",
+      "publishedAt": "2026-08-07T21:22:00Z",
+      "headline": "Longreach 女士因盆底理疗师离职而面临更长路程就医",
+      "voiceScript": "Longreach 的一些女性说，当地唯一的公立盆底理疗师离开后，她们为了复诊不得不长途跋涉。这个缺口在昆州内陆格外重要，因为专科服务本来就稀缺，路途本身也会变成就医障碍。卫生服务机构表示正在招聘，但还不能保证补上的人具备同样的专科经验。接下来要看这个岗位能否补上合适的专业能力，还是只能先用普通理疗师顶上。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-08/longreach-outback-pelvic-floor-physio-needed-for-mothers/106994450"
+        }
+      ],
+      "sourceCount": 1
     },
     {
       "id": "northern-tablelands-snow-recovery-20260807",
@@ -1910,7 +1948,7 @@
     {
       "id": "sydney-airport-delays-20260807",
       "language": "zh-Hans",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-08-07T03:15:00.000Z",
       "headline": "悉尼机场因塔台人手不足而大范围延误",
       "voiceScript": "由于空管人员不足，Airservices Australia 启动流量管制，悉尼机场随后出现大面积延误和取消。Qantas、Jetstar、Virgin 和 Rex 都受影响，有些旅客在停机坪上被耽搁了长达两小时。之所以重要，是因为这次混乱冲击了澳洲最关键的交通枢纽，也说明人员排班一旦吃紧，就会迅速波及全国航线网络。Airservices 说限制已经解除，但接下来的考验是他们能否在下一次高峰前把排班和人手补强。",
@@ -1927,6 +1965,10 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/significant-delays-at-sydney-airport-as-dozens-of-flights-remain-grounded-c-22690128"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-08/sydney-airport-flight-delays-long-queues-airservices-warns/107012486"
         }
       ],
       "socialDiscussions": {

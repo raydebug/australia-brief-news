@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T00:13:42.509Z",
+  "updatedAt": "2026-08-08T01:10:04.293Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -105,6 +105,29 @@
     "The Australian, Yahoo News Australia, Australian Financial Review, Sky News Australia, 9News, 7NEWS, The Sydney Morning Herald, The Age, Brisbane Times and WAtoday were checked, but their current-week listings were still inconsistent enough to require article-page fallbacks or were skipped when no stable dated item was available."
   ],
   "clusters": [
+    {
+      "id": "david-brat-us-ambassador-australia-20260808",
+      "language": "ja",
+      "publishedAt": "2026-08-08T00:29:01Z",
+      "headline": "David Bratがキャンベラの米大使職に正式承認",
+      "voiceScript": "米上院は、David Brat氏をオーストラリア駐在の次期大使として承認しました。長く空席だったポストがようやく埋まる形です。今回の人事が重要なのは、ワシントンとキャンベラが関税、防衛協力、AUKUSをめぐる圧力にまだ向き合っているためです。Brat氏は貿易、重要鉱物、安全保障の連携を重視するとしており、次は彼がキャンベラに到着して実務を始める時期です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-08/david-brat-confirmed-as-us-ambassador-to-australia/107012520"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/08/david-brat-bound-for-australia-as-diplomat-confirmed-as-next-us-ambassador"
+        },
+        {
+          "source": "SBS News",
+          "url": "https://www.sbs.com.au/news/article/donald-trump-names-pick-for-top-us-post-in-australia-after-15-month-vacancy/5yej7g3st"
+        }
+      ],
+      "sourceCount": 3
+    },
     {
       "id": "wa-corruption-watchdog-resources-20260807",
       "headline": "西オーストラリア州の監視機関、契約業者を追うため増員と権限強化を要望",
@@ -296,6 +319,21 @@
         }
       ],
       "language": "ja"
+    },
+    {
+      "id": "longreach-pelvic-physio-gap-20260808",
+      "language": "ja",
+      "publishedAt": "2026-08-07T21:22:00Z",
+      "headline": "Longreachの女性たち、骨盤底理学療法士の退職で遠距離通院へ",
+      "voiceScript": "Longreachでは、地域で唯一の公立 pelvic health physiotherapist が去ったあと、診療のために何時間も移動しなければならない患者が出ています。地方のクイーンズランドでは専門サービスがもともと少ないため、この空白は治療への大きな壁になります。保健当局は補充を進めているとしていますが、同じ専門性を持つ人材になるかはまだ分かりません。次の焦点は、十分な専門性を持つ人が来るのか、それとも一般的な理学療法士で穴埋めするのかです。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-08/longreach-outback-pelvic-floor-physio-needed-for-mothers/106994450"
+        }
+      ],
+      "sourceCount": 1
     },
     {
       "id": "northern-tablelands-snow-recovery-20260807",
@@ -1910,7 +1948,7 @@
     {
       "id": "sydney-airport-delays-20260807",
       "language": "ja",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "publishedAt": "2026-08-07T03:15:00.000Z",
       "headline": "シドニー空港が管制要員不足で大幅遅延",
       "voiceScript": "シドニー空港では、Airservices Australia が管制要員の不足を受けて流れを制御したため、出発と到着に大きな遅れや欠航が出ました。Qantas、Jetstar、Virgin、Rex の便が影響を受け、機内や駐機場で長く待たされた乗客もいました。重要なのは、主要な交通拠点の混乱が全国の航空網にすぐ波及することです。制限は解除されましたが、次の山場までに人員配置を強化できるかが焦点です。",
@@ -1927,6 +1965,10 @@
         {
           "source": "7NEWS",
           "url": "https://7news.com.au/news/significant-delays-at-sydney-airport-as-dozens-of-flights-remain-grounded-c-22690128"
+        },
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-08/sydney-airport-flight-delays-long-queues-airservices-warns/107012486"
         }
       ],
       "socialDiscussions": {
