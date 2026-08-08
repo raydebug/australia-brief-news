@@ -1040,6 +1040,96 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Jeremy Rockliff",
+    aliases: ["Jeremy Rockliff", "Jeremy Page Rockliff", "Premier Jeremy Rockliff", "Tasmanian Premier Jeremy Rockliff"],
+    type: "politician",
+    profile: { label: "Premier of Tasmania profile", url: "https://www.premier.tas.gov.au/your-government/jeremy-rockliff" },
+    personalSocial: { label: "Facebook", url: "https://www.facebook.com/jeremyrockliff/" },
+    social: { label: "X", url: "https://x.com/jeremyrockliff" },
+    background: {
+      "zh-Hans": "塔斯马尼亚自由党政治人物，2002 年起任 Braddon 州议员，2022 年起任塔州州长。",
+      "zh-Hant": "塔斯馬尼亞自由黨政治人物，2002 年起任 Braddon 州議員，2022 年起任塔州州長。",
+      en: "Tasmanian Liberal politician, member for Braddon since 2002 and Premier of Tasmania since 2022.",
+      es: "Político liberal de Tasmania, diputado por Braddon desde 2002 y premier de Tasmania desde 2022.",
+      ja: "タスマニア Liberal の政治家。2002年から Braddon 選出議員、2022年からタスマニア州首相です。",
+      ko: "Tasmanian Liberal 정치인으로 2002년부터 Braddon 의원, 2022년부터 Tasmania Premier입니다.",
+      vi: "Chính trị gia Liberal ở Tasmania, dân biểu Braddon từ năm 2002 và Premier of Tasmania từ năm 2022.",
+      th: "นักการเมือง Liberal ของ Tasmania เป็นสมาชิกเขต Braddon ตั้งแต่ปี 2002 และ Premier of Tasmania ตั้งแต่ปี 2022",
+      si: "Tasmanian Liberal politician කෙනෙකි; 2002 සිට Braddon member සහ 2022 සිට Premier of Tasmania වේ."
+    },
+    positions: {
+      "zh-Hans": ["强调财政约束、就业和私营部门投资。", "把医疗、住房和地区服务作为州政府核心议题。", "支持旅游、农业、能源和基础设施项目推动塔州增长。"],
+      "zh-Hant": ["強調財政約束、就業和私營部門投資。", "把醫療、住房和地區服務作為州政府核心議題。", "支持旅遊、農業、能源和基礎設施項目推動塔州增長。"],
+      en: ["Emphasises budget discipline, jobs and private investment.", "Frames health, housing and regional services as core state priorities.", "Backs tourism, agriculture, energy and infrastructure projects for Tasmania's growth."],
+      es: ["Enfatiza disciplina presupuestaria, empleo e inversión privada.", "Presenta salud, vivienda y servicios regionales como prioridades estatales.", "Apoya turismo, agricultura, energía e infraestructura para el crecimiento de Tasmania."],
+      ja: ["財政規律、雇用、民間投資を重視しています。", "医療、住宅、地域サービスを州政府の中心課題に位置付けます。", "観光、農業、エネルギー、インフラ事業を通じた成長を支持します。"],
+      ko: ["예산 규율, 일자리, 민간 투자를 강조합니다.", "보건, 주택, 지역 서비스를 주정부 핵심 과제로 둡니다.", "관광, 농업, 에너지, 인프라 사업을 통한 Tasmania 성장을 지지합니다."],
+      vi: ["Nhấn mạnh kỷ luật ngân sách, việc làm và đầu tư tư nhân.", "Coi y tế, nhà ở và dịch vụ vùng là ưu tiên cốt lõi của bang.", "Ủng hộ du lịch, nông nghiệp, năng lượng và hạ tầng cho tăng trưởng Tasmania."],
+      th: ["เน้นวินัยงบประมาณ งาน และการลงทุนเอกชน", "วางสุขภาพ ที่อยู่อาศัย และบริการภูมิภาคเป็นประเด็นหลักของรัฐ", "สนับสนุนท่องเที่ยว เกษตร พลังงาน และโครงสร้างพื้นฐานเพื่อการเติบโตของ Tasmania"],
+      si: ["Budget discipline, jobs සහ private investment අවධාරණය කරයි.", "Health, housing සහ regional services core state priorities ලෙස දක්වයි.", "Tasmania growth සඳහා tourism, agriculture, energy සහ infrastructure projects සහාය දක්වයි."]
+    }
+  },
+  {
+    name: "Jonno Duniam",
+    aliases: ["Jonno Duniam", "Jonathon Duniam", "Jonathon Roy Duniam", "Senator Jonno Duniam", "Senator Jonathon Duniam"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.aph.gov.au/Senator_Duniam" },
+    personalSocial: { label: "Personal website", url: "https://duniam.com.au/" },
+    social: { label: "Facebook", url: "https://www.facebook.com/SenatorDuniam/" },
+    background: {
+      "zh-Hans": "塔斯马尼亚自由党联邦参议员，2016 年起任职，曾任助理部长，后任反对党内政事务影子部长。",
+      "zh-Hant": "塔斯馬尼亞自由黨聯邦參議員，2016 年起任職，曾任助理部長，後任反對黨內政事務影子部長。",
+      en: "Liberal senator for Tasmania since 2016; a former assistant minister and later shadow minister for home affairs.",
+      es: "Senador liberal por Tasmania desde 2016; ex ministro asistente y luego ministro sombra de Asuntos Internos.",
+      ja: "2016年からタスマニア選出の Liberal 連邦上院議員。元 assistant minister で、その後 shadow minister for home affairs を務めました。",
+      ko: "2016년부터 Tasmania Liberal 상원의원입니다. 전 assistant minister였고 이후 shadow minister for home affairs를 맡았습니다.",
+      vi: "Thượng nghị sĩ Liberal đại diện Tasmania từ năm 2016; từng là assistant minister và sau đó là shadow minister for home affairs.",
+      th: "วุฒิสมาชิก Liberal ของ Tasmania ตั้งแต่ปี 2016 อดีต assistant minister และต่อมาเป็น shadow minister for home affairs",
+      si: "2016 සිට Tasmania සඳහා Liberal senator කෙනෙකි; former assistant minister සහ පසුව shadow minister for home affairs ලෙස කටයුතු කළේය."
+    },
+    positions: {
+      "zh-Hans": ["聚焦边境安全、移民和国家安全。", "长期强调塔州林业、渔业、旅游和小企业。", "参与联邦党内策略和塔州参议院团队建设。"],
+      "zh-Hant": ["聚焦邊境安全、移民和國家安全。", "長期強調塔州林業、漁業、旅遊和小企業。", "參與聯邦黨內策略和塔州參議院團隊建設。"],
+      en: ["Focuses on border security, immigration and national security.", "Often stresses Tasmanian forestry, fisheries, tourism and small business.", "Involved in federal party strategy and Tasmania's Senate team renewal."],
+      es: ["Se centra en seguridad fronteriza, inmigración y seguridad nacional.", "Suele destacar silvicultura, pesca, turismo y pequeñas empresas de Tasmania.", "Participa en estrategia federal y renovación del equipo senatorial de Tasmania."],
+      ja: ["国境管理、移民、国家安全保障を重視しています。", "タスマニアの林業、漁業、観光、中小企業をよく強調します。", "連邦党戦略とタスマニア上院チーム刷新に関わっています。"],
+      ko: ["국경 안보, 이민, 국가 안보에 초점을 둡니다.", "Tasmania 임업, 어업, 관광, 중소기업을 자주 강조합니다.", "연방당 전략과 Tasmania 상원팀 재편에 관여합니다."],
+      vi: ["Tập trung vào an ninh biên giới, di trú và an ninh quốc gia.", "Thường nhấn mạnh lâm nghiệp, thủy sản, du lịch và doanh nghiệp nhỏ Tasmania.", "Tham gia chiến lược liên bang và làm mới đội ngũ Thượng viện Tasmania."],
+      th: ["เน้นความมั่นคงชายแดน การย้ายถิ่น และความมั่นคงแห่งชาติ", "มักเน้นป่าไม้ ประมง ท่องเที่ยว และธุรกิจขนาดเล็กของ Tasmania", "มีบทบาทในยุทธศาสตร์พรรคระดับสหพันธรัฐและการปรับทีมวุฒิสภา Tasmania"],
+      si: ["Border security, immigration සහ national security මත අවධානය යොමු කරයි.", "Tasmanian forestry, fisheries, tourism සහ small business අවධාරණය කරයි.", "Federal party strategy සහ Tasmania Senate team renewal සමඟ සම්බන්ධ වේ."]
+    }
+  },
+  {
+    name: "Wendy Askew",
+    aliases: ["Wendy Askew", "Wendy Anne Askew", "Senator Wendy Askew", "Wendy Askew Liberal Senator for Tasmania"],
+    type: "politician",
+    profile: { label: "Parliament profile", url: "https://www.aph.gov.au/Senator_Askew" },
+    officialProfile: { label: "Liberal Party profile", url: "https://www.liberal.org.au/team/wendy-askew" },
+    social: { label: "Instagram", url: "https://www.instagram.com/senatoraskew/" },
+    background: {
+      "zh-Hans": "塔斯马尼亚自由党联邦参议员，2019 年填补空缺进入参议院，2022 年起任反对党参议院党鞭。",
+      "zh-Hant": "塔斯馬尼亞自由黨聯邦參議員，2019 年填補空缺進入參議院，2022 年起任反對黨參議院黨鞭。",
+      en: "Liberal senator for Tasmania who entered the Senate in 2019 through a casual vacancy and became Opposition Whip in the Senate in 2022.",
+      es: "Senadora liberal por Tasmania; llegó al Senado en 2019 por una vacante casual y fue whip de la oposición en el Senado desde 2022.",
+      ja: "タスマニア選出の Liberal 連邦上院議員。2019年に欠員補充で上院入りし、2022年から Opposition Whip in the Senate です。",
+      ko: "Tasmania Liberal 상원의원입니다. 2019년 보궐 공석으로 상원에 들어갔고 2022년부터 Opposition Whip in the Senate입니다.",
+      vi: "Thượng nghị sĩ Liberal đại diện Tasmania, vào Thượng viện năm 2019 qua một ghế khuyết và là Opposition Whip in the Senate từ năm 2022.",
+      th: "วุฒิสมาชิก Liberal ของ Tasmania เข้าสู่วุฒิสภาในปี 2019 ผ่านตำแหน่งว่าง และเป็น Opposition Whip in the Senate ตั้งแต่ปี 2022",
+      si: "Tasmania සඳහා Liberal senator කෙනෙකි; 2019 දී casual vacancy එකකින් Senate වෙත පැමිණ 2022 සිට Opposition Whip in the Senate වේ."
+    },
+    positions: {
+      "zh-Hans": ["作为党鞭负责反对党参议院组织和议程协调。", "强调塔州社区、家庭和地区服务。", "参与多项议会委员会和监督程序。"],
+      "zh-Hant": ["作為黨鞭負責反對黨參議院組織和議程協調。", "強調塔州社區、家庭和地區服務。", "參與多項議會委員會和監督程序。"],
+      en: ["As whip, coordinates opposition organisation and Senate business.", "Emphasises Tasmanian communities, families and regional services.", "Active across parliamentary committees and scrutiny processes."],
+      es: ["Como whip coordina la organización opositora y la agenda del Senado.", "Enfatiza comunidades, familias y servicios regionales de Tasmania.", "Participa en comités parlamentarios y procesos de escrutinio."],
+      ja: ["whip として野党側の組織運営と上院議事を調整します。", "タスマニアの地域社会、家族、地域サービスを重視します。", "議会委員会と監視手続きに幅広く関わっています。"],
+      ko: ["whip으로서 야당 조직과 상원 의사일정을 조정합니다.", "Tasmania 지역사회, 가족, 지역 서비스를 강조합니다.", "의회 위원회와 감시 절차에 폭넓게 참여합니다."],
+      vi: ["Với vai trò whip, bà điều phối tổ chức đối lập và công việc Thượng viện.", "Nhấn mạnh cộng đồng, gia đình và dịch vụ vùng của Tasmania.", "Tham gia nhiều ủy ban nghị viện và quy trình giám sát."],
+      th: ["ในฐานะ whip ประสานงานองค์กรฝ่ายค้านและงานวุฒิสภา", "เน้นชุมชน ครอบครัว และบริการภูมิภาคของ Tasmania", "มีบทบาทในคณะกรรมาธิการรัฐสภาและกระบวนการตรวจสอบ"],
+      si: ["Whip ලෙස opposition organisation සහ Senate business සම්බන්ධීකරණය කරයි.", "Tasmanian communities, families සහ regional services අවධාරණය කරයි.", "Parliamentary committees සහ scrutiny processes රැසක ක්‍රියාකාරී වේ."]
+    }
+  },
+  {
     name: "Carly Kind",
     aliases: ["Carly Kind", "Carly Kind Privacy Commissioner", "Australian Privacy Commissioner Carly Kind"],
     type: "public official",
