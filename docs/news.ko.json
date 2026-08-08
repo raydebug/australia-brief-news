@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T09:10:59.807Z",
+  "updatedAt": "2026-08-08T10:13:03.699Z",
   "generatedBy": "codex",
   "language": "ko",
   "sources": [
@@ -100,7 +100,7 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "errors": [],
+  "errors": 0,
   "clusters": [
     {
       "id": "nsw-bird-flu-native-birds-20260808",
@@ -597,6 +597,21 @@
       }
     },
     {
+      "id": "prenatal-supplements-20260808",
+      "headline": "전문가들, 임신기 보충제 과장 광고에 경고",
+      "publishedAt": "2026-08-08T02:00:00.000Z",
+      "sourceCount": 1,
+      "voiceScript": "호주 임신 지침은 대부분의 임신부에게 엽산, 요오드, 철분을 핵심 보충제로 제시한다. 그런데 소셜미디어에서는 추가 제품이 퍼지고 있고, 전문가들은 그것이 효과가 없거나 피할 수 있는 해를 부를 수 있다고 경고한다. 이 이슈가 중요한 이유는 임신 관련 조언이 광고에 쉽게 흔들리고, 가족들이 근거보다 마케팅에 돈을 쓰게 되기 때문이다. 앞으로는 의사와 규제기관, 플랫폼이 이런 혼선을 얼마나 줄일지가 관건이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/health/2026-08-08/unnecessary-prenatal-supplements-marketed-at-expectant-parents/106965418"
+        }
+      ],
+      "language": "ko"
+    },
+    {
       "id": "southern-states-cold-front-20260808",
       "language": "ko",
       "publishedAt": "2026-08-08T01:40:23.000Z",
@@ -1038,21 +1053,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "tasmanian-election-signage-address-risk-20260808",
-      "headline": "태즈메이니아 후보들, 선거물 주소 공개 규정이 가족을 위험에 빠뜨릴 수 있다고 경고",
-      "publishedAt": "2026-08-07T22:56:00Z",
-      "sourceCount": 1,
-      "voiceScript": "태즈메이니아의 무소속 후보들은 선거 홍보물에 집 주소를 적게 하는 규정이 자신과 가족을 위험에 빠뜨릴 수 있다고 말한다. 이 문제는 개인 안전이 소셜미디어 시대 이전에 만들어진 공개 의무 규정과 충돌하고 있기 때문에 중요하다. 다음 쟁점은 지방선거 전에 법을 고칠지, 아니면 후보자들이 계속 집 주소를 써야 할지다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-08/political-candidates-election-signage-safety-concerns/107010318"
-        }
-      ],
-      "language": "ko"
     },
     {
       "id": "victorian-country-road-potholes-20260807",
@@ -2868,72 +2868,6 @@
       }
     },
     {
-      "id": "sydney-airport-delays-20260807",
-      "language": "ko",
-      "sourceCount": 4,
-      "publishedAt": "2026-08-07T03:15:00.000Z",
-      "headline": "시드니 공항, 관제 인력 부족으로 대규모 지연",
-      "voiceScript": "시드니 공항은 관제 인력이 부족해 Airservices Australia가 흐름 통제를 시행하면서 큰 지연과 결항을 겪었습니다. Qantas, Jetstar, Virgin, Rex 항공편이 영향을 받았고, 일부 승객은 활주로에서 두 시간가량 지연됐습니다. 이 사안이 중요한 이유는 호주의 핵심 교통 허브가 흔들리면 국내 항공망 전체로 빠르게 번질 수 있기 때문입니다. 제한은 해제됐지만, 다음 혼잡 전까지 배치와 인력을 얼마나 보강하느냐가 관건입니다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/travel/travel-updates/sydney-airport-plunged-into-chaos-by-lack-of-air-traffic-controllers/news-story/6eeac3f5c6927090b1ab4626b87df38c"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/significant-delays-at-sydney-airport-as-dozens-of-flights-remain-grounded-c-22690128"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-08/sydney-airport-flight-delays-long-queues-airservices-warns/107012486"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Facebook",
-            "account": "7NEWS Sydney",
-            "title": "There is chaos at Sydney Airport, with passengers delayed for hours after air traffic control restrictions",
-            "url": "https://www.facebook.com/7NEWSsydney/posts/there-is-chaos-at-sydney-airport-with-passengers-delayed-for-hours-just-a-day-af/1519963526827917/",
-            "postedAt": "today",
-            "score": 12
-          },
-          {
-            "platform": "Facebook",
-            "account": "7NEWS Sydney",
-            "title": "There are widespread delays for passengers at Sydney Airport this morning, with domestic flights hit by controller shortages",
-            "url": "https://www.facebook.com/7NEWSsydney/posts/there-are-widespread-delays-for-passengers-at-sydney-airport-this-morning-with-d/1519914133499523/",
-            "postedAt": "today",
-            "score": 10
-          }
-        ]
-      }
-    },
-    {
-      "id": "au-smartglasses-privacy-20260807",
-      "headline": "스마트 글래스가 호주 개인정보 규정에 새 압박",
-      "publishedAt": "2026-08-07T03:07:00Z",
-      "sourceCount": 2,
-      "voiceScript": "당국이 명확한 동의 없이 사람을 촬영할 수 있다고 경고하면서 호주의 개인정보 논쟁이 카메라가 달린 스마트 글래스로 옮겨가고 있습니다. 우려의 핵심은 특히 여성과 아이들이 공공장소에서 자신도 모르게 촬영될 수 있다는 점입니다. 지금의 규정은 값싼 착용형 카메라가 흔해지기 전에 만들어졌기 때문에 이 문제는 중요합니다. 다음 단계는 캔버라가 개인정보법을 더 엄격하게 바꾸거나, 불만과 불안이 커질 때 새 지침을 내놓는지입니다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-07/federal-politics-live-blog-david-pocock-accuses-gambling-lobby/107007504"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
-        }
-      ],
-      "language": "ko"
-    },
-    {
       "id": "melbourne-liberal-ticket-20260807",
       "language": "ko",
       "sourceCount": 1,
@@ -3794,67 +3728,6 @@
       }
     },
     {
-      "id": "jobseeker-68-day-20260806",
-      "language": "ko",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-06T18:39:30.000Z",
-      "headline": "JobSeeker로 버티는 일은 여전히 큰 생활비 시험대다",
-      "voiceScript": "호주에서는 JobSeeker 수급자들이 하루 약 68달러로 버티도록 요구받고 있고, 연방 예산에서도 기본 지급액은 오르지 않았다. 보도는 임대료와 식비, 교통비가 가장 큰 부담이라고 전하고, 지원 단체들은 이 급여로는 기본 생활비조차 감당하기 어렵다고 말한다. 이 문제는 논의가 물가상승만이 아니라 빈곤 자체로 옮겨갔다는 점에서 중요하다. 또 물가연동만으로 현실을 따라갈 수 있는지에 대한 질문도 남는다. 다음 판단은 정부가 지급액을 다시 검토할지, 아니면 그대로 둘지다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-07/could-you-live-on-jobseeker-payments/106866554"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "title": "Trying to survive on JobSeeker's $68 a day forcing Australians into 'impossible choices'",
-            "url": "https://www.reddit.com/r/australia/comments/1vhj0fe/trying_to_survive_on_jobseekers_68_a_day_forcing/",
-            "postedAt": "today",
-            "score": 60
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "title": "Australia's jobseeker system fails workers and enriches millionaires, report says",
-            "url": "https://www.reddit.com/r/australia/comments/1v24m47/australias_jobseeker_system_fails_workers_and/",
-            "postedAt": "21h ago",
-            "score": 35
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/AustralianPolitics",
-            "title": "Australia's jobseeker system fails workers and enriches millionaires, report says",
-            "url": "https://www.reddit.com/r/AustralianPolitics/comments/1v24l3n/australias_jobseeker_system_fails_workers_and/",
-            "postedAt": "15d ago",
-            "score": 30
-          },
-          {
-            "platform": "Instagram",
-            "account": "SBS News",
-            "title": "Could you live on $808 a fortnight? People on JobSeeker do",
-            "url": "https://www.instagram.com/p/DYCIdd-H5MN/",
-            "postedAt": "3 months ago",
-            "score": 15
-          }
-        ],
-        "vi": [
-          {
-            "platform": "Facebook",
-            "account": "SBS Vietnamese",
-            "title": "JobSeeker là khoản trợ cấp dành cho người trong độ tuổi lao động đang thất nghiệp",
-            "url": "https://www.facebook.com/SBSVietnamese/videos/jobseeker-l%C3%A0-kho%E1%BA%A3n-tr%E1%BB%A3-c%E1%BA%A5p-d%C3%A0nh-cho-ng%C6%B0%E1%BB%9Di-trong-%C4%91%E1%BB%99-tu%E1%BB%95i-lao-%C4%91%E1%BB%99ng-%C4%91ang-th%E1%BA%A5t-nghi%E1%BB%87/1296409495538019/",
-            "postedAt": "last month",
-            "score": 20
-          }
-        ]
-      }
-    },
-    {
       "id": "fuel-trade-surplus-20260806",
       "language": "ko",
       "sourceCount": 3,
@@ -4539,21 +4412,6 @@
       ]
     },
     {
-      "id": "first-home-scheme-investment-properties-20260805",
-      "headline": "첫 주택 제도 일부 매입 주택이 투자용으로 바뀌었다",
-      "publishedAt": "2026-08-05T15:00:23Z",
-      "sourceCount": 1,
-      "voiceScript": "연방 5% 계약금 제도로 산 주택 약 1,500채가 이후 투자용 부동산으로 바뀌었다는 새 자료가 나왔습니다. 이 제도는 첫 주택 구매자가 적은 초기 자금으로 집을 마련하도록 설계됐지만, 수치상 일부는 이제 실거주를 하지 않고 있습니다. 이는 주택 가격 부담과 정책이 정말 필요한 가구를 돕고 있는지에 대한 논쟁을 다시 키우는 사안입니다. 남은 질문은 정부가 자격 요건, 관리, 공개 규정을 더 엄격히 할지입니다.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/06/first-home-buyers-deposit-scheme-investment-property"
-        }
-      ],
-      "language": "ko"
-    },
-    {
       "id": "lovitt-technologies-far-left-terror-20260805",
       "language": "ko",
       "publishedAt": "2026-08-05T14:00:13+00:00",
@@ -4634,6 +4492,33 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/lot-of-moolah-perrottet-wanted-cash-for-faction-play"
+        }
+      ],
+      "language": "ko"
+    },
+    {
+      "id": "emma-lovell-high-court-20260805",
+      "headline": "고등법원, 에마 로벨 살해범의 더 무거운 형량을 되살려",
+      "publishedAt": "2026-08-05T00:41:00.000Z",
+      "sourceCount": 4,
+      "voiceScript": "고등법원은 2022년 주거침입 사건에서 브리즈번의 어머니 에마 로벨을 살해한 남성에게 내려진 감형을 취소했다. 앞선 결정으로 가석방 전 복역 비율이 60%로 낮아졌지만, 그 판단은 유지될 수 없다고 본 것이다. 이 판결은 청소년 범죄 사건에서 항소심이 형량을 얼마나 바꿀 수 있는지 선을 그은 셈이다. 이제 관심은 실제 석방 시점과 비슷한 사건에 남을 영향이다.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/high-court-throws-reduced-sentence-teen-who-killed-emma-lovell/106998022"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/reduced-term-for-mum-killer-quashed-by-high-court"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/high-court-throws-out-teens-reduced-jail-sentence-over-emma-lovell-murder-c-22678572"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/courts-law/high-court-appeal-granted-after-teen-killer-of-queensland-mum-emma-lovells-sentence-reduced/news-story/dfb9a933704419e9cb04ef0585a02b79"
         }
       ],
       "language": "ko"

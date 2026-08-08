@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T09:10:59.807Z",
+  "updatedAt": "2026-08-08T10:13:03.699Z",
   "generatedBy": "codex",
   "language": "ja",
   "sources": [
@@ -100,7 +100,7 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "errors": [],
+  "errors": 0,
   "clusters": [
     {
       "id": "nsw-bird-flu-native-birds-20260808",
@@ -597,6 +597,21 @@
       }
     },
     {
+      "id": "prenatal-supplements-20260808",
+      "headline": "専門家、妊娠期サプリの過剰な宣伝に警鐘",
+      "publishedAt": "2026-08-08T02:00:00.000Z",
+      "sourceCount": 1,
+      "voiceScript": "オーストラリアの妊娠ガイドラインでは、多くの妊婦に必要なのは葉酸、ヨウ素、鉄分が中心だとされています。ところが今は、SNSで追加のサプリが広まり、効かないか、避けられる害につながる可能性があると専門家が警告しています。重要なのは、妊娠中の情報が広告に引っ張られやすく、家族が根拠より販売文句にお金を使ってしまう点です。今後は、医療現場、規制当局、そしてプラットフォーム側の対応がどこまで進むかが焦点です。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/health/2026-08-08/unnecessary-prenatal-supplements-marketed-at-expectant-parents/106965418"
+        }
+      ],
+      "language": "ja"
+    },
+    {
       "id": "southern-states-cold-front-20260808",
       "language": "ja",
       "publishedAt": "2026-08-08T01:40:23.000Z",
@@ -1038,21 +1053,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "tasmanian-election-signage-address-risk-20260808",
-      "headline": "タスマニアの候補者、選挙物に住所を載せる規則は家族を危険にさらすと警告",
-      "publishedAt": "2026-08-07T22:56:00Z",
-      "sourceCount": 1,
-      "voiceScript": "タスマニアの無所属候補者たちは、選挙資料に自宅住所の記載を求める規則が本人と家族を危険にさらすと訴えています。問題は、個人の安全が、SNS時代より前に作られた開示ルールとぶつかっていることです。次に焦点となるのは、地方選挙の前に法律が改正されるのか、それとも候補者が自宅住所の使用を続けるのかです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-08/political-candidates-election-signage-safety-concerns/107010318"
-        }
-      ],
-      "language": "ja"
     },
     {
       "id": "victorian-country-road-potholes-20260807",
@@ -2868,72 +2868,6 @@
       }
     },
     {
-      "id": "sydney-airport-delays-20260807",
-      "language": "ja",
-      "sourceCount": 4,
-      "publishedAt": "2026-08-07T03:15:00.000Z",
-      "headline": "シドニー空港が管制要員不足で大幅遅延",
-      "voiceScript": "シドニー空港では、Airservices Australia が管制要員の不足を受けて流れを制御したため、出発と到着に大きな遅れや欠航が出ました。Qantas、Jetstar、Virgin、Rex の便が影響を受け、機内や駐機場で長く待たされた乗客もいました。重要なのは、主要な交通拠点の混乱が全国の航空網にすぐ波及することです。制限は解除されましたが、次の山場までに人員配置を強化できるかが焦点です。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/travel/travel-updates/sydney-airport-plunged-into-chaos-by-lack-of-air-traffic-controllers/news-story/6eeac3f5c6927090b1ab4626b87df38c"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/significant-delays-at-sydney-airport-as-dozens-of-flights-remain-grounded-c-22690128"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-08/sydney-airport-flight-delays-long-queues-airservices-warns/107012486"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Facebook",
-            "account": "7NEWS Sydney",
-            "title": "There is chaos at Sydney Airport, with passengers delayed for hours after air traffic control restrictions",
-            "url": "https://www.facebook.com/7NEWSsydney/posts/there-is-chaos-at-sydney-airport-with-passengers-delayed-for-hours-just-a-day-af/1519963526827917/",
-            "postedAt": "today",
-            "score": 12
-          },
-          {
-            "platform": "Facebook",
-            "account": "7NEWS Sydney",
-            "title": "There are widespread delays for passengers at Sydney Airport this morning, with domestic flights hit by controller shortages",
-            "url": "https://www.facebook.com/7NEWSsydney/posts/there-are-widespread-delays-for-passengers-at-sydney-airport-this-morning-with-d/1519914133499523/",
-            "postedAt": "today",
-            "score": 10
-          }
-        ]
-      }
-    },
-    {
-      "id": "au-smartglasses-privacy-20260807",
-      "headline": "スマートグラスが豪州のプライバシー規則に圧力",
-      "publishedAt": "2026-08-07T03:07:00Z",
-      "sourceCount": 2,
-      "voiceScript": "当局が、明確な同意なしに人を撮影できると警告したことで、オーストラリアのプライバシー論争はカメラ付きスマートグラスへと移っています。懸念されているのは、特に女性や子どもが、気づかないうちに公共の場で撮影されることです。いまの規則は、安価な装着型カメラが一般化する前に作られたため、この問題は重要です。次は、キャンベラがプライバシー法を強化するのか、苦情や不安の高まりに合わせて新しい指針を出すのかです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-07/federal-politics-live-blog-david-pocock-accuses-gambling-lobby/107007504"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
-        }
-      ],
-      "language": "ja"
-    },
-    {
       "id": "melbourne-liberal-ticket-20260807",
       "language": "ja",
       "sourceCount": 1,
@@ -3794,67 +3728,6 @@
       }
     },
     {
-      "id": "jobseeker-68-day-20260806",
-      "language": "ja",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-06T18:39:30.000Z",
-      "headline": "JobSeekerで暮らすことは今も生活費の大きな試練だ",
-      "voiceScript": "豪州では、JobSeeker受給者が1日およそ68ドルで暮らすことを求められており、連邦予算でも基礎額は引き上げられていない。報道は、家賃、食費、交通費が最も重い負担だと伝え、支援団体はこの給付では最低限の生活費すら賄えないと指摘している。これは、議論がインフレだけでなく貧困そのものに向かっていること、そして物価指数連動だけでは追いつけるのかという問いにつながる。次の判断は、政府が給付額を見直すのか、それとも据え置くのかだ。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-07/could-you-live-on-jobseeker-payments/106866554"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "title": "Trying to survive on JobSeeker's $68 a day forcing Australians into 'impossible choices'",
-            "url": "https://www.reddit.com/r/australia/comments/1vhj0fe/trying_to_survive_on_jobseekers_68_a_day_forcing/",
-            "postedAt": "today",
-            "score": 60
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "title": "Australia's jobseeker system fails workers and enriches millionaires, report says",
-            "url": "https://www.reddit.com/r/australia/comments/1v24m47/australias_jobseeker_system_fails_workers_and/",
-            "postedAt": "21h ago",
-            "score": 35
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/AustralianPolitics",
-            "title": "Australia's jobseeker system fails workers and enriches millionaires, report says",
-            "url": "https://www.reddit.com/r/AustralianPolitics/comments/1v24l3n/australias_jobseeker_system_fails_workers_and/",
-            "postedAt": "15d ago",
-            "score": 30
-          },
-          {
-            "platform": "Instagram",
-            "account": "SBS News",
-            "title": "Could you live on $808 a fortnight? People on JobSeeker do",
-            "url": "https://www.instagram.com/p/DYCIdd-H5MN/",
-            "postedAt": "3 months ago",
-            "score": 15
-          }
-        ],
-        "vi": [
-          {
-            "platform": "Facebook",
-            "account": "SBS Vietnamese",
-            "title": "JobSeeker là khoản trợ cấp dành cho người trong độ tuổi lao động đang thất nghiệp",
-            "url": "https://www.facebook.com/SBSVietnamese/videos/jobseeker-l%C3%A0-kho%E1%BA%A3n-tr%E1%BB%A3-c%E1%BA%A5p-d%C3%A0nh-cho-ng%C6%B0%E1%BB%9Di-trong-%C4%91%E1%BB%99-tu%E1%BB%95i-lao-%C4%91%E1%BB%99ng-%C4%91ang-th%E1%BA%A5t-nghi%E1%BB%87/1296409495538019/",
-            "postedAt": "last month",
-            "score": 20
-          }
-        ]
-      }
-    },
-    {
       "id": "fuel-trade-surplus-20260806",
       "language": "ja",
       "sourceCount": 3,
@@ -4539,21 +4412,6 @@
       ]
     },
     {
-      "id": "first-home-scheme-investment-properties-20260805",
-      "headline": "初回購入向け制度の一部物件が投資用に転じた",
-      "publishedAt": "2026-08-05T15:00:23Z",
-      "sourceCount": 1,
-      "voiceScript": "連邦の5％頭金制度で購入された約1,500戸が、その後投資用物件に転じていたことが新しいデータで分かりました。この制度は初めて家を買う人が少ない自己資金で足場を築けるように設計されましたが、数字は一部の利用者が自ら住む形から離れていることを示しています。これは住宅の手ごろさをめぐる議論を深め、この政策が本当に対象世帯を助けているのかという疑問につながります。今後の焦点は、政府が対象条件や監視、開示ルールを厳しくするかどうかです。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/06/first-home-buyers-deposit-scheme-investment-property"
-        }
-      ],
-      "language": "ja"
-    },
-    {
       "id": "lovitt-technologies-far-left-terror-20260805",
       "language": "ja",
       "publishedAt": "2026-08-05T14:00:13+00:00",
@@ -4634,6 +4492,33 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/lot-of-moolah-perrottet-wanted-cash-for-faction-play"
+        }
+      ],
+      "language": "ja"
+    },
+    {
+      "id": "emma-lovell-high-court-20260805",
+      "headline": "エマ・ロヴェル事件で高裁が重い刑を復活",
+      "publishedAt": "2026-08-05T00:41:00.000Z",
+      "sourceCount": 4,
+      "voiceScript": "高裁は、2022年の住居侵入事件でブリスベンの母親エマ・ロヴェルさんを殺害した男に対する減刑を取り消しました。前の判断で仮釈放までの期間が60%に短縮されていましたが、その判断は維持できないとされ、元の14年刑が基準に戻ります。重要なのは、少年事件の量刑を上訴審がどこまで見直せるかに線引きが入ったことです。今後は釈放時期への影響と、同種の事件での扱いが焦点になります。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/high-court-throws-reduced-sentence-teen-who-killed-emma-lovell/106998022"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/reduced-term-for-mum-killer-quashed-by-high-court"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/high-court-throws-out-teens-reduced-jail-sentence-over-emma-lovell-murder-c-22678572"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/courts-law/high-court-appeal-granted-after-teen-killer-of-queensland-mum-emma-lovells-sentence-reduced/news-story/dfb9a933704419e9cb04ef0585a02b79"
         }
       ],
       "language": "ja"

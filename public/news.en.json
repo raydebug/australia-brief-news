@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T09:10:59.807Z",
+  "updatedAt": "2026-08-08T10:13:03.699Z",
   "generatedBy": "codex",
   "language": "en",
   "sources": [
@@ -100,7 +100,7 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "errors": [],
+  "errors": 0,
   "clusters": [
     {
       "id": "nsw-bird-flu-native-birds-20260808",
@@ -405,7 +405,7 @@
       "id": "sydney-airport-delay-rostering-20260808",
       "headline": "Sydney Airport delays ripple through thousands of passengers",
       "publishedAt": "2026-08-08T03:48:52+00:00",
-      "sourceCount": 2,
+      "sourceCount": 4,
       "voiceScript": "Dozens of Sydney Airport flights were delayed after Airservices Australia said roster issues were affecting traffic management. More than 150 flights were caught up in the disruption, which can quickly spread through check-ins, connections and cancellations. The significance is not just the delay itself but what it says about how fragile the system can be when staffing slips. Passengers are still being told to check with airlines before heading to the airport.",
       "differences": [],
       "links": [
@@ -416,6 +416,18 @@
         {
           "source": "The Guardian Australia",
           "url": "https://www.theguardian.com/australia-news/2026/aug/08/sydney-airport-delays-affecting-qantas-virgin-flights"
+        },
+        {
+          "source": "The Guardian Australia",
+          "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/travel/travel-updates/sydney-airport-plunged-into-chaos-by-lack-of-air-traffic-controllers/news-story/6eeac3f5c6927090b1ab4626b87df38c"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/significant-delays-at-sydney-airport-as-dozens-of-flights-remain-grounded-c-22690128"
         }
       ],
       "language": "en",
@@ -595,6 +607,21 @@
           }
         ]
       }
+    },
+    {
+      "id": "prenatal-supplements-20260808",
+      "headline": "Health experts push back on extra pregnancy supplement claims",
+      "publishedAt": "2026-08-08T02:00:00.000Z",
+      "sourceCount": 1,
+      "voiceScript": "Australian pregnancy guidelines still point to folic acid, iodine and iron as the core supplements for most expectant parents. Health experts are warning that social media is now pushing extra products that may do nothing or create avoidable harm. That matters because pregnancy advice is easy to distort and families can end up buying into marketing instead of evidence. The next step is whether clinicians, regulators and platform rules do more to cut through the noise.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/health/2026-08-08/unnecessary-prenatal-supplements-marketed-at-expectant-parents/106965418"
+        }
+      ],
+      "language": "en"
     },
     {
       "id": "southern-states-cold-front-20260808",
@@ -1038,21 +1065,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "tasmanian-election-signage-address-risk-20260808",
-      "headline": "Tasmanian candidates warn address rules on campaign signs could put families at risk",
-      "publishedAt": "2026-08-07T22:56:00Z",
-      "sourceCount": 1,
-      "voiceScript": "Independent candidates in Tasmania say rules that force them to print a home address on campaign material can expose them and their families. The complaint matters because personal safety is now colliding with election disclosure rules that were written long before modern online harassment. The next step is whether lawmakers change the law before local elections, or leave candidates to keep using home addresses.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-08/political-candidates-election-signage-safety-concerns/107010318"
-        }
-      ],
-      "language": "en"
     },
     {
       "id": "victorian-country-road-potholes-20260807",
@@ -2868,72 +2880,6 @@
       }
     },
     {
-      "id": "sydney-airport-delays-20260807",
-      "language": "en",
-      "sourceCount": 4,
-      "publishedAt": "2026-08-07T03:15:00.000Z",
-      "headline": "Sydney Airport is hit by widespread delays after controller staffing shortages",
-      "voiceScript": "Sydney Airport faced major delays and cancellations after Airservices Australia imposed flow controls because too few controllers were available. Flights on Qantas, Jetstar, Virgin and Rex were affected, with some passengers stuck on the tarmac for up to two hours. It matters because the disruption hit a critical transport hub and showed how thin staffing can quickly spread through the national network. Airservices says the restrictions have been lifted, but the next test is whether rosters and staffing are strengthened before the next crunch.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/travel/travel-updates/sydney-airport-plunged-into-chaos-by-lack-of-air-traffic-controllers/news-story/6eeac3f5c6927090b1ab4626b87df38c"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/significant-delays-at-sydney-airport-as-dozens-of-flights-remain-grounded-c-22690128"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-08/sydney-airport-flight-delays-long-queues-airservices-warns/107012486"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Facebook",
-            "account": "7NEWS Sydney",
-            "title": "There is chaos at Sydney Airport, with passengers delayed for hours after air traffic control restrictions",
-            "url": "https://www.facebook.com/7NEWSsydney/posts/there-is-chaos-at-sydney-airport-with-passengers-delayed-for-hours-just-a-day-af/1519963526827917/",
-            "postedAt": "today",
-            "score": 12
-          },
-          {
-            "platform": "Facebook",
-            "account": "7NEWS Sydney",
-            "title": "There are widespread delays for passengers at Sydney Airport this morning, with domestic flights hit by controller shortages",
-            "url": "https://www.facebook.com/7NEWSsydney/posts/there-are-widespread-delays-for-passengers-at-sydney-airport-this-morning-with-d/1519914133499523/",
-            "postedAt": "today",
-            "score": 10
-          }
-        ]
-      }
-    },
-    {
-      "id": "au-smartglasses-privacy-20260807",
-      "headline": "Smart glasses put pressure on Australia's privacy rules",
-      "publishedAt": "2026-08-07T03:07:00Z",
-      "sourceCount": 2,
-      "voiceScript": "Australia's privacy debate is shifting toward camera-equipped smart glasses after officials warned they can record people without clear consent. The concern is that bystanders can be filmed in public before they notice, especially women and children. That matters because the current rules were built before cheap wearable cameras became common. The next step is whether Canberra tightens privacy law or issues new guidance as complaints and public unease grow.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-07/federal-politics-live-blog-david-pocock-accuses-gambling-lobby/107007504"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
-        }
-      ],
-      "language": "en"
-    },
-    {
       "id": "melbourne-liberal-ticket-20260807",
       "language": "en",
       "sourceCount": 1,
@@ -3794,67 +3740,6 @@
       }
     },
     {
-      "id": "jobseeker-68-day-20260806",
-      "language": "en",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-06T18:39:30.000Z",
-      "headline": "Living on JobSeeker remains a major cost-of-living test",
-      "voiceScript": "Australians on JobSeeker are still being asked to get by on about 68 dollars a day, with no increase to the base rate in the federal budget. The reporting points to rent, food and transport as the biggest pressure points, and advocates say the payment no longer covers basic living costs. That matters because the debate is now about poverty as much as inflation, and about whether indexation alone can keep up. The next decision is whether the government reopens the rate or leaves it unchanged.",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-07/could-you-live-on-jobseeker-payments/106866554"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "title": "Trying to survive on JobSeeker's $68 a day forcing Australians into 'impossible choices'",
-            "url": "https://www.reddit.com/r/australia/comments/1vhj0fe/trying_to_survive_on_jobseekers_68_a_day_forcing/",
-            "postedAt": "today",
-            "score": 60
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "title": "Australia's jobseeker system fails workers and enriches millionaires, report says",
-            "url": "https://www.reddit.com/r/australia/comments/1v24m47/australias_jobseeker_system_fails_workers_and/",
-            "postedAt": "21h ago",
-            "score": 35
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/AustralianPolitics",
-            "title": "Australia's jobseeker system fails workers and enriches millionaires, report says",
-            "url": "https://www.reddit.com/r/AustralianPolitics/comments/1v24l3n/australias_jobseeker_system_fails_workers_and/",
-            "postedAt": "15d ago",
-            "score": 30
-          },
-          {
-            "platform": "Instagram",
-            "account": "SBS News",
-            "title": "Could you live on $808 a fortnight? People on JobSeeker do",
-            "url": "https://www.instagram.com/p/DYCIdd-H5MN/",
-            "postedAt": "3 months ago",
-            "score": 15
-          }
-        ],
-        "vi": [
-          {
-            "platform": "Facebook",
-            "account": "SBS Vietnamese",
-            "title": "JobSeeker là khoản trợ cấp dành cho người trong độ tuổi lao động đang thất nghiệp",
-            "url": "https://www.facebook.com/SBSVietnamese/videos/jobseeker-l%C3%A0-kho%E1%BA%A3n-tr%E1%BB%A3-c%E1%BA%A5p-d%C3%A0nh-cho-ng%C6%B0%E1%BB%9Di-trong-%C4%91%E1%BB%99-tu%E1%BB%95i-lao-%C4%91%E1%BB%99ng-%C4%91ang-th%E1%BA%A5t-nghi%E1%BB%87/1296409495538019/",
-            "postedAt": "last month",
-            "score": 20
-          }
-        ]
-      }
-    },
-    {
       "id": "fuel-trade-surplus-20260806",
       "language": "en",
       "sourceCount": 3,
@@ -4539,21 +4424,6 @@
       ]
     },
     {
-      "id": "first-home-scheme-investment-properties-20260805",
-      "headline": "Some first-home scheme purchases have become investment properties",
-      "publishedAt": "2026-08-05T15:00:23Z",
-      "sourceCount": 1,
-      "voiceScript": "New data shows almost 1,500 homes bought through the federal 5% deposit scheme were later converted into investment properties. The scheme was designed to help first-time buyers get a foothold with less upfront cash, but the figures show some participants have moved on from owner-occupation. That matters because it feeds the wider argument over housing affordability and whether the policy is helping the right households. The unresolved question is whether the government tightens eligibility, monitoring or disclosure rules.",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/06/first-home-buyers-deposit-scheme-investment-property"
-        }
-      ],
-      "language": "en"
-    },
-    {
       "id": "lovitt-technologies-far-left-terror-20260805",
       "language": "en",
       "publishedAt": "2026-08-05T14:00:13+00:00",
@@ -4634,6 +4504,33 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/lot-of-moolah-perrottet-wanted-cash-for-faction-play"
+        }
+      ],
+      "language": "en"
+    },
+    {
+      "id": "emma-lovell-high-court-20260805",
+      "headline": "High Court restores Emma Lovell killer's tougher sentence",
+      "publishedAt": "2026-08-05T00:41:00.000Z",
+      "sourceCount": 4,
+      "voiceScript": "The High Court has put back the tougher sentence for the man who killed Brisbane mother Emma Lovell in a 2022 home invasion. The court said the earlier reduction to a 60 per cent non-parole period should not have stood, so the original 14-year term remains the benchmark. That matters because the case has become a test of how far appeal courts can go when they revisit youth sentencing. The next step is the formal ripple through release timing and any broader guidance for similar appeals.",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/high-court-throws-reduced-sentence-teen-who-killed-emma-lovell/106998022"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/reduced-term-for-mum-killer-quashed-by-high-court"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/high-court-throws-out-teens-reduced-jail-sentence-over-emma-lovell-murder-c-22678572"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/courts-law/high-court-appeal-granted-after-teen-killer-of-queensland-mum-emma-lovells-sentence-reduced/news-story/dfb9a933704419e9cb04ef0585a02b79"
         }
       ],
       "language": "en"

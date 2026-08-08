@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T09:10:59.807Z",
+  "updatedAt": "2026-08-08T10:13:03.699Z",
   "generatedBy": "codex",
   "language": "zh-Hans",
   "sources": [
@@ -100,7 +100,7 @@
       "feed": "https://www.aap.com.au/news/"
     }
   ],
-  "errors": [],
+  "errors": 0,
   "clusters": [
     {
       "id": "nsw-bird-flu-native-birds-20260808",
@@ -597,6 +597,21 @@
       }
     },
     {
+      "id": "prenatal-supplements-20260808",
+      "headline": "专家反驳额外孕期补充剂宣传",
+      "publishedAt": "2026-08-08T02:00:00.000Z",
+      "sourceCount": 1,
+      "voiceScript": "澳大利亚的孕期指南仍然把叶酸、碘和铁列为多数准妈妈真正需要的核心补充剂。卫生专家提醒，社交媒体现在在推动一些额外产品，但这些产品可能没有作用，甚至会带来可避免的风险。这件事重要在于，孕期建议很容易被营销话术带偏，家庭可能把钱花在证据不足的东西上。下一步要看，临床医生、监管机构和平台规则会不会更积极地把信息拉回到指南本身。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/health/2026-08-08/unnecessary-prenatal-supplements-marketed-at-expectant-parents/106965418"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
       "id": "southern-states-cold-front-20260808",
       "language": "zh-Hans",
       "publishedAt": "2026-08-08T01:40:23.000Z",
@@ -1038,21 +1053,6 @@
           }
         ]
       }
-    },
-    {
-      "id": "tasmanian-election-signage-address-risk-20260808",
-      "headline": "塔州候选人说，竞选牌上的住址要求可能把家人置于风险中",
-      "publishedAt": "2026-08-07T22:56:00Z",
-      "sourceCount": 1,
-      "voiceScript": "塔斯马尼亚的独立候选人说，要求他们在竞选材料上写出家庭住址，可能把自己和家人暴露给风险。这个问题重要，因为个人安全正与一套早于网络骚扰时代制定的选举披露规则发生冲突。接下来要看立法者会不会在地方选举前改法，还是继续让候选人使用家庭住址。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-08/political-candidates-election-signage-safety-concerns/107010318"
-        }
-      ],
-      "language": "zh-Hans"
     },
     {
       "id": "victorian-country-road-potholes-20260807",
@@ -2868,72 +2868,6 @@
       }
     },
     {
-      "id": "sydney-airport-delays-20260807",
-      "language": "zh-Hans",
-      "sourceCount": 4,
-      "publishedAt": "2026-08-07T03:15:00.000Z",
-      "headline": "悉尼机场因塔台人手不足而大范围延误",
-      "voiceScript": "由于空管人员不足，Airservices Australia 启动流量管制，悉尼机场随后出现大面积延误和取消。Qantas、Jetstar、Virgin 和 Rex 都受影响，有些旅客在停机坪上被耽搁了长达两小时。之所以重要，是因为这次混乱冲击了澳洲最关键的交通枢纽，也说明人员排班一旦吃紧，就会迅速波及全国航线网络。Airservices 说限制已经解除，但接下来的考验是他们能否在下一次高峰前把排班和人手补强。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
-        },
-        {
-          "source": "news.com.au",
-          "url": "https://www.news.com.au/travel/travel-updates/sydney-airport-plunged-into-chaos-by-lack-of-air-traffic-controllers/news-story/6eeac3f5c6927090b1ab4626b87df38c"
-        },
-        {
-          "source": "7NEWS",
-          "url": "https://7news.com.au/news/significant-delays-at-sydney-airport-as-dozens-of-flights-remain-grounded-c-22690128"
-        },
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-08/sydney-airport-flight-delays-long-queues-airservices-warns/107012486"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Facebook",
-            "account": "7NEWS Sydney",
-            "title": "There is chaos at Sydney Airport, with passengers delayed for hours after air traffic control restrictions",
-            "url": "https://www.facebook.com/7NEWSsydney/posts/there-is-chaos-at-sydney-airport-with-passengers-delayed-for-hours-just-a-day-af/1519963526827917/",
-            "postedAt": "today",
-            "score": 12
-          },
-          {
-            "platform": "Facebook",
-            "account": "7NEWS Sydney",
-            "title": "There are widespread delays for passengers at Sydney Airport this morning, with domestic flights hit by controller shortages",
-            "url": "https://www.facebook.com/7NEWSsydney/posts/there-are-widespread-delays-for-passengers-at-sydney-airport-this-morning-with-d/1519914133499523/",
-            "postedAt": "today",
-            "score": 10
-          }
-        ]
-      }
-    },
-    {
-      "id": "au-smartglasses-privacy-20260807",
-      "headline": "智能眼镜让澳大利亚隐私规则面临新压力",
-      "publishedAt": "2026-08-07T03:07:00Z",
-      "sourceCount": 2,
-      "voiceScript": "澳大利亚的隐私争论正在转向带摄像功能的智能眼镜，因为官员提醒，这类设备可能在没有明确同意的情况下拍到路人。真正的担忧是，人们往往在公共场合被拍到后才知道，女性和儿童尤其容易受影响。这件事重要，是因为现有规则制定时，便携摄像眼镜还没有这么便宜、这么普及。接下来要看堪培拉是否会收紧隐私法，或者在投诉和公众不安增加时出台新的指引。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-07/federal-politics-live-blog-david-pocock-accuses-gambling-lobby/107007504"
-        },
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/live/2026/aug/07/royal-commission-antisemitism-national-cabinet-datacentres-icac-liberal-party-labor-anthony-albanese-one-nation-pauline-hanson-angus-taylor-ntwnfb"
-        }
-      ],
-      "language": "zh-Hans"
-    },
-    {
       "id": "melbourne-liberal-ticket-20260807",
       "language": "zh-Hans",
       "sourceCount": 1,
@@ -3794,67 +3728,6 @@
       }
     },
     {
-      "id": "jobseeker-68-day-20260806",
-      "language": "zh-Hans",
-      "sourceCount": 1,
-      "publishedAt": "2026-08-06T18:39:30.000Z",
-      "headline": "靠 JobSeeker 生活仍是澳大利亚生活成本压力测试",
-      "voiceScript": "澳大利亚领取 JobSeeker 的人仍然要靠每天约 68 澳元过活，而联邦预算里基本补助并没有上调。报道指出，房租、食物和交通是最主要的压力来源，倡议者认为这笔补助已经无法覆盖基本生活开支。这之所以重要，是因为讨论焦点已经从通胀扩展到贫困，以及仅靠指数化调整是否还能跟上现实。下一步要看政府是否重新审视补助水平，还是继续维持原状。",
-      "differences": [],
-      "links": [
-        {
-          "source": "ABC News",
-          "url": "https://www.abc.net.au/news/2026-08-07/could-you-live-on-jobseeker-payments/106866554"
-        }
-      ],
-      "socialDiscussions": {
-        "en": [
-          {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "title": "Trying to survive on JobSeeker's $68 a day forcing Australians into 'impossible choices'",
-            "url": "https://www.reddit.com/r/australia/comments/1vhj0fe/trying_to_survive_on_jobseekers_68_a_day_forcing/",
-            "postedAt": "today",
-            "score": 60
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/australia",
-            "title": "Australia's jobseeker system fails workers and enriches millionaires, report says",
-            "url": "https://www.reddit.com/r/australia/comments/1v24m47/australias_jobseeker_system_fails_workers_and/",
-            "postedAt": "21h ago",
-            "score": 35
-          },
-          {
-            "platform": "Reddit",
-            "community": "r/AustralianPolitics",
-            "title": "Australia's jobseeker system fails workers and enriches millionaires, report says",
-            "url": "https://www.reddit.com/r/AustralianPolitics/comments/1v24l3n/australias_jobseeker_system_fails_workers_and/",
-            "postedAt": "15d ago",
-            "score": 30
-          },
-          {
-            "platform": "Instagram",
-            "account": "SBS News",
-            "title": "Could you live on $808 a fortnight? People on JobSeeker do",
-            "url": "https://www.instagram.com/p/DYCIdd-H5MN/",
-            "postedAt": "3 months ago",
-            "score": 15
-          }
-        ],
-        "vi": [
-          {
-            "platform": "Facebook",
-            "account": "SBS Vietnamese",
-            "title": "JobSeeker là khoản trợ cấp dành cho người trong độ tuổi lao động đang thất nghiệp",
-            "url": "https://www.facebook.com/SBSVietnamese/videos/jobseeker-l%C3%A0-kho%E1%BA%A3n-tr%E1%BB%A3-c%E1%BA%A5p-d%C3%A0nh-cho-ng%C6%B0%E1%BB%9Di-trong-%C4%91%E1%BB%99-tu%E1%BB%95i-lao-%C4%91%E1%BB%99ng-%C4%91ang-th%E1%BA%A5t-nghi%E1%BB%87/1296409495538019/",
-            "postedAt": "last month",
-            "score": 20
-          }
-        ]
-      }
-    },
-    {
       "id": "fuel-trade-surplus-20260806",
       "language": "zh-Hans",
       "sourceCount": 3,
@@ -4539,21 +4412,6 @@
       ]
     },
     {
-      "id": "first-home-scheme-investment-properties-20260805",
-      "headline": "部分首套房计划购房后来变成了投资房",
-      "publishedAt": "2026-08-05T15:00:23Z",
-      "sourceCount": 1,
-      "voiceScript": "最新数据表明，近 1,500 套通过联邦 5% 首付计划购买的住房，后来被改成了投资房。这个计划原本是为了帮助首次购房者用更少的前期资金进入市场，但数据说明，其中一部分人已经不再自住。这个问题重要，因为它再次引发了关于住房可负担性，以及政策到底是否帮助到目标家庭的争论。接下来要看政府是否会收紧资格、监测或披露规则。",
-      "differences": [],
-      "links": [
-        {
-          "source": "The Guardian Australia",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/06/first-home-buyers-deposit-scheme-investment-property"
-        }
-      ],
-      "language": "zh-Hans"
-    },
-    {
       "id": "lovitt-technologies-far-left-terror-20260805",
       "language": "zh-Hans",
       "publishedAt": "2026-08-05T14:00:13+00:00",
@@ -4634,6 +4492,33 @@
         {
           "source": "AAP",
           "url": "https://aapnews.aap.com.au/news/lot-of-moolah-perrottet-wanted-cash-for-faction-play"
+        }
+      ],
+      "language": "zh-Hans"
+    },
+    {
+      "id": "emma-lovell-high-court-20260805",
+      "headline": "高院恢复艾玛·洛维尔凶手的更重刑期",
+      "publishedAt": "2026-08-05T00:41:00.000Z",
+      "sourceCount": 4,
+      "voiceScript": "高等法院把布里斯班母亲艾玛·洛维尔遇害案凶手的较轻判决撤了回去，重新恢复原本更重的刑期。法院认为，先前把非假释期降到60%的做法不该成立，14年的原判因此重新成为基准。这个结果的重要性在于，它重新划定了少年凶案上诉改判的边界。下一步要看的，是它会怎样影响实际释放时间，以及今后类似案件的上诉标准。",
+      "differences": [],
+      "links": [
+        {
+          "source": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-08-05/high-court-throws-reduced-sentence-teen-who-killed-emma-lovell/106998022"
+        },
+        {
+          "source": "AAP",
+          "url": "https://aapnews.aap.com.au/news/reduced-term-for-mum-killer-quashed-by-high-court"
+        },
+        {
+          "source": "7NEWS",
+          "url": "https://7news.com.au/news/high-court-throws-out-teens-reduced-jail-sentence-over-emma-lovell-murder-c-22678572"
+        },
+        {
+          "source": "news.com.au",
+          "url": "https://www.news.com.au/national/courts-law/high-court-appeal-granted-after-teen-killer-of-queensland-mum-emma-lovells-sentence-reduced/news-story/dfb9a933704419e9cb04ef0585a02b79"
         }
       ],
       "language": "zh-Hans"
