@@ -4782,6 +4782,23 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Les Kiss",
+    aliases: ["Les Kiss", "Wallabies coach Les Kiss", "Leslie Kiss"],
+    type: "sports coach",
+    officialProfile: { label: "Rugby Australia profile", url: "https://www.rugby.com.au/news/les-kiss-a-look-at-the-league-legend-turned-rising-star-coach-who-will-lead-wallabies-to-a-historic-home-world-cup-2025429" },
+    background: {
+      "zh-Hans": "澳洲橄榄球教练和前职业橄榄球联盟球员，2026 年起任 Wallabies 主教练；此前执教 Queensland Reds、London Irish 和 Ulster。",
+      "zh-Hant": "澳洲欖球教練和前職業欖球聯盟球員，2026 年起任 Wallabies 主教練；此前執教 Queensland Reds、London Irish 和 Ulster。",
+      en: "Australian rugby coach and former professional rugby league player, Wallabies head coach since 2026 after senior roles with Queensland Reds, London Irish and Ulster.",
+      es: "Entrenador australiano de rugby y ex jugador profesional de rugby league; es head coach de los Wallabies desde 2026 tras cargos en Queensland Reds, London Irish y Ulster.",
+      ja: "豪州のラグビー指導者で元プロラグビーリーグ選手。Queensland Reds、London Irish、Ulster での要職を経て、2026年から Wallabies head coach です。",
+      ko: "호주 럭비 지도자이자 전 프로 럭비리그 선수입니다. Queensland Reds, London Irish, Ulster를 거쳐 2026년부터 Wallabies head coach입니다.",
+      vi: "Huấn luyện viên rugby Úc và cựu cầu thủ rugby league chuyên nghiệp; là head coach của Wallabies từ năm 2026 sau các vai trò tại Queensland Reds, London Irish và Ulster.",
+      th: "โค้ชรักบี้ชาวออสเตรเลียและอดีตผู้เล่น rugby league อาชีพ เป็น head coach ของ Wallabies ตั้งแต่ปี 2026 หลังทำงานกับ Queensland Reds, London Irish และ Ulster",
+      si: "Australian rugby coach සහ former professional rugby league player කෙනෙකි; Queensland Reds, London Irish සහ Ulster හි senior roles පසු 2026 සිට Wallabies head coach වේ."
+    }
+  },
+  {
     name: "Hugh Marks",
     aliases: ["Hugh Marks", "ABC Managing Director Hugh Marks", "ABC managing director Hugh Marks"],
     type: "public-figure",
