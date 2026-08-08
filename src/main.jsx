@@ -1173,6 +1173,7 @@ const PEOPLE_CONTEXT = [
     type: "politician",
     profile: { label: "U.S. State Department biography", url: "https://www.state.gov/brat-david-commonwealth-of-australia-may-2026" },
     officialProfile: { label: "Liberty University profile", url: "https://www.liberty.edu/business-relations/" },
+    social: { label: "X", url: "https://x.com/DaveBratVA7th" },
     background: {
       "zh-Hans": "美国共和党政治人物、学者和前弗吉尼亚州联邦众议员，2014 年在党内初选中击败 Eric Cantor 成名；2026 年获确认出任美国驻澳大利亚大使。",
       "zh-Hant": "美國共和黨政治人物、學者和前弗吉尼亞州聯邦眾議員，2014 年在黨內初選中擊敗 Eric Cantor 成名；2026 年獲確認出任美國駐澳洲大使。",
@@ -4766,7 +4767,8 @@ const PEOPLE_CONTEXT = [
     name: "Gina Rinehart",
     aliases: ["Gina Rinehart", "吉娜·莱因哈特", "吉娜·萊因哈特", "ジーナ・ラインハート", "지나 라인하트"],
     type: "public-figure",
-    social: { label: "Hancock Prospecting", url: "https://www.hancockprospecting.com.au/" },
+    social: { label: "Official website", url: "https://www.ginarinehart.com.au/" },
+    officialProfile: { label: "Hancock Prospecting", url: "https://www.hancockprospecting.com.au/" },
     background: {
       "zh-Hans": "澳洲矿业企业家，Hancock Prospecting 执行主席，是澳洲最知名的商业人物之一。",
       "zh-Hant": "澳洲礦業企業家，Hancock Prospecting 執行主席，是澳洲最知名的商業人物之一。",
