@@ -1060,6 +1060,24 @@ const PEOPLE_CONTEXT = [
     }
   },
   {
+    name: "Michael Corboy",
+    aliases: ["Michael Corboy", "Edwin Michael Corboy", "Hon Michael Corboy SC", "The Hon Michael Corboy SC", "Commissioner Michael Corboy", "CCC Commissioner Michael Corboy"],
+    type: "public official",
+    profile: { label: "CCC leadership profile", url: "https://www.ccc.wa.gov.au/about-us/leadership" },
+    officialProfile: { label: "Francis Burt Chambers biography", url: "https://www.francisburt.com.au/updates/fbc-welcomes-back-the-honourable-michael-corboy-sc/" },
+    background: {
+      "zh-Hans": "西澳 Corruption and Crime Commission 专员，2025 年 10 月起任职；此前曾任西澳最高法院法官、资深大律师和 CCC 副专员。",
+      "zh-Hant": "西澳 Corruption and Crime Commission 專員，2025 年 10 月起任職；此前曾任西澳最高法院法官、資深大律師和 CCC 副專員。",
+      en: "Commissioner of Western Australia's Corruption and Crime Commission since October 2025; previously a WA Supreme Court judge, senior counsel and CCC deputy commissioner.",
+      es: "Comisionado de la Corruption and Crime Commission de Australia Occidental desde octubre de 2025; antes fue juez del Tribunal Supremo de WA, senior counsel y subcomisionado de la CCC.",
+      ja: "2025年10月から Western Australia の Corruption and Crime Commission Commissioner。以前は WA Supreme Court 判事、senior counsel、CCC deputy commissioner を務めました。",
+      ko: "2025년 10월부터 Western Australia Corruption and Crime Commission Commissioner입니다. 이전에는 WA Supreme Court 판사, senior counsel, CCC deputy commissioner를 지냈습니다.",
+      vi: "Commissioner của Corruption and Crime Commission ở Western Australia từ tháng 10 năm 2025; trước đó là thẩm phán WA Supreme Court, senior counsel và CCC deputy commissioner.",
+      th: "Commissioner ของ Corruption and Crime Commission ใน Western Australia ตั้งแต่เดือนตุลาคม 2025 ก่อนหน้านี้เป็นผู้พิพากษา WA Supreme Court, senior counsel และ CCC deputy commissioner",
+      si: "2025 October සිට Western Australia's Corruption and Crime Commission Commissioner වේ; ඊට පෙර WA Supreme Court judge, senior counsel සහ CCC deputy commissioner ලෙස කටයුතු කළේය."
+    }
+  },
+  {
     name: "Fatemeh Pasandideh",
     aliases: ["Fatemeh Pasandideh", "PASAND", "fatemehpasandideh10", "فاطمه پسندیده"],
     type: "athlete",
